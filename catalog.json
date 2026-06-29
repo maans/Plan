@@ -1,0 +1,100 @@
+{
+  "format": "plan-library-catalog",
+  "version": 2,
+  "title": "Plan · årsforløb og demoforløb",
+  "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
+  "updatedAt": "2026-06-30",
+  "categories": [
+    {
+      "id": "dansk",
+      "title": "Dansk",
+      "description": "Sprog, litteratur, medier og prøveforberedelse."
+    },
+    {
+      "id": "engelsk",
+      "title": "Engelsk",
+      "description": "Sprog, kultur, litteratur og mundtlig/skriftlig kommunikation."
+    },
+    {
+      "id": "matematik",
+      "title": "Matematik",
+      "description": "Tal, algebra, geometri, statistik og problemløsning."
+    },
+    {
+      "id": "science",
+      "title": "Science",
+      "description": "Naturfag, fysik/kemi, biologi og geografi."
+    },
+    {
+      "id": "tysk",
+      "title": "Tysk",
+      "description": "Sprog, kultur, litteratur og kommunikation."
+    },
+    {
+      "id": "andre-9",
+      "title": "Andre 9.-klassefag",
+      "description": "Historie, samfundsfag, idræt/gymnastik, kristendom, musik m.fl."
+    },
+    {
+      "id": "andre",
+      "title": "Andre",
+      "description": "Tværfaglige forløb, skoleliv, fællessamlinger, kontaktgrupper og øvrige forløb."
+    }
+  ],
+  "items": [
+    {
+      "id": "dansk-2025-26",
+      "kind": "demo",
+      "status": "published",
+      "title": "Dansk 9.–10. klasse · årsplan 2025–26",
+      "category": "dansk",
+      "subject": "Dansk",
+      "description": "Et samlet danskforløb med familie, identitet, litteraturhistorie, frihed, reklamer og prøveforberedelse.",
+      "schoolYear": "2025–26",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "årsplan",
+        "dansk",
+        "litteratur",
+        "medier",
+        "synopse",
+        "prøveforberedelse"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "./dansk/dansk-2025-26/forloeb.json",
+      "sizeBytes": 526748,
+      "featured": true,
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "faellessamlinger-2026-27",
+      "kind": "demo",
+      "status": "published",
+      "title": "Fællessamlinger · årsforløb 2026–27",
+      "category": "andre",
+      "subject": "Fællessamlinger",
+      "description": "Et skoleårs fællessamlinger med historie, samfund, kultur, natur, musik, prøveperioder og skoleliv.",
+      "schoolYear": "2026–27",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "årsplan",
+        "fællessamling",
+        "skoleliv",
+        "historie",
+        "samfund",
+        "kultur"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "./andre/faellessamlinger-2026-27/forloeb.json",
+      "sizeBytes": 5106739,
+      "featured": true,
+      "updatedAt": "2026-06-30"
+    }
+  ]
+}

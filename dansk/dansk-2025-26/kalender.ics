@@ -1,0 +1,736 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Plan//Dansk 2025-26//DA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dansk 2025–26
+X-WR-TIMEZONE:Europe/Copenhagen
+BEGIN:VEVENT
+UID:dansk-25-26-001@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250812
+DTEND;VALUE=DATE:20250813
+SUMMARY:Dansk · Spørgeskema
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Spørgeskema (1 time).
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-002@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250814
+DTEND;VALUE=DATE:20250815
+SUMMARY:Dansk · Sat ud · noter og aflevering
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Eleverne skal skrive noter og aflevere.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-003@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250819
+DTEND;VALUE=DATE:20250820
+SUMMARY:Dansk · Intro til dansk · klassekultur · Tøser
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Walk and talk\, mindmap om familie og novellearbejd
+ e med Tøser af Kim Fupz Aakeson.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-004@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250820
+DTEND;VALUE=DATE:20250821
+SUMMARY:Dansk · Tøser · gennemgang · Trekanter af lykke
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Gennemgang af Tøser og arbejde med Trekanter af lyk
+ ke.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-005@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250825
+DTEND;VALUE=DATE:20250826
+SUMMARY:Dansk · Planlægningsmøde
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Ramme
+DESCRIPTION:Familien. Planlægningsmøde.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-006@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250902
+DTEND;VALUE=DATE:20250903
+SUMMARY:Dansk · Erindring · Far · skriveopgave
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Hvad er en erindring? Far af Kim Fupz Aakeson. Skri
+ ve erindring til aflevering.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-007@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250903
+DTEND;VALUE=DATE:20250904
+SUMMARY:Dansk · Skrive erindring færdig
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Eleverne skriver erindringen færdig under trivselss
+ amtaler.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-008@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250909
+DTEND;VALUE=DATE:20250910
+SUMMARY:Dansk · Sukkermusen
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Læsning og arbejde med Sukkermusen af Jesper Wung-S
+ ung.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-009@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250910
+DTEND;VALUE=DATE:20250911
+SUMMARY:Dansk · Sukkermusen · fortsat
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Fortsat læsning og analyse. Ekstra: grammatikøvelse
+ r.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-010@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20250917
+SUMMARY:Dansk · Sådan overlever du en lortebarndom
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Biografen. Se dokumentaren og begynd gruppearbejde.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-011@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250917
+DTEND;VALUE=DATE:20250918
+SUMMARY:Dansk · Lyrik om familie
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Når mænd græder\, Til mine forældre og gruppearbejd
+ e.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-012@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250922
+DTEND;VALUE=DATE:20250923
+SUMMARY:Dansk · Planlægningsmøde
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Ramme
+DESCRIPTION:Familien. Planlægningsmøde.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-013@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250923
+DTEND;VALUE=DATE:20250924
+SUMMARY:Dansk · Lyrikopsamling · If Anything Happens I Love You
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Opsamling på lyrik og kortfilm.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-014@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+SUMMARY:Dansk · Retstavning og A-del
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Prøve
+DESCRIPTION:Familien. 9. klasse: retstavning. 10. klasse: A-delen. Opsaml
+ ing på forløbet.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-015@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20250930
+DTEND;VALUE=DATE:20251001
+SUMMARY:Dansk · Pressefoto · moderne familier · Byttedyr
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Årets Pressefoto 2021\, analyse og debat om moderne
+  familiemønstre. Start Byttedyr.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-016@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251002
+SUMMARY:Dansk · Film om Prag
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Familien,Dansk
+DESCRIPTION:Familien. Film om Prag og eventuel perspektivering.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-017@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251022
+DTEND;VALUE=DATE:20251023
+SUMMARY:Dansk · Byttedyr
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Arbejde med Byttedyr.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-018@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251023
+DTEND;VALUE=DATE:20251024
+SUMMARY:Dansk · Byttedyr · fortsat
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Fortsat arbejde med Byttedyr.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-019@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;TZID=Europe/Copenhagen:20251028T075500
+DTEND;TZID=Europe/Copenhagen:20251028T121500
+SUMMARY:Dansk · Omlagt skriftlighed
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Prøve
+DESCRIPTION:Ungdom og identitet. 9. klasse: læseprøve og Næste stop. 10. 
+ klasse: A-del og modtagerrettet kommunikation. Fælles ansøgning.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-020@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251111
+DTEND;VALUE=DATE:20251112
+SUMMARY:Dansk · Ingen dansk · værelsesflyttedag
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Ramme
+DESCRIPTION:Ungdom og identitet. Ingen dansk på grund af værelsesflytteda
+ g.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-021@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+SUMMARY:Dansk · Der kommer en dag · film og fagsamtaler
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Se Der kommer en dag. Fagsamtaler underv
+ ejs.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-022@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251118
+DTEND;VALUE=DATE:20251119
+SUMMARY:Dansk · Der kommer en dag · analyse
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Arbejde med hovedværket.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-023@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251119
+DTEND;VALUE=DATE:20251120
+SUMMARY:Dansk · Der kommer en dag · analyse fortsat
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Fortsat arbejde med hovedværket.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-024@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251126
+DTEND;VALUE=DATE:20251127
+SUMMARY:Dansk · #parisjetaime
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Læsning og opgaver.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-025@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+SUMMARY:Dansk · Hvor længe kan du holde vejret?
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Se kampagnefilm\, opgaver og filmteknisk
+  arbejde. Start egne kampagnefilm.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-026@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251203
+DTEND;VALUE=DATE:20251204
+SUMMARY:Dansk · Egne kampagnefilm
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Færdiggør filmene og vis dem i klassen.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-027@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+SUMMARY:Dansk · Facebook-tonen
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Webdok om tone på sociale medier og krea
+ tiv videoopgave.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-028@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+SUMMARY:Dansk · Det perfekte er det nye normale
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Læsning og arbejde med teksten fra 2014.
+  Perspektiv: diagnoser og TikTok.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-029@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20251217
+SUMMARY:Dansk · Poetry slam
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Eventuelt arbejde med poetry slam.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-030@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20251217
+DTEND;VALUE=DATE:20251218
+SUMMARY:Dansk · Den lille pige med svovlstikkerne
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Ungdom og identitet,Dansk
+DESCRIPTION:Ungdom og identitet. Oplæsning\, eventyrtræk\, romantik\, ani
+ mationsfilm og kampagneperspektiv.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-031@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:Dansk · Textanalyzer og terminsprøveforberedelse
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Prøve
+DESCRIPTION:Fra romantik til gennembrud. Kursus i Textanalyzer\, samtaler
+ unde\, opgaver\, aflevering og PDF-gemning.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-032@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+SUMMARY:Dansk · Det Waagepetersenske familiebillede
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Dansk
+DESCRIPTION:Fra romantik til gennembrud. Billedanalyse og periodeintroduk
+ tion.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-033@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:Dansk · Terminsprøver · uge 3
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Prøve
+DESCRIPTION:Fra romantik til gennembrud. Terminsprøveuge.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-034@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:Dansk · Dramauge · uge 4
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Ramme
+DESCRIPTION:Fra romantik til gennembrud. Dramauge.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-035@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+SUMMARY:Dansk · Fædrelandssange og romantik
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Dansk
+DESCRIPTION:Fra romantik til gennembrud. Der er et yndigt land\, I Danmar
+ k er jeg født og Frit land.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-036@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260128
+DTEND;VALUE=DATE:20260129
+SUMMARY:Dansk · Lønningsdag
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Dansk
+DESCRIPTION:Fra romantik til gennembrud. Læsning og opgaver.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-037@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:Dansk · Boganmeldelse · Lønningsdag · Det moderne gennembrud
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Dansk
+DESCRIPTION:Fra romantik til gennembrud. Differentieret arbejde på 9. og 
+ 10. klasse samt periodeintroduktion.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-038@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+SUMMARY:Dansk · Den grimme ælling og Ørneflugt
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Dansk
+DESCRIPTION:Fra romantik til gennembrud. Tidslinje med eventyrstrips\, op
+ læsning og opgaver.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-039@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+SUMMARY:Dansk · Opsamling og kunstbilleder
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Fra romantik til gennembrud,Dansk
+DESCRIPTION:Fra romantik til gennembrud. Opsamling på romantikken og det 
+ moderne gennembrud. Arbejde med kunstbilleder.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-040@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260224
+DTEND;VALUE=DATE:20260225
+SUMMARY:Dansk · Reportager om krig og frihed
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Bæstet og reportage fra Ukraine. Analyse og 
+ opgaver.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-041@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260225
+DTEND;VALUE=DATE:20260226
+SUMMARY:Dansk · Reportager · fortsat
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Fortsat arbejde og perspektiverende kilder.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-042@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+SUMMARY:Dansk · Pressefotos
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Analyse af to pressefotos.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-043@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260305
+SUMMARY:Dansk · Webdok · 3\, 2\, 1 – lift off
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Arbejde med webdok og opgaver.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-044@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260311
+SUMMARY:Dansk · Noveller om frihed og tab
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Raftehegn\, Duften af safran og Det vi har m
+ istet.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-045@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:Dansk · Debatindlæg
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Genrearbejde og opgaver til debatindlæg.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-046@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260319
+SUMMARY:Dansk · Hvis der var krig i Norden
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Frihed og flugt,Dansk
+DESCRIPTION:Frihed og flugt. Essay og afslutning af emnet.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-047@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:Dansk · Reklamer og fordybelsesområder
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Dansk
+DESCRIPTION:Reklamer\, synopse og prøve. Afslut essay. Opgaver til Sikker
+  online\, Cocio-reklamen og Nederen forældre. Introduktion til fordybels
+ esområder.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-048@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:Dansk · Reklame- og kampagnefilm
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Dansk
+DESCRIPTION:Reklamer\, synopse og prøve. Analyse af levende og faste rekl
+ amer.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-049@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:Dansk · Ingen dansk · galla
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Ramme
+DESCRIPTION:Reklamer\, synopse og prøve. Ingen dansk på grund af galla.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-050@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:Dansk · Ingen dansk · oprydning efter galla
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Ramme
+DESCRIPTION:Reklamer\, synopse og prøve. Ingen dansk på grund af oprydnin
+ g.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-051@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+SUMMARY:Dansk · Reklamer · pensum · synopse
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Prøve
+DESCRIPTION:Reklamer\, synopse og prøve. Fordybelsesområder\, repetition 
+ og synopsearbejde. Husk fordybelsesområder til censor.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-052@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260408
+DTEND;VALUE=DATE:20260409
+SUMMARY:Dansk · Reklamer og repetition
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Prøve
+DESCRIPTION:Reklamer\, synopse og prøve. Fortsat synopsearbejde og repeti
+ tion.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-053@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:Dansk · Stor rejse · uge 16
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Ramme
+DESCRIPTION:Reklamer\, synopse og prøve. Ingen almindelig dansk.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-054@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:Dansk · Stor rejse · uge 17
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Ramme
+DESCRIPTION:Reklamer\, synopse og prøve. Ingen almindelig dansk.
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-055@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:Dansk · Årskarakterer\, synopser og prøveforberedelse
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Prøve
+DESCRIPTION:Reklamer\, synopse og prøve. Feedback på synopser\, mundtlig 
+ og skriftlig prøve\, sidehoved\, print\, startkomma og vejledning.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-056@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:Dansk · Vejledning
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Prøve
+DESCRIPTION:Reklamer\, synopse og prøve. Vejledning og prøveforberedelse.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-057@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:Dansk · Frist · aflevering af synopser
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Frist
+DESCRIPTION:Reklamer\, synopse og prøve. Elevernes synopser afleveres.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:dansk-25-26-058@plan.maans.dk
+DTSTAMP:20260629T124500Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Dansk · Frist · synopser til censor
+LOCATION:Himmerlands Efterskole
+CATEGORIES:Reklamer\, synopse og prøve,Frist
+DESCRIPTION:Reklamer\, synopse og prøve. Censor skal have synopserne sene
+ st denne dato.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

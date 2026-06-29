@@ -1,0 +1,20 @@
+{
+  "id": "fag-klassetrin-skoleaar",
+  "kind": "demo",
+  "status": "published",
+  "title": "Fag og klassetrin · årsplan 2026–27",
+  "category": "dansk",
+  "subject": "Fag",
+  "description": "Kort beskrivelse af årsforløbet.",
+  "schoolYear": "2026–27",
+  "gradeLevels": [
+    "9"
+  ],
+  "tags": [
+    "årsplan"
+  ],
+  "version": "1.0.0",
+  "packageUrl": "./fag/mappe/forloeb.json",
+  "featured": false,
+  "updatedAt": "2026-06-30"
+}
