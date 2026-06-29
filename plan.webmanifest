@@ -1,0 +1,31 @@
+{
+  "name": "Plan – Planlæg. Præsenter. Perspektivér.",
+  "short_name": "Plan",
+  "description": "Tavler til overblik og fokus",
+  "lang": "da",
+  "start_url": "./Plan_v0.7.9_branding_OWNER_SAFE.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F7FB",
+  "theme_color": "#2E67E8",
+  "icons": [
+    {
+      "src": "./plan-assets/plan-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./plan-assets/plan-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./plan-assets/plan-icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
