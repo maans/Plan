@@ -1,261 +1,406 @@
-# Plan · bibliotek med årsforløb
+# Plan
 
-Plan-biblioteket samler færdige årsplaner, undervisningsforløb og skabeloner, som kan åbnes direkte fra **Hent demoforløb** i Plan.
+![Plan](plan-assets/plan-icon.svg)
 
-Et forløb i biblioteket er en udgivelseskopi. Når en lærer vælger **Brug som lokal kopi**, opretter Plan et nyt, selvstændigt undervisningsforløb i browserens lokale lager. Lærerens ændringer bliver i den lokale kopi og ændrer ikke filen på GitHub.
+**Plan er lærerens lokale arbejds- og præsentationsmiljø til hele undervisningsforløb.**
+
+Her kan du samle årsplaner, sessioner, tavler, oplæg, PDF’er, billeder, video, lyd, lister, elevoplysninger, grupper, aktiviteter, kalender og noter i ét sammenhængende forløb.
+
+Plan bruges direkte i browseren. Appen kræver hverken login, elevkonti eller en central server. Arbejdet gemmes lokalt på enheden, og læreren bestemmer selv, hvad der vises, deles og gemmes.
+
+Plan bygger videre på den fleksible tavleform fra Tavle, men sætter **undervisningsforløbet** i centrum: fra årsplan og sessioner til konkrete tavler, widgets, data og medier.
 
 ---
 
-## Sådan bruges biblioteket
+## Åbn Plan
 
-Mappen `plan-library` skal ligge ved siden af Plans `index.html`:
+### Brug Plan online
+
+Åbn Plan direkte i browseren:
+
+https://plan.måns.dk/
+
+### Brug Plan lokalt
+
+Plan kan også bruges som en lokal browserapp:
+
+1. Hent Plan-pakken fra GitHub.
+2. Pak filerne ud.
+3. Åbn `index.html` i en moderne browser.
+
+Pakken skal som minimum bevare `index.html`, `plan-assets`, `plan.webmanifest`, biblioteket med demoforløb og de øvrige mapper, som følger med appen.
+
+På iPad kan Plan føjes til hjemmeskærmen og bruges som en selvstændig browserapp.
+
+---
+
+## Sådan er Plan bygget op
+
+Plan organiserer undervisningen i fire niveauer:
+
+1. **Undervisningsforløb** – for eksempel *Dansk 2026–27*
+2. **Sessioner** – for eksempel *Familien*, *Frihed og flugt* eller *Mundtlig prøve*
+3. **Tavler** – de konkrete arbejdsflader i en session
+4. **Widgets** – tekst, billeder, PDF, data, aktiviteter og andet indhold på tavlen
+
+Et undervisningsforløb kan derfor rumme både den langsigtede plan, rækkefølgen mellem sessionerne og det materiale, der skal bruges i den enkelte undervisningstime.
+
+Når Plan åbner, kan du fortsætte det senest brugte forløb, gå til næste session, vælge en anden session eller åbne oversigten over alle undervisningsforløb.
+
+---
+
+## Planlæg et helt undervisningsforløb
+
+Et forløb kan blandt andet indeholde:
+
+- årsplan og fælles kalender
+- sessioner i kronologisk rækkefølge
+- starttavler og dagsprogrammer
+- lærerens oplæg og instruktioner
+- opgaver, links og PDF-materialer
+- billeder, video og lyd
+- elev-, gruppe- og tavleoverblik
+- aktiviteter og repetition
+- opsamling, evaluering og noter
+- reserveindhold og alternative veje
+
+Tavlerne kan bruges som sider i et forløb, men de er samtidig frie arbejdsflader. Widgets kan flyttes, ændres i størrelse, roteres, låses, skjules, minimeres og maksimeres.
+
+Plan kan derfor tilpasses, mens undervisningen er i gang, uden at læreren er bundet til en fast præsentation.
+
+---
+
+## Gennemfør undervisningen fra samme sted
+
+Når indholdet er klar, kan Plan skifte mellem forskellige arbejdsformer:
+
+- **Redigering** bruges til at opbygge og ændre tavlen.
+- **Præsentation** skjuler redigeringsgrejet og giver en roligere fælles visning.
+- **Fokus** fremhæver én widget ad gangen.
+- **Maksimering** lader én widget fylde arbejdsfladen.
+- **Tavleskift** fører gennem sessionens tavler.
+- **Widgetvælgeren** gør det hurtigt at finde og fokusere et bestemt element.
+
+Plan kan derfor bruges til både forberedelse, fælles gennemgang, aktivitet, individuel samtale og evaluering.
+
+---
+
+## Få materialer hurtigt ind
+
+Du kan vælge eller trække én eller mange filer ind i Plan. Appen forsøger selv at vælge en passende widgettype.
+
+Det kan blandt andet være:
+
+- billeder
+- video
+- lyd
+- PDF-filer
+- regneark og CSV-filer
+- tekstfiler
+- kalenderfiler
+- HTML-apps
+- backup- og forløbspakker
+
+### Billeder, video og lyd
+
+En enkelt mediefil åbnes som en almindelig widget.
+
+Når flere filer af samme type importeres samlet, kan Plan samle dem i en matrix:
+
+- **Billedmatrix**
+- **Videomatrix**
+- **Lydmatrix**
+
+Medier kan afspilles eller vises direkte i matrixen. Et enkelt medie kan desuden åbnes i en stor visning, hvor du kan bladre med knapper, piletaster eller swipe.
+
+Plan indlæser kun de medier, der er nødvendige for den aktuelle side, så store samlinger belaster appen mindst muligt.
+
+I **Datacenter → Medier** kan enkelte filer hentes igen. Medier fra andre undervisningsforløb er beskyttet mod utilsigtet sletning.
+
+### PDF
+
+PDF-filer åbnes som PDF-widgets med sidevisning, formularfelter, links, scrolling og kantbladring.
+
+PDF kan bruges til:
+
+- opgaveark og prøveoplæg
+- formularer
+- elevbesvarelser
+- afstemning og dataindsamling
+- fælles gennemgang
+- materialer, der skal bevare deres oprindelige layout
+
+### HTML-apps
+
+Plan kan indlejre selvstændige HTML-apps som blandt andet:
+
+- Plan
+- Tavle
+- Skriv
+- Tjek
+- TiddlyWiki
+- andre lokale eller webbaserede HTML-apps
+
+HTML-apps kan bruges som aktive værktøjer inde i en tavle og kan minimeres og gendannes uden at miste deres aktuelle tilstand.
+
+---
+
+## Arbejd med lister, data og Datacenter
+
+Plan kan bruge regneark, CSV-filer, lister og fælles data som grundlag for mange forskellige arbejdsgange.
+
+Du kan blandt andet:
+
+- vise et datasæt som DataWidget
+- oprette lister ud fra data
+- genbruge samme kilde i flere widgets
+- filtrere, sortere og sammensætte data med DataRemix
+- bruge navnelister i Grupper og Lykkehjulet
+- oprette elevkort og elevkortmatricer
+- danne grupper og gruppetavler
+- oprette tavler fra en liste
+- samle tavler som TavleKort
+- koble kalenderdata og ICS-filer
+- se forbindelser mellem objekter, visninger og datakilder
+
+**Datacenter** samler arbejdet i faner for blandt andet:
+
+- Sessioner
+- Sessionsdata
+- Fælles data
+- Datakilder
+- DataRemix
+- Relationer
+- Medier
+- Gendannelse
+- Lager
+
+Datacenter åbner med `D`. Piletasterne bruges til faner og scrolling, `Enter` vælger, og `Esc` går tilbage eller lukker.
+
+Plan viser som udgangspunkt kun data og medier fra den aktuelle session eller det aktuelle undervisningsforløb. Delte eller fremmede filer beskyttes mod utilsigtet sletning.
+
+---
+
+## Elevkort, grupper og levende overblik
+
+Plan kan bygge videre på elev- og gruppedata uden at kræve et særskilt elevsystem.
+
+### Elevkort
+
+Fra et egnet elevstamdatasæt kan du oprette:
+
+- enkelte Elevkort
+- en Elevkortmatrix
+- elevtavler
+- elevnoter
+- noteoversigter
+
+Elevkort kan vise elevens egne oplysninger samt fanerne **Elev**, **Mor**, **Far** og **Notater**. Tekniske identifikatorer bruges internt, men vises ikke i den almindelige brugerflade.
+
+### Grupper
+
+GruppeWidget kan:
+
+- hente deltagere fra en liste eller et datasæt
+- danne grupper
+- låse bestemte deltagere eller roller
+- oprette tomme grupper
+- dele en eksisterende gruppe
+- oprette gruppetavler
+- vise grupperne som matrix eller i Gruppegalaksen
+
+GruppeWidgetten er hovedkilden. Når medlemmer, roller eller gruppenavne ændres, kan de tilknyttede Gruppekort og gruppetavler følge med.
+
+### TavleKort og matricer
+
+Plan kan samle mange relaterede elementer i oversigter:
+
+- Elevkortmatrix
+- Gruppekortmatrix
+- TavleKortmatrix
+- Billed-, video- og lydmatricer
+- Gruppegalaksen
+
+Kortene er kompakte i oversigten og kan åbnes i en større detaljevisning med tastatur- og swipe-navigation.
+
+---
+
+## Brug aktiviteter i undervisningen
+
+Plan rummer flere aktiviteter, som kan bruges direkte på tavlen:
+
+- **KaPardy** til quiz, repetition og holdkonkurrence
+- **Grupper** til gruppedannelse og gruppearbejde
+- **Lykkehjulet** til tilfældige eller lærerbestemte valg
+- **Afstemning** til fælles respons og anonym PDF-baseret indsamling
+- **Ordsky** til idéer, begreber og opsamling
+- **Timer og stopur** til arbejdsperioder, sekvenser og mellemtider
+- **Kalender** til dagsprogram, ugeplan og årsplan
+
+Aktiviteterne kan bruge data og lister, som allerede findes i forløbet, så de samme oplysninger ikke skal skrives ind flere gange.
+
+KaPardy bevarer kompatibilitet med ældre spilbanker, hvor første svar efter spørgsmålet er korrekt, og de tre næste er forkerte. Svarene blandes ved spilstart.
+
+---
+
+## Kalender, årsplan og bibliotek
+
+Kalenderen kan bruges til:
+
+- dagsprogram
+- ugeskema
+- månedsoverblik
+- skoleår og forløbsplan
+- rejser og projektuger
+- arrangementer og særlige skoledage
+
+Kalenderdata kan oprettes direkte, hentes fra et datasæt eller importeres fra en `.ics`-fil.
+
+Plan har desuden et bibliotek med færdige undervisningsforløb og skabeloner.
+
+Åbn biblioteket via:
+
+**Plan-ikonet eller forløbsnavnet → Alle undervisningsforløb → Hent demoforløb**
+
+Et bibliotekseksemplar importeres som en selvstændig lokal kopi. Lærerens ændringer påvirker ikke filen i biblioteket.
+
+Bibliotekets tekniske opbygning og vejledning til udgivelse af nye forløb findes i:
 
 ```text
-Plan/
-├── index.html
-├── plan.webmanifest
-├── plan-assets/
-└── plan-library/
-    ├── catalog.json
-    ├── README.md
-    ├── dansk/
-    ├── engelsk/
-    ├── matematik/
-    ├── science/
-    ├── tysk/
-    ├── andre-9/
-    └── andre/
-```
-
-Plan leder som standard efter:
-
-```text
-./plan-library/catalog.json
-```
-
-Når filerne er lagt på GitHub Pages, åbnes biblioteket i Plan via:
-
-**Åbn Plan → Hent demoforløb**
-
-eller senere via:
-
-**Forløbsnavnet øverst → Alle undervisningsforløb → Hent demoforløb**
-
----
-
-## Hvad er et årsforløb i Plan?
-
-Et undervisningsforløb består af tre niveauer:
-
-1. **Undervisningsforløb** – for eksempel Dansk 2025–26
-2. **Sessioner** – for eksempel Familien eller Frihed og flugt
-3. **Tavler** – de konkrete arbejdsflader i hver session
-
-Årsforløbspakken samler sessionernes rækkefølge, tavler, widgets, data, fælles kalender og de medier, der følger med.
-
-Plan importerer ikke et demoforløb ind i det forløb, som allerede er åbent. Det bliver oprettet som et nyt forløb med sin egen identitet.
-
----
-
-## Forløb i denne pakke
-
-### Dansk 9.–10. klasse · årsplan 2025–26
-
-- 6 sessioner
-- 92 tavler
-- 366 widgets
-- fælles kalender
-- tomme PDF-widgets til materialer, som brugeren selv skal hente
-- faktabokse, arbejdsplaner og KaPardy-aktiviteter
-
-Fil:
-
-```text
-dansk/dansk-2025-26/forloeb.json
-```
-
-### Fællessamlinger · årsforløb 2026–27
-
-- 31 sessioner i kronologisk rækkefølge
-- 428 tavler
-- 1.189 widgets
-- 192 datasæt
-- 126 medier
-
-Fil:
-
-```text
-andre/faellessamlinger-2026-27/forloeb.json
+plan-library/README.md
 ```
 
 ---
 
-## Faggrupper
+## Gem, genbrug og flyt indhold
 
-Plan viser disse overordnede valg:
+Plan gemmer arbejdet lokalt i browseren.
 
-- **Dansk**
-- **Engelsk**
-- **Matematik**
-- **Science**
-- **Tysk**
-- **Andre 9.-klassefag**
-- **Andre**
+Du kan blandt andet bruge:
 
-**Science** kan rumme naturfag, fysik/kemi, biologi og geografi.
+- **Backup** til den aktuelle session
+- **Backup+** når tilknyttede data og medier skal med
+- **Backup++** til flere sessioner
+- **Årsforløbspakker** til et helt undervisningsforløb
+- **Sessionpakker** til at sende udvalgte tavler til en anden session
+- **Papirkurv** til slettede widgets
+- **Gendannelsespunkter** til tidligere tilstande
+- **Tavleshots** til øjebliksbilleder af tavler
+- **Lagerredning** ved gemme- eller pladsmangel
 
-**Andre 9.-klassefag** kan blandt andet rumme historie, samfundsfag, idræt/gymnastik, kristendom, musik og praktiske/kreative fag.
+Plan kontrollerer lagringen før skift mellem større undervisningsforløb. Hvis browseren ikke kan gemme, bliver det aktuelle forløb stående åbent, og Lagerredning tilbyder nødbackup, oprydning og nyt gemmeforsøg.
 
-**Andre** bruges til tværfaglige forløb, skoleliv, fællessamlinger, kontaktgrupper og øvrige forløb.
-
-Klassetrin, skoleår og emner lægges desuden i forløbets metadata, så Plan kan filtrere og søge.
-
----
-
-## Tilføj et nyt årsforløb
-
-### 1. Pak forløbet i Plan
-
-Åbn **Datacenter → Årsforløb**, vælg de sessioner, der skal med, og brug **Pak / offload årsforløb**.
-
-Den udgivne fil skal være en rigtig Plan-årsforløbspakke med formatet:
-
-```text
-tavle-next-course-package
-```
-
-### 2. Opret en mappe
-
-Eksempel:
-
-```text
-plan-library/historie/historie-9-2026-27/
-```
-
-I den nuværende fagopdeling placeres historie under:
-
-```text
-plan-library/andre-9/historie/historie-9-2026-27/
-```
-
-### 3. Brug faste filnavne
-
-```text
-forloeb.json
-README.md
-kalender.ics      valgfri
-forside.webp      valgfri
-```
-
-### 4. Tilføj forløbet i `catalog.json`
-
-Eksempel:
-
-```json
-{
-  "id": "historie-9-2026-27",
-  "kind": "demo",
-  "status": "published",
-  "title": "Historie 9. klasse · årsplan 2026–27",
-  "category": "andre-9",
-  "subject": "Historie",
-  "description": "Et helt skoleårs historieundervisning.",
-  "schoolYear": "2026–27",
-  "gradeLevels": ["9"],
-  "tags": ["årsplan", "historie", "kilder"],
-  "version": "1.0.0",
-  "packageUrl": "./andre-9/historie/historie-9-2026-27/forloeb.json",
-  "featured": false
-}
-```
+Der findes to slags brugere: dem, der tager backup før oprydning – og dem, der bagefter ville ønske, de havde gjort det.
 
 ---
 
-## Demo eller skabelon?
+## Lærerens lokale arbejdsrum
 
-Brug:
+Plan er først og fremmest lærerens eget undervisningsmiljø.
 
-```json
-"kind": "demo"
-```
+Det betyder:
 
-når forløbet indeholder et konkret eksempel med tavler, tekster, aktiviteter og eventuelt data.
+- ingen login
+- ingen elevkonti
+- ingen central database
+- ingen indbygget aflevering eller beskedsystem
+- indhold, data og medier gemmes lokalt i browseren
+- læreren bestemmer, hvad der vises, deles og gemmes
 
-Brug:
+Materialer kan udleveres eller modtages gennem skolens eksisterende tjenester.
 
-```json
-"kind": "template"
-```
-
-når læreren selv skal fylde hovedparten af indholdet ud.
-
----
-
-## Materialer og ophavsret
-
-Biblioteket bør kun indeholde materialer, der må deles.
-
-Når en tekst, bogside, artikel eller anden fil ikke kan følge med, kan årsforløbet i stedet have:
-
-- en tom PDF-widget med en tydelig titel
-- et link til materialets lovlige placering
-- en note om, hvad læreren selv skal hente
-- en faktaboks eller arbejdsvejledning, der kan bruges uden originalfilen
-
-På den måde kan forløbets struktur og didaktiske plan deles, uden at beskyttede materialer kopieres ind i pakken.
+Plan er ikke afhængig af, at eleverne bruger Plan på deres egne enheder.
 
 ---
 
-## Kalender
+## Kompatibilitet med Tavle
 
-En fælles kalender kan ligge som et fælles kalenderdatasæt inde i `forloeb.json`.
+Plan er et nyt produktnavn og en ny, mere sammenhængende forløbsmodel, men arbejdsfladerne hedder fortsat **tavler**.
 
-En ekstra `kalender.ics` kan vedlægges, når kalenderen også skal kunne åbnes i andre kalenderprogrammer. ICS-filen skal ikke importeres særskilt i Plan, hvis de samme aktiviteter allerede findes i årsforløbspakken.
+Plan bevarer så vidt muligt kompatibilitet med indhold fra den klassiske Tavle, herunder:
 
----
+- tavler og widgets
+- sessioner
+- data og medier
+- PDF
+- KaPardy-spil og spilbanker
+- Backup- og importformater
 
-## Gem, opdater og genudgiv
-
-Et forløb i biblioteket er en udgivelseskopi. Brugeren arbejder altid videre i sin lokale kopi.
-
-Når et bibliotekseksemplar opdateres:
-
-1. behold samme `id`, hvis det er en ny version af samme forløb
-2. hæv feltet `version`
-3. opdater `updatedAt`
-4. erstat `forloeb.json`
-5. undgå automatisk at overskrive lærerens lokale kopi
-
-En ny biblioteksversion bør kunne hentes som et nyt forløb eller senere sammenlignes med brugerens kopi.
+Ved import kan Plan omforme ældre indhold til den nye model uden unødige navne- eller formatbrud.
 
 ---
 
-## Sikkerhed og backup
+## Hjælp i appen
 
-Plan gemmer lærerens arbejdskopi lokalt i browseren. Biblioteket er ikke en backup af de ændringer, læreren laver efter import.
+Den indbyggede **Hjælp** er den praktiske vejledning til Plan.
 
-Brug derfor Plans årsforløbspakke eller nødbackup til at gemme en opdateret kopi i Filer, på skolens drev eller et andet sikkert sted.
+Her finder du blandt andet hjælp til:
+
+- undervisningsforløb, sessioner og tavler
+- widgets og filimport
+- billeder, video, lyd og mediematricer
+- PDF og data
+- elev-, gruppe- og tavlekort
+- Gruppegalaksen
+- aktiviteter
+- Datacenter
+- backup, Lagerredning og gendannelse
+- tastatur, touch og præsentation
+
+Hjælpen kan betjenes med tastaturet:
+
+- `←` og `→` skifter hjælpeafsnit
+- `↑` og `↓` scroller
+- `Enter` åbner eller vælger
+- `B` skifter tema
+- `Esc` lukker eller går tilbage
+
+README-filen er den korte introduktion. Hjælp i appen er vejledningen, mens du arbejder.
+
+---
+
+## Browserapp og iPad
+
+Plan indeholder webapp-manifest og appikoner, så den kan bruges som browserapp og føjes til hjemmeskærmen på iPad og andre understøttede enheder.
+
+Plan er udviklet med fokus på:
+
+- touch og mus
+- tastatur og SmartBoard
+- lokal lagring
+- store undervisningsforløb
+- kontrolleret indlæsning af data og medier
+- arbejde uden krav om login
 
 ---
 
 ## Filoversigt
 
-- `catalog.json` – bibliotekets register
-- `README.md` – denne vejledning
-- fagmapperne – bibliotekets overordnede valgmuligheder
-- `forloeb.json` – den konkrete årsforløbspakke
-- `kalender.ics` – valgfri kalenderkopi
-- `forside.webp` – valgfrit billede til bibliotekskortet
+Pakken indeholder blandt andet:
+
+- `index.html` – selve Plan
+- `README.md` – denne introduktion
+- `plan.webmanifest` – webapp-manifest
+- `plan-assets/` – logo, ikoner og øvrige appfiler
+- `plan-library/` – bibliotek med undervisningsforløb
+- `plan-library/catalog.json` – bibliotekets register
+- `plan-library/README.md` – vejledning til biblioteket
 
 ---
 
 ## Kort fortalt
 
-Plan-biblioteket gør det muligt at:
+**Plan – tavler til overblik og læring** samler lærerens:
 
-- finde årsplaner efter fag
-- se klassetrin, skoleår og emner før import
-- hente et forløb som en selvstændig lokal kopi
-- bevare sessionernes kronologiske rækkefølge
-- genbruge tavler, widgets, data og kalender
-- udgive nye eller opdaterede årsforløb uden at overskrive lærerens arbejde
+- årsplaner og undervisningsforløb
+- sessioner og tavler
+- materialer og PDF’er
+- billeder, video og lyd
+- lister, data og relationer
+- elev- og gruppeoverblik
+- aktiviteter
+- kalender
+- præsentation
+- backup, gendannelse og genbrug
+
+i én lokal browserapp, der kan tilpasses undervisningen, mens den foregår.
