@@ -1,6 +1,8 @@
 # Plan
 
-![Plan](plan-assets/plan-icon.svg)
+<p align="center">
+  <img src="plan-assets/plan-icon.svg" alt="Plan" width="180">
+</p>
 
 **Plan er lærerens lokale arbejds- og præsentationsmiljø til hele undervisningsforløb.**
 
