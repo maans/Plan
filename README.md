@@ -4,13 +4,17 @@
   <img src="plan-assets/plan-icon.svg" alt="Plan" width="180">
 </p>
 
-**Plan er lærerens lokale arbejds- og præsentationsmiljø til hele undervisningsforløb.**
+<p align="center">
+  <strong>Plan – tavler til overblik og læring</strong>
+</p>
 
-Her kan du samle årsplaner, sessioner, tavler, oplæg, PDF’er, billeder, video, lyd, lister, elevoplysninger, grupper, aktiviteter, kalender og noter i ét sammenhængende forløb.
+**Plan er lærerens lokale arbejds-, planlægnings- og præsentationsmiljø til hele undervisningsforløb.**
 
-Plan bruges direkte i browseren. Appen kræver hverken login, elevkonti eller en central server. Arbejdet gemmes lokalt på enheden, og læreren bestemmer selv, hvad der vises, deles og gemmes.
+I Plan kan du samle årsplaner, sessioner, tavler, materialer, aktiviteter, elevdata, grupper, fagsamtaler, karakterarbejde, kalender og noter i ét sammenhængende forløb.
 
-Plan bygger videre på den fleksible tavleform fra Tavle, men sætter **undervisningsforløbet** i centrum: fra årsplan og sessioner til konkrete tavler, widgets, data og medier.
+Plan bruges direkte i browseren. Der kræves hverken login, elevkonti, installation eller en central server. Arbejdet gemmes lokalt på lærerens enhed, og læreren bestemmer selv, hvad der vises, deles, eksporteres og gemmes.
+
+Plan bygger videre på den fleksible tavleform fra **Tavle**, men sætter hele undervisningsforløbet i centrum: fra årsplan og sessioner til konkrete tavler, data, elevforløb og evaluering.
 
 ---
 
@@ -22,21 +26,23 @@ Plan bygger videre på den fleksible tavleform fra Tavle, men sætter **undervis
 
 https://plan.måns.dk/
 
-### Brug Plan lokalt
+### Brug Plan som lokal HTML-app
 
-Plan kan også bruges som en lokal browserapp:
+Plan kan også åbnes direkte som en selvstændig HTML-fil uden server, installation eller internetforbindelse.
 
-1. Hent Plan-pakken fra GitHub.
-2. Pak filerne ud.
-3. Åbn `index.html` i en moderne browser.
+1. Hent den aktuelle Plan-fil.
+2. Gem den et sikkert sted på enheden.
+3. Åbn HTML-filen i en moderne browser eller en egnet lokal HTML-app.
 
-Pakken skal som minimum bevare `index.html`, `plan-assets`, `plan.webmanifest`, biblioteket med demoforløb og de øvrige mapper, som følger med appen.
+Selve Plan-appen er bygget som én selvstændig HTML-fil. Et fuldt GitHub-repository kan desuden indeholde appikoner, webmanifest, bibliotekskatalog og demoforløb, men disse filer er ikke nødvendige for at åbne og bruge den lokale kerneapp.
 
-På iPad kan Plan føjes til hjemmeskærmen og bruges som en selvstændig browserapp.
+På iPad kan den online udgave føjes til hjemmeskærmen. Lokale HTML-filer kan også bruges gennem en app, der understøtter lokal browserlagring.
+
+> **Vigtigt:** Browserlagring hører til den browser, app eller webadresse, hvor Plan åbnes. Tag derfor jævnligt backup, især før du skifter browser, app, enhed eller rydder lokalt lager.
 
 ---
 
-## Sådan er Plan bygget op
+## Plan i fire niveauer
 
 Plan organiserer undervisningen i fire niveauer:
 
@@ -45,15 +51,15 @@ Plan organiserer undervisningen i fire niveauer:
 3. **Tavler** – de konkrete arbejdsflader i en session
 4. **Widgets** – tekst, billeder, PDF, data, aktiviteter og andet indhold på tavlen
 
-Et undervisningsforløb kan derfor rumme både den langsigtede plan, rækkefølgen mellem sessionerne og det materiale, der skal bruges i den enkelte undervisningstime.
+Et undervisningsforløb kan dermed rumme både den langsigtede plan, rækkefølgen mellem sessionerne og det materiale, der skal bruges i den enkelte undervisningstime.
 
 Når Plan åbner, kan du fortsætte det senest brugte forløb, gå til næste session, vælge en anden session eller åbne oversigten over alle undervisningsforløb.
 
 ---
 
-## Planlæg et helt undervisningsforløb
+## Fra planlægning til undervisning
 
-Et forløb kan blandt andet indeholde:
+Et undervisningsforløb kan blandt andet indeholde:
 
 - årsplan og fælles kalender
 - sessioner i kronologisk rækkefølge
@@ -70,11 +76,7 @@ Tavlerne kan bruges som sider i et forløb, men de er samtidig frie arbejdsflade
 
 Plan kan derfor tilpasses, mens undervisningen er i gang, uden at læreren er bundet til en fast præsentation.
 
----
-
-## Gennemfør undervisningen fra samme sted
-
-Når indholdet er klar, kan Plan skifte mellem forskellige arbejdsformer:
+### Arbejdsformer
 
 - **Redigering** bruges til at opbygge og ændre tavlen.
 - **Præsentation** skjuler redigeringsgrejet og giver en roligere fælles visning.
@@ -83,11 +85,203 @@ Når indholdet er klar, kan Plan skifte mellem forskellige arbejdsformer:
 - **Tavleskift** fører gennem sessionens tavler.
 - **Widgetvælgeren** gør det hurtigt at finde og fokusere et bestemt element.
 
-Plan kan derfor bruges til både forberedelse, fælles gennemgang, aktivitet, individuel samtale og evaluering.
+Plan kan dermed bruges til forberedelse, fælles gennemgang, aktivitet, individuel samtale og evaluering fra det samme miljø.
 
 ---
 
-## Få materialer hurtigt ind
+## Dansk – fra elevsvar til hold, samtaler og karakterer
+
+Plan kan samle et helt danskfagligt arbejdsforløb uden at blande de oprindelige datakilder sammen.
+
+En typisk arbejdsgang er:
+
+1. Importér **Elevstamdata**.
+2. Importér spørgeskemaer, lærerark og samtaleark som separate datakilder.
+3. Opret en **Niveaudelingsmatrix**.
+4. Gennemgå eleverne og placér dem på Hold 1, Hold 2 eller Hold 3.
+5. Arbejd videre fra **Mit danskhold**.
+6. Gennemfør **Fagsamtaler**.
+7. Giv og eksporter **Standpunktskarakterer**.
+
+### Niveaudeling
+
+Niveaudelingsmatrixen samler elevens svar, importerede læreroplysninger og lærerens egne vurderinger i en overskuelig elevgennemgang.
+
+Elevens oprindelige svar ændres ikke. Plans anbefalinger, placeringer, begrundelser og historik gemmes særskilt.
+
+De tre danskhold er levende grupper. Når en elev flyttes, opdateres holdet uden at oprette en ny kopi. Holdene kan åbnes som lister, kort, tavler eller i Gruppegalaksen.
+
+### Mit danskhold
+
+**Mit danskhold** er lærerens arbejdsvisning af det aktuelle hold.
+
+Herfra kan læreren blandt andet åbne:
+
+- Elevkortmatrix
+- holdets data
+- arbejdsgrupper
+- gruppevisninger
+- Fagsamtaler
+- Standpunktskarakterer
+
+Holdet er en relation til de eksisterende elever og datakilder – ikke en ukontrolleret kopi af alle oplysninger.
+
+### Fagsamtaler
+
+Fagsamtaler kan samle elevens skrivebeskyttede spørgeskemasvar med lærerens egne vurderinger, kommentarer og status.
+
+Plan understøtter blandt andet:
+
+- blandede hold med 9. og 10. klasse
+- forskellige samtaleprofiler for Dansk 9 og Dansk 10
+- flere samtaleark
+- manuel elevmatch
+- forkortede navne
+- automatisk gemning
+- eksport til kontaktlærere
+- kopiering af lærerens danskblok tilbage til svararket
+
+Elevens svar forbliver urørte. Lærerens fagsamtalesvar gemmes særskilt i Plan.
+
+### Standpunktskarakterer
+
+Karakterarbejdet er adskilt fra både elevens egne forslag, niveaudelingen og fagsamtalens lærerkommentarer.
+
+Plan understøtter:
+
+- Efterår
+- Forår
+- Afsluttende standpunkt
+- 9.-klassefelter
+- FP9 og FP10
+- skriftligt og mundtligt prøveniveau
+- karakterhistorik
+- lærerbemærkning
+- filtrering
+- eksport til CSV
+
+Den afsluttende standpunktskarakter er en ny faglig vurdering og beregnes ikke automatisk som et gennemsnit af tidligere terminer.
+
+### Ens elevnavigation
+
+I fulde elevvisninger bruges den samme grundmodel:
+
+- `↑` og `↓` skifter elev
+- `←` og `→` skifter fane eller termin
+- `Page Up` og `Page Down` ruller i den aktuelle visning
+
+Når markøren står i et tekst-, karakter- eller valgfelt, beholder feltet sine egne taster.
+
+---
+
+## Data og Datacenter
+
+Plan kan bruge regneark, CSV-filer, kalenderfiler, lister og fælles datakilder som grundlag for mange arbejdsgange.
+
+Du kan blandt andet:
+
+- vise et datasæt som DataWidget
+- importere CSV- og XLSX-filer
+- vælge mellem flere ark i samme projektmappe
+- oprette lister ud fra data
+- genbruge samme kilde i flere widgets
+- filtrere, sortere og sammensætte data med DataRemix
+- bruge navnelister i Grupper og Lykkehjulet
+- oprette Elevkort og Elevkortmatricer
+- koble spørgeskemaer, vurderinger og Elevstamdata
+- danne grupper og gruppetavler
+- koble kalenderdata og ICS-filer
+- se relationer mellem objekter, visninger og datakilder
+
+### Separate kilder med relationer
+
+Plan forsøger at bevare data som separate, tydelige kilder:
+
+- Elevstamdata
+- spørgeskemaer
+- lærervurderinger
+- fagsamtaler
+- karakterer
+- grupper og hold
+
+Stabile elev-id’er bruges, når de findes. Navn og klasse kan bruges som forsigtig midlertidig fallback. Tekniske id’er vises ikke i den almindelige brugerflade.
+
+### Datacenterets faner
+
+Datacenter samler blandt andet:
+
+- Årsforløb
+- Bibliotek
+- Sessioner
+- Sessionsdata
+- Fælles data
+- Datakilder
+- DataRemix
+- Relationer
+- Medier
+- Gendannelse
+- Lager
+- Fagforløb
+
+**Sessionsdata** hører til den aktuelle session.  
+**Fælles data** kan bruges på tværs af sessioner og undervisningsforløb.
+
+Datacenter åbnes med `D`. Hjælp i appen beskriver den fulde tastatur- og touchbetjening.
+
+---
+
+## Elevkort, grupper og overblik
+
+### Elevkort
+
+Fra et egnet Elevstamdatasæt kan du oprette:
+
+- enkelte Elevkort
+- en Elevkortmatrix
+- elevtavler
+- elevnoter
+- noteoversigter
+
+Elevkort kan vise elevens egne oplysninger samt fanerne **Elev**, **Mor**, **Far** og **Notater**.
+
+Elevkort kan beriges dynamisk fra Elevstamdata, mens spørgeskemaer, vurderinger og hold fortsat er selvstændige kilder.
+
+### Grupper
+
+GruppeWidget kan:
+
+- hente deltagere fra en liste eller et datasæt
+- danne grupper
+- låse deltagere eller roller
+- oprette tomme grupper
+- dele en eksisterende gruppe
+- oprette gruppetavler
+- vise grupper som matrix eller i Gruppegalaksen
+
+GruppeWidgetten er hovedkilden. Når medlemmer, roller eller gruppenavne ændres, kan de tilknyttede Gruppekort og gruppetavler følge med.
+
+En gemt gruppering åbnes i Gruppegalaksen som den samme gruppering. Der oprettes ikke automatisk en ny kopi.
+
+### Kort og matricer
+
+Plan kan samle relaterede elementer i oversigter som:
+
+- Elevkortmatrix
+- Niveaudelingsmatrix
+- Fagsamtalematrix
+- Karaktermatrix
+- Gruppekortmatrix
+- TavleKortmatrix
+- Billedmatrix
+- Videomatrix
+- Lydmatrix
+- Gruppegalaksen
+
+Kortene er kompakte i oversigten og kan åbnes i en større detaljevisning.
+
+---
+
+## Materialer og medier
 
 Du kan vælge eller trække én eller mange filer ind i Plan. Appen forsøger selv at vælge en passende widgettype.
 
@@ -96,8 +290,8 @@ Det kan blandt andet være:
 - billeder
 - video
 - lyd
-- PDF-filer
-- regneark og CSV-filer
+- PDF
+- regneark og CSV
 - tekstfiler
 - kalenderfiler
 - HTML-apps
@@ -107,28 +301,26 @@ Det kan blandt andet være:
 
 En enkelt mediefil åbnes som en almindelig widget.
 
-Når flere filer af samme type importeres samlet, kan Plan samle dem i en matrix:
+Når flere filer af samme type importeres samlet, kan Plan samle dem i:
 
-- **Billedmatrix**
-- **Videomatrix**
-- **Lydmatrix**
+- Billedmatrix
+- Videomatrix
+- Lydmatrix
 
-Medier kan afspilles eller vises direkte i matrixen. Et enkelt medie kan desuden åbnes i en stor visning, hvor du kan bladre med knapper, piletaster eller swipe.
+Plan monterer kun den aktuelle side af store mediematricer for at reducere hukommelsesforbruget.
 
-Plan indlæser kun de medier, der er nødvendige for den aktuelle side, så store samlinger belaster appen mindst muligt.
-
-I **Datacenter → Medier** kan enkelte filer hentes igen. Medier fra andre undervisningsforløb er beskyttet mod utilsigtet sletning.
+I **Datacenter → Medier** kan enkelte filer hentes igen. Plan forsøger at beskytte medier, der fortsat bruges af andre sessioner, forløb, datasæt eller gendannelsespunkter.
 
 ### PDF
 
 PDF-filer åbnes som PDF-widgets med sidevisning, formularfelter, links, scrolling og kantbladring.
 
-PDF kan bruges til:
+PDF kan blandt andet bruges til:
 
 - opgaveark og prøveoplæg
 - formularer
 - elevbesvarelser
-- afstemning og dataindsamling
+- anonym afstemningsindsamling
 - fælles gennemgang
 - materialer, der skal bevare deres oprindelige layout
 
@@ -143,93 +335,13 @@ Plan kan indlejre selvstændige HTML-apps som blandt andet:
 - TiddlyWiki
 - andre lokale eller webbaserede HTML-apps
 
-HTML-apps kan bruges som aktive værktøjer inde i en tavle og kan minimeres og gendannes uden at miste deres aktuelle tilstand.
+Aktive HTML-apps kan minimeres og gendannes uden at miste deres aktuelle tilstand.
 
 ---
 
-## Arbejd med lister, data og Datacenter
+## Aktiviteter
 
-Plan kan bruge regneark, CSV-filer, lister og fælles data som grundlag for mange forskellige arbejdsgange.
-
-Du kan blandt andet:
-
-- vise et datasæt som DataWidget
-- oprette lister ud fra data
-- genbruge samme kilde i flere widgets
-- filtrere, sortere og sammensætte data med DataRemix
-- bruge navnelister i Grupper og Lykkehjulet
-- oprette elevkort og elevkortmatricer
-- danne grupper og gruppetavler
-- oprette tavler fra en liste
-- samle tavler som TavleKort
-- koble kalenderdata og ICS-filer
-- se forbindelser mellem objekter, visninger og datakilder
-
-**Datacenter** samler arbejdet i faner for blandt andet:
-
-- Sessioner
-- Sessionsdata
-- Fælles data
-- Datakilder
-- DataRemix
-- Relationer
-- Medier
-- Gendannelse
-- Lager
-
-Datacenter åbner med `D`. Piletasterne bruges til faner og scrolling, `Enter` vælger, og `Esc` går tilbage eller lukker.
-
-Plan viser som udgangspunkt kun data og medier fra den aktuelle session eller det aktuelle undervisningsforløb. Delte eller fremmede filer beskyttes mod utilsigtet sletning.
-
----
-
-## Elevkort, grupper og levende overblik
-
-Plan kan bygge videre på elev- og gruppedata uden at kræve et særskilt elevsystem.
-
-### Elevkort
-
-Fra et egnet elevstamdatasæt kan du oprette:
-
-- enkelte Elevkort
-- en Elevkortmatrix
-- elevtavler
-- elevnoter
-- noteoversigter
-
-Elevkort kan vise elevens egne oplysninger samt fanerne **Elev**, **Mor**, **Far** og **Notater**. Tekniske identifikatorer bruges internt, men vises ikke i den almindelige brugerflade.
-
-### Grupper
-
-GruppeWidget kan:
-
-- hente deltagere fra en liste eller et datasæt
-- danne grupper
-- låse bestemte deltagere eller roller
-- oprette tomme grupper
-- dele en eksisterende gruppe
-- oprette gruppetavler
-- vise grupperne som matrix eller i Gruppegalaksen
-
-GruppeWidgetten er hovedkilden. Når medlemmer, roller eller gruppenavne ændres, kan de tilknyttede Gruppekort og gruppetavler følge med.
-
-### TavleKort og matricer
-
-Plan kan samle mange relaterede elementer i oversigter:
-
-- Elevkortmatrix
-- Gruppekortmatrix
-- TavleKortmatrix
-- Billed-, video- og lydmatricer
-- Gruppegalaksen
-
-Kortene er kompakte i oversigten og kan åbnes i en større detaljevisning med tastatur- og swipe-navigation.
-
----
-
-## Brug aktiviteter i undervisningen
-
-Plan rummer flere aktiviteter, som kan bruges direkte på tavlen:
+Plan rummer blandt andet:
 
 - **KaPardy** til quiz, repetition og holdkonkurrence
 - **Grupper** til gruppedannelse og gruppearbejde
@@ -239,13 +351,13 @@ Plan rummer flere aktiviteter, som kan bruges direkte på tavlen:
 - **Timer og stopur** til arbejdsperioder, sekvenser og mellemtider
 - **Kalender** til dagsprogram, ugeplan og årsplan
 
-Aktiviteterne kan bruge data og lister, som allerede findes i forløbet, så de samme oplysninger ikke skal skrives ind flere gange.
+Aktiviteterne kan bruge data og lister, som allerede findes i forløbet.
 
-KaPardy bevarer kompatibilitet med ældre spilbanker, hvor første svar efter spørgsmålet er korrekt, og de tre næste er forkerte. Svarene blandes ved spilstart.
+KaPardy bevarer kompatibilitet med ældre spilbanker, hvor det første svar efter spørgsmålet er korrekt, og de tre næste er forkerte. Svarene blandes ved spilstart.
 
 ---
 
-## Kalender, årsplan og bibliotek
+## Kalender og bibliotek
 
 Kalenderen kan bruges til:
 
@@ -258,7 +370,7 @@ Kalenderen kan bruges til:
 
 Kalenderdata kan oprettes direkte, hentes fra et datasæt eller importeres fra en `.ics`-fil.
 
-Plan har desuden et bibliotek med færdige undervisningsforløb og skabeloner.
+Plan har desuden et bibliotek med undervisningsforløb og skabeloner.
 
 Åbn biblioteket via:
 
@@ -266,7 +378,7 @@ Plan har desuden et bibliotek med færdige undervisningsforløb og skabeloner.
 
 Et bibliotekseksemplar importeres som en selvstændig lokal kopi. Lærerens ændringer påvirker ikke filen i biblioteket.
 
-Bibliotekets tekniske opbygning og vejledning til udgivelse af nye forløb findes i:
+Bibliotekets tekniske vejledning findes i:
 
 ```text
 plan-library/README.md
@@ -274,25 +386,27 @@ plan-library/README.md
 
 ---
 
-## Gem, genbrug og flyt indhold
+## Lokal lagring, backup og gendannelse
 
 Plan gemmer arbejdet lokalt i browseren.
 
 Du kan blandt andet bruge:
 
 - **Backup** til den aktuelle session
-- **Backup+** når tilknyttede data og medier skal med
+- **Backup+** med tilknyttede data og medier
 - **Backup++** til flere sessioner
 - **Årsforløbspakker** til et helt undervisningsforløb
-- **Sessionpakker** til at sende udvalgte tavler til en anden session
+- **Sessionpakker** til udvalgte tavler
 - **Papirkurv** til slettede widgets
 - **Gendannelsespunkter** til tidligere tilstande
-- **Tavleshots** til øjebliksbilleder af tavler
-- **Lagerredning** ved gemme- eller pladsmangel
+- **Tavleshots** til øjebliksbilleder
+- **Lagerredning** ved gemmefejl eller pladsmangel
 
-Plan kontrollerer lagringen før skift mellem større undervisningsforløb. Hvis browseren ikke kan gemme, bliver det aktuelle forløb stående åbent, og Lagerredning tilbyder nødbackup, oprydning og nyt gemmeforsøg.
+Plan kontrollerer lagringen før større forløbs- og sessionsskift. Hvis browseren ikke kan gemme, bliver det aktuelle arbejde stående åbent, og Lagerredning tilbyder nødbackup, sikker oprydning og nyt gemmeforsøg.
 
-Der findes to slags brugere: dem, der tager backup før oprydning – og dem, der bagefter ville ønske, de havde gjort det.
+Under **Datacenter → Lager** findes også en særskilt mulighed for at nulstille Plans lokale lager. Den er kun beregnet til situationer, hvor browserens lokale lager er blevet fastlåst eller ødelagt.
+
+> Tag backup før oprydning eller nulstilling. En lokal HTML-app er kun så sikker som den seneste backup, du faktisk har gemt uden for browseren.
 
 ---
 
@@ -306,10 +420,10 @@ Det betyder:
 - ingen elevkonti
 - ingen central database
 - ingen indbygget aflevering eller beskedsystem
-- indhold, data og medier gemmes lokalt i browseren
-- læreren bestemmer, hvad der vises, deles og gemmes
+- lokal kontrol over data og medier
+- læreren bestemmer, hvad der vises, deles og eksporteres
 
-Materialer kan udleveres eller modtages gennem skolens eksisterende tjenester.
+Materialer kan udleveres og modtages gennem skolens eksisterende tjenester.
 
 Plan er ikke afhængig af, at eleverne bruger Plan på deres egne enheder.
 
@@ -317,16 +431,16 @@ Plan er ikke afhængig af, at eleverne bruger Plan på deres egne enheder.
 
 ## Kompatibilitet med Tavle
 
-Plan er et nyt produktnavn og en ny, mere sammenhængende forløbsmodel, men arbejdsfladerne hedder fortsat **tavler**.
+Plan er et nyt produktnavn og en mere sammenhængende forløbsmodel, men arbejdsfladerne hedder fortsat **tavler**.
 
-Plan bevarer så vidt muligt kompatibilitet med indhold fra den klassiske Tavle, herunder:
+Plan bevarer så vidt muligt kompatibilitet med den klassiske Tavle, herunder:
 
 - tavler og widgets
 - sessioner
 - data og medier
 - PDF
 - KaPardy-spil og spilbanker
-- Backup- og importformater
+- backup- og importformater
 
 Ved import kan Plan omforme ældre indhold til den nye model uden unødige navne- eller formatbrud.
 
@@ -334,18 +448,20 @@ Ved import kan Plan omforme ældre indhold til den nye model uden unødige navne
 
 ## Hjælp i appen
 
-Den indbyggede **Hjælp** er den praktiske vejledning til Plan.
+README-filen er den overordnede introduktion. Den indbyggede **Hjælp** er den praktiske vejledning, mens du arbejder.
 
-Her finder du blandt andet hjælp til:
+Hjælp indeholder blandt andet:
 
 - undervisningsforløb, sessioner og tavler
 - widgets og filimport
-- billeder, video, lyd og mediematricer
-- PDF og data
-- elev-, gruppe- og tavlekort
-- Gruppegalaksen
+- data og Datacenter
+- Elevstamdata og Elevkort
+- Niveaudeling og danskhold
+- Fagsamtaler
+- Standpunktskarakterer
+- grupper og Gruppegalaksen
 - aktiviteter
-- Datacenter
+- medier og PDF
 - backup, Lagerredning og gendannelse
 - tastatur, touch og præsentation
 
@@ -357,13 +473,9 @@ Hjælpen kan betjenes med tastaturet:
 - `B` skifter tema
 - `Esc` lukker eller går tilbage
 
-README-filen er den korte introduktion. Hjælp i appen er vejledningen, mens du arbejder.
-
 ---
 
 ## Browserapp og iPad
-
-Plan indeholder webapp-manifest og appikoner, så den kan bruges som browserapp og føjes til hjemmeskærmen på iPad og andre understøttede enheder.
 
 Plan er udviklet med fokus på:
 
@@ -374,19 +486,25 @@ Plan er udviklet med fokus på:
 - kontrolleret indlæsning af data og medier
 - arbejde uden krav om login
 
+Den online udgave indeholder webapp-manifest og appikoner og kan føjes til hjemmeskærmen på understøttede enheder.
+
+Lokal lagring på iPad afhænger af den browser eller lokale HTML-app, hvor Plan åbnes. Backup bør derfor være en fast del af arbejdsgangen.
+
 ---
 
-## Filoversigt
+## Repository og filer
 
-Pakken indeholder blandt andet:
+Et fuldt Plan-repository kan blandt andet indeholde:
 
-- `index.html` – selve Plan
+- `index.html` – den aktuelle Plan-app
 - `README.md` – denne introduktion
 - `plan.webmanifest` – webapp-manifest
-- `plan-assets/` – logo, ikoner og øvrige appfiler
+- `plan-assets/` – logo og appikoner
 - `plan-library/` – bibliotek med undervisningsforløb
 - `plan-library/catalog.json` – bibliotekets register
-- `plan-library/README.md` – vejledning til biblioteket
+- `plan-library/README.md` – teknisk biblioteksvejledning
+
+Den lokale kerneapp kan fortsat distribueres og bruges som én selvstændig HTML-fil.
 
 ---
 
@@ -396,13 +514,14 @@ Pakken indeholder blandt andet:
 
 - årsplaner og undervisningsforløb
 - sessioner og tavler
-- materialer og PDF’er
-- billeder, video og lyd
+- materialer og medier
 - lister, data og relationer
-- elev- og gruppeoverblik
-- aktiviteter
-- kalender
-- præsentation
+- Elevstamdata og Elevkort
+- niveaudeling og levende hold
+- Fagsamtaler
+- Standpunktskarakterer
+- grupper og aktiviteter
+- kalender og præsentation
 - backup, gendannelse og genbrug
 
 i én lokal browserapp, der kan tilpasses undervisningen, mens den foregår.
