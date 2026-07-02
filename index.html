@@ -114,7 +114,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Plan v0.9.3eu</title>
+<title>Plan v0.9.3ev</title>
 <meta name="application-name" content="Plan">
 <meta name="apple-mobile-web-app-title" content="Plan">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1525,6 +1525,17 @@ html[data-plan-embed="true"] #tavleNextApp .tn-board-utility-button[data-clock-v
 #tavleNextApp.tn-board-drawing-active .tn-toolbar-reveal{opacity:0!important;pointer-events:none!important;visibility:hidden!important}
 
 </style>
+
+<style id="plan-v093fc-board-camera-style">
+/* The board surface remains fixed and owns background, clipping and grid.
+   Only the transparent camera content is transformed. */
+#tnBoardLayer{transform:none!important;will-change:auto}
+#tnBoardCamera{position:absolute;inset:0;z-index:1;transform-origin:center center;will-change:transform;overflow:visible}
+#tnBoardLayer.grid::before{display:none!important}
+#tnBoardLayer.grid>#tnBoardCamera::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;border-radius:inherit;opacity:1;background-image:linear-gradient(to right,var(--tn-grid-major-color) 0 var(--tn-grid-major-width),transparent var(--tn-grid-major-width)),linear-gradient(to bottom,var(--tn-grid-major-color) 0 var(--tn-grid-major-width),transparent var(--tn-grid-major-width)),linear-gradient(to right,var(--tn-grid-minor-color) 0 1px,transparent 1px),linear-gradient(to bottom,var(--tn-grid-minor-color) 0 1px,transparent 1px);background-size:var(--tn-grid-major-size) var(--tn-grid-major-size),var(--tn-grid-major-size) var(--tn-grid-major-size),var(--tn-grid-minor-size) var(--tn-grid-minor-size),var(--tn-grid-minor-size) var(--tn-grid-minor-size);background-position:-1px -1px;background-repeat:repeat;mix-blend-mode:normal}
+#tnBoardLayer.tn-grid-contrast-dark>#tnBoardCamera::before{filter:none}
+#tnBoardCamera>.tn-widget,#tnBoardCamera>.tn-board-drawing-canvas{position:absolute}
+</style>
 </head>
 
 <style id="plan-093c-runtime-minimized-css">
@@ -1656,7 +1667,7 @@ html[data-plan-embed="true"] .tn-board-counter-center{min-width:56px;padding-inl
 </header>
 <main id="tnViewport" aria-label="Tavle">
 <button class="tn-board-edge tn-board-edge-prev" data-action="boardPrev" aria-label="Forrige tavle" title="Forrige tavle"><span aria-hidden="true">‹</span><small id="tnPrevBoardLabel"></small></button>
-<div id="tnBoardLayer"></div>
+<div id="tnBoardLayer"><div id="tnBoardCamera"></div></div>
 <button class="tn-board-edge tn-board-edge-next" data-action="boardNext" aria-label="Næste tavle" title="Næste tavle"><span aria-hidden="true">›</span><small id="tnNextBoardLabel"></small></button>
 </main>
 <nav class="tn-toolbar" aria-label="Værktøjer">
@@ -2413,7 +2424,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     importLog({id,kind='import',sourceName='',summary={},warnings=[],details={}}={}){
       const now=TN.now();return {id:id||TN.uid('importlog'),schemaVersion:TN.schemaVersion,kind,sourceName,summary,warnings,details,createdAt:now};
     },
-    widgetTitle(type){return ({text:'Tekst',list:'Liste',image:'Billede','image-matrix':'Billedmatrix','audio-matrix':'Lydmatrix','video-matrix':'Videomatrix',calendar:'Kalender',link:'Link',html:'HTML-app',iframe:'Webvisning',pdf:'PDF',audio:'Lyd',video:'Video',kapardy:'KaPardy',wheel:'Lykkehjul',poll:'Afstemning',wordcloud:'Ordsky',timer:'Timer','session-index':'Sessionsindeks','board-index':'Tavleindeks',data:'Data','student-card':'Elevkort',group:'Grupper','group-card':'Gruppekort','board-card':'Tavlekort',note:'Note','card-matrix':'Kortmatrix',placeholder:'Ikke migreret'})[type]||type;},
+    widgetTitle(type){return ({text:'Tekst',list:'Liste',image:'Billede','image-matrix':'Billedmatrix','audio-matrix':'Lydmatrix','video-matrix':'Videomatrix','pdf-matrix':'PDF-matrix',calendar:'Kalender',link:'Link',html:'HTML-app',iframe:'Webvisning',pdf:'PDF',audio:'Lyd',video:'Video',kapardy:'KaPardy',wheel:'Lykkehjul',poll:'Afstemning',wordcloud:'Ordsky',timer:'Timer','session-index':'Sessionsindeks','board-index':'Tavleindeks',data:'Data','student-card':'Elevkort',group:'Grupper','group-card':'Gruppekort','board-card':'Tavlekort',note:'Note','card-matrix':'Kortmatrix',placeholder:'Ikke migreret'})[type]||type;},
     defaultWidgetContent(type){
       switch(type){
         case 'text':return {text:'Skriv her …',fontSize:22,align:'left'};
@@ -2422,6 +2433,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         case 'image-matrix':return {items:[],page:0,pageSize:12,fit:'cover'};
         case 'audio-matrix':return {kind:'audio',items:[],page:0,pageSize:8};
         case 'video-matrix':return {kind:'video',items:[],page:0,pageSize:6,fit:'contain'};
+        case 'pdf-matrix':return {items:[],page:0,pageSize:6,activeIndex:0};
         case 'calendar':return {view:'month',date:new Date().toISOString().slice(0,10),datasetId:null,events:[]};
         case 'link':return {url:'https://',label:'Åbn link',note:'',view:'card'};
         case 'html':return {html:'<h2>HTML-indhold</h2>',mediaId:null,source:'inline',trusted:false};
@@ -3598,13 +3610,14 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       for(const widget of widgets){
         const mediaIds=this.collectMediaIds(widget),hits=[...mediaIds].filter(id=>targetIds.has(String(id)));if(!hits.length)continue;hits.forEach(id=>liveUsedIds.add(String(id)));
         if(!removeLiveReferences)continue;
-        if(['image-matrix','audio-matrix','video-matrix'].includes(widget.type)&&Array.isArray(widget.content?.items)){
+        if(['image-matrix','audio-matrix','video-matrix','pdf-matrix'].includes(widget.type)&&Array.isArray(widget.content?.items)){
           const copy=TN.deepClone(widget),before=copy.content.items.length;copy.content.items=copy.content.items.filter(item=>!targetIds.has(String(item?.mediaId||'')));
           if(copy.content.items.length&&copy.content.items.length<before){
             const fallbackSize=copy.type==='image-matrix'?12:copy.type==='audio-matrix'?8:6,pageSize=Math.max(1,Number(copy.content.pageSize)||fallbackSize),lastPage=Math.max(0,Math.ceil(copy.content.items.length/pageSize)-1);copy.content.page=Math.min(Math.max(0,Number(copy.content.page)||0),lastPage);
             if(copy.type==='image-matrix'&&/^Billedmatrix(?:\s*·.*)?$/i.test(copy.title||''))copy.title=`Billedmatrix · ${copy.content.items.length} billeder`;
             if(copy.type==='audio-matrix'&&/^Lydmatrix(?:\s*·.*)?$/i.test(copy.title||''))copy.title=`Lydmatrix · ${copy.content.items.length} lydfiler`;
             if(copy.type==='video-matrix'&&/^Videomatrix(?:\s*·.*)?$/i.test(copy.title||''))copy.title=`Videomatrix · ${copy.content.items.length} videoer`;
+            if(copy.type==='pdf-matrix'&&/^PDF-matrix(?:\s*·.*)?$/i.test(copy.title||''))copy.title=`PDF-matrix · ${copy.content.items.length} dokumenter`;
             copy.updatedAt=TN.now();widgetUpdates.set(String(copy.id),copy);affectedBoards.add(String(copy.boardId));continue;
           }
         }
@@ -6662,7 +6675,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
   'use strict';
   class TavleNextApp{
     constructor(root){
-      this.root=root;this.viewport=root.querySelector('#tnViewport');this.boardLayer=root.querySelector('#tnBoardLayer');this.modalRoot=root.querySelector('#tnModalRoot');this.toastEl=root.querySelector('#tnToast');this.fileInput=root.querySelector('#tnFileInput');this.devPanel=root.querySelector('#tnDevPanel');this.widgetPicker=root.querySelector('#tnWidgetPicker');this.toolbar=root.querySelector('.tn-toolbar');this.toolbarReveal=root.querySelector('#tnToolbarReveal');this.lastWindowsCount=0;this.toolbarTimer=0;this.edgeWakeTimers={prev:0,next:0};this.swipeStart=null;this.quickBoardPopover=null;this.boardSurfaceSize={...TN.boardSize};this.boardSurfaceFrame=0;
+      this.root=root;this.viewport=root.querySelector('#tnViewport');this.boardLayer=root.querySelector('#tnBoardLayer');this.boardCamera=root.querySelector('#tnBoardCamera')||this.boardLayer;this.modalRoot=root.querySelector('#tnModalRoot');this.toastEl=root.querySelector('#tnToast');this.fileInput=root.querySelector('#tnFileInput');this.devPanel=root.querySelector('#tnDevPanel');this.widgetPicker=root.querySelector('#tnWidgetPicker');this.toolbar=root.querySelector('.tn-toolbar');this.toolbarReveal=root.querySelector('#tnToolbarReveal');this.lastWindowsCount=0;this.toolbarTimer=0;this.edgeWakeTimers={prev:0,next:0};this.swipeStart=null;this.quickBoardPopover=null;this.boardSurfaceSize={...TN.boardSize};this.boardSurfaceFrame=0;
       this.storage=new TN.StorageManager();this.router=new TN.Router();this.themeManager=new TN.ThemeManager();this.modalManager=new TN.ModalManager(this.modalRoot);this.helpRegistry=new TN.HelpRegistry();this.commandRegistry=new TN.CommandRegistry();this.sessionManager=new TN.SessionManager(this.storage);this.boardManager=new TN.BoardManager(this.storage,this.sessionManager);this.widgetManager=new TN.WidgetManager(this.storage,this.boardManager);this.lifecycle=new TN.WidgetLifecycleManager();this.dataManager=new TN.DataManager(this.storage);this.relationManager=new TN.RelationManager(this.storage,this.dataManager);this.studentFocus=new TN.StudentFocusManager(this);this.parentMail=new TN.ParentMailManager(this);this.groupManager=new TN.GroupManager(this.storage,this.dataManager,this.relationManager);this.relationManager.groupManager=this.groupManager;this.generatorManager=new TN.GeneratorManager(this.storage,this.sessionManager,this.boardManager,this.widgetManager,this.relationManager,this.groupManager);this.trashManager=new TN.TrashManager(this.storage);this.mediaManager=new TN.MediaManager(this.storage);this.fileExporter=new TN.FileExportManager(this);this.backupManager=new TN.BackupManager(this);this.courseManager=new TN.CourseManager(this);this.libraryManager=new TN.LibraryManager(this);this.restorePointManager=new TN.RestorePointManager(this.storage,this.backupManager);this.interactions=new TN.InteractionController(this,this.boardLayer);this.unmounts=[];this.placeholderImage='data:image/svg+xml;charset=utf-8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="100%" height="100%" fill="#172554"/><text x="50%" y="50%" fill="white" font-size="42" text-anchor="middle" dominant-baseline="middle">Billede</text></svg>');this.longTaskObserver=null;this.fpsHandle=0;this.fileImportQueue=Promise.resolve();this.recentImportBatches=new Map();this.layoutPopover=null;this.keyboardWidgetContentMode=null;this.keyboardSelectionTimer=0;this.groupGalaxy=null;this.imageLightbox=null;this.mediaLightbox=null;this.responsiveLayoutFrame=0;this.responsiveLayoutPersistTimer=0;this.responsiveSwapTargetId=null;this.boardClockTimer=0;this.boardClockStarted=false;this.boardClockAbort=new AbortController();this.boardClockPrefs=this.readBoardClockPrefs();this.scheduleBoardClock=null;this.boardDrawing={active:false,tool:'pen',color:'#ef4444',size:6,canvas:null,ctx:null,panel:null,restoreButton:null,controller:null,current:null,drawingPointerId:null,pointers:new Map(),gesture:null,gestureBlocked:false,panelHidden:false,toolbarWasVisible:false,redoByBoard:new Map(),saveTimer:0,renderScale:1,legacyImage:null,legacySource:null};
     }
     async init(){
@@ -6685,7 +6698,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       });
     }
     bindShell(){
-      this.root.addEventListener('click',e=>{const action=e.target.closest('[data-action]')?.dataset.action;if(!action)return;const map={courseSessionPicker:()=>this.showCourseSessionPicker(),sessions:()=>this.showSessions(),boards:()=>this.showBoards(),boardQuick:()=>this.showBoardQuickMenu(this.root.querySelector('#tnBoardTitle')),boardMenu:()=>this.showBoardMenu(this.root.querySelector('#tnBoardMenuButton')),boardPrev:()=>this.navigateBoard(-1),boardNext:()=>this.navigateBoard(1),toolbarToggle:()=>this.toggleToolbar(),add:()=>this.showAddWidget(),windows:()=>this.showWindows(),data:()=>this.showDataCenter(),present:()=>this.togglePresentation(),theme:()=>this.themeManager.cycle(),help:()=>this.showHelp(),backup:()=>this.showBackup(),import:()=>this.requestImportFiles(),zoomIn:()=>this.setBoardZoom((TN.runtime.activeBoard.zoom||1)+.1),zoomOut:()=>this.setBoardZoom((TN.runtime.activeBoard.zoom||1)-.1),zoomReset:()=>this.setBoardZoom(1),dev:()=>this.toggleDevPanel(),fullscreen:()=>this.toggleFullscreen()};if(action!=='toolbarToggle')this.showToolbar({delay:2600});map[action]?.();});
+      this.root.addEventListener('click',e=>{const action=e.target.closest('[data-action]')?.dataset.action;if(!action)return;const map={courseSessionPicker:()=>this.showCourseSessionPicker(),sessions:()=>this.showSessions(),boards:()=>this.showBoards(),boardQuick:()=>this.showBoardQuickMenu(this.root.querySelector('#tnBoardTitle')),boardMenu:()=>this.showBoardMenu(this.root.querySelector('#tnBoardMenuButton')),boardPrev:()=>this.navigateBoard(-1),boardNext:()=>this.navigateBoard(1),toolbarToggle:()=>this.toggleToolbar(),add:()=>this.showAddWidget(),windows:()=>this.showWindows(),data:()=>this.showDataCenter(),present:()=>this.togglePresentation(),theme:()=>this.themeManager.cycle(),help:()=>this.showHelp(),backup:()=>this.showBackup(),import:()=>this.requestImportFiles(),zoomIn:()=>this.setBoardZoom((TN.runtime.activeBoard.zoom||1)+.1),zoomOut:()=>this.setBoardZoom((TN.runtime.activeBoard.zoom||1)-.1),zoomReset:()=>this.setBoardZoom(1,{resetPan:true}),dev:()=>this.toggleDevPanel(),fullscreen:()=>this.toggleFullscreen()};if(action!=='toolbarToggle')this.showToolbar({delay:2600});map[action]?.();});
       if(this.widgetPicker)this.widgetPicker.addEventListener('change',()=>{const id=this.widgetPicker.value;if(!id)return;this.chooseWidgetFromPicker(id);});
       this.fileInput.addEventListener('change',()=>{const files=[...this.fileInput.files];this.fileInput.value='';this.fileInput.accept='.json,.csv,.tsv,.txt,.xlsx,.ics,.pdf,.html,.htm,.webp,.webm,image/webp,video/webm,audio/webm,image/*,audio/*,video/*';this.fileInput.multiple=true;this.queueFiles(files);});
       let dropOverlayTimer=0;const clearDropOverlay=()=>{clearTimeout(dropOverlayTimer);dropOverlayTimer=0;this.viewport.classList.remove('dragover');};const armDropOverlay=()=>{this.viewport.classList.add('dragover');clearTimeout(dropOverlayTimer);dropOverlayTimer=setTimeout(clearDropOverlay,700);};
@@ -6724,9 +6737,16 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       this.viewport.addEventListener('pointerdown',event=>{if(TN.runtime.mode==='presentation'||!['touch','pen'].includes(event.pointerType)||!isBoardBackgroundTarget(event.target))return;cancelBoardAddPress();const press={id:event.pointerId,x:event.clientX,y:event.clientY,timer:0};press.timer=setTimeout(()=>{if(boardAddPress!==press)return;boardAddPress=null;boardAddOpenedAt=Date.now();this.swipeStart=null;this.selectWidget(null);this.showBoardMenu(null,{x:event.clientX,y:event.clientY});},650);boardAddPress=press;},true);
       this.viewport.addEventListener('pointermove',event=>{if(!boardAddPress||event.pointerId!==boardAddPress.id)return;if(Math.hypot(event.clientX-boardAddPress.x,event.clientY-boardAddPress.y)>12)cancelBoardAddPress();},true);
       this.viewport.addEventListener('pointerup',cancelBoardAddPress,true);this.viewport.addEventListener('pointercancel',cancelBoardAddPress,true);window.addEventListener('blur',cancelBoardAddPress);
+      const boardCameraPoints=new Map();let boardCameraGesture=null;
+      const boardCameraPair=()=>Array.from(boardCameraPoints.values()).slice(0,2),boardCameraDistance=(a,b)=>Math.hypot(b.x-a.x,b.y-a.y)||1,boardCameraMid=(a,b)=>({x:(a.x+b.x)/2,y:(a.y+b.y)/2});
+      const beginBoardCameraGesture=event=>{const pair=boardCameraPair(),board=TN.runtime.activeBoard;if(pair.length<2||!board||this.boardDrawing?.active)return;cancelBoardAddPress();this.swipeStart=null;const mid=boardCameraMid(pair[0],pair[1]),rect=this.viewport.getBoundingClientRect(),center={x:rect.left+rect.width/2,y:rect.top+rect.height/2},startZoom=Number(board.zoom)||1,startPan={x:Number(board.pan?.x)||0,y:Number(board.pan?.y)||0};boardCameraGesture={distance:Math.max(1,boardCameraDistance(pair[0],pair[1])),startZoom,anchor:{x:(mid.x-center.x-startPan.x)/Math.max(.0001,startZoom),y:(mid.y-center.y-startPan.y)/Math.max(.0001,startZoom)}};event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();};
+      const boardCameraPointerDown=event=>{if(event.pointerType!=='touch'||this.boardDrawing?.active||!isBoardBackgroundTarget(event.target))return;boardCameraPoints.set(event.pointerId,{x:event.clientX,y:event.clientY});if(boardCameraPoints.size>=2)beginBoardCameraGesture(event);};
+      const boardCameraPointerMove=event=>{if(event.pointerType!=='touch'||!boardCameraPoints.has(event.pointerId))return;boardCameraPoints.set(event.pointerId,{x:event.clientX,y:event.clientY});if(!boardCameraGesture&&boardCameraPoints.size>=2)beginBoardCameraGesture(event);if(!boardCameraGesture)return;event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();const pair=boardCameraPair(),mid=boardCameraMid(pair[0],pair[1]),rect=this.viewport.getBoundingClientRect(),center={x:rect.left+rect.width/2,y:rect.top+rect.height/2},zoom=TN.clamp(boardCameraGesture.startZoom*(boardCameraDistance(pair[0],pair[1])/boardCameraGesture.distance),.4,2),board=TN.runtime.activeBoard;board.zoom=Math.round(zoom*1000)/1000;board.pan={x:mid.x-center.x-boardCameraGesture.anchor.x*zoom,y:mid.y-center.y-boardCameraGesture.anchor.y*zoom};this.applyBoardCamera({persist:false});this.updateStatus();};
+      const boardCameraPointerEnd=event=>{if(event.pointerType!=='touch')return;const wasActive=!!boardCameraGesture;boardCameraPoints.delete(event.pointerId);if(wasActive){event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();this.swipeStart=null;}if(boardCameraPoints.size<2&&boardCameraGesture){boardCameraGesture=null;this.applyBoardCamera({persist:false});this.boardManager.update(TN.runtime.activeBoard);}};
+      this.viewport.addEventListener('pointerdown',boardCameraPointerDown,{capture:true,passive:false});this.viewport.addEventListener('pointermove',boardCameraPointerMove,{capture:true,passive:false});this.viewport.addEventListener('pointerup',boardCameraPointerEnd,{capture:true,passive:false});this.viewport.addEventListener('pointercancel',boardCameraPointerEnd,{capture:true,passive:false});
       this.viewport.addEventListener('pointerdown',e=>this.handleBoardEdgeIntent(e,{touch:true}),true);
       this.viewport.addEventListener('pointerdown',e=>{if(e.target===this.viewport||e.target===this.boardLayer){this.selectWidget(null);this.swipeStart={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now()};}});this.viewport.addEventListener('pointerup',e=>this.finishBoardSwipe(e));this.viewport.addEventListener('pointercancel',()=>{this.swipeStart=null;});
-      this.viewport.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefault();const delta=e.deltaY>0?-.08:.08;this.setBoardZoom((TN.runtime.activeBoard.zoom||1)+delta);},{passive:false});
+      this.viewport.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefault();const delta=e.deltaY>0?-.08:.08;this.setBoardZoom((TN.runtime.activeBoard.zoom||1)+delta,{clientX:e.clientX,clientY:e.clientY});},{passive:false});
       this.toolbar?.addEventListener('pointerenter',()=>{clearTimeout(this.toolbarTimer);this.root.classList.add('toolbar-visible');});this.toolbar?.addEventListener('pointerleave',()=>this.scheduleToolbarHide(1500));this.toolbar?.addEventListener('focusin',()=>clearTimeout(this.toolbarTimer));this.toolbar?.addEventListener('focusout',()=>this.scheduleToolbarHide(1800));this.viewport.addEventListener('pointermove',e=>{const r=this.viewport.getBoundingClientRect();if(r.bottom-e.clientY<54)this.showToolbar({delay:2200});if(e.pointerType!=='touch')this.handleBoardEdgeIntent(e,{move:true});},true);document.addEventListener('keydown',e=>this.handleWidgetKeyboard(e),true);window.addEventListener('resize',()=>{this.scheduleBoardSurfaceUpdate();this.updateBoardNavigation();this.scheduleToolbarHide(1800);});if(typeof ResizeObserver==='function'){this.viewportResizeObserver=new ResizeObserver(()=>this.scheduleBoardSurfaceUpdate());this.viewportResizeObserver.observe(this.viewport);}window.addEventListener('beforeunload',()=>this.storage.flush());TN.on('saved',()=>this.updateStatus());TN.on('themechange',()=>this.saveSessionTheme());
     }
     async saveSessionTheme(){if(!TN.runtime.activeSession)return;TN.runtime.activeSession.theme=document.documentElement.dataset.theme;await this.sessionManager.update(TN.runtime.activeSession);}
@@ -6748,11 +6768,12 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     getViewportContentRect(){const r=this.viewport.getBoundingClientRect();let bottom=r.bottom;if(this.toolbarVisible()&&this.toolbar){const tr=this.toolbar.getBoundingClientRect();if(tr.top<bottom&&tr.bottom>r.top)bottom=Math.max(r.top,tr.top-6);}return{left:r.left,top:r.top,right:r.right,bottom,width:r.width,height:Math.max(1,bottom-r.top)};}
     getBoardSurfaceSize(){return this.boardSurfaceSize||TN.boardSize;}
     updateBoardSurface(){
-      const board=TN.runtime.activeBoard,rect=this.viewport.getBoundingClientRect(),zoom=TN.clamp(board?.zoom||1,.4,2);
+      const rect=this.viewport.getBoundingClientRect();
       const viewportWidth=Math.max(1,Math.round(rect.width||this.viewport.clientWidth||TN.boardSize.width)),viewportHeight=Math.max(1,Math.round(rect.height||this.viewport.clientHeight||TN.boardSize.height));
-      const width=Math.max(TN.boardSize.width,Math.ceil(viewportWidth/zoom)+2),height=Math.max(TN.boardSize.height,Math.ceil(viewportHeight/zoom)+2);
+      const width=Math.max(TN.boardSize.width,viewportWidth+2),height=Math.max(TN.boardSize.height,viewportHeight+2);
       this.boardSurfaceSize={width,height};TN.runtime.boardSurfaceSize={width,height};
       this.boardLayer.style.setProperty('--tn-surface-w',`${width}px`);this.boardLayer.style.setProperty('--tn-surface-h',`${height}px`);
+      const boardCamera=this.ensureBoardCamera();boardCamera.style.width=`${width}px`;boardCamera.style.height=`${height}px`;
       if(this.boardDrawing?.canvas?.isConnected)requestAnimationFrame(()=>this.resizeBoardDrawingCanvas());
       return this.boardSurfaceSize;
     }
@@ -6845,7 +6866,8 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     showDemoLibrary(){const body=document.createElement('div');const modal=this.modalManager.open({title:'Hent demoforløb',body,className:'tn-modal-wide',actions:[{label:'Luk',run:()=>{}}]});this.renderLibraryCenter(body,async()=>{body.replaceChildren();await this.renderLibraryCenter(body,()=>{});});return modal;}
     async openSession(id){this.modalManager.closeAll();await this.loadSession(id);}
     async openBoard(id){this.modalManager.closeAll();const board=await this.boardManager.get(id);if(board)await this.loadBoard(board);}
-    async unmountBoard(){if(this.boardDrawing?.active||this.boardDrawing?.saveTimer)await this.stopBoardDrawing({silent:true});this.boardDrawing?.controller?.abort();if(this.boardDrawing)this.boardDrawing.controller=null;this.closeImageLightbox();this.closeMediaLightbox();this.keyboardWidgetContentMode=null;this.closeLayoutPopover();this.closeBoardQuickMenu();await this.lifecycle.unmountAll();for(const unmount of this.unmounts.splice(0)){try{unmount();}catch(_){}}this.boardLayer.replaceChildren();for(const url of TN.runtime.objectUrls.values())URL.revokeObjectURL(url);TN.runtime.objectUrls.clear();}
+    ensureBoardCamera(){let camera=this.boardLayer?.querySelector?.(':scope > #tnBoardCamera')||null;if(!camera){camera=document.createElement('div');camera.id='tnBoardCamera';this.boardLayer?.replaceChildren(camera);}this.boardCamera=camera;return camera;}
+    async unmountBoard(){if(this.boardDrawing?.active||this.boardDrawing?.saveTimer)await this.stopBoardDrawing({silent:true});this.boardDrawing?.controller?.abort();if(this.boardDrawing)this.boardDrawing.controller=null;this.closeImageLightbox();this.closeMediaLightbox();this.keyboardWidgetContentMode=null;this.closeLayoutPopover();this.closeBoardQuickMenu();await this.lifecycle.unmountAll();for(const unmount of this.unmounts.splice(0)){try{unmount();}catch(_){}}this.ensureBoardCamera().replaceChildren();for(const url of TN.runtime.objectUrls.values())URL.revokeObjectURL(url);TN.runtime.objectUrls.clear();}
     closeImageLightbox(){if(this.imageLightbox?.close)this.imageLightbox.close();}
     openImageLightbox(items,index=0,{title='Billeder',sourceWidgetId=null,returnFocus=null}={}){
       const list=(Array.isArray(items)?items:[]).filter(item=>item&&(item.mediaId||item.src));if(!list.length)return false;this.closeImageLightbox();
@@ -6892,20 +6914,20 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     }
 
     async renderActiveBoard({preserveSelection=false}={}){
-      const t=performance.now(),board=TN.runtime.activeBoard;if(!board)return;const selected=preserveSelection?TN.runtime.selectedWidgetId:null;await this.lifecycle.unmountAll();for(const unmount of this.unmounts.splice(0)){try{unmount();}catch(_){}}this.boardLayer.replaceChildren();
-      this.updateBoardSurface();this.boardLayer.classList.toggle('grid',!!board.grid);this.boardLayer.style.transform=`translate3d(${board.pan?.x||0}px,${board.pan?.y||0}px,0) scale(${board.zoom||1})`;this.applyBoardBackground(board);const slotState=this.ensureFreeWindowSlots({persist:false});this.applyResponsiveWindowLayout({persist:false,updateDom:false});if(slotState?.changed)await this.persistWindowLayout(slotState.widgets?.length?slotState.widgets:this.visibleWindowWidgets());
-      const frag=document.createDocumentFragment();for(const widget of TN.runtime.activeWidgets){if(widget.settings?.hidden||widget.settings?.minimized)continue;const el=this.createWidgetElement(widget);frag.append(el);}this.boardLayer.append(frag);
+      const t=performance.now(),board=TN.runtime.activeBoard;if(!board)return;const selected=preserveSelection?TN.runtime.selectedWidgetId:null;await this.lifecycle.unmountAll();for(const unmount of this.unmounts.splice(0)){try{unmount();}catch(_){}}const boardCamera=this.ensureBoardCamera();boardCamera.replaceChildren();
+      this.updateBoardSurface();this.boardLayer.classList.toggle('grid',!!board.grid);this.applyBoardCamera({persist:false});this.applyBoardBackground(board);const slotState=this.ensureFreeWindowSlots({persist:false});this.applyResponsiveWindowLayout({persist:false,updateDom:false});if(slotState?.changed)await this.persistWindowLayout(slotState.widgets?.length?slotState.widgets:this.visibleWindowWidgets());
+      const frag=document.createDocumentFragment();for(const widget of TN.runtime.activeWidgets){if(widget.settings?.hidden||widget.settings?.minimized)continue;const el=this.createWidgetElement(widget);frag.append(el);}boardCamera.append(frag);
       const mounts=[...this.boardLayer.querySelectorAll('.tn-widget')].map(async el=>{const widget=TN.runtime.activeWidgets.find(w=>w.id===el.dataset.widgetId),def=this.widgetManager.definition(widget.type),body=el.querySelector('.tn-widget-body'),ctx={widget,el,body,app:this};try{await this.lifecycle.mount(def,ctx);}catch(error){body.innerHTML=`<div class="tn-error">${TN.escapeHtml(error.message)}</div>`;}this.interactions.bindWidget(el,widget);});await Promise.all(mounts);this.mountBoardDrawingLayer();TN.runtime.metrics.renderMs=performance.now()-t;if(selected)this.selectWidget(selected);this.updateStatus();this.updateWidgetPicker();
     }
     async mountWidgetsIncrementally(widgets,{selectId=null,bringToFront=true}={}){
-      const list=[...(widgets||[])].filter(widget=>widget&&!widget.settings?.hidden&&!widget.settings?.minimized);if(!list.length)return[];
+      const list=[...(widgets||[])].filter(widget=>widget&&!widget.settings?.hidden&&!widget.settings?.minimized);if(!list.length)return[];const boardCamera=this.ensureBoardCamera();
       let maxZ=Math.max(0,...TN.runtime.activeWidgets.map(widget=>Number(widget.geometry?.z)||0));
       if(bringToFront){for(const widget of list){widget.geometry={...TN.Models.validateGeometry(widget.geometry),z:++maxZ};await this.widgetManager.update(widget,{immediate:true});}}
       const slotState=this.ensureFreeWindowSlots({persist:false});if(slotState?.changed)await this.persistWindowLayout(slotState.widgets?.length?slotState.widgets:list);
       const mounted=[];
       for(const widget of list){
         const old=this.boardLayer.querySelector(`[data-widget-id="${CSS.escape(widget.id)}"]`);if(old)continue;
-        const el=this.createWidgetElement(widget);this.boardLayer.append(el);const def=this.widgetManager.definition(widget.type),body=el.querySelector('.tn-widget-body'),ctx={widget,el,body,app:this};
+        const el=this.createWidgetElement(widget);boardCamera.append(el);const def=this.widgetManager.definition(widget.type),body=el.querySelector('.tn-widget-body'),ctx={widget,el,body,app:this};
         try{await this.lifecycle.mount(def,ctx);}catch(error){body.innerHTML=`<div class="tn-error">${TN.escapeHtml(error.message)}</div>`;}
         this.interactions.bindWidget(el,widget);mounted.push(widget);
       }
@@ -7162,7 +7184,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     }
     mountBoardDrawingLayer(){
       const state=this.boardDrawing;state.controller?.abort();state.controller=new AbortController();const signal=state.controller.signal;
-      const canvas=document.createElement('canvas');canvas.className='tn-board-drawing-canvas';canvas.dataset.tool=state.tool;canvas.setAttribute('aria-label','Tegning på tavlen');canvas.classList.toggle('active',!!state.active);this.boardLayer.append(canvas);state.canvas=canvas;state.ctx=canvas.getContext('2d',{alpha:true,desynchronized:true});
+      const canvas=document.createElement('canvas');canvas.className='tn-board-drawing-canvas';canvas.dataset.tool=state.tool;canvas.setAttribute('aria-label','Tegning på tavlen');canvas.classList.toggle('active',!!state.active);this.ensureBoardCamera().append(canvas);state.canvas=canvas;state.ctx=canvas.getContext('2d',{alpha:true,desynchronized:true});
       const down=event=>this.onBoardDrawingPointerDown(event),move=event=>this.onBoardDrawingPointerMove(event),end=event=>this.onBoardDrawingPointerEnd(event),cancel=event=>this.onBoardDrawingPointerCancel(event);
       canvas.addEventListener('pointerdown',down,{passive:false,signal});canvas.addEventListener('pointermove',move,{passive:false,signal});canvas.addEventListener('pointerup',end,{passive:false,signal});canvas.addEventListener('pointercancel',cancel,{passive:false,signal});
       window.addEventListener('keydown',event=>this.handleBoardDrawingKey(event),{capture:true,signal});
@@ -7198,7 +7220,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       const pair=this.boardDrawingTouchPair();if(pair.length<2)return false;const distance=this.boardDrawingDistance(pair[0],pair[1]),mid={x:(pair[0].clientX+pair[1].clientX)/2,y:(pair[0].clientY+pair[1].clientY)/2},board=TN.runtime.activeBoard;this.boardDrawing.current=null;this.boardDrawing.drawingPointerId=null;this.redrawBoardDrawing();this.boardDrawing.gesture={distance:Math.max(1,distance),mid,startZoom:Number(board.zoom)||1,startPan:{x:Number(board.pan?.x)||0,y:Number(board.pan?.y)||0}};this.boardDrawing.gestureBlocked=true;return true;
     }
     updateBoardDrawingGesture(){
-      const gesture=this.boardDrawing.gesture,pair=this.boardDrawingTouchPair(),board=TN.runtime.activeBoard;if(!gesture||pair.length<2||!board)return;const distance=Math.max(1,this.boardDrawingDistance(pair[0],pair[1])),mid={x:(pair[0].clientX+pair[1].clientX)/2,y:(pair[0].clientY+pair[1].clientY)/2},zoom=TN.clamp(gesture.startZoom*(distance/gesture.distance),.4,2);board.zoom=Math.round(zoom*1000)/1000;board.pan={x:gesture.startPan.x+(mid.x-gesture.mid.x),y:gesture.startPan.y+(mid.y-gesture.mid.y)};this.boardLayer.style.transform=`translate3d(${board.pan.x}px,${board.pan.y}px,0) scale(${board.zoom})`;this.updateStatus();
+      const gesture=this.boardDrawing.gesture,pair=this.boardDrawingTouchPair(),board=TN.runtime.activeBoard;if(!gesture||pair.length<2||!board)return;const distance=Math.max(1,this.boardDrawingDistance(pair[0],pair[1])),mid={x:(pair[0].clientX+pair[1].clientX)/2,y:(pair[0].clientY+pair[1].clientY)/2},zoom=TN.clamp(gesture.startZoom*(distance/gesture.distance),.4,2);board.zoom=Math.round(zoom*1000)/1000;board.pan={x:gesture.startPan.x+(mid.x-gesture.mid.x),y:gesture.startPan.y+(mid.y-gesture.mid.y)};this.applyBoardCamera({persist:false});this.updateStatus();
     }
     onBoardDrawingPointerDown(event){
       if(!this.boardDrawing.active||event.button!=null&&event.button!==0)return;event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();try{this.boardDrawing.canvas.setPointerCapture(event.pointerId);}catch(_){ }
@@ -7280,7 +7302,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       if(keyboard){el.classList.add('keyboard-selected');el.querySelector('.tn-window-cluster')?.classList.add('is-expanded');if(focus)el.focus({preventScroll:true});this.keyboardSelectionTimer=setTimeout(()=>{if(this.keyboardWidgetContentMode!==id&&!el.matches(':focus-within')){el.classList.remove('keyboard-selected');el.querySelector('.tn-window-cluster')?.classList.remove('is-expanded');}},2600);}
       this.showToolbar({delay:2200});this.updateWidgetPicker();
     }
-    widgetPickerTypeLabel(widget){const labels={text:'Tekst',list:'Liste',data:'Data',image:'Billede',media:'Medie',video:'Video',audio:'Lyd','video-matrix':'Videomatrix','audio-matrix':'Lydmatrix','image-matrix':'Billedmatrix',pdf:'PDF',html:'HTMLApp',link:'Link',iframe:'Web',calendar:'Kalender',poll:'Afstemning',wordcloud:'Ordsky',wheel:'Lykkehjul',kapardy:'KaPardy',timer:'Timer','student-card':'Elevkort','group-card':'Gruppekort','board-card':'TavleKort','card-matrix':'Matrix',groups:'Grupper'};return labels[widget?.type]||String(widget?.type||'Widget');}
+    widgetPickerTypeLabel(widget){const labels={text:'Tekst',list:'Liste',data:'Data',image:'Billede',media:'Medie',video:'Video',audio:'Lyd','video-matrix':'Videomatrix','audio-matrix':'Lydmatrix','image-matrix':'Billedmatrix','pdf-matrix':'PDF-matrix',pdf:'PDF',html:'HTMLApp',link:'Link',iframe:'Web',calendar:'Kalender',poll:'Afstemning',wordcloud:'Ordsky',wheel:'Lykkehjul',kapardy:'KaPardy',timer:'Timer','student-card':'Elevkort','group-card':'Gruppekort','board-card':'TavleKort','card-matrix':'Matrix',groups:'Grupper'};return labels[widget?.type]||String(widget?.type||'Widget');}
     updateWidgetPicker(){if(!this.widgetPicker)return;const widgets=TN.runtime.activeWidgets.filter(widget=>!widget.settings?.hidden&&!widget.settings?.minimized&&this.boardLayer.querySelector(`[data-widget-id="${CSS.escape(widget.id)}"]`));const current=(TN.runtime.focusWidgetId&&widgets.some(widget=>widget.id===TN.runtime.focusWidgetId)?TN.runtime.focusWidgetId:TN.runtime.selectedWidgetId)||'';const fragment=document.createDocumentFragment(),placeholder=document.createElement('option');placeholder.value='';placeholder.textContent=widgets.length?`Vælg widget · ${widgets.length}`:'Ingen widgets';fragment.append(placeholder);widgets.forEach((widget,index)=>{const option=document.createElement('option');option.value=widget.id;option.textContent=`${index+1}. ${widget.title||this.widgetPickerTypeLabel(widget)} · ${this.widgetPickerTypeLabel(widget)}`;fragment.append(option);});this.widgetPicker.replaceChildren(fragment);this.widgetPicker.value=widgets.some(widget=>widget.id===current)?current:'';this.widgetPicker.disabled=!widgets.length;}
     setFocusTarget(id){if(!id)return;TN.runtime.focusWidgetId=id;this.root.classList.add('focus-mode');this.boardLayer.querySelectorAll('.tn-widget').forEach(el=>el.classList.toggle('focus-target',el.dataset.widgetId===id));this.updateWidgetPicker();}
     chooseWidgetFromPicker(id){const widget=TN.runtime.activeWidgets.find(item=>item.id===id);if(!widget)return;this.keyboardWidgetContentMode=null;this.selectWidget(id,{keyboard:true,focus:true});if(TN.runtime.focusWidgetId)this.setFocusTarget(id);void this.raiseKeyboardWidget(id).catch(error=>console.warn('Kunne ikke løfte valgt widget',error));this.widgetPicker?.blur();}
@@ -7563,7 +7585,8 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     async addEmbeddedPlan(){
       if(window.top!==window.self||new URLSearchParams(location.search).get('plan_embed')==='1')return this.toast('Plan i Plan kan kun oprettes fra hovedappen');
       const sessionId=`indlejret-plan-${Date.now().toString(36)}`,url=new URL(location.href);url.hash=encodeURIComponent(sessionId);url.searchParams.set('plan_embed','1');
-      const wrapper=`<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Indlejret Plan</title><style>html,body,iframe{width:100%;height:100%;margin:0;border:0;background:#07101f}body{overflow:hidden}</style></head><body><iframe src="${TN.escapeHtml(url.href)}" allow="fullscreen; clipboard-read; clipboard-write"></iframe></body></html>`;
+      const wrapper=`<!doctype html><html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Indlejret Plan</title><style>html,body,iframe{width:100%;height:100%;margin:0;border:0;background:#07101f}body{overflow:hidden}</style></head><body><iframe src="${TN.escapeHtml(url.href)}" allow="fullscreen; clipboard-read; clipboard-write"></iframe>
+</body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
     async importDocumentFile(file,type){
@@ -7614,7 +7637,9 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     async togglePresentation(){if(this.boardDrawing?.active)await this.stopBoardDrawing({silent:true});TN.runtime.mode=TN.runtime.mode==='presentation'?'edit':'presentation';this.root.dataset.mode=TN.runtime.mode;this.updatePresentationControl();await this.renderActiveBoard({preserveSelection:true});this.updatePresentationControl();this.toast(TN.runtime.mode==='presentation'?'Præsentation':'Redigering');}
     toggleFocus(targetId=null){const id=targetId||TN.runtime.selectedWidgetId;if(!id)return this.toast('Vælg en widget først');if(targetId&&TN.runtime.selectedWidgetId!==id)this.selectWidget(id);if(TN.runtime.focusWidgetId===id){TN.runtime.focusWidgetId=null;this.root.classList.remove('focus-mode');this.boardLayer.querySelectorAll('.tn-widget').forEach(el=>el.classList.remove('focus-target'));this.updateWidgetPicker();return;}this.setFocusTarget(id);}
     async toggleFullscreen(){if(document.fullscreenElement)await document.exitFullscreen();else await this.root.requestFullscreen?.();}
-    setBoardZoom(value){const board=TN.runtime.activeBoard;if(!board)return;board.zoom=TN.clamp(Math.round(value*100)/100,.4,2);this.updateBoardSurface();this.boardLayer.style.transform=`translate3d(${board.pan?.x||0}px,${board.pan?.y||0}px,0) scale(${board.zoom})`;this.scheduleResponsiveWindowLayoutUpdate();this.boardManager.update(board);this.updateStatus();}
+    clampBoardPan(pan,zoom){const rect=this.viewport.getBoundingClientRect(),surface=this.getBoardSurfaceSize(),maxX=Math.max(0,(surface.width*zoom-Math.max(1,rect.width))/2),maxY=Math.max(0,(surface.height*zoom-Math.max(1,rect.height))/2);return{x:TN.clamp(Number(pan?.x)||0,-maxX,maxX),y:TN.clamp(Number(pan?.y)||0,-maxY,maxY)};}
+    applyBoardCamera({persist=false}={}){const board=TN.runtime.activeBoard;if(!board)return 1;board.zoom=TN.clamp(Number(board.zoom)||1,.4,2);board.pan=this.clampBoardPan(board.pan,board.zoom);TN.runtime.boardCameraScale=board.zoom;if(this.boardCamera)this.boardCamera.style.transform=`translate3d(${board.pan.x}px,${board.pan.y}px,0) scale(${board.zoom})`;if(persist)this.boardManager.update(board);return board.zoom;}
+    setBoardZoom(value,{clientX=null,clientY=null,resetPan=false,persist=true}={}){const board=TN.runtime.activeBoard;if(!board)return;const rect=this.viewport.getBoundingClientRect(),centerX=rect.left+rect.width/2,centerY=rect.top+rect.height/2,oldZoom=TN.clamp(Number(board.zoom)||1,.4,2),oldPan={x:Number(board.pan?.x)||0,y:Number(board.pan?.y)||0},anchorX=Number.isFinite(Number(clientX))?Number(clientX):centerX,anchorY=Number.isFinite(Number(clientY))?Number(clientY):centerY,boardPointX=(anchorX-centerX-oldPan.x)/Math.max(.0001,oldZoom),boardPointY=(anchorY-centerY-oldPan.y)/Math.max(.0001,oldZoom);board.zoom=TN.clamp(Math.round(Number(value||1)*100)/100,.4,2);board.pan=resetPan?{x:0,y:0}:{x:anchorX-centerX-boardPointX*board.zoom,y:anchorY-centerY-boardPointY*board.zoom};this.applyBoardCamera({persist:false});if(persist)this.boardManager.update(board);this.updateStatus();}
     async toggleGrid(){const b=TN.runtime.activeBoard;if(!b)return;b.grid=!b.grid;await this.boardManager.update(b);this.updateBoardGridAppearance(b.background||{});this.boardLayer.classList.toggle('grid',!!b.grid);this.toast(b.grid?'Grid er vist':'Grid er skjult');}
     rescueView(){const b=TN.runtime.activeBoard;b.zoom=1;b.pan={x:0,y:0};this.root.classList.remove('focus-mode');TN.runtime.focusWidgetId=null;this.boardManager.update(b);this.renderActiveBoard({preserveSelection:true});this.toast('Visning nulstillet');}
     randomBackground(){const values=['linear-gradient(135deg,#0f172a,#1d4ed8)','linear-gradient(135deg,#111827,#14532d)','linear-gradient(135deg,#3f1d38,#7c2d12)','linear-gradient(135deg,#1f2937,#4c1d95)','linear-gradient(135deg,#0c4a6e,#0f766e)','linear-gradient(135deg,#312e81,#7e22ce)'];TN.runtime.activeBoard.background={kind:'gradient',value:values[Math.floor(Math.random()*values.length)],mediaId:null,imageRef:null,fit:'cover',shade:0};this.boardManager.update(TN.runtime.activeBoard);this.applyBoardBackground(TN.runtime.activeBoard);}
@@ -8176,7 +8201,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     }
     async deleteSelectedMedia(container){
       const selected=container?._tnMediaSelected instanceof Set?[...container._tnMediaSelected]:[];if(!selected.length){this.toast('Vælg mindst ét medie');return;}const entries=await this.mediaManager.listWithUsage(),chosen=entries.filter(item=>selected.includes(String(item.id)));if(!chosen.length){container._tnMediaSelected.clear();await this.renderMediaArchive(container);return;}
-      const orphanIds=chosen.filter(item=>!(item.usage||[]).length).map(item=>String(item.id)),protectedItems=chosen.filter(item=>(item.usage||[]).some(ref=>ref.kind==='restorePoint'||ref.kind==='trash')),liveItems=chosen.filter(item=>(item.usage||[]).some(ref=>ref.kind==='widget'||ref.kind==='board')&&!(item.usage||[]).some(ref=>ref.kind==='restorePoint'||ref.kind==='trash')),matrixRefs=new Set(),otherWidgetRefs=new Set(),boardRefs=new Set();for(const item of liveItems)for(const ref of item.usage||[]){if(ref.kind==='widget'&&['image-matrix','audio-matrix','video-matrix'].includes(ref.widgetType))matrixRefs.add(String(ref.id));else if(ref.kind==='widget')otherWidgetRefs.add(String(ref.id));else if(ref.kind==='board')boardRefs.add(String(ref.id));}
+      const orphanIds=chosen.filter(item=>!(item.usage||[]).length).map(item=>String(item.id)),protectedItems=chosen.filter(item=>(item.usage||[]).some(ref=>ref.kind==='restorePoint'||ref.kind==='trash')),liveItems=chosen.filter(item=>(item.usage||[]).some(ref=>ref.kind==='widget'||ref.kind==='board')&&!(item.usage||[]).some(ref=>ref.kind==='restorePoint'||ref.kind==='trash')),matrixRefs=new Set(),otherWidgetRefs=new Set(),boardRefs=new Set();for(const item of liveItems)for(const ref of item.usage||[]){if(ref.kind==='widget'&&['image-matrix','audio-matrix','video-matrix','pdf-matrix'].includes(ref.widgetType))matrixRefs.add(String(ref.id));else if(ref.kind==='widget')otherWidgetRefs.add(String(ref.id));else if(ref.kind==='board')boardRefs.add(String(ref.id));}
       const body=document.createElement('div');body.style.display='grid';body.style.gap='11px';body.innerHTML=`<p><b>${chosen.length===1?'1 medie':`${chosen.length} medier`} er valgt.</b></p><div class="tn-backup-estimate">${orphanIds.length} uden brug · ${liveItems.length} i levende brug · ${protectedItems.length} beskyttet</div>${liveItems.length?`<p><b>Fjern fra tavler og slet</b> fjerner de valgte medier fra ${matrixRefs.size===1?'1 mediematrix':`${matrixRefs.size} mediematricer`}, fjerner ${otherWidgetRefs.size===1?'1 almindelig mediewidget':`${otherWidgetRefs.size} almindelige mediewidgets`} og nulstiller ${boardRefs.size} tavlebaggrund${boardRefs.size===1?'':'e'}. Matricer med andre medier bliver bevaret.</p>`:''}${protectedItems.length?`<p class="tn-error"><b>${protectedItems.length===1?'1 medie':`${protectedItems.length} medier`} kan ikke slettes endnu.</b> De indgår i Papirkurv eller et gendannelsespunkt. Fjern den beskyttende kopi først.</p>`:''}`;
       const finish=async result=>{for(const id of result.deletedMediaIds||[])container._tnMediaSelected.delete(String(id));const activeId=TN.runtime.activeBoard?.id;if(activeId&&(result.boardIds||[]).map(String).includes(String(activeId))){const board=await this.boardManager.get(activeId);if(board)await this.loadBoard(board,{writeRoute:false});}await this.renderMediaArchive(container);const blocked=(result.blockedIds||[]).length;const deletedText=result.deletedMediaIds.length===1?'1 medie slettet':`${result.deletedMediaIds.length} medier slettet`,matrixText=result.updatedWidgetIds?.length?(result.updatedWidgetIds.length===1?' · 1 matrix opdateret':` · ${result.updatedWidgetIds.length} matricer opdateret`):'',widgetText=result.widgetIds.length?(result.widgetIds.length===1?' · 1 widget fjernet':` · ${result.widgetIds.length} widgets fjernet`):'';this.toast(`${deletedText}${matrixText}${widgetText}${blocked?` · ${blocked} ikke slettet`:''}`);};
       const actions=[{label:'Annuller',run:()=>{}}];if(orphanIds.length)actions.push({label:`Slet kun uden brug · ${orphanIds.length}`,run:async()=>{const result=await this.mediaManager.removeMany(orphanIds,{removeLiveReferences:false});await finish(result);}});const deletableIds=chosen.filter(item=>!(item.usage||[]).some(ref=>ref.kind==='restorePoint'||ref.kind==='trash')).map(item=>String(item.id));if(deletableIds.length)actions.push({label:`Fjern fra tavler og slet · ${deletableIds.length}`,primary:true,run:async()=>{const result=await this.mediaManager.removeMany(deletableIds,{removeLiveReferences:true});await finish(result);}});this.modalManager.open({title:'Slet valgte medier?',body,actions});
@@ -13298,6 +13323,54 @@ Karakterdatasæt kan som alle andre datasæt kun slettes fra Datacenter.
       return result;
     };
   }
+
+  function findLiveDuplicateSingles(matrix,live){
+    const kind=kinds[matrix?.type],matrixItems=cleanItems(matrix);if(!kind||!matrixItems.length)return[];
+    const singles=live.filter(widget=>widget.type===kind.type),related=singles.filter(widget=>String(widget.relations?.matrixDissolve?.sourceMatrixId||'')===String(matrix.id));
+    if(related.length===matrixItems.length)return related;
+    const available=[...singles],picked=[];
+    for(const item of matrixItems){
+      const key=sourceKey(item),wanted=norm(item?.name||item?.title||item?.alt);
+      const index=available.findIndex(candidate=>{
+        const candidateKey=sourceKey(candidate.content||{}),got=norm(candidate.title||candidate.content?.name||candidate.content?.alt);
+        return(!key||!candidateKey||key===candidateKey)&&(!wanted||!got||wanted===got);
+      });
+      if(index<0)return[];
+      picked.push(available.splice(index,1)[0]);
+    }
+    const times=picked.map(widget=>Date.parse(widget.createdAt||0)).filter(Number.isFinite);if(times.length!==picked.length)return[];
+    const newest=Math.max(...times),oldest=Math.min(...times),matrixUpdated=Date.parse(matrix.updatedAt||0);
+    if(newest-oldest>5*60*1000||!Number.isFinite(matrixUpdated)||matrixUpdated<newest)return[];
+    return picked;
+  }
+
+  App.prototype.offerRestoredMatrixCleanup=async function(){
+    if(this.__plan093fkCleanupBusy||!TN.runtime.activeBoard)return false;
+    const ignored=this.__plan093fkIgnoredCleanup||(this.__plan093fkIgnoredCleanup=new Set()),live=[...(TN.runtime.activeWidgets||[])];
+    for(const matrix of live.filter(widget=>kinds[widget.type])){
+      if(ignored.has(String(matrix.id)))continue;
+      const duplicates=findLiveDuplicateSingles(matrix,live);if(!duplicates.length)continue;
+      const noun=duplicates.length===1?kinds[matrix.type].singular:kinds[matrix.type].plural;
+      const yes=confirm(`Den gendannede ${kinds[matrix.type].label.toLowerCase()} findes også som ${duplicates.length} enkelte ${noun}. Fjern de afledte enkeltwidgets og behold matrixen?`);
+      if(!yes){ignored.add(String(matrix.id));continue;}
+      this.__plan093fkCleanupBusy=true;
+      try{
+        for(const widget of duplicates){try{await this.lifecycle.suspend(widget.id);}catch(_){ }this.boardLayer.querySelector(`[data-widget-id="${CSS.escape(widget.id)}"]`)?.remove();await this.widgetManager.delete(TN.runtime.activeBoard,widget.id);}
+        await this.boardManager.update(TN.runtime.activeBoard);await this.storage.flush?.();
+        await this.renderActiveBoard({preserveSelection:false});
+        this.selectWidget(matrix.id);this.toast(`${duplicates.length} afledte ${noun} fjernet · matrixen er gendannet`);
+      }finally{this.__plan093fkCleanupBusy=false;}
+      return true;
+    }
+    return false;
+  };
+
+  const previousRenderActiveBoard=App.prototype.renderActiveBoard;
+  App.prototype.renderActiveBoard=async function(options){
+    const result=await previousRenderActiveBoard.call(this,options);
+    if(!this.__plan093fkCleanupBusy)setTimeout(()=>void this.offerRestoredMatrixCleanup(),0);
+    return result;
+  };
 
   const previousRegisterHelp=App.prototype.registerHelp;
   App.prototype.registerHelp=function(){
@@ -24558,5 +24631,659 @@ Bygger direkte på den fungerende v0.9.3et. Retter kun de to dublerede hjælpete
 <script id="plan-v093eu-help-arrow-clarification-owner">
 (function(TN){ if(TN) TN.version='0.9.3eu'; })(window.TavleNext);
 </script>
+<!-- Plan v0.9.3fa PDF-MATRIX · ISOLERET MINIATUREBLADRING OG ARTEFAKTFRI SIDEKONTROLLER OWNER SAFE:
+Bygger på v0.9.3ez. Bladring i en lille PDF opdaterer kun den valgte miniature. Sideknapperne i stor visning ligger uden for PDF-fladen, så de ikke dækker indhold eller indgår i Safari-kompositionen under pinch. Pinch-forhåndsvisningen skalerer én samlet PDF-stage i en separat wrapper. Sidevælgeren viser rene sidetal. Hjælp er tilpasset den faktiske betjening.
+--
+Tidligere beskrivelse:
+Bygger på v0.9.3ew. De små PDF'er kan bladres lokalt med synlige sidepile uden at åbne stor visning. Stor visning bruger PDF.js direkte i stedet for at montere en midlertidig PDFWidget, så den ikke rammer worker-konflikten på iPad. Visningen er smallere end fuld skærm, kan tilpasses som hel side eller bredde, zoomes og på computere ændres i størrelse. Dokument- og sidenavigation ejes af visningen og slår ikke igennem til tavlen. Hjælp er opdateret efter den faktiske betjening.
+-->
+<style id="plan-v093ex-pdf-matrix-style">
+.tn-widget.type-pdf-matrix{contain:layout style paint}.type-pdf-matrix .tn-widget-body{min-width:0!important;min-height:0!important;overflow:hidden!important;background:#0f172a;contain:layout paint}
+.tn-pdf-matrix{width:100%;max-width:100%;height:100%;max-height:100%;min-width:0;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;overflow:hidden;background:#0f172a;color:#f8fafc;contain:layout paint size}
+.tn-pdf-matrix-viewport{position:relative;width:100%;max-width:100%;height:100%;max-height:100%;min-width:0;min-height:0;overflow:auto;overscroll-behavior:contain;touch-action:pan-x pan-y;background:#0f172a;scrollbar-gutter:stable;contain:layout paint}
+.tn-pdf-matrix-viewport.is-pinching{cursor:zoom-in;user-select:none;-webkit-user-select:none}
+.tn-pdf-matrix-surface{position:relative;width:100%;height:100%;min-width:100%;min-height:100%;overflow:visible}.tn-pdf-matrix-grid{position:absolute;left:0;top:0;min-width:0;min-height:0;box-sizing:border-box;display:grid;grid-template-columns:repeat(var(--tn-pdf-matrix-cols,3),minmax(0,1fr));grid-template-rows:repeat(var(--tn-pdf-matrix-rows,2),minmax(0,1fr));gap:8px;padding:10px;overflow:hidden;transform:none;transform-origin:0 0;contain:layout paint}
+.tn-pdf-matrix-tile{position:relative;min-width:0;min-height:0;overflow:hidden;border:1px solid rgba(255,255,255,.18);border-radius:11px;background:#1e293b;color:#fff;box-shadow:0 4px 12px rgba(0,0,0,.22)}
+.tn-pdf-matrix-open{position:absolute;inset:0;z-index:1;width:100%;height:100%;padding:0;border:0;background:transparent;color:inherit;cursor:zoom-in;touch-action:manipulation}
+.tn-pdf-matrix-open:hover,.tn-pdf-matrix-open:focus-visible{outline:3px solid rgba(96,165,250,.72);outline-offset:-3px}
+.tn-pdf-matrix-preview{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#334155;pointer-events:none}
+.tn-pdf-matrix-preview canvas{position:absolute;inset:0;margin:auto;display:block;width:auto;height:auto;max-width:100%;max-height:100%;background:#e5e7eb}
+.tn-pdf-matrix-preview-status{position:absolute;inset:0;display:grid;place-items:center;padding:12px;color:#cbd5e1;font-size:12px;font-weight:850;text-align:center;background:linear-gradient(145deg,#334155,#111827)}
+.tn-pdf-matrix-preview.is-ready .tn-pdf-matrix-preview-status{display:none}
+.tn-pdf-matrix-name{position:absolute;z-index:3;inset:auto 0 0;min-width:0;padding:22px 38px 7px;background:linear-gradient(transparent,rgba(2,6,23,.96));font-size:12px;font-weight:850;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
+.tn-pdf-matrix-page-badge{position:absolute;z-index:4;top:7px;right:7px;max-width:calc(100% - 14px);padding:3px 7px;border-radius:999px;background:rgba(2,6,23,.82);color:#fff;font-size:10px;font-weight:900;pointer-events:none}
+.tn-pdf-matrix-tile-page{position:absolute;z-index:6;top:50%;width:34px;height:56px;transform:translateY(-50%);padding:0;border:1px solid rgba(255,255,255,.28);background:rgba(2,6,23,.72);color:#fff;font-size:26px;font-weight:900;line-height:1;cursor:pointer;touch-action:manipulation}
+.tn-pdf-matrix-tile-page[data-tile-prev]{left:4px;border-radius:9px 5px 5px 9px}.tn-pdf-matrix-tile-page[data-tile-next]{right:4px;border-radius:5px 9px 9px 5px}
+.tn-pdf-matrix-tile-page:hover,.tn-pdf-matrix-tile-page:focus-visible{background:#2563eb;outline:2px solid #93c5fd;outline-offset:1px}.tn-pdf-matrix-tile-page:disabled{opacity:.18;cursor:default;outline:none}
+.tn-pdf-matrix-nav{display:grid;grid-template-columns:48px minmax(0,1fr) 48px;align-items:center;gap:8px;min-width:0;max-width:100%;overflow:hidden;padding:7px 10px 9px;border-top:1px solid rgba(255,255,255,.14);background:#111827}
+.tn-pdf-matrix-nav button{height:36px;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:#1e293b;color:#fff;font-size:24px;font-weight:900;line-height:1;touch-action:manipulation}.tn-pdf-matrix-nav button:disabled{opacity:.35}
+.tn-pdf-matrix-page{display:grid;place-items:center;min-width:0;text-align:center;font-size:13px;font-weight:900;color:#e2e8f0}.tn-pdf-matrix-page small{display:flex;align-items:center;justify-content:center;gap:5px;max-width:100%;min-width:0;font-weight:650;color:#94a3b8;white-space:nowrap;overflow:visible}.tn-pdf-matrix-summary-text{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tn-pdf-matrix-page [data-matrix-zoom],.tn-pdf-matrix-page [data-matrix-reset]{flex:0 0 auto;border:1px solid transparent;background:transparent;color:#93c5fd;font:inherit;font-weight:900;padding:2px 6px;border-radius:7px;cursor:pointer;touch-action:manipulation}.tn-pdf-matrix-page [data-matrix-reset]{border-color:rgba(147,197,253,.42);background:#172554;color:#dbeafe;padding-inline:9px}.tn-pdf-matrix-page [data-matrix-zoom]:hover,.tn-pdf-matrix-page [data-matrix-zoom]:focus-visible,.tn-pdf-matrix-page [data-matrix-reset]:hover,.tn-pdf-matrix-page [data-matrix-reset]:focus-visible{background:#1e3a5f;border-color:#60a5fa;outline:2px solid #60a5fa;outline-offset:1px}
+
+.tn-pdf-matrix-reel-layer{position:fixed!important;inset:0!important;z-index:2147483200!important;display:grid!important;place-items:center!important;padding:max(10px,env(safe-area-inset-top)) max(10px,env(safe-area-inset-right)) max(10px,env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left))!important;background:rgba(2,6,23,.8)!important;color:#f8fafc;overflow:hidden}
+.tn-pdf-matrix-reel-panel{width:min(1180px,calc(100vw - 40px));height:min(900px,calc(100vh - 30px));min-width:min(540px,calc(100vw - 12px));min-height:min(430px,calc(100vh - 12px));display:grid;grid-template-rows:auto minmax(0,1fr);overflow:hidden;border:1px solid rgba(148,163,184,.48);border-radius:18px;background:#0f172a;box-shadow:0 30px 100px rgba(0,0,0,.62)}
+.tn-pdf-matrix-reel-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:9px;min-height:58px;padding:7px 9px;background:#172033;border-bottom:1px solid rgba(148,163,184,.3)}
+.tn-pdf-matrix-reel-head button,.tn-pdf-matrix-direct-toolbar button{min-height:40px;padding:0 13px;border:1px solid rgba(148,163,184,.38);border-radius:10px;background:#263449;color:#fff;font:inherit;font-weight:900;cursor:pointer;touch-action:manipulation}
+.tn-pdf-matrix-reel-head button:hover,.tn-pdf-matrix-reel-head button:focus-visible,.tn-pdf-matrix-direct-toolbar button:hover,.tn-pdf-matrix-direct-toolbar button:focus-visible{background:#334155;border-color:#60a5fa;outline:2px solid rgba(96,165,250,.55);outline-offset:1px}
+.tn-pdf-matrix-reel-head button:disabled,.tn-pdf-matrix-direct-toolbar button:disabled{opacity:.34;cursor:default;outline:none}
+.tn-pdf-matrix-reel-title{display:grid;gap:2px;min-width:0;text-align:center}.tn-pdf-matrix-reel-title strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:clamp(15px,2vw,21px)}.tn-pdf-matrix-reel-title small{color:#cbd5e1;font-size:12px;font-weight:800}.tn-pdf-matrix-reel-close{width:44px!important;padding:0!important;font-size:24px!important}
+.tn-pdf-matrix-reel-body{position:relative;min-width:0;min-height:0;overflow:hidden;padding:8px;background:#0b1220}.tn-pdf-matrix-reel-host{height:100%;min-width:0;min-height:0;overflow:hidden;border-radius:12px;background:#111827}
+.tn-pdf-matrix-direct-shell{height:100%;min-height:0;display:grid;grid-template-rows:auto minmax(0,1fr);background:#111827}
+.tn-pdf-matrix-direct-toolbar{display:flex;align-items:center;justify-content:center;gap:7px;min-height:48px;padding:5px 10px;background:#172033;border-bottom:1px solid rgba(148,163,184,.25);overflow-x:auto;overscroll-behavior-x:contain}
+.tn-pdf-matrix-direct-toolbar span{flex:0 0 auto;text-align:center;font-weight:900}.tn-pdf-matrix-direct-toolbar button{min-width:42px;min-height:36px;padding:0 11px}.tn-pdf-matrix-direct-toolbar button.active{background:#2563eb;border-color:#93c5fd}.tn-pdf-matrix-direct-toolbar [data-zoom-label]{min-width:72px;color:#fff}.tn-pdf-matrix-page-jump{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;min-width:88px;min-height:36px;padding:0 28px 0 12px;border:1px solid rgba(148,163,184,.38);border-radius:10px;background:#263449;color:#fff;font:inherit;font-weight:900;cursor:pointer;touch-action:manipulation}.tn-pdf-matrix-page-jump::after{content:'⌄';position:absolute;right:10px;top:50%;transform:translateY(-54%);font-size:15px;line-height:1;color:#fff;pointer-events:none}.tn-pdf-matrix-page-jump:hover,.tn-pdf-matrix-page-jump:focus-within{background:#334155;border-color:#60a5fa;outline:2px solid rgba(96,165,250,.55);outline-offset:1px}.tn-pdf-matrix-page-jump [data-page-label]{min-width:0;white-space:nowrap;pointer-events:none}.tn-pdf-matrix-page-jump [data-page-select]{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer;touch-action:manipulation}
+.tn-pdf-matrix-direct-body{min-width:0;min-height:0;display:grid;grid-template-columns:44px minmax(0,1fr) 44px;background:#46515c}
+.tn-pdf-matrix-direct-container{position:relative;min-width:0;min-height:0;overflow:auto;overscroll-behavior:contain;touch-action:pan-x pan-y;background:#46515c;outline:none}.tn-pdf-matrix-direct-container.is-pinching{cursor:zoom-in;user-select:none;-webkit-user-select:none}
+.tn-pdf-matrix-direct-viewer{min-width:100%;min-height:100%;display:flex;align-items:flex-start;justify-content:flex-start;padding:12px 16px 26px;box-sizing:border-box}
+.tn-pdf-matrix-direct-stage-wrap{position:relative;flex:0 0 auto;margin:0 auto;transform:none}
+.tn-pdf-matrix-direct-stage{position:relative;margin:0;background:#fff;box-shadow:0 3px 18px #000a;overflow:hidden;isolation:isolate;transform-origin:0 0;will-change:transform;-webkit-user-drag:none}.tn-pdf-matrix-direct-stage canvas{display:block;background:#fff;-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
+.tn-pdf-matrix-direct-container.is-pinching .tn-pdf-matrix-direct-stage{pointer-events:none}
+.tn-pdf-matrix-direct-loading,.tn-pdf-matrix-direct-error{min-height:100%;display:grid;place-items:center;align-content:center;gap:8px;padding:28px;color:#e2e8f0;text-align:center;font-weight:850}.tn-pdf-matrix-direct-error small{max-width:520px;color:#cbd5e1;line-height:1.4}
+.tn-pdf-matrix-direct-edge{position:relative;z-index:2;width:44px;height:100%;padding:0;border:0;border-radius:0;background:#36414d;color:rgba(255,255,255,.82);font-size:38px;font-weight:600;cursor:pointer;touch-action:manipulation;user-select:none;-webkit-user-select:none;-webkit-user-drag:none}.tn-pdf-matrix-direct-edge[data-edge-prev]{border-right:1px solid rgba(255,255,255,.14)}.tn-pdf-matrix-direct-edge[data-edge-next]{border-left:1px solid rgba(255,255,255,.14)}.tn-pdf-matrix-direct-edge:hover,.tn-pdf-matrix-direct-edge:focus-visible{color:#fff;background:#2563eb;outline:2px solid #93c5fd;outline-offset:-3px}.tn-pdf-matrix-direct-edge:disabled{opacity:.2;cursor:default;background:#2b3541}
+.tn-pdf-matrix-direct-stage .tn-pdf-form-layer{position:absolute;inset:0;z-index:3;pointer-events:none}.tn-pdf-matrix-direct-stage .tn-pdf-form-layer>*{position:absolute;box-sizing:border-box;pointer-events:auto;touch-action:manipulation}
+body.tn-pdf-matrix-reel-open{overflow:hidden!important}
+@media(pointer:fine) and (min-width:800px){.tn-pdf-matrix-reel-panel{resize:both}}
+@media(max-width:760px){.tn-pdf-matrix-reel-panel{width:calc(100vw - 12px);height:calc(100vh - 12px);min-width:0;min-height:0;border-radius:14px}.tn-pdf-matrix-reel-head{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:'title close' 'prev next';gap:6px;min-height:92px}.tn-pdf-matrix-reel-title{grid-area:title;text-align:left}.tn-pdf-matrix-reel-close{grid-area:close}.tn-pdf-matrix-reel-prev{grid-area:prev}.tn-pdf-matrix-reel-next{grid-area:next}.tn-pdf-matrix-reel-head button:not(.tn-pdf-matrix-reel-close){width:100%;font-size:13px}.tn-pdf-matrix-reel-body{padding:5px}.tn-pdf-matrix-direct-toolbar{justify-content:flex-start}.tn-pdf-matrix-direct-viewer{padding-inline:50px}}
+@media(max-width:520px){.tn-pdf-matrix-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;padding:6px}.tn-pdf-matrix-name{font-size:10px;padding:17px 33px 4px}.tn-pdf-matrix-tile-page{width:29px;height:48px;font-size:22px}.tn-pdf-matrix-direct-viewer{padding-inline:42px}.tn-pdf-matrix-direct-edge{width:42px}}
+</style>
+<script id="plan-v093ex-pdf-matrix-owner">
+(function(TN){
+  'use strict';
+  if(!TN||TN.__plan093exPdfMatrixOwner)return;
+  TN.__plan093exPdfMatrixOwner=true;
+
+  const App=TN.TavleNextApp;
+  const matrixItems=widget=>Array.isArray(widget?.content?.items)?widget.content.items.filter(item=>item&&(item.mediaId||item.url||item.src||item.name)):[];
+  const itemName=(item,index)=>String(item?.name||item?.title||`PDF ${index+1}`);
+  const hardStop=event=>{try{event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();}catch(_){}return false;};
+  const stopBubble=event=>{try{event.stopPropagation();}catch(_){}return false;};
+  const isTyping=target=>!!(target&&(target.isContentEditable||target.closest?.('input,textarea,select,[contenteditable="true"]')));
+  const norm=value=>String(value||'').trim().toLocaleLowerCase('da').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9æøå]+/g,'');
+  const thumbCache=TN.runtime.pdfMatrixThumbCache||(TN.runtime.pdfMatrixThumbCache=new Map());
+  let thumbQueue=Promise.resolve();
+
+  function ensureMatrixPdfRuntime(){
+    if(!Map.prototype.getOrInsertComputed)Object.defineProperty(Map.prototype,'getOrInsertComputed',{configurable:true,writable:true,value:function(key,callback){if(this.has(key))return this.get(key);const value=callback(key);this.set(key,value);return value;}});
+    if(!Map.prototype.getOrInsert)Object.defineProperty(Map.prototype,'getOrInsert',{configurable:true,writable:true,value:function(key,value){if(this.has(key))return this.get(key);this.set(key,value);return value;}});
+    const pdfjs=globalThis.pdfjsLib;if(!pdfjs?.getDocument)throw new Error('PDF-motoren kunne ikke startes');
+    const version=String(pdfjs.version||'');
+    const major=Number.parseInt(version.split('.')[0],10)||0;
+    const classic=major>0&&major<6;
+
+    /* Den almindelige PDF-import bruger på iPad den klassiske PDF.js 3-motor.
+       PDF-matrixen må i den situation ikke koble Plans indbyggede 6-worker på,
+       da API 3 + worker 6 giver versionsfejlen, selv om enkelte PDF'er virker. */
+    if(classic){
+      const classicWorker=String(TN.runtime.pdfClassicWorkerUrl||'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js');
+      try{pdfjs.GlobalWorkerOptions.workerSrc=classicWorker;}catch(_){}
+      /* En tidligere indbygget fake worker kan ligge globalt. Fjern kun denne
+         globale genvej; allerede oprettede PDF-workers og åbne PDF'er berøres ikke. */
+      if(globalThis.pdfjsWorker?.WorkerMessageHandler){
+        try{delete globalThis.pdfjsWorker;}catch(_){try{globalThis.pdfjsWorker=undefined;}catch(__){}}
+      }
+      return pdfjs;
+    }
+
+    const apple=(()=>{try{return /iPad|iPhone|iPod/i.test(navigator.userAgent)||(/Mac/i.test(navigator.platform||'')&&Number(navigator.maxTouchPoints)>1);}catch(_){return false;}})();
+    if(apple){
+      if(!globalThis.pdfjsWorker?.WorkerMessageHandler){
+        const source=String(globalThis.__TN_PDF_WORKER_SOURCE__||'');if(!source)throw new Error('Den indbyggede PDF-worker mangler');
+        let base='about:blank';try{base=String(document.baseURI||location.href||base);}catch(_){}
+        const runnable=source.replace(/\bimport\.meta\.url\b/g,JSON.stringify(base)).replace(/\bexport\s*\{\s*WorkerMessageHandler\s*\}\s*;?\s*$/,'');
+        Function('"use strict";\n'+runnable)();
+      }
+      return pdfjs;
+    }
+    if(!TN.runtime.pdfWorkerUrl&&globalThis.__TN_PDF_WORKER_SOURCE__)TN.runtime.pdfWorkerUrl=URL.createObjectURL(new Blob([globalThis.__TN_PDF_WORKER_SOURCE__],{type:'text/javascript'}));
+    if(TN.runtime.pdfWorkerUrl)pdfjs.GlobalWorkerOptions.workerSrc=TN.runtime.pdfWorkerUrl;
+    return pdfjs;
+  }
+
+  async function mediaBlob(media){
+    if(media?.blob instanceof Blob&&media.blob.size)return media.blob;
+    if(media?.originalBlob instanceof Blob&&media.originalBlob.size)return media.originalBlob;
+    if(typeof media?.dataUrl==='string'&&media.dataUrl.startsWith('data:')){try{return await (await fetch(media.dataUrl)).blob();}catch(_){}}
+    return null;
+  }
+
+  async function resolvePdfSource(app,widget,item,index,{repair=true}={}){
+    let media=null,blob=null,url=String(item?.url||item?.src||'').trim(),changed=false;
+    if(item?.mediaId){media=await app.mediaManager.get(item.mediaId);blob=await mediaBlob(media);}
+    if(!blob&&!url){
+      const wanted=norm(itemName(item,index));
+      try{
+        const trash=await app.storage.getAll('trash');
+        const candidate=trash.map(row=>row?.payload?.widget).find(row=>row?.type==='pdf'&&[row.title,row.content?.name].some(value=>norm(value)===wanted));
+        if(candidate?.content?.mediaId){const found=await app.mediaManager.get(candidate.content.mediaId),foundBlob=await mediaBlob(found);if(foundBlob){media=found;blob=foundBlob;item.mediaId=candidate.content.mediaId;changed=true;}}
+        if(!blob&&candidate?.content?.url){url=String(candidate.content.url);item.url=url;changed=true;}
+      }catch(_){}
+      if(!blob&&!url){
+        try{const all=await app.storage.getAll('media');const found=all.find(row=>/pdf/i.test(String(row?.mime||''))&&norm(row?.name)===wanted);const foundBlob=await mediaBlob(found);if(foundBlob){media=found;blob=foundBlob;item.mediaId=found.id;changed=true;}}catch(_){}
+      }
+    }
+    if(changed&&repair&&widget)try{await app.widgetManager.update(widget,{immediate:true});}catch(_){}
+    return {blob,url,media,key:blob?`media:${item.mediaId||media?.id||itemName(item,index)}:${media?.size||blob.size}:${media?.updatedAt||''}`:`url:${url}`,name:itemName(item,index)};
+  }
+
+  const queueThumb=task=>{const run=thumbQueue.then(task,task);thumbQueue=run.catch(()=>{});return run;};
+  const canvasBlob=(canvas,type='image/webp',quality=.82)=>new Promise(resolve=>{try{canvas.toBlob(resolve,type,quality);}catch(_){resolve(null);}});
+  function rememberThumb(key,value){thumbCache.set(key,value);while(thumbCache.size>50)thumbCache.delete(thumbCache.keys().next().value);return value;}
+
+  async function buildThumb(app,widget,item,index){
+    const source=await resolvePdfSource(app,widget,item,index);if(!source.blob&&!source.url)throw new Error('PDF-filen mangler');
+    const requestedPage=Math.max(1,Math.round(Number(item.page)||1)),cacheKey=`${source.key}|p${requestedPage}|v3`;
+    if(thumbCache.has(cacheKey))return thumbCache.get(cacheKey);
+    return queueThumb(async()=>{
+      if(thumbCache.has(cacheKey))return thumbCache.get(cacheKey);
+      const pdfjs=ensureMatrixPdfRuntime();let loadingTask=null,pdf=null,page=null;
+      try{
+        const config=source.blob?{data:new Uint8Array(await TN.blobArrayBuffer(source.blob))}:{url:source.url};
+        loadingTask=pdfjs.getDocument({...config,enableXfa:false,isEvalSupported:false,useWorkerFetch:false,stopAtErrors:false});pdf=await loadingTask.promise;
+        const pageNumber=TN.clamp(requestedPage,1,pdf.numPages);page=await pdf.getPage(pageNumber);const base=page.getViewport({scale:1}),scale=Math.min(500/base.width,680/base.height),viewport=page.getViewport({scale});
+        const dpr=Math.min(1.5,Math.max(1,Number(globalThis.devicePixelRatio)||1)),canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(viewport.width*dpr));canvas.height=Math.max(1,Math.round(viewport.height*dpr));
+        const context=canvas.getContext('2d',{alpha:false});context.fillStyle='#fff';context.fillRect(0,0,canvas.width,canvas.height);
+        const renderTask=page.render({canvasContext:context,viewport,transform:dpr!==1?[dpr,0,0,dpr,0,0]:null,background:'rgb(255,255,255)'});await renderTask.promise;
+        let blob=await canvasBlob(canvas);if(!blob)blob=await canvasBlob(canvas,'image/png');if(!blob)throw new Error('Miniaturen kunne ikke oprettes');
+        return rememberThumb(cacheKey,{blob,width:canvas.width,height:canvas.height,page:pageNumber,pages:pdf.numPages});
+      }finally{try{page?.cleanup?.();}catch(_){}try{await pdf?.destroy?.();}catch(_){}try{await loadingTask?.destroy?.();}catch(_){}}
+    });
+  }
+
+  async function paintThumb(canvas,result){
+    const context=canvas.getContext('2d',{alpha:false});let bitmap=null,url='';
+    try{if(typeof createImageBitmap==='function')bitmap=await createImageBitmap(result.blob);else{url=URL.createObjectURL(result.blob);bitmap=await new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=reject;image.src=url;});}canvas.width=result.width;canvas.height=result.height;context.fillStyle='#e5e7eb';context.fillRect(0,0,canvas.width,canvas.height);context.drawImage(bitmap,0,0,canvas.width,canvas.height);}
+    finally{try{bitmap?.close?.();}catch(_){}if(url)URL.revokeObjectURL(url);}
+  }
+
+  function pdfMatrixDefinition(){
+    return {heavy:true,async mount({widget,body,app}){
+      widget.content=widget.content||{};const items=matrixItems(widget),pageSize=TN.clamp(Math.round(Number(widget.content.pageSize)||6),2,18),pageCount=Math.max(1,Math.ceil(items.length/pageSize));
+      widget.content.pageSize=pageSize;widget.content.page=TN.clamp(Math.round(Number(widget.content.page)||0),0,pageCount-1);
+      const root=document.createElement('div');root.className='tn-pdf-matrix';root.innerHTML='<div class="tn-pdf-matrix-viewport" data-viewport><div class="tn-pdf-matrix-surface" data-surface><div class="tn-pdf-matrix-grid" data-grid></div></div></div><div class="tn-pdf-matrix-nav"><button type="button" data-prev aria-label="Forrige oversigtsside">‹</button><div class="tn-pdf-matrix-page"><span data-page></span><small data-summary></small></div><button type="button" data-next aria-label="Næste oversigtsside">›</button></div>';body.append(root);
+      const viewport=root.querySelector('[data-viewport]'),surface=root.querySelector('[data-surface]'),grid=root.querySelector('[data-grid]'),prev=root.querySelector('[data-prev]'),next=root.querySelector('[data-next]'),pageLabel=root.querySelector('[data-page]'),summary=root.querySelector('[data-summary]'),tileViews=new Map();let destroyed=false,renderToken=0,suppressOpenUntil=0,layoutFrame=0;
+      const matrixZoom=()=>TN.clamp(Math.round(Number(widget.content.matrixOverviewZoom)||100),65,200);
+      const viewportSize=()=>({width:Math.max(0,Math.floor(viewport.clientWidth||viewport.getBoundingClientRect().width||0)),height:Math.max(0,Math.floor(viewport.clientHeight||viewport.getBoundingClientRect().height||0))});
+      const applyMatrixZoom=()=>{const zoom=matrixZoom(),size=viewportSize();widget.content.matrixOverviewZoom=zoom;const zoomButton=summary.querySelector?.('[data-matrix-zoom]');if(zoomButton)zoomButton.textContent=`${zoom}%`;if(size.width<40||size.height<40)return null;const gridWidth=Math.max(1,Math.round(size.width*zoom/100)),gridHeight=Math.max(1,Math.round(size.height*zoom/100)),surfaceWidth=Math.max(size.width,gridWidth),surfaceHeight=Math.max(size.height,gridHeight);Object.assign(surface.style,{width:`${surfaceWidth}px`,height:`${surfaceHeight}px`,minWidth:`${surfaceWidth}px`,minHeight:`${surfaceHeight}px`});Object.assign(grid.style,{width:`${gridWidth}px`,height:`${gridHeight}px`,left:`${Math.max(0,Math.round((surfaceWidth-gridWidth)/2))}px`,top:`${Math.max(0,Math.round((surfaceHeight-gridHeight)/2))}px`,margin:'0',minWidth:'0',minHeight:'0'});return{...size,gridWidth,gridHeight};};
+      const shape=()=>{if(destroyed)return;const box=applyMatrixZoom();if(!box)return;const count=Math.min(pageSize,Math.max(1,items.length-widget.content.page*pageSize)),maxCols=Math.min(6,count);let best={cols:1,score:Infinity};for(let cols=1;cols<=maxCols;cols++){const rows=Math.max(1,Math.ceil(count/cols)),cellWidth=(box.gridWidth-20-Math.max(0,cols-1)*8)/cols,cellHeight=(box.gridHeight-20-Math.max(0,rows-1)*8)/rows,ratio=Math.max(.01,cellWidth/Math.max(1,cellHeight)),empty=rows*cols-count,score=Math.abs(Math.log(ratio/1.18))*110+Math.max(0,118-cellWidth)*4+Math.max(0,92-cellHeight)*5+empty*7;if(score<best.score)best={cols,score};}const rows=Math.max(1,Math.ceil(count/best.cols));grid.style.setProperty('--tn-pdf-matrix-cols',String(best.cols));grid.style.setProperty('--tn-pdf-matrix-rows',String(rows));};
+      const scheduleShape=()=>{cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(shape);};
+      const resetMatrixZoom=async event=>{if(event)hardStop(event);widget.content.matrixOverviewZoom=100;shape();requestAnimationFrame(()=>{if(destroyed)return;viewport.scrollLeft=0;viewport.scrollTop=0;});await app.widgetManager.update(widget,{immediate:true});};
+      const refreshTile=async view=>{if(!view||destroyed||!view.tile?.isConnected)return;const nonce=(view.nonce||0)+1;view.nonce=nonce;const {item,index,preview,canvas,status,badge,pagePrev,pageNext}=view;const wanted=Math.max(1,Math.round(Number(item.page)||1));badge.textContent=`Side ${wanted}`;pagePrev.disabled=wanted<=1;pageNext.disabled=false;try{const result=await buildThumb(app,widget,item,index);if(destroyed||view.nonce!==nonce||!view.tile.isConnected)return;await paintThumb(canvas,result);if(destroyed||view.nonce!==nonce||!view.tile.isConnected)return;preview.classList.add('is-ready');badge.textContent=`Side ${result.page} / ${result.pages}`;pagePrev.disabled=result.page<=1;pageNext.disabled=result.page>=result.pages;view.pages=result.pages;}catch(error){if(destroyed||view.nonce!==nonce||!view.tile.isConnected)return;status.textContent=error?.message||'PDF’en kunne ikke vises';badge.textContent='PDF mangler';pagePrev.disabled=pageNext.disabled=true;}};
+      const changeItemPage=async(view,delta)=>{if(!view)return;const {item,index}=view,current=Math.max(1,Math.round(Number(item.page)||1)),pages=Math.max(1,Math.round(Number(view.pages)||current)),nextPage=TN.clamp(current+delta,1,pages);if(nextPage===current)return;item.page=nextPage;widget.content.activeIndex=index;view.badge.textContent=`Side ${nextPage} / ${pages}`;view.pagePrev.disabled=nextPage<=1;view.pageNext.disabled=nextPage>=pages;await app.widgetManager.update(widget,{immediate:true});void refreshTile(view);};
+      const render=()=>{
+        const token=++renderToken;tileViews.clear();grid.replaceChildren();const start=widget.content.page*pageSize,visible=items.slice(start,start+pageSize);
+        pageLabel.textContent=pageCount>1?`Side ${widget.content.page+1} / ${pageCount}`:`${items.length} PDF${items.length===1?'':'’er'}`;summary.innerHTML='';const summaryText=document.createElement('span');summaryText.className='tn-pdf-matrix-summary-text';summaryText.textContent=pageCount>1?`${start+1}–${Math.min(items.length,start+visible.length)} af ${items.length}`:(widget.title||'PDF-matrix');const matrixZoomButton=document.createElement('button');matrixZoomButton.type='button';matrixZoomButton.dataset.matrixZoom='';matrixZoomButton.title='Nulstil matrixzoom til 100 %';matrixZoomButton.setAttribute('aria-label','Matrixzoom. Tryk for at nulstille til 100 procent');matrixZoomButton.textContent=`${matrixZoom()}%`;matrixZoomButton.onclick=resetMatrixZoom;const matrixResetButton=document.createElement('button');matrixResetButton.type='button';matrixResetButton.dataset.matrixReset='';matrixResetButton.textContent='Nulstil zoom';matrixResetButton.title='Nulstil matrixzoom og placering';matrixResetButton.setAttribute('aria-label','Nulstil matrixzoom og placering');matrixResetButton.onclick=resetMatrixZoom;summary.append(summaryText,document.createTextNode(' · '),matrixZoomButton,matrixResetButton);prev.disabled=pageCount<2;next.disabled=pageCount<2;
+        visible.forEach((item,localIndex)=>{
+          const index=start+localIndex,tile=document.createElement('article'),open=document.createElement('button'),preview=document.createElement('span'),canvas=document.createElement('canvas'),status=document.createElement('span'),name=document.createElement('span'),badge=document.createElement('span'),pagePrev=document.createElement('button'),pageNext=document.createElement('button');
+          tile.className='tn-pdf-matrix-tile';open.type='button';open.className='tn-pdf-matrix-open';open.setAttribute('aria-label',`Åbn ${itemName(item,index)} i stor visning`);preview.className='tn-pdf-matrix-preview';status.className='tn-pdf-matrix-preview-status';status.textContent='Indlæser PDF-side …';name.className='tn-pdf-matrix-name';name.textContent=itemName(item,index);badge.className='tn-pdf-matrix-page-badge';badge.textContent=`Side ${Math.max(1,Number(item.page)||1)}`;
+          pagePrev.type='button';pagePrev.className='tn-pdf-matrix-tile-page';pagePrev.dataset.tilePrev='';pagePrev.textContent='‹';pagePrev.title='Forrige side i denne PDF';pagePrev.setAttribute('aria-label',`Forrige side i ${itemName(item,index)}`);pagePrev.disabled=true;
+          pageNext.type='button';pageNext.className='tn-pdf-matrix-tile-page';pageNext.dataset.tileNext='';pageNext.textContent='›';pageNext.title='Næste side i denne PDF';pageNext.setAttribute('aria-label',`Næste side i ${itemName(item,index)}`);pageNext.disabled=true;
+          preview.append(canvas,status);tile.append(open,preview,name,badge,pagePrev,pageNext);grid.append(tile);
+          const view={token,item,index,tile,open,preview,canvas,status,name,badge,pagePrev,pageNext,pages:0,nonce:0};tileViews.set(index,view);
+          open.addEventListener('click',event=>{hardStop(event);if(Date.now()<suppressOpenUntil)return;void app.openPdfMatrixViewer(widget.id,index,{returnFocus:open});});
+          pagePrev.onclick=event=>{hardStop(event);if(Date.now()<suppressOpenUntil)return;void changeItemPage(view,-1);};pageNext.onclick=event=>{hardStop(event);if(Date.now()<suppressOpenUntil)return;void changeItemPage(view,1);};
+          void refreshTile(view);
+        });shape();
+      };
+      const touchPoints=new Map();let pinch=null,pinchSaveTimer=0;
+      const touchPair=()=>Array.from(touchPoints.values()).slice(0,2);
+      const distance=(a,b)=>Math.hypot(b.x-a.x,b.y-a.y);
+      const midpoint=(a,b)=>({x:(a.x+b.x)/2,y:(a.y+b.y)/2});
+      const saveMatrixZoom=()=>{clearTimeout(pinchSaveTimer);pinchSaveTimer=setTimeout(()=>void app.widgetManager.update(widget,{immediate:true}),120);};
+      const beginMatrixPinch=event=>{const pair=touchPair();if(pair.length<2)return;const rect=viewport.getBoundingClientRect(),mid=midpoint(pair[0],pair[1]),scrollW=Math.max(1,viewport.scrollWidth),scrollH=Math.max(1,viewport.scrollHeight);pinch={distance:Math.max(1,distance(pair[0],pair[1])),startZoom:matrixZoom(),xRatio:(viewport.scrollLeft+mid.x-rect.left)/scrollW,yRatio:(viewport.scrollTop+mid.y-rect.top)/scrollH};viewport.classList.add('is-pinching');suppressOpenUntil=Date.now()+600;event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();};
+      const matrixPointerDown=event=>{if(event.pointerType!=='touch')return;touchPoints.set(event.pointerId,{x:event.clientX,y:event.clientY});event.stopPropagation();if(touchPoints.size===2)beginMatrixPinch(event);};
+      const matrixPointerMove=event=>{if(event.pointerType!=='touch'||!touchPoints.has(event.pointerId))return;touchPoints.set(event.pointerId,{x:event.clientX,y:event.clientY});event.stopPropagation();if(!pinch||touchPoints.size<2)return;event.preventDefault();event.stopImmediatePropagation?.();const pair=touchPair(),next=TN.clamp(Math.round(pinch.startZoom*(distance(pair[0],pair[1])/pinch.distance)),65,200);if(next===matrixZoom())return;widget.content.matrixOverviewZoom=next;shape();const rect=viewport.getBoundingClientRect(),mid=midpoint(pair[0],pair[1]);requestAnimationFrame(()=>{if(destroyed)return;viewport.scrollLeft=Math.max(0,pinch.xRatio*viewport.scrollWidth-(mid.x-rect.left));viewport.scrollTop=Math.max(0,pinch.yRatio*viewport.scrollHeight-(mid.y-rect.top));});suppressOpenUntil=Date.now()+600;};
+      const matrixPointerEnd=event=>{if(event.pointerType!=='touch')return;touchPoints.delete(event.pointerId);event.stopPropagation();if(pinch&&touchPoints.size<2){pinch=null;viewport.classList.remove('is-pinching');suppressOpenUntil=Date.now()+500;saveMatrixZoom();}};
+      viewport.addEventListener('pointerdown',matrixPointerDown,{passive:false});viewport.addEventListener('pointermove',matrixPointerMove,{passive:false});viewport.addEventListener('pointerup',matrixPointerEnd,{passive:false});viewport.addEventListener('pointercancel',matrixPointerEnd,{passive:false});
+      const change=async delta=>{if(pageCount<2)return;widget.content.page=(widget.content.page+delta+pageCount)%pageCount;await app.widgetManager.update(widget,{immediate:true});render();};
+      prev.onclick=event=>{hardStop(event);void change(-1);};next.onclick=event=>{hardStop(event);void change(1);};const observer=typeof ResizeObserver==='function'?new ResizeObserver(scheduleShape):null;observer?.observe(viewport);render();scheduleShape();
+      return()=>{destroyed=true;renderToken++;cancelAnimationFrame(layoutFrame);clearTimeout(pinchSaveTimer);observer?.disconnect();viewport.removeEventListener('pointerdown',matrixPointerDown);viewport.removeEventListener('pointermove',matrixPointerMove);viewport.removeEventListener('pointerup',matrixPointerEnd);viewport.removeEventListener('pointercancel',matrixPointerEnd);};
+    },unmount(){}};
+  }
+
+  function installPdfMatrix(app){if(!app?.widgetManager)return;app.widgetManager.register('pdf-matrix',pdfMatrixDefinition());}
+  const previousRegister=TN.registerDefaultWidgets;TN.registerDefaultWidgets=function(app){previousRegister(app);installPdfMatrix(app);};
+  queueMicrotask(()=>{const app=TN.runtime?.app||window.tavleNextApp;if(app)installPdfMatrix(app);});
+
+  const fieldKey=field=>field?.dataset?.elementId||field?.getAttribute?.('name')||field?.id||'';
+  const readField=field=>field.type==='checkbox'||field.type==='radio'?{kind:field.type,value:field.value,checked:!!field.checked}:field.tagName==='SELECT'&&field.multiple?{kind:'select-multiple',value:[...field.selectedOptions].map(option=>option.value)}:{kind:(field.type||field.tagName||'text').toLowerCase(),value:field.value};
+  const applyField=(field,state)=>{if(!state)return;if(state.kind==='checkbox'||state.kind==='radio')field.checked=!!state.checked;else if(state.kind==='select-multiple'&&Array.isArray(state.value)){for(const option of field.options)option.selected=state.value.includes(option.value);}else if(state.value!=null)field.value=state.value;};
+
+  App.prototype.openPdfMatrixViewer=async function(widgetId,startIndex=0,{returnFocus=null}={}){
+    this.closePdfMatrixViewer?.();const widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(widgetId))||await this.storage.get('widgets',widgetId),items=matrixItems(widget);
+    if(!widget||!items.length){this.toast('PDF-matrixen indeholder ingen PDF-filer');return null;}
+    const layer=document.createElement('section');layer.id='tnPdfMatrixViewer';layer.className='tn-modal-layer tn-pdf-matrix-reel-layer';layer.setAttribute('role','dialog');layer.setAttribute('aria-modal','true');layer.setAttribute('aria-label','PDF-matrix i stor visning');
+    layer.innerHTML='<div class="tn-pdf-matrix-reel-panel"><header class="tn-pdf-matrix-reel-head"><button type="button" class="tn-pdf-matrix-reel-prev" data-doc-prev title="Forrige PDF (pil op)">▲ Forrige PDF</button><div class="tn-pdf-matrix-reel-title"><strong data-doc-title></strong><small data-doc-count></small></div><button type="button" class="tn-pdf-matrix-reel-next" data-doc-next title="Næste PDF (pil ned)">Næste PDF ▼</button><button type="button" class="tn-pdf-matrix-reel-close" data-close title="Luk (Esc)" aria-label="Luk stor visning">×</button></header><div class="tn-pdf-matrix-reel-body"><div class="tn-pdf-matrix-reel-host" data-pdf-host></div></div></div>';document.body.append(layer);
+    const appRoot=this.root||document.getElementById('tavleNextApp'),priorInert=!!appRoot?.inert,priorAria=appRoot?.getAttribute('aria-hidden'),priorOverflow=document.body.style.overflow;if(appRoot){try{appRoot.inert=true;}catch(_){}appRoot.setAttribute('aria-hidden','true');}document.body.classList.add('tn-pdf-matrix-reel-open');document.body.style.overflow='hidden';
+    const host=layer.querySelector('[data-pdf-host]'),title=layer.querySelector('[data-doc-title]'),counter=layer.querySelector('[data-doc-count]'),docPrev=layer.querySelector('[data-doc-prev]'),docNext=layer.querySelector('[data-doc-next]'),closeButton=layer.querySelector('[data-close]'),panel=layer.querySelector('.tn-pdf-matrix-reel-panel'),controller=new AbortController();
+    let index=TN.clamp(Math.round(Number(startIndex)||0),0,items.length-1),closed=false,serial=0,loadingTask=null,pdf=null,page=null,renderTask=null,resizeObserver=null,resizeTimer=0,saveTimer=0;
+
+    const currentItem=()=>items[index];
+    const collectFields=()=>{const item=currentItem();if(!item)return;const formData={...(item.formData||{})};host.querySelectorAll('.tn-pdf-form-layer input,.tn-pdf-form-layer textarea,.tn-pdf-form-layer select').forEach(field=>{const key=fieldKey(field);if(key)formData[key]=readField(field);});item.formData=formData;};
+    const viewerContainer=()=>host.querySelector('[data-viewer-container]');
+    const rememberScroll=()=>{const item=currentItem(),container=viewerContainer();if(!item||!container)return;item.pageScroll=item.pageScroll||{};const rec={top:Math.max(0,Math.round(container.scrollTop||0)),left:Math.max(0,Math.round(container.scrollLeft||0))};item.pageScroll[String(Math.max(1,Number(item.page)||1))]=rec;item.scrollTop=rec.top;item.scrollLeft=rec.left;};
+    const persist=async({immediate=false}={})=>{collectFields();rememberScroll();widget.content.activeIndex=index;clearTimeout(saveTimer);await this.widgetManager.update(widget,{immediate});};
+    const scheduleSave=()=>{clearTimeout(saveTimer);saveTimer=setTimeout(()=>void persist(),220);};
+    const destroyPdf=async()=>{clearTimeout(resizeTimer);try{renderTask?.cancel?.();}catch(_){}renderTask=null;try{page?.cleanup?.();}catch(_){}page=null;try{await pdf?.destroy?.();}catch(_){}pdf=null;try{await loadingTask?.destroy?.();}catch(_){}loadingTask=null;};
+    const pageNumber=()=>TN.clamp(Math.round(Number(currentItem()?.page)||1),1,Math.max(1,Number(pdf?.numPages)||1));
+    const viewMode=()=>currentItem()?.matrixViewMode==='width'?'width':'page';
+    const zoomPercent=()=>TN.clamp(Math.round(Number(currentItem()?.matrixZoom)||100),50,250);
+    const updateHeader=()=>{const item=currentItem();title.textContent=itemName(item,index);counter.textContent=`PDF ${index+1} af ${items.length} · ↑/↓ skifter PDF · ←/→ skifter side`;const canCycle=items.length>1;docPrev.disabled=!canCycle;docNext.disabled=!canCycle;};
+    const updateToolbar=()=>{const item=currentItem(),pageNo=pageNumber(),pages=Math.max(1,Number(pdf?.numPages)||1),pageSelect=host.querySelector('[data-page-select]'),pageLabel=host.querySelector('[data-page-label]');if(pageSelect){if(Number(pageSelect.dataset.pages)!==pages){pageSelect.replaceChildren(...Array.from({length:pages},(_,i)=>{const option=document.createElement('option');option.value=String(i+1);option.textContent=String(i+1);return option;}));pageSelect.dataset.pages=String(pages);}pageSelect.value=String(pageNo);pageSelect.title=`Side ${pageNo} af ${pages} · vælg en side`;pageSelect.setAttribute('aria-label',`Side ${pageNo} af ${pages}. Vælg en side`);}if(pageLabel)pageLabel.textContent=`${pageNo}/${pages}`;const p=host.querySelector('[data-page-prev]'),n=host.querySelector('[data-page-next]'),ep=host.querySelector('[data-edge-prev]'),en=host.querySelector('[data-edge-next]');if(p)p.disabled=pageNo<=1;if(n)n.disabled=pageNo>=pages;if(ep)ep.disabled=pageNo<=1;if(en)en.disabled=pageNo>=pages;const zoom=host.querySelector('[data-zoom-label]');if(zoom){zoom.textContent=`${zoomPercent()}%`;zoom.title=`Nulstil zoom fra ${zoomPercent()} % til 100 %`;zoom.setAttribute('aria-label',`Nulstil zoom fra ${zoomPercent()} procent til 100 procent`);}host.querySelector('[data-fit-page]')?.classList.toggle('active',viewMode()==='page');host.querySelector('[data-fit-width]')?.classList.toggle('active',viewMode()==='width');if(item)item.page=pageNo;};
+    const restoreScroll=()=>{const item=currentItem(),container=viewerContainer();if(!item||!container)return;const stored=item.pageScroll?.[String(pageNumber())],top=Number(stored?.top??item.scrollTop)||0,left=Number(stored?.left??item.scrollLeft)||0;requestAnimationFrame(()=>{if(closed||!container.isConnected)return;container.scrollTop=Math.max(0,Math.min(top,Math.max(0,container.scrollHeight-container.clientHeight)));container.scrollLeft=Math.max(0,Math.min(left,Math.max(0,container.scrollWidth-container.clientWidth)));});};
+    const positionNode=(node,rect,viewport)=>{const converted=viewport.convertToViewportRectangle(rect),left=Math.min(converted[0],converted[2]),top=Math.min(converted[1],converted[3]),width=Math.max(8,Math.abs(converted[2]-converted[0])),height=Math.max(8,Math.abs(converted[3]-converted[1]));Object.assign(node.style,{left:`${left}px`,top:`${top}px`,width:`${width}px`,height:`${height}px`});return{left,top,width,height};};
+    const resolveDestinationPage=async destination=>{try{let dest=destination;if(typeof dest==='string')dest=await pdf.getDestination(dest);if(!Array.isArray(dest)||!dest.length)return 0;const ref=dest[0];if(Number.isFinite(ref))return TN.clamp(Number(ref)+1,1,pdf.numPages);return TN.clamp((await pdf.getPageIndex(ref))+1,1,pdf.numPages);}catch(_){return 0;}};
+    const renderAnnotations=async(pdfPage,viewport,stage,token)=>{const layerNode=document.createElement('div');layerNode.className='tn-pdf-form-layer';stage.append(layerNode);let annotations=[];try{annotations=await pdfPage.getAnnotations({intent:'display'});}catch(_){}if(closed||token!==serial)return;const saved=currentItem()?.formData||{};annotations.forEach((annotation,annotationIndex)=>{if(!annotation?.rect)return;const subtype=String(annotation.subtype||''),fieldType=String(annotation.fieldType||''),key=String(annotation.id||annotation.fieldName||`field-${pageNumber()}-${annotationIndex}`);let node=null;
+      if(subtype==='Link'||annotation.url||annotation.unsafeUrl||annotation.dest||annotation.action){node=document.createElement('button');node.type='button';node.className='tn-pdf-link-hotspot';node.title=annotation.url||annotation.unsafeUrl?'Åbn link':'Gå til PDF-side';node.setAttribute('aria-label',node.title);node.onclick=async event=>{hardStop(event);if(annotation.url||annotation.unsafeUrl){const url=annotation.url||annotation.unsafeUrl;try{window.open(url,'_blank','noopener,noreferrer');}catch(_){location.href=url;}return;}const action=String(annotation.action||'');if(action==='NextPage')return goPage(1);if(action==='PrevPage')return goPage(-1);if(action==='FirstPage')return setPage(1);if(action==='LastPage')return setPage(pdf.numPages);const target=await resolveDestinationPage(annotation.dest);if(target)return setPage(target);};}
+      else if(fieldType==='Tx'){node=annotation.multiLine?document.createElement('textarea'):document.createElement('input');if(node.tagName==='INPUT')node.type='text';node.className='tn-pdf-form-field';node.dataset.elementId=key;node.name=annotation.fieldName||key;node.value=String(annotation.fieldValue??'');}
+      else if(fieldType==='Btn'&&(annotation.checkBox||annotation.radioButton)){node=document.createElement('input');node.type=annotation.radioButton?'radio':'checkbox';node.className='tn-pdf-form-check';node.dataset.elementId=key;node.name=annotation.fieldName||key;node.value=String(annotation.exportValue||annotation.buttonValue||'Yes');const raw=String(annotation.fieldValue??'');node.checked=!!raw&&!/^(Off|false|0)$/i.test(raw);}
+      else if(fieldType==='Ch'){node=document.createElement('select');node.className='tn-pdf-form-field';node.dataset.elementId=key;node.name=annotation.fieldName||key;node.multiple=!!annotation.multiSelect;for(const optionData of annotation.options||[]){const option=document.createElement('option'),display=typeof optionData==='object'?(optionData.displayValue??optionData.exportValue):(optionData??''),value=typeof optionData==='object'?(optionData.exportValue??display):display;option.value=String(value);option.textContent=String(display);node.append(option);}const value=annotation.fieldValue;if(Array.isArray(value)){for(const option of node.options)option.selected=value.map(String).includes(option.value);}else if(value!=null)node.value=String(value);}
+      if(!node)return;const pos=positionNode(node,annotation.rect,viewport);if(node.matches('.tn-pdf-form-field'))node.style.fontSize=`${TN.clamp(Math.round(pos.height*.5),9,18)}px`;layerNode.append(node);applyField(node,saved[key]);if(!node.classList.contains('tn-pdf-link-hotspot')){node.addEventListener('input',scheduleSave);node.addEventListener('change',scheduleSave);node.addEventListener('pointerdown',stopBubble);}
+    });};
+
+    const renderPage=async({restore=true}={})=>{if(!pdf||closed)return;const token=++serial,container=viewerContainer(),viewer=host.querySelector('[data-direct-viewer]');if(!container||!viewer)return;try{renderTask?.cancel?.();}catch(_){}try{page?.cleanup?.();}catch(_){}page=null;viewer.innerHTML='<div class="tn-pdf-matrix-direct-loading">Gengiver PDF …</div>';updateToolbar();
+      try{page=await pdf.getPage(pageNumber());if(closed||token!==serial)return;const base=page.getViewport({scale:1}),availableW=Math.max(180,container.clientWidth-32),availableH=Math.max(180,container.clientHeight-28),fit=viewMode()==='width'?availableW/Math.max(1,base.width):Math.min(availableW/Math.max(1,base.width),availableH/Math.max(1,base.height)),scale=Math.max(.12,fit*(zoomPercent()/100)),viewport=page.getViewport({scale});const stage=document.createElement('div');stage.className='tn-pdf-matrix-direct-stage';stage.style.width=`${viewport.width}px`;stage.style.height=`${viewport.height}px`;const wrap=document.createElement('div');wrap.className='tn-pdf-matrix-direct-stage-wrap';wrap.style.width=`${viewport.width}px`;wrap.style.height=`${viewport.height}px`;const canvas=document.createElement('canvas'),cssWidth=Math.max(1,viewport.width),cssHeight=Math.max(1,viewport.height),rawDpr=Math.max(1,Number(devicePixelRatio)||1),maxPixels=14000000,dpr=Math.max(.65,Math.min(2,rawDpr,Math.sqrt(maxPixels/Math.max(1,cssWidth*cssHeight))));canvas.width=Math.max(1,Math.floor(cssWidth*dpr));canvas.height=Math.max(1,Math.floor(cssHeight*dpr));canvas.style.width=`${cssWidth}px`;canvas.style.height=`${cssHeight}px`;canvas.draggable=false;stage.append(canvas);wrap.append(stage);viewer.replaceChildren(wrap);const context=canvas.getContext('2d',{alpha:false});context.fillStyle='#fff';context.fillRect(0,0,canvas.width,canvas.height);renderTask=page.render({canvasContext:context,viewport,transform:dpr!==1?[dpr,0,0,dpr,0,0]:null,background:'rgb(255,255,255)',annotationMode:ensureMatrixPdfRuntime().AnnotationMode?.ENABLE_FORMS});await renderTask.promise;if(closed||token!==serial)return;await renderAnnotations(page,viewport,stage,token);updateToolbar();if(restore)restoreScroll();}
+      catch(error){if(error?.name==='RenderingCancelledException'||closed||token!==serial)return;console.error('PDF-matrixens side kunne ikke gengives',error);viewer.innerHTML=`<div class="tn-pdf-matrix-direct-error"><strong>PDF-siden kunne ikke vises</strong><small>${TN.escapeHtml(error?.message||'Ukendt fejl')}</small></div>`;}
+    };
+    const setPage=async pageNo=>{if(!pdf)return;collectFields();rememberScroll();const item=currentItem(),next=TN.clamp(Math.round(Number(pageNo)||1),1,pdf.numPages);if(next===pageNumber())return;item.page=next;await persist({immediate:true});await renderPage({restore:true});};
+    const goPage=delta=>setPage(pageNumber()+delta);
+    const setView=async(mode,zoom=100)=>{rememberScroll();const item=currentItem();item.matrixViewMode=mode;item.matrixZoom=TN.clamp(Math.round(Number(zoom)||100),50,250);await persist({immediate:true});await renderPage({restore:false});};
+    const changeZoom=delta=>setView(viewMode(),zoomPercent()+delta);
+    const buildShell=()=>{host.innerHTML='<div class="tn-pdf-matrix-direct-shell"><div class="tn-pdf-matrix-direct-toolbar"><button type="button" data-page-prev title="Forrige side (pil venstre)">←</button><span class="tn-pdf-matrix-page-jump" data-page-jump><span data-page-label>1/1</span><select data-page-select aria-label="Gå direkte til side"></select></span><button type="button" data-page-next title="Næste side (pil højre)">→</button><button type="button" data-zoom-out title="Zoom ud">−</button><button type="button" data-zoom-label title="Nulstil zoom til 100 %">100%</button><button type="button" data-zoom-in title="Zoom ind">＋</button><button type="button" data-fit-page title="Vis hele siden">Side</button><button type="button" data-fit-width title="Tilpas til bredden">Bredde</button></div><div class="tn-pdf-matrix-direct-body"><button type="button" class="tn-pdf-matrix-direct-edge" data-edge-prev aria-label="Forrige PDF-side">‹</button><div class="tn-pdf-matrix-direct-container" data-viewer-container tabindex="0"><div class="tn-pdf-matrix-direct-viewer" data-direct-viewer></div></div><button type="button" class="tn-pdf-matrix-direct-edge" data-edge-next aria-label="Næste PDF-side">›</button></div></div>';
+      const c=viewerContainer();c.addEventListener('scroll',scheduleSave,{passive:true,signal:controller.signal});host.querySelector('[data-page-prev]').onclick=event=>{hardStop(event);void goPage(-1);};host.querySelector('[data-page-next]').onclick=event=>{hardStop(event);void goPage(1);};host.querySelector('[data-page-select]').onchange=event=>{event.stopPropagation();void setPage(Number(event.currentTarget.value)||1);};host.querySelector('[data-edge-prev]').onclick=event=>{hardStop(event);void goPage(-1);};host.querySelector('[data-edge-next]').onclick=event=>{hardStop(event);void goPage(1);};host.querySelector('[data-zoom-out]').onclick=event=>{hardStop(event);void changeZoom(-10);};host.querySelector('[data-zoom-label]').onclick=event=>{hardStop(event);void setView(viewMode(),100);};host.querySelector('[data-zoom-in]').onclick=event=>{hardStop(event);void changeZoom(10);};host.querySelector('[data-fit-page]').onclick=event=>{hardStop(event);void setView('page',100);};host.querySelector('[data-fit-width]').onclick=event=>{hardStop(event);void setView('width',100);};
+      const points=new Map();let gesture=null,pinchCommitBusy=false;const pair=()=>Array.from(points.values()).slice(0,2),dist=(a,b)=>Math.hypot(b.x-a.x,b.y-a.y),mid=(a,b)=>({x:(a.x+b.x)/2,y:(a.y+b.y)/2});
+      const clearPreview=()=>{const stage=host.querySelector('.tn-pdf-matrix-direct-stage'),wrap=stage?.closest('.tn-pdf-matrix-direct-stage-wrap');if(!stage||!wrap)return;stage.style.transform='';wrap.style.width=wrap.dataset.baseWidth||wrap.style.width;wrap.style.height=wrap.dataset.baseHeight||wrap.style.height;delete wrap.dataset.baseWidth;delete wrap.dataset.baseHeight;c.classList.remove('is-pinching');};
+      const beginPinch=event=>{const p=pair(),stage=host.querySelector('.tn-pdf-matrix-direct-stage'),wrap=stage?.closest('.tn-pdf-matrix-direct-stage-wrap');if(p.length<2||!stage||!wrap)return;const r=stage.getBoundingClientRect(),center=mid(p[0],p[1]);wrap.dataset.baseWidth=wrap.style.width||`${stage.offsetWidth}px`;wrap.dataset.baseHeight=wrap.style.height||`${stage.offsetHeight}px`;gesture={distance:Math.max(1,dist(p[0],p[1])),startZoom:zoomPercent(),previewZoom:zoomPercent(),baseWidth:Math.max(1,stage.offsetWidth),baseHeight:Math.max(1,stage.offsetHeight),anchorX:TN.clamp((center.x-r.left)/Math.max(1,r.width),0,1),anchorY:TN.clamp((center.y-r.top)/Math.max(1,r.height),0,1)};c.classList.add('is-pinching');event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();};
+      const onPointerDown=event=>{if(event.pointerType!=='touch')return;points.set(event.pointerId,{x:event.clientX,y:event.clientY});event.stopPropagation();if(points.size===2)beginPinch(event);};
+      const onPointerMove=event=>{if(event.pointerType!=='touch'||!points.has(event.pointerId))return;points.set(event.pointerId,{x:event.clientX,y:event.clientY});event.stopPropagation();if(!gesture||points.size<2)return;event.preventDefault();event.stopImmediatePropagation?.();const p=pair(),stage=host.querySelector('.tn-pdf-matrix-direct-stage'),wrap=stage?.closest('.tn-pdf-matrix-direct-stage-wrap');if(!stage||!wrap)return;const center=mid(p[0],p[1]),next=TN.clamp(Math.round(gesture.startZoom*(dist(p[0],p[1])/gesture.distance)),50,250),ratio=next/gesture.startZoom;gesture.previewZoom=next;wrap.style.width=`${gesture.baseWidth*ratio}px`;wrap.style.height=`${gesture.baseHeight*ratio}px`;stage.style.transform=`scale(${ratio})`;const label=host.querySelector('[data-zoom-label]');if(label)label.textContent=`${next}%`;requestAnimationFrame(()=>{const nr=stage.getBoundingClientRect(),targetX=nr.left+gesture.anchorX*nr.width,targetY=nr.top+gesture.anchorY*nr.height;c.scrollLeft+=targetX-center.x;c.scrollTop+=targetY-center.y;});};
+      const commitPinch=async()=>{if(!gesture||pinchCommitBusy)return;pinchCommitBusy=true;const next=gesture.previewZoom,xRatio=(c.scrollLeft+c.clientWidth/2)/Math.max(1,c.scrollWidth),yRatio=(c.scrollTop+c.clientHeight/2)/Math.max(1,c.scrollHeight);gesture=null;clearPreview();const item=currentItem();item.matrixZoom=next;await persist({immediate:true});await renderPage({restore:false});requestAnimationFrame(()=>{c.scrollLeft=Math.max(0,xRatio*c.scrollWidth-c.clientWidth/2);c.scrollTop=Math.max(0,yRatio*c.scrollHeight-c.clientHeight/2);pinchCommitBusy=false;});};
+      const onPointerEnd=event=>{if(event.pointerType!=='touch')return;points.delete(event.pointerId);event.stopPropagation();if(gesture&&points.size<2)void commitPinch();};
+      c.addEventListener('pointerdown',onPointerDown,{passive:false,signal:controller.signal});c.addEventListener('pointermove',onPointerMove,{passive:false,signal:controller.signal});c.addEventListener('pointerup',onPointerEnd,{passive:false,signal:controller.signal});c.addEventListener('pointercancel',onPointerEnd,{passive:false,signal:controller.signal});};
+    const loadDocument=async()=>{const token=++serial;await destroyPdf();updateHeader();host.innerHTML='<div class="tn-pdf-matrix-direct-loading">Åbner PDF …</div>';try{const item=currentItem(),source=await resolvePdfSource(this,widget,item,index);if(!source.blob&&!source.url)throw new Error('PDF-filen findes ikke længere i Mediearkivet');const pdfjs=ensureMatrixPdfRuntime(),config=source.blob?{data:new Uint8Array(await TN.blobArrayBuffer(source.blob))}:{url:source.url};loadingTask=pdfjs.getDocument({...config,enableXfa:true,isEvalSupported:false,useWorkerFetch:false,stopAtErrors:false});pdf=await loadingTask.promise;if(closed||token!==serial)return;item.page=TN.clamp(Math.round(Number(item.page)||1),1,pdf.numPages);buildShell();updateToolbar();await renderPage({restore:true});}
+      catch(error){if(closed||token!==serial)return;console.error('PDF-matrix kunne ikke åbne dokumentet',error);host.innerHTML=`<div class="tn-pdf-matrix-direct-error"><strong>PDF’en kunne ikke åbnes</strong><small>${TN.escapeHtml(error?.message||'Ukendt fejl')}</small><button type="button" data-retry>Prøv igen</button></div>`;host.querySelector('[data-retry]')?.addEventListener('click',event=>{hardStop(event);void loadDocument();});}};
+    const changeDocument=async delta=>{if(items.length<2||!delta)return;const next=((index+delta)%items.length+items.length)%items.length;if(next===index)return;await persist({immediate:true});index=next;widget.content.activeIndex=index;await this.widgetManager.update(widget,{immediate:true});await loadDocument();};
+    const close=async()=>{if(closed)return;closed=true;controller.abort();clearTimeout(saveTimer);clearTimeout(resizeTimer);try{collectFields();rememberScroll();await this.widgetManager.update(widget,{immediate:true});}catch(_){}try{resizeObserver?.disconnect();}catch(_){}await destroyPdf();layer.remove();if(appRoot){try{appRoot.inert=priorInert;}catch(_){}if(priorAria==null)appRoot.removeAttribute('aria-hidden');else appRoot.setAttribute('aria-hidden',priorAria);}document.body.classList.remove('tn-pdf-matrix-reel-open');document.body.style.overflow=priorOverflow;if(this.pdfMatrixViewer?.layer===layer)this.pdfMatrixViewer=null;void this.refreshWidgetView?.(widget.id);try{returnFocus?.focus?.({preventScroll:true});}catch(_){}};
+    this.pdfMatrixViewer={layer,close,widgetId:widget.id};this.closePdfMatrixViewer=()=>void close();
+    docPrev.onclick=event=>{hardStop(event);void changeDocument(-1);};docNext.onclick=event=>{hardStop(event);void changeDocument(1);};closeButton.onclick=event=>{hardStop(event);void close();};
+    layer.addEventListener('pointerdown',stopBubble,{signal:controller.signal});layer.addEventListener('click',stopBubble,{signal:controller.signal});layer.addEventListener('wheel',stopBubble,{passive:true,signal:controller.signal});layer.addEventListener('touchmove',stopBubble,{passive:true,signal:controller.signal});layer.addEventListener('dragstart',hardStop,{capture:true,signal:controller.signal});
+    window.addEventListener('keydown',event=>{if(closed)return;if(event.key==='Escape'){if(isTyping(event.target)){hardStop(event);event.target.blur?.();return;}hardStop(event);void close();return;}if(!['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key))return;if(isTyping(event.target))return;hardStop(event);if(event.key==='ArrowUp')void changeDocument(-1);else if(event.key==='ArrowDown')void changeDocument(1);else if(event.key==='ArrowLeft')void goPage(-1);else void goPage(1);},{capture:true,signal:controller.signal});
+    layer.addEventListener('keydown',event=>{if(event.key!=='Tab')return;const focusable=[...layer.querySelectorAll('button:not([disabled]),input:not([disabled]),textarea:not([disabled]),select:not([disabled]),a[href],[tabindex]:not([tabindex="-1"])')].filter(node=>node.offsetParent!==null);if(!focusable.length)return;const first=focusable[0],last=focusable.at(-1);if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}},{capture:true,signal:controller.signal});
+    if(typeof ResizeObserver==='function'){resizeObserver=new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(!closed&&pdf)void renderPage({restore:true});},180);});resizeObserver.observe(panel);}
+    await loadDocument();requestAnimationFrame(()=>closeButton.focus({preventScroll:true}));return layer;
+  };
+
+  App.prototype.importPdfFiles=async function(files){
+    const accepted=[...(files||[])].filter(file=>this.inferImportMime(file)==='application/pdf'||/\.pdf$/i.test(file.name||''));if(!accepted.length){this.toast('Vælg PDF-filer');return[];}
+    const results=await this.mediaManager.importFiles(accepted,{optimize:false,keepOriginal:false}),board=TN.runtime.activeBoard,created=[],unique=[],seen=new Set(),stored=await this.storage.getAllByIndex('widgets','boardId',board.id),used=new Set();
+    for(const widget of stored){if(widget.type==='pdf'&&widget.content?.mediaId)used.add(String(widget.content.mediaId));if(widget.type==='pdf-matrix')for(const item of widget.content?.items||[])if(item?.mediaId)used.add(String(item.mediaId));}
+    for(const result of results){const id=String(result.media?.id||'');if(!id||seen.has(id)||used.has(id))continue;seen.add(id);unique.push(result);}
+    if(unique.length===1){const media=unique[0].media;created.push(await this.widgetManager.create(board,'pdf',{title:media.name,content:{mediaId:media.id,url:null,name:media.name,page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs'},geometry:{x:80,y:80,width:720,height:520}}));}
+    else if(unique.length>1){const items=unique.map(({media})=>({mediaId:media.id,url:null,name:media.name||'PDF-dokument',page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs',matrixViewMode:'page',matrixZoom:100}));created.push(await this.widgetManager.create(board,'pdf-matrix',{title:`PDF-matrix · ${items.length} dokumenter`,content:{items,page:0,pageSize:6,activeIndex:0,matrixOverviewZoom:100},geometry:{x:45,y:55,width:1110,height:690}}));}
+    if(created.length)await this.mountWidgetsIncrementally(created,{selectId:created.at(-1).id,bringToFront:true});const skipped=results.length-unique.length;this.toast(created.length?(unique.length===1?`1 PDF importeret${skipped?` · ${skipped} dublet${skipped===1?'':'ter'} sprunget over`:''}`:`${unique.length} PDF’er samlet i en PDF-matrix${skipped?` · ${skipped} dublet${skipped===1?'':'ter'} sprunget over`:''}`):'PDF-filerne findes allerede på tavlen');return created;
+  };
+
+  const previousHandleFiles=App.prototype.handleFiles;App.prototype.handleFiles=async function(files){const list=[...(files||[])],pdfs=list.filter(file=>this.inferImportMime(file)==='application/pdf'||/\.pdf$/i.test(file.name||''));if(pdfs.length<2)return previousHandleFiles.call(this,files);if(this.storage?.mode==='indexeddb'&&this.storage.ensureOpenIndexedDb){try{await this.storage.ensureOpenIndexedDb({force:!!this.__plan093esStorageMayNeedReconnect});}catch(error){const message=String(error?.message||error||'').toLowerCase();if(error?.name!=='InvalidStateError'&&!/connection is closing|connection is closed/.test(message))throw error;await new Promise(resolve=>setTimeout(resolve,150));await this.storage.ensureOpenIndexedDb({force:true});}this.__plan093esStorageMayNeedReconnect=false;}const created=await this.importPdfFiles(pdfs),rest=list.filter(file=>!pdfs.includes(file));if(rest.length)await previousHandleFiles.call(this,rest);return created;};
+
+  App.prototype.boardPdfWidgetsForMatrix=function(){return TN.runtime.activeWidgets.filter(widget=>widget.type==='pdf'&&!widget.settings?.hidden&&(widget.content?.mediaId||String(widget.content?.url||'').trim())).slice().sort((a,b)=>{const ay=Number(a.geometry?.y)||0,by=Number(b.geometry?.y)||0,ah=Number(a.geometry?.height)||120,bh=Number(b.geometry?.height)||120,tolerance=Math.max(18,Math.min(ah,bh)*.32);if(Math.abs(ay-by)>tolerance)return ay-by;return(Number(a.geometry?.x)||0)-(Number(b.geometry?.x)||0);});};
+  App.prototype.collectBoardPdfsIntoMatrix=async function(){const board=TN.runtime.activeBoard,widgets=this.boardPdfWidgetsForMatrix();if(widgets.length<2){this.toast('Der skal være mindst to PDFWidgets på tavlen');return null;}if(!confirm(`Saml ${widgets.length} PDF’er i én PDF-matrix? De oprindelige PDFWidgets flyttes til Papirkurv og kan gendannes.`))return null;const items=widgets.map((item,index)=>({...(TN.deepClone(item.content)||{}),name:item.title||item.content?.name||`PDF ${index+1}`,sourceWidgetId:item.id,matrixViewMode:'page',matrixZoom:100})),matrix=await this.widgetManager.create(board,'pdf-matrix',{title:`PDF-matrix · ${items.length} dokumenter`,content:{items,page:0,pageSize:6,activeIndex:0,matrixOverviewZoom:100},geometry:{x:45,y:55,width:1110,height:690}});for(const item of widgets){await this.trashManager.moveWidget(item,board);await this.widgetManager.delete(board,item.id);}await this.renderActiveBoard();this.selectWidget(matrix.id);this.toast(`${items.length} PDF’er samlet i en PDF-matrix`);return matrix;};
+
+  const previousMore=App.prototype.showWidgetMoreMenu;App.prototype.showWidgetMoreMenu=function(id,anchorButton){const result=previousMore.call(this,id,anchorButton),widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(id)),pop=[...document.querySelectorAll('.tn-widget-more-popover')].at(-1);if(!widget||!pop)return result;const add=(icon,label,key,run)=>{if(pop.querySelector(`[data-${key}]`))return;const button=document.createElement('button');button.type='button';button.dataset[key]='';button.innerHTML=`<span>${icon}</span><b>${TN.escapeHtml(label)}</b>`;button.onclick=()=>{this.closeLayoutPopover();Promise.resolve(run()).catch(error=>this.toast(error?.message||'Handlingen mislykkedes'));};pop.append(button);};if(widget.type==='pdf'&&this.boardPdfWidgetsForMatrix().length>1)add('▦','Saml tavlens PDF’er i matrix','pdfMatrixCollect',()=>this.collectBoardPdfsIntoMatrix());if(widget.type==='pdf-matrix')add('▣','Åbn PDF-matrix i stor visning','pdfMatrixOpen',()=>this.openPdfMatrixViewer(widget.id,Number(widget.content?.activeIndex)||0));return result;};
+
+  const previousRegisterHelp=App.prototype.registerHelp;App.prototype.registerHelp=function(){previousRegisterHelp.call(this);const put=(id,title,body,keywords='')=>{const old=this.helpRegistry.entries.find(item=>item.id===id);if(old)Object.assign(old,{title,body,keywords});else this.helpRegistry.register({id,title,body,keywords});const entry=this.helpRegistry.entries.find(item=>item.id===id);if(entry)TN.registry.help.set(id,entry);};
+    put('selection','Valg, fokus og tastaturejerskab',`<ul class="tn-help-list"><li><b>↑ / ↓</b> vælger forrige eller næste synlige widget på tavlen.</li><li><b>← / →</b> skifter tavle, når ingen åben visning selv bruger tasterne.</li><li><b>Enter</b> går ind i den valgte widget. <b>Esc</b> går ét niveau tilbage eller slipper widgetten.</li><li><b>F</b> fokuserer den valgte widget. <b>M</b> minimerer, og <b>Shift+M</b> maksimerer.</li><li><b>Delete</b> flytter en almindelig widget til Papirkurv.</li><li>En PDF-matrix på tavlen ejer ikke piletasterne. De små PDF’er bladres med deres egne synlige sidepile.</li></ul><p>Når en PDF åbnes stort fra matrixen, ejer visningen <b>↑ / ↓</b>, <b>← / →</b> og <b>Esc</b>. Tastetryk og klik går ikke videre til tavlen bagved.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="shortcuts">Genvejskort</button><button data-help-jump="cards">Matricer</button><button data-help-jump="pdf">PDF</button></div>`,'Valg, fokus, piletaster, Enter, Esc, PDF-matrix og tastaturejerskab');
+    put('zoom-focus','Zoom, fokus og stor visning',`<ul class="tn-help-list"><li>Tavlezoom ændrer kun visningen af widgets og tegning — ikke deres gemte størrelse eller placering. Brug zoomknapperne eller knib med to fingre på en fri del af tavlen. Tryk på procenttallet for at nulstille zoom og panorering.</li><li><b>F</b> fokuserer den valgte widget. <b>P</b> eller <b>R</b> skifter præsentation, og <b>Shift+Enter</b> skifter fuld skærm.</li><li><b>Esc</b> går normalt ét niveau tilbage: ud af indhold, fokus, stor visning eller dialog.</li></ul><p>En PDF fra en PDF-matrix åbnes i et stort, men ikke fuld-bredt vindue. Visningen starter som <b>Side</b>, så hele siden kan ses, og kan skiftes til <b>Bredde</b>. Zoom med knib med to fingre eller −/＋; tryk på procenttallet for at nulstille til 100 %. Tryk på sidefeltet og vælg det ønskede sidetal for at gå direkte til en side. På en computer kan vinduet også trækkes større eller mindre fra nederste højre hjørne.</p><p><b>↑ / ↓</b> skifter dokument, <b>← / →</b> skifter side, og <b>Esc</b> lukker. Med touch eller mus bruges dokumentknapperne øverst og sidepile i værktøjslinjen eller de faste knapper ved siden af PDF’en. Der bruges ikke swipe-navigation.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="shortcuts">Genvejskort</button><button data-help-jump="media">Mediematricer</button><button data-help-jump="pdf">PDF og PDF-matrix</button></div>`,'Præsentation, fokus, tavlezoom, hel side, bredde og stor PDF-visning');
+    put('shortcuts','Genvejskort — hurtigt overblik',`<div class="tn-help-key-grid"><div><b>Live</b><span><b>P/R</b> præsentation · <b>F</b> fokus · <b>Shift+Enter</b> fuld skærm · <b>Esc</b> tilbage</span></div><div><b>Tavler</b><span><b>←/→</b> skift tavle · <b>↑/↓</b> vælg widget · <b>Q/Å/Shift+T</b> oversigt</span></div><div><b>PDF-matrix · stor</b><span><b>↑/↓</b> forrige/næste PDF · <b>←/→</b> forrige/næste side · <b>Esc</b> luk</span></div><div><b>Widgets</b><span><b>Enter</b> ind i indhold · <b>M</b> minimér · <b>Shift+M</b> maksimer · <b>Delete</b> Papirkurv</span></div><div><b>Vinduer</b><span><b>G</b> Vindueslayout · <b>1–7</b> vælg layout · <b>Shift+R</b> gendan</span></div><div><b>Indhold</b><span><b>Shift+A</b> tekst · <b>Shift+I</b> billede · <b>Shift+L</b> link · <b>Shift+Q</b> KaPardy</span></div><div><b>System</b><span><b>Cmd/Ctrl+G</b> gem nu · <b>Shift+O</b> Redningsbælte · <b>Shift+Delete</b> permanent sletning</span></div><div><b>I Hjælp</b><span><b>→/←</b> næste/forrige afsnit · <b>↑/↓</b> scroll · <b>Enter</b> åbn/luk · <b>Esc</b> luk</span></div></div><details class="tn-help-shortcut-details"><summary>Vis alle registrerede tastaturgenveje</summary><div id="tnShortcutHelp"></div></details>`,'Tavle-, widget- og PDF-matrixgenveje');
+    put('cards','Kortmatricer og mediematricer',`<p>Plan bruger flere slags matricer. De ligner hinanden som oversigter, men deres indhold og ejerskab er forskelligt.</p><ul class="tn-help-list"><li><b>Kortmatricer</b> samler levende Elevkort, Gruppekort eller TavleKort. Kortene følger deres kilder og er ikke screenshots.</li><li><b>Mediematricer</b> samler billeder, video, lyd eller PDF-filer i én widget. Filerne ligger én gang i Mediearkivet.</li><li>En PDF-matrix viser reelle, renderede sider fra dokumenterne — ikke generiske PDF-symboler.</li><li>Hver lille PDF har egne ‹ / ›-knapper, så du kan bladre i dokumentet direkte i oversigten uden at åbne det stort.</li><li>Knib med to fingre direkte på matrixen for at gøre oversigten større eller mindre. Brug <b>Nulstil zoom</b> nederst for at vende tilbage til 100 % og matrixens udgangspunkt. Procenttallet kan også trykkes.</li><li>Kun dokumenterne på den synlige oversigtsside får sidevisninger. Det holder store forløb lettere.</li><li>Skjulning fjerner ikke kilden. Permanent sletning og fjernelse fra Mediearkivet er særskilte handlinger.</li></ul><p>Tryk midt på en PDF-side for at åbne dokumentet stort. I stor visning kan du knibe med to fingre for at zoome, trykke på procenttallet for at nulstille og bruge sidefeltets rullemenu med rene sidetal til at hoppe direkte til en side. Hvert dokument husker sin egen side, visningsmåde, zoom, scrollposition og formularstatus.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="students">Elevkort</button><button data-help-jump="groups">Grupper</button><button data-help-jump="media">Mediematricer</button><button data-help-jump="pdf">PDF-matrix</button></div>`,'Elevkort-, Gruppekort-, TavleKort- og mediematricer med bladrebare PDF-sider');
+    put('media','Billeder, PDF, video, lyd og Mediearkiv',`<p>Plan gemmer importerede medier i Mediearkivet og lader widgets pege på filerne. Den samme fil gemmes derfor ikke unødigt flere gange.</p><ul class="tn-help-list"><li>Én fil bliver en almindelig billed-, PDF-, video- eller lydwidget.</li><li>Flere billeder bliver en <b>Billedmatrix</b>; flere videoer en <b>Videomatrix</b>; flere lydfiler en <b>Lydmatrix</b>; og flere PDF’er en <b>PDF-matrix</b>.</li><li>PDF-matrixen viser den aktuelle side fra hver PDF som en rigtig lille PDF-side, ligesom billed- og videomatricer viser deres faktiske indhold.</li><li>Du kan bladre i hver lille PDF med dens egne sidepile. Det ændrer ikke tavle eller valgt widget.</li><li>Knib direkte på PDF-matrixen for at zoome selve oversigten. Brug <b>Nulstil zoom</b> nederst for at vende tilbage til 100 % og udgangspunktet. Matrixen ejer gestussen, så tavlen bagved ikke zoomer samtidig.</li><li>Eksisterende enkeltwidgets kan samles fra widgettens <b>•••</b>-menu. Originalerne flyttes til Papirkurv og kan gendannes.</li><li>En matrix gemmer referencer og visningstilstand, ikke nye kopier af hver mediefil.</li></ul><p>I stor visning skiftes dokumenter med op/ned-knapper eller ↑/↓. Dokumentrækken kører i ring, så næste efter den sidste er den første, og forrige før den første er den sidste. Sider skiftes med PDF’ens sidepile, de faste knapper ved siden af PDF’en eller ←/→. Tryk på sidefeltet for at vælge en bestemt side. Visningen kan tilpasses som Side eller Bredde og zoomes med knib eller −/＋; tryk på procenttallet for at nulstille. Der bruges ikke swipe-navigation.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="pdf">PDF og PDF-matrix</button><button data-help-jump="heavy">Tungt indhold</button><button data-help-jump="import">Filimport</button></div>`,'Billedmatrix, PDF-matrix, lokale sidepile, stor visning, video, lyd og Mediearkiv');
+    put('pdf','PDF og PDF-matrix',`<p>En enkelt PDF åbnes som en almindelig PDFWidget. Vælger eller slipper du flere PDF-filer samtidig, samler Plan dem automatisk i én <b>PDF-matrix</b>.</p><ul class="tn-help-list"><li>Matrixoversigten viser reelle sider fra PDF-filerne. Den side, der senest var åben i dokumentet, vises som lille forhåndsvisning.</li><li>Brug ‹ / › på den enkelte lille PDF til at bladre i den uden at åbne stor visning.</li><li>Knib med to fingre direkte på matrixen for at zoome oversigten. Brug den synlige <b>Nulstil zoom</b>-knap nederst for at vende tilbage til 100 % og udgangspunktet; procenttallet kan også trykkes.</li><li>Når widgetten ændres i størrelse, lægger Plan automatisk matrixen om inden for vinduet. Dokumenternes sider, zoom og placering ændres ikke.</li><li>Flere eksisterende PDFWidgets kan samles via <b>••• → Saml tavlens PDF’er i matrix</b>.</li><li>Tryk midt på en lille PDF-side for at åbne den store visning.</li><li>Stor visning starter med hele siden synlig. Vælg <b>Side</b> eller <b>Bredde</b>, og zoom med knib med to fingre eller −/＋. Tryk på zoomprocenten for at nulstille til 100 %. På computere kan vinduet også ændres i størrelse.</li><li>Tryk på sidefeltet, og vælg det ønskede sidetal i rullemenuen for at hoppe direkte i dokumentet.</li><li><b>↑ / ↓</b> skifter mellem PDF-filerne, mens <b>← / →</b> bladrer i den aktuelle PDF. Dokumenterne kører i ring: efter den sidste fortsætter visningen fra den første, og tilbage fra den første fortsætter fra den sidste.</li><li>Med touch eller mus bruges knapperne øverst til dokumenter og sidepile i værktøjslinjen eller de faste knapper til venstre og højre for PDF’en.</li><li><b>Esc</b> lukker stor visning. Står markøren i et formularfelt, slipper første Esc feltet, og næste Esc lukker.</li><li>Der bruges ikke swipe-navigation, så scroll, links, formularfelter og sidebetjening ikke kolliderer.</li></ul><p>Hvert dokument husker side, Side/Bredde, zoom, scrollposition og formularfelter. Tastetryk og pointerhandlinger i stor visning påvirker ikke tavlen bagved. Når matrixen står almindeligt på tavlen, ejer den ikke piletasterne.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Mediematricer</button><button data-help-jump="zoom-focus">Stor visning</button><button data-help-jump="import">Import</button></div>`,'Enkelt-PDF, PDF-matrix, små sidepile, pinch-zoom, sidevalg, hel side, bredde, formularer og navigation');
+    put('import','Import, direkte filslip og klassisk Tavle',`<p>Du kan vælge filer eller slippe dem direkte på Plan. Plan genkender blandt andet JSON, CSV, TSV, TXT, XLSX, ICS, PDF, HTML, billeder, lyd og video.</p><ul class="tn-help-list"><li>Datafiler åbner et preview, før de gemmes.</li><li>Én mediefil oprettes som en almindelig widget.</li><li>Flere billeder, videoer, lydfiler eller PDF’er samles automatisk pr. medietype i en matrix.</li><li>Én PDF forbliver en almindelig PDFWidget; flere PDF’er bliver en PDF-matrix med reelle og bladrebare sidevisninger.</li><li>HTML oprettes som sin egen HTMLWidget.</li><li>Backup++ og årsforløbspakker åbner et import-preview med sessionsvalg og konflikthåndtering.</li><li>Gamle Tavle-backups og kendte legacy-widgets konverteres, hvor Plan har en sikker tilsvarende model.</li></ul><p>Importen genbruger identiske mediefiler, når det er sikkert, og springer dubletter på den aktive tavle over. Ukendte elementer må ikke slettes stiltiende.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Medieimport</button><button data-help-jump="pdf">PDF-matrix</button><button data-help-jump="data">Dataimport</button><button data-help-jump="course-backup">Backupimport</button></div>`,'Filslip, flere PDF’er, bladrebare PDF-sidevisninger, mediematricer, CSV, Excel og backup');
+    const toolsEntry=this.helpRegistry.entries.find(item=>item.id==='tools');if(toolsEntry){toolsEntry.body=toolsEntry.body.replace('<b>PDF</b><small>dokument og formular</small>','<b>PDF</b><small>enkelt eller matrix</small>');TN.registry.help.set('tools',toolsEntry);}
+    put('heavy','Tungt indhold og aktiv livscyklus',`<p>PDF, PDF-matricer, HTML-apps, webvisninger, video og lyd kan være væsentligt tungere end tekst og lister. Plan holder derfor kun det nødvendige indhold aktivt.</p><ul class="tn-help-list"><li>Kun den aktive tavle monteres.</li><li>PDF-matrixen renderer kun små sider for dokumenterne på den aktuelle oversigtsside og genbruger dem i en begrænset cache.</li><li>Når du bladrer i en lille PDF, gengives kun den nye aktuelle side.</li><li>I stor visning er kun den ene PDF åben i PDF-motoren. De øvrige dokumenter forbliver lette referencer.</li><li>Video og lyd pauses ved tavleskift og når et andet lokalt medie starter.</li><li>Midlertidige PDF-data og renderinger frigives, når stor visning lukkes eller dokumentet skiftes.</li><li>HTML-apps kan suspenderes, når de ikke skal køre.</li></ul><p>Store forløb fungerer bedst, når tunge filer ligger i Mediearkivet og widgets bruger referencer frem for indlejrede kopier.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Medier</button><button data-help-jump="pdf">PDF-matrix</button><button data-help-jump="web-html">HTML-apps</button><button data-help-jump="storage">Lager</button></div>`,'Ydelse, PDF-sidevisninger, lokal bladring, lazy mounting, HTML, video og lyd');
+  };
+
+  TN.version='0.9.3fi';
+  window.__PLAN_PDF_MATRIX_BUILD__='0.9.3fi-2026-07-03';window.__PLAN_BOARD_CAMERA_BUILD__='0.9.3fd-2026-07-03';
+})(window.TavleNext);
+</script>
+<!-- Plan v0.9.3fg PDF-MATRIX · SIDETAL MED TOTAL OWNER SAFE: Bygger på v0.9.3ff. Sidefeltet viser igen aktuel side og samlet sidetal, fx 1/6, mens rullemenuen fortsat kun viser de enkelte sidenumre 1, 2, 3 osv. Øvrige PDF-matrix-, zoom- og tavlekamerafunktioner er uændrede. -->
+<!-- Plan v0.9.3fe PDF-MATRIX · CENTREREDE MINIATURER OG CIRKULÆR DOKUMENTNAVIGATION OWNER SAFE: Bygger på v0.9.3fd. PDF-miniaturernes canvas bevarer nu sidens eget format og centreres i feltet, så portræt- og landskabssider ikke får en kunstig stor overkant. Stor visning fortsætter fra sidste PDF til første og fra første til sidste med knapper og ↑/↓. Tavlekameraet fra v0.9.3fd er uændret. -->
+<!-- PLAN PDF MATRIX BUILD 0.9.3ez · pinch zoom, zoom reset and page chooser -->
+<!-- Plan v0.9.3fd TAVLEKAMERA BEVARES VED TAVLESKIFT OG IMPORT OWNER SAFE: Kameraelementet bevares/genoprettes af tavleejeren, så render, filimport, tavleskift og unmount aldrig skriver til et frakoblet DOM-element. Bygger på v0.9.3fc. | Tidligere note: Plan v0.9.3fc TAVLEZOOM UDEN HUL I TAVLEN OWNER SAFE: Bygger direkte på den bruger-testede PDF-matrix v0.9.3fa og kasserer v0.9.3fb. Tavlens faste overflade, baggrund og klipning transformeres aldrig. En separat gennemsigtig kameraflade indeholder widgets og tegning og kan zoomes/panoreres uden at ændre responsive pladser eller gemt geometri. Flytning, resize og rotation bruger den faktiske kameraskala. -->
+<!-- Plan v0.9.3fh PDF-MATRIX · ROBUST RESIZE OG INTERN KLIPNING OWNER SAFE: Bygger på v0.9.3fg. PDF-matrixens widget-body og rod kan ikke længere udvide widgettens CSS-gridspor. Matrixen bruger en intern pixelfast overflade, beregner kolonner ud fra både bredde og højde og omlægger sig via en rammebegrænset ResizeObserver. Resize ændrer ikke dokumentdata eller matrixzoom. -->
+<!-- Plan v0.9.3fi PDF-MATRIX · PDF.JS WORKER VERSION OWNER SAFE: Bygger på v0.9.3fh. PDF-matrixen genbruger nu den PDF.js-motor og worker-version, som den almindelige PDF-import allerede har startet. På iPad kobles den indbyggede 6-worker ikke længere på den klassiske 3.11.174-API. -->
+
+<!-- Plan v0.9.3fj MEDIEMATRIX · OPLØS TIL ENKELTE WIDGETS OWNER SAFE:
+Bygger direkte på v0.9.3fi. Billed-, video-, lyd- og PDF-matricer kan nu opløses fra
+widgettens •••-menu. Mediefilerne genbruges via de samme mediaId-referencer og kopieres
+ikke. Den oprindelige matrix flyttes til Papirkurv, så den kan gendannes. Elementernes
+rækkefølge, titler og relevante visningstilstande bevares, og de nye widgets fordeles
+ordnet på tavlen. Kort- og datamatricer er ikke omfattet. -->
+<script id="plan-v093fj-media-matrix-dissolve-owner">
+(function(TN){
+  'use strict';
+  if(!TN||TN.__plan093fjMediaMatrixDissolveOwner)return;
+  TN.__plan093fjMediaMatrixDissolveOwner=true;
+
+  const App=TN.TavleNextApp;
+  const matrixKinds={
+    'image-matrix':{type:'image',singular:'billede',plural:'billeder',label:'Billedmatrix',aspect:4/3},
+    'video-matrix':{type:'video',singular:'video',plural:'videoer',label:'Videomatrix',aspect:16/9},
+    'audio-matrix':{type:'audio',singular:'lydfil',plural:'lydfiler',label:'Lydmatrix',aspect:3.1},
+    'pdf-matrix':{type:'pdf',singular:'PDF',plural:'PDF’er',label:'PDF-matrix',aspect:1.25}
+  };
+
+  const cleanItems=widget=>Array.isArray(widget?.content?.items)
+    ?widget.content.items.filter(item=>item&&(item.mediaId||item.src||item.url||item.name||item.title))
+    :[];
+
+  const itemTitle=(kind,item,index)=>String(
+    item?.name||item?.title||item?.alt||
+    (kind.type==='image'?`Billede ${index+1}`:
+     kind.type==='video'?`Video ${index+1}`:
+     kind.type==='audio'?`Lydfil ${index+1}`:`PDF ${index+1}`)
+  );
+
+  const itemContent=(matrix,item)=>{
+    const copy=TN.deepClone(item)||{};
+    delete copy.sourceWidgetId;
+    if(matrix.type==='image-matrix'){
+      return {mediaId:copy.mediaId||null,src:copy.src||null,alt:copy.alt||copy.name||copy.title||'',fit:copy.fit||matrix.content?.fit||'contain'};
+    }
+    if(matrix.type==='video-matrix'){
+      return {mediaId:copy.mediaId||null,src:copy.src||null,url:copy.url||null,name:copy.name||copy.title||'',currentTime:Number(copy.currentTime)||0,volume:Number.isFinite(Number(copy.volume))?TN.clamp(Number(copy.volume),0,1):1,fit:copy.fit||matrix.content?.fit||'contain',mime:copy.mime||''};
+    }
+    if(matrix.type==='audio-matrix'){
+      return {mediaId:copy.mediaId||null,src:copy.src||null,url:copy.url||null,name:copy.name||copy.title||'',currentTime:Number(copy.currentTime)||0,volume:Number.isFinite(Number(copy.volume))?TN.clamp(Number(copy.volume),0,1):1,mime:copy.mime||''};
+    }
+    delete copy.matrixViewMode;
+    delete copy.matrixZoom;
+    copy.mediaId=copy.mediaId||null;
+    copy.url=copy.url||null;
+    copy.name=copy.name||copy.title||'PDF';
+    copy.page=Math.max(1,Math.round(Number(copy.page)||1));
+    copy.scrollTop=Math.max(0,Number(copy.scrollTop)||0);
+    copy.scrollLeft=Math.max(0,Number(copy.scrollLeft)||0);
+    copy.pageScroll=copy.pageScroll&&typeof copy.pageScroll==='object'?copy.pageScroll:{};
+    copy.formData=copy.formData&&typeof copy.formData==='object'?copy.formData:{};
+    copy.scale=copy.scale??'page-width';
+    copy.viewer=copy.viewer||'pdfjs';
+    return copy;
+  };
+
+  const bestGrid=(count,rect,aspect)=>{
+    const gap=12,maxCols=Math.min(count,6);let best={cols:1,rows:count,score:-Infinity};
+    for(let cols=1;cols<=maxCols;cols++){
+      const rows=Math.ceil(count/cols),w=(rect.width-gap*(cols-1))/cols,h=(rect.height-gap*(rows-1))/rows;
+      if(w<110||h<76)continue;
+      const shape=Math.min(w/Math.max(1,h*aspect),Math.max(1,h*aspect)/w),area=Math.min(w*h,180000);
+      const score=area*(.7+.3*shape);
+      if(score>best.score)best={cols,rows,score};
+    }
+    return {...best,gap};
+  };
+
+  App.prototype.dissolveMediaMatrix=async function(widgetId){
+    const board=TN.runtime.activeBoard,widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(widgetId)),kind=matrixKinds[widget?.type];
+    if(!board||!widget||!kind)return this.toast('Matrixen findes ikke længere');
+    const items=cleanItems(widget);
+    if(!items.length)return this.toast('Matrixen indeholder ingen medier');
+    const count=items.length,noun=count===1?kind.singular:kind.plural;
+    if(!confirm(`Opløs ${kind.label.toLowerCase()}en til ${count} enkelte ${noun}? Mediefilerne genbruges uden kopiering, og matrixen flyttes til Papirkurv.`))return null;
+
+    this.closePdfMatrixViewer?.();
+    const visible=typeof this.getWindowLayoutRect==='function'?this.getWindowLayoutRect(12):{x:12,y:12,width:1256,height:696};
+    const own=TN.Models.validateGeometry(widget.geometry||{}),useOwn=count<=4&&own.width>=360&&own.height>=240;
+    const rect=useOwn?{
+      x:TN.clamp(own.x,visible.x,visible.x+Math.max(0,visible.width-Math.min(own.width,visible.width))),
+      y:TN.clamp(own.y,visible.y,visible.y+Math.max(0,visible.height-Math.min(own.height,visible.height))),
+      width:Math.min(own.width,visible.width),height:Math.min(own.height,visible.height)
+    }:visible;
+    const grid=bestGrid(count,rect,kind.aspect),cellW=Math.max(110,(rect.width-grid.gap*(grid.cols-1))/grid.cols),cellH=Math.max(76,(rect.height-grid.gap*(grid.rows-1))/grid.rows),baseZ=Math.max(0,...TN.runtime.activeWidgets.map(item=>Number(item.geometry?.z)||0));
+    const created=[];
+    try{
+      for(let index=0;index<items.length;index++){
+        const col=index%grid.cols,row=Math.floor(index/grid.cols),title=itemTitle(kind,items[index],index),geometry={x:rect.x+col*(cellW+grid.gap),y:rect.y+row*(cellH+grid.gap),width:cellW,height:cellH,rotation:0,z:baseZ+index+1};
+        const single=await this.widgetManager.create(board,kind.type,{title,content:itemContent(widget,items[index]),geometry});
+        created.push(single);
+      }
+
+      this.detachWidgetFromResponsiveLayout?.(widget,{persist:false,silent:true});
+      const layout=board.meta?.responsiveWindowLayout;
+      if(layout?.slots){layout.slots=layout.slots.filter(slot=>String(slot.widgetId)!==String(widget.id));if(!layout.slots.length)delete board.meta.responsiveWindowLayout;}
+      const restore=board.meta?.windowLayoutRestore;
+      if(Array.isArray(restore?.snapshot))restore.snapshot=restore.snapshot.filter(item=>String(item.id)!==String(widget.id));
+
+      await this.trashManager.moveWidget(widget,board);
+      await this.widgetManager.delete(board,widget.id);
+      await this.boardManager.update(board);
+      await this.renderActiveBoard({preserveSelection:false});
+      if(created[0])this.selectWidget(created[0].id);
+      this.toast(`${count} ${noun} opløst til enkelte widgets · matrixen ligger i Papirkurv`);
+      return created;
+    }catch(error){
+      for(const item of created.slice().reverse()){
+        try{await this.widgetManager.delete(board,item.id);}catch(_){}
+      }
+      try{await this.renderActiveBoard({preserveSelection:false});}catch(_){}
+      throw error;
+    }
+  };
+
+  const previousMore=App.prototype.showWidgetMoreMenu;
+  App.prototype.showWidgetMoreMenu=function(id,anchorButton){
+    const result=previousMore.call(this,id,anchorButton),widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(id)),kind=matrixKinds[widget?.type],pop=[...document.querySelectorAll('.tn-widget-more-popover')].at(-1);
+    if(!widget||!kind||!pop||pop.querySelector('[data-media-matrix-dissolve]'))return result;
+    const button=document.createElement('button');button.type='button';button.dataset.mediaMatrixDissolve='';button.innerHTML='<span>⇱</span><b>Opløs matrix til enkelte widgets</b>';
+    button.onclick=()=>{this.closeLayoutPopover();Promise.resolve(this.dissolveMediaMatrix(widget.id)).catch(error=>this.toast(error?.message||'Matrixen kunne ikke opløses'));};
+    pop.append(button);return result;
+  };
+
+  const previousRegisterHelp=App.prototype.registerHelp;
+  App.prototype.registerHelp=function(){
+    previousRegisterHelp.call(this);
+    const patch=(id,needle,addition)=>{const entry=this.helpRegistry.entries.find(item=>item.id===id);if(!entry||entry.body.includes(addition))return;if(entry.body.includes(needle))entry.body=entry.body.replace(needle,needle+addition);else entry.body=entry.body.replace('</ul>',addition+'</ul>');TN.registry.help.set(id,entry);};
+    const mediaText='<li>En Billed-, Video-, Lyd- eller PDF-matrix kan opløses igen via <b>••• → Opløs matrix til enkelte widgets</b>. Elementernes rækkefølge og relevante visningstilstande følger med, filerne genbruges uden kopiering, og matrixen lægges i Papirkurv.</li>';
+    patch('media','<li>En matrix gemmer referencer og visningstilstand, ikke nye kopier af hver mediefil.</li>',mediaText);
+    patch('cards','<li><b>Mediematricer</b> samler billeder, video, lyd eller PDF-filer i én widget. Filerne ligger én gang i Mediearkivet.</li>',mediaText);
+    patch('pdf','<li>Flere eksisterende PDFWidgets kan samles via <b>••• → Saml tavlens PDF’er i matrix</b>.</li>','<li>En PDF-matrix kan opløses igen via <b>••• → Opløs matrix til enkelte widgets</b>. Aktuel side, formularfelter, scroll og øvrige dokumentdata følger med til de enkelte PDFWidgets.</li>');
+  };
+
+  TN.version='0.9.3fj';
+  window.__PLAN_MEDIA_MATRIX_DISSOLVE_BUILD__='0.9.3fj-2026-07-03';
+})(window.TavleNext);
+</script>
+
+
+
+<!-- Plan v0.9.3fk MEDIEMATRIX · SIKKER OPLØSNING OG ÆGTE GENDANNELSE OWNER SAFE:
+Bygger direkte på v0.9.3fj. Opløsning af en PDF-matrix afmonterer matrixens PDF-motor før
+oprettelse af enkeltwidgets, normaliserer PDF.js/worker-parret og monterer de nye PDFWidgets
+en ad gangen. Hver opløsning får en stabil batchrelation. Når den oprindelige matrix
+gendannes fra Papirkurv, fjernes kun de enkeltwidgets, der blev skabt af netop den opløsning,
+så gendannelsen fungerer som reel fortrydelse uden dubletter. Ældre v0.9.3fj-opløsninger kan
+genkendes forsigtigt via mediereference, titel og tidspunkt. Mediefiler kopieres ikke. -->
+<script id="plan-v093fk-media-matrix-dissolve-restore-owner">
+(function(TN){
+  'use strict';
+  if(!TN||TN.__plan093fkMediaMatrixDissolveRestoreOwner)return;
+  TN.__plan093fkMediaMatrixDissolveRestoreOwner=true;
+
+  const App=TN.TavleNextApp;
+  const Trash=TN.TrashManager;
+  const kinds={
+    'image-matrix':{type:'image',singular:'billede',plural:'billeder',label:'Billedmatrix',aspect:4/3},
+    'video-matrix':{type:'video',singular:'video',plural:'videoer',label:'Videomatrix',aspect:16/9},
+    'audio-matrix':{type:'audio',singular:'lydfil',plural:'lydfiler',label:'Lydmatrix',aspect:3.1},
+    'pdf-matrix':{type:'pdf',singular:'PDF',plural:'PDF’er',label:'PDF-matrix',aspect:1.25}
+  };
+  const norm=value=>String(value||'').trim().toLocaleLowerCase('da').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9æøå]+/g,'');
+  const cleanItems=widget=>Array.isArray(widget?.content?.items)?widget.content.items.filter(item=>item&&(item.mediaId||item.src||item.url||item.name||item.title)):[];
+  const itemTitle=(kind,item,index)=>String(item?.name||item?.title||item?.alt||(kind.type==='image'?`Billede ${index+1}`:kind.type==='video'?`Video ${index+1}`:kind.type==='audio'?`Lydfil ${index+1}`:`PDF ${index+1}`));
+  const sourceKey=item=>String(item?.mediaId||item?.url||item?.src||'');
+
+  function normalizeClassicPdfBridge(){
+    const lib=globalThis.pdfjsLib,major=Number.parseInt(String(lib?.version||'').split('.')[0],10)||0;
+    if(major>0&&major<6){
+      try{delete globalThis.pdfjsWorker;}catch(_){try{globalThis.pdfjsWorker=undefined;}catch(__){}}
+      const worker=String(TN.runtime.pdfClassicWorkerUrl||'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js');
+      try{lib.GlobalWorkerOptions.workerSrc=worker;}catch(_){ }
+      TN.runtime.pdfClassicWorkerUrl=worker;
+      TN.runtime.pdfClassicReady=true;
+      return lib;
+    }
+    if(TN.runtime.pdfClassicReady){
+      TN.runtime.pdfClassicReady=false;
+      TN.runtime.pdfClassicPromise=null;
+      document.querySelectorAll('script[data-tn-classic-pdfjs]').forEach(node=>node.remove());
+    }
+    return lib||null;
+  }
+
+  /* Flere enkelt-PDF'er må ikke starte PDF.js/worker samtidig på iPad. */
+  function installSerializedPdfMount(){
+    const pdfDef=TN.registry.widgets.get('pdf');
+    if(!pdfDef||pdfDef.__plan093fkSerializedMount)return;
+    const originalMount=pdfDef.mount;
+    pdfDef.mount=function(ctx){
+      const run=async()=>{normalizeClassicPdfBridge();return originalMount.call(this,ctx);};
+      const task=(TN.runtime.pdfSingleMountQueue||Promise.resolve()).catch(()=>{}).then(run);
+      TN.runtime.pdfSingleMountQueue=task.then(()=>undefined,()=>undefined);
+      return task;
+    };
+    pdfDef.__plan093fkSerializedMount=true;
+  }
+  const priorRegisterDefaultWidgets=TN.registerDefaultWidgets;
+  TN.registerDefaultWidgets=function(app){priorRegisterDefaultWidgets(app);installSerializedPdfMount();};
+  queueMicrotask(installSerializedPdfMount);
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>queueMicrotask(installSerializedPdfMount),{once:true});
+
+  const itemContent=(matrix,item)=>{
+    const copy=TN.deepClone(item)||{};
+    delete copy.sourceWidgetId;delete copy.matrixViewMode;delete copy.matrixZoom;
+    if(matrix.type==='image-matrix')return{mediaId:copy.mediaId||null,src:copy.src||null,alt:copy.alt||copy.name||copy.title||'',fit:copy.fit||matrix.content?.fit||'contain'};
+    if(matrix.type==='video-matrix')return{mediaId:copy.mediaId||null,src:copy.src||null,url:copy.url||null,name:copy.name||copy.title||'',currentTime:Number(copy.currentTime)||0,volume:Number.isFinite(Number(copy.volume))?TN.clamp(Number(copy.volume),0,1):1,fit:copy.fit||matrix.content?.fit||'contain',mime:copy.mime||''};
+    if(matrix.type==='audio-matrix')return{mediaId:copy.mediaId||null,src:copy.src||null,url:copy.url||null,name:copy.name||copy.title||'',currentTime:Number(copy.currentTime)||0,volume:Number.isFinite(Number(copy.volume))?TN.clamp(Number(copy.volume),0,1):1,mime:copy.mime||''};
+    copy.mediaId=copy.mediaId||null;copy.url=copy.url||null;copy.name=copy.name||copy.title||'PDF';
+    copy.page=Math.max(1,Math.round(Number(copy.page)||1));copy.scrollTop=Math.max(0,Number(copy.scrollTop)||0);copy.scrollLeft=Math.max(0,Number(copy.scrollLeft)||0);
+    copy.pageScroll=copy.pageScroll&&typeof copy.pageScroll==='object'?copy.pageScroll:{};copy.formData=copy.formData&&typeof copy.formData==='object'?copy.formData:{};
+    copy.scale=copy.scale??'page-width';copy.viewer='pdfjs';
+    return copy;
+  };
+
+  const bestGrid=(count,rect,aspect)=>{
+    const gap=12,maxCols=Math.min(count,6);let best={cols:1,rows:count,score:-Infinity};
+    for(let cols=1;cols<=maxCols;cols++){
+      const rows=Math.ceil(count/cols),w=(rect.width-gap*(cols-1))/cols,h=(rect.height-gap*(rows-1))/rows;
+      if(w<110||h<76)continue;
+      const shape=Math.min(w/Math.max(1,h*aspect),Math.max(1,h*aspect)/w),area=Math.min(w*h,180000),score=area*(.7+.3*shape);
+      if(score>best.score)best={cols,rows,score};
+    }
+    return{...best,gap};
+  };
+
+  App.prototype.dissolveMediaMatrix=async function(widgetId){
+    const board=TN.runtime.activeBoard,widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(widgetId)),kind=kinds[widget?.type];
+    if(!board||!widget||!kind)return this.toast('Matrixen findes ikke længere');
+    const items=cleanItems(widget);if(!items.length)return this.toast('Matrixen indeholder ingen medier');
+    const count=items.length,noun=count===1?kind.singular:kind.plural;
+    if(!confirm(`Opløs ${kind.label.toLowerCase()}en til ${count} enkelte ${noun}? Mediefilerne genbruges uden kopiering. Gendanner du matrixen fra Papirkurv, fjernes de oprettede enkeltwidgets igen.`))return null;
+
+    const batchId=TN.uid('matrix-dissolve'),created=[];
+    this.closePdfMatrixViewer?.();
+    try{await this.lifecycle.suspend(widget.id);}catch(_){ }
+    this.boardLayer.querySelector(`[data-widget-id="${CSS.escape(widget.id)}"]`)?.remove();
+    if(widget.type==='pdf-matrix')normalizeClassicPdfBridge();
+
+    const visible=typeof this.getWindowLayoutRect==='function'?this.getWindowLayoutRect(12):{x:12,y:12,width:1256,height:696};
+    const own=TN.Models.validateGeometry(widget.geometry||{}),useOwn=count<=4&&own.width>=360&&own.height>=240;
+    const rect=useOwn?{x:TN.clamp(own.x,visible.x,visible.x+Math.max(0,visible.width-Math.min(own.width,visible.width))),y:TN.clamp(own.y,visible.y,visible.y+Math.max(0,visible.height-Math.min(own.height,visible.height))),width:Math.min(own.width,visible.width),height:Math.min(own.height,visible.height)}:visible;
+    const grid=bestGrid(count,rect,kind.aspect),cellW=Math.max(110,(rect.width-grid.gap*(grid.cols-1))/grid.cols),cellH=Math.max(76,(rect.height-grid.gap*(grid.rows-1))/grid.rows),baseZ=Math.max(0,...TN.runtime.activeWidgets.map(item=>Number(item.geometry?.z)||0));
+
+    try{
+      for(let index=0;index<items.length;index++){
+        const col=index%grid.cols,row=Math.floor(index/grid.cols),title=itemTitle(kind,items[index],index),geometry={x:rect.x+col*(cellW+grid.gap),y:rect.y+row*(cellH+grid.gap),width:cellW,height:cellH,rotation:0,z:baseZ+index+1};
+        const relations={matrixDissolve:{batchId,sourceMatrixId:widget.id,sourceMatrixType:widget.type,itemIndex:index,createdAt:TN.now()}};
+        const single=await this.widgetManager.create(board,kind.type,{title,content:itemContent(widget,items[index]),geometry,relations});
+        created.push(single);
+      }
+
+      this.detachWidgetFromResponsiveLayout?.(widget,{persist:false,silent:true});
+      const layout=board.meta?.responsiveWindowLayout;
+      if(layout?.slots){layout.slots=layout.slots.filter(slot=>String(slot.widgetId)!==String(widget.id));if(!layout.slots.length)delete board.meta.responsiveWindowLayout;}
+      const restore=board.meta?.windowLayoutRestore;
+      if(Array.isArray(restore?.snapshot))restore.snapshot=restore.snapshot.filter(item=>String(item.id)!==String(widget.id));
+
+      const trashItem=await this.trashManager.moveWidget(widget,board);
+      trashItem.meta={...(trashItem.meta||{}),matrixDissolveBatchId:batchId,generatedWidgetIds:created.map(item=>item.id),sourceMatrixType:widget.type,dissolvedAt:TN.now()};
+      await this.storage.put('trash',trashItem);
+      await this.widgetManager.delete(board,widget.id);
+      await this.boardManager.update(board);await this.storage.flush?.();
+
+      /* Monter sekventielt; især flere PDFWidgets må ikke starte worker samtidig. */
+      await this.mountWidgetsIncrementally(created,{selectId:created[0]?.id,bringToFront:false});
+      this.toast(`${count} ${noun} opløst til enkelte widgets · gendan matrixen fra Papirkurv for at fortryde`);
+      return created;
+    }catch(error){
+      for(const item of created.slice().reverse())try{await this.widgetManager.delete(board,item.id);}catch(_){ }
+      try{await this.refreshWidgetView(widget.id);}catch(_){ }
+      throw error;
+    }
+  };
+
+  function matrixMatchCandidate(kind,item,candidate,deletedAt){
+    if(candidate?.type!==kind.type)return false;
+    const key=sourceKey(item),candidateKey=sourceKey(candidate.content||{});
+    if(key&&candidateKey&&key!==candidateKey)return false;
+    const wanted=norm(item?.name||item?.title||item?.alt),got=norm(candidate.title||candidate.content?.name||candidate.content?.alt);
+    if(wanted&&got&&wanted!==got)return false;
+    const when=Date.parse(candidate.createdAt||candidate.updatedAt||0),cut=Date.parse(deletedAt||0);
+    return Number.isFinite(when)&&Number.isFinite(cut)&&when>=cut-5*60*1000&&when<=cut+90*1000;
+  }
+
+  async function findDissolvedSingles(trashManager,item,{fallbackBoardId=null}={}){
+    const matrix=item?.payload?.widget,kind=kinds[matrix?.type];if(!kind)return{board:null,removeIds:[]};
+    const board=await trashManager.storage.get('boards',matrix.boardId)||await trashManager.storage.get('boards',fallbackBoardId);if(!board)return{board:null,removeIds:[]};
+    const live=await trashManager.storage.getAllByIndex('widgets','boardId',board.id),batchId=String(item.meta?.matrixDissolveBatchId||''),ids=new Set((item.meta?.generatedWidgetIds||[]).map(String));
+    let matches=live.filter(widget=>ids.has(String(widget.id))||(batchId&&String(widget.relations?.matrixDissolve?.batchId||'')===batchId));
+    if(!matches.length){
+      const available=[...live],picked=[],matrixItems=cleanItems(matrix);
+      for(const matrixItem of matrixItems){
+        const index=available.findIndex(candidate=>matrixMatchCandidate(kind,matrixItem,candidate,item.deletedAt));
+        if(index<0){picked.length=0;break;}
+        picked.push(available.splice(index,1)[0]);
+      }
+      if(picked.length===matrixItems.length)matches=picked;
+    }
+    return{board,removeIds:[...new Set(matches.map(widget=>String(widget.id)))]};
+  }
+
+  const originalRestore=Trash.prototype.restore;
+  Trash.prototype.restore=async function(item,options={}){
+    const matrix=item?.payload?.widget,kind=kinds[matrix?.type];
+    if(!kind)return originalRestore.call(this,item,options);
+    const found=await findDissolvedSingles(this,item,options),board=found.board;
+    if(!board)return originalRestore.call(this,item,options);
+    const widget=TN.deepClone(matrix),removeIds=found.removeIds;
+    widget.boardId=board.id;widget.updatedAt=TN.now();
+    board.widgetIds=(board.widgetIds||[]).filter(id=>!removeIds.includes(String(id))&&String(id)!==String(widget.id));
+    board.widgetIds.push(widget.id);board.updatedAt=TN.now();
+    const layout=board.meta?.responsiveWindowLayout;if(layout?.slots){layout.slots=layout.slots.filter(slot=>!removeIds.includes(String(slot.widgetId))&&String(slot.widgetId)!==String(widget.id));if(!layout.slots.length)delete board.meta.responsiveWindowLayout;}
+    const restore=board.meta?.windowLayoutRestore;if(Array.isArray(restore?.snapshot))restore.snapshot=restore.snapshot.filter(entry=>!removeIds.includes(String(entry.id))&&String(entry.id)!==String(widget.id));
+    await this.storage.transaction(['widgets','boards','trash'],'readwrite',({store})=>{for(const id of removeIds)store('widgets').delete(id);store('widgets').put(widget);store('boards').put(board);store('trash').delete(item.id);});
+    return{entityType:'widget',widget,board,removedDissolvedWidgetIds:removeIds};
+  };
+
+  const previousRegisterHelp=App.prototype.registerHelp;
+  App.prototype.registerHelp=function(){
+    previousRegisterHelp.call(this);
+    const patch=(id,needle,replacement)=>{const entry=this.helpRegistry.entries.find(item=>item.id===id);if(!entry)return;entry.body=entry.body.replace(needle,replacement);TN.registry.help.set(id,entry);};
+    patch('media','filerne genbruges uden kopiering, og matrixen lægges i Papirkurv.','filerne genbruges uden kopiering. Matrixen lægges i Papirkurv; gendanner du den, fjerner Plan automatisk de enkeltwidgets, som opløsningen oprettede.');
+    patch('cards','filerne genbruges uden kopiering, og matrixen lægges i Papirkurv.','filerne genbruges uden kopiering. Matrixen lægges i Papirkurv; gendannelse fungerer som fortrydelse og fjerner de afledte enkeltwidgets.');
+    patch('pdf','Aktuel side, formularfelter, scroll og øvrige dokumentdata følger med til de enkelte PDFWidgets.','Aktuel side, formularfelter, scroll og øvrige dokumentdata følger med til de enkelte PDFWidgets. PDFWidgets åbnes én ad gangen for at holde PDF-motoren stabil. Gendanner du matrixen fra Papirkurv, fjernes de PDFWidgets, som opløsningen oprettede.');
+  };
+
+  normalizeClassicPdfBridge();
+  TN.version='0.9.3fk';
+  window.__PLAN_MEDIA_MATRIX_DISSOLVE_RESTORE_BUILD__='0.9.3fk-2026-07-03';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
