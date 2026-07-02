@@ -1,3 +1,4 @@
+<!-- Plan v0.9.3ep SYNLIGT AFSTANDSVALG OWNER SAFE: Bygger direkte på v0.9.3eo. Retter den konkrete initialiseringsfejl hvor Gruppegalaksens afstandsknapper fandtes i DOM, men spacingPanel/spacingButtons ikke blev hentet af ejeren. Afstandsvalget Tæt/Mellem/Luftig vises nu i den nederste linje, også for niveaudelingsgalaksen, og placeres før teksten om at trække elever mellem holdene. Valget huskes fortsat pr. session og gruppering/datagrundlag. -->
 <!-- Plan v0.9.3eo GRUPPEGALAKSE HUSKER AFSTAND OWNER SAFE: Bygger direkte på v0.9.3en. Gruppegalaksens valg Tæt, Mellem eller Luftig huskes lokalt pr. session og gruppering/datagrundlag. Samme galakse åbner derfor med det senest valgte afstandsniveau næste gang, uden at ændre grupper, datasæt eller backupformater. Hvis lokal lagring ikke er tilgængelig, bruges Mellem som sikker standard. -->
 <!-- Plan v0.9.3en GRUPPEGALAKSE AFSTANDSVALG OWNER SAFE: Bygger direkte på v0.9.3em. Tilføjer tre enkle afstandsvalg i Gruppegalaksens resultatvisning: Tæt, Mellem og Luftig. Valget justerer kun den visuelle afstand mellem galakserne og medlemmernes placering, så brugeren hurtigt kan finde en balance mellem overlap og for stor spredning. Standard er Mellem, og valg kan skiftes uden at lave nye grupper. Øvrige gruppe-, drag-, animations- og gemmefunktioner er uændrede. -->
 <!-- Plan v0.9.3eh TEGNELINJE ERSTATTER VÆRKTØJSLINJE OWNER SAFE: Bygger direkte på v0.9.3eg. Når tegnetilstand er aktiv, skjules Plans almindelige nederste værktøjslinje og dens fremkalder, mens tegnelinjen eller den lille Vis tegnelinje-knap overtager samme placering. Den tidligere værktøjslinjetilstand huskes og gendannes ved Luk tegning. Skjul tegnelinje afslutter ikke tegnetilstanden. -->
@@ -1526,6 +1527,12 @@ html[data-plan-embed="true"] #tavleNextApp .tn-board-utility-button[data-clock-v
 #tavleNextApp.tn-board-drawing-active .tn-toolbar{transform:translateY(calc(100% + 24px)) scale(.97)!important;opacity:0!important;pointer-events:none!important;visibility:hidden!important}
 #tavleNextApp.tn-board-drawing-active .tn-toolbar-reveal{opacity:0!important;pointer-events:none!important;visibility:hidden!important}
 
+</style>
+
+<style id="plan-v093ep-level-spacing-visible">
+.tn-group-galaxy.tn-level-galaxy>footer .tn-galaxy-spacing{display:inline-flex!important;visibility:visible!important;flex:0 0 auto}
+.tn-group-galaxy.tn-level-galaxy>footer .tn-galaxy-spacing button{min-width:58px}
+@media(max-width:920px){.tn-group-galaxy.tn-level-galaxy>footer{flex-wrap:wrap}.tn-group-galaxy.tn-level-galaxy>footer .tn-galaxy-spacing{order:1}.tn-group-galaxy.tn-level-galaxy>footer .tn-level-drag-note{order:2;margin-left:auto}.tn-group-galaxy.tn-level-galaxy>footer [data-my-danish-hold],.tn-group-galaxy.tn-level-galaxy>footer [data-done]{order:3}}
 </style>
 </head>
 
@@ -7703,7 +7710,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 </div>
 <footer data-review hidden><button type="button" data-settings-button>Indstillinger</button><button type="button" data-replay>Vis igen</button><button type="button" data-remix>Bland igen</button><button type="button" data-prev-proposal hidden>‹ Forslag</button><span class="tn-galaxy-proposal" data-proposal></span><button type="button" data-next-proposal hidden>Forslag ›</button><div class="tn-galaxy-spacing" data-spacing><span>Afstand</span><button type="button" data-spacing-option="tight">Tæt</button><button type="button" data-spacing-option="medium" class="is-active" aria-pressed="true">Mellem</button><button type="button" data-spacing-option="airy">Luftig</button></div><button type="button" data-roles>Fordel roller</button><button type="button" data-undo-roles hidden>Fortryd roller</button><button type="button" class="primary" data-done>Brug grupperne</button></footer>`;
       document.body.append(overlay);document.documentElement.classList.add('tn-galaxy-open');
-      const settings=overlay.querySelector('[data-settings]'),starsRoot=overlay.querySelector('.tn-galaxy-stars'),groupsRoot=overlay.querySelector('.tn-galaxy-groups'),status=overlay.querySelector('[data-status]'),footer=overlay.querySelector('[data-review]'),plan=overlay.querySelector('[data-plan]'),warning=overlay.querySelector('[data-warning]'),valueOutput=overlay.querySelector('[data-value]'),generateButton=overlay.querySelector('[data-generate]'),proposalLabel=overlay.querySelector('[data-proposal]'),prevProposal=overlay.querySelector('[data-prev-proposal]'),nextProposal=overlay.querySelector('[data-next-proposal]'),rolesButton=overlay.querySelector('[data-roles]'),undoRolesButton=overlay.querySelector('[data-undo-roles]'),doneButton=overlay.querySelector('[data-done]'),rolePanel=overlay.querySelector('[data-role-panel]'),timers=[];
+      const settings=overlay.querySelector('[data-settings]'),starsRoot=overlay.querySelector('.tn-galaxy-stars'),groupsRoot=overlay.querySelector('.tn-galaxy-groups'),status=overlay.querySelector('[data-status]'),footer=overlay.querySelector('[data-review]'),plan=overlay.querySelector('[data-plan]'),warning=overlay.querySelector('[data-warning]'),valueOutput=overlay.querySelector('[data-value]'),generateButton=overlay.querySelector('[data-generate]'),proposalLabel=overlay.querySelector('[data-proposal]'),prevProposal=overlay.querySelector('[data-prev-proposal]'),nextProposal=overlay.querySelector('[data-next-proposal]'),spacingPanel=overlay.querySelector('[data-spacing]'),spacingButtons=[...overlay.querySelectorAll('[data-spacing-option]')],rolesButton=overlay.querySelector('[data-roles]'),undoRolesButton=overlay.querySelector('[data-undo-roles]'),doneButton=overlay.querySelector('[data-done]'),rolePanel=overlay.querySelector('[data-role-panel]'),timers=[];
       const groupSignature=groups=>JSON.stringify((groups||[]).map(group=>({id:String(group.id||''),title:String(group.title||''),order:Number(group.order)||0,members:(group.members||[]).map(member=>({id:String(member.id||''),name:String(member.name||''),role:String(member.role||''),order:Number(member.order)||0}))})));
       const savedSignature=groupSet?groupSignature(existingGroups):null;
       const spacingScopeId=String(groupSet?.meta?.sourceDatasetId||sourceDataset?.id||groupSet?.id||'draft'),spacingSessionId=String(groupSet?.sessionId||TN.runtime.activeSession?.id||'session'),spacingStorageKey=`tn.v3.groupGalaxy.spacing.${encodeURIComponent(spacingSessionId)}.${encodeURIComponent(spacingScopeId)}`,readStoredSpacing=()=>{try{const value=localStorage.getItem(spacingStorageKey);return['tight','medium','airy'].includes(value)?value:'medium';}catch(_){return'medium';}},storeSpacing=value=>{try{localStorage.setItem(spacingStorageKey,value);}catch(_){}};
@@ -9548,6 +9555,11 @@ Bygger direkte på den startende v0.9.3bo. Kobler kun niveaudelingens tre faste 
         note.className='tn-level-drag-note';
         note.textContent='Træk en elev over på et andet hold';
         footer.insertBefore(note,footer.querySelector('[data-done]')||null);
+      }
+      const spacing=footer.querySelector('[data-spacing]');
+      if(spacing){
+        spacing.hidden=false;
+        footer.insertBefore(spacing,note);
       }
       const done=footer.querySelector('[data-done]');
       if(done){done.textContent='Luk';done.title='Luk Gruppegalaksen';}
