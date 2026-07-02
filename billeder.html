@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Billeder – Måns Mårtensson</title>
+  <style>
+:root {
+  --ink: #f8fafc;
+  --muted: rgba(248,250,252,.76);
+  --soft: rgba(248,250,252,.58);
+  --line: rgba(255,255,255,.16);
+  --glass: rgba(8,10,18,.24);
+  --glass-strong: rgba(8,10,18,.44);
+  --accent: #a7f3d0;
+  --warm: #f7c27c;
+  --shadow: 0 30px 110px rgba(0,0,0,.42);
+  --stroke: rgba(0,0,0,.72);
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: #05070d;
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+body { min-height: 100svh; overflow-x: hidden; }
+.stage {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(167,243,208,.12), transparent 25rem),
+    radial-gradient(circle at 85% 16%, rgba(247,194,124,.12), transparent 22rem),
+    #05070d;
+}
+.stage img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.04);
+  transition: opacity 1.5s ease, transform 7s ease;
+  filter: saturate(1.04) contrast(1.03);
+}
+.stage img.active { opacity: 1; transform: scale(1); }
+.stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(4,7,14,.50), rgba(4,7,14,.12) 46%, rgba(4,7,14,.24)),
+    linear-gradient(0deg, rgba(4,7,14,.30), rgba(4,7,14,.02) 42%, rgba(4,7,14,.24));
+}
+.page {
+  position: relative;
+  z-index: 2;
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding: clamp(1rem, 3vw, 2.8rem);
+}
+.shell {
+  width: min(1020px, 100%);
+  border-radius: clamp(28px, 4vw, 40px);
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, rgba(255,255,255,.07), rgba(255,255,255,.02)), var(--glass);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 1.08fr .78fr;
+  min-height: min(710px, calc(100svh - 2rem));
+}
+.identity {
+  padding: clamp(1.8rem, 4vw, 3.7rem);
+  display: flex;
+  align-items: center;
+  min-height: 540px;
+}
+.mark {
+  display: inline-flex;
+  align-items: center;
+  gap: .7rem;
+  color: var(--muted);
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: .82rem;
+  margin: 0 0 1rem;
+}
+.dot {
+  width: .72rem;
+  height: .72rem;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 26px rgba(167,243,208,.6);
+}
+.hero {
+  margin: 0;
+  font-size: clamp(4rem, 9vw, 7.3rem);
+  line-height: .84;
+  letter-spacing: -.085em;
+  max-width: 8.5ch;
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 var(--stroke),
+     1px -1px 0 var(--stroke),
+    -1px  1px 0 var(--stroke),
+     1px  1px 0 var(--stroke),
+     0 10px 34px rgba(0,0,0,.30);
+}
+.tagline {
+  margin: 1.25rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1.08rem, 2vw, 1.38rem);
+  line-height: 1.45;
+  max-width: 30ch;
+}
+.side {
+  padding: clamp(1.2rem, 3vw, 2rem);
+  display: grid;
+  align-content: center;
+  gap: 1.15rem;
+  background: rgba(8,10,18,.12);
+  border-left: 1px solid rgba(255,255,255,.09);
+}
+.pane,
+.pane-link,
+.card {
+  border-radius: 26px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: var(--glass-strong);
+  backdrop-filter: blur(10px);
+  padding: 1.25rem;
+  box-shadow: 0 16px 40px rgba(0,0,0,.14);
+}
+.pane-link,
+.card {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform .16s ease, background .16s ease, border-color .16s ease;
+}
+.pane-link:hover,
+.pane-link:focus-visible,
+.card:hover,
+.card:focus-visible,
+.back:hover,
+.back:focus-visible,
+.contact-action:hover,
+.contact-action:focus-visible,
+.contact-item:hover,
+.contact-item:focus-visible {
+  outline: none;
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.10);
+  border-color: rgba(167,243,208,.44);
+}
+.eyebrow {
+  display: block;
+  color: var(--warm);
+  font-size: .76rem;
+  font-weight: 850;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  margin-bottom: .45rem;
+}
+.pane h2,
+.pane-link h2,
+.card h2,
+.card h3 {
+  margin: 0;
+  font-size: clamp(1.55rem, 2.8vw, 2.2rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
+.pane p,
+.pane-link p,
+.card p {
+  margin: .7rem 0 0;
+  color: var(--muted);
+  line-height: 1.42;
+  font-size: 1rem;
+}
+.contact-grid { display: grid; gap: .75rem; margin-top: .9rem; }
+.contact-action,
+.contact-item,
+.back {
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 18px;
+  background: rgba(255,255,255,.06);
+  color: var(--ink);
+  padding: .95rem 1rem;
+  cursor: pointer;
+  transition: .16s ease;
+  display: block;
+}
+.label { display: block; color: var(--soft); font-size: .8rem; font-weight: 800; margin-bottom: .15rem; }
+.value { display: block; font-weight: 880; font-size: 1.05rem; line-height: 1.2; }
+.subshell { padding: clamp(1.4rem, 3vw, 2.2rem); }
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+.titleblock h1 {
+  margin: .2rem 0 0;
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -.045em;
+}
+.lead {
+  color: var(--muted);
+  max-width: 56ch;
+  line-height: 1.45;
+  margin: .6rem 0 0;
+  font-size: 1.02rem;
+}
+.back { width: auto; min-width: 10rem; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1rem;
+}
+.band-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .85rem;
+  margin-top: 1rem;
+}
+.band {
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.05);
+  padding: .9rem 1rem;
+}
+.band strong { display: block; margin-bottom: .2rem; }
+.mini { color: var(--soft); font-size: .9rem; line-height: 1.4; }
+.embed-wrap {
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: var(--glass-strong);
+  padding: 1rem;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 0;
+  border-radius: 18px;
+  background: #000;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: .9rem;
+}
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.14);
+}
+.calendar {
+  display: grid;
+  gap: .9rem;
+}
+.event {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,.13);
+  background: rgba(255,255,255,.055);
+}
+.event-date {
+  font-weight: 900;
+  color: var(--accent);
+  line-height: 1.15;
+}
+.event h3 { margin: 0 0 .35rem; font-size: 1.2rem; }
+.event p { margin: 0; color: var(--muted); line-height: 1.4; }
+.empty { color: var(--muted); padding: 1rem 0; }
+@media (max-width: 900px) {
+  .home-grid { grid-template-columns: 1fr; }
+  .side { border-left: 0; border-top: 1px solid rgba(255,255,255,.09); }
+  .hero { max-width: none; }
+  .cards, .band-list, .gallery { grid-template-columns: 1fr; }
+  .event { grid-template-columns: 1fr; }
+}
+
+.gallery-button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: zoom-in;
+  border-radius: 18px;
+  display: block;
+  overflow: hidden;
+}
+.gallery-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.gallery-button img {
+  transition: transform .22s ease, filter .22s ease;
+}
+.gallery-button:hover img {
+  transform: scale(1.025);
+  filter: brightness(1.06);
+}
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.965);
+  padding: 0;
+}
+.lightbox.open { display: flex; }
+.lightbox-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 14px;
+  box-shadow: 0 24px 90px rgba(0,0,0,.6);
+}
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next,
+.lightbox-fullscreen {
+  position: fixed;
+  z-index: 1001;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(10,12,20,.72);
+  color: white;
+  width: 3.1rem;
+  height: 3.1rem;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+}
+.lightbox-close { top: 1rem; right: 1rem; }
+.lightbox-fullscreen { top: 1rem; right: 4.8rem; }
+.lightbox-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox-counter {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  color: rgba(255,255,255,.78);
+  background: rgba(10,12,20,.66);
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 999px;
+  padding: .5rem .85rem;
+  backdrop-filter: blur(10px);
+}
+@media (max-width: 640px) {
+  .lightbox-prev, .lightbox-next {
+    top: auto;
+    bottom: 1rem;
+    transform: none;
+  }
+  .lightbox-counter { bottom: 1.55rem; }
+}
+</style>
+</head>
+<body>
+  <div class="stage" id="stage" aria-hidden="true"></div>
+  
+<main class="page">
+  <section class="shell subshell">
+    <div class="topbar">
+      <div class="titleblock">
+        <p class="mark"><span class="dot"></span> Musik</p>
+        <h1>Billeder</h1>
+        <p class="lead">Klik på et billede for at åbne det i stor visning.</p>
+      </div>
+      <a class="back" href="musik.html">← Musik</a>
+    </div>
+    <section id="gallery" class="gallery" aria-label="Billedgalleri"></section>
+  </section>
+</main>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Billede i fuldskærmsvisning">
+  <button class="lightbox-close" type="button" aria-label="Luk">×</button>
+  <button class="lightbox-fullscreen" type="button" aria-label="Brug browserens fuldskærm">⛶</button>
+  <button class="lightbox-prev" type="button" aria-label="Forrige billede">‹</button>
+  <img id="lightboxImage" class="lightbox-image" alt="">
+  <button class="lightbox-next" type="button" aria-label="Næste billede">›</button>
+  <div id="lightboxCounter" class="lightbox-counter"></div>
+</div>
+
+  
+<script>
+const githubImageSource = {
+  owner: "maans",
+  repo: "hjem",
+  branch: "main",
+  folder: "billeder"
+};
+const manualImages = [
+  "billeder/slide-01.jpg",
+  "billeder/slide-02.jpg",
+  "billeder/slide-03.jpg",
+  "billeder/slide-04.jpg",
+  "billeder/slide-05.jpg"
+];
+
+function isImageFile(name) {
+  return /\.(jpe?g|png|webp|gif|avif)$/i.test(name);
+}
+
+async function getImagesFromGitHub() {
+  const s = githubImageSource;
+  const url = `https://api.github.com/repos/${s.owner}/${s.repo}/contents/${s.folder}?ref=${s.branch}`;
+  try {
+    const r = await fetch(url, {headers: {"Accept":"application/vnd.github+json"}});
+    if (!r.ok) throw new Error();
+    const files = await r.json();
+    const found = files
+      .filter(f => f.type === "file" && isImageFile(f.name))
+      .sort((a,b) => a.name.localeCompare(b.name, "da"))
+      .map(f => f.download_url);
+    return found.length ? found : manualImages;
+  } catch {
+    return manualImages;
+  }
+}
+
+function startSlideshow(images) {
+  const stage = document.querySelector("#stage");
+  if (!stage || !images.length) return;
+  const a = document.createElement("img");
+  const b = document.createElement("img");
+  stage.prepend(b); stage.prepend(a);
+  let index = 0, front = a, back = b;
+  front.src = images[index];
+  front.classList.add("active");
+  function next() {
+    index = (index + 1) % images.length;
+    back.src = images[index];
+    back.onload = () => {
+      back.classList.add("active");
+      front.classList.remove("active");
+      [front, back] = [back, front];
+    };
+  }
+  if (images.length > 1) setInterval(next, 6200);
+}
+
+let galleryImages = [];
+let activeIndex = 0;
+const lightbox = document.querySelector("#lightbox");
+const lightboxImage = document.querySelector("#lightboxImage");
+
+function fitLightboxImage() {
+  if (!lightbox.classList.contains("open") || !lightboxImage.naturalWidth || !lightboxImage.naturalHeight) return;
+  const maxW = window.innerWidth - 24;
+  const maxH = window.innerHeight - 24;
+  const imageRatio = lightboxImage.naturalWidth / lightboxImage.naturalHeight;
+  const viewportRatio = maxW / maxH;
+
+  if (imageRatio >= viewportRatio) {
+    lightboxImage.style.width = `${maxW}px`;
+    lightboxImage.style.height = `${Math.round(maxW / imageRatio)}px`;
+  } else {
+    lightboxImage.style.height = `${maxH}px`;
+    lightboxImage.style.width = `${Math.round(maxH * imageRatio)}px`;
+  }
+}
+
+function showLightbox(index) {
+  if (!galleryImages.length) return;
+  activeIndex = (index + galleryImages.length) % galleryImages.length;
+  lightboxImage.onload = fitLightboxImage;
+  lightboxImage.src = galleryImages[activeIndex];
+  document.querySelector("#lightboxCounter").textContent =
+    `${activeIndex + 1} / ${galleryImages.length}`;
+  lightbox.classList.add("open");
+  document.body.style.overflow = "hidden";
+  if (lightboxImage.complete) fitLightboxImage();
+  document.querySelector(".lightbox-close").focus();
+}
+
+function closeLightbox() {
+  lightbox.classList.remove("open");
+  document.body.style.overflow = "";
+  lightboxImage.style.width = "";
+  lightboxImage.style.height = "";
+}
+
+function moveLightbox(step) {
+  showLightbox(activeIndex + step);
+}
+
+async function fillGallery() {
+  galleryImages = await getImagesFromGitHub();
+  const gallery = document.querySelector("#gallery");
+  gallery.innerHTML = galleryImages.map((src, index) => `
+    <button class="gallery-button" type="button" data-index="${index}" aria-label="Åbn billede ${index + 1}">
+      <img src="${src}" alt="Musikbillede ${index + 1}" loading="lazy">
+    </button>
+  `).join("");
+
+  gallery.addEventListener("click", event => {
+    const button = event.target.closest(".gallery-button");
+    if (button) showLightbox(Number(button.dataset.index));
+  });
+}
+
+document.querySelector(".lightbox-close").addEventListener("click", closeLightbox);
+document.querySelector(".lightbox-prev").addEventListener("click", () => moveLightbox(-1));
+document.querySelector(".lightbox-next").addEventListener("click", () => moveLightbox(1));
+document.querySelector(".lightbox-fullscreen").addEventListener("click", async () => {
+  const box = document.querySelector("#lightbox");
+  if (document.fullscreenElement) {
+    await document.exitFullscreen?.();
+  } else {
+    await box.requestFullscreen?.();
+  }
+});
+lightbox.addEventListener("click", event => {
+  if (event.target.id === "lightbox") closeLightbox();
+});
+window.addEventListener("resize", fitLightboxImage);
+document.addEventListener("keydown", event => {
+  if (!document.querySelector("#lightbox").classList.contains("open")) return;
+  if (event.key === "Escape") closeLightbox();
+  if (event.key === "ArrowLeft") moveLightbox(-1);
+  if (event.key === "ArrowRight") moveLightbox(1);
+});
+
+getImagesFromGitHub().then(startSlideshow);
+fillGallery();
+</script>
+
+</body>
+</html>
