@@ -15,8 +15,8 @@
   "validation": {
     "dansk-2025-26": "ok",
     "faellessamlinger-2026-27": "ok",
-    "camp-26": "ok",
-    "ipad-file-import-idb-reconnect": "startup-fixed-awaiting-ipad-import-test"
+    "camp-26": "ok-category-and-audience-corrected",
+    "ipad-file-import-idb-reconnect": "ok-ipad-import-tested"
   },
   "appVersion": "0.9.3es"
 }
