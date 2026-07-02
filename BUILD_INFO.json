@@ -13,10 +13,11 @@
     "andre"
   ],
   "validation": {
-    "dansk-2025-26": "ok",
-    "faellessamlinger-2026-27": "ok",
-    "camp-26": "ok-category-and-audience-corrected",
-    "ipad-file-import-idb-reconnect": "ok-ipad-import-tested"
+    "dansk-2025-26": "ok-absolute-package-url",
+    "faellessamlinger-2026-27": "ok-absolute-package-url",
+    "camp-26": "ok-andre-no-grade-new-and-compatibility-path",
+    "library-card-primary-action": "ok-visible-below-description",
+    "ipad-file-import-idb-reconnect": "preserved-from-tested-0.9.3es"
   },
-  "appVersion": "0.9.3es"
+  "appVersion": "0.9.3et"
 }

@@ -1,5 +1,8 @@
-# Camp 26 – kategorirettelse
+# Camp 26 – bibliotek rettet
 
-Denne pakke bygger på den fungerende Plan v0.9.3es-pakke.
-
-Camp 26 vises nu under **Andre** og har intet klassetrin. Forløbsfilen bliver liggende på sin eksisterende GitHub-adresse, så intet skal flyttes eller slettes.
+- Kategori: **Andre**
+- Målgruppe: børn og kommende elever
+- Klassetrin: intet fast klassetrin
+- Officiel filsti: `andre/camp-26/forloeb.json`
+- Tidligere filsti bevares som kompatibilitetskopi
+- **Se og brug** vises nu højt på hvert bibliotekskort
