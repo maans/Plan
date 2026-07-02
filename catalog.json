@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-06-30",
+  "updatedAt": "2026-07-02",
   "categories": [
     {
       "id": "dansk",
@@ -95,6 +95,31 @@
       "sizeBytes": 5106739,
       "featured": true,
       "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "camp-26",
+      "kind": "demo",
+      "status": "published",
+      "title": "Camp 26 · kreativt værksted",
+      "category": "andre-9",
+      "subject": "Kunst",
+      "description": "Et kreativt kunstforløb med værkstedsmateriale, gruppeinddeling, skrive-/tænkeaktivitet og videoplayliste.",
+      "schoolYear": "2026",
+      "gradeLevels": [
+        "9"
+      ],
+      "tags": [
+        "kunst",
+        "billedkunst",
+        "kreativt værksted",
+        "grupper",
+        "video"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "./andre-9/praktiske-kreative-fag/camp-26/forloeb.json",
+      "sizeBytes": 2369481,
+      "featured": false,
+      "updatedAt": "2026-07-02"
     }
   ]
 }

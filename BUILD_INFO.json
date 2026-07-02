@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-06-30",
+  "builtAt": "2026-07-02",
   "libraryFormat": "plan-library-catalog",
   "catalogVersion": 2,
-  "publishedItems": 2,
+  "publishedItems": 3,
   "categories": [
     "dansk",
     "engelsk",
@@ -14,6 +14,9 @@
   ],
   "validation": {
     "dansk-2025-26": "ok",
-    "faellessamlinger-2026-27": "ok"
-  }
+    "faellessamlinger-2026-27": "ok",
+    "camp-26": "ok",
+    "ipad-file-import-idb-reconnect": "startup-fixed-awaiting-ipad-import-test"
+  },
+  "appVersion": "0.9.3es"
 }

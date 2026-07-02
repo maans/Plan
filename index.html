@@ -24446,5 +24446,106 @@ Mellem, og valget huskes lokalt pr. session og gruppering/datagrundlag. -->
 })(window.TavleNext);
 </script>
 
+
+
+<!-- Plan v0.9.3es FILIMPORT · INDEXEDDB GENÅBNING PÅ IPAD OWNER SAFE:
+Bygger direkte på den senest fungerende v0.9.3eq. Retter kun forbindelsen til
+IndexedDB efter systemets filvælger. Ingen importformater, tavler, widgets,
+data eller øvrige funktioner ændres. -->
+<script id="plan-v093es-file-import-idb-reconnect-owner">
+(function(TN){
+  'use strict';
+  if(!TN || !TN.StorageManager || !TN.TavleNextApp) return;
+
+  const Storage=TN.StorageManager;
+  const App=TN.TavleNextApp;
+  if(Storage.prototype.__plan093esFilePickerReconnect) return;
+  Storage.prototype.__plan093esFilePickerReconnect=true;
+
+  const isClosingError=error=>{
+    const name=String(error?.name||'');
+    const message=String(error?.message||error||'').toLowerCase();
+    return name==='InvalidStateError' || /database connection is closing|database connection is closed|connection is closing|connection is closed/.test(message);
+  };
+
+  Storage.prototype.ensureOpenIndexedDb=async function({force=false}={}){
+    if(this.mode!=='indexeddb') return this.db;
+    if(this.__plan093esOpenPromise) return this.__plan093esOpenPromise;
+
+    this.__plan093esOpenPromise=(async()=>{
+      if(!force && this.db){
+        try{
+          const probe=this.db.transaction('settings','readonly');
+          probe.abort();
+          return this.db;
+        }catch(error){
+          if(!isClosingError(error)) throw error;
+        }
+      }
+
+      try{this.db?.close?.();}catch(_){ }
+      this.db=null;
+      const db=await this.openDb();
+      db.onversionchange=()=>{
+        try{db.close();}catch(_){ }
+        if(this.db===db) this.db=null;
+      };
+      this.db=db;
+      this.mode='indexeddb';
+      return db;
+    })().finally(()=>{this.__plan093esOpenPromise=null;});
+
+    return this.__plan093esOpenPromise;
+  };
+
+  const originalInit=App.prototype.init;
+  App.prototype.init=async function(...args){
+    const result=await originalInit.apply(this,args);
+    const storage=this.storage;
+    if(storage?.db){
+      storage.db.onversionchange=()=>{
+        try{storage.db?.close?.();}catch(_){ }
+        storage.db=null;
+        this.__plan093esStorageMayNeedReconnect=true;
+      };
+    }
+
+    const mark=()=>{this.__plan093esStorageMayNeedReconnect=true;};
+    const reconnect=()=>{
+      if(!this.__plan093esStorageMayNeedReconnect || storage?.mode!=='indexeddb') return;
+      storage.ensureOpenIndexedDb({force:true}).then(()=>{
+        this.__plan093esStorageMayNeedReconnect=false;
+      }).catch(error=>console.warn('IndexedDB kunne ikke genåbnes efter baggrundstilstand',error));
+    };
+
+    document.addEventListener('visibilitychange',()=>{
+      if(document.hidden) mark();
+      else reconnect();
+    });
+    window.addEventListener('pagehide',mark);
+    window.addEventListener('pageshow',reconnect);
+    return result;
+  };
+
+  const originalHandleFiles=App.prototype.handleFiles;
+  App.prototype.handleFiles=async function(files){
+    if(this.storage?.mode==='indexeddb'){
+      try{
+        await this.storage.ensureOpenIndexedDb({force:!!this.__plan093esStorageMayNeedReconnect});
+        this.__plan093esStorageMayNeedReconnect=false;
+      }catch(error){
+        if(!isClosingError(error)) throw error;
+        await new Promise(resolve=>setTimeout(resolve,150));
+        await this.storage.ensureOpenIndexedDb({force:true});
+        this.__plan093esStorageMayNeedReconnect=false;
+      }
+    }
+    return originalHandleFiles.call(this,files);
+  };
+
+  TN.version='0.9.3es';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
