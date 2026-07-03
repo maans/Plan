@@ -20,7 +20,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.9.3ed TEGN PÅ TAVLEN OWNER SAFE: Bygger direkte på v0.9.3ec. Tilføjer én komponentejet tavletegning med frihånd, linje, firkant, cirkel, viskelæder, farve, tykkelse, fortryd/gentag, ryd og gem som billede. Tegningen gemmes som kompakte vektoroperationer på den konkrete tavle, følger Backup++ og tavleduplikering og renderes i et let canvaslag. Tegnetilstanden ejer selv pointere, timere og tastatur; én finger/pen tegner, to fingre zoomer/panorerer. Eksisterende widgets, baggrunde, grid, data og mediearkiv er uændrede. -->
 <!-- Plan v0.9.3eb PLACERINGSGRID OWNER SAFE: Bygger direkte på v0.9.3ea. Erstatter kun tavlegridets visuelle definition og kontrastvalg: gitteret er nu et egentligt ortogonalt placeringsgrid med 40 px felter og kraftigere hovedlinjer for hver femte celle. Linjerne skifter automatisk mellem mørk og lys kontrast efter tavlens farve/gradient; på billedbaggrunde bruges et adaptivt difference-lag. Grid ligger fortsat pointer-passivt over baggrunden, følger tavlens koordinater og ændrer ikke widgets, snap, data, medier eller backup. -->
 <!-- Plan v0.9.3dz DIGITALT UR / FRIT TAVLEMENUFELT OWNER SAFE: Bygger direkte på v0.9.3dy. Flytter tavlens menu ud af forløbs- og tavletitlens overlappende klikområder til et selvstændigt felt længere mod højre i topbjælken. Menuens tre prikker kan valgfrit erstattes af et digitalt 24-timers ur; tryk på både ur og prikker åbner den samme tavlemenu. Urvalget gemmes lokalt som en brugerfladeindstilling, bruger én ejende minut-timer og påvirker ikke tavle-, session-, backup- eller mediedata. Baggrunde og øvrige tavlemenuhandlinger er uændrede. -->
-<!-- Plan v0.9.3dy TAVLEBAGGRUNDE OWNER SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
+<!-- Plan v0.9.3dy+ TILFØJ INDHOLD IMPORTKNAP SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
 <!-- Plan v0.9.3dx PAPIRKURV RYDDER FORÆLDRELØSE MEDIER OWNER SAFE: Bygger direkte på v0.9.3dw. Når en tavle eller widget slettes permanent fra Papirkurv, samler Papirkurvens egen ejer de mediereferencer, som lå i elementet, og sletter i samme atomiske lagringstransaktion kun de mediefiler, der ikke længere bruges af levende tavler/widgets, datakilder, andre elementer i Papirkurv, gendannelsespunkter, historik eller den aktuelle usaved runtime. Delte eller beskyttede medier bevares. Tøm Papirkurv bruger samme kontrol samlet, så store tavler med billeder, lyd eller video ikke efterlader forældreløse filer, som bagefter skal ryddes manuelt i Mediearkivet. Bekræftelser og Hjælp forklarer oprydningen; backup-, medie-, tavle- og datamodeller er uændrede. -->
 <!-- Plan v0.9.3dw HJÆLP · DANSK ARBEJDSGANG OWNER SAFE: Bygger direkte på v0.9.3dv. Gennemgår og samler Plans Hjælp, så Elevstamdata, Niveaudeling, Mit danskhold, Fagsamtaler og Standpunktskarakterer beskrives som én sammenhængende, men datamæssigt adskilt arbejdsgang. Tilføjer en samlet indgang fra elevsvar til karakterer, omskriver de detaljerede afsnit i Hjælpens eksisterende tone, opdaterer Jeg vil-indgange, Se også-navigation, Datacenter, datasletning, Lagerredning og det fælles tastaturmønster i elevvisninger. Fagsamtaleprofiler for 9. og 10. klasse, flere samtaleark, manuel elevmatch, lærerfelter, status, eksport, karakterterminer og levende danskhold forklares brugervendt. Ingen data-, widget-, navigations- eller lagringsfunktioner ændres. -->
 <!-- Plan v0.9.3dt ENS ELEVNAVIGATION OWNER SAFE: Bygger direkte på v0.9.3ds. Standardiserer tastaturnavigationen i alle fire fulde elevvisninger: almindeligt Elevkort, Niveaudelingens gennemgang, Standpunktskarakterer og Fagsamtale. Pil op/ned skifter altid elev. Pil venstre/højre skifter den interne fane eller termin, når visningen har sådanne; i Fagsamtale uden faner opsnappes sidepilene, så de aldrig bladrer tavlen i baggrunden. Page Up/Page Down ruller den aktuelle elevvisning. Redigerbare felter beholder deres egne piletaster. Én smal, komponentbevidst tastaturejer aflæser kun den øverste relevante elevmodal og holder ingen elev- eller modalreferencer, så der opstår ikke listeners pr. åbning. Fagsamtalens synlige navigationspile og hjælpetekst følger samme model. Data, autosave, faner, terminer, tavlenavigation uden for elevmodaler og øvrige Plan-funktioner er uændrede. -->
@@ -7885,7 +7885,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           {title:'Indeks',description:'Tavler eller sessioner',choices:[{type:'board-index',title:'Tavleindeks',description:'Overblik over tavler i sessionen'},{type:'session-index',title:'Sessionsindeks',description:'Overblik over kendte sessioner'}]}
         ]}
       ];
-      const body=document.createElement('div');body.className='tn-add-menu';for(const sectionData of sections){const section=document.createElement('section');section.className='tn-add-section';const heading=document.createElement('h3');heading.textContent=sectionData.title;const grid=document.createElement('div');grid.className='tn-choice-grid';for(const item of sectionData.items){grid.append(choiceButton(item,()=>{if(item.choices)openChoice(item.title,item.choices);else launch(item.type);}));}section.append(heading,grid);body.append(section);}this.modalManager.open({title:'Tilføj indhold',body,className:'tn-modal-wide'});}
+      const body=document.createElement('div');body.className='tn-add-menu';for(const sectionData of sections){const section=document.createElement('section');section.className='tn-add-section';const heading=document.createElement('h3');heading.textContent=sectionData.title;const grid=document.createElement('div');grid.className='tn-choice-grid';for(const item of sectionData.items){grid.append(choiceButton(item,()=>{if(item.choices)openChoice(item.title,item.choices);else launch(item.type);}));}section.append(heading,grid);body.append(section);}this.modalManager.open({title:'Tilføj indhold',body,className:'tn-modal-wide',actions:[{label:'Import',primary:true,run:()=>{this.requestImportFiles();}}]});}
 
     async showSessions(){
       const [sessions,courses]=await Promise.all([this.sessionManager.list(),this.courseManager.listCourses()]),activeId=String(TN.runtime.activeSession?.id||''),activeCourse=courses.find(course=>course.sessionIds.includes(activeId))||null,body=document.createElement('div');body.className='tn-session-list';const search=document.createElement('input');search.placeholder='Søg sessioner';body.append(search);const list=document.createElement('div');list.className='tn-session-sections';body.append(list);const titleCounts=new Map(),courseBySession=new Map();for(const session of sessions)titleCounts.set(session.title,(titleCounts.get(session.title)||0)+1);for(const course of courses)for(const session of course.sessions)courseBySession.set(String(session.id),course);
@@ -28363,6 +28363,50 @@ På smalle skærme flyttes PDF-matrixens faste sidepile ind som smalle, halvgenn
 </style>
 
 
+<!-- Plan v0.9.3gd IPAD DOKUMENT-FULDSKÆRM + MENU OWNER SAFE:
+På iPad/iPhone bruges ægte fullscreen på hele dokumentet, når Safari understøtter det. Dermed forbliver hele Plans DOM, tavlemenuer og højreklik/langt tryk i samme fullscreen-toplag. Hvis dokument-fullscreen ikke kan startes, bruges den eksisterende lokale interaktive fuldskærm som fallback, og menuer flyttes ind i Plan-rooten. Mac uden touch beholder sin eksisterende native root-fullscreen. -->
+<style id="plan-v093gd-ipad-document-fullscreen-style">
+html.tn-ipad-document-fullscreen,
+html.tn-ipad-document-fullscreen body{
+  width:100%!important;
+  height:100%!important;
+  min-width:0!important;
+  min-height:0!important;
+  margin:0!important;
+  overflow:hidden!important;
+  overscroll-behavior:none!important;
+}
+html.tn-ipad-document-fullscreen #tavleNextApp,
+html:fullscreen #tavleNextApp.tn-ipad-native-fullscreen,
+html:-webkit-full-screen #tavleNextApp.tn-ipad-native-fullscreen{
+  position:fixed!important;
+  inset:0!important;
+  width:100vw!important;
+  width:100dvw!important;
+  height:100vh!important;
+  height:100dvh!important;
+  max-width:none!important;
+  max-height:none!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  z-index:2147483000!important;
+  isolation:isolate;
+  pointer-events:auto!important;
+}
+html.tn-ipad-document-fullscreen #tavleNextApp *,
+#tavleNextApp.tn-safe-fullscreen *{
+  -webkit-touch-callout:default;
+}
+html.tn-ipad-document-fullscreen #tavleNextApp button,
+html.tn-ipad-document-fullscreen #tavleNextApp a,
+html.tn-ipad-document-fullscreen #tavleNextApp input,
+html.tn-ipad-document-fullscreen #tavleNextApp select,
+html.tn-ipad-document-fullscreen #tavleNextApp textarea{
+  pointer-events:auto!important;
+}
+</style>
+
 <!-- Plan v0.9.3ga IPAD INTERAKTIV FULDSKÆRM OWNER SAFE:
 På iPad/iPhone bruges en lokal CSS-baseret fuldskærm i stedet for WebKits native element-fullscreen, som i Stage Manager kunne vise appen men blokere alle tryk. Desktop beholder native Fullscreen API. Ind- og udgang rydder kun midlertidige pointer-/gesturetilstande og ændrer ikke tavle-, widget- eller kameradata. -->
 <style id="plan-v093ga-ipad-interactive-fullscreen-style">
@@ -28523,16 +28567,15 @@ body.tn-safe-fullscreen-active{
 
 
 
-<!-- Plan v0.9.3gb IPAD DESKTOP-UA FULDSKÆRMSGUARD OWNER SAFE:
-Retter kun enhedsvalget for fuldskærm. iPadOS kan rapportere sig som Macintosh/MacIntel og må derfor genkendes via AppleWebKit + flere touchpunkter, ikke kun via teksten i userAgent. På Apple-touch-enheder afskærmes Plans egen root desuden fra requestFullscreen/webkitRequestFullscreen, så både den faste værktøjslinje, mobilmenuen og ældre kald altid bruger den interaktive lokale fuldskærm. Mac uden touch beholder native Fullscreen API. Tavle-, widget-, PDF-, kamera- og layoutdata ændres ikke. -->
-<script id="plan-v093gb-ipad-desktop-ua-fullscreen-guard">
+<!-- Plan v0.9.3gd IPAD DOKUMENT-FULDSKÆRM GUARD OWNER SAFE:
+Retter iPad/iPhone-fuldskærm uden at ændre Mac. Apple-touch-enheder forsøger nu fullscreen på hele documentElement i stedet for kun Plan-rooten. Hele body, tavlemenuen, modaler og contextmenu bliver dermed i samme fullscreen-toplag. Ved manglende støtte bruges lokal interaktiv fuldskærm, og dens menuer forankres i Plan-rooten. -->
+<script id="plan-v093gd-ipad-document-fullscreen-owner">
 (function(TN){
   'use strict';
-  if(window.__PLAN_IPAD_DESKTOP_UA_FULLSCREEN_GUARD__)return;
+  if(window.__PLAN_IPAD_DOCUMENT_FULLSCREEN_OWNER__)return;
   const App=TN?.TavleNextApp;if(!App)return;
   const proto=App.prototype;
-  const previousToggle=proto.toggleFullscreen;
-  const previousShouldUse=proto.shouldUseSafeTouchFullscreen;
+  const desktopToggle=proto.toggleFullscreen;
 
   const isAppleTouchDevice=()=>{
     try{
@@ -28548,79 +28591,94 @@ Retter kun enhedsvalget for fuldskærm. iPadOS kan rapportere sig som Macintosh/
     }catch(_error){return false;}
   };
   const nativeFullscreenElement=()=>document.fullscreenElement||document.webkitFullscreenElement||null;
-  const exitNative=()=>{
+  const exitNative=async()=>{
     const fn=document.exitFullscreen||document.webkitExitFullscreen;
-    if(!fn)return Promise.resolve(false);
-    try{return Promise.resolve(fn.call(document)).then(()=>true,()=>false);}catch(_error){return Promise.resolve(false);}
+    if(!fn)return false;
+    try{await fn.call(document);return true;}catch(_error){return false;}
   };
   const currentApp=()=>TN.runtime?.app||window.tavleNextApp||null;
 
-  const installRootGuard=app=>{
-    if(!app?.root||!isAppleTouchDevice())return false;
-    const root=app.root;
-    const safeRequest=()=>Promise.resolve(app.enterSafeTouchFullscreen?.()).then(()=>true);
-    try{Object.defineProperty(root,'requestFullscreen',{configurable:true,writable:true,value:safeRequest});}catch(_error){try{root.requestFullscreen=safeRequest;}catch(_ignore){}}
-    try{Object.defineProperty(root,'webkitRequestFullscreen',{configurable:true,writable:true,value:safeRequest});}catch(_error){try{root.webkitRequestFullscreen=safeRequest;}catch(_ignore){}}
-    root.dataset.ipadFullscreenGuard='true';
+  proto.isAppleTouchFullscreenDevice=function(){return isAppleTouchDevice();};
+  proto.requestIPadDocumentFullscreen=async function(){
+    if(!isAppleTouchDevice())return false;
+    const target=document.documentElement;
+    const request=target.requestFullscreen||target.webkitRequestFullscreen;
+    if(!request)return false;
+    try{
+      if(this.isSafeFullscreenActive?.())await this.exitSafeTouchFullscreen?.();
+      this.clearStaleFullscreenInputState?.();
+      await request.call(target);
+      document.documentElement.classList.add('tn-ipad-document-fullscreen');
+      this.root?.classList.add('tn-ipad-native-fullscreen');
+      requestAnimationFrame(()=>{
+        this.updateMobileLayoutMode?.({force:true});
+        this.syncMobileShell?.();
+        this.applyBoardCamera?.({persist:false});
+        this.rehomeBoardMenuForNativeFullscreen?.();
+        this.root?.focus?.({preventScroll:true});
+      });
+      return true;
+    }catch(error){
+      console.warn('iPad dokument-fuldskærm kunne ikke startes.',error);
+      return false;
+    }
+  };
+  proto.installIPadDocumentFullscreenBridge=function(){
+    if(!isAppleTouchDevice()||!this.root)return false;
+    const app=this;
+    const bridge=()=>app.requestIPadDocumentFullscreen().then(ok=>{
+      if(ok)return true;
+      return app.enterSafeTouchFullscreen?.();
+    });
+    try{Object.defineProperty(this.root,'requestFullscreen',{configurable:true,writable:true,value:bridge});}catch(_error){try{this.root.requestFullscreen=bridge;}catch(_ignore){}}
+    try{Object.defineProperty(this.root,'webkitRequestFullscreen',{configurable:true,writable:true,value:bridge});}catch(_error){try{this.root.webkitRequestFullscreen=bridge;}catch(_ignore){}}
+    this.root.dataset.ipadFullscreenGuard='document';
     return true;
   };
-
-  proto.isAppleTouchFullscreenDevice=function(){return isAppleTouchDevice();};
-  proto.shouldUseSafeTouchFullscreen=function(){
-    if(isAppleTouchDevice())return true;
-    return previousShouldUse?!!previousShouldUse.call(this):!!this.mobileShell?.active;
-  };
-  proto.installIPadFullscreenGuard=function(){return installRootGuard(this);};
   proto.toggleFullscreen=async function(){
-    if(!isAppleTouchDevice())return previousToggle?previousToggle.call(this):false;
-    installRootGuard(this);
-    if(nativeFullscreenElement())await exitNative();
-    this.clearStaleFullscreenInputState?.();
+    if(!isAppleTouchDevice())return desktopToggle?desktopToggle.call(this):false;
+    const active=nativeFullscreenElement();
+    if(active){
+      await exitNative();
+      return true;
+    }
     if(this.isSafeFullscreenActive?.())return this.exitSafeTouchFullscreen?.();
+    this.installIPadDocumentFullscreenBridge?.();
+    if(await this.requestIPadDocumentFullscreen())return true;
     return this.enterSafeTouchFullscreen?.();
   };
 
-  const ensureGuard=()=>installRootGuard(currentApp());
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ensureGuard,{once:true});
-  requestAnimationFrame(ensureGuard);
-  setTimeout(ensureGuard,0);
-  setTimeout(ensureGuard,500);
-  window.addEventListener('pageshow',ensureGuard,{passive:true});
-  document.addEventListener('visibilitychange',()=>{if(!document.hidden)ensureGuard();},{passive:true});
-
-  // Den faste desktopknap har en ældre root-click-ejer. På iPad stoppes den i capture-fasen,
-  // så ingen allerede registreret handler kan nå at kalde WebKits native fullscreen først.
-  document.addEventListener('click',event=>{
-    if(!isAppleTouchDevice())return;
-    const button=event.target?.closest?.('[data-action="fullscreen"]');
-    if(!button)return;
+  const syncFullscreenState=()=>{
     const app=currentApp();if(!app)return;
-    event.preventDefault();
-    event.stopImmediatePropagation();
-    installRootGuard(app);
-    Promise.resolve(app.toggleFullscreen()).catch(error=>console.warn('Kunne ikke skifte interaktiv iPad-fuldskærm.',error));
-  },true);
-
-  // Sidste sikkerhedsnet: hvis en ældre kodevej alligevel sætter selve Plan-rooten i native
-  // fullscreen, forlades den straks og den interaktive lokale tilstand overtager.
-  const replaceAccidentalNative=async()=>{
-    if(!isAppleTouchDevice())return;
-    const app=currentApp(),active=nativeFullscreenElement();
-    if(!app?.root||active!==app.root)return;
-    await exitNative();
-    installRootGuard(app);
-    await app.enterSafeTouchFullscreen?.();
+    const active=nativeFullscreenElement();
+    const ipadNative=isAppleTouchDevice()&&!!active;
+    document.documentElement.classList.toggle('tn-ipad-document-fullscreen',ipadNative);
+    app.root?.classList.toggle('tn-ipad-native-fullscreen',ipadNative);
+    app.clearStaleFullscreenInputState?.();
+    requestAnimationFrame(()=>{
+      app.updateMobileLayoutMode?.({force:true});
+      app.syncMobileShell?.();
+      app.applyBoardCamera?.({persist:false});
+      app.rehomeBoardMenuForNativeFullscreen?.();
+    });
   };
-  document.addEventListener('fullscreenchange',replaceAccidentalNative,true);
-  document.addEventListener('webkitfullscreenchange',replaceAccidentalNative,true);
+  const ensureBridge=()=>currentApp()?.installIPadDocumentFullscreenBridge?.();
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ensureBridge,{once:true});
+  requestAnimationFrame(ensureBridge);
+  setTimeout(ensureBridge,0);
+  setTimeout(ensureBridge,500);
+  window.addEventListener('pageshow',ensureBridge,{passive:true});
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)ensureBridge();},{passive:true});
+  document.addEventListener('fullscreenchange',syncFullscreenState,true);
+  document.addEventListener('webkitfullscreenchange',syncFullscreenState,true);
 
-  TN.version='0.9.3gb';
-  window.__PLAN_IPAD_DESKTOP_UA_FULLSCREEN_GUARD__='0.9.3gb-2026-07-03';
+  TN.version='0.9.3gd';
+  window.__PLAN_IPAD_DOCUMENT_FULLSCREEN_OWNER__='0.9.3gd-2026-07-03';
 })(window.TavleNext);
 </script>
 
 
-<!-- Plan v0.9.3gc MAC NATIVE FULDSKÆRM TAVLEMENU OWNER SAFE:
+<!-- Plan v0.9.3gd2 FULDSKÆRM TAVLEMENU PORTAL OWNER SAFE:
 Retter kun tavlemenuens portal-ejer i ægte browserfuldskærm på Mac. Tavlemenuen fra ur/••• og fra højreklik/langt tryk oprettes fortsat af samme showBoardMenu-ejer, men flyttes efter oprettelsen ind under det aktive fullscreen-element. Dermed forbliver menuen synlig og interaktiv i Fullscreen API's top-layer. iPad/iPhone bruger fortsat Plans lokale interaktive fuldskærm, og tavle-, widget-, PDF-, kamera- og layoutdata ændres ikke. -->
 <script id="plan-v093gc-mac-native-fullscreen-board-menu-owner">
 (function(TN){
@@ -28634,8 +28692,10 @@ Retter kun tavlemenuens portal-ejer i ægte browserfuldskærm på Mac. Tavlemenu
   const currentApp=()=>TN.runtime?.app||window.tavleNextApp||null;
 
   proto.nativeFullscreenOverlayHost=function(){
+    if(!this.root)return null;
+    if(this.isSafeFullscreenActive?.())return this.root;
     const active=nativeFullscreenElement();
-    if(!active||!this.root)return null;
+    if(!active)return null;
     if(active===this.root)return this.root;
     if(active.contains?.(this.root))return active;
     if(this.root.contains?.(active))return active;
@@ -28662,8 +28722,8 @@ Retter kun tavlemenuens portal-ejer i ægte browserfuldskærm på Mac. Tavlemenu
   document.addEventListener('fullscreenchange',syncOpenMenu,true);
   document.addEventListener('webkitfullscreenchange',syncOpenMenu,true);
 
-  TN.version='0.9.3gc';
-  window.__PLAN_MAC_NATIVE_FULLSCREEN_BOARD_MENU__='0.9.3gc-2026-07-03';
+  TN.version='0.9.3gd2';
+  window.__PLAN_MAC_NATIVE_FULLSCREEN_BOARD_MENU__='0.9.3gd2-2026-07-03';
 })(window.TavleNext);
 </script>
 </body>
