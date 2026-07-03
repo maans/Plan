@@ -21,6 +21,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.9.3eb PLACERINGSGRID OWNER SAFE: Bygger direkte på v0.9.3ea. Erstatter kun tavlegridets visuelle definition og kontrastvalg: gitteret er nu et egentligt ortogonalt placeringsgrid med 40 px felter og kraftigere hovedlinjer for hver femte celle. Linjerne skifter automatisk mellem mørk og lys kontrast efter tavlens farve/gradient; på billedbaggrunde bruges et adaptivt difference-lag. Grid ligger fortsat pointer-passivt over baggrunden, følger tavlens koordinater og ændrer ikke widgets, snap, data, medier eller backup. -->
 <!-- Plan v0.9.3dz DIGITALT UR / FRIT TAVLEMENUFELT OWNER SAFE: Bygger direkte på v0.9.3dy. Flytter tavlens menu ud af forløbs- og tavletitlens overlappende klikområder til et selvstændigt felt længere mod højre i topbjælken. Menuens tre prikker kan valgfrit erstattes af et digitalt 24-timers ur; tryk på både ur og prikker åbner den samme tavlemenu. Urvalget gemmes lokalt som en brugerfladeindstilling, bruger én ejende minut-timer og påvirker ikke tavle-, session-, backup- eller mediedata. Baggrunde og øvrige tavlemenuhandlinger er uændrede. -->
 <!-- Plan v0.9.3dy+ MULTI EXCEL IMPORTKØ STARTFIX SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
+<!-- Plan DATACENTER DUBLETTER + PERMANENT SLETNING OWNER SAFE: Find dubletter bruger indholdsfingeraftryk, skelner identiske og mulige dubletter, kan samle identiske kopier med central omkobling af referencer og tilbyder et eksplicit anvendelses-/afkoblingsforløb før permanent sletning. -->
 <!-- Plan v0.9.3dx PAPIRKURV RYDDER FORÆLDRELØSE MEDIER OWNER SAFE: Bygger direkte på v0.9.3dw. Når en tavle eller widget slettes permanent fra Papirkurv, samler Papirkurvens egen ejer de mediereferencer, som lå i elementet, og sletter i samme atomiske lagringstransaktion kun de mediefiler, der ikke længere bruges af levende tavler/widgets, datakilder, andre elementer i Papirkurv, gendannelsespunkter, historik eller den aktuelle usaved runtime. Delte eller beskyttede medier bevares. Tøm Papirkurv bruger samme kontrol samlet, så store tavler med billeder, lyd eller video ikke efterlader forældreløse filer, som bagefter skal ryddes manuelt i Mediearkivet. Bekræftelser og Hjælp forklarer oprydningen; backup-, medie-, tavle- og datamodeller er uændrede. -->
 <!-- Plan v0.9.3dw HJÆLP · DANSK ARBEJDSGANG OWNER SAFE: Bygger direkte på v0.9.3dv. Gennemgår og samler Plans Hjælp, så Elevstamdata, Niveaudeling, Mit danskhold, Fagsamtaler og Standpunktskarakterer beskrives som én sammenhængende, men datamæssigt adskilt arbejdsgang. Tilføjer en samlet indgang fra elevsvar til karakterer, omskriver de detaljerede afsnit i Hjælpens eksisterende tone, opdaterer Jeg vil-indgange, Se også-navigation, Datacenter, datasletning, Lagerredning og det fælles tastaturmønster i elevvisninger. Fagsamtaleprofiler for 9. og 10. klasse, flere samtaleark, manuel elevmatch, lærerfelter, status, eksport, karakterterminer og levende danskhold forklares brugervendt. Ingen data-, widget-, navigations- eller lagringsfunktioner ændres. -->
 <!-- Plan v0.9.3dt ENS ELEVNAVIGATION OWNER SAFE: Bygger direkte på v0.9.3ds. Standardiserer tastaturnavigationen i alle fire fulde elevvisninger: almindeligt Elevkort, Niveaudelingens gennemgang, Standpunktskarakterer og Fagsamtale. Pil op/ned skifter altid elev. Pil venstre/højre skifter den interne fane eller termin, når visningen har sådanne; i Fagsamtale uden faner opsnappes sidepilene, så de aldrig bladrer tavlen i baggrunden. Page Up/Page Down ruller den aktuelle elevvisning. Redigerbare felter beholder deres egne piletaster. Én smal, komponentbevidst tastaturejer aflæser kun den øverste relevante elevmodal og holder ingen elev- eller modalreferencer, så der opstår ikke listeners pr. åbning. Fagsamtalens synlige navigationspile og hjælpetekst følger samme model. Data, autosave, faner, terminer, tavlenavigation uden for elevmodaler og øvrige Plan-funktioner er uændrede. -->
@@ -29519,5 +29520,415 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 })(window.TavleNext);
 </script>
 
+
+<!-- Plan: Datacenter dubletopdagelse og sikker permanent datasletning -->
+<style id="plan-dataset-duplicates-style">
+.tn-center-actions [data-find-dataset-duplicates],
+.tn-center-actions [data-only-dataset-duplicates]{white-space:nowrap}
+.tn-center-actions [data-only-dataset-duplicates].active{background:#2563eb;color:#fff;border-color:#60a5fa}
+.tn-dataset-card[data-duplicate-kind="exact"]{border-color:#38bdf8;box-shadow:0 0 0 1px #38bdf833 inset}
+.tn-dataset-card[data-duplicate-kind="likely"]{border-color:#f59e0b;box-shadow:0 0 0 1px #f59e0b33 inset}
+.tn-duplicate-badge{display:inline-flex;margin:6px 0 0 8px;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:900;vertical-align:middle}
+.tn-duplicate-badge.exact{background:#0c4a6e;color:#bae6fd;border:1px solid #38bdf8}
+.tn-duplicate-badge.likely{background:#4b2e05;color:#fde68a;border:1px solid #f59e0b}
+.tn-duplicate-center{display:grid;gap:14px}
+.tn-duplicate-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.tn-duplicate-stats>div{display:grid;gap:3px;padding:12px 14px;border:1px solid #334155;border-radius:13px;background:#182335}
+.tn-duplicate-stats strong{font-size:24px}.tn-duplicate-stats span{color:#aebbd0;font-weight:800}
+.tn-duplicate-group{display:grid;gap:10px;padding:12px;border:1px solid #3b4b62;border-radius:15px;background:#172235}
+.tn-duplicate-group.is-exact{border-color:#38bdf8}.tn-duplicate-group.is-likely{border-color:#f59e0b}
+.tn-duplicate-group>header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.tn-duplicate-group>header>div{display:grid;gap:3px}.tn-duplicate-group>header small{color:#aebbd0}
+.tn-duplicate-group>header>span{padding:4px 8px;border-radius:999px;background:#0f172a;color:#dbeafe;font-size:12px;font-weight:900;white-space:nowrap}
+.tn-duplicate-choices{display:grid;gap:7px}
+.tn-duplicate-choices label{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:10px;padding:10px;border:1px solid #334155;border-radius:12px;background:#101a2b;cursor:pointer}
+.tn-duplicate-choices label:has(input:checked){border-color:#60a5fa;background:#17335c}
+.tn-duplicate-choices span{display:grid;gap:2px}.tn-duplicate-choices small{color:#aebbd0;overflow-wrap:anywhere}
+.tn-duplicate-controls{display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+.tn-dataset-delete-center{display:grid;gap:12px}.tn-dataset-delete-center h3{margin:4px 0 0}
+.tn-delete-summary{display:grid;gap:4px;padding:12px 14px;border:1px solid #334155;border-radius:13px;background:#182335}
+.tn-delete-summary span{color:#b7c3d6}
+.tn-duplicate-safe{display:grid;gap:4px;padding:12px 14px;border:1px solid #38bdf8;border-radius:13px;background:#0c4a6e;color:#e0f2fe}
+.tn-dataset-usage-list{display:grid;gap:7px;max-height:330px;overflow:auto}
+.tn-dataset-usage-list article{display:grid;gap:3px;padding:10px 12px;border:1px solid #334155;border-radius:11px;background:#111b2c}
+.tn-dataset-usage-list small{color:#aebbd0;overflow-wrap:anywhere}
+.tn-delete-warning{margin:0;padding:11px 13px;border-left:4px solid #f59e0b;background:#3b2b0b;color:#fde7aa;border-radius:8px}
+.tn-duplicate-empty{padding:14px;border:1px dashed #475569;border-radius:12px;color:#aebbd0;text-align:center}
+.tn-duplicate-diff ol{margin:0;padding-left:22px;display:grid;gap:8px}.tn-duplicate-diff li{overflow-wrap:anywhere}
+@media(max-width:760px){
+  .tn-duplicate-stats{grid-template-columns:1fr}
+  .tn-duplicate-group>header{display:grid}
+  .tn-center-actions [data-find-dataset-duplicates],.tn-center-actions [data-only-dataset-duplicates]{flex:1 1 auto}
+  .tn-dataset-usage-list{max-height:42vh}
+}
+
+</style>
+<script id="plan-dataset-duplicates-owner">
+(function(TN){
+  'use strict';
+  if(!TN?.TavleNextApp || TN.TavleNextApp.prototype.__planDatasetDuplicateCenterV1)return;
+  TN.TavleNextApp.prototype.__planDatasetDuplicateCenterV1=true;
+
+  const SINGLE_KEYS=new Set([
+    'datasetId','sourceDatasetId','linkListDatasetId','notesDatasetId','groupSetId',
+    'resultDatasetId','resultsDatasetId','outputDatasetId','timerLogDatasetId',
+    'logDatasetId','pollDatasetId','calendarDatasetId','assessmentDatasetId',
+    'conversationSourceDatasetId','levelingAssessmentDatasetId','preferredDatasetId',
+    'primaryDatasetId','questionBankDatasetId','selectedDatasetId',
+    'sourceQuestionnaireDatasetId'
+  ]);
+  const ARRAY_KEYS=new Set(['datasetIds','commonDatasetIds','conversationSourceDatasetIds','referencedDatasetIds']);
+  const SKIP_KEYS=new Set(['rows','columns','geometry','settings']);
+  const esc=value=>TN.escapeHtml(String(value??''));
+  const normName=value=>String(value??'').trim().toLocaleLowerCase('da-DK').normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g,'').replace(/\b(?:kopi|copy)\b/g,'')
+    .replace(/\s*\(\d+\)\s*$/,'').replace(/[^a-z0-9æøå]+/g,' ')
+    .trim();
+  const normalizeValue=value=>{
+    if(value==null)return '';
+    if(typeof value==='number')return Number.isFinite(value)?value:String(value);
+    if(typeof value==='boolean')return value;
+    if(Array.isArray(value))return value.map(normalizeValue);
+    if(typeof value==='object'){
+      const out={};
+      for(const key of Object.keys(value).sort())out[key]=normalizeValue(value[key]);
+      return out;
+    }
+    return String(value).normalize('NFC').replace(/\r\n?/g,'\n').trim();
+  };
+  const rowArray=(dataset,row)=>Array.isArray(row)?row:(dataset.columns||[]).map(column=>row?.[column]??'');
+  const fingerprintPayload=dataset=>({
+    type:String(dataset.type||'table'),
+    columns:(dataset.columns||[]).map(column=>String(column??'').normalize('NFC').trim().toLocaleLowerCase('da-DK')),
+    rows:(dataset.rows||[]).map(row=>rowArray(dataset,row).map(normalizeValue))
+  });
+  const duplicateScopeLabel=dataset=>dataset.scope==='common'?'Fælles data':'Sessionsdata';
+
+  async function allDatasets(app){
+    const sessions=await app.sessionManager.list();
+    const collected=[...(await app.dataManager.listCommon())];
+    for(const session of sessions){
+      try{collected.push(...await app.dataManager.listSession(session.id));}catch(error){console.warn('Kunne ikke læse sessionsdata',session.id,error);}
+    }
+    const byId=new Map();
+    for(const dataset of collected)if(dataset?.id)byId.set(String(dataset.id),dataset);
+    return [...byId.values()];
+  }
+
+  async function scanDuplicates(app,{force=false}={}){
+    if(!force&&app.__datasetDuplicateScan)return app.__datasetDuplicateScan;
+    await app.storage.flush().catch(()=>{});
+    const datasets=await allDatasets(app),entries=[];
+    for(const dataset of datasets){
+      const payload=fingerprintPayload(dataset);
+      const fingerprint=await TN.hashText(TN.stableStringify(payload));
+      entries.push({dataset,fingerprint,nameKey:normName(dataset.name),shape:`${payload.columns.length}x${payload.rows.length}`,payload});
+    }
+    const exactMap=new Map(),similarMap=new Map();
+    for(const entry of entries){
+      if(!exactMap.has(entry.fingerprint))exactMap.set(entry.fingerprint,[]);
+      exactMap.get(entry.fingerprint).push(entry);
+      const similarKey=`${entry.nameKey}|${entry.shape}|${entry.dataset.type||'table'}`;
+      if(!similarMap.has(similarKey))similarMap.set(similarKey,[]);
+      similarMap.get(similarKey).push(entry);
+    }
+    const exactGroups=[...exactMap.values()].filter(group=>group.length>1);
+    const exactIds=new Set(exactGroups.flatMap(group=>group.map(entry=>String(entry.dataset.id))));
+    const likelyGroups=[...similarMap.values()].filter(group=>group.length>1&&new Set(group.map(entry=>entry.fingerprint)).size>1);
+    const likelyIds=new Set(likelyGroups.flatMap(group=>group.map(entry=>String(entry.dataset.id))).filter(id=>!exactIds.has(id)));
+    const byId=new Map(entries.map(entry=>[String(entry.dataset.id),entry]));
+    const result={datasets,entries,byId,exactGroups,likelyGroups,exactIds,likelyIds,scannedAt:Date.now()};
+    app.__datasetDuplicateScan=result;
+    return result;
+  }
+
+  function findReferencePaths(node,targetId,path='',out=[],seen=new WeakSet()){
+    if(!node||typeof node!=='object')return out;
+    if(seen.has(node))return out;seen.add(node);
+    if(Array.isArray(node)){
+      node.forEach((value,index)=>findReferencePaths(value,targetId,`${path}[${index}]`,out,seen));
+      return out;
+    }
+    for(const [key,value] of Object.entries(node)){
+      if(SKIP_KEYS.has(key))continue;
+      const nextPath=path?`${path}.${key}`:key;
+      if(SINGLE_KEYS.has(key)&&String(value??'')===String(targetId))out.push(nextPath);
+      else if(ARRAY_KEYS.has(key)&&Array.isArray(value)&&value.some(item=>String(item)===String(targetId)))out.push(nextPath);
+      else if(value&&typeof value==='object')findReferencePaths(value,targetId,nextPath,out,seen);
+    }
+    return out;
+  }
+
+  function replaceReferences(node,oldId,newId,{detach=false}={},seen=new WeakSet()){
+    if(!node||typeof node!=='object')return false;
+    if(seen.has(node))return false;seen.add(node);
+    let changed=false;
+    if(Array.isArray(node)){
+      for(const value of node)if(value&&typeof value==='object')changed=replaceReferences(value,oldId,newId,{detach},seen)||changed;
+      return changed;
+    }
+    for(const [key,value] of Object.entries(node)){
+      if(SKIP_KEYS.has(key))continue;
+      if(SINGLE_KEYS.has(key)&&String(value??'')===String(oldId)){
+        node[key]=detach?null:newId;changed=true;continue;
+      }
+      if(ARRAY_KEYS.has(key)&&Array.isArray(value)){
+        const next=detach?value.filter(item=>String(item)!==String(oldId)):value.map(item=>String(item)===String(oldId)?newId:item);
+        if(next.length!==value.length||next.some((item,index)=>item!==value[index])){node[key]=next;changed=true;}
+        continue;
+      }
+      if(value&&typeof value==='object')changed=replaceReferences(value,oldId,newId,{detach},seen)||changed;
+    }
+    return changed;
+  }
+
+  async function usageDetails(app,datasetId){
+    await app.storage.flush().catch(()=>{});
+    const [widgets,datasets,boards,sessions,trash,restorePoints,history]=await Promise.all([
+      app.storage.getAll('widgets'),app.storage.getAll('datasets'),app.storage.getAll('boards'),app.storage.getAll('sessions'),
+      app.storage.getAll('trash'),app.storage.getAll('restorePoints'),app.storage.getAll('history')
+    ]);
+    const boardById=new Map(boards.map(item=>[String(item.id),item]));
+    const sessionById=new Map(sessions.map(item=>[String(item.id),item]));
+    const refs=[];
+    for(const widget of widgets){
+      const paths=findReferencePaths(widget,datasetId);
+      if(!paths.length)continue;
+      const board=boardById.get(String(widget.boardId)),session=sessionById.get(String(board?.sessionId||''));
+      refs.push({store:'widgets',id:widget.id,kind:'Widget',title:widget.title||widget.type||'Widget',where:[session?.title,board?.title].filter(Boolean).join(' · '),paths});
+    }
+    for(const dataset of datasets){
+      if(String(dataset.id)===String(datasetId))continue;
+      const paths=findReferencePaths(dataset,datasetId);
+      if(paths.length)refs.push({store:'datasets',id:dataset.id,kind:'Datasæt',title:dataset.name||'Datasæt',where:duplicateScopeLabel(dataset),paths});
+    }
+    for(const [store,label,records] of [['trash','Papirkurv',trash],['restorePoints','Gendannelsespunkt',restorePoints],['history','Historik',history]]){
+      for(const record of records){const paths=findReferencePaths(record,datasetId);if(paths.length)refs.push({store,id:record.id,kind:label,title:record.title||record.name||record.id,where:'Beskyttet historik',paths});}
+    }
+    return refs;
+  }
+
+  async function rewriteEverywhere(app,oldId,newId,{detach=false}={}){
+    const stores=['widgets','datasets','trash','restorePoints','history'];
+    let changed=0;
+    for(const store of stores){
+      const records=await app.storage.getAll(store);
+      for(const record of records){
+        if(store==='datasets'&&String(record.id)===String(oldId))continue;
+        if(!replaceReferences(record,oldId,newId,{detach}))continue;
+        if(store==='widgets'){
+          const active=TN.runtime.activeWidgets?.find(item=>String(item.id)===String(record.id));
+          if(active)Object.assign(active,TN.deepClone(record));
+        }
+        if(store==='datasets')await app.dataManager.update(record);else await app.storage.put(store,record);
+        changed++;
+      }
+    }
+    return changed;
+  }
+
+  function activeDataTab(datacenter){
+    const text=datacenter?.querySelector('.tn-data-tabs button.active')?.textContent||'';
+    if(text.includes('Fælles data'))return'common';
+    if(text.includes('Sessionsdata'))return'session';
+    return'sources';
+  }
+
+  function reopenDataCenter(app,tab='sources'){
+    app.modalManager.closeAll();
+    setTimeout(()=>app.showDataCenter(tab),30);
+  }
+
+  async function mergeExactGroup(app,entries,preferredId,{tab='sources'}={}){
+    if(entries.length<2)return;
+    const verified=[];
+    for(const entry of entries){
+      const dataset=await app.dataManager.get(entry.dataset.id)||entry.dataset;
+      const fingerprint=await TN.hashText(TN.stableStringify(fingerprintPayload(dataset)));
+      verified.push({dataset,fingerprint});
+    }
+    if(new Set(verified.map(item=>item.fingerprint)).size!==1)throw new Error('Datasættene er ikke længere identiske. Kør dubletkontrollen igen.');
+    let chosen=verified.find(item=>String(item.dataset.id)===String(preferredId))?.dataset||verified[0].dataset;
+    const sessionIds=new Set(verified.filter(item=>item.dataset.scope!=='common').map(item=>String(item.dataset.sessionId||'')));
+    const spansSessions=sessionIds.size>1;
+    const hasCommon=verified.some(item=>item.dataset.scope==='common');
+    let canonical=chosen;
+    let createdCommon=false;
+    const allSameSession=!hasCommon&&sessionIds.size<=1;
+    if(chosen.scope!=='common'&&!allSameSession){
+      canonical=await app.dataManager.create({sessionId:null,name:chosen.name,columns:TN.deepClone(chosen.columns||[]),rows:TN.deepClone(chosen.rows||[]),type:chosen.type||'table',scope:'common',meta:{...(chosen.meta||{}),deduplicatedAt:TN.now(),deduplicatedFrom:verified.map(item=>item.dataset.id)}});
+      createdCommon=true;
+    }
+    const remove=verified.map(item=>item.dataset).filter(dataset=>String(dataset.id)!==String(canonical.id));
+    let rewired=0;
+    for(const dataset of remove){rewired+=await rewriteEverywhere(app,dataset.id,canonical.id);await app.dataManager.delete(dataset.id);}
+    await app.storage.flush().catch(()=>{});
+    app.__datasetDuplicateScan=null;
+    if(TN.runtime.activeBoard)await app.renderActiveBoard().catch(()=>{});
+    app.toast(`${remove.length} identisk${remove.length===1?' kopi':'e kopier'} samlet · ${rewired} forbindelse${rewired===1?'':'r'} flyttet${createdCommon?' · ny fælles hovedkilde':''}`);
+    reopenDataCenter(app,tab);
+  }
+
+  async function detachAndDelete(app,dataset,{tab='sources'}={}){
+    const refs=await usageDetails(app,dataset.id);
+    const changed=await rewriteEverywhere(app,dataset.id,null,{detach:true});
+    await app.dataManager.delete(dataset.id);
+    await app.storage.flush().catch(()=>{});
+    app.__datasetDuplicateScan=null;
+    if(TN.runtime.activeBoard)await app.renderActiveBoard().catch(()=>{});
+    app.toast(`${dataset.name} er slettet permanent · ${changed||refs.length} forbindelse${(changed||refs.length)===1?'':'r'} afkoblet`);
+    reopenDataCenter(app,tab);
+  }
+
+  function usageMarkup(refs){
+    if(!refs.length)return'<div class="tn-duplicate-empty">Ingen aktive eller beskyttede anvendelser.</div>';
+    return `<div class="tn-dataset-usage-list">${refs.map(ref=>`<article><strong>${esc(ref.kind)} · ${esc(ref.title)}</strong><small>${esc(ref.where||'')}${ref.paths?.length?` · ${esc(ref.paths.join(', '))}`:''}</small></article>`).join('')}</div>`;
+  }
+
+  async function openDeleteCenter(app,datasetId,{tab='sources'}={}){
+    const dataset=await app.dataManager.get(datasetId);
+    if(!dataset){app.toast('Datasættet findes ikke længere');return;}
+    if(dataset.scope!=='common'&&String(dataset.sessionId||'')!==String(TN.runtime.activeSession?.id||'')){
+      app.toast('Sessionsdata kan kun slettes fra den session, de tilhører');return;
+    }
+    const [refs,scan]=await Promise.all([usageDetails(app,dataset.id),scanDuplicates(app)]);
+    const exactGroup=scan.exactGroups.find(group=>group.some(entry=>String(entry.dataset.id)===String(dataset.id)))||[];
+    const alternatives=exactGroup.filter(entry=>String(entry.dataset.id)!==String(dataset.id));
+    const body=document.createElement('div');body.className='tn-dataset-delete-center';
+    body.innerHTML=`<div class="tn-delete-summary"><strong>${esc(dataset.name)}</strong><span>${dataset.scope==='common'?'Fælles data':'Sessionsdata'} · ${(dataset.rows||[]).length} rækker · ${(dataset.columns||[]).length} kolonner</span></div>
+      ${alternatives.length?`<div class="tn-duplicate-safe"><b>Identisk dublet fundet</b><span>Den sikreste oprydning er at flytte forbindelserne til en identisk kopi og derefter slette denne.</span></div>`:''}
+      <h3>Anvendelser · ${refs.length}</h3>${usageMarkup(refs)}
+      <p class="tn-delete-warning">Permanent sletning kan ikke fortrydes uden en backup. Afkobling bevarer widgets og afledte datasæt, men de mister forbindelsen til denne datakilde.</p>`;
+    const actions=[{label:'Annuller',run:()=>{}}];
+    if(alternatives.length)actions.push({label:'Saml med identisk dublet',primary:true,run:()=>{setTimeout(()=>app.showDatasetDuplicateCenter({focusId:alternatives[0]?.dataset?.id||dataset.id,tab}),20);}});
+    if(!refs.length)actions.push({label:'Slet permanent',primary:!alternatives.length,run:async()=>{await app.dataManager.delete(dataset.id);app.__datasetDuplicateScan=null;app.toast(`${dataset.name} er slettet permanent`);reopenDataCenter(app,tab);}});
+    else actions.push({label:'Afkobl og slet…',primary:!alternatives.length,run:()=>{setTimeout(()=>{
+      const confirm=document.createElement('div');confirm.className='tn-delete-dataset-confirm';confirm.innerHTML=`<p><strong>Afkobl ${refs.length} anvendelse${refs.length===1?'':'r'} og slet ${esc(dataset.name)} permanent?</strong></p><p>Widgets, andre datasæt og gendannelsesposter bevares, men deres reference til kilden fjernes.</p>`;
+      app.modalManager.open({title:'Bekræft permanent sletning',body:confirm,actions:[{label:'Behold',run:()=>{}},{label:'Afkobl og slet permanent',primary:true,run:()=>detachAndDelete(app,dataset,{tab})}]});
+    },20);}});
+    app.modalManager.open({title:'Datasæt · anvendelser og sletning',body,className:'tn-modal-wide',actions});
+  }
+
+  function diffEntries(a,b,limit=12){
+    const diffs=[];
+    const columnsA=a.dataset.columns||[],columnsB=b.dataset.columns||[];
+    const maxColumns=Math.max(columnsA.length,columnsB.length);
+    for(let index=0;index<maxColumns&&diffs.length<limit;index++)if(String(columnsA[index]??'')!==String(columnsB[index]??''))diffs.push(`Kolonne ${index+1}: “${columnsA[index]??''}” ↔ “${columnsB[index]??''}”`);
+    const rowsA=a.dataset.rows||[],rowsB=b.dataset.rows||[],maxRows=Math.max(rowsA.length,rowsB.length);
+    for(let rowIndex=0;rowIndex<maxRows&&diffs.length<limit;rowIndex++){
+      const rowA=rowArray(a.dataset,rowsA[rowIndex]||[]),rowB=rowArray(b.dataset,rowsB[rowIndex]||[]),max=Math.max(rowA.length,rowB.length);
+      for(let col=0;col<max&&diffs.length<limit;col++)if(TN.stableStringify(normalizeValue(rowA[col]))!==TN.stableStringify(normalizeValue(rowB[col])))diffs.push(`Række ${rowIndex+1}, kolonne ${col+1}: “${String(rowA[col]??'').slice(0,70)}” ↔ “${String(rowB[col]??'').slice(0,70)}”`);
+    }
+    return diffs;
+  }
+
+  TN.TavleNextApp.prototype.showDatasetDuplicateCenter=async function({focusId=null,tab='sources'}={}){
+    const app=this,scan=await scanDuplicates(app,{force:!app.__datasetDuplicateScan});
+    const body=document.createElement('div');body.className='tn-duplicate-center';
+    body.innerHTML=`<div class="tn-duplicate-stats"><div><strong>${scan.exactGroups.length}</strong><span>identiske grupper</span></div><div><strong>${scan.likelyGroups.length}</strong><span>mulige dubletter</span></div><div><strong>${scan.datasets.length}</strong><span>datasæt undersøgt</span></div></div>`;
+    if(!scan.exactGroups.length&&!scan.likelyGroups.length){body.insertAdjacentHTML('beforeend','<div class="tn-empty-state">Ingen dubletter blev fundet.</div>');}
+    const addGroup=(group,{exact})=>{
+      const section=document.createElement('section');section.className=`tn-duplicate-group ${exact?'is-exact':'is-likely'}`;
+      const title=exact?'Identiske datasæt':'Mulige dubletter';
+      section.innerHTML=`<header><div><strong>${title}</strong><small>${group.length} datasæt · ${(group[0].dataset.rows||[]).length} rækker · ${(group[0].dataset.columns||[]).length} kolonner</small></div><span>${exact?'Kan samles sikkert':'Skal kontrolleres'}</span></header>`;
+      const choices=document.createElement('div');choices.className='tn-duplicate-choices';
+      group.forEach((entry,index)=>{
+        const label=document.createElement('label');
+        label.innerHTML=`${exact?`<input type="radio" name="dup-${esc(group[0].fingerprint)}" value="${esc(entry.dataset.id)}" ${String(entry.dataset.id)===String(focusId)||(!focusId&&index===0)?'checked':''}>`:''}<span><b>${esc(entry.dataset.name)}</b><small>${esc(duplicateScopeLabel(entry.dataset))} · importeret ${esc(entry.dataset.meta?.importedAt?new Date(entry.dataset.meta.importedAt).toLocaleString('da-DK'):'ukendt tidspunkt')}</small></span>`;
+        choices.append(label);
+      });
+      section.append(choices);
+      const controls=document.createElement('div');controls.className='tn-duplicate-controls';
+      if(exact){
+        const button=document.createElement('button');button.type='button';button.className='tn-button primary';button.textContent='Behold den valgte og saml dubletter';button.onclick=async()=>{
+          const preferred=choices.querySelector('input:checked')?.value||group[0].dataset.id;
+          button.disabled=true;button.textContent='Samler …';
+          try{await mergeExactGroup(app,group,preferred,{tab});}catch(error){button.disabled=false;button.textContent='Behold den valgte og saml dubletter';app.toast(error.message||'Dubletterne kunne ikke samles');}
+        };controls.append(button);
+      }else{
+        const button=document.createElement('button');button.type='button';button.className='tn-button';button.textContent='Vis de første forskelle';button.onclick=()=>{
+          const diffs=diffEntries(group[0],group[1]);
+          const diffBody=document.createElement('div');diffBody.className='tn-duplicate-diff';diffBody.innerHTML=diffs.length?`<ol>${diffs.map(diff=>`<li>${esc(diff)}</li>`).join('')}</ol>`:'<p>Forskellen ligger uden for det udsnit, Plan sammenlignede.</p>';
+          app.modalManager.open({title:'Forskelle mellem datasæt',body:diffBody,actions:[{label:'Luk',primary:true,run:()=>{}}]});
+        };controls.append(button);
+      }
+      section.append(controls);body.append(section);
+    };
+    scan.exactGroups.forEach(group=>addGroup(group,{exact:true}));
+    scan.likelyGroups.forEach(group=>addGroup(group,{exact:false}));
+    app.modalManager.open({title:'Find dubletter',body,className:'tn-modal-wide tn-duplicate-modal',actions:[{label:'Luk',run:()=>{}}]});
+    setTimeout(()=>{if(focusId)body.querySelector(`input[value="${CSS.escape(String(focusId))}"]`)?.closest('.tn-duplicate-group')?.scrollIntoView({block:'center'});},60);
+  };
+
+  TN.TavleNextApp.prototype.showDatasetDeleteCenter=function(datasetId,options){return openDeleteCenter(this,datasetId,options||{});};
+
+  function decorateCards(app,datacenter){
+    const scan=app.__datasetDuplicateScan;
+    datacenter.querySelectorAll('.tn-dataset-card').forEach(card=>{
+      const id=String(card.dataset.datasetId||'');
+      card.querySelectorAll('.tn-duplicate-badge').forEach(node=>node.remove());
+      if(!scan)return;
+      const exact=scan.exactIds.has(id),likely=scan.likelyIds.has(id);
+      card.dataset.duplicateKind=exact?'exact':likely?'likely':'';
+      if(exact||likely){
+        const badge=document.createElement('span');badge.className=`tn-duplicate-badge ${exact?'exact':'likely'}`;badge.textContent=exact?'Identisk dublet':'Mulig dublet';card.querySelector(':scope > div:first-child')?.append(badge);
+      }
+      if(datacenter.dataset.onlyDuplicates==='1')card.hidden=!(exact||likely);
+      else card.hidden=false;
+    });
+  }
+
+  function enhanceDatacenter(app,datacenter){
+    if(!datacenter||!datacenter.isConnected)return;
+    if(!datacenter.dataset.duplicateEvents){
+      datacenter.dataset.duplicateEvents='1';
+      datacenter.addEventListener('click',event=>{
+        const deleteButton=event.target.closest('.tn-dataset-card [data-delete]');
+        if(!deleteButton||!datacenter.contains(deleteButton))return;
+        event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();
+        const card=deleteButton.closest('.tn-dataset-card'),datasetId=card?.dataset.datasetId;
+        if(datasetId)app.showDatasetDeleteCenter(datasetId,{tab:activeDataTab(datacenter)});
+      },true);
+      const observer=new MutationObserver(()=>{clearTimeout(datacenter.__dupTimer);datacenter.__dupTimer=setTimeout(()=>enhanceDatacenter(app,datacenter),20);});
+      observer.observe(datacenter,{childList:true,subtree:true});
+      datacenter.__duplicateObserver=observer;
+    }
+    const toolbar=[...datacenter.querySelectorAll('.tn-center-actions')].find(node=>node.querySelector('input[type="search"][placeholder*="datakilder"]'));
+    if(toolbar&&!toolbar.querySelector('[data-find-dataset-duplicates]')){
+      const importButton=[...toolbar.querySelectorAll('button')].find(button=>button.textContent.includes('Importér'));
+      const find=document.createElement('button');find.type='button';find.dataset.findDatasetDuplicates='1';find.textContent='Find dubletter';find.onclick=async()=>{
+        find.disabled=true;const original=find.textContent;find.textContent='Sammenligner …';
+        try{await scanDuplicates(app,{force:true});decorateCards(app,datacenter);app.showDatasetDuplicateCenter({tab:activeDataTab(datacenter)});}catch(error){app.toast(error.message||'Dubletkontrollen mislykkedes');}
+        finally{find.disabled=false;find.textContent=original;}
+      };
+      const filter=document.createElement('button');filter.type='button';filter.dataset.onlyDatasetDuplicates='1';filter.textContent='Vis kun dubletter';filter.onclick=async()=>{
+        if(!app.__datasetDuplicateScan){filter.disabled=true;filter.textContent='Sammenligner …';try{await scanDuplicates(app,{force:true});}finally{filter.disabled=false;filter.textContent='Vis kun dubletter';}}
+        datacenter.dataset.onlyDuplicates=datacenter.dataset.onlyDuplicates==='1'?'0':'1';filter.classList.toggle('active',datacenter.dataset.onlyDuplicates==='1');filter.textContent=datacenter.dataset.onlyDuplicates==='1'?'Vis alle datakilder':'Vis kun dubletter';decorateCards(app,datacenter);
+      };
+      toolbar.insertBefore(find,importButton||null);toolbar.insertBefore(filter,importButton||null);
+    }
+    decorateCards(app,datacenter);
+  }
+
+  const originalShowDataCenter=TN.TavleNextApp.prototype.showDataCenter;
+  TN.TavleNextApp.prototype.showDataCenter=async function(...args){
+    const result=await originalShowDataCenter.apply(this,args);
+    const app=this;
+    const schedule=()=>document.querySelectorAll('.tn-datacenter').forEach(node=>enhanceDatacenter(app,node));
+    requestAnimationFrame(schedule);setTimeout(schedule,80);setTimeout(schedule,260);
+    return result;
+  };
+
+  TN.on?.('datasetchange',()=>{const app=TN.runtime?.app||window.tavleNextApp;if(app)app.__datasetDuplicateScan=null;});
+
+  const globalObserver=new MutationObserver(()=>{
+    const app=TN.runtime?.app||window.tavleNextApp;
+    if(!app)return;
+    document.querySelectorAll('.tn-datacenter').forEach(node=>enhanceDatacenter(app,node));
+  });
+  globalObserver.observe(document.documentElement,{childList:true,subtree:true});
+})(window.TavleNext);
+
+</script>
 </body>
 </html>
