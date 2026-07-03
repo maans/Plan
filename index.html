@@ -15173,70 +15173,126 @@ bevares, og en manglende samtalekilde kan fortsat ikke ødelægge Elevkortene.
 
   async function parseXlsxSheets(file){
     const zip = zipEntries(await file.arrayBuffer());
-    const workbook = await inflateEntry(zip['xl/workbook.xml']).catch(()=> '');
-    const relationships = await inflateEntry(zip['xl/_rels/workbook.xml.rels']).catch(()=> '');
-    if(!workbook) throw new Error('Kunne ikke læse regnearkets arkoversigt');
+    const workbookXml = await inflateEntry(zip['xl/workbook.xml']).catch(()=> '');
+    const relationshipsXml = await inflateEntry(zip['xl/_rels/workbook.xml.rels']).catch(()=> '');
+    if(!workbookXml) throw new Error('Kunne ikke læse regnearkets arkoversigt');
 
-    const relTarget = new Map();
-    relationships.replace(/<Relationship\b([^>]*)\/?>(?:<\/Relationship>)?/g,(_,attrs) => {
-      const id=(attrs.match(/\bId="([^"]+)"/)||[])[1];
-      const target=(attrs.match(/\bTarget="([^"]+)"/)||[])[1];
-      if(id && target) relTarget.set(id,target.replace(/^\//,''));
-      return _;
-    });
+    const xmlDocument = source => {
+      const document = new DOMParser().parseFromString(String(source||''),'application/xml');
+      if(document.querySelector('parsererror')) throw new Error('En del af Excel-filen indeholder ugyldig XML');
+      return document;
+    };
+    const elements = (document,localName) => [
+      ...document.getElementsByTagNameNS('*',localName),
+      ...document.getElementsByTagName(localName)
+    ].filter((node,index,array)=>array.indexOf(node)===index);
+    const normalizePartPath = target => {
+      let value=String(target||'').replace(/\\/g,'/').trim();
+      if(!value)return '';
+      value=value.replace(/^\//,'');
+      if(!value.startsWith('xl/')) value=`xl/${value}`;
+      const clean=[];
+      for(const part of value.split('/')){
+        if(!part||part==='.')continue;
+        if(part==='..'){clean.pop();continue;}
+        clean.push(part);
+      }
+      return clean.join('/');
+    };
+    const naturalSheetSort = (a,b) => {
+      const an=Number(String(a).match(/sheet(\d+)\.xml$/i)?.[1]||0);
+      const bn=Number(String(b).match(/sheet(\d+)\.xml$/i)?.[1]||0);
+      return an-bn || String(a).localeCompare(String(b),'da');
+    };
 
-    const sheetDefs=[];
-    workbook.replace(/<sheet\b([^>]*)\/?>(?:<\/sheet>)?/g,(_,attrs) => {
-      const rawName=(attrs.match(/\bname="([^"]*)"/)||[])[1] || `Ark ${sheetDefs.length+1}`;
-      const relId=(attrs.match(/\br:id="([^"]+)"/)||[])[1];
-      if(relId) sheetDefs.push({name:decode(rawName),relId});
-      return _;
-    });
+    const workbookDocument=xmlDocument(workbookXml);
+    const relationshipTargets=new Map();
+    if(relationshipsXml){
+      try{
+        const relDocument=xmlDocument(relationshipsXml);
+        for(const relation of elements(relDocument,'Relationship')){
+          const id=relation.getAttribute('Id')||relation.getAttribute('id')||'';
+          const target=normalizePartPath(relation.getAttribute('Target')||relation.getAttribute('target')||'');
+          if(id&&target)relationshipTargets.set(id,target);
+        }
+      }catch(error){console.warn('Excel-relationerne kunne ikke læses fuldt ud',error);}
+    }
 
-    if(!sheetDefs.length) throw new Error('Kunne ikke finde regnearkets ark');
+    const sheetDefs=elements(workbookDocument,'sheet').map((sheet,index)=>({
+      name:String(sheet.getAttribute('name')||`Ark ${index+1}`),
+      relId:sheet.getAttributeNS('http://schemas.openxmlformats.org/officeDocument/2006/relationships','id')||sheet.getAttribute('r:id')||sheet.getAttribute('id')||'',
+      sheetId:Number(sheet.getAttribute('sheetId')||0),
+      state:String(sheet.getAttribute('state')||'visible')
+    }));
+    if(!sheetDefs.length) throw new Error('Kunne ikke finde regnearkets faneblade');
 
-    const sharedXml=await inflateEntry(zip['xl/sharedStrings.xml']).catch(()=> ''), shared=[];
-    sharedXml.replace(/<si[\s\S]*?<\/si>/g,si => {
-      let value='';
-      si.replace(/<t[^>]*>([\s\S]*?)<\/t>/g,(_,text) => {value+=decode(text);return _;});
-      shared.push(value);
-      return si;
-    });
+    const worksheetPaths=Object.keys(zip).filter(path=>/^xl\/worksheets\/[^/]+\.xml$/i.test(path)).sort(naturalSheetSort);
+    const usedPaths=new Set();
+    const resolveSheetPath=(definition,index)=>{
+      const candidates=[
+        relationshipTargets.get(definition.relId),
+        definition.sheetId?`xl/worksheets/sheet${definition.sheetId}.xml`:'',
+        worksheetPaths[index]
+      ].filter(Boolean);
+      for(const candidate of candidates){
+        const normalized=normalizePartPath(candidate);
+        if(zip[normalized]&&!usedPaths.has(normalized)){usedPaths.add(normalized);return normalized;}
+      }
+      const fallback=worksheetPaths.find(path=>!usedPaths.has(path));
+      if(fallback){usedPaths.add(fallback);return fallback;}
+      return '';
+    };
+
+    const shared=[];
+    const sharedXml=await inflateEntry(zip['xl/sharedStrings.xml']).catch(()=> '');
+    if(sharedXml){
+      try{
+        const sharedDocument=xmlDocument(sharedXml);
+        for(const item of elements(sharedDocument,'si')){
+          shared.push(elements(item,'t').map(node=>node.textContent||'').join(''));
+        }
+      }catch(error){console.warn('Excel-filenes delte tekstværdier kunne ikke læses fuldt ud',error);}
+    }
 
     const base=(file.name||'Regneark').replace(/\.[^.]+$/,'');
     const sheets=[];
-    for(let index=0; index<sheetDefs.length; index++){
+    for(let index=0;index<sheetDefs.length;index++){
       const definition=sheetDefs[index];
-      const target=relTarget.get(definition.relId);
-      if(!target) continue;
-      const path=target.startsWith('xl/') ? target : `xl/${target.replace(/^\.\//,'')}`;
-      if(!zip[path]) continue;
-      const xml=await inflateEntry(zip[path]), rows=[];
-      xml.replace(/<row[^>]*>([\s\S]*?)<\/row>/g,(_,rowXml) => {
+      const path=resolveSheetPath(definition,index);
+      if(!path)continue;
+      let sheetXml='';
+      try{sheetXml=await inflateEntry(zip[path]);}catch(error){console.warn(`Fanebladet ${definition.name} kunne ikke pakkes ud`,error);continue;}
+      if(!sheetXml)continue;
+      let sheetDocument;
+      try{sheetDocument=xmlDocument(sheetXml);}catch(error){console.warn(`Fanebladet ${definition.name} kunne ikke læses`,error);continue;}
+      const rows=[];
+      for(const rowNode of elements(sheetDocument,'row')){
         const row=[];
-        rowXml.replace(/<c([^>]*)>([\s\S]*?)<\/c>/g,(__,attrs,body) => {
-          const ref=(attrs.match(/\br="([^"]+)"/)||[])[1]||'';
-          const kind=(attrs.match(/\bt="([^"]+)"/)||[])[1]||'';
-          const raw=(body.match(/<v[^>]*>([\s\S]*?)<\/v>/)||[])[1];
-          const inline=(body.match(/<is[\s\S]*?<t[^>]*>([\s\S]*?)<\/t>[\s\S]*?<\/is>/)||[])[1];
+        for(const cell of elements(rowNode,'c')){
+          const ref=cell.getAttribute('r')||'';
+          const kind=cell.getAttribute('t')||'';
+          const valueNode=elements(cell,'v')[0]||null;
+          const inlineNodes=elements(cell,'is').flatMap(node=>elements(node,'t'));
           let value='';
-          if(kind==='s' && raw!=null) value=shared[Number(raw)] ?? '';
-          else if(inline!=null) value=decode(inline);
-          else if(raw!=null) value=decode(raw);
-          row[columnIndex(ref) || row.length]=String(value);
-          return __;
-        });
-        if(row.some(value => String(value||'').trim()!=='')) rows.push(row);
-        return _;
-      });
-      sheets.push(normalizeSheetTable(rows,{
-        name:sheetDefs.length>1 ? `${base} · ${definition.name}` : base,
+          if(kind==='s'&&valueNode)value=shared[Number(valueNode.textContent||0)]??'';
+          else if(kind==='inlineStr'||inlineNodes.length)value=inlineNodes.map(node=>node.textContent||'').join('');
+          else if(kind==='b'&&valueNode)value=String(valueNode.textContent||'')==='1'?'TRUE':'FALSE';
+          else if(valueNode)value=valueNode.textContent||'';
+          const indexFromRef=ref?columnIndex(ref):row.length;
+          row[indexFromRef]=String(value??'');
+        }
+        if(row.some(value=>String(value||'').trim()!==''))rows.push(row);
+      }
+      const parsed=normalizeSheetTable(rows,{
+        name:sheetDefs.length>1?`${base} · ${definition.name}`:base,
         sourceName:file.name||base,
         sheetName:definition.name,
         sheetIndex:index
-      }));
+      });
+      parsed.meta={...(parsed.meta||{}),sourceSheetState:definition.state,sourceSheetPath:path};
+      sheets.push(parsed);
     }
-    if(!sheets.length) throw new Error('Kunne ikke læse nogen ark i regnearket');
+    if(!sheets.length)throw new Error('Kunne ikke læse nogen faneblade i regnearket');
     return sheets;
   }
 
@@ -15574,29 +15630,25 @@ bevares, og en manglende samtalekilde kan fortsat ikke ødelægge Elevkortene.
     body.className='tn-data-import-preview';
     let select=null;
 
-    if(sheets.length===1){
-      const parsed=sheets[0];
-      const sample=[parsed.columns,...parsed.rows.slice(0,5)];
-      body.innerHTML=`<div class="tn-import-stats"><b>Fil</b><span>${TN.escapeHtml(file.name)}</span><b>Ark</b><span>${TN.escapeHtml(parsed.meta?.sourceSheetName||'Ark 1')}</span><b>Rækker</b><span>${parsed.rows.length}</span><b>Kolonner</b><span>${parsed.columns.length}</span><b>Størrelse</b><span>${TN.formatBytes(file.size)}</span></div><div class="tn-preview-table">${sample.map((row,index)=>`<div class="${index===0?'header':''}">${row.map(cell=>`<span>${TN.escapeHtml(cell)}</span>`).join('')}</div>`).join('')}</div>`;
-    }else{
-      body.innerHTML=`<label class="tn-field"><span>Vælg ark fra Excel-filen</span><select data-sheet></select></label><div data-sheet-info></div><div class="tn-preview-table" data-sheet-preview></div>`;
-      select=body.querySelector('[data-sheet]');
-      sheets.forEach((sheet,index)=>{
-        const option=document.createElement('option');
-        option.value=String(index);
-        option.textContent=`${index+1}. ${sheet.meta?.sourceSheetName||sheet.name}`;
-        select.append(option);
-      });
+    body.innerHTML=`<label class="tn-field"><span>Vælg faneblad fra Excel-filen</span><select data-sheet aria-label="Vælg faneblad"></select></label><div data-sheet-info></div><div class="tn-preview-table" data-sheet-preview></div>`;
+    select=body.querySelector('[data-sheet]');
+    sheets.forEach((sheet,index)=>{
+      const option=document.createElement('option');
+      option.value=String(index);
+      const state=String(sheet.meta?.sourceSheetState||'visible');
+      option.textContent=`${index+1}. ${sheet.meta?.sourceSheetName||sheet.name}${state!=='visible'?` · ${state==='hidden'?'skjult':'meget skjult'}`:''}`;
+      select.append(option);
+    });
 
-      const paint=()=>{
-        const parsed=sheets[Number(select.value)||0];
-        body.querySelector('[data-sheet-info]').innerHTML=`<div class="tn-import-stats"><b>Fil</b><span>${TN.escapeHtml(file.name)}</span><b>Ark</b><span>${TN.escapeHtml(parsed.meta?.sourceSheetName||'')}</span><b>Rækker</b><span>${parsed.rows.length}</span><b>Kolonner</b><span>${parsed.columns.length}</span><b>Størrelse</b><span>${TN.formatBytes(file.size)}</span></div>`;
-        const sample=[parsed.columns,...parsed.rows.slice(0,5)];
-        body.querySelector('[data-sheet-preview]').innerHTML=sample.map((row,index)=>`<div class="${index===0?'header':''}">${row.map(cell=>`<span>${TN.escapeHtml(cell)}</span>`).join('')}</div>`).join('');
-      };
-      select.addEventListener('change',paint);
-      paint();
-    }
+    const paint=()=>{
+      const parsed=sheets[Number(select.value)||0];
+      const state=String(parsed.meta?.sourceSheetState||'visible');
+      body.querySelector('[data-sheet-info]').innerHTML=`<div class="tn-import-stats"><b>Fil</b><span>${TN.escapeHtml(file.name)}</span><b>Ark</b><span>${TN.escapeHtml(parsed.meta?.sourceSheetName||'')}</span><b>Rækker</b><span>${parsed.rows.length}</span><b>Kolonner</b><span>${parsed.columns.length}</span><b>Synlighed</b><span>${state==='visible'?'Synligt faneblad':state==='hidden'?'Skjult faneblad':'Meget skjult faneblad'}</span><b>Størrelse</b><span>${TN.formatBytes(file.size)}</span></div>`;
+      const sample=[parsed.columns,...parsed.rows.slice(0,5)];
+      body.querySelector('[data-sheet-preview]').innerHTML=sample.map((row,index)=>`<div class="${index===0?'header':''}">${row.map(cell=>`<span>${TN.escapeHtml(cell)}</span>`).join('')}</div>`).join('');
+    };
+    select.addEventListener('change',paint);
+    paint();
 
     const saveState=document.createElement('div');
     saveState.setAttribute('role','status');
@@ -15711,12 +15763,12 @@ bevares, og en manglende samtalekilde kan fortsat ikke ødelægge Elevkortene.
     };
 
     dialog=this.modalManager.open({
-      title:sheets.length===1?'Importér Excel-ark':'Vælg ark fra Excel-filen',
+      title:sheets.length>1?'Vælg faneblad fra Excel-filen':'Importér Excel-ark',
       body,
-      className:sheets.length===1?'':'tn-modal-wide',
+      className:'tn-modal-wide',
       actions:[
-        {label:sheets.length===1?'Gem i session':'Gem det valgte ark i session',run:()=>save('session')},
-        {label:sheets.length===1?'Gem som fælles data':'Gem det valgte ark som fælles data',primary:true,run:()=>save('common')}
+        {label:'Gem det valgte ark i session',run:()=>save('session')},
+        {label:'Gem det valgte ark som fælles data',primary:true,run:()=>save('common')}
       ]
     });
     return dialog;
@@ -29364,7 +29416,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 
     const progress=document.createElement('div');
     progress.className='tn-excel-queue-progress';
-    progress.innerHTML=`<strong>Excel-fil ${batch.current} af ${batch.total}</strong><span>Vælg ét ark fra denne fil. Når det er gemt – eller filen springes over – åbner Plan automatisk den næste Excel-fil.</span>`;
+    progress.innerHTML=`<strong>Excel-fil ${batch.current} af ${batch.total}</strong><span>Vælg det faneblad, der skal importeres fra denne fil. Når det er gemt – eller filen springes over – åbner Plan automatisk den næste Excel-fil.</span>`;
     dialog.body?.prepend(progress);
 
     let saveRequested=false;
@@ -29437,7 +29489,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
       const imported=batch.imported.length,skipped=batch.skipped.length,failed=batch.failed.length;
       const body=document.createElement('div');
       body.className='tn-excel-batch-summary';
-      body.innerHTML=`<p>Plan har gennemgået alle ${batch.total} valgte Excel-filer. Ét ark kunne vælges fra hver fil.</p><div class="tn-excel-batch-stats"><div><strong>${imported}</strong><small>importeret</small></div><div><strong>${skipped}</strong><small>sprunget over</small></div><div><strong>${failed}</strong><small>med fejl</small></div></div>`;
+      body.innerHTML=`<p>Plan har gennemgået alle ${batch.total} valgte Excel-filer. Ét faneblad kunne vælges fra hver fil.</p><div class="tn-excel-batch-stats"><div><strong>${imported}</strong><small>importeret</small></div><div><strong>${skipped}</strong><small>sprunget over</small></div><div><strong>${failed}</strong><small>med fejl</small></div></div>`;
       const items=[
         ...batch.imported.map(item=>({...item,kind:'imported'})),
         ...batch.skipped.map(item=>({...item,kind:'skipped'})),
