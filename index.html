@@ -25285,5 +25285,142 @@ genkendes forsigtigt via mediereference, titel og tidspunkt. Mediefiler kopieres
 })(window.TavleNext);
 </script>
 
+<script>
+/* Plan v0.9.3fl PRÆCIS MAKSIMERINGSGENDANNELSE OWNER SAFE
+   Maksimering er en midlertidig visning med sit eget friske layout-snapshot.
+   Det almindelige vindueslayout/fortrydelsessnapshot berøres ikke. */
+(function(TN){
+  'use strict';
+  const App=TN.TavleNextApp;
+  if(!App)return;
+  const proto=App.prototype;
+  const originalApplyWindowLayout=proto.applyWindowLayout;
+  const originalRestoreWindowLayout=proto.restoreWindowLayout;
+  const previousRegisterHelp=proto.registerHelp;
+
+  proto.captureExactResponsiveLayoutForMaximize=function(){
+    const board=TN.runtime.activeBoard;
+    if(!board)return null;
+    this.ensureFreeWindowSlots?.({persist:false});
+    const current=this.responsiveWindowLayout?.();
+    if(!current)return null;
+    const exact=TN.deepClone(current),rect=this.getWindowLayoutRect(exact.margin??10),activeIds=new Set(TN.runtime.activeWidgets.map(widget=>String(widget.id)));
+    exact.slots=(exact.slots||[]).filter(slot=>activeIds.has(String(slot.widgetId)));
+    const byWidget=new Map(exact.slots.map(slot=>[String(slot.widgetId),slot]));
+    for(const widget of TN.runtime.activeWidgets){
+      if(widget.settings?.hidden||widget.settings?.minimized)continue;
+      const old=byWidget.get(String(widget.id)),slot=this.windowSlotFromGeometry(widget,rect,old?.id||null);
+      if(old)Object.assign(old,slot);else{exact.slots.push(slot);byWidget.set(String(widget.id),slot);}
+    }
+    exact.version=2;exact.mode='free';exact.updatedAt=TN.now();
+    return exact;
+  };
+
+  proto.captureMaximizedWindowLayout=function(anchorId){
+    const board=TN.runtime.activeBoard;
+    if(!board)return null;
+    board.meta=board.meta||{};
+    const exactLayout=this.captureExactResponsiveLayoutForMaximize(),slotByWidget=new Map((exactLayout?.slots||[]).map(slot=>[String(slot.widgetId),slot]));
+    const snapshot=TN.runtime.activeWidgets.map(widget=>{
+      const slot=slotByWidget.get(String(widget.id));
+      return{
+        id:widget.id,
+        geometry:TN.deepClone(TN.Models.validateGeometry(widget.geometry)),
+        maximized:!!widget.settings?.maximized,
+        windowLayout:slot&&exactLayout?{layoutId:exactLayout.id,slotId:slot.id}:TN.deepClone(widget.settings?.windowLayout||null)
+      };
+    });
+    const state={
+      version:1,
+      createdAt:TN.now(),
+      anchorId,
+      selectedWidgetId:TN.runtime.selectedWidgetId||anchorId,
+      priorResponsiveLayout:exactLayout?TN.deepClone(exactLayout):null,
+      snapshot
+    };
+    board.meta.maximizedWindowLayoutRestore=state;
+    return state;
+  };
+
+  proto.applyTransientWidgetMaximize=async function(anchorId){
+    const board=TN.runtime.activeBoard,anchor=TN.runtime.activeWidgets.find(widget=>String(widget.id)===String(anchorId));
+    if(!board||!anchor)return false;
+    if(board.meta?.maximizedWindowLayoutRestore)await this.restoreMaximizedWindowLayout({silent:true});
+    this.captureMaximizedWindowLayout(anchor.id);
+    const visible=this.visibleWindowWidgets(),R=this.getWindowLayoutRect(10),maxZ=Math.max(1,...visible.map(widget=>Number(widget.geometry?.z)||1));
+    for(const widget of visible)widget.settings={...(widget.settings||{}),maximized:false};
+    anchor.geometry={...R,rotation:0,z:maxZ+1};anchor.settings={...(anchor.settings||{}),maximized:true};
+    this.captureResponsiveWindowLayout('maximize',visible,R,anchor.id);
+    this.applyResponsiveWindowLayout({persist:false,updateDom:true});
+    for(const widget of visible)this.syncMountedWidgetGeometry(widget);
+    await this.persistWindowLayout(TN.runtime.activeWidgets);
+    this.selectWidget(anchor.id);this.updateWidgetPicker();this.closeLayoutPopover();
+    return true;
+  };
+
+  proto.restoreMaximizedWindowLayout=async function({silent=false}={}){
+    const board=TN.runtime.activeBoard,restore=board?.meta?.maximizedWindowLayoutRestore;
+    if(!board||!restore?.snapshot?.length)return false;
+    cancelAnimationFrame(this.responsiveLayoutFrame);this.responsiveLayoutFrame=0;
+    clearTimeout(this.responsiveLayoutPersistTimer);this.responsiveLayoutPersistTimer=0;
+    const byId=new Map(restore.snapshot.map(item=>[String(item.id),item])),changed=[];
+    for(const widget of TN.runtime.activeWidgets){
+      const item=byId.get(String(widget.id));
+      if(!item)continue;
+      widget.geometry=TN.deepClone(item.geometry);
+      widget.settings={...(widget.settings||{}),maximized:!!item.maximized};
+      if(item.windowLayout)widget.settings.windowLayout=TN.deepClone(item.windowLayout);else delete widget.settings.windowLayout;
+      changed.push(widget);
+    }
+    if(restore.priorResponsiveLayout)board.meta.responsiveWindowLayout=TN.deepClone(restore.priorResponsiveLayout);else delete board.meta.responsiveWindowLayout;
+    delete board.meta.maximizedWindowLayoutRestore;
+    if(board.meta.responsiveWindowLayout)this.applyResponsiveWindowLayout({persist:false,updateDom:true});
+    for(const widget of changed)this.syncMountedWidgetGeometry(widget);
+    await this.persistWindowLayout(changed);
+    const selected=TN.runtime.activeWidgets.find(widget=>String(widget.id)===String(restore.selectedWidgetId));
+    if(selected)this.selectWidget(selected.id);else if(changed[0])this.selectWidget(changed[0].id);
+    this.updateWidgetPicker();this.closeLayoutPopover();
+    if(!silent)this.toast('Vindueslayoutet er gendannet præcist');
+    return true;
+  };
+
+  proto.toggleMaximizeWidget=async function(id){
+    const board=TN.runtime.activeBoard,restore=board?.meta?.maximizedWindowLayoutRestore;
+    if(restore){
+      if(String(restore.anchorId)===String(id))return this.restoreMaximizedWindowLayout();
+      await this.restoreMaximizedWindowLayout({silent:true});
+    }
+    /* Kompatibilitet med en ældre maksimering, der allerede var aktiv ved opgradering. */
+    const legacy=board?.meta?.windowLayoutRestore;
+    if(legacy?.mode==='maximize'&&String(legacy.anchorId)===String(id))return originalRestoreWindowLayout.call(this);
+    return this.applyTransientWidgetMaximize(id);
+  };
+
+  proto.applyWindowLayout=async function(anchorId,mode){
+    if(mode==='maximize')return this.applyTransientWidgetMaximize(anchorId);
+    if(TN.runtime.activeBoard?.meta?.maximizedWindowLayoutRestore)await this.restoreMaximizedWindowLayout({silent:true});
+    return originalApplyWindowLayout.call(this,anchorId,mode);
+  };
+
+  proto.restoreWindowLayout=async function(){
+    if(TN.runtime.activeBoard?.meta?.maximizedWindowLayoutRestore)await this.restoreMaximizedWindowLayout({silent:true});
+    return originalRestoreWindowLayout.call(this);
+  };
+
+  proto.registerHelp=function(){
+    previousRegisterHelp.call(this);
+    const entry=this.helpRegistry.entries.find(item=>item.id==='windows');
+    if(entry){
+      entry.body=entry.body.replace('<li><b>Shift+M</b> maksimerer eller gendanner.</li>','<li><b>Shift+M</b> maksimerer den aktive widget som en midlertidig visning. Når du vender tilbage, genskabes den aktuelle opstilling præcist — også efter manuel flytning og ændring af størrelse.</li>');
+      entry.body=entry.body.replace('Vindueslayout gemmes responsivt, så opstillinger kan tilpasse sig Split View, skærmrotation og ændrede vinduesstørrelser.','Vindueslayout gemmes responsivt, så opstillinger kan tilpasse sig Split View, skærmrotation og ændrede vinduesstørrelser. Maksimering bruger et særskilt, friskt snapshot og overskriver derfor ikke et layout, du selv har brugt tid på at indrette.');
+      TN.registry.help.set('windows',entry);
+    }
+  };
+
+  TN.version='0.9.3fl';
+  window.__PLAN_EXACT_MAXIMIZE_RESTORE_BUILD__='0.9.3fl-2026-07-03';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
