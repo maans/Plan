@@ -28899,5 +28899,258 @@ På Apple-touch-enheder kaldes browserens oprindelige prototype-metode direkte p
   window.__PLAN_IPAD_NATIVE_FULLSCREEN_DIRECT__='0.9.3ge-2026-07-03';
 })(window.TavleNext);
 </script>
+
+<!-- Plan v0.9.3gf SAMTALEARK-VÆLGER GENKENDelse OWNER SAFE:
+Gendanner valg af allerede importerede samtaleark efter at den strammere
+feltprofilkontrol kunne afvise Google Forms-/Excel-kolonner med spørgsmålsnumre
+eller hele spørgsmålstekster. Bevarer de sikre afvisninger af afledte danskhold,
+niveauvurderinger og historik. Importerede svarark af typen subject-response kan
+kun bruges, når de faktisk rummer skriftlig og mundtlig dansk samt eksplicitte
+lærerfelter. Ingen elevsvar, vurderinger eller eksisterende kildebindinger ændres.
+-->
+<script id="plan-v093gf-conversation-picker-recognition-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__PLAN_CONVERSATION_PICKER_RECOGNITION__)return;
+  const Conversation=TN.SubjectConversationManager;
+  if(!Conversation)return;
+
+  const normalize=value=>String(value??'').trim().toLocaleLowerCase('da')
+    .replace(/å/g,'aa').replace(/æ/g,'ae').replace(/ø/g,'oe')
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
+  const word=(value,token)=>new RegExp(`(?:^|\\s)${token}(?:\\s|$)`).test(value);
+  const teacherHeader=value=>
+    word(value,'laerer')||word(value,'faglaerer')||value.includes('laererens')||
+    value.includes('fag laerer')||value.includes('underviser');
+  const commentHeader=value=>/kommentar|uddyb|fokus|aftale|begrund/.test(value);
+  const markerFor=dataset=>normalize([
+    dataset?.name,dataset?.meta?.sourceSheetName,dataset?.meta?.sourceWorkbookName
+  ].filter(Boolean).join(' '));
+
+  const disciplineScore=(value,kind)=>{
+    if(teacherHeader(value)||commentHeader(value))return -1;
+    if(kind==='reading'){
+      if(value==='laesning')return 100;
+      if(word(value,'laesning'))return 80;
+      if(/laeseforstaelse|laese forstaelse/.test(value))return 55;
+    }
+    if(kind==='spelling'){
+      if(/^(retstavning|retskrivning)$/.test(value))return 100;
+      if(/(?:^|\s)(retstavning|retskrivning)(?:\s|$)/.test(value))return 85;
+      if(word(value,'stavning'))return 55;
+    }
+    if(kind==='written'){
+      if(value==='skriftlig dansk')return 120;
+      if(value==='skriftlig fremstilling')return 115;
+      if(value.includes('skriftlig dansk'))return 100;
+      if(value.includes('skriftlig fremstilling'))return 95;
+      if(word(value,'skriftlig'))return 70;
+    }
+    if(kind==='oral'){
+      if(value==='mundtlig dansk')return 120;
+      if(value.includes('mundtlig dansk'))return 100;
+      if(word(value,'mundtlig'))return 75;
+    }
+    return -1;
+  };
+
+  const bestIndex=(normalized,start,end,kind)=>{
+    let best=-1,bestScore=-1;
+    for(let index=start;index<end;index++){
+      const score=disciplineScore(normalized[index],kind);
+      if(score>bestScore){best=index;bestScore=score;}
+    }
+    return best;
+  };
+
+  const relaxedLayout=function(dataset,requested='auto'){
+    if(!dataset)throw new Error('Samtalearket findes ikke');
+    const columns=dataset.columns||[];
+    const normalized=columns.map(normalize);
+    if(!columns.length)throw new Error('Samtalearket har ingen kolonner');
+
+    const identityPattern=/^(tidsstempel|timestamp|mailadresse|skolemail|e mail|email|mail|unilogin|uni login|navn efternavn|navn og efternavn|navn|elevnavn|k laerere|k laerer|kontaktlaerere|kontaktlaerer|klassetrin|klasse|aargang)$/;
+    let identityEnd=-1;
+    normalized.forEach((value,index)=>{
+      if(identityPattern.test(value)||/^(navn|mail|e mail|email|unilogin|k laerer|kontaktlaerer)(?:\s|$)/.test(value))identityEnd=Math.max(identityEnd,index);
+    });
+
+    const searchStart=Math.max(0,identityEnd+1);
+    const firstSubject=normalized.findIndex((value,index)=>index>=searchStart&&(
+      value==='dansk'||
+      value.includes('forbedre dit standpunkt')||value.includes('hvor meget yder')||
+      ['reading','spelling','written','oral'].some(kind=>disciplineScore(value,kind)>=0)
+    ));
+    if(firstSubject<0)throw new Error('Plan kunne ikke finde danskfelterne i arket');
+
+    let start=normalized.findIndex((value,index)=>index>=searchStart&&value==='dansk');
+    if(start<0)start=firstSubject;
+    let end=columns.length;
+    for(let index=start+1;index<columns.length;index++){
+      if(word(normalized[index],'matematik')){end=index;break;}
+    }
+
+    const reading=bestIndex(normalized,start,end,'reading');
+    const spelling=bestIndex(normalized,start,end,'spelling');
+    const written=bestIndex(normalized,start,end,'written');
+    const oral=bestIndex(normalized,start,end,'oral');
+
+    let profileId=requested;
+    if(profileId==='auto'){
+      const marker=markerFor(dataset);
+      if(/10 klasse|(?:^|\s)10(?:\s|$)/.test(marker))profileId='danish10';
+      else if(/9 klasse|(?:^|\s)9(?:\s|$)/.test(marker))profileId='danish9';
+      else profileId=(reading>=0&&spelling>=0)?'danish9':'danish10';
+    }
+
+    const disciplines=[
+      ['reading',reading],['spelling',spelling],['written',written],['oral',oral]
+    ].filter(([,index])=>index>=0).sort((a,b)=>a[1]-b[1]);
+
+    const teacherColumns=[];
+    for(let index=start;index<end;index++){
+      const value=normalized[index];
+      if(!teacherHeader(value)||commentHeader(value))continue;
+      if(value.includes('karakter')||value.includes('vurdering')||value.includes('svar')||value==='laerer'||value==='faglaerer')teacherColumns.push(index);
+    }
+
+    const teacherFor=(fieldIndex,kind)=>{
+      if(fieldIndex<0)return -1;
+      const kindTokens=kind==='reading'?['laesning','laese']:
+        kind==='spelling'?['retstavning','retskrivning','stavning']:
+        kind==='written'?['skriftlig']:['mundtlig'];
+      const named=teacherColumns.find(index=>kindTokens.some(token=>normalized[index].includes(token)));
+      if(named>=0)return named;
+      const next=disciplines.find(([,index])=>index>fieldIndex)?.[1]??end;
+      const nearby=teacherColumns.find(index=>index>fieldIndex&&index<next);
+      if(nearby>=0)return nearby;
+      const close=teacherColumns.find(index=>index>fieldIndex&&index<=fieldIndex+6);
+      if(close>=0)return close;
+      const ordinal=disciplines.findIndex(([,index])=>index===fieldIndex);
+      return teacherColumns[ordinal]??-1;
+    };
+
+    const findText=(...needles)=>{
+      for(let index=start;index<end;index++){
+        const value=normalized[index];
+        if(needles.some(needle=>value.includes(normalize(needle))))return index;
+      }
+      return -1;
+    };
+
+    const explicitDansk=normalized.findIndex((value,index)=>index>=start&&index<end&&value==='dansk');
+    const wellbeing=findText('har du det godt','trivsel');
+    let teacherWellbeing=-1;
+    if(wellbeing>=0){
+      teacherWellbeing=teacherColumns.find(index=>index>wellbeing&&(
+        normalized[index].includes('trivsel')||normalized[index].includes('svar')
+      ))??-1;
+    }
+
+    let teacherComment=-1,studentComment=-1;
+    for(let index=start;index<end;index++){
+      const value=normalized[index];
+      if(studentComment<0&&!teacherHeader(value)&&(
+        value.includes('kommentar til danskfaglighed')||value.includes('kommentar til egen danskfaglighed')
+      ))studentComment=index;
+      if(teacherComment<0&&teacherHeader(value)&&value.includes('kommentar'))teacherComment=index;
+    }
+
+    const layout={
+      start,end,columns:columns.slice(start,end),profileId,
+      overall:explicitDansk,
+      effort:findText('hvor meget yder','forbedre dit standpunkt'),
+      submissions:findText('har du lavet alle','afleveret til tiden'),
+      elaboration:findText('uddyb'),
+      studentComment,comment:teacherComment,
+      reading,teacherReading:teacherFor(reading,'reading'),
+      spelling,teacherSpelling:teacherFor(spelling,'spelling'),
+      written,teacherWritten:teacherFor(written,'written'),
+      oral,teacherOral:teacherFor(oral,'oral'),
+      wellbeing,teacherWellbeing,
+      boundaryLabel:end<columns.length?columns[end]:''
+    };
+
+    const required=profileId==='danish9'
+      ? [layout.reading,layout.teacherReading,layout.spelling,layout.teacherSpelling,layout.written,layout.teacherWritten,layout.oral,layout.teacherOral]
+      : [layout.written,layout.teacherWritten,layout.oral,layout.teacherOral];
+    if(required.some(index=>index<0))throw new Error(
+      profileId==='danish9'
+        ? 'Arket mangler et eller flere felter til Dansk · 9. klasse'
+        : 'Arket mangler skriftlig eller mundtlig dansk med lærerfelt'
+    );
+    return layout;
+  };
+
+  const previousProfileLayout=Conversation.prototype.profileLayout;
+  Conversation.prototype.profileLayout=function(dataset,profileId='auto'){
+    try{return previousProfileLayout.call(this,dataset,profileId);}
+    catch(strictError){
+      try{return relaxedLayout.call(this,dataset,profileId);}
+      catch(relaxedError){throw strictError||relaxedError;}
+    }
+  };
+
+  const previousValid=Conversation.prototype.validConversationSourceWithProfile;
+  Conversation.prototype.validConversationSourceWithProfile=function(base,dataset,requested='auto'){
+    const safe=previousValid.call(this,base,dataset,requested);
+    if(safe)return safe;
+    if(!dataset||String(dataset.id||'')===String(base?.id||''))return null;
+
+    // Afledte arbejdsdatasæt må fortsat aldrig bruges som originale samtaleark.
+    if([
+      'subject-conversation','student-grades','student-grade-history',
+      'leveling-active-hold','leveling-assessment','leveling-history'
+    ].includes(dataset.type))return null;
+
+    // Et importeret svarark må kun åbnes som reserve, når lærerfelterne faktisk findes.
+    if(dataset.type==='subject-response'||dataset.type==='subject-course'){
+      const headers=(dataset.columns||[]).map(normalize);
+      const explicitTeachers=headers.filter(value=>teacherHeader(value)&&(
+        value.includes('karakter')||value.includes('vurdering')||value.includes('svar')
+      )).length;
+      if(explicitTeachers<2)return null;
+    }
+
+    try{
+      const profileId=requested==='auto'
+        ? relaxedLayout.call(this,dataset,'auto').profileId
+        : requested;
+      return {profileId,layout:relaxedLayout.call(this,dataset,profileId)};
+    }catch{return null;}
+  };
+
+  const previousPicker=Conversation.prototype.openConversationSourcePicker;
+  Conversation.prototype.openConversationSourcePicker=async function(base,options={}){
+    let candidates=[];
+    try{candidates=await this.conversationCandidates(base);}catch{}
+    const modal=await previousPicker.call(this,base,options);
+    if(candidates.length)return modal;
+
+    const empty=modal?.body?.querySelector?.('.tn-empty');
+    if(empty)empty.innerHTML=`
+      <strong>Ingen genkendelige samtaleark blev fundet.</strong><br><br>
+      Plan leder nu også efter nummererede spørgsmål og hele spørgsmålstekster.
+      Mangler arket stadig, skal det importeres fra Excel-filen med kolonnerne til
+      skriftlig og mundtlig dansk samt de tilhørende lærerfelter.`;
+    if(modal?.footer&&!modal.footer.querySelector('[data-import-conversation-sheet]')){
+      const button=document.createElement('button');
+      button.type='button';button.className='tn-button';button.dataset.importConversationSheet='';
+      button.textContent='Importér samtaleark';
+      button.onclick=()=>{
+        this.app.modalManager.close(modal.layer);
+        this.app.requestImportFiles();
+      };
+      modal.footer.prepend(button);
+    }
+    return modal;
+  };
+
+  TN.version='0.9.3gf';
+  window.__PLAN_CONVERSATION_PICKER_RECOGNITION__='0.9.3gf-2026-07-03';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
