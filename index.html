@@ -21,7 +21,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.9.3eb PLACERINGSGRID OWNER SAFE: Bygger direkte på v0.9.3ea. Erstatter kun tavlegridets visuelle definition og kontrastvalg: gitteret er nu et egentligt ortogonalt placeringsgrid med 40 px felter og kraftigere hovedlinjer for hver femte celle. Linjerne skifter automatisk mellem mørk og lys kontrast efter tavlens farve/gradient; på billedbaggrunde bruges et adaptivt difference-lag. Grid ligger fortsat pointer-passivt over baggrunden, følger tavlens koordinater og ændrer ikke widgets, snap, data, medier eller backup. -->
 <!-- Plan v0.9.3dz DIGITALT UR / FRIT TAVLEMENUFELT OWNER SAFE: Bygger direkte på v0.9.3dy. Flytter tavlens menu ud af forløbs- og tavletitlens overlappende klikområder til et selvstændigt felt længere mod højre i topbjælken. Menuens tre prikker kan valgfrit erstattes af et digitalt 24-timers ur; tryk på både ur og prikker åbner den samme tavlemenu. Urvalget gemmes lokalt som en brugerfladeindstilling, bruger én ejende minut-timer og påvirker ikke tavle-, session-, backup- eller mediedata. Baggrunde og øvrige tavlemenuhandlinger er uændrede. -->
 <!-- Plan v0.9.3dy+ MULTI EXCEL IMPORTKØ STARTFIX SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
-<!-- Plan DATACENTER DUBLETTER INKREMENTEL + PERMANENT SLETNING OWNER SAFE: Find dubletter bruger indholdsfingeraftryk, skelner identiske og mulige dubletter, kan samle identiske kopier med central omkobling af referencer og tilbyder et eksplicit anvendelses-/afkoblingsforløb før permanent sletning. -->
+<!-- Plan DATACENTER PERMANENT SLETNING OWNER SAFE: Dubletsøgning er fjernet igen, fordi indholdssammenligning kunne fastlåse både iPad og Mac. Det sikre anvendelses-/afkoblingsforløb før permanent sletning bevares. -->
 <!-- Plan v0.9.3dx PAPIRKURV RYDDER FORÆLDRELØSE MEDIER OWNER SAFE: Bygger direkte på v0.9.3dw. Når en tavle eller widget slettes permanent fra Papirkurv, samler Papirkurvens egen ejer de mediereferencer, som lå i elementet, og sletter i samme atomiske lagringstransaktion kun de mediefiler, der ikke længere bruges af levende tavler/widgets, datakilder, andre elementer i Papirkurv, gendannelsespunkter, historik eller den aktuelle usaved runtime. Delte eller beskyttede medier bevares. Tøm Papirkurv bruger samme kontrol samlet, så store tavler med billeder, lyd eller video ikke efterlader forældreløse filer, som bagefter skal ryddes manuelt i Mediearkivet. Bekræftelser og Hjælp forklarer oprydningen; backup-, medie-, tavle- og datamodeller er uændrede. -->
 <!-- Plan v0.9.3dw HJÆLP · DANSK ARBEJDSGANG OWNER SAFE: Bygger direkte på v0.9.3dv. Gennemgår og samler Plans Hjælp, så Elevstamdata, Niveaudeling, Mit danskhold, Fagsamtaler og Standpunktskarakterer beskrives som én sammenhængende, men datamæssigt adskilt arbejdsgang. Tilføjer en samlet indgang fra elevsvar til karakterer, omskriver de detaljerede afsnit i Hjælpens eksisterende tone, opdaterer Jeg vil-indgange, Se også-navigation, Datacenter, datasletning, Lagerredning og det fælles tastaturmønster i elevvisninger. Fagsamtaleprofiler for 9. og 10. klasse, flere samtaleark, manuel elevmatch, lærerfelter, status, eksport, karakterterminer og levende danskhold forklares brugervendt. Ingen data-, widget-, navigations- eller lagringsfunktioner ændres. -->
 <!-- Plan v0.9.3dt ENS ELEVNAVIGATION OWNER SAFE: Bygger direkte på v0.9.3ds. Standardiserer tastaturnavigationen i alle fire fulde elevvisninger: almindeligt Elevkort, Niveaudelingens gennemgang, Standpunktskarakterer og Fagsamtale. Pil op/ned skifter altid elev. Pil venstre/højre skifter den interne fane eller termin, når visningen har sådanne; i Fagsamtale uden faner opsnappes sidepilene, så de aldrig bladrer tavlen i baggrunden. Page Up/Page Down ruller den aktuelle elevvisning. Redigerbare felter beholder deres egne piletaster. Én smal, komponentbevidst tastaturejer aflæser kun den øverste relevante elevmodal og holder ingen elev- eller modalreferencer, så der opstår ikke listeners pr. åbning. Fagsamtalens synlige navigationspile og hjælpetekst følger samme model. Data, autosave, faner, terminer, tavlenavigation uden for elevmodaler og øvrige Plan-funktioner er uændrede. -->
@@ -29868,18 +29868,14 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     if(dataset.scope!=='common'&&String(dataset.sessionId||'')!==String(TN.runtime.activeSession?.id||'')){
       app.toast('Sessionsdata kan kun slettes fra den session, de tilhører');return;
     }
-    const [refs,scan]=await Promise.all([usageDetails(app,dataset.id),scanDuplicates(app)]);
-    const exactGroup=scan.exactGroups.find(group=>group.some(entry=>String(entry.dataset.id)===String(dataset.id)))||[];
-    const alternatives=exactGroup.filter(entry=>String(entry.dataset.id)!==String(dataset.id));
+    const refs=await usageDetails(app,dataset.id);
     const body=document.createElement('div');body.className='tn-dataset-delete-center';
     body.innerHTML=`<div class="tn-delete-summary"><strong>${esc(dataset.name)}</strong><span>${dataset.scope==='common'?'Fælles data':'Sessionsdata'} · ${(dataset.rows||[]).length} rækker · ${(dataset.columns||[]).length} kolonner</span></div>
-      ${alternatives.length?`<div class="tn-duplicate-safe"><b>Identisk dublet fundet</b><span>Den sikreste oprydning er at flytte forbindelserne til en identisk kopi og derefter slette denne.</span></div>`:''}
       <h3>Anvendelser · ${refs.length}</h3>${usageMarkup(refs)}
       <p class="tn-delete-warning">Permanent sletning kan ikke fortrydes uden en backup. Afkobling bevarer widgets og afledte datasæt, men de mister forbindelsen til denne datakilde.</p>`;
     const actions=[{label:'Annuller',run:()=>{}}];
-    if(alternatives.length)actions.push({label:'Saml med identisk dublet',primary:true,run:()=>{setTimeout(()=>app.showDatasetDuplicateCenter({focusId:alternatives[0]?.dataset?.id||dataset.id,tab}),20);}});
-    if(!refs.length)actions.push({label:'Slet permanent',primary:!alternatives.length,run:async()=>{await app.dataManager.delete(dataset.id);app.__datasetDuplicateScan=null;app.toast(`${dataset.name} er slettet permanent`);reopenDataCenter(app,tab);}});
-    else actions.push({label:'Afkobl og slet…',primary:!alternatives.length,run:()=>{setTimeout(()=>{
+    if(!refs.length)actions.push({label:'Slet permanent',primary:true,run:async()=>{await app.dataManager.delete(dataset.id);app.__datasetDuplicateScan=null;app.toast(`${dataset.name} er slettet permanent`);reopenDataCenter(app,tab);}});
+    else actions.push({label:'Afkobl og slet…',primary:true,run:()=>{setTimeout(()=>{
       const confirm=document.createElement('div');confirm.className='tn-delete-dataset-confirm';confirm.innerHTML=`<p><strong>Afkobl ${refs.length} anvendelse${refs.length===1?'':'r'} og slet ${esc(dataset.name)} permanent?</strong></p><p>Widgets, andre datasæt og gendannelsesposter bevares, men deres reference til kilden fjernes.</p>`;
       app.modalManager.open({title:'Bekræft permanent sletning',body:confirm,actions:[{label:'Behold',run:()=>{}},{label:'Afkobl og slet permanent',primary:true,run:()=>detachAndDelete(app,dataset,{tab})}]});
     },20);}});
@@ -29899,83 +29895,24 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     return diffs;
   }
 
-  TN.TavleNextApp.prototype.showDatasetDuplicateCenter=async function({focusId=null,tab='sources',force=false}={}){
-    const app=this,signal={cancelled:false},body=document.createElement('div');body.className='tn-duplicate-center';
-    body.innerHTML=`<div class="tn-duplicate-progress"><strong>Finder dubletter</strong><span data-dup-progress-text>Forbereder datakilder …</span><div><i data-dup-progress-bar></i></div><small>Plan undersøger kun ${esc(duplicateScopeDescription(app,tab))} og arbejder i små bidder, så tavlen fortsat kan betjenes.</small></div>`;
-    const opened=app.modalManager.open({title:'Find dubletter',body,className:'tn-modal-wide tn-duplicate-modal',actions:[{label:'Luk',run:()=>{}}],onClose:()=>{signal.cancelled=true;}});
-    const status=body.querySelector('[data-dup-progress-text]'),bar=body.querySelector('[data-dup-progress-bar]');
-    const update=progress=>{
-      if(!body.isConnected)return;
-      if(status)status.textContent=progress.text||'Sammenligner …';
-      const total=Math.max(1,Number(progress.total)||1),done=Math.max(0,Number(progress.done)||0),percent=Math.max(2,Math.min(100,Math.round(done/total*100)));
-      if(bar)bar.style.width=`${percent}%`;
-    };
-    let scan;
-    try{scan=await scanDuplicates(app,{force:force||app.__datasetDuplicateScan?.scopeKey!==duplicateScopeKey(app,tab),tab,signal,onProgress:update});}
-    catch(error){
-      if(error?.name==='AbortError')return;
-      if(body.isConnected)body.innerHTML=`<div class="tn-empty-state">${esc(error?.message||'Dubletkontrollen mislykkedes')}</div>`;
-      return;
-    }
-    if(!body.isConnected||signal.cancelled)return;
-    body.replaceChildren();
-    body.insertAdjacentHTML('beforeend',`<div class="tn-duplicate-stats"><div><strong>${scan.exactGroups.length}</strong><span>identiske grupper</span></div><div><strong>${scan.likelyGroups.length}</strong><span>mulige dubletter</span></div><div><strong>${scan.datasets.length}</strong><span>datasæt undersøgt</span></div></div><div class="tn-duplicate-scope">Undersøgt: ${esc(scan.scopeDescription)}</div>`);
-    if(!scan.exactGroups.length&&!scan.likelyGroups.length)body.insertAdjacentHTML('beforeend','<div class="tn-empty-state">Ingen dubletter blev fundet.</div>');
-    const addGroup=(group,{exact})=>{
-      const section=document.createElement('section');section.className=`tn-duplicate-group ${exact?'is-exact':'is-likely'}`;
-      const title=exact?'Identiske datasæt':'Mulige dubletter';
-      section.innerHTML=`<header><div><strong>${title}</strong><small>${group.length} datasæt · ${(group[0].dataset.rows||[]).length} rækker · ${(group[0].dataset.columns||[]).length} kolonner</small></div><span>${exact?'Kan samles sikkert':'Skal kontrolleres'}</span></header>`;
-      const choices=document.createElement('div');choices.className='tn-duplicate-choices';
-      group.forEach((entry,index)=>{
-        const label=document.createElement('label');
-        label.innerHTML=`${exact?`<input type="radio" name="dup-${esc(group[0].fingerprint)}" value="${esc(entry.dataset.id)}" ${String(entry.dataset.id)===String(focusId)||(!focusId&&index===0)?'checked':''}>`:''}<span><b>${esc(entry.dataset.name)}</b><small>${esc(duplicateScopeLabel(entry.dataset))} · importeret ${esc(entry.dataset.meta?.importedAt?new Date(entry.dataset.meta.importedAt).toLocaleString('da-DK'):'ukendt tidspunkt')}</small></span>`;
-        choices.append(label);
-      });
-      section.append(choices);
-      const controls=document.createElement('div');controls.className='tn-duplicate-controls';
-      if(exact){
-        const button=document.createElement('button');button.type='button';button.className='tn-button primary';button.textContent='Behold den valgte og saml dubletter';button.onclick=async()=>{
-          const preferred=choices.querySelector('input:checked')?.value||group[0].dataset.id;
-          button.disabled=true;button.textContent='Samler …';
-          try{await mergeExactGroup(app,group,preferred,{tab});}catch(error){button.disabled=false;button.textContent='Behold den valgte og saml dubletter';app.toast(error.message||'Dubletterne kunne ikke samles');}
-        };controls.append(button);
-      }else{
-        const button=document.createElement('button');button.type='button';button.className='tn-button';button.textContent='Vis de første forskelle';button.onclick=()=>{
-          const diffs=diffEntries(group[0],group[1]);
-          const diffBody=document.createElement('div');diffBody.className='tn-duplicate-diff';diffBody.innerHTML=diffs.length?`<ol>${diffs.map(diff=>`<li>${esc(diff)}</li>`).join('')}</ol>`:'<p>Forskellen ligger uden for det udsnit, Plan sammenlignede.</p>';
-          app.modalManager.open({title:'Forskelle mellem datasæt',body:diffBody,actions:[{label:'Luk',primary:true,run:()=>{}}]});
-        };controls.append(button);
-      }
-      section.append(controls);body.append(section);
-    };
-    scan.exactGroups.forEach(group=>addGroup(group,{exact:true}));
-    scan.likelyGroups.forEach(group=>addGroup(group,{exact:false}));
-    setTimeout(()=>{if(focusId)body.querySelector(`input[value="${CSS.escape(String(focusId))}"]`)?.closest('.tn-duplicate-group')?.scrollIntoView({block:'center'});},60);
-  };
-
   TN.TavleNextApp.prototype.showDatasetDeleteCenter=function(datasetId,options){return openDeleteCenter(this,datasetId,options||{});};
+  TN.TavleNextApp.prototype.showDatasetDuplicateCenter=function(){this.toast('Dubletsøgning er fjernet for at holde Datacenteret stabilt.');};
 
   function decorateCards(app,datacenter){
-    const currentScope=duplicateScopeKey(app,activeDataTab(datacenter));
-    const scan=app.__datasetDuplicateScan?.scopeKey===currentScope?app.__datasetDuplicateScan:null;
     datacenter.querySelectorAll('.tn-dataset-card').forEach(card=>{
-      const id=String(card.dataset.datasetId||'');
       card.querySelectorAll('.tn-duplicate-badge').forEach(node=>node.remove());
-      if(!scan)return;
-      const exact=scan.exactIds.has(id),likely=scan.likelyIds.has(id);
-      card.dataset.duplicateKind=exact?'exact':likely?'likely':'';
-      if(exact||likely){
-        const badge=document.createElement('span');badge.className=`tn-duplicate-badge ${exact?'exact':'likely'}`;badge.textContent=exact?'Identisk dublet':'Mulig dublet';card.querySelector(':scope > div:first-child')?.append(badge);
-      }
-      if(datacenter.dataset.onlyDuplicates==='1')card.hidden=!(exact||likely);
-      else card.hidden=false;
+      delete card.dataset.duplicateKind;
+      card.hidden=false;
     });
   }
 
   function enhanceDatacenter(app,datacenter){
     if(!datacenter||!datacenter.isConnected)return;
-    if(!datacenter.dataset.duplicateEvents){
-      datacenter.dataset.duplicateEvents='1';
+    datacenter.querySelectorAll('[data-find-dataset-duplicates],[data-only-dataset-duplicates]').forEach(button=>button.remove());
+    datacenter.dataset.onlyDuplicates='0';
+    decorateCards(app,datacenter);
+    if(!datacenter.dataset.permanentDeleteEvents){
+      datacenter.dataset.permanentDeleteEvents='1';
       datacenter.addEventListener('click',event=>{
         const deleteButton=event.target.closest('.tn-dataset-card [data-delete]');
         if(!deleteButton||!datacenter.contains(deleteButton))return;
@@ -29983,36 +29920,13 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
         const card=deleteButton.closest('.tn-dataset-card'),datasetId=card?.dataset.datasetId;
         if(datasetId)app.showDatasetDeleteCenter(datasetId,{tab:activeDataTab(datacenter)});
       },true);
-      const observer=new MutationObserver(()=>{clearTimeout(datacenter.__dupTimer);datacenter.__dupTimer=setTimeout(()=>enhanceDatacenter(app,datacenter),20);});
+      const observer=new MutationObserver(()=>{
+        clearTimeout(datacenter.__deleteCenterTimer);
+        datacenter.__deleteCenterTimer=setTimeout(()=>enhanceDatacenter(app,datacenter),20);
+      });
       observer.observe(datacenter,{childList:true,subtree:true});
-      datacenter.__duplicateObserver=observer;
+      datacenter.__permanentDeleteObserver=observer;
     }
-    const toolbar=[...datacenter.querySelectorAll('.tn-center-actions')].find(node=>node.querySelector('input[type="search"][placeholder*="datakilder"]'));
-    if(toolbar&&!toolbar.querySelector('[data-find-dataset-duplicates]')){
-      const importButton=[...toolbar.querySelectorAll('button')].find(button=>button.textContent.includes('Importér'));
-      const find=document.createElement('button');find.type='button';find.dataset.findDatasetDuplicates='1';find.textContent='Find dubletter';find.onclick=()=>{
-        app.showDatasetDuplicateCenter({tab:activeDataTab(datacenter),force:true});
-      };
-      const filter=document.createElement('button');filter.type='button';filter.dataset.onlyDatasetDuplicates='1';filter.textContent='Vis kun dubletter';filter.onclick=async()=>{
-        const tab=activeDataTab(datacenter),scopeKey=duplicateScopeKey(app,tab),hasCurrentScan=app.__datasetDuplicateScan?.scopeKey===scopeKey;
-        if(!hasCurrentScan){
-          filter.disabled=true;
-          try{
-            await scanDuplicates(app,{force:true,tab,onProgress:progress=>{
-              const total=Math.max(1,Number(progress.total)||1),done=Math.max(0,Number(progress.done)||0),percent=Math.max(0,Math.min(100,Math.round(done/total*100)));
-              filter.textContent=`Sammenligner ${percent} %`;
-            }});
-          }catch(error){app.toast(error.message||'Dubletkontrollen mislykkedes');return;}
-          finally{filter.disabled=false;}
-        }
-        datacenter.dataset.onlyDuplicates=datacenter.dataset.onlyDuplicates==='1'?'0':'1';
-        filter.classList.toggle('active',datacenter.dataset.onlyDuplicates==='1');
-        filter.textContent=datacenter.dataset.onlyDuplicates==='1'?'Vis alle datakilder':'Vis kun dubletter';
-        decorateCards(app,datacenter);
-      };
-      toolbar.insertBefore(find,importButton||null);toolbar.insertBefore(filter,importButton||null);
-    }
-    decorateCards(app,datacenter);
   }
 
   const originalShowDataCenter=TN.TavleNextApp.prototype.showDataCenter;
