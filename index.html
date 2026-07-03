@@ -28618,5 +28618,53 @@ Retter kun enhedsvalget for fuldskærm. iPadOS kan rapportere sig som Macintosh/
   window.__PLAN_IPAD_DESKTOP_UA_FULLSCREEN_GUARD__='0.9.3gb-2026-07-03';
 })(window.TavleNext);
 </script>
+
+
+<!-- Plan v0.9.3gc MAC NATIVE FULDSKÆRM TAVLEMENU OWNER SAFE:
+Retter kun tavlemenuens portal-ejer i ægte browserfuldskærm på Mac. Tavlemenuen fra ur/••• og fra højreklik/langt tryk oprettes fortsat af samme showBoardMenu-ejer, men flyttes efter oprettelsen ind under det aktive fullscreen-element. Dermed forbliver menuen synlig og interaktiv i Fullscreen API's top-layer. iPad/iPhone bruger fortsat Plans lokale interaktive fuldskærm, og tavle-, widget-, PDF-, kamera- og layoutdata ændres ikke. -->
+<script id="plan-v093gc-mac-native-fullscreen-board-menu-owner">
+(function(TN){
+  'use strict';
+  if(window.__PLAN_MAC_NATIVE_FULLSCREEN_BOARD_MENU__)return;
+  const App=TN?.TavleNextApp;if(!App)return;
+  const proto=App.prototype;
+  const previousShowBoardMenu=proto.showBoardMenu;
+
+  const nativeFullscreenElement=()=>document.fullscreenElement||document.webkitFullscreenElement||null;
+  const currentApp=()=>TN.runtime?.app||window.tavleNextApp||null;
+
+  proto.nativeFullscreenOverlayHost=function(){
+    const active=nativeFullscreenElement();
+    if(!active||!this.root)return null;
+    if(active===this.root)return this.root;
+    if(active.contains?.(this.root))return active;
+    if(this.root.contains?.(active))return active;
+    return null;
+  };
+
+  proto.rehomeBoardMenuForNativeFullscreen=function(){
+    const pop=this.layoutPopover?.el,host=this.nativeFullscreenOverlayHost?.();
+    if(!pop||!host||host.contains(pop))return false;
+    host.append(pop);
+    pop.dataset.fullscreenPortal='board-menu';
+    pop.style.pointerEvents='auto';
+    pop.style.zIndex='10060';
+    return true;
+  };
+
+  proto.showBoardMenu=function(...args){
+    const result=previousShowBoardMenu.apply(this,args);
+    this.rehomeBoardMenuForNativeFullscreen?.();
+    return result;
+  };
+
+  const syncOpenMenu=()=>currentApp()?.rehomeBoardMenuForNativeFullscreen?.();
+  document.addEventListener('fullscreenchange',syncOpenMenu,true);
+  document.addEventListener('webkitfullscreenchange',syncOpenMenu,true);
+
+  TN.version='0.9.3gc';
+  window.__PLAN_MAC_NATIVE_FULLSCREEN_BOARD_MENU__='0.9.3gc-2026-07-03';
+})(window.TavleNext);
+</script>
 </body>
 </html>
