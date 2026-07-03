@@ -20,7 +20,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.9.3ed TEGN PÅ TAVLEN OWNER SAFE: Bygger direkte på v0.9.3ec. Tilføjer én komponentejet tavletegning med frihånd, linje, firkant, cirkel, viskelæder, farve, tykkelse, fortryd/gentag, ryd og gem som billede. Tegningen gemmes som kompakte vektoroperationer på den konkrete tavle, følger Backup++ og tavleduplikering og renderes i et let canvaslag. Tegnetilstanden ejer selv pointere, timere og tastatur; én finger/pen tegner, to fingre zoomer/panorerer. Eksisterende widgets, baggrunde, grid, data og mediearkiv er uændrede. -->
 <!-- Plan v0.9.3eb PLACERINGSGRID OWNER SAFE: Bygger direkte på v0.9.3ea. Erstatter kun tavlegridets visuelle definition og kontrastvalg: gitteret er nu et egentligt ortogonalt placeringsgrid med 40 px felter og kraftigere hovedlinjer for hver femte celle. Linjerne skifter automatisk mellem mørk og lys kontrast efter tavlens farve/gradient; på billedbaggrunde bruges et adaptivt difference-lag. Grid ligger fortsat pointer-passivt over baggrunden, følger tavlens koordinater og ændrer ikke widgets, snap, data, medier eller backup. -->
 <!-- Plan v0.9.3dz DIGITALT UR / FRIT TAVLEMENUFELT OWNER SAFE: Bygger direkte på v0.9.3dy. Flytter tavlens menu ud af forløbs- og tavletitlens overlappende klikområder til et selvstændigt felt længere mod højre i topbjælken. Menuens tre prikker kan valgfrit erstattes af et digitalt 24-timers ur; tryk på både ur og prikker åbner den samme tavlemenu. Urvalget gemmes lokalt som en brugerfladeindstilling, bruger én ejende minut-timer og påvirker ikke tavle-, session-, backup- eller mediedata. Baggrunde og øvrige tavlemenuhandlinger er uændrede. -->
-<!-- Plan v0.9.3dy+ TILFØJ INDHOLD IMPORTKNAP SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
+<!-- Plan v0.9.3dy+ MULTI EXCEL IMPORTKØ STARTFIX SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
 <!-- Plan v0.9.3dx PAPIRKURV RYDDER FORÆLDRELØSE MEDIER OWNER SAFE: Bygger direkte på v0.9.3dw. Når en tavle eller widget slettes permanent fra Papirkurv, samler Papirkurvens egen ejer de mediereferencer, som lå i elementet, og sletter i samme atomiske lagringstransaktion kun de mediefiler, der ikke længere bruges af levende tavler/widgets, datakilder, andre elementer i Papirkurv, gendannelsespunkter, historik eller den aktuelle usaved runtime. Delte eller beskyttede medier bevares. Tøm Papirkurv bruger samme kontrol samlet, så store tavler med billeder, lyd eller video ikke efterlader forældreløse filer, som bagefter skal ryddes manuelt i Mediearkivet. Bekræftelser og Hjælp forklarer oprydningen; backup-, medie-, tavle- og datamodeller er uændrede. -->
 <!-- Plan v0.9.3dw HJÆLP · DANSK ARBEJDSGANG OWNER SAFE: Bygger direkte på v0.9.3dv. Gennemgår og samler Plans Hjælp, så Elevstamdata, Niveaudeling, Mit danskhold, Fagsamtaler og Standpunktskarakterer beskrives som én sammenhængende, men datamæssigt adskilt arbejdsgang. Tilføjer en samlet indgang fra elevsvar til karakterer, omskriver de detaljerede afsnit i Hjælpens eksisterende tone, opdaterer Jeg vil-indgange, Se også-navigation, Datacenter, datasletning, Lagerredning og det fælles tastaturmønster i elevvisninger. Fagsamtaleprofiler for 9. og 10. klasse, flere samtaleark, manuel elevmatch, lærerfelter, status, eksport, karakterterminer og levende danskhold forklares brugervendt. Ingen data-, widget-, navigations- eller lagringsfunktioner ændres. -->
 <!-- Plan v0.9.3dt ENS ELEVNAVIGATION OWNER SAFE: Bygger direkte på v0.9.3ds. Standardiserer tastaturnavigationen i alle fire fulde elevvisninger: almindeligt Elevkort, Niveaudelingens gennemgang, Standpunktskarakterer og Fagsamtale. Pil op/ned skifter altid elev. Pil venstre/højre skifter den interne fane eller termin, når visningen har sådanne; i Fagsamtale uden faner opsnappes sidepilene, så de aldrig bladrer tavlen i baggrunden. Page Up/Page Down ruller den aktuelle elevvisning. Redigerbare felter beholder deres egne piletaster. Én smal, komponentbevidst tastaturejer aflæser kun den øverste relevante elevmodal og holder ingen elev- eller modalreferencer, så der opstår ikke listeners pr. åbning. Fagsamtalens synlige navigationspile og hjælpetekst følger samme model. Data, autosave, faner, terminer, tavlenavigation uden for elevmodaler og øvrige Plan-funktioner er uændrede. -->
@@ -29320,6 +29320,150 @@ bruges, så et almindeligt Formularsvar 1 ikke forveksles med samtalearket.
 
   TN.version='0.9.3gg';
   window.__PLAN_CONVERSATION_TEACHER_PAIR_FALLBACK__='0.9.3gg-2026-07-04';
+})(window.TavleNext);
+</script>
+
+
+
+<!-- Plan · FLERE EXCEL-FILER I IMPORTKØ SAFE:
+Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter gem eller bevidst spring over fortsætter Plan automatisk til næste fil og viser til sidst en samlet status. -->
+<style id="plan-multi-xlsx-import-queue-style">
+.tn-excel-queue-progress{display:flex;align-items:flex-start;gap:10px;margin:0 0 12px;padding:10px 12px;border:1px solid #3b82f680;border-radius:12px;background:#1e3a5f;color:#eff6ff}
+.tn-excel-queue-progress strong{white-space:nowrap}.tn-excel-queue-progress span{color:#bfdbfe;line-height:1.35}
+.tn-excel-batch-summary{display:grid;gap:12px}.tn-excel-batch-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.tn-excel-batch-stats>div{padding:12px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2)}
+.tn-excel-batch-stats strong{display:block;font-size:23px}.tn-excel-batch-stats small{color:var(--tn-muted);font-weight:800}
+.tn-excel-batch-list{display:grid;gap:7px;max-height:42vh;overflow:auto}.tn-excel-batch-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:9px;align-items:start;padding:9px 11px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel2)}
+.tn-excel-batch-row>span:first-child{font-size:18px}.tn-excel-batch-row strong,.tn-excel-batch-row small{display:block;min-width:0;overflow-wrap:anywhere}.tn-excel-batch-row small{margin-top:2px;color:var(--tn-muted)}
+@media(max-width:700px){.tn-excel-queue-progress{display:grid}.tn-excel-batch-stats{grid-template-columns:1fr}.tn-excel-batch-list{max-height:36vh}}
+</style>
+<script id="plan-multi-xlsx-import-queue-owner">
+(function(TN){
+  'use strict';
+  const App=TN?.TavleNextApp;
+  if(!App||App.prototype.__planMultiXlsxQueueOwner)return;
+  const proto=App.prototype;
+  proto.__planMultiXlsxQueueOwner=true;
+
+  const previousPreviewDataImport=proto.previewDataImport;
+  proto.previewDataImport=async function(file){
+    const isExcel=/\.xlsx$/i.test(String(file?.name||''));
+    const batch=isExcel?this.__planExcelImportBatch:null;
+    if(batch)batch.current=Math.min(batch.total,batch.current+1);
+
+    const dialog=await previousPreviewDataImport.call(this,file);
+    if(!isExcel||!batch)return dialog;
+
+    if(!dialog?.layer){
+      batch.failed.push({file:file?.name||'Excel-fil',sheet:'',reason:'Filen kunne ikke åbnes'});
+      return dialog;
+    }
+
+    const title=dialog.modal?.querySelector('header h2');
+    if(title)title.textContent=`${title.textContent} · ${batch.current}/${batch.total}`;
+
+    const progress=document.createElement('div');
+    progress.className='tn-excel-queue-progress';
+    progress.innerHTML=`<strong>Excel-fil ${batch.current} af ${batch.total}</strong><span>Vælg ét ark fra denne fil. Når det er gemt – eller filen springes over – åbner Plan automatisk den næste Excel-fil.</span>`;
+    dialog.body?.prepend(progress);
+
+    let saveRequested=false;
+    let chosenSheet='';
+    const captureChoice=()=>{
+      const select=dialog.body?.querySelector('[data-sheet]');
+      chosenSheet=String(select?.selectedOptions?.[0]?.textContent||dialog.body?.querySelector('.tn-import-stats span:nth-of-type(2)')?.textContent||'')
+        .replace(/^\s*\d+\.\s*/,'').trim();
+    };
+    const captureSave=event=>{
+      const button=event.target?.closest?.('button');
+      if(!button||!dialog.footer?.contains(button))return;
+      if(/^Gem\b/i.test(String(button.textContent||'').trim())){
+        saveRequested=true;
+        captureChoice();
+      }
+    };
+    dialog.footer?.addEventListener('pointerdown',captureSave,true);
+    dialog.footer?.addEventListener('click',captureSave,true);
+
+    if(dialog.footer&&!dialog.footer.querySelector('[data-skip-excel-file]')){
+      const skip=document.createElement('button');
+      skip.type='button';
+      skip.className='tn-button';
+      skip.dataset.skipExcelFile='true';
+      skip.textContent='Spring denne fil over';
+      skip.addEventListener('click',()=>this.modalManager.close(dialog.layer));
+      dialog.footer.prepend(skip);
+    }
+
+    return await new Promise(resolve=>{
+      let settled=false;
+      const finish=()=>{
+        if(settled)return;
+        settled=true;
+        observer.disconnect();
+        dialog.footer?.removeEventListener('pointerdown',captureSave,true);
+        dialog.footer?.removeEventListener('click',captureSave,true);
+        const statusText=String(dialog.body?.querySelector('[role="status"]')?.textContent||'').trim();
+        const entry={file:file?.name||'Excel-fil',sheet:chosenSheet};
+        if(saveRequested&&/arket er gemt|gemt i Datacenter|åbner datavisningen/i.test(statusText)){
+          batch.imported.push(entry);
+        }else if(saveRequested&&/ikke gemt|kunne ikke|fejl/i.test(statusText)){
+          batch.failed.push({...entry,reason:statusText||'Arket blev ikke gemt'});
+        }else{
+          batch.skipped.push(entry);
+        }
+        setTimeout(()=>resolve({status:batch.imported.includes(entry)?'imported':'closed',...entry}),220);
+      };
+      const observer=new MutationObserver(()=>{if(!dialog.layer.isConnected)finish();});
+      observer.observe(document.documentElement,{childList:true,subtree:true});
+      if(!dialog.layer.isConnected)finish();
+    });
+  };
+
+  const previousHandleFiles=proto.handleFiles;
+  proto.handleFiles=async function(files){
+    const list=[...(files||[])];
+    const excelFiles=list.filter(file=>/\.xlsx$/i.test(String(file?.name||'')));
+    if(excelFiles.length<2||this.__planExcelImportBatch){
+      return previousHandleFiles.call(this,files);
+    }
+
+    const batch={total:excelFiles.length,current:0,imported:[],skipped:[],failed:[],startedAt:Date.now()};
+    this.__planExcelImportBatch=batch;
+    try{
+      return await previousHandleFiles.call(this,files);
+    }finally{
+      delete this.__planExcelImportBatch;
+      const imported=batch.imported.length,skipped=batch.skipped.length,failed=batch.failed.length;
+      const body=document.createElement('div');
+      body.className='tn-excel-batch-summary';
+      body.innerHTML=`<p>Plan har gennemgået alle ${batch.total} valgte Excel-filer. Ét ark kunne vælges fra hver fil.</p><div class="tn-excel-batch-stats"><div><strong>${imported}</strong><small>importeret</small></div><div><strong>${skipped}</strong><small>sprunget over</small></div><div><strong>${failed}</strong><small>med fejl</small></div></div>`;
+      const items=[
+        ...batch.imported.map(item=>({...item,kind:'imported'})),
+        ...batch.skipped.map(item=>({...item,kind:'skipped'})),
+        ...batch.failed.map(item=>({...item,kind:'failed'}))
+      ];
+      if(items.length){
+        const rows=document.createElement('div');
+        rows.className='tn-excel-batch-list';
+        for(const item of items){
+          const row=document.createElement('div');
+          row.className='tn-excel-batch-row';
+          const icon=item.kind==='imported'?'✓':item.kind==='failed'?'⚠':'–';
+          const detail=[item.sheet?`Ark: ${item.sheet}`:'',item.kind==='imported'?'Importeret':item.kind==='failed'?(item.reason||'Kunne ikke importeres'):'Sprunget over'].filter(Boolean).join(' · ');
+          row.innerHTML=`<span>${icon}</span><span><strong>${TN.escapeHtml(item.file)}</strong><small>${TN.escapeHtml(detail)}</small></span>`;
+          rows.append(row);
+        }
+        body.append(rows);
+      }
+      const message=`Excel-import færdig: ${imported} importeret${skipped?` · ${skipped} sprunget over`:''}${failed?` · ${failed} med fejl`:''}`;
+      this.toast(message);
+      this.modalManager.open({title:'Excel-import færdig',body,actions:[{label:'Færdig',primary:true,run:()=>{}}]});
+    }
+  };
+
+  TN.version='0.9.3gh';
+  window.__PLAN_MULTI_XLSX_IMPORT_QUEUE__='0.9.3gh-2026-07-04';
 })(window.TavleNext);
 </script>
 
