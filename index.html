@@ -28521,5 +28521,102 @@ body.tn-safe-fullscreen-active{
 })(window.TavleNext);
 </script>
 
+
+
+<!-- Plan v0.9.3gb IPAD DESKTOP-UA FULDSKÆRMSGUARD OWNER SAFE:
+Retter kun enhedsvalget for fuldskærm. iPadOS kan rapportere sig som Macintosh/MacIntel og må derfor genkendes via AppleWebKit + flere touchpunkter, ikke kun via teksten i userAgent. På Apple-touch-enheder afskærmes Plans egen root desuden fra requestFullscreen/webkitRequestFullscreen, så både den faste værktøjslinje, mobilmenuen og ældre kald altid bruger den interaktive lokale fuldskærm. Mac uden touch beholder native Fullscreen API. Tavle-, widget-, PDF-, kamera- og layoutdata ændres ikke. -->
+<script id="plan-v093gb-ipad-desktop-ua-fullscreen-guard">
+(function(TN){
+  'use strict';
+  if(window.__PLAN_IPAD_DESKTOP_UA_FULLSCREEN_GUARD__)return;
+  const App=TN?.TavleNextApp;if(!App)return;
+  const proto=App.prototype;
+  const previousToggle=proto.toggleFullscreen;
+  const previousShouldUse=proto.shouldUseSafeTouchFullscreen;
+
+  const isAppleTouchDevice=()=>{
+    try{
+      const ua=String(navigator.userAgent||'');
+      const uaPlatform=String(navigator.userAgentData?.platform||'');
+      const platform=String(navigator.platform||'');
+      const identity=`${ua} ${uaPlatform} ${platform}`;
+      const touchPoints=Number(navigator.maxTouchPoints||0);
+      const explicitMobile=/iPad|iPhone|iPod/i.test(identity);
+      const appleWebKit=/AppleWebKit/i.test(ua)&&!/Android/i.test(ua);
+      const macIdentity=/Macintosh|MacIntel|Mac OS X|macOS/i.test(identity);
+      return explicitMobile||(touchPoints>1&&appleWebKit&&macIdentity);
+    }catch(_error){return false;}
+  };
+  const nativeFullscreenElement=()=>document.fullscreenElement||document.webkitFullscreenElement||null;
+  const exitNative=()=>{
+    const fn=document.exitFullscreen||document.webkitExitFullscreen;
+    if(!fn)return Promise.resolve(false);
+    try{return Promise.resolve(fn.call(document)).then(()=>true,()=>false);}catch(_error){return Promise.resolve(false);}
+  };
+  const currentApp=()=>TN.runtime?.app||window.tavleNextApp||null;
+
+  const installRootGuard=app=>{
+    if(!app?.root||!isAppleTouchDevice())return false;
+    const root=app.root;
+    const safeRequest=()=>Promise.resolve(app.enterSafeTouchFullscreen?.()).then(()=>true);
+    try{Object.defineProperty(root,'requestFullscreen',{configurable:true,writable:true,value:safeRequest});}catch(_error){try{root.requestFullscreen=safeRequest;}catch(_ignore){}}
+    try{Object.defineProperty(root,'webkitRequestFullscreen',{configurable:true,writable:true,value:safeRequest});}catch(_error){try{root.webkitRequestFullscreen=safeRequest;}catch(_ignore){}}
+    root.dataset.ipadFullscreenGuard='true';
+    return true;
+  };
+
+  proto.isAppleTouchFullscreenDevice=function(){return isAppleTouchDevice();};
+  proto.shouldUseSafeTouchFullscreen=function(){
+    if(isAppleTouchDevice())return true;
+    return previousShouldUse?!!previousShouldUse.call(this):!!this.mobileShell?.active;
+  };
+  proto.installIPadFullscreenGuard=function(){return installRootGuard(this);};
+  proto.toggleFullscreen=async function(){
+    if(!isAppleTouchDevice())return previousToggle?previousToggle.call(this):false;
+    installRootGuard(this);
+    if(nativeFullscreenElement())await exitNative();
+    this.clearStaleFullscreenInputState?.();
+    if(this.isSafeFullscreenActive?.())return this.exitSafeTouchFullscreen?.();
+    return this.enterSafeTouchFullscreen?.();
+  };
+
+  const ensureGuard=()=>installRootGuard(currentApp());
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ensureGuard,{once:true});
+  requestAnimationFrame(ensureGuard);
+  setTimeout(ensureGuard,0);
+  setTimeout(ensureGuard,500);
+  window.addEventListener('pageshow',ensureGuard,{passive:true});
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)ensureGuard();},{passive:true});
+
+  // Den faste desktopknap har en ældre root-click-ejer. På iPad stoppes den i capture-fasen,
+  // så ingen allerede registreret handler kan nå at kalde WebKits native fullscreen først.
+  document.addEventListener('click',event=>{
+    if(!isAppleTouchDevice())return;
+    const button=event.target?.closest?.('[data-action="fullscreen"]');
+    if(!button)return;
+    const app=currentApp();if(!app)return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    installRootGuard(app);
+    Promise.resolve(app.toggleFullscreen()).catch(error=>console.warn('Kunne ikke skifte interaktiv iPad-fuldskærm.',error));
+  },true);
+
+  // Sidste sikkerhedsnet: hvis en ældre kodevej alligevel sætter selve Plan-rooten i native
+  // fullscreen, forlades den straks og den interaktive lokale tilstand overtager.
+  const replaceAccidentalNative=async()=>{
+    if(!isAppleTouchDevice())return;
+    const app=currentApp(),active=nativeFullscreenElement();
+    if(!app?.root||active!==app.root)return;
+    await exitNative();
+    installRootGuard(app);
+    await app.enterSafeTouchFullscreen?.();
+  };
+  document.addEventListener('fullscreenchange',replaceAccidentalNative,true);
+  document.addEventListener('webkitfullscreenchange',replaceAccidentalNative,true);
+
+  TN.version='0.9.3gb';
+  window.__PLAN_IPAD_DESKTOP_UA_FULLSCREEN_GUARD__='0.9.3gb-2026-07-03';
+})(window.TavleNext);
+</script>
 </body>
 </html>
