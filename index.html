@@ -28726,5 +28726,178 @@ Retter kun tavlemenuens portal-ejer i ægte browserfuldskærm på Mac. Tavlemenu
   window.__PLAN_MAC_NATIVE_FULLSCREEN_BOARD_MENU__='0.9.3gd2-2026-07-03';
 })(window.TavleNext);
 </script>
+
+
+<!-- Plan v0.9.3ge IPAD DIREKTE NATIVE FULDSKÆRM OWNER SAFE:
+På Apple-touch-enheder kaldes browserens oprindelige prototype-metode direkte på Plan-rooten i den samme brugeraktivering. Dermed omgås tidligere egne requestFullscreen-broer. Lykkes native fullscreen, forbliver tavlemenu, højreklik og modaler i Plan-rootens top-layer. Afviser Safari kaldet, bruges lokal visning kun i installeret webapp; i almindelig Safari vises en ærlig valgmulighed og vejledning til hjemmeskærmswebappen. Mac uden touch er uændret. -->
+<style id="plan-v093ge-ipad-native-fullscreen-direct-style">
+#tavleNextApp:fullscreen,
+#tavleNextApp:-webkit-full-screen{
+  position:fixed!important;
+  inset:0!important;
+  width:100vw!important;
+  width:100dvw!important;
+  height:100vh!important;
+  height:100dvh!important;
+  max-width:none!important;
+  max-height:none!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  pointer-events:auto!important;
+  isolation:isolate!important;
+}
+#tavleNextApp:fullscreen .tn-topbar,
+#tavleNextApp:fullscreen .tn-toolbar,
+#tavleNextApp:fullscreen .tn-mobile-toolbar,
+#tavleNextApp:fullscreen #tnViewport,
+#tavleNextApp:-webkit-full-screen .tn-topbar,
+#tavleNextApp:-webkit-full-screen .tn-toolbar,
+#tavleNextApp:-webkit-full-screen .tn-mobile-toolbar,
+#tavleNextApp:-webkit-full-screen #tnViewport{
+  pointer-events:auto!important;
+}
+.tn-ipad-fullscreen-help{
+  display:grid;
+  gap:12px;
+  max-width:620px;
+  line-height:1.45;
+}
+.tn-ipad-fullscreen-help p{margin:0}
+.tn-ipad-fullscreen-help ol{margin:0;padding-left:22px;display:grid;gap:7px}
+.tn-ipad-fullscreen-help .tn-ipad-fullscreen-note{
+  padding:11px 13px;
+  border:1px solid rgba(148,163,184,.35);
+  border-radius:12px;
+  background:rgba(30,41,59,.55);
+}
+</style>
+<script id="plan-v093ge-ipad-native-fullscreen-direct-owner">
+(function(TN){
+  'use strict';
+  if(window.__PLAN_IPAD_NATIVE_FULLSCREEN_DIRECT__)return;
+  const App=TN?.TavleNextApp;if(!App)return;
+  const proto=App.prototype;
+  const previousToggle=proto.toggleFullscreen;
+
+  const isAppleTouch=()=>{
+    try{
+      const ua=String(navigator.userAgent||'');
+      const platform=String(navigator.platform||'');
+      const dataPlatform=String(navigator.userAgentData?.platform||'');
+      const identity=`${ua} ${platform} ${dataPlatform}`;
+      return /iPad|iPhone|iPod/i.test(identity)||(/Macintosh|MacIntel|Mac OS X/i.test(identity)&&Number(navigator.maxTouchPoints||0)>1&&/AppleWebKit/i.test(ua));
+    }catch(_error){return false;}
+  };
+  const isStandalone=()=>{
+    try{return navigator.standalone===true||matchMedia('(display-mode: standalone)').matches||matchMedia('(display-mode: fullscreen)').matches;}catch(_error){return navigator.standalone===true;}
+  };
+  const activeFullscreen=()=>document.fullscreenElement||document.webkitFullscreenElement||null;
+  const exitFullscreen=()=>{
+    const fn=document.exitFullscreen||document.webkitExitFullscreen;
+    if(!fn)return Promise.resolve(false);
+    try{return Promise.resolve(fn.call(document)).then(()=>true,()=>false);}catch(_error){return Promise.resolve(false);}
+  };
+  const nativePrototypeMethod=(element)=>{
+    let current=Object.getPrototypeOf(element);
+    while(current){
+      for(const name of ['requestFullscreen','webkitRequestFullscreen']){
+        const descriptor=Object.getOwnPropertyDescriptor(current,name);
+        if(typeof descriptor?.value==='function')return {fn:descriptor.value,name};
+      }
+      current=Object.getPrototypeOf(current);
+    }
+    return null;
+  };
+
+  proto.requestDirectIPadNativeFullscreen=function(){
+    const root=this.root;
+    if(!root)throw new Error('Plan-elementet findes ikke');
+    const method=nativePrototypeMethod(root);
+    if(!method)throw new Error('Safari tilbyder ikke Fullscreen API til denne side');
+    this.clearStaleFullscreenInputState?.();
+    let result;
+    // Kaldet skal ske synkront i den oprindelige klikaktivering.
+    result=method.fn.call(root);
+    return Promise.resolve(result).then(()=>{
+      root.classList.add('tn-ipad-native-fullscreen');
+      document.documentElement.classList.add('tn-ipad-document-fullscreen');
+      requestAnimationFrame(()=>{
+        this.clearStaleFullscreenInputState?.();
+        this.updateMobileLayoutMode?.({force:true});
+        this.syncMobileShell?.();
+        this.applyBoardCamera?.({persist:false});
+        this.rehomeBoardMenuForNativeFullscreen?.();
+        root.focus?.({preventScroll:true});
+      });
+      return true;
+    });
+  };
+
+  proto.showIPadFullscreenUnavailable=function(error){
+    if(isStandalone())return this.enterSafeTouchFullscreen?.();
+    const body=document.createElement('div');
+    body.className='tn-ipad-fullscreen-help';
+    body.innerHTML=`<p><b>Safari kunne ikke skjule browserens faner og adresselinje.</b></p>
+      <p>Plan kan stadig fylde hele webområdet. Ægte appvisning uden Safari-linjer fås ved at åbne Plan som hjemmeskærmswebapp:</p>
+      <ol><li>Tryk på <b>Del</b> i Safari.</li><li>Vælg <b>Føj til hjemmeskærm</b>.</li><li>Åbn derefter Plan fra ikonet på hjemmeskærmen.</li></ol>
+      <p class="tn-ipad-fullscreen-note">Tavler, data og gemte sessioner ændres ikke. Fejl fra Safari: ${TN.escapeHtml(String(error?.message||error||'Fullscreen API blev afvist'))}</p>`;
+    this.modalManager?.open({
+      title:'Fuld skærm på iPad',
+      body,
+      actions:[
+        {label:'Luk',run:()=>{}},
+        {label:'Brug hele browserområdet',primary:true,run:()=>this.enterSafeTouchFullscreen?.()}
+      ]
+    });
+    return false;
+  };
+
+  proto.toggleFullscreen=function(){
+    if(!isAppleTouch())return previousToggle?previousToggle.call(this):false;
+    const active=activeFullscreen();
+    if(active)return exitFullscreen().then(result=>{
+      document.documentElement.classList.remove('tn-ipad-document-fullscreen');
+      this.root?.classList.remove('tn-ipad-native-fullscreen');
+      this.clearStaleFullscreenInputState?.();
+      requestAnimationFrame(()=>{
+        this.updateMobileLayoutMode?.({force:true});
+        this.syncMobileShell?.();
+        this.applyBoardCamera?.({persist:false});
+      });
+      return result;
+    });
+    if(this.isSafeFullscreenActive?.())return this.exitSafeTouchFullscreen?.();
+    if(isStandalone())return this.enterSafeTouchFullscreen?.();
+
+    // Ingen await eller anden asynkron handling før det native kald.
+    let request;
+    try{request=this.requestDirectIPadNativeFullscreen();}
+    catch(error){return this.showIPadFullscreenUnavailable?.(error);}
+    return Promise.resolve(request).catch(error=>this.showIPadFullscreenUnavailable?.(error));
+  };
+
+  const currentApp=()=>TN.runtime?.app||window.tavleNextApp||null;
+  const sync=()=>{
+    const app=currentApp();if(!app)return;
+    const active=activeFullscreen();
+    const owns=!!active&&(active===app.root||active.contains?.(app.root)||app.root?.contains?.(active));
+    app.root?.classList.toggle('tn-ipad-native-fullscreen',owns&&isAppleTouch());
+    document.documentElement.classList.toggle('tn-ipad-document-fullscreen',owns&&isAppleTouch());
+    app.clearStaleFullscreenInputState?.();
+    requestAnimationFrame(()=>{
+      app.updateMobileLayoutMode?.({force:true});
+      app.syncMobileShell?.();
+      app.applyBoardCamera?.({persist:false});
+      app.rehomeBoardMenuForNativeFullscreen?.();
+    });
+  };
+  document.addEventListener('fullscreenchange',sync,true);
+  document.addEventListener('webkitfullscreenchange',sync,true);
+
+  TN.version='0.9.3ge';
+  window.__PLAN_IPAD_NATIVE_FULLSCREEN_DIRECT__='0.9.3ge-2026-07-03';
+})(window.TavleNext);
+</script>
 </body>
 </html>
