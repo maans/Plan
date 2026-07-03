@@ -21,7 +21,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.9.3eb PLACERINGSGRID OWNER SAFE: Bygger direkte på v0.9.3ea. Erstatter kun tavlegridets visuelle definition og kontrastvalg: gitteret er nu et egentligt ortogonalt placeringsgrid med 40 px felter og kraftigere hovedlinjer for hver femte celle. Linjerne skifter automatisk mellem mørk og lys kontrast efter tavlens farve/gradient; på billedbaggrunde bruges et adaptivt difference-lag. Grid ligger fortsat pointer-passivt over baggrunden, følger tavlens koordinater og ændrer ikke widgets, snap, data, medier eller backup. -->
 <!-- Plan v0.9.3dz DIGITALT UR / FRIT TAVLEMENUFELT OWNER SAFE: Bygger direkte på v0.9.3dy. Flytter tavlens menu ud af forløbs- og tavletitlens overlappende klikområder til et selvstændigt felt længere mod højre i topbjælken. Menuens tre prikker kan valgfrit erstattes af et digitalt 24-timers ur; tryk på både ur og prikker åbner den samme tavlemenu. Urvalget gemmes lokalt som en brugerfladeindstilling, bruger én ejende minut-timer og påvirker ikke tavle-, session-, backup- eller mediedata. Baggrunde og øvrige tavlemenuhandlinger er uændrede. -->
 <!-- Plan v0.9.3dy+ MULTI EXCEL IMPORTKØ STARTFIX SAFE: Bygger direkte på v0.9.3dx. Tilføjer tavlens egen •••-menu med Baggrund, Omdøb, Duplikér, Grid, Tavleoversigt og Tilføj indhold. Højreklik eller langt tryk på en tom tavle åbner samme tavlemenu i stedet for en parallel handling. Baggrundsvælgeren understøtter farve- og gradientswatches samt eget billede fra enheden med Fyld/Tilpas/Stræk og læsbar mørk tone. Billedet gemmes i Plans eksisterende Mediearkiv som mediaId, følger backup/sessionpakker og oprydning, og erstattede forældreløse baggrundsbilleder ryddes sikkert. Preview kan annulleres uden at ændre tavlen. Ingen eksterne biblioteker eller ændring af backupformat. -->
-<!-- Plan DATACENTER DUBLETTER + PERMANENT SLETNING OWNER SAFE: Find dubletter bruger indholdsfingeraftryk, skelner identiske og mulige dubletter, kan samle identiske kopier med central omkobling af referencer og tilbyder et eksplicit anvendelses-/afkoblingsforløb før permanent sletning. -->
+<!-- Plan DATACENTER DUBLETTER INKREMENTEL + PERMANENT SLETNING OWNER SAFE: Find dubletter bruger indholdsfingeraftryk, skelner identiske og mulige dubletter, kan samle identiske kopier med central omkobling af referencer og tilbyder et eksplicit anvendelses-/afkoblingsforløb før permanent sletning. -->
 <!-- Plan v0.9.3dx PAPIRKURV RYDDER FORÆLDRELØSE MEDIER OWNER SAFE: Bygger direkte på v0.9.3dw. Når en tavle eller widget slettes permanent fra Papirkurv, samler Papirkurvens egen ejer de mediereferencer, som lå i elementet, og sletter i samme atomiske lagringstransaktion kun de mediefiler, der ikke længere bruges af levende tavler/widgets, datakilder, andre elementer i Papirkurv, gendannelsespunkter, historik eller den aktuelle usaved runtime. Delte eller beskyttede medier bevares. Tøm Papirkurv bruger samme kontrol samlet, så store tavler med billeder, lyd eller video ikke efterlader forældreløse filer, som bagefter skal ryddes manuelt i Mediearkivet. Bekræftelser og Hjælp forklarer oprydningen; backup-, medie-, tavle- og datamodeller er uændrede. -->
 <!-- Plan v0.9.3dw HJÆLP · DANSK ARBEJDSGANG OWNER SAFE: Bygger direkte på v0.9.3dv. Gennemgår og samler Plans Hjælp, så Elevstamdata, Niveaudeling, Mit danskhold, Fagsamtaler og Standpunktskarakterer beskrives som én sammenhængende, men datamæssigt adskilt arbejdsgang. Tilføjer en samlet indgang fra elevsvar til karakterer, omskriver de detaljerede afsnit i Hjælpens eksisterende tone, opdaterer Jeg vil-indgange, Se også-navigation, Datacenter, datasletning, Lagerredning og det fælles tastaturmønster i elevvisninger. Fagsamtaleprofiler for 9. og 10. klasse, flere samtaleark, manuel elevmatch, lærerfelter, status, eksport, karakterterminer og levende danskhold forklares brugervendt. Ingen data-, widget-, navigations- eller lagringsfunktioner ændres. -->
 <!-- Plan v0.9.3dt ENS ELEVNAVIGATION OWNER SAFE: Bygger direkte på v0.9.3ds. Standardiserer tastaturnavigationen i alle fire fulde elevvisninger: almindeligt Elevkort, Niveaudelingens gennemgang, Standpunktskarakterer og Fagsamtale. Pil op/ned skifter altid elev. Pil venstre/højre skifter den interne fane eller termin, når visningen har sådanne; i Fagsamtale uden faner opsnappes sidepilene, så de aldrig bladrer tavlen i baggrunden. Page Up/Page Down ruller den aktuelle elevvisning. Redigerbare felter beholder deres egne piletaster. Én smal, komponentbevidst tastaturejer aflæser kun den øverste relevante elevmodal og holder ingen elev- eller modalreferencer, så der opstår ikke listeners pr. åbning. Fagsamtalens synlige navigationspile og hjælpetekst følger samme model. Data, autosave, faner, terminer, tavlenavigation uden for elevmodaler og øvrige Plan-funktioner er uændrede. -->
@@ -29554,6 +29554,11 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 .tn-dataset-usage-list small{color:#aebbd0;overflow-wrap:anywhere}
 .tn-delete-warning{margin:0;padding:11px 13px;border-left:4px solid #f59e0b;background:#3b2b0b;color:#fde7aa;border-radius:8px}
 .tn-duplicate-empty{padding:14px;border:1px dashed #475569;border-radius:12px;color:#aebbd0;text-align:center}
+.tn-duplicate-progress{display:grid;gap:12px;padding:18px;border:1px solid #3b4b62;border-radius:15px;background:#172235}
+.tn-duplicate-progress>strong{font-size:20px}.tn-duplicate-progress>span,.tn-duplicate-progress>small{color:#b8c5d8;font-weight:800}
+.tn-duplicate-progress>div{height:10px;overflow:hidden;border-radius:999px;background:#0b1322;border:1px solid #334155}
+.tn-duplicate-progress i{display:block;width:2%;height:100%;border-radius:inherit;background:linear-gradient(90deg,#2563eb,#38bdf8);transition:width .16s ease}
+.tn-duplicate-scope{padding:8px 11px;border-radius:10px;background:#101a2b;color:#aebbd0;font-size:12px;font-weight:850}
 .tn-duplicate-diff ol{margin:0;padding-left:22px;display:grid;gap:8px}.tn-duplicate-diff li{overflow-wrap:anywhere}
 @media(max-width:760px){
   .tn-duplicate-stats{grid-template-columns:1fr}
@@ -29604,41 +29609,113 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   });
   const duplicateScopeLabel=dataset=>dataset.scope==='common'?'Fælles data':'Sessionsdata';
 
-  async function allDatasets(app){
-    const sessions=await app.sessionManager.list();
-    const collected=[...(await app.dataManager.listCommon())];
-    for(const session of sessions){
-      try{collected.push(...await app.dataManager.listSession(session.id));}catch(error){console.warn('Kunne ikke læse sessionsdata',session.id,error);}
+  const duplicateScopeKey=(app,tab='sources')=>{
+    if(tab==='common')return'common';
+    const sessionId=String(TN.runtime.activeSession?.id||'');
+    return tab==='session'?`session:${sessionId}`:`sources:${sessionId}`;
+  };
+  const duplicateScopeDescription=(app,tab='sources')=>{
+    if(tab==='common')return'Fælles data';
+    if(tab==='session')return TN.runtime.activeSession?.title||'den aktuelle session';
+    return`Fælles data og ${TN.runtime.activeSession?.title||'den aktuelle session'}`;
+  };
+  const yieldToInterface=()=>new Promise(resolve=>setTimeout(resolve,0));
+  const cancelledError=()=>{const error=new Error('Dubletsøgningen blev afbrudt');error.name='AbortError';return error;};
+  const checkCancelled=signal=>{if(signal?.cancelled)throw cancelledError();};
+  const reportProgress=(handler,detail)=>{try{handler?.(detail);}catch(error){console.warn('Dubletstatus kunne ikke vises',error);}};
+
+  async function allDatasets(app,tab='sources'){
+    const collected=[];
+    if(tab!=='session')collected.push(...await app.dataManager.listCommon());
+    if(tab!=='common'&&TN.runtime.activeSession?.id){
+      try{collected.push(...await app.dataManager.listSession(TN.runtime.activeSession.id));}
+      catch(error){console.warn('Kunne ikke læse sessionsdata',TN.runtime.activeSession.id,error);}
     }
     const byId=new Map();
     for(const dataset of collected)if(dataset?.id)byId.set(String(dataset.id),dataset);
-    return [...byId.values()];
+    return[...byId.values()];
   }
 
-  async function scanDuplicates(app,{force=false}={}){
-    if(!force&&app.__datasetDuplicateScan)return app.__datasetDuplicateScan;
-    await app.storage.flush().catch(()=>{});
-    const datasets=await allDatasets(app),entries=[];
-    for(const dataset of datasets){
-      const payload=fingerprintPayload(dataset);
-      const fingerprint=await TN.hashText(TN.stableStringify(payload));
-      entries.push({dataset,fingerprint,nameKey:normName(dataset.name),shape:`${payload.columns.length}x${payload.rows.length}`,payload});
+  const normalizedColumns=dataset=>(dataset.columns||[]).map(column=>String(column??'').normalize('NFC').trim().toLocaleLowerCase('da-DK'));
+  const sampleRows=dataset=>{
+    const rows=dataset.rows||[],indexes=new Set();
+    if(rows.length){indexes.add(0);indexes.add(Math.min(1,rows.length-1));indexes.add(Math.floor((rows.length-1)/2));indexes.add(Math.max(0,rows.length-2));indexes.add(rows.length-1);}
+    return[...indexes].sort((a,b)=>a-b).map(index=>rowArray(dataset,rows[index]).map(normalizeValue));
+  };
+  async function quickFingerprint(dataset){
+    return TN.hashText(TN.stableStringify({
+      type:String(dataset.type||'table'),
+      columns:normalizedColumns(dataset),
+      rowCount:(dataset.rows||[]).length,
+      samples:sampleRows(dataset)
+    }));
+  }
+  async function fullFingerprint(dataset,{signal,onChunk}={}){
+    checkCancelled(signal);
+    const rows=dataset.rows||[],chunkHashes=[],chunkSize=40;
+    const header=await TN.hashText(TN.stableStringify({type:String(dataset.type||'table'),columns:normalizedColumns(dataset),rowCount:rows.length}));
+    for(let start=0;start<rows.length;start+=chunkSize){
+      checkCancelled(signal);
+      const chunk=rows.slice(start,start+chunkSize).map(row=>rowArray(dataset,row).map(normalizeValue));
+      chunkHashes.push(await TN.hashText(TN.stableStringify(chunk)));
+      onChunk?.(Math.min(rows.length,start+chunk.length),rows.length);
+      await yieldToInterface();
     }
-    const exactMap=new Map(),similarMap=new Map();
+    checkCancelled(signal);
+    return TN.hashText(`${header}|${chunkHashes.join('|')}`);
+  }
+
+  async function scanDuplicates(app,{force=false,tab='sources',signal=null,onProgress=null}={}){
+    const scopeKey=duplicateScopeKey(app,tab),cached=app.__datasetDuplicateScan;
+    if(!force&&cached?.scopeKey===scopeKey)return cached;
+    checkCancelled(signal);
+    reportProgress(onProgress,{phase:'prepare',done:0,total:1,text:'Henter datakilder …'});
+    await app.storage.flush().catch(()=>{});
+    const datasets=await allDatasets(app,tab),entries=[];
+    reportProgress(onProgress,{phase:'quick',done:0,total:Math.max(1,datasets.length),text:`Forbereder ${datasets.length} datakilder …`});
+    for(let index=0;index<datasets.length;index++){
+      checkCancelled(signal);
+      const dataset=datasets[index],columns=dataset.columns||[],rows=dataset.rows||[];
+      const quick=await quickFingerprint(dataset);
+      entries.push({dataset,fingerprint:null,quick,nameKey:normName(dataset.name),shape:`${columns.length}x${rows.length}`,payload:null});
+      reportProgress(onProgress,{phase:'quick',done:index+1,total:Math.max(1,datasets.length),text:`Kontrollerer struktur ${index+1} af ${datasets.length}`});
+      if(index%4===3)await yieldToInterface();
+    }
+
+    const quickMap=new Map(),similarMap=new Map();
     for(const entry of entries){
+      const quickKey=`${entry.dataset.type||'table'}|${entry.shape}|${entry.quick}`;
+      if(!quickMap.has(quickKey))quickMap.set(quickKey,[]);quickMap.get(quickKey).push(entry);
+      const similarKey=`${entry.nameKey}|${entry.shape}|${entry.dataset.type||'table'}`;
+      if(!similarMap.has(similarKey))similarMap.set(similarKey,[]);similarMap.get(similarKey).push(entry);
+    }
+    const candidates=new Set();
+    for(const group of quickMap.values())if(group.length>1)group.forEach(entry=>candidates.add(entry));
+    for(const group of similarMap.values())if(group.length>1)group.forEach(entry=>candidates.add(entry));
+    const candidateList=[...candidates];
+    reportProgress(onProgress,{phase:'content',done:0,total:Math.max(1,candidateList.length),text:candidateList.length?`Sammenligner indhold i ${candidateList.length} mulige dubletter …`:'Ingen mulige dubletter kræver indholdssammenligning'});
+    for(let index=0;index<candidateList.length;index++){
+      checkCancelled(signal);
+      const entry=candidateList[index];
+      entry.fingerprint=await fullFingerprint(entry.dataset,{signal,onChunk:(done,total)=>reportProgress(onProgress,{phase:'content',done:index,total:Math.max(1,candidateList.length),text:`${entry.dataset.name||'Datakilde'} · ${done} af ${total} rækker`})});
+      reportProgress(onProgress,{phase:'content',done:index+1,total:Math.max(1,candidateList.length),text:`Sammenlignet ${index+1} af ${candidateList.length} mulige dubletter`});
+      await yieldToInterface();
+    }
+
+    const exactMap=new Map();
+    for(const entry of candidateList){
+      if(!entry.fingerprint)continue;
       if(!exactMap.has(entry.fingerprint))exactMap.set(entry.fingerprint,[]);
       exactMap.get(entry.fingerprint).push(entry);
-      const similarKey=`${entry.nameKey}|${entry.shape}|${entry.dataset.type||'table'}`;
-      if(!similarMap.has(similarKey))similarMap.set(similarKey,[]);
-      similarMap.get(similarKey).push(entry);
     }
     const exactGroups=[...exactMap.values()].filter(group=>group.length>1);
     const exactIds=new Set(exactGroups.flatMap(group=>group.map(entry=>String(entry.dataset.id))));
-    const likelyGroups=[...similarMap.values()].filter(group=>group.length>1&&new Set(group.map(entry=>entry.fingerprint)).size>1);
+    const likelyGroups=[...similarMap.values()].filter(group=>group.length>1&&new Set(group.map(entry=>entry.fingerprint||entry.quick)).size>1);
     const likelyIds=new Set(likelyGroups.flatMap(group=>group.map(entry=>String(entry.dataset.id))).filter(id=>!exactIds.has(id)));
     const byId=new Map(entries.map(entry=>[String(entry.dataset.id),entry]));
-    const result={datasets,entries,byId,exactGroups,likelyGroups,exactIds,likelyIds,scannedAt:Date.now()};
+    const result={datasets,entries,byId,exactGroups,likelyGroups,exactIds,likelyIds,scopeKey,scopeDescription:duplicateScopeDescription(app,tab),scannedAt:Date.now()};
     app.__datasetDuplicateScan=result;
+    reportProgress(onProgress,{phase:'done',done:1,total:1,text:'Sammenligningen er færdig'});
     return result;
   }
 
@@ -29744,7 +29821,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const verified=[];
     for(const entry of entries){
       const dataset=await app.dataManager.get(entry.dataset.id)||entry.dataset;
-      const fingerprint=await TN.hashText(TN.stableStringify(fingerprintPayload(dataset)));
+      const fingerprint=await fullFingerprint(dataset);
       verified.push({dataset,fingerprint});
     }
     if(new Set(verified.map(item=>item.fingerprint)).size!==1)throw new Error('Datasættene er ikke længere identiske. Kør dubletkontrollen igen.');
@@ -29822,11 +29899,28 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     return diffs;
   }
 
-  TN.TavleNextApp.prototype.showDatasetDuplicateCenter=async function({focusId=null,tab='sources'}={}){
-    const app=this,scan=await scanDuplicates(app,{force:!app.__datasetDuplicateScan});
-    const body=document.createElement('div');body.className='tn-duplicate-center';
-    body.innerHTML=`<div class="tn-duplicate-stats"><div><strong>${scan.exactGroups.length}</strong><span>identiske grupper</span></div><div><strong>${scan.likelyGroups.length}</strong><span>mulige dubletter</span></div><div><strong>${scan.datasets.length}</strong><span>datasæt undersøgt</span></div></div>`;
-    if(!scan.exactGroups.length&&!scan.likelyGroups.length){body.insertAdjacentHTML('beforeend','<div class="tn-empty-state">Ingen dubletter blev fundet.</div>');}
+  TN.TavleNextApp.prototype.showDatasetDuplicateCenter=async function({focusId=null,tab='sources',force=false}={}){
+    const app=this,signal={cancelled:false},body=document.createElement('div');body.className='tn-duplicate-center';
+    body.innerHTML=`<div class="tn-duplicate-progress"><strong>Finder dubletter</strong><span data-dup-progress-text>Forbereder datakilder …</span><div><i data-dup-progress-bar></i></div><small>Plan undersøger kun ${esc(duplicateScopeDescription(app,tab))} og arbejder i små bidder, så tavlen fortsat kan betjenes.</small></div>`;
+    const opened=app.modalManager.open({title:'Find dubletter',body,className:'tn-modal-wide tn-duplicate-modal',actions:[{label:'Luk',run:()=>{}}],onClose:()=>{signal.cancelled=true;}});
+    const status=body.querySelector('[data-dup-progress-text]'),bar=body.querySelector('[data-dup-progress-bar]');
+    const update=progress=>{
+      if(!body.isConnected)return;
+      if(status)status.textContent=progress.text||'Sammenligner …';
+      const total=Math.max(1,Number(progress.total)||1),done=Math.max(0,Number(progress.done)||0),percent=Math.max(2,Math.min(100,Math.round(done/total*100)));
+      if(bar)bar.style.width=`${percent}%`;
+    };
+    let scan;
+    try{scan=await scanDuplicates(app,{force:force||app.__datasetDuplicateScan?.scopeKey!==duplicateScopeKey(app,tab),tab,signal,onProgress:update});}
+    catch(error){
+      if(error?.name==='AbortError')return;
+      if(body.isConnected)body.innerHTML=`<div class="tn-empty-state">${esc(error?.message||'Dubletkontrollen mislykkedes')}</div>`;
+      return;
+    }
+    if(!body.isConnected||signal.cancelled)return;
+    body.replaceChildren();
+    body.insertAdjacentHTML('beforeend',`<div class="tn-duplicate-stats"><div><strong>${scan.exactGroups.length}</strong><span>identiske grupper</span></div><div><strong>${scan.likelyGroups.length}</strong><span>mulige dubletter</span></div><div><strong>${scan.datasets.length}</strong><span>datasæt undersøgt</span></div></div><div class="tn-duplicate-scope">Undersøgt: ${esc(scan.scopeDescription)}</div>`);
+    if(!scan.exactGroups.length&&!scan.likelyGroups.length)body.insertAdjacentHTML('beforeend','<div class="tn-empty-state">Ingen dubletter blev fundet.</div>');
     const addGroup=(group,{exact})=>{
       const section=document.createElement('section');section.className=`tn-duplicate-group ${exact?'is-exact':'is-likely'}`;
       const title=exact?'Identiske datasæt':'Mulige dubletter';
@@ -29856,14 +29950,14 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     };
     scan.exactGroups.forEach(group=>addGroup(group,{exact:true}));
     scan.likelyGroups.forEach(group=>addGroup(group,{exact:false}));
-    app.modalManager.open({title:'Find dubletter',body,className:'tn-modal-wide tn-duplicate-modal',actions:[{label:'Luk',run:()=>{}}]});
     setTimeout(()=>{if(focusId)body.querySelector(`input[value="${CSS.escape(String(focusId))}"]`)?.closest('.tn-duplicate-group')?.scrollIntoView({block:'center'});},60);
   };
 
   TN.TavleNextApp.prototype.showDatasetDeleteCenter=function(datasetId,options){return openDeleteCenter(this,datasetId,options||{});};
 
   function decorateCards(app,datacenter){
-    const scan=app.__datasetDuplicateScan;
+    const currentScope=duplicateScopeKey(app,activeDataTab(datacenter));
+    const scan=app.__datasetDuplicateScan?.scopeKey===currentScope?app.__datasetDuplicateScan:null;
     datacenter.querySelectorAll('.tn-dataset-card').forEach(card=>{
       const id=String(card.dataset.datasetId||'');
       card.querySelectorAll('.tn-duplicate-badge').forEach(node=>node.remove());
@@ -29896,14 +29990,25 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const toolbar=[...datacenter.querySelectorAll('.tn-center-actions')].find(node=>node.querySelector('input[type="search"][placeholder*="datakilder"]'));
     if(toolbar&&!toolbar.querySelector('[data-find-dataset-duplicates]')){
       const importButton=[...toolbar.querySelectorAll('button')].find(button=>button.textContent.includes('Importér'));
-      const find=document.createElement('button');find.type='button';find.dataset.findDatasetDuplicates='1';find.textContent='Find dubletter';find.onclick=async()=>{
-        find.disabled=true;const original=find.textContent;find.textContent='Sammenligner …';
-        try{await scanDuplicates(app,{force:true});decorateCards(app,datacenter);app.showDatasetDuplicateCenter({tab:activeDataTab(datacenter)});}catch(error){app.toast(error.message||'Dubletkontrollen mislykkedes');}
-        finally{find.disabled=false;find.textContent=original;}
+      const find=document.createElement('button');find.type='button';find.dataset.findDatasetDuplicates='1';find.textContent='Find dubletter';find.onclick=()=>{
+        app.showDatasetDuplicateCenter({tab:activeDataTab(datacenter),force:true});
       };
       const filter=document.createElement('button');filter.type='button';filter.dataset.onlyDatasetDuplicates='1';filter.textContent='Vis kun dubletter';filter.onclick=async()=>{
-        if(!app.__datasetDuplicateScan){filter.disabled=true;filter.textContent='Sammenligner …';try{await scanDuplicates(app,{force:true});}finally{filter.disabled=false;filter.textContent='Vis kun dubletter';}}
-        datacenter.dataset.onlyDuplicates=datacenter.dataset.onlyDuplicates==='1'?'0':'1';filter.classList.toggle('active',datacenter.dataset.onlyDuplicates==='1');filter.textContent=datacenter.dataset.onlyDuplicates==='1'?'Vis alle datakilder':'Vis kun dubletter';decorateCards(app,datacenter);
+        const tab=activeDataTab(datacenter),scopeKey=duplicateScopeKey(app,tab),hasCurrentScan=app.__datasetDuplicateScan?.scopeKey===scopeKey;
+        if(!hasCurrentScan){
+          filter.disabled=true;
+          try{
+            await scanDuplicates(app,{force:true,tab,onProgress:progress=>{
+              const total=Math.max(1,Number(progress.total)||1),done=Math.max(0,Number(progress.done)||0),percent=Math.max(0,Math.min(100,Math.round(done/total*100)));
+              filter.textContent=`Sammenligner ${percent} %`;
+            }});
+          }catch(error){app.toast(error.message||'Dubletkontrollen mislykkedes');return;}
+          finally{filter.disabled=false;}
+        }
+        datacenter.dataset.onlyDuplicates=datacenter.dataset.onlyDuplicates==='1'?'0':'1';
+        filter.classList.toggle('active',datacenter.dataset.onlyDuplicates==='1');
+        filter.textContent=datacenter.dataset.onlyDuplicates==='1'?'Vis alle datakilder':'Vis kun dubletter';
+        decorateCards(app,datacenter);
       };
       toolbar.insertBefore(find,importButton||null);toolbar.insertBefore(filter,importButton||null);
     }
