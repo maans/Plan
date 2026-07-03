@@ -29152,5 +29152,176 @@ lærerfelter. Ingen elevsvar, vurderinger eller eksisterende kildebindinger ænd
 })(window.TavleNext);
 </script>
 
+
+<!-- Plan v0.9.3gg SAMTALEARK LÆRERPAR OWNER SAFE:
+Genkender importerede samtaleark ud fra de faktiske elevfelt/lærerfelt-par,
+selv når elevkolonnerne er hele spørgsmål og ikke hedder Læsning, Retstavning,
+Skriftlig eller Mundtlig ordret. Lærer karakter 1-4 bruges kun som sikker
+ordinal reserve. Ugyldige niveaudelings-, historik- og arbejdsdatasæt forbliver
+afviste. Ved fortsat afvisning viser vælgeren hvorfor de nærmeste ark ikke kan
+bruges, så et almindeligt Formularsvar 1 ikke forveksles med samtalearket.
+-->
+<style id="plan-v093gg-conversation-diagnostics-style">
+.tn-conversation-rejection-list{display:grid;gap:8px;margin:12px 0 0;padding:0;list-style:none;text-align:left}
+.tn-conversation-rejection-list li{display:grid;gap:3px;padding:10px 12px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel2)}
+.tn-conversation-rejection-list strong{color:var(--tn-ink)}
+.tn-conversation-rejection-list small{color:var(--tn-muted);font-weight:750;line-height:1.35}
+</style>
+<script id="plan-v093gg-conversation-teacher-pair-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__PLAN_CONVERSATION_TEACHER_PAIR_FALLBACK__)return;
+  const Conversation=TN.SubjectConversationManager;
+  if(!Conversation)return;
+
+  const repairMojibake=value=>String(value??'')
+    .replace(/Ã¦/g,'æ').replace(/Ã†/g,'Æ')
+    .replace(/Ã¸/g,'ø').replace(/Ã˜/g,'Ø')
+    .replace(/Ã¥/g,'å').replace(/Ã…/g,'Å');
+  const normalize=value=>repairMojibake(value).trim().toLocaleLowerCase('da')
+    .replace(/å/g,'aa').replace(/æ/g,'ae').replace(/ø/g,'oe')
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');
+  const isTeacherGrade=value=>{
+    const v=normalize(value);
+    if(/kommentar|trivsel|fokus|aftale|begrund/.test(v))return false;
+    return /(?:^|\s)(?:fag\s*)?laerer(?:ens)?(?:\s|$)/.test(v)&&
+      /(?:^|\s)(karakter|vurdering)(?:\s|$)/.test(v);
+  };
+  const isTeacherLike=value=>/(?:^|\s)(?:fag\s*)?laerer(?:ens)?(?:\s|$)/.test(normalize(value));
+  const isDerived=dataset=>[
+    'subject-conversation','student-grades','student-grade-history',
+    'leveling-active-hold','leveling-assessment','leveling-history'
+  ].includes(dataset?.type);
+
+  const ordinalLayout=function(dataset,requested='auto'){
+    if(!dataset||isDerived(dataset))throw new Error('Kilden er et afledt arbejdsdatasæt');
+    const columns=dataset.columns||[];
+    const values=columns.map(normalize);
+    if(!columns.length)throw new Error('Arket har ingen kolonner');
+
+    const identity=/^(tidsstempel|timestamp|mailadresse|skolemail|e mail|email|mail|unilogin|uni login|navn efternavn|navn og efternavn|navn|elevnavn|kontaktlaerer initialer|kontaktlaerer|kontaktlaerere|k laerer|k laerere|klassetrin|klasse|aargang)$/;
+    let identityEnd=-1;
+    values.forEach((value,index)=>{if(identity.test(value)||/^(navn|mail|email|unilogin|kontaktlaerer|k laerer)(?:\s|$)/.test(value))identityEnd=Math.max(identityEnd,index);});
+
+    const mathIndex=values.findIndex((value,index)=>index>identityEnd&&/(?:^|\s)matematik(?:\s|$)/.test(value));
+    const end=mathIndex>=0?mathIndex:columns.length;
+    const teacherColumns=[];
+    for(let index=Math.max(0,identityEnd+1);index<end;index++)if(isTeacherGrade(columns[index]))teacherColumns.push(index);
+    if(teacherColumns.length<2)throw new Error('Arket mangler mindst to lærer-karakterfelter');
+
+    const pairs=[];
+    let lower=Math.max(0,identityEnd+1);
+    for(const teacherIndex of teacherColumns){
+      let studentIndex=-1;
+      for(let index=teacherIndex-1;index>=lower;index--){
+        const value=values[index];
+        if(!value||isTeacherLike(columns[index])||/kommentar|trivsel|fokus|aftale|begrund/.test(value))continue;
+        studentIndex=index;break;
+      }
+      if(studentIndex>=0){pairs.push({studentIndex,teacherIndex});lower=teacherIndex+1;}
+    }
+    if(pairs.length<2)throw new Error('Lærerfelterne kunne ikke kobles til elevspørgsmål');
+
+    let profileId=requested;
+    if(profileId==='auto'||profileId==='custom')profileId=pairs.length>=4?'danish9':'danish10';
+    const chosen=profileId==='danish9'?pairs.slice(0,4):pairs.slice(-2);
+    if(profileId==='danish9'&&chosen.length<4)throw new Error('Dansk · 9. klasse kræver fire elev/lærer-par');
+    if(profileId==='danish10'&&chosen.length<2)throw new Error('Dansk · 10. klasse kræver to elev/lærer-par');
+
+    const start=Math.min(...chosen.map(pair=>pair.studentIndex));
+    const find=(...needles)=>{
+      for(let index=Math.max(0,identityEnd+1);index<end;index++){
+        if(needles.some(needle=>values[index].includes(normalize(needle))))return index;
+      }
+      return -1;
+    };
+    const explicitDansk=values.findIndex((value,index)=>index>identityEnd&&index<end&&value==='dansk');
+    let comment=-1,studentComment=-1,wellbeing=-1,teacherWellbeing=-1;
+    for(let index=Math.max(0,identityEnd+1);index<end;index++){
+      const value=values[index];
+      if(studentComment<0&&!isTeacherLike(columns[index])&&/kommentar.*dansk|danskfaglig.*kommentar/.test(value))studentComment=index;
+      if(comment<0&&isTeacherLike(columns[index])&&/kommentar/.test(value))comment=index;
+      if(wellbeing<0&&!isTeacherLike(columns[index])&&/har du det godt|trivsel/.test(value))wellbeing=index;
+      if(teacherWellbeing<0&&isTeacherLike(columns[index])&&/trivsel|svar/.test(value)&&!/karakter/.test(value))teacherWellbeing=index;
+    }
+
+    const layout={
+      start:explicitDansk>=0?Math.min(explicitDansk,start):start,
+      end,columns:columns.slice(explicitDansk>=0?Math.min(explicitDansk,start):start,end),profileId,
+      overall:explicitDansk,
+      effort:find('hvor meget yder','forbedre dit standpunkt'),
+      submissions:find('har du lavet alle','afleveret til tiden'),
+      elaboration:find('uddyb'),studentComment,comment,
+      reading:-1,teacherReading:-1,spelling:-1,teacherSpelling:-1,
+      written:-1,teacherWritten:-1,oral:-1,teacherOral:-1,
+      wellbeing,teacherWellbeing,boundaryLabel:end<columns.length?columns[end]:''
+    };
+    if(profileId==='danish9'){
+      [
+        ['reading','teacherReading'],['spelling','teacherSpelling'],
+        ['written','teacherWritten'],['oral','teacherOral']
+      ].forEach(([studentKey,teacherKey],index)=>{
+        layout[studentKey]=chosen[index].studentIndex;
+        layout[teacherKey]=chosen[index].teacherIndex;
+      });
+    }else{
+      layout.written=chosen[0].studentIndex;layout.teacherWritten=chosen[0].teacherIndex;
+      layout.oral=chosen[1].studentIndex;layout.teacherOral=chosen[1].teacherIndex;
+    }
+    return layout;
+  };
+
+  const previousProfileLayout=Conversation.prototype.profileLayout;
+  Conversation.prototype.profileLayout=function(dataset,profileId='auto'){
+    try{return previousProfileLayout.call(this,dataset,profileId);}
+    catch(originalError){
+      try{return ordinalLayout.call(this,dataset,profileId);}
+      catch{throw originalError;}
+    }
+  };
+
+  // Ret den synlige forklaring, hvis ingen kilde stadig kan bruges.
+  const previousPicker=Conversation.prototype.openConversationSourcePicker;
+  Conversation.prototype.openConversationSourcePicker=async function(base,options={}){
+    let candidates=[];
+    try{candidates=await this.conversationCandidates(base);}catch{}
+    const modal=await previousPicker.call(this,base,options);
+    if(candidates.length)return modal;
+
+    let available=[];
+    try{available=await this.app.dataManager.listAvailable(TN.runtime.activeSession?.id);}catch{}
+    const likely=available.filter(dataset=>dataset&&!isDerived(dataset)&&(dataset.rows?.length||0)>0)
+      .map(dataset=>{
+        const headers=dataset.columns||[];
+        const teacherCount=headers.filter(isTeacherGrade).length;
+        const subjectCount=headers.map(normalize).filter(value=>/laesning|retstavning|retskrivning|skriftlig|mundtlig/.test(value)).length;
+        const marker=normalize([dataset.name,dataset.meta?.sourceSheetName,dataset.meta?.sourceWorkbookName].filter(Boolean).join(' '));
+        const score=teacherCount*100+subjectCount*20+(/samtale|formular|spoergeskema|svar/.test(marker)?5:0);
+        return {dataset,teacherCount,subjectCount,score};
+      }).sort((a,b)=>b.score-a.score).slice(0,4);
+
+    const empty=modal?.body?.querySelector?.('.tn-empty');
+    if(empty){
+      empty.innerHTML='<strong>Ingen brugbare samtaleark blev fundet.</strong><br><br>Et samtaleark skal indeholde mindst to elevspørgsmål med tilhørende <b>Lærer karakter</b>- eller <b>Lærer vurdering</b>-felter.';
+      if(likely.length){
+        const list=document.createElement('ul');list.className='tn-conversation-rejection-list';
+        for(const item of likely){
+          const li=document.createElement('li');
+          const sheet=item.dataset.meta?.sourceSheetName||'';
+          li.innerHTML=`<strong>${TN.escapeHtml(item.dataset.name||'Importeret ark')}</strong><small>${TN.escapeHtml([sheet?`Ark: ${sheet}`:'',`${item.dataset.rows?.length||0} rækker`,`${item.dataset.columns?.length||0} kolonner`,item.teacherCount?`${item.teacherCount} lærerfelter`:'ingen lærer-karakterfelter'].filter(Boolean).join(' · '))}</small>`;
+          list.append(li);
+        }
+        empty.append(list);
+      }
+    }
+    return modal;
+  };
+
+  TN.version='0.9.3gg';
+  window.__PLAN_CONVERSATION_TEACHER_PAIR_FALLBACK__='0.9.3gg-2026-07-04';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
