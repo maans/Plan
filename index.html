@@ -8888,24 +8888,23 @@ window.addEventListener('DOMContentLoaded',async()=>{
     const state=runtime();
     if(state)state.activePdfWidgetId=null;
     document.querySelectorAll('.tn-widget.tn-pdf-keyboard-active').forEach(node=>node.classList.remove('tn-pdf-keyboard-active'));
+    const focused=document.activeElement;
+    if(focused?.closest?.('.tn-widget.type-pdf')){
+      try{focused.blur?.();}catch(_){}
+    }
   }
   function findById(id){
     try{return id?document.querySelector(`#tavleNextApp .tn-widget.type-pdf[data-widget-id="${CSS.escape(String(id))}"]`):null;}catch(_){return null;}
   }
   function activePdf(){
-    const app=root(),state=runtime();
-    if(!app)return null;
-    let element=app.querySelector('.tn-widget.type-pdf.focus-target');
-    if(isVisible(element)&&hasLoadedPdf(element))return element;
-    element=[...app.querySelectorAll('.tn-widget.type-pdf.maximized')].find(node=>isVisible(node)&&hasLoadedPdf(node));
-    if(element)return element;
-    element=findById(state?.activePdfWidgetId);
-    if(isVisible(element)&&hasLoadedPdf(element))return element;
-    element=app.querySelector('.tn-widget.type-pdf.selected');
-    if(isVisible(element)&&hasLoadedPdf(element))return element;
-    const loaded=pdfWidgets().filter(hasLoadedPdf);
-    if(state?.mode==='presentation'&&loaded.length===1)return loaded[0];
-    return null;
+    const state=runtime(),id=String(state?.activePdfWidgetId||'');
+    if(!id)return null;
+    const element=findById(id);
+    if(!isVisible(element)||!hasLoadedPdf(element)||!element.classList.contains('tn-pdf-keyboard-active')){
+      if(state)state.activePdfWidgetId=null;
+      return null;
+    }
+    return element;
   }
   function pressToolbar(element,selector){
     const button=element?.querySelector?.(selector);
@@ -34406,5 +34405,75 @@ Det globale K-kalenderpanel henter nu kalendere gennem DataManager.listAvailable
 og Fælles data indgår. Kalenderdatasæt genkendes desuden via deres kolonner, også når ældre import
 eller gendannelse ikke har bevaret type=calendar. Datacenter viser Kalender-knappen for samme
 kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig visning. -->
+
+<script id="plan-pdf-keyboard-release-owner">
+(function(TN){
+  'use strict';
+  if(window.__planPdfKeyboardReleaseOwner)return;
+  window.__planPdfKeyboardReleaseOwner=true;
+
+  const clear=()=>{
+    try{window.planPdfPresentationOwner?.clearActivePdf?.();}catch(_){}
+  };
+  const activeId=()=>String(TN?.runtime?.activePdfWidgetId||'');
+
+  const App=TN?.TavleNextApp;
+  if(App?.prototype){
+    const proto=App.prototype;
+    if(typeof proto.selectWidget==='function'&&!proto.selectWidget.__planPdfReleaseWrapped){
+      const original=proto.selectWidget;
+      const wrapped=function(id,options){
+        const current=activeId();
+        if(current&&String(id||'')!==current)clear();
+        return original.call(this,id,options);
+      };
+      wrapped.__planPdfReleaseWrapped=true;
+      proto.selectWidget=wrapped;
+    }
+    if(typeof proto.unmountBoard==='function'&&!proto.unmountBoard.__planPdfReleaseWrapped){
+      const original=proto.unmountBoard;
+      const wrapped=async function(...args){
+        clear();
+        return original.apply(this,args);
+      };
+      wrapped.__planPdfReleaseWrapped=true;
+      proto.unmountBoard=wrapped;
+    }
+  }
+
+  window.addEventListener('keydown',event=>{
+    if(event.key==='Escape')clear();
+  },true);
+
+  document.addEventListener('pointerdown',event=>{
+    const target=event.target;
+    const widget=target?.closest?.('.tn-widget[data-widget-id]');
+    if(widget&&!widget.classList.contains('type-pdf')){
+      clear();
+      return;
+    }
+    if(!widget&&target?.closest?.('#tnViewport,#tnBoardLayer,#tnBoardCamera'))clear();
+  },true);
+
+  document.addEventListener('focusin',event=>{
+    const widget=event.target?.closest?.('.tn-widget[data-widget-id]');
+    if(widget&&!widget.classList.contains('type-pdf'))clear();
+  },true);
+
+  const observer=new MutationObserver(()=>{
+    const current=activeId();
+    if(!current)return;
+    let active=null;
+    try{active=document.querySelector(`#tavleNextApp .tn-widget.type-pdf[data-widget-id="${CSS.escape(current)}"]`);}catch(_){}
+    if(!active||!active.classList.contains('tn-pdf-keyboard-active'))clear();
+  });
+  const beginObserve=()=>{
+    const app=document.querySelector('#tavleNextApp');
+    if(app)observer.observe(app,{subtree:true,childList:true,attributes:true,attributeFilter:['class']});
+  };
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',beginObserve,{once:true});
+  else beginObserve();
+})(window.TavleNext);
+</script>
 </body>
 </html>
