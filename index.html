@@ -6754,15 +6754,24 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       let boardAddPress=null,boardSecondaryPress=null,boardSecondaryGuardUntil=0,boardAddOpenedAt=0;
       const cancelBoardAddPress=()=>{if(boardAddPress?.timer)clearTimeout(boardAddPress.timer);boardAddPress=null;};
       const cancelBoardSecondaryPress=()=>{boardSecondaryPress=null;};
-      const openBoardMenuFromPress=press=>{if(!press||Date.now()-boardAddOpenedAt<1200)return;boardAddOpenedAt=Date.now();this.swipeStart=null;this.selectWidget(null);this.showBoardMenu(null,{x:press.x,y:press.y});};
+      const openBoardMenuFromPress=(press,{force=false}={})=>{if(!press||!force&&Date.now()-boardAddOpenedAt<240)return;boardAddOpenedAt=Date.now();this.swipeStart=null;this.selectWidget(null);this.showBoardMenu(null,{x:press.x,y:press.y});};
       const stopBoardNativeContext=event=>{if(event.cancelable)event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();};
       const isSecondaryMouse=event=>boardMenuChromeIOS&&(event.pointerType==='mouse'||event.pointerType===''||event.pointerType==null)&&(event.button===2||event.buttons===2);
       const shouldSuppressSecondaryMouse=event=>boardMenuChromeIOS&&TN.runtime.mode!=='presentation'&&(performance.now()<boardSecondaryGuardUntil||isBoardBackgroundTarget(event.target));
-      this.viewport.addEventListener('contextmenu',event=>{if(TN.runtime.mode==='presentation'||!isBoardBackgroundTarget(event.target)&&performance.now()>=boardSecondaryGuardUntil)return;stopBoardNativeContext(event);const press=boardSecondaryPress;cancelBoardSecondaryPress();cancelBoardAddPress();openBoardMenuFromPress(press||{x:event.clientX,y:event.clientY});},{capture:true,passive:false});
+      const suppressDelayedChromeContext=event=>{
+        if(!boardMenuChromeIOS||TN.runtime.mode==='presentation'||performance.now()>=boardSecondaryGuardUntil)return;
+        if(event.type==='contextmenu'||event.type==='auxclick'||event.type==='selectstart'||event.button===2||event.buttons===2)stopBoardNativeContext(event);
+      };
+      window.addEventListener('contextmenu',suppressDelayedChromeContext,{capture:true,passive:false});
+      window.addEventListener('auxclick',suppressDelayedChromeContext,{capture:true,passive:false});
+      window.addEventListener('mousedown',suppressDelayedChromeContext,{capture:true,passive:false});
+      window.addEventListener('mouseup',suppressDelayedChromeContext,{capture:true,passive:false});
+      window.addEventListener('selectstart',suppressDelayedChromeContext,{capture:true,passive:false});
+      this.viewport.addEventListener('contextmenu',event=>{if(TN.runtime.mode==='presentation'||!isBoardBackgroundTarget(event.target)&&performance.now()>=boardSecondaryGuardUntil)return;stopBoardNativeContext(event);const press=boardSecondaryPress;cancelBoardSecondaryPress();cancelBoardAddPress();boardSecondaryGuardUntil=performance.now()+5000;openBoardMenuFromPress(press||{x:event.clientX,y:event.clientY},{force:true});},{capture:true,passive:false});
       this.viewport.addEventListener('pointerdown',event=>{
         if(TN.runtime.mode==='presentation'||!isBoardBackgroundTarget(event.target))return;
         if(isSecondaryMouse(event)){
-          stopBoardNativeContext(event);cancelBoardAddPress();boardSecondaryGuardUntil=performance.now()+1200;boardSecondaryPress={id:event.pointerId,x:event.clientX,y:event.clientY};return;
+          stopBoardNativeContext(event);cancelBoardAddPress();boardSecondaryGuardUntil=performance.now()+5000;boardSecondaryPress={id:event.pointerId,x:event.clientX,y:event.clientY};return;
         }
         if(!['touch','pen'].includes(event.pointerType))return;
         cancelBoardAddPress();const press={id:event.pointerId,x:event.clientX,y:event.clientY,timer:0,ready:false};press.timer=setTimeout(()=>{if(boardAddPress!==press)return;boardAddPress=null;press.ready=true;openBoardMenuFromPress(press);},650);boardAddPress=press;
@@ -6772,7 +6781,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         if(!boardAddPress||event.pointerId!==boardAddPress.id)return;if(Math.hypot(event.clientX-boardAddPress.x,event.clientY-boardAddPress.y)>12)cancelBoardAddPress();
       },{capture:true,passive:false});
       this.viewport.addEventListener('pointerup',event=>{
-        if(boardSecondaryPress&&event.pointerId===boardSecondaryPress.id){stopBoardNativeContext(event);const press=boardSecondaryPress;cancelBoardSecondaryPress();cancelBoardAddPress();boardSecondaryGuardUntil=performance.now()+1200;openBoardMenuFromPress(press);return;}
+        if(boardSecondaryPress&&event.pointerId===boardSecondaryPress.id){stopBoardNativeContext(event);const press=boardSecondaryPress;cancelBoardSecondaryPress();cancelBoardAddPress();boardSecondaryGuardUntil=performance.now()+5000;openBoardMenuFromPress(press,{force:true});return;}
         const press=boardAddPress;if(!press||event.pointerId!==press.id){cancelBoardAddPress();return;}cancelBoardAddPress();
       },{capture:true,passive:false});
       this.viewport.addEventListener('pointercancel',event=>{if(boardSecondaryPress&&event.pointerId===boardSecondaryPress.id)cancelBoardSecondaryPress();cancelBoardAddPress();},{capture:true,passive:false});
