@@ -29949,5 +29949,252 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 })(window.TavleNext);
 
 </script>
+<!-- Plan · Hjælp udefra og ind · korte opskrifter SAFE -->
+<style id="plan-help-outside-in-style">
+.tn-plan-help .tn-help-recipe{display:grid;gap:10px;margin:10px 0}
+.tn-plan-help .tn-help-phase{display:grid;grid-template-columns:38px minmax(0,1fr);gap:10px;padding:11px 12px;border:1px solid var(--tn-line);border-radius:14px;background:var(--tn-panel)}
+.tn-plan-help .tn-help-phase>span{display:grid;place-items:center;width:34px;height:34px;border-radius:999px;background:var(--tn-accent);color:#fff;font-weight:950}
+.tn-plan-help .tn-help-phase h4{margin:0 0 4px;color:var(--tn-ink);font-size:15px}.tn-plan-help .tn-help-phase p{margin:0;color:var(--tn-muted)}
+.tn-plan-help .tn-help-check{margin:8px 0;padding:10px 12px;border-left:4px solid var(--tn-accent);border-radius:0 12px 12px 0;background:color-mix(in srgb,var(--tn-accent) 9%,var(--tn-panel2));color:var(--tn-ink)}
+.tn-plan-help .tn-help-plain-steps{display:grid;gap:8px;counter-reset:helpstep;margin:10px 0;padding:0;list-style:none}
+.tn-plan-help .tn-help-plain-steps>li{counter-increment:helpstep;position:relative;padding:10px 12px 10px 46px;border:1px solid var(--tn-line);border-radius:13px;background:var(--tn-panel)}
+.tn-plan-help .tn-help-plain-steps>li:before{content:counter(helpstep);position:absolute;left:11px;top:10px;display:grid;place-items:center;width:25px;height:25px;border-radius:999px;background:color-mix(in srgb,var(--tn-accent) 18%,var(--tn-panel2));color:var(--tn-ink);font-weight:950}
+.tn-plan-help .tn-help-smallprint{font-size:12px;color:var(--tn-muted)}
+@media(max-width:680px){.tn-plan-help .tn-help-phase{grid-template-columns:32px minmax(0,1fr);padding:10px}.tn-plan-help .tn-help-phase>span{width:29px;height:29px}}
+</style>
+<script id="plan-help-outside-in-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__planHelpOutsideInOwner) return;
+  window.__planHelpOutsideInOwner = true;
+  const App = TN.TavleNextApp;
+  if(!App) return;
+
+  const previousRegisterHelp = App.prototype.registerHelp;
+  App.prototype.registerHelp = function(){
+    previousRegisterHelp.call(this);
+    const entries = this.helpRegistry.entries;
+    const set = (id,title,summary,body) => {
+      const entry={id,title,summary,body};
+      const index=entries.findIndex(item=>item.id===id);
+      if(index>=0) entries[index]=entry; else entries.push(entry);
+      TN.registry.help.set(id,entry);
+      return entry;
+    };
+    const moveAfter = (id,afterId) => {
+      const from=entries.findIndex(item=>item.id===id),after=entries.findIndex(item=>item.id===afterId);
+      if(from<0||after<0||from===after+1)return;
+      const [entry]=entries.splice(from,1);
+      const target=entries.findIndex(item=>item.id===afterId);
+      entries.splice(target+1,0,entry);
+    };
+
+    set('overview','Kom godt i gang med Plan','Vælg først det arbejde, du vil have gjort',`
+      <p><b>Begynd med målet — ikke med knapperne.</b> Skal du planlægge en undervisningsgang, samle et helt fagforløb, arbejde med elever eller rydde op i data?</p>
+      <div class="tn-help-recipe">
+        <div class="tn-help-phase"><span>1</span><div><h4>Vælg et forløb</h4><p>Opret eller åbn det undervisningsforløb, som arbejdet skal høre til.</p></div></div>
+        <div class="tn-help-phase"><span>2</span><div><h4>Hent grundlaget ind</h4><p>Importér elever, svarark, PDF’er, billeder eller andre materialer.</p></div></div>
+        <div class="tn-help-phase"><span>3</span><div><h4>Byg den visning, du skal bruge</h4><p>Opret tavler, Elevkort, matricer, hold, samtaler eller karakteroversigter.</p></div></div>
+        <div class="tn-help-phase"><span>4</span><div><h4>Gem det, der skal leve videre</h4><p>Plan gemmer løbende. Brug Backup++ eller en årsforløbspakke, når arbejdet skal sikres eller flyttes.</p></div></div>
+      </div>
+      <div class="tn-help-check"><b>God tommelfingerregel:</b> Gem elevstamdata som Fælles data. Gem svarark, samtaleark, vurderinger og karakterer som hver sin kilde.</div>
+      <div class="tn-help-see"><b>Vælg en opskrift:</b><button data-help-jump="first-course">Nyt fagforløb</button><button data-help-jump="danish-workflow">Dansk fra elevliste til karakterer</button><button data-help-jump="boards">Byg en tavle</button><button data-help-jump="datacenter">Få styr på data</button></div>`);
+
+    set('first-course','Opskrift — opret et fagforløb fra bunden','Fra tomt forløb til første brugbare undervisningsgang',`
+      <p>Denne opskrift passer til et nyt fag, et nyt skoleår eller et længere emneforløb.</p>
+      <ol class="tn-help-plain-steps">
+        <li><b>Opret forløbet.</b> Vælg <b>Opret tomt forløb</b>, og giv det et navn, som kolleger kan forstå senere.</li>
+        <li><b>Opret den første session.</b> Brug sessioner til undervisningsgange, perioder eller tydelige arbejdsrum.</li>
+        <li><b>Importér eleverne.</b> Gem skolens elevliste som <b>Fælles data</b>, så den samme elev kan bruges på tværs af sessioner.</li>
+        <li><b>Importér fagets øvrige kilder.</b> Spørgeskemaer, vurderingsark og samtaleark gemmes hver for sig. Ved Excel vælger du det relevante faneblad.</li>
+        <li><b>Byg første tavle.</b> Tilføj tekst, PDF, links, billeder eller en dataoversigt. Du kan duplikere tavlen som skabelon til næste session.</li>
+        <li><b>Kontrollér og tag backup.</b> Åbn de vigtigste visninger, og byg derefter en Backup++ eller årsforløbspakke.</li>
+      </ol>
+      <div class="tn-help-check"><b>Dansk:</b> Du behøver normalt ikke først at opsætte den avancerede Fagforløb-motor. Brug den færdige dansk-arbejdsgang med Niveaudeling, Mit danskhold, Fagsamtaler og Karakterer.</div>
+      <div class="tn-help-see"><b>Næste trin:</b><button data-help-jump="data">Importér data</button><button data-help-jump="students">Elevstamdata</button><button data-help-jump="danish-workflow">Danskforløbet</button><button data-help-jump="course-backup">Backup</button></div>`);
+    moveAfter('first-course','startup');
+
+    set('startup','Start eller fortsæt et undervisningsforløb','Den korte vej ind i det rigtige arbejdsrum',`
+      <ol class="tn-help-plain-steps">
+        <li>Vælg <b>Fortsæt</b>, når du vil tilbage til det senest brugte sted.</li>
+        <li>Vælg <b>Næste session</b>, når du følger forløbets planlagte rækkefølge.</li>
+        <li>Vælg <b>Alle undervisningsforløb</b>, når du skal finde et andet fag eller skoleår.</li>
+        <li>Vælg <b>Opret tomt forløb</b>, når du starter fra bunden.</li>
+      </ol>
+      <p>Inde i Plan skifter du forløb eller session ved at trykke på Plan-ikonet eller sessionsnavnet øverst til venstre.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="first-course">Nyt fagforløb</button><button data-help-jump="library">Bibliotek</button><button data-help-jump="course-backup">Årsforløbspakker</button></div>`);
+
+    set('danish-workflow','Opskrift — dansk fra elevliste til samtaler og karakterer','Hele arbejdsgangen i seks faser',`
+      <p>Brug denne rækkefølge, når et danskforløb skal bygges op fra bunden. Kilderne hænger sammen gennem eleven, men gemmes hver for sig.</p>
+      <div class="tn-help-recipe">
+        <div class="tn-help-phase"><span>1</span><div><h4>Elevgrundlag</h4><p>Importér Elevstamdata som <b>Fælles data</b>. Kontrollér navn, klasse, kontaktlærer og helst ElevID eller skolelogin.</p></div></div>
+        <div class="tn-help-phase"><span>2</span><div><h4>Elevens faglige svar</h4><p>Importér spørgeskemaet som sin egen datakilde. Ved Excel vælger du det rigtige faneblad; vælger du flere filer, går Plan videre fil for fil.</p></div></div>
+        <div class="tn-help-phase"><span>3</span><div><h4>Vurdering og hold</h4><p>Opret en Niveaudelingsmatrix. Gennemgå eleverne, skriv lærerens vurdering og placér dem på Hold 1, 2 eller 3.</p></div></div>
+        <div class="tn-help-phase"><span>4</span><div><h4>Det levende danskhold</h4><p>Vælg <b>Mit danskhold</b>. Brug holdet til Elevkort, arbejdsgrupper, fagsamtaler og karakterer.</p></div></div>
+        <div class="tn-help-phase"><span>5</span><div><h4>Fagsamtaler og K-lærere</h4><p>Importér samtalearket særskilt, vælg det rigtige ark, match eleverne og gennemfør samtalerne. Skriv lærerfelter og kommentarer, og eksportér derefter oversigten til kontaktlærerne.</p></div></div>
+        <div class="tn-help-phase"><span>6</span><div><h4>Standpunktskarakterer</h4><p>Åbn Karakterer for holdet, vælg termin og giv de officielle karakterer. Samtalen kan være grundlag, men overføres ikke automatisk.</p></div></div>
+      </div>
+      <div class="tn-help-check"><b>Hold data adskilt:</b> elevsvar, lærerens niveauvurdering, samtalekommentarer og officielle karakterer er fire forskellige ting. Det gør det muligt at rette én del uden at overskrive de andre.</div>
+      <div class="tn-help-see"><b>Gå direkte til en fase:</b><button data-help-jump="students">1. Elevstamdata</button><button data-help-jump="leveling">2–3. Niveaudeling</button><button data-help-jump="my-danish-hold">4. Mit danskhold</button><button data-help-jump="subject-conversations">5. Fagsamtaler</button><button data-help-jump="danish-grades">6. Karakterer</button></div>`);
+    moveAfter('danish-workflow','first-course');
+
+    set('data','Opskrift — importér elever, svarark og andre data','Vælg fil, faneblad og placering uden at blande kilderne sammen',`
+      <ol class="tn-help-plain-steps">
+        <li>Vælg <b>Importér data</b> eller Import i <b>Tilføj indhold</b>.</li>
+        <li>Vælg filen. Ved Excel vælger du derefter det faneblad, der skal importeres.</li>
+        <li>Vælg <b>Gem som fælles data</b> til elevstamdata og andre kilder, der skal bruges i flere sessioner. Vælg <b>Gem i session</b> til materiale, der kun hører til det aktuelle arbejde.</li>
+        <li>Importér spørgeskema, samtaleark og andre lærerark hver for sig. Samme synlige navn betyder ikke nødvendigvis samme indhold.</li>
+        <li>Åbn <b>Vis</b> for at kontrollere data. X lukker kun tabelvisningen — ikke datasættet.</li>
+      </ol>
+      <p>Vælger du flere Excel-filer, behandles de én ad gangen. Du vælger ét faneblad fra hver fil, og Plan fortsætter automatisk til den næste.</p>
+      <div class="tn-help-check"><b>Sletning:</b> Slet datasættet fra Datacenter. Hvis det bruges af en widget eller anden kilde, viser Plan forbindelserne og tilbyder at afkoble før permanent sletning.</div>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="students">Elevstamdata</button><button data-help-jump="danish-workflow">Danskforløbet</button><button data-help-jump="datacenter">Datacenter</button></div>`);
+
+    set('students','Opskrift — få eleverne sikkert ind i Plan','Fælles Elevstamdata før hold, kort og samtaler',`
+      <ol class="tn-help-plain-steps">
+        <li>Importér skolens elevliste som <b>Fælles data</b>.</li>
+        <li>Kontrollér mindst navn og klasse. ElevID eller skolelogin giver den sikreste kobling.</li>
+        <li>Opret Elevkort eller Elevkortmatrix fra <b>Kort/tavler</b>.</li>
+        <li>Brug den samme elevkilde i Niveaudeling, Mit danskhold, Fagsamtaler og Karakterer.</li>
+        <li>Godkend manuelt, hvis Plan viser et usikkert match. Plan bør ikke gætte mellem flere mulige elever.</li>
+      </ol>
+      <p>Elevkort kan hente elev-, mor- og faroplysninger fra Elevstamdata. Noter og faglige arbejdsgange gemmes særskilt, så en opdateret elevliste ikke sletter lærerens arbejde.</p>
+      <div class="tn-help-see"><b>Næste trin:</b><button data-help-jump="leveling">Niveaudeling</button><button data-help-jump="subject-conversations">Fagsamtaler</button><button data-help-jump="danish-grades">Karakterer</button></div>`);
+
+    set('leveling','Opskrift — vurder elever og dan danskhold','Fra svarark til Hold 1, 2 og 3',`
+      <ol class="tn-help-plain-steps">
+        <li>Importér elevens svarark som en selvstændig datakilde.</li>
+        <li>Vælg kilden i Datacenter og opret en <b>Niveaudelingsmatrix</b>.</li>
+        <li>Læs elevens svar og eventuelle importerede forslag.</li>
+        <li>Skriv din egen vurdering og begrundelse.</li>
+        <li>Placér eleven på Hold 1, Hold 2, Hold 3 eller Ikke afgjort.</li>
+        <li>Vælg derefter <b>Mit danskhold</b> til det hold, du underviser.</li>
+      </ol>
+      <p>Flytter du senere en elev, opdateres de levende holdvisninger. Samtaler og karakterer følger eleven og forsvinder ikke ved et holdskift.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="danish-workflow">Hele forløbet</button><button data-help-jump="my-danish-hold">Mit danskhold</button><button data-help-jump="groups">Arbejdsgrupper</button></div>`);
+
+    set('my-danish-hold','Opskrift — brug Mit danskhold','Gør et af niveauholdene til din daglige arbejdsvisning',`
+      <ol class="tn-help-plain-steps">
+        <li>Åbn Niveaudelingsmatrixen eller Gruppegalaksen.</li>
+        <li>Vælg <b>Mit danskhold</b> og derefter Hold 1, 2 eller 3.</li>
+        <li>Opret Elevkortmatrix, arbejdsgrupper eller elevtavler for holdet.</li>
+        <li>Åbn Fagsamtaler eller Karakterer for holdet, når du er klar.</li>
+      </ol>
+      <p>Holdet er levende: ændringer i Niveaudelingen slår igennem i de tilknyttede visninger. Valget af Mit danskhold er din egen arbejdsindstilling og ændrer ikke kollegernes valg.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="subject-conversations">Fagsamtaler</button><button data-help-jump="danish-grades">Karakterer</button><button data-help-jump="groups">Arbejdsgrupper</button></div>`);
+
+    set('subject-conversations','Opskrift — forbered og gennemfør fagsamtaler','Samtaleark, elevmatch, lærerkommentarer og eksport til K-lærere',`
+      <ol class="tn-help-plain-steps">
+        <li>Importér samtalearket som en ny datakilde. Ved Excel vælger du fanebladet med elevsvar og lærerfelter.</li>
+        <li>Åbn <b>Fagsamtaler for holdet</b> fra Mit danskhold, Elevkortmatrixen eller Karaktermatricen.</li>
+        <li>Vælg det eller de samtaleark, der passer til holdet. Et blandet 9./10.-klassehold kan bruge flere kilder.</li>
+        <li>Brug <b>Match elever</b>, hvis navn eller identitet ikke kan kobles sikkert.</li>
+        <li>Læs elevens svar, gennemfør samtalen og skriv lærerens vurderinger og kommentar.</li>
+        <li>Markér status, så du kan se, hvem der mangler.</li>
+        <li>Vælg <b>Eksportér til K-lærere</b>, når kontaktlærerne skal have elevernes kommentarer samlet.</li>
+      </ol>
+      <p>Elevens oprindelige svar bliver i det importerede ark. Dine lærersvar og kommentarer gemmes i Plan. De officielle karakterer gives senere i Karakterer.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="danish-workflow">Hele forløbet</button><button data-help-jump="danish-grades">Karakterer</button><button data-help-jump="data">Import af samtaleark</button></div>`);
+
+    set('danish-grades','Opskrift — giv standpunktskarakterer','Vælg hold, termin og fagområde',`
+      <ol class="tn-help-plain-steps">
+        <li>Åbn <b>Karakterer for holdet</b> fra Mit danskhold, Fagsamtaler eller Elevkortmatrixen.</li>
+        <li>Vælg termin: Efterår, Forår eller Afsluttende standpunkt.</li>
+        <li>Kontrollér prøveform og fagområder for den enkelte elev.</li>
+        <li>Indtast karaktererne og en kort bemærkning efter behov. Plan gemmer automatisk.</li>
+        <li>Brug Karaktermatricen til overblik og CSV-eksport.</li>
+      </ol>
+      <p>Afsluttende standpunkt er en ny vurdering — ikke et automatisk gennemsnit. Fagsamtalens lærersvar kan bruges som grundlag, men kopieres ikke automatisk til de officielle karakterfelter.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="subject-conversations">Fagsamtaler</button><button data-help-jump="danish-workflow">Hele forløbet</button><button data-help-jump="data">Data og eksport</button></div>`);
+
+    set('datacenter','Datacenter — find, kontrollér og ryd op','Brug Datacenter, når du arbejder med det bagvedliggende materiale',`
+      <p>Datacenteret er ikke en ekstra tavle. Det er stedet, hvor du finder og vedligeholder det, som tavlerne bruger.</p>
+      <div class="tn-help-recipe">
+        <div class="tn-help-phase"><span>1</span><div><h4>Find</h4><p>Se sessioner, sessionsdata, fælles data, medier og forbindelser.</p></div></div>
+        <div class="tn-help-phase"><span>2</span><div><h4>Kontrollér</h4><p>Brug Vis for at åbne data som tabel, og Relationer for at se, hvor materialet bruges.</p></div></div>
+        <div class="tn-help-phase"><span>3</span><div><h4>Brug videre</h4><p>Opret kort, tavler, lister eller bearbejdede kilder uden at ændre originalen.</p></div></div>
+        <div class="tn-help-phase"><span>4</span><div><h4>Ryd op</h4><p>Slet kun den valgte kilde. Plan viser anvendelser og tilbyder afkobling, før permanent sletning.</p></div></div>
+      </div>
+      <p>Plan samler ikke automatisk datasæt, blot fordi navn, rækkeantal og kolonneantal ligner hinanden. Sammenlign dem først med <b>Vis</b>.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Importér data</button><button data-help-jump="trash">Sletning</button><button data-help-jump="storage">Lager og nødbackup</button></div>`);
+
+    set('import','Opskrift — importér filer og materialer','Data, Excel-faner, PDF, billeder og backup',`
+      <ol class="tn-help-plain-steps">
+        <li>Åbn <b>Tilføj indhold → Import</b>, brug Import i værktøjslinjen, eller slip filerne på tavlen.</li>
+        <li>Ved Excel vælger du det faneblad, der skal gemmes. Flere valgte Excel-filer behandles én ad gangen.</li>
+        <li>Vælg, om data skal gemmes i den aktuelle session eller som Fælles data.</li>
+        <li>Én PDF bliver en PDF-widget. Flere PDF’er bliver en PDF-matrix. Flere billeder, lyd- eller videofiler samles tilsvarende.</li>
+        <li>Kontrollér resultatet, før du fortsætter med kort, tavler eller elevarbejdsgange.</li>
+      </ol>
+      <p>Backup++ og årsforløbspakker har deres eget import-preview. Plan forsøger ikke at skjule ukendte elementer eller overskrive et andet forløb uden et tydeligt valg.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Data</button><button data-help-jump="pdf">PDF</button><button data-help-jump="media">Medier</button><button data-help-jump="course-backup">Backupimport</button></div>`);
+
+    set('zoom-focus','Vis tydeligt på skærmen','Fokus, præsentation, zoom og fuld skærm',`
+      <ol class="tn-help-plain-steps">
+        <li>Vælg den widget, eleverne skal se.</li>
+        <li>Brug <b>Fokusér</b> eller F for at fremhæve den uden at ændre tavlelayoutet.</li>
+        <li>Brug <b>Præsentér</b> for at skjule redigeringsgreb.</li>
+        <li>Brug zoom eller knib med to fingre, når hele tavlen skal tilpasses.</li>
+        <li>Brug <b>Fuld skærm</b>, når browseren tillader det.</li>
+      </ol>
+      <p>På Mac og Safari på iPad bruges browserens rigtige fuldskærm. I miljøer uden adgang til den funktion, eksempelvis visse Quine-visninger, forklarer Plan det og tilbyder at bruge hele browserområdet. Menusystem, højreklik/langt tryk, modaler og PDF-betjening bliver tilgængelige i fuldskærmslaget.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="windows">Vinduer og låsning</button><button data-help-jump="pdf">Stor PDF-visning</button><button data-help-jump="shortcuts">Genveje</button></div>`);
+
+    set('subject-courses','Fagforløb — når du vil bygge en ny fagmodel','Den avancerede mulighed til andre fag og egne felter',`
+      <p>Brug først de almindelige opskrifter. Åbn kun <b>Datacenter → Fagforløb</b>, når du vil bygge en genbrugelig model til et andet fag eller ændre, hvilke fagområder, terminer og lærerfelter der findes.</p>
+      <ol class="tn-help-plain-steps">
+        <li>Vælg en startprofil.</li>
+        <li>Navngiv fagområder, vurderinger og terminer med ord, lærerne bruger til daglig.</li>
+        <li>Kobl regnearkets kolonner til de tilsvarende elev- og lærerfelter.</li>
+        <li>Afprøv profilen på et lille datasæt.</li>
+        <li>Gem en ny version, før en eksisterende kortlægning ændres.</li>
+      </ol>
+      <div class="tn-help-check"><b>Dansk:</b> Den færdige dansk-arbejdsgang kræver ikke denne opsætning.</div>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="first-course">Nyt almindeligt forløb</button><button data-help-jump="danish-workflow">Danskforløbet</button><button data-help-jump="data">Data og import</button></div>`);
+
+    set('rescue-recipe','Når tavlen eller gemningen driller','Den mildeste løsning først',`
+      <ol class="tn-help-plain-steps">
+        <li>Åbn <b>Redningsbæltet</b> eller tryk Shift+O.</li>
+        <li>Vælg først <b>Nulstil visning og betjening</b>. Det flytter ikke widgets.</li>
+        <li>Brug <b>Find alle vinduer</b>, hvis noget er skjult eller minimeret.</li>
+        <li>Brug <b>Gør alle vinduer tilgængelige</b>, hvis titelbjælker er uden for rækkevidde.</li>
+        <li>Gendan et tidligere layout eller arrangér automatisk, hvis selve opstillingen er ødelagt.</li>
+        <li>Ved gemmefejl: åbn Datacenter → Lager, og lav en nødbackup før større oprydning.</li>
+      </ol>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="windows">Vindueslayout</button><button data-help-jump="storage">Lagerredning</button><button data-help-jump="course-backup">Backup++</button></div>`);
+    moveAfter('rescue-recipe','windows');
+  };
+
+  const previousShowHelp = App.prototype.showHelp;
+  App.prototype.showHelp = function(){
+    const result=previousShowHelp.call(this);
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
+      if(!root)return;
+      const hero=root.querySelector('.tn-plan-help-hero');
+      if(hero){
+        const heading=hero.querySelector('h3'); if(heading)heading.textContent='Hvad vil du have gjort?';
+        const paragraph=hero.querySelector('p'); if(paragraph)paragraph.innerHTML='<b>Vælg en konkret opgave nedenfor.</b> Hjælpen viser en kort opskrift først og de mere tekniske detaljer bagefter.';
+        const line=hero.querySelector('.tn-plan-help-line'); if(line)line.textContent='Start med forløbet og eleverne. Byg derefter tavler, hold, samtaler og karakterer efter behov.';
+      }
+      const quick=root.querySelector('.tn-plan-help-quick');
+      if(quick)quick.innerHTML='<article><b>1. Start forløbet</b><span>Opret fag, skoleår eller emne og den første session.</span></article><article><b>2. Importér grundlaget</b><span>Elever, svarark, samtaleark og undervisningsmaterialer.</span></article><article><b>3. Arbejd med eleverne</b><span>Vurderinger, hold, fagsamtaler, kommentarer og karakterer.</span></article><article><b>4. Sikr arbejdet</b><span>Kontrollér data, ryd op og tag backup.</span></article>';
+      const intents=root.querySelector('.tn-plan-help-intents');
+      if(intents){
+        const title=intents.querySelector('h3');if(title)title.textContent='Vælg en opskrift';
+        const note=intents.querySelector('p');if(note)note.textContent='Vælg det arbejde, du står med lige nu.';
+        const grid=intents.querySelector(':scope > div');
+        if(grid)grid.innerHTML='<button data-help-jump="first-course">Opret et fagforløb fra bunden</button><button data-help-jump="danish-workflow">Fra elevliste til samtaler og karakterer</button><button data-help-jump="boards">Byg en tavle til en undervisningsgang</button><button data-help-jump="import">Importér Excel, PDF eller medier</button><button data-help-jump="leveling">Niveaudel og dan danskhold</button><button data-help-jump="subject-conversations">Gennemfør fagsamtaler og skriv til K-lærere</button><button data-help-jump="danish-grades">Giv standpunktskarakterer</button><button data-help-jump="datacenter">Find, kontrollér eller slet data</button><button data-help-jump="rescue-recipe">Red et layout eller en gemning</button>';
+      }
+      const keyHint=root.querySelector('.tn-help-key-hint');
+      if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> Tastaturgenveje er samlet i afsnittet Genvejskort.';
+      const bottom=root.querySelector('.tn-help-bottom-hint');
+      if(bottom)bottom.textContent='Start med en opskrift. Slå kun de tekniske detaljer op, når du har brug for dem.';
+    }));
+    return result;
+  };
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
