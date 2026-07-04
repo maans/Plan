@@ -34475,5 +34475,286 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   else beginObserve();
 })(window.TavleNext);
 </script>
+
+
+<!-- Plan OWNER SAFE: maksimeret PDF-tastaturejer + Escape-gendannelse + globalt temaskift i alle modaler.
+     Denne blok ligger bevidst ved dokumentets slutning og ikke inde i HTMLWidget-skabelonstrenge. -->
+<style id="plan-modal-theme-always-owner-style">
+#tnModalThemeAlwaysButton{
+  position:fixed;
+  top:max(10px,env(safe-area-inset-top));
+  right:max(66px,calc(env(safe-area-inset-right) + 66px));
+  z-index:2147483000;
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--tn-line,#64748b);
+  border-radius:13px;
+  background:var(--tn-panel2,#1e293b);
+  color:var(--tn-ink,#fff);
+  box-shadow:0 10px 30px rgba(2,6,23,.38),inset 0 1px 0 rgba(255,255,255,.08);
+  font:900 22px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  cursor:pointer;
+  touch-action:manipulation;
+  pointer-events:auto;
+}
+#tnModalThemeAlwaysButton[hidden]{display:none!important}
+#tnModalThemeAlwaysButton:hover,
+#tnModalThemeAlwaysButton:focus-visible{
+  outline:none;
+  border-color:var(--tn-accent,#3b82f6);
+  background:color-mix(in srgb,var(--tn-accent,#3b82f6) 20%,var(--tn-panel2,#1e293b));
+}
+@media(max-width:620px){
+  #tnModalThemeAlwaysButton{
+    top:max(7px,env(safe-area-inset-top));
+    right:max(58px,calc(env(safe-area-inset-right) + 58px));
+    width:40px;
+    height:40px;
+    border-radius:12px;
+    font-size:20px;
+  }
+}
+</style>
+<script id="plan-pdf-maximized-keyboard-and-modal-theme-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__planPdfMaximizedKeyboardAndModalThemeOwner) return;
+  window.__planPdfMaximizedKeyboardAndModalThemeOwner = true;
+
+  const App = TN.TavleNextApp;
+  if(!App) return;
+  const proto = App.prototype;
+  const ARROWS = new Set(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown']);
+
+  const appNow = () => window.tavleNextApp || TN.runtime?.app || null;
+  const typingTarget = target => {
+    try{return !!(target && (target.isContentEditable || target.closest?.('input,textarea,select,[contenteditable="true"]')));}catch(_){return false;}
+  };
+  const visible = element => {
+    try{
+      if(!element || !element.isConnected || element.hidden) return false;
+      const style = getComputedStyle(element), rect = element.getBoundingClientRect();
+      return style.display !== 'none' && style.visibility !== 'hidden' && Number(style.opacity) !== 0 && rect.width > 3 && rect.height > 3;
+    }catch(_){return false;}
+  };
+  const modalOpen = app => {
+    if(app?.modalManager?.stack?.length) return true;
+    try{return [...document.querySelectorAll('.tn-modal-layer')].some(visible);}catch(_){return false;}
+  };
+  const maxState = app => {
+    if(!app) return null;
+    try{
+      const transient = app.transientMaxState?.();
+      if(transient?.widgetId) return {widgetId:String(transient.widgetId),kind:'transient'};
+    }catch(_){ }
+    const board = TN.runtime?.activeBoard;
+    if(board?.meta?.maximizedWindowLayoutRestore?.anchorId) return {widgetId:String(board.meta.maximizedWindowLayoutRestore.anchorId),kind:'snapshot'};
+    if(board?.meta?.windowLayoutRestore?.mode === 'maximize' && board.meta.windowLayoutRestore.anchorId) return {widgetId:String(board.meta.windowLayoutRestore.anchorId),kind:'legacy'};
+    const widget = (TN.runtime?.activeWidgets || []).find(item => item?.settings?.maximized);
+    return widget ? {widgetId:String(widget.id),kind:'setting'} : null;
+  };
+  const widgetElement = (app,id) => {
+    try{return app?.boardLayer?.querySelector?.(`.tn-widget[data-widget-id="${CSS.escape(String(id||''))}"]`) || null;}catch(_){return null;}
+  };
+  const clearPdfKeyboard = () => {
+    try{window.planPdfPresentationOwner?.clearActivePdf?.();}catch(_){ }
+  };
+  const clearWidgetKeyboard = app => {
+    if(!app) return;
+    app.keyboardWidgetContentMode = null;
+    try{app.boardLayer?.querySelectorAll?.('.keyboard-content-active').forEach(node => node.classList.remove('keyboard-content-active'));}catch(_){ }
+    try{
+      const focused = document.activeElement;
+      if(focused?.closest?.('.tn-widget')) focused.blur?.();
+    }catch(_){ }
+  };
+  const stop = event => {
+    try{
+      event.preventDefault();
+      event.stopPropagation();
+      event.stopImmediatePropagation?.();
+    }catch(_){ }
+  };
+  const activateMaximizedPdf = (app,id) => {
+    const attempt = () => {
+      const state = maxState(app);
+      if(!state || String(state.widgetId) !== String(id)) return false;
+      const element = widgetElement(app,id);
+      if(!element?.classList.contains('type-pdf')) return false;
+      try{return !!window.planPdfPresentationOwner?.setActivePdf?.(element,{select:false});}catch(_){return false;}
+    };
+    if(attempt()) return;
+    requestAnimationFrame(attempt);
+    setTimeout(attempt,80);
+    setTimeout(attempt,260);
+    setTimeout(attempt,700);
+  };
+  const closeMaximized = async app => {
+    if(!app || !maxState(app)) return false;
+    clearPdfKeyboard();
+    clearWidgetKeyboard(app);
+    try{
+      if(typeof app.restoreMaximizedWindowLayout === 'function'){
+        const restored = await app.restoreMaximizedWindowLayout({silent:true});
+        if(restored !== false){
+          app.updateWidgetPicker?.();
+          app.showToolbar?.({delay:2200});
+          return true;
+        }
+      }
+    }catch(error){console.warn('Kunne ikke lukke stor visning via normal gendannelse',error);}
+    try{
+      const state = maxState(app);
+      if(state && typeof app.clearTransientWidgetMaximize === 'function'){
+        const restored = app.clearTransientWidgetMaximize({sync:true,silent:true});
+        app.updateWidgetPicker?.();
+        return !!restored;
+      }
+    }catch(error){console.warn('Kunne ikke lukke stor visning via sikkerhedsnet',error);}
+    return false;
+  };
+
+  if(typeof proto.applyTransientWidgetMaximize === 'function' && !proto.applyTransientWidgetMaximize.__planPdfAutoOwnerWrapped){
+    const original = proto.applyTransientWidgetMaximize;
+    const wrapped = async function(anchorId,...args){
+      clearPdfKeyboard();
+      clearWidgetKeyboard(this);
+      const result = await original.call(this,anchorId,...args);
+      const state = maxState(this);
+      if(state && String(state.widgetId) === String(anchorId)){
+        const element = widgetElement(this,anchorId);
+        if(element?.classList.contains('type-pdf')) activateMaximizedPdf(this,anchorId);
+      }
+      return result;
+    };
+    wrapped.__planPdfAutoOwnerWrapped = true;
+    proto.applyTransientWidgetMaximize = wrapped;
+  }
+
+  if(typeof proto.applyTransientMaximizedDom === 'function' && !proto.applyTransientMaximizedDom.__planPdfAutoOwnerWrapped){
+    const original = proto.applyTransientMaximizedDom;
+    const wrapped = function(...args){
+      const result = original.apply(this,args);
+      const state = maxState(this);
+      if(state){
+        const element = widgetElement(this,state.widgetId);
+        if(element?.classList.contains('type-pdf')) activateMaximizedPdf(this,state.widgetId);
+      }
+      return result;
+    };
+    wrapped.__planPdfAutoOwnerWrapped = true;
+    proto.applyTransientMaximizedDom = wrapped;
+  }
+
+  if(typeof proto.clearTransientWidgetMaximize === 'function' && !proto.clearTransientWidgetMaximize.__planPdfAutoOwnerWrapped){
+    const original = proto.clearTransientWidgetMaximize;
+    const wrapped = function(...args){
+      clearPdfKeyboard();
+      clearWidgetKeyboard(this);
+      return original.apply(this,args);
+    };
+    wrapped.__planPdfAutoOwnerWrapped = true;
+    proto.clearTransientWidgetMaximize = wrapped;
+  }
+
+  /* Dokumentets eksisterende widgettastatur kalder metoden dynamisk. Denne vagt
+     forhindrer derfor skjulte widgets i at modtage piletaster under stor visning. */
+  if(typeof proto.handleWidgetKeyboard === 'function' && !proto.handleWidgetKeyboard.__planMaximizedBackgroundGuard){
+    const original = proto.handleWidgetKeyboard;
+    const wrapped = function(event){
+      if(maxState(this) && ARROWS.has(event.key) && !typingTarget(event.target)) return;
+      return original.call(this,event);
+    };
+    wrapped.__planMaximizedBackgroundGuard = true;
+    proto.handleWidgetKeyboard = wrapped;
+  }
+
+  /* Window-capture ligger før Plans dokumentbaserede widgetnavigation. PDF-ejeren
+     er registreret tidligere på samme target og får derfor først mulighed for at
+     bladre i en aktiv maksimeret PDF. Når PDF'en er frigivet, stoppes piletasterne. */
+  window.addEventListener('keydown',event => {
+    const app = appNow(), state = maxState(app);
+    if(!state || modalOpen(app)) return;
+    if(event.key === 'Escape'){
+      stop(event);
+      void closeMaximized(app);
+      return;
+    }
+    if(ARROWS.has(event.key) && !typingTarget(event.target)) stop(event);
+  },true);
+
+  document.addEventListener('pointerdown',event => {
+    const app = appNow(), state = maxState(app);
+    if(!state) return;
+    const element = widgetElement(app,state.widgetId);
+    if(!element?.classList.contains('type-pdf')) return;
+    if(element.contains(event.target)){
+      if(event.target?.closest?.('.tn-widget-body,.tn-pdf-shell,.tn-pdf-viewer-container,.tn-pdf-page-stage,.tn-pdf-canvas')) activateMaximizedPdf(app,state.widgetId);
+      return;
+    }
+    /* Topbjælke eller synlig plads ved siden af PDF'en frigiver kun PDF-tastaturet.
+       Stor visning lukkes fortsat eksplicit med Escape eller maksimeringsknappen. */
+    clearPdfKeyboard();
+  },true);
+
+  /* Tema skal altid kunne skiftes, også i specialmodaler der skjuler standardheaderen. */
+  const ensureThemeButton = () => {
+    const app = appNow(), host = document.getElementById('tavleNextApp') || document.body;
+    let button = document.getElementById('tnModalThemeAlwaysButton');
+    if(!button){
+      button = document.createElement('button');
+      button.id = 'tnModalThemeAlwaysButton';
+      button.type = 'button';
+      button.textContent = '◐';
+      button.title = 'Skift tema · B';
+      button.setAttribute('aria-label','Skift tema');
+      button.hidden = true;
+      button.addEventListener('pointerdown',event => event.stopPropagation());
+      button.addEventListener('click',event => {
+        event.preventDefault();
+        event.stopPropagation();
+        appNow()?.themeManager?.cycle?.();
+      });
+      host.append(button);
+    }
+    button.hidden = !modalOpen(app);
+    return button;
+  };
+
+  const ModalManager = TN.ModalManager;
+  if(ModalManager?.prototype && !ModalManager.prototype.__planAlwaysThemeWrapped){
+    ModalManager.prototype.__planAlwaysThemeWrapped = true;
+    for(const name of ['open','close','closeAll']){
+      const original = ModalManager.prototype[name];
+      if(typeof original !== 'function') continue;
+      ModalManager.prototype[name] = function(...args){
+        const result = original.apply(this,args);
+        requestAnimationFrame(ensureThemeButton);
+        setTimeout(ensureThemeButton,0);
+        return result;
+      };
+    }
+  }
+
+  const modalRoot = document.getElementById('tnModalRoot');
+  if(modalRoot){
+    new MutationObserver(() => requestAnimationFrame(ensureThemeButton)).observe(modalRoot,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden','class','style']});
+  }
+  window.addEventListener('keydown',event => {
+    const app = appNow();
+    if(!modalOpen(app) || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey || typingTarget(event.target)) return;
+    if(String(event.key||'').toLocaleLowerCase('da') !== 'b') return;
+    stop(event);
+    app?.themeManager?.cycle?.();
+  },true);
+
+  ensureThemeButton();
+  window.PlanMaximizedKeyboardOwner = {maxState,closeMaximized,activateMaximizedPdf};
+  window.__PLAN_MAXIMIZED_THEME_BUILD__ = '2026-07-04-startupfix-owner-safe';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
