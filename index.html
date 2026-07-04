@@ -8473,7 +8473,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       nav.addEventListener('pointerup',endTabDrag);nav.addEventListener('pointercancel',endTabDrag);
       if(typeof ResizeObserver==='function'){const tabResizeObserver=new ResizeObserver(()=>updateTabScrollButtons());tabResizeObserver.observe(nav);}
       const drawNav=()=>{nav.replaceChildren();let activeButton=null;for(const [id,label] of tabs){const b=document.createElement('button');b.type='button';b.textContent=(id===active?'✓ ':'')+label;b.classList.toggle('active',id===active);if(id===active)activeButton=b;b.onclick=()=>{active=id;drawNav();render();};nav.append(b);}requestAnimationFrame(()=>{revealTab(activeButton,'smooth');updateTabScrollButtons();});};
-      const datasetRow=async(dataset,allWidgets)=>{const refs=this.dataManager.referencedBy(dataset.id,allWidgets),row=document.createElement('article');row.className='tn-dataset-card';row.dataset.datasetId=dataset.id;row.innerHTML=`<div><strong>${TN.escapeHtml(dataset.name)}</strong><small>${dataset.scope==='common'?'Fælles data':'Denne session'} · ${dataset.rows.length} rækker · ${dataset.columns.length} kolonner${refs.length?` · bruges ${refs.length} sted${refs.length===1?'':'er'}`:''}</small></div><div class="tn-card-actions"><button data-open>Vis</button><button data-remix>Remix</button>${dataset.type==='calendar'?'<button data-calendar>Kalender</button>':''}<button data-cards>Kort/tavler</button><button data-copy>${dataset.scope==='common'?'Kopiér til session':'Gør fælles'}</button><button data-export>CSV</button><button data-delete>×</button></div>`;
+      const datasetRow=async(dataset,allWidgets)=>{const refs=this.dataManager.referencedBy(dataset.id,allWidgets),row=document.createElement('article');row.className='tn-dataset-card';row.dataset.datasetId=dataset.id;row.innerHTML=`<div><strong>${TN.escapeHtml(dataset.name)}</strong><small>${dataset.scope==='common'?'Fælles data':'Denne session'} · ${dataset.rows.length} rækker · ${dataset.columns.length} kolonner${refs.length?` · bruges ${refs.length} sted${refs.length===1?'':'er'}`:''}</small></div><div class="tn-card-actions"><button data-open>Vis</button><button data-remix>Remix</button>${(TN.CalendarDataViewsFilters?.compatibleCalendarDataset?.(dataset)||dataset.type==='calendar')?'<button data-calendar>Kalender</button>':''}<button data-cards>Kort/tavler</button><button data-copy>${dataset.scope==='common'?'Kopiér til session':'Gør fælles'}</button><button data-export>CSV</button><button data-delete>×</button></div>`;
         row.querySelector('[data-open]').onclick=()=>{this.modalManager.closeAll();this.openDatasetAsWidget(dataset);};row.querySelector('[data-remix]').onclick=()=>{this.modalManager.closeAll();this.showDataRemix(dataset.id);};row.querySelector('[data-calendar]')?.addEventListener('click',()=>{this.modalManager.closeAll();this.openDatasetAsCalendar(dataset);});row.querySelector('[data-cards]').onclick=()=>{this.modalManager.closeAll();dataset.type==='group-set'?this.showGroupSetTools(dataset):this.showDatasetCardTools(dataset);};row.querySelector('[data-copy]').onclick=async()=>{const promoteGroup=dataset.type==='group-set'&&dataset.scope!=='common';let copy;if(dataset.scope==='common')copy=await this.dataManager.copyToSession(dataset.id,TN.runtime.activeSession.id);else if(promoteGroup)copy=await this.groupManager.promoteToCommon(dataset.id);else copy=await this.dataManager.copyToCommon(dataset.id);this.toast(promoteGroup?`${copy.name} er nu en fælles datakilde`:`${copy.name} kopieret`);await render();};row.querySelector('[data-export]').onclick=()=>this.downloadText(this.dataManager.toCsv(dataset),`${TN.slugify(dataset.name)||'data'}.csv`,'text/csv;charset=utf-8');const deleteControl=row.querySelector('[data-delete]');deleteControl.textContent=dataset.scope==='common'?'Slet fælles':'×';deleteControl.title=dataset.scope==='common'?'Slet fælles data fra hele Plan':'Slet sessionsdata fra den aktuelle session';deleteControl.onclick=async()=>{const freshWidgets=await this.storage.getAll('widgets'),freshRefs=this.dataManager.referencedBy(dataset.id,freshWidgets),allDatasets=await this.storage.getAll('datasets'),datasetKeys=['datasetId','sourceDatasetId','linkListDatasetId','notesDatasetId','groupSetId','resultDatasetId','outputDatasetId','timerLogDatasetId','pollDatasetId','calendarDatasetId'],datasetRefs=allDatasets.filter(other=>String(other.id)!==String(dataset.id)&&TN.collectIds(other,datasetKeys).has(String(dataset.id)));if(freshRefs.length||datasetRefs.length){const total=freshRefs.length+datasetRefs.length;return this.toast(`Datasættet bruges ${total} sted${total===1?'':'er'} og kan ikke slettes`);}if(dataset.scope!=='common'&&String(dataset.sessionId||'')!==String(TN.runtime.activeSession?.id||'')){this.toast('Sessionsdata kan kun slettes fra den session, de tilhører');return;}
           /* v0.9.3dj: Én komponent-ejet bekræftelse uden krav om at indtaste
              lange navne eller specialtegn. Referencekontrollen ovenfor er fortsat
@@ -31408,7 +31408,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   const previousDefaultWidgetContent=TN.Models.defaultWidgetContent;
   TN.Models.defaultWidgetContent=function(type){if(type==='calendar')return{view:'month',date:todayISO(),datasetId:null,filters:[],filterLogic:'and',showWeekNumbers:true,showHolidays:true};return previousDefaultWidgetContent.call(this,type);};
 
-  TN.CalendarDataViewsFilters={datasetEvents,writeDatasetEvents,parseIcsRich,eventsToIcs,filterEvents,mergeImportedEvents,importIcsFiles,analyzeCalendarPlanLinks,commitCalendarPlanLinks,applyPlanLinksToEvents,planBoardDate,planBaseTitle,collectCoursePlanSources,buildCalendarScheduleProposal,commitCalendarSchedule,eventPlanTitle,eventIdentity,findPlanLinksDataset,ensurePlanLinksDataset,attachPlanLinksToCourseWidgets,calendarSubjectGroupBindings};
+  TN.CalendarDataViewsFilters={datasetEvents,writeDatasetEvents,parseIcsRich,eventsToIcs,filterEvents,mergeImportedEvents,importIcsFiles,analyzeCalendarPlanLinks,commitCalendarPlanLinks,applyPlanLinksToEvents,planBoardDate,planBaseTitle,collectCoursePlanSources,buildCalendarScheduleProposal,commitCalendarSchedule,eventPlanTitle,eventIdentity,findPlanLinksDataset,ensurePlanLinksDataset,attachPlanLinksToCourseWidgets,calendarSubjectGroupBindings,compatibleCalendarDataset};
   TN.version='0.9.3-calendar-guided-planlinks-phase2';
 })(window.TavleNext);
 
@@ -34304,7 +34304,12 @@ html[data-plan-embed="true"] #tnGlobalCalendarButton{height:34px;width:38px;min-
   const dateLabel=(value,options={weekday:'long',day:'numeric',month:'long',year:'numeric'})=>atNoon(value).toLocaleDateString('da-DK',options);
   const norm=value=>String(value??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('da-DK').trim();
   const escape=value=>window.TavleNext?.escapeHtml?window.TavleNext.escapeHtml(String(value??'')):String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const isCalendarDataset=dataset=>!!dataset&&(dataset.type==='calendar'||dataset.meta?.sourceFormat==='ics'||dataset.meta?.calendarVersion||dataset.meta?.canonical==='rows');
+  const isCalendarDataset=dataset=>{
+    if(!dataset)return false;
+    const owner=window.TavleNext?.CalendarDataViewsFilters;
+    if(typeof owner?.compatibleCalendarDataset==='function')return !!owner.compatibleCalendarDataset(dataset);
+    return dataset.type==='calendar'||dataset.meta?.sourceFormat==='ics'||!!dataset.meta?.calendarVersion||dataset.meta?.canonical==='rows';
+  };
   const isVisible=node=>{if(!node||node.hidden||!node.isConnected)return false;const style=getComputedStyle(node),rect=node.getBoundingClientRect();return style.display!=='none'&&style.visibility!=='hidden'&&Number(style.opacity)!==0&&rect.width>4&&rect.height>4;};
   const isTyping=target=>!!target&&(target.isContentEditable||!!target.closest?.('input,textarea,select,[contenteditable="true"]'));
 
@@ -34352,8 +34357,14 @@ html[data-plan-embed="true"] #tnGlobalCalendarButton{height:34px;width:38px;min-
     close(){if(!this.opened)return;this.opened=false;this.layer.hidden=true;this.button?.setAttribute('aria-pressed','false');this.contextEventKey='';}
     async resolveContext(){
       const app=this.app,activeBoard=this.TN.runtime?.activeBoard,activeSession=this.TN.runtime?.activeSession;
-      const [datasets,widgets,boards]=await Promise.all([app.storage.getAll('datasets'),app.storage.getAll('widgets'),app.storage.getAll('boards')]);
-      const calendarDatasets=(datasets||[]).filter(isCalendarDataset).sort((a,b)=>String(b.updatedAt||'').localeCompare(String(a.updatedAt||''))),datasetById=new Map(calendarDatasets.map(item=>[String(item.id),item])),boardById=new Map((boards||[]).map(item=>[String(item.id),item])),relations=(datasets||[]).filter(item=>item?.type==='plan-links'),activeBoardId=String(activeBoard?.id||''),activeSessionId=String(activeSession?.id||'');
+      const activeBoardId=String(activeBoard?.id||''),activeSessionId=String(activeSession?.id||'');
+      const [availableDatasets,datasets,widgets,boards]=await Promise.all([
+        app.dataManager.listAvailable(activeSessionId),
+        app.storage.getAll('datasets'),
+        app.storage.getAll('widgets'),
+        app.storage.getAll('boards')
+      ]);
+      const calendarDatasets=(availableDatasets||[]).filter(isCalendarDataset).sort((a,b)=>String(b.updatedAt||'').localeCompare(String(a.updatedAt||''))),datasetById=new Map(calendarDatasets.map(item=>[String(item.id),item])),boardById=new Map((boards||[]).map(item=>[String(item.id),item])),relations=(datasets||[]).filter(item=>item?.type==='plan-links');
       let datasetId='',eventKey='',date='',reason='';
       const activeCalendar=(this.TN.runtime?.activeWidgets||[]).find(item=>item.type==='calendar'&&item.content?.datasetId);
       if(activeCalendar){datasetId=String(activeCalendar.content.datasetId);date=String(activeCalendar.content.date||'').slice(0,10);reason='Kalenderen på denne tavle';}
@@ -34390,5 +34401,10 @@ html[data-plan-embed="true"] #tnGlobalCalendarButton{height:34px;width:38px;min-
 })();
 </script>
 
+<!-- index_global_calendar_common_sources_fix_OWNER_SAFE:
+Det globale K-kalenderpanel henter nu kalendere gennem DataManager.listAvailable, så både sessionsdata
+og Fælles data indgår. Kalenderdatasæt genkendes desuden via deres kolonner, også når ældre import
+eller gendannelse ikke har bevaret type=calendar. Datacenter viser Kalender-knappen for samme
+kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig visning. -->
 </body>
 </html>
