@@ -153,7 +153,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.8.5 HTMLAPPS/TIDDLY BRIDGE OWNER SAFE: Bygger direkte på v0.8.4. Tilføjer én fælles, versionsstyret HTMLApp-bro i HTML-widgettens egen ejer. TiddlyWiki kan gemme den aktuelle single-file HTML tilbage i Plan, hente den rå gemte HTML, modtage .tid/plugin-/billedfiler og aflevere billed-, lyd- og videotiddlers som rigtige Plan-widgets. Plan accepterer desuden den klassiske TAVLE_IMPORT_PDF-handoff fra Skriv, de kendte tavleapp-saver-v1 state-handshakes fra Skriv/Udtalelser og Tjek samt det nye plan-htmlapp-v1 format. En indlejret Plan kan oprettes som isoleret HTMLApp med egen #session. Mediereferencer ligger fortsat i IndexedDB og følger Backup++/årsforløbspakker. Frie slots, kalender, grid, øvrige widgets og klassisk Tavle-import er uændret. -->
 <!-- Plan v0.8.5f_tiddly_fillink_drag_OWNER_SAFE: Bygger direkte på v0.8.5e. Retter kun HTMLApp/TiddlyWiki-draggrænsen: text/vnd.tiddler og data:text/vnd.tiddler behandles før WebKits kunstige .vnd.tiddler-filer; fillinks til WebP/WebM importeres via TiddlyWiki-medieparseren, mens træk af selve billedet fortsat bruger den almindelige filvej. Drop-overlay, universel fileksport, TiddlyWikis egen import, HTMLApp-bro og øvrige widgets er uændrede. -->
 <!-- index_calendar_subdialog_closes_panel_OWNER_SAFE: Bygger direkte på index_calendar_board_flow_hold_groups_OWNER_SAFE. Retter kun den globale kalenders tom-dato-flow: Når “Knyt aktuel tavle” åbner formularen “Planlæg aktuel tavle på datoen”, lukkes kalenderpanelet først, så formularen står alene og kan udfyldes uden et konkurrerende panel eller dobbelt baggrundslag. Når formularen gemmes, annulleres eller lukkes, vender kalenderpanelet tilbage på samme dato og i samme visning. Kalenderdata, lokale planpunkter, tider, faghold, grupper, tavlekoblinger og øvrige Plan-funktioner er uændrede. -->
-<!-- Plan v1.0.1 KAPARDY LIBRARY OWNER SAFE: Ryddet repositorystruktur, komplet KaPardy-spilbibliotek, CSV/Excel-import, genre-/spilhjul, farvesvar, fuld nulstilling og aktivt spørgsmål i editor. -->
+<!-- Plan v1.0.2 KAPARDY FACIT OWNER SAFE: Bygger direkte på Plan v1.0.1. Retter kun Kahoot-resultatvisningen: svarfarver må ikke overskrive facitmarkeringen; det korrekte svar får tydelig grøn ramme, mærket “✓ Facit · farve” og resultatlinjen viser både farve og svartekst. Spilbibliotek, import, point, hold, nulstilling, øvrige spilformer, kalender, data og repositorystruktur er uændrede. -->
 <!doctype html>
 <!-- Tavle Next v0.7.7b OWNER SAFE: Bygger direkte på v0.7.7 og retter kun Sessionsindeksets rækkefølgeprioritet. Widgettens eksplicitte sessionIds-liste, som v0.7.6 brugte korrekt som årsplanens kronologiske hovedrækkefølge, vinder igen over ældre planOrder- og legacy-numre. Semesterafgrænsningen fra v0.7.7 bevares: efterår viser 1–14, forår viser 15 og frem, og fællesindeks viser hele året. Kalender, import, overskrivning og øvrige funktioner er uændrede. -->
 <!-- Tavle Next v0.7.7 OWNER SAFE: Bygger direkte på v0.7.6. Retter kun Sessionsindeksets eksisterende widgetejer og den klassiske Tavle-imports eksisterende Sessionsindeks-konvertering. Efterårsindeks viser planrækkefølge 1–14 fra toppen, forårsindeks viser 15 og frem fra toppen, og fællesindeks viser hele årsplanen. Scope bevares nu fra klassisk sessionIndexScope og kan også udledes af eksisterende widget-/tavletitler, så allerede importerede årsplaner repareres uden ny import. De viste rækkefølgenumre forbliver årsplanens globale planOrder. Kalender, Backup++-overskrivning, sessionlinks, Mediearkiv, billedmatrix/lightbox, rotation, Forældremail, Elevkort, modaler og øvrige funktioner er uændrede. -->
@@ -167,7 +167,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Plan v1.0.1</title>
+<title>Plan v1.0.2</title>
 <meta name="application-name" content="Plan">
 <meta name="apple-mobile-web-app-title" content="Plan">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1669,6 +1669,28 @@ html[data-plan-embed="true"] #tavleNextApp .tn-board-utility-button[data-clock-v
 .tn-kapardy-editor-card.active-question{border-color:#60a5fa;box-shadow:0 0 0 3px #60a5fa35;background:color-mix(in srgb,var(--tn-panel,#fff) 94%,#60a5fa 6%)}
 @media(max-width:760px){.tn-kapardy-library{min-width:0}.tn-kapardy-library-tools{grid-template-columns:1fr 1fr}.tn-kapardy-library-tools input{grid-column:1/-1}.tn-kapardy-library-grid{grid-template-columns:1fr}.tn-kapardy-wheel-host{min-width:0}.tn-kapardy-wheel-layout{grid-template-columns:1fr}.tn-kapardy-wheel-wrap{min-height:320px}.tn-kapardy-wheel-legend{grid-template-columns:repeat(2,minmax(0,1fr));max-height:190px}.tn-kapardy-wheel-choice [data-sizes]{grid-template-columns:1fr}}
 
+</style>
+
+<style id="plan-v102-kapardy-facit-css">
+/* Plan 1.0.2: Facit skal være synligt oven på Kahoot-svarenes faste farver. */
+.tn-kapardy-options button.correct{
+  border-color:#4ade80!important;
+  outline:3px solid #4ade80!important;
+  outline-offset:2px!important;
+  box-shadow:0 0 0 5px rgba(20,83,45,.72),0 0 24px rgba(34,197,94,.52)!important;
+}
+.tn-kapardy-options button.correct .tn-kapardy-option-letter{
+  min-width:116px!important;
+  background:#15803d!important;
+  color:#fff!important;
+}
+.tn-kapardy-options button.wrong-choice{
+  border-color:#fb7185!important;
+  box-shadow:inset 0 0 0 1px rgba(251,113,133,.55)!important;
+}
+@media(max-width:620px){
+  .tn-kapardy-options button.correct .tn-kapardy-option-letter{min-width:104px!important;font-size:12px!important}
+}
 </style>
 </head>
 
@@ -4854,7 +4876,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       };
       for(const [displayIndex,sourceIndex] of optionOrder.entries()){
         const opt=q.options[sourceIndex],button=document.createElement('button');button.type='button';button.dataset.option=String(sourceIndex);button.dataset.display=String(displayIndex);button.classList.add(`tn-kapardy-color-${displayIndex}`);const label=document.createElement('span'),letter=document.createElement('span'),answerTeams=document.createElement('span');label.className='tn-kapardy-option-label';label.textContent=String(opt);letter.className='tn-kapardy-option-letter';letter.textContent=answerColorNames[displayIndex]||letters[displayIndex]||String(displayIndex+1);answerTeams.className='tn-kapardy-answer-teams';button.append(label,letter,answerTeams);
-        button.onclick=async event=>{event.preventDefault();event.stopPropagation();await chooseOption(sourceIndex);};optionViews.push({button,answerTeams,sourceIndex,displayIndex});opts.append(button);
+        button.onclick=async event=>{event.preventDefault();event.stopPropagation();await chooseOption(sourceIndex);};optionViews.push({button,answerTeams,letter,sourceIndex,displayIndex});opts.append(button);
       }
       const applyAutomaticPoints=()=>{
         const newlyCorrect=[];for(const [index,team] of teams.entries()){if(Number(selections[index])===correctIndex&&!awarded[index]){team.score=(Number(team.score)||0)+step;team.correct=(Number(team.correct)||0)+1;content.teams[index]={...team};awarded[index]=true;appendScoreEvent('automatic-correct',index,step,current);newlyCorrect.push(team.name);}}
@@ -4866,9 +4888,9 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           const view=teamViews[index],picked=selections[index];view.card.classList.toggle('active',!content.reveal&&index===content.currentTeam);view.card.classList.toggle('answered',picked!==undefined);view.card.classList.toggle('result-correct',content.reveal&&picked!==undefined&&Number(picked)===correctIndex);view.card.classList.toggle('result-wrong',content.reveal&&picked!==undefined&&Number(picked)!==correctIndex);view.score.textContent=content.hideScores?'—':String(Number(team.score)||0);view.status.textContent=teamStatus(index);
         }
         for(const view of optionViews){
-          const selectedTeams=teams.map((team,index)=>({team,index})).filter(item=>Number(selections[item.index])===view.sourceIndex);view.answerTeams.replaceChildren();for(const {team} of selectedTeams){const chip=document.createElement('span');chip.className='tn-kapardy-answer-team';chip.textContent=team.name;view.answerTeams.append(chip);}view.button.classList.toggle('correct',content.reveal&&view.sourceIndex===correctIndex);view.button.classList.toggle('wrong-choice',content.reveal&&view.sourceIndex!==correctIndex&&selectedTeams.length>0);view.button.disabled=content.reveal||content.currentTeam<0;
+          const selectedTeams=teams.map((team,index)=>({team,index})).filter(item=>Number(selections[item.index])===view.sourceIndex),colorName=answerColorNames[view.displayIndex]||letters[view.displayIndex]||String(view.displayIndex+1),isCorrect=content.reveal&&view.sourceIndex===correctIndex;view.answerTeams.replaceChildren();for(const {team} of selectedTeams){const chip=document.createElement('span');chip.className='tn-kapardy-answer-team';chip.textContent=team.name;view.answerTeams.append(chip);}view.button.classList.toggle('correct',isCorrect);view.button.classList.toggle('wrong-choice',content.reveal&&!isCorrect&&selectedTeams.length>0);view.letter.textContent=isCorrect?`✓ Facit · ${colorName}`:colorName;view.button.title=isCorrect?`Facit: ${colorName} · ${answerText(correctIndex)}`:'';view.button.setAttribute('aria-label',isCorrect?`Facit: ${colorName}. ${answerText(correctIndex)}`:`${colorName}. ${answerText(view.sourceIndex)}`);view.button.disabled=content.reveal||content.currentTeam<0;
         }
-        turn.className='tn-kapardy-turn';if(content.reveal){const right=teams.filter((_,index)=>Number(selections[index])===correctIndex).map(team=>team.name);turn.classList.add('scored');turn.textContent=right.length?`${right.join(', ')} får ${step} point`:`Ingen hold får point på dette spørgsmål`;revealButton.textContent=mixActive?'Næste Mix-spørgsmål':nextUnused<0?'Se stillingen':pendingMode!==playMode?`Næste: ${modeName(pendingMode)}`:'Næste ubrugte spørgsmål';revealButton.disabled=false;revealButton.classList.add('scored');}
+        turn.className='tn-kapardy-turn';if(content.reveal){const right=teams.filter((_,index)=>Number(selections[index])===correctIndex).map(team=>team.name),correctDisplayIndex=displayIndexBySource.get(correctIndex),correctColor=answerColorNames[correctDisplayIndex]||letters[correctDisplayIndex]||String((correctDisplayIndex??0)+1),facit=`Facit: ${correctColor} · ${answerText(correctIndex)}`;turn.classList.add('scored');turn.textContent=right.length?`${facit} · ${right.join(', ')} får ${step} point`:`${facit} · Ingen hold får point`;revealButton.textContent=mixActive?'Næste Mix-spørgsmål':nextUnused<0?'Se stillingen':pendingMode!==playMode?`Næste: ${modeName(pendingMode)}`:'Næste ubrugte spørgsmål';revealButton.disabled=false;revealButton.classList.add('scored');}
         else if(allAnswered){turn.classList.add('complete');turn.textContent='Alle hold har svaret · tryk på et holdkort for at rette eller vis facit';revealButton.textContent='Vis facit og tæl point';revealButton.disabled=false;revealButton.classList.remove('scored');}
         else{turn.classList.add('ready');const active=teams[Number(content.currentTeam)];turn.textContent=active?`${active.name} svarer · vælg en svarmulighed`:`${answered}/${teams.length} hold har svaret`;revealButton.textContent=`Venter på svar · ${answered}/${teams.length}`;revealButton.disabled=true;revealButton.classList.remove('scored');}
       };
@@ -36013,11 +36035,11 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   });
 
   window.__PLAN_PDF_EXACT_PAGE_POSITION_BUILD__='2026-07-05-owner-safe';
-  TN.version='1.0.1';
+  TN.version='1.0.2';
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.0.1 · KaPardy og ryddet bibliotek';
-  TN.release={version:'1.0.1',channel:'stable',date:'2026-07-05',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0.1';
+  TN.buildLabel='Plan v1.0.2 · KaPardy facitmarkering';
+  TN.release={version:'1.0.2',channel:'stable',date:'2026-07-05',dataFormat:'tn-v3-compatible'};
+  document.title='Plan v1.0.2';
   window.__PLAN_V1_RELEASE_BUILD__='2026-07-05-owner-safe';
 })(window.TavleNext);
 </script>
@@ -36045,8 +36067,8 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       TN.registry.help.set(id,entry);
     };
 
-    set('overview','Kom godt i gang med Plan','Plan 1.0.1 og den korte vej fra forløb til tavle',`
-      <p><b>Plan 1.0.1</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
+    set('overview','Kom godt i gang med Plan','Plan 1.0.2 og den korte vej fra forløb til tavle',`
+      <p><b>Plan 1.0.2</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
       <div class="tn-help-recipe">
         <div class="tn-help-phase"><span>1</span><div><h4>Vælg forløbet</h4><p>Åbn det fag, skoleår eller emne, arbejdet skal høre til.</p></div></div>
         <div class="tn-help-phase"><span>2</span><div><h4>Planlæg datoerne</h4><p>Brug kalenderen til at knytte den aktuelle tavle og eventuelle fortsættelsestavler til en undervisningsgang.</p></div></div>
@@ -36474,7 +36496,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
         const paragraph=hero.querySelector('p');if(paragraph)paragraph.innerHTML='<b>Vælg en konkret opgave.</b> Hjælpen viser korte trin først og mere udførlige forklaringer bagefter.';
         const line=hero.querySelector('.tn-plan-help-line');if(line)line.textContent='Plan er appen. Tavler, datoer, elever og materialer bindes sammen i undervisningsforløbet.';
         const head=hero.querySelector('.tn-plan-help-hero-head');
-        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.1';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
+        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.2';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
       }
       const quick=root.querySelector('.tn-plan-help-quick');
       if(quick)quick.innerHTML='<article><b>1. Vælg forløbet</b><span>Åbn fag, skoleår eller emne og den rigtige session.</span></article><article><b>2. Planlæg dato og tavler</b><span>Knyt tavler til kalenderen og fortsæt samme undervisningsgang med flere tavler.</span></article><article><b>3. Arbejd med eleverne</b><span>Brug faghold, grupper, Elevkort, samtaler og karakterer.</span></article><article><b>4. Sikr arbejdet</b><span>Kontrollér data, ryd sikkert op og tag backup.</span></article>';
@@ -36635,12 +36657,12 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 <script id="plan-v101-release-version-guard">
 (function(TN){
   if(!TN)return;
-  const VERSION='1.0.1';
+  const VERSION='1.0.2';
   try{Object.defineProperty(TN,'version',{configurable:true,enumerable:true,get:()=>VERSION,set:()=>VERSION});}catch(_){TN.version=VERSION;}
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.0.1 · KaPardy og ryddet bibliotek';
+  TN.buildLabel='Plan v1.0.2 · KaPardy facitmarkering';
   TN.release={version:VERSION,channel:'stable',date:'2026-07-05',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0.1';
+  document.title='Plan v1.0.2';
 })(window.TavleNext);
 </script>
 </body>
