@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Astronomi,Hvad hedder vores galakse?,100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Astronomi,Hvilket planet er tættest på solen?,200,Merkur,Venus,Jorden,Mars
-Astronomi,Hvilken planet er kendt for sine ringe?,300,Saturn,Jupiter,Uranus,Neptun
-Astronomi,Hvad hedder den røde planet?,400,Mars,Jupiter,Venus,Saturn
-Astronomi,Hvilket himmellegeme kredser Jorden om?,500,Solen,Månen,Mars,Saturn
-Astronomi,Hvad kaldes en stjerne der eksploderer og lyser kraftigt?,600,Supernova,Kometa,Nebula,Asteroide
-Astronomi,Hvad hedder NASAs første mand på månen?,700,Neil Armstrong,Buzz Aldrin,Yuri Gagarin,Michael Collins
-Astronomi,Hvad hedder vores solsystem?,800,Solssystemet,Andromeda,Alpha Centauri,Stjernens system
-Astronomi,Hvilken planet har en stor rød plet?,900,Jupiter,Mars,Saturn,Venus
-Astronomi,Hvad hedder den videnskab der studerer stjerner og universet?,1000,Astronomi,Astrologi,Geologi,Biologi
-Astronomi,Hvilket rumteleskop blev opsendt i 1990 og revolutionerede astronomi?,1100,Hubble,Roskosmos,Kepler,Galileo
-Astronomi,Hvad hedder NASAs rover der landede på Mars i 2021?,1200,Perseverance,Curiosity,Spirit,Opportunity
-Astronomi,Hvilken planet kaldes Jordens tvilling?,1300,Venus,Mars,Merkur,Neptun
-Astronomi,Hvad er en meteor?,1400,En lille sten der brænder op i atmosfæren,En komets kerne,En frossen gasbold,En ring af is
-Astronomi,Hvilket land sendte den første menneske i rummet?,1500,Sovjetunionen,USA,Kina,Frankrig
-Astronomi,Hvad hedder stjernen tættest på Jorden efter solen?,1600,Proxima Centauri,Sirius,Betelgeuse,Vega
-Astronomi,Hvad kaldes et mørkere område på Solens overflade?,1700,Solplet,Solblemme,Solsystem,Solpunkt
-Astronomi,"Hvad hedder det strålebånd, som rumskibe slipper Jorden i?",1800,Van Allen-bælterne,Kuiperbæltet,Oort-skyen,Asteroidbæltet
-Astronomi,Hvad hedder stjernebilledet med tre klare stjerner i bælte?,1900,Orion,Ursa Major,Scorpius,Taurus
-Astronomi,Hvilken planet har månerne Phobos og Deimos?,2000,Mars,Jupiter,Saturn,Neptun
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Solsystemets verdener,Hvilken planet har den store røde plet?,100,Jupiter,Mars,Saturn,Neptun,,,
+Solsystemets verdener,På hvilken planet ligger vulkanen Olympus Mons?,200,Mars,Venus,Jorden,Merkur,,,
+Solsystemets verdener,Hvilken planet har den korteste omløbstid om Solen?,300,Merkur,Venus,Mars,Jorden,,,
+Solsystemets verdener,Hvilken planet har den længste omløbstid om Solen?,400,Neptun,Uranus,Saturn,Jupiter,,,
+Solsystemets verdener,"Hvilken planet har et døgn, der er længere end dens år?",500,Venus,Merkur,Mars,Saturn,,,
+Måner og smålegemer,Hvad hedder Plutos største måne?,100,Charon,Nix,Hydra,Triton,,,
+Måner og smålegemer,Hvilken dværgplanet ligger i asteroidebæltet?,200,Ceres,Pluto,Eris,Haumea,,,
+Måner og smålegemer,Hvilken dværgplanet blev tidligere regnet som Solsystemets niende planet?,300,Pluto,Ceres,Eris,Makemake,,,
+Måner og smålegemer,Hvilket område mellem Mars og Jupiter rummer mange små klippelegemer?,400,Asteroidebæltet,Kuiperbæltet,Oortskyen,Van Allen-bælterne,,,
+Måner og smålegemer,"Hvilket område uden for Neptun rummer mange islegemer, herunder Pluto?",500,Kuiperbæltet,Asteroidebæltet,Orionarmen,Heliosfæren,,,
+Stjerner og galakser,Hvilken blå superkæmpe markerer omtrent Orions venstre fod?,100,Rigel,Aldebaran,Antares,Capella,,,
+Stjerner og galakser,Hvilke tre stjerner danner Sommertrianglen?,200,"Vega, Deneb og Altair","Sirius, Rigel og Betelgeuse","Polaris, Capella og Aldebaran","Antares, Spica og Regulus",,,
+Stjerner og galakser,Hvad kaldes en eksploderende stjerne?,300,Supernova,Nebula,Pulsar,Komet,,,
+Stjerner og galakser,Hvad er en pulsar?,400,En hurtigt roterende neutronstjerne,En ung planet,En type komet,En kold brun dværg,,,
+Stjerner og galakser,Hvad er en nebula eller tåge i astronomi?,500,En sky af gas og støv i rummet,En gruppe planeter,Et sort hul uden masse,En stjernes faste overflade,,,
+Rumfart og observation,Hvilken Mars-rover landede i Jezero-krateret i 2021?,100,Perseverance,Curiosity,Spirit,Sojourner,,,
+Rumfart og observation,Hvilken Mars-rover landede i Gale-krateret i 2012?,200,Curiosity,Perseverance,Opportunity,Viking 1,,,
+Rumfart og observation,Hvilket rumfartøj er længst fra Jorden?,300,Voyager 1,Voyager 2,New Horizons,Pioneer 10,,,
+Rumfart og observation,Hvilken mission fløj forbi Pluto i 2015?,400,New Horizons,Cassini,Juno,Galileo,,,
+Rumfart og observation,Hvilken mission kredsede om Saturn fra 2004 til 2017?,500,Cassini,Juno,Galileo,Magellan,,,

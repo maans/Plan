@@ -1,16 +1,16 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Astronomi,Hvad hedder vores galakse?,100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Astronomi,Hvilket planet er tættest på solen?,200,Merkur,Venus,Jorden,Mars
-Astronomi,Hvilken planet er kendt for sine ringe?,300,Saturn,Jupiter,Uranus,Neptun
-Astronomi,Hvad hedder den røde planet?,400,Mars,Jupiter,Venus,Saturn
-Astronomi,Hvilket himmellegeme kredser Jorden om?,500,Solen,Månen,Mars,Saturn
-Astronomi,Hvad kaldes en stjerne der eksploderer og lyser kraftigt?,600,Supernova,Kometa,Nebula,Asteroide
-Astronomi,Hvad hedder NASAs første mand på månen?,700,Neil Armstrong,Buzz Aldrin,Yuri Gagarin,Michael Collins
-Astronomi,Hvad hedder vores solsystem?,800,Solssystemet,Andromeda,Alpha Centauri,Stjernens system
-Astronomi,Hvilken planet har en stor rød plet?,900,Jupiter,Mars,Saturn,Venus
-Astronomi,Hvad hedder den videnskab der studerer stjerner og universet?,1000,Astronomi,Astrologi,Geologi,Biologi
-Astronomi,Hvilket rumteleskop blev opsendt i 1990 og revolutionerede astronomi?,1100,Hubble,Roskosmos,Kepler,Galileo
-Astronomi,Hvad hedder NASAs rover der landede på Mars i 2021?,1200,Perseverance,Curiosity,Spirit,Opportunity
-Astronomi,Hvilken planet kaldes Jordens tvilling?,1300,Venus,Mars,Merkur,Neptun
-Astronomi,Hvad er en meteor?,1400,En lille sten der brænder op i atmosfæren,En komets kerne,En frossen gasbold,En ring af is
-Astronomi,Hvilket land sendte den første menneske i rummet?,1500,Sovjetunionen,USA,Kina,Frankrig
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Solsystemets verdener,Hvilken planet er især kendt for sit tydelige ringsystem?,100,Saturn,Jupiter,Mars,Venus,,,
+Solsystemets verdener,Hvilken planet roterer næsten liggende på siden?,200,Uranus,Neptun,Saturn,Mars,,,
+Solsystemets verdener,Hvilken planet er længst fra Solen?,300,Neptun,Uranus,Saturn,Jupiter,,,
+Solsystemets verdener,Hvor mange planeter har Solsystemet?,400,8,7,9,10,,,
+Måner og smålegemer,Hvilken Jupiter-måne har sandsynligvis et globalt hav under isen?,100,Europa,Io,Ganymedes,Phobos,,,
+Måner og smålegemer,Hvilken Jupiter-måne er det mest vulkansk aktive himmellegeme i Solsystemet?,200,Io,Europa,Callisto,Titan,,,
+Måner og smålegemer,Hvilken Neptun-måne bevæger sig i retrograd bane?,300,Triton,Nereid,Titan,Charon,,,
+Måner og smålegemer,Hvilken Saturn-måne udsender is- og vanddampe fra gejsere nær sydpolen?,400,Enceladus,Mimas,Iapetus,Dione,,,
+Stjerner og galakser,Hvad hedder den nærmeste stjerne til Jorden efter Solen?,100,Proxima Centauri,Sirius,Vega,Betelgeuse,,,
+Stjerner og galakser,Hvilken stjerne er den klareste på Jordens nattehimmel?,200,Sirius,Vega,Polaris,Rigel,,,
+Stjerner og galakser,Hvad hedder Nordstjernen?,300,Polaris,Sirius,Altair,Deneb,,,
+Stjerner og galakser,Hvilken stjerne er en rød superkæmpe i stjernebilledet Orion?,400,Betelgeuse,Vega,Solen,Procyon,,,
+Rumfart og observation,Hvilken rumstation kredser i lav jordbane og har været permanent bemandet siden 2000?,100,Den Internationale Rumstation,Mir,Skylab,Tiangong-1,,,
+Rumfart og observation,Hvilket rumteleskop blev opsendt i 1990?,200,Hubble-rumteleskopet,James Webb-rumteleskopet,Kepler-teleskopet,Gaia,,,
+Rumfart og observation,Hvilket rumteleskop blev opsendt i december 2021?,300,James Webb-rumteleskopet,Hubble-rumteleskopet,Spitzer-teleskopet,Hipparcos,,,

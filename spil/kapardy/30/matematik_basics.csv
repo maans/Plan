@@ -1,31 +1,31 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Matematik,Hvad er summen af 7 og 8?,100,15,14,16,13
-Matematik,Hvad er forskellen mellem 20 og 5?,200,15,25,10,12
-Matematik,Hvad er 9 gange 6?,300,54,45,64,56
-Matematik,Hvad er kvadratroden af 81?,400,9,8,7,6
-Matematik,Hvad er resultatet af 48 divideret med 8?,500,6,8,5,7
-Matematik,Hvad er summen af vinklerne i en trekant?,600,180 grader,90 grader,270 grader,360 grader
-Matematik,Hvilket tal er et primtal?,700,13,15,21,27
-Matematik,Hvad er 5 % af 200?,800,10,5,20,15
-Matematik,Hvad er 12 plus 15?,900,27,26,28,24
-Matematik,Hvad er 10^3?,1000,1000,100,10000,1110
-Matematik,"Hvad er medianen i tallene 3, 7, 9?",1100,7,3,5,9
-Matematik,Hvad er omkredsen af en firkant med side 4?,1200,16,8,12,20
-Matematik,Hvad er differensen mellem 100 og 37?,1300,63,73,57,67
-Matematik,Hvad er 14 gange 3?,1400,42,36,39,48
-Matematik,Hvad er 64 delt med 4?,1500,16,8,24,12
-Matematik,Hvad er arealet af en retvinklet trekant med kateterne 3 og 4?,1600,6,12,7,5
-Matematik,Hvad er 11 plus 22?,1700,33,32,34,31
-Matematik,Hvilket tal kommer efter 999?,1800,1000,9999,1001,990
-Matematik,Hvad er summen af de første fem positive heltal?,1900,15,10,20,12
-Matematik,Hvad er 8^2?,2000,64,16,32,72
-Matematik,Hvad er decimalformen af en halv?,2100,0.5,0.25,0.75,0.2
-Matematik,Hvad er gennemsnittet af 4 og 10?,2200,7,6,8,9
-Matematik,Hvad er resultatet af 0 multipliceret med 100?,2300,0,100,1,10
-Matematik,Hvad er 3 kvadreret?,2400,9,6,12,3
-Matematik,Hvad er summen af vinklerne i en firkant?,2500,360 grader,180 grader,270 grader,540 grader
-Matematik,Hvad er 15 procent af 200?,2600,30,20,25,35
-Matematik,Hvad er 7 gange 12?,2700,84,72,96,78
-Matematik,Hvad er arealet af et rektangel med siderne 5 og 8?,2800,40,26,13,80
-Matematik,Hvad er 3/4 som decimaltal?,2900,0.75,0.34,0.25,1.25
-Matematik,Hvad er 121 delt med 11?,3000,11,10,12,9
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Regning,Hvad er (48 + 72) ÷ 6?,100,20,18,22,24,,,
+Regning,Hvad er 15 · 16 - 11 · 8?,200,152,142,160,168,,,
+Regning,"Hvad er 2.500 · 0,04?",300,100,10,40,1000,,,
+Regning,"Hvad er 3,6 · 2,5?",400,9,8,9.5,90,,,
+Regning,"Hvad er 7,2 ÷ 0,3?",500,24,2.4,21,27,,,
+Regning,"Hvad er 1,25 + 0,875?",600,"2,125","2,025","2,175","2,250",,,
+Regning,"Hvad er 12,5 · 0,64?",700,8,6.4,7.5,80,,,
+Regning,Hvad er (2⁵ + 4³) ÷ 8?,800,12,8,10,16,,,
+Brøker og procent,Hvad er 7/12 - 5/18?,100,11/36,1/6,7/36,13/36,,,
+Brøker og procent,Hvad er 18 % af 1.250?,200,225,180,200,250,,,
+Brøker og procent,En pris stiger 20 % og falder derefter 20 %. Hvad bliver 100 kr. til?,300,96 kr.,80 kr.,100 kr.,104 kr.,,,
+Brøker og procent,"Hvad er 0,0̅3 som brøk, når 3-tallet gentages uendeligt?",400,1/3,3/10,1/30,3/100,,,
+Brøker og procent,Hvad er forholdet 18:24 forkortet til?,500,3:4,2:3,4:5,6:8,,,
+Brøker og procent,"Hvis 5/8 af et tal er 45, hvad er tallet?",600,72,64,75,80,,,
+Brøker og procent,Hvad er 1/(1/2 + 1/3)?,700,6/5,5/6,1/5,5/2,,,
+Brøker og procent,Hvad er den procentvise ændring fra 250 til 190?,800,Et fald på 24 %,Et fald på 20 %,Et fald på 30 %,En stigning på 24 %,,,
+Geometri og måling,Hvad er overfladearealet af en terning med sidelængden 4 cm?,100,96 cm²,16 cm²,64 cm²,128 cm²,,,
+Geometri og måling,En kegle har grundfladeareal 12 cm² og højde 9 cm. Hvad er rumfanget?,200,36 cm³,48 cm³,108 cm³,324 cm³,,,
+Geometri og måling,Hvad er vinklen mellem viserne på et ur præcis klokken 3?,300,90°,60°,120°,180°,,,
+Geometri og måling,En målestok er 1:50.000. Hvor langt er 4 cm på kortet i virkeligheden?,400,2 km,200 m,20 km,50 km,,,
+Geometri og måling,"Hvad er arealet af en ligesidet trekant med sidelængden 4, udtrykt eksakt?",500,4√3,2√3,8√3,16√3,,,
+Geometri og måling,En kugle har radius 3 cm. Hvad er dens rumfang udtrykt med π?,600,36π cm³,12π cm³,27π cm³,108π cm³,,,
+Geometri og måling,"Hvad er afstanden mellem punkterne (1, 2) og (4, 6)?",700,5,4,6,7,,,
+Tal og algebra,Hvad er diskriminanten for x² - 6x + 5 = 0?,100,16,1,11,36,,,
+Tal og algebra,Hvilket tal er kongruent med 17 modulo 5?,200,2,3,4,5,,,
+Tal og algebra,Hvad er summen af de første 20 positive heltal?,300,210,190,200,220,,,
+Tal og algebra,Hvilken værdi af x løser 2/x = 5?,400,"0,4","2,5",3,10,,,
+Tal og algebra,Hvad er log₁₀(1.000)?,500,3,2,10,100,,,
+Tal og algebra,"Hvad er resten, når 2¹⁰ divideres med 7?",600,2,1,3,4,,,
+Tal og algebra,Hvad er løsningen til ligningssystemet x + y = 10 og x - y = 2?,700,"x = 6, y = 4","x = 4, y = 6","x = 5, y = 5","x = 8, y = 2",,,

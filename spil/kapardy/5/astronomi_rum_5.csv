@@ -1,6 +1,6 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Astronomi,Hvad hedder vores galakse?,100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Astronomi,Hvilket planet er tættest på solen?,200,Merkur,Venus,Jorden,Mars
-Astronomi,Hvilken planet er kendt for sine ringe?,300,Saturn,Jupiter,Uranus,Neptun
-Astronomi,Hvad hedder den røde planet?,400,Mars,Jupiter,Venus,Saturn
-Astronomi,Hvilket himmellegeme kredser Jorden om?,500,Solen,Månen,Mars,Saturn
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Solsystemets verdener,Hvilken planet er tættest på Solen?,100,Merkur,Venus,Jorden,Mars,,,
+Solsystemets verdener,Hvilken planet er den varmeste i Solsystemet?,200,Venus,Merkur,Mars,Jupiter,,,
+Måner og smålegemer,Hvad hedder Jordens naturlige satellit?,100,Månen,Titan,Europa,Triton,,,
+Stjerner og galakser,"Hvad hedder galaksen, som Solsystemet ligger i?",100,Mælkevejen,Andromedagalaksen,Triangulumgalaksen,Sombrerogalaksen,,,
+Rumfart og observation,Hvem blev det første menneske i rummet?,100,Jurij Gagarin,Neil Armstrong,Alan Shepard,John Glenn,,,

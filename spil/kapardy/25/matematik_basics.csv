@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Matematik,Hvad er summen af 7 og 8?,100,15,14,16,13
-Matematik,Hvad er forskellen mellem 20 og 5?,200,15,25,10,12
-Matematik,Hvad er 9 gange 6?,300,54,45,64,56
-Matematik,Hvad er kvadratroden af 81?,400,9,8,7,6
-Matematik,Hvad er resultatet af 48 divideret med 8?,500,6,8,5,7
-Matematik,Hvad er summen af vinklerne i en trekant?,600,180 grader,90 grader,270 grader,360 grader
-Matematik,Hvilket tal er et primtal?,700,13,15,21,27
-Matematik,Hvad er 5 % af 200?,800,10,5,20,15
-Matematik,Hvad er 12 plus 15?,900,27,26,28,24
-Matematik,Hvad er 10^3?,1000,1000,100,10000,1110
-Matematik,"Hvad er medianen i tallene 3, 7, 9?",1100,7,3,5,9
-Matematik,Hvad er omkredsen af en firkant med side 4?,1200,16,8,12,20
-Matematik,Hvad er differensen mellem 100 og 37?,1300,63,73,57,67
-Matematik,Hvad er 14 gange 3?,1400,42,36,39,48
-Matematik,Hvad er 64 delt med 4?,1500,16,8,24,12
-Matematik,Hvad er arealet af en retvinklet trekant med kateterne 3 og 4?,1600,6,12,7,5
-Matematik,Hvad er 11 plus 22?,1700,33,32,34,31
-Matematik,Hvilket tal kommer efter 999?,1800,1000,9999,1001,990
-Matematik,Hvad er summen af de første fem positive heltal?,1900,15,10,20,12
-Matematik,Hvad er 8^2?,2000,64,16,32,72
-Matematik,Hvad er decimalformen af en halv?,2100,0.5,0.25,0.75,0.2
-Matematik,Hvad er gennemsnittet af 4 og 10?,2200,7,6,8,9
-Matematik,Hvad er resultatet af 0 multipliceret med 100?,2300,0,100,1,10
-Matematik,Hvad er 3 kvadreret?,2400,9,6,12,3
-Matematik,Hvad er summen af vinklerne i en firkant?,2500,360 grader,180 grader,270 grader,540 grader
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Regning,Hvad er 1.296 ÷ 18?,100,72,68,74,78,,,
+Regning,Hvad er 17² - 9²?,200,208,198,200,218,,,
+Regning,Hvad er 2³ · 5²?,300,200,100,160,250,,,
+Regning,Hvad er 4.725 + 3.688?,400,8413,8313,8403,8513,,,
+Regning,Hvad er 10.000 - 6.789?,500,3211,3111,3221,3311,,,
+Regning,Hvad er 84 · 37?,600,3108,3008,3098,3208,,,
+Regning,Hvad er 7.560 ÷ 24?,700,315,305,325,335,,,
+Brøker og procent,Hvad er 3/7 · 14/9?,100,2/3,1/3,3/2,6/7,,,
+Brøker og procent,En vare til 600 kr. sættes 15 % ned. Hvad er den nye pris?,200,510 kr.,490 kr.,515 kr.,540 kr.,,,
+Brøker og procent,"Hvad er 0,375 som forkortet brøk?",300,3/8,3/5,5/8,375/100,,,
+Brøker og procent,"Hvad er 62,5 % som forkortet brøk?",400,5/8,3/5,5/6,8/5,,,
+Brøker og procent,Et tal stiger fra 80 til 100. Hvor stor er stigningen i procent?,500,25 %,20 %,30 %,80 %,,,
+Brøker og procent,Hvad er 2 2/3 + 1 5/6?,600,4 1/2,3 1/2,4 1/3,4 2/3,,,
+Geometri og måling,Hvor mange kvadratmeter er 25.000 cm²?,100,"2,5 m²","0,25 m²",25 m²,250 m²,,,
+Geometri og måling,Hvad er summen af de indvendige vinkler i en femkant?,200,540°,360°,720°,900°,,,
+Geometri og måling,Hvad er arealet af et parallelogram med grundlinje 9 cm og højde 4 cm?,300,36 cm²,13 cm²,26 cm²,45 cm²,,,
+Geometri og måling,En cylinder har radius 2 cm og højde 5 cm. Hvad er rumfanget udtrykt med π?,400,20π cm³,10π cm³,15π cm³,40π cm³,,,
+Geometri og måling,Hvad er længden af diagonalen i et kvadrat med sidelængden 6 cm?,500,6√2 cm,3√2 cm,6 cm,12 cm,,,
+Geometri og måling,Hvor mange hektar er 35.000 m²?,600,"3,5 ha","0,35 ha",35 ha,350 ha,,,
+Tal og algebra,"Hvad er næste tal i Fibonacci-følgen 1, 1, 2, 3, 5, 8, ...?",100,13,11,12,16,,,
+Tal og algebra,Hvilken værdi af x løser 5(x - 2) = 35?,200,9,5,7,11,,,
+Tal og algebra,"Hvis f(x) = 2x + 3, hvad er f(7)?",300,17,14,16,21,,,
+Tal og algebra,Hvad er hældningen for linjen y = 4x - 2?,400,4,-2,2,6,,,
+Tal og algebra,Hvilke løsninger har ligningen x² = 49?,500,x = 7 eller x = -7,Kun x = 7,x = 49 eller x = -49,x = 0 eller x = 7,,,
+Tal og algebra,Hvad er (a³ · a⁵) forenklet?,600,a⁸,a¹⁵,a²,2a⁸,,,

@@ -1,31 +1,31 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Astronomi,Hvad hedder vores galakse?,100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Astronomi,Hvilket planet er tættest på solen?,200,Merkur,Venus,Jorden,Mars
-Astronomi,Hvilken planet er kendt for sine ringe?,300,Saturn,Jupiter,Uranus,Neptun
-Astronomi,Hvad hedder den røde planet?,400,Mars,Jupiter,Venus,Saturn
-Astronomi,Hvilket himmellegeme kredser Jorden om?,500,Solen,Månen,Mars,Saturn
-Astronomi,Hvad kaldes en stjerne der eksploderer og lyser kraftigt?,600,Supernova,Kometa,Nebula,Asteroide
-Astronomi,Hvad hedder NASAs første mand på månen?,700,Neil Armstrong,Buzz Aldrin,Yuri Gagarin,Michael Collins
-Astronomi,Hvad hedder vores solsystem?,800,Solssystemet,Andromeda,Alpha Centauri,Stjernens system
-Astronomi,Hvilken planet har en stor rød plet?,900,Jupiter,Mars,Saturn,Venus
-Astronomi,Hvad hedder den videnskab der studerer stjerner og universet?,1000,Astronomi,Astrologi,Geologi,Biologi
-Astronomi,Hvilket rumteleskop blev opsendt i 1990 og revolutionerede astronomi?,1100,Hubble,Roskosmos,Kepler,Galileo
-Astronomi,Hvad hedder NASAs rover der landede på Mars i 2021?,1200,Perseverance,Curiosity,Spirit,Opportunity
-Astronomi,Hvilken planet kaldes Jordens tvilling?,1300,Venus,Mars,Merkur,Neptun
-Astronomi,Hvad er en meteor?,1400,En lille sten der brænder op i atmosfæren,En komets kerne,En frossen gasbold,En ring af is
-Astronomi,Hvilket land sendte den første menneske i rummet?,1500,Sovjetunionen,USA,Kina,Frankrig
-Astronomi,Hvad hedder stjernen tættest på Jorden efter solen?,1600,Proxima Centauri,Sirius,Betelgeuse,Vega
-Astronomi,Hvad kaldes et mørkere område på Solens overflade?,1700,Solplet,Solblemme,Solsystem,Solpunkt
-Astronomi,"Hvad hedder det strålebånd, som rumskibe slipper Jorden i?",1800,Van Allen-bælterne,Kuiperbæltet,Oort-skyen,Asteroidbæltet
-Astronomi,Hvad hedder stjernebilledet med tre klare stjerner i bælte?,1900,Orion,Ursa Major,Scorpius,Taurus
-Astronomi,Hvilken planet har månerne Phobos og Deimos?,2000,Mars,Jupiter,Saturn,Neptun
-Astronomi,Hvilket rumfartøj fløj længst væk fra Jorden?,2100,Voyager 1,Apollo 11,Curiosity,ISS
-Astronomi,Hvad kaldes den hypotetiske usynlige masse i universet?,2200,Mørkt stof,Lysende stof,Galaktisk masse,Skyggepartikler
-Astronomi,Hvad hedder NASAs program der sendte mennesker til månen?,2300,Apollo,Mercury,Gemini,Skylab
-Astronomi,Hvad kaldes de store isklumper der kredser om solen i elliptiske baner?,2400,Kometer,Meteorer,Asteroider,Planeter
-Astronomi,Hvad er navnet på den store stjerne i stjernebilledet Lyren?,2500,Vega,Deneb,Altair,Rigel
-Astronomi,Hvad hedder den dværgplanet der tidligere blev regnet som den niende planet?,2600,Pluto,Ceres,Eris,Makemake
-Astronomi,Hvilken planet roterer nærmest liggende på siden?,2700,Uranus,Venus,Saturn,Jupiter
-Astronomi,Hvad kaldes et område hvor tyngdekraften er så stærk at lys ikke kan slippe væk?,2800,Sort hul,Nebula,Kvasar,Pulsar
-Astronomi,Hvilken måne kredser om Saturn og har tyk atmosfære?,2900,Titan,Europa,Io,Ganymedes
-Astronomi,Hvad hedder grænsen omkring et sort hul?,3000,Begivenhedshorisonten,Oort-skyen,Asteroidbæltet,Solvinden
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Solsystemets verdener,Hvilken planet er næststørst i Solsystemet?,100,Saturn,Jupiter,Uranus,Neptun,,,
+Solsystemets verdener,Hvilken planet er mindst i Solsystemet?,200,Merkur,Mars,Venus,Jorden,,,
+Solsystemets verdener,"Hvilken planet har ringe, der blev opdaget i 1977?",300,Uranus,Mars,Venus,Merkur,,,
+Solsystemets verdener,Hvilken planets nordpol har et sekskantet skyfænomen?,400,Saturn,Jupiter,Uranus,Neptun,,,
+Solsystemets verdener,"Hvilken planet har en dag på cirka 24 timer, mest lig Jordens?",500,Mars,Venus,Jupiter,Merkur,,,
+Solsystemets verdener,Hvilken planet blev opdaget i 1846 ved hjælp af matematiske forudsigelser?,600,Neptun,Uranus,Saturn,Mars,,,
+Solsystemets verdener,"Hvilken planet blev den første, der blev opdaget med teleskop?",700,Uranus,Neptun,Saturn,Jupiter,,,
+Solsystemets verdener,"Hvilket navn har den zone omkring Solen, hvor flydende vand kan være muligt på en planets overflade?",800,Den beboelige zone,Asteroidebæltet,Kuiperbæltet,Heliopausen,,,
+Måner og smålegemer,"Hvad hedder asteroiden, som rumsonden OSIRIS-REx hentede prøver fra?",100,Bennu,Vesta,Eros,Pallas,,,
+Måner og smålegemer,Hvad hedder den største genstand i asteroidebæltet?,200,Ceres,Vesta,Pallas,Hygiea,,,
+Måner og smålegemer,Hvilken Saturn-måne har det enorme nedslagskrater Odysseus?,300,Tethys,Mimas,Rhea,Dione,,,
+Måner og smålegemer,Hvilken Saturn-måne ligner ofte Dødsstjernen på grund af krateret Herschel?,400,Mimas,Rhea,Dione,Enceladus,,,
+Måner og smålegemer,Hvilken Jupiter-måne er den yderste af de fire galileiske måner?,500,Callisto,Io,Europa,Ganymedes,,,
+Måner og smålegemer,Hvilken dværgplanet er kendt for sin aflange form og hurtige rotation?,600,Haumea,Ceres,Pluto,Eris,,,
+Måner og smålegemer,Hvilken dværgplanet er mere massiv end Pluto?,700,Eris,Makemake,Ceres,Haumea,,,
+Måner og smålegemer,Hvad hedder den største kendte trojanske asteroide ved Jupiter?,800,Hektor,Vesta,Bennu,Eros,,,
+Stjerner og galakser,Hvilken spektralklasse tilhører Solen?,100,G-type,O-type,M-type,A-type,,,
+Stjerner og galakser,Hvad bliver Solen sandsynligvis til efter sin røde kæmpefase?,200,En hvid dværg,En neutronstjerne,Et sort hul,En blå superkæmpe,,,
+Stjerner og galakser,"Hvilken galakse indeholder det sorte hul M87*, som blev afbildet i 2019?",300,Messier 87,Andromedagalaksen,Mælkevejen,Triangulumgalaksen,,,
+Stjerner og galakser,"Hvad kaldes et system af to stjerner, der kredser om et fælles massemidtpunkt?",400,Et dobbeltstjernesystem,En åben stjernehob,En planetarisk tåge,En kvasar,,,
+Stjerner og galakser,Hvad er en kvasar?,500,En ekstremt lys aktiv galaksekerne,En lille ismåne,En type asteroide,En mørk tåge,,,
+Stjerner og galakser,"Hvad kaldes en stjerne, der ikke er massiv nok til stabil hydrogenfusion?",600,En brun dværg,En hvid dværg,En neutronstjerne,En rød kæmpe,,,
+Stjerner og galakser,"Hvad hedder den lokale galaksegruppe, som Mælkevejen tilhører?",700,Den Lokale Gruppe,Virgohoben,Comahoben,Oriongruppen,,,
+Rumfart og observation,Hvilket observatorium registrerer primært røntgenstråling fra rummet?,100,Chandra-røntgenobservatoriet,Arecibo-observatoriet,Kepler-teleskopet,Voyager 2,,,
+Rumfart og observation,Hvilken mission var den første til at gå i kredsløb om Merkur?,200,MESSENGER,Mariner 10,Magellan,BepiColombo,,,
+Rumfart og observation,Hvilken sovjetisk rumstation var den første modulære rumstation?,300,Mir,Saljut 1,Skylab,ISS,,,
+Rumfart og observation,"Hvad kaldes metoden, hvor en exoplanet opdages ved et lille fald i stjernens lysstyrke?",400,Transitmetoden,Parallaksemetoden,Radarafbildning,Spejlmetoden,,,
+Rumfart og observation,"Hvad kaldes et instrument, der spreder lys i et spektrum?",500,Et spektrograf,Et seismometer,Et magnetometer,Et barometer,,,
+Rumfart og observation,Hvilken type teleskop bruger parabolantenner til at registrere radiobølger?,600,Et radioteleskop,Et røntgenteleskop,Et optisk spejlteleskop,Et neutrinoteleskop,,,
+Rumfart og observation,Hvilken NASA-mission returnerede prøver fra asteroiden Bennu i 2023?,700,OSIRIS-REx,Lucy,Dawn,Psyche,,,

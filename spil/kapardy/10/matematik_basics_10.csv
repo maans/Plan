@@ -1,11 +1,11 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Matematik,Hvad er summen af 7 og 8?,100,15,14,16,13
-Matematik,Hvad er forskellen mellem 20 og 5?,200,15,25,10,12
-Matematik,Hvad er 9 gange 6?,300,54,45,64,56
-Matematik,Hvad er kvadratroden af 81?,400,9,8,7,6
-Matematik,Hvad er resultatet af 48 divideret med 8?,500,6,8,5,7
-Matematik,Hvad er summen af vinklerne i en trekant?,600,180 grader,90 grader,270 grader,360 grader
-Matematik,Hvilket tal er et primtal?,700,13,15,21,27
-Matematik,Hvad er 5 % af 200?,800,10,5,20,15
-Matematik,Hvad er 12 plus 15?,900,27,26,28,24
-Matematik,Hvad er 10^3?,1000,1000,100,10000,1110
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Regning,Hvad er 6 · 7?,100,42,36,48,49,,,
+Regning,Hvad er 56 ÷ 8?,200,7,6,8,9,,,
+Regning,Hvad er 125 + 78?,300,203,193,213,205,,,
+Brøker og procent,"Hvilken brøk er det samme som 0,5?",100,1/2,1/3,2/5,3/4,,,
+Brøker og procent,Hvad er 25 % skrevet som decimaltal?,200,"0,25","0,025","0,5","2,5",,,
+Brøker og procent,Hvad er 3/4 af 20?,300,15,12,16,18,,,
+Geometri og måling,Hvad er omkredsen af et kvadrat med sidelængden 5 cm?,100,20 cm,10 cm,25 cm,30 cm,,,
+Geometri og måling,Hvad er arealet af et rektangel på 6 cm gange 4 cm?,200,24 cm²,10 cm²,20 cm²,28 cm²,,,
+Tal og algebra,Hvad er 2⁵?,100,32,10,16,25,,,
+Tal og algebra,"Hvad er næste tal i følgen 2, 4, 6, 8, ...?",200,10,9,11,12,,,

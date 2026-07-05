@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Astronomi,Hvad hedder vores galakse?,100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Astronomi,Hvilket planet er tættest på solen?,200,Merkur,Venus,Jorden,Mars
-Astronomi,Hvilken planet er kendt for sine ringe?,300,Saturn,Jupiter,Uranus,Neptun
-Astronomi,Hvad hedder den røde planet?,400,Mars,Jupiter,Venus,Saturn
-Astronomi,Hvilket himmellegeme kredser Jorden om?,500,Solen,Månen,Mars,Saturn
-Astronomi,Hvad kaldes en stjerne der eksploderer og lyser kraftigt?,600,Supernova,Kometa,Nebula,Asteroide
-Astronomi,Hvad hedder NASAs første mand på månen?,700,Neil Armstrong,Buzz Aldrin,Yuri Gagarin,Michael Collins
-Astronomi,Hvad hedder vores solsystem?,800,Solssystemet,Andromeda,Alpha Centauri,Stjernens system
-Astronomi,Hvilken planet har en stor rød plet?,900,Jupiter,Mars,Saturn,Venus
-Astronomi,Hvad hedder den videnskab der studerer stjerner og universet?,1000,Astronomi,Astrologi,Geologi,Biologi
-Astronomi,Hvilket rumteleskop blev opsendt i 1990 og revolutionerede astronomi?,1100,Hubble,Roskosmos,Kepler,Galileo
-Astronomi,Hvad hedder NASAs rover der landede på Mars i 2021?,1200,Perseverance,Curiosity,Spirit,Opportunity
-Astronomi,Hvilken planet kaldes Jordens tvilling?,1300,Venus,Mars,Merkur,Neptun
-Astronomi,Hvad er en meteor?,1400,En lille sten der brænder op i atmosfæren,En komets kerne,En frossen gasbold,En ring af is
-Astronomi,Hvilket land sendte den første menneske i rummet?,1500,Sovjetunionen,USA,Kina,Frankrig
-Astronomi,Hvad hedder stjernen tættest på Jorden efter solen?,1600,Proxima Centauri,Sirius,Betelgeuse,Vega
-Astronomi,Hvad kaldes et mørkere område på Solens overflade?,1700,Solplet,Solblemme,Solsystem,Solpunkt
-Astronomi,"Hvad hedder det strålebånd, som rumskibe slipper Jorden i?",1800,Van Allen-bælterne,Kuiperbæltet,Oort-skyen,Asteroidbæltet
-Astronomi,Hvad hedder stjernebilledet med tre klare stjerner i bælte?,1900,Orion,Ursa Major,Scorpius,Taurus
-Astronomi,Hvilken planet har månerne Phobos og Deimos?,2000,Mars,Jupiter,Saturn,Neptun
-Astronomi,Hvilket rumfartøj fløj længst væk fra Jorden?,2100,Voyager 1,Apollo 11,Curiosity,ISS
-Astronomi,Hvad kaldes den hypotetiske usynlige masse i universet?,2200,Mørkt stof,Lysende stof,Galaktisk masse,Skyggepartikler
-Astronomi,Hvad hedder NASAs program der sendte mennesker til månen?,2300,Apollo,Mercury,Gemini,Skylab
-Astronomi,Hvad kaldes de store isklumper der kredser om solen i elliptiske baner?,2400,Kometer,Meteorer,Asteroider,Planeter
-Astronomi,Hvad er navnet på den store stjerne i stjernebilledet Lyren?,2500,Vega,Deneb,Altair,Rigel
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Solsystemets verdener,Hvilken planet har den største massefylde?,100,Jorden,Merkur,Jupiter,Saturn,,,
+Solsystemets verdener,Hvilke fire planeter kaldes gas- og isgiganterne?,200,"Jupiter, Saturn, Uranus og Neptun","Merkur, Venus, Jorden og Mars","Jorden, Mars, Jupiter og Saturn","Venus, Mars, Uranus og Neptun",,,
+Solsystemets verdener,Hvilke fire planeter kaldes de terrestriske planeter?,300,"Merkur, Venus, Jorden og Mars","Jupiter, Saturn, Uranus og Neptun","Venus, Jorden, Jupiter og Saturn","Merkur, Mars, Saturn og Uranus",,,
+Solsystemets verdener,Hvilken planet har den hurtigste rotation om sin egen akse?,400,Jupiter,Jorden,Saturn,Neptun,,,
+Solsystemets verdener,Hvilken planet har en blå farve især på grund af metan i atmosfæren?,500,Neptun,Mars,Merkur,Venus,,,
+Solsystemets verdener,Hvilken planet har overfladetryk på omkring 90 gange Jordens?,600,Venus,Mars,Merkur,Neptun,,,
+Solsystemets verdener,"Hvilken planet har Valles Marineris, et enormt kløftsystem?",700,Mars,Venus,Jupiter,Uranus,,,
+Måner og smålegemer,"Hvad kaldes den fjerne, hypotetiske sky af kometkerner omkring Solsystemet?",100,Oortskyen,Kuiperbæltet,Orionskyen,Magellanske sky,,,
+Måner og smålegemer,"Hvad kaldes et lille klippe- eller metallegeme i rummet, før det rammer atmosfæren?",200,Meteoroide,Meteor,Meteorit,Komet,,,
+Måner og smålegemer,"Hvad kaldes lysstriben, når en meteoroide brænder i atmosfæren?",300,Meteor,Meteoroide,Meteorit,Asteroide,,,
+Måner og smålegemer,"Hvad kaldes resterne af et rumlegeme, der når ned til Jordens overflade?",400,Meteorit,Meteor,Meteoroide,Komet,,,
+Måner og smålegemer,Hvad består en kometkerne hovedsageligt af?,500,"Is, støv og klippemateriale",Kun flydende vand,Kun metal,Varm plasma,,,
+Måner og smålegemer,Hvilken retning peger en komets hale normalt?,600,Væk fra Solen,Mod Solen,Langs kometens bane bagud i alle tilfælde,Mod den nærmeste planet,,,
+Stjerner og galakser,Hvad er den grundlæggende energikilde i Solen?,100,Kernefusion,Kemisk forbrænding,Kernespaltning,Friktion,,,
+Stjerner og galakser,Hvilket grundstof omdannes primært til helium i Solens kerne?,200,Hydrogen,Kulstof,Ilt,Jern,,,
+Stjerner og galakser,"Hvad kaldes grænsen omkring et sort hul, hvorfra intet kan slippe ud?",300,Begivenhedshorisonten,Heliopausen,Fotosfæren,Asteroidebæltet,,,
+Stjerner og galakser,Hvad hedder det supermassive sorte hul i Mælkevejens centrum?,400,Sagittarius A*,Cygnus X-1,M87*,Vega A,,,
+Stjerner og galakser,Hvad måler en lysår?,500,Afstand,Tid,Lysstyrke,Masse,,,
+Stjerner og galakser,Hvor langt bevæger lyset sig omtrent på ét år?,600,"9,46 billioner kilometer","9,46 millioner kilometer",150 millioner kilometer,384.400 kilometer,,,
+Rumfart og observation,Hvilken sonde kredser om Jupiter og ankom i 2016?,100,Juno,Cassini,BepiColombo,Rosetta,,,
+Rumfart og observation,Hvilken europæisk mission landede Philae på kometen 67P?,200,Rosetta,Gaia,Mars Express,Solar Orbiter,,,
+Rumfart og observation,Hvilken mission bragte de første prøver fra en asteroide tilbage til Jorden i 2010?,300,Hayabusa,OSIRIS-REx,DART,Dawn,,,
+Rumfart og observation,Hvilken mission demonstrerede afbøjning af en asteroide ved at ramme Dimorphos i 2022?,400,DART,Dawn,Deep Impact,Lucy,,,
+Rumfart og observation,Hvilket teleskop blev udviklet til at finde exoplaneter via transitmetoden og opsendt i 2009?,500,Kepler,Hubble,Chandra,Gaia,,,
+Rumfart og observation,Hvilken ESA-mission kortlægger stjernernes positioner og bevægelser i Mælkevejen?,600,Gaia,Rosetta,Euclid,Ariel,,,

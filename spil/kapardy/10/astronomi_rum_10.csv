@@ -1,11 +1,11 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Astronomi,Hvad hedder vores galakse?,100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Astronomi,Hvilket planet er tættest på solen?,200,Merkur,Venus,Jorden,Mars
-Astronomi,Hvilken planet er kendt for sine ringe?,300,Saturn,Jupiter,Uranus,Neptun
-Astronomi,Hvad hedder den røde planet?,400,Mars,Jupiter,Venus,Saturn
-Astronomi,Hvilket himmellegeme kredser Jorden om?,500,Solen,Månen,Mars,Saturn
-Astronomi,Hvad kaldes en stjerne der eksploderer og lyser kraftigt?,600,Supernova,Kometa,Nebula,Asteroide
-Astronomi,Hvad hedder NASAs første mand på månen?,700,Neil Armstrong,Buzz Aldrin,Yuri Gagarin,Michael Collins
-Astronomi,Hvad hedder vores solsystem?,800,Solssystemet,Andromeda,Alpha Centauri,Stjernens system
-Astronomi,Hvilken planet har en stor rød plet?,900,Jupiter,Mars,Saturn,Venus
-Astronomi,Hvad hedder den videnskab der studerer stjerner og universet?,1000,Astronomi,Astrologi,Geologi,Biologi
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Solsystemets verdener,Hvilken planet er den eneste kendte med flydende overfladehave?,100,Jorden,Venus,Mars,Neptun,,,
+Solsystemets verdener,Hvilken planet kaldes ofte den røde planet?,200,Mars,Merkur,Venus,Saturn,,,
+Solsystemets verdener,Hvilken planet er størst i Solsystemet?,300,Jupiter,Saturn,Uranus,Neptun,,,
+Måner og smålegemer,Hvilken planet kredser månerne Phobos og Deimos om?,100,Mars,Jupiter,Saturn,Neptun,,,
+Måner og smålegemer,Hvad hedder Solsystemets største måne?,200,Ganymedes,Titan,Io,Callisto,,,
+Måner og smålegemer,Hvilken Saturn-måne har en tæt atmosfære?,300,Titan,Enceladus,Mimas,Rhea,,,
+Stjerner og galakser,Hvilken type galakse er Mælkevejen?,100,En stavspiralgalakse,En elliptisk galakse,En linseformet galakse,En uregelmæssig galakse,,,
+Stjerner og galakser,Hvad hedder den nærmeste store galakse til Mælkevejen?,200,Andromedagalaksen,Triangulumgalaksen,Sombrerogalaksen,Whirlpoolgalaksen,,,
+Rumfart og observation,Hvilket rumfartøj bragte de første mennesker til Månen?,100,Apollo 11,Apollo 8,Gemini 4,Voyager 1,,,
+Rumfart og observation,Hvem var det første menneske på Månen?,200,Neil Armstrong,Buzz Aldrin,Michael Collins,Jurij Gagarin,,,
