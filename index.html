@@ -1,3 +1,4 @@
+<!-- Plan OWNER SAFE: tavlespecifik markering af valgt widget. Baggrundsmodalen gemmer styrke, farve og synlighed i Redigering, Fokus og Præsentation sammen med tavlens baggrund. -->
 <!-- index_global_calendar_panel_K_OWNER_SAFE: Bygger direkte på index_group_matrix_dark_contrast_OWNER_SAFE. Tilføjer en global, midlertidig kalenderadgang uden at oprette eller gemme en KalenderWidget: kalenderikonet står umiddelbart til højre for det digitale ur, skjules sammen med uret og i præsentationstilstand, mens K fortsat åbner/lukker panelet. Panelet vælger dovent den mest relevante kalender og dato ud fra den aktuelle tavle, session, forløbets kalenderkoblinger eller senest brugte kalender, åbner som Dagens agenda med ugestribe og tilbyder Dag, Uge, Måned og Liste. Navigation til tavle eller session lukker panelet før sikkert sessions-/tavleskift. -->
 <!-- index_fagsamtale_preserve_scroll_position_OWNER_SAFE: Bygger direkte på index_datacenter_live_common_backup_tabs_OWNER_SAFE. Retter kun den åbne Fagsamtales elevskift: den lodrette læseposition bevares, når man skifter elev med knapper eller tastatur. Står visningen tæt ved bunden, forbliver den ved bunden, selv om næste elevs tekstlængde er anderledes; ellers bevares den samme scrollposition så langt indholdets højde tillader. Autosave, elevmatch, samtaleark, Datacenter, kalender og øvrige Plan-funktioner er uændrede. -->
 <!-- index_calendar_subject_groups_phase3_OWNER_SAFE: Bygger direkte på index_calendar_guided_planlinks_phase2_OWNER_SAFE. Indfører et let Faghold/Elevudvalg-lag uden kopier af de fulde elevrækker: Mit danskhold migreres til en fælles subject-group-reference, som kun gemmer kilde, vurderingsdatasæt og valgt hold; de aktuelle elevrækker opløses dovent og caches efter kildens revision. Kalenderaktiviteter kan knyttes til et faghold for kun denne aktivitet eller alle aktiviteter med samme titel. En direkte Arbejd med holdet-handling åbner elevliste, Elevkortmatrix, Lykkehjul, arbejdsgrupper, Fagsamtaler og Karakterer med det samme levende elevudvalg. Bindingerne gemmes som små regler i kalenderens eksisterende plan-links-datasæt og overlever derfor ICS-genimport uden at kopiere kalender- eller elevdata. Årsplan, tavlekoblinger, omplanlægning, kalenderfiltre og øvrige Plan-funktioner er uændrede. -->
@@ -6887,7 +6888,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       add('course-backup','Backup++, årsforløbspakker og deling',`<p><b>Backup++</b> kan samle én, flere eller alle sessioner i én versioneret fil. Plan medtager de nødvendige tavler, widgets, data og medier samt fælles data, som de valgte sessioner faktisk bruger.</p><ul class="tn-help-list"><li>Vælg <b>Kun aktuel</b>, <b>Alle</b> eller et manuelt udvalg.</li><li>Størrelse og indhold estimeres før eksport.</li><li>Import er som udgangspunkt ikke-destruktiv og opretter nye sessioner.</li><li>Overskrivning kræver et tydeligt match og en udtrykkelig handling.</li><li>Importlog viser, hvad der blev indlæst.</li></ul><p><b>Årsforløbspakken</b> er en samlet, kontrolleret udgave af et undervisningsforløb med navn, fag, skoleår og sessionsrækkefølge. Når pakken er gemt og kontrolleret, kan forløbet arkiveres lokalt, mens delte data og medier, der stadig bruges andre steder, bevares.</p><p><b>Sessionpakker</b> bruges til målrettet overførsel af konkrete tavler, elevtavler, gruppetavler eller matricer. De erstatter ikke Backup++.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="storage">Lagerredning</button><button data-help-jump="trash">Gendannelsespunkter</button><button data-help-jump="startup">Forløb og sessioner</button></div>`,'Backup++, årsforløbspakker, sessionpakker og importlog');
       add('storage','Lagerredning, oprydning og sikker gemning',`<p>Plan afslutter aktive redigeringer, gemmer og læser den gemte kopi tilbage, før der skiftes til et andet forløb eller en anden session. Mislykkes kontrollen, bliver det aktuelle arbejde stående åbent.</p><p>Åbn lageradvarslen øverst eller <b>Datacenter → Lager</b>:</p><ul class="tn-help-list"><li><b>Nødbackup fra hukommelsen</b> bruger det, der stadig er åbent i Plan, selv hvis normal lagring fejler.</li><li><b>Prøv gemning igen</b> gentager den kontrollerede gemmetransaktion.</li><li><b>Sikker oprydning</b> kan rydde cache og reelt forældreløse medier.</li><li>Andre lokale forløb kan sikkerhedskopieres og derefter fjernes for at frigøre plads.</li></ul><p>Sikker oprydning sletter ikke det aktuelle forløb, fælles data, Papirkurv eller gendannelsespunkter. En fil, som stadig bruges eller er beskyttet af en gendannelsesmulighed, regnes ikke som frit affald.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Mediearkiv</button><button data-help-jump="course-backup">Backup++</button><button data-help-jump="trash">Papirkurv</button></div>`,'Nødbackup, gemmefejl, lagerplads og sikker oprydning');
       add('trash','Papirkurv og gendannelsespunkter',`<p>Papirkurv og gendannelsespunkter beskytter to forskellige niveauer.</p><ul class="tn-help-list"><li><b>Papirkurv</b> gemmer slettede widgets og tavler med oprindelig tavle, placering og indhold.</li><li><b>Gendannelsespunkter</b> gemmer en versionskopi af en hel session.</li></ul><p>Brug <b>Delete/Backspace</b> til Papirkurv. Brug Shift-varianten kun ved bevidst permanent sletning. I Papirkurv kan du gendanne enkelte elementer, gendanne alle eller tømme permanent.</p><p>Gendannelse af et sessionspunkt opretter som standard en ny session. Den aktive session overskrives derfor ikke ved et almindeligt gendannelsesforsøg.</p><p>Medier, der kun findes i Papirkurv eller et gendannelsespunkt, vises som beskyttede i Mediearkivet. Når en tavle eller widget slettes permanent fra Papirkurv, sletter Plan samtidig de tilknyttede medier, som ikke længere bruges af andre tavler, widgets eller datakilder og ikke beskyttes af en anden papirkurvskopi, historik eller et gendannelsespunkt. Delte medier bevares.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="storage">Oprydning</button><button data-help-jump="media">Medier</button><button data-help-jump="course-backup">Backup++</button></div>`,'Slettede widgets, slettede tavler og hele sessionskopier');
-      add('appearance','Baggrunde, grid og Redningsbælte',`<p>Baggrunden tilhører den aktuelle tavle. Åbn den fra <b>tavlemenuen → Baggrund</b>, med <b>Shift+B</b> eller ved højreklik/langt tryk på et tomt område. Tavlemenuen har sit eget felt ved siden af titlen. Feltet viser enten <b>•••</b> eller et valgfrit digitalt ur; begge åbner den samme menu.</p><p><b>Chrome på iPad:</b> Brug <b>••• øverst til venstre</b> til tavlemenuen. Musens højreklik kan blive overtaget af iPadOS. Touch/langt tryk virker fortsat som normalt.</p><ul class="tn-help-list"><li>Vælg mellem farveswatches og gradienter.</li><li>Vælg <b>Vis digitalt ur</b> eller <b>Skjul digitalt ur</b> i tavlemenuen. Urvalget gælder Plan-brugerfladen og ændrer ikke tavlens data.</li><li>Vælg et eget billede fra enheden og brug <b>Fyld tavlen</b>, <b>Vis hele billedet</b> eller <b>Stræk til tavlen</b>.</li><li>Den mørke tone kan gøre tekst og widgets lettere at læse oven på et foto.</li><li>Billedet gemmes én gang i Mediearkivet og følger tavlen i Backup++, sessionpakker og årsforløb.</li><li>Annuller gendanner den tidligere baggrund. Når et baggrundsbillede erstattes, ryddes det gamle kun, hvis ingen anden tavle eller beskyttet kopi bruger det.</li><li><b>Cmd/Ctrl+B</b> vælger en tilfældig gradient, og <b>Shift+G</b> slår grid til eller fra.</li><li>Vælg <b>Tegn på tavlen</b> i tavlemenuen for frihånd, linje, firkant, cirkel og viskelæder. Én finger eller pen tegner; to fingre zoomer og flytter tavlen.</li><li>Tegningen gemmes på den konkrete tavle. Du kan fortryde, gentage, rydde eller gemme den som en almindelig Billedwidget i Mediearkivet.</li><li><b>Shift+O</b> aktiverer Redningsbæltet.</li></ul><p>Redningsbæltet nulstiller tavlens zoom og pan og afslutter en fastlåst fokusvisning uden at slette indhold. Brug det, når tavlen er kommet uden for synligt område, eller visningen er svær at komme tilbage fra.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="zoom-focus">Zoom og fokus</button><button data-help-jump="windows">Vindueslayout</button><button data-help-jump="media">Mediearkiv</button><button data-help-jump="storage">Lagerredning</button></div>`,'Tavlemenu, swatches, baggrundsbilleder, grid og Redningsbælte');
+      add('appearance','Baggrunde, grid og Redningsbælte',`<p>Baggrunden tilhører den aktuelle tavle. Åbn den fra <b>tavlemenuen → Baggrund</b>, med <b>Shift+B</b> eller ved højreklik/langt tryk på et tomt område. Tavlemenuen har sit eget felt ved siden af titlen. Feltet viser enten <b>•••</b> eller et valgfrit digitalt ur; begge åbner den samme menu.</p><p><b>Chrome på iPad:</b> Brug <b>••• øverst til venstre</b> til tavlemenuen. Musens højreklik kan blive overtaget af iPadOS. Touch/langt tryk virker fortsat som normalt.</p><ul class="tn-help-list"><li>Vælg mellem farveswatches og gradienter.</li><li>Vælg <b>Vis digitalt ur</b> eller <b>Skjul digitalt ur</b> i tavlemenuen. Urvalget gælder Plan-brugerfladen og ændrer ikke tavlens data.</li><li>Vælg et eget billede fra enheden og brug <b>Fyld tavlen</b>, <b>Vis hele billedet</b> eller <b>Stræk til tavlen</b>.</li><li>Den mørke tone kan gøre tekst og widgets lettere at læse oven på et foto.</li><li>Under <b>Markering af valgt widget</b> vælger du kantens styrke og farve samt om den skal vises i Redigering, Fokus og Præsentation. Valget gemmes på den enkelte tavle.</li><li>Billedet gemmes én gang i Mediearkivet og følger tavlen i Backup++, sessionpakker og årsforløb.</li><li>Annuller gendanner den tidligere baggrund. Når et baggrundsbillede erstattes, ryddes det gamle kun, hvis ingen anden tavle eller beskyttet kopi bruger det.</li><li><b>Cmd/Ctrl+B</b> vælger en tilfældig gradient, og <b>Shift+G</b> slår grid til eller fra.</li><li>Vælg <b>Tegn på tavlen</b> i tavlemenuen for frihånd, linje, firkant, cirkel og viskelæder. Én finger eller pen tegner; to fingre zoomer og flytter tavlen.</li><li>Tegningen gemmes på den konkrete tavle. Du kan fortryde, gentage, rydde eller gemme den som en almindelig Billedwidget i Mediearkivet.</li><li><b>Shift+O</b> aktiverer Redningsbæltet.</li></ul><p>Redningsbæltet nulstiller tavlens zoom og pan og afslutter en fastlåst fokusvisning uden at slette indhold. Brug det, når tavlen er kommet uden for synligt område, eller visningen er svær at komme tilbage fra.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="zoom-focus">Zoom og fokus</button><button data-help-jump="windows">Vindueslayout</button><button data-help-jump="media">Mediearkiv</button><button data-help-jump="storage">Lagerredning</button></div>`,'Tavlemenu, swatches, baggrundsbilleder, grid og Redningsbælte');
       add('heavy','Tungt indhold og aktiv livscyklus',`<p>PDF, HTML-apps, webvisninger, video og lyd kan være væsentligt tungere end tekst og lister. Plan forsøger derfor kun at holde det nødvendige indhold aktivt.</p><ul class="tn-help-list"><li>Kun den aktive tavle monteres.</li><li>Matrixer monterer kun den aktuelle side.</li><li>Video og lyd pauses ved tavleskift og når et andet lokalt medie starter.</li><li>Midlertidige objektadresser frigives, når en tavle afmonteres.</li><li>HTML-apps kan suspenderes, når de ikke skal køre.</li><li>Maksimering og almindelige vindueslayouts ændrer så vidt muligt kun rammen omkring en aktiv HTML-app.</li></ul><p>Store forløb fungerer bedst, når tunge filer ligger i Mediearkivet og widgets bruger referencer frem for indlejrede kopier. Brug Datacenterets Medier- og Lager-faner til at finde pladsforbrug og reelt forældreløse filer.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Medier</button><button data-help-jump="web-html">HTML-apps</button><button data-help-jump="pdf">PDF</button><button data-help-jump="storage">Lager</button></div>`,'Ydelse, lazy mounting, PDF, HTML, video og lyd');
     }
     registerCommands(){
@@ -7673,6 +7674,29 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 
 
 <!-- Plan iPad Chrome tavlemenu SAFE: Chrome-specifikke højreklik-indgreb er fjernet. På Chrome til iPad bruges ••• øverst til venstre som stabil adgang til tavlemenuen; Safari, Mac og touch/langt tryk bruger den almindelige adfærd. -->
+
+
+<!-- Plan OWNER SAFE: PDF-sider bevarer deres lodrette placering, når chrome skjules i Fokus/Præsentation. -->
+<style id="plan-pdf-presentation-no-jump-owner-style">
+/*
+  En PDF-side er topforankret, modsat et billede som typisk centreres. Når
+  widgetens 42 px titelbjælke og PDF'ens 41 px værktøjslinje skjules, ville
+  siden derfor hoppe op. Vi lader fortsat chrome forsvinde, men reserverer
+  den samme visuelle afstand inde i den grå PDF-scene.
+*/
+#tavleNextApp[data-mode="presentation"] .tn-widget.type-pdf .pdfViewer{
+  padding-top:calc(42px + 41px + 8px)!important;
+}
+#tavleNextApp.focus-mode .tn-widget.type-pdf.focus-target .pdfViewer{
+  padding-top:calc(41px + 8px)!important;
+}
+
+/* Maksimeret PDF beholder hele den ekstra plads som hidtil. */
+#tavleNextApp .tn-widget.type-pdf.maximized .pdfViewer{
+  padding-top:0!important;
+}
+</style>
+
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -7729,9 +7753,11 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     setBoardZoom(value,{clientX=null,clientY=null,resetPan=false,persist=true}={}){const board=TN.runtime.activeBoard;if(!board)return;const rect=this.viewport.getBoundingClientRect(),centerX=rect.left+rect.width/2,centerY=rect.top+rect.height/2,oldZoom=TN.clamp(Number(board.zoom)||1,.4,2),oldPan={x:Number(board.pan?.x)||0,y:Number(board.pan?.y)||0},anchorX=Number.isFinite(Number(clientX))?Number(clientX):centerX,anchorY=Number.isFinite(Number(clientY))?Number(clientY):centerY,boardPointX=(anchorX-centerX-oldPan.x)/Math.max(.0001,oldZoom),boardPointY=(anchorY-centerY-oldPan.y)/Math.max(.0001,oldZoom);board.zoom=TN.clamp(Math.round(Number(value||1)*100)/100,.4,2);board.pan=resetPan?{x:0,y:0}:{x:anchorX-centerX-boardPointX*board.zoom,y:anchorY-centerY-boardPointY*board.zoom};this.applyBoardCamera({persist:false});if(persist)this.boardManager.update(board);this.updateStatus();}
     async toggleGrid(){const b=TN.runtime.activeBoard;if(!b)return;b.grid=!b.grid;await this.boardManager.update(b);this.updateBoardGridAppearance(b.background||{});this.boardLayer.classList.toggle('grid',!!b.grid);this.toast(b.grid?'Grid er vist':'Grid er skjult');}
     rescueView(){const b=TN.runtime.activeBoard;b.zoom=1;b.pan={x:0,y:0};this.root.classList.remove('focus-mode');TN.runtime.focusWidgetId=null;this.boardManager.update(b);this.renderActiveBoard({preserveSelection:true});this.toast('Visning nulstillet');}
-    randomBackground(){const values=['linear-gradient(135deg,#0f172a,#1d4ed8)','linear-gradient(135deg,#111827,#14532d)','linear-gradient(135deg,#3f1d38,#7c2d12)','linear-gradient(135deg,#1f2937,#4c1d95)','linear-gradient(135deg,#0c4a6e,#0f766e)','linear-gradient(135deg,#312e81,#7e22ce)'];TN.runtime.activeBoard.background={kind:'gradient',value:values[Math.floor(Math.random()*values.length)],mediaId:null,imageRef:null,fit:'cover',shade:0};this.boardManager.update(TN.runtime.activeBoard);this.applyBoardBackground(TN.runtime.activeBoard);}
+    randomBackground(){const values=['linear-gradient(135deg,#0f172a,#1d4ed8)','linear-gradient(135deg,#111827,#14532d)','linear-gradient(135deg,#3f1d38,#7c2d12)','linear-gradient(135deg,#1f2937,#4c1d95)','linear-gradient(135deg,#0c4a6e,#0f766e)','linear-gradient(135deg,#312e81,#7e22ce)'],selectionMarking=TN.deepClone(TN.runtime.activeBoard.background?.selectionMarking||null);TN.runtime.activeBoard.background={kind:'gradient',value:values[Math.floor(Math.random()*values.length)],mediaId:null,imageRef:null,fit:'cover',shade:0,...(selectionMarking?{selectionMarking}:{})};this.boardManager.update(TN.runtime.activeBoard);this.applyBoardBackground(TN.runtime.activeBoard);}
     showBackgrounds(){
       const board=TN.runtime.activeBoard;if(!board)return;const original=TN.deepClone(board.background||{kind:'solid',value:'#14324a',mediaId:null,imageRef:null,fit:'cover',shade:.14}),draft={kind:'solid',value:'#14324a',mediaId:null,imageRef:null,fit:'cover',shade:.14,...TN.deepClone(original)};
+      const selectionDefaults={strength:'subtle',color:'theme',customColor:'#94a3b8',showEdit:true,showFocus:true,showPresentation:false};
+      draft.selectionMarking={...selectionDefaults,...TN.deepClone(original.selectionMarking||{})};
       const swatches=[
         ['Midnatsblå','#14324a'],['Skovgrøn','#183c2f'],['Brombær','#3b2448'],['Mørk terrakotta','#4a2b21'],
         ['Sort','#111827'],['Gråblå','#334155'],['Petrol','#164e63'],['Mørk oliven','#365314'],
@@ -7743,11 +7769,14 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       const left=document.createElement('section');left.className='tn-background-panel';left.innerHTML='<h3>Farver og swatches</h3>';
       const grid=document.createElement('div');grid.className='tn-background-swatches';left.append(grid);
       const imageCard=document.createElement('div');imageCard.className='tn-background-image-card';imageCard.innerHTML='<h3 style="margin:0">Baggrundsbillede</h3><div class="tn-background-image-actions"><button type="button" class="primary" data-pick>Vælg billede fra enheden</button><button type="button" data-remove>Fjern billede</button></div><div class="tn-background-image-name" data-name></div><label class="tn-background-control"><span>Tilpasning</span><select data-fit><option value="cover">Fyld tavlen</option><option value="contain">Vis hele billedet</option><option value="fill">Stræk til tavlen</option></select></label><label class="tn-background-control"><span>Mørk tone over billedet</span><div class="tn-background-shade-row"><input type="range" min="0" max="55" step="1" data-shade><output data-shade-output></output></div></label>';
-      left.append(imageCard);const note=document.createElement('p');note.className='tn-background-note';note.textContent='Billedet gemmes én gang i Mediearkivet og følger tavlen i Backup++, sessionpakker og årsforløb.';left.append(note);
+      left.append(imageCard);
+      const markingCard=document.createElement('div');markingCard.className='tn-background-marking-card';markingCard.innerHTML=`<details open><summary>Markering af valgt widget</summary><div class="tn-background-marking-grid"><label class="tn-background-control"><span>Styrke</span><select data-mark-strength><option value="none">Ingen</option><option value="subtle">Diskret</option><option value="strong">Tydelig</option></select></label><label class="tn-background-control"><span>Farve</span><select data-mark-color><option value="theme">Temaets farve</option><option value="white">Hvid</option><option value="gray">Grå</option><option value="yellow">Gul</option><option value="custom">Egen farve</option></select></label><label class="tn-background-control tn-background-custom-color" data-custom-color-wrap><span>Egen farve</span><input type="color" data-mark-custom value="#94a3b8"></label></div><fieldset class="tn-background-marking-modes"><legend>Vis markering i</legend><label><input type="checkbox" data-mark-edit> Redigering</label><label><input type="checkbox" data-mark-focus> Fokus</label><label><input type="checkbox" data-mark-presentation> Præsentation</label></fieldset><p>Resize- og rotationsgreb bevares i redigering. Valget gælder kun kanten omkring den valgte widget.</p></details>`;
+      const note=document.createElement('p');note.className='tn-background-note';note.textContent='Baggrund og fokusmarkering gemmes på denne tavle og følger med i Backup++, sessionpakker og årsforløb.';left.append(note);
       const right=document.createElement('section');right.className='tn-background-panel';right.innerHTML='<h3>Eksempel på tavlen</h3><div class="tn-background-preview" data-preview><div class="tn-background-preview-widgets"><span></span><span></span></div></div>';
-      body.append(left,right);
-      const preview=right.querySelector('[data-preview]'),fit=imageCard.querySelector('[data-fit]'),shade=imageCard.querySelector('[data-shade]'),shadeOutput=imageCard.querySelector('[data-shade-output]'),name=imageCard.querySelector('[data-name]'),remove=imageCard.querySelector('[data-remove]');
+      right.append(markingCard);body.append(left,right);
+      const preview=right.querySelector('[data-preview]'),fit=imageCard.querySelector('[data-fit]'),shade=imageCard.querySelector('[data-shade]'),shadeOutput=imageCard.querySelector('[data-shade-output]'),name=imageCard.querySelector('[data-name]'),remove=imageCard.querySelector('[data-remove]'),markStrength=markingCard.querySelector('[data-mark-strength]'),markColor=markingCard.querySelector('[data-mark-color]'),markCustom=markingCard.querySelector('[data-mark-custom]'),markCustomWrap=markingCard.querySelector('[data-custom-color-wrap]'),markEdit=markingCard.querySelector('[data-mark-edit]'),markFocus=markingCard.querySelector('[data-mark-focus]'),markPresentation=markingCard.querySelector('[data-mark-presentation]');
       fit.value=['cover','contain','fill'].includes(draft.fit)?draft.fit:'cover';shade.value=String(Math.round(TN.clamp(Number(draft.shade??.14),0,.55)*100));
+      markStrength.value=['none','subtle','strong'].includes(draft.selectionMarking.strength)?draft.selectionMarking.strength:'subtle';markColor.value=['theme','white','gray','yellow','custom'].includes(draft.selectionMarking.color)?draft.selectionMarking.color:'theme';markCustom.value=/^#[0-9a-f]{6}$/i.test(String(draft.selectionMarking.customColor||''))?draft.selectionMarking.customColor:'#94a3b8';markEdit.checked=draft.selectionMarking.showEdit!==false;markFocus.checked=draft.selectionMarking.showFocus!==false;markPresentation.checked=!!draft.selectionMarking.showPresentation;
       const clearPreviewUrl=()=>{if(previewUrl){try{URL.revokeObjectURL(previewUrl);}catch(_){ }previewUrl=null;}};
       const hasImage=()=>!!(pendingFile||draft.mediaId||draft.imageRef);
       const cssFit=()=>draft.fit==='contain'?'contain':draft.fit==='fill'?'100% 100%':'cover';
@@ -7758,14 +7787,20 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         if(imageUrl)this.paintBoardBackground(draft,{imageUrl});else if(draft.mediaId||draft.imageRef)this.applyBoardBackground({id:board.id,background:draft});else this.paintBoardBackground(draft);
         shadeOutput.textContent=`${Math.round(dark*100)} %`;fit.disabled=shade.disabled=!hasImage();remove.disabled=!hasImage();name.textContent=pendingFile?pendingFile.name:(hasImage()?(draft.name||'Det valgte baggrundsbillede'):'Intet baggrundsbillede');
         grid.querySelectorAll('.tn-background-swatch').forEach(button=>button.classList.toggle('active',!hasImage()&&button.dataset.value===String(draft.value)));
+        markCustomWrap.hidden=markColor.value!=='custom';
+        const colorMap={theme:'var(--tn-accent,#60a5fa)',white:'#f8fafc',gray:'#94a3b8',yellow:'#facc15',custom:markCustom.value},previewColor=colorMap[markColor.value]||colorMap.theme,previewWidget=preview.querySelector('.tn-background-preview-widgets span:first-child');
+        if(previewWidget){const strength=markStrength.value;previewWidget.style.outline=strength==='none'?'none':`${strength==='strong'?3:1}px solid ${previewColor}`;previewWidget.style.outlineOffset=strength==='strong'?'3px':'2px';}
+        this.applyBoardSelectionAppearance?.({...board,background:{...draft,selectionMarking:{...draft.selectionMarking}}});
       };
       swatches.forEach(item=>{const button=document.createElement('button');button.type='button';button.className='tn-background-swatch';button.dataset.value=item.value;button.setAttribute('aria-label',item.title);button.style.background=item.value;button.onclick=()=>{clearPreviewUrl();pendingFile=null;draft.kind=item.kind;draft.value=item.value;draft.mediaId=null;draft.imageRef=null;draft.name='';draft.shade=0;paint();};grid.append(button);});
       const chooseFile=()=>{const input=document.createElement('input');input.type='file';input.accept='image/*';input.hidden=true;document.body.append(input);input.addEventListener('change',()=>{const file=input.files?.[0];input.remove();if(!file)return;clearPreviewUrl();pendingFile=file;previewUrl=URL.createObjectURL(file);draft.kind='image';draft.mediaId=null;draft.imageRef=null;draft.name=file.name;draft.fit=fit.value||'cover';draft.shade=Number(shade.value||14)/100;paint();},{once:true});input.click();};
       imageCard.querySelector('[data-pick]').onclick=chooseFile;remove.onclick=()=>{clearPreviewUrl();pendingFile=null;draft.mediaId=null;draft.imageRef=null;draft.name='';draft.kind=String(draft.value).includes('gradient')?'gradient':'solid';draft.shade=0;paint();};
       fit.onchange=()=>{draft.fit=fit.value;paint();};shade.oninput=()=>{draft.shade=Number(shade.value)/100;paint();};
+      const syncSelectionMarking=()=>{draft.selectionMarking={strength:markStrength.value,color:markColor.value,customColor:markCustom.value,showEdit:markEdit.checked,showFocus:markFocus.checked,showPresentation:markPresentation.checked};paint();};
+      markStrength.onchange=syncSelectionMarking;markColor.onchange=syncSelectionMarking;markCustom.oninput=syncSelectionMarking;markEdit.onchange=syncSelectionMarking;markFocus.onchange=syncSelectionMarking;markPresentation.onchange=syncSelectionMarking;
       const modal=this.modalManager.open({title:`Baggrund · ${board.title}`,body,className:'tn-modal-background',onClose:()=>{clearPreviewUrl();if(!committed)this.applyBoardBackground(board);},actions:[
         {label:'Annuller',run:()=>{}},
-        {label:'Anvend',primary:true,run:async()=>{try{const previousMediaId=original.mediaId||(!/^(?:data:|blob:|https?:|file:)/i.test(String(original.imageRef||''))?original.imageRef:null);if(pendingFile){const result=await this.mediaManager.importFile(pendingFile,{optimize:true,maxDimension:2560,quality:.9,keepOriginal:false});draft.mediaId=result.media.id;draft.imageRef=null;draft.kind='image';draft.name=pendingFile.name;}board.background={kind:draft.kind||'solid',value:draft.value||'#14324a',mediaId:draft.mediaId||null,imageRef:draft.imageRef||null,fit:['cover','contain','fill'].includes(draft.fit)?draft.fit:'cover',shade:TN.clamp(Number(draft.shade??.14),0,.6),name:draft.name||''};board.updatedAt=TN.now();await this.boardManager.update(board);committed=true;clearPreviewUrl();this.applyBoardBackground(board);const nextMediaId=board.background.mediaId;if(previousMediaId&&String(previousMediaId)!==String(nextMediaId||''))void this.mediaManager.removeMany([previousMediaId],{removeLiveReferences:false}).catch(error=>console.warn('Det gamle baggrundsbillede kunne ikke ryddes',error));this.toast('Tavlens baggrund er opdateret');}catch(error){this.toast(error.message||'Baggrunden kunne ikke gemmes');return false;}}}
+        {label:'Anvend',primary:true,run:async()=>{try{const previousMediaId=original.mediaId||(!/^(?:data:|blob:|https?:|file:)/i.test(String(original.imageRef||''))?original.imageRef:null);if(pendingFile){const result=await this.mediaManager.importFile(pendingFile,{optimize:true,maxDimension:2560,quality:.9,keepOriginal:false});draft.mediaId=result.media.id;draft.imageRef=null;draft.kind='image';draft.name=pendingFile.name;}board.background={kind:draft.kind||'solid',value:draft.value||'#14324a',mediaId:draft.mediaId||null,imageRef:draft.imageRef||null,fit:['cover','contain','fill'].includes(draft.fit)?draft.fit:'cover',shade:TN.clamp(Number(draft.shade??.14),0,.6),name:draft.name||'',selectionMarking:{strength:['none','subtle','strong'].includes(draft.selectionMarking?.strength)?draft.selectionMarking.strength:'subtle',color:['theme','white','gray','yellow','custom'].includes(draft.selectionMarking?.color)?draft.selectionMarking.color:'theme',customColor:/^#[0-9a-f]{6}$/i.test(String(draft.selectionMarking?.customColor||''))?draft.selectionMarking.customColor:'#94a3b8',showEdit:draft.selectionMarking?.showEdit!==false,showFocus:draft.selectionMarking?.showFocus!==false,showPresentation:!!draft.selectionMarking?.showPresentation}};board.updatedAt=TN.now();await this.boardManager.update(board);committed=true;clearPreviewUrl();this.applyBoardBackground(board);const nextMediaId=board.background.mediaId;if(previousMediaId&&String(previousMediaId)!==String(nextMediaId||''))void this.mediaManager.removeMany([previousMediaId],{removeLiveReferences:false}).catch(error=>console.warn('Det gamle baggrundsbillede kunne ikke ryddes',error));this.toast('Tavlens baggrund er opdateret');}catch(error){this.toast(error.message||'Baggrunden kunne ikke gemmes');return false;}}}
       ]});
       paint();requestAnimationFrame(()=>grid.querySelector('.active')?.focus?.({preventScroll:true}));return modal;
     }
@@ -34756,5 +34791,905 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 })(window.TavleNext);
 </script>
 
+
+
+<!-- Plan OWNER SAFE: Fokus/Præsentation uden topbjælke, touchvalg af fokuswidget og synlig temaknap i alle modaler. -->
+<style id="plan-focus-presentation-touch-theme-owner-style">
+/* Fokus og Præsentation bruger hele arbejdsfladen. K og B virker fortsat. */
+#tavleNextApp.focus-mode,
+#tavleNextApp[data-mode="presentation"]{
+  grid-template-rows:0 minmax(0,1fr)!important;
+}
+#tavleNextApp.focus-mode .tn-topbar,
+#tavleNextApp[data-mode="presentation"] .tn-topbar{
+  display:none!important;
+}
+#tavleNextApp.tn-mobile-shell.focus-mode,
+#tavleNextApp.tn-mobile-shell[data-mode="presentation"]{
+  grid-template-rows:0 minmax(0,1fr) 0!important;
+}
+#tavleNextApp.focus-mode .tn-global-calendar-panel,
+#tavleNextApp[data-mode="presentation"] .tn-global-calendar-panel{
+  top:0!important;
+}
+
+/* Et første tryk på en nedtonet widget flytter fokus til den i stedet for at
+   aktivere dens indhold. Capture-handleren nedenfor ejer selve første tryk. */
+#tavleNextApp.focus-mode .tn-widget:not(.focus-target){
+  pointer-events:auto!important;
+  cursor:pointer;
+  touch-action:manipulation;
+}
+
+/* Den eksisterende globale temaknap flyttes ind i den øverste modalheader.
+   Specialmodaler uden synlig header får den som flydende knap i modalens lag. */
+#tnModalThemeAlwaysButton.tn-modal-theme-inline{
+  position:static!important;
+  inset:auto!important;
+  z-index:auto!important;
+  flex:0 0 42px;
+  width:42px!important;
+  height:42px!important;
+  margin:0!important;
+  border-radius:12px!important;
+}
+#tnModalThemeAlwaysButton.tn-modal-theme-floating{
+  position:absolute!important;
+  top:max(10px,env(safe-area-inset-top))!important;
+  right:max(66px,calc(env(safe-area-inset-right) + 66px))!important;
+  z-index:20!important;
+}
+@media(max-width:620px){
+  #tnModalThemeAlwaysButton.tn-modal-theme-inline{
+    flex-basis:40px;
+    width:40px!important;
+    height:40px!important;
+  }
+  #tnModalThemeAlwaysButton.tn-modal-theme-floating{
+    top:max(7px,env(safe-area-inset-top))!important;
+    right:max(58px,calc(env(safe-area-inset-right) + 58px))!important;
+  }
+}
+</style>
+<script id="plan-focus-presentation-touch-theme-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__PLAN_FOCUS_PRESENTATION_TOUCH_THEME_OWNER__) return;
+  window.__PLAN_FOCUS_PRESENTATION_TOUCH_THEME_OWNER__ = true;
+
+  const App = TN.TavleNextApp;
+  if(!App) return;
+  const appNow = () => window.tavleNextApp || TN.runtime?.app || null;
+  const escapeId = value => {
+    try{return CSS.escape(String(value||''));}catch(_){return String(value||'').replace(/["\\]/g,'\\$&');}
+  };
+
+  /* I Fokus kan den nedtonede widget vælges direkte med mus, pen eller touch.
+     Første tryk flytter kun fokus; et efterfølgende tryk bruger widgetindholdet. */
+  document.addEventListener('pointerdown',event => {
+    const app = appNow(), root = app?.root;
+    if(!app || !root?.classList?.contains('focus-mode') || app.modalManager?.stack?.length) return;
+    const widgetEl = event.target?.closest?.('.tn-widget[data-widget-id]');
+    if(!widgetEl || !app.boardLayer?.contains?.(widgetEl)) return;
+    const id = String(widgetEl.dataset.widgetId||'');
+    if(!id) return;
+    const focusedId = String(TN.runtime?.focusWidgetId||'');
+    const selectedId = String(TN.runtime?.selectedWidgetId||'');
+
+    if(focusedId === id){
+      if(selectedId !== id) app.selectWidget?.(id);
+      return;
+    }
+
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation?.();
+    app.keyboardWidgetContentMode = null;
+    app.selectWidget?.(id);
+    app.setFocusTarget?.(id);
+    const element = app.boardLayer?.querySelector?.(`.tn-widget[data-widget-id="${escapeId(id)}"]`);
+    element?.focus?.({preventScroll:true});
+    Promise.resolve(app.raiseKeyboardWidget?.(id)).catch(error => console.warn('Kunne ikke løfte den valgte fokuswidget',error));
+  },true);
+
+  const getThemeButton = () => {
+    let button = document.getElementById('tnModalThemeAlwaysButton');
+    if(button) return button;
+    button = document.createElement('button');
+    button.id = 'tnModalThemeAlwaysButton';
+    button.type = 'button';
+    button.textContent = '◐';
+    button.title = 'Skift tema · B';
+    button.setAttribute('aria-label','Skift tema');
+    button.hidden = true;
+    button.addEventListener('pointerdown',event => event.stopPropagation());
+    button.addEventListener('click',event => {
+      event.preventDefault();
+      event.stopPropagation();
+      appNow()?.themeManager?.cycle?.();
+    });
+    (document.getElementById('tavleNextApp') || document.body).append(button);
+    return button;
+  };
+
+  const visible = element => {
+    if(!element || !element.isConnected || element.hidden) return false;
+    try{
+      const style=getComputedStyle(element),rect=element.getBoundingClientRect();
+      return style.display!=='none' && style.visibility!=='hidden' && rect.width>2 && rect.height>2;
+    }catch(_){return false;}
+  };
+
+  const syncThemeButton = () => {
+    const app = appNow(), button = getThemeButton();
+    const stack = app?.modalManager?.stack || [];
+    let layer = stack.at(-1)?.layer || null;
+    if(!layer){
+      const layers=[...document.querySelectorAll('.tn-modal-layer')].filter(visible);
+      layer=layers.at(-1)||null;
+    }
+    if(!layer){
+      button.hidden=true;
+      button.classList.remove('tn-modal-theme-inline','tn-modal-theme-floating');
+      const host=document.getElementById('tavleNextApp')||document.body;
+      if(button.parentElement!==host)host.append(button);
+      return;
+    }
+
+    const modal=layer.querySelector('.tn-modal'),header=modal?.querySelector(':scope > header'),close=header?.querySelector('[data-modal-close]');
+    let headerVisible=false;
+    try{headerVisible=!!header && getComputedStyle(header).display!=='none' && header.getBoundingClientRect().height>2;}catch(_){headerVisible=false;}
+    button.hidden=false;
+    button.classList.toggle('tn-modal-theme-inline',headerVisible);
+    button.classList.toggle('tn-modal-theme-floating',!headerVisible);
+    if(headerVisible){
+      if(button.parentElement!==header || button.nextElementSibling!==close) header.insertBefore(button,close||null);
+    }else if(button.parentElement!==layer){
+      layer.append(button);
+    }
+  };
+
+  const MM = TN.ModalManager;
+  if(MM?.prototype && !MM.prototype.__planVisibleThemeButtonOwner){
+    MM.prototype.__planVisibleThemeButtonOwner=true;
+    for(const name of ['open','close','closeAll']){
+      const original=MM.prototype[name];
+      if(typeof original!=='function') continue;
+      MM.prototype[name]=function(...args){
+        if(name!=='open'){
+          const button=document.getElementById('tnModalThemeAlwaysButton');
+          if(button){
+            const host=document.getElementById('tavleNextApp')||document.body;
+            if(button.parentElement?.classList?.contains('tn-modal-layer') || button.parentElement?.closest?.('.tn-modal-layer')) host.append(button);
+          }
+        }
+        const result=original.apply(this,args);
+        requestAnimationFrame(syncThemeButton);
+        setTimeout(syncThemeButton,0);
+        return result;
+      };
+    }
+  }
+
+  const modalRoot=document.getElementById('tnModalRoot');
+  if(modalRoot){
+    new MutationObserver(()=>requestAnimationFrame(syncThemeButton)).observe(modalRoot,{childList:true,subtree:true,attributes:true,attributeFilter:['class','hidden','style']});
+  }
+  window.addEventListener('resize',syncThemeButton,{passive:true});
+  requestAnimationFrame(syncThemeButton);
+
+  window.__PLAN_FOCUS_PRESENTATION_TOUCH_THEME_BUILD__='2026-07-05-owner-safe';
+})(window.TavleNext);
+</script>
+
+<!-- Plan OWNER SAFE: retter tom Fokus/Præsentation og giver en altid tilgængelig afslut-knap kun i de to tilstande. -->
+<style id="plan-focus-presentation-recovery-owner-style">
+/* Den tidligere todelte griddefinition gav den synlige tavle den sammenklappede
+   første række, fordi den skjulte topbjælke ikke længere deltog i layoutet. */
+#tavleNextApp.focus-mode,
+#tavleNextApp[data-mode="presentation"]{
+  grid-template-rows:minmax(0,1fr)!important;
+}
+#tavleNextApp.tn-mobile-shell.focus-mode,
+#tavleNextApp.tn-mobile-shell[data-mode="presentation"]{
+  grid-template-rows:minmax(0,1fr)!important;
+}
+#tavleNextApp.focus-mode > #tnViewport,
+#tavleNextApp[data-mode="presentation"] > #tnViewport{
+  grid-row:1!important;
+  min-height:0!important;
+  height:100%!important;
+  visibility:visible!important;
+  opacity:1!important;
+}
+#tavleNextApp.focus-mode #tnBoardLayer,
+#tavleNextApp.focus-mode #tnBoardCamera,
+#tavleNextApp[data-mode="presentation"] #tnBoardLayer,
+#tavleNextApp[data-mode="presentation"] #tnBoardCamera{
+  visibility:visible!important;
+  opacity:1!important;
+}
+
+/* Hvis Fokus er aktivt uden en gyldig fokuswidget, vises alle widgets normalt,
+   så en kan vælges direkte med klik eller touch. */
+#tavleNextApp.focus-mode:not(.plan-focus-has-target) .tn-widget{
+  opacity:1!important;
+  filter:none!important;
+  pointer-events:auto!important;
+  visibility:visible!important;
+}
+#tavleNextApp.focus-mode:not(.plan-focus-has-target) .tn-widget:not(.tn-runtime-minimized){
+  cursor:pointer;
+  touch-action:manipulation;
+}
+
+/* Nødudgangen er ikonbaseret og findes kun, mens Fokus eller Præsentation er aktiv. */
+#tnFocusPresentationResetButton{
+  display:none;
+  position:absolute;
+  top:max(10px,env(safe-area-inset-top));
+  right:max(12px,calc(env(safe-area-inset-right) + 12px));
+  z-index:980;
+  width:46px;
+  height:46px;
+  place-items:center;
+  padding:0;
+  border:1px solid color-mix(in srgb,var(--tn-accent,#60a5fa) 55%,var(--tn-line,#334155));
+  border-radius:14px;
+  background:color-mix(in srgb,var(--tn-panel,#0f172a) 90%,transparent);
+  color:var(--tn-ink,#f8fafc);
+  box-shadow:0 12px 34px rgba(2,6,23,.42),inset 0 1px 0 rgba(255,255,255,.09);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  font:900 25px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  cursor:pointer;
+  touch-action:manipulation;
+}
+#tavleNextApp.focus-mode > #tnFocusPresentationResetButton,
+#tavleNextApp[data-mode="presentation"] > #tnFocusPresentationResetButton{
+  display:grid;
+}
+#tnFocusPresentationResetButton:hover,
+#tnFocusPresentationResetButton:focus-visible{
+  outline:none;
+  border-color:var(--tn-accent,#60a5fa);
+  background:color-mix(in srgb,var(--tn-accent,#60a5fa) 22%,var(--tn-panel,#0f172a));
+}
+#tnFocusPresentationResetButton:active{transform:scale(.96)}
+@media(max-width:620px){
+  #tnFocusPresentationResetButton{
+    top:max(7px,env(safe-area-inset-top));
+    right:max(8px,calc(env(safe-area-inset-right) + 8px));
+    width:44px;
+    height:44px;
+    border-radius:13px;
+    font-size:24px;
+  }
+}
+</style>
+<script id="plan-focus-presentation-recovery-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__PLAN_FOCUS_PRESENTATION_RECOVERY_OWNER__) return;
+  window.__PLAN_FOCUS_PRESENTATION_RECOVERY_OWNER__=true;
+
+  const App=TN.TavleNextApp;
+  if(!App) return;
+  const proto=App.prototype;
+  const appNow=()=>window.tavleNextApp||TN.runtime?.app||null;
+  const esc=value=>{try{return CSS.escape(String(value||''));}catch(_){return String(value||'').replace(/["\\]/g,'\\$&');}};
+
+  const validFocusElement=app=>{
+    const id=String(TN.runtime?.focusWidgetId||'');
+    if(!app||!id) return null;
+    let element=null;
+    try{element=app.boardLayer?.querySelector?.(`.tn-widget[data-widget-id="${esc(id)}"]`)||null;}catch(_){element=null;}
+    if(!element || element.hidden || element.classList.contains('tn-runtime-minimized') || element.getAttribute('aria-hidden')==='true') return null;
+    return element;
+  };
+
+  let syncQueued=false;
+  const syncFocusAvailability=()=>{
+    syncQueued=false;
+    const app=appNow(),root=app?.root;
+    if(!app||!root) return;
+    const element=root.classList.contains('focus-mode')?validFocusElement(app):null;
+    root.classList.toggle('plan-focus-has-target',!!element);
+    if(root.classList.contains('focus-mode')){
+      app.boardLayer?.querySelectorAll?.('.tn-widget').forEach(node=>node.classList.toggle('focus-target',node===element));
+    }else{
+      root.classList.remove('plan-focus-has-target');
+    }
+  };
+  const scheduleSync=()=>{
+    if(syncQueued) return;
+    syncQueued=true;
+    requestAnimationFrame(syncFocusAvailability);
+  };
+
+  const ensureResetButton=()=>{
+    const app=appNow(),root=app?.root||document.getElementById('tavleNextApp');
+    if(!root) return null;
+    let button=document.getElementById('tnFocusPresentationResetButton');
+    if(!button){
+      button=document.createElement('button');
+      button.id='tnFocusPresentationResetButton';
+      button.type='button';
+      button.textContent='↺';
+      button.title='Afslut fokus eller præsentation';
+      button.setAttribute('aria-label','Afslut fokus eller præsentation');
+      button.addEventListener('pointerdown',event=>{
+        event.preventDefault();
+        event.stopPropagation();
+      });
+      button.addEventListener('click',async event=>{
+        event.preventDefault();
+        event.stopPropagation();
+        const current=appNow();
+        if(!current) return;
+        button.disabled=true;
+        try{
+          TN.runtime.focusWidgetId=null;
+          current.keyboardWidgetContentMode=null;
+          current.root?.classList?.remove('focus-mode','plan-focus-has-target');
+          current.boardLayer?.querySelectorAll?.('.focus-target,.keyboard-content-active').forEach(node=>node.classList.remove('focus-target','keyboard-content-active'));
+
+          const inPresentation=TN.runtime.mode==='presentation'||current.root?.dataset?.mode==='presentation';
+          if(inPresentation){
+            TN.runtime.mode='edit';
+            current.root.dataset.mode='edit';
+            current.updatePresentationControl?.();
+            await current.renderActiveBoard?.({preserveSelection:true});
+            current.updatePresentationControl?.();
+          }else{
+            current.applyBoardCamera?.({persist:false});
+            current.updateWidgetPicker?.();
+          }
+          current.showToolbar?.({delay:2400});
+          current.toast?.('Fokus og præsentation er afsluttet');
+        }catch(error){
+          console.error('Kunne ikke afslutte fokus/præsentation',error);
+          /* Sidste sikkerhedsnet: synlig tavle og redigering uden ny rendering. */
+          try{
+            TN.runtime.mode='edit';
+            TN.runtime.focusWidgetId=null;
+            current.root.dataset.mode='edit';
+            current.root.classList.remove('focus-mode','plan-focus-has-target');
+            current.boardLayer?.querySelectorAll?.('.focus-target').forEach(node=>node.classList.remove('focus-target'));
+            current.updatePresentationControl?.();
+          }catch(_){ }
+        }finally{
+          button.disabled=false;
+          scheduleSync();
+        }
+      });
+      root.append(button);
+    }else if(button.parentElement!==root){
+      root.append(button);
+    }
+    return button;
+  };
+
+  /* Bevar fokusmarkeringen efter genrendering, men lad en tavle uden målet stå
+     i en tydelig valgtilstand i stedet for at nedtone eller skjule alt. */
+  if(typeof proto.renderActiveBoard==='function' && !proto.renderActiveBoard.__planFocusRecoveryWrapped){
+    const original=proto.renderActiveBoard;
+    const wrapped=async function(...args){
+      const result=await original.apply(this,args);
+      ensureResetButton();
+      scheduleSync();
+      return result;
+    };
+    wrapped.__planFocusRecoveryWrapped=true;
+    proto.renderActiveBoard=wrapped;
+  }
+
+  const root=document.getElementById('tavleNextApp');
+  if(root){
+    ensureResetButton();
+    const observer=new MutationObserver(scheduleSync);
+    observer.observe(root,{subtree:true,childList:true,attributes:true,attributeFilter:['class','data-mode','hidden','aria-hidden','style']});
+  }
+
+  /* Escape er også en sikker udgang, når ingen modal eller maksimering ejer den. */
+  window.addEventListener('keydown',event=>{
+    if(event.key!=='Escape') return;
+    const app=appNow();
+    if(!app || app.modalManager?.stack?.length) return;
+    if(window.PlanMaximizedKeyboardOwner?.maxState?.(app)) return;
+    const active=app.root?.classList?.contains('focus-mode') || TN.runtime.mode==='presentation' || app.root?.dataset?.mode==='presentation';
+    if(!active) return;
+    event.preventDefault();
+    event.stopPropagation();
+    document.getElementById('tnFocusPresentationResetButton')?.click?.();
+  },true);
+
+  scheduleSync();
+  window.__PLAN_FOCUS_PRESENTATION_RECOVERY_BUILD__='2026-07-05-owner-safe';
+})(window.TavleNext);
+</script>
+<!-- Plan OWNER SAFE: stabil Fokus/Præsentation med bevaret topbjælke og uændret tavlegeometri. -->
+<style id="plan-focus-presentation-stable-topbar-owner-style">
+/* Bevar nøjagtigt den normale tredelte appgeometri. Toppanelet bliver stående,
+   så viewport, zoom, widgetpositioner og widgethøjder ikke hopper. */
+#tavleNextApp.focus-mode,
+#tavleNextApp[data-mode="presentation"]{
+  grid-template-rows:auto minmax(0,1fr) auto!important;
+}
+#tavleNextApp.tn-mobile-shell.focus-mode,
+#tavleNextApp.tn-mobile-shell[data-mode="presentation"]{
+  grid-template-rows:var(--tn-mobile-topbar-h,52px) minmax(0,1fr) 0!important;
+}
+#tavleNextApp.focus-mode > #tnViewport,
+#tavleNextApp[data-mode="presentation"] > #tnViewport{
+  grid-row:2!important;
+  min-height:0!important;
+  height:auto!important;
+}
+
+/* Toppanelet bevarer sin normale størrelse og sorte baggrund. Kun indholdet
+   skjules; resetknappen er den eneste synlige betjening i de to tilstande. */
+#tavleNextApp.focus-mode .tn-topbar,
+#tavleNextApp[data-mode="presentation"] .tn-topbar{
+  display:flex!important;
+  visibility:visible!important;
+  opacity:1!important;
+  position:relative!important;
+  min-height:54px!important;
+  background:#070d1a!important;
+  border-bottom-color:#172033!important;
+}
+#tavleNextApp.tn-mobile-shell.focus-mode .tn-topbar,
+#tavleNextApp.tn-mobile-shell[data-mode="presentation"] .tn-topbar{
+  display:grid!important;
+  min-height:var(--tn-mobile-topbar-h,52px)!important;
+  height:var(--tn-mobile-topbar-h,52px)!important;
+}
+#tavleNextApp.focus-mode .tn-topbar > :not(#tnFocusPresentationResetButton),
+#tavleNextApp[data-mode="presentation"] .tn-topbar > :not(#tnFocusPresentationResetButton){
+  visibility:hidden!important;
+  opacity:0!important;
+  pointer-events:none!important;
+}
+
+/* Reset ligger i det bevarede toppanel og påvirker ikke panelets layout. */
+#tnFocusPresentationResetButton{
+  display:none!important;
+  position:absolute!important;
+  top:50%!important;
+  right:max(10px,calc(env(safe-area-inset-right,0px) + 10px))!important;
+  transform:translateY(-50%)!important;
+  z-index:4!important;
+  width:42px!important;
+  height:42px!important;
+  margin:0!important;
+  place-items:center!important;
+  padding:0!important;
+  border:1px solid #426187!important;
+  border-radius:12px!important;
+  background:#111c2e!important;
+  color:#f8fafc!important;
+  box-shadow:inset 0 1px 0 #ffffff16,0 5px 16px #0006!important;
+  font:900 24px/1 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  cursor:pointer!important;
+  touch-action:manipulation!important;
+}
+#tavleNextApp.focus-mode .tn-topbar > #tnFocusPresentationResetButton,
+#tavleNextApp[data-mode="presentation"] .tn-topbar > #tnFocusPresentationResetButton{
+  display:grid!important;
+  visibility:visible!important;
+  opacity:1!important;
+  pointer-events:auto!important;
+}
+#tnFocusPresentationResetButton:hover,
+#tnFocusPresentationResetButton:focus-visible{
+  outline:2px solid #60a5fa!important;
+  outline-offset:2px!important;
+  border-color:#60a5fa!important;
+  background:#172b47!important;
+}
+#tnFocusPresentationResetButton:active{
+  transform:translateY(-50%) scale(.96)!important;
+}
+
+/* Fokus uden valgt mål er en neutral valgtilstand: alle synlige widgets står
+   præcis som før og kan vælges direkte med klik eller touch. */
+#tavleNextApp.focus-mode:not(.plan-focus-has-target) .tn-widget{
+  opacity:1!important;
+  filter:none!important;
+  visibility:visible!important;
+  pointer-events:auto!important;
+}
+#tavleNextApp.focus-mode:not(.plan-focus-has-target) .tn-widget:not(.tn-runtime-minimized){
+  cursor:pointer!important;
+  touch-action:manipulation!important;
+}
+
+/* Det globale kalenderpanel begynder under det bevarede toppanel. */
+#tavleNextApp.focus-mode .tn-global-calendar-panel,
+#tavleNextApp[data-mode="presentation"] .tn-global-calendar-panel{
+  top:var(--tn-mobile-topbar-h,54px)!important;
+}
+</style>
+<script id="plan-focus-presentation-stable-topbar-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__PLAN_FOCUS_PRESENTATION_STABLE_TOPBAR_OWNER__) return;
+  window.__PLAN_FOCUS_PRESENTATION_STABLE_TOPBAR_OWNER__=true;
+
+  const App=TN.TavleNextApp;
+  if(!App) return;
+  const proto=App.prototype;
+  const appNow=()=>window.tavleNextApp||TN.runtime?.app||null;
+
+  const clearFocus=function(app){
+    TN.runtime.focusWidgetId=null;
+    app.keyboardWidgetContentMode=null;
+    app.root?.classList?.remove('focus-mode','plan-focus-has-target');
+    app.boardLayer?.querySelectorAll?.('.focus-target,.keyboard-content-active').forEach(node=>node.classList.remove('focus-target','keyboard-content-active'));
+    app.updateWidgetPicker?.();
+  };
+
+  const syncFocusState=function(app){
+    if(!app?.root) return;
+    const id=String(TN.runtime.focusWidgetId||'');
+    let target=null;
+    if(id){
+      try{target=app.boardLayer?.querySelector?.(`.tn-widget[data-widget-id="${CSS.escape(id)}"]`)||null;}catch(_){target=null;}
+    }
+    const valid=!!(target && !target.hidden && !target.classList.contains('tn-runtime-minimized') && target.getAttribute('aria-hidden')!=='true');
+    app.root.classList.toggle('plan-focus-has-target',app.root.classList.contains('focus-mode')&&valid);
+    app.boardLayer?.querySelectorAll?.('.tn-widget').forEach(node=>node.classList.toggle('focus-target',valid&&node===target));
+  };
+
+  /* Fokus kan nu startes uden valgt widget. Et nyt F afslutter fokus igen.
+     En widgetmenu med et konkret target vælger fortsat netop den widget. */
+  proto.toggleFocus=function(targetId=null){
+    const active=this.root?.classList?.contains('focus-mode');
+    const explicitId=targetId?String(targetId):'';
+    const selectedId=String(TN.runtime.selectedWidgetId||'');
+    const requestedId=explicitId||(!active?selectedId:'');
+
+    if(active){
+      if(explicitId && String(TN.runtime.focusWidgetId||'')!==explicitId){
+        if(TN.runtime.selectedWidgetId!==explicitId)this.selectWidget?.(explicitId);
+        this.setFocusTarget?.(explicitId);
+        syncFocusState(this);
+        return;
+      }
+      clearFocus(this);
+      this.applyBoardCamera?.({persist:false});
+      return;
+    }
+
+    this.keyboardWidgetContentMode=null;
+    this.root?.classList?.add('focus-mode');
+    this.root?.classList?.remove('plan-focus-has-target');
+    TN.runtime.focusWidgetId=null;
+    this.boardLayer?.querySelectorAll?.('.focus-target').forEach(node=>node.classList.remove('focus-target'));
+
+    if(requestedId){
+      if(TN.runtime.selectedWidgetId!==requestedId)this.selectWidget?.(requestedId);
+      this.setFocusTarget?.(requestedId);
+    }else{
+      this.updateWidgetPicker?.();
+    }
+    syncFocusState(this);
+  };
+
+  /* Præsentation skifter kun tilstand og CSS. Tavlen genrenderes ikke ved
+     skiftet, så widgetgeometri, PDF-højde, zoom og panorering forbliver urørte. */
+  proto.togglePresentation=async function(){
+    if(this.boardDrawing?.active) await this.stopBoardDrawing?.({silent:true});
+    const entering=TN.runtime.mode!=='presentation';
+    TN.runtime.mode=entering?'presentation':'edit';
+    if(this.root)this.root.dataset.mode=TN.runtime.mode;
+    this.updatePresentationControl?.();
+    this.applyBoardCamera?.({persist:false});
+    this.updateWidgetPicker?.();
+    this.toast?.(entering?'Præsentation':'Redigering');
+    ensureResetButton();
+  };
+
+  const exitModes=async function(app){
+    if(!app) return;
+    clearFocus(app);
+    if(TN.runtime.mode==='presentation'||app.root?.dataset?.mode==='presentation'){
+      TN.runtime.mode='edit';
+      if(app.root)app.root.dataset.mode='edit';
+      app.updatePresentationControl?.();
+    }
+    app.applyBoardCamera?.({persist:false});
+    app.updateWidgetPicker?.();
+    app.showToolbar?.({delay:2400});
+  };
+
+  const ensureResetButton=function(){
+    const app=appNow(),root=app?.root||document.getElementById('tavleNextApp');
+    const topbar=root?.querySelector?.('.tn-topbar');
+    if(!root||!topbar) return null;
+
+    const old=document.getElementById('tnFocusPresentationResetButton');
+    if(old && !old.dataset.stableTopbarOwner){
+      old.remove();
+    }
+    let button=document.getElementById('tnFocusPresentationResetButton');
+    if(!button){
+      button=document.createElement('button');
+      button.id='tnFocusPresentationResetButton';
+      button.dataset.stableTopbarOwner='1';
+      button.type='button';
+      button.textContent='↺';
+      button.title='Afslut fokus eller præsentation';
+      button.setAttribute('aria-label','Afslut fokus eller præsentation');
+      button.addEventListener('pointerdown',event=>{
+        event.preventDefault();
+        event.stopPropagation();
+      });
+      button.addEventListener('click',async event=>{
+        event.preventDefault();
+        event.stopPropagation();
+        button.disabled=true;
+        try{await exitModes(appNow());}
+        catch(error){console.error('Kunne ikke afslutte fokus/præsentation',error);}
+        finally{button.disabled=false;}
+      });
+    }
+    if(button.parentElement!==topbar)topbar.append(button);
+    return button;
+  };
+
+  /* Genskab resetknappen efter app- eller topbjælkegenrendering. */
+  const root=document.getElementById('tavleNextApp');
+  if(root){
+    ensureResetButton();
+    new MutationObserver(()=>{
+      ensureResetButton();
+      syncFocusState(appNow());
+    }).observe(root,{subtree:true,childList:true,attributes:true,attributeFilter:['class','data-mode','hidden','aria-hidden']});
+  }
+
+  if(typeof proto.renderActiveBoard==='function' && !proto.renderActiveBoard.__planStableTopbarWrapped){
+    const original=proto.renderActiveBoard;
+    const wrapped=async function(...args){
+      const result=await original.apply(this,args);
+      ensureResetButton();
+      syncFocusState(this);
+      return result;
+    };
+    wrapped.__planStableTopbarWrapped=true;
+    proto.renderActiveBoard=wrapped;
+  }
+
+  /* Esc afslutter tilstanden, når ingen modal eller maksimeret widget ejer Esc. */
+  window.addEventListener('keydown',event=>{
+    if(event.key!=='Escape') return;
+    const app=appNow();
+    if(!app||app.modalManager?.stack?.length) return;
+    if(window.PlanMaximizedKeyboardOwner?.maxState?.(app)) return;
+    const active=app.root?.classList?.contains('focus-mode')||TN.runtime.mode==='presentation'||app.root?.dataset?.mode==='presentation';
+    if(!active) return;
+    event.preventDefault();
+    event.stopPropagation();
+    void exitModes(app);
+  },true);
+
+  ensureResetButton();
+  syncFocusState(appNow());
+  window.__PLAN_FOCUS_PRESENTATION_STABLE_TOPBAR_BUILD__='2026-07-05-owner-safe';
+})(window.TavleNext);
+</script>
+
+<!-- Plan OWNER SAFE: rolig sort billedflade i Fokus og Præsentation. -->
+<style id="plan-focus-image-black-stage-owner-style">
+/* Billedets faktiske pixels ændres ikke. Kun den ledige flade omkring et
+   contain-tilpasset billede bliver sort, så hvide sidefelter ikke blænder. */
+#tavleNextApp.focus-mode .tn-widget.type-image.focus-target > .tn-widget-body,
+#tavleNextApp.focus-mode .tn-widget.type-image.focus-target > .tn-widget-body > .tn-image-content,
+#tavleNextApp[data-mode="presentation"] .tn-widget.type-image > .tn-widget-body,
+#tavleNextApp[data-mode="presentation"] .tn-widget.type-image > .tn-widget-body > .tn-image-content{
+  background:#000!important;
+}
+</style>
+
+<!-- Plan OWNER SAFE: tavlespecifik markering af valgt widget. -->
+<style id="plan-board-selection-marking-owner-style">
+.tn-background-marking-card{margin-top:0;padding:0;border:1px solid var(--tn-line);border-radius:14px;background:color-mix(in srgb,var(--tn-panel2) 88%,transparent);overflow:hidden}
+.tn-background-marking-card details{padding:0}
+.tn-background-marking-card summary{padding:13px 14px;font-weight:900;cursor:pointer;list-style-position:inside;touch-action:manipulation}
+.tn-background-marking-card details[open] summary{border-bottom:1px solid var(--tn-line)}
+.tn-background-marking-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:12px 14px 6px}
+.tn-background-custom-color[hidden]{display:none!important}
+.tn-background-custom-color input[type="color"]{width:100%;min-height:42px;padding:4px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel)}
+.tn-background-marking-modes{display:flex;flex-wrap:wrap;gap:10px 16px;margin:6px 14px 0;padding:10px 12px 12px;border:1px solid var(--tn-line);border-radius:12px}
+.tn-background-marking-modes legend{padding:0 6px;font-weight:850}
+.tn-background-marking-modes label{display:flex;align-items:center;gap:7px;font-weight:750}
+.tn-background-marking-modes input{width:18px;height:18px}
+.tn-background-marking-card p{margin:10px 14px 14px;color:var(--tn-muted);font-size:13px;line-height:1.35}
+@media(max-width:680px){.tn-background-marking-grid{grid-template-columns:1fr}.tn-background-marking-modes{display:grid;grid-template-columns:1fr 1fr}}
+
+/* Standarden for ældre tavler er diskret tema-kant i Redigering og Fokus.
+   Resize- og rotationsgreb ændres ikke af disse regler. */
+#tavleNextApp{--plan-widget-selection-color:var(--tn-accent,#60a5fa)}
+#tavleNextApp[data-selection-strength="subtle"] .tn-widget.selected{outline:1px solid var(--plan-widget-selection-color)!important;outline-offset:2px!important}
+#tavleNextApp[data-selection-strength="strong"] .tn-widget.selected{outline:3px solid var(--plan-widget-selection-color)!important;outline-offset:3px!important}
+#tavleNextApp[data-selection-strength="none"] .tn-widget.selected,
+#tavleNextApp:not(.focus-mode):not([data-mode="presentation"])[data-selection-edit="0"] .tn-widget.selected,
+#tavleNextApp.focus-mode[data-selection-focus="0"] .tn-widget.selected,
+#tavleNextApp[data-mode="presentation"][data-selection-presentation="0"] .tn-widget.selected{outline:none!important;outline-offset:0!important}
+</style>
+<script id="plan-board-selection-marking-owner">
+(function(TN){
+  'use strict';
+  if(!TN||window.__PLAN_BOARD_SELECTION_MARKING_OWNER__)return;
+  window.__PLAN_BOARD_SELECTION_MARKING_OWNER__=true;
+  const App=TN.TavleNextApp;if(!App)return;const proto=App.prototype;
+  const defaults={strength:'subtle',color:'theme',customColor:'#94a3b8',showEdit:true,showFocus:true,showPresentation:false};
+  const normalize=background=>{
+    const raw=background?.selectionMarking||{},mark={...defaults,...raw};
+    if(!['none','subtle','strong'].includes(mark.strength))mark.strength='subtle';
+    if(!['theme','white','gray','yellow','custom'].includes(mark.color))mark.color='theme';
+    if(!/^#[0-9a-f]{6}$/i.test(String(mark.customColor||'')))mark.customColor=defaults.customColor;
+    mark.showEdit=mark.showEdit!==false;mark.showFocus=mark.showFocus!==false;mark.showPresentation=!!mark.showPresentation;
+    return mark;
+  };
+  const colorValue=mark=>({theme:'var(--tn-accent,#60a5fa)',white:'#f8fafc',gray:'#94a3b8',yellow:'#facc15',custom:mark.customColor}[mark.color]||'var(--tn-accent,#60a5fa)');
+  proto.applyBoardSelectionAppearance=function(board=TN.runtime.activeBoard){
+    const root=this.root||document.getElementById('tavleNextApp');if(!root)return;
+    const mark=normalize(board?.background);
+    root.dataset.selectionStrength=mark.strength;
+    root.dataset.selectionEdit=mark.showEdit?'1':'0';
+    root.dataset.selectionFocus=mark.showFocus?'1':'0';
+    root.dataset.selectionPresentation=mark.showPresentation?'1':'0';
+    root.style.setProperty('--plan-widget-selection-color',colorValue(mark));
+  };
+  if(typeof proto.applyBoardBackground==='function'&&!proto.applyBoardBackground.__planSelectionMarkingWrapped){
+    const original=proto.applyBoardBackground;
+    const wrapped=function(board,...args){const result=original.call(this,board,...args);this.applyBoardSelectionAppearance?.(board||TN.runtime.activeBoard);return result;};
+    wrapped.__planSelectionMarkingWrapped=true;proto.applyBoardBackground=wrapped;
+  }
+  if(typeof proto.renderActiveBoard==='function'&&!proto.renderActiveBoard.__planSelectionMarkingWrapped){
+    const original=proto.renderActiveBoard;
+    const wrapped=async function(...args){const result=await original.apply(this,args);this.applyBoardSelectionAppearance?.(TN.runtime.activeBoard);return result;};
+    wrapped.__planSelectionMarkingWrapped=true;proto.renderActiveBoard=wrapped;
+  }
+  requestAnimationFrame(()=>{const app=window.tavleNextApp||TN.runtime?.app;app?.applyBoardSelectionAppearance?.(TN.runtime.activeBoard);});
+  window.__PLAN_BOARD_SELECTION_MARKING_BUILD__='2026-07-05-owner-safe';
+})(window.TavleNext);
+</script>
+
+<!-- Plan OWNER SAFE: PDF beholder den præcise lodrette sideplacering i Fokus/Præsentation. -->
+<style id="plan-pdf-exact-page-position-owner-style">
+/*
+  Titelbjælken og PDF-værktøjslinjen må gerne forsvinde, men deres hidtidige
+  højde reserveres inde i PDF-scenen. Højden måles pr. widget i almindelig
+  visning, så løsningen også virker ved iPad-zoom, rotation og kompakte
+  widgetoverskrifter.
+*/
+#tavleNextApp[data-mode="presentation"] .tn-widget.type-pdf:not(.maximized):not(.tn-transient-maximized) .pdfViewer,
+#tavleNextApp.focus-mode .tn-widget.type-pdf.focus-target:not(.maximized):not(.tn-transient-maximized) .pdfViewer{
+  padding-top:var(--plan-pdf-chrome-reserve,8px)!important;
+  box-sizing:border-box!important;
+}
+
+/* Maksimeret PDF skal fortsat bruge hele fladen. */
+#tavleNextApp .tn-widget.type-pdf.maximized .pdfViewer,
+#tavleNextApp .tn-widget.type-pdf.tn-transient-maximized .pdfViewer{
+  padding-top:0!important;
+}
+</style>
+<script id="plan-pdf-exact-page-position-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__PLAN_PDF_EXACT_PAGE_POSITION_OWNER__) return;
+  window.__PLAN_PDF_EXACT_PAGE_POSITION_OWNER__=true;
+
+  const App=TN.TavleNextApp;
+  if(!App) return;
+  const proto=App.prototype;
+  const appNow=()=>window.tavleNextApp||TN.runtime?.app||null;
+
+  const isShown=node=>{
+    if(!node?.isConnected) return false;
+    const style=getComputedStyle(node);
+    return style.display!=='none' && style.visibility!=='hidden';
+  };
+
+  const measurePdfWidget=(app,widgetEl)=>{
+    if(!app?.root || !widgetEl?.matches?.('.tn-widget.type-pdf')) return 0;
+    if(widgetEl.classList.contains('maximized')||widgetEl.classList.contains('tn-transient-maximized')) return 0;
+
+    const header=widgetEl.querySelector(':scope > .tn-widget-header');
+    const toolbar=widgetEl.querySelector('.tn-pdf-toolbar');
+    const viewer=widgetEl.querySelector('.pdfViewer');
+    if(!header||!toolbar||!viewer) return 0;
+
+    /* Mål kun mens chrome faktisk er synlig. En tidligere måling bevares,
+       hvis funktionen kaldes efter at Fokus/Præsentation allerede er aktiv. */
+    if(!isShown(header)||!isShown(toolbar)){
+      return Number.parseFloat(widgetEl.style.getPropertyValue('--plan-pdf-chrome-reserve'))||0;
+    }
+
+    const headerHeight=Math.max(0,header.offsetHeight||0);
+    const toolbarHeight=Math.max(0,toolbar.offsetHeight||0);
+    const viewerPadding=Math.max(0,Number.parseFloat(getComputedStyle(viewer).paddingTop)||0);
+    const reserve=Math.round((headerHeight+toolbarHeight+viewerPadding)*100)/100;
+    if(reserve>0) widgetEl.style.setProperty('--plan-pdf-chrome-reserve',`${reserve}px`);
+    return reserve;
+  };
+
+  const measureAll=(app=appNow())=>{
+    if(!app?.boardLayer) return;
+    app.boardLayer.querySelectorAll('.tn-widget.type-pdf').forEach(widget=>measurePdfWidget(app,widget));
+  };
+
+  /* Mål umiddelbart før Præsentation skjuler titel og PDF-værktøjslinje. */
+  if(typeof proto.togglePresentation==='function'&&!proto.togglePresentation.__planPdfExactPositionWrapped){
+    const original=proto.togglePresentation;
+    const wrapped=async function(...args){
+      const entering=TN.runtime.mode!=='presentation' && this.root?.dataset?.mode!=='presentation';
+      if(entering) measureAll(this);
+      const result=await original.apply(this,args);
+      if(!entering) requestAnimationFrame(()=>measureAll(this));
+      return result;
+    };
+    wrapped.__planPdfExactPositionWrapped=true;
+    proto.togglePresentation=wrapped;
+  }
+
+  /* Mål den valgte PDF før Fokus aktiveres via menu/genvej. */
+  if(typeof proto.toggleFocus==='function'&&!proto.toggleFocus.__planPdfExactPositionWrapped){
+    const original=proto.toggleFocus;
+    const wrapped=function(targetId=null,...args){
+      const active=this.root?.classList?.contains('focus-mode');
+      if(!active||targetId){
+        const id=String(targetId||TN.runtime.selectedWidgetId||'');
+        let widget=null;
+        if(id){
+          try{widget=this.boardLayer?.querySelector?.(`.tn-widget.type-pdf[data-widget-id="${CSS.escape(id)}"]`)||null;}catch(_){widget=null;}
+        }
+        if(widget) measurePdfWidget(this,widget);
+        else measureAll(this);
+      }
+      return original.call(this,targetId,...args);
+    };
+    wrapped.__planPdfExactPositionWrapped=true;
+    proto.toggleFocus=wrapped;
+  }
+
+  /* På touch kan Fokus stå uden mål. Window-capture kører før Plans
+     document-handler og når derfor at måle PDF'en, før første tryk skjuler
+     dens chrome og gør den til fokusmål. */
+  window.addEventListener('pointerdown',event=>{
+    const app=appNow();
+    if(!app?.root?.classList?.contains('focus-mode')) return;
+    const widget=event.target?.closest?.('.tn-widget.type-pdf');
+    if(widget && app.boardLayer?.contains(widget)) measurePdfWidget(app,widget);
+  },true);
+
+  /* PDF-indhold oprettes asynkront. Mål igen, når toolbar/viewer dukker op. */
+  let observer=null;
+  const ensureObserver=()=>{
+    const app=appNow();
+    if(!app?.boardLayer) return;
+    observer?.disconnect?.();
+    observer=new MutationObserver(records=>{
+      if(!records.some(record=>record.addedNodes?.length)) return;
+      requestAnimationFrame(()=>measureAll(app));
+    });
+    observer.observe(app.boardLayer,{childList:true,subtree:true});
+    measureAll(app);
+  };
+
+  requestAnimationFrame(()=>{
+    ensureObserver();
+    requestAnimationFrame(()=>measureAll());
+    setTimeout(()=>measureAll(),350);
+    setTimeout(()=>measureAll(),1200);
+  });
+
+  window.__PLAN_PDF_EXACT_PAGE_POSITION_BUILD__='2026-07-05-owner-safe';
+})(window.TavleNext);
+</script>
 </body>
 </html>
