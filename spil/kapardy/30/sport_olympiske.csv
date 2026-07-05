@@ -1,31 +1,31 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Sport og OL,Hvilken by var vært for de første moderne OL i 1896?,100,Athen,Paris,London,Rom
-Sport og OL,"Hvad hedder den disciplin, hvor man kaster et spyd?",200,Spydkast,Diskoskast,Kuglestød,Højdespring
-Sport og OL,Hvilken dansk svømmer vandt guld på 50 m fri ved OL i 2016?,300,Pernille Blume,Jeanette Ottesen,Lotte Friis,Mette Jacobsen
-Sport og OL,Hvilket land har vundet flest OL-guldmedaljer gennem tiderne?,400,USA,Kina,Rusland,Tyskland
-Sport og OL,"Hvad hedder den olympiske fakkelceremoni, hvor ilden tændes?",500,Åbningsceremonien,Aflæggelsen af eden,Sejrsfesten,Slutceremonien
-Sport og OL,Hvilket dansk håndboldlandshold vandt OL-guld i 2016?,600,Danmarks herrelandshold,Danmarks kvindelandshold,Frankrigs landshold,Norges landshold
-Sport og OL,"Hvad hedder den olympiske disciplin, hvor man kører på is i en bob?",700,Bobslæde,Luge,Skihop,Curling
-Sport og OL,Hvilket land var vært for vinter-OL i 2022?,800,Kina,Japan,Canada,Rusland
-Sport og OL,"Hvilken dansk roer er kendt for flere OL-guldmedaljer?",900,Eskild Ebbesen,Pernille Blume,Viktor Axelsen,Michael Laudrup
-Sport og OL,Hvilket spil foregår på is med sten og koste?,1000,Curling,Ishockey,Skiskydning,Bobslæde
-Sport og OL,Hvilken atlet slog rekorden med 8 OL-guld på én olympiade i 2008?,1100,Michael Phelps,Usain Bolt,Carl Lewis,Ian Thorpe
-Sport og OL,Hvilket land har vundet flest VM-titler i fodbold?,1200,Brasilien,Tyskland,Italien,Argentina
-Sport og OL,"Hvad hedder den danske cykelrytter, der vandt Tour de France 2022?",1300,Jonas Vingegaard,Michael Rasmussen,Bjarne Riis,Rasmus Pedersen
-Sport og OL,Hvilken disciplin kombinerer langrend og skiskydning?,1400,Biathlon,Nordisk kombination,Skihop,Snowboard
-Sport og OL,Hvad hedder den mest prestigefyldte tennisturnering i England?,1500,Wimbledon,US Open,Roland Garros,Australian Open
-Sport og OL,Hvilket land hostede sommer-OL i 2012?,1600,Storbritannien,Brasilien,Kina,Grækenland
-Sport og OL,Hvilken atlet er kendt som verdens hurtigste mand?,1700,Usain Bolt,Maurice Greene,Justin Gatlin,Carl Lewis
-Sport og OL,Hvilken disciplin er ikke en del af moderne femkamp?,1800,Skak,Ridning,Skydning,Svømning
-Sport og OL,"Hvad hedder den danske badmintonspiller, der vandt VM 2017?",1900,Viktor Axelsen,Peter Gade,Jan Ø. Jørgensen,Kenneth Jonassen
-Sport og OL,Hvilket land har vundet flest OL-medaljer i ishockey?,2000,Canada,Rusland,Sverige,USA
-Sport og OL,Hvilket sportssymbol består af fem ringe?,2100,Det olympiske flag,FIFA-logoet,Tour de France-logoet,Davis Cup
-Sport og OL,Hvilket land vandt EM i fodbold i 1992?,2200,Danmark,Holland,Tyskland,Sovjetunionen
-Sport og OL,"Hvilket løb er 42, 195 km langt?",2300,Maraton,Halvmaraton,Triatlon,10 km
-Sport og OL,Hvilken dansk sejler vandt fire OL-guld og regnes blandt Danmarks største olympiere?,2400,Paul Elvstrøm,Jesper Bank,Jonas Høgh-Christensen,Jens Langkjær
-Sport og OL,Hvilket land vandt håndbold-VM for herrer i 2023?,2500,Danmark,Frankrig,Sverige,Norge
-Sport og OL,Hvilken dansk tennisspiller blev verdensetter i 2010?,2600,Caroline Wozniacki,Clara Tauson,Holger Rune,Kenneth Carlsen
-Sport og OL,Hvilket land forbindes med sporten sumobrydning?,2700,Japan,Kina,Korea,Thailand
-Sport og OL,Hvad hedder sportens højeste organisation for fodbold?,2800,FIFA,UEFA,IOC,IAAF
-Sport og OL,Hvilket redskab bruges i badminton?,2900,Ketsjer,Bat,Kølle,Pind
-Sport og OL,Hvor mange spillere er der på banen for ét fodboldhold?,3000,11,10,12,9
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1948?,100,London,Paris,Athen,Helsinki,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1932?,200,Los Angeles,San Diego,San Francisco,Seattle,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1920?,300,Antwerpen,Bruxelles,Gent,Amsterdam,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1912?,400,Stockholm,Göteborg,Oslo,Helsinki,,,
+Værtsbyer og år,"Hvilken by overtog værtskabet for sommerlegene 1908, efter at Rom trak sig?",500,London,Manchester,Paris,Athen,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1904?,600,St. Louis,Chicago,Boston,Philadelphia,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1900?,700,Paris,Athen,London,Bruxelles,,,
+Værtsbyer og år,"Hvilken by lagde navn til sommer-OL 2020, som på grund af pandemien blev afholdt i 2021?",800,Tokyo,Beijing,Seoul,Osaka,,,
+Sportsgrene og discipliner,Hvilke tre dele består den olympiske standardtriatlon af?,100,"1500 m svømning, 40 km cykling og 10 km løb","750 m svømning, 20 km cykling og 5 km løb","3 km svømning, 100 km cykling og 30 km løb","10 km løb, 40 km roning og 1500 m svømning",,,
+Sportsgrene og discipliner,Hvilke fem discipliner indgik i moderne femkamp ved Paris 2024?,200,"fægtning, svømning, ridning samt kombineret løb og skydning","cykling, roning, tennis, boksning og løb","fægtning, gymnastik, ridning, kajak og bueskydning","svømning, vægtløftning, judo, skydning og cykling",,,
+Sportsgrene og discipliner,Hvilket gymnastikredskab bruges kun i mændenes redskabsgymnastik?,300,bensvinghest,bom,forskudt barre,rytmegymnastisk bånd,,,
+Sportsgrene og discipliner,Hvilket gymnastikredskab bruges kun i kvindernes redskabsgymnastik?,400,bom,ringe,bensvinghest,reck,,,
+Sportsgrene og discipliner,Hvilken skydedisciplin kombineres med løb i laser-run under moderne femkamp?,500,pistolskydning,riffelskydning,bueskydning,lerdueskydning,,,
+Sportsgrene og discipliner,"Hvilken atletikdisciplin bruger et kugleformet metalredskab, der stødes fra skulderen?",600,kuglestød,diskoskast,hammerkast,spydkast,,,
+Sportsgrene og discipliner,"Hvilken cykeldisciplin køres på en stejl, oval indendørs eller udendørs bane?",700,banecykling,mountainbike,BMX freestyle,landevejscykling,,,
+Sportsgrene og discipliner,Hvilken vandsport har discipliner som kajak og canadier på fladt vand?,800,sprintkajak og -kano,roning,sejlsport,vandpolo,,,
+Symboler og organisation,Hvem komponerede den olympiske hymne?,100,Spyridon Samaras,Mikis Theodorakis,Manos Hatzidakis,Vangelis,,,
+Symboler og organisation,Hvem skrev teksten til den olympiske hymne?,200,Kostis Palamas,Nikos Kazantzakis,Odysseas Elytis,Konstantinos Kavafis,,,
+Symboler og organisation,Hvilken rækkefølge har medaljerne fra første- til tredjeplads?,300,"guld, sølv, bronze","guld, bronze, sølv","sølv, guld, bronze","bronze, sølv, guld",,,
+Symboler og organisation,Hvad modtog sejrherrerne ved de antikke lege i Olympia som hæderstegn?,400,en krans af vilde olivengrene,en guldmedalje,en laurbærkrans af sølv,en kongekrone,,,
+Symboler og organisation,"Hvilket ord blev i 2021 føjet til mottoet “Citius, Altius, Fortius”?",500,"Communiter, sammen","Aeternum, for evigt","Gloria, ære","Unitas, enhed",,,
+Symboler og organisation,"Hvad betyder “Citius, Altius, Fortius” på dansk?",600,"hurtigere, højere, stærkere","fred, venskab, respekt","vilje, mod, sejr","længere, dybere, sikrere",,,
+Symboler og organisation,Hvilken organisation styrer den paralympiske bevægelse globalt?,700,"International Paralympic Committee, IPC","International Olympic Committee, IOC",World Athletics,Special Olympics International,,,
+Atleter og præstationer,Hvilken australsk løber tændte OL-ilden og vandt 400 meter ved Sydney 2000?,100,Cathy Freeman,Sally Pearson,Nova Peris,Raelene Boyle,,,
+Atleter og præstationer,Hvilken vægtløfter vandt olympisk guld ved tre lege i træk fra 1988 til 1996?,200,Naim Süleymanoğlu,Pyrros Dimas,Vasily Alekseyev,Kakhi Kakhiashvili,,,
+Atleter og præstationer,Hvilken tysk kajakroer vandt olympisk guld ved seks forskellige lege mellem 1980 og 2004?,300,Birgit Fischer,Josefa Idem,Rita Kőbán,Danuta Kozák,,,
+Atleter og præstationer,Hvilken dansk sejler vandt fire olympiske guldmedaljer i træk fra 1948 til 1960?,400,Paul Elvstrøm,Jesper Bank,Jonas Høgh-Christensen,Valdemar Bandolowski,,,
+Atleter og præstationer,Hvilken dansk roer vandt tre olympiske guldmedaljer i letvægtsfirer uden styrmand?,500,Eskild Ebbesen,Thomas Ebert,Mads Rasmussen,Victor Feddersen,,,
+Atleter og præstationer,Hvilken dansk svømmer vandt guld på 50 meter fri ved Rio 2016?,600,Pernille Blume,Lotte Friis,Jeanette Ottesen,Mette Jacobsen,,,
+Atleter og præstationer,Hvilken amerikansk atlet vandt fire guldmedaljer i atletik ved Los Angeles 1984?,700,Carl Lewis,Edwin Moses,Calvin Smith,Daley Thompson,,,

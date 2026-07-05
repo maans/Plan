@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Sport og OL,Hvilken by var vært for de første moderne OL i 1896?,100,Athen,Paris,London,Rom
-Sport og OL,"Hvad hedder den disciplin, hvor man kaster et spyd?",200,Spydkast,Diskoskast,Kuglestød,Højdespring
-Sport og OL,Hvilken dansk svømmer vandt guld på 50 m fri ved OL i 2016?,300,Pernille Blume,Jeanette Ottesen,Lotte Friis,Mette Jacobsen
-Sport og OL,Hvilket land har vundet flest OL-guldmedaljer gennem tiderne?,400,USA,Kina,Rusland,Tyskland
-Sport og OL,"Hvad hedder den olympiske fakkelceremoni, hvor ilden tændes?",500,Åbningsceremonien,Aflæggelsen af eden,Sejrsfesten,Slutceremonien
-Sport og OL,Hvilket dansk håndboldlandshold vandt OL-guld i 2016?,600,Danmarks herrelandshold,Danmarks kvindelandshold,Frankrigs landshold,Norges landshold
-Sport og OL,"Hvad hedder den olympiske disciplin, hvor man kører på is i en bob?",700,Bobslæde,Luge,Skihop,Curling
-Sport og OL,Hvilket land var vært for vinter-OL i 2022?,800,Kina,Japan,Canada,Rusland
-Sport og OL,"Hvilken dansk roer er kendt for flere OL-guldmedaljer?",900,Eskild Ebbesen,Pernille Blume,Viktor Axelsen,Michael Laudrup
-Sport og OL,Hvilket spil foregår på is med sten og koste?,1000,Curling,Ishockey,Skiskydning,Bobslæde
-Sport og OL,Hvilken atlet slog rekorden med 8 OL-guld på én olympiade i 2008?,1100,Michael Phelps,Usain Bolt,Carl Lewis,Ian Thorpe
-Sport og OL,Hvilket land har vundet flest VM-titler i fodbold?,1200,Brasilien,Tyskland,Italien,Argentina
-Sport og OL,"Hvad hedder den danske cykelrytter, der vandt Tour de France 2022?",1300,Jonas Vingegaard,Michael Rasmussen,Bjarne Riis,Rasmus Pedersen
-Sport og OL,Hvilken disciplin kombinerer langrend og skiskydning?,1400,Biathlon,Nordisk kombination,Skihop,Snowboard
-Sport og OL,Hvad hedder den mest prestigefyldte tennisturnering i England?,1500,Wimbledon,US Open,Roland Garros,Australian Open
-Sport og OL,Hvilket land hostede sommer-OL i 2012?,1600,Storbritannien,Brasilien,Kina,Grækenland
-Sport og OL,Hvilken atlet er kendt som verdens hurtigste mand?,1700,Usain Bolt,Maurice Greene,Justin Gatlin,Carl Lewis
-Sport og OL,Hvilken disciplin er ikke en del af moderne femkamp?,1800,Skak,Ridning,Skydning,Svømning
-Sport og OL,"Hvad hedder den danske badmintonspiller, der vandt VM 2017?",1900,Viktor Axelsen,Peter Gade,Jan Ø. Jørgensen,Kenneth Jonassen
-Sport og OL,Hvilket land har vundet flest OL-medaljer i ishockey?,2000,Canada,Rusland,Sverige,USA
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1988?,100,Seoul,Busan,Tokyo,Beijing,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1996?,200,Atlanta,Boston,Dallas,Miami,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1972?,300,München,Hamborg,Frankfurt,Wien,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1976?,400,Montréal,Toronto,Vancouver,Québec,,,
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 1968?,500,Mexico City,Guadalajara,Monterrey,Havana,,,
+Sportsgrene og discipliner,Hvor mange spillere har et volleyballhold på banen ad gangen?,100,6,5,7,9,,,
+Sportsgrene og discipliner,Hvor mange spillere har et håndboldhold på banen ad gangen inklusive målmanden?,200,7,6,8,11,,,
+Sportsgrene og discipliner,Hvor mange spillere har et rugby sevens-hold på banen?,300,7,5,11,15,,,
+Sportsgrene og discipliner,Hvor mange spillere har et landhockeyhold normalt på banen inklusive målmanden?,400,11,7,9,12,,,
+Sportsgrene og discipliner,"Hvilken kampsport bruger kast, holdegreb og ippon som central scoring?",500,judo,taekwondo,boksning,fægtning,,,
+Symboler og organisation,Hvilke tre værdier fremhæver IOC som olympiske kerneværdier?,100,"excellence, respekt og venskab","styrke, sejr og berømmelse","fart, højde og længde","disciplin, lydighed og nationalitet",,,
+Symboler og organisation,Hvad betyder forkortelsen IOC på engelsk?,200,International Olympic Committee,International Organisation of Champions,Intercontinental Olympic Council,International Office of Competition,,,
+Symboler og organisation,"Hvad kaldes et lands organisation under den olympiske bevægelse, for eksempel Danmarks Idrætsforbund som dansk repræsentant?",300,"en national olympisk komité, NOC","et internationalt specialforbund, IF","en lokal organisationskomité, OCOG",en professionel liga,,,
+Symboler og organisation,"Hvad kaldes det internationale forbund, der styrer en olympisk sportsgren?",400,"et internationalt specialforbund, IF","en national olympisk komité, NOC",en værtsbys OCOG,en atleterklub,,,
+Symboler og organisation,Hvad kaldes organisationskomitéen for en bestemt udgave af de olympiske lege?,500,OCOG,NOC,WADA,CAS,,,
+Atleter og præstationer,"Hvilken atlet vandt guld i både 5000 meter, 10.000 meter og maraton ved Helsinki 1952?",100,Emil Zátopek,Paavo Nurmi,Abebe Bikila,Lasse Virén,,,
+Atleter og præstationer,Hvilken etiopisk løber vandt OL-maraton barfodet i Rom 1960?,200,Abebe Bikila,Mamo Wolde,Haile Gebrselassie,Kenenisa Bekele,,,
+Atleter og præstationer,Hvilken højdespringer gjorde “Fosbury Flop” berømt ved OL i 1968?,300,Dick Fosbury,Valeriy Brumel,Javier Sotomayor,Charles Dumas,,,
+Atleter og præstationer,"Hvilken længdespringer satte verdensrekord med 8,90 meter ved OL i Mexico City 1968?",400,Bob Beamon,Mike Powell,Carl Lewis,Ralph Boston,,,
+Atleter og præstationer,Hvilken svømmer vandt syv guldmedaljer ved OL i München 1972?,500,Mark Spitz,Michael Phelps,Matt Biondi,Alexander Popov,,,
