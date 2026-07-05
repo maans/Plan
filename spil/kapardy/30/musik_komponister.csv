@@ -1,31 +1,31 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Musik,"Hvem komponerede symfonien ""Skæbnesymfonien""?",100,Ludwig van Beethoven,Johann Sebastian Bach,Franz Schubert,Antonio Vivaldi
-Musik,"Hvilket band skrev albummet ""Sgt. Pepper's Lonely Hearts Club Band""?",200,The Beatles,The Rolling Stones,Queen,ABBA
-Musik,"Hvem komponerede operaen ""La Traviata""?",300,Giuseppe Verdi,Giacomo Puccini,Richard Wagner,Georges Bizet
-Musik,Hvilket instrument spillede Louis Armstrong?,400,Trompet,Saxofon,Piano,Violin
-Musik,"Hvad hedder den svenske gruppe bag hits som ""Dancing Queen""?",500,ABBA,Roxette,Europe,Cardigans
-Musik,"Hvilken dansk sanger stod bag hittet ""Smuk som et stjerneskud""?",600,Tommy Seebach,Sanne Salomonsen,Kim Larsen,Dizzy Mizz Lizzy
-Musik,"Hvem komponerede ""Nøddeknækkeren""?",700,Pyotr Tchaikovsky,Sergei Prokofiev,Igor Stravinsky,Franz Liszt
-Musik,"Hvilket band skrev sangen ""Bohemian Rhapsody""?",800,Queen,Led Zeppelin,Pink Floyd,U2
-Musik,Hvilket klassisk instrument har 88 tangenter?,900,Piano,Harpe,Orgel,Guitar
-Musik,"Hvem skrev operetten ""Flagermusen""?",1000,Johann Strauss II,Franz Lehár,Wolfgang Amadeus Mozart,Richard Strauss
-Musik,"Hvilket dansk band stod bag albummet ""Gas 5""?",1100,Gasolin',Aqua,D-A-D,Nephew
-Musik,"Hvem er kendt som ""The King of Pop""?",1200,Michael Jackson,Elvis Presley,Prince,Madonna
-Musik,"Hvem skrev operaen ""Carmen""?",1300,Georges Bizet,Gaetano Donizetti,Giacomo Puccini,Richard Wagner
-Musik,Hvilket årti blev rockbandet Nirvana kendt?,1400,1990'erne,1970'erne,1980'erne,1960'erne
-Musik,"Hvad hedder komponisten bag ""Fire årstider""?",1500,Antonio Vivaldi,Wolfgang Amadeus Mozart,Johann Pachelbel,Johann Sebastian Bach
-Musik,"Hvilket dansk band står bag sangen ""Red Lipstick""?",1600,Medina,The Raveonettes,Lukas Graham,Infernal
-Musik,Hvem var forsanger i bandet Queen?,1700,Freddie Mercury,David Bowie,Mick Jagger,Robert Plant
-Musik,"Hvad er navnet på den danske komponist bag operaen ""Maskarade""?",1800,Carl Nielsen,Niels W. Gade,Peder Heise,Rued Langgaard
-Musik,Hvilket instrument spiller Yo-Yo Ma?,1900,Cello,Violin,Bratsch,Piano
-Musik,"Hvad hedder sangeren bag hits som ""Someone Like You"" og ""Hello""?",2000,Adele,Taylor Swift,Beyoncé,Rihanna
-Musik,"Hvilken komponist er kendt for ""Måneskinssonaten""?",2100,Ludwig van Beethoven,Frédéric Chopin,Franz Schubert,Claude Debussy
-Musik,"Hvilket band står bag sangen ""Stairway to Heaven""?",2200,Led Zeppelin,Deep Purple,Black Sabbath,AC/DC
-Musik,"Hvilken operasangerinde kaldes ""La Divina""?",2300,Maria Callas,Renée Fleming,Anna Netrebko,Cecilia Bartoli
-Musik,"Hvem komponerede ""Clair de Lune""?",2400,Claude Debussy,Erik Satie,Gabriel Fauré,Maurice Ravel
-Musik,"Hvilken dansk sangerinde sang ""Tainted Love"" i 1980'erne?",2500,Anne Linnet,Sanne Salomonsen,Nanna,Lis Sørensen
-Musik,Hvilken komponist skrev “Boléro”?,2600,Maurice Ravel,Claude Debussy,Erik Satie,Gabriel Fauré
-Musik,Hvilket instrument er Django Reinhardt især kendt for?,2700,Guitar,Trompet,Klarinet,Trommer
-Musik,Hvilken komponist skrev oratoriet “Messias”?,2800,Georg Friedrich Händel,Johann Sebastian Bach,Joseph Haydn,Franz Schubert
-Musik,Hvilket dansk band er kendt for sangen “Sleeping My Day Away”?,2900,D-A-D,Gasolin’,Nephew,Aqua
-Musik,Hvad kaldes en skala med fem toner?,3000,Pentaton skala,Kromatisk skala,Heltoneskala,Dur-skala
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Renæssance og barok,Hvilken komponists værker betegnes normalt med katalogforkortelsen BWV?,100,Johann Sebastian Bach,Georg Friedrich Händel,Antonio Vivaldi,Georg Philipp Telemann,,,
+Renæssance og barok,Hvem komponerede værket “Stabat Mater fra 1736”?,200,Giovanni Battista Pergolesi,Domenico Scarlatti,Tomaso Albinoni,Pietro Locatelli,,,
+Renæssance og barok,"Hvem komponerede værket “Obokoncert i d-mol, opus 9 nr. 2”?",300,Tomaso Albinoni,Domenico Scarlatti,Giovanni Battista Pergolesi,Pietro Locatelli,,,
+Renæssance og barok,Hvem komponerede værket “L’arte del violino”?,400,Pietro Locatelli,Domenico Scarlatti,Giovanni Battista Pergolesi,Tomaso Albinoni,,,
+Renæssance og barok,Hvem komponerede værket “motetten Ave verum corpus fra Gradualia (1605)”?,500,William Byrd,Carlo Gesualdo,Giovanni Gabrieli,Heinrich Schütz,,,
+Renæssance og barok,Hvem komponerede værket “In ecclesiis”?,600,Giovanni Gabrieli,William Byrd,Carlo Gesualdo,Heinrich Schütz,,,
+Renæssance og barok,Hvem komponerede værket “Musikalische Exequien”?,700,Heinrich Schütz,William Byrd,Carlo Gesualdo,Giovanni Gabrieli,,,
+Renæssance og barok,Hvem komponerede værket “Tenebrae-responsorierne fra 1611”?,800,Carlo Gesualdo,William Byrd,Giovanni Gabrieli,Heinrich Schütz,,,
+Klassik og tidlig romantik,"Hvilken komponists værker identificeres ofte med Köchel-numre, forkortet K. eller KV?",100,Wolfgang Amadeus Mozart,Joseph Haydn,Ludwig van Beethoven,Franz Schubert,,,
+Klassik og tidlig romantik,Hvilken komponists klaverstykke ‘Für Elise’ har katalognummeret WoO 59?,200,Ludwig van Beethoven,Joseph Haydn,Franz Schubert,Gioachino Rossini,,,
+Klassik og tidlig romantik,Hvilken komponists værker ordnes i Hoboken-kataloget med betegnelsen Hob.?,300,Joseph Haydn,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Carl Maria von Weber,,,
+Klassik og tidlig romantik,"Hvem komponerede værket “Sonatine i C-dur, opus 36 nr. 1”?",400,Muzio Clementi,Carl Philipp Emanuel Bach,Johann Nepomuk Hummel,Louis Spohr,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Trompetkoncerten i E-dur”?,500,Johann Nepomuk Hummel,Muzio Clementi,Carl Philipp Emanuel Bach,Louis Spohr,,,
+Klassik og tidlig romantik,Hvem komponerede værket “operaen Médée fra 1797”?,600,Luigi Cherubini,Gioachino Rossini,Vincenzo Bellini,Gaetano Donizetti,,,
+Klassik og tidlig romantik,"Hvem komponerede værket “Magnificat, Wq 215”?",700,Carl Philipp Emanuel Bach,Muzio Clementi,Johann Nepomuk Hummel,Louis Spohr,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Klarinetkoncert nr. 1 i c-mol”?,800,Louis Spohr,Muzio Clementi,Carl Philipp Emanuel Bach,Johann Nepomuk Hummel,,,
+Romantik og nationalromantik,Hvem komponerede værket “Scheherazade”?,100,Nikolaj Rimskij-Korsakov,Gustav Mahler,Anton Bruckner,Modest Musorgskij,,,
+Romantik og nationalromantik,Hvem komponerede værket “Udstillingsbilleder”?,200,Modest Musorgskij,Gustav Mahler,Anton Bruckner,Nikolaj Rimskij-Korsakov,,,
+Romantik og nationalromantik,"Hvilken pianist og komponist var gift med Robert Schumann og skrev en klaverkoncert i a-mol, opus 7?",300,Clara Schumann,Fanny Hensel,Louise Farrenc,Cécile Chaminade,,,
+Romantik og nationalromantik,Hvem komponerede værket “Enigmavariationerne”?,400,Edward Elgar,Aleksandr Borodin,Sergej Rakhmaninov,Gabriel Fauré,,,
+Romantik og nationalromantik,Hvem komponerede værket “Klaverkoncert nr. 2 i c-mol”?,500,Sergej Rakhmaninov,Aleksandr Borodin,Gabriel Fauré,Edward Elgar,,,
+Romantik og nationalromantik,"Hvem komponerede værket “Requiem i d-mol, opus 48”?",600,Gabriel Fauré,Aleksandr Borodin,Sergej Rakhmaninov,Edward Elgar,,,
+Romantik og nationalromantik,Hvem komponerede værket “Fyrst Igor”?,700,Aleksandr Borodin,Sergej Rakhmaninov,Gabriel Fauré,Edward Elgar,,,
+1900-tallet og Norden,"Hvem komponerede værket “Symfoni nr. 4, “Det uudslukkelige””?",100,Carl Nielsen,Rued Langgaard,Per Nørgård,Einojuhani Rautavaara,,,
+1900-tallet og Norden,Hvem komponerede værket “Fratres”?,200,Arvo Pärt,Steve Reich,Witold Lutosławski,Krzysztof Penderecki,,,
+1900-tallet og Norden,Hvem komponerede værket “Sfærernes musik”?,300,Rued Langgaard,Carl Nielsen,Per Nørgård,Einojuhani Rautavaara,,,
+1900-tallet og Norden,Hvem komponerede værket “Threnody for the Victims of Hiroshima”?,400,Krzysztof Penderecki,Steve Reich,Arvo Pärt,Witold Lutosławski,,,
+1900-tallet og Norden,Hvem komponerede værket “Koncert for orkester fra 1954”?,500,Witold Lutosławski,Steve Reich,Arvo Pärt,Krzysztof Penderecki,,,
+1900-tallet og Norden,Hvem komponerede værket “Cantus Arcticus”?,600,Einojuhani Rautavaara,Carl Nielsen,Rued Langgaard,Per Nørgård,,,
+1900-tallet og Norden,"Hvem komponerede værket “Symfoni nr. 3, komponeret 1972–1975”?",700,Per Nørgård,Carl Nielsen,Rued Langgaard,Einojuhani Rautavaara,,,

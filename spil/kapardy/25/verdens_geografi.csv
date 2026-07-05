@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Verdens geografi,Hvad hedder verdens længste flod?,100,Nilen,Amazonas,Mississippi,Chang Jiang
-Verdens geografi,Hvad er Afrikas højeste bjerg?,200,Kilimanjaro,Mount Kenya,Atlas,Toubkal
-Verdens geografi,Hvad er hovedstaden i Canada?,300,Ottawa,Toronto,Vancouver,Montreal
-Verdens geografi,Hvilket land har størst befolkning i verden?,400,Indien,USA,Kina,Rusland
-Verdens geografi,Hvilken ørken er verdens største?,500,Sahara,Gobi,Kalahari,Arabiske ørken
-Verdens geografi,Hvilket hav ligger mellem Afrika og Australien?,600,Det Indiske Ocean,Atlanterhavet,Stillehavet,Det Arktiske Ocean
-Verdens geografi,Hvilket land består af over 17.000 øer?,700,Indonesien,Filippinerne,Japan,Maldiverne
-Verdens geografi,Hvilket bjerg er verdens højeste?,800,Mount Everest,K2,Kangchenjunga,Lhotse
-Verdens geografi,Hvilken flod flyder gennem Paris?,900,Seinen,Thames,Donau,Rhinen
-Verdens geografi,Hvilket kontinent har flest lande?,1000,Afrika,Europa,Asien,Sydamerika
-Verdens geografi,Hvad er hovedstaden i Australien?,1100,Canberra,Sydney,Melbourne,Perth
-Verdens geografi,"Hvilket land er kendt som ""Solens land""?",1200,Japan,Kina,Taiwan,Thailand
-Verdens geografi,Hvilket land har byerne Marseille og Lyon?,1300,Frankrig,Spanien,Italien,Tyskland
-Verdens geografi,Hvilket hav ligger nord for Polen?,1400,Østersøen,Nordsøen,Sortehavet,Det Adriatiske hav
-Verdens geografi,Hvilken ørken ligger i Kina og Mongoliet?,1500,Gobi,Sahara,Kalahari,Great Victoria
-Verdens geografi,Hvilket land har Amazonas regnskov?,1600,Brasilien,Colombia,Venezuela,Peru
-Verdens geografi,Hvilket land grænser både til Europa og Asien?,1700,Tyrkiet,Saudi-Arabien,Indien,Grækenland
-Verdens geografi,Hvilket land har hovedstaden Buenos Aires?,1800,Argentina,Brasilien,Chile,Uruguay
-Verdens geografi,Hvad er hovedstaden i Egypten?,1900,Kairo,Alexandria,Tripoli,Tunis
-Verdens geografi,Hvilket land har byerne Zurich og Genève?,2000,Schweiz,Østrig,Tyskland,Frankrig
-Verdens geografi,Hvilken ø er verdens største?,2100,Grønland,New Guinea,Borneo,Sumatra
-Verdens geografi,"Hvilket land kaldes ""Kænguruens land""?",2200,Australien,Canada,New Zealand,Storbritannien
-Verdens geografi,Hvilket hav ligger mellem Europa og Afrika?,2300,Det Middelhav,Atlanterhavet,Østersøen,Sortehavet
-Verdens geografi,Hvilket land ligger syd for USA?,2400,Mexico,Canada,Cuba,Jamaica
-Verdens geografi,Hvad hedder verdens største saltvandssø?,2500,Det Kaspiske Hav,Baikalsøen,Victoriasøen,Tanganyikasøen
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Lande og hovedstæder,Hvad er Argentinas hovedstad?,100,Buenos Aires,Córdoba,Montevideo,Rosario,,,
+Lande og hovedstæder,Hvad er Sydkoreas hovedstad?,200,Seoul,Busan,Pyongyang,Incheon,,,
+Lande og hovedstæder,Hvad er Thailands hovedstad?,300,Bangkok,Chiang Mai,Phuket,Hanoi,,,
+Lande og hovedstæder,Hvad er Chiles hovedstad?,400,Santiago,Valparaíso,Lima,Concepción,,,
+Lande og hovedstæder,Hvad er Perus hovedstad?,500,Lima,Cusco,Quito,Arequipa,,,
+Lande og hovedstæder,Hvad er Colombias hovedstad?,600,Bogotá,Medellín,Cartagena,Cali,,,
+Lande og hovedstæder,Hvad er Vietnams hovedstad?,700,Hanoi,Ho Chi Minh-byen,Da Nang,Bangkok,,,
+"Bjerge, floder og landskaber",På hvilket kontinent ligger Himalaya?,100,Asien,Europa,Afrika,Nordamerika,,,
+"Bjerge, floder og landskaber",På hvilket kontinent ligger Rocky Mountains?,200,Nordamerika,Sydamerika,Asien,Europa,,,
+"Bjerge, floder og landskaber",I hvilket land ligger vulkanen Fuji?,300,Japan,Indonesien,Filippinerne,Sydkorea,,,
+"Bjerge, floder og landskaber",I hvilken del af Afrika ligger Kalahariørkenen?,400,det sydlige Afrika,Nordafrika,Vestafrika,Afrikas Horn,,,
+"Bjerge, floder og landskaber",På hvilken flod ligger Victoria Falls?,500,Zambezi,Congo,Nilen,Limpopo,,,
+"Bjerge, floder og landskaber",Mellem hvilke to lande ligger Iguazú-vandfaldene?,600,Argentina og Brasilien,Chile og Peru,Bolivia og Paraguay,Colombia og Venezuela,,,
+"Hav, øer og grænser",Hvilket land består af tusindvis af øer mellem Asien og Australien?,100,Indonesien,Sri Lanka,Brunei,Timor-Leste,,,
+"Hav, øer og grænser",Hvilket sydøstasiatisk land er en østat med over 7.000 øer?,200,Filippinerne,Thailand,Cambodja,Laos,,,
+"Hav, øer og grænser",Hvilke oceaner forbindes af Panamakanalen?,300,Atlanterhavet og Stillehavet,Atlanterhavet og Det Indiske Ocean,Stillehavet og Det Indiske Ocean,Det Arktiske Ocean og Atlanterhavet,,,
+"Hav, øer og grænser",Hvilke to havområder forbindes af Suezkanalen?,400,Middelhavet og Rødehavet,Sortehavet og Middelhavet,Rødehavet og Det Arabiske Hav,Nordsøen og Østersøen,,,
+"Hav, øer og grænser",Hvilken østat består af atoller sydvest for Indien?,500,Maldiverne,Mauritius,Seychellerne,Sri Lanka,,,
+"Hav, øer og grænser",Mellem hvilke to landområder løber Malaccastrædet?,600,Malayahalvøen og Sumatra,Java og Borneo,Sri Lanka og Indien,Honshu og Hokkaido,,,
+"Kort, klima og verdensdele",Hvilken naturzone er præget af permafrost og meget lav vegetation?,100,tundra,savanne,steppe,taiga,,,
+"Kort, klima og verdensdele",Hvilken naturzone domineres af nordlige nåleskove?,200,taiga,tundra,savanne,chaparral,,,
+"Kort, klima og verdensdele",Hvad kendetegner en savanne?,300,græsland med spredte træer i et tropisk klima,nåleskov med permafrost,træløst polarlandskab,fugtig tempereret regnskov,,,
+"Kort, klima og verdensdele",Hvad er en steppe?,400,"et stort, overvejende træløst græsland",en tropisk koralø,en dyb gletsjerdal,en tæt nåleskov,,,
+"Kort, klima og verdensdele",Hvad er en monsun?,500,"et sæsonskiftende vindsystem, som ofte giver regntid og tørketid",en permanent havstrøm,en tropisk jordtype,en type jordskælv,,,
+"Kort, klima og verdensdele",Hvad betyder regnskygge i geografi?,600,et tørt område på læsiden af en bjergkæde,et skovområde med daglig regn,en skygge skabt af en solformørkelse,et havområde uden bølger,,,

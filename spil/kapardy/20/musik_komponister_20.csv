@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Musik,"Hvem komponerede symfonien ""Skæbnesymfonien""?",100,Ludwig van Beethoven,Johann Sebastian Bach,Franz Schubert,Antonio Vivaldi
-Musik,"Hvilket band skrev albummet ""Sgt. Pepper's Lonely Hearts Club Band""?",200,The Beatles,The Rolling Stones,Queen,ABBA
-Musik,"Hvem komponerede operaen ""La Traviata""?",300,Giuseppe Verdi,Giacomo Puccini,Richard Wagner,Georges Bizet
-Musik,Hvilket instrument spillede Louis Armstrong?,400,Trompet,Saxofon,Piano,Violin
-Musik,"Hvad hedder den svenske gruppe bag hits som ""Dancing Queen""?",500,ABBA,Roxette,Europe,Cardigans
-Musik,"Hvilken dansk sanger stod bag hittet ""Smuk som et stjerneskud""?",600,Tommy Seebach,Sanne Salomonsen,Kim Larsen,Dizzy Mizz Lizzy
-Musik,"Hvem komponerede ""Nøddeknækkeren""?",700,Pyotr Tchaikovsky,Sergei Prokofiev,Igor Stravinsky,Franz Liszt
-Musik,"Hvilket band skrev sangen ""Bohemian Rhapsody""?",800,Queen,Led Zeppelin,Pink Floyd,U2
-Musik,Hvilket klassisk instrument har 88 tangenter?,900,Piano,Harpe,Orgel,Guitar
-Musik,"Hvem skrev operetten ""Flagermusen""?",1000,Johann Strauss II,Franz Lehár,Wolfgang Amadeus Mozart,Richard Strauss
-Musik,"Hvilket dansk band stod bag albummet ""Gas 5""?",1100,Gasolin',Aqua,D-A-D,Nephew
-Musik,"Hvem er kendt som ""The King of Pop""?",1200,Michael Jackson,Elvis Presley,Prince,Madonna
-Musik,"Hvem skrev operaen ""Carmen""?",1300,Georges Bizet,Gaetano Donizetti,Giacomo Puccini,Richard Wagner
-Musik,Hvilket årti blev rockbandet Nirvana kendt?,1400,1990'erne,1970'erne,1980'erne,1960'erne
-Musik,"Hvad hedder komponisten bag ""Fire årstider""?",1500,Antonio Vivaldi,Wolfgang Amadeus Mozart,Johann Pachelbel,Johann Sebastian Bach
-Musik,"Hvilket dansk band står bag sangen ""Red Lipstick""?",1600,Medina,The Raveonettes,Lukas Graham,Infernal
-Musik,Hvem var forsanger i bandet Queen?,1700,Freddie Mercury,David Bowie,Mick Jagger,Robert Plant
-Musik,"Hvad er navnet på den danske komponist bag operaen ""Maskarade""?",1800,Carl Nielsen,Niels W. Gade,Peder Heise,Rued Langgaard
-Musik,Hvilket instrument spiller Yo-Yo Ma?,1900,Cello,Violin,Bratsch,Piano
-Musik,"Hvad hedder sangeren bag hits som ""Someone Like You"" og ""Hello""?",2000,Adele,Taylor Swift,Beyoncé,Rihanna
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Renæssance og barok,Hvem komponerede værket “Kanon i D-dur”?,100,Johann Pachelbel,Arcangelo Corelli,Dieterich Buxtehude,Georg Philipp Telemann,,,
+Renæssance og barok,Hvem komponerede værket “Water Music”?,200,Georg Friedrich Händel,Johann Sebastian Bach,Antonio Vivaldi,Henry Purcell,,,
+Renæssance og barok,"Hvem komponerede værket “Gloria i D-dur, RV 589”?",300,Antonio Vivaldi,Johann Sebastian Bach,Georg Friedrich Händel,Henry Purcell,,,
+Renæssance og barok,Hvem komponerede værket “The Fairy Queen”?,400,Henry Purcell,Johann Sebastian Bach,Georg Friedrich Händel,Antonio Vivaldi,,,
+Renæssance og barok,"Hvem komponerede værket “Julekoncerten, opus 6 nr. 8”?",500,Arcangelo Corelli,Johann Pachelbel,Dieterich Buxtehude,Georg Philipp Telemann,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Måneskinssonaten”?,100,Ludwig van Beethoven,Wolfgang Amadeus Mozart,Joseph Haydn,Luigi Boccherini,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Eine kleine Nachtmusik”?,200,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Joseph Haydn,Luigi Boccherini,,,
+Klassik og tidlig romantik,"Hvem komponerede værket “Klarinetkoncerten i A-dur, K. 622”?",300,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Franz Schubert,Carl Maria von Weber,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Kejserkvartetten”?,400,Joseph Haydn,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Luigi Boccherini,,,
+Klassik og tidlig romantik,"Hvem komponerede værket “Menuetten fra strygekvintetten i E-dur, opus 11 nr. 5”?",500,Luigi Boccherini,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Joseph Haydn,,,
+Romantik og nationalromantik,Hvem komponerede værket “Carmen”?,100,Georges Bizet,Richard Wagner,Giuseppe Verdi,Giacomo Puccini,,,
+Romantik og nationalromantik,Hvem komponerede værket “Aida”?,200,Giuseppe Verdi,Richard Wagner,Giacomo Puccini,Georges Bizet,,,
+Romantik og nationalromantik,Hvem komponerede værket “La bohème”?,300,Giacomo Puccini,Richard Wagner,Giuseppe Verdi,Georges Bizet,,,
+Romantik og nationalromantik,"Hvem komponerede værket “Vltava, også kaldet Moldau”?",400,Bedřich Smetana,Johannes Brahms,Pjotr Tjajkovskij,Antonín Dvořák,,,
+Romantik og nationalromantik,Hvem komponerede værket “Tristan und Isolde”?,500,Richard Wagner,Giuseppe Verdi,Giacomo Puccini,Georges Bizet,,,
+1900-tallet og Norden,Hvem komponerede værket “Rhapsody in Blue”?,100,George Gershwin,Benjamin Britten,Aaron Copland,Leonard Bernstein,,,
+1900-tallet og Norden,"Hvem komponerede værket “Symfoni nr. 5 i d-mol, opus 47”?",200,Dmitrij Sjostakovitj,Béla Bartók,Sergej Prokofjev,Leoš Janáček,,,
+1900-tallet og Norden,Hvem komponerede værket “War Requiem”?,300,Benjamin Britten,Aaron Copland,George Gershwin,Leonard Bernstein,,,
+1900-tallet og Norden,Hvem komponerede værket “Appalachian Spring”?,400,Aaron Copland,Benjamin Britten,George Gershwin,Leonard Bernstein,,,
+1900-tallet og Norden,Hvem komponerede værket “Sinfonietta fra 1926”?,500,Leoš Janáček,Béla Bartók,Sergej Prokofjev,Dmitrij Sjostakovitj,,,

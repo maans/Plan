@@ -1,16 +1,16 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Musik,"Hvem komponerede symfonien ""Skæbnesymfonien""?",100,Ludwig van Beethoven,Johann Sebastian Bach,Franz Schubert,Antonio Vivaldi
-Musik,"Hvilket band skrev albummet ""Sgt. Pepper's Lonely Hearts Club Band""?",200,The Beatles,The Rolling Stones,Queen,ABBA
-Musik,"Hvem komponerede operaen ""La Traviata""?",300,Giuseppe Verdi,Giacomo Puccini,Richard Wagner,Georges Bizet
-Musik,Hvilket instrument spillede Louis Armstrong?,400,Trompet,Saxofon,Piano,Violin
-Musik,"Hvad hedder den svenske gruppe bag hits som ""Dancing Queen""?",500,ABBA,Roxette,Europe,Cardigans
-Musik,"Hvilken dansk sanger stod bag hittet ""Smuk som et stjerneskud""?",600,Tommy Seebach,Sanne Salomonsen,Kim Larsen,Dizzy Mizz Lizzy
-Musik,"Hvem komponerede ""Nøddeknækkeren""?",700,Pyotr Tchaikovsky,Sergei Prokofiev,Igor Stravinsky,Franz Liszt
-Musik,"Hvilket band skrev sangen ""Bohemian Rhapsody""?",800,Queen,Led Zeppelin,Pink Floyd,U2
-Musik,Hvilket klassisk instrument har 88 tangenter?,900,Piano,Harpe,Orgel,Guitar
-Musik,"Hvem skrev operetten ""Flagermusen""?",1000,Johann Strauss II,Franz Lehár,Wolfgang Amadeus Mozart,Richard Strauss
-Musik,"Hvilket dansk band stod bag albummet ""Gas 5""?",1100,Gasolin',Aqua,D-A-D,Nephew
-Musik,"Hvem er kendt som ""The King of Pop""?",1200,Michael Jackson,Elvis Presley,Prince,Madonna
-Musik,"Hvem skrev operaen ""Carmen""?",1300,Georges Bizet,Gaetano Donizetti,Giacomo Puccini,Richard Wagner
-Musik,Hvilket årti blev rockbandet Nirvana kendt?,1400,1990'erne,1970'erne,1980'erne,1960'erne
-Musik,"Hvad hedder komponisten bag ""Fire årstider""?",1500,Antonio Vivaldi,Wolfgang Amadeus Mozart,Johann Pachelbel,Johann Sebastian Bach
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Renæssance og barok,Hvem komponerede værket “Missa Papae Marcelli”?,100,Giovanni Pierluigi da Palestrina,Claudio Monteverdi,Thomas Tallis,Josquin des Prez,,,
+Renæssance og barok,Hvem komponerede værket “Spem in alium”?,200,Thomas Tallis,Claudio Monteverdi,Giovanni Pierluigi da Palestrina,Josquin des Prez,,,
+Renæssance og barok,Hvem komponerede værket “Ave Maria … virgo serena”?,300,Josquin des Prez,Claudio Monteverdi,Giovanni Pierluigi da Palestrina,Thomas Tallis,,,
+Renæssance og barok,Hvem komponerede værket “Goldbergvariationerne”?,400,Johann Sebastian Bach,Georg Friedrich Händel,Antonio Vivaldi,Henry Purcell,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Skabelsen”?,100,Joseph Haydn,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Franz Schubert,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Don Giovanni”?,200,Wolfgang Amadeus Mozart,Joseph Haydn,Ludwig van Beethoven,Franz Schubert,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Fidelio”?,300,Ludwig van Beethoven,Joseph Haydn,Wolfgang Amadeus Mozart,Franz Schubert,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Winterreise”?,400,Franz Schubert,Joseph Haydn,Wolfgang Amadeus Mozart,Ludwig van Beethoven,,,
+Romantik og nationalromantik,Hvem komponerede værket “Ouverturen til En skærsommernatsdrøm”?,100,Felix Mendelssohn,Frédéric Chopin,Franz Liszt,Robert Schumann,,,
+Romantik og nationalromantik,Hvem komponerede værket “Ein deutsches Requiem”?,200,Johannes Brahms,Pjotr Tjajkovskij,Antonín Dvořák,Bedřich Smetana,,,
+Romantik og nationalromantik,Hvem komponerede værket “Svanesøen”?,300,Pjotr Tjajkovskij,Johannes Brahms,Antonín Dvořák,Bedřich Smetana,,,
+Romantik og nationalromantik,"Hvem komponerede værket “Symfoni nr. 9, “Fra den nye verden””?",400,Antonín Dvořák,Johannes Brahms,Pjotr Tjajkovskij,Bedřich Smetana,,,
+1900-tallet og Norden,Hvem komponerede værket “Pierrot lunaire”?,100,Arnold Schönberg,Claude Debussy,Maurice Ravel,Igor Stravinskij,,,
+1900-tallet og Norden,"Hvem komponerede værket “Koncert for orkester, Sz. 116”?",200,Béla Bartók,Sergej Prokofjev,Dmitrij Sjostakovitj,Leoš Janáček,,,
+1900-tallet og Norden,"Hvem komponerede værket “balletten Romeo og Julie, opus 64”?",300,Sergej Prokofjev,Béla Bartók,Dmitrij Sjostakovitj,Leoš Janáček,,,

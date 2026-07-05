@@ -1,11 +1,11 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Musik,"Hvem komponerede symfonien ""Skæbnesymfonien""?",100,Ludwig van Beethoven,Johann Sebastian Bach,Franz Schubert,Antonio Vivaldi
-Musik,"Hvilket band skrev albummet ""Sgt. Pepper's Lonely Hearts Club Band""?",200,The Beatles,The Rolling Stones,Queen,ABBA
-Musik,"Hvem komponerede operaen ""La Traviata""?",300,Giuseppe Verdi,Giacomo Puccini,Richard Wagner,Georges Bizet
-Musik,Hvilket instrument spillede Louis Armstrong?,400,Trompet,Saxofon,Piano,Violin
-Musik,"Hvad hedder den svenske gruppe bag hits som ""Dancing Queen""?",500,ABBA,Roxette,Europe,Cardigans
-Musik,"Hvilken dansk sanger stod bag hittet ""Smuk som et stjerneskud""?",600,Tommy Seebach,Sanne Salomonsen,Kim Larsen,Dizzy Mizz Lizzy
-Musik,"Hvem komponerede ""Nøddeknækkeren""?",700,Pyotr Tchaikovsky,Sergei Prokofiev,Igor Stravinsky,Franz Liszt
-Musik,"Hvilket band skrev sangen ""Bohemian Rhapsody""?",800,Queen,Led Zeppelin,Pink Floyd,U2
-Musik,Hvilket klassisk instrument har 88 tangenter?,900,Piano,Harpe,Orgel,Guitar
-Musik,"Hvem skrev operetten ""Flagermusen""?",1000,Johann Strauss II,Franz Lehár,Wolfgang Amadeus Mozart,Richard Strauss
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Renæssance og barok,Hvem komponerede værket “Messias”?,100,Georg Friedrich Händel,Antonio Vivaldi,Johann Sebastian Bach,Henry Purcell,,,
+Renæssance og barok,Hvem komponerede værket “Dido and Aeneas”?,200,Henry Purcell,Antonio Vivaldi,Johann Sebastian Bach,Georg Friedrich Händel,,,
+Renæssance og barok,Hvem komponerede værket “L’Orfeo”?,300,Claudio Monteverdi,Giovanni Pierluigi da Palestrina,Thomas Tallis,Josquin des Prez,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Symfoni nr. 5 i c-mol”?,100,Ludwig van Beethoven,Joseph Haydn,Wolfgang Amadeus Mozart,Christoph Willibald Gluck,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Tryllefløjten”?,200,Wolfgang Amadeus Mozart,Joseph Haydn,Ludwig van Beethoven,Christoph Willibald Gluck,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Orfeo ed Euridice”?,300,Christoph Willibald Gluck,Joseph Haydn,Wolfgang Amadeus Mozart,Ludwig van Beethoven,,,
+Romantik og nationalromantik,Hvem komponerede værket “Ungarsk rapsodi nr. 2”?,100,Franz Liszt,Frédéric Chopin,Robert Schumann,Felix Mendelssohn,,,
+Romantik og nationalromantik,"Hvem komponerede værket “klavercyklussen Carnaval, opus 9”?",200,Robert Schumann,Frédéric Chopin,Franz Liszt,Felix Mendelssohn,,,
+1900-tallet og Norden,Hvem komponerede værket “Boléro”?,100,Maurice Ravel,Claude Debussy,Igor Stravinskij,Arnold Schönberg,,,
+1900-tallet og Norden,Hvem komponerede værket “Le Sacre du printemps”?,200,Igor Stravinskij,Claude Debussy,Maurice Ravel,Arnold Schönberg,,,

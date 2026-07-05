@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Musik,"Hvem komponerede symfonien ""Skæbnesymfonien""?",100,Ludwig van Beethoven,Johann Sebastian Bach,Franz Schubert,Antonio Vivaldi
-Musik,"Hvilket band skrev albummet ""Sgt. Pepper's Lonely Hearts Club Band""?",200,The Beatles,The Rolling Stones,Queen,ABBA
-Musik,"Hvem komponerede operaen ""La Traviata""?",300,Giuseppe Verdi,Giacomo Puccini,Richard Wagner,Georges Bizet
-Musik,Hvilket instrument spillede Louis Armstrong?,400,Trompet,Saxofon,Piano,Violin
-Musik,"Hvad hedder den svenske gruppe bag hits som ""Dancing Queen""?",500,ABBA,Roxette,Europe,Cardigans
-Musik,"Hvilken dansk sanger stod bag hittet ""Smuk som et stjerneskud""?",600,Tommy Seebach,Sanne Salomonsen,Kim Larsen,Dizzy Mizz Lizzy
-Musik,"Hvem komponerede ""Nøddeknækkeren""?",700,Pyotr Tchaikovsky,Sergei Prokofiev,Igor Stravinsky,Franz Liszt
-Musik,"Hvilket band skrev sangen ""Bohemian Rhapsody""?",800,Queen,Led Zeppelin,Pink Floyd,U2
-Musik,Hvilket klassisk instrument har 88 tangenter?,900,Piano,Harpe,Orgel,Guitar
-Musik,"Hvem skrev operetten ""Flagermusen""?",1000,Johann Strauss II,Franz Lehár,Wolfgang Amadeus Mozart,Richard Strauss
-Musik,"Hvilket dansk band stod bag albummet ""Gas 5""?",1100,Gasolin',Aqua,D-A-D,Nephew
-Musik,"Hvem er kendt som ""The King of Pop""?",1200,Michael Jackson,Elvis Presley,Prince,Madonna
-Musik,"Hvem skrev operaen ""Carmen""?",1300,Georges Bizet,Gaetano Donizetti,Giacomo Puccini,Richard Wagner
-Musik,Hvilket årti blev rockbandet Nirvana kendt?,1400,1990'erne,1970'erne,1980'erne,1960'erne
-Musik,"Hvad hedder komponisten bag ""Fire årstider""?",1500,Antonio Vivaldi,Wolfgang Amadeus Mozart,Johann Pachelbel,Johann Sebastian Bach
-Musik,"Hvilket dansk band står bag sangen ""Red Lipstick""?",1600,Medina,The Raveonettes,Lukas Graham,Infernal
-Musik,Hvem var forsanger i bandet Queen?,1700,Freddie Mercury,David Bowie,Mick Jagger,Robert Plant
-Musik,"Hvad er navnet på den danske komponist bag operaen ""Maskarade""?",1800,Carl Nielsen,Niels W. Gade,Peder Heise,Rued Langgaard
-Musik,Hvilket instrument spiller Yo-Yo Ma?,1900,Cello,Violin,Bratsch,Piano
-Musik,"Hvad hedder sangeren bag hits som ""Someone Like You"" og ""Hello""?",2000,Adele,Taylor Swift,Beyoncé,Rihanna
-Musik,"Hvilken komponist er kendt for ""Måneskinssonaten""?",2100,Ludwig van Beethoven,Frédéric Chopin,Franz Schubert,Claude Debussy
-Musik,"Hvilket band står bag sangen ""Stairway to Heaven""?",2200,Led Zeppelin,Deep Purple,Black Sabbath,AC/DC
-Musik,"Hvilken operasangerinde kaldes ""La Divina""?",2300,Maria Callas,Renée Fleming,Anna Netrebko,Cecilia Bartoli
-Musik,"Hvem komponerede ""Clair de Lune""?",2400,Claude Debussy,Erik Satie,Gabriel Fauré,Maurice Ravel
-Musik,"Hvilken dansk sangerinde sang ""Tainted Love"" i 1980'erne?",2500,Anne Linnet,Sanne Salomonsen,Nanna,Lis Sørensen
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Renæssance og barok,Hvem komponerede værket “Tafelmusik”?,100,Georg Philipp Telemann,Arcangelo Corelli,Johann Pachelbel,Dieterich Buxtehude,,,
+Renæssance og barok,Hvem komponerede værket “Les Indes galantes”?,200,Jean-Philippe Rameau,Jean-Baptiste Lully,Marc-Antoine Charpentier,François Couperin,,,
+Renæssance og barok,Hvem komponerede værket “operaen Armide fra 1686”?,300,Jean-Baptiste Lully,Jean-Philippe Rameau,Marc-Antoine Charpentier,François Couperin,,,
+Renæssance og barok,"Hvem komponerede værket “Te Deum, H. 146”?",400,Marc-Antoine Charpentier,Jean-Philippe Rameau,Jean-Baptiste Lully,François Couperin,,,
+Renæssance og barok,Hvem komponerede værket “Membra Jesu nostri”?,500,Dieterich Buxtehude,Arcangelo Corelli,Johann Pachelbel,Georg Philipp Telemann,,,
+Renæssance og barok,Hvem komponerede værket “Essercizi per gravicembalo”?,600,Domenico Scarlatti,Giovanni Battista Pergolesi,Tomaso Albinoni,Pietro Locatelli,,,
+Renæssance og barok,Hvem komponerede værket “Les Nations”?,700,François Couperin,Jean-Philippe Rameau,Jean-Baptiste Lully,Marc-Antoine Charpentier,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Den ufuldendte symfoni”?,100,Franz Schubert,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Carl Maria von Weber,,,
+Klassik og tidlig romantik,Hvem komponerede værket “operaen Il barbiere di Siviglia fra 1816”?,200,Gioachino Rossini,Vincenzo Bellini,Gaetano Donizetti,Luigi Cherubini,,,
+Klassik og tidlig romantik,"Hvem komponerede værket “Violinkoncerten i D-dur, opus 61”?",300,Ludwig van Beethoven,Wolfgang Amadeus Mozart,Franz Schubert,Carl Maria von Weber,,,
+Klassik og tidlig romantik,"Hvem komponerede værket “Jægerbruden, Der Freischütz”?",400,Carl Maria von Weber,Wolfgang Amadeus Mozart,Ludwig van Beethoven,Franz Schubert,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Norma”?,500,Vincenzo Bellini,Gioachino Rossini,Gaetano Donizetti,Luigi Cherubini,,,
+Klassik og tidlig romantik,Hvem komponerede værket “Lucia di Lammermoor”?,600,Gaetano Donizetti,Gioachino Rossini,Vincenzo Bellini,Luigi Cherubini,,,
+Romantik og nationalromantik,Hvem komponerede værket “Peer Gynt-musikken”?,100,Edvard Grieg,Jean Sibelius,Camille Saint-Saëns,César Franck,,,
+Romantik og nationalromantik,Hvem komponerede værket “Dyrenes karneval”?,200,Camille Saint-Saëns,Edvard Grieg,Jean Sibelius,César Franck,,,
+Romantik og nationalromantik,Hvem komponerede værket “Finlandia”?,300,Jean Sibelius,Edvard Grieg,Camille Saint-Saëns,César Franck,,,
+Romantik og nationalromantik,Hvem komponerede værket “Symfoni nr. 5 i cis-mol”?,400,Gustav Mahler,Anton Bruckner,Nikolaj Rimskij-Korsakov,Modest Musorgskij,,,
+Romantik og nationalromantik,Hvem komponerede værket “Symfoni nr. 7 i E-dur”?,500,Anton Bruckner,Gustav Mahler,Nikolaj Rimskij-Korsakov,Modest Musorgskij,,,
+Romantik og nationalromantik,Hvem komponerede værket “Symfonien i d-mol fra 1888”?,600,César Franck,Edvard Grieg,Jean Sibelius,Camille Saint-Saëns,,,
+1900-tallet og Norden,Hvem komponerede værket “West Side Story”?,100,Leonard Bernstein,Benjamin Britten,Aaron Copland,George Gershwin,,,
+1900-tallet og Norden,Hvem komponerede værket “4′33″”?,200,John Cage,Olivier Messiaen,György Ligeti,Philip Glass,,,
+1900-tallet og Norden,Hvem komponerede værket “Einstein on the Beach”?,300,Philip Glass,Olivier Messiaen,György Ligeti,John Cage,,,
+1900-tallet og Norden,Hvem komponerede værket “Music for 18 Musicians”?,400,Steve Reich,Arvo Pärt,Witold Lutosławski,Krzysztof Penderecki,,,
+1900-tallet og Norden,Hvem komponerede værket “Kvartet til tidens ende”?,500,Olivier Messiaen,György Ligeti,John Cage,Philip Glass,,,
+1900-tallet og Norden,Hvem komponerede værket “Atmosphères”?,600,György Ligeti,Olivier Messiaen,John Cage,Philip Glass,,,
