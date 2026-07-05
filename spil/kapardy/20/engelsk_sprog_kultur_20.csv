@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Engelsk,Hvad er hovedstaden i Storbritannien?,100,London,Manchester,Birmingham,Liverpool
-Engelsk,"Hvilken engelsksproget forfatter skrev ""Hamlet""?",200,William Shakespeare,Charles Dickens,Jane Austen,George Orwell
-Engelsk,"Hvilket land fejrer ""Independence Day"" den 4. juli?",300,USA,Storbritannien,Canada,Australien
-Engelsk,"Hvad hedder dronningen af Storbritannien, der regerede fra 1952 til 2022?",400,Elizabeth II,Victoria,Anne,Mary II
-Engelsk,Hvad er navnet på Englands største flod?,500,Themsen,Rhone,Severn,Clyde
-Engelsk,Hvad hedder valutaen i Storbritannien?,600,Britiske pund,Euro,Dollar,Krone
-Engelsk,"Hvilken amerikansk by er kendt som ""The Big Apple""?",700,New York,Los Angeles,Chicago,San Francisco
-Engelsk,Hvilket sprog er officielt i Australien?,800,Engelsk,Fransk,Spansk,Kinesisk
-Engelsk,Hvad hedder den britiske nationalret med fritter?,900,Fish and chips,Bangers and mash,Scones,Yorkshire pudding
-Engelsk,"Hvilket engelsk ord betyder ""farve"" på amerikansk?",1000,color,colour,hue,dye
-Engelsk,Hvad hedder den engelske nationalsang?,1100,God Save the King,Rule Britannia,Land of Hope and Glory,Jerusalem
-Engelsk,"Hvem skrev romanen ""1984""?",1200,George Orwell,Aldous Huxley,J.K. Rowling,Mark Twain
-Engelsk,Hvad hedder den britiske Premier League-klub fra Liverpool?,1300,Liverpool FC,Chelsea FC,Manchester City,Arsenal
-Engelsk,"Hvad betyder det engelske ord ""library""?",1400,Bibliotek,Skole,Museum,Bageri
-Engelsk,Hvilken ø er delt mellem Irland og Storbritannien?,1500,Irland,Sicilien,Kreta,Madagascar
-Engelsk,Hvem var Storbritanniens premierminister under 2. verdenskrig?,1600,Winston Churchill,Neville Chamberlain,Anthony Eden,Clement Attlee
-Engelsk,Hvad hedder den engelske juledessert med tørret frugt?,1700,Christmas pudding,Crème brûlée,Trifle,Cheesecake
-Engelsk,"Hvilket land kaldes ""The Land Down Under""?",1800,Australien,New Zealand,Canada,Irland
-Engelsk,"Hvad betyder ordet ""biscuit"" i britisk engelsk?",1900,Kiks,Kage,Brød,Slik
-Engelsk,Hvad hedder byen med den berømte bro Tower Bridge?,2000,London,Oxford,Bath,Exeter
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘lend’?,100,låne noget ud,låne af nogen,forbedre,undgå,,,
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘improve’?,200,forbedre,låne af nogen,låne noget ud,undgå,,,
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘avoid’?,300,undgå,låne af nogen,låne noget ud,forbedre,,,
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘relieved’?,400,lettet,flov,stædig,nysgerrig,,,
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘embarrassed’?,500,flov,lettet,stædig,nysgerrig,,,
+Grammatik og udtale,Hvilken sætning står korrekt i present perfect?,100,She has lived here for five years.,She lived here since five years.,She has live here for five years.,She is lived here for five years.,,,
+Grammatik og udtale,Hvilken sætning bruger future continuous korrekt?,200,"At eight, I will be working.","At eight, I will working.","At eight, I am will work.","At eight, I will be work.",,,
+Grammatik og udtale,"Hvilken fortsættelse er korrekt: “If I had known, …”?",300,I would have called you.,I will call you.,I would call you yesterday.,I had call you.,,,
+Grammatik og udtale,Hvilken verbumsform følger normalt efter modalverbet “must”?,400,grundformen uden “to”,datidsformen,-ing-formen,perfektum participium alene,,,
+Grammatik og udtale,Hvilken formulering er grammatisk korrekt?,500,between you and me,between you and I,between your and me,between yours and I,,,
+Litteratur og kultur,Hvem skrev værket “Ulysses”?,100,James Joyce,J.R.R. Tolkien,Virginia Woolf,Charlotte Brontë,,,
+Litteratur og kultur,Hvem skabte den litterære figur Sherlock Holmes?,200,Arthur Conan Doyle,Michael Bond,A.A. Milne,J.K. Rowling,,,
+Litteratur og kultur,Hvem skabte den litterære figur Paddington Bear?,300,Michael Bond,Arthur Conan Doyle,A.A. Milne,J.K. Rowling,,,
+Litteratur og kultur,Hvem skabte den litterære figur Winnie-the-Pooh?,400,A.A. Milne,Arthur Conan Doyle,Michael Bond,J.K. Rowling,,,
+Litteratur og kultur,Hvem skabte den litterære figur Harry Potter?,500,J.K. Rowling,Arthur Conan Doyle,Michael Bond,A.A. Milne,,,
+Den engelsktalende verden,"Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?",100,New Zealand,Canada,Irland,Singapore,,,
+Den engelsktalende verden,"Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?",200,Singapore,Canada,Irland,New Zealand,,,
+Den engelsktalende verden,I hvilken by eller hvilket område ligger Frihedsgudinden?,300,New York,Wiltshire,Toronto,Northern Territory,,,
+Den engelsktalende verden,I hvilken by eller hvilket område ligger Stonehenge?,400,Wiltshire,New York,Toronto,Northern Territory,,,
+Den engelsktalende verden,I hvilken by eller hvilket område ligger CN Tower?,500,Toronto,New York,Wiltshire,Northern Territory,,,
