@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Naturvidenskab,Hvad hedder processen hvor planter omdanner sollys til energi?,100,Fotosyntese,Respiration,Forbrænding,Nedbrydning
-Naturvidenskab,Hvad er vandets kemiske formel?,200,H2O,CO2,O2,CH4
-Naturvidenskab,Hvad er Jordens yderste lag kaldet?,300,Skorpen,Mantlen,Kernen,Ozonlaget
-Naturvidenskab,Hvilket dyr er kendt som det største på jorden?,400,Blåhval,Elefant,Kaskelothval,Næsehorn
-Naturvidenskab,"Hvad kaldes den kraft, der trækker genstande mod jorden?",500,Tyngdekraft,Friktion,Magnetisme,Tryk
-Naturvidenskab,Hvilket gas udgør størstedelen af Jordens atmosfære?,600,Nitrogen,Iltyd,Argon,Kulsyre
-Naturvidenskab,Hvilket organ pumper blod rundt i kroppen?,700,Hjertet,Lungerne,Lever,Nyre
-Naturvidenskab,Hvad er det kemiske symbol for guld?,800,Au,Ag,Fe,Cu
-Naturvidenskab,"Hvad hedder den planet, der er tættest på solen?",900,Merkur,Venus,Mars,Jupiter
-Naturvidenskab,Hvilken del af planten absorberer vand og næringsstoffer?,1000,Rødder,Blade,Stængel,Blomst
-Naturvidenskab,"Hvad kaldes det, når et fast stof bliver til gas uden at smelte?",1100,Sublimation,Evaporation,Kondensering,Krystallisation
-Naturvidenskab,Hvilken videnskabsmand formulerede tyngdeloven?,1200,Isaac Newton,Albert Einstein,Galileo Galilei,Nikola Tesla
-Naturvidenskab,Hvilket organ i kroppen producerer insulin?,1300,Bugspytkirtlen,Leveren,Hjertet,Milten
-Naturvidenskab,Hvad er det periodiske element med atomnummer 1?,1400,Hydrogen,Helium,Oxygen,Nitrogen
-Naturvidenskab,Hvad kaldes den største planet i vores solsystem?,1500,Jupiter,Saturn,Neptun,Uranus
-Naturvidenskab,Hvad hedder processen hvor væske bliver til gas?,1600,Evaporation,Kondensering,Sublimation,Krystallisering
-Naturvidenskab,Hvilket sansorgan registrerer lyd?,1700,Øret,Øjet,Næsen,Huden
-Naturvidenskab,Hvad kaldes studiet af arv og gener?,1800,Genetik,Botanik,Astronomi,Geologi
-Naturvidenskab,Hvilket vitamin produceres i huden ved sollys?,1900,Vitamin D,Vitamin C,Vitamin B12,Vitamin A
-Naturvidenskab,Hvad er symbol for jern i det periodiske system?,2000,Fe,Cu,Ag,Au
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Fysik og energi,Hvilket materiale er en god elektrisk leder?,100,kobber,gummi,glas,porcelæn,,,
+Fysik og energi,Hvilket materiale bruges ofte som elektrisk isolator?,200,gummi,kobber,aluminium,sølv,,,
+Fysik og energi,"Hvilken lov siger, at aktion og reaktion er lige store og modsat rettede?",300,Newtons tredje lov,Newtons første lov,Ohms lov,Arkimedes’ lov,,,
+Fysik og energi,Hvad er tyngdeaccelerationen nær Jordens overflade omtrent?,400,"9,8 m/s²","0,98 m/s²",98 m/s²,298 m/s²,,,
+Fysik og energi,Hvad er lysets hastighed i vakuum omtrent?,500,300.000 km/s,30.000 km/s,3.000 km/s,1.080 km/s,,,
+Kemi og stoffer,Hvad er den kemiske formel for kuldioxid?,100,CO₂,CO,C₂O,CH₄,,,
+Kemi og stoffer,Hvilken pH-værdi har en neutral vandig opløsning omtrent ved stuetemperatur?,200,7,0,5,14,,,
+Kemi og stoffer,Hvilken type opløsning har en pH-værdi under 7?,300,sur,basisk,neutral,mættet,,,
+Kemi og stoffer,Hvilken type opløsning har en pH-værdi over 7?,400,basisk,sur,neutral,radioaktiv,,,
+Kemi og stoffer,"Hvad kaldes en kemisk binding, hvor atomer deler elektronpar?",500,kovalent binding,ionbinding,metallisk binding,hydrogenkerne,,,
+Jorden og vejret,"Hvad kaldes punktet inde i Jorden, hvor et jordskælv begynder?",100,hypocentret,epicentret,ækvator,magnetpolen,,,
+Jorden og vejret,Hvad kaldes punktet på jordoverfladen lodret over et jordskælvs hypocenter?,200,epicentret,hypocentret,nulmeridianen,subduktionszonen,,,
+Jorden og vejret,"Hvilken bjergart dannes, når magma eller lava størkner?",300,magmatisk bjergart,sedimentær bjergart,metamorf bjergart,organisk jord,,,
+Jorden og vejret,Hvilken bjergart dannes af sammenpressede og cementerede sedimenter?,400,sedimentær bjergart,magmatisk bjergart,metamorf bjergart,mantelsten,,,
+Jorden og vejret,"Hvilken bjergart dannes, når eksisterende bjergart ændres af varme og tryk?",500,metamorf bjergart,sedimentær bjergart,magmatisk bjergart,løssediment,,,
+Måling og metode,Hvilken SI-grundenhed bruges til længde?,100,meter,liter,gram,sekund,,,
+Måling og metode,Hvilken SI-grundenhed bruges til masse?,200,kilogram,gram,newton,liter,,,
+Måling og metode,Hvilken SI-grundenhed bruges til tid?,300,sekund,minut,time,hertz,,,
+Måling og metode,Hvilken SI-grundenhed bruges til temperatur?,400,kelvin,grad Celsius,joule,candela,,,
+Måling og metode,Hvad beskriver målepræcision?,500,hvor tæt gentagne målinger ligger på hinanden,hvor tæt gennemsnittet er på den sande værdi,hvilken enhed der bruges,om hypotesen er populær,,,

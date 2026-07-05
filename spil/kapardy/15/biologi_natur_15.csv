@@ -1,16 +1,16 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Biologi,Hvilket dyr er kendt for at være verdens hurtigste på land?,100,Gepard,Leopard,Løve,Gazelle
-Biologi,Hvilket træ mister ikke sine blade om vinteren?,200,Ene,Eg,Birk,Bøg
-Biologi,Hvad er den største art af bjørn?,300,Isbjørn,Brun bjørn,Panda,Koala
-Biologi,Hvilket dyr kan flyve baglæns?,400,Kolibri,Svale,Flagermus,Hveps
-Biologi,Hvilken del af blomsten producerer pollen?,500,Støvdrager,Frugtknude,Støvvej,Blade
-Biologi,Hvilken art er kendt som menneskets nærmeste nulevende slægtning?,600,Chimpansen,Orangutang,Gorilla,Bonobo
-Biologi,Hvilket dyr er et krybdyr?,700,Slange,Frø,Haj,Egern
-Biologi,Hvilket havpattedyr bruger ekko-lokalisering til at jage?,800,Delfin,Sæl,Manat,Skildpadde
-Biologi,Hvilken del af hjernen styrer balance og koordination?,900,Lillehjernen,Storhjernen,Hjernestammen,Hippocampus
-Biologi,"Hvad kaldes den proces, hvormed en larve bliver til en sommerfugl?",1000,Forvandling,Moulting,Fotosyntese,Fission
-Biologi,Hvilket dyr er et pungdyr?,1100,Kænguru,Egern,Pingvin,Bjergged
-Biologi,"Hvad kaldes den struktur i cellen, der producerer energi?",1200,Mitokondrie,Ribosom,Lysosom,Golgiapparatet
-Biologi,Hvilken plante danner kogler?,1300,Fyrretræ,Eg,Løn,Rose
-Biologi,Hvad er den største fugl i verden?,1400,Struds,Albatros,Ørn,Kondor
-Biologi,Hvilket dyr har sorte og hvide striber?,1500,Zebra,Tiger,Giraffe,Okapi
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Celler og krop,Hvilket organel producerer størstedelen af cellens ATP ved aerob respiration?,100,mitokondriet,Golgiapparatet,cellekernen,lysosomet,,,
+Celler og krop,Hvor foregår proteinsyntesen?,200,på ribosomer,i lysosomer,i centrioler,i cellevæggen,,,
+Celler og krop,Hvilket organel modificerer og sorterer mange proteiner før transport?,300,Golgiapparatet,mitokondriet,cellekernen,kloroplasten,,,
+Celler og krop,Hvilket organel nedbryder mange affaldsstoffer og makromolekyler i dyreceller?,400,lysosomet,ribosomet,nukleolus,cellevæggen,,,
+Arv og evolution,Hvor mange kromosomer har en typisk menneskelig kropscelle?,100,46,23,44,92,,,
+Arv og evolution,Hvilken DNA-base danner normalt par med guanin?,200,cytosin,adenin,thymin,uracil,,,
+Arv og evolution,Hvad er et gen?,300,et DNA-afsnit med information til et funktionelt produkt,et helt kromosomsæt,en type cellemembran,et frit protein i blodet,,,
+Arv og evolution,Hvad er et kromosom?,400,en organiseret struktur af DNA og proteiner,en energiproducerende organel,et lipid i cellemembranen,et signalstof mellem neuroner,,,
+Planter og svampe,Hvilken gas frigives typisk som biprodukt ved fotosyntese?,100,ilt,metan,ammoniak,argon,,,
+Planter og svampe,Hvilket plantevæv transporterer vand og mineraler fra rødderne?,200,xylem,floem,epidermis,kambium alene,,,
+Planter og svampe,Hvilket plantevæv transporterer sukker og andre organiske stoffer?,300,floem,xylem,korkvæv,rodhætte,,,
+Planter og svampe,"Hvad kaldes de små åbninger i blade, som regulerer gasudveksling?",400,spalteåbninger,rodhår,støvknapper,kimblade,,,
+Økologi og dyr,Hvad er en producents rolle i en fødekæde?,100,at danne organisk stof fra uorganiske kilder,at spise alle nedbrydere,at omdanne dyr til mineraler alene,at leve uden energikilde,,,
+Økologi og dyr,Hvad er en nedbryders vigtigste økologiske rolle?,200,at nedbryde dødt organisk materiale og frigive næringsstoffer,at producere sollys,at standse stofkredsløb,at omdanne ilt til grundstoffer,,,
+Økologi og dyr,Hvad viser pilene i en fødekæde normalt?,300,retningen for energi og stof fra føde til forbruger,hvilket dyr der løber hurtigst,retningen for vind,hvor arterne vandrer om vinteren,,,

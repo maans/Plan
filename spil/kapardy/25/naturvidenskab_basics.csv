@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Naturvidenskab,Hvad hedder processen hvor planter omdanner sollys til energi?,100,Fotosyntese,Respiration,Forbrænding,Nedbrydning
-Naturvidenskab,Hvad er vandets kemiske formel?,200,H2O,CO2,O2,CH4
-Naturvidenskab,Hvad er Jordens yderste lag kaldet?,300,Skorpen,Mantlen,Kernen,Ozonlaget
-Naturvidenskab,Hvilket dyr er kendt som det største på jorden?,400,Blåhval,Elefant,Kaskelothval,Næsehorn
-Naturvidenskab,"Hvad kaldes den kraft, der trækker genstande mod jorden?",500,Tyngdekraft,Friktion,Magnetisme,Tryk
-Naturvidenskab,Hvilket gas udgør størstedelen af Jordens atmosfære?,600,Nitrogen,Iltyd,Argon,Kulsyre
-Naturvidenskab,Hvilket organ pumper blod rundt i kroppen?,700,Hjertet,Lungerne,Lever,Nyre
-Naturvidenskab,Hvad er det kemiske symbol for guld?,800,Au,Ag,Fe,Cu
-Naturvidenskab,"Hvad hedder den planet, der er tættest på solen?",900,Merkur,Venus,Mars,Jupiter
-Naturvidenskab,Hvilken del af planten absorberer vand og næringsstoffer?,1000,Rødder,Blade,Stængel,Blomst
-Naturvidenskab,"Hvad kaldes det, når et fast stof bliver til gas uden at smelte?",1100,Sublimation,Evaporation,Kondensering,Krystallisation
-Naturvidenskab,Hvilken videnskabsmand formulerede tyngdeloven?,1200,Isaac Newton,Albert Einstein,Galileo Galilei,Nikola Tesla
-Naturvidenskab,Hvilket organ i kroppen producerer insulin?,1300,Bugspytkirtlen,Leveren,Hjertet,Milten
-Naturvidenskab,Hvad er det periodiske element med atomnummer 1?,1400,Hydrogen,Helium,Oxygen,Nitrogen
-Naturvidenskab,Hvad kaldes den største planet i vores solsystem?,1500,Jupiter,Saturn,Neptun,Uranus
-Naturvidenskab,Hvad hedder processen hvor væske bliver til gas?,1600,Evaporation,Kondensering,Sublimation,Krystallisering
-Naturvidenskab,Hvilket sansorgan registrerer lyd?,1700,Øret,Øjet,Næsen,Huden
-Naturvidenskab,Hvad kaldes studiet af arv og gener?,1800,Genetik,Botanik,Astronomi,Geologi
-Naturvidenskab,Hvilket vitamin produceres i huden ved sollys?,1900,Vitamin D,Vitamin C,Vitamin B12,Vitamin A
-Naturvidenskab,Hvad er symbol for jern i det periodiske system?,2000,Fe,Cu,Ag,Au
-Naturvidenskab,"Hvad er navnet på den galakse, vores solsystem er en del af?",2100,Mælkevejen,Andromeda,Sombrero,Triangulum
-Naturvidenskab,Hvilket dyr lægger æg men er et pattedyr?,2200,Næbdyr,Delfin,Flagermus,Kænguru
-Naturvidenskab,"Hvad kaldes området i cellen, hvor DNA opbevares?",2300,Kernen,Cytoplasma,Ribosom,Mitokondrie
-Naturvidenskab,Hvad er enheden for elektrisk strøm?,2400,Ampere,Volt,Ohm,Watt
-Naturvidenskab,Hvad er blodets røde farvestof kaldet?,2500,Hæmoglobin,Myoglobin,Chlorofyl,Keratin
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Fysik og energi,Hvad kræver lyd for at kunne udbrede sig?,100,et stofligt medium,et absolut vakuum,synligt lys,et magnetfelt,,,
+Fysik og energi,Hvilken farve i synligt lys har den længste bølgelængde?,200,rød,violet,blå,grøn,,,
+Fysik og energi,Hvilken farve i synligt lys har den korteste bølgelængde?,300,violet,rød,orange,gul,,,
+Fysik og energi,Hvilken linsetype samler parallelle lysstråler?,400,en konveks linse,en konkav linse,et plant spejl,et prisme uden brydning,,,
+Fysik og energi,Hvilken regel gælder ved spejlende refleksion af lys?,500,Indfaldsvinklen er lig refleksionsvinklen,Indfaldsvinklen er altid 90°,Lyset mister hele sin fart,Refleksionsvinklen er altid halvdelen,,,
+Fysik og energi,Hvad er SI-enheden for tryk?,600,pascal,newton,joule,hertz,,,
+Fysik og energi,Hvad beregnes massefylde som?,700,masse divideret med rumfang,rumfang divideret med masse,kraft gange afstand,masse gange acceleration,,,
+Kemi og stoffer,"Hvad kaldes en homogen blanding, hvor et stof er opløst i et andet?",100,en opløsning,en suspension,et grundstof,en isotop,,,
+Kemi og stoffer,Hvilken metode bruges til at skille et uopløst fast stof fra en væske gennem et filter?,200,filtrering,destillation,kromatografi,sublimation,,,
+Kemi og stoffer,Hvilken metode kan adskille væsker med forskellige kogepunkter?,300,destillation,filtrering,magnetisering,sedimentation alene,,,
+Kemi og stoffer,Hvad kaldes bindingen mellem positivt og negativt ladede ioner?,400,ionbinding,kovalent binding,peptidbinding,friktionsbinding,,,
+Kemi og stoffer,Hvad kaldes overgangen fra væske til fast stof?,500,størkning,fordampning,sublimation,kondensation,,,
+Kemi og stoffer,Hvad kaldes overgangen fra fast stof direkte til gas?,600,sublimation,kondensation,smeltning,frysning,,,
+Jorden og vejret,Hvad kaldes vandets overgang fra væske til gas?,100,fordampning,kondensation,nedbør,infiltration,,,
+Jorden og vejret,Hvad kaldes vanddampens overgang til små vanddråber i skyer?,200,kondensation,fordampning,sublimation,afstrømning,,,
+Jorden og vejret,Hvilket atmosfærelag foregår det meste vejr i?,300,troposfæren,stratosfæren,mesosfæren,termosfæren,,,
+Jorden og vejret,Hvilket instrument måler lufttryk?,400,et barometer,et termometer,et anemometer,et pluviometer,,,
+Jorden og vejret,Hvilket instrument måler vindhastighed?,500,et anemometer,et barometer,et hygrometer,et seismometer,,,
+Jorden og vejret,I hvilket atmosfærelag findes størstedelen af ozonlaget?,600,stratosfæren,troposfæren,mesosfæren,eksosfæren,,,
+Måling og metode,"Hvor mange meter er 2,5 kilometer?",100,2.500 meter,250 meter,25.000 meter,"0,0025 meter",,,
+Måling og metode,"Hvor mange milliliter er 1,5 liter?",200,1.500 milliliter,150 milliliter,15.000 milliliter,"0,0015 milliliter",,,
+Måling og metode,Hvilken præfiks betyder en tusindedel?,300,milli-,kilo-,centi-,mega-,,,
+Måling og metode,Hvilken præfiks betyder en million?,400,mega-,milli-,mikro-,deci-,,,
+Måling og metode,Hvilken SI-grundenhed bruges til stofmængde?,500,mol,gram,liter,pascal,,,
+Måling og metode,Hvad bør normalt stå på en grafs vandrette akse i et kontrolleret forsøg?,600,den uafhængige variabel,den afhængige variabel,forskerens navn,måleusikkerheden alene,,,

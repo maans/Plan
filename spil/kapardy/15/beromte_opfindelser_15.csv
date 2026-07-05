@@ -1,16 +1,16 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Opfindelser,Hvem forbindes ofte med telefonens opfindelse?,100,Alexander Graham Bell,Thomas Edison,Nikola Tesla,James Watt
-Opfindelser,Hvem forbindes ofte med den praktiske glødelampe?,200,Thomas Edison,Benjamin Franklin,Isaac Newton,Tim Berners-Lee
-Opfindelser,Hvem udviklede trykpressen med løse typer i Europa?,300,Johannes Gutenberg,Leonardo da Vinci,Galileo Galilei,Alfred Nobel
-Opfindelser,Hvad er Marie Curie især kendt for?,400,forskning i radioaktivitet,opfindelsen af telefonen,opfindelsen af dynamit,opfindelsen af internettet
-Opfindelser,Hvem opfandt World Wide Web?,500,Tim Berners-Lee,Bill Gates,Steve Jobs,Mark Zuckerberg
-Opfindelser,Hvem byggede en af de første praktiske biler med benzinmotor?,600,Karl Benz,Henry Ford,James Watt,Guglielmo Marconi
-Opfindelser,Hvem gennemførte den første motorflyvning i 1903?,700,Brødrene Wright,Charles Lindbergh,Amelia Earhart,Ferdinand Zeppelin
-Opfindelser,Hvilken maskine forbindes James Watt især med forbedringer af?,800,dampmaskinen,telefonen,trykpressen,flyvemaskinen
-Opfindelser,Hvem opfandt lynaflederen?,900,Benjamin Franklin,Thomas Edison,Nikola Tesla,Michael Faraday
-Opfindelser,Hvilken medicin opdagede Alexander Fleming?,1000,penicillin,insulin,aspirin,morf in
-Opfindelser,Hvem opfandt dynamitten?,1100,Alfred Nobel,Louis Pasteur,Enrico Fermi,Robert Oppenheimer
-Opfindelser,Hvilket elektrisk system forbindes Nikola Tesla især med?,1200,vekselstrøm,damptryk,bogtryk,penicillin
-Opfindelser,Hvem opfandt kuglepennen i moderne form?,1300,László Bíró,Charles Babbage,John Logie Baird,Samuel Morse
-Opfindelser,Hvem opfandt pasteurisering?,1400,Louis Pasteur,Marie Curie,Alexander Fleming,Robert Koch
-Opfindelser,Hvem tog patent på telefonen i 1876?,1500,Alexander Graham Bell,Samuel Morse,Guglielmo Marconi,Thomas Edison
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Kommunikation og medier,Hvilken opfindelse demonstrerede Thomas Edison i 1877 til optagelse og afspilning af lyd?,100,fonografen,grammofonen,telegrafen,kinetografen,,,
+Kommunikation og medier,Hvem udviklede grammofonen med flade plader i stedet for fonografens cylinder?,200,Emile Berliner,Thomas Edison,Alexander Graham Bell,Valdemar Poulsen,,,
+Kommunikation og medier,Hvem modtog Nobelprisen i fysik i 1909 sammen med Karl Ferdinand Braun for bidrag til trådløs telegrafi?,300,Guglielmo Marconi,John Logie Baird,Lee de Forest,Edwin Armstrong,,,
+Kommunikation og medier,Hvem viste i 1926 et fungerende mekanisk tv-system for offentligheden i London?,400,John Logie Baird,Philo Farnsworth,Vladimir Zworykin,Paul Nipkow,,,
+Transport og maskiner,"Hvad hed flyet, som Wright-brødrene gennemførte deres første kontrollerede motorflyvning med i 1903?",100,Wright Flyer,Spirit of St. Louis,Bell X-1,Demoiselle,,,
+Transport og maskiner,Hvor fandt Wright-brødrenes første kontrollerede motorflyvning sted?,200,Kitty Hawk-området i North Carolina,Dayton i Ohio,Le Mans i Frankrig,Farnborough i England,,,
+Transport og maskiner,"Hvem udviklede motoren, der antænder brændstoffet ved høj kompression?",300,Rudolf Diesel,Nikolaus Otto,Frank Whittle,George Brayton,,,
+Transport og maskiner,Hvem forbindes med firetaktsmotorens såkaldte Otto-cyklus?,400,Nikolaus Otto,Rudolf Diesel,Karl Benz,James Watt,,,
+Medicin og hverdag,Hvem opdagede røntgenstråler i 1895?,100,Wilhelm Conrad Röntgen,Henri Becquerel,Marie Curie,Max von Laue,,,
+Medicin og hverdag,Hvem opfandt stetoskopet i 1816?,200,René Laennec,Joseph Lister,William Harvey,Robert Koch,,,
+Medicin og hverdag,Hvem indførte carbolsyrebaseret antiseptisk kirurgi i 1860’erne?,300,Joseph Lister,Ignaz Semmelweis,Louis Pasteur,Edward Jenner,,,
+Medicin og hverdag,Hvilke to forskere modtog Nobelprisen i 1923 for opdagelsen af insulin?,400,Frederick Banting og John Macleod,Alexander Fleming og Howard Florey,James Watson og Francis Crick,Robert Koch og Emil von Behring,,,
+Elektronik og computere,Hvilken britisk elektronisk computer blev bygget til kodebrydning under Anden Verdenskrig?,100,Colossus,UNIVAC I,Z3,EDSAC,,,
+Elektronik og computere,Hvilke to personer ledede udviklingen af ENIAC?,200,John Mauchly og J. Presper Eckert,John Bardeen og Walter Brattain,Vint Cerf og Bob Kahn,Ken Thompson og Dennis Ritchie,,,
+Elektronik og computere,Hvilken maskine fra Konrad Zuse fra 1941 regnes som en tidlig fungerende programmerbar digital computer?,300,Z3,ENIAC,Colossus,Mark I,,,

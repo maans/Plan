@@ -1,16 +1,16 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Naturvidenskab,Hvad hedder processen hvor planter omdanner sollys til energi?,100,Fotosyntese,Respiration,Forbrænding,Nedbrydning
-Naturvidenskab,Hvad er vandets kemiske formel?,200,H2O,CO2,O2,CH4
-Naturvidenskab,Hvad er Jordens yderste lag kaldet?,300,Skorpen,Mantlen,Kernen,Ozonlaget
-Naturvidenskab,Hvilket dyr er kendt som det største på jorden?,400,Blåhval,Elefant,Kaskelothval,Næsehorn
-Naturvidenskab,"Hvad kaldes den kraft, der trækker genstande mod jorden?",500,Tyngdekraft,Friktion,Magnetisme,Tryk
-Naturvidenskab,Hvilket gas udgør størstedelen af Jordens atmosfære?,600,Nitrogen,Iltyd,Argon,Kulsyre
-Naturvidenskab,Hvilket organ pumper blod rundt i kroppen?,700,Hjertet,Lungerne,Lever,Nyre
-Naturvidenskab,Hvad er det kemiske symbol for guld?,800,Au,Ag,Fe,Cu
-Naturvidenskab,"Hvad hedder den planet, der er tættest på solen?",900,Merkur,Venus,Mars,Jupiter
-Naturvidenskab,Hvilken del af planten absorberer vand og næringsstoffer?,1000,Rødder,Blade,Stængel,Blomst
-Naturvidenskab,"Hvad kaldes det, når et fast stof bliver til gas uden at smelte?",1100,Sublimation,Evaporation,Kondensering,Krystallisation
-Naturvidenskab,Hvilken videnskabsmand formulerede tyngdeloven?,1200,Isaac Newton,Albert Einstein,Galileo Galilei,Nikola Tesla
-Naturvidenskab,Hvilket organ i kroppen producerer insulin?,1300,Bugspytkirtlen,Leveren,Hjertet,Milten
-Naturvidenskab,Hvad er det periodiske element med atomnummer 1?,1400,Hydrogen,Helium,Oxygen,Nitrogen
-Naturvidenskab,Hvad kaldes den største planet i vores solsystem?,1500,Jupiter,Saturn,Neptun,Uranus
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Fysik og energi,Hvad beregnes fart som?,100,afstand divideret med tid,tid divideret med afstand,masse gange fart,kraft divideret med areal,,,
+Fysik og energi,Hvad er SI-enheden for elektrisk strømstyrke?,200,ampere,volt,ohm,coulomb,,,
+Fysik og energi,Hvad er SI-enheden for elektrisk spænding?,300,volt,ampere,watt,tesla,,,
+Fysik og energi,Hvad er SI-enheden for elektrisk modstand?,400,ohm,volt,ampere,henry,,,
+Kemi og stoffer,Hvad angiver et grundstofs atomnummer?,100,antallet af protoner,antallet af neutroner,antallet af elektronskaller,atomets masse i gram,,,
+Kemi og stoffer,Hvad kaldes atomer af samme grundstof med forskelligt antal neutroner?,200,isotoper,ioner,legeringer,polymerer,,,
+Kemi og stoffer,Hvad kaldes et atom eller molekyle med elektrisk nettoladning?,300,en ion,en isotop,en katalysator,en opløsning,,,
+Kemi og stoffer,Hvad er den kemiske formel for vand?,400,H₂O,CO₂,O₂,H₂O₂,,,
+Jorden og vejret,Hvad driver hovedsageligt bevægelsen af Jordens tektoniske plader?,100,varmestrømme i kappen,Månens lys,vind i troposfæren,havets saltholdighed,,,
+Jorden og vejret,"Hvad kaldes grænsen, hvor to tektoniske plader bevæger sig fra hinanden?",200,en divergent pladegrænse,en konvergent pladegrænse,en transform pladegrænse,en erosionsfront,,,
+Jorden og vejret,"Hvad kaldes grænsen, hvor to tektoniske plader bevæger sig mod hinanden?",300,en konvergent pladegrænse,en divergent pladegrænse,en passiv kyst,en vejrfront,,,
+Jorden og vejret,"Hvad kaldes instrumentet, der måler jordens rystelser ved et jordskælv?",400,et seismometer,et barometer,et hygrometer,et anemometer,,,
+Måling og metode,Hvorfor bruges en kontrolgruppe i et forsøg?,100,for at give et sammenligningsgrundlag,for at skjule resultaterne,for at gøre alle variable forskellige,for at erstatte gentagelser,,,
+Måling og metode,Hvorfor gentages målinger i et eksperiment?,200,for at vurdere variation og øge pålideligheden,for at sikre præcis samme tilfældige fejl,for at ændre hypotesen undervejs,for at undgå at beregne gennemsnit,,,
+Måling og metode,Hvad beskriver målenøjagtighed?,300,hvor tæt en måling er på den sande værdi,hvor ens gentagne målinger er,hvor mange decimaler der skrives,hvor hurtigt målingen foretages,,,

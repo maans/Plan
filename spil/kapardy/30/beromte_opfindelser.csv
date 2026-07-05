@@ -1,31 +1,31 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Opfindelser,Hvem forbindes ofte med telefonens opfindelse?,100,Alexander Graham Bell,Thomas Edison,Nikola Tesla,James Watt
-Opfindelser,Hvem forbindes ofte med den praktiske glødelampe?,200,Thomas Edison,Benjamin Franklin,Isaac Newton,Tim Berners-Lee
-Opfindelser,Hvem udviklede trykpressen med løse typer i Europa?,300,Johannes Gutenberg,Leonardo da Vinci,Galileo Galilei,Alfred Nobel
-Opfindelser,Hvad er Marie Curie især kendt for?,400,forskning i radioaktivitet,opfindelsen af telefonen,opfindelsen af dynamit,opfindelsen af internettet
-Opfindelser,Hvem opfandt World Wide Web?,500,Tim Berners-Lee,Bill Gates,Steve Jobs,Mark Zuckerberg
-Opfindelser,Hvem byggede en af de første praktiske biler med benzinmotor?,600,Karl Benz,Henry Ford,James Watt,Guglielmo Marconi
-Opfindelser,Hvem gennemførte den første motorflyvning i 1903?,700,Brødrene Wright,Charles Lindbergh,Amelia Earhart,Ferdinand Zeppelin
-Opfindelser,Hvilken maskine forbindes James Watt især med forbedringer af?,800,dampmaskinen,telefonen,trykpressen,flyvemaskinen
-Opfindelser,Hvem opfandt lynaflederen?,900,Benjamin Franklin,Thomas Edison,Nikola Tesla,Michael Faraday
-Opfindelser,Hvilken medicin opdagede Alexander Fleming?,1000,penicillin,insulin,aspirin,morf in
-Opfindelser,Hvem opfandt dynamitten?,1100,Alfred Nobel,Louis Pasteur,Enrico Fermi,Robert Oppenheimer
-Opfindelser,Hvilket elektrisk system forbindes Nikola Tesla især med?,1200,vekselstrøm,damptryk,bogtryk,penicillin
-Opfindelser,Hvem opfandt kuglepennen i moderne form?,1300,László Bíró,Charles Babbage,John Logie Baird,Samuel Morse
-Opfindelser,Hvem opfandt pasteurisering?,1400,Louis Pasteur,Marie Curie,Alexander Fleming,Robert Koch
-Opfindelser,Hvem tog patent på telefonen i 1876?,1500,Alexander Graham Bell,Samuel Morse,Guglielmo Marconi,Thomas Edison
-Opfindelser,Hvem forbindes med radioens tidlige udvikling?,1600,Guglielmo Marconi,Tim Berners-Lee,James Watt,Johannes Gutenberg
-Opfindelser,Hvem udviklede et tidligt luftfyldt cykeldæk?,1700,John Boyd Dunlop,Karl Benz,Henry Ford,Louis Pasteur
-Opfindelser,Hvad var Johann Sebastian Bach især kendt for?,1800,at komponere musik,at opfinde telefonen,at opfinde radioen,at opdage penicillin
-Opfindelser,Hvad er Albert Einstein især kendt for i fysik?,1900,relativitetsteorien,dynamit,trykpressen,telefonen
-Opfindelser,Hvem var med til at grundlægge Facebook?,2000,Mark Zuckerberg,Bill Gates,Steve Jobs,Larry Page
-Opfindelser,Hvad forbindes Louis Pasteur med?,2100,vaccination og pasteurisering,dynamit og krudt,telefon og radio,tryk og papir
-Opfindelser,Hvem var hovedingeniør bag computeren Colossus?,2200,Tommy Flowers,Alan Turing,Charles Babbage,Grace Hopper
-Opfindelser,Hvem designede idéen til Analytical Engine?,2300,Charles Babbage,Blaise Pascal,John Napier,Nikola Tesla
-Opfindelser,Hvad er HeLa-celler opkaldt efter?,2400,Henrietta Lacks,Marie Curie,Rosalind Franklin,Ada Lovelace
-Opfindelser,Hvilket land forbindes med papirets tidlige opfindelse?,2500,Kina,Egypten,Grækenland,Romerriget
-Opfindelser,Hvem udviklede morsesystemet?,2600,Samuel Morse,Guglielmo Marconi,Alexander Fleming,James Watt
-Opfindelser,Hvem var pioner inden for programmering og skrev om Babbages maskine?,2700,Ada Lovelace,Marie Curie,Rosalind Franklin,Grace Kelly
-Opfindelser,Hvilken opfindelse gjorde Henry Ford berømt for masseproduktion?,2800,samlebåndet,trykpressen,lynaflederen,kuglepennen
-Opfindelser,Hvem opfandt det første praktiske fjernsynssystem?,2900,John Logie Baird,Thomas Edison,Tim Berners-Lee,Karl Benz
-Opfindelser,Hvad gjorde kompasset især muligt?,3000,navigation over lange afstande,hurtigere bogtryk,elektrisk lys,vaccination
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Kommunikation og medier,Hvem opfandt World Wide Web på CERN omkring 1989–1990?,100,Tim Berners-Lee,Vint Cerf,Ray Tomlinson,Douglas Engelbart,,,
+Kommunikation og medier,Hvilke virksomheder udviklede compact disc-formatet i fællesskab?,200,Philips og Sony,IBM og Intel,Kodak og Polaroid,Xerox og Canon,,,
+Kommunikation og medier,Hvem sendte i 1971 en tidlig netværksmail og valgte @-tegnet mellem bruger og computer?,300,Ray Tomlinson,Tim Berners-Lee,Robert Metcalfe,Larry Roberts,,,
+Kommunikation og medier,Hvilket tysk forskningsinstitut spillede en central rolle i udviklingen af MP3-lydformatet?,400,Fraunhofer-instituttet,Max Planck-instituttet,CERN,Bell Labs,,,
+Kommunikation og medier,Hvilken opfindelse gjorde Alois Senefelder kendt omkring 1796?,500,litografi,fotografi,telegrafi,xerografi,,,
+Kommunikation og medier,"Hvem opfandt Linotype-maskinen, som støbte hele tekstlinjer i metal?",600,Ottmar Mergenthaler,Johannes Gutenberg,Christopher Latham Sholes,Alois Senefelder,,,
+Kommunikation og medier,Hvem udviklede en automatisk telefoncentral efter at have patenteret en automatisk omkobler i 1891?,700,Almon Strowger,Alexander Graham Bell,Elisha Gray,Antonio Meucci,,,
+Kommunikation og medier,Hvilken magnetisk lydoptager opfandt Valdemar Poulsen i 1898?,800,telegrafonen,fonografen,grammofonen,dictafonen,,,
+Transport og maskiner,Hvilke brødre stod bag den første bemandede varmluftsballonflyvning i 1783?,100,Joseph-Michel og Jacques-Étienne Montgolfier,Orville og Wilbur Wright,Auguste og Louis Lumière,Jacques og Pierre Curie,,,
+Transport og maskiner,"Hvem byggede i 1807 den kommercielt succesfulde dampbåd North River Steamboat, ofte kaldet Clermont?",200,Robert Fulton,John Fitch,James Watt,George Stephenson,,,
+Transport og maskiner,Hvem gennemførte i 1797 den første veldokumenterede faldskærmsnedstigning fra en ballon?,300,André-Jacques Garnerin,Louis Blériot,Alberto Santos-Dumont,Otto Lilienthal,,,
+Transport og maskiner,Hvem opfandt et praktisk luftpudeprincip til hovercraft i 1950’erne?,400,Christopher Cockerell,Frank Whittle,Igor Sikorsky,Robert Goddard,,,
+Transport og maskiner,Hvem udviklede den moderne dampturbine i 1880’erne?,500,Charles Parsons,James Watt,Thomas Newcomen,Rudolf Diesel,,,
+Transport og maskiner,Hvem patenterede den hydrauliske presse i 1795?,600,Joseph Bramah,Blaise Pascal,James Watt,Henry Maudslay,,,
+Transport og maskiner,"Hvem konstruerede ubåden Turtle, der blev forsøgt anvendt under den amerikanske uafhængighedskrig?",700,David Bushnell,Robert Fulton,John Holland,Cornelis Drebbel,,,
+Transport og maskiner,Hvem fik i 1794 patent på et tidligt kugleleje til vognaksler?,800,Philip Vaughan,George Stephenson,John Harrison,Joseph Bramah,,,
+Medicin og hverdag,Hvem udviklede den moderne lynlås med sammenlåsende tænder i 1910’erne?,100,Gideon Sundback,Whitcomb Judson,Elias Howe,Isaac Singer,,,
+Medicin og hverdag,Hvem udviklede et masseproduceret sikkerhedsbarbersystem med udskiftelige blade?,200,King Camp Gillette,George de Mestral,László Bíró,Gideon Sundback,,,
+Medicin og hverdag,Hvem patenterede en praktisk opvaskemaskine i 1886?,300,Josephine Cochrane,Margaret Knight,Mary Anderson,Melitta Bentz,,,
+Medicin og hverdag,Hvem opfandt engangskaffefilteret af papir i 1908?,400,Melitta Bentz,Josephine Cochrane,Margaret Knight,Mary Anderson,,,
+Medicin og hverdag,Hvem fik i 1846 et vigtigt amerikansk patent på en symaskine med låsesøm?,500,Elias Howe,Isaac Singer,Walter Hunt,Barthélemy Thimonnier,,,
+Medicin og hverdag,"Hvem demonstrerede i 1901 en motordrevet støvsuger, der sugede støv gennem slanger?",600,Hubert Cecil Booth,James Dyson,Ives McGaffey,William Hoover,,,
+Medicin og hverdag,Hvem forbedrede sikkerhedstændstikken i Sverige ved at placere rødt fosfor på strygefladen?,700,Johan Edvard Lundström,John Walker,Gustaf Erik Pasch,Alfred Nobel,,,
+Elektronik og computere,Hvem byggede den første fungerende laser i 1960?,100,Theodore Maiman,Charles Townes,Arthur Schawlow,Gordon Gould,,,
+Elektronik og computere,Hvem byggede i 1975 den første selvstændige digitale kamera-prototype hos Kodak?,200,Steven Sasson,Edwin Land,George Eastman,Willard Boyle,,,
+Elektronik og computere,Hvilke to udviklere skabte Unix på Bell Labs?,300,Ken Thompson og Dennis Ritchie,Vint Cerf og Bob Kahn,John Mauchly og J. Presper Eckert,Bill Gates og Paul Allen,,,
+Elektronik og computere,Hvilken Xerox PARC-computer fra 1973 havde en tidlig grafisk brugerflade og mus?,400,Xerox Alto,Apple Lisa,IBM PC,Commodore PET,,,
+Elektronik og computere,Hvem demonstrerede den første praktiske synlige lysdiode i 1962?,500,Nick Holonyak Jr.,Theodore Maiman,John Bardeen,Russell Ohl,,,
+Elektronik og computere,Hvilket laboratorium demonstrerede i 1954 en praktisk siliciumsolcelle?,600,Bell Labs,Xerox PARC,CERN,Los Alamos,,,
+Elektronik og computere,Hvilke to ingeniører byggede det første kvartsur hos Bell Telephone Laboratories i 1927?,700,Warren Marrison og J. W. Horton,John Bardeen og Walter Brattain,Ken Thompson og Dennis Ritchie,Jack Kilby og Robert Noyce,,,

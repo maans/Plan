@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Biologi,Hvilket dyr er kendt for at være verdens hurtigste på land?,100,Gepard,Leopard,Løve,Gazelle
-Biologi,Hvilket træ mister ikke sine blade om vinteren?,200,Ene,Eg,Birk,Bøg
-Biologi,Hvad er den største art af bjørn?,300,Isbjørn,Brun bjørn,Panda,Koala
-Biologi,Hvilket dyr kan flyve baglæns?,400,Kolibri,Svale,Flagermus,Hveps
-Biologi,Hvilken del af blomsten producerer pollen?,500,Støvdrager,Frugtknude,Støvvej,Blade
-Biologi,Hvilken art er kendt som menneskets nærmeste nulevende slægtning?,600,Chimpansen,Orangutang,Gorilla,Bonobo
-Biologi,Hvilket dyr er et krybdyr?,700,Slange,Frø,Haj,Egern
-Biologi,Hvilket havpattedyr bruger ekko-lokalisering til at jage?,800,Delfin,Sæl,Manat,Skildpadde
-Biologi,Hvilken del af hjernen styrer balance og koordination?,900,Lillehjernen,Storhjernen,Hjernestammen,Hippocampus
-Biologi,"Hvad kaldes den proces, hvormed en larve bliver til en sommerfugl?",1000,Forvandling,Moulting,Fotosyntese,Fission
-Biologi,Hvilket dyr er et pungdyr?,1100,Kænguru,Egern,Pingvin,Bjergged
-Biologi,"Hvad kaldes den struktur i cellen, der producerer energi?",1200,Mitokondrie,Ribosom,Lysosom,Golgiapparatet
-Biologi,Hvilken plante danner kogler?,1300,Fyrretræ,Eg,Løn,Rose
-Biologi,Hvad er den største fugl i verden?,1400,Struds,Albatros,Ørn,Kondor
-Biologi,Hvilket dyr har sorte og hvide striber?,1500,Zebra,Tiger,Giraffe,Okapi
-Biologi,"Hvad hedder den grønne farve i planter, der gør fotosyntese mulig?",1600,Chlorofyl,Hæmoglobin,Melanin,Keratin
-Biologi,Hvilket dyr hører til rovdyrordenen?,1700,Løve,Ko,Gris,Ged
-Biologi,"Hvad kaldes den videnskab, der studerer svampe?",1800,Mykologi,Botanik,Zoologi,Etnologi
-Biologi,Hvad er det største organ i menneskekroppen?,1900,Huden,Leveren,Hjertet,Hjernen
-Biologi,Hvilket dyr sover hængende med hovedet nedad?,2000,Flagermus,Koala,Pingvin,Egern
-Biologi,Hvilket dyr er kendt for at have lang hals?,2100,Giraf,Elefant,Næsehorn,Hippopotamus
-Biologi,"Hvad hedder den gruppe af dyr, der har exoskelet?",2200,Leddyr,Padder,Pattedyr,Fisk
-Biologi,"Hvad kaldes en plante, der lever på andre planter uden at skade dem?",2300,Epifyt,Parasit,Symbiot,Nitrifikant
-Biologi,Hvilket kattedyr er verdens mindste?,2400,Rustplettet kat,Løve,Tiger,Cheetah
-Biologi,Hvilket havpattedyr er kendt for at danse i vandet og klappe med finnerne?,2500,Søløve,Hvalross,Narhval,Dugong
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Celler og krop,Hvilket organ pumper blod gennem kredsløbet?,100,hjertet,leveren,milten,bugspytkirtlen,,,
+Celler og krop,Hvilke organer filtrerer blodet og danner urin?,200,nyrerne,lungerne,tarmene,skjoldbruskkirtlerne,,,
+Celler og krop,Hvilket organ producerer galde?,300,leveren,galdeblæren,mavesækken,nyren,,,
+Celler og krop,Hvor optages størstedelen af næringsstofferne fra fordøjelsen?,400,i tyndtarmen,i mavesækken,i spiserøret,i tyktarmen,,,
+Celler og krop,Hvilke blodbestanddele spiller en central rolle i koagulation?,500,blodplader,røde blodlegemer,lymfekar,nerveceller,,,
+Celler og krop,I hvilke små lungestrukturer foregår hovedparten af gasudvekslingen?,600,alveolerne,bronkierne,mellemgulvet,strubehovedet,,,
+Celler og krop,Hvilket hormon sænker normalt blodets glukosekoncentration?,700,insulin,adrenalin,thyroxin,melatonin,,,
+Arv og evolution,Hvilken munk er kendt for arvelighedsforsøg med ærteplanter?,100,Gregor Mendel,Charles Lyell,Robert Hooke,Louis Pasteur,,,
+Arv og evolution,Hvilken proces beskrev Darwin og Wallace som en vigtig mekanisme i evolution?,200,naturlig selektion,kunstig respiration,spontan generation,geologisk erosion,,,
+Arv og evolution,Hvad er en mutation?,300,en ændring i arvematerialets sekvens eller struktur,en normal celledeling uden ændring,en ændring i vejret,en midlertidig muskelsammentrækning,,,
+Arv og evolution,Hvad er en organismes fænotype?,400,dens observerbare egenskaber,dens DNA-sekvens alene,dens antal mutationer alene,dens placering i et økosystem,,,
+Arv og evolution,Hvad er en organismes genotype?,500,dens genetiske sammensætning for de betragtede gener,dens synlige miljø alene,dens samlede fødeindtag,dens alder i generationer,,,
+Arv og evolution,Hvad er en biologisk tilpasning?,600,"en arvelig egenskab, der øger succes i et bestemt miljø",enhver ændring et individ vælger i løbet af livet,et tilfældigt vejrfænomen,en sygdom uden arvelig betydning,,,
+Planter og svampe,Hvad kræver de fleste frø som minimum for at spire?,100,"vand, ilt og passende temperatur","stærkt lys, salt og frost",kuldioxid uden vand,jord som et absolut krav,,,
+Planter og svampe,Hvilken plantedel udvikles normalt til frugten efter befrugtning?,200,frugtknuden,støvknappen,bægerbladet,rodhætten,,,
+Planter og svampe,Hvad er befrugtning hos blomsterplanter?,300,sammensmeltning af hanlig og hunlig kønscelle,overførsel af pollen til støvfang,udvikling af rodhår,fordampning fra bladet,,,
+Planter og svampe,Hvilken plantegruppe danner frø i kogler?,400,nøgenfrøede planter,bregner,mosser,alger,,,
+Planter og svampe,"Hvilken plantegruppe formerer sig med sporer og har karvæv, men ingen frø?",500,bregner,nåletræer,blomsterplanter,lav,,,
+Planter og svampe,Hvilken plantegruppe mangler egentlige rødder og karvæv?,600,mosser,bregner,græsser,nåletræer,,,
+Økologi og dyr,Hvilken dyregruppe har fjer?,100,fugle,pattedyr,krybdyr,padder,,,
+Økologi og dyr,Hvor mange ben har et voksent insekt?,200,6,4,8,10,,,
+Økologi og dyr,Hvilken dyregruppe har hår og producerer mælk til ungerne?,300,pattedyr,fugle,fisk,insekter,,,
+Økologi og dyr,Hvilken dyregruppe har typisk tør hud med skæl af keratin?,400,krybdyr,padder,bløddyr,ledorme,,,
+Økologi og dyr,Hvilken hvirveldyrgruppe gennemgår ofte forvandling fra vandlevende larve til landlevende voksen?,500,padder,krybdyr,fugle,pattedyr,,,
+Økologi og dyr,Hvad kaldes den gradvise ændring i artssammensætning efter en forstyrrelse?,600,økologisk succession,genetisk translation,homeostase,bestøvning,,,

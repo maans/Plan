@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Opfindelser,Hvem forbindes ofte med telefonens opfindelse?,100,Alexander Graham Bell,Thomas Edison,Nikola Tesla,James Watt
-Opfindelser,Hvem forbindes ofte med den praktiske glødelampe?,200,Thomas Edison,Benjamin Franklin,Isaac Newton,Tim Berners-Lee
-Opfindelser,Hvem udviklede trykpressen med løse typer i Europa?,300,Johannes Gutenberg,Leonardo da Vinci,Galileo Galilei,Alfred Nobel
-Opfindelser,Hvad er Marie Curie især kendt for?,400,forskning i radioaktivitet,opfindelsen af telefonen,opfindelsen af dynamit,opfindelsen af internettet
-Opfindelser,Hvem opfandt World Wide Web?,500,Tim Berners-Lee,Bill Gates,Steve Jobs,Mark Zuckerberg
-Opfindelser,Hvem byggede en af de første praktiske biler med benzinmotor?,600,Karl Benz,Henry Ford,James Watt,Guglielmo Marconi
-Opfindelser,Hvem gennemførte den første motorflyvning i 1903?,700,Brødrene Wright,Charles Lindbergh,Amelia Earhart,Ferdinand Zeppelin
-Opfindelser,Hvilken maskine forbindes James Watt især med forbedringer af?,800,dampmaskinen,telefonen,trykpressen,flyvemaskinen
-Opfindelser,Hvem opfandt lynaflederen?,900,Benjamin Franklin,Thomas Edison,Nikola Tesla,Michael Faraday
-Opfindelser,Hvilken medicin opdagede Alexander Fleming?,1000,penicillin,insulin,aspirin,morf in
-Opfindelser,Hvem opfandt dynamitten?,1100,Alfred Nobel,Louis Pasteur,Enrico Fermi,Robert Oppenheimer
-Opfindelser,Hvilket elektrisk system forbindes Nikola Tesla især med?,1200,vekselstrøm,damptryk,bogtryk,penicillin
-Opfindelser,Hvem opfandt kuglepennen i moderne form?,1300,László Bíró,Charles Babbage,John Logie Baird,Samuel Morse
-Opfindelser,Hvem opfandt pasteurisering?,1400,Louis Pasteur,Marie Curie,Alexander Fleming,Robert Koch
-Opfindelser,Hvem tog patent på telefonen i 1876?,1500,Alexander Graham Bell,Samuel Morse,Guglielmo Marconi,Thomas Edison
-Opfindelser,Hvem forbindes med radioens tidlige udvikling?,1600,Guglielmo Marconi,Tim Berners-Lee,James Watt,Johannes Gutenberg
-Opfindelser,Hvem udviklede et tidligt luftfyldt cykeldæk?,1700,John Boyd Dunlop,Karl Benz,Henry Ford,Louis Pasteur
-Opfindelser,Hvad var Johann Sebastian Bach især kendt for?,1800,at komponere musik,at opfinde telefonen,at opfinde radioen,at opdage penicillin
-Opfindelser,Hvad er Albert Einstein især kendt for i fysik?,1900,relativitetsteorien,dynamit,trykpressen,telefonen
-Opfindelser,Hvem var med til at grundlægge Facebook?,2000,Mark Zuckerberg,Bill Gates,Steve Jobs,Larry Page
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Kommunikation og medier,Hvem grundlagde Kodak og gjorde rullefilm til et masseprodukt?,100,George Eastman,Edwin Land,Louis Daguerre,Eadweard Muybridge,,,
+Kommunikation og medier,Hvilket kombineret filmkamera og projektionsapparat forbindes med brødrene Lumière?,200,Cinématographe,kinetoskopet,fonografen,laterna magica,,,
+Kommunikation og medier,Hvilken fotografisk proces blev offentliggjort af Louis Daguerre i 1839?,300,daguerreotypien,cyanotypien,autokromprocessen,xerografien,,,
+Kommunikation og medier,Hvem tog det ældste bevarede fotografi fra et kamera omkring 1826 eller 1827?,400,Joseph Nicéphore Niépce,Louis Daguerre,George Eastman,William Henry Fox Talbot,,,
+Kommunikation og medier,Hvem demonstrerede i 1927 et fuldelektronisk tv-billede med sit system?,500,Philo Farnsworth,John Logie Baird,Guglielmo Marconi,Edwin Land,,,
+Transport og maskiner,Hvilken sikkerhedsanordning demonstrerede Elisha Otis til elevatorer i 1854?,100,"en fangmekanisme, der stoppede fald ved kabelbrud",en elektrisk døråbner,en hydraulisk motor,en dampdrevet modvægt,,,
+Transport og maskiner,Hvem fik i 1888 patent på et luftfyldt dæk til cykler?,200,John Boyd Dunlop,Karl Drais,John Kemp Starley,André Michelin,,,
+Transport og maskiner,"Hvem udviklede VS-300, en vigtig prototype for den moderne enrotorede helikopter?",300,Igor Sikorsky,Juan de la Cierva,Frank Whittle,Glenn Curtiss,,,
+Transport og maskiner,Hvem patenterede en praktisk trykluftsbremse til jernbanetog i 1869?,400,George Westinghouse,George Stephenson,Elisha Otis,Robert Fulton,,,
+Transport og maskiner,Hvilke to ingeniører udviklede jetmotorer uafhængigt i Storbritannien og Tyskland?,500,Frank Whittle og Hans von Ohain,James Watt og Thomas Newcomen,Rudolf Diesel og Nikolaus Otto,Igor Sikorsky og Juan de la Cierva,,,
+Medicin og hverdag,Hvilket apparat registrerer hjertets elektriske aktivitet?,100,elektrokardiografen,stetoskopet,spirometeret,otoskopet,,,
+Medicin og hverdag,"Hvem udviklede et kviksølvtermometer og den temperaturskala, der bærer hans navn?",200,Daniel Gabriel Fahrenheit,Anders Celsius,William Thomson,Evangelista Torricelli,,,
+Medicin og hverdag,Hvem stod for den offentlige demonstration af etherbedøvelse på Massachusetts General Hospital i 1846?,300,William T. G. Morton,Horace Wells,Joseph Lister,Crawford Long,,,
+Medicin og hverdag,"Hvem udviklede elektrokardiografen og navngav de klassiske P-, Q-, R-, S- og T-takker?",400,Willem Einthoven,René Laennec,Robert Koch,Christiaan Barnard,,,
+Medicin og hverdag,Hvilke to læger udviklede uafhængigt moderne injektionssprøjter med hul nål i 1850’erne?,500,Charles Pravaz og Alexander Wood,Edward Jenner og Louis Pasteur,Joseph Lister og Robert Koch,Banting og Best,,,
+Elektronik og computere,Hvad hed den første kommercielt tilgængelige mikroprocessor på én chip fra Intel i 1971?,100,Intel 4004,Intel 8086,MOS 6502,Zilog Z80,,,
+Elektronik og computere,Hvilke tre forskere demonstrerede transistoren ved Bell Labs i 1947?,200,"John Bardeen, Walter Brattain og William Shockley","Jack Kilby, Robert Noyce og Gordon Moore","Alan Turing, Max Newman og Tommy Flowers","Steve Wozniak, Steve Jobs og Ronald Wayne",,,
+Elektronik og computere,Hvilke to ingeniører udviklede integrerede kredsløb uafhængigt omkring 1958–1959?,300,Jack Kilby og Robert Noyce,John Bardeen og Walter Brattain,Ted Hoff og Federico Faggin,Ken Thompson og Dennis Ritchie,,,
+Elektronik og computere,Hvilken computer blev i 1951 den første kommercielle computer leveret til en amerikansk kunde?,400,UNIVAC I,ENIAC,Z3,Altair 8800,,,
+Elektronik og computere,Hvilket IBM-system fra 1956 indeholdt den første kommercielle harddisk?,500,IBM 305 RAMAC,IBM System/360,IBM PC,IBM Deep Blue,,,

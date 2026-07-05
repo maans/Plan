@@ -1,11 +1,11 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Naturvidenskab,Hvad hedder processen hvor planter omdanner sollys til energi?,100,Fotosyntese,Respiration,Forbrænding,Nedbrydning
-Naturvidenskab,Hvad er vandets kemiske formel?,200,H2O,CO2,O2,CH4
-Naturvidenskab,Hvad er Jordens yderste lag kaldet?,300,Skorpen,Mantlen,Kernen,Ozonlaget
-Naturvidenskab,Hvilket dyr er kendt som det største på jorden?,400,Blåhval,Elefant,Kaskelothval,Næsehorn
-Naturvidenskab,"Hvad kaldes den kraft, der trækker genstande mod jorden?",500,Tyngdekraft,Friktion,Magnetisme,Tryk
-Naturvidenskab,Hvilket gas udgør størstedelen af Jordens atmosfære?,600,Nitrogen,Iltyd,Argon,Kulsyre
-Naturvidenskab,Hvilket organ pumper blod rundt i kroppen?,700,Hjertet,Lungerne,Lever,Nyre
-Naturvidenskab,Hvad er det kemiske symbol for guld?,800,Au,Ag,Fe,Cu
-Naturvidenskab,"Hvad hedder den planet, der er tættest på solen?",900,Merkur,Venus,Mars,Jupiter
-Naturvidenskab,Hvilken del af planten absorberer vand og næringsstoffer?,1000,Rødder,Blade,Stængel,Blomst
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Fysik og energi,Hvad er SI-enheden for effekt?,100,watt,joule,ampere,ohm,,,
+Fysik og energi,Hvilken energiform har et legeme på grund af sin bevægelse?,200,kinetisk energi,kemisk energi,kerneenergi,elastisk energi,,,
+Fysik og energi,Hvilken energiform har et løftet legeme på grund af sin placering i et tyngdefelt?,300,potentiel energi,lydenergi,elektrisk energi,strålingsenergi,,,
+Kemi og stoffer,Hvilken partikel i atomkernen har positiv elektrisk ladning?,100,protonen,neutronen,elektronen,fotonen,,,
+Kemi og stoffer,Hvilken partikel i atomkernen er elektrisk neutral?,200,neutronen,protonen,elektronen,ionen,,,
+Kemi og stoffer,Hvilken atomar partikel har negativ elektrisk ladning?,300,elektronen,protonen,neutronen,positronen,,,
+Jorden og vejret,Hvilket lag ligger direkte under Jordens skorpe?,100,kappen,troposfæren,den indre kerne,hydrosfæren,,,
+Jorden og vejret,Hvilken del af Jordens kerne er flydende?,200,den ydre kerne,den indre kerne,skorpen,litosfæren,,,
+Måling og metode,Hvad er den uafhængige variabel i et forsøg?,100,den faktor forskeren bevidst ændrer,det resultat forskeren måler,"alle forhold, der holdes konstante",en fejl i måleudstyret,,,
+Måling og metode,Hvad er den afhængige variabel i et forsøg?,200,det resultat forskeren måler,den faktor forskeren ændrer,"den kontrolgruppe, der fjernes",forsøgets titel,,,

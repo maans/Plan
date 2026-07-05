@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Biologi,Hvilket dyr er kendt for at være verdens hurtigste på land?,100,Gepard,Leopard,Løve,Gazelle
-Biologi,Hvilket træ mister ikke sine blade om vinteren?,200,Ene,Eg,Birk,Bøg
-Biologi,Hvad er den største art af bjørn?,300,Isbjørn,Brun bjørn,Panda,Koala
-Biologi,Hvilket dyr kan flyve baglæns?,400,Kolibri,Svale,Flagermus,Hveps
-Biologi,Hvilken del af blomsten producerer pollen?,500,Støvdrager,Frugtknude,Støvvej,Blade
-Biologi,Hvilken art er kendt som menneskets nærmeste nulevende slægtning?,600,Chimpansen,Orangutang,Gorilla,Bonobo
-Biologi,Hvilket dyr er et krybdyr?,700,Slange,Frø,Haj,Egern
-Biologi,Hvilket havpattedyr bruger ekko-lokalisering til at jage?,800,Delfin,Sæl,Manat,Skildpadde
-Biologi,Hvilken del af hjernen styrer balance og koordination?,900,Lillehjernen,Storhjernen,Hjernestammen,Hippocampus
-Biologi,"Hvad kaldes den proces, hvormed en larve bliver til en sommerfugl?",1000,Forvandling,Moulting,Fotosyntese,Fission
-Biologi,Hvilket dyr er et pungdyr?,1100,Kænguru,Egern,Pingvin,Bjergged
-Biologi,"Hvad kaldes den struktur i cellen, der producerer energi?",1200,Mitokondrie,Ribosom,Lysosom,Golgiapparatet
-Biologi,Hvilken plante danner kogler?,1300,Fyrretræ,Eg,Løn,Rose
-Biologi,Hvad er den største fugl i verden?,1400,Struds,Albatros,Ørn,Kondor
-Biologi,Hvilket dyr har sorte og hvide striber?,1500,Zebra,Tiger,Giraffe,Okapi
-Biologi,"Hvad hedder den grønne farve i planter, der gør fotosyntese mulig?",1600,Chlorofyl,Hæmoglobin,Melanin,Keratin
-Biologi,Hvilket dyr hører til rovdyrordenen?,1700,Løve,Ko,Gris,Ged
-Biologi,"Hvad kaldes den videnskab, der studerer svampe?",1800,Mykologi,Botanik,Zoologi,Etnologi
-Biologi,Hvad er det største organ i menneskekroppen?,1900,Huden,Leveren,Hjertet,Hjernen
-Biologi,Hvilket dyr sover hængende med hovedet nedad?,2000,Flagermus,Koala,Pingvin,Egern
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Celler og krop,Hvilket organel udfører fotosyntese i planteceller?,100,kloroplasten,mitokondriet,lysosomet,Golgiapparatet,,,
+Celler og krop,Hvilken type blodlegemer er især en del af immunforsvaret?,200,hvide blodlegemer,røde blodlegemer,blodplader,fedtceller,,,
+Celler og krop,Hvilket protein transporterer det meste ilt i røde blodlegemer?,300,hæmoglobin,insulin,keratin,fibrin,,,
+Celler og krop,Hvilket stof udgør hovedbestanddelen af plantecellers cellevæg?,400,cellulose,kitin,glykogen,kollagen,,,
+Celler og krop,Hvilket netværk af membraner findes i ru og glat form i eukaryote celler?,500,det endoplasmatiske retikulum,cytoskelettet,cellevæggen,kromosomet,,,
+Arv og evolution,Hvad kaldes forskellige udgaver af det samme gen?,100,alleler,organeller,antigener,enzymer,,,
+Arv og evolution,Hvor mange kromosomer har en normal menneskelig kønscelle?,200,23,44,46,92,,,
+Arv og evolution,Hvilken base findes i RNA i stedet for thymin?,300,uracil,adenin,cytosin,guanin,,,
+Arv og evolution,Hvad betyder homozygot for et bestemt gen?,400,at de to alleler er ens,at allelerne altid er dominante,at genet mangler,at kromosomet er fordoblet,,,
+Arv og evolution,Hvad betyder heterozygot for et bestemt gen?,500,at de to alleler er forskellige,at begge alleler er ens,at organismen mangler DNA,at genet kun findes i kønsceller,,,
+Planter og svampe,Hvad er bestøvning?,100,overførsel af pollen til et støvfang,sammensmeltning af kønsceller,spiring af et frø,transport af sukker i floem,,,
+Planter og svampe,Hvilken del af blomsten producerer pollen?,200,støvknappen,støvfanget,frugtknuden,bægerbladet,,,
+Planter og svampe,Hvilken del af blomstens hunlige organ modtager pollen?,300,støvfanget,støvtråden,kronbladet,frøhviden,,,
+Planter og svampe,Hvad kaldes vandtab som vanddamp fra plantens overjordiske dele?,400,transpiration,respiration,bestøvning,spiring,,,
+Planter og svampe,Hvor findes frøanlæggene hos en blomsterplante?,500,i frugtknuden,i støvknappen,i kronbladet,i stænglens bark,,,
+Økologi og dyr,Hvad er biodiversitet?,100,"variation af gener, arter og økosystemer",antallet af rovdyr alene,mængden af regn i et område,ensartethed mellem alle organismer,,,
+Økologi og dyr,Hvad er en invasiv art?,200,"en ikke-hjemmehørende art, der spreder sig og skaber skade",enhver sjælden hjemmehørende art,en uddød art,"en art, der kun lever i havet",,,
+Økologi og dyr,"Hvad kaldes en art, der findes naturligt kun i et afgrænset område?",300,en endemisk art,en invasiv art,en domesticeret art,en kosmopolitisk art,,,
+Økologi og dyr,Hvorfor er der normalt mindre energi på højere trofiske niveauer?,400,fordi meget energi omsættes og afgives som varme,fordi energi skabes på hvert niveau,fordi rovdyr ikke respirerer,fordi planter bruger al ilt,,,
+Økologi og dyr,Hvad er en økologisk niche?,500,en arts rolle og ressourcebrug i økosystemet,det samme som artens geografiske sted alene,en fysisk rede hos alle dyr,en organismes kromosomtal,,,

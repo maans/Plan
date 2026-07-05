@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Opfindelser,Hvem forbindes ofte med telefonens opfindelse?,100,Alexander Graham Bell,Thomas Edison,Nikola Tesla,James Watt
-Opfindelser,Hvem forbindes ofte med den praktiske glødelampe?,200,Thomas Edison,Benjamin Franklin,Isaac Newton,Tim Berners-Lee
-Opfindelser,Hvem udviklede trykpressen med løse typer i Europa?,300,Johannes Gutenberg,Leonardo da Vinci,Galileo Galilei,Alfred Nobel
-Opfindelser,Hvad er Marie Curie især kendt for?,400,forskning i radioaktivitet,opfindelsen af telefonen,opfindelsen af dynamit,opfindelsen af internettet
-Opfindelser,Hvem opfandt World Wide Web?,500,Tim Berners-Lee,Bill Gates,Steve Jobs,Mark Zuckerberg
-Opfindelser,Hvem byggede en af de første praktiske biler med benzinmotor?,600,Karl Benz,Henry Ford,James Watt,Guglielmo Marconi
-Opfindelser,Hvem gennemførte den første motorflyvning i 1903?,700,Brødrene Wright,Charles Lindbergh,Amelia Earhart,Ferdinand Zeppelin
-Opfindelser,Hvilken maskine forbindes James Watt især med forbedringer af?,800,dampmaskinen,telefonen,trykpressen,flyvemaskinen
-Opfindelser,Hvem opfandt lynaflederen?,900,Benjamin Franklin,Thomas Edison,Nikola Tesla,Michael Faraday
-Opfindelser,Hvilken medicin opdagede Alexander Fleming?,1000,penicillin,insulin,aspirin,morf in
-Opfindelser,Hvem opfandt dynamitten?,1100,Alfred Nobel,Louis Pasteur,Enrico Fermi,Robert Oppenheimer
-Opfindelser,Hvilket elektrisk system forbindes Nikola Tesla især med?,1200,vekselstrøm,damptryk,bogtryk,penicillin
-Opfindelser,Hvem opfandt kuglepennen i moderne form?,1300,László Bíró,Charles Babbage,John Logie Baird,Samuel Morse
-Opfindelser,Hvem opfandt pasteurisering?,1400,Louis Pasteur,Marie Curie,Alexander Fleming,Robert Koch
-Opfindelser,Hvem tog patent på telefonen i 1876?,1500,Alexander Graham Bell,Samuel Morse,Guglielmo Marconi,Thomas Edison
-Opfindelser,Hvem forbindes med radioens tidlige udvikling?,1600,Guglielmo Marconi,Tim Berners-Lee,James Watt,Johannes Gutenberg
-Opfindelser,Hvem udviklede et tidligt luftfyldt cykeldæk?,1700,John Boyd Dunlop,Karl Benz,Henry Ford,Louis Pasteur
-Opfindelser,Hvad var Johann Sebastian Bach især kendt for?,1800,at komponere musik,at opfinde telefonen,at opfinde radioen,at opdage penicillin
-Opfindelser,Hvad er Albert Einstein især kendt for i fysik?,1900,relativitetsteorien,dynamit,trykpressen,telefonen
-Opfindelser,Hvem var med til at grundlægge Facebook?,2000,Mark Zuckerberg,Bill Gates,Steve Jobs,Larry Page
-Opfindelser,Hvad forbindes Louis Pasteur med?,2100,vaccination og pasteurisering,dynamit og krudt,telefon og radio,tryk og papir
-Opfindelser,Hvem var hovedingeniør bag computeren Colossus?,2200,Tommy Flowers,Alan Turing,Charles Babbage,Grace Hopper
-Opfindelser,Hvem designede idéen til Analytical Engine?,2300,Charles Babbage,Blaise Pascal,John Napier,Nikola Tesla
-Opfindelser,Hvad er HeLa-celler opkaldt efter?,2400,Henrietta Lacks,Marie Curie,Rosalind Franklin,Ada Lovelace
-Opfindelser,Hvilket land forbindes med papirets tidlige opfindelse?,2500,Kina,Egypten,Grækenland,Romerriget
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Kommunikation og medier,"Hvem udviklede det taktile skriftsystem, der bærer hans navn?",100,Louis Braille,Samuel Morse,Charles Barbier,Alexander Graham Bell,,,
+Kommunikation og medier,Hvem udviklede det direkte fremkaldende Polaroid-kamera?,200,Edwin Land,George Eastman,Chester Carlson,Louis Daguerre,,,
+Kommunikation og medier,Hvilken opfindelse fik Alexander Bain et britisk patent på i 1843?,300,en tidlig faxmaskine,en telefon,en grammofon,en skrivemaskine,,,
+Kommunikation og medier,Hvem opfandt den tørre kopieringsproces xerografi?,400,Chester Carlson,Edwin Land,George Eastman,Gary Starkweather,,,
+Kommunikation og medier,Hvem var en hovedskikkelse bag QWERTY-tastaturet på den tidlige skrivemaskine?,500,Christopher Latham Sholes,Elias Howe,Ottmar Mergenthaler,Herman Hollerith,,,
+Kommunikation og medier,Hvem udviklede laserprinteren hos Xerox i slutningen af 1960’erne?,600,Gary Starkweather,Chester Carlson,Alan Kay,Ivan Sutherland,,,
+Kommunikation og medier,Hvilke to opfindere fik i 1952 et centralt amerikansk patent på automatisk aflæsning af produktmærker?,700,Norman Joseph Woodland og Bernard Silver,Douglas Engelbart og Bill English,Jack Kilby og Robert Noyce,Vint Cerf og Bob Kahn,,,
+Transport og maskiner,Hvilken produktionsteknik indførte Ford på Highland Park-fabrikken i 1913?,100,det bevægelige samlebånd,numerisk styrede robotter,3D-print af motorblokke,dampdrevet håndværksproduktion,,,
+Transport og maskiner,Hvem patenterede cotton gin-maskinen i USA i 1794?,200,Eli Whitney,Cyrus McCormick,Joseph-Marie Jacquard,Samuel Colt,,,
+Transport og maskiner,"Hvem forbindes med den mekaniske mejemaskine, som blev patenteret i USA i 1834?",300,Cyrus McCormick,Eli Whitney,John Deere,George Westinghouse,,,
+Transport og maskiner,"Hvem byggede i 1817 den tohjulede løbemaskine, der kaldes draisinen?",400,Karl Drais,Pierre Michaux,John Boyd Dunlop,James Starley,,,
+Transport og maskiner,Hvilken maskine brugte Joseph-Marie Jacquard hul-kort til at styre mønstre i?,500,væven,dampmaskinen,telegrafen,drejebænken,,,
+Transport og maskiner,Hvilken cykelmodel fra John Kemp Starley i 1885 blev forbillede for den moderne sikkerhedscykel?,600,Rover Safety Bicycle,Penny-farthing,Draisine,Boneshaker,,,
+Medicin og hverdag,"Hvem opfandt burrelukningen Velcro efter at have undersøgt burrer, der satte sig fast i tøj og pels?",100,George de Mestral,Gideon Sundback,László Bíró,King Camp Gillette,,,
+Medicin og hverdag,"Hvem opdagede under radararbejde, at mikrobølger kunne opvarme mad, hvilket førte til mikrobølgeovnen?",200,Percy Spencer,John Bardeen,Robert Noyce,Chester Carlson,,,
+Medicin og hverdag,Hvem udviklede den moderne kuglepen sammen med sin bror György?,300,László Bíró,Lewis Waterman,Gideon Sundback,George de Mestral,,,
+Medicin og hverdag,Hvilke to 3M-medarbejdere forbindes med udviklingen af Post-it Notes?,400,Spencer Silver og Art Fry,Norman Woodland og Bernard Silver,Jack Kilby og Robert Noyce,Banting og Best,,,
+Medicin og hverdag,Hvem udviklede en metode til konservering af mad i lufttætte beholdere omkring 1809?,500,Nicolas Appert,Louis Pasteur,Clarence Birdseye,Carl von Linde,,,
+Medicin og hverdag,Hvem udviklede effektive industrielle kølemaskiner i 1870’erne?,600,Carl von Linde,James Watt,Willis Carrier,Nikolaus Otto,,,
+Elektronik og computere,Hvem demonstrerede computermusen offentligt ved “The Mother of All Demos” i 1968?,100,Douglas Engelbart,Alan Kay,Ivan Sutherland,Robert Metcalfe,,,
+Elektronik og computere,Hvilket lagringsmedie udviklede IBM og introducerede kommercielt i begyndelsen af 1970’erne?,200,disketten,compact disc,magnetbåndet,USB-nøglen,,,
+Elektronik og computere,Hvem skabte programmeringssproget C på Bell Labs?,300,Dennis Ritchie,Ken Thompson,Bjarne Stroustrup,John Backus,,,
+Elektronik og computere,Hvilke to forskere forbindes med udviklingen af TCP/IP-protokollerne?,400,Vint Cerf og Bob Kahn,Ken Thompson og Dennis Ritchie,Steve Jobs og Steve Wozniak,Jack Kilby og Robert Noyce,,,
+Elektronik og computere,Hvem udviklede Ethernet på Xerox PARC i 1970’erne?,500,Robert Metcalfe,Vint Cerf,Douglas Engelbart,Tim Berners-Lee,,,
+Elektronik og computere,Mellem hvilke to institutioner blev den første ARPANET-forbindelse etableret i 1969?,600,UCLA og Stanford Research Institute,MIT og Harvard,CERN og Oxford,Bell Labs og IBM,,,
