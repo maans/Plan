@@ -1,31 +1,31 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Nordiske lande,Hvilket land er størst i Norden i areal?,100,Sverige,Norge,Danmark,Finland
-Nordiske lande,Hvilket nordisk land har fjeldet Galdhøpiggen?,200,Norge,Island,Finland,Sverige
-Nordiske lande,Hvad hedder hovedstaden i Finland?,300,Helsinki,Reykjavik,Stockholm,Oslo
-Nordiske lande,Hvilket nordisk land bruger euro som valuta?,400,Finland,Sverige,Danmark,Island
-Nordiske lande,Hvilket land har størst befolkning i Norden?,500,Sverige,Norge,Finland,Danmark
-Nordiske lande,Hvilket nordisk land er kendt for gejsere og vulkaner?,600,Island,Norge,Finland,Sverige
-Nordiske lande,Hvad hedder Danmarks rigsfællesskabs nordlige territorium?,700,Grønland,Åland,Færøerne,Svalbard
-Nordiske lande,Hvilken øgruppe tilhører Norge?,800,Svalbard,Færøerne,Åland,Shetlandsøerne
-Nordiske lande,Hvilket nordisk land har to officielle sprog: dansk og grønlandsk?,900,Grønland,Island,Sverige,Norge
-Nordiske lande,"Hvilket land kaldes ""de tusind søers land""?",1000,Finland,Sverige,Norge,Island
-Nordiske lande,Hvad hedder hovedstaden i Island?,1100,Reykjavik,Helsinki,Stockholm,Tórshavn
-Nordiske lande,Hvilket nordisk land har byerne Göteborg og Malmö?,1200,Sverige,Norge,Finland,Danmark
-Nordiske lande,Hvilket land tilhører øgruppen Åland?,1300,Finland,Sverige,Norge,Danmark
-Nordiske lande,"Hvilket nordisk land kaldes også ""landet med fjorde""?",1400,Norge,Island,Sverige,Finland
-Nordiske lande,Hvilket nordisk land har kendte sagaer om vikinger nedskrevet på runestene?,1500,Island,Danmark,Norge,Sverige
-Nordiske lande,Hvad hedder hovedstaden i Danmark?,1600,København,Helsinki,Stockholm,Oslo
-Nordiske lande,Hvilket land er kendt for gejsere som Strokkur og Geysir?,1700,Island,Norge,Danmark,Finland
-Nordiske lande,Hvilken nordisk by huser Stockholms slot?,1800,Stockholm,Oslo,København,Helsinki
-Nordiske lande,Hvilket land styrer Færøerne?,1900,Danmark,Norge,Sverige,Finland
-Nordiske lande,Hvilket land har riksdag som parlament?,2000,Sverige,Danmark,Norge,Island
-Nordiske lande,Hvilket nordisk land fejrer selvstændighed den 17. maj?,2100,Norge,Sverige,Island,Finland
-Nordiske lande,Hvad hedder vulkanen der lukkede europæisk flytrafik i 2010?,2200,Eyjafjallajökull,Hekla,Surtsey,Katla
-Nordiske lande,"Hvilket land har nationalret ""smørrebrød""?",2300,Danmark,Norge,Sverige,Finland
-Nordiske lande,Hvilken nordisk hovedstad ligger længst mod nord?,2400,Reykjavik,Oslo,Stockholm,Helsinki
-Nordiske lande,Hvilket land har landsdelene Lapland og Karelen?,2500,Finland,Sverige,Norge,Island
-Nordiske lande,Hvad hedder Færøernes hovedstad?,2600,Tórshavn,Nuuk,Reykjavik,Mariehamn
-Nordiske lande,Hvilket nordisk land har flest aktive vulkanområder?,2700,Island,Norge,Finland,Sverige
-Nordiske lande,Hvilket sprog tales officielt på Grønland udover dansk?,2800,Grønlandsk,Islandsk,Færøsk,Samisk
-Nordiske lande,Hvilket nordisk land har hovedstaden Stockholm?,2900,Sverige,Finland,Norge,Danmark
-Nordiske lande,Hvilket nordisk område har hovedbyen Nuuk?,3000,Grønland,Åland,Svalbard,Gotland
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Lande og styreformer,Hvilken forsamling er Sveriges parlament?,100,Riksdagen,Stortinget,Lagtinget,Folketinget,,,
+Lande og styreformer,Hvad hedder Finlands parlament på finsk?,200,Eduskunta,Riksdagen,Alþingi,Inatsisartut,,,
+Lande og styreformer,Hvad kaldes det islandske parlament?,300,Alþingi,Folketinget,Stortinget,Lagtinget,,,
+Lande og styreformer,Hvilken forsamling vedtager love på Grønlands selvstyreområder?,400,Inatsisartut,Naalakkersuisut,Løgtingið,Alþingi,,,
+Lande og styreformer,Hvilken forsamling er Færøernes lovgivende parlament?,500,Løgtingið,Inatsisartut,Stortinget,Eduskunta,,,
+Lande og styreformer,Hvad kaldes Ålands selvstyrende parlament?,600,Lagtinget,Folketinget,Riksdagen,Løgtingið,,,
+Lande og styreformer,Hvor mange selvstændige stater regnes normalt som de nordiske lande?,700,fem,tre,seks,otte,,,
+Lande og styreformer,Hvor mange lande og selvstyrende områder omfatter Norden ifølge Nordisk Samarbejde?,800,otte,fem,seks,ti,,,
+Natur og geografi,Hvilken sø er Finlands største?,100,Saimaa,Päijänne,Vänern,Mjøsa,,,
+Natur og geografi,Hvilken sø har Danmarks største vandareal?,200,Arresø,Esrum Sø,Furesø,Mossø,,,
+Natur og geografi,Hvilken naturlig sø er størst i Island?,300,Þingvallavatn,Mývatn,Jökulsárlón,Kleifarvatn,,,
+Natur og geografi,Hvilken dansk landsdel er en halvø med landforbindelse til Tyskland?,400,Jylland,Sjælland,Fyn,Bornholm,,,
+Natur og geografi,Hvilke to lande forbindes af Øresundsbroen?,500,Danmark og Sverige,Danmark og Norge,Sverige og Finland,Norge og Sverige,,,
+Natur og geografi,Hvilke to danske øer forbindes af Storebæltsforbindelsen?,600,Fyn og Sjælland,Sjælland og Bornholm,Fyn og Langeland,Als og Fyn,,,
+Natur og geografi,Hvilke arktiske øområder hører til Norge?,700,Svalbard og Jan Mayen,Færøerne og Grønland,Åland og Gotland,Island og Svalbard,,,
+Natur og geografi,I hvilket ocean ligger Island?,800,Nordatlanten,Det Indiske Ocean,Stillehavet,Sydatlanten,,,
+Sprog og kultur,Hvordan er farverne placeret på Finlands flag?,100,hvidt med blåt kors,blåt med gult kors,rødt med hvidt kors,hvidt med rødt kors,,,
+Sprog og kultur,Hvilken farvekombination har Norges korsflag?,200,rødt med blåt kors kantet med hvidt,blåt med gult kors,hvidt med blåt kors,rødt med grønt kors,,,
+Sprog og kultur,Hvordan er Islands korsflag farvelagt?,300,blåt med rødt kors kantet med hvidt,rødt med blåt kors kantet med hvidt,hvidt med blåt kors,blåt med gult kors,,,
+Sprog og kultur,Hvad hedder Færøernes flag?,400,Merkið,Dannebrog,Tingakrossur,Sólmerkið,,,
+Sprog og kultur,Hvilket nordisk områdes flag har en rød og hvid cirkel i stedet for et kors?,500,Grønland,Åland,Færøerne,Island,,,
+Sprog og kultur,"Hvilket oprindeligt folk lever på tværs af de nordlige dele af Norge, Sverige og Finland?",600,samerne,inuitterne,friserne,sorbene,,,
+Sprog og kultur,"Hvad hedder Finlands nationalepos, som Elias Lönnrot sammenstillede?",700,Kalevala,Edda,Heimskringla,Landnámabók,,,
+Historie og samarbejde,Hvilket år fik Grønland udvidet selvstyre med Selvstyreloven?,100,2009,1973,1979,1985,,,
+Historie og samarbejde,Hvilket år fik Færøerne hjemmestyre?,200,1948,1922,1979,2009,,,
+Historie og samarbejde,Hvilket år forlod Grønland EF?,300,1985,1973,1995,2009,,,
+Historie og samarbejde,I hvilket år blev Kalmarunionen dannet?,400,1397,1066,1523,1814,,,
+Historie og samarbejde,Hvilken dansk dronning var den samlende skikkelse bag Kalmarunionen?,500,Margrete 1.,Margrethe 2.,Kristina af Sverige,Dronning Thyra,,,
+Historie og samarbejde,Hvilket nordisk land blev selvstændigt fra Sverige i 1905?,600,Norge,Finland,Island,Danmark,,,
+Historie og samarbejde,Hvilken nordisk pris blev første gang uddelt i 1962 for et litterært værk?,700,Nordisk Råds litteraturpris,Nobelprisen i litteratur,Augustprisen,Finlandiaprisen,,,
