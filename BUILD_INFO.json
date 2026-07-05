@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-07-02",
+  "builtAt": "2026-07-05",
   "libraryFormat": "plan-library-catalog",
   "catalogVersion": 2,
   "publishedItems": 3,
@@ -15,9 +15,12 @@
   "validation": {
     "dansk-2025-26": "ok-absolute-package-url",
     "faellessamlinger-2026-27": "ok-absolute-package-url",
-    "camp-26": "ok-andre-no-grade-new-and-compatibility-path",
+    "camp-26": "ok-plan-library-andre-no-grade",
     "library-card-primary-action": "ok-visible-below-description",
-    "ipad-file-import-idb-reconnect": "preserved-from-tested-0.9.3es"
+    "ipad-file-import-idb-reconnect": "preserved-from-tested-0.9.3es",
+    "library-root-cleanup": "ok-demo-subjects-under-plan-library",
+    "kapardy-library": "ok-210-csv-games-and-manifest",
+    "kapardy-import": "ok-csv-xlsx-direct"
   },
-  "appVersion": "0.9.3et"
+  "appVersion": "1.0.1"
 }

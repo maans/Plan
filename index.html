@@ -153,6 +153,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <!-- Plan v0.8.5 HTMLAPPS/TIDDLY BRIDGE OWNER SAFE: Bygger direkte på v0.8.4. Tilføjer én fælles, versionsstyret HTMLApp-bro i HTML-widgettens egen ejer. TiddlyWiki kan gemme den aktuelle single-file HTML tilbage i Plan, hente den rå gemte HTML, modtage .tid/plugin-/billedfiler og aflevere billed-, lyd- og videotiddlers som rigtige Plan-widgets. Plan accepterer desuden den klassiske TAVLE_IMPORT_PDF-handoff fra Skriv, de kendte tavleapp-saver-v1 state-handshakes fra Skriv/Udtalelser og Tjek samt det nye plan-htmlapp-v1 format. En indlejret Plan kan oprettes som isoleret HTMLApp med egen #session. Mediereferencer ligger fortsat i IndexedDB og følger Backup++/årsforløbspakker. Frie slots, kalender, grid, øvrige widgets og klassisk Tavle-import er uændret. -->
 <!-- Plan v0.8.5f_tiddly_fillink_drag_OWNER_SAFE: Bygger direkte på v0.8.5e. Retter kun HTMLApp/TiddlyWiki-draggrænsen: text/vnd.tiddler og data:text/vnd.tiddler behandles før WebKits kunstige .vnd.tiddler-filer; fillinks til WebP/WebM importeres via TiddlyWiki-medieparseren, mens træk af selve billedet fortsat bruger den almindelige filvej. Drop-overlay, universel fileksport, TiddlyWikis egen import, HTMLApp-bro og øvrige widgets er uændrede. -->
 <!-- index_calendar_subdialog_closes_panel_OWNER_SAFE: Bygger direkte på index_calendar_board_flow_hold_groups_OWNER_SAFE. Retter kun den globale kalenders tom-dato-flow: Når “Knyt aktuel tavle” åbner formularen “Planlæg aktuel tavle på datoen”, lukkes kalenderpanelet først, så formularen står alene og kan udfyldes uden et konkurrerende panel eller dobbelt baggrundslag. Når formularen gemmes, annulleres eller lukkes, vender kalenderpanelet tilbage på samme dato og i samme visning. Kalenderdata, lokale planpunkter, tider, faghold, grupper, tavlekoblinger og øvrige Plan-funktioner er uændrede. -->
+<!-- Plan v1.0.1 KAPARDY LIBRARY OWNER SAFE: Ryddet repositorystruktur, komplet KaPardy-spilbibliotek, CSV/Excel-import, genre-/spilhjul, farvesvar, fuld nulstilling og aktivt spørgsmål i editor. -->
 <!doctype html>
 <!-- Tavle Next v0.7.7b OWNER SAFE: Bygger direkte på v0.7.7 og retter kun Sessionsindeksets rækkefølgeprioritet. Widgettens eksplicitte sessionIds-liste, som v0.7.6 brugte korrekt som årsplanens kronologiske hovedrækkefølge, vinder igen over ældre planOrder- og legacy-numre. Semesterafgrænsningen fra v0.7.7 bevares: efterår viser 1–14, forår viser 15 og frem, og fællesindeks viser hele året. Kalender, import, overskrivning og øvrige funktioner er uændrede. -->
 <!-- Tavle Next v0.7.7 OWNER SAFE: Bygger direkte på v0.7.6. Retter kun Sessionsindeksets eksisterende widgetejer og den klassiske Tavle-imports eksisterende Sessionsindeks-konvertering. Efterårsindeks viser planrækkefølge 1–14 fra toppen, forårsindeks viser 15 og frem fra toppen, og fællesindeks viser hele årsplanen. Scope bevares nu fra klassisk sessionIndexScope og kan også udledes af eksisterende widget-/tavletitler, så allerede importerede årsplaner repareres uden ny import. De viste rækkefølgenumre forbliver årsplanens globale planOrder. Kalender, Backup++-overskrivning, sessionlinks, Mediearkiv, billedmatrix/lightbox, rotation, Forældremail, Elevkort, modaler og øvrige funktioner er uændrede. -->
@@ -166,7 +167,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Plan v1.0</title>
+<title>Plan v1.0.1</title>
 <meta name="application-name" content="Plan">
 <meta name="apple-mobile-web-app-title" content="Plan">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -1653,6 +1654,22 @@ html[data-plan-embed="true"] #tavleNextApp .tn-board-utility-button[data-clock-v
 }
 </style>
 
+<style id="plan-kapardy-library-v101-css">
+.tn-kapardy-library{display:grid;gap:12px;min-width:min(920px,82vw)}
+.tn-kapardy-library-loading{display:grid;place-items:center;min-height:180px;font-weight:900;opacity:.72}
+.tn-kapardy-library-tools{display:grid;grid-template-columns:minmax(180px,1fr) minmax(150px,.45fr) minmax(145px,.4fr);gap:8px}
+.tn-kapardy-library-tools input,.tn-kapardy-library-tools select{min-height:42px;border:1px solid var(--tn-line,#cbd5e1);border-radius:11px;padding:7px 10px;background:var(--tn-panel,#fff);color:var(--tn-ink,#111827);font:inherit}
+.tn-kapardy-library-summary{font-size:13px;font-weight:850;opacity:.72}
+.tn-kapardy-library-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;max-height:min(62vh,680px);overflow:auto;padding:2px}
+.tn-kapardy-library-card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;min-height:66px;border:1px solid var(--tn-line,#cbd5e1);border-radius:13px;padding:10px 12px;background:var(--tn-panel,#fff);color:inherit;text-align:left;font:inherit}
+.tn-kapardy-library-card span:first-child{display:grid;gap:3px;min-width:0}.tn-kapardy-library-card b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tn-kapardy-library-card small{opacity:.7}.tn-kapardy-library-open{padding:5px 8px;border-radius:999px;background:#2563eb;color:#fff;font-size:11px;font-weight:950}.tn-kapardy-library-card.loading{opacity:.7}
+.tn-kapardy-wheel-host{min-width:min(920px,82vw)}.tn-kapardy-wheel-picker{display:grid;gap:12px}.tn-kapardy-wheel-head h3{margin:0}.tn-kapardy-wheel-head p{margin:4px 0 0;opacity:.72}.tn-kapardy-wheel-layout{display:grid;grid-template-columns:minmax(300px,.9fr) minmax(220px,.55fr);gap:16px;align-items:center}.tn-kapardy-wheel-wrap{position:relative;display:grid;place-items:center;min-height:390px}.tn-kapardy-wheel-pointer{position:absolute;z-index:3;top:4px;left:50%;transform:translateX(-50%);font-size:31px;color:#fff;text-shadow:0 2px 7px #000}.tn-kapardy-wheel-disc{width:min(350px,72vw);aspect-ratio:1;border:10px solid color-mix(in srgb,currentColor 22%,transparent);border-radius:50%;box-shadow:0 16px 45px #0005,inset 0 0 0 5px #fff4;transition:transform 1.3s cubic-bezier(.16,.75,.16,1)}.tn-kapardy-wheel-result{position:absolute;display:grid;place-items:center;max-width:46%;min-width:120px;min-height:72px;padding:10px;border:5px solid #fff;border-radius:999px;background:#0f172a;color:#fff;text-align:center;font-weight:1000;box-shadow:0 8px 25px #0008}.tn-kapardy-wheel-legend{display:grid;gap:6px;max-height:390px;overflow:auto}.tn-kapardy-wheel-legend span{display:flex;align-items:center;gap:8px;font-weight:850}.tn-kapardy-wheel-legend i{width:14px;height:14px;border-radius:50%;flex:0 0 auto}.tn-kapardy-wheel-actions{display:flex;justify-content:center;gap:8px}.tn-kapardy-wheel-actions button,.tn-kapardy-wheel-back,.tn-kapardy-wheel-choice button{min-height:42px;border:1px solid var(--tn-line,#cbd5e1);border-radius:11px;padding:8px 13px;background:var(--tn-panel2,#f8fafc);color:inherit;font:inherit;font-weight:900}.tn-kapardy-wheel-actions .primary{background:#2563eb;color:#fff;border-color:#2563eb}.tn-kapardy-wheel-back{margin-bottom:8px}.tn-kapardy-wheel-choice{display:grid;gap:12px}.tn-kapardy-wheel-choice h3,.tn-kapardy-wheel-choice p{margin:0}.tn-kapardy-wheel-choice [data-sizes]{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.tn-kapardy-options button.tn-kapardy-color-0{border-color:#3b82f6;background:#2563eb22}.tn-kapardy-options button.tn-kapardy-color-1{border-color:#ef4444;background:#dc262622}.tn-kapardy-options button.tn-kapardy-color-2{border-color:#eab308;background:#eab30824}.tn-kapardy-options button.tn-kapardy-color-3{border-color:#22c55e;background:#16a34a22}
+.tn-kapardy-option-letter{width:auto;min-width:58px;height:31px;padding:0 9px;color:#fff}.tn-kapardy-color-0 .tn-kapardy-option-letter{background:#2563eb}.tn-kapardy-color-1 .tn-kapardy-option-letter{background:#dc2626}.tn-kapardy-color-2 .tn-kapardy-option-letter{background:#ca8a04}.tn-kapardy-color-3 .tn-kapardy-option-letter{background:#16a34a}
+.tn-kapardy-editor-card.active-question{border-color:#60a5fa;box-shadow:0 0 0 3px #60a5fa35;background:color-mix(in srgb,var(--tn-panel,#fff) 94%,#60a5fa 6%)}
+@media(max-width:760px){.tn-kapardy-library{min-width:0}.tn-kapardy-library-tools{grid-template-columns:1fr 1fr}.tn-kapardy-library-tools input{grid-column:1/-1}.tn-kapardy-library-grid{grid-template-columns:1fr}.tn-kapardy-wheel-host{min-width:0}.tn-kapardy-wheel-layout{grid-template-columns:1fr}.tn-kapardy-wheel-wrap{min-height:320px}.tn-kapardy-wheel-legend{grid-template-columns:repeat(2,minmax(0,1fr));max-height:190px}.tn-kapardy-wheel-choice [data-sizes]{grid-template-columns:1fr}}
+
+</style>
 </head>
 
 <style id="plan-093c-runtime-minimized-css">
@@ -4391,7 +4408,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       return cleanup;
     },unmount(){}});
     reg('kapardy',{async mount({widget,body,app}){
-      const content=widget.content||(widget.content={}),root=document.createElement('div'),letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ',editing=TN.runtime.mode==='edit',presenting=TN.runtime.mode==='presentation';
+      const content=widget.content||(widget.content={}),root=document.createElement('div'),letters='ABCDEFGHIJKLMNOPQRSTUVWXYZ',answerColorNames=['Blå','Rød','Gul','Grøn'],editing=TN.runtime.mode==='edit',presenting=TN.runtime.mode==='presentation';
       root.className='tn-kapardy';
       let migrationChanged=false;
       const text=value=>String(value??'').trim();
@@ -4575,6 +4592,21 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         }
         content.sourceDatasetId=dataset.id;content.sourceName=dataset.name;return dataset;
       };
+      const applyQuestionBank=async result=>{
+        const incoming=Array.isArray(result?.questions)?result.questions:[];
+        if(!incoming.length){app.toast('Spilbanken indeholder ingen spørgsmål');return false;}
+        questions=incoming.map(normalizeQuestion);content.questions=questions;content.current=0;
+        for(const team of content.teams||[]){team.score=0;team.correct=0;}
+        clearRoundState({freshGame:true});content.kapardyScreen='setup';content.libraryGameId=result?.libraryId||null;content.libraryGenre=result?.genre||null;content.librarySource=result?.sourceUrl||result?.sourceName||null;
+        const title=text(result?.title)||widget.title||'KaPardy';widget.title=title;
+        const dataset=await syncQuestionBank(questions);if(dataset){dataset.name=`${title} · spilbank`;dataset.meta={...(dataset.meta||{}),kapardyLibraryId:result?.libraryId||null,kapardyGenre:result?.genre||null,kapardySource:result?.source||'local',kapardySourceUrl:result?.sourceUrl||'',kapardySourceName:result?.sourceName||''};await app.dataManager.update(dataset);content.sourceName=dataset.name;}
+        await persist({immediate:true});await app.renderActiveBoard({preserveSelection:true});app.toast(`${questions.length} spørgsmål indlæst · ${title}`);return true;
+      };
+      const openGameLibrary=()=>window.PlanKapardyLibrary?.openLibrary?.(app,applyQuestionBank)||app.toast('Spilbiblioteket er ikke klar');
+      const openGameWheel=()=>window.PlanKapardyLibrary?.openWheel?.(app,applyQuestionBank)||app.toast('Spilhjulet er ikke klar');
+      const importGameFile=()=>window.PlanKapardyLibrary?.pickFile?.(app,applyQuestionBank)||app.toast('Spilimport er ikke klar');
+      const resetGameToBeginning=async()=>{const keepMode=regularModes.includes(content.gameMode)?content.gameMode:'kahoot';for(const team of content.teams||[]){team.score=0;team.correct=0;}content.current=0;clearRoundState({freshGame:true});content.gameMode=keepMode;content.mode=keepMode;content.nextGameMode=keepMode;content.gameFinished=false;content.kapardyScreen='setup';await rerender();app.toast('KaPardy er nulstillet · start igen fra begyndelsen');};
+      const requestFullReset=()=>{const confirmBody=document.createElement('div');confirmBody.innerHTML='<p><b>Start KaPardy helt forfra?</b></p><p>Point, antal rigtige, svar, bedømmelser og brugte spørgsmål fjernes. Hold, spilbank og valgt spilform bevares.</p>';app.modalManager.open({title:'Nulstil KaPardy?',body:confirmBody,actions:[{label:'Annuller',run:()=>{}},{label:'Nulstil og gå til start',primary:true,run:resetGameToBeginning}]});};
       const openQuestionEditor=async()=>{
         if(!editing){app.toast('Spørgsmål redigeres i redigeringstilstand');return;}
         const panel=document.createElement('div');panel.className='tn-kapardy-editor';
@@ -4593,13 +4625,14 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         for(const question of questions){const card=makeCard(question,list.children.length);card.dataset.questionId=question.id||uid('kpq');list.append(card);}
         const add=document.createElement('button');add.type='button';add.className='tn-kapardy-editor-add';add.textContent='+ Tilføj spørgsmål';add.onclick=()=>{const card=makeCard({category:questions.at(-1)?.category||'Spørgsmål',question:'',points:100,options:['','','','']},list.children.length);card.dataset.questionId=uid('kpq');list.append(card);renumber();card.querySelector('[data-field="question"]')?.focus();};
         panel.append(intro,list,add);
-        app.modalManager.open({title:`Redigér spørgsmål · ${widget.title||'KaPardy'}`,body:panel,className:'tn-kapardy-question-editor-modal',actions:[{label:'Annuller',run:()=>{}},{label:'Gem spørgsmål',primary:true,run:async()=>{
+        const editorModal=app.modalManager.open({title:`Redigér spørgsmål · ${widget.title||'KaPardy'}`,body:panel,className:'tn-kapardy-question-editor-modal',actions:[{label:'Annuller',run:()=>{}},{label:'Gem spørgsmål',primary:true,run:async()=>{
           const next=[...list.children].map(readCard).filter(item=>item.question||item.options.some(Boolean));
           if(!next.length){app.toast('Tilføj mindst ét spørgsmål');return false;}
           const missing=next.findIndex(item=>!item.question||item.options.some(option=>!text(option)));
           if(missing>=0){app.toast(`Udfyld spørgsmål og alle fire svar i nr. ${missing+1}`);list.children[missing]?.scrollIntoView({block:'center'});return false;}
           questions=next.map(normalizeQuestion);content.questions=questions;content.current=0;for(const team of content.teams||[]){team.score=0;team.correct=0;}clearRoundState({freshGame:true});content.kapardyScreen='setup';await syncQuestionBank(questions);await persist({immediate:true});await app.renderActiveBoard({preserveSelection:true});app.toast(`${questions.length} spørgsmål gemt · spillet er nulstillet`);
         }}]});
+        requestAnimationFrame(()=>{editorModal.modal?.focus?.({preventScroll:true});const active=list.children[TN.clamp(Number(content.current)||0,0,Math.max(0,list.children.length-1))];if(active){active.classList.add('active-question');active.scrollIntoView({block:'center'});active.querySelector('[data-field="question"]')?.focus({preventScroll:true});}});
       };
       let groups=[];if(content.groupSetId)try{groups=await app.groupManager.listGroups(content.groupSetId);}catch(_){groups=[];}
       const savedTeams=Array.isArray(content.teams)?content.teams:[],savedById=new Map(savedTeams.map(team=>[String(team.groupId||team.name),team]));
@@ -4608,8 +4641,8 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       const current=TN.clamp(Number(content.current)||0,0,Math.max(0,questions.length-1)),q=questions[current];content.current=current;
       if(migrationChanged)await persist({immediate:true});
       if(!q){
-        root.innerHTML=`<div class="tn-kapardy-setup"><h3>KaPardy er klar</h3><p>Spillet mangler spørgsmål. I KaPardy-spilbanker er det første svar altid korrekt; de tre næste er forkerte. KaPardy blander selv svarene, når et nyt spil starter.</p><div><button type="button" class="primary" data-demo>Brug lille demo</button>${editing?'<button type="button" data-edit-questions>Opret spørgsmål</button>':''}<button type="button" data-groups>Vælg grupper som hold</button></div></div>`;
-        root.querySelector('[data-demo]').onclick=async()=>{content.questions=TN.deepClone(demoQuestions);content.current=0;clearRoundState({freshGame:true});content.kapardyScreen='setup';await rerender();};root.querySelector('[data-edit-questions]')?.addEventListener('click',openQuestionEditor);root.querySelector('[data-groups]').onclick=openGroupPicker;body.append(root);return;
+        root.innerHTML=`<div class="tn-kapardy-setup"><h3>KaPardy er klar</h3><p>Vælg et færdigt spil, lad lykkehjulet finde et, eller importér din egen CSV-/Excel-spilbank. Det første svar er altid korrekt; de tre næste er forkerte.</p><div><button type="button" class="primary" data-demo>Vælg med lykkehjul</button><button type="button" data-library>Spilbibliotek</button><button type="button" data-import-game>Importér CSV/Excel</button><button type="button" data-small-demo>Lille lokal demo</button>${editing?'<button type="button" data-edit-questions>Opret spørgsmål</button>':''}<button type="button" data-groups>Vælg grupper som hold</button></div></div>`;
+        root.querySelector('[data-demo]').onclick=openGameWheel;root.querySelector('[data-library]').onclick=openGameLibrary;root.querySelector('[data-import-game]').onclick=importGameFile;root.querySelector('[data-small-demo]').onclick=async()=>applyQuestionBank({title:'Lille KaPardy-demo',genre:'Demo',source:'builtin',questions:TN.deepClone(demoQuestions)});root.querySelector('[data-edit-questions]')?.addEventListener('click',openQuestionEditor);root.querySelector('[data-groups]').onclick=openGroupPicker;body.append(root);return;
       }
       const progressExists=anyQuestionProgress()||content.scoreEvents.length>0||!!content.mix?.active||Number(content.mix?.step)>0||teams.some(team=>(Number(team.score)||0)!==0||(Number(team.correct)||0)!==0);
       if(content.kapardyScreen==='setup'){
@@ -4629,7 +4662,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           ${progressExists?`<section class="tn-kapardy-active-game"><div class="tn-kapardy-active-game-head"><div class="tn-kapardy-active-game-title"><strong>${content.gameFinished?'Seneste spil':'Aktivt spil'} · ${escape(activeMode)}</strong><small>${escape(activeGamePosition)} · ${content.gameFinished?'pointene er stadig gemt':`${escape(activeTeamName)} er aktivt hold`}</small></div><span class="tn-kapardy-active-game-state ${content.gameFinished?'finished':''}">${escape(activeGameState)}</span></div><div class="tn-kapardy-active-score-strip">${activeScores}</div></section>`:''}
           <div class="tn-kapardy-start-panel">
             <section class="tn-kapardy-start-card tn-kapardy-start-teams"><h4>Hold</h4><textarea data-team-names ${progressExists?'disabled':''} aria-label="Ét holdnavn pr. linje">${escape(names)}</textarea><p class="tn-kapardy-start-note">${progressExists?'Et igangværende spil bevarer hold og point. Brug Fortsæt for at gå tilbage til spillet eller Start nyt for at begynde forfra.':'Skriv ét holdnavn pr. linje. Mindst to hold anbefales.'}</p><button type="button" data-groups>Vælg gemte grupper som hold</button></section>
-            <section class="tn-kapardy-start-card"><h4>Spilform</h4><div class="tn-kapardy-mode-grid"><button type="button" data-mode="kahoot"><span>Kahoot</span><small>Alle hold svarer på fire blandede svar</small></button><button type="button" data-mode="jeopardy"><span>Jeopardy</span><small>Hold vælger kategori og pointfelt</small></button><button type="button" data-mode="master"><span>Mester</span><small>Åbne spørgsmål med lærerens bedømmelse</small></button><button type="button" data-mode="mix"><span>Mix</span><small>Alle spørgsmål tre gange i blandede spilformer</small></button></div><label class="tn-kapardy-setting"><input type="checkbox" data-hide-scores ${content.hideScores?'checked':''}><span>Skjul stillingen under spillet</span></label><div class="tn-kapardy-start-side-actions">${editing?'<button type="button" data-edit-questions>Redigér spørgsmål</button>':''}${progressExists?`<button type="button" data-show-results>Vis samlet stilling</button><button type="button" data-reset-active>Nulstil spil</button><button type="button" class="danger" data-end-game>Afslut spil</button><button type="button" data-start-new>Start nyt ${activeMode}</button>`:''}</div></section>
+            <section class="tn-kapardy-start-card"><h4>Spilform</h4><div class="tn-kapardy-mode-grid"><button type="button" data-mode="kahoot"><span>Kahoot</span><small>Alle hold svarer på fire blandede svar</small></button><button type="button" data-mode="jeopardy"><span>Jeopardy</span><small>Hold vælger kategori og pointfelt</small></button><button type="button" data-mode="master"><span>Mester</span><small>Åbne spørgsmål med lærerens bedømmelse</small></button><button type="button" data-mode="mix"><span>Mix</span><small>Alle spørgsmål tre gange i blandede spilformer</small></button></div><label class="tn-kapardy-setting"><input type="checkbox" data-hide-scores ${content.hideScores?'checked':''}><span>Skjul stillingen under spillet</span></label><div class="tn-kapardy-start-side-actions"><button type="button" data-library>Spilbibliotek</button><button type="button" data-wheel-game>Vælg med lykkehjul</button><button type="button" data-import-game>Importér CSV/Excel</button>${editing?'<button type="button" data-edit-questions>Redigér spørgsmål</button>':''}${progressExists?`<button type="button" data-show-results>Vis samlet stilling</button><button type="button" data-reset-active>Nulstil spil</button><button type="button" class="danger" data-end-game>Afslut spil</button><button type="button" data-start-new>Start nyt ${activeMode}</button>`:''}</div></section>
           </div>
         </div>`;
         const textarea=root.querySelector('[data-team-names]'),hideInput=root.querySelector('[data-hide-scores]'),primaryStartButton=root.querySelector('[data-primary-start]'),restartButton=root.querySelector('[data-start-new]');
@@ -4643,6 +4676,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         const paintModes=()=>{for(const button of root.querySelectorAll('[data-mode]'))button.classList.toggle('active',button.dataset.mode===selectedMode);const label=modeLabels[selectedMode]||'Kahoot';primaryStartButton.textContent=progressExists?`Fortsæt ${label}`:`Start ${label}`;if(restartButton)restartButton.textContent=`Start nyt ${label}`;};
         for(const button of root.querySelectorAll('[data-mode]'))button.onclick=()=>{selectedMode=button.dataset.mode;paintModes();};paintModes();
         root.querySelector('[data-groups]').onclick=openGroupPicker;
+        root.querySelector('[data-library]')?.addEventListener('click',openGameLibrary);root.querySelector('[data-wheel-game]')?.addEventListener('click',openGameWheel);root.querySelector('[data-import-game]')?.addEventListener('click',importGameFile);
         root.querySelector('[data-edit-questions]')?.addEventListener('click',openQuestionEditor);
         const startNewGame=async()=>{
           const candidateNames=progressExists?(teams||[]).map(team=>text(team.name)).filter(Boolean):readNames();
@@ -4658,7 +4692,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           primaryStartButton.onclick=async()=>{content.hideScores=!!hideInput.checked;content.gameFinished=false;if(content.gameMode!=='mix'&&regularModes.includes(selectedMode))content.nextGameMode=selectedMode;content.kapardyScreen='play';await rerender();};
           restartButton?.addEventListener('click',startNewGame);
           root.querySelector('[data-show-results]')?.addEventListener('click',async()=>{content.gameFinished=false;content.kapardyScreen='results';await rerender();});
-          root.querySelector('[data-reset-active]')?.addEventListener('click',()=>{const confirmBody=document.createElement('div');confirmBody.innerHTML='<p><b>Nulstil det aktuelle KaPardy-spil?</b></p><p>Alle point, antal rigtige, svar, bedømmelser og brugte spørgsmål fjernes. Hold, spilbank og valgt spilform bevares. Mix får en ny plan, næste gang det startes.</p>';app.modalManager.open({title:'Nulstil KaPardy?',body:confirmBody,actions:[{label:'Annuller',run:()=>{}},{label:'Nulstil spil',primary:true,run:async()=>{const keepMode=content.gameMode;for(const team of content.teams||[]){team.score=0;team.correct=0;}content.current=0;clearRoundState({freshGame:true});content.gameMode=keepMode;content.mode=keepMode;content.nextGameMode=regularModes.includes(keepMode)?keepMode:'kahoot';content.gameFinished=false;content.kapardyScreen='setup';await rerender();app.toast('KaPardy er nulstillet · hold og spilbank er bevaret');}}]});});
+          root.querySelector('[data-reset-active]')?.addEventListener('click',requestFullReset);
           root.querySelector('[data-end-game]')?.addEventListener('click',()=>{const confirmBody=document.createElement('div');confirmBody.innerHTML='<p><b>Afslut det aktuelle KaPardy-spil?</b></p><p>Den samlede stilling vises. Spørgsmål, hold og point slettes ikke, men spillet markeres som afsluttet.</p>';app.modalManager.open({title:'Afslut KaPardy?',body:confirmBody,actions:[{label:'Annuller',run:()=>{}},{label:'Afslut spil',primary:true,run:async()=>{content.gameFinished=true;content.kapardyScreen='results';await rerender();}}]});});
         }else primaryStartButton.onclick=startNewGame;
         body.append(root);return;
@@ -4706,7 +4740,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           card.querySelector('[data-plus]').onclick=event=>{event.preventDefault();event.stopPropagation();void changeScore(index,scoreStep);};
           card.querySelector('[data-team-select]').onclick=async event=>{event.preventDefault();event.stopPropagation();content.currentTeam=index;await rerender();};scoreboard.append(card);
         }
-        const resetGame=()=>{const confirmBody=document.createElement('div');confirmBody.innerHTML=`<p><b>Nulstil hele ${mixActive?'Mix':'Jeopardy'}-spillet?</b></p><p>Point, bedømmelser og brugte trin fjernes. Hold og indstillinger bevares.${mixActive?' Der bygges en ny tilfældig Mix-plan.':''}</p>`;app.modalManager.open({title:'Nulstil KaPardy?',body:confirmBody,actions:[{label:'Annuller',run:()=>{}},{label:'Nulstil spil',primary:true,run:async()=>{for(const team of content.teams||[]){team.score=0;team.correct=0;}content.current=0;const mode=mixActive?'mix':'jeopardy';clearRoundState({freshGame:true});content.gameMode=mode;content.mode=mode;content.kapardyScreen='play';if(mode==='mix')startMix();await rerender();app.toast(mode==='mix'?'Mix er nulstillet med en ny plan':'Jeopardy er nulstillet');}}]});};
+        const resetGame=requestFullReset;
         const bindCommon=()=>{
           root.querySelector('[data-edit-questions]')?.addEventListener('click',openQuestionEditor);
           root.querySelector('[data-setup]')?.addEventListener('click',async()=>{content.kapardyScreen='setup';await rerender();});
@@ -4767,7 +4801,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           card.querySelector('[data-team-select]').onclick=async event=>{event.preventDefault();event.stopPropagation();content.currentTeam=index;await rerender();};scoreboard.append(card);
         }
         const toolbar=`<div class="tn-kapardy-toolbar"><div><strong>${mixActive?'Mix · Mester':'Mester'}</strong><span>${mixActive?mixProgress:`${usedCount}/${questions.length} brugt`}</span>${!allUsed?`<span>${masterIndex+1}/${questions.length}</span><span>${escape(mq?.category||'Spørgsmål')}</span><span>${points} point</span>`:''}</div><div>${editing?'<button type="button" class="tn-kapardy-admin" data-edit-questions>Redigér spørgsmål</button>':''}<button type="button" class="tn-kapardy-admin" data-setup>Spil og hold</button>${latestJudge?'<button type="button" class="undo tn-kapardy-admin" data-master-undo>Fortryd seneste</button>':''}<button type="button" data-score-visibility>${content.hideScores?'Vis stilling':'Skjul stilling'}</button><button type="button" class="tn-kapardy-admin" data-reset-game>Nulstil spil</button>${modeToggleButton}${finishButton}</div></div>`;
-        const resetGame=()=>{const confirmBody=document.createElement('div');confirmBody.innerHTML=`<p><b>Nulstil hele ${mixActive?'Mix':'Mester'}-spillet?</b></p><p>Point, bedømmelser og brugte trin fjernes. Hold og indstillinger bevares.${mixActive?' Der bygges en ny tilfældig Mix-plan.':''}</p>`;app.modalManager.open({title:'Nulstil KaPardy?',body:confirmBody,actions:[{label:'Annuller',run:()=>{}},{label:'Nulstil spil',primary:true,run:async()=>{for(const team of content.teams||[]){team.score=0;team.correct=0;}content.current=0;const mode=mixActive?'mix':'master';clearRoundState({freshGame:true});content.gameMode=mode;content.mode=mode;content.kapardyScreen='play';if(mode==='mix')startMix();await rerender();app.toast(mode==='mix'?'Mix er nulstillet med en ny plan':'Mester er nulstillet');}}]});};
+        const resetGame=requestFullReset;
         const bindCommon=()=>{root.querySelector('[data-edit-questions]')?.addEventListener('click',openQuestionEditor);root.querySelector('[data-setup]')?.addEventListener('click',async()=>{content.kapardyScreen='setup';await rerender();});root.querySelector('[data-score-visibility]')?.addEventListener('click',async()=>{content.hideScores=!content.hideScores;await rerender();});root.querySelector('[data-reset-game]')?.addEventListener('click',resetGame);bindModeToggle();bindFinish();};
         const undoLatest=async()=>{if(!latestJudge)return;const teamIndex=TN.clamp(Number(latestJudge.teamIndex)||0,0,teams.length-1),team=teams[teamIndex];if(team){team.score=(Number(team.score)||0)-(Number(latestJudge.delta)||0);team.correct=Math.max(0,(Number(team.correct)||0)-(Number(latestJudge.correctDelta)||0));content.teams[teamIndex]={...team};}delete content.usedQuestions[String(latestJudge.questionIndex)];content.scoreEvents=content.scoreEvents.filter(event=>event.id!==latestJudge.id);content.current=TN.clamp(Number(latestJudge.questionIndex)||0,0,questions.length-1);content.currentTeam=teamIndex;content.mixAwaitingNext=false;content.masterStage='answer';await rerender();app.toast('Seneste Mester-bedømmelse er fortrudt');};
         if(allUsed){
@@ -4797,9 +4831,9 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       const board=root.querySelector('.tn-kapardy-scoreboard'),opts=root.querySelector('.tn-kapardy-options'),turn=root.querySelector('[data-turn]'),revealButton=root.querySelector('[data-reveal]'),teamViews=[],optionViews=[];
       const answerText=sourceIndex=>sourceIndex===undefined?'':String(q.options?.[Number(sourceIndex)]??'');
       const teamStatus=index=>{
-        const picked=selections[index],displayIndex=displayIndexBySource.get(Number(picked)),letter=picked===undefined?'':letters[displayIndex]||String((displayIndex??0)+1),answer=answerText(picked);
-        if(content.reveal){if(picked===undefined)return 'Intet svar';return Number(picked)===correctIndex?`✓ Rigtigt · ${letter}`:`✕ Forkert · ${letter}`;}
-        if(picked!==undefined)return `Svar ${letter} · ${answer}`;
+        const picked=selections[index],displayIndex=displayIndexBySource.get(Number(picked)),color=picked===undefined?'':answerColorNames[displayIndex]||String((displayIndex??0)+1);
+        if(content.reveal){if(picked===undefined)return 'Intet svar';return Number(picked)===correctIndex?`✓ Rigtigt · ${color}`:`✕ Forkert · ${color}`;}
+        if(picked!==undefined)return `Svar ${color}`;
         return index===content.currentTeam?'Svarer nu':'Venter';
       };
       const changeScore=async(index,delta)=>{const team=teams[index];team.score=(Number(team.score)||0)+delta;content.teams[index]={...team};appendScoreEvent('manual',index,delta,current);const view=teamViews[index];if(view)view.score.textContent=content.hideScores?'—':String(team.score);await persist({immediate:true});};
@@ -4819,7 +4853,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         await persist({immediate:true});paint();
       };
       for(const [displayIndex,sourceIndex] of optionOrder.entries()){
-        const opt=q.options[sourceIndex],button=document.createElement('button');button.type='button';button.dataset.option=String(sourceIndex);button.dataset.display=String(displayIndex);const label=document.createElement('span'),letter=document.createElement('span'),answerTeams=document.createElement('span');label.className='tn-kapardy-option-label';label.textContent=String(opt);letter.className='tn-kapardy-option-letter';letter.textContent=letters[displayIndex]||String(displayIndex+1);answerTeams.className='tn-kapardy-answer-teams';button.append(label,letter,answerTeams);
+        const opt=q.options[sourceIndex],button=document.createElement('button');button.type='button';button.dataset.option=String(sourceIndex);button.dataset.display=String(displayIndex);button.classList.add(`tn-kapardy-color-${displayIndex}`);const label=document.createElement('span'),letter=document.createElement('span'),answerTeams=document.createElement('span');label.className='tn-kapardy-option-label';label.textContent=String(opt);letter.className='tn-kapardy-option-letter';letter.textContent=answerColorNames[displayIndex]||letters[displayIndex]||String(displayIndex+1);answerTeams.className='tn-kapardy-answer-teams';button.append(label,letter,answerTeams);
         button.onclick=async event=>{event.preventDefault();event.stopPropagation();await chooseOption(sourceIndex);};optionViews.push({button,answerTeams,sourceIndex,displayIndex});opts.append(button);
       }
       const applyAutomaticPoints=()=>{
@@ -4841,22 +4875,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       root.querySelector('[data-edit-questions]')?.addEventListener('click',openQuestionEditor);
       root.querySelector('[data-setup]')?.addEventListener('click',async()=>{content.kapardyScreen='setup';await rerender();});
       root.querySelector('[data-score-visibility]').onclick=async()=>{content.hideScores=!content.hideScores;await rerender();};
-      root.querySelector('[data-reset-game]')?.addEventListener('click',()=>{
-        const confirmBody=document.createElement('div');
-        confirmBody.innerHTML='<p><b>Nulstil hele KaPardy-spillet?</b></p><p>Point, antal rigtige, holdsvar og brugte spørgsmål fjernes. De samme hold og indstillinger bevares, og svarene blandes på ny.</p>';
-        app.modalManager.open({title:'Nulstil KaPardy?',body:confirmBody,actions:[
-          {label:'Annuller',run:()=>{}},
-          {label:'Nulstil spil',primary:true,run:async()=>{
-            for(const team of content.teams||[]){team.score=0;team.correct=0;}
-            content.current=0;
-            const mode=content.gameMode;
-            clearRoundState({freshGame:true});
-            content.gameMode=mode;content.mode=mode;content.kapardyScreen='play';if(mode==='mix')startMix();
-            await rerender();
-            app.toast(mode==='mix'?'Mix er nulstillet med en ny plan':mode==='jeopardy'?'Jeopardy er nulstillet':'KaPardy er nulstillet · kortene er blandet igen');
-          }}
-        ]});
-      });
+      root.querySelector('[data-reset-game]')?.addEventListener('click',requestFullReset);
       bindModeToggle();bindFinish();
       const navigateTo=async index=>{content.current=(Number(index)+questions.length)%questions.length;const nextKey=String(content.current),nextSelections=content.selections[nextKey]||{};content.reveal=!!content.revealed[nextKey];content.currentTeam=content.reveal?-1:(()=>{for(let i=0;i<teams.length;i++)if(nextSelections[i]===undefined)return i;return 0;})();await rerender();};
       const navigate=delta=>navigateTo(current+delta);
@@ -6686,10 +6705,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       this.catalogCandidates=[
         this.defaultCatalogUrl,
         'https://cdn.jsdelivr.net/gh/maans/Plan@main/plan-library/catalog.json',
-        'https://raw.githubusercontent.com/maans/Plan/main/plan-library/catalog.json',
-        'https://plan.måns.dk/catalog.json',
-        'https://cdn.jsdelivr.net/gh/maans/Plan@main/catalog.json',
-        'https://raw.githubusercontent.com/maans/Plan/main/catalog.json'
+        'https://raw.githubusercontent.com/maans/Plan/main/plan-library/catalog.json'
       ];
       try{localStorage.removeItem('plan:library:catalog-url:v1');}catch(_){}
     }
@@ -35997,11 +36013,11 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   });
 
   window.__PLAN_PDF_EXACT_PAGE_POSITION_BUILD__='2026-07-05-owner-safe';
-  TN.version='1.0.0';
+  TN.version='1.0.1';
   TN.productName='Plan';
-  TN.buildLabel='Plan v1 · konsolideret runtime';
-  TN.release={version:'1.0.0',channel:'stable',date:'2026-07-05',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0';
+  TN.buildLabel='Plan v1.0.1 · KaPardy og ryddet bibliotek';
+  TN.release={version:'1.0.1',channel:'stable',date:'2026-07-05',dataFormat:'tn-v3-compatible'};
+  document.title='Plan v1.0.1';
   window.__PLAN_V1_RELEASE_BUILD__='2026-07-05-owner-safe';
 })(window.TavleNext);
 </script>
@@ -36029,8 +36045,8 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       TN.registry.help.set(id,entry);
     };
 
-    set('overview','Kom godt i gang med Plan','Plan 1.0 og den korte vej fra forløb til tavle',`
-      <p><b>Plan 1.0</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
+    set('overview','Kom godt i gang med Plan','Plan 1.0.1 og den korte vej fra forløb til tavle',`
+      <p><b>Plan 1.0.1</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
       <div class="tn-help-recipe">
         <div class="tn-help-phase"><span>1</span><div><h4>Vælg forløbet</h4><p>Åbn det fag, skoleår eller emne, arbejdet skal høre til.</p></div></div>
         <div class="tn-help-phase"><span>2</span><div><h4>Planlæg datoerne</h4><p>Brug kalenderen til at knytte den aktuelle tavle og eventuelle fortsættelsestavler til en undervisningsgang.</p></div></div>
@@ -36338,7 +36354,10 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     set('games','Timer, KaPardy, Lykkehjul, Afstemning og Ordsky','Aktiviteter til undervisningen',`
       <ul class="tn-help-list">
         <li><b>Timer</b> har nedtælling, sekvenser, stopur og mellemtider.</li>
-        <li><b>KaPardy</b> har flere spiltyper, hold og point. I regneark er første svar efter spørgsmålet det korrekte.</li>
+        <li><b>KaPardy</b> kan hente færdige spil fra Spilbiblioteket, vælge genre og spil med lykkehjul eller importere en CSV-/Excel-spilbank.</li>
+        <li>I en KaPardy-spilbank står kategori, spørgsmål, point, det rigtige svar og tre forkerte svar i hver række. Det rigtige svar står først; svarenes placering blandes ved spilstart.</li>
+        <li>I Kahoot-spil har svarene farverne <b>Blå, Rød, Gul og Grøn</b>, så holdene kan svare med en farve. Nulstil spil fører helt tilbage til starten, mens spilbank og hold bevares.</li>
+        <li><b>Redigér spørgsmål</b> åbner det spørgsmål, der er aktivt i spillet.</li>
         <li><b>Lykkehjul</b> kan bruge navne fra lister og data og kan beholde eller fjerne valgte deltagere.</li>
         <li><b>Afstemning</b> viser søjler eller ordsky og kan samle anonyme svar fra PDF-formularer.</li>
         <li><b>Ordsky</b> kan redigeres direkte eller følge en liste eller datakilde.</li>
@@ -36455,7 +36474,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
         const paragraph=hero.querySelector('p');if(paragraph)paragraph.innerHTML='<b>Vælg en konkret opgave.</b> Hjælpen viser korte trin først og mere udførlige forklaringer bagefter.';
         const line=hero.querySelector('.tn-plan-help-line');if(line)line.textContent='Plan er appen. Tavler, datoer, elever og materialer bindes sammen i undervisningsforløbet.';
         const head=hero.querySelector('.tn-plan-help-hero-head');
-        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
+        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.1';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
       }
       const quick=root.querySelector('.tn-plan-help-quick');
       if(quick)quick.innerHTML='<article><b>1. Vælg forløbet</b><span>Åbn fag, skoleår eller emne og den rigtige session.</span></article><article><b>2. Planlæg dato og tavler</b><span>Knyt tavler til kalenderen og fortsæt samme undervisningsgang med flere tavler.</span></article><article><b>3. Arbejd med eleverne</b><span>Brug faghold, grupper, Elevkort, samtaler og karakterer.</span></article><article><b>4. Sikr arbejdet</b><span>Kontrollér data, ryd sikkert op og tag backup.</span></article>';
@@ -36476,5 +36495,153 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 })(window.TavleNext);
 </script>
 
+<script id="plan-kapardy-library-v101-service">
+(function(TN){
+  'use strict';
+  if(!TN||window.PlanKapardyLibrary)return;
+  const COLORS=['#2563eb','#dc2626','#eab308','#16a34a','#7c3aed','#0891b2','#ea580c','#db2777','#4f46e5','#0f766e'];
+  let manifestCache=null,manifestPromise=null;
+  const clean=value=>String(value??'').trim();
+  const escape=value=>TN.escapeHtml?TN.escapeHtml(String(value??'')):String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const slug=value=>TN.slugify?TN.slugify(String(value??'')):String(value??'').toLocaleLowerCase('da').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const randomUnit=()=>{try{const bytes=new Uint32Array(1);crypto.getRandomValues(bytes);return bytes[0]/4294967296;}catch(_){return Math.random();}};
+  const randomIndex=count=>Math.max(0,Math.min(count-1,Math.floor(randomUnit()*Math.max(1,count))));
+  function manifestCandidates(){
+    const list=[];const add=url=>{url=clean(url);if(url&&!list.includes(url))list.push(url);};
+    try{if(/^https?:$/i.test(location.protocol))add(new URL('docs/manifest_spil.json',location.href).href);}catch(_){ }
+    add('https://plan.måns.dk/docs/manifest_spil.json');
+    add('https://cdn.jsdelivr.net/gh/maans/Plan@main/docs/manifest_spil.json');
+    add('https://raw.githubusercontent.com/maans/Plan/main/docs/manifest_spil.json');
+    return list;
+  }
+  async function fetchText(url,timeout=10000){
+    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);
+    try{const response=await fetch(url,{cache:'no-store',signal:controller.signal});if(!response.ok)throw new Error(`HTTP ${response.status}`);return await response.text();}
+    finally{clearTimeout(timer);}
+  }
+  function flattenManifest(manifest,manifestUrl){
+    const out=[],seen=new Set();
+    const add=(item,size='',genre='')=>{
+      if(typeof item==='string')item={url:item};if(!item||typeof item!=='object')return;
+      const url=clean(item.url||item.path||item.csv||item.file||item.filename||item.href);if(!url)return;
+      const n=Number(item.size||item.count||item.questions||size||String(url).match(/(?:^|\/)(5|10|15|20|25|30)(?:\/|_|\.)/)?.[1]||0);
+      if(![5,10,15,20,25,30].includes(n))return;
+      const title=clean(item.title||item.name||item.label)||clean(url.split('/').pop()).replace(/\.csv$/i,'').replace(/[_-]+/g,' ');
+      const subject=clean(item.genre||item.category||item.kategori||genre)||'Andet';
+      const key=`${n}|${url}`;if(seen.has(key))return;seen.add(key);
+      out.push({id:clean(item.id)||`${slug(title)}-${n}`,title,genre:subject,size:n,url,description:clean(item.description||item.beskrivelse),manifestUrl});
+    };
+    const walk=(node,size='',genre='')=>{
+      if(!node)return;if(Array.isArray(node)){node.forEach(item=>walk(item,size,genre));return;}
+      if(typeof node==='string'){add(node,size,genre);return;}if(typeof node!=='object')return;
+      const direct=clean(node.url||node.path||node.csv||node.href||node.filename);if(direct){add(node,size,genre);return;}
+      const nextSize=Number(node.size||node.count||node.questions||size||0)||size;
+      const nextGenre=clean(node.genre||node.category||node.kategori||genre);
+      const known=['files','spil','games','items','entries','list','data'];let used=false;
+      for(const key of known){if(node[key]!=null){walk(node[key],nextSize,nextGenre);used=true;}}
+      for(const [key,value] of Object.entries(node)){
+        if(known.includes(key)||['format','version','title','description','updatedAt','questionBankContract','sizes','genre','category','kategori','size','count','questions'].includes(key))continue;
+        if(value&&typeof value==='object'){const keySize=[5,10,15,20,25,30].includes(Number(key))?Number(key):nextSize;const keyGenre=[5,10,15,20,25,30].includes(Number(key))?nextGenre:(nextGenre||key);walk(value,keySize,keyGenre);used=true;}
+      }
+      if(!used&&direct)add(node,nextSize,nextGenre);
+    };
+    walk(manifest?.kapardy??manifest);
+    return out.sort((a,b)=>a.genre.localeCompare(b.genre,'da')||a.title.localeCompare(b.title,'da')||a.size-b.size);
+  }
+  async function loadManifest({force=false}={}){
+    if(manifestCache&&!force)return manifestCache;if(manifestPromise&&!force)return manifestPromise;
+    manifestPromise=(async()=>{let lastError=null;for(const url of manifestCandidates()){try{const games=flattenManifest(JSON.parse(await fetchText(url)),url);if(games.length){manifestCache=games;return games;}}catch(error){lastError=error;}}
+      throw new Error(`Spilbiblioteket kunne ikke hentes${lastError?.message?`: ${lastError.message}`:''}`);
+    })();
+    try{return await manifestPromise;}finally{manifestPromise=null;}
+  }
+  function repoRoot(manifestUrl){
+    try{const base=new URL('.',manifestUrl);return /\/docs\/$/i.test(base.pathname)?new URL('../',base):base;}catch(_){return null;}
+  }
+  function csvCandidates(game){
+    const out=[];const add=url=>{url=clean(url);if(url&&!out.includes(url))out.push(url);};const raw=clean(game?.url);
+    if(/^https?:\/\//i.test(raw)){add(raw);return out;}
+    const path=raw.replace(/^\.\//,'').replace(/^\//,'');
+    const base=repoRoot(game?.manifestUrl);try{if(base)add(new URL(path,base).href);}catch(_){ }
+    for(const root of ['https://plan.måns.dk/','https://cdn.jsdelivr.net/gh/maans/Plan@main/','https://raw.githubusercontent.com/maans/Plan/main/']){try{add(new URL(path,root).href);}catch(_){ }}
+    return out;
+  }
+  function findColumn(columns,patterns,fallback=-1){
+    const slugs=(columns||[]).map(slug);for(let i=0;i<slugs.length;i++)if(patterns.some(pattern=>slugs[i]===pattern||slugs[i].includes(pattern)))return i;return fallback;
+  }
+  function questionsFromDataset(parsed){
+    const columns=parsed?.columns||[],rows=parsed?.rows||[];
+    const indexes={
+      category:findColumn(columns,['kategori','category','genre','tema'],0),
+      question:findColumn(columns,['sporgsmal','question'],1),
+      points:findColumn(columns,['point','points'],2),
+      correct:findColumn(columns,['rigtigt-svar','korrekt-svar','correct-answer','correct','answer'],3),
+      wrong1:findColumn(columns,['forkert-svar-1','wrong-answer-1','wrong1'],4),
+      wrong2:findColumn(columns,['forkert-svar-2','wrong-answer-2','wrong2'],5),
+      wrong3:findColumn(columns,['forkert-svar-3','wrong-answer-3','wrong3'],6)
+    };
+    const result=[];
+    rows.forEach((row,index)=>{const value=key=>clean(row?.[indexes[key]]);const question=value('question'),correct=value('correct'),wrong1=value('wrong1'),wrong2=value('wrong2'),wrong3=value('wrong3');if(!question||!correct)return;result.push({id:`kp_import_${index+1}_${slug(question).slice(0,24)}`,category:value('category')||'Spørgsmål',question,points:Math.max(1,Number(value('points'))||100),options:[correct,wrong1,wrong2,wrong3],correctIndex:0,answer:correct});});
+    if(!result.length)throw new Error('Filen indeholder ingen genkendelige KaPardy-spørgsmål');
+    if(result.some(item=>item.options.some(option=>!option)))throw new Error('Alle spørgsmål skal have ét rigtigt og tre forkerte svar');
+    return result;
+  }
+  async function loadGame(game){
+    let lastError=null;for(const url of csvCandidates(game)){try{const text=await fetchText(url);const parsed=TN.DataImporter.parseDelimited(text,{name:game.title,sourceName:url});return {title:game.title,genre:game.genre,size:game.size,source:'library',sourceUrl:url,libraryId:game.id,questions:questionsFromDataset(parsed)};}catch(error){lastError=error;}}
+    throw new Error(`Spillet kunne ikke hentes${lastError?.message?`: ${lastError.message}`:''}`);
+  }
+  async function importFile(file){
+    const parsed=await TN.DataImporter.parseFile(file);return {title:clean(parsed.name)||clean(file.name).replace(/\.[^.]+$/,''),genre:'Importeret',size:(parsed.rows||[]).length,source:'file',sourceName:file.name,questions:questionsFromDataset(parsed)};
+  }
+  function gameCard(game,onPick){
+    const button=document.createElement('button');button.type='button';button.className='tn-kapardy-library-card';button.innerHTML=`<span><b>${escape(game.title)}</b><small>${escape(game.genre)} · ${game.size} spørgsmål</small></span><span class="tn-kapardy-library-open">Åbn</span>`;button.onclick=()=>onPick(game,button);return button;
+  }
+  async function chooseGame(app,onChoose,game,button,layer){
+    if(button){button.disabled=true;button.classList.add('loading');button.querySelector('.tn-kapardy-library-open').textContent='Henter…';}
+    try{const result=await loadGame(game);await onChoose(result);if(layer)app.modalManager.close(layer);}
+    catch(error){app.toast(error.message||'Spillet kunne ikke hentes');if(button){button.disabled=false;button.classList.remove('loading');button.querySelector('.tn-kapardy-library-open').textContent='Prøv igen';}}
+  }
+  async function openLibrary(app,onChoose){
+    const shell=document.createElement('div');shell.className='tn-kapardy-library';shell.innerHTML='<div class="tn-kapardy-library-loading">Henter spilbiblioteket …</div>';
+    const modal=app.modalManager.open({title:'KaPardy · Spilbibliotek',body:shell,className:'tn-kapardy-library-modal',actions:[{label:'Importér CSV/Excel',run:()=>{app.modalManager.close(modal.layer);pickFile(app,onChoose);return false;}},{label:'Vælg med lykkehjul',run:()=>{app.modalManager.close(modal.layer);openWheel(app,onChoose);return false;}},{label:'Luk',primary:true,run:()=>{}}]});
+    try{const games=await loadManifest(),genres=['Alle',...new Set(games.map(game=>game.genre))],sizes=['Alle',5,10,15,20,25,30];shell.innerHTML='<div class="tn-kapardy-library-tools"><input type="search" placeholder="Søg efter spil" aria-label="Søg efter spil"><select data-genre></select><select data-size></select></div><div class="tn-kapardy-library-summary"></div><div class="tn-kapardy-library-grid"></div>';
+      const search=shell.querySelector('input'),genre=shell.querySelector('[data-genre]'),size=shell.querySelector('[data-size]'),summary=shell.querySelector('.tn-kapardy-library-summary'),grid=shell.querySelector('.tn-kapardy-library-grid');genres.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value==='Alle'?'Alle genrer':value;genre.append(option);});sizes.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value==='Alle'?'Alle størrelser':`${value} spørgsmål`;size.append(option);});
+      const render=()=>{const query=clean(search.value).toLocaleLowerCase('da'),filtered=games.filter(game=>(genre.value==='Alle'||game.genre===genre.value)&&(size.value==='Alle'||Number(game.size)===Number(size.value))&&(!query||`${game.title} ${game.genre}`.toLocaleLowerCase('da').includes(query)));summary.textContent=`${filtered.length} spil · ${new Set(filtered.map(game=>game.genre)).size} genrer`;grid.replaceChildren();filtered.forEach(game=>grid.append(gameCard(game,(chosen,button)=>chooseGame(app,onChoose,chosen,button,modal.layer))));if(!filtered.length)grid.innerHTML='<div class="tn-empty">Ingen spil matcher valget.</div>';};search.oninput=render;genre.onchange=render;size.onchange=render;render();
+    }catch(error){shell.innerHTML=`<div class="tn-empty"><b>Spilbiblioteket kunne ikke hentes.</b><span>${escape(error.message||'Prøv igen senere.')}</span></div>`;}
+    return modal;
+  }
+  function wheelColors(count){return Array.from({length:count},(_,index)=>`${COLORS[index%COLORS.length]} ${index/count*100}% ${(index+1)/count*100}%`).join(',');}
+  function buildWheelStage({title,items,labelOf,onAccepted}){
+    const shell=document.createElement('div');shell.className='tn-kapardy-wheel-picker';shell.innerHTML=`<div class="tn-kapardy-wheel-head"><h3>${escape(title)}</h3><p>Drej hjulet. Du kan godkende resultatet eller dreje igen.</p></div><div class="tn-kapardy-wheel-layout"><div class="tn-kapardy-wheel-wrap"><div class="tn-kapardy-wheel-pointer">▼</div><div class="tn-kapardy-wheel-disc"></div><div class="tn-kapardy-wheel-result">Klar</div></div><div class="tn-kapardy-wheel-legend"></div></div><div class="tn-kapardy-wheel-actions"><button type="button" class="primary" data-spin>Drej hjulet</button><button type="button" data-accept disabled>Godkend</button></div>`;
+    const disc=shell.querySelector('.tn-kapardy-wheel-disc'),result=shell.querySelector('.tn-kapardy-wheel-result'),legend=shell.querySelector('.tn-kapardy-wheel-legend'),spin=shell.querySelector('[data-spin]'),accept=shell.querySelector('[data-accept]');disc.style.background=`conic-gradient(${wheelColors(items.length)})`;legend.innerHTML=items.map((item,index)=>`<span><i style="background:${COLORS[index%COLORS.length]}"></i>${escape(labelOf(item))}</span>`).join('');let selected=null,rotation=0;
+    spin.onclick=()=>{if(!items.length)return;spin.disabled=true;accept.disabled=true;selected=items[randomIndex(items.length)];const index=items.indexOf(selected),segment=360/items.length,target=360*5+(360-(index+.5)*segment);rotation+=target;disc.style.transform=`rotate(${rotation}deg)`;result.textContent='Hjulet drejer …';setTimeout(()=>{result.textContent=labelOf(selected);spin.disabled=false;spin.textContent='Drej igen';accept.disabled=false;},1300);};accept.onclick=()=>selected&&onAccepted(selected,shell);return shell;
+  }
+  async function openWheel(app,onChoose){
+    const body=document.createElement('div');body.className='tn-kapardy-wheel-host';body.innerHTML='<div class="tn-kapardy-library-loading">Henter genrer og spil …</div>';const modal=app.modalManager.open({title:'KaPardy · vælg spil med lykkehjul',body,className:'tn-kapardy-wheel-modal',actions:[{label:'Åbn Spilbibliotek',run:()=>{app.modalManager.close(modal.layer);openLibrary(app,onChoose);return false;}},{label:'Luk',run:()=>{}}]});
+    try{const games=await loadManifest(),genres=[...new Set(games.map(game=>game.genre))].sort((a,b)=>a.localeCompare(b,'da'));
+      const showGenres=()=>{body.replaceChildren(buildWheelStage({title:'1. Find en genre',items:genres,labelOf:value=>value,onAccepted:genre=>showGames(genre)}));};
+      const showGames=genre=>{const titles=[...new Set(games.filter(game=>game.genre===genre).map(game=>game.title))].sort((a,b)=>a.localeCompare(b,'da'));body.replaceChildren(buildWheelStage({title:`2. Find et spil · ${genre}`,items:titles,labelOf:value=>value,onAccepted:title=>showSizes(genre,title)}));const back=document.createElement('button');back.type='button';back.className='tn-kapardy-wheel-back';back.textContent='← Ny genre';back.onclick=showGenres;body.prepend(back);};
+      const showSizes=(genre,title)=>{const variants=games.filter(game=>game.genre===genre&&game.title===title).sort((a,b)=>a.size-b.size);body.innerHTML=`<div class="tn-kapardy-wheel-choice"><h3>${escape(title)}</h3><p>${escape(genre)} · vælg antal spørgsmål</p><div data-sizes></div><button type="button" data-back>← Nyt spil</button></div>`;const box=body.querySelector('[data-sizes]');variants.forEach(game=>box.append(gameCard(game,(chosen,button)=>chooseGame(app,onChoose,chosen,button,modal.layer))));body.querySelector('[data-back]').onclick=()=>showGames(genre);};showGenres();
+    }catch(error){body.innerHTML=`<div class="tn-empty"><b>Lykkehjulet kunne ikke hente spilbiblioteket.</b><span>${escape(error.message||'')}</span></div>`;}
+    return modal;
+  }
+  function pickFile(app,onChoose){
+    const input=document.createElement('input');input.type='file';input.accept='.csv,.tsv,.txt,.xlsx,text/csv,text/tab-separated-values,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';input.style.position='fixed';input.style.left='-9999px';input.style.opacity='0';document.body.append(input);input.onchange=async()=>{const file=input.files?.[0];if(!file){input.remove();return;}try{const result=await importFile(file);await onChoose(result);}catch(error){app.toast(error.message||'Spilfilen kunne ikke importeres');}finally{input.remove();}};input.click();
+  }
+  window.PlanKapardyLibrary={loadManifest,loadGame,openLibrary,openWheel,pickFile,importFile,questionsFromDataset,flattenManifest,csvCandidates};
+})(window.TavleNext);
+
+</script>
+<script id="plan-v101-release-version-guard">
+(function(TN){
+  if(!TN)return;
+  const VERSION='1.0.1';
+  try{Object.defineProperty(TN,'version',{configurable:true,enumerable:true,get:()=>VERSION,set:()=>VERSION});}catch(_){TN.version=VERSION;}
+  TN.productName='Plan';
+  TN.buildLabel='Plan v1.0.1 · KaPardy og ryddet bibliotek';
+  TN.release={version:VERSION,channel:'stable',date:'2026-07-05',dataFormat:'tn-v3-compatible'};
+  document.title='Plan v1.0.1';
+})(window.TavleNext);
+</script>
 </body>
 </html>

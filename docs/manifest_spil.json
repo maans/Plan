@@ -1,0 +1,1500 @@
+{
+  "format": "plan-kapardy-library",
+  "version": 2,
+  "title": "Plan · KaPardy-spilbibliotek",
+  "description": "Færdige KaPardy-spil. Det første svar efter spørgsmålet er facit; de tre næste er forkerte.",
+  "updatedAt": "2026-07-05",
+  "questionBankContract": "first-answer-correct",
+  "sizes": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "kapardy": {
+    "5": [
+      {
+        "id": "astronomi_rum-5",
+        "title": "Astronomi og rum",
+        "genre": "Astronomi",
+        "size": 5,
+        "url": "spil/kapardy/5/astronomi_rum_5.csv"
+      },
+      {
+        "id": "rumfart-5",
+        "title": "Rumfart",
+        "genre": "Astronomi",
+        "size": 5,
+        "url": "spil/kapardy/5/rumfart_05.csv"
+      },
+      {
+        "id": "biologi_natur-5",
+        "title": "Biologi og natur",
+        "genre": "Biologi",
+        "size": 5,
+        "url": "spil/kapardy/5/biologi_natur_5.csv"
+      },
+      {
+        "id": "danmark_historie_topografi-5",
+        "title": "Danmark · historie og topografi",
+        "genre": "Danmark",
+        "size": 5,
+        "url": "spil/kapardy/5/danmark_historie_topografi_5.csv"
+      },
+      {
+        "id": "jydsk_historie_og_topografi-5",
+        "title": "Jydsk historie og topografi",
+        "genre": "Danmark",
+        "size": 5,
+        "url": "spil/kapardy/5/jydsk_historie_og_topografi_05.csv"
+      },
+      {
+        "id": "heste-5",
+        "title": "Heste",
+        "genre": "Dyr",
+        "size": 5,
+        "url": "spil/kapardy/5/heste_05.csv"
+      },
+      {
+        "id": "kaninunger-5",
+        "title": "Kaninunger",
+        "genre": "Dyr",
+        "size": 5,
+        "url": "spil/kapardy/5/kaninunger_05.csv"
+      },
+      {
+        "id": "verdens_mrkelige_dyr-5",
+        "title": "Verdens mærkelige dyr",
+        "genre": "Dyr",
+        "size": 5,
+        "url": "spil/kapardy/5/verdens_mrkelige_dyr_05.csv"
+      },
+      {
+        "id": "engelsk_sprog_kultur-5",
+        "title": "Engelsk sprog og kultur",
+        "genre": "Engelsk",
+        "size": 5,
+        "url": "spil/kapardy/5/engelsk_sprog_kultur_5.csv"
+      },
+      {
+        "id": "film_fra_1980erne-5",
+        "title": "Film fra 1980’erne",
+        "genre": "Film",
+        "size": 5,
+        "url": "spil/kapardy/5/film_fra_1980erne_05.csv"
+      },
+      {
+        "id": "fransk_sprog_kultur-5",
+        "title": "Fransk sprog og kultur",
+        "genre": "Fransk",
+        "size": 5,
+        "url": "spil/kapardy/5/fransk_sprog_kultur_5.csv"
+      },
+      {
+        "id": "europaeiske_hovedstader-5",
+        "title": "Europæiske hovedstæder",
+        "genre": "Geografi",
+        "size": 5,
+        "url": "spil/kapardy/5/europaeiske_hovedstader_5.csv"
+      },
+      {
+        "id": "verdens_geografi-5",
+        "title": "Verdens geografi",
+        "genre": "Geografi",
+        "size": 5,
+        "url": "spil/kapardy/5/verdens_geografi_5.csv"
+      },
+      {
+        "id": "verdenskrig_historie-5",
+        "title": "Verdenskrig og historie",
+        "genre": "Historie",
+        "size": 5,
+        "url": "spil/kapardy/5/verdenskrig_historie_5.csv"
+      },
+      {
+        "id": "vikinger-5",
+        "title": "Vikinger",
+        "genre": "Historie",
+        "size": 5,
+        "url": "spil/kapardy/5/vikinger_05.csv"
+      },
+      {
+        "id": "kemi_elementer-5",
+        "title": "Kemi og grundstoffer",
+        "genre": "Kemi",
+        "size": 5,
+        "url": "spil/kapardy/5/kemi_elementer_5.csv"
+      },
+      {
+        "id": "klimaforandringer-5",
+        "title": "Klimaforandringer",
+        "genre": "Klima",
+        "size": 5,
+        "url": "spil/kapardy/5/klimaforandringer_05.csv"
+      },
+      {
+        "id": "kropssprog-5",
+        "title": "Kropssprog",
+        "genre": "Kommunikation",
+        "size": 5,
+        "url": "spil/kapardy/5/kropssprog_05.csv"
+      },
+      {
+        "id": "dansk_litteratur-5",
+        "title": "Dansk litteratur",
+        "genre": "Litteratur",
+        "size": 5,
+        "url": "spil/kapardy/5/dansk_litteratur_5.csv"
+      },
+      {
+        "id": "mad_fra_hele_verden-5",
+        "title": "Mad fra hele verden",
+        "genre": "Mad og kultur",
+        "size": 5,
+        "url": "spil/kapardy/5/mad_fra_hele_verden_05.csv"
+      },
+      {
+        "id": "matematik_basics-5",
+        "title": "Matematik · grundlæggende",
+        "genre": "Matematik",
+        "size": 5,
+        "url": "spil/kapardy/5/matematik_basics_5.csv"
+      },
+      {
+        "id": "balkanmusik-5",
+        "title": "Balkanmusik",
+        "genre": "Musik",
+        "size": 5,
+        "url": "spil/kapardy/5/balkanmusik_05.csv"
+      },
+      {
+        "id": "musik_komponister-5",
+        "title": "Musik og komponister",
+        "genre": "Musik",
+        "size": 5,
+        "url": "spil/kapardy/5/musik_komponister_5.csv"
+      },
+      {
+        "id": "musikgenrer-5",
+        "title": "Musikgenrer",
+        "genre": "Musik",
+        "size": 5,
+        "url": "spil/kapardy/5/musikgenrer_05.csv"
+      },
+      {
+        "id": "mytologi-5",
+        "title": "Mytologi",
+        "genre": "Mytologi",
+        "size": 5,
+        "url": "spil/kapardy/5/mytologi_5.csv"
+      },
+      {
+        "id": "nordisk_mytologi-5",
+        "title": "Nordisk mytologi",
+        "genre": "Mytologi",
+        "size": 5,
+        "url": "spil/kapardy/5/nordisk_mytologi_05.csv"
+      },
+      {
+        "id": "beromte_opfindelser-5",
+        "title": "Berømte opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 5,
+        "url": "spil/kapardy/5/beromte_opfindelser_5.csv"
+      },
+      {
+        "id": "danske_opfindelser-5",
+        "title": "Danske opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 5,
+        "url": "spil/kapardy/5/danske_opfindelser_05.csv"
+      },
+      {
+        "id": "naturvidenskab_basics-5",
+        "title": "Naturvidenskab · grundlæggende",
+        "genre": "Naturvidenskab",
+        "size": 5,
+        "url": "spil/kapardy/5/naturvidenskab_basics_5.csv"
+      },
+      {
+        "id": "nordiske_lande-5",
+        "title": "Nordiske lande",
+        "genre": "Nordisk",
+        "size": 5,
+        "url": "spil/kapardy/5/nordiske_lande_5.csv"
+      },
+      {
+        "id": "dansk_politik-5",
+        "title": "Dansk politik",
+        "genre": "Politik",
+        "size": 5,
+        "url": "spil/kapardy/5/dansk_politik_5.csv"
+      },
+      {
+        "id": "efterskoleliv-5",
+        "title": "Efterskoleliv",
+        "genre": "Skoleliv",
+        "size": 5,
+        "url": "spil/kapardy/5/efterskoleliv_05.csv"
+      },
+      {
+        "id": "spansk_sprog_kultur-5",
+        "title": "Spansk sprog og kultur",
+        "genre": "Spansk",
+        "size": 5,
+        "url": "spil/kapardy/5/spansk_sprog_kultur_5.csv"
+      },
+      {
+        "id": "sport_olympiske-5",
+        "title": "Sport og de olympiske lege",
+        "genre": "Sport",
+        "size": 5,
+        "url": "spil/kapardy/5/sport_olympiske_5.csv"
+      },
+      {
+        "id": "tysk_sprog_kultur-5",
+        "title": "Tysk sprog og kultur",
+        "genre": "Tysk",
+        "size": 5,
+        "url": "spil/kapardy/5/tysk_sprog_kultur_5.csv"
+      }
+    ],
+    "10": [
+      {
+        "id": "astronomi_rum-10",
+        "title": "Astronomi og rum",
+        "genre": "Astronomi",
+        "size": 10,
+        "url": "spil/kapardy/10/astronomi_rum_10.csv"
+      },
+      {
+        "id": "rumfart-10",
+        "title": "Rumfart",
+        "genre": "Astronomi",
+        "size": 10,
+        "url": "spil/kapardy/10/rumfart_10.csv"
+      },
+      {
+        "id": "biologi_natur-10",
+        "title": "Biologi og natur",
+        "genre": "Biologi",
+        "size": 10,
+        "url": "spil/kapardy/10/biologi_natur_10.csv"
+      },
+      {
+        "id": "danmark_historie_topografi-10",
+        "title": "Danmark · historie og topografi",
+        "genre": "Danmark",
+        "size": 10,
+        "url": "spil/kapardy/10/danmark_historie_topografi_10.csv"
+      },
+      {
+        "id": "jydsk_historie_og_topografi-10",
+        "title": "Jydsk historie og topografi",
+        "genre": "Danmark",
+        "size": 10,
+        "url": "spil/kapardy/10/jydsk_historie_og_topografi_10.csv"
+      },
+      {
+        "id": "heste-10",
+        "title": "Heste",
+        "genre": "Dyr",
+        "size": 10,
+        "url": "spil/kapardy/10/heste_10.csv"
+      },
+      {
+        "id": "kaninunger-10",
+        "title": "Kaninunger",
+        "genre": "Dyr",
+        "size": 10,
+        "url": "spil/kapardy/10/kaninunger_10.csv"
+      },
+      {
+        "id": "verdens_mrkelige_dyr-10",
+        "title": "Verdens mærkelige dyr",
+        "genre": "Dyr",
+        "size": 10,
+        "url": "spil/kapardy/10/verdens_mrkelige_dyr_10.csv"
+      },
+      {
+        "id": "engelsk_sprog_kultur-10",
+        "title": "Engelsk sprog og kultur",
+        "genre": "Engelsk",
+        "size": 10,
+        "url": "spil/kapardy/10/engelsk_sprog_kultur_10.csv"
+      },
+      {
+        "id": "film_fra_1980erne-10",
+        "title": "Film fra 1980’erne",
+        "genre": "Film",
+        "size": 10,
+        "url": "spil/kapardy/10/film_fra_1980erne_10.csv"
+      },
+      {
+        "id": "fransk_sprog_kultur-10",
+        "title": "Fransk sprog og kultur",
+        "genre": "Fransk",
+        "size": 10,
+        "url": "spil/kapardy/10/fransk_sprog_kultur_10.csv"
+      },
+      {
+        "id": "europaeiske_hovedstader-10",
+        "title": "Europæiske hovedstæder",
+        "genre": "Geografi",
+        "size": 10,
+        "url": "spil/kapardy/10/europaeiske_hovedstader_10.csv"
+      },
+      {
+        "id": "verdens_geografi-10",
+        "title": "Verdens geografi",
+        "genre": "Geografi",
+        "size": 10,
+        "url": "spil/kapardy/10/verdens_geografi_10.csv"
+      },
+      {
+        "id": "verdenskrig_historie-10",
+        "title": "Verdenskrig og historie",
+        "genre": "Historie",
+        "size": 10,
+        "url": "spil/kapardy/10/verdenskrig_historie_10.csv"
+      },
+      {
+        "id": "vikinger-10",
+        "title": "Vikinger",
+        "genre": "Historie",
+        "size": 10,
+        "url": "spil/kapardy/10/vikinger_10.csv"
+      },
+      {
+        "id": "kemi_elementer-10",
+        "title": "Kemi og grundstoffer",
+        "genre": "Kemi",
+        "size": 10,
+        "url": "spil/kapardy/10/kemi_elementer_10.csv"
+      },
+      {
+        "id": "klimaforandringer-10",
+        "title": "Klimaforandringer",
+        "genre": "Klima",
+        "size": 10,
+        "url": "spil/kapardy/10/klimaforandringer_10.csv"
+      },
+      {
+        "id": "kropssprog-10",
+        "title": "Kropssprog",
+        "genre": "Kommunikation",
+        "size": 10,
+        "url": "spil/kapardy/10/kropssprog_10.csv"
+      },
+      {
+        "id": "dansk_litteratur-10",
+        "title": "Dansk litteratur",
+        "genre": "Litteratur",
+        "size": 10,
+        "url": "spil/kapardy/10/dansk_litteratur_10.csv"
+      },
+      {
+        "id": "mad_fra_hele_verden-10",
+        "title": "Mad fra hele verden",
+        "genre": "Mad og kultur",
+        "size": 10,
+        "url": "spil/kapardy/10/mad_fra_hele_verden_10.csv"
+      },
+      {
+        "id": "matematik_basics-10",
+        "title": "Matematik · grundlæggende",
+        "genre": "Matematik",
+        "size": 10,
+        "url": "spil/kapardy/10/matematik_basics_10.csv"
+      },
+      {
+        "id": "balkanmusik-10",
+        "title": "Balkanmusik",
+        "genre": "Musik",
+        "size": 10,
+        "url": "spil/kapardy/10/balkanmusik_10.csv"
+      },
+      {
+        "id": "musik_komponister-10",
+        "title": "Musik og komponister",
+        "genre": "Musik",
+        "size": 10,
+        "url": "spil/kapardy/10/musik_komponister_10.csv"
+      },
+      {
+        "id": "musikgenrer-10",
+        "title": "Musikgenrer",
+        "genre": "Musik",
+        "size": 10,
+        "url": "spil/kapardy/10/musikgenrer_10.csv"
+      },
+      {
+        "id": "mytologi-10",
+        "title": "Mytologi",
+        "genre": "Mytologi",
+        "size": 10,
+        "url": "spil/kapardy/10/mytologi_10.csv"
+      },
+      {
+        "id": "nordisk_mytologi-10",
+        "title": "Nordisk mytologi",
+        "genre": "Mytologi",
+        "size": 10,
+        "url": "spil/kapardy/10/nordisk_mytologi_10.csv"
+      },
+      {
+        "id": "beromte_opfindelser-10",
+        "title": "Berømte opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 10,
+        "url": "spil/kapardy/10/beromte_opfindelser_10.csv"
+      },
+      {
+        "id": "danske_opfindelser-10",
+        "title": "Danske opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 10,
+        "url": "spil/kapardy/10/danske_opfindelser_10.csv"
+      },
+      {
+        "id": "naturvidenskab_basics-10",
+        "title": "Naturvidenskab · grundlæggende",
+        "genre": "Naturvidenskab",
+        "size": 10,
+        "url": "spil/kapardy/10/naturvidenskab_basics_10.csv"
+      },
+      {
+        "id": "nordiske_lande-10",
+        "title": "Nordiske lande",
+        "genre": "Nordisk",
+        "size": 10,
+        "url": "spil/kapardy/10/nordiske_lande_10.csv"
+      },
+      {
+        "id": "dansk_politik-10",
+        "title": "Dansk politik",
+        "genre": "Politik",
+        "size": 10,
+        "url": "spil/kapardy/10/dansk_politik_10.csv"
+      },
+      {
+        "id": "efterskoleliv-10",
+        "title": "Efterskoleliv",
+        "genre": "Skoleliv",
+        "size": 10,
+        "url": "spil/kapardy/10/efterskoleliv_10.csv"
+      },
+      {
+        "id": "spansk_sprog_kultur-10",
+        "title": "Spansk sprog og kultur",
+        "genre": "Spansk",
+        "size": 10,
+        "url": "spil/kapardy/10/spansk_sprog_kultur_10.csv"
+      },
+      {
+        "id": "sport_olympiske-10",
+        "title": "Sport og de olympiske lege",
+        "genre": "Sport",
+        "size": 10,
+        "url": "spil/kapardy/10/sport_olympiske_10.csv"
+      },
+      {
+        "id": "tysk_sprog_kultur-10",
+        "title": "Tysk sprog og kultur",
+        "genre": "Tysk",
+        "size": 10,
+        "url": "spil/kapardy/10/tysk_sprog_kultur_10.csv"
+      }
+    ],
+    "15": [
+      {
+        "id": "astronomi_rum-15",
+        "title": "Astronomi og rum",
+        "genre": "Astronomi",
+        "size": 15,
+        "url": "spil/kapardy/15/astronomi_rum_15.csv"
+      },
+      {
+        "id": "rumfart-15",
+        "title": "Rumfart",
+        "genre": "Astronomi",
+        "size": 15,
+        "url": "spil/kapardy/15/rumfart_15.csv"
+      },
+      {
+        "id": "biologi_natur-15",
+        "title": "Biologi og natur",
+        "genre": "Biologi",
+        "size": 15,
+        "url": "spil/kapardy/15/biologi_natur_15.csv"
+      },
+      {
+        "id": "danmark_historie_topografi-15",
+        "title": "Danmark · historie og topografi",
+        "genre": "Danmark",
+        "size": 15,
+        "url": "spil/kapardy/15/danmark_historie_topografi_15.csv"
+      },
+      {
+        "id": "jydsk_historie_og_topografi-15",
+        "title": "Jydsk historie og topografi",
+        "genre": "Danmark",
+        "size": 15,
+        "url": "spil/kapardy/15/jydsk_historie_og_topografi_15.csv"
+      },
+      {
+        "id": "heste-15",
+        "title": "Heste",
+        "genre": "Dyr",
+        "size": 15,
+        "url": "spil/kapardy/15/heste_15.csv"
+      },
+      {
+        "id": "kaninunger-15",
+        "title": "Kaninunger",
+        "genre": "Dyr",
+        "size": 15,
+        "url": "spil/kapardy/15/kaninunger_15.csv"
+      },
+      {
+        "id": "verdens_mrkelige_dyr-15",
+        "title": "Verdens mærkelige dyr",
+        "genre": "Dyr",
+        "size": 15,
+        "url": "spil/kapardy/15/verdens_mrkelige_dyr_15.csv"
+      },
+      {
+        "id": "engelsk_sprog_kultur-15",
+        "title": "Engelsk sprog og kultur",
+        "genre": "Engelsk",
+        "size": 15,
+        "url": "spil/kapardy/15/engelsk_sprog_kultur_15.csv"
+      },
+      {
+        "id": "film_fra_1980erne-15",
+        "title": "Film fra 1980’erne",
+        "genre": "Film",
+        "size": 15,
+        "url": "spil/kapardy/15/film_fra_1980erne_15.csv"
+      },
+      {
+        "id": "fransk_sprog_kultur-15",
+        "title": "Fransk sprog og kultur",
+        "genre": "Fransk",
+        "size": 15,
+        "url": "spil/kapardy/15/fransk_sprog_kultur_15.csv"
+      },
+      {
+        "id": "europaeiske_hovedstader-15",
+        "title": "Europæiske hovedstæder",
+        "genre": "Geografi",
+        "size": 15,
+        "url": "spil/kapardy/15/europaeiske_hovedstader_15.csv"
+      },
+      {
+        "id": "verdens_geografi-15",
+        "title": "Verdens geografi",
+        "genre": "Geografi",
+        "size": 15,
+        "url": "spil/kapardy/15/verdens_geografi_15.csv"
+      },
+      {
+        "id": "verdenskrig_historie-15",
+        "title": "Verdenskrig og historie",
+        "genre": "Historie",
+        "size": 15,
+        "url": "spil/kapardy/15/verdenskrig_historie_15.csv"
+      },
+      {
+        "id": "vikinger-15",
+        "title": "Vikinger",
+        "genre": "Historie",
+        "size": 15,
+        "url": "spil/kapardy/15/vikinger_15.csv"
+      },
+      {
+        "id": "kemi_elementer-15",
+        "title": "Kemi og grundstoffer",
+        "genre": "Kemi",
+        "size": 15,
+        "url": "spil/kapardy/15/kemi_elementer_15.csv"
+      },
+      {
+        "id": "klimaforandringer-15",
+        "title": "Klimaforandringer",
+        "genre": "Klima",
+        "size": 15,
+        "url": "spil/kapardy/15/klimaforandringer_15.csv"
+      },
+      {
+        "id": "kropssprog-15",
+        "title": "Kropssprog",
+        "genre": "Kommunikation",
+        "size": 15,
+        "url": "spil/kapardy/15/kropssprog_15.csv"
+      },
+      {
+        "id": "dansk_litteratur-15",
+        "title": "Dansk litteratur",
+        "genre": "Litteratur",
+        "size": 15,
+        "url": "spil/kapardy/15/dansk_litteratur_15.csv"
+      },
+      {
+        "id": "mad_fra_hele_verden-15",
+        "title": "Mad fra hele verden",
+        "genre": "Mad og kultur",
+        "size": 15,
+        "url": "spil/kapardy/15/mad_fra_hele_verden_15.csv"
+      },
+      {
+        "id": "matematik_basics-15",
+        "title": "Matematik · grundlæggende",
+        "genre": "Matematik",
+        "size": 15,
+        "url": "spil/kapardy/15/matematik_basics_15.csv"
+      },
+      {
+        "id": "balkanmusik-15",
+        "title": "Balkanmusik",
+        "genre": "Musik",
+        "size": 15,
+        "url": "spil/kapardy/15/balkanmusik_15.csv"
+      },
+      {
+        "id": "musik_komponister-15",
+        "title": "Musik og komponister",
+        "genre": "Musik",
+        "size": 15,
+        "url": "spil/kapardy/15/musik_komponister_15.csv"
+      },
+      {
+        "id": "musikgenrer-15",
+        "title": "Musikgenrer",
+        "genre": "Musik",
+        "size": 15,
+        "url": "spil/kapardy/15/musikgenrer_15.csv"
+      },
+      {
+        "id": "mytologi-15",
+        "title": "Mytologi",
+        "genre": "Mytologi",
+        "size": 15,
+        "url": "spil/kapardy/15/mytologi_15.csv"
+      },
+      {
+        "id": "nordisk_mytologi-15",
+        "title": "Nordisk mytologi",
+        "genre": "Mytologi",
+        "size": 15,
+        "url": "spil/kapardy/15/nordisk_mytologi_15.csv"
+      },
+      {
+        "id": "beromte_opfindelser-15",
+        "title": "Berømte opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 15,
+        "url": "spil/kapardy/15/beromte_opfindelser_15.csv"
+      },
+      {
+        "id": "danske_opfindelser-15",
+        "title": "Danske opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 15,
+        "url": "spil/kapardy/15/danske_opfindelser_15.csv"
+      },
+      {
+        "id": "naturvidenskab_basics-15",
+        "title": "Naturvidenskab · grundlæggende",
+        "genre": "Naturvidenskab",
+        "size": 15,
+        "url": "spil/kapardy/15/naturvidenskab_basics_15.csv"
+      },
+      {
+        "id": "nordiske_lande-15",
+        "title": "Nordiske lande",
+        "genre": "Nordisk",
+        "size": 15,
+        "url": "spil/kapardy/15/nordiske_lande_15.csv"
+      },
+      {
+        "id": "dansk_politik-15",
+        "title": "Dansk politik",
+        "genre": "Politik",
+        "size": 15,
+        "url": "spil/kapardy/15/dansk_politik_15.csv"
+      },
+      {
+        "id": "efterskoleliv-15",
+        "title": "Efterskoleliv",
+        "genre": "Skoleliv",
+        "size": 15,
+        "url": "spil/kapardy/15/efterskoleliv_15.csv"
+      },
+      {
+        "id": "spansk_sprog_kultur-15",
+        "title": "Spansk sprog og kultur",
+        "genre": "Spansk",
+        "size": 15,
+        "url": "spil/kapardy/15/spansk_sprog_kultur_15.csv"
+      },
+      {
+        "id": "sport_olympiske-15",
+        "title": "Sport og de olympiske lege",
+        "genre": "Sport",
+        "size": 15,
+        "url": "spil/kapardy/15/sport_olympiske_15.csv"
+      },
+      {
+        "id": "tysk_sprog_kultur-15",
+        "title": "Tysk sprog og kultur",
+        "genre": "Tysk",
+        "size": 15,
+        "url": "spil/kapardy/15/tysk_sprog_kultur_15.csv"
+      }
+    ],
+    "20": [
+      {
+        "id": "astronomi_rum-20",
+        "title": "Astronomi og rum",
+        "genre": "Astronomi",
+        "size": 20,
+        "url": "spil/kapardy/20/astronomi_rum_20.csv"
+      },
+      {
+        "id": "rumfart-20",
+        "title": "Rumfart",
+        "genre": "Astronomi",
+        "size": 20,
+        "url": "spil/kapardy/20/rumfart_20.csv"
+      },
+      {
+        "id": "biologi_natur-20",
+        "title": "Biologi og natur",
+        "genre": "Biologi",
+        "size": 20,
+        "url": "spil/kapardy/20/biologi_natur_20.csv"
+      },
+      {
+        "id": "danmark_historie_topografi-20",
+        "title": "Danmark · historie og topografi",
+        "genre": "Danmark",
+        "size": 20,
+        "url": "spil/kapardy/20/danmark_historie_topografi_20.csv"
+      },
+      {
+        "id": "jydsk_historie_og_topografi-20",
+        "title": "Jydsk historie og topografi",
+        "genre": "Danmark",
+        "size": 20,
+        "url": "spil/kapardy/20/jydsk_historie_og_topografi_20.csv"
+      },
+      {
+        "id": "heste-20",
+        "title": "Heste",
+        "genre": "Dyr",
+        "size": 20,
+        "url": "spil/kapardy/20/heste_20.csv"
+      },
+      {
+        "id": "kaninunger-20",
+        "title": "Kaninunger",
+        "genre": "Dyr",
+        "size": 20,
+        "url": "spil/kapardy/20/kaninunger_20.csv"
+      },
+      {
+        "id": "verdens_mrkelige_dyr-20",
+        "title": "Verdens mærkelige dyr",
+        "genre": "Dyr",
+        "size": 20,
+        "url": "spil/kapardy/20/verdens_mrkelige_dyr_20.csv"
+      },
+      {
+        "id": "engelsk_sprog_kultur-20",
+        "title": "Engelsk sprog og kultur",
+        "genre": "Engelsk",
+        "size": 20,
+        "url": "spil/kapardy/20/engelsk_sprog_kultur_20.csv"
+      },
+      {
+        "id": "film_fra_1980erne-20",
+        "title": "Film fra 1980’erne",
+        "genre": "Film",
+        "size": 20,
+        "url": "spil/kapardy/20/film_fra_1980erne_20.csv"
+      },
+      {
+        "id": "fransk_sprog_kultur-20",
+        "title": "Fransk sprog og kultur",
+        "genre": "Fransk",
+        "size": 20,
+        "url": "spil/kapardy/20/fransk_sprog_kultur_20.csv"
+      },
+      {
+        "id": "europaeiske_hovedstader-20",
+        "title": "Europæiske hovedstæder",
+        "genre": "Geografi",
+        "size": 20,
+        "url": "spil/kapardy/20/europaeiske_hovedstader_20.csv"
+      },
+      {
+        "id": "verdens_geografi-20",
+        "title": "Verdens geografi",
+        "genre": "Geografi",
+        "size": 20,
+        "url": "spil/kapardy/20/verdens_geografi_20.csv"
+      },
+      {
+        "id": "verdenskrig_historie-20",
+        "title": "Verdenskrig og historie",
+        "genre": "Historie",
+        "size": 20,
+        "url": "spil/kapardy/20/verdenskrig_historie_20.csv"
+      },
+      {
+        "id": "vikinger-20",
+        "title": "Vikinger",
+        "genre": "Historie",
+        "size": 20,
+        "url": "spil/kapardy/20/vikinger_20.csv"
+      },
+      {
+        "id": "kemi_elementer-20",
+        "title": "Kemi og grundstoffer",
+        "genre": "Kemi",
+        "size": 20,
+        "url": "spil/kapardy/20/kemi_elementer_20.csv"
+      },
+      {
+        "id": "klimaforandringer-20",
+        "title": "Klimaforandringer",
+        "genre": "Klima",
+        "size": 20,
+        "url": "spil/kapardy/20/klimaforandringer_20.csv"
+      },
+      {
+        "id": "kropssprog-20",
+        "title": "Kropssprog",
+        "genre": "Kommunikation",
+        "size": 20,
+        "url": "spil/kapardy/20/kropssprog_20.csv"
+      },
+      {
+        "id": "dansk_litteratur-20",
+        "title": "Dansk litteratur",
+        "genre": "Litteratur",
+        "size": 20,
+        "url": "spil/kapardy/20/dansk_litteratur_20.csv"
+      },
+      {
+        "id": "mad_fra_hele_verden-20",
+        "title": "Mad fra hele verden",
+        "genre": "Mad og kultur",
+        "size": 20,
+        "url": "spil/kapardy/20/mad_fra_hele_verden_20.csv"
+      },
+      {
+        "id": "matematik_basics-20",
+        "title": "Matematik · grundlæggende",
+        "genre": "Matematik",
+        "size": 20,
+        "url": "spil/kapardy/20/matematik_basics_20.csv"
+      },
+      {
+        "id": "balkanmusik-20",
+        "title": "Balkanmusik",
+        "genre": "Musik",
+        "size": 20,
+        "url": "spil/kapardy/20/balkanmusik_20.csv"
+      },
+      {
+        "id": "musik_komponister-20",
+        "title": "Musik og komponister",
+        "genre": "Musik",
+        "size": 20,
+        "url": "spil/kapardy/20/musik_komponister_20.csv"
+      },
+      {
+        "id": "musikgenrer-20",
+        "title": "Musikgenrer",
+        "genre": "Musik",
+        "size": 20,
+        "url": "spil/kapardy/20/musikgenrer_20.csv"
+      },
+      {
+        "id": "mytologi-20",
+        "title": "Mytologi",
+        "genre": "Mytologi",
+        "size": 20,
+        "url": "spil/kapardy/20/mytologi_20.csv"
+      },
+      {
+        "id": "nordisk_mytologi-20",
+        "title": "Nordisk mytologi",
+        "genre": "Mytologi",
+        "size": 20,
+        "url": "spil/kapardy/20/nordisk_mytologi_20.csv"
+      },
+      {
+        "id": "beromte_opfindelser-20",
+        "title": "Berømte opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 20,
+        "url": "spil/kapardy/20/beromte_opfindelser_20.csv"
+      },
+      {
+        "id": "danske_opfindelser-20",
+        "title": "Danske opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 20,
+        "url": "spil/kapardy/20/danske_opfindelser_20.csv"
+      },
+      {
+        "id": "naturvidenskab_basics-20",
+        "title": "Naturvidenskab · grundlæggende",
+        "genre": "Naturvidenskab",
+        "size": 20,
+        "url": "spil/kapardy/20/naturvidenskab_basics_20.csv"
+      },
+      {
+        "id": "nordiske_lande-20",
+        "title": "Nordiske lande",
+        "genre": "Nordisk",
+        "size": 20,
+        "url": "spil/kapardy/20/nordiske_lande_20.csv"
+      },
+      {
+        "id": "dansk_politik-20",
+        "title": "Dansk politik",
+        "genre": "Politik",
+        "size": 20,
+        "url": "spil/kapardy/20/dansk_politik_20.csv"
+      },
+      {
+        "id": "efterskoleliv-20",
+        "title": "Efterskoleliv",
+        "genre": "Skoleliv",
+        "size": 20,
+        "url": "spil/kapardy/20/efterskoleliv_20.csv"
+      },
+      {
+        "id": "spansk_sprog_kultur-20",
+        "title": "Spansk sprog og kultur",
+        "genre": "Spansk",
+        "size": 20,
+        "url": "spil/kapardy/20/spansk_sprog_kultur_20.csv"
+      },
+      {
+        "id": "sport_olympiske-20",
+        "title": "Sport og de olympiske lege",
+        "genre": "Sport",
+        "size": 20,
+        "url": "spil/kapardy/20/sport_olympiske_20.csv"
+      },
+      {
+        "id": "tysk_sprog_kultur-20",
+        "title": "Tysk sprog og kultur",
+        "genre": "Tysk",
+        "size": 20,
+        "url": "spil/kapardy/20/tysk_sprog_kultur_20.csv"
+      }
+    ],
+    "25": [
+      {
+        "id": "astronomi_rum-25",
+        "title": "Astronomi og rum",
+        "genre": "Astronomi",
+        "size": 25,
+        "url": "spil/kapardy/25/astronomi_rum.csv"
+      },
+      {
+        "id": "rumfart-25",
+        "title": "Rumfart",
+        "genre": "Astronomi",
+        "size": 25,
+        "url": "spil/kapardy/25/rumfart_25.csv"
+      },
+      {
+        "id": "biologi_natur-25",
+        "title": "Biologi og natur",
+        "genre": "Biologi",
+        "size": 25,
+        "url": "spil/kapardy/25/biologi_natur.csv"
+      },
+      {
+        "id": "danmark_historie_topografi-25",
+        "title": "Danmark · historie og topografi",
+        "genre": "Danmark",
+        "size": 25,
+        "url": "spil/kapardy/25/danmark_historie_topografi.csv"
+      },
+      {
+        "id": "jydsk_historie_og_topografi-25",
+        "title": "Jydsk historie og topografi",
+        "genre": "Danmark",
+        "size": 25,
+        "url": "spil/kapardy/25/jydsk_historie_og_topografi_25.csv"
+      },
+      {
+        "id": "heste-25",
+        "title": "Heste",
+        "genre": "Dyr",
+        "size": 25,
+        "url": "spil/kapardy/25/heste_25.csv"
+      },
+      {
+        "id": "kaninunger-25",
+        "title": "Kaninunger",
+        "genre": "Dyr",
+        "size": 25,
+        "url": "spil/kapardy/25/kaninunger_25.csv"
+      },
+      {
+        "id": "verdens_mrkelige_dyr-25",
+        "title": "Verdens mærkelige dyr",
+        "genre": "Dyr",
+        "size": 25,
+        "url": "spil/kapardy/25/verdens_mrkelige_dyr_25.csv"
+      },
+      {
+        "id": "engelsk_sprog_kultur-25",
+        "title": "Engelsk sprog og kultur",
+        "genre": "Engelsk",
+        "size": 25,
+        "url": "spil/kapardy/25/engelsk_sprog_kultur.csv"
+      },
+      {
+        "id": "film_fra_1980erne-25",
+        "title": "Film fra 1980’erne",
+        "genre": "Film",
+        "size": 25,
+        "url": "spil/kapardy/25/film_fra_1980erne_25.csv"
+      },
+      {
+        "id": "fransk_sprog_kultur-25",
+        "title": "Fransk sprog og kultur",
+        "genre": "Fransk",
+        "size": 25,
+        "url": "spil/kapardy/25/fransk_sprog_kultur.csv"
+      },
+      {
+        "id": "europaeiske_hovedstader-25",
+        "title": "Europæiske hovedstæder",
+        "genre": "Geografi",
+        "size": 25,
+        "url": "spil/kapardy/25/europaeiske_hovedstader.csv"
+      },
+      {
+        "id": "verdens_geografi-25",
+        "title": "Verdens geografi",
+        "genre": "Geografi",
+        "size": 25,
+        "url": "spil/kapardy/25/verdens_geografi.csv"
+      },
+      {
+        "id": "verdenskrig_historie-25",
+        "title": "Verdenskrig og historie",
+        "genre": "Historie",
+        "size": 25,
+        "url": "spil/kapardy/25/verdenskrig_historie.csv"
+      },
+      {
+        "id": "vikinger-25",
+        "title": "Vikinger",
+        "genre": "Historie",
+        "size": 25,
+        "url": "spil/kapardy/25/vikinger_25.csv"
+      },
+      {
+        "id": "kemi_elementer-25",
+        "title": "Kemi og grundstoffer",
+        "genre": "Kemi",
+        "size": 25,
+        "url": "spil/kapardy/25/kemi_elementer.csv"
+      },
+      {
+        "id": "klimaforandringer-25",
+        "title": "Klimaforandringer",
+        "genre": "Klima",
+        "size": 25,
+        "url": "spil/kapardy/25/klimaforandringer_25.csv"
+      },
+      {
+        "id": "kropssprog-25",
+        "title": "Kropssprog",
+        "genre": "Kommunikation",
+        "size": 25,
+        "url": "spil/kapardy/25/kropssprog_25.csv"
+      },
+      {
+        "id": "dansk_litteratur-25",
+        "title": "Dansk litteratur",
+        "genre": "Litteratur",
+        "size": 25,
+        "url": "spil/kapardy/25/dansk_litteratur.csv"
+      },
+      {
+        "id": "mad_fra_hele_verden-25",
+        "title": "Mad fra hele verden",
+        "genre": "Mad og kultur",
+        "size": 25,
+        "url": "spil/kapardy/25/mad_fra_hele_verden_25.csv"
+      },
+      {
+        "id": "matematik_basics-25",
+        "title": "Matematik · grundlæggende",
+        "genre": "Matematik",
+        "size": 25,
+        "url": "spil/kapardy/25/matematik_basics.csv"
+      },
+      {
+        "id": "balkanmusik-25",
+        "title": "Balkanmusik",
+        "genre": "Musik",
+        "size": 25,
+        "url": "spil/kapardy/25/balkanmusik_25.csv"
+      },
+      {
+        "id": "musik_komponister-25",
+        "title": "Musik og komponister",
+        "genre": "Musik",
+        "size": 25,
+        "url": "spil/kapardy/25/musik_komponister.csv"
+      },
+      {
+        "id": "musikgenrer-25",
+        "title": "Musikgenrer",
+        "genre": "Musik",
+        "size": 25,
+        "url": "spil/kapardy/25/musikgenrer_25.csv"
+      },
+      {
+        "id": "mytologi-25",
+        "title": "Mytologi",
+        "genre": "Mytologi",
+        "size": 25,
+        "url": "spil/kapardy/25/mytologi.csv"
+      },
+      {
+        "id": "nordisk_mytologi-25",
+        "title": "Nordisk mytologi",
+        "genre": "Mytologi",
+        "size": 25,
+        "url": "spil/kapardy/25/nordisk_mytologi_25.csv"
+      },
+      {
+        "id": "beromte_opfindelser-25",
+        "title": "Berømte opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 25,
+        "url": "spil/kapardy/25/beromte_opfindelser.csv"
+      },
+      {
+        "id": "danske_opfindelser-25",
+        "title": "Danske opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 25,
+        "url": "spil/kapardy/25/danske_opfindelser_25.csv"
+      },
+      {
+        "id": "naturvidenskab_basics-25",
+        "title": "Naturvidenskab · grundlæggende",
+        "genre": "Naturvidenskab",
+        "size": 25,
+        "url": "spil/kapardy/25/naturvidenskab_basics.csv"
+      },
+      {
+        "id": "nordiske_lande-25",
+        "title": "Nordiske lande",
+        "genre": "Nordisk",
+        "size": 25,
+        "url": "spil/kapardy/25/nordiske_lande.csv"
+      },
+      {
+        "id": "dansk_politik-25",
+        "title": "Dansk politik",
+        "genre": "Politik",
+        "size": 25,
+        "url": "spil/kapardy/25/dansk_politik.csv"
+      },
+      {
+        "id": "efterskoleliv-25",
+        "title": "Efterskoleliv",
+        "genre": "Skoleliv",
+        "size": 25,
+        "url": "spil/kapardy/25/efterskoleliv_25.csv"
+      },
+      {
+        "id": "spansk_sprog_kultur-25",
+        "title": "Spansk sprog og kultur",
+        "genre": "Spansk",
+        "size": 25,
+        "url": "spil/kapardy/25/spansk_sprog_kultur.csv"
+      },
+      {
+        "id": "sport_olympiske-25",
+        "title": "Sport og de olympiske lege",
+        "genre": "Sport",
+        "size": 25,
+        "url": "spil/kapardy/25/sport_olympiske.csv"
+      },
+      {
+        "id": "tysk_sprog_kultur-25",
+        "title": "Tysk sprog og kultur",
+        "genre": "Tysk",
+        "size": 25,
+        "url": "spil/kapardy/25/tysk_sprog_kultur.csv"
+      }
+    ],
+    "30": [
+      {
+        "id": "astronomi_rum-30",
+        "title": "Astronomi og rum",
+        "genre": "Astronomi",
+        "size": 30,
+        "url": "spil/kapardy/30/astronomi_rum.csv"
+      },
+      {
+        "id": "rumfart-30",
+        "title": "Rumfart",
+        "genre": "Astronomi",
+        "size": 30,
+        "url": "spil/kapardy/30/rumfart_30.csv"
+      },
+      {
+        "id": "biologi_natur-30",
+        "title": "Biologi og natur",
+        "genre": "Biologi",
+        "size": 30,
+        "url": "spil/kapardy/30/biologi_natur.csv"
+      },
+      {
+        "id": "danmark_historie_topografi-30",
+        "title": "Danmark · historie og topografi",
+        "genre": "Danmark",
+        "size": 30,
+        "url": "spil/kapardy/30/danmark_historie_topografi.csv"
+      },
+      {
+        "id": "jydsk_historie_og_topografi-30",
+        "title": "Jydsk historie og topografi",
+        "genre": "Danmark",
+        "size": 30,
+        "url": "spil/kapardy/30/jydsk_historie_og_topografi_30.csv"
+      },
+      {
+        "id": "heste-30",
+        "title": "Heste",
+        "genre": "Dyr",
+        "size": 30,
+        "url": "spil/kapardy/30/heste_30.csv"
+      },
+      {
+        "id": "kaninunger-30",
+        "title": "Kaninunger",
+        "genre": "Dyr",
+        "size": 30,
+        "url": "spil/kapardy/30/kaninunger_30.csv"
+      },
+      {
+        "id": "verdens_mrkelige_dyr-30",
+        "title": "Verdens mærkelige dyr",
+        "genre": "Dyr",
+        "size": 30,
+        "url": "spil/kapardy/30/verdens_mrkelige_dyr_30.csv"
+      },
+      {
+        "id": "engelsk_sprog_kultur-30",
+        "title": "Engelsk sprog og kultur",
+        "genre": "Engelsk",
+        "size": 30,
+        "url": "spil/kapardy/30/engelsk_sprog_kultur.csv"
+      },
+      {
+        "id": "film_fra_1980erne-30",
+        "title": "Film fra 1980’erne",
+        "genre": "Film",
+        "size": 30,
+        "url": "spil/kapardy/30/film_fra_1980erne_30.csv"
+      },
+      {
+        "id": "fransk_sprog_kultur-30",
+        "title": "Fransk sprog og kultur",
+        "genre": "Fransk",
+        "size": 30,
+        "url": "spil/kapardy/30/fransk_sprog_kultur.csv"
+      },
+      {
+        "id": "europaeiske_hovedstader-30",
+        "title": "Europæiske hovedstæder",
+        "genre": "Geografi",
+        "size": 30,
+        "url": "spil/kapardy/30/europaeiske_hovedstader.csv"
+      },
+      {
+        "id": "verdens_geografi-30",
+        "title": "Verdens geografi",
+        "genre": "Geografi",
+        "size": 30,
+        "url": "spil/kapardy/30/verdens_geografi.csv"
+      },
+      {
+        "id": "verdenskrig_historie-30",
+        "title": "Verdenskrig og historie",
+        "genre": "Historie",
+        "size": 30,
+        "url": "spil/kapardy/30/verdenskrig_historie.csv"
+      },
+      {
+        "id": "vikinger-30",
+        "title": "Vikinger",
+        "genre": "Historie",
+        "size": 30,
+        "url": "spil/kapardy/30/vikinger_30.csv"
+      },
+      {
+        "id": "kemi_elementer-30",
+        "title": "Kemi og grundstoffer",
+        "genre": "Kemi",
+        "size": 30,
+        "url": "spil/kapardy/30/kemi_elementer.csv"
+      },
+      {
+        "id": "klimaforandringer-30",
+        "title": "Klimaforandringer",
+        "genre": "Klima",
+        "size": 30,
+        "url": "spil/kapardy/30/klimaforandringer_30.csv"
+      },
+      {
+        "id": "kropssprog-30",
+        "title": "Kropssprog",
+        "genre": "Kommunikation",
+        "size": 30,
+        "url": "spil/kapardy/30/kropssprog_30.csv"
+      },
+      {
+        "id": "dansk_litteratur-30",
+        "title": "Dansk litteratur",
+        "genre": "Litteratur",
+        "size": 30,
+        "url": "spil/kapardy/30/dansk_litteratur.csv"
+      },
+      {
+        "id": "mad_fra_hele_verden-30",
+        "title": "Mad fra hele verden",
+        "genre": "Mad og kultur",
+        "size": 30,
+        "url": "spil/kapardy/30/mad_fra_hele_verden_30.csv"
+      },
+      {
+        "id": "matematik_basics-30",
+        "title": "Matematik · grundlæggende",
+        "genre": "Matematik",
+        "size": 30,
+        "url": "spil/kapardy/30/matematik_basics.csv"
+      },
+      {
+        "id": "balkanmusik-30",
+        "title": "Balkanmusik",
+        "genre": "Musik",
+        "size": 30,
+        "url": "spil/kapardy/30/balkanmusik_30.csv"
+      },
+      {
+        "id": "musik_komponister-30",
+        "title": "Musik og komponister",
+        "genre": "Musik",
+        "size": 30,
+        "url": "spil/kapardy/30/musik_komponister.csv"
+      },
+      {
+        "id": "musikgenrer-30",
+        "title": "Musikgenrer",
+        "genre": "Musik",
+        "size": 30,
+        "url": "spil/kapardy/30/musikgenrer_30.csv"
+      },
+      {
+        "id": "mytologi-30",
+        "title": "Mytologi",
+        "genre": "Mytologi",
+        "size": 30,
+        "url": "spil/kapardy/30/mytologi.csv"
+      },
+      {
+        "id": "nordisk_mytologi-30",
+        "title": "Nordisk mytologi",
+        "genre": "Mytologi",
+        "size": 30,
+        "url": "spil/kapardy/30/nordisk_mytologi_30.csv"
+      },
+      {
+        "id": "beromte_opfindelser-30",
+        "title": "Berømte opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 30,
+        "url": "spil/kapardy/30/beromte_opfindelser.csv"
+      },
+      {
+        "id": "danske_opfindelser-30",
+        "title": "Danske opfindelser",
+        "genre": "Naturvidenskab",
+        "size": 30,
+        "url": "spil/kapardy/30/danske_opfindelser_30.csv"
+      },
+      {
+        "id": "naturvidenskab_basics-30",
+        "title": "Naturvidenskab · grundlæggende",
+        "genre": "Naturvidenskab",
+        "size": 30,
+        "url": "spil/kapardy/30/naturvidenskab_basics.csv"
+      },
+      {
+        "id": "nordiske_lande-30",
+        "title": "Nordiske lande",
+        "genre": "Nordisk",
+        "size": 30,
+        "url": "spil/kapardy/30/nordiske_lande.csv"
+      },
+      {
+        "id": "dansk_politik-30",
+        "title": "Dansk politik",
+        "genre": "Politik",
+        "size": 30,
+        "url": "spil/kapardy/30/dansk_politik.csv"
+      },
+      {
+        "id": "efterskoleliv-30",
+        "title": "Efterskoleliv",
+        "genre": "Skoleliv",
+        "size": 30,
+        "url": "spil/kapardy/30/efterskoleliv_30.csv"
+      },
+      {
+        "id": "spansk_sprog_kultur-30",
+        "title": "Spansk sprog og kultur",
+        "genre": "Spansk",
+        "size": 30,
+        "url": "spil/kapardy/30/spansk_sprog_kultur.csv"
+      },
+      {
+        "id": "sport_olympiske-30",
+        "title": "Sport og de olympiske lege",
+        "genre": "Sport",
+        "size": 30,
+        "url": "spil/kapardy/30/sport_olympiske.csv"
+      },
+      {
+        "id": "tysk_sprog_kultur-30",
+        "title": "Tysk sprog og kultur",
+        "genre": "Tysk",
+        "size": 30,
+        "url": "spil/kapardy/30/tysk_sprog_kultur.csv"
+      }
+    ]
+  }
+}

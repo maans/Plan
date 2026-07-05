@@ -1,4 +1,4 @@
-# Plan 1.0
+# Plan 1.0.1
 
 <p align="center">
   <img src="plan-assets/plan-icon.svg" alt="Plan" width="180">
@@ -392,7 +392,20 @@ Plan rummer blandt andet:
 
 Aktiviteterne kan bruge data, hold og lister, som allerede findes i forløbet.
 
-KaPardy bevarer kompatibilitet med ældre spilbanker, hvor det første svar efter spørgsmålet er korrekt, og de tre næste er forkerte. Svarene blandes ved spilstart.
+### KaPardy og spilbiblioteket
+
+KaPardy kan bruge:
+
+- færdige spil fra Plans spilbibliotek
+- CSV- og Excel-filer fra disk
+- en eksisterende lokal spørgsmålsbank
+- spørgsmål, der skrives og redigeres direkte i widgetten
+
+Spilbiblioteket kan åbnes som en almindelig oversigt eller som en lille lodtrækning: først vælges en genre, derefter et spil og til sidst det ønskede antal spørgsmål.
+
+KaPardy bevarer kompatibilitet med den klassiske spilbankaftale: det første svar efter spørgsmålet er korrekt, og de tre næste er forkerte. I Kahoot-visningen blandes svarene ved spilstart og får tydelige farver, så holdene kan svare eksempelvis **Blå**, **Rød**, **Gul** eller **Grøn**.
+
+**Nulstil spil** fjerner point, svar og brugte spørgsmål og sender spillet tilbage til begyndelsen, mens den valgte spilbank og holdene bevares. **Redigér spørgsmål** åbner det spørgsmål, der er aktivt i spillet.
 
 ---
 
@@ -523,11 +536,15 @@ Et fuldt Plan-repository kan blandt andet indeholde:
 - `README.md` – denne introduktion
 - `plan.webmanifest` – webapp-manifest
 - `plan-assets/` – logo og appikoner
-- `plan-library/` – bibliotek med undervisningsforløb
+- `plan-library/` – alle demoforløb og skabeloner, samlet efter fag
 - `plan-library/catalog.json` – bibliotekets register
 - `plan-library/README.md` – vejledning til bibliotekets opbygning
+- `spil/kapardy/` – KaPardy-spil ordnet efter antal spørgsmål
+- `docs/manifest_spil.json` – register over spillene
 
-Den lokale kerneapp kan fortsat distribueres og bruges som én selvstændig HTML-fil.
+Demofag ligger ikke som selvstændige mapper i repositoryets rod. De findes samlet under `plan-library/`.
+
+Den lokale kerneapp kan fortsat distribueres og bruges som én selvstændig HTML-fil. Spilbibliotek og demoforløb kræver dog adgang til de tilhørende repositoryfiler eller til den online udgave.
 
 ---
 
