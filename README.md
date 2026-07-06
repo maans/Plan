@@ -1,4 +1,10 @@
-# Plan 1.0.9
+# Plan 1.1.3
+
+
+## Nyt i Plan 1.1.3
+
+Ressourcematrixens **Saml fra tavlen** er gjort mere robust. Den læser nu både tavlens gemte widgetliste og de synlige links i widgetterne, så flere LinkWidgets, WebWidgets og linklistevisninger på samme tavle kan samles i én levende ressourceliste. Den bruger de ressourcer, der vises i dialogen, når du trykker **Saml i matrix**, så fundene ikke ændrer sig mellem forhåndsvisning og gemning.
+
 
 <p align="center">
   <img src="plan-assets/plan-icon.svg" alt="Plan" width="180">
@@ -18,18 +24,19 @@ Plan bygger videre på den fleksible tavleform fra **Tavle**, men sætter hele u
 
 ---
 
-## Nyt i 1.0.8
+## Nyt i 1.1.1
 
-Plan 1.0.9 samler de seneste ændringer i hjælp, README, bibliotek og læringsaktiviteter:
+Plan 1.1.3 samler de seneste ændringer i hjælp, bibliotek, læringsaktiviteter og arbejdet med kilder og medier:
 
 - **Hjælp og README** er opdateret til den aktuelle version.
-- **Biblioteket** viser nu fag ud fra kataloget og har faste synlige fag for blandt andet **Musik** og **Historie**.
-- **Andre 9.-klassefag** er nu kun en restkategori for øvrige 9.-klassefag, ikke en skjult placering for Musik og Historie.
+- **Biblioteket** viser Musik og Historie som selvstændige fag.
+- **Andre 9.-klassefag** er en restkategori for øvrige 9.-klassefag.
 - **KaPardy** kan bruges som almindeligt spil og som læringsbank.
 - **Huskekort** og **Huskekortmatrix** kan bruges til aktiv genkaldelse, begrebstræning og repetition før KaPardy.
-- **Huskekortmatrix** kan være en levende visning af samme KaPardy-spørgsmålsbank uden at kopiere spørgsmålene.
-- Kilder fra huskekort åbnes som midlertidige kildevinduer, medmindre læreren udtrykkeligt vælger at fastgøre dem på tavlen.
-- Professorforløb kan nu bygges omkring kilder, medier, huskekort, arbejdsopgaver og KaPardy på sidste tavle.
+- **Ressourcematrix** samler links, webkilder, MuseScore-noder, YouTube, PDF, lyd og video fra en levende ressourceliste.
+- Ressourcematrixen kan samle de links og webvisninger, der allerede ligger på en tavle, i én matrix.
+- Kilder og ressourcer åbnes midlertidigt som standard, medmindre læreren udtrykkeligt fastgør dem på tavlen.
+- Professorforløb kan bygges omkring kilder, medier, huskekort, arbejdsopgaver og KaPardy på sidste tavle.
 
 ---
 
@@ -183,6 +190,26 @@ Når en kilde åbnes fra et huskekort, åbnes den som udgangspunkt som et midler
 - forløbspakken ændres ikke.
 
 Hvis kilden skal blive på tavlen, vælger læreren at fastgøre den som widget.
+
+
+## Ressourcematrix og levende ressourcelister
+
+En **Ressourcematrix** samler mange kilder og medier i én overskuelig visning. Den kan bruges til almindelige links, websteder, MuseScore-noder, YouTube-videoer, PDF-links, lyd, video og andre materialer.
+
+Ressourcematrixen er lavet til undervisningsforløb, hvor eleverne først skal undersøge, lytte, læse, kigge eller sammenligne materialer, før de arbejder videre med opgaver, huskekort eller KaPardy.
+
+Matrixen kan vise ressourcerne som:
+
+- kort overblik,
+- én aktiv web- eller nodevisning ad gangen,
+- kildeåbning i et midlertidigt vindue,
+- fastgjorte widgets på tavlen, når læreren bevidst vælger det.
+
+Ressourcerne kan ligge i en levende liste, så den samme liste kan bruges flere steder uden at kopiere alle links manuelt. Ændres listen, kan matrixen følge med.
+
+Hvis der allerede ligger flere LinkWidgets eller Webvisninger på en tavle, kan læreren samle dem i Ressourcematrixen med **Saml fra tavlen**. Plan læser også de LinkWidgets, der er koblet til en levende linkliste, så flere linkwidgets kan samles korrekt i én matrix. De gamle enkeltwidgets bevares som udgangspunkt. Læreren kan også vælge at skjule dem efter samlingen, uden at de sendes i Papirkurv.
+
+For at holde Plan let på iPad og SmartBoard indlæser Ressourcematrixen ikke alle websteder samtidigt. Oversigten er let, og den tunge web-, node-, lyd- eller videovisning åbnes først, når en ressource vælges.
 
 ---
 
@@ -405,7 +432,7 @@ Hjælp indeholder blandt andet:
 - Niveaudeling og danskhold,
 - Fagsamtaler,
 - Standpunktskarakterer,
-- KaPardy, Huskekort og andre aktiviteter,
+- KaPardy, Huskekort, Ressourcematrix og andre aktiviteter,
 - medier og PDF,
 - backup, Lagerredning og gendannelse,
 - tastatur, touch og præsentation.
@@ -441,7 +468,7 @@ Uanset hvordan Plan åbnes, er det vigtigt at tage backup af dine egne forløb, 
 - Fagsamtaler,
 - Standpunktskarakterer,
 - grupper og aktiviteter,
-- KaPardy, Huskekort og repetition,
+- KaPardy, Huskekort, Ressourcematrix og repetition,
 - præsentation og tavlearbejde,
 - backup, gendannelse og genbrug
 
