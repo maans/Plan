@@ -4,64 +4,73 @@
   "coursePackageVersion": 1,
   "version": 3,
   "schemaVersion": 3,
-  "appVersion": "1.0.3",
+  "appVersion": "1.0.9",
   "kind": "course-package",
-  "createdAt": "2026-07-06T13:45:00.000Z",
+  "createdAt": "2026-07-07T00:45:00.000Z",
   "course": {
-    "id": "course_professor_20-sporgsmal-verdenskrigene_v2",
+    "id": "course_professor_20-sporgsmal-verdenskrigene_v2_showcase",
     "title": "20 spørgsmål fra professoren · Verdenskrigenes historie",
     "subject": "Historie",
     "schoolYear": "",
     "sessionIds": [
-      "session_professor_20-sporgsmal-verdenskrigene_v2"
+      "session_professor_20-sporgsmal-verdenskrigene_v2_showcase"
     ],
-    "exportedAt": "2026-07-06T13:45:00.000Z",
-    "sourceAppVersion": "1.0.3"
+    "exportedAt": "2026-07-07T00:45:00.000Z",
+    "sourceAppVersion": "1.0.9"
   },
   "sessions": [
     {
-      "id": "session_professor_20-sporgsmal-verdenskrigene_v2",
+      "id": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
       "schemaVersion": 1,
       "title": "20 spørgsmål fra professoren · Verdenskrigenes historie",
       "theme": "dark",
-      "activeBoardId": "board_professor_20-sporgsmal-verdenskrigene_v2_1",
+      "activeBoardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
       "boardIds": [
-        "board_professor_20-sporgsmal-verdenskrigene_v2_1",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_3",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_4",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_5",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_6",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_7",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_8",
-        "board_professor_20-sporgsmal-verdenskrigene_v2_9"
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_4",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_5",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_6",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_7",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_8",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
+        "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_10"
       ],
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "courseId": "course_professor_20-sporgsmal-verdenskrigene_v2",
+        "courseId": "course_professor_20-sporgsmal-verdenskrigene_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Verdenskrigenes historie",
         "courseSubject": "Historie",
         "courseSchoolYear": "",
         "courseOrder": 1,
         "planOrder": 1,
         "courseSessionIds": [
-          "session_professor_20-sporgsmal-verdenskrigene_v2"
+          "session_professor_20-sporgsmal-verdenskrigene_v2_showcase"
         ],
         "courseSequenceVersion": 2,
         "courseSequenceSource": "metadata",
         "sourceKind": "plan-library-demo",
         "sourceCsv": "spil/kapardy/20/verdenskrig_historie_20.csv",
         "estimatedLessons": "2–4",
-        "professorVersion": "v2-kilder-huskekort"
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Kalender/tidslinje",
+          "Huskekortmatrix",
+          "Gruppeværktøj",
+          "Timer",
+          "KaPardy"
+        ]
       }
     }
   ],
   "boards": [
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_1",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
       "title": "Overblik · Verdenskrigenes historie",
       "background": {
         "kind": "image",
@@ -77,26 +86,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_overview_intro",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_overview_route",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_overview_index"
+        "w_20-sporgsmal-verdenskrigene_intro",
+        "w_20-sporgsmal-verdenskrigene_route",
+        "w_20-sporgsmal-verdenskrigene_index"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "overview",
         "order": 1
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "Kilder og medier",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "Ressourcematrix og kilder",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -108,29 +117,30 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_sources_text",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_source_1",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_source_2",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_source_3",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_source_4",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_source_5"
+        "w_20-sporgsmal-verdenskrigene_resource_matrix",
+        "w_20-sporgsmal-verdenskrigene_source_1",
+        "w_20-sporgsmal-verdenskrigene_source_2",
+        "w_20-sporgsmal-verdenskrigene_source_3",
+        "w_20-sporgsmal-verdenskrigene_source_4",
+        "w_20-sporgsmal-verdenskrigene_source_5",
+        "w_20-sporgsmal-verdenskrigene_sources_text"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "sources",
         "order": 2
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_3",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "1. Første Verdenskrig",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#4a2a12 0%,#7c4a21 55%,#9a6a35 100%)",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -142,26 +152,29 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat1_core",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat1_activity",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat1_check"
+        "w_20-sporgsmal-verdenskrigene_groups",
+        "w_20-sporgsmal-verdenskrigene_tool_text",
+        "w_20-sporgsmal-verdenskrigene_timer",
+        "w_20-sporgsmal-verdenskrigene_countdown",
+        "w_20-sporgsmal-verdenskrigene_wordcloud",
+        "w_20-sporgsmal-verdenskrigene_calendar"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "category",
+        "lessonPart": "showcase",
         "order": 3
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_4",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_4",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "2. Anden Verdenskrig i Europa",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "1. Første Verdenskrig",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -173,26 +186,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat2_core",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat2_activity",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat2_check"
+        "w_20-sporgsmal-verdenskrigene_cat1_core",
+        "w_20-sporgsmal-verdenskrigene_cat1_activity",
+        "w_20-sporgsmal-verdenskrigene_cat1_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 4
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_5",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_5",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "3. Global krig og Holocaust",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "2. Anden Verdenskrig i Europa",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -204,26 +217,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat3_core",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat3_activity",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat3_check"
+        "w_20-sporgsmal-verdenskrigene_cat2_core",
+        "w_20-sporgsmal-verdenskrigene_cat2_activity",
+        "w_20-sporgsmal-verdenskrigene_cat2_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 5
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_6",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_6",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "4. Danmark, Norden og efterspil",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "3. Global krig og Holocaust",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -235,26 +248,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat4_core",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat4_activity",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_cat4_check"
+        "w_20-sporgsmal-verdenskrigene_cat3_core",
+        "w_20-sporgsmal-verdenskrigene_cat3_activity",
+        "w_20-sporgsmal-verdenskrigene_cat3_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 6
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_7",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_7",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "Huskekort og aktiv genkaldelse",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "4. Danmark, Norden og efterspil",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -266,24 +279,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_flashcards"
+        "w_20-sporgsmal-verdenskrigene_cat4_core",
+        "w_20-sporgsmal-verdenskrigene_cat4_activity",
+        "w_20-sporgsmal-verdenskrigene_cat4_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "flashcards",
+        "lessonPart": "category",
         "order": 7
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_8",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_8",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
-      "title": "Professorens prøveværksted",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -295,22 +310,52 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_workshop",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_workshop_sources",
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_workshop_cards"
+        "w_20-sporgsmal-verdenskrigene_flashcards"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "workshop",
+        "lessonPart": "flashcards",
         "order": 8
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_9",
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2",
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdenskrigene_workshop",
+        "w_20-sporgsmal-verdenskrigene_workshop_timer",
+        "w_20-sporgsmal-verdenskrigene_workshop_sources",
+        "w_20-sporgsmal-verdenskrigene_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdenskrigene_v2_showcase",
       "title": "KaPardy · 20 spørgsmål",
       "background": {
         "kind": "image",
@@ -326,35 +371,35 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-verdenskrigene_v2_kapardy"
+        "w_20-sporgsmal-verdenskrigene_kapardy"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "kapardy",
-        "order": 9
+        "order": 10
       }
     }
   ],
   "widgets": [
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_overview_intro",
+      "id": "w_20-sporgsmal-verdenskrigene_intro",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_1",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
       "type": "text",
-      "title": "Professorens invitation",
+      "title": "Professorens udfordring",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 560,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "text": "20 SPØRGSMÅL FRA PROFESSOREN · V2\nVERDENSKRIGENES HISTORIE\n\nIDÉ\nEleverne skal ikke møde KaPardy-spørgsmålene som løs quizviden. De arbejder først med kilder, medier, forklaringer og huskekort, så spillet bliver en faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare centrale begreber med egne ord\n• kende forvekslinger og nærliggende svar\n• træne aktiv genkaldelse i Huskekortmatrix\n• afslutte med det eksisterende 20-spørgsmåls KaPardy-spil\n\nLÆRERFLOW\nKilder → kategoriarbejde → huskekort → prøveværksted → KaPardy.",
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nVERDENSKRIGENES HISTORIE\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/verdenskrig_historie_20.csv",
         "fontSize": 17,
         "align": "left"
       },
@@ -368,27 +413,27 @@
       "relations": {
         "layoutRole": "intro"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_overview_route",
+      "id": "w_20-sporgsmal-verdenskrigene_route",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_1",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
       "type": "text",
-      "title": "Lektionsplan og faglige spor",
+      "title": "Lektionsplan og Plan-værktøjer",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Overblik + kilder + to kategorier / to kategorier + huskekort + KaPardy.\n3 lektioner: Kilder og kategori 1–2 / kategori 3–4 / huskekort, prøveværksted og KaPardy.\n4 lektioner: Kilder og én kategori pr. lektion, med huskekort og KaPardy som afslutning.\n\nDE FIRE SPOR\n• Første Verdenskrig\n• Anden Verdenskrig i Europa\n• Global krig og Holocaust\n• Danmark, Norden og efterspil\n\nFAST RUTINE\n1. Åbn mindst én kilde eller medie.\n2. Notér tre nøgleord uden facit.\n3. Forklar svaret til en makker.\n4. Træn kategorien i Huskekortmatrixen.",
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Første Verdenskrig, Anden Verdenskrig i Europa, Global krig og Holocaust, Danmark, Norden og efterspil.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Kalender/tidslinje\n• Huskekortmatrix\n• Gruppeværktøj\n• Timer\n• KaPardy\n\nDEMOIDÉ\nHistorikerhold arbejder med krig, Europa, global krig og Danmark/Norden på fælles tidslinje.",
         "fontSize": 16,
         "align": "left"
       },
@@ -402,36 +447,37 @@
       "relations": {
         "layoutRole": "lesson-plan"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_overview_index",
+      "id": "w_20-sporgsmal-verdenskrigene_index",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_1",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
       "type": "board-index",
       "title": "Tavler i forløbet",
       "geometry": {
         "x": 20,
-        "y": 505,
+        "y": 510,
         "width": 1160,
-        "height": 300,
+        "height": 295,
         "rotation": 0,
         "z": 3
       },
       "content": {
         "boardIds": [
-          "board_professor_20-sporgsmal-verdenskrigene_v2_1",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_3",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_4",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_5",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_6",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_7",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_8",
-          "board_professor_20-sporgsmal-verdenskrigene_v2_9"
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_1",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_4",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_5",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_6",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_7",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_8",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
+          "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_10"
         ]
       },
       "settings": {
@@ -444,17 +490,17 @@
       "relations": {
         "layoutRole": "board-index"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_sources_text",
+      "id": "w_20-sporgsmal-verdenskrigene_resource_matrix",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-      "type": "text",
-      "title": "Kilde- og medieliste",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -464,7 +510,272 @@
         "z": 1
       },
       "content": {
-        "text": "KILDER OG MEDIER\n\n1. Imperial War Museums · First World War\n   Type: læse/se\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n2. Imperial War Museums · Second World War\n   Type: læse/se\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n3. United States Holocaust Memorial Museum\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n4. National WWII Museum\n   Type: læse/se\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n5. danmarkshistorien.dk · Besættelsen\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\nELEVOPGAVE\nVælg to kilder. Skriv: Hvad kan kilden bruges til? Hvilke spørgsmål hjælper den med? Hvilke ord/begreber skal på huskekort?",
+        "version": 1,
+        "resources": [
+          {
+            "title": "Imperial War Museums",
+            "url": "https://www.iwm.org.uk/",
+            "type": "web/arkiv",
+            "category": "Verdenskrigene",
+            "note": "Brug billeder, artikler og kilder.",
+            "tags": [
+              "verdenskrigene",
+              "web-arkiv"
+            ]
+          },
+          {
+            "title": "National WWI Museum and Memorial",
+            "url": "https://www.theworldwar.org/",
+            "type": "web/museum",
+            "category": "Første Verdenskrig",
+            "note": "Brug til WWI-sporet.",
+            "tags": [
+              "foerste-verdenskrig",
+              "web-museum"
+            ]
+          },
+          {
+            "title": "United States Holocaust Memorial Museum",
+            "url": "https://www.ushmm.org/",
+            "type": "web/museum",
+            "category": "Holocaust",
+            "note": "Brug til Holocaust og kildekritik.",
+            "tags": [
+              "holocaust",
+              "web-museum"
+            ]
+          },
+          {
+            "title": "National Archives UK · WWII",
+            "url": "https://www.nationalarchives.gov.uk/education/worldwar2/",
+            "type": "web/kilder",
+            "category": "Anden Verdenskrig",
+            "note": "Brug primærkilder og elevopgaver.",
+            "tags": [
+              "anden-verdenskrig",
+              "web-kilder"
+            ]
+          },
+          {
+            "title": "danmarkshistorien.dk · Besættelsen",
+            "url": "https://danmarkshistorien.dk/",
+            "type": "web/fagportal",
+            "category": "Danmark og efterspil",
+            "note": "Brug til dansk modstand og efterspil.",
+            "tags": [
+              "danmark-og-efterspil",
+              "web-fagportal"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "link",
+      "title": "Imperial War Museums",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://www.iwm.org.uk/",
+        "label": "Imperial War Museums",
+        "note": "web/arkiv · Brug billeder, artikler og kilder.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "link",
+      "title": "National WWI Museum and Memorial",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://www.theworldwar.org/",
+        "label": "National WWI Museum and Memorial",
+        "note": "web/museum · Brug til WWI-sporet.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "link",
+      "title": "United States Holocaust Memorial Museum",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://www.ushmm.org/",
+        "label": "United States Holocaust Memorial Museum",
+        "note": "web/museum · Brug til Holocaust og kildekritik.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "link",
+      "title": "National Archives UK · WWII",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.nationalarchives.gov.uk/education/worldwar2/",
+        "label": "National Archives UK · WWII",
+        "note": "web/kilder · Brug primærkilder og elevopgaver.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "link",
+      "title": "danmarkshistorien.dk · Besættelsen",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://danmarkshistorien.dk/",
+        "label": "danmarkshistorien.dk · Besættelsen",
+        "note": "web/fagportal · Brug til dansk modstand og efterspil.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
         "fontSize": 15,
         "align": "left"
       },
@@ -476,32 +787,84 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "sources"
+        "layoutRole": "sources-task"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_source_1",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-verdenskrigene_groups",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-      "type": "link",
-      "title": "Imperial War Museums · First World War",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
       "geometry": {
-        "x": 560,
+        "x": 20,
         "y": 85,
-        "width": 300,
-        "height": 190,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Første Verdenskrig",
+            "members": []
+          },
+          {
+            "name": "Anden Verdenskrig i Europa",
+            "members": []
+          },
+          {
+            "name": "Global krig og Holocaust",
+            "members": []
+          },
+          {
+            "name": "Danmark, Norden og efterspil",
+            "members": []
+          }
+        ],
+        "note": "Historikerhold arbejder med krig, Europa, global krig og Danmark/Norden på fælles tidslinje."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "url": "https://www.iwm.org.uk/history/first-world-war",
-        "label": "Imperial War Museums · First World War",
-        "note": "læse/se. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Første Verdenskrig\n• Anden Verdenskrig i Europa\n• Global krig og Holocaust\n• Danmark, Norden og efterspil\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
       },
       "settings": {
         "locked": false,
@@ -511,32 +874,32 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "groups-instructions"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_source_2",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-verdenskrigene_timer",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-      "type": "link",
-      "title": "Imperial War Museums · Second World War",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
       "geometry": {
-        "x": 880,
+        "x": 790,
         "y": 85,
-        "width": 300,
-        "height": 190,
+        "width": 390,
+        "height": 150,
         "rotation": 0,
         "z": 3
       },
       "content": {
-        "url": "https://www.iwm.org.uk/history/second-world-war",
-        "label": "Imperial War Museums · Second World War",
-        "note": "læse/se. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
       },
       "settings": {
         "locked": false,
@@ -546,32 +909,31 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "timer"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_source_3",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-verdenskrigene_countdown",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-      "type": "link",
-      "title": "United States Holocaust Memorial Museum",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
       "geometry": {
-        "x": 560,
-        "y": 300,
-        "width": 300,
-        "height": 190,
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
         "rotation": 0,
         "z": 4
       },
       "content": {
-        "url": "https://encyclopedia.ushmm.org/",
-        "label": "United States Holocaust Memorial Museum",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
       },
       "settings": {
         "locked": false,
@@ -581,32 +943,48 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "countdown"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_source_4",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-verdenskrigene_wordcloud",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-      "type": "link",
-      "title": "National WWII Museum",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
       "geometry": {
-        "x": 880,
-        "y": 300,
-        "width": 300,
-        "height": 190,
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
         "rotation": 0,
         "z": 5
       },
       "content": {
-        "url": "https://www.nationalww2museum.org/",
-        "label": "National WWII Museum",
-        "note": "læse/se. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "items": [
+          {
+            "text": "Første Verdenskrig",
+            "count": 1
+          },
+          {
+            "text": "Anden Verdenskrig i Europa",
+            "count": 1
+          },
+          {
+            "text": "Global krig og Holocaust",
+            "count": 1
+          },
+          {
+            "text": "Danmark, Norden og efterspil",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
       },
       "settings": {
         "locked": false,
@@ -616,32 +994,44 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "wordcloud"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_source_5",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-verdenskrigene_calendar",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_2",
-      "type": "link",
-      "title": "danmarkshistorien.dk · Besættelsen",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
       "geometry": {
-        "x": 560,
-        "y": 515,
-        "width": 300,
-        "height": 190,
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
         "rotation": 0,
         "z": 6
       },
       "content": {
-        "url": "https://danmarkshistorien.dk/vis/materiale/besaettelsen-1940-45",
-        "label": "danmarkshistorien.dk · Besættelsen",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
       },
       "settings": {
         "locked": false,
@@ -651,17 +1041,17 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "calendar"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat1_core",
+      "id": "w_20-sporgsmal-verdenskrigene_cat1_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_3",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_4",
       "type": "text",
       "title": "Kildearbejde · Første Verdenskrig",
       "geometry": {
@@ -673,7 +1063,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Første Verdenskrig\n\nARBEJD MED KILDERNE\nBrug især: Imperial War Museums · First World War, Imperial War Museums · Second World War.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad kaldtes de tyske ubåde under Første Verdenskrig?\n• Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?\n• I hvilket år gik USA ind i Første Verdenskrig?\n• Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?\n• Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Første Verdenskrig\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad kaldtes de tyske ubåde under Første Verdenskrig?\n• Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?\n• I hvilket år gik USA ind i Første Verdenskrig?\n• Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?\n• Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -687,15 +1077,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat1_activity",
+      "id": "w_20-sporgsmal-verdenskrigene_cat1_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_3",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_4",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -707,7 +1097,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Første Verdenskrig\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Første Verdenskrig\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -721,17 +1111,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat1_check",
+      "id": "w_20-sporgsmal-verdenskrigene_cat1_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_3",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_4",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -755,15 +1145,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat2_core",
+      "id": "w_20-sporgsmal-verdenskrigene_cat2_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_4",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_5",
       "type": "text",
       "title": "Kildearbejde · Anden Verdenskrig i Europa",
       "geometry": {
@@ -775,7 +1165,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Anden Verdenskrig i Europa\n\nARBEJD MED KILDERNE\nBrug især: Imperial War Museums · First World War, Imperial War Museums · Second World War.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?\n• Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?\n• Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?\n• På hvilken dato fandt D-dag-landgangen i Normandiet sted?\n• Hvad var kodenavnet for den allierede invasion af Normandiet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Anden Verdenskrig i Europa\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?\n• Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?\n• Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?\n• På hvilken dato fandt D-dag-landgangen i Normandiet sted?\n• Hvad var kodenavnet for den allierede invasion af Normandiet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -789,15 +1179,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat2_activity",
+      "id": "w_20-sporgsmal-verdenskrigene_cat2_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_4",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_5",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -809,7 +1199,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Anden Verdenskrig i Europa\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Anden Verdenskrig i Europa\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -823,17 +1213,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat2_check",
+      "id": "w_20-sporgsmal-verdenskrigene_cat2_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_4",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_5",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -857,15 +1247,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat3_core",
+      "id": "w_20-sporgsmal-verdenskrigene_cat3_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_5",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_6",
       "type": "text",
       "title": "Kildearbejde · Global krig og Holocaust",
       "geometry": {
@@ -877,7 +1267,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Global krig og Holocaust\n\nARBEJD MED KILDERNE\nBrug især: Imperial War Museums · First World War, Imperial War Museums · Second World War.\n\nUNDERSØGELSESSPØRGSMÅL\n• På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?\n• Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?\n• Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?\n• Hvor mange jøder blev omtrent myrdet under Holocaust?\n• I hvilket besat land lå Auschwitz-Birkenau?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Global krig og Holocaust\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?\n• Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?\n• Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?\n• Hvor mange jøder blev omtrent myrdet under Holocaust?\n• I hvilket besat land lå Auschwitz-Birkenau?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -891,15 +1281,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat3_activity",
+      "id": "w_20-sporgsmal-verdenskrigene_cat3_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_5",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_6",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -911,7 +1301,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Global krig og Holocaust\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Global krig og Holocaust\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -925,17 +1315,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat3_check",
+      "id": "w_20-sporgsmal-verdenskrigene_cat3_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_5",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_6",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -959,15 +1349,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat4_core",
+      "id": "w_20-sporgsmal-verdenskrigene_cat4_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_6",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_7",
       "type": "text",
       "title": "Kildearbejde · Danmark, Norden og efterspil",
       "geometry": {
@@ -979,7 +1369,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Danmark, Norden og efterspil\n\nARBEJD MED KILDERNE\nBrug især: Imperial War Museums · First World War, Imperial War Museums · Second World War.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?\n• Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?\n• Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?\n• Hvad var “Flammen” og “Citronen” kendt som?\n• Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Danmark, Norden og efterspil\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?\n• Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?\n• Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?\n• Hvad var “Flammen” og “Citronen” kendt som?\n• Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -993,15 +1383,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat4_activity",
+      "id": "w_20-sporgsmal-verdenskrigene_cat4_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_6",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_7",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -1013,7 +1403,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Danmark, Norden og efterspil\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Danmark, Norden og efterspil\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -1027,17 +1417,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_cat4_check",
+      "id": "w_20-sporgsmal-verdenskrigene_cat4_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_6",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_7",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -1061,250 +1451,250 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_flashcards",
+      "id": "w_20-sporgsmal-verdenskrigene_flashcards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_7",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_8",
       "type": "flashcard-matrix",
-      "title": "Huskekort · Verdenskrigenes historie",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 1160,
-        "height": 720,
+        "height": 740,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "sourceType": "kapardy",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-verdenskrigene_v2_kapardy",
-        "sourceDatasetId": null,
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-verdenskrigene_kapardy",
+        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Verdenskrigenes historie",
-        "linked": true,
-        "view": "overview",
-        "categoryFilter": "Alle",
-        "statusFilter": "Alle",
-        "progress": {},
-        "overrides": {
-          "kp_verdenskrigenes-historie_01": {
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_verdenskrig-historie_01": {
             "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: U-både. Brug kilden til at forklare, hvorfor dette er mere præcist end: Dreadnoughts · Zeppelinere · Monitorer.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: U-både. Forklar hvorfor det er mere præcist end: Dreadnoughts · Zeppelinere · Monitorer.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Dreadnoughts",
               "Zeppelinere",
               "Monitorer"
             ]
           },
-          "kp_verdenskrigenes-historie_02": {
+          "kp_verdenskrig-historie_02": {
             "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: Lusitania. Brug kilden til at forklare, hvorfor dette er mere præcist end: Titanic · Olympic · Mauretania.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Lusitania. Forklar hvorfor det er mere præcist end: Titanic · Olympic · Mauretania.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Titanic",
               "Olympic",
               "Mauretania"
             ]
           },
-          "kp_verdenskrigenes-historie_03": {
+          "kp_verdenskrig-historie_03": {
             "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: 1917. Brug kilden til at forklare, hvorfor dette er mere præcist end: 1914 · 1915 · 1919.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: 1917. Forklar hvorfor det er mere præcist end: 1914 · 1915 · 1919.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "1914",
               "1915",
               "1919"
             ]
           },
-          "kp_verdenskrigenes-historie_04": {
+          "kp_verdenskrig-historie_04": {
             "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: Oktoberrevolutionen. Brug kilden til at forklare, hvorfor dette er mere præcist end: Februarrevolutionen · 1905-revolutionen · Dekabristopstanden.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Oktoberrevolutionen. Forklar hvorfor det er mere præcist end: Februarrevolutionen · 1905-revolutionen · Dekabristopstanden.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Februarrevolutionen",
               "1905-revolutionen",
               "Dekabristopstanden"
             ]
           },
-          "kp_verdenskrigenes-historie_05": {
+          "kp_verdenskrig-historie_05": {
             "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: Brest-Litovsk-freden. Brug kilden til at forklare, hvorfor dette er mere præcist end: Versaillestraktaten · Saint-Germain-traktaten · Lausannefreden.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Brest-Litovsk-freden. Forklar hvorfor det er mere præcist end: Versaillestraktaten · Saint-Germain-traktaten · Lausannefreden.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Versaillestraktaten",
               "Saint-Germain-traktaten",
               "Lausannefreden"
             ]
           },
-          "kp_verdenskrigenes-historie_06": {
+          "kp_verdenskrig-historie_06": {
             "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Operation Barbarossa. Brug kilden til at forklare, hvorfor dette er mere præcist end: Operation Overlord · Operation Sea Lion · Operation Market Garden.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Operation Barbarossa. Forklar hvorfor det er mere præcist end: Operation Overlord · Operation Sea Lion · Operation Market Garden.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Operation Overlord",
               "Operation Sea Lion",
               "Operation Market Garden"
             ]
           },
-          "kp_verdenskrigenes-historie_07": {
+          "kp_verdenskrig-historie_07": {
             "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Stalingrad. Brug kilden til at forklare, hvorfor dette er mere præcist end: Kursk · Moskva · Kharkiv.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Stalingrad. Forklar hvorfor det er mere præcist end: Kursk · Moskva · Kharkiv.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Kursk",
               "Moskva",
               "Kharkiv"
             ]
           },
-          "kp_verdenskrigenes-historie_08": {
+          "kp_verdenskrig-historie_08": {
             "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Kursk. Brug kilden til at forklare, hvorfor dette er mere præcist end: El Alamein · Monte Cassino · Arnhem.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Kursk. Forklar hvorfor det er mere præcist end: El Alamein · Monte Cassino · Arnhem.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "El Alamein",
               "Monte Cassino",
               "Arnhem"
             ]
           },
-          "kp_verdenskrigenes-historie_09": {
+          "kp_verdenskrig-historie_09": {
             "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: 6. juni 1944. Brug kilden til at forklare, hvorfor dette er mere præcist end: 8. maj 1945 · 7. december 1941 · 1. september 1939.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: 6. juni 1944. Forklar hvorfor det er mere præcist end: 8. maj 1945 · 7. december 1941 · 1. september 1939.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "8. maj 1945",
               "7. december 1941",
               "1. september 1939"
             ]
           },
-          "kp_verdenskrigenes-historie_10": {
+          "kp_verdenskrig-historie_10": {
             "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Operation Overlord. Brug kilden til at forklare, hvorfor dette er mere præcist end: Operation Torch · Operation Husky · Operation Avalanche.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Operation Overlord. Forklar hvorfor det er mere præcist end: Operation Torch · Operation Husky · Operation Avalanche.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Operation Torch",
               "Operation Husky",
               "Operation Avalanche"
             ]
           },
-          "kp_verdenskrigenes-historie_11": {
+          "kp_verdenskrig-historie_11": {
             "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: USS Missouri. Brug kilden til at forklare, hvorfor dette er mere præcist end: USS Arizona · USS Enterprise · USS Yorktown.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: USS Missouri. Forklar hvorfor det er mere præcist end: USS Arizona · USS Enterprise · USS Yorktown.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "USS Arizona",
               "USS Enterprise",
               "USS Yorktown"
             ]
           },
-          "kp_verdenskrigenes-historie_12": {
+          "kp_verdenskrig-historie_12": {
             "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: Manhattanprojektet. Brug kilden til at forklare, hvorfor dette er mere præcist end: Apollo-projektet · Marshallplanen · Operation Paperclip.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Manhattanprojektet. Forklar hvorfor det er mere præcist end: Apollo-projektet · Marshallplanen · Operation Paperclip.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Apollo-projektet",
               "Marshallplanen",
               "Operation Paperclip"
             ]
           },
-          "kp_verdenskrigenes-historie_13": {
+          "kp_verdenskrig-historie_13": {
             "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: Executive Order 9066. Brug kilden til at forklare, hvorfor dette er mere præcist end: Executive Order 8802 · Truman-doktrinen · Lend-Lease Act.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Executive Order 9066. Forklar hvorfor det er mere præcist end: Executive Order 8802 · Truman-doktrinen · Lend-Lease Act.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Executive Order 8802",
               "Truman-doktrinen",
               "Lend-Lease Act"
             ]
           },
-          "kp_verdenskrigenes-historie_14": {
+          "kp_verdenskrig-historie_14": {
             "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: seks millioner. Brug kilden til at forklare, hvorfor dette er mere præcist end: en million · tolv millioner · tre hundrede tusind.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: seks millioner. Forklar hvorfor det er mere præcist end: en million · tolv millioner · tre hundrede tusind.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "en million",
               "tolv millioner",
               "tre hundrede tusind"
             ]
           },
-          "kp_verdenskrigenes-historie_15": {
+          "kp_verdenskrig-historie_15": {
             "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: Polen. Brug kilden til at forklare, hvorfor dette er mere præcist end: Tyskland · Østrig · Ungarn.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Polen. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Ungarn.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Tyskland",
               "Østrig",
               "Ungarn"
             ]
           },
-          "kp_verdenskrigenes-historie_16": {
+          "kp_verdenskrig-historie_16": {
             "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Holger Danske. Brug kilden til at forklare, hvorfor dette er mere præcist end: Hvidstengruppen · BOPA · Churchill-klubben.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Holger Danske. Forklar hvorfor det er mere præcist end: Hvidstengruppen · BOPA · Churchill-klubben.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Hvidstengruppen",
               "BOPA",
               "Churchill-klubben"
             ]
           },
-          "kp_verdenskrigenes-historie_17": {
+          "kp_verdenskrig-historie_17": {
             "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Borgerlige Partisaner. Brug kilden til at forklare, hvorfor dette er mere præcist end: Bondepartiets Organisation · Britisk Operativ Partisanarmé · Bornholms Partisaner.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Borgerlige Partisaner. Forklar hvorfor det er mere præcist end: Bondepartiets Organisation · Britisk Operativ Partisanarmé · Bornholms Partisaner.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Bondepartiets Organisation",
               "Britisk Operativ Partisanarmé",
               "Bornholms Partisaner"
             ]
           },
-          "kp_verdenskrigenes-historie_18": {
+          "kp_verdenskrig-historie_18": {
             "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Hvidstengruppen. Brug kilden til at forklare, hvorfor dette er mere præcist end: Holger Danske · BOPA · Ringen.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Hvidstengruppen. Forklar hvorfor det er mere præcist end: Holger Danske · BOPA · Ringen.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Holger Danske",
               "BOPA",
               "Ringen"
             ]
           },
-          "kp_verdenskrigenes-historie_19": {
+          "kp_verdenskrig-historie_19": {
             "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: modstandsfolk og likvidatorer. Brug kilden til at forklare, hvorfor dette er mere præcist end: tyske generaler · danske ministre · norske sabotører.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: modstandsfolk og likvidatorer. Forklar hvorfor det er mere præcist end: tyske generaler · danske ministre · norske sabotører.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "tyske generaler",
               "danske ministre",
               "norske sabotører"
             ]
           },
-          "kp_verdenskrigenes-historie_20": {
+          "kp_verdenskrig-historie_20": {
             "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Folkestrejken. Brug kilden til at forklare, hvorfor dette er mere præcist end: Påskekrisen · Augustoprøret 1943 · Majrevolten.",
-            "sourceTitle": "Imperial War Museums · First World War",
-            "sourceUrl": "https://www.iwm.org.uk/history/first-world-war",
+            "explanation": "Kort svar: Folkestrejken. Forklar hvorfor det er mere præcist end: Påskekrisen · Augustoprøret 1943 · Majrevolten.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
             "confusions": [
               "Påskekrisen",
               "Augustoprøret 1943",
@@ -1318,7 +1708,7 @@
           "title": "KaPardy · Verdenskrigenes historie",
           "questions": [
             {
-              "id": "kp_verdenskrigenes-historie_01",
+              "id": "kp_verdenskrig-historie_01",
               "category": "Første Verdenskrig",
               "question": "Hvad kaldtes de tyske ubåde under Første Verdenskrig?",
               "points": 100,
@@ -1332,7 +1722,7 @@
               "answer": "U-både"
             },
             {
-              "id": "kp_verdenskrigenes-historie_02",
+              "id": "kp_verdenskrig-historie_02",
               "category": "Første Verdenskrig",
               "question": "Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?",
               "points": 200,
@@ -1346,7 +1736,7 @@
               "answer": "Lusitania"
             },
             {
-              "id": "kp_verdenskrigenes-historie_03",
+              "id": "kp_verdenskrig-historie_03",
               "category": "Første Verdenskrig",
               "question": "I hvilket år gik USA ind i Første Verdenskrig?",
               "points": 300,
@@ -1360,7 +1750,7 @@
               "answer": "1917"
             },
             {
-              "id": "kp_verdenskrigenes-historie_04",
+              "id": "kp_verdenskrig-historie_04",
               "category": "Første Verdenskrig",
               "question": "Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?",
               "points": 400,
@@ -1374,7 +1764,7 @@
               "answer": "Oktoberrevolutionen"
             },
             {
-              "id": "kp_verdenskrigenes-historie_05",
+              "id": "kp_verdenskrig-historie_05",
               "category": "Første Verdenskrig",
               "question": "Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?",
               "points": 500,
@@ -1388,7 +1778,7 @@
               "answer": "Brest-Litovsk-freden"
             },
             {
-              "id": "kp_verdenskrigenes-historie_06",
+              "id": "kp_verdenskrig-historie_06",
               "category": "Anden Verdenskrig i Europa",
               "question": "Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?",
               "points": 100,
@@ -1402,7 +1792,7 @@
               "answer": "Operation Barbarossa"
             },
             {
-              "id": "kp_verdenskrigenes-historie_07",
+              "id": "kp_verdenskrig-historie_07",
               "category": "Anden Verdenskrig i Europa",
               "question": "Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?",
               "points": 200,
@@ -1416,7 +1806,7 @@
               "answer": "Stalingrad"
             },
             {
-              "id": "kp_verdenskrigenes-historie_08",
+              "id": "kp_verdenskrig-historie_08",
               "category": "Anden Verdenskrig i Europa",
               "question": "Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?",
               "points": 300,
@@ -1430,7 +1820,7 @@
               "answer": "Kursk"
             },
             {
-              "id": "kp_verdenskrigenes-historie_09",
+              "id": "kp_verdenskrig-historie_09",
               "category": "Anden Verdenskrig i Europa",
               "question": "På hvilken dato fandt D-dag-landgangen i Normandiet sted?",
               "points": 400,
@@ -1444,7 +1834,7 @@
               "answer": "6. juni 1944"
             },
             {
-              "id": "kp_verdenskrigenes-historie_10",
+              "id": "kp_verdenskrig-historie_10",
               "category": "Anden Verdenskrig i Europa",
               "question": "Hvad var kodenavnet for den allierede invasion af Normandiet?",
               "points": 500,
@@ -1458,7 +1848,7 @@
               "answer": "Operation Overlord"
             },
             {
-              "id": "kp_verdenskrigenes-historie_11",
+              "id": "kp_verdenskrig-historie_11",
               "category": "Global krig og Holocaust",
               "question": "På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?",
               "points": 100,
@@ -1472,7 +1862,7 @@
               "answer": "USS Missouri"
             },
             {
-              "id": "kp_verdenskrigenes-historie_12",
+              "id": "kp_verdenskrig-historie_12",
               "category": "Global krig og Holocaust",
               "question": "Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?",
               "points": 200,
@@ -1486,7 +1876,7 @@
               "answer": "Manhattanprojektet"
             },
             {
-              "id": "kp_verdenskrigenes-historie_13",
+              "id": "kp_verdenskrig-historie_13",
               "category": "Global krig og Holocaust",
               "question": "Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?",
               "points": 300,
@@ -1500,7 +1890,7 @@
               "answer": "Executive Order 9066"
             },
             {
-              "id": "kp_verdenskrigenes-historie_14",
+              "id": "kp_verdenskrig-historie_14",
               "category": "Global krig og Holocaust",
               "question": "Hvor mange jøder blev omtrent myrdet under Holocaust?",
               "points": 400,
@@ -1514,7 +1904,7 @@
               "answer": "seks millioner"
             },
             {
-              "id": "kp_verdenskrigenes-historie_15",
+              "id": "kp_verdenskrig-historie_15",
               "category": "Global krig og Holocaust",
               "question": "I hvilket besat land lå Auschwitz-Birkenau?",
               "points": 500,
@@ -1528,7 +1918,7 @@
               "answer": "Polen"
             },
             {
-              "id": "kp_verdenskrigenes-historie_16",
+              "id": "kp_verdenskrig-historie_16",
               "category": "Danmark, Norden og efterspil",
               "question": "Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?",
               "points": 100,
@@ -1542,7 +1932,7 @@
               "answer": "Holger Danske"
             },
             {
-              "id": "kp_verdenskrigenes-historie_17",
+              "id": "kp_verdenskrig-historie_17",
               "category": "Danmark, Norden og efterspil",
               "question": "Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?",
               "points": 200,
@@ -1556,7 +1946,7 @@
               "answer": "Borgerlige Partisaner"
             },
             {
-              "id": "kp_verdenskrigenes-historie_18",
+              "id": "kp_verdenskrig-historie_18",
               "category": "Danmark, Norden og efterspil",
               "question": "Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?",
               "points": 300,
@@ -1570,7 +1960,7 @@
               "answer": "Hvidstengruppen"
             },
             {
-              "id": "kp_verdenskrigenes-historie_19",
+              "id": "kp_verdenskrig-historie_19",
               "category": "Danmark, Norden og efterspil",
               "question": "Hvad var “Flammen” og “Citronen” kendt som?",
               "points": 400,
@@ -1584,7 +1974,7 @@
               "answer": "modstandsfolk og likvidatorer"
             },
             {
-              "id": "kp_verdenskrigenes-historie_20",
+              "id": "kp_verdenskrig-historie_20",
               "category": "Danmark, Norden og efterspil",
               "question": "Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?",
               "points": 500,
@@ -1598,7 +1988,7 @@
               "answer": "Folkestrejken"
             }
           ],
-          "updatedAt": "2026-07-06T13:45:00.000Z"
+          "updatedAt": "2026-07-07T00:45:00.000Z"
         }
       },
       "settings": {
@@ -1609,20 +1999,19 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "flashcard-training",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-verdenskrigene_v2_kapardy"
+        "layoutRole": "flashcard-training"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_workshop",
+      "id": "w_20-sporgsmal-verdenskrigene_workshop",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_8",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
       "type": "text",
-      "title": "Prøveværksted",
+      "title": "Professorens prøveværksted",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -1632,7 +2021,7 @@
         "z": 1
       },
       "content": {
-        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hver gruppe kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet. Det må gerne være enklere end kilden, men ikke upræcist.",
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
         "fontSize": 17,
         "align": "left"
       },
@@ -1646,27 +2035,62 @@
       "relations": {
         "layoutRole": "workshop"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_workshop_sources",
+      "id": "w_20-sporgsmal-verdenskrigene_workshop_timer",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_8",
-      "type": "text",
-      "title": "Kildekrav før spillet",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 330,
+        "height": 180,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nBrug Link-widgetterne fra tavlen Kilder og medier. Åbn dem som webvisning, når klassen skal se materialet sammen.\n\nNår et kort stadig står som 'Kan ikke endnu', skal gruppen tilbage til kilden før KaPardy.",
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdenskrigene_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1680,27 +2104,27 @@
       "relations": {
         "layoutRole": "source-requirement"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_workshop_cards",
+      "id": "w_20-sporgsmal-verdenskrigene_workshop_cards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_8",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_9",
       "type": "text",
       "title": "Huskekortrunde",
       "geometry": {
         "x": 600,
-        "y": 435,
+        "y": 535,
         "width": 580,
-        "height": 350,
+        "height": 250,
         "rotation": 0,
-        "z": 3
+        "z": 4
       },
       "content": {
-        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er 'Næsten' eller 'Kan'.",
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1714,15 +2138,15 @@
       "relations": {
         "layoutRole": "flashcard-routine"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-verdenskrigene_v2_kapardy",
+      "id": "w_20-sporgsmal-verdenskrigene_kapardy",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_9",
+      "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_10",
       "type": "kapardy",
       "title": "KaPardy · Verdenskrigenes historie",
       "geometry": {
@@ -1737,7 +2161,7 @@
         "kapardyVersion": 2,
         "questionBankContract": "first-answer-correct",
         "gameId": "kapardy_20-sporgsmal-verdenskrigene_20",
-        "gameStartedAt": "2026-07-06T13:45:00.000Z",
+        "gameStartedAt": "2026-07-07T00:45:00.000Z",
         "gameMode": "jeopardy",
         "mode": "jeopardy",
         "kapardyScreen": "setup",
@@ -1756,7 +2180,7 @@
         ],
         "questions": [
           {
-            "id": "kp_verdenskrigenes-historie_01",
+            "id": "kp_verdenskrig-historie_01",
             "category": "Første Verdenskrig",
             "question": "Hvad kaldtes de tyske ubåde under Første Verdenskrig?",
             "points": 100,
@@ -1770,7 +2194,7 @@
             "answer": "U-både"
           },
           {
-            "id": "kp_verdenskrigenes-historie_02",
+            "id": "kp_verdenskrig-historie_02",
             "category": "Første Verdenskrig",
             "question": "Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?",
             "points": 200,
@@ -1784,7 +2208,7 @@
             "answer": "Lusitania"
           },
           {
-            "id": "kp_verdenskrigenes-historie_03",
+            "id": "kp_verdenskrig-historie_03",
             "category": "Første Verdenskrig",
             "question": "I hvilket år gik USA ind i Første Verdenskrig?",
             "points": 300,
@@ -1798,7 +2222,7 @@
             "answer": "1917"
           },
           {
-            "id": "kp_verdenskrigenes-historie_04",
+            "id": "kp_verdenskrig-historie_04",
             "category": "Første Verdenskrig",
             "question": "Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?",
             "points": 400,
@@ -1812,7 +2236,7 @@
             "answer": "Oktoberrevolutionen"
           },
           {
-            "id": "kp_verdenskrigenes-historie_05",
+            "id": "kp_verdenskrig-historie_05",
             "category": "Første Verdenskrig",
             "question": "Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?",
             "points": 500,
@@ -1826,7 +2250,7 @@
             "answer": "Brest-Litovsk-freden"
           },
           {
-            "id": "kp_verdenskrigenes-historie_06",
+            "id": "kp_verdenskrig-historie_06",
             "category": "Anden Verdenskrig i Europa",
             "question": "Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?",
             "points": 100,
@@ -1840,7 +2264,7 @@
             "answer": "Operation Barbarossa"
           },
           {
-            "id": "kp_verdenskrigenes-historie_07",
+            "id": "kp_verdenskrig-historie_07",
             "category": "Anden Verdenskrig i Europa",
             "question": "Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?",
             "points": 200,
@@ -1854,7 +2278,7 @@
             "answer": "Stalingrad"
           },
           {
-            "id": "kp_verdenskrigenes-historie_08",
+            "id": "kp_verdenskrig-historie_08",
             "category": "Anden Verdenskrig i Europa",
             "question": "Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?",
             "points": 300,
@@ -1868,7 +2292,7 @@
             "answer": "Kursk"
           },
           {
-            "id": "kp_verdenskrigenes-historie_09",
+            "id": "kp_verdenskrig-historie_09",
             "category": "Anden Verdenskrig i Europa",
             "question": "På hvilken dato fandt D-dag-landgangen i Normandiet sted?",
             "points": 400,
@@ -1882,7 +2306,7 @@
             "answer": "6. juni 1944"
           },
           {
-            "id": "kp_verdenskrigenes-historie_10",
+            "id": "kp_verdenskrig-historie_10",
             "category": "Anden Verdenskrig i Europa",
             "question": "Hvad var kodenavnet for den allierede invasion af Normandiet?",
             "points": 500,
@@ -1896,7 +2320,7 @@
             "answer": "Operation Overlord"
           },
           {
-            "id": "kp_verdenskrigenes-historie_11",
+            "id": "kp_verdenskrig-historie_11",
             "category": "Global krig og Holocaust",
             "question": "På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?",
             "points": 100,
@@ -1910,7 +2334,7 @@
             "answer": "USS Missouri"
           },
           {
-            "id": "kp_verdenskrigenes-historie_12",
+            "id": "kp_verdenskrig-historie_12",
             "category": "Global krig og Holocaust",
             "question": "Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?",
             "points": 200,
@@ -1924,7 +2348,7 @@
             "answer": "Manhattanprojektet"
           },
           {
-            "id": "kp_verdenskrigenes-historie_13",
+            "id": "kp_verdenskrig-historie_13",
             "category": "Global krig og Holocaust",
             "question": "Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?",
             "points": 300,
@@ -1938,7 +2362,7 @@
             "answer": "Executive Order 9066"
           },
           {
-            "id": "kp_verdenskrigenes-historie_14",
+            "id": "kp_verdenskrig-historie_14",
             "category": "Global krig og Holocaust",
             "question": "Hvor mange jøder blev omtrent myrdet under Holocaust?",
             "points": 400,
@@ -1952,7 +2376,7 @@
             "answer": "seks millioner"
           },
           {
-            "id": "kp_verdenskrigenes-historie_15",
+            "id": "kp_verdenskrig-historie_15",
             "category": "Global krig og Holocaust",
             "question": "I hvilket besat land lå Auschwitz-Birkenau?",
             "points": 500,
@@ -1966,7 +2390,7 @@
             "answer": "Polen"
           },
           {
-            "id": "kp_verdenskrigenes-historie_16",
+            "id": "kp_verdenskrig-historie_16",
             "category": "Danmark, Norden og efterspil",
             "question": "Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?",
             "points": 100,
@@ -1980,7 +2404,7 @@
             "answer": "Holger Danske"
           },
           {
-            "id": "kp_verdenskrigenes-historie_17",
+            "id": "kp_verdenskrig-historie_17",
             "category": "Danmark, Norden og efterspil",
             "question": "Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?",
             "points": 200,
@@ -1994,7 +2418,7 @@
             "answer": "Borgerlige Partisaner"
           },
           {
-            "id": "kp_verdenskrigenes-historie_18",
+            "id": "kp_verdenskrig-historie_18",
             "category": "Danmark, Norden og efterspil",
             "question": "Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?",
             "points": 300,
@@ -2008,7 +2432,7 @@
             "answer": "Hvidstengruppen"
           },
           {
-            "id": "kp_verdenskrigenes-historie_19",
+            "id": "kp_verdenskrig-historie_19",
             "category": "Danmark, Norden og efterspil",
             "question": "Hvad var “Flammen” og “Citronen” kendt som?",
             "points": 400,
@@ -2022,7 +2446,7 @@
             "answer": "modstandsfolk og likvidatorer"
           },
           {
-            "id": "kp_verdenskrigenes-historie_20",
+            "id": "kp_verdenskrig-historie_20",
             "category": "Danmark, Norden og efterspil",
             "question": "Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?",
             "points": 500,
@@ -2045,7 +2469,7 @@
         "optionOrders": {},
         "usedQuestions": {},
         "scoreEvents": [],
-        "sourceName": "KaPardy · Verdenskrigenes historie"
+        "sourceCsv": "spil/kapardy/20/verdenskrig_historie_20.csv"
       },
       "settings": {
         "locked": false,
@@ -2055,10 +2479,10 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "kapardy-final"
+        "layoutRole": "kapardy"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     }
   ],
@@ -2066,22 +2490,22 @@
   "media": [],
   "manifest": {
     "selectedSessionIds": [
-      "session_professor_20-sporgsmal-verdenskrigene_v2"
+      "session_professor_20-sporgsmal-verdenskrigene_v2_showcase"
     ],
     "counts": {
       "sessions": 1,
-      "boards": 9,
-      "widgets": 26,
+      "boards": 10,
+      "widgets": 34,
       "datasets": 0,
       "media": 0
     },
     "referencedDatasetIds": [],
     "referencedMediaIds": [],
     "mediaBytes": 0,
-    "courseId": "course_professor_20-sporgsmal-verdenskrigene_v2",
+    "courseId": "course_professor_20-sporgsmal-verdenskrigene_v2_showcase",
     "courseTitle": "20 spørgsmål fra professoren · Verdenskrigenes historie",
     "courseSessionIds": [
-      "session_professor_20-sporgsmal-verdenskrigene_v2"
+      "session_professor_20-sporgsmal-verdenskrigene_v2_showcase"
     ]
   },
   "warnings": []

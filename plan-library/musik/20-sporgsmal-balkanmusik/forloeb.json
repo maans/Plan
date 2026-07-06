@@ -4,64 +4,73 @@
   "coursePackageVersion": 1,
   "version": 3,
   "schemaVersion": 3,
-  "appVersion": "1.0.3",
+  "appVersion": "1.0.9",
   "kind": "course-package",
-  "createdAt": "2026-07-06T13:45:00.000Z",
+  "createdAt": "2026-07-07T00:45:00.000Z",
   "course": {
-    "id": "course_professor_20-sporgsmal-balkanmusik_v2",
+    "id": "course_professor_20-sporgsmal-balkanmusik_v2_showcase",
     "title": "20 spørgsmål fra professoren · Balkanmusik",
     "subject": "Musik",
     "schoolYear": "",
     "sessionIds": [
-      "session_professor_20-sporgsmal-balkanmusik_v2"
+      "session_professor_20-sporgsmal-balkanmusik_v2_showcase"
     ],
-    "exportedAt": "2026-07-06T13:45:00.000Z",
-    "sourceAppVersion": "1.0.3"
+    "exportedAt": "2026-07-07T00:45:00.000Z",
+    "sourceAppVersion": "1.0.9"
   },
   "sessions": [
     {
-      "id": "session_professor_20-sporgsmal-balkanmusik_v2",
+      "id": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
       "schemaVersion": 1,
       "title": "20 spørgsmål fra professoren · Balkanmusik",
       "theme": "dark",
-      "activeBoardId": "board_professor_20-sporgsmal-balkanmusik_v2_1",
+      "activeBoardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
       "boardIds": [
-        "board_professor_20-sporgsmal-balkanmusik_v2_1",
-        "board_professor_20-sporgsmal-balkanmusik_v2_2",
-        "board_professor_20-sporgsmal-balkanmusik_v2_3",
-        "board_professor_20-sporgsmal-balkanmusik_v2_4",
-        "board_professor_20-sporgsmal-balkanmusik_v2_5",
-        "board_professor_20-sporgsmal-balkanmusik_v2_6",
-        "board_professor_20-sporgsmal-balkanmusik_v2_7",
-        "board_professor_20-sporgsmal-balkanmusik_v2_8",
-        "board_professor_20-sporgsmal-balkanmusik_v2_9"
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_4",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_5",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_6",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_7",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_8",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
+        "board_professor_20-sporgsmal-balkanmusik_v2_showcase_10"
       ],
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "courseId": "course_professor_20-sporgsmal-balkanmusik_v2",
+        "courseId": "course_professor_20-sporgsmal-balkanmusik_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Balkanmusik",
         "courseSubject": "Musik",
         "courseSchoolYear": "",
         "courseOrder": 1,
         "planOrder": 1,
         "courseSessionIds": [
-          "session_professor_20-sporgsmal-balkanmusik_v2"
+          "session_professor_20-sporgsmal-balkanmusik_v2_showcase"
         ],
         "courseSequenceVersion": 2,
         "courseSequenceSource": "metadata",
         "sourceKind": "plan-library-demo",
         "sourceCsv": "spil/kapardy/20/balkanmusik_20.csv",
         "estimatedLessons": "2–4",
-        "professorVersion": "v2-kilder-huskekort"
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Lyd-/videokilder",
+          "Huskekortmatrix",
+          "Timer",
+          "Gruppeværktøj",
+          "KaPardy"
+        ]
       }
     }
   ],
   "boards": [
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_1",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
       "title": "Overblik · Balkanmusik",
       "background": {
         "kind": "image",
@@ -77,26 +86,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_overview_intro",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_overview_route",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_overview_index"
+        "w_20-sporgsmal-balkanmusik_intro",
+        "w_20-sporgsmal-balkanmusik_route",
+        "w_20-sporgsmal-balkanmusik_index"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "overview",
         "order": 1
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_2",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "Kilder og medier",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "Ressourcematrix og kilder",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -108,29 +117,30 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_sources_text",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_source_1",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_source_2",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_source_3",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_source_4",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_source_5"
+        "w_20-sporgsmal-balkanmusik_resource_matrix",
+        "w_20-sporgsmal-balkanmusik_source_1",
+        "w_20-sporgsmal-balkanmusik_source_2",
+        "w_20-sporgsmal-balkanmusik_source_3",
+        "w_20-sporgsmal-balkanmusik_source_4",
+        "w_20-sporgsmal-balkanmusik_source_5",
+        "w_20-sporgsmal-balkanmusik_sources_text"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "sources",
         "order": 2
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_3",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "1. Skæve taktarter og danse",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#4a2a12 0%,#7c4a21 55%,#9a6a35 100%)",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -142,26 +152,29 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat1_core",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat1_activity",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat1_check"
+        "w_20-sporgsmal-balkanmusik_groups",
+        "w_20-sporgsmal-balkanmusik_tool_text",
+        "w_20-sporgsmal-balkanmusik_timer",
+        "w_20-sporgsmal-balkanmusik_countdown",
+        "w_20-sporgsmal-balkanmusik_wordcloud",
+        "w_20-sporgsmal-balkanmusik_calendar"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "category",
+        "lessonPart": "showcase",
         "order": 3
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_4",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_4",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "2. Roma og musik på tværs",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "1. Skæve taktarter og danse",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -173,26 +186,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat2_core",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat2_activity",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat2_check"
+        "w_20-sporgsmal-balkanmusik_cat1_core",
+        "w_20-sporgsmal-balkanmusik_cat1_activity",
+        "w_20-sporgsmal-balkanmusik_cat1_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 4
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_5",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_5",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "3. Instrumenter og ensembler",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "2. Roma og musik på tværs",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -204,26 +217,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat3_core",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat3_activity",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat3_check"
+        "w_20-sporgsmal-balkanmusik_cat2_core",
+        "w_20-sporgsmal-balkanmusik_cat2_activity",
+        "w_20-sporgsmal-balkanmusik_cat2_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 5
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_6",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_6",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "4. Stilarter, sange og steder",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "3. Instrumenter og ensembler",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -235,26 +248,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat4_core",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat4_activity",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_cat4_check"
+        "w_20-sporgsmal-balkanmusik_cat3_core",
+        "w_20-sporgsmal-balkanmusik_cat3_activity",
+        "w_20-sporgsmal-balkanmusik_cat3_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 6
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_7",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_7",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "Huskekort og aktiv genkaldelse",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "4. Stilarter, sange og steder",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -266,24 +279,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_flashcards"
+        "w_20-sporgsmal-balkanmusik_cat4_core",
+        "w_20-sporgsmal-balkanmusik_cat4_activity",
+        "w_20-sporgsmal-balkanmusik_cat4_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "flashcards",
+        "lessonPart": "category",
         "order": 7
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_8",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_8",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
-      "title": "Professorens prøveværksted",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -295,22 +310,52 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_workshop",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_workshop_sources",
-        "widget_professor_20-sporgsmal-balkanmusik_v2_workshop_cards"
+        "w_20-sporgsmal-balkanmusik_flashcards"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "workshop",
+        "lessonPart": "flashcards",
         "order": 8
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-balkanmusik_v2_9",
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2",
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-balkanmusik_workshop",
+        "w_20-sporgsmal-balkanmusik_workshop_timer",
+        "w_20-sporgsmal-balkanmusik_workshop_sources",
+        "w_20-sporgsmal-balkanmusik_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-balkanmusik_v2_showcase",
       "title": "KaPardy · 20 spørgsmål",
       "background": {
         "kind": "image",
@@ -326,35 +371,35 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-balkanmusik_v2_kapardy"
+        "w_20-sporgsmal-balkanmusik_kapardy"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "kapardy",
-        "order": 9
+        "order": 10
       }
     }
   ],
   "widgets": [
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_overview_intro",
+      "id": "w_20-sporgsmal-balkanmusik_intro",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_1",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
       "type": "text",
-      "title": "Professorens invitation",
+      "title": "Professorens udfordring",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 560,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "text": "20 SPØRGSMÅL FRA PROFESSOREN · V2\nBALKANMUSIK\n\nIDÉ\nEleverne skal ikke møde KaPardy-spørgsmålene som løs quizviden. De arbejder først med kilder, medier, forklaringer og huskekort, så spillet bliver en faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare centrale begreber med egne ord\n• kende forvekslinger og nærliggende svar\n• træne aktiv genkaldelse i Huskekortmatrix\n• afslutte med det eksisterende 20-spørgsmåls KaPardy-spil\n\nLÆRERFLOW\nKilder → kategoriarbejde → huskekort → prøveværksted → KaPardy.",
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nBALKANMUSIK\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/balkanmusik_20.csv",
         "fontSize": 17,
         "align": "left"
       },
@@ -368,27 +413,27 @@
       "relations": {
         "layoutRole": "intro"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_overview_route",
+      "id": "w_20-sporgsmal-balkanmusik_route",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_1",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
       "type": "text",
-      "title": "Lektionsplan og faglige spor",
+      "title": "Lektionsplan og Plan-værktøjer",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Overblik + kilder + to kategorier / to kategorier + huskekort + KaPardy.\n3 lektioner: Kilder og kategori 1–2 / kategori 3–4 / huskekort, prøveværksted og KaPardy.\n4 lektioner: Kilder og én kategori pr. lektion, med huskekort og KaPardy som afslutning.\n\nDE FIRE SPOR\n• Skæve taktarter og danse\n• Roma og musik på tværs\n• Instrumenter og ensembler\n• Stilarter, sange og steder\n\nFAST RUTINE\n1. Åbn mindst én kilde eller medie.\n2. Notér tre nøgleord uden facit.\n3. Forklar svaret til en makker.\n4. Træn kategorien i Huskekortmatrixen.",
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Skæve taktarter og danse, Roma og musik på tværs, Instrumenter og ensembler, Stilarter, sange og steder.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Lyd-/videokilder\n• Huskekortmatrix\n• Timer\n• Gruppeværktøj\n• KaPardy\n\nDEMOIDÉ\nLyttehold undersøger rytme, Roma-traditioner, instrumenter og UNESCO-spor uden at gøre Balkanmusik til én genre.",
         "fontSize": 16,
         "align": "left"
       },
@@ -402,36 +447,37 @@
       "relations": {
         "layoutRole": "lesson-plan"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_overview_index",
+      "id": "w_20-sporgsmal-balkanmusik_index",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_1",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
       "type": "board-index",
       "title": "Tavler i forløbet",
       "geometry": {
         "x": 20,
-        "y": 505,
+        "y": 510,
         "width": 1160,
-        "height": 300,
+        "height": 295,
         "rotation": 0,
         "z": 3
       },
       "content": {
         "boardIds": [
-          "board_professor_20-sporgsmal-balkanmusik_v2_1",
-          "board_professor_20-sporgsmal-balkanmusik_v2_2",
-          "board_professor_20-sporgsmal-balkanmusik_v2_3",
-          "board_professor_20-sporgsmal-balkanmusik_v2_4",
-          "board_professor_20-sporgsmal-balkanmusik_v2_5",
-          "board_professor_20-sporgsmal-balkanmusik_v2_6",
-          "board_professor_20-sporgsmal-balkanmusik_v2_7",
-          "board_professor_20-sporgsmal-balkanmusik_v2_8",
-          "board_professor_20-sporgsmal-balkanmusik_v2_9"
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_1",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_4",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_5",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_6",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_7",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_8",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
+          "board_professor_20-sporgsmal-balkanmusik_v2_showcase_10"
         ]
       },
       "settings": {
@@ -444,17 +490,17 @@
       "relations": {
         "layoutRole": "board-index"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_sources_text",
+      "id": "w_20-sporgsmal-balkanmusik_resource_matrix",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_2",
-      "type": "text",
-      "title": "Kilde- og medieliste",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -464,7 +510,272 @@
         "z": 1
       },
       "content": {
-        "text": "KILDER OG MEDIER\n\n1. RomArchive · Music from the Balkans\n   Type: læse/lytte\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n2. UNESCO · Rebetiko\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n3. UNESCO · Klapa multipart singing\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n4. UNESCO · Albanian folk iso-polyphony\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n5. Smithsonian Folkways\n   Type: lytte/arkiv\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\nELEVOPGAVE\nVælg to kilder. Skriv: Hvad kan kilden bruges til? Hvilke spørgsmål hjælper den med? Hvilke ord/begreber skal på huskekort?",
+        "version": 1,
+        "resources": [
+          {
+            "title": "Smithsonian Folkways",
+            "url": "https://folkways.si.edu/",
+            "type": "lyd/arkiv",
+            "category": "Roma og musik på tværs",
+            "note": "Brug som lytte- og kontekstkilde.",
+            "tags": [
+              "roma-og-musik-paa-tvaers",
+              "lyd-arkiv"
+            ]
+          },
+          {
+            "title": "UNESCO Intangible Cultural Heritage",
+            "url": "https://ich.unesco.org/",
+            "type": "web/officiel",
+            "category": "Stilarter, sange og steder",
+            "note": "Brug til kolo, rebetiko, sevdalinka og klapa.",
+            "tags": [
+              "stilarter-sange-og-steder",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "Europeana Music",
+            "url": "https://www.europeana.eu/en/collections/topic/62-music",
+            "type": "web/arkiv",
+            "category": "Instrumenter og ensembler",
+            "note": "Brug arkivmateriale og billeder.",
+            "tags": [
+              "instrumenter-og-ensembler",
+              "web-arkiv"
+            ]
+          },
+          {
+            "title": "WOMEX / World music resources",
+            "url": "https://www.womex.com/",
+            "type": "web/kontekst",
+            "category": "Musik på tværs",
+            "note": "Brug til moderne verdensmusik og branchekontekst.",
+            "tags": [
+              "musik-paa-tvaers",
+              "web-kontekst"
+            ]
+          },
+          {
+            "title": "BBC Music articles",
+            "url": "https://www.bbc.co.uk/music",
+            "type": "web/artikler",
+            "category": "Skæve taktarter og danse",
+            "note": "Brug til læse- og lytteindgange.",
+            "tags": [
+              "skaeve-taktarter-og-danse",
+              "web-artikler"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "link",
+      "title": "Smithsonian Folkways",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://folkways.si.edu/",
+        "label": "Smithsonian Folkways",
+        "note": "lyd/arkiv · Brug som lytte- og kontekstkilde.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "link",
+      "title": "UNESCO Intangible Cultural Heritage",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://ich.unesco.org/",
+        "label": "UNESCO Intangible Cultural Heritage",
+        "note": "web/officiel · Brug til kolo, rebetiko, sevdalinka og klapa.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "link",
+      "title": "Europeana Music",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://www.europeana.eu/en/collections/topic/62-music",
+        "label": "Europeana Music",
+        "note": "web/arkiv · Brug arkivmateriale og billeder.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "link",
+      "title": "WOMEX / World music resources",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.womex.com/",
+        "label": "WOMEX / World music resources",
+        "note": "web/kontekst · Brug til moderne verdensmusik og branchekontekst.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "link",
+      "title": "BBC Music articles",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.bbc.co.uk/music",
+        "label": "BBC Music articles",
+        "note": "web/artikler · Brug til læse- og lytteindgange.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
         "fontSize": 15,
         "align": "left"
       },
@@ -476,32 +787,84 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "sources"
+        "layoutRole": "sources-task"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_source_1",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-balkanmusik_groups",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_2",
-      "type": "link",
-      "title": "RomArchive · Music from the Balkans",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
       "geometry": {
-        "x": 560,
+        "x": 20,
         "y": 85,
-        "width": 300,
-        "height": 190,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Skæve taktarter og danse",
+            "members": []
+          },
+          {
+            "name": "Roma og musik på tværs",
+            "members": []
+          },
+          {
+            "name": "Instrumenter og ensembler",
+            "members": []
+          },
+          {
+            "name": "Stilarter, sange og steder",
+            "members": []
+          }
+        ],
+        "note": "Lyttehold undersøger rytme, Roma-traditioner, instrumenter og UNESCO-spor uden at gøre Balkanmusik til én genre."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "url": "https://www.romarchive.eu/en/music/balkan/",
-        "label": "RomArchive · Music from the Balkans",
-        "note": "læse/lytte. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Skæve taktarter og danse\n• Roma og musik på tværs\n• Instrumenter og ensembler\n• Stilarter, sange og steder\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
       },
       "settings": {
         "locked": false,
@@ -511,32 +874,32 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "groups-instructions"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_source_2",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-balkanmusik_timer",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_2",
-      "type": "link",
-      "title": "UNESCO · Rebetiko",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
       "geometry": {
-        "x": 880,
+        "x": 790,
         "y": 85,
-        "width": 300,
-        "height": 190,
+        "width": 390,
+        "height": 150,
         "rotation": 0,
         "z": 3
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/rebetiko-01291",
-        "label": "UNESCO · Rebetiko",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
       },
       "settings": {
         "locked": false,
@@ -546,32 +909,31 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "timer"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_source_3",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-balkanmusik_countdown",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_2",
-      "type": "link",
-      "title": "UNESCO · Klapa multipart singing",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
       "geometry": {
-        "x": 560,
-        "y": 300,
-        "width": 300,
-        "height": 190,
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
         "rotation": 0,
         "z": 4
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/klapa-multipart-singing-of-dalmatia-southern-croatia-00746",
-        "label": "UNESCO · Klapa multipart singing",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
       },
       "settings": {
         "locked": false,
@@ -581,32 +943,48 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "countdown"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_source_4",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-balkanmusik_wordcloud",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_2",
-      "type": "link",
-      "title": "UNESCO · Albanian folk iso-polyphony",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
       "geometry": {
-        "x": 880,
-        "y": 300,
-        "width": 300,
-        "height": 190,
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
         "rotation": 0,
         "z": 5
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/albanian-folk-iso-polyphony-00155",
-        "label": "UNESCO · Albanian folk iso-polyphony",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "items": [
+          {
+            "text": "Skæve taktarter og danse",
+            "count": 1
+          },
+          {
+            "text": "Roma og musik på tværs",
+            "count": 1
+          },
+          {
+            "text": "Instrumenter og ensembler",
+            "count": 1
+          },
+          {
+            "text": "Stilarter, sange og steder",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
       },
       "settings": {
         "locked": false,
@@ -616,32 +994,44 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "wordcloud"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_source_5",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-balkanmusik_calendar",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_2",
-      "type": "link",
-      "title": "Smithsonian Folkways",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
       "geometry": {
-        "x": 560,
-        "y": 515,
-        "width": 300,
-        "height": 190,
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
         "rotation": 0,
         "z": 6
       },
       "content": {
-        "url": "https://folkways.si.edu/",
-        "label": "Smithsonian Folkways",
-        "note": "lytte/arkiv. Brug som læse-, lytte- eller se-kilde i forløbet.",
-        "view": "link"
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
       },
       "settings": {
         "locked": false,
@@ -651,17 +1041,17 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "source-link"
+        "layoutRole": "calendar"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat1_core",
+      "id": "w_20-sporgsmal-balkanmusik_cat1_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_3",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_4",
       "type": "text",
       "title": "Kildearbejde · Skæve taktarter og danse",
       "geometry": {
@@ -673,7 +1063,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Skæve taktarter og danse\n\nARBEJD MED KILDERNE\nBrug især: RomArchive · Music from the Balkans, UNESCO · Rebetiko.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvordan grupperes daichovo horo normalt i 9/8?\n• Hvilken asymmetrisk taktart forbindes ofte med kopanitsa?\n• Hvordan grupperes den almindelige 7/8-puls i lesnoto ofte?\n• Hvilken taktart bruges ofte til pravo horo?\n• Hvilken taktart forbindes stærkt med den græske solodans zeibekiko?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Skæve taktarter og danse\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvordan grupperes daichovo horo normalt i 9/8?\n• Hvilken asymmetrisk taktart forbindes ofte med kopanitsa?\n• Hvordan grupperes den almindelige 7/8-puls i lesnoto ofte?\n• Hvilken taktart bruges ofte til pravo horo?\n• Hvilken taktart forbindes stærkt med den græske solodans zeibekiko?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -687,15 +1077,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat1_activity",
+      "id": "w_20-sporgsmal-balkanmusik_cat1_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_3",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_4",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -707,7 +1097,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Skæve taktarter og danse\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Skæve taktarter og danse\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -721,17 +1111,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat1_check",
+      "id": "w_20-sporgsmal-balkanmusik_cat1_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_3",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_4",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -755,15 +1145,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat2_core",
+      "id": "w_20-sporgsmal-balkanmusik_cat2_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_4",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_5",
       "type": "text",
       "title": "Kildearbejde · Roma og musik på tværs",
       "geometry": {
@@ -775,7 +1165,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Roma og musik på tværs\n\nARBEJD MED KILDERNE\nBrug især: RomArchive · Music from the Balkans, UNESCO · Rebetiko.\n\nUNDERSØGELSESSPØRGSMÅL\n• Ved hvilke familiebegivenheder spiller romani brassbands en særlig vigtig rolle i Sydøstserbien?\n• Hvilken historisk ensembletype var med til at præge udviklingen af Balkan-brassbands?\n• I hvilket land ligger byen Guča, der er kendt for sin trompetfestival?\n• Hvilket land kommer brassbandet Fanfare Ciocărlia fra?\n• Hvilken rumænsk landsby forbindes med ensemblet Taraf de Haïdouks?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Roma og musik på tværs\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Ved hvilke familiebegivenheder spiller romani brassbands en særlig vigtig rolle i Sydøstserbien?\n• Hvilken historisk ensembletype var med til at præge udviklingen af Balkan-brassbands?\n• I hvilket land ligger byen Guča, der er kendt for sin trompetfestival?\n• Hvilket land kommer brassbandet Fanfare Ciocărlia fra?\n• Hvilken rumænsk landsby forbindes med ensemblet Taraf de Haïdouks?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -789,15 +1179,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat2_activity",
+      "id": "w_20-sporgsmal-balkanmusik_cat2_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_4",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_5",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -809,7 +1199,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Roma og musik på tværs\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Roma og musik på tværs\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -823,17 +1213,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat2_check",
+      "id": "w_20-sporgsmal-balkanmusik_cat2_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_4",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_5",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -857,15 +1247,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat3_core",
+      "id": "w_20-sporgsmal-balkanmusik_cat3_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_5",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_6",
       "type": "text",
       "title": "Kildearbejde · Instrumenter og ensembler",
       "geometry": {
@@ -877,7 +1267,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Instrumenter og ensembler\n\nARBEJD MED KILDERNE\nBrug især: RomArchive · Music from the Balkans, UNESCO · Rebetiko.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket instrument er stærkt forbundet med græsk rebetiko?\n• Hvad er en baglamas i rebetiko-ensembler?\n• Hvordan frembringes lyden på et cimbalom eller țambal?\n• Hvor mange strenge har en traditionel çifteli normalt?\n• Hvilket instrument ledsager traditionelt albanske episke sange under navnet lahuta?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Instrumenter og ensembler\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket instrument er stærkt forbundet med græsk rebetiko?\n• Hvad er en baglamas i rebetiko-ensembler?\n• Hvordan frembringes lyden på et cimbalom eller țambal?\n• Hvor mange strenge har en traditionel çifteli normalt?\n• Hvilket instrument ledsager traditionelt albanske episke sange under navnet lahuta?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -891,15 +1281,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat3_activity",
+      "id": "w_20-sporgsmal-balkanmusik_cat3_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_5",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_6",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -911,7 +1301,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Instrumenter og ensembler\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Instrumenter og ensembler\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -925,17 +1315,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat3_check",
+      "id": "w_20-sporgsmal-balkanmusik_cat3_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_5",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_6",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -959,15 +1349,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat4_core",
+      "id": "w_20-sporgsmal-balkanmusik_cat4_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_6",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_7",
       "type": "text",
       "title": "Kildearbejde · Stilarter, sange og steder",
       "geometry": {
@@ -979,7 +1369,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Stilarter, sange og steder\n\nARBEJD MED KILDERNE\nBrug især: RomArchive · Music from the Balkans, UNESCO · Rebetiko.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad er ojkanje?\n• Hvilket land fik den kollektive dans kolo optaget på UNESCOs repræsentative liste i 2017?\n• I hvilket år kom rebetiko på UNESCOs repræsentative liste?\n• I hvilket år kom sevdalinka på UNESCOs repræsentative liste?\n• I hvilket år blev dalmatisk klapa-sang optaget på UNESCOs repræsentative liste?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Stilarter, sange og steder\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad er ojkanje?\n• Hvilket land fik den kollektive dans kolo optaget på UNESCOs repræsentative liste i 2017?\n• I hvilket år kom rebetiko på UNESCOs repræsentative liste?\n• I hvilket år kom sevdalinka på UNESCOs repræsentative liste?\n• I hvilket år blev dalmatisk klapa-sang optaget på UNESCOs repræsentative liste?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -993,15 +1383,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat4_activity",
+      "id": "w_20-sporgsmal-balkanmusik_cat4_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_6",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_7",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -1013,7 +1403,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Stilarter, sange og steder\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Stilarter, sange og steder\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -1027,17 +1417,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_cat4_check",
+      "id": "w_20-sporgsmal-balkanmusik_cat4_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_6",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_7",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -1061,41 +1451,41 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_flashcards",
+      "id": "w_20-sporgsmal-balkanmusik_flashcards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_7",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_8",
       "type": "flashcard-matrix",
-      "title": "Huskekort · Balkanmusik",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 1160,
-        "height": 720,
+        "height": 740,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "sourceType": "kapardy",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-balkanmusik_v2_kapardy",
-        "sourceDatasetId": null,
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-balkanmusik_kapardy",
+        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Balkanmusik",
-        "linked": true,
-        "view": "overview",
-        "categoryFilter": "Alle",
-        "statusFilter": "Alle",
-        "progress": {},
-        "overrides": {
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
           "kp_balkanmusik_01": {
             "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 2+2+2+3. Brug kilden til at forklare, hvorfor dette er mere præcist end: 3+3+3 · 2+3+2+2 · 4+2+3.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 2+2+2+3. Forklar hvorfor det er mere præcist end: 3+3+3 · 2+3+2+2 · 4+2+3.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "3+3+3",
               "2+3+2+2",
@@ -1104,9 +1494,9 @@
           },
           "kp_balkanmusik_02": {
             "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 11/8. Brug kilden til at forklare, hvorfor dette er mere præcist end: 7/8 · 9/8 · 13/8.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 11/8. Forklar hvorfor det er mere præcist end: 7/8 · 9/8 · 13/8.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "7/8",
               "9/8",
@@ -1115,9 +1505,9 @@
           },
           "kp_balkanmusik_03": {
             "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 3+2+2. Brug kilden til at forklare, hvorfor dette er mere præcist end: 2+2+3 · 2+3+2 · 4+3.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 3+2+2. Forklar hvorfor det er mere præcist end: 2+2+3 · 2+3+2 · 4+3.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "2+2+3",
               "2+3+2",
@@ -1126,9 +1516,9 @@
           },
           "kp_balkanmusik_04": {
             "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 2/4. Brug kilden til at forklare, hvorfor dette er mere præcist end: 5/8 · 7/8 · 11/8.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 2/4. Forklar hvorfor det er mere præcist end: 5/8 · 7/8 · 11/8.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "5/8",
               "7/8",
@@ -1137,9 +1527,9 @@
           },
           "kp_balkanmusik_05": {
             "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 9/8. Brug kilden til at forklare, hvorfor dette er mere præcist end: 4/4 · 6/8 · 7/8.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 9/8. Forklar hvorfor det er mere præcist end: 4/4 · 6/8 · 7/8.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "4/4",
               "6/8",
@@ -1148,9 +1538,9 @@
           },
           "kp_balkanmusik_06": {
             "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: bryllupper. Brug kilden til at forklare, hvorfor dette er mere præcist end: skoleeksamener · sportsfinaler · parlamentsåbninger.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: bryllupper. Forklar hvorfor det er mere præcist end: skoleeksamener · sportsfinaler · parlamentsåbninger.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "skoleeksamener",
               "sportsfinaler",
@@ -1159,9 +1549,9 @@
           },
           "kp_balkanmusik_07": {
             "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: osmanniske militærorkestre. Brug kilden til at forklare, hvorfor dette er mere præcist end: barokke strygekvartetter · gregorianske kor · skotske sækkepibebands.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: osmanniske militærorkestre. Forklar hvorfor det er mere præcist end: barokke strygekvartetter · gregorianske kor · skotske sækkepibebands.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "barokke strygekvartetter",
               "gregorianske kor",
@@ -1170,9 +1560,9 @@
           },
           "kp_balkanmusik_08": {
             "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: Serbien. Brug kilden til at forklare, hvorfor dette er mere præcist end: Rumænien · Albanien · Grækenland.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: Serbien. Forklar hvorfor det er mere præcist end: Rumænien · Albanien · Grækenland.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "Rumænien",
               "Albanien",
@@ -1181,9 +1571,9 @@
           },
           "kp_balkanmusik_09": {
             "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: Rumænien. Brug kilden til at forklare, hvorfor dette er mere præcist end: Serbien · Bulgarien · Kroatien.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: Rumænien. Forklar hvorfor det er mere præcist end: Serbien · Bulgarien · Kroatien.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "Serbien",
               "Bulgarien",
@@ -1192,9 +1582,9 @@
           },
           "kp_balkanmusik_10": {
             "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: Clejani. Brug kilden til at forklare, hvorfor dette er mere præcist end: Guča · Bistritsa · Kalamata.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: Clejani. Forklar hvorfor det er mere præcist end: Guča · Bistritsa · Kalamata.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "Guča",
               "Bistritsa",
@@ -1203,9 +1593,9 @@
           },
           "kp_balkanmusik_11": {
             "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: bouzouki. Brug kilden til at forklare, hvorfor dette er mere præcist end: gaida · tapan · nai.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: bouzouki. Forklar hvorfor det er mere præcist end: gaida · tapan · nai.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "gaida",
               "tapan",
@@ -1214,9 +1604,9 @@
           },
           "kp_balkanmusik_12": {
             "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: en lille langhalset lut. Brug kilden til at forklare, hvorfor dette er mere præcist end: en stor bastromme · en panfløjte · en metalblæser.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: en lille langhalset lut. Forklar hvorfor det er mere præcist end: en stor bastromme · en panfløjte · en metalblæser.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "en stor bastromme",
               "en panfløjte",
@@ -1225,9 +1615,9 @@
           },
           "kp_balkanmusik_13": {
             "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: strengene slås med små køller. Brug kilden til at forklare, hvorfor dette er mere præcist end: luft blæses gennem en sæk · en bue stryger én streng · et skind gnides med hånden.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: strengene slås med små køller. Forklar hvorfor det er mere præcist end: luft blæses gennem en sæk · en bue stryger én streng · et skind gnides med hånden.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "luft blæses gennem en sæk",
               "en bue stryger én streng",
@@ -1236,9 +1626,9 @@
           },
           "kp_balkanmusik_14": {
             "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: to. Brug kilden til at forklare, hvorfor dette er mere præcist end: én · fire · otte.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: to. Forklar hvorfor det er mere præcist end: én · fire · otte.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "én",
               "fire",
@@ -1247,9 +1637,9 @@
           },
           "kp_balkanmusik_15": {
             "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: et enstrenget strygeinstrument. Brug kilden til at forklare, hvorfor dette er mere præcist end: en stor kobberkedel · en endeblæst fløjte · en rammetromme.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: et enstrenget strygeinstrument. Forklar hvorfor det er mere præcist end: en stor kobberkedel · en endeblæst fløjte · en rammetromme.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "en stor kobberkedel",
               "en endeblæst fløjte",
@@ -1258,9 +1648,9 @@
           },
           "kp_balkanmusik_16": {
             "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: en kroatisk tostemmig sangtradition fra det dalmatiske bagland. Brug kilden til at forklare, hvorfor dette er mere præcist end: en græsk luttetype · en rumænsk kredsdans · en bulgarsk trompetfestival.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: en kroatisk tostemmig sangtradition fra det dalmatiske bagland. Forklar hvorfor det er mere præcist end: en græsk luttetype · en rumænsk kredsdans · en bulgarsk trompetfestival.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "en græsk luttetype",
               "en rumænsk kredsdans",
@@ -1269,9 +1659,9 @@
           },
           "kp_balkanmusik_17": {
             "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: Serbien. Brug kilden til at forklare, hvorfor dette er mere præcist end: Albanien · Rumænien · Tyrkiet.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: Serbien. Forklar hvorfor det er mere præcist end: Albanien · Rumænien · Tyrkiet.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "Albanien",
               "Rumænien",
@@ -1280,9 +1670,9 @@
           },
           "kp_balkanmusik_18": {
             "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: 2017. Brug kilden til at forklare, hvorfor dette er mere præcist end: 2003 · 2012 · 2024.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 2017. Forklar hvorfor det er mere præcist end: 2003 · 2012 · 2024.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "2003",
               "2012",
@@ -1291,9 +1681,9 @@
           },
           "kp_balkanmusik_19": {
             "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: 2024. Brug kilden til at forklare, hvorfor dette er mere præcist end: 2008 · 2012 · 2017.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 2024. Forklar hvorfor det er mere præcist end: 2008 · 2012 · 2017.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "2008",
               "2012",
@@ -1302,9 +1692,9 @@
           },
           "kp_balkanmusik_20": {
             "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: 2012. Brug kilden til at forklare, hvorfor dette er mere præcist end: 2005 · 2017 · 2024.",
-            "sourceTitle": "RomArchive · Music from the Balkans",
-            "sourceUrl": "https://www.romarchive.eu/en/music/balkan/",
+            "explanation": "Kort svar: 2012. Forklar hvorfor det er mere præcist end: 2005 · 2017 · 2024.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
             "confusions": [
               "2005",
               "2017",
@@ -1598,7 +1988,7 @@
               "answer": "2012"
             }
           ],
-          "updatedAt": "2026-07-06T13:45:00.000Z"
+          "updatedAt": "2026-07-07T00:45:00.000Z"
         }
       },
       "settings": {
@@ -1609,20 +1999,19 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "flashcard-training",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-balkanmusik_v2_kapardy"
+        "layoutRole": "flashcard-training"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_workshop",
+      "id": "w_20-sporgsmal-balkanmusik_workshop",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_8",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
       "type": "text",
-      "title": "Prøveværksted",
+      "title": "Professorens prøveværksted",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -1632,7 +2021,7 @@
         "z": 1
       },
       "content": {
-        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hver gruppe kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet. Det må gerne være enklere end kilden, men ikke upræcist.",
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
         "fontSize": 17,
         "align": "left"
       },
@@ -1646,27 +2035,62 @@
       "relations": {
         "layoutRole": "workshop"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_workshop_sources",
+      "id": "w_20-sporgsmal-balkanmusik_workshop_timer",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_8",
-      "type": "text",
-      "title": "Kildekrav før spillet",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 330,
+        "height": 180,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nBrug Link-widgetterne fra tavlen Kilder og medier. Åbn dem som webvisning, når klassen skal se materialet sammen.\n\nNår et kort stadig står som 'Kan ikke endnu', skal gruppen tilbage til kilden før KaPardy.",
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-balkanmusik_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1680,27 +2104,27 @@
       "relations": {
         "layoutRole": "source-requirement"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_workshop_cards",
+      "id": "w_20-sporgsmal-balkanmusik_workshop_cards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_8",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_9",
       "type": "text",
       "title": "Huskekortrunde",
       "geometry": {
         "x": 600,
-        "y": 435,
+        "y": 535,
         "width": 580,
-        "height": 350,
+        "height": 250,
         "rotation": 0,
-        "z": 3
+        "z": 4
       },
       "content": {
-        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er 'Næsten' eller 'Kan'.",
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1714,15 +2138,15 @@
       "relations": {
         "layoutRole": "flashcard-routine"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-balkanmusik_v2_kapardy",
+      "id": "w_20-sporgsmal-balkanmusik_kapardy",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_9",
+      "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_10",
       "type": "kapardy",
       "title": "KaPardy · Balkanmusik",
       "geometry": {
@@ -1737,7 +2161,7 @@
         "kapardyVersion": 2,
         "questionBankContract": "first-answer-correct",
         "gameId": "kapardy_20-sporgsmal-balkanmusik_20",
-        "gameStartedAt": "2026-07-06T13:45:00.000Z",
+        "gameStartedAt": "2026-07-07T00:45:00.000Z",
         "gameMode": "jeopardy",
         "mode": "jeopardy",
         "kapardyScreen": "setup",
@@ -2045,7 +2469,7 @@
         "optionOrders": {},
         "usedQuestions": {},
         "scoreEvents": [],
-        "sourceName": "KaPardy · Balkanmusik"
+        "sourceCsv": "spil/kapardy/20/balkanmusik_20.csv"
       },
       "settings": {
         "locked": false,
@@ -2055,10 +2479,10 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "kapardy-final"
+        "layoutRole": "kapardy"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     }
   ],
@@ -2066,22 +2490,22 @@
   "media": [],
   "manifest": {
     "selectedSessionIds": [
-      "session_professor_20-sporgsmal-balkanmusik_v2"
+      "session_professor_20-sporgsmal-balkanmusik_v2_showcase"
     ],
     "counts": {
       "sessions": 1,
-      "boards": 9,
-      "widgets": 26,
+      "boards": 10,
+      "widgets": 34,
       "datasets": 0,
       "media": 0
     },
     "referencedDatasetIds": [],
     "referencedMediaIds": [],
     "mediaBytes": 0,
-    "courseId": "course_professor_20-sporgsmal-balkanmusik_v2",
+    "courseId": "course_professor_20-sporgsmal-balkanmusik_v2_showcase",
     "courseTitle": "20 spørgsmål fra professoren · Balkanmusik",
     "courseSessionIds": [
-      "session_professor_20-sporgsmal-balkanmusik_v2"
+      "session_professor_20-sporgsmal-balkanmusik_v2_showcase"
     ]
   },
   "warnings": []

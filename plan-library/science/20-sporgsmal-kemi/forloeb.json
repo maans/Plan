@@ -4,64 +4,73 @@
   "coursePackageVersion": 1,
   "version": 3,
   "schemaVersion": 3,
-  "appVersion": "1.0.3",
+  "appVersion": "1.0.9",
   "kind": "course-package",
-  "createdAt": "2026-07-06T13:45:00.000Z",
+  "createdAt": "2026-07-07T00:45:00.000Z",
   "course": {
-    "id": "course_professor_20-sporgsmal-kemi_v2",
+    "id": "course_professor_20-sporgsmal-kemi_v2_showcase",
     "title": "20 spørgsmål fra professoren · Kemiens grundstoffer",
     "subject": "Science / fysik-kemi",
     "schoolYear": "",
     "sessionIds": [
-      "session_professor_20-sporgsmal-kemi_v2"
+      "session_professor_20-sporgsmal-kemi_v2_showcase"
     ],
-    "exportedAt": "2026-07-06T13:45:00.000Z",
-    "sourceAppVersion": "1.0.3"
+    "exportedAt": "2026-07-07T00:45:00.000Z",
+    "sourceAppVersion": "1.0.9"
   },
   "sessions": [
     {
-      "id": "session_professor_20-sporgsmal-kemi_v2",
+      "id": "session_professor_20-sporgsmal-kemi_v2_showcase",
       "schemaVersion": 1,
       "title": "20 spørgsmål fra professoren · Kemiens grundstoffer",
       "theme": "dark",
-      "activeBoardId": "board_professor_20-sporgsmal-kemi_v2_1",
+      "activeBoardId": "board_professor_20-sporgsmal-kemi_v2_showcase_1",
       "boardIds": [
-        "board_professor_20-sporgsmal-kemi_v2_1",
-        "board_professor_20-sporgsmal-kemi_v2_2",
-        "board_professor_20-sporgsmal-kemi_v2_3",
-        "board_professor_20-sporgsmal-kemi_v2_4",
-        "board_professor_20-sporgsmal-kemi_v2_5",
-        "board_professor_20-sporgsmal-kemi_v2_6",
-        "board_professor_20-sporgsmal-kemi_v2_7",
-        "board_professor_20-sporgsmal-kemi_v2_8",
-        "board_professor_20-sporgsmal-kemi_v2_9"
+        "board_professor_20-sporgsmal-kemi_v2_showcase_1",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_2",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_4",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_5",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_6",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_7",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_8",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_9",
+        "board_professor_20-sporgsmal-kemi_v2_showcase_10"
       ],
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "courseId": "course_professor_20-sporgsmal-kemi_v2",
+        "courseId": "course_professor_20-sporgsmal-kemi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Kemiens grundstoffer",
         "courseSubject": "Science / fysik-kemi",
         "courseSchoolYear": "",
         "courseOrder": 1,
         "planOrder": 1,
         "courseSessionIds": [
-          "session_professor_20-sporgsmal-kemi_v2"
+          "session_professor_20-sporgsmal-kemi_v2_showcase"
         ],
         "courseSequenceVersion": 2,
         "courseSequenceSource": "metadata",
         "sourceKind": "plan-library-demo",
         "sourceCsv": "spil/kapardy/20/kemi_elementer_20.csv",
         "estimatedLessons": "2–4",
-        "professorVersion": "v2-kilder-huskekort"
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Huskekortmatrix",
+          "Timer",
+          "Gruppeværktøj",
+          "Webvisning",
+          "KaPardy"
+        ]
       }
     }
   ],
   "boards": [
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_1",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_1",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
       "title": "Overblik · Kemiens grundstoffer",
       "background": {
         "kind": "image",
@@ -77,26 +86,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_overview_intro",
-        "widget_professor_20-sporgsmal-kemi_v2_overview_route",
-        "widget_professor_20-sporgsmal-kemi_v2_overview_index"
+        "w_20-sporgsmal-kemi_intro",
+        "w_20-sporgsmal-kemi_route",
+        "w_20-sporgsmal-kemi_index"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "overview",
         "order": 1
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_2",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "Kilder og medier",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "Ressourcematrix og kilder",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -108,28 +117,30 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_sources_text",
-        "widget_professor_20-sporgsmal-kemi_v2_source_1",
-        "widget_professor_20-sporgsmal-kemi_v2_source_2",
-        "widget_professor_20-sporgsmal-kemi_v2_source_3",
-        "widget_professor_20-sporgsmal-kemi_v2_source_4"
+        "w_20-sporgsmal-kemi_resource_matrix",
+        "w_20-sporgsmal-kemi_source_1",
+        "w_20-sporgsmal-kemi_source_2",
+        "w_20-sporgsmal-kemi_source_3",
+        "w_20-sporgsmal-kemi_source_4",
+        "w_20-sporgsmal-kemi_source_5",
+        "w_20-sporgsmal-kemi_sources_text"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "sources",
         "order": 2
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_3",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "1. Symboler og navne",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#4a2a12 0%,#7c4a21 55%,#9a6a35 100%)",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -141,26 +152,29 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_cat1_core",
-        "widget_professor_20-sporgsmal-kemi_v2_cat1_activity",
-        "widget_professor_20-sporgsmal-kemi_v2_cat1_check"
+        "w_20-sporgsmal-kemi_groups",
+        "w_20-sporgsmal-kemi_tool_text",
+        "w_20-sporgsmal-kemi_timer",
+        "w_20-sporgsmal-kemi_countdown",
+        "w_20-sporgsmal-kemi_wordcloud",
+        "w_20-sporgsmal-kemi_calendar"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "category",
+        "lessonPart": "showcase",
         "order": 3
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_4",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_4",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "2. Atomnumre og system",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "1. Symboler og navne",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -172,26 +186,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_cat2_core",
-        "widget_professor_20-sporgsmal-kemi_v2_cat2_activity",
-        "widget_professor_20-sporgsmal-kemi_v2_cat2_check"
+        "w_20-sporgsmal-kemi_cat1_core",
+        "w_20-sporgsmal-kemi_cat1_activity",
+        "w_20-sporgsmal-kemi_cat1_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 4
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_5",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_5",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "3. Grupper og egenskaber",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "2. Atomnumre og system",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -203,26 +217,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_cat3_core",
-        "widget_professor_20-sporgsmal-kemi_v2_cat3_activity",
-        "widget_professor_20-sporgsmal-kemi_v2_cat3_check"
+        "w_20-sporgsmal-kemi_cat2_core",
+        "w_20-sporgsmal-kemi_cat2_activity",
+        "w_20-sporgsmal-kemi_cat2_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 5
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_6",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_6",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "4. Stoffer og anvendelser",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "3. Grupper og egenskaber",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -234,26 +248,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_cat4_core",
-        "widget_professor_20-sporgsmal-kemi_v2_cat4_activity",
-        "widget_professor_20-sporgsmal-kemi_v2_cat4_check"
+        "w_20-sporgsmal-kemi_cat3_core",
+        "w_20-sporgsmal-kemi_cat3_activity",
+        "w_20-sporgsmal-kemi_cat3_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 6
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_7",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_7",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "Huskekort og aktiv genkaldelse",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "4. Stoffer og anvendelser",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -265,24 +279,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_flashcards"
+        "w_20-sporgsmal-kemi_cat4_core",
+        "w_20-sporgsmal-kemi_cat4_activity",
+        "w_20-sporgsmal-kemi_cat4_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "flashcards",
+        "lessonPart": "category",
         "order": 7
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_8",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_8",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
-      "title": "Professorens prøveværksted",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -294,22 +310,52 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_workshop",
-        "widget_professor_20-sporgsmal-kemi_v2_workshop_sources",
-        "widget_professor_20-sporgsmal-kemi_v2_workshop_cards"
+        "w_20-sporgsmal-kemi_flashcards"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "workshop",
+        "lessonPart": "flashcards",
         "order": 8
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-kemi_v2_9",
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_9",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-kemi_v2",
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kemi_workshop",
+        "w_20-sporgsmal-kemi_workshop_timer",
+        "w_20-sporgsmal-kemi_workshop_sources",
+        "w_20-sporgsmal-kemi_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kemi_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kemi_v2_showcase",
       "title": "KaPardy · 20 spørgsmål",
       "background": {
         "kind": "image",
@@ -325,35 +371,35 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-kemi_v2_kapardy"
+        "w_20-sporgsmal-kemi_kapardy"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "kapardy",
-        "order": 9
+        "order": 10
       }
     }
   ],
   "widgets": [
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_overview_intro",
+      "id": "w_20-sporgsmal-kemi_intro",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_1",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_1",
       "type": "text",
-      "title": "Professorens invitation",
+      "title": "Professorens udfordring",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 560,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "text": "20 SPØRGSMÅL FRA PROFESSOREN · V2\nKEMIENS GRUNDSTOFFER\n\nIDÉ\nEleverne skal ikke møde KaPardy-spørgsmålene som løs quizviden. De arbejder først med kilder, medier, forklaringer og huskekort, så spillet bliver en faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare centrale begreber med egne ord\n• kende forvekslinger og nærliggende svar\n• træne aktiv genkaldelse i Huskekortmatrix\n• afslutte med det eksisterende 20-spørgsmåls KaPardy-spil\n\nLÆRERFLOW\nKilder → kategoriarbejde → huskekort → prøveværksted → KaPardy.",
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nKEMIENS GRUNDSTOFFER\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/kemi_elementer_20.csv",
         "fontSize": 17,
         "align": "left"
       },
@@ -367,27 +413,27 @@
       "relations": {
         "layoutRole": "intro"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_overview_route",
+      "id": "w_20-sporgsmal-kemi_route",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_1",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_1",
       "type": "text",
-      "title": "Lektionsplan og faglige spor",
+      "title": "Lektionsplan og Plan-værktøjer",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Overblik + kilder + to kategorier / to kategorier + huskekort + KaPardy.\n3 lektioner: Kilder og kategori 1–2 / kategori 3–4 / huskekort, prøveværksted og KaPardy.\n4 lektioner: Kilder og én kategori pr. lektion, med huskekort og KaPardy som afslutning.\n\nDE FIRE SPOR\n• Symboler og navne\n• Atomnumre og system\n• Grupper og egenskaber\n• Stoffer og anvendelser\n\nFAST RUTINE\n1. Åbn mindst én kilde eller medie.\n2. Notér tre nøgleord uden facit.\n3. Forklar svaret til en makker.\n4. Træn kategorien i Huskekortmatrixen.",
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Symboler og navne, Atomnumre og system, Grupper og egenskaber, Stoffer og anvendelser.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Huskekortmatrix\n• Timer\n• Gruppeværktøj\n• Webvisning\n• KaPardy\n\nDEMOIDÉ\nLaboratoriehold arbejder med symboler, atomnumre, egenskaber og anvendelser.",
         "fontSize": 16,
         "align": "left"
       },
@@ -401,36 +447,37 @@
       "relations": {
         "layoutRole": "lesson-plan"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_overview_index",
+      "id": "w_20-sporgsmal-kemi_index",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_1",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_1",
       "type": "board-index",
       "title": "Tavler i forløbet",
       "geometry": {
         "x": 20,
-        "y": 505,
+        "y": 510,
         "width": 1160,
-        "height": 300,
+        "height": 295,
         "rotation": 0,
         "z": 3
       },
       "content": {
         "boardIds": [
-          "board_professor_20-sporgsmal-kemi_v2_1",
-          "board_professor_20-sporgsmal-kemi_v2_2",
-          "board_professor_20-sporgsmal-kemi_v2_3",
-          "board_professor_20-sporgsmal-kemi_v2_4",
-          "board_professor_20-sporgsmal-kemi_v2_5",
-          "board_professor_20-sporgsmal-kemi_v2_6",
-          "board_professor_20-sporgsmal-kemi_v2_7",
-          "board_professor_20-sporgsmal-kemi_v2_8",
-          "board_professor_20-sporgsmal-kemi_v2_9"
+          "board_professor_20-sporgsmal-kemi_v2_showcase_1",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_2",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_4",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_5",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_6",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_7",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_8",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_9",
+          "board_professor_20-sporgsmal-kemi_v2_showcase_10"
         ]
       },
       "settings": {
@@ -443,17 +490,17 @@
       "relations": {
         "layoutRole": "board-index"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_sources_text",
+      "id": "w_20-sporgsmal-kemi_resource_matrix",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_2",
-      "type": "text",
-      "title": "Kilde- og medieliste",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -463,9 +510,65 @@
         "z": 1
       },
       "content": {
-        "text": "KILDER OG MEDIER\n\n1. IUPAC · Periodic Table of Elements\n   Type: reference\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n2. Royal Society of Chemistry · Periodic Table\n   Type: interaktiv\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n3. PubChem · Periodic Table\n   Type: reference\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n4. Ptable · Interaktivt periodesystem\n   Type: interaktiv\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\nELEVOPGAVE\nVælg to kilder. Skriv: Hvad kan kilden bruges til? Hvilke spørgsmål hjælper den med? Hvilke ord/begreber skal på huskekort?",
-        "fontSize": 15,
-        "align": "left"
+        "version": 1,
+        "resources": [
+          {
+            "title": "IUPAC · Periodic Table",
+            "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "type": "web/reference",
+            "category": "Symboler og navne",
+            "note": "Brug som officiel reference til grundstoffer.",
+            "tags": [
+              "symboler-og-navne",
+              "web-reference"
+            ]
+          },
+          {
+            "title": "Royal Society of Chemistry · Periodic Table",
+            "url": "https://periodic-table.rsc.org/",
+            "type": "web/interaktiv",
+            "category": "Atomnumre og system",
+            "note": "Brug interaktivt til atomnumre og grupper.",
+            "tags": [
+              "atomnumre-og-system",
+              "web-interaktiv"
+            ]
+          },
+          {
+            "title": "PubChem · Periodic Table",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
+            "type": "web/reference",
+            "category": "Stoffer og anvendelser",
+            "note": "Brug til egenskaber og anvendelser.",
+            "tags": [
+              "stoffer-og-anvendelser",
+              "web-reference"
+            ]
+          },
+          {
+            "title": "Ptable",
+            "url": "https://ptable.com/",
+            "type": "web/interaktiv",
+            "category": "Grupper og egenskaber",
+            "note": "Brug til hurtig udforskning af systemet.",
+            "tags": [
+              "grupper-og-egenskaber",
+              "web-interaktiv"
+            ]
+          },
+          {
+            "title": "Khan Academy · Chemistry",
+            "url": "https://www.khanacademy.org/science/chemistry",
+            "type": "video/web",
+            "category": "Kemi og stoffer",
+            "note": "Brug korte forklaringer før huskekort.",
+            "tags": [
+              "kemi-og-stoffer",
+              "video-web"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
       },
       "settings": {
         "locked": false,
@@ -475,19 +578,19 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "sources"
+        "layoutRole": "resource-matrix"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_source_1",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-kemi_source_1",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_2",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
-      "title": "IUPAC · Periodic Table of Elements",
+      "title": "IUPAC · Periodic Table",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -498,8 +601,8 @@
       },
       "content": {
         "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-        "label": "IUPAC · Periodic Table of Elements",
-        "note": "reference. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "label": "IUPAC · Periodic Table",
+        "note": "web/reference · Brug som officiel reference til grundstoffer.",
         "view": "link"
       },
       "settings": {
@@ -512,15 +615,15 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_source_2",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-kemi_source_2",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_2",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
       "title": "Royal Society of Chemistry · Periodic Table",
       "geometry": {
@@ -534,7 +637,7 @@
       "content": {
         "url": "https://periodic-table.rsc.org/",
         "label": "Royal Society of Chemistry · Periodic Table",
-        "note": "interaktiv. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "note": "web/interaktiv · Brug interaktivt til atomnumre og grupper.",
         "view": "link"
       },
       "settings": {
@@ -547,20 +650,20 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_source_3",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-kemi_source_3",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_2",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
       "title": "PubChem · Periodic Table",
       "geometry": {
         "x": 560,
-        "y": 300,
+        "y": 305,
         "width": 300,
         "height": 190,
         "rotation": 0,
@@ -569,7 +672,7 @@
       "content": {
         "url": "https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
         "label": "PubChem · Periodic Table",
-        "note": "reference. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "note": "web/reference · Brug til egenskaber og anvendelser.",
         "view": "link"
       },
       "settings": {
@@ -582,20 +685,20 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_source_4",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-kemi_source_4",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_2",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
-      "title": "Ptable · Interaktivt periodesystem",
+      "title": "Ptable",
       "geometry": {
         "x": 880,
-        "y": 300,
+        "y": 305,
         "width": 300,
         "height": 190,
         "rotation": 0,
@@ -603,8 +706,8 @@
       },
       "content": {
         "url": "https://ptable.com/",
-        "label": "Ptable · Interaktivt periodesystem",
-        "note": "interaktiv. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "label": "Ptable",
+        "note": "web/interaktiv · Brug til hurtig udforskning af systemet.",
         "view": "link"
       },
       "settings": {
@@ -617,15 +720,338 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat1_core",
+      "id": "w_20-sporgsmal-kemi_source_5",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_3",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
+      "type": "link",
+      "title": "Khan Academy · Chemistry",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.khanacademy.org/science/chemistry",
+        "label": "Khan Academy · Chemistry",
+        "note": "video/web · Brug korte forklaringer før huskekort.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Symboler og navne",
+            "members": []
+          },
+          {
+            "name": "Atomnumre og system",
+            "members": []
+          },
+          {
+            "name": "Grupper og egenskaber",
+            "members": []
+          },
+          {
+            "name": "Stoffer og anvendelser",
+            "members": []
+          }
+        ],
+        "note": "Laboratoriehold arbejder med symboler, atomnumre, egenskaber og anvendelser."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Symboler og navne\n• Atomnumre og system\n• Grupper og egenskaber\n• Stoffer og anvendelser\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Symboler og navne",
+            "count": 1
+          },
+          {
+            "text": "Atomnumre og system",
+            "count": 1
+          },
+          {
+            "text": "Grupper og egenskaber",
+            "count": 1
+          },
+          {
+            "text": "Stoffer og anvendelser",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_4",
       "type": "text",
       "title": "Kildearbejde · Symboler og navne",
       "geometry": {
@@ -637,7 +1063,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Symboler og navne\n\nARBEJD MED KILDERNE\nBrug især: IUPAC · Periodic Table of Elements, Royal Society of Chemistry · Periodic Table.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket grundstof har symbolet Ne?\n• Hvad er det kemiske symbol for natrium?\n• Hvilket grundstof har symbolet Mg?\n• Hvad er det kemiske symbol for aluminium?\n• Hvilket grundstof har symbolet Si?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Symboler og navne\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket grundstof har symbolet Ne?\n• Hvad er det kemiske symbol for natrium?\n• Hvilket grundstof har symbolet Mg?\n• Hvad er det kemiske symbol for aluminium?\n• Hvilket grundstof har symbolet Si?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -651,15 +1077,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat1_activity",
+      "id": "w_20-sporgsmal-kemi_cat1_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_3",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_4",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -671,7 +1097,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Symboler og navne\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Symboler og navne\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -685,17 +1111,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat1_check",
+      "id": "w_20-sporgsmal-kemi_cat1_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_3",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_4",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -719,15 +1145,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat2_core",
+      "id": "w_20-sporgsmal-kemi_cat2_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_4",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_5",
       "type": "text",
       "title": "Kildearbejde · Atomnumre og system",
       "geometry": {
@@ -739,7 +1165,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Atomnumre og system\n\nARBEJD MED KILDERNE\nBrug især: IUPAC · Periodic Table of Elements, Royal Society of Chemistry · Periodic Table.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad er atomnummeret for silicium?\n• Hvad er atomnummeret for fosfor?\n• Hvad er atomnummeret for svovl?\n• Hvad er atomnummeret for klor?\n• Hvad er atomnummeret for argon?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Atomnumre og system\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad er atomnummeret for silicium?\n• Hvad er atomnummeret for fosfor?\n• Hvad er atomnummeret for svovl?\n• Hvad er atomnummeret for klor?\n• Hvad er atomnummeret for argon?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -753,15 +1179,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat2_activity",
+      "id": "w_20-sporgsmal-kemi_cat2_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_4",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_5",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -773,7 +1199,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Atomnumre og system\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Atomnumre og system\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -787,17 +1213,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat2_check",
+      "id": "w_20-sporgsmal-kemi_cat2_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_4",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_5",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -821,15 +1247,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat3_core",
+      "id": "w_20-sporgsmal-kemi_cat3_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_5",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_6",
       "type": "text",
       "title": "Kildearbejde · Grupper og egenskaber",
       "geometry": {
@@ -841,7 +1267,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Grupper og egenskaber\n\nARBEJD MED KILDERNE\nBrug især: IUPAC · Periodic Table of Elements, Royal Society of Chemistry · Periodic Table.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket af disse grundstoffer er et jordalkalimetal?\n• Hvilket metal er flydende ved almindelig stuetemperatur?\n• Hvilket ikke-metal er flydende ved almindelig stuetemperatur?\n• Hvilket grundstof udgør den største del af Jordens atmosfære?\n• Hvilket grundstof er det mest udbredte i universet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Grupper og egenskaber\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket af disse grundstoffer er et jordalkalimetal?\n• Hvilket metal er flydende ved almindelig stuetemperatur?\n• Hvilket ikke-metal er flydende ved almindelig stuetemperatur?\n• Hvilket grundstof udgør den største del af Jordens atmosfære?\n• Hvilket grundstof er det mest udbredte i universet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -855,15 +1281,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat3_activity",
+      "id": "w_20-sporgsmal-kemi_cat3_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_5",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_6",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -875,7 +1301,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Grupper og egenskaber\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Grupper og egenskaber\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -889,17 +1315,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat3_check",
+      "id": "w_20-sporgsmal-kemi_cat3_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_5",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_6",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -923,15 +1349,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat4_core",
+      "id": "w_20-sporgsmal-kemi_cat4_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_6",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_7",
       "type": "text",
       "title": "Kildearbejde · Stoffer og anvendelser",
       "geometry": {
@@ -943,7 +1369,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Stoffer og anvendelser\n\nARBEJD MED KILDERNE\nBrug især: IUPAC · Periodic Table of Elements, Royal Society of Chemistry · Periodic Table.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Stoffer og anvendelser\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -957,15 +1383,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat4_activity",
+      "id": "w_20-sporgsmal-kemi_cat4_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_6",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_7",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -977,7 +1403,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Stoffer og anvendelser\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Stoffer og anvendelser\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -991,17 +1417,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_cat4_check",
+      "id": "w_20-sporgsmal-kemi_cat4_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_6",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_7",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -1025,40 +1451,40 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_flashcards",
+      "id": "w_20-sporgsmal-kemi_flashcards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_7",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_8",
       "type": "flashcard-matrix",
-      "title": "Huskekort · Kemiens grundstoffer",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 1160,
-        "height": 720,
+        "height": 740,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "sourceType": "kapardy",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-kemi_v2_kapardy",
-        "sourceDatasetId": null,
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-kemi_kapardy",
+        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Kemiens grundstoffer",
-        "linked": true,
-        "view": "overview",
-        "categoryFilter": "Alle",
-        "statusFilter": "Alle",
-        "progress": {},
-        "overrides": {
-          "kp_kemiens-grundstoffer_01": {
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_kemi-elementer_01": {
             "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Neon. Brug kilden til at forklare, hvorfor dette er mere præcist end: Natrium · Klor · Mangan.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Neon. Forklar hvorfor det er mere præcist end: Natrium · Klor · Mangan.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Natrium",
@@ -1066,10 +1492,10 @@
               "Mangan"
             ]
           },
-          "kp_kemiens-grundstoffer_02": {
+          "kp_kemi-elementer_02": {
             "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Na. Brug kilden til at forklare, hvorfor dette er mere præcist end: Al · Ca · Zn.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Na. Forklar hvorfor det er mere præcist end: Al · Ca · Zn.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Al",
@@ -1077,10 +1503,10 @@
               "Zn"
             ]
           },
-          "kp_kemiens-grundstoffer_03": {
+          "kp_kemi-elementer_03": {
             "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Magnesium. Brug kilden til at forklare, hvorfor dette er mere præcist end: Aluminium · Kalium · Kobolt.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Aluminium · Kalium · Kobolt.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Aluminium",
@@ -1088,10 +1514,10 @@
               "Kobolt"
             ]
           },
-          "kp_kemiens-grundstoffer_04": {
+          "kp_kemi-elementer_04": {
             "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Al. Brug kilden til at forklare, hvorfor dette er mere præcist end: P · Cr · Ge.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Al. Forklar hvorfor det er mere præcist end: P · Cr · Ge.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "P",
@@ -1099,10 +1525,10 @@
               "Ge"
             ]
           },
-          "kp_kemiens-grundstoffer_05": {
+          "kp_kemi-elementer_05": {
             "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Silicium. Brug kilden til at forklare, hvorfor dette er mere præcist end: Fosfor · Titan · Kobber.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Silicium. Forklar hvorfor det er mere præcist end: Fosfor · Titan · Kobber.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Fosfor",
@@ -1110,10 +1536,10 @@
               "Kobber"
             ]
           },
-          "kp_kemiens-grundstoffer_06": {
+          "kp_kemi-elementer_06": {
             "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 14. Brug kilden til at forklare, hvorfor dette er mere præcist end: 15 · 13 · 16.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: 14. Forklar hvorfor det er mere præcist end: 15 · 13 · 16.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "15",
@@ -1121,10 +1547,10 @@
               "16"
             ]
           },
-          "kp_kemiens-grundstoffer_07": {
+          "kp_kemi-elementer_07": {
             "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 15. Brug kilden til at forklare, hvorfor dette er mere præcist end: 16 · 14 · 17.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: 15. Forklar hvorfor det er mere præcist end: 16 · 14 · 17.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "16",
@@ -1132,10 +1558,10 @@
               "17"
             ]
           },
-          "kp_kemiens-grundstoffer_08": {
+          "kp_kemi-elementer_08": {
             "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 16. Brug kilden til at forklare, hvorfor dette er mere præcist end: 17 · 15 · 18.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: 16. Forklar hvorfor det er mere præcist end: 17 · 15 · 18.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "17",
@@ -1143,10 +1569,10 @@
               "18"
             ]
           },
-          "kp_kemiens-grundstoffer_09": {
+          "kp_kemi-elementer_09": {
             "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 17. Brug kilden til at forklare, hvorfor dette er mere præcist end: 18 · 16 · 19.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: 17. Forklar hvorfor det er mere præcist end: 18 · 16 · 19.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "18",
@@ -1154,10 +1580,10 @@
               "19"
             ]
           },
-          "kp_kemiens-grundstoffer_10": {
+          "kp_kemi-elementer_10": {
             "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 18. Brug kilden til at forklare, hvorfor dette er mere præcist end: 19 · 17 · 20.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: 18. Forklar hvorfor det er mere præcist end: 19 · 17 · 20.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "19",
@@ -1165,10 +1591,10 @@
               "20"
             ]
           },
-          "kp_kemiens-grundstoffer_11": {
+          "kp_kemi-elementer_11": {
             "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Magnesium. Brug kilden til at forklare, hvorfor dette er mere præcist end: Natrium · Klor · Jern.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Natrium · Klor · Jern.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Natrium",
@@ -1176,10 +1602,10 @@
               "Jern"
             ]
           },
-          "kp_kemiens-grundstoffer_12": {
+          "kp_kemi-elementer_12": {
             "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Kviksølv. Brug kilden til at forklare, hvorfor dette er mere præcist end: Jern · Guld · Aluminium.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Kviksølv. Forklar hvorfor det er mere præcist end: Jern · Guld · Aluminium.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Jern",
@@ -1187,10 +1613,10 @@
               "Aluminium"
             ]
           },
-          "kp_kemiens-grundstoffer_13": {
+          "kp_kemi-elementer_13": {
             "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Brom. Brug kilden til at forklare, hvorfor dette er mere præcist end: Klor · Jod · Svovl.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Brom. Forklar hvorfor det er mere præcist end: Klor · Jod · Svovl.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Klor",
@@ -1198,10 +1624,10 @@
               "Svovl"
             ]
           },
-          "kp_kemiens-grundstoffer_14": {
+          "kp_kemi-elementer_14": {
             "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Kvælstof. Brug kilden til at forklare, hvorfor dette er mere præcist end: Ilt · Argon · Kulstof.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Kvælstof. Forklar hvorfor det er mere præcist end: Ilt · Argon · Kulstof.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Ilt",
@@ -1209,10 +1635,10 @@
               "Kulstof"
             ]
           },
-          "kp_kemiens-grundstoffer_15": {
+          "kp_kemi-elementer_15": {
             "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Hydrogen. Brug kilden til at forklare, hvorfor dette er mere præcist end: Helium · Ilt · Kulstof.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Hydrogen. Forklar hvorfor det er mere præcist end: Helium · Ilt · Kulstof.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Helium",
@@ -1220,10 +1646,10 @@
               "Kulstof"
             ]
           },
-          "kp_kemiens-grundstoffer_16": {
+          "kp_kemi-elementer_16": {
             "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Kulstof. Brug kilden til at forklare, hvorfor dette er mere præcist end: Bly · Silicium · Jern.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Kulstof. Forklar hvorfor det er mere præcist end: Bly · Silicium · Jern.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Bly",
@@ -1231,10 +1657,10 @@
               "Jern"
             ]
           },
-          "kp_kemiens-grundstoffer_17": {
+          "kp_kemi-elementer_17": {
             "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Kobber. Brug kilden til at forklare, hvorfor dette er mere præcist end: Bly · Titan · Magnesium.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Kobber. Forklar hvorfor det er mere præcist end: Bly · Titan · Magnesium.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Bly",
@@ -1242,10 +1668,10 @@
               "Magnesium"
             ]
           },
-          "kp_kemiens-grundstoffer_18": {
+          "kp_kemi-elementer_18": {
             "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Fluor. Brug kilden til at forklare, hvorfor dette er mere præcist end: Klor · Jod · Brom.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Fluor. Forklar hvorfor det er mere præcist end: Klor · Jod · Brom.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Klor",
@@ -1253,10 +1679,10 @@
               "Brom"
             ]
           },
-          "kp_kemiens-grundstoffer_19": {
+          "kp_kemi-elementer_19": {
             "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Jern. Brug kilden til at forklare, hvorfor dette er mere præcist end: Calcium · Natrium · Zink.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Jern. Forklar hvorfor det er mere præcist end: Calcium · Natrium · Zink.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Calcium",
@@ -1264,10 +1690,10 @@
               "Zink"
             ]
           },
-          "kp_kemiens-grundstoffer_20": {
+          "kp_kemi-elementer_20": {
             "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Magnesium. Brug kilden til at forklare, hvorfor dette er mere præcist end: Jern · Kobber · Calcium.",
-            "sourceTitle": "IUPAC · Periodic Table of Elements",
+            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Jern · Kobber · Calcium.",
+            "sourceTitle": "IUPAC · Periodic Table",
             "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
             "confusions": [
               "Jern",
@@ -1282,7 +1708,7 @@
           "title": "KaPardy · Kemiens grundstoffer",
           "questions": [
             {
-              "id": "kp_kemiens-grundstoffer_01",
+              "id": "kp_kemi-elementer_01",
               "category": "Symboler og navne",
               "question": "Hvilket grundstof har symbolet Ne?",
               "points": 100,
@@ -1296,7 +1722,7 @@
               "answer": "Neon"
             },
             {
-              "id": "kp_kemiens-grundstoffer_02",
+              "id": "kp_kemi-elementer_02",
               "category": "Symboler og navne",
               "question": "Hvad er det kemiske symbol for natrium?",
               "points": 200,
@@ -1310,7 +1736,7 @@
               "answer": "Na"
             },
             {
-              "id": "kp_kemiens-grundstoffer_03",
+              "id": "kp_kemi-elementer_03",
               "category": "Symboler og navne",
               "question": "Hvilket grundstof har symbolet Mg?",
               "points": 300,
@@ -1324,7 +1750,7 @@
               "answer": "Magnesium"
             },
             {
-              "id": "kp_kemiens-grundstoffer_04",
+              "id": "kp_kemi-elementer_04",
               "category": "Symboler og navne",
               "question": "Hvad er det kemiske symbol for aluminium?",
               "points": 400,
@@ -1338,7 +1764,7 @@
               "answer": "Al"
             },
             {
-              "id": "kp_kemiens-grundstoffer_05",
+              "id": "kp_kemi-elementer_05",
               "category": "Symboler og navne",
               "question": "Hvilket grundstof har symbolet Si?",
               "points": 500,
@@ -1352,7 +1778,7 @@
               "answer": "Silicium"
             },
             {
-              "id": "kp_kemiens-grundstoffer_06",
+              "id": "kp_kemi-elementer_06",
               "category": "Atomnumre og system",
               "question": "Hvad er atomnummeret for silicium?",
               "points": 100,
@@ -1366,7 +1792,7 @@
               "answer": "14"
             },
             {
-              "id": "kp_kemiens-grundstoffer_07",
+              "id": "kp_kemi-elementer_07",
               "category": "Atomnumre og system",
               "question": "Hvad er atomnummeret for fosfor?",
               "points": 200,
@@ -1380,7 +1806,7 @@
               "answer": "15"
             },
             {
-              "id": "kp_kemiens-grundstoffer_08",
+              "id": "kp_kemi-elementer_08",
               "category": "Atomnumre og system",
               "question": "Hvad er atomnummeret for svovl?",
               "points": 300,
@@ -1394,7 +1820,7 @@
               "answer": "16"
             },
             {
-              "id": "kp_kemiens-grundstoffer_09",
+              "id": "kp_kemi-elementer_09",
               "category": "Atomnumre og system",
               "question": "Hvad er atomnummeret for klor?",
               "points": 400,
@@ -1408,7 +1834,7 @@
               "answer": "17"
             },
             {
-              "id": "kp_kemiens-grundstoffer_10",
+              "id": "kp_kemi-elementer_10",
               "category": "Atomnumre og system",
               "question": "Hvad er atomnummeret for argon?",
               "points": 500,
@@ -1422,7 +1848,7 @@
               "answer": "18"
             },
             {
-              "id": "kp_kemiens-grundstoffer_11",
+              "id": "kp_kemi-elementer_11",
               "category": "Grupper og egenskaber",
               "question": "Hvilket af disse grundstoffer er et jordalkalimetal?",
               "points": 100,
@@ -1436,7 +1862,7 @@
               "answer": "Magnesium"
             },
             {
-              "id": "kp_kemiens-grundstoffer_12",
+              "id": "kp_kemi-elementer_12",
               "category": "Grupper og egenskaber",
               "question": "Hvilket metal er flydende ved almindelig stuetemperatur?",
               "points": 200,
@@ -1450,7 +1876,7 @@
               "answer": "Kviksølv"
             },
             {
-              "id": "kp_kemiens-grundstoffer_13",
+              "id": "kp_kemi-elementer_13",
               "category": "Grupper og egenskaber",
               "question": "Hvilket ikke-metal er flydende ved almindelig stuetemperatur?",
               "points": 300,
@@ -1464,7 +1890,7 @@
               "answer": "Brom"
             },
             {
-              "id": "kp_kemiens-grundstoffer_14",
+              "id": "kp_kemi-elementer_14",
               "category": "Grupper og egenskaber",
               "question": "Hvilket grundstof udgør den største del af Jordens atmosfære?",
               "points": 400,
@@ -1478,7 +1904,7 @@
               "answer": "Kvælstof"
             },
             {
-              "id": "kp_kemiens-grundstoffer_15",
+              "id": "kp_kemi-elementer_15",
               "category": "Grupper og egenskaber",
               "question": "Hvilket grundstof er det mest udbredte i universet?",
               "points": 500,
@@ -1492,7 +1918,7 @@
               "answer": "Hydrogen"
             },
             {
-              "id": "kp_kemiens-grundstoffer_16",
+              "id": "kp_kemi-elementer_16",
               "category": "Stoffer og anvendelser",
               "question": "Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?",
               "points": 100,
@@ -1506,7 +1932,7 @@
               "answer": "Kulstof"
             },
             {
-              "id": "kp_kemiens-grundstoffer_17",
+              "id": "kp_kemi-elementer_17",
               "category": "Stoffer og anvendelser",
               "question": "Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?",
               "points": 200,
@@ -1520,7 +1946,7 @@
               "answer": "Kobber"
             },
             {
-              "id": "kp_kemiens-grundstoffer_18",
+              "id": "kp_kemi-elementer_18",
               "category": "Stoffer og anvendelser",
               "question": "Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?",
               "points": 300,
@@ -1534,7 +1960,7 @@
               "answer": "Fluor"
             },
             {
-              "id": "kp_kemiens-grundstoffer_19",
+              "id": "kp_kemi-elementer_19",
               "category": "Stoffer og anvendelser",
               "question": "Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?",
               "points": 400,
@@ -1548,7 +1974,7 @@
               "answer": "Jern"
             },
             {
-              "id": "kp_kemiens-grundstoffer_20",
+              "id": "kp_kemi-elementer_20",
               "category": "Stoffer og anvendelser",
               "question": "Hvilket grundstof findes centralt i klorofylmolekylet?",
               "points": 500,
@@ -1562,7 +1988,7 @@
               "answer": "Magnesium"
             }
           ],
-          "updatedAt": "2026-07-06T13:45:00.000Z"
+          "updatedAt": "2026-07-07T00:45:00.000Z"
         }
       },
       "settings": {
@@ -1573,20 +1999,19 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "flashcard-training",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-kemi_v2_kapardy"
+        "layoutRole": "flashcard-training"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_workshop",
+      "id": "w_20-sporgsmal-kemi_workshop",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_8",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_9",
       "type": "text",
-      "title": "Prøveværksted",
+      "title": "Professorens prøveværksted",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -1596,7 +2021,7 @@
         "z": 1
       },
       "content": {
-        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hver gruppe kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet. Det må gerne være enklere end kilden, men ikke upræcist.",
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
         "fontSize": 17,
         "align": "left"
       },
@@ -1610,27 +2035,62 @@
       "relations": {
         "layoutRole": "workshop"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_workshop_sources",
+      "id": "w_20-sporgsmal-kemi_workshop_timer",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_8",
-      "type": "text",
-      "title": "Kildekrav før spillet",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 330,
+        "height": 180,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nBrug Link-widgetterne fra tavlen Kilder og medier. Åbn dem som webvisning, når klassen skal se materialet sammen.\n\nNår et kort stadig står som 'Kan ikke endnu', skal gruppen tilbage til kilden før KaPardy.",
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kemi_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1644,27 +2104,27 @@
       "relations": {
         "layoutRole": "source-requirement"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_workshop_cards",
+      "id": "w_20-sporgsmal-kemi_workshop_cards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_8",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_9",
       "type": "text",
       "title": "Huskekortrunde",
       "geometry": {
         "x": 600,
-        "y": 435,
+        "y": 535,
         "width": 580,
-        "height": 350,
+        "height": 250,
         "rotation": 0,
-        "z": 3
+        "z": 4
       },
       "content": {
-        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er 'Næsten' eller 'Kan'.",
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1678,15 +2138,15 @@
       "relations": {
         "layoutRole": "flashcard-routine"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-kemi_v2_kapardy",
+      "id": "w_20-sporgsmal-kemi_kapardy",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-kemi_v2_9",
+      "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_10",
       "type": "kapardy",
       "title": "KaPardy · Kemiens grundstoffer",
       "geometry": {
@@ -1701,7 +2161,7 @@
         "kapardyVersion": 2,
         "questionBankContract": "first-answer-correct",
         "gameId": "kapardy_20-sporgsmal-kemi_20",
-        "gameStartedAt": "2026-07-06T13:45:00.000Z",
+        "gameStartedAt": "2026-07-07T00:45:00.000Z",
         "gameMode": "jeopardy",
         "mode": "jeopardy",
         "kapardyScreen": "setup",
@@ -1720,7 +2180,7 @@
         ],
         "questions": [
           {
-            "id": "kp_kemiens-grundstoffer_01",
+            "id": "kp_kemi-elementer_01",
             "category": "Symboler og navne",
             "question": "Hvilket grundstof har symbolet Ne?",
             "points": 100,
@@ -1734,7 +2194,7 @@
             "answer": "Neon"
           },
           {
-            "id": "kp_kemiens-grundstoffer_02",
+            "id": "kp_kemi-elementer_02",
             "category": "Symboler og navne",
             "question": "Hvad er det kemiske symbol for natrium?",
             "points": 200,
@@ -1748,7 +2208,7 @@
             "answer": "Na"
           },
           {
-            "id": "kp_kemiens-grundstoffer_03",
+            "id": "kp_kemi-elementer_03",
             "category": "Symboler og navne",
             "question": "Hvilket grundstof har symbolet Mg?",
             "points": 300,
@@ -1762,7 +2222,7 @@
             "answer": "Magnesium"
           },
           {
-            "id": "kp_kemiens-grundstoffer_04",
+            "id": "kp_kemi-elementer_04",
             "category": "Symboler og navne",
             "question": "Hvad er det kemiske symbol for aluminium?",
             "points": 400,
@@ -1776,7 +2236,7 @@
             "answer": "Al"
           },
           {
-            "id": "kp_kemiens-grundstoffer_05",
+            "id": "kp_kemi-elementer_05",
             "category": "Symboler og navne",
             "question": "Hvilket grundstof har symbolet Si?",
             "points": 500,
@@ -1790,7 +2250,7 @@
             "answer": "Silicium"
           },
           {
-            "id": "kp_kemiens-grundstoffer_06",
+            "id": "kp_kemi-elementer_06",
             "category": "Atomnumre og system",
             "question": "Hvad er atomnummeret for silicium?",
             "points": 100,
@@ -1804,7 +2264,7 @@
             "answer": "14"
           },
           {
-            "id": "kp_kemiens-grundstoffer_07",
+            "id": "kp_kemi-elementer_07",
             "category": "Atomnumre og system",
             "question": "Hvad er atomnummeret for fosfor?",
             "points": 200,
@@ -1818,7 +2278,7 @@
             "answer": "15"
           },
           {
-            "id": "kp_kemiens-grundstoffer_08",
+            "id": "kp_kemi-elementer_08",
             "category": "Atomnumre og system",
             "question": "Hvad er atomnummeret for svovl?",
             "points": 300,
@@ -1832,7 +2292,7 @@
             "answer": "16"
           },
           {
-            "id": "kp_kemiens-grundstoffer_09",
+            "id": "kp_kemi-elementer_09",
             "category": "Atomnumre og system",
             "question": "Hvad er atomnummeret for klor?",
             "points": 400,
@@ -1846,7 +2306,7 @@
             "answer": "17"
           },
           {
-            "id": "kp_kemiens-grundstoffer_10",
+            "id": "kp_kemi-elementer_10",
             "category": "Atomnumre og system",
             "question": "Hvad er atomnummeret for argon?",
             "points": 500,
@@ -1860,7 +2320,7 @@
             "answer": "18"
           },
           {
-            "id": "kp_kemiens-grundstoffer_11",
+            "id": "kp_kemi-elementer_11",
             "category": "Grupper og egenskaber",
             "question": "Hvilket af disse grundstoffer er et jordalkalimetal?",
             "points": 100,
@@ -1874,7 +2334,7 @@
             "answer": "Magnesium"
           },
           {
-            "id": "kp_kemiens-grundstoffer_12",
+            "id": "kp_kemi-elementer_12",
             "category": "Grupper og egenskaber",
             "question": "Hvilket metal er flydende ved almindelig stuetemperatur?",
             "points": 200,
@@ -1888,7 +2348,7 @@
             "answer": "Kviksølv"
           },
           {
-            "id": "kp_kemiens-grundstoffer_13",
+            "id": "kp_kemi-elementer_13",
             "category": "Grupper og egenskaber",
             "question": "Hvilket ikke-metal er flydende ved almindelig stuetemperatur?",
             "points": 300,
@@ -1902,7 +2362,7 @@
             "answer": "Brom"
           },
           {
-            "id": "kp_kemiens-grundstoffer_14",
+            "id": "kp_kemi-elementer_14",
             "category": "Grupper og egenskaber",
             "question": "Hvilket grundstof udgør den største del af Jordens atmosfære?",
             "points": 400,
@@ -1916,7 +2376,7 @@
             "answer": "Kvælstof"
           },
           {
-            "id": "kp_kemiens-grundstoffer_15",
+            "id": "kp_kemi-elementer_15",
             "category": "Grupper og egenskaber",
             "question": "Hvilket grundstof er det mest udbredte i universet?",
             "points": 500,
@@ -1930,7 +2390,7 @@
             "answer": "Hydrogen"
           },
           {
-            "id": "kp_kemiens-grundstoffer_16",
+            "id": "kp_kemi-elementer_16",
             "category": "Stoffer og anvendelser",
             "question": "Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?",
             "points": 100,
@@ -1944,7 +2404,7 @@
             "answer": "Kulstof"
           },
           {
-            "id": "kp_kemiens-grundstoffer_17",
+            "id": "kp_kemi-elementer_17",
             "category": "Stoffer og anvendelser",
             "question": "Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?",
             "points": 200,
@@ -1958,7 +2418,7 @@
             "answer": "Kobber"
           },
           {
-            "id": "kp_kemiens-grundstoffer_18",
+            "id": "kp_kemi-elementer_18",
             "category": "Stoffer og anvendelser",
             "question": "Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?",
             "points": 300,
@@ -1972,7 +2432,7 @@
             "answer": "Fluor"
           },
           {
-            "id": "kp_kemiens-grundstoffer_19",
+            "id": "kp_kemi-elementer_19",
             "category": "Stoffer og anvendelser",
             "question": "Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?",
             "points": 400,
@@ -1986,7 +2446,7 @@
             "answer": "Jern"
           },
           {
-            "id": "kp_kemiens-grundstoffer_20",
+            "id": "kp_kemi-elementer_20",
             "category": "Stoffer og anvendelser",
             "question": "Hvilket grundstof findes centralt i klorofylmolekylet?",
             "points": 500,
@@ -2009,7 +2469,7 @@
         "optionOrders": {},
         "usedQuestions": {},
         "scoreEvents": [],
-        "sourceName": "KaPardy · Kemiens grundstoffer"
+        "sourceCsv": "spil/kapardy/20/kemi_elementer_20.csv"
       },
       "settings": {
         "locked": false,
@@ -2019,10 +2479,10 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "kapardy-final"
+        "layoutRole": "kapardy"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     }
   ],
@@ -2030,22 +2490,22 @@
   "media": [],
   "manifest": {
     "selectedSessionIds": [
-      "session_professor_20-sporgsmal-kemi_v2"
+      "session_professor_20-sporgsmal-kemi_v2_showcase"
     ],
     "counts": {
       "sessions": 1,
-      "boards": 9,
-      "widgets": 25,
+      "boards": 10,
+      "widgets": 34,
       "datasets": 0,
       "media": 0
     },
     "referencedDatasetIds": [],
     "referencedMediaIds": [],
     "mediaBytes": 0,
-    "courseId": "course_professor_20-sporgsmal-kemi_v2",
+    "courseId": "course_professor_20-sporgsmal-kemi_v2_showcase",
     "courseTitle": "20 spørgsmål fra professoren · Kemiens grundstoffer",
     "courseSessionIds": [
-      "session_professor_20-sporgsmal-kemi_v2"
+      "session_professor_20-sporgsmal-kemi_v2_showcase"
     ]
   },
   "warnings": []

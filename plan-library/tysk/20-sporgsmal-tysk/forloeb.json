@@ -4,64 +4,73 @@
   "coursePackageVersion": 1,
   "version": 3,
   "schemaVersion": 3,
-  "appVersion": "1.0.3",
+  "appVersion": "1.0.9",
   "kind": "course-package",
-  "createdAt": "2026-07-06T13:45:00.000Z",
+  "createdAt": "2026-07-07T00:45:00.000Z",
   "course": {
-    "id": "course_professor_20-sporgsmal-tysk_v2",
+    "id": "course_professor_20-sporgsmal-tysk_v2_showcase",
     "title": "20 spørgsmål fra professoren · Tysk sprog og kultur",
     "subject": "Tysk",
     "schoolYear": "",
     "sessionIds": [
-      "session_professor_20-sporgsmal-tysk_v2"
+      "session_professor_20-sporgsmal-tysk_v2_showcase"
     ],
-    "exportedAt": "2026-07-06T13:45:00.000Z",
-    "sourceAppVersion": "1.0.3"
+    "exportedAt": "2026-07-07T00:45:00.000Z",
+    "sourceAppVersion": "1.0.9"
   },
   "sessions": [
     {
-      "id": "session_professor_20-sporgsmal-tysk_v2",
+      "id": "session_professor_20-sporgsmal-tysk_v2_showcase",
       "schemaVersion": 1,
       "title": "20 spørgsmål fra professoren · Tysk sprog og kultur",
       "theme": "dark",
-      "activeBoardId": "board_professor_20-sporgsmal-tysk_v2_1",
+      "activeBoardId": "board_professor_20-sporgsmal-tysk_v2_showcase_1",
       "boardIds": [
-        "board_professor_20-sporgsmal-tysk_v2_1",
-        "board_professor_20-sporgsmal-tysk_v2_2",
-        "board_professor_20-sporgsmal-tysk_v2_3",
-        "board_professor_20-sporgsmal-tysk_v2_4",
-        "board_professor_20-sporgsmal-tysk_v2_5",
-        "board_professor_20-sporgsmal-tysk_v2_6",
-        "board_professor_20-sporgsmal-tysk_v2_7",
-        "board_professor_20-sporgsmal-tysk_v2_8",
-        "board_professor_20-sporgsmal-tysk_v2_9"
+        "board_professor_20-sporgsmal-tysk_v2_showcase_1",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_2",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_4",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_5",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_6",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_7",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_8",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_9",
+        "board_professor_20-sporgsmal-tysk_v2_showcase_10"
       ],
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "courseId": "course_professor_20-sporgsmal-tysk_v2",
+        "courseId": "course_professor_20-sporgsmal-tysk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Tysk sprog og kultur",
         "courseSubject": "Tysk",
         "courseSchoolYear": "",
         "courseOrder": 1,
         "planOrder": 1,
         "courseSessionIds": [
-          "session_professor_20-sporgsmal-tysk_v2"
+          "session_professor_20-sporgsmal-tysk_v2_showcase"
         ],
         "courseSequenceVersion": 2,
         "courseSequenceSource": "metadata",
         "sourceKind": "plan-library-demo",
         "sourceCsv": "spil/kapardy/20/tysk_sprog_kultur_20.csv",
         "estimatedLessons": "2–4",
-        "professorVersion": "v2-kilder-huskekort"
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Huskekortmatrix",
+          "Timer",
+          "Demo-hold",
+          "Webressourcer",
+          "KaPardy"
+        ]
       }
     }
   ],
   "boards": [
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_1",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_1",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
       "title": "Overblik · Tysk sprog og kultur",
       "background": {
         "kind": "image",
@@ -77,26 +86,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_overview_intro",
-        "widget_professor_20-sporgsmal-tysk_v2_overview_route",
-        "widget_professor_20-sporgsmal-tysk_v2_overview_index"
+        "w_20-sporgsmal-tysk_intro",
+        "w_20-sporgsmal-tysk_route",
+        "w_20-sporgsmal-tysk_index"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "overview",
         "order": 1
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_2",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "Kilder og medier",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "Ressourcematrix og kilder",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -108,28 +117,30 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_sources_text",
-        "widget_professor_20-sporgsmal-tysk_v2_source_1",
-        "widget_professor_20-sporgsmal-tysk_v2_source_2",
-        "widget_professor_20-sporgsmal-tysk_v2_source_3",
-        "widget_professor_20-sporgsmal-tysk_v2_source_4"
+        "w_20-sporgsmal-tysk_resource_matrix",
+        "w_20-sporgsmal-tysk_source_1",
+        "w_20-sporgsmal-tysk_source_2",
+        "w_20-sporgsmal-tysk_source_3",
+        "w_20-sporgsmal-tysk_source_4",
+        "w_20-sporgsmal-tysk_source_5",
+        "w_20-sporgsmal-tysk_sources_text"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "sources",
         "order": 2
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_3",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "1. Ord og udtryk",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#4a2a12 0%,#7c4a21 55%,#9a6a35 100%)",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -141,26 +152,29 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_cat1_core",
-        "widget_professor_20-sporgsmal-tysk_v2_cat1_activity",
-        "widget_professor_20-sporgsmal-tysk_v2_cat1_check"
+        "w_20-sporgsmal-tysk_groups",
+        "w_20-sporgsmal-tysk_tool_text",
+        "w_20-sporgsmal-tysk_timer",
+        "w_20-sporgsmal-tysk_countdown",
+        "w_20-sporgsmal-tysk_wordcloud",
+        "w_20-sporgsmal-tysk_calendar"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "category",
+        "lessonPart": "showcase",
         "order": 3
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_4",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_4",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "2. Grammatik og udtale",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "1. Ord og udtryk",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -172,26 +186,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_cat2_core",
-        "widget_professor_20-sporgsmal-tysk_v2_cat2_activity",
-        "widget_professor_20-sporgsmal-tysk_v2_cat2_check"
+        "w_20-sporgsmal-tysk_cat1_core",
+        "w_20-sporgsmal-tysk_cat1_activity",
+        "w_20-sporgsmal-tysk_cat1_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 4
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_5",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_5",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "3. Kunst og kultur",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "2. Grammatik og udtale",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -203,26 +217,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_cat3_core",
-        "widget_professor_20-sporgsmal-tysk_v2_cat3_activity",
-        "widget_professor_20-sporgsmal-tysk_v2_cat3_check"
+        "w_20-sporgsmal-tysk_cat2_core",
+        "w_20-sporgsmal-tysk_cat2_activity",
+        "w_20-sporgsmal-tysk_cat2_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 5
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_6",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_6",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "4. Den tysktalende verden",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "3. Kunst og kultur",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -234,26 +248,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_cat4_core",
-        "widget_professor_20-sporgsmal-tysk_v2_cat4_activity",
-        "widget_professor_20-sporgsmal-tysk_v2_cat4_check"
+        "w_20-sporgsmal-tysk_cat3_core",
+        "w_20-sporgsmal-tysk_cat3_activity",
+        "w_20-sporgsmal-tysk_cat3_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "category",
         "order": 6
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_7",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_7",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "Huskekort og aktiv genkaldelse",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "4. Den tysktalende verden",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -265,24 +279,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_flashcards"
+        "w_20-sporgsmal-tysk_cat4_core",
+        "w_20-sporgsmal-tysk_cat4_activity",
+        "w_20-sporgsmal-tysk_cat4_check"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "flashcards",
+        "lessonPart": "category",
         "order": 7
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_8",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_8",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
-      "title": "Professorens prøveværksted",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -294,22 +310,52 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_workshop",
-        "widget_professor_20-sporgsmal-tysk_v2_workshop_sources",
-        "widget_professor_20-sporgsmal-tysk_v2_workshop_cards"
+        "w_20-sporgsmal-tysk_flashcards"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
-        "lessonPart": "workshop",
+        "lessonPart": "flashcards",
         "order": 8
       }
     },
     {
-      "id": "board_professor_20-sporgsmal-tysk_v2_9",
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_9",
       "schemaVersion": 1,
-      "sessionId": "session_professor_20-sporgsmal-tysk_v2",
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-tysk_workshop",
+        "w_20-sporgsmal-tysk_workshop_timer",
+        "w_20-sporgsmal-tysk_workshop_sources",
+        "w_20-sporgsmal-tysk_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-tysk_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-tysk_v2_showcase",
       "title": "KaPardy · 20 spørgsmål",
       "background": {
         "kind": "image",
@@ -325,35 +371,35 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_professor_20-sporgsmal-tysk_v2_kapardy"
+        "w_20-sporgsmal-tysk_kapardy"
       ],
-      "layoutFamilyId": "professor-v2",
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "meta": {
         "lessonPart": "kapardy",
-        "order": 9
+        "order": 10
       }
     }
   ],
   "widgets": [
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_overview_intro",
+      "id": "w_20-sporgsmal-tysk_intro",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_1",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_1",
       "type": "text",
-      "title": "Professorens invitation",
+      "title": "Professorens udfordring",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 560,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "text": "20 SPØRGSMÅL FRA PROFESSOREN · V2\nTYSK SPROG OG KULTUR\n\nIDÉ\nEleverne skal ikke møde KaPardy-spørgsmålene som løs quizviden. De arbejder først med kilder, medier, forklaringer og huskekort, så spillet bliver en faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare centrale begreber med egne ord\n• kende forvekslinger og nærliggende svar\n• træne aktiv genkaldelse i Huskekortmatrix\n• afslutte med det eksisterende 20-spørgsmåls KaPardy-spil\n\nLÆRERFLOW\nKilder → kategoriarbejde → huskekort → prøveværksted → KaPardy.",
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nTYSK SPROG OG KULTUR\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/tysk_sprog_kultur_20.csv",
         "fontSize": 17,
         "align": "left"
       },
@@ -367,27 +413,27 @@
       "relations": {
         "layoutRole": "intro"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_overview_route",
+      "id": "w_20-sporgsmal-tysk_route",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_1",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_1",
       "type": "text",
-      "title": "Lektionsplan og faglige spor",
+      "title": "Lektionsplan og Plan-værktøjer",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 400,
+        "height": 405,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Overblik + kilder + to kategorier / to kategorier + huskekort + KaPardy.\n3 lektioner: Kilder og kategori 1–2 / kategori 3–4 / huskekort, prøveværksted og KaPardy.\n4 lektioner: Kilder og én kategori pr. lektion, med huskekort og KaPardy som afslutning.\n\nDE FIRE SPOR\n• Ord og udtryk\n• Grammatik og udtale\n• Kunst og kultur\n• Den tysktalende verden\n\nFAST RUTINE\n1. Åbn mindst én kilde eller medie.\n2. Notér tre nøgleord uden facit.\n3. Forklar svaret til en makker.\n4. Træn kategorien i Huskekortmatrixen.",
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Ord og udtryk, Grammatik og udtale, Kunst og kultur, Den tysktalende verden.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Huskekortmatrix\n• Timer\n• Demo-hold\n• Webressourcer\n• KaPardy\n\nDEMOIDÉ\nSproghold arbejder med ord, grammatik, kulturfigurer og steder.",
         "fontSize": 16,
         "align": "left"
       },
@@ -401,36 +447,37 @@
       "relations": {
         "layoutRole": "lesson-plan"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_overview_index",
+      "id": "w_20-sporgsmal-tysk_index",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_1",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_1",
       "type": "board-index",
       "title": "Tavler i forløbet",
       "geometry": {
         "x": 20,
-        "y": 505,
+        "y": 510,
         "width": 1160,
-        "height": 300,
+        "height": 295,
         "rotation": 0,
         "z": 3
       },
       "content": {
         "boardIds": [
-          "board_professor_20-sporgsmal-tysk_v2_1",
-          "board_professor_20-sporgsmal-tysk_v2_2",
-          "board_professor_20-sporgsmal-tysk_v2_3",
-          "board_professor_20-sporgsmal-tysk_v2_4",
-          "board_professor_20-sporgsmal-tysk_v2_5",
-          "board_professor_20-sporgsmal-tysk_v2_6",
-          "board_professor_20-sporgsmal-tysk_v2_7",
-          "board_professor_20-sporgsmal-tysk_v2_8",
-          "board_professor_20-sporgsmal-tysk_v2_9"
+          "board_professor_20-sporgsmal-tysk_v2_showcase_1",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_2",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_4",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_5",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_6",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_7",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_8",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_9",
+          "board_professor_20-sporgsmal-tysk_v2_showcase_10"
         ]
       },
       "settings": {
@@ -443,17 +490,17 @@
       "relations": {
         "layoutRole": "board-index"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_sources_text",
+      "id": "w_20-sporgsmal-tysk_resource_matrix",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_2",
-      "type": "text",
-      "title": "Kilde- og medieliste",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -463,9 +510,65 @@
         "z": 1
       },
       "content": {
-        "text": "KILDER OG MEDIER\n\n1. Duden\n   Type: ordbog/reference\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n2. Goethe-Institut\n   Type: læse/lytte/se\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n3. Deutscher Bundestag\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n4. Schweiz · admin.ch\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\nELEVOPGAVE\nVælg to kilder. Skriv: Hvad kan kilden bruges til? Hvilke spørgsmål hjælper den med? Hvilke ord/begreber skal på huskekort?",
-        "fontSize": 15,
-        "align": "left"
+        "version": 1,
+        "resources": [
+          {
+            "title": "Duden",
+            "url": "https://www.duden.de/",
+            "type": "web/ordbog",
+            "category": "Ord og udtryk",
+            "note": "Brug til betydning, stavning og eksempler.",
+            "tags": [
+              "ord-og-udtryk",
+              "web-ordbog"
+            ]
+          },
+          {
+            "title": "Deutsche Welle · Deutsch lernen",
+            "url": "https://learngerman.dw.com/",
+            "type": "web/undervisning",
+            "category": "Grammatik og udtale",
+            "note": "Brug til sprogarbejde og lytning.",
+            "tags": [
+              "grammatik-og-udtale",
+              "web-undervisning"
+            ]
+          },
+          {
+            "title": "Goethe-Institut",
+            "url": "https://www.goethe.de/",
+            "type": "web/kultur",
+            "category": "Kunst og kultur",
+            "note": "Brug til tysk kultur og læringsressourcer.",
+            "tags": [
+              "kunst-og-kultur",
+              "web-kultur"
+            ]
+          },
+          {
+            "title": "Deutschland.de",
+            "url": "https://www.deutschland.de/",
+            "type": "web/reference",
+            "category": "Den tysktalende verden",
+            "note": "Brug til lande, kultur og samfund.",
+            "tags": [
+              "den-tysktalende-verden",
+              "web-reference"
+            ]
+          },
+          {
+            "title": "Berlin.de · Brandenburger Tor",
+            "url": "https://www.berlin.de/sehenswuerdigkeiten/3560266-3558930-brandenburger-tor.html",
+            "type": "web/sted",
+            "category": "Den tysktalende verden",
+            "note": "Brug til stedskilde og kulturspor.",
+            "tags": [
+              "den-tysktalende-verden",
+              "web-sted"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
       },
       "settings": {
         "locked": false,
@@ -475,17 +578,17 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "sources"
+        "layoutRole": "resource-matrix"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_source_1",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-tysk_source_1",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_2",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
       "title": "Duden",
       "geometry": {
@@ -499,7 +602,7 @@
       "content": {
         "url": "https://www.duden.de/",
         "label": "Duden",
-        "note": "ordbog/reference. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "note": "web/ordbog · Brug til betydning, stavning og eksempler.",
         "view": "link"
       },
       "settings": {
@@ -512,17 +615,17 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_source_2",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-tysk_source_2",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_2",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Goethe-Institut",
+      "title": "Deutsche Welle · Deutsch lernen",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -532,9 +635,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.goethe.de/",
-        "label": "Goethe-Institut",
-        "note": "læse/lytte/se. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "url": "https://learngerman.dw.com/",
+        "label": "Deutsche Welle · Deutsch lernen",
+        "note": "web/undervisning · Brug til sprogarbejde og lytning.",
         "view": "link"
       },
       "settings": {
@@ -547,29 +650,29 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_source_3",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-tysk_source_3",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_2",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Deutscher Bundestag",
+      "title": "Goethe-Institut",
       "geometry": {
         "x": 560,
-        "y": 300,
+        "y": 305,
         "width": 300,
         "height": 190,
         "rotation": 0,
         "z": 4
       },
       "content": {
-        "url": "https://www.bundestag.de/",
-        "label": "Deutscher Bundestag",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "url": "https://www.goethe.de/",
+        "label": "Goethe-Institut",
+        "note": "web/kultur · Brug til tysk kultur og læringsressourcer.",
         "view": "link"
       },
       "settings": {
@@ -582,29 +685,29 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_source_4",
-      "schemaVersion": 1,
+      "id": "w_20-sporgsmal-tysk_source_4",
+      "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_2",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Schweiz · admin.ch",
+      "title": "Deutschland.de",
       "geometry": {
         "x": 880,
-        "y": 300,
+        "y": 305,
         "width": 300,
         "height": 190,
         "rotation": 0,
         "z": 5
       },
       "content": {
-        "url": "https://www.admin.ch/",
-        "label": "Schweiz · admin.ch",
-        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "url": "https://www.deutschland.de/",
+        "label": "Deutschland.de",
+        "note": "web/reference · Brug til lande, kultur og samfund.",
         "view": "link"
       },
       "settings": {
@@ -617,15 +720,338 @@
       "relations": {
         "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat1_core",
+      "id": "w_20-sporgsmal-tysk_source_5",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_3",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
+      "type": "link",
+      "title": "Berlin.de · Brandenburger Tor",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.berlin.de/sehenswuerdigkeiten/3560266-3558930-brandenburger-tor.html",
+        "label": "Berlin.de · Brandenburger Tor",
+        "note": "web/sted · Brug til stedskilde og kulturspor.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Ord og udtryk",
+            "members": []
+          },
+          {
+            "name": "Grammatik og udtale",
+            "members": []
+          },
+          {
+            "name": "Kunst og kultur",
+            "members": []
+          },
+          {
+            "name": "Den tysktalende verden",
+            "members": []
+          }
+        ],
+        "note": "Sproghold arbejder med ord, grammatik, kulturfigurer og steder."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Ord og udtryk\n• Grammatik og udtale\n• Kunst og kultur\n• Den tysktalende verden\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Ord og udtryk",
+            "count": 1
+          },
+          {
+            "text": "Grammatik og udtale",
+            "count": 1
+          },
+          {
+            "text": "Kunst og kultur",
+            "count": 1
+          },
+          {
+            "text": "Den tysktalende verden",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_4",
       "type": "text",
       "title": "Kildearbejde · Ord og udtryk",
       "geometry": {
@@ -637,7 +1063,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Ord og udtryk\n\nARBEJD MED KILDERNE\nBrug især: Duden, Goethe-Institut.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad betyder det tyske ord eller udtryk ‘Käse’?\n• Hvad betyder det tyske ord eller udtryk ‘Brot’?\n• Hvad betyder det tyske ord eller udtryk ‘Milch’?\n• Hvad betyder det tyske ord eller udtryk ‘Montag’?\n• Hvad betyder det tyske ord eller udtryk ‘bis morgen’?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Ord og udtryk\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad betyder det tyske ord eller udtryk ‘Käse’?\n• Hvad betyder det tyske ord eller udtryk ‘Brot’?\n• Hvad betyder det tyske ord eller udtryk ‘Milch’?\n• Hvad betyder det tyske ord eller udtryk ‘Montag’?\n• Hvad betyder det tyske ord eller udtryk ‘bis morgen’?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -651,15 +1077,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat1_activity",
+      "id": "w_20-sporgsmal-tysk_cat1_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_3",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_4",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -671,7 +1097,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Ord og udtryk\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Ord og udtryk\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -685,17 +1111,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat1_check",
+      "id": "w_20-sporgsmal-tysk_cat1_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_3",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_4",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -719,15 +1145,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat2_core",
+      "id": "w_20-sporgsmal-tysk_cat2_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_4",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_5",
       "type": "text",
       "title": "Kildearbejde · Grammatik og udtale",
       "geometry": {
@@ -739,7 +1165,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Grammatik og udtale\n\nARBEJD MED KILDERNE\nBrug især: Duden, Goethe-Institut.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken form af “haben” passer til “wir”?\n• Hvilken form af “werden” passer til “er”?\n• Hvordan placeres det delte verbum i “Ich ___ um sieben Uhr ___”?\n• Hvilken sætning står korrekt i perfektum?\n• Hvilket hjælpeverbum bruges normalt i perfektum af “gehen”?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Grammatik og udtale\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken form af “haben” passer til “wir”?\n• Hvilken form af “werden” passer til “er”?\n• Hvordan placeres det delte verbum i “Ich ___ um sieben Uhr ___”?\n• Hvilken sætning står korrekt i perfektum?\n• Hvilket hjælpeverbum bruges normalt i perfektum af “gehen”?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -753,15 +1179,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat2_activity",
+      "id": "w_20-sporgsmal-tysk_cat2_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_4",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_5",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -773,7 +1199,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Grammatik og udtale\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Grammatik og udtale\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -787,17 +1213,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat2_check",
+      "id": "w_20-sporgsmal-tysk_cat2_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_4",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_5",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -821,15 +1247,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat3_core",
+      "id": "w_20-sporgsmal-tysk_cat3_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_5",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_6",
       "type": "text",
       "title": "Kildearbejde · Kunst og kultur",
       "geometry": {
@@ -841,7 +1267,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Kunst og kultur\n\nARBEJD MED KILDERNE\nBrug især: Duden, Goethe-Institut.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvem skrev værket “Die Klavierspielerin”?\n• Hvem skabte værket eller figuren Struwwelpeter?\n• Hvem skabte værket eller figuren Heidi?\n• Hvem skabte værket eller figuren Emil und die Detektive?\n• Hvem skabte værket eller figuren Die unendliche Geschichte?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Kunst og kultur\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvem skrev værket “Die Klavierspielerin”?\n• Hvem skabte værket eller figuren Struwwelpeter?\n• Hvem skabte værket eller figuren Heidi?\n• Hvem skabte værket eller figuren Emil und die Detektive?\n• Hvem skabte værket eller figuren Die unendliche Geschichte?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -855,15 +1281,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat3_activity",
+      "id": "w_20-sporgsmal-tysk_cat3_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_5",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_6",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -875,7 +1301,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Kunst og kultur\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Kunst og kultur\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -889,17 +1315,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat3_check",
+      "id": "w_20-sporgsmal-tysk_cat3_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_5",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_6",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -923,15 +1349,15 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat4_core",
+      "id": "w_20-sporgsmal-tysk_cat4_core",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_6",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_7",
       "type": "text",
       "title": "Kildearbejde · Den tysktalende verden",
       "geometry": {
@@ -943,7 +1369,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Den tysktalende verden\n\nARBEJD MED KILDERNE\nBrug især: Duden, Goethe-Institut.\n\nUNDERSØGELSESSPØRGSMÅL\n• I hvilket land er tysk ét af fire nationale sprog?\n• I hvilket land findes et officielt tysksproget fællesskab?\n• I hvilken by eller region ligger Brandenburger Tor?\n• I hvilken by eller region ligger Schloss Schönbrunn?\n• I hvilken by eller region ligger Schloss Neuschwanstein?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "text": "KATEGORI: Den tysktalende verden\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• I hvilket land er tysk ét af fire nationale sprog?\n• I hvilket land findes et officielt tysksproget fællesskab?\n• I hvilken by eller region ligger Brandenburger Tor?\n• I hvilken by eller region ligger Schloss Schönbrunn?\n• I hvilken by eller region ligger Schloss Neuschwanstein?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -957,15 +1383,15 @@
       "relations": {
         "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat4_activity",
+      "id": "w_20-sporgsmal-tysk_cat4_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_6",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_7",
       "type": "text",
       "title": "Arbejd aktivt",
       "geometry": {
@@ -977,7 +1403,7 @@
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE · Den tysktalende verden\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "text": "AKTIV OPGAVE · Den tysktalende verden\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
         "fontSize": 15,
         "align": "left"
       },
@@ -991,17 +1417,17 @@
       "relations": {
         "layoutRole": "activity"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_cat4_check",
+      "id": "w_20-sporgsmal-tysk_cat4_check",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_6",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_7",
       "type": "text",
-      "title": "Kontrol og huskekort",
+      "title": "Kontrol uden valgmuligheder",
       "geometry": {
         "x": 750,
         "y": 420,
@@ -1025,39 +1451,39 @@
       "relations": {
         "layoutRole": "retrieval"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_flashcards",
+      "id": "w_20-sporgsmal-tysk_flashcards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_7",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_8",
       "type": "flashcard-matrix",
-      "title": "Huskekort · Tysk sprog og kultur",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
       "geometry": {
         "x": 20,
         "y": 85,
         "width": 1160,
-        "height": 720,
+        "height": 740,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "sourceType": "kapardy",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-tysk_v2_kapardy",
-        "sourceDatasetId": null,
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-tysk_kapardy",
+        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Tysk sprog og kultur",
-        "linked": true,
-        "view": "overview",
-        "categoryFilter": "Alle",
-        "statusFilter": "Alle",
-        "progress": {},
-        "overrides": {
-          "kp_tysk-sprog-og-kultur_01": {
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_tysk-sprog-kultur_01": {
             "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: ost. Brug kilden til at forklare, hvorfor dette er mere præcist end: æble · brød · mælk.",
+            "explanation": "Kort svar: ost. Forklar hvorfor det er mere præcist end: æble · brød · mælk.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1066,9 +1492,9 @@
               "mælk"
             ]
           },
-          "kp_tysk-sprog-og-kultur_02": {
+          "kp_tysk-sprog-kultur_02": {
             "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: brød. Brug kilden til at forklare, hvorfor dette er mere præcist end: æble · ost · mælk.",
+            "explanation": "Kort svar: brød. Forklar hvorfor det er mere præcist end: æble · ost · mælk.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1077,9 +1503,9 @@
               "mælk"
             ]
           },
-          "kp_tysk-sprog-og-kultur_03": {
+          "kp_tysk-sprog-kultur_03": {
             "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: mælk. Brug kilden til at forklare, hvorfor dette er mere præcist end: æble · ost · brød.",
+            "explanation": "Kort svar: mælk. Forklar hvorfor det er mere præcist end: æble · ost · brød.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1088,9 +1514,9 @@
               "brød"
             ]
           },
-          "kp_tysk-sprog-og-kultur_04": {
+          "kp_tysk-sprog-kultur_04": {
             "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: mandag. Brug kilden til at forklare, hvorfor dette er mere præcist end: vi ses i morgen · i går · snart.",
+            "explanation": "Kort svar: mandag. Forklar hvorfor det er mere præcist end: vi ses i morgen · i går · snart.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1099,9 +1525,9 @@
               "snart"
             ]
           },
-          "kp_tysk-sprog-og-kultur_05": {
+          "kp_tysk-sprog-kultur_05": {
             "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: vi ses i morgen. Brug kilden til at forklare, hvorfor dette er mere præcist end: mandag · i går · snart.",
+            "explanation": "Kort svar: vi ses i morgen. Forklar hvorfor det er mere præcist end: mandag · i går · snart.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1110,9 +1536,9 @@
               "snart"
             ]
           },
-          "kp_tysk-sprog-og-kultur_06": {
+          "kp_tysk-sprog-kultur_06": {
             "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: haben. Brug kilden til at forklare, hvorfor dette er mere præcist end: habt · hat · habe.",
+            "explanation": "Kort svar: haben. Forklar hvorfor det er mere præcist end: habt · hat · habe.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1121,9 +1547,9 @@
               "habe"
             ]
           },
-          "kp_tysk-sprog-og-kultur_07": {
+          "kp_tysk-sprog-kultur_07": {
             "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: wird. Brug kilden til at forklare, hvorfor dette er mere præcist end: werde · werdet · werden.",
+            "explanation": "Kort svar: wird. Forklar hvorfor det er mere præcist end: werde · werdet · werden.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1132,9 +1558,9 @@
               "werden"
             ]
           },
-          "kp_tysk-sprog-og-kultur_08": {
+          "kp_tysk-sprog-kultur_08": {
             "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: stehe … auf. Brug kilden til at forklare, hvorfor dette er mere præcist end: aufstehe … ikke mere · auf … stehe · stehe auf … igen til sidst.",
+            "explanation": "Kort svar: stehe … auf. Forklar hvorfor det er mere præcist end: aufstehe … ikke mere · auf … stehe · stehe auf … igen til sidst.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1143,9 +1569,9 @@
               "stehe auf … igen til sidst"
             ]
           },
-          "kp_tysk-sprog-og-kultur_09": {
+          "kp_tysk-sprog-kultur_09": {
             "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: Ich habe gearbeitet.. Brug kilden til at forklare, hvorfor dette er mere præcist end: Ich bin gearbeitet. · Ich habe arbeiten. · Ich arbeitete gehabt..",
+            "explanation": "Kort svar: Ich habe gearbeitet.. Forklar hvorfor det er mere præcist end: Ich bin gearbeitet. · Ich habe arbeiten. · Ich arbeitete gehabt..",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1154,9 +1580,9 @@
               "Ich arbeitete gehabt."
             ]
           },
-          "kp_tysk-sprog-og-kultur_10": {
+          "kp_tysk-sprog-kultur_10": {
             "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: sein. Brug kilden til at forklare, hvorfor dette er mere præcist end: haben · werden · können.",
+            "explanation": "Kort svar: sein. Forklar hvorfor det er mere præcist end: haben · werden · können.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1165,9 +1591,9 @@
               "können"
             ]
           },
-          "kp_tysk-sprog-og-kultur_11": {
+          "kp_tysk-sprog-kultur_11": {
             "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Elfriede Jelinek. Brug kilden til at forklare, hvorfor dette er mere præcist end: Hermann Hesse · Bertolt Brecht · Friedrich Dürrenmatt.",
+            "explanation": "Kort svar: Elfriede Jelinek. Forklar hvorfor det er mere præcist end: Hermann Hesse · Bertolt Brecht · Friedrich Dürrenmatt.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1176,9 +1602,9 @@
               "Friedrich Dürrenmatt"
             ]
           },
-          "kp_tysk-sprog-og-kultur_12": {
+          "kp_tysk-sprog-kultur_12": {
             "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Heinrich Hoffmann. Brug kilden til at forklare, hvorfor dette er mere præcist end: Johanna Spyri · Erich Kästner · Michael Ende.",
+            "explanation": "Kort svar: Heinrich Hoffmann. Forklar hvorfor det er mere præcist end: Johanna Spyri · Erich Kästner · Michael Ende.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1187,9 +1613,9 @@
               "Michael Ende"
             ]
           },
-          "kp_tysk-sprog-og-kultur_13": {
+          "kp_tysk-sprog-kultur_13": {
             "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Johanna Spyri. Brug kilden til at forklare, hvorfor dette er mere præcist end: Heinrich Hoffmann · Erich Kästner · Michael Ende.",
+            "explanation": "Kort svar: Johanna Spyri. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Erich Kästner · Michael Ende.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1198,9 +1624,9 @@
               "Michael Ende"
             ]
           },
-          "kp_tysk-sprog-og-kultur_14": {
+          "kp_tysk-sprog-kultur_14": {
             "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Erich Kästner. Brug kilden til at forklare, hvorfor dette er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Michael Ende.",
+            "explanation": "Kort svar: Erich Kästner. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Michael Ende.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1209,9 +1635,9 @@
               "Michael Ende"
             ]
           },
-          "kp_tysk-sprog-og-kultur_15": {
+          "kp_tysk-sprog-kultur_15": {
             "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Michael Ende. Brug kilden til at forklare, hvorfor dette er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Erich Kästner.",
+            "explanation": "Kort svar: Michael Ende. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Erich Kästner.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1220,9 +1646,9 @@
               "Erich Kästner"
             ]
           },
-          "kp_tysk-sprog-og-kultur_16": {
+          "kp_tysk-sprog-kultur_16": {
             "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Schweiz. Brug kilden til at forklare, hvorfor dette er mere præcist end: Tyskland · Østrig · Belgien.",
+            "explanation": "Kort svar: Schweiz. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Belgien.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1231,9 +1657,9 @@
               "Belgien"
             ]
           },
-          "kp_tysk-sprog-og-kultur_17": {
+          "kp_tysk-sprog-kultur_17": {
             "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Belgien. Brug kilden til at forklare, hvorfor dette er mere præcist end: Tyskland · Østrig · Schweiz.",
+            "explanation": "Kort svar: Belgien. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Schweiz.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1242,9 +1668,9 @@
               "Schweiz"
             ]
           },
-          "kp_tysk-sprog-og-kultur_18": {
+          "kp_tysk-sprog-kultur_18": {
             "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Berlin. Brug kilden til at forklare, hvorfor dette er mere præcist end: Wien · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
+            "explanation": "Kort svar: Berlin. Forklar hvorfor det er mere præcist end: Wien · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1253,9 +1679,9 @@
               "Alperne på grænsen mellem Schweiz og Italien"
             ]
           },
-          "kp_tysk-sprog-og-kultur_19": {
+          "kp_tysk-sprog-kultur_19": {
             "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Wien. Brug kilden til at forklare, hvorfor dette er mere præcist end: Berlin · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
+            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Berlin · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1264,9 +1690,9 @@
               "Alperne på grænsen mellem Schweiz og Italien"
             ]
           },
-          "kp_tysk-sprog-og-kultur_20": {
+          "kp_tysk-sprog-kultur_20": {
             "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Bayern. Brug kilden til at forklare, hvorfor dette er mere præcist end: Berlin · Wien · Alperne på grænsen mellem Schweiz og Italien.",
+            "explanation": "Kort svar: Bayern. Forklar hvorfor det er mere præcist end: Berlin · Wien · Alperne på grænsen mellem Schweiz og Italien.",
             "sourceTitle": "Duden",
             "sourceUrl": "https://www.duden.de/",
             "confusions": [
@@ -1282,7 +1708,7 @@
           "title": "KaPardy · Tysk sprog og kultur",
           "questions": [
             {
-              "id": "kp_tysk-sprog-og-kultur_01",
+              "id": "kp_tysk-sprog-kultur_01",
               "category": "Ord og udtryk",
               "question": "Hvad betyder det tyske ord eller udtryk ‘Käse’?",
               "points": 100,
@@ -1296,7 +1722,7 @@
               "answer": "ost"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_02",
+              "id": "kp_tysk-sprog-kultur_02",
               "category": "Ord og udtryk",
               "question": "Hvad betyder det tyske ord eller udtryk ‘Brot’?",
               "points": 200,
@@ -1310,7 +1736,7 @@
               "answer": "brød"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_03",
+              "id": "kp_tysk-sprog-kultur_03",
               "category": "Ord og udtryk",
               "question": "Hvad betyder det tyske ord eller udtryk ‘Milch’?",
               "points": 300,
@@ -1324,7 +1750,7 @@
               "answer": "mælk"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_04",
+              "id": "kp_tysk-sprog-kultur_04",
               "category": "Ord og udtryk",
               "question": "Hvad betyder det tyske ord eller udtryk ‘Montag’?",
               "points": 400,
@@ -1338,7 +1764,7 @@
               "answer": "mandag"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_05",
+              "id": "kp_tysk-sprog-kultur_05",
               "category": "Ord og udtryk",
               "question": "Hvad betyder det tyske ord eller udtryk ‘bis morgen’?",
               "points": 500,
@@ -1352,7 +1778,7 @@
               "answer": "vi ses i morgen"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_06",
+              "id": "kp_tysk-sprog-kultur_06",
               "category": "Grammatik og udtale",
               "question": "Hvilken form af “haben” passer til “wir”?",
               "points": 100,
@@ -1366,7 +1792,7 @@
               "answer": "haben"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_07",
+              "id": "kp_tysk-sprog-kultur_07",
               "category": "Grammatik og udtale",
               "question": "Hvilken form af “werden” passer til “er”?",
               "points": 200,
@@ -1380,7 +1806,7 @@
               "answer": "wird"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_08",
+              "id": "kp_tysk-sprog-kultur_08",
               "category": "Grammatik og udtale",
               "question": "Hvordan placeres det delte verbum i “Ich ___ um sieben Uhr ___”?",
               "points": 300,
@@ -1394,7 +1820,7 @@
               "answer": "stehe … auf"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_09",
+              "id": "kp_tysk-sprog-kultur_09",
               "category": "Grammatik og udtale",
               "question": "Hvilken sætning står korrekt i perfektum?",
               "points": 400,
@@ -1408,7 +1834,7 @@
               "answer": "Ich habe gearbeitet."
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_10",
+              "id": "kp_tysk-sprog-kultur_10",
               "category": "Grammatik og udtale",
               "question": "Hvilket hjælpeverbum bruges normalt i perfektum af “gehen”?",
               "points": 500,
@@ -1422,7 +1848,7 @@
               "answer": "sein"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_11",
+              "id": "kp_tysk-sprog-kultur_11",
               "category": "Kunst og kultur",
               "question": "Hvem skrev værket “Die Klavierspielerin”?",
               "points": 100,
@@ -1436,7 +1862,7 @@
               "answer": "Elfriede Jelinek"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_12",
+              "id": "kp_tysk-sprog-kultur_12",
               "category": "Kunst og kultur",
               "question": "Hvem skabte værket eller figuren Struwwelpeter?",
               "points": 200,
@@ -1450,7 +1876,7 @@
               "answer": "Heinrich Hoffmann"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_13",
+              "id": "kp_tysk-sprog-kultur_13",
               "category": "Kunst og kultur",
               "question": "Hvem skabte værket eller figuren Heidi?",
               "points": 300,
@@ -1464,7 +1890,7 @@
               "answer": "Johanna Spyri"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_14",
+              "id": "kp_tysk-sprog-kultur_14",
               "category": "Kunst og kultur",
               "question": "Hvem skabte værket eller figuren Emil und die Detektive?",
               "points": 400,
@@ -1478,7 +1904,7 @@
               "answer": "Erich Kästner"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_15",
+              "id": "kp_tysk-sprog-kultur_15",
               "category": "Kunst og kultur",
               "question": "Hvem skabte værket eller figuren Die unendliche Geschichte?",
               "points": 500,
@@ -1492,7 +1918,7 @@
               "answer": "Michael Ende"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_16",
+              "id": "kp_tysk-sprog-kultur_16",
               "category": "Den tysktalende verden",
               "question": "I hvilket land er tysk ét af fire nationale sprog?",
               "points": 100,
@@ -1506,7 +1932,7 @@
               "answer": "Schweiz"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_17",
+              "id": "kp_tysk-sprog-kultur_17",
               "category": "Den tysktalende verden",
               "question": "I hvilket land findes et officielt tysksproget fællesskab?",
               "points": 200,
@@ -1520,7 +1946,7 @@
               "answer": "Belgien"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_18",
+              "id": "kp_tysk-sprog-kultur_18",
               "category": "Den tysktalende verden",
               "question": "I hvilken by eller region ligger Brandenburger Tor?",
               "points": 300,
@@ -1534,7 +1960,7 @@
               "answer": "Berlin"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_19",
+              "id": "kp_tysk-sprog-kultur_19",
               "category": "Den tysktalende verden",
               "question": "I hvilken by eller region ligger Schloss Schönbrunn?",
               "points": 400,
@@ -1548,7 +1974,7 @@
               "answer": "Wien"
             },
             {
-              "id": "kp_tysk-sprog-og-kultur_20",
+              "id": "kp_tysk-sprog-kultur_20",
               "category": "Den tysktalende verden",
               "question": "I hvilken by eller region ligger Schloss Neuschwanstein?",
               "points": 500,
@@ -1562,7 +1988,7 @@
               "answer": "Bayern"
             }
           ],
-          "updatedAt": "2026-07-06T13:45:00.000Z"
+          "updatedAt": "2026-07-07T00:45:00.000Z"
         }
       },
       "settings": {
@@ -1573,20 +1999,19 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "flashcard-training",
-        "sourceWidgetId": "widget_professor_20-sporgsmal-tysk_v2_kapardy"
+        "layoutRole": "flashcard-training"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_workshop",
+      "id": "w_20-sporgsmal-tysk_workshop",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_8",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_9",
       "type": "text",
-      "title": "Prøveværksted",
+      "title": "Professorens prøveværksted",
       "geometry": {
         "x": 20,
         "y": 85,
@@ -1596,7 +2021,7 @@
         "z": 1
       },
       "content": {
-        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hver gruppe kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet. Det må gerne være enklere end kilden, men ikke upræcist.",
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
         "fontSize": 17,
         "align": "left"
       },
@@ -1610,27 +2035,62 @@
       "relations": {
         "layoutRole": "workshop"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_workshop_sources",
+      "id": "w_20-sporgsmal-tysk_workshop_timer",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_8",
-      "type": "text",
-      "title": "Kildekrav før spillet",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
       "geometry": {
         "x": 600,
         "y": 85,
         "width": 580,
-        "height": 330,
+        "height": 180,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nBrug Link-widgetterne fra tavlen Kilder og medier. Åbn dem som webvisning, når klassen skal se materialet sammen.\n\nNår et kort stadig står som 'Kan ikke endnu', skal gruppen tilbage til kilden før KaPardy.",
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-tysk_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1644,27 +2104,27 @@
       "relations": {
         "layoutRole": "source-requirement"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_workshop_cards",
+      "id": "w_20-sporgsmal-tysk_workshop_cards",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_8",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_9",
       "type": "text",
       "title": "Huskekortrunde",
       "geometry": {
         "x": 600,
-        "y": 435,
+        "y": 535,
         "width": 580,
-        "height": 350,
+        "height": 250,
         "rotation": 0,
-        "z": 3
+        "z": 4
       },
       "content": {
-        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er 'Næsten' eller 'Kan'.",
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
         "fontSize": 16,
         "align": "left"
       },
@@ -1678,15 +2138,15 @@
       "relations": {
         "layoutRole": "flashcard-routine"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_professor_20-sporgsmal-tysk_v2_kapardy",
+      "id": "w_20-sporgsmal-tysk_kapardy",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_professor_20-sporgsmal-tysk_v2_9",
+      "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_10",
       "type": "kapardy",
       "title": "KaPardy · Tysk sprog og kultur",
       "geometry": {
@@ -1701,7 +2161,7 @@
         "kapardyVersion": 2,
         "questionBankContract": "first-answer-correct",
         "gameId": "kapardy_20-sporgsmal-tysk_20",
-        "gameStartedAt": "2026-07-06T13:45:00.000Z",
+        "gameStartedAt": "2026-07-07T00:45:00.000Z",
         "gameMode": "jeopardy",
         "mode": "jeopardy",
         "kapardyScreen": "setup",
@@ -1720,7 +2180,7 @@
         ],
         "questions": [
           {
-            "id": "kp_tysk-sprog-og-kultur_01",
+            "id": "kp_tysk-sprog-kultur_01",
             "category": "Ord og udtryk",
             "question": "Hvad betyder det tyske ord eller udtryk ‘Käse’?",
             "points": 100,
@@ -1734,7 +2194,7 @@
             "answer": "ost"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_02",
+            "id": "kp_tysk-sprog-kultur_02",
             "category": "Ord og udtryk",
             "question": "Hvad betyder det tyske ord eller udtryk ‘Brot’?",
             "points": 200,
@@ -1748,7 +2208,7 @@
             "answer": "brød"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_03",
+            "id": "kp_tysk-sprog-kultur_03",
             "category": "Ord og udtryk",
             "question": "Hvad betyder det tyske ord eller udtryk ‘Milch’?",
             "points": 300,
@@ -1762,7 +2222,7 @@
             "answer": "mælk"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_04",
+            "id": "kp_tysk-sprog-kultur_04",
             "category": "Ord og udtryk",
             "question": "Hvad betyder det tyske ord eller udtryk ‘Montag’?",
             "points": 400,
@@ -1776,7 +2236,7 @@
             "answer": "mandag"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_05",
+            "id": "kp_tysk-sprog-kultur_05",
             "category": "Ord og udtryk",
             "question": "Hvad betyder det tyske ord eller udtryk ‘bis morgen’?",
             "points": 500,
@@ -1790,7 +2250,7 @@
             "answer": "vi ses i morgen"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_06",
+            "id": "kp_tysk-sprog-kultur_06",
             "category": "Grammatik og udtale",
             "question": "Hvilken form af “haben” passer til “wir”?",
             "points": 100,
@@ -1804,7 +2264,7 @@
             "answer": "haben"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_07",
+            "id": "kp_tysk-sprog-kultur_07",
             "category": "Grammatik og udtale",
             "question": "Hvilken form af “werden” passer til “er”?",
             "points": 200,
@@ -1818,7 +2278,7 @@
             "answer": "wird"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_08",
+            "id": "kp_tysk-sprog-kultur_08",
             "category": "Grammatik og udtale",
             "question": "Hvordan placeres det delte verbum i “Ich ___ um sieben Uhr ___”?",
             "points": 300,
@@ -1832,7 +2292,7 @@
             "answer": "stehe … auf"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_09",
+            "id": "kp_tysk-sprog-kultur_09",
             "category": "Grammatik og udtale",
             "question": "Hvilken sætning står korrekt i perfektum?",
             "points": 400,
@@ -1846,7 +2306,7 @@
             "answer": "Ich habe gearbeitet."
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_10",
+            "id": "kp_tysk-sprog-kultur_10",
             "category": "Grammatik og udtale",
             "question": "Hvilket hjælpeverbum bruges normalt i perfektum af “gehen”?",
             "points": 500,
@@ -1860,7 +2320,7 @@
             "answer": "sein"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_11",
+            "id": "kp_tysk-sprog-kultur_11",
             "category": "Kunst og kultur",
             "question": "Hvem skrev værket “Die Klavierspielerin”?",
             "points": 100,
@@ -1874,7 +2334,7 @@
             "answer": "Elfriede Jelinek"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_12",
+            "id": "kp_tysk-sprog-kultur_12",
             "category": "Kunst og kultur",
             "question": "Hvem skabte værket eller figuren Struwwelpeter?",
             "points": 200,
@@ -1888,7 +2348,7 @@
             "answer": "Heinrich Hoffmann"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_13",
+            "id": "kp_tysk-sprog-kultur_13",
             "category": "Kunst og kultur",
             "question": "Hvem skabte værket eller figuren Heidi?",
             "points": 300,
@@ -1902,7 +2362,7 @@
             "answer": "Johanna Spyri"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_14",
+            "id": "kp_tysk-sprog-kultur_14",
             "category": "Kunst og kultur",
             "question": "Hvem skabte værket eller figuren Emil und die Detektive?",
             "points": 400,
@@ -1916,7 +2376,7 @@
             "answer": "Erich Kästner"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_15",
+            "id": "kp_tysk-sprog-kultur_15",
             "category": "Kunst og kultur",
             "question": "Hvem skabte værket eller figuren Die unendliche Geschichte?",
             "points": 500,
@@ -1930,7 +2390,7 @@
             "answer": "Michael Ende"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_16",
+            "id": "kp_tysk-sprog-kultur_16",
             "category": "Den tysktalende verden",
             "question": "I hvilket land er tysk ét af fire nationale sprog?",
             "points": 100,
@@ -1944,7 +2404,7 @@
             "answer": "Schweiz"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_17",
+            "id": "kp_tysk-sprog-kultur_17",
             "category": "Den tysktalende verden",
             "question": "I hvilket land findes et officielt tysksproget fællesskab?",
             "points": 200,
@@ -1958,7 +2418,7 @@
             "answer": "Belgien"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_18",
+            "id": "kp_tysk-sprog-kultur_18",
             "category": "Den tysktalende verden",
             "question": "I hvilken by eller region ligger Brandenburger Tor?",
             "points": 300,
@@ -1972,7 +2432,7 @@
             "answer": "Berlin"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_19",
+            "id": "kp_tysk-sprog-kultur_19",
             "category": "Den tysktalende verden",
             "question": "I hvilken by eller region ligger Schloss Schönbrunn?",
             "points": 400,
@@ -1986,7 +2446,7 @@
             "answer": "Wien"
           },
           {
-            "id": "kp_tysk-sprog-og-kultur_20",
+            "id": "kp_tysk-sprog-kultur_20",
             "category": "Den tysktalende verden",
             "question": "I hvilken by eller region ligger Schloss Neuschwanstein?",
             "points": 500,
@@ -2009,7 +2469,7 @@
         "optionOrders": {},
         "usedQuestions": {},
         "scoreEvents": [],
-        "sourceName": "KaPardy · Tysk sprog og kultur"
+        "sourceCsv": "spil/kapardy/20/tysk_sprog_kultur_20.csv"
       },
       "settings": {
         "locked": false,
@@ -2019,10 +2479,10 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "kapardy-final"
+        "layoutRole": "kapardy"
       },
-      "createdAt": "2026-07-06T13:45:00.000Z",
-      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "createdAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-07T00:45:00.000Z",
       "legacy": null
     }
   ],
@@ -2030,22 +2490,22 @@
   "media": [],
   "manifest": {
     "selectedSessionIds": [
-      "session_professor_20-sporgsmal-tysk_v2"
+      "session_professor_20-sporgsmal-tysk_v2_showcase"
     ],
     "counts": {
       "sessions": 1,
-      "boards": 9,
-      "widgets": 25,
+      "boards": 10,
+      "widgets": 34,
       "datasets": 0,
       "media": 0
     },
     "referencedDatasetIds": [],
     "referencedMediaIds": [],
     "mediaBytes": 0,
-    "courseId": "course_professor_20-sporgsmal-tysk_v2",
+    "courseId": "course_professor_20-sporgsmal-tysk_v2_showcase",
     "courseTitle": "20 spørgsmål fra professoren · Tysk sprog og kultur",
     "courseSessionIds": [
-      "session_professor_20-sporgsmal-tysk_v2"
+      "session_professor_20-sporgsmal-tysk_v2_showcase"
     ]
   },
   "warnings": []
