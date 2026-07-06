@@ -1,475 +1,120 @@
-# Plan 1.1.3
+# Plan
 
+Plan er et lokalt arbejdsrum til undervisning. Du samler forløb, tavler, materialer, elever, grupper, kalender, kilder, huskekort og spil ét sted.
 
-## Nyt i Plan 1.1.3
+Plan er tænkt til lærere, der vil have overblik uden at miste fleksibiliteten: Du kan starte med et færdigt demoforløb, tilpasse det til din klasse og gemme arbejdet som din egen kopi.
 
-Ressourcematrixens **Saml fra tavlen** er gjort mere robust. Den læser nu både tavlens gemte widgetliste og de synlige links i widgetterne, så flere LinkWidgets, WebWidgets og linklistevisninger på samme tavle kan samles i én levende ressourceliste. Den bruger de ressourcer, der vises i dialogen, når du trykker **Saml i matrix**, så fundene ikke ændrer sig mellem forhåndsvisning og gemning.
+## Hvad bruger man Plan til?
 
+- Bygge årsforløb og korte undervisningsforløb.
+- Samle tavler, PDF’er, links, billeder, video og lyd.
+- Knytte tavler til datoer i kalenderen.
+- Arbejde med elever, hold, grupper og fælles data.
+- Lave kildematricer, huskekort, repetition og KaPardy.
+- Gemme og flytte forløb som sikkerhedskopier.
 
-<p align="center">
-  <img src="plan-assets/plan-icon.svg" alt="Plan" width="180">
-</p>
+## Hurtig start
 
-<p align="center">
-  <strong>Plan – tavler til overblik og læring</strong>
-</p>
+1. Åbn Plan.
+2. Vælg **Hent demoforløb**, hvis du vil starte med et færdigt forløb.
+3. Vælg fag eller søg efter emne.
+4. Tryk **Se og brug**.
+5. Plan laver en lokal kopi, som du frit kan redigere.
+6. Brug tavlerne fra venstre mod højre, eller vælg tavlerne fra oversigten.
+7. Gem en sikkerhedskopi, når du har tilpasset noget vigtigt.
 
-**Plan er lærerens lokale arbejds-, planlægnings- og præsentationsmiljø til hele undervisningsforløb.**
+## 20 spørgsmål fra professoren
 
-I Plan kan du samle årsplan, kalender, sessioner, tavler, materialer, aktiviteter, elevdata, hold, grupper, fagsamtaler, karakterarbejde, noter, kilder, medier, KaPardy-spil og huskekort i ét sammenhængende forløb.
+“20 spørgsmål fra professoren” er korte demoforløb, hvor eleverne først arbejder med kilder og begreber og først til sidst spiller KaPardy.
 
-Plan bruges direkte i browseren. Der kræves hverken login, elevkonti eller central server. Arbejdet gemmes lokalt på lærerens enhed, og læreren bestemmer selv, hvad der vises, deles, eksporteres og gemmes.
+Forløbene er gode, når du vil vise eleverne, at quiz ikke bare er gætteri. De skal undersøge, forklare, øve og genkalde stoffet, før de spiller.
 
-Plan bygger videre på den fleksible tavleform fra **Tavle**, men sætter hele undervisningsforløbet i centrum: fra skoleårets kalender og sessionernes rækkefølge til den enkelte tavle, elevgruppe, kilde, aktivitet og evaluering.
+### Sådan kører du et professorforløb på 2 lektioner
 
----
+1. Start på overblikstavlen og forklar målet: KaPardy til sidst.
+2. Brug Ressourcematrixen til at fordele kilder mellem elever eller grupper.
+3. Lad grupperne arbejde med én eller to kategorier hver.
+4. Brug Huskekortmatrixen til hurtig genkaldelse uden valgmuligheder.
+5. Afslut med KaPardy.
 
-## Nyt i 1.1.1
+### Sådan kører du et professorforløb på 3–4 lektioner
 
-Plan 1.1.3 samler de seneste ændringer i hjælp, bibliotek, læringsaktiviteter og arbejdet med kilder og medier:
+1. Lektion 1: Kilder, Ressourcematrix og de første kategorier.
+2. Lektion 2: De sidste kategorier og elevforklaringer.
+3. Lektion 3: Huskekort, prøveværksted og KaPardy.
+4. Ved 4 lektioner kan hver kategori få bedre tid og flere elevprodukter.
 
-- **Hjælp og README** er opdateret til den aktuelle version.
-- **Biblioteket** viser Musik og Historie som selvstændige fag.
-- **Andre 9.-klassefag** er en restkategori for øvrige 9.-klassefag.
-- **KaPardy** kan bruges som almindeligt spil og som læringsbank.
-- **Huskekort** og **Huskekortmatrix** kan bruges til aktiv genkaldelse, begrebstræning og repetition før KaPardy.
-- **Ressourcematrix** samler links, webkilder, MuseScore-noder, YouTube, PDF, lyd og video fra en levende ressourceliste.
-- Ressourcematrixen kan samle de links og webvisninger, der allerede ligger på en tavle, i én matrix.
-- Kilder og ressourcer åbnes midlertidigt som standard, medmindre læreren udtrykkeligt fastgør dem på tavlen.
-- Professorforløb kan bygges omkring kilder, medier, huskekort, arbejdsopgaver og KaPardy på sidste tavle.
+### Hvad skal eleverne gøre før spillet?
 
----
+- Finde svar i kilderne.
+- Skrive korte forklaringer med egne ord.
+- Kunne nævne typiske forvekslinger.
+- Træne spørgsmålene i Huskekortmatrixen.
+- Forklare mindst nogle svar uden at se valgmulighederne.
 
-## Åbn Plan
+### Hvornår er klassen klar til KaPardy?
 
-### Brug Plan online
+Klassen er klar, når de fleste spørgsmål kan forklares mundtligt, og eleverne kan sige, hvorfor de forkerte svar lyder plausible, men ikke passer.
 
-Åbn Plan direkte i browseren:
+## Ressourcematrix
 
-https://plan.måns.dk/
+Ressourcematrixen samler kilder, links, medier og korte noter. Brug den som klassens fælles kildebank.
 
-### Brug Plan som lokal HTML-app
+Typiske måder at bruge den på:
 
-Plan kan også åbnes som én selvstændig HTML-fil uden server eller internetforbindelse.
+- Lad hver gruppe vælge én kilde.
+- Bed eleverne finde tre nøgleord fra kilden.
+- Lad dem koble kilden til bestemte KaPardy-spørgsmål.
+- Brug kilderne igen, når et huskekort er svært.
 
-1. Hent den aktuelle `index.html`.
-2. Gem den et sikkert sted på enheden.
-3. Åbn HTML-filen i en moderne browser eller en egnet lokal HTML-app.
+## Huskekortmatrix
 
-Den online udgave kan desuden rumme appikon, færdige undervisningsforløb og KaPardy-spil. Den lokale HTML-fil kan bruges alene, men bibliotek og spil fungerer bedst i den online udgave.
+Huskekortmatrixen træner aktiv genkaldelse. Eleverne ser spørgsmålet først og prøver at svare, før bagsiden vendes.
 
-På iPad kan den online udgave føjes til hjemmeskærmen. Lokale HTML-filer kan bruges gennem en app, der understøtter lokal browserlagring.
+Brug de tre statusmarkeringer enkelt:
 
-> **Vigtigt:** Browserlagring hører til den browser, app eller webadresse, hvor Plan åbnes. Tag derfor jævnligt backup, især før du skifter browser, app, enhed eller rydder lokalt lager.
+- **Kan ikke endnu**: tilbage til kilden.
+- **Næsten**: forklar til en makker.
+- **Kan**: klar til spil eller fremlæggelse.
 
----
+## KaPardy
 
-## Plan i fire niveauer
+KaPardy er bedst som afslutning, når eleverne allerede har mødt stoffet. Brug det som fælles opsamling, repetition eller holdaktivitet.
 
-Plan organiserer undervisningen i fire niveauer:
+En god KaPardy-runde fungerer sådan:
 
-1. **Undervisningsforløb** – for eksempel *Dansk 2026–27* eller *20 spørgsmål fra professoren · Matematik*.
-2. **Sessioner** – for eksempel *Familien*, *Frihed og flugt*, *Huskekort og aktiv genkaldelse* eller *Mundtlig prøve*.
-3. **Tavler** – de konkrete arbejdsflader i en session.
-4. **Widgets** – tekst, billeder, PDF, data, kilder, aktiviteter og andet indhold på tavlen.
+1. Del klassen i hold.
+2. Vælg kategori og point.
+3. Lad holdet diskutere kort.
+4. Bed dem begrunde svaret.
+5. Brug forkerte svar som anledning til at tale om forvekslinger.
 
-Kalenderen binder niveauerne sammen. En kalenderaktivitet kan pege på et fagligt planpunkt, et hold, arbejdsgrupper og én eller flere tavler.
+## Tavler, sessioner og kalender
 
-Når Plan åbner, kan du fortsætte det senest brugte forløb, gå til næste session, vælge en anden session eller åbne oversigten over alle undervisningsforløb.
+En tavle er den konkrete arbejdsflade. En session er et større arbejdsrum, for eksempel et emne, en periode eller et forløb. Kalenderen kan knytte tavlerne til datoer og lektioner.
 
----
+Brug kalenderen, når forløbet skal fordeles over tid. Brug tavleoversigten, når du vil finde rundt i materialet her og nu.
 
-## Biblioteket
+## Grupper og hold
 
-Plan har et bibliotek med undervisningsforløb og skabeloner.
+Plan kan bruges med hele klassen, faste hold eller midlertidige grupper.
 
-Åbn biblioteket via:
+Gode anvendelser:
 
-**Plan-ikonet eller forløbsnavnet → Alle undervisningsforløb → Hent demoforløb**
+- Ekspertgrupper til hver sin kilde.
+- Arbejdsgrupper til hver sin kategori.
+- Hold til KaPardy.
+- Elevlister og grupper, der kan genbruges i flere aktiviteter.
 
-eller:
+## Sikkerhedskopi
 
-**Datacenter → Bibliotek**
+Tag en sikkerhedskopi, når du har lavet ændringer, du ikke vil miste. Det er især vigtigt efter større tilpasninger, import af mange filer eller opbygning af et helt årsforløb.
 
-Et bibliotekseksemplar importeres som en selvstændig lokal kopi. Lærerens ændringer påvirker ikke filen i biblioteket.
+## God arbejdsgang
 
-### Fag i biblioteket
-
-Biblioteket viser forløbene samlet efter fag, så læreren hurtigt kan finde det rigtige materiale.
-
-Aktuelle hovedfag kan blandt andet være:
-
-- Dansk
-- Engelsk
-- Matematik
-- Science
-- Tysk
-- Musik
-- Historie
-- Andre 9.-klassefag
-- Andre
-
-**Musik** og **Historie** er selvstændige fag i biblioteket. Balkanmusik og Musikgenrer hører derfor til Musik, mens Verdenskrigenes historie hører til Historie.
-
-**Andre 9.-klassefag** er en restkategori til fag som samfundsfag, geografi, biologi, kristendom, idræt/gymnastik og praktisk-kreative fag, hvis de ikke har egne fagknapper.
-
-### Professorforløb
-
-Professorforløbene er korte kildebaserede undervisningsforløb, der leder frem mod et 20-spørgsmåls KaPardy-spil.
-
-Et typisk professorforløb indeholder:
-
-1. overblik over forløbet,
-2. kilde- og medieliste,
-3. faglige arbejdstavler,
-4. læsning, lytning, kig, samtale eller opgaver,
-5. huskekortmatrix,
-6. prøveværksted,
-7. KaPardy på sidste tavle.
-
-Målet er, at eleverne ikke blot møder spørgsmålene som quiz, men arbejder med kilder, begreber, forklaringer og forvekslinger inden spillet.
-
----
-
-## KaPardy, læringsbank og huskekort
-
-KaPardy kan bruges som spil, men kan også fungere som en spørgsmålsbank for læring.
-
-### KaPardy
-
-KaPardy kan bruge:
-
-- færdige spil fra Plans spilbibliotek,
-- CSV- og Excel-filer fra disk,
-- en eksisterende lokal spørgsmålsbank,
-- spørgsmål, der skrives og redigeres direkte i widgetten.
-
-KaPardy bevarer kompatibilitet med den klassiske spilbankaftale: det første svar efter spørgsmålet er korrekt, og de tre næste er forkerte. I Kahoot-visningen blandes svarene ved spilstart og får tydelige farver, så holdene kan svare eksempelvis **Blå**, **Rød**, **Gul** eller **Grøn**.
-
-### Huskekort
-
-Et **Huskekort** er et vendekort med forside, bagside, forklaring, hint, kilde, forvekslinger og status.
-
-Det kan bruges til:
-
-- begreber,
-- personer,
-- årstal,
-- fagord,
-- billeder,
-- citater,
-- kilder,
-- korte forklaringer,
-- repetition før spil.
-
-### Huskekortmatrix
-
-En **Huskekortmatrix** samler mange huskekort og kan vise dem som overblik eller som træning ét kort ad gangen.
-
-Matrixen kan blandt andet bruges til:
-
-- aktiv genkaldelse,
-- pararbejde,
-- fælles repetition,
-- “kan / næsten / kan ikke endnu”-markering,
-- kategorifiltrering,
-- kildeberigelse,
-- forberedelse til KaPardy.
-
-En huskekortmatrix kan være en **levende visning af en KaPardy-bank**. Så kopieres spørgsmålene ikke som standard. Matrixen gemmer kun læringslaget: status, hints, forklaringer, kilder og eventuelle ekstra kort.
-
-Hvis læreren vil gøre matrixen uafhængig af KaPardy-spillet, kan den afkobles som lokal kopi.
-
-### Kilder i huskekort
-
-Når en kilde åbnes fra et huskekort, åbnes den som udgangspunkt som et midlertidigt kildevindue. Det betyder:
-
-- vinduet kan lukkes med X,
-- intet sendes i Papirkurv,
-- der oprettes ikke en permanent widget,
-- forløbspakken ændres ikke.
-
-Hvis kilden skal blive på tavlen, vælger læreren at fastgøre den som widget.
-
-
-## Ressourcematrix og levende ressourcelister
-
-En **Ressourcematrix** samler mange kilder og medier i én overskuelig visning. Den kan bruges til almindelige links, websteder, MuseScore-noder, YouTube-videoer, PDF-links, lyd, video og andre materialer.
-
-Ressourcematrixen er lavet til undervisningsforløb, hvor eleverne først skal undersøge, lytte, læse, kigge eller sammenligne materialer, før de arbejder videre med opgaver, huskekort eller KaPardy.
-
-Matrixen kan vise ressourcerne som:
-
-- kort overblik,
-- én aktiv web- eller nodevisning ad gangen,
-- kildeåbning i et midlertidigt vindue,
-- fastgjorte widgets på tavlen, når læreren bevidst vælger det.
-
-Ressourcerne kan ligge i en levende liste, så den samme liste kan bruges flere steder uden at kopiere alle links manuelt. Ændres listen, kan matrixen følge med.
-
-Hvis der allerede ligger flere LinkWidgets eller Webvisninger på en tavle, kan læreren samle dem i Ressourcematrixen med **Saml fra tavlen**. Plan læser også de LinkWidgets, der er koblet til en levende linkliste, så flere linkwidgets kan samles korrekt i én matrix. De gamle enkeltwidgets bevares som udgangspunkt. Læreren kan også vælge at skjule dem efter samlingen, uden at de sendes i Papirkurv.
-
-For at holde Plan let på iPad og SmartBoard indlæser Ressourcematrixen ikke alle websteder samtidigt. Oversigten er let, og den tunge web-, node-, lyd- eller videovisning åbnes først, når en ressource vælges.
-
----
-
-## Byg årsplanen med kalenderen
-
-Kalenderen kan åbnes fra alle tavler med kalenderknappen ved uret eller med `K`.
-
-Den kan vises som **Dag**, **Uge**, **Måned** eller **Liste** og kan bruges både til skolens importerede kalender og lærerens egen faglige plan.
-
-### Knyt tavler til datoer og aktiviteter
-
-- Vælg en eksisterende kalenderaktivitet og brug **Knyt aktuel tavle**.
-- På en tom dato kan du oprette et lokalt planpunkt med titel og eventuelt tidspunkt.
-- Tomme datoer er klappet sammen, indtil du vælger at planlægge dem.
-- En aktivitet kan have flere tavler. Du behøver derfor ikke oprette flere ens aktiviteter på samme dato.
-- I Dag og Liste er 1–5 tilknyttede tavler foldet ud som standard. Ved flere end fem kan listen åbnes efter behov.
-
-Når en ny tavle oprettes fra et tavleforløb, placeres den efter den aktive tavle og fortsætter samme kalenderaktivitet eller planpunkt. Den nye tavle er tom, men arver tavlens grundudseende. **Duplikér tavle** kopierer også indholdet.
-
-### Tid, hold og grupper
-
-Det oprindelige faglige forløb kan godt være oprettet uden klokkeslæt. Når det kobles til en importeret kalender, vises kalenderens konkrete start- og sluttider sammen med planpunktets faglige titel.
-
-En aktivitet kan desuden knyttes til:
-
-- et levende faghold eller elevudvalg,
-- eksisterende arbejdsgrupper,
-- nye arbejdsgrupper dannet fra holdet,
-- flere tavler i den rækkefølge, de skal bruges.
-
-Fra **Arbejd med holdet** kan læreren blandt andet åbne Elevkortmatrix, Lykkehjul, arbejdsgrupper, Fagsamtaler og karakterer.
-
----
-
-## Fra planlægning til undervisning
-
-Et undervisningsforløb kan blandt andet indeholde:
-
-- årsplan og kalender,
-- sessioner i kronologisk rækkefølge,
-- starttavler og dagsprogrammer,
-- lærerens oplæg og instruktioner,
-- opgaver, links og PDF-materialer,
-- billeder, video og lyd,
-- elev-, gruppe- og tavleoverblik,
-- kilder og medielister,
-- huskekort og aktiv genkaldelse,
-- KaPardy og andre aktiviteter,
-- opsamling, evaluering og noter,
-- reserveindhold og alternative veje.
-
-Tavlerne kan bruges som sider i et forløb, men de er samtidig frie arbejdsflader. Widgets kan flyttes, ændres i størrelse, roteres, låses, skjules, minimeres og maksimeres.
-
-Plan kan derfor tilpasses, mens undervisningen er i gang, uden at læreren er bundet til en fast præsentation.
-
-### Arbejdsformer
-
-- **Redigering** bruges til at opbygge og ændre tavlen.
-- **Præsentation** skjuler redigeringsgrejet og giver en roligere fælles visning.
-- **Fokus** fremhæver én widget ad gangen.
-- **Maksimering** lader én widget fylde arbejdsfladen.
-- **Tavleskift** fører gennem sessionens tavler.
-- **Widgetvælgeren** gør det hurtigt at finde og fokusere et bestemt element.
-- **Redningsbæltet** kan nulstille visningen, finde vinduer og foreslå et nyt arrangement uden at ændre widgetternes indhold.
-
----
-
-## Data og Datacenter
-
-Plan kan bruge regneark, CSV-filer, kalenderfiler, lister og fælles datakilder som grundlag for mange arbejdsgange.
-
-Du kan blandt andet:
-
-- vise et datasæt som DataWidget,
-- importere CSV- og XLSX-filer,
-- vælge mellem flere ark i samme projektmappe,
-- oprette lister ud fra data,
-- genbruge samme kilde i flere widgets,
-- filtrere, sortere og sammensætte data med DataRemix,
-- bruge navnelister i Grupper og Lykkehjulet,
-- oprette Elevkort og Elevkortmatricer,
-- koble spørgeskemaer, vurderinger og Elevstamdata,
-- danne grupper og gruppetavler,
-- importere og genbruge kalenderdata fra ICS-filer,
-- se relationer mellem objekter, visninger og datakilder.
-
-Datacenter åbnes med `D` og samler blandt andet Årsforløb, Bibliotek, Sessioner, Sessionsdata, Fælles data, Datakilder, DataRemix, Relationer, Medier, Gendannelse og Lager.
-
----
-
-## Dansk – fra elevsvar til hold, samtaler og karakterer
-
-Plan kan samle et helt danskfagligt arbejdsforløb uden at blande de oprindelige datakilder sammen.
-
-En typisk arbejdsgang er:
-
-1. Importér **Elevstamdata**.
-2. Importér spørgeskemaer, lærerark og samtaleark som separate datakilder.
-3. Opret en **Niveaudelingsmatrix**.
-4. Gennemgå eleverne og placér dem på Hold 1, Hold 2 eller Hold 3.
-5. Arbejd videre fra **Mit danskhold**.
-6. Knyt holdet til relevante kalenderaktiviteter.
-7. Gennemfør **Fagsamtaler**.
-8. Giv og eksporter **Standpunktskarakterer**.
-
-Elevens oprindelige svar ændres ikke. Plans anbefalinger, placeringer, begrundelser, fagsamtaler og karakterer gemmes særskilt.
-
----
-
-## Elevkort, grupper og overblik
-
-Fra et egnet Elevstamdatasæt kan du oprette:
-
-- enkelte Elevkort,
-- en Elevkortmatrix,
-- elevtavler,
-- elevnoter,
-- noteoversigter.
-
-GruppeWidget kan hente deltagere fra en liste, et datasæt eller et faghold, danne grupper, låse deltagere eller roller, oprette tomme grupper, dele en eksisterende gruppe, oprette gruppetavler og knytte et gruppesæt til et kalenderpunkt.
-
-En gemt gruppering åbnes i Gruppegalaksen som den samme gruppering. Der oprettes ikke automatisk en ny kopi.
-
-Plan kan desuden samle relaterede elementer i matrixer: Elevkortmatrix, Niveaudelingsmatrix, Fagsamtalematrix, Karaktermatrix, Gruppekortmatrix, TavleKortmatrix, Billedmatrix, Videomatrix, Lydmatrix, PDF-matrix og Huskekortmatrix.
-
----
-
-## Materialer og medier
-
-Du kan vælge eller trække én eller mange filer ind i Plan. Appen forsøger selv at vælge en passende visning.
-
-Det kan blandt andet være:
-
-- billeder,
-- video,
-- lyd,
-- PDF,
-- regneark og CSV,
-- tekstfiler,
-- kalenderfiler,
-- HTML-apps,
-- backup- og forløbspakker.
-
-En enkelt mediefil åbnes som en almindelig widget. Flere filer af samme type kan samles i Billedmatrix, Videomatrix eller Lydmatrix.
-
-PDF-filer åbnes som PDF-widgets med sidevisning, formularfelter, links, scrolling og kantbladring.
-
-Plan kan også indlejre selvstændige HTML-apps som Plan, Tavle, Skriv, Tjek, TiddlyWiki og andre lokale eller webbaserede HTML-apps.
-
----
-
-## Lokal lagring, backup og gendannelse
-
-Plan gemmer arbejdet lokalt i browseren.
-
-Du kan blandt andet bruge:
-
-- **Backup** til den aktuelle session,
-- **Backup+** med tilknyttede data og medier,
-- **Backup++** til én, flere eller alle sessioner,
-- **Årsforløbspakker** til et helt undervisningsforløb,
-- **Sessionpakker** til udvalgte tavler, elevtavler, gruppetavler eller matricer,
-- **Papirkurv** til slettede widgets og tavler,
-- **Gendannelsespunkter** til tidligere tilstande,
-- **Lagerredning** ved gemmefejl eller pladsmangel.
-
-Plan kontrollerer lagringen før større forløbs- og sessionsskift. Hvis browseren ikke kan gemme, bliver det aktuelle arbejde stående åbent, og Lagerredning tilbyder nødbackup, sikker oprydning og et nyt gemmeforsøg.
-
-> Tag backup før oprydning eller nulstilling. En lokal HTML-app er kun så sikker som den seneste backup, du faktisk har gemt uden for browseren.
-
----
-
-## Lærerens lokale arbejdsrum
-
-Plan er først og fremmest lærerens eget undervisningsmiljø.
-
-Det betyder:
-
-- ingen login,
-- ingen elevkonti,
-- ingen central database,
-- ingen indbygget aflevering eller beskedsystem,
-- lokal kontrol over data og medier,
-- læreren bestemmer, hvad der vises, deles og eksporteres.
-
-Materialer kan udleveres og modtages gennem skolens eksisterende tjenester.
-
-Plan er ikke afhængig af, at eleverne bruger Plan på deres egne enheder.
-
----
-
-## Kompatibilitet med Tavle
-
-Plan er et nyt produktnavn og en mere sammenhængende forløbsmodel, men arbejdsfladerne hedder fortsat **tavler**.
-
-Plan bevarer så vidt muligt kompatibilitet med den klassiske Tavle, herunder:
-
-- tavler og mange almindelige widgettyper,
-- sessioner,
-- data og medier,
-- PDF,
-- KaPardy-spil og spilbanker,
-- backup- og importformater.
-
-Ved import kan Plan omforme ældre indhold til den nye model. Indhold, som ikke har en sikker direkte Plan-udgave, bør kontrolleres efter importen.
-
----
-
-## Hjælp i appen
-
-README-filen er den overordnede introduktion. Den indbyggede **Hjælp** er den praktiske vejledning, mens du arbejder. Her vises også den aktuelle Plan-version.
-
-Hjælp indeholder blandt andet:
-
-- undervisningsforløb, sessioner og tavler,
-- kalender, planpunkter, hold og grupper,
-- widgets og filimport,
-- data og Datacenter,
-- Elevstamdata og Elevkort,
-- Niveaudeling og danskhold,
-- Fagsamtaler,
-- Standpunktskarakterer,
-- KaPardy, Huskekort, Ressourcematrix og andre aktiviteter,
-- medier og PDF,
-- backup, Lagerredning og gendannelse,
-- tastatur, touch og præsentation.
-
-Hjælpen kan betjenes med tastaturet:
-
-- `←` og `→` skifter hjælpeafsnit,
-- `↑` og `↓` scroller,
-- `Enter` åbner eller vælger,
-- `B` skifter tema,
-- `Esc` lukker eller går tilbage.
-
----
-
-## Onlineudgave og lokalt arbejde
-
-Plan kan bruges direkte online eller som en lokal HTML-fil. Den online udgave giver lettest adgang til bibliotek, demoforløb og KaPardy-spil. Den lokale fil er praktisk, når du vil arbejde uden net eller gemme en bestemt version på din egen enhed.
-
-Uanset hvordan Plan åbnes, er det vigtigt at tage backup af dine egne forløb, især før du skifter browser, enhed eller rydder lokalt lager.
-
----
-
-## Kort fortalt
-
-**Plan – tavler til overblik og læring** samler lærerens:
-
-- årsplan, kalender og undervisningsforløb,
-- sessioner og tavler,
-- materialer, kilder og medier,
-- lister, data og relationer,
-- Elevstamdata og Elevkort,
-- niveaudeling og levende hold,
-- Fagsamtaler,
-- Standpunktskarakterer,
-- grupper og aktiviteter,
-- KaPardy, Huskekort, Ressourcematrix og repetition,
-- præsentation og tavlearbejde,
-- backup, gendannelse og genbrug
-
- i én lokal browserapp, der kan tilpasses undervisningen, mens den foregår.
+1. Start med et færdigt forløb eller en tom session.
+2. Saml kilder og materialer.
+3. Lav tavler med tydelige arbejdsopgaver.
+4. Brug grupper, timer og huskekort til aktivitet.
+5. Afslut med fælles opsamling, KaPardy eller elevproduktion.
+6. Gem en sikkerhedskopi.

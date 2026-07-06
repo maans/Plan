@@ -15,7 +15,7 @@
     "sessionIds": [
       "camp-26"
     ],
-    "exportedAt": "2026-07-02T19:16:37.091Z",
+    "exportedAt": "2026-07-07T01:30:00.000Z",
     "sourceAppVersion": "0.9.3eq"
   },
   "sessions": [
@@ -29,10 +29,12 @@
         "board_camp-26_1_p4hlix",
         "board_camp-26_2_0ey19w",
         "board_mr0mhile_xzrd259r",
-        "board_camp-26_3_13jy99"
+        "board_camp-26_3_13jy99",
+        "board_camp-26_huskekort",
+        "board_camp-26_kapardy"
       ],
       "createdAt": "2026-06-30T12:06:06.287Z",
-      "updatedAt": "2026-07-02T19:16:37.091Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_camp-26",
         "courseTitle": "Camp 26",
@@ -245,6 +247,66 @@
             }
           ]
         }
+      }
+    },
+    {
+      "id": "board_camp-26_huskekort",
+      "schemaVersion": 1,
+      "sessionId": "camp-26",
+      "title": "Huskekort og Camp-prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#7c4a21 55%,#9a6a35 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_camp-26_guide",
+        "widget_camp-26_flashcards",
+        "widget_camp-26_timer"
+      ],
+      "layoutFamilyId": "plan-demo-showcase",
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "meta": {
+        "lessonPart": "finale",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_camp-26_kapardy",
+      "schemaVersion": 1,
+      "sessionId": "camp-26",
+      "title": "KaPardy · Camp 26",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_camp-26_kapardy"
+      ],
+      "layoutFamilyId": "plan-demo-showcase",
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "meta": {
+        "lessonPart": "finale",
+        "order": 6
       }
     }
   ],
@@ -494,6 +556,959 @@
       "relations": {},
       "createdAt": "2026-06-30T12:28:38.056Z",
       "updatedAt": "2026-07-02T19:01:01.936Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_camp-26_guide",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_camp-26_huskekort",
+      "type": "text",
+      "title": "Sådan bruges Camp-finalen",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 540,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "CAMP 26 · KORT REPETITION\n\nBrug denne tavle, når eleverne skal samle det kreative værkstedsarbejde.\n\n1. Vend huskekortene og svar uden valgmuligheder.\n2. Giv et eksempel fra gruppens eget produkt.\n3. Brug timeren til korte forklaringsrunder.\n4. Slut af med KaPardy på næste tavle.\n\nPointen er ikke at gøre Camp-forløbet tungt, men at vise at Plan også kan samle små kreative forløb med gruppearbejde, medier, refleksion og en let fælles afslutning.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "teacher-guide"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_camp-26_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_camp-26_huskekort",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · Camp 26",
+      "geometry": {
+        "x": 590,
+        "y": 85,
+        "width": 590,
+        "height": 520,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "widget_camp-26_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Camp 26",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_camp26_finale_01": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: At se på inspiration og vælge en tydelig idé. Forklar hvorfor dette svar passer bedre end: At kopiere uden at tænke · At vente på facit · At smide materialerne væk.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At kopiere uden at tænke",
+              "At vente på facit",
+              "At smide materialerne væk"
+            ]
+          },
+          "kp_camp26_finale_02": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: Hvordan former, farver og fokus er placeret. Forklar hvorfor dette svar passer bedre end: Hvad billedet vejer · Hvor dyr rammen er · Hvor længe limen tørrer.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Hvad billedet vejer",
+              "Hvor dyr rammen er",
+              "Hvor længe limen tørrer"
+            ]
+          },
+          "kp_camp26_finale_03": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: Den gør idéen synlig, før arbejdet låses fast. Forklar hvorfor dette svar passer bedre end: Den er altid det færdige værk · Den forhindrer ændringer · Den erstatter samarbejde.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Den er altid det færdige værk",
+              "Den forhindrer ændringer",
+              "Den erstatter samarbejde"
+            ]
+          },
+          "kp_camp26_finale_04": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: En personlig og begrundet måde at forstå og omsætte et oplæg på. Forklar hvorfor dette svar passer bedre end: En tilfældig fejl · En kopi uden valg · En liste over regler.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "En tilfældig fejl",
+              "En kopi uden valg",
+              "En liste over regler"
+            ]
+          },
+          "kp_camp26_finale_05": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: At den kan forklares enkelt og udvikles visuelt. Forklar hvorfor dette svar passer bedre end: At den er hemmelig for gruppen · At ingen kan se den · At den ikke må ændres.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At den er hemmelig for gruppen",
+              "At ingen kan se den",
+              "At den ikke må ændres"
+            ]
+          },
+          "kp_camp26_finale_06": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: For at opdage muligheder og begrænsninger. Forklar hvorfor dette svar passer bedre end: For at bruge mest muligt lim · For at undgå at lære noget · For at gøre processen usynlig.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "For at bruge mest muligt lim",
+              "For at undgå at lære noget",
+              "For at gøre processen usynlig"
+            ]
+          },
+          "kp_camp26_finale_07": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: At prøve, vælge, forbedre og gøre færdigt. Forklar hvorfor dette svar passer bedre end: At stoppe ved første fejl · At vente på at andre gør alt · At skifte idé hvert minut.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At stoppe ved første fejl",
+              "At vente på at andre gør alt",
+              "At skifte idé hvert minut"
+            ]
+          },
+          "kp_camp26_finale_08": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: Forskelle der får noget til at træde tydeligt frem. Forklar hvorfor dette svar passer bedre end: At alt bliver ens · At man skjuler motivet · At man undgår farver.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At alt bliver ens",
+              "At man skjuler motivet",
+              "At man undgår farver"
+            ]
+          },
+          "kp_camp26_finale_09": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: De gør det lettere at se arbejdet med friske øjne. Forklar hvorfor dette svar passer bedre end: De fjerner behovet for valg · De gør værket automatisk færdigt · De betyder at man ikke skal evaluere.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "De fjerner behovet for valg",
+              "De gør værket automatisk færdigt",
+              "De betyder at man ikke skal evaluere"
+            ]
+          },
+          "kp_camp26_finale_10": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: At de vigtigste valg er tydelige og gennemarbejdede. Forklar hvorfor dette svar passer bedre end: At alt er tilfældigt · At idéen ikke kan ses · At gruppen ikke kan forklare noget.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At alt er tilfældigt",
+              "At idéen ikke kan ses",
+              "At gruppen ikke kan forklare noget"
+            ]
+          },
+          "kp_camp26_finale_11": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: En fælles aftale om opgave, roller og tid. Forklar hvorfor dette svar passer bedre end: At alle taler på én gang · At ingen ved hvad de skal · At kun én bestemmer alt.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At alle taler på én gang",
+              "At ingen ved hvad de skal",
+              "At kun én bestemmer alt"
+            ]
+          },
+          "kp_camp26_finale_12": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: Konkret hjælp der viser hvad der virker og hvad der kan forbedres. Forklar hvorfor dette svar passer bedre end: Kun “det er flot” · At grine af fejl · At ændre andres arbejde uden aftale.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Kun “det er flot”",
+              "At grine af fejl",
+              "At ændre andres arbejde uden aftale"
+            ]
+          },
+          "kp_camp26_finale_13": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: Lytte, begrunde valg og afprøve en løsning. Forklar hvorfor dette svar passer bedre end: Stoppe arbejdet helt · Slette andres idéer · Ignorere opgaven.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Stoppe arbejdet helt",
+              "Slette andres idéer",
+              "Ignorere opgaven"
+            ]
+          },
+          "kp_camp26_finale_14": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: Den hjælper gruppen med at nå både forsøg og færdiggørelse. Forklar hvorfor dette svar passer bedre end: Den gør idéer unødvendige · Den bestemmer facit · Den erstatter samtale.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Den gør idéer unødvendige",
+              "Den bestemmer facit",
+              "Den erstatter samtale"
+            ]
+          },
+          "kp_camp26_finale_15": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: At flere bidrag hænger sammen i én tydelig helhed. Forklar hvorfor dette svar passer bedre end: At man kan se konflikterne i gruppen · At ingen har bidraget · At produktet ikke kan præsenteres.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At man kan se konflikterne i gruppen",
+              "At ingen har bidraget",
+              "At produktet ikke kan præsenteres"
+            ]
+          },
+          "kp_camp26_finale_16": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: Idé, vigtige valg og hvad man har lært. Forklar hvorfor dette svar passer bedre end: Kun en undskyldning · Kun materialelisten · Kun hvem der stod nærmest.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Kun en undskyldning",
+              "Kun materialelisten",
+              "Kun hvem der stod nærmest"
+            ]
+          },
+          "kp_camp26_finale_17": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: At forklare hvorfor man gjorde, som man gjorde. Forklar hvorfor dette svar passer bedre end: At gætte på lærerens mening · At sige “fordi sådan” · At undgå spørgsmål.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At gætte på lærerens mening",
+              "At sige “fordi sådan”",
+              "At undgå spørgsmål"
+            ]
+          },
+          "kp_camp26_finale_18": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: Sammenhæng mellem idé, proces og produkt. Forklar hvorfor dette svar passer bedre end: Kun om noget er dyrt · Kun om det ligner naboens · Kun om præsentationen er lang.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Kun om noget er dyrt",
+              "Kun om det ligner naboens",
+              "Kun om præsentationen er lang"
+            ]
+          },
+          "kp_camp26_finale_19": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: Den hjælper eleverne med at opdage læring og næste skridt. Forklar hvorfor dette svar passer bedre end: Den gør processen usynlig · Den erstatter produktet helt · Den handler kun om karakterer.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Den gør processen usynlig",
+              "Den erstatter produktet helt",
+              "Den handler kun om karakterer"
+            ]
+          },
+          "kp_camp26_finale_20": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: “Vi valgte … fordi … og næste gang vil vi …”. Forklar hvorfor dette svar passer bedre end: “Vi gjorde noget.” · “Det ved vi ikke.” · “Ingen må spørge.”.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "“Vi gjorde noget.”",
+              "“Det ved vi ikke.”",
+              "“Ingen må spørge.”"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Camp 26",
+          "questions": [
+            {
+              "id": "kp_camp26_finale_01",
+              "category": "Kunstblik og idé",
+              "question": "Hvad er det første gode skridt i et kreativt værksted?",
+              "points": 100,
+              "options": [
+                "At se på inspiration og vælge en tydelig idé",
+                "At kopiere uden at tænke",
+                "At vente på facit",
+                "At smide materialerne væk"
+              ],
+              "correctIndex": 0,
+              "answer": "At se på inspiration og vælge en tydelig idé"
+            },
+            {
+              "id": "kp_camp26_finale_02",
+              "category": "Kunstblik og idé",
+              "question": "Hvad betyder komposition i et billede?",
+              "points": 200,
+              "options": [
+                "Hvordan former, farver og fokus er placeret",
+                "Hvad billedet vejer",
+                "Hvor dyr rammen er",
+                "Hvor længe limen tørrer"
+              ],
+              "correctIndex": 0,
+              "answer": "Hvordan former, farver og fokus er placeret"
+            },
+            {
+              "id": "kp_camp26_finale_03",
+              "category": "Kunstblik og idé",
+              "question": "Hvorfor kan en skitse være nyttig?",
+              "points": 300,
+              "options": [
+                "Den gør idéen synlig, før arbejdet låses fast",
+                "Den er altid det færdige værk",
+                "Den forhindrer ændringer",
+                "Den erstatter samarbejde"
+              ],
+              "correctIndex": 0,
+              "answer": "Den gør idéen synlig, før arbejdet låses fast"
+            },
+            {
+              "id": "kp_camp26_finale_04",
+              "category": "Kunstblik og idé",
+              "question": "Hvad er en fortolkning?",
+              "points": 400,
+              "options": [
+                "En personlig og begrundet måde at forstå og omsætte et oplæg på",
+                "En tilfældig fejl",
+                "En kopi uden valg",
+                "En liste over regler"
+              ],
+              "correctIndex": 0,
+              "answer": "En personlig og begrundet måde at forstå og omsætte et oplæg på"
+            },
+            {
+              "id": "kp_camp26_finale_05",
+              "category": "Kunstblik og idé",
+              "question": "Hvad gør en idé stærk i Camp-forløbet?",
+              "points": 500,
+              "options": [
+                "At den kan forklares enkelt og udvikles visuelt",
+                "At den er hemmelig for gruppen",
+                "At ingen kan se den",
+                "At den ikke må ændres"
+              ],
+              "correctIndex": 0,
+              "answer": "At den kan forklares enkelt og udvikles visuelt"
+            },
+            {
+              "id": "kp_camp26_finale_06",
+              "category": "Materialer og proces",
+              "question": "Hvorfor tester man materialer, før man laver det endelige?",
+              "points": 100,
+              "options": [
+                "For at opdage muligheder og begrænsninger",
+                "For at bruge mest muligt lim",
+                "For at undgå at lære noget",
+                "For at gøre processen usynlig"
+              ],
+              "correctIndex": 0,
+              "answer": "For at opdage muligheder og begrænsninger"
+            },
+            {
+              "id": "kp_camp26_finale_07",
+              "category": "Materialer og proces",
+              "question": "Hvad er en god arbejdsproces?",
+              "points": 200,
+              "options": [
+                "At prøve, vælge, forbedre og gøre færdigt",
+                "At stoppe ved første fejl",
+                "At vente på at andre gør alt",
+                "At skifte idé hvert minut"
+              ],
+              "correctIndex": 0,
+              "answer": "At prøve, vælge, forbedre og gøre færdigt"
+            },
+            {
+              "id": "kp_camp26_finale_08",
+              "category": "Materialer og proces",
+              "question": "Hvad betyder kontrast i et visuelt arbejde?",
+              "points": 300,
+              "options": [
+                "Forskelle der får noget til at træde tydeligt frem",
+                "At alt bliver ens",
+                "At man skjuler motivet",
+                "At man undgår farver"
+              ],
+              "correctIndex": 0,
+              "answer": "Forskelle der får noget til at træde tydeligt frem"
+            },
+            {
+              "id": "kp_camp26_finale_09",
+              "category": "Materialer og proces",
+              "question": "Hvorfor er pauser i processen nyttige?",
+              "points": 400,
+              "options": [
+                "De gør det lettere at se arbejdet med friske øjne",
+                "De fjerner behovet for valg",
+                "De gør værket automatisk færdigt",
+                "De betyder at man ikke skal evaluere"
+              ],
+              "correctIndex": 0,
+              "answer": "De gør det lettere at se arbejdet med friske øjne"
+            },
+            {
+              "id": "kp_camp26_finale_10",
+              "category": "Materialer og proces",
+              "question": "Hvad er en god afslutning på et kreativt produkt?",
+              "points": 500,
+              "options": [
+                "At de vigtigste valg er tydelige og gennemarbejdede",
+                "At alt er tilfældigt",
+                "At idéen ikke kan ses",
+                "At gruppen ikke kan forklare noget"
+              ],
+              "correctIndex": 0,
+              "answer": "At de vigtigste valg er tydelige og gennemarbejdede"
+            },
+            {
+              "id": "kp_camp26_finale_11",
+              "category": "Samarbejde og roller",
+              "question": "Hvad hjælper en gruppe bedst i gang?",
+              "points": 100,
+              "options": [
+                "En fælles aftale om opgave, roller og tid",
+                "At alle taler på én gang",
+                "At ingen ved hvad de skal",
+                "At kun én bestemmer alt"
+              ],
+              "correctIndex": 0,
+              "answer": "En fælles aftale om opgave, roller og tid"
+            },
+            {
+              "id": "kp_camp26_finale_12",
+              "category": "Samarbejde og roller",
+              "question": "Hvad er god respons?",
+              "points": 200,
+              "options": [
+                "Konkret hjælp der viser hvad der virker og hvad der kan forbedres",
+                "Kun “det er flot”",
+                "At grine af fejl",
+                "At ændre andres arbejde uden aftale"
+              ],
+              "correctIndex": 0,
+              "answer": "Konkret hjælp der viser hvad der virker og hvad der kan forbedres"
+            },
+            {
+              "id": "kp_camp26_finale_13",
+              "category": "Samarbejde og roller",
+              "question": "Hvad bør man gøre, hvis gruppen er uenig?",
+              "points": 300,
+              "options": [
+                "Lytte, begrunde valg og afprøve en løsning",
+                "Stoppe arbejdet helt",
+                "Slette andres idéer",
+                "Ignorere opgaven"
+              ],
+              "correctIndex": 0,
+              "answer": "Lytte, begrunde valg og afprøve en løsning"
+            },
+            {
+              "id": "kp_camp26_finale_14",
+              "category": "Samarbejde og roller",
+              "question": "Hvorfor er tidtagning nyttig i værkstedet?",
+              "points": 400,
+              "options": [
+                "Den hjælper gruppen med at nå både forsøg og færdiggørelse",
+                "Den gør idéer unødvendige",
+                "Den bestemmer facit",
+                "Den erstatter samtale"
+              ],
+              "correctIndex": 0,
+              "answer": "Den hjælper gruppen med at nå både forsøg og færdiggørelse"
+            },
+            {
+              "id": "kp_camp26_finale_15",
+              "category": "Samarbejde og roller",
+              "question": "Hvad kendetegner et godt fælles produkt?",
+              "points": 500,
+              "options": [
+                "At flere bidrag hænger sammen i én tydelig helhed",
+                "At man kan se konflikterne i gruppen",
+                "At ingen har bidraget",
+                "At produktet ikke kan præsenteres"
+              ],
+              "correctIndex": 0,
+              "answer": "At flere bidrag hænger sammen i én tydelig helhed"
+            },
+            {
+              "id": "kp_camp26_finale_16",
+              "category": "Præsentation og refleksion",
+              "question": "Hvad skal en kort præsentation af et kreativt værk indeholde?",
+              "points": 100,
+              "options": [
+                "Idé, vigtige valg og hvad man har lært",
+                "Kun en undskyldning",
+                "Kun materialelisten",
+                "Kun hvem der stod nærmest"
+              ],
+              "correctIndex": 0,
+              "answer": "Idé, vigtige valg og hvad man har lært"
+            },
+            {
+              "id": "kp_camp26_finale_17",
+              "category": "Præsentation og refleksion",
+              "question": "Hvad betyder det at begrunde et valg?",
+              "points": 200,
+              "options": [
+                "At forklare hvorfor man gjorde, som man gjorde",
+                "At gætte på lærerens mening",
+                "At sige “fordi sådan”",
+                "At undgå spørgsmål"
+              ],
+              "correctIndex": 0,
+              "answer": "At forklare hvorfor man gjorde, som man gjorde"
+            },
+            {
+              "id": "kp_camp26_finale_18",
+              "category": "Præsentation og refleksion",
+              "question": "Hvad kan publikum lytte efter?",
+              "points": 300,
+              "options": [
+                "Sammenhæng mellem idé, proces og produkt",
+                "Kun om noget er dyrt",
+                "Kun om det ligner naboens",
+                "Kun om præsentationen er lang"
+              ],
+              "correctIndex": 0,
+              "answer": "Sammenhæng mellem idé, proces og produkt"
+            },
+            {
+              "id": "kp_camp26_finale_19",
+              "category": "Præsentation og refleksion",
+              "question": "Hvorfor er refleksion vigtig efter en aktivitet?",
+              "points": 400,
+              "options": [
+                "Den hjælper eleverne med at opdage læring og næste skridt",
+                "Den gør processen usynlig",
+                "Den erstatter produktet helt",
+                "Den handler kun om karakterer"
+              ],
+              "correctIndex": 0,
+              "answer": "Den hjælper eleverne med at opdage læring og næste skridt"
+            },
+            {
+              "id": "kp_camp26_finale_20",
+              "category": "Præsentation og refleksion",
+              "question": "Hvad er en god afsluttende Camp-sætning?",
+              "points": 500,
+              "options": [
+                "“Vi valgte … fordi … og næste gang vil vi …”",
+                "“Vi gjorde noget.”",
+                "“Det ved vi ikke.”",
+                "“Ingen må spørge.”"
+              ],
+              "correctIndex": 0,
+              "answer": "“Vi valgte … fordi … og næste gang vil vi …”"
+            }
+          ],
+          "updatedAt": "2026-07-07T01:30:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training",
+        "sourceWidgetId": "widget_camp-26_kapardy"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_camp-26_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_camp-26_huskekort",
+      "type": "timer",
+      "title": "Præsentationsrunde · 6 minutter",
+      "geometry": {
+        "x": 590,
+        "y": 625,
+        "width": 590,
+        "height": 160,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 360,
+        "mode": "countdown",
+        "label": "Præsentationsrunde · 6 minutter"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_camp-26_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_camp-26_kapardy",
+      "type": "kapardy",
+      "title": "KaPardy · Camp 26",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_camp26_finale_20",
+        "gameStartedAt": "2026-07-07T01:30:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_camp26_finale_01",
+            "category": "Kunstblik og idé",
+            "question": "Hvad er det første gode skridt i et kreativt værksted?",
+            "points": 100,
+            "options": [
+              "At se på inspiration og vælge en tydelig idé",
+              "At kopiere uden at tænke",
+              "At vente på facit",
+              "At smide materialerne væk"
+            ],
+            "correctIndex": 0,
+            "answer": "At se på inspiration og vælge en tydelig idé"
+          },
+          {
+            "id": "kp_camp26_finale_02",
+            "category": "Kunstblik og idé",
+            "question": "Hvad betyder komposition i et billede?",
+            "points": 200,
+            "options": [
+              "Hvordan former, farver og fokus er placeret",
+              "Hvad billedet vejer",
+              "Hvor dyr rammen er",
+              "Hvor længe limen tørrer"
+            ],
+            "correctIndex": 0,
+            "answer": "Hvordan former, farver og fokus er placeret"
+          },
+          {
+            "id": "kp_camp26_finale_03",
+            "category": "Kunstblik og idé",
+            "question": "Hvorfor kan en skitse være nyttig?",
+            "points": 300,
+            "options": [
+              "Den gør idéen synlig, før arbejdet låses fast",
+              "Den er altid det færdige værk",
+              "Den forhindrer ændringer",
+              "Den erstatter samarbejde"
+            ],
+            "correctIndex": 0,
+            "answer": "Den gør idéen synlig, før arbejdet låses fast"
+          },
+          {
+            "id": "kp_camp26_finale_04",
+            "category": "Kunstblik og idé",
+            "question": "Hvad er en fortolkning?",
+            "points": 400,
+            "options": [
+              "En personlig og begrundet måde at forstå og omsætte et oplæg på",
+              "En tilfældig fejl",
+              "En kopi uden valg",
+              "En liste over regler"
+            ],
+            "correctIndex": 0,
+            "answer": "En personlig og begrundet måde at forstå og omsætte et oplæg på"
+          },
+          {
+            "id": "kp_camp26_finale_05",
+            "category": "Kunstblik og idé",
+            "question": "Hvad gør en idé stærk i Camp-forløbet?",
+            "points": 500,
+            "options": [
+              "At den kan forklares enkelt og udvikles visuelt",
+              "At den er hemmelig for gruppen",
+              "At ingen kan se den",
+              "At den ikke må ændres"
+            ],
+            "correctIndex": 0,
+            "answer": "At den kan forklares enkelt og udvikles visuelt"
+          },
+          {
+            "id": "kp_camp26_finale_06",
+            "category": "Materialer og proces",
+            "question": "Hvorfor tester man materialer, før man laver det endelige?",
+            "points": 100,
+            "options": [
+              "For at opdage muligheder og begrænsninger",
+              "For at bruge mest muligt lim",
+              "For at undgå at lære noget",
+              "For at gøre processen usynlig"
+            ],
+            "correctIndex": 0,
+            "answer": "For at opdage muligheder og begrænsninger"
+          },
+          {
+            "id": "kp_camp26_finale_07",
+            "category": "Materialer og proces",
+            "question": "Hvad er en god arbejdsproces?",
+            "points": 200,
+            "options": [
+              "At prøve, vælge, forbedre og gøre færdigt",
+              "At stoppe ved første fejl",
+              "At vente på at andre gør alt",
+              "At skifte idé hvert minut"
+            ],
+            "correctIndex": 0,
+            "answer": "At prøve, vælge, forbedre og gøre færdigt"
+          },
+          {
+            "id": "kp_camp26_finale_08",
+            "category": "Materialer og proces",
+            "question": "Hvad betyder kontrast i et visuelt arbejde?",
+            "points": 300,
+            "options": [
+              "Forskelle der får noget til at træde tydeligt frem",
+              "At alt bliver ens",
+              "At man skjuler motivet",
+              "At man undgår farver"
+            ],
+            "correctIndex": 0,
+            "answer": "Forskelle der får noget til at træde tydeligt frem"
+          },
+          {
+            "id": "kp_camp26_finale_09",
+            "category": "Materialer og proces",
+            "question": "Hvorfor er pauser i processen nyttige?",
+            "points": 400,
+            "options": [
+              "De gør det lettere at se arbejdet med friske øjne",
+              "De fjerner behovet for valg",
+              "De gør værket automatisk færdigt",
+              "De betyder at man ikke skal evaluere"
+            ],
+            "correctIndex": 0,
+            "answer": "De gør det lettere at se arbejdet med friske øjne"
+          },
+          {
+            "id": "kp_camp26_finale_10",
+            "category": "Materialer og proces",
+            "question": "Hvad er en god afslutning på et kreativt produkt?",
+            "points": 500,
+            "options": [
+              "At de vigtigste valg er tydelige og gennemarbejdede",
+              "At alt er tilfældigt",
+              "At idéen ikke kan ses",
+              "At gruppen ikke kan forklare noget"
+            ],
+            "correctIndex": 0,
+            "answer": "At de vigtigste valg er tydelige og gennemarbejdede"
+          },
+          {
+            "id": "kp_camp26_finale_11",
+            "category": "Samarbejde og roller",
+            "question": "Hvad hjælper en gruppe bedst i gang?",
+            "points": 100,
+            "options": [
+              "En fælles aftale om opgave, roller og tid",
+              "At alle taler på én gang",
+              "At ingen ved hvad de skal",
+              "At kun én bestemmer alt"
+            ],
+            "correctIndex": 0,
+            "answer": "En fælles aftale om opgave, roller og tid"
+          },
+          {
+            "id": "kp_camp26_finale_12",
+            "category": "Samarbejde og roller",
+            "question": "Hvad er god respons?",
+            "points": 200,
+            "options": [
+              "Konkret hjælp der viser hvad der virker og hvad der kan forbedres",
+              "Kun “det er flot”",
+              "At grine af fejl",
+              "At ændre andres arbejde uden aftale"
+            ],
+            "correctIndex": 0,
+            "answer": "Konkret hjælp der viser hvad der virker og hvad der kan forbedres"
+          },
+          {
+            "id": "kp_camp26_finale_13",
+            "category": "Samarbejde og roller",
+            "question": "Hvad bør man gøre, hvis gruppen er uenig?",
+            "points": 300,
+            "options": [
+              "Lytte, begrunde valg og afprøve en løsning",
+              "Stoppe arbejdet helt",
+              "Slette andres idéer",
+              "Ignorere opgaven"
+            ],
+            "correctIndex": 0,
+            "answer": "Lytte, begrunde valg og afprøve en løsning"
+          },
+          {
+            "id": "kp_camp26_finale_14",
+            "category": "Samarbejde og roller",
+            "question": "Hvorfor er tidtagning nyttig i værkstedet?",
+            "points": 400,
+            "options": [
+              "Den hjælper gruppen med at nå både forsøg og færdiggørelse",
+              "Den gør idéer unødvendige",
+              "Den bestemmer facit",
+              "Den erstatter samtale"
+            ],
+            "correctIndex": 0,
+            "answer": "Den hjælper gruppen med at nå både forsøg og færdiggørelse"
+          },
+          {
+            "id": "kp_camp26_finale_15",
+            "category": "Samarbejde og roller",
+            "question": "Hvad kendetegner et godt fælles produkt?",
+            "points": 500,
+            "options": [
+              "At flere bidrag hænger sammen i én tydelig helhed",
+              "At man kan se konflikterne i gruppen",
+              "At ingen har bidraget",
+              "At produktet ikke kan præsenteres"
+            ],
+            "correctIndex": 0,
+            "answer": "At flere bidrag hænger sammen i én tydelig helhed"
+          },
+          {
+            "id": "kp_camp26_finale_16",
+            "category": "Præsentation og refleksion",
+            "question": "Hvad skal en kort præsentation af et kreativt værk indeholde?",
+            "points": 100,
+            "options": [
+              "Idé, vigtige valg og hvad man har lært",
+              "Kun en undskyldning",
+              "Kun materialelisten",
+              "Kun hvem der stod nærmest"
+            ],
+            "correctIndex": 0,
+            "answer": "Idé, vigtige valg og hvad man har lært"
+          },
+          {
+            "id": "kp_camp26_finale_17",
+            "category": "Præsentation og refleksion",
+            "question": "Hvad betyder det at begrunde et valg?",
+            "points": 200,
+            "options": [
+              "At forklare hvorfor man gjorde, som man gjorde",
+              "At gætte på lærerens mening",
+              "At sige “fordi sådan”",
+              "At undgå spørgsmål"
+            ],
+            "correctIndex": 0,
+            "answer": "At forklare hvorfor man gjorde, som man gjorde"
+          },
+          {
+            "id": "kp_camp26_finale_18",
+            "category": "Præsentation og refleksion",
+            "question": "Hvad kan publikum lytte efter?",
+            "points": 300,
+            "options": [
+              "Sammenhæng mellem idé, proces og produkt",
+              "Kun om noget er dyrt",
+              "Kun om det ligner naboens",
+              "Kun om præsentationen er lang"
+            ],
+            "correctIndex": 0,
+            "answer": "Sammenhæng mellem idé, proces og produkt"
+          },
+          {
+            "id": "kp_camp26_finale_19",
+            "category": "Præsentation og refleksion",
+            "question": "Hvorfor er refleksion vigtig efter en aktivitet?",
+            "points": 400,
+            "options": [
+              "Den hjælper eleverne med at opdage læring og næste skridt",
+              "Den gør processen usynlig",
+              "Den erstatter produktet helt",
+              "Den handler kun om karakterer"
+            ],
+            "correctIndex": 0,
+            "answer": "Den hjælper eleverne med at opdage læring og næste skridt"
+          },
+          {
+            "id": "kp_camp26_finale_20",
+            "category": "Præsentation og refleksion",
+            "question": "Hvad er en god afsluttende Camp-sætning?",
+            "points": 500,
+            "options": [
+              "“Vi valgte … fordi … og næste gang vil vi …”",
+              "“Vi gjorde noget.”",
+              "“Det ved vi ikke.”",
+              "“Ingen må spørge.”"
+            ],
+            "correctIndex": 0,
+            "answer": "“Vi valgte … fordi … og næste gang vil vi …”"
+          }
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy-final"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "legacy": null
     }
   ],
@@ -899,8 +1914,8 @@
     ],
     "counts": {
       "sessions": 1,
-      "boards": 4,
-      "widgets": 5,
+      "boards": 6,
+      "widgets": 9,
       "datasets": 2,
       "media": 2
     },

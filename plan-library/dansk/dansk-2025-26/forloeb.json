@@ -21,7 +21,7 @@
         "board_dansk-25-26-01-aarsplan_4"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -65,7 +65,7 @@
         "board_dansk-25-26-02-familien_21"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -109,7 +109,7 @@
         "board_dansk-25-26-03-ungdom-identitet_21"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -147,7 +147,7 @@
         "board_dansk-25-26-04-romantik-gennembrud_15"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -183,7 +183,7 @@
         "board_dansk-25-26-05-frihed-flugt_13"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -221,10 +221,12 @@
         "board_dansk-25-26-06-reklamer-proeve_15",
         "board_dansk-25-26-06-reklamer-proeve_16",
         "board_dansk-25-26-06-reklamer-proeve_17",
-        "board_dansk-25-26-06-reklamer-proeve_18"
+        "board_dansk-25-26-06-reklamer-proeve_18",
+        "board_dansk-25-26-06-reklamer-proeve_finale_huskekort",
+        "board_dansk-25-26-06-reklamer-proeve_finale_kapardy"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -2905,6 +2907,66 @@
       "createdAt": "2026-06-29T12:45:00.000Z",
       "updatedAt": "2026-06-29T12:45:00.000Z",
       "meta": {}
+    },
+    {
+      "id": "board_dansk-25-26-06-reklamer-proeve_finale_huskekort",
+      "schemaVersion": 1,
+      "sessionId": "dansk-25-26-06-reklamer-proeve",
+      "title": "Danskfinale · Huskekort og prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_dansk-25-26_finale_guide",
+        "widget_dansk-25-26_finale_flashcards",
+        "widget_dansk-25-26_finale_timer"
+      ],
+      "layoutFamilyId": "plan-demo-showcase",
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "meta": {
+        "lessonPart": "finale",
+        "order": 19
+      }
+    },
+    {
+      "id": "board_dansk-25-26-06-reklamer-proeve_finale_kapardy",
+      "schemaVersion": 1,
+      "sessionId": "dansk-25-26-06-reklamer-proeve",
+      "title": "Danskfinale · KaPardy",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_dansk-25-26_finale_kapardy"
+      ],
+      "layoutFamilyId": "plan-demo-showcase",
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "meta": {
+        "lessonPart": "finale",
+        "order": 20
+      }
     }
   ],
   "widgets": [
@@ -6506,12 +6568,12 @@
             "category": "Genre",
             "question": "Hvad kendetegner typisk en novelle?",
             "answer": "Et koncentreret forløb med få personer og en central konflikt",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Et koncentreret forløb med få personer og en central konflikt",
               "Et langt værk med mange parallelle handlinger",
               "En tekst, der kun består af replikker og sceneanvisninger",
-              "Et koncentreret forløb med få personer og en central konflikt",
               "En fuldstændig dokumentation af virkelige begivenheder"
             ]
           },
@@ -6519,12 +6581,12 @@
             "category": "Tekster",
             "question": "Hvem er forfatter til Tøser?",
             "answer": "Kim Fupz Aakeson",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "Kim Fupz Aakeson",
               "Yahya Hassan",
               "Sarah Engell",
-              "Kim Fupz Aakeson",
               "Jesper Wung-Sung"
             ]
           },
@@ -6532,24 +6594,24 @@
             "category": "Analyse",
             "question": "Hvad er undertekst?",
             "answer": "Det, der antydes uden at blive sagt direkte",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Det, der antydes uden at blive sagt direkte",
               "Tekstens titel skrevet med små bogstaver",
               "En liste over alle personerne",
-              "En forklaring af svære ord nederst på siden",
-              "Det, der antydes uden at blive sagt direkte"
+              "En forklaring af svære ord nederst på siden"
             ]
           },
           {
             "category": "Skrivning",
             "question": "Hvilket greb gør en erindring konkret?",
             "answer": "Sansedetaljer og tydelige scener",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "Så få verber som muligt",
               "Sansedetaljer og tydelige scener",
+              "Så få verber som muligt",
               "Kun generelle påstande",
               "En alfabetisk ordliste"
             ]
@@ -6558,11 +6620,11 @@
             "category": "Billeder",
             "question": "Hvad betyder denotation i billedanalyse?",
             "answer": "Det, man konkret kan se i billedet",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 500,
             "options": [
-              "Kunstnerens private hensigt, som læseren skal gætte",
               "Det, man konkret kan se i billedet",
+              "Kunstnerens private hensigt, som læseren skal gætte",
               "Den historiske periode alene",
               "Den skjulte morale, som altid er entydig"
             ]
@@ -6571,12 +6633,12 @@
             "category": "Dokumentar",
             "question": "Hvilket udsagn er mest præcist om dokumentar?",
             "answer": "Den former virkelighed gennem udvælgelse og virkemidler",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Den former virkelighed gennem udvælgelse og virkemidler",
               "Den må aldrig bruge musik",
               "Den kan ikke have en målgruppe",
-              "Den former virkelighed gennem udvælgelse og virkemidler",
               "Den viser altid virkeligheden uden valg"
             ]
           },
@@ -6584,11 +6646,11 @@
             "category": "Lyrik",
             "question": "Hvad er et lyrisk jeg?",
             "answer": "Den stemme, der taler i digtet",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 200,
             "options": [
-              "Den person, der filmer musikvideoen",
               "Den stemme, der taler i digtet",
+              "Den person, der filmer musikvideoen",
               "Forfatterens juridiske navn",
               "Den vigtigste biperson i en novelle"
             ]
@@ -6597,11 +6659,11 @@
             "category": "Film",
             "question": "Hvad er en modalitet?",
             "answer": "En udtryksform som tekst, billede, lyd eller bevægelse",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 300,
             "options": [
-              "En bestemt type aflevering",
               "En udtryksform som tekst, billede, lyd eller bevægelse",
+              "En bestemt type aflevering",
               "Et andet ord for hovedperson",
               "En regel om komma"
             ]
@@ -6610,11 +6672,11 @@
             "category": "Perspektiv",
             "question": "Hvad kræver en faglig perspektivering?",
             "answer": "Begrundede ligheder og forskelle",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "At vælge den tekst, man bedst kan lide",
               "Begrundede ligheder og forskelle",
+              "At vælge den tekst, man bedst kan lide",
               "Kun at nævne en anden titel",
               "At genfortælle begge tekster fuldt"
             ]
@@ -6623,38 +6685,38 @@
             "category": "Pressefoto",
             "question": "Hvad bør indgå i analyse af et pressefoto?",
             "answer": "Beskæring, perspektiv, motiv og kontekst",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 500,
             "options": [
+              "Beskæring, perspektiv, motiv og kontekst",
               "Kun fotografens alder",
               "Kun billedets filstørrelse",
-              "Kun om billedet er pænt",
-              "Beskæring, perspektiv, motiv og kontekst"
+              "Kun om billedet er pænt"
             ]
           },
           {
             "category": "Begreber",
             "question": "Hvad er forskellen på motiv og tema?",
             "answer": "Motivet er konkret; temaet er overordnet",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Motivet er konkret; temaet er overordnet",
               "Motivet er altid en person; temaet er altid et sted",
               "Der er ingen forskel",
-              "Temaet er konkret; motivet er kun overskriften",
-              "Motivet er konkret; temaet er overordnet"
+              "Temaet er konkret; motivet er kun overskriften"
             ]
           },
           {
             "category": "Respons",
             "question": "Hvad er god makkerrespons?",
             "answer": "Konkret respons knyttet til tekstens formål",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "Konkret respons knyttet til tekstens formål",
               "At omskrive hele teksten for makkeren",
               "At rette efter egen smag",
-              "Konkret respons knyttet til tekstens formål",
               "Kun ros uden eksempler"
             ]
           },
@@ -6675,11 +6737,11 @@
             "category": "Kildeblik",
             "question": "Hvad gør et citat til et godt belæg?",
             "answer": "At det forklares og knyttes til en pointe",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "At det gentages tre gange",
               "At det forklares og knyttes til en pointe",
+              "At det gentages tre gange",
               "At det er så langt som muligt",
               "At det står uden kilde"
             ]
@@ -6688,19 +6750,20 @@
             "category": "Forløb",
             "question": "Hvilket hovedtema samler forløbet Familien?",
             "answer": "Relationer, omsorg, svigt og familieformer",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 500,
             "options": [
+              "Relationer, omsorg, svigt og familieformer",
               "Kun litteraturhistoriske årstal",
               "Kun reklameanalyse",
-              "Relationer, omsorg, svigt og familieformer",
               "Kun stavning"
             ]
           }
         ],
         "current": 0,
         "reveal": false,
-        "selected": null
+        "selected": null,
+        "questionBankContract": "first-answer-correct"
       },
       "settings": {
         "locked": false,
@@ -6713,7 +6776,7 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "legacy": null
     },
     {
@@ -9546,12 +9609,12 @@
             "category": "Kommunikation",
             "question": "Hvad er modtagerrettet kommunikation?",
             "answer": "Kommunikation tilpasset formål, situation og læser",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Kommunikation tilpasset formål, situation og læser",
               "Tekst med flest mulige fremmedord",
               "En tekst, der kun kan læses af læreren",
-              "Kommunikation tilpasset formål, situation og læser",
               "Kommunikation uden afsender"
             ]
           },
@@ -9559,37 +9622,37 @@
             "category": "Ansøgning",
             "question": "Hvad bør en ansøgning kombinere?",
             "answer": "Dokumentation og tydelig motivation",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "Dokumentation og tydelig motivation",
               "Kun humor og emojis",
               "Kun et resumé af annoncen",
-              "Kun private oplysninger",
-              "Dokumentation og tydelig motivation"
+              "Kun private oplysninger"
             ]
           },
           {
             "category": "Manuskript",
             "question": "Hvad indeholder et manuskript typisk?",
             "answer": "Replikker, handling og sceneanvisninger",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Replikker, handling og sceneanvisninger",
               "Kun fodnoter",
               "Kun en kildeliste",
-              "Kun billeder uden rækkefølge",
-              "Replikker, handling og sceneanvisninger"
+              "Kun billeder uden rækkefølge"
             ]
           },
           {
             "category": "Film",
             "question": "Hvad er et filmisk hovedværk?",
             "answer": "Et helt værk, der bearbejdes grundigt",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "En liste over filmtitler",
               "Et helt værk, der bearbejdes grundigt",
+              "En liste over filmtitler",
               "Et tilfældigt klip på ti sekunder",
               "En reklame uden lyd"
             ]
@@ -9611,12 +9674,12 @@
             "category": "Webdok",
             "question": "Hvad kendetegner en webdok?",
             "answer": "Flere modaliteter og ofte interaktiv navigation",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Flere modaliteter og ofte interaktiv navigation",
               "Ingen afsender",
               "Altid én fast side uden links",
-              "Flere modaliteter og ofte interaktiv navigation",
               "Kun trykt tekst"
             ]
           },
@@ -9624,12 +9687,12 @@
             "category": "Kampagne",
             "question": "Hvad er kampagnens typiske formål?",
             "answer": "At påvirke viden, holdning eller handling",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "At påvirke viden, holdning eller handling",
               "At skjule målgruppen",
               "At undgå alle virkemidler",
-              "At påvirke viden, holdning eller handling",
               "Kun at underholde uden budskab"
             ]
           },
@@ -9663,52 +9726,52 @@
             "category": "Eventyr",
             "question": "Hvad betyder intertekstualitet?",
             "answer": "At en tekst henviser til eller genbruger en anden tekst",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 500,
             "options": [
+              "At en tekst henviser til eller genbruger en anden tekst",
               "At teksten mangler titel",
               "At teksten kun findes på internettet",
-              "At alle personer er virkelige",
-              "At en tekst henviser til eller genbruger en anden tekst"
+              "At alle personer er virkelige"
             ]
           },
           {
             "category": "Identitet",
             "question": "Hvordan fremstilles identitet ofte i tekster?",
             "answer": "Gennem handlinger, relationer, sprog og andres blik",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Gennem handlinger, relationer, sprog og andres blik",
               "Kun gennem personens navn",
               "Kun gennem fødselsdato",
-              "Kun gennem tekstens længde",
-              "Gennem handlinger, relationer, sprog og andres blik"
+              "Kun gennem tekstens længde"
             ]
           },
           {
             "category": "Analyse",
             "question": "Hvad er et præcist filmbelæg?",
             "answer": "En konkret scene med tidsangivelse eller tydelig beskrivelse",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "En konkret scene med tidsangivelse eller tydelig beskrivelse",
               "En løs erindring om filmen",
               "En påstand uden scene",
-              "Filmens plakat alene",
-              "En konkret scene med tidsangivelse eller tydelig beskrivelse"
+              "Filmens plakat alene"
             ]
           },
           {
             "category": "Hovedværk",
             "question": "Hvad bør hovedværksnoter dække?",
             "answer": "Handling, personer, tema, virkemidler og perspektiv",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Handling, personer, tema, virkemidler og perspektiv",
               "Kun slutningen",
               "Kun hvem der vandt en pris",
-              "Kun elevens vurdering",
-              "Handling, personer, tema, virkemidler og perspektiv"
+              "Kun elevens vurdering"
             ]
           },
           {
@@ -9728,11 +9791,11 @@
             "category": "Forløb",
             "question": "Hvilket emne forbinder Facebook-tonen med forløbet?",
             "answer": "Digital identitet, tone og ansvar",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 500,
             "options": [
-              "Retstavningsregler alene",
               "Digital identitet, tone og ansvar",
+              "Retstavningsregler alene",
               "Nationalromantik",
               "Middelalderballader"
             ]
@@ -9740,7 +9803,8 @@
         ],
         "current": 0,
         "reveal": false,
-        "selected": null
+        "selected": null,
+        "questionBankContract": "first-answer-correct"
       },
       "settings": {
         "locked": false,
@@ -9753,7 +9817,7 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "legacy": null
     },
     {
@@ -12037,11 +12101,11 @@
             "category": "Periode",
             "question": "Hvad forbinder nationalromantikken ofte?",
             "answer": "Natur, folk, historie og nation",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 100,
             "options": [
-              "Naturvidenskabelige forsøg alene",
               "Natur, folk, historie og nation",
+              "Naturvidenskabelige forsøg alene",
               "Teknisk manual og statistik",
               "Kun storbyens reklamer"
             ]
@@ -12050,37 +12114,37 @@
             "category": "Gennembrud",
             "question": "Hvilket nøgleudtryk forbindes med det moderne gennembrud?",
             "answer": "At sætte problemer under debat",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "At sætte problemer under debat",
               "At undgå samfundsspørgsmål",
               "At skrive uden personer",
-              "At bruge kun lykkelige slutninger",
-              "At sætte problemer under debat"
+              "At bruge kun lykkelige slutninger"
             ]
           },
           {
             "category": "Kunst",
             "question": "Hvad bør komme først i billedarbejdet?",
             "answer": "Analyse af det konkrete billede",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Analyse af det konkrete billede",
               "Periodeetiketten alene",
               "Kunstnerens fødselsdato",
-              "Elevens karakter",
-              "Analyse af det konkrete billede"
+              "Elevens karakter"
             ]
           },
           {
             "category": "Sang",
             "question": "Hvad kan en fædrelandssang gøre?",
             "answer": "Skabe og diskutere forestillinger om fællesskab",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "Erstatte al analyse",
               "Skabe og diskutere forestillinger om fællesskab",
+              "Erstatte al analyse",
               "Bevise at alle er enige",
               "Fjerne historisk kontekst"
             ]
@@ -12089,25 +12153,25 @@
             "category": "Eventyr",
             "question": "Hvad kendetegner et kunsteventyr?",
             "answer": "Det har en kendt forfatter og kan bruge folkeeventyrets træk",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 500,
             "options": [
+              "Det har en kendt forfatter og kan bruge folkeeventyrets træk",
               "Det er altid anonymt",
               "Det har aldrig symbolik",
-              "Det må ikke have en udvikling",
-              "Det har en kendt forfatter og kan bruge folkeeventyrets træk"
+              "Det må ikke have en udvikling"
             ]
           },
           {
             "category": "Tekster",
             "question": "Hvem skrev Den grimme ælling?",
             "answer": "H.C. Andersen",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "H.C. Andersen",
               "Kim Fupz Aakeson",
               "Yahya Hassan",
-              "H.C. Andersen",
               "Henrik Pontoppidan"
             ]
           },
@@ -12115,11 +12179,11 @@
             "category": "Tekster",
             "question": "Hvem skrev Ørneflugt?",
             "answer": "Henrik Pontoppidan",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 200,
             "options": [
-              "Jesper Wung-Sung",
               "Henrik Pontoppidan",
+              "Jesper Wung-Sung",
               "H.C. Andersen",
               "Sarah Engell"
             ]
@@ -12141,12 +12205,12 @@
             "category": "Miljø",
             "question": "Hvad er socialt miljø?",
             "answer": "Personernes sociale vilkår, normer og positioner",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 400,
             "options": [
+              "Personernes sociale vilkår, normer og positioner",
               "Papirets farve",
               "Antallet af afsnit",
-              "Personernes sociale vilkår, normer og positioner",
               "Vejret i teksten"
             ]
           },
@@ -12154,11 +12218,11 @@
             "category": "Naturalistisk blik",
             "question": "Hvilke faktorer fremhæves ofte?",
             "answer": "Arv, miljø og livsvilkår",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 500,
             "options": [
-              "Kun landskabets farver",
               "Arv, miljø og livsvilkår",
+              "Kun landskabets farver",
               "Kun tilfældig magi",
               "Kun fortællerens kommaer"
             ]
@@ -12180,11 +12244,11 @@
             "category": "Boganmeldelse",
             "question": "Hvad kombinerer en boganmeldelse?",
             "answer": "Præsentation, vurdering og begrundelse",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 200,
             "options": [
-              "Kun en karakter uden forklaring",
               "Præsentation, vurdering og begrundelse",
+              "Kun en karakter uden forklaring",
               "Kun handlingsreferat",
               "Kun forfatterens biografi"
             ]
@@ -12206,12 +12270,12 @@
             "category": "Billeder",
             "question": "Hvad kan det moderne gennembruds kunst synliggøre?",
             "answer": "Arbejde, fattigdom og sociale konflikter",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 400,
             "options": [
+              "Arbejde, fattigdom og sociale konflikter",
               "Kun abstrakte farvefelter",
               "Kun reklamelogoer",
-              "Arbejde, fattigdom og sociale konflikter",
               "Kun mytiske guder"
             ]
           },
@@ -12219,11 +12283,11 @@
             "category": "Forløb",
             "question": "Hvad er forløbets centrale bevægelse?",
             "answer": "Fra romantisk idealisering til kritisk problemdebat",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 500,
             "options": [
-              "Fra nutid til oldtid uden tekster",
               "Fra romantisk idealisering til kritisk problemdebat",
+              "Fra nutid til oldtid uden tekster",
               "Fra reklame til retstavning",
               "Fra film til matematik"
             ]
@@ -12231,7 +12295,8 @@
         ],
         "current": 0,
         "reveal": false,
-        "selected": null
+        "selected": null,
+        "questionBankContract": "first-answer-correct"
       },
       "settings": {
         "locked": false,
@@ -12244,7 +12309,7 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "legacy": null
     },
     {
@@ -14395,11 +14460,11 @@
             "category": "Reportage",
             "question": "Hvad skaber reportage ofte nærvær gennem?",
             "answer": "Scener, sanser og konkrete personer",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 100,
             "options": [
-              "Kun fiktive fodnoter",
               "Scener, sanser og konkrete personer",
+              "Kun fiktive fodnoter",
               "Kun tabeller",
               "Kun lovtekster"
             ]
@@ -14421,13 +14486,13 @@
             "category": "Kilder",
             "question": "Hvad skal man skelne mellem i en reportage?",
             "answer": "Fakta, oplevelse og vurdering",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Fakta, oplevelse og vurdering",
               "Navneord, udsagnsord og farver",
               "Forside og bagside",
-              "Kun korte og lange ord",
-              "Fakta, oplevelse og vurdering"
+              "Kun korte og lange ord"
             ]
           },
           {
@@ -14447,11 +14512,11 @@
             "category": "Pressefoto",
             "question": "Hvad påvirker et pressefotos betydning ud over motivet?",
             "answer": "Billedtekst og publiceringskontekst",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 500,
             "options": [
-              "Kun fotografens sko",
               "Billedtekst og publiceringskontekst",
+              "Kun fotografens sko",
               "Kun filtypen",
               "Kun kameraets pris"
             ]
@@ -14460,25 +14525,25 @@
             "category": "Webdok",
             "question": "Hvem designer valgmulighederne i en interaktiv webdok?",
             "answer": "Afsenderen",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Afsenderen",
               "Brugeren alene",
               "Ingen",
-              "Tilfældige søgemaskiner",
-              "Afsenderen"
+              "Tilfældige søgemaskiner"
             ]
           },
           {
             "category": "Novelle",
             "question": "Hvad kræver en fortolkning af en åben slutning?",
             "answer": "Belæg i tekstens mønstre",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "Belæg i tekstens mønstre",
               "At vælge den gladeste løsning",
               "At ignorere kompositionen",
-              "Belæg i tekstens mønstre",
               "Fri fantasi uden tekst"
             ]
           },
@@ -14486,12 +14551,12 @@
             "category": "Argumentation",
             "question": "Hvad er en påstand?",
             "answer": "Det synspunkt, afsenderen vil have tilslutning til",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Det synspunkt, afsenderen vil have tilslutning til",
               "Et tilfældigt eksempel",
               "Tekstens skrifttype",
-              "Det synspunkt, afsenderen vil have tilslutning til",
               "Kildens udgivelsesår"
             ]
           },
@@ -14499,12 +14564,12 @@
             "category": "Argumentation",
             "question": "Hvad gør et belæg?",
             "answer": "Understøtter påstanden",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 400,
             "options": [
+              "Understøtter påstanden",
               "Erstatter emnet",
               "Gør alle modargumenter ulovlige",
-              "Understøtter påstanden",
               "Skjuler afsenderen"
             ]
           },
@@ -14512,11 +14577,11 @@
             "category": "Essay",
             "question": "Hvad gør essayet typisk?",
             "answer": "Undersøger og reflekterer",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 500,
             "options": [
-              "Undgår eksempler",
               "Undersøger og reflekterer",
+              "Undgår eksempler",
               "Beviser altid én endelig sandhed",
               "Består kun af replikker"
             ]
@@ -14525,11 +14590,11 @@
             "category": "Tankeeksperiment",
             "question": "Hvad kan et tankeeksperiment?",
             "answer": "Flytte læserens perspektiv",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 100,
             "options": [
-              "Erstatte sproglig analyse",
               "Flytte læserens perspektiv",
+              "Erstatte sproglig analyse",
               "Slette historisk viden",
               "Gøre alle kilder overflødige"
             ]
@@ -14538,11 +14603,11 @@
             "category": "Sammenligning",
             "question": "Hvad styrker sammenligning af tre noveller?",
             "answer": "Fælles analysepunkter",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 200,
             "options": [
-              "At læse én af dem",
               "Fælles analysepunkter",
+              "At læse én af dem",
               "Tre forskellige analysemodeller uden forbindelse",
               "Kun titlerne"
             ]
@@ -14551,11 +14616,11 @@
             "category": "Symbolik",
             "question": "Hvornår er en symbolfortolkning stærk?",
             "answer": "Når den forankres i gentagelser og sammenhæng",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 300,
             "options": [
-              "Når teksten ikke nævnes",
               "Når den forankres i gentagelser og sammenhæng",
+              "Når teksten ikke nævnes",
               "Når symbolet gættes uden belæg",
               "Når alle ting betyder det samme"
             ]
@@ -14564,11 +14629,11 @@
             "category": "Krigsformidling",
             "question": "Hvad er vigtigt ved fremstilling af sorg og krig?",
             "answer": "Dokumentation, kontekst og etisk omtanke",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "At undgå berørte personer helt",
               "Dokumentation, kontekst og etisk omtanke",
+              "At undgå berørte personer helt",
               "Mest mulig dramatik uden kilder",
               "At skjule alle valg"
             ]
@@ -14577,19 +14642,20 @@
             "category": "Forløb",
             "question": "Hvilke genrer står centralt i forløbet?",
             "answer": "Reportage, pressefoto, webdok, novelle, debatindlæg og essay",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 500,
             "options": [
+              "Reportage, pressefoto, webdok, novelle, debatindlæg og essay",
               "Kun reklame og ansøgning",
               "Kun retstavning",
-              "Reportage, pressefoto, webdok, novelle, debatindlæg og essay",
               "Kun eventyr og sang"
             ]
           }
         ],
         "current": 0,
         "reveal": false,
-        "selected": null
+        "selected": null,
+        "questionBankContract": "first-answer-correct"
       },
       "settings": {
         "locked": false,
@@ -14602,7 +14668,7 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "legacy": null
     },
     {
@@ -16938,12 +17004,12 @@
             "category": "Reklame",
             "question": "Hvad er målgruppen?",
             "answer": "De modtagere kommunikationen er rettet mod",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "De modtagere kommunikationen er rettet mod",
               "Alle mennesker uden forskel",
               "Kun dem, der allerede er enige",
-              "De modtagere kommunikationen er rettet mod",
               "Afsenderens medarbejdere alene"
             ]
           },
@@ -16951,11 +17017,11 @@
             "category": "Budskab",
             "question": "Hvad er budskabet?",
             "answer": "Det centrale, afsenderen vil have modtageren til at forstå eller gøre",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 200,
             "options": [
-              "Produktets stregkode",
               "Det centrale, afsenderen vil have modtageren til at forstå eller gøre",
+              "Produktets stregkode",
               "Reklamens filnavn",
               "Antallet af farver"
             ]
@@ -16964,25 +17030,25 @@
             "category": "Kampagne",
             "question": "Hvad kan adskille en oplysningskampagne fra en vare-reklame?",
             "answer": "Et samfundsmæssigt formål frem for direkte salg",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Et samfundsmæssigt formål frem for direkte salg",
               "At den aldrig har en målgruppe",
               "At den ikke bruger billeder",
-              "At den ikke har en afsender",
-              "Et samfundsmæssigt formål frem for direkte salg"
+              "At den ikke har en afsender"
             ]
           },
           {
             "category": "Levende reklame",
             "question": "Hvilke ekstra virkemidler har film frem for en trykt reklame?",
             "answer": "Tid, lyd, bevægelse og klipning",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 400,
             "options": [
+              "Tid, lyd, bevægelse og klipning",
               "Kun sidetal",
               "Kun punktummer",
-              "Tid, lyd, bevægelse og klipning",
               "Kun papirkvalitet"
             ]
           },
@@ -17003,51 +17069,51 @@
             "category": "Fordybelsesområde",
             "question": "Hvad kendetegner et godt fordybelsesområde?",
             "answer": "Det er fagligt afgrænset og åbner for flere tekster",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 100,
             "options": [
+              "Det er fagligt afgrænset og åbner for flere tekster",
               "Det er identisk med én titel",
               "Det er så bredt som hele danskfaget",
-              "Det består kun af et årstal",
-              "Det er fagligt afgrænset og åbner for flere tekster"
+              "Det består kun af et årstal"
             ]
           },
           {
             "category": "Synopse",
             "question": "Hvad er synopsens vigtigste funktion?",
             "answer": "At være et arbejdsredskab og skabe overblik",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 200,
             "options": [
+              "At være et arbejdsredskab og skabe overblik",
               "At være et fuldt manuskript, der læses op",
               "At erstatte prøveoplægget",
-              "At skjule perspektiveringen",
-              "At være et arbejdsredskab og skabe overblik"
+              "At skjule perspektiveringen"
             ]
           },
           {
             "category": "Prøveoplæg",
             "question": "Hvad skal et prøveoplæg kunne?",
             "answer": "Analyseres og perspektiveres",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Analyseres og perspektiveres",
               "Kun genfortælles",
               "Kun oversættes",
-              "Kun bedømmes som pænt eller grimt",
-              "Analyseres og perspektiveres"
+              "Kun bedømmes som pænt eller grimt"
             ]
           },
           {
             "category": "Disposition",
             "question": "Hvad gør en god mundtlig disposition?",
             "answer": "Skaber retning uden at låse samtalen",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 400,
             "options": [
+              "Skaber retning uden at låse samtalen",
               "Fjerner behovet for tekstbelæg",
               "Gør perspektivering umulig",
-              "Skaber retning uden at låse samtalen",
               "Skriver alle svar ordret"
             ]
           },
@@ -17055,13 +17121,13 @@
             "category": "Vejledning",
             "question": "Hvad er lærerens rolle i vejledning?",
             "answer": "At støtte elevens faglige valg uden at skrive arbejdet",
-            "correctIndex": 3,
+            "correctIndex": 0,
             "points": 500,
             "options": [
+              "At støtte elevens faglige valg uden at skrive arbejdet",
               "At vælge alle svar for eleven",
               "At garantere en bestemt karakter",
-              "At erstatte prøveoplægget",
-              "At støtte elevens faglige valg uden at skrive arbejdet"
+              "At erstatte prøveoplægget"
             ]
           },
           {
@@ -17094,12 +17160,12 @@
             "category": "Kilder",
             "question": "Hvad skal en kildeangivelse gøre?",
             "answer": "Gøre materialet genfindeligt",
-            "correctIndex": 2,
+            "correctIndex": 0,
             "points": 300,
             "options": [
+              "Gøre materialet genfindeligt",
               "Kun nævne en farve",
               "Erstatte analysen",
-              "Gøre materialet genfindeligt",
               "Skjule udgivelsesstedet"
             ]
           },
@@ -17107,11 +17173,11 @@
             "category": "Frister",
             "question": "Hvad bør stå tydeligt ved en afleveringsfrist?",
             "answer": "Dato, afleveringssted og filformat",
-            "correctIndex": 1,
+            "correctIndex": 0,
             "points": 400,
             "options": [
-              "Kun elevens humør",
               "Dato, afleveringssted og filformat",
+              "Kun elevens humør",
               "Kun lærerens initialer",
               "Kun dokumentets sidetal"
             ]
@@ -17132,7 +17198,8 @@
         ],
         "current": 0,
         "reveal": false,
-        "selected": null
+        "selected": null,
+        "questionBankContract": "first-answer-correct"
       },
       "settings": {
         "locked": false,
@@ -17145,7 +17212,960 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-06-29T12:45:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_dansk-25-26_finale_guide",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_dansk-25-26-06-reklamer-proeve_finale_huskekort",
+      "type": "text",
+      "title": "Sådan køres danskfinalen",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 540,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "DANSKFINALE · FØR KAPARDY\n\nBrug tavlen som afsluttende repetition af hele årsforløbet.\n\nFORSLAG TIL FLOW\n1. Åbn Huskekortmatrixen.\n2. Vælg én kategori ad gangen.\n3. Lad eleverne svare uden valgmuligheder.\n4. Bed dem forklare med et eksempel fra årets tekster, film eller reklamer.\n5. Brug timeren til korte runder.\n6. Spil KaPardy på næste tavle som fælles afslutning.\n\nMÅL\nEleverne skal ikke kun kende facit. De skal kunne forklare faglige begreber, perioder, tekstvalg og prøvegreb med egne ord.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "teacher-guide"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_dansk-25-26_finale_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_dansk-25-26-06-reklamer-proeve_finale_huskekort",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · danskfinale",
+      "geometry": {
+        "x": 590,
+        "y": 85,
+        "width": 590,
+        "height": 520,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "widget_dansk-25-26_finale_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Danskfinale",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_dansk_aarsfinale_01": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Hvordan viser teksten relationer, konflikter og synsvinkel?. Forklar hvorfor dette svar passer bedre end: Hvor mange sider har teksten? · Hvilken skrifttype er brugt? · Hvem læser højest?.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Hvor mange sider har teksten?",
+              "Hvilken skrifttype er brugt?",
+              "Hvem læser højest?"
+            ]
+          },
+          "kp_dansk_aarsfinale_02": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: En fortæller der bruger jeg og oplever indefra. Forklar hvorfor dette svar passer bedre end: En alvidende fortæller uden holdning · En person der altid lyver · En ydre kameravinkel uden tanker.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "En alvidende fortæller uden holdning",
+              "En person der altid lyver",
+              "En ydre kameravinkel uden tanker"
+            ]
+          },
+          "kp_dansk_aarsfinale_03": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Forholdet mellem oplevelse, hukommelse og fortælling. Forklar hvorfor dette svar passer bedre end: Kun tekstens antal kommaer · Kun udgivelsesåret · Kun om teksten rimer.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Kun tekstens antal kommaer",
+              "Kun udgivelsesåret",
+              "Kun om teksten rimer"
+            ]
+          },
+          "kp_dansk_aarsfinale_04": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Den kan vise personernes livsvilkår og konflikter indirekte. Forklar hvorfor dette svar passer bedre end: Den erstatter altid handlingen · Den fjerner behovet for fortolkning · Den er kun pynt.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Den erstatter altid handlingen",
+              "Den fjerner behovet for fortolkning",
+              "Den er kun pynt"
+            ]
+          },
+          "kp_dansk_aarsfinale_05": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Koble tekstens detaljer til en samlet forståelse. Forklar hvorfor dette svar passer bedre end: Gengive handlingen uden analyse · Vælge det første indtryk som facit · Undgå citater og eksempler.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Gengive handlingen uden analyse",
+              "Vælge det første indtryk som facit",
+              "Undgå citater og eksempler"
+            ]
+          },
+          "kp_dansk_aarsfinale_06": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: Romantikken. Forklar hvorfor dette svar passer bedre end: Det moderne gennembrud · Efterkrigstiden · Minimalismen.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Det moderne gennembrud",
+              "Efterkrigstiden",
+              "Minimalismen"
+            ]
+          },
+          "kp_dansk_aarsfinale_07": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: At litteraturen skulle sætte problemer under debat. Forklar hvorfor dette svar passer bedre end: At alle tekster skulle være eventyr · At litteraturen skulle undgå samfund · At kun adelige måtte skrive.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "At alle tekster skulle være eventyr",
+              "At litteraturen skulle undgå samfund",
+              "At kun adelige måtte skrive"
+            ]
+          },
+          "kp_dansk_aarsfinale_08": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: Troværdige skildringer af hverdag, miljø og samfund. Forklar hvorfor dette svar passer bedre end: Drømme uden forbindelse til virkelighed · Kun helte og guder · Kun rimede tekster.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Drømme uden forbindelse til virkelighed",
+              "Kun helte og guder",
+              "Kun rimede tekster"
+            ]
+          },
+          "kp_dansk_aarsfinale_09": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: Arv, miljø og sociale vilkår påvirker mennesket. Forklar hvorfor dette svar passer bedre end: Alt afgøres af tilfældige tryllekræfter · Personer har ingen baggrund · Samfundet findes ikke i teksten.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Alt afgøres af tilfældige tryllekræfter",
+              "Personer har ingen baggrund",
+              "Samfundet findes ikke i teksten"
+            ]
+          },
+          "kp_dansk_aarsfinale_10": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: For at forstå tekster i historisk og kulturel sammenhæng. Forklar hvorfor dette svar passer bedre end: For at slippe for nærlæsning · For at kunne ignorere sproget · For at alle tekster får samme facit.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "For at slippe for nærlæsning",
+              "For at kunne ignorere sproget",
+              "For at alle tekster får samme facit"
+            ]
+          },
+          "kp_dansk_aarsfinale_11": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Den gruppe reklamen især prøver at ramme. Forklar hvorfor dette svar passer bedre end: Alle mennesker i verden · Kun reklamebureauet · Den person der tilfældigt ser væk.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Alle mennesker i verden",
+              "Kun reklamebureauet",
+              "Den person der tilfældigt ser væk"
+            ]
+          },
+          "kp_dansk_aarsfinale_12": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Et valg der påvirker modtagerens oplevelse og forståelse. Forklar hvorfor dette svar passer bedre end: Et tilfældigt teknisk problem · Et krav om at købe produktet · En fejl i billedet.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Et tilfældigt teknisk problem",
+              "Et krav om at købe produktet",
+              "En fejl i billedet"
+            ]
+          },
+          "kp_dansk_aarsfinale_13": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Motiv, udsnit, vinkel, situation og mulig virkning. Forklar hvorfor dette svar passer bedre end: Kun filnavnet · Kun kameraets pris · Kun fotografens alder.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Kun filnavnet",
+              "Kun kameraets pris",
+              "Kun fotografens alder"
+            ]
+          },
+          "kp_dansk_aarsfinale_14": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Fordi dokumentarer også vælger perspektiv, klipning og fortælling. Forklar hvorfor dette svar passer bedre end: Fordi dokumentarer aldrig viser virkelighed · Fordi billeder altid er neutrale · Fordi lyd ikke betyder noget.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Fordi dokumentarer aldrig viser virkelighed",
+              "Fordi billeder altid er neutrale",
+              "Fordi lyd ikke betyder noget"
+            ]
+          },
+          "kp_dansk_aarsfinale_15": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Meget om relationer, konflikt og vendepunkt. Forklar hvorfor dette svar passer bedre end: Kun hvem der har lavet plakaten · Kun hvor lang filmen er · Kun hvad kameraet hedder.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Kun hvem der har lavet plakaten",
+              "Kun hvor lang filmen er",
+              "Kun hvad kameraet hedder"
+            ]
+          },
+          "kp_dansk_aarsfinale_16": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter. Forklar hvorfor dette svar passer bedre end: En fuld romananalyse på ti sider · En tilfældig stikordsliste uden fokus · En karakterbog.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "En fuld romananalyse på ti sider",
+              "En tilfældig stikordsliste uden fokus",
+              "En karakterbog"
+            ]
+          },
+          "kp_dansk_aarsfinale_17": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Et åbent fagligt spørgsmål der kan undersøges og diskuteres. Forklar hvorfor dette svar passer bedre end: Et ja/nej-spørgsmål uden forklaring · En overskrift uden indhold · Et facit fra læreren.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Et ja/nej-spørgsmål uden forklaring",
+              "En overskrift uden indhold",
+              "Et facit fra læreren"
+            ]
+          },
+          "kp_dansk_aarsfinale_18": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Analyse undersøger dele; fortolkning samler betydningen. Forklar hvorfor dette svar passer bedre end: De betyder præcis det samme · Analyse handler kun om stavning · Fortolkning må ikke bruge tekstbevis.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "De betyder præcis det samme",
+              "Analyse handler kun om stavning",
+              "Fortolkning må ikke bruge tekstbevis"
+            ]
+          },
+          "kp_dansk_aarsfinale_19": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Det er kort, relevant og bliver forklaret. Forklar hvorfor dette svar passer bedre end: Det er så langt som muligt · Det står uden sammenhæng · Det erstatter elevens forklaring.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Det er så langt som muligt",
+              "Det står uden sammenhæng",
+              "Det erstatter elevens forklaring"
+            ]
+          },
+          "kp_dansk_aarsfinale_20": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Eleven kan forklare valg, begreber og tekstbevis med egne ord. Forklar hvorfor dette svar passer bedre end: Eleven kan læse alt op uden pause · Eleven undgår spørgsmål · Eleven bruger kun udenadslære.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "sourceUrl": "",
+            "confusions": [
+              "Eleven kan læse alt op uden pause",
+              "Eleven undgår spørgsmål",
+              "Eleven bruger kun udenadslære"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Danskfinale",
+          "questions": [
+            {
+              "id": "kp_dansk_aarsfinale_01",
+              "category": "Familie, relationer og identitet",
+              "question": "Hvilket spørgsmål åbner bedst en analyse af en familietekst?",
+              "points": 100,
+              "options": [
+                "Hvordan viser teksten relationer, konflikter og synsvinkel?",
+                "Hvor mange sider har teksten?",
+                "Hvilken skrifttype er brugt?",
+                "Hvem læser højest?"
+              ],
+              "correctIndex": 0,
+              "answer": "Hvordan viser teksten relationer, konflikter og synsvinkel?"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_02",
+              "category": "Familie, relationer og identitet",
+              "question": "Hvad er en jegfortæller?",
+              "points": 200,
+              "options": [
+                "En fortæller der bruger jeg og oplever indefra",
+                "En alvidende fortæller uden holdning",
+                "En person der altid lyver",
+                "En ydre kameravinkel uden tanker"
+              ],
+              "correctIndex": 0,
+              "answer": "En fortæller der bruger jeg og oplever indefra"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_03",
+              "category": "Familie, relationer og identitet",
+              "question": "Hvad er et centralt spor i arbejdet med erindringstekster?",
+              "points": 300,
+              "options": [
+                "Forholdet mellem oplevelse, hukommelse og fortælling",
+                "Kun tekstens antal kommaer",
+                "Kun udgivelsesåret",
+                "Kun om teksten rimer"
+              ],
+              "correctIndex": 0,
+              "answer": "Forholdet mellem oplevelse, hukommelse og fortælling"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_04",
+              "category": "Familie, relationer og identitet",
+              "question": "Hvorfor er miljøbeskrivelse vigtig i en novelle?",
+              "points": 400,
+              "options": [
+                "Den kan vise personernes livsvilkår og konflikter indirekte",
+                "Den erstatter altid handlingen",
+                "Den fjerner behovet for fortolkning",
+                "Den er kun pynt"
+              ],
+              "correctIndex": 0,
+              "answer": "Den kan vise personernes livsvilkår og konflikter indirekte"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_05",
+              "category": "Familie, relationer og identitet",
+              "question": "Hvad skal en god fortolkning kunne?",
+              "points": 500,
+              "options": [
+                "Koble tekstens detaljer til en samlet forståelse",
+                "Gengive handlingen uden analyse",
+                "Vælge det første indtryk som facit",
+                "Undgå citater og eksempler"
+              ],
+              "correctIndex": 0,
+              "answer": "Koble tekstens detaljer til en samlet forståelse"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_06",
+              "category": "Litteraturhistorie og tekster",
+              "question": "Hvilken periode forbindes ofte med Oehlenschläger og nationalromantik?",
+              "points": 100,
+              "options": [
+                "Romantikken",
+                "Det moderne gennembrud",
+                "Efterkrigstiden",
+                "Minimalismen"
+              ],
+              "correctIndex": 0,
+              "answer": "Romantikken"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_07",
+              "category": "Litteraturhistorie og tekster",
+              "question": "Hvilket krav forbindes med Georg Brandes og det moderne gennembrud?",
+              "points": 200,
+              "options": [
+                "At litteraturen skulle sætte problemer under debat",
+                "At alle tekster skulle være eventyr",
+                "At litteraturen skulle undgå samfund",
+                "At kun adelige måtte skrive"
+              ],
+              "correctIndex": 0,
+              "answer": "At litteraturen skulle sætte problemer under debat"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_08",
+              "category": "Litteraturhistorie og tekster",
+              "question": "Hvad kendetegner realisme som læsemåde og litterær retning?",
+              "points": 300,
+              "options": [
+                "Troværdige skildringer af hverdag, miljø og samfund",
+                "Drømme uden forbindelse til virkelighed",
+                "Kun helte og guder",
+                "Kun rimede tekster"
+              ],
+              "correctIndex": 0,
+              "answer": "Troværdige skildringer af hverdag, miljø og samfund"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_09",
+              "category": "Litteraturhistorie og tekster",
+              "question": "Hvad er naturalismens typiske forklaringsramme?",
+              "points": 400,
+              "options": [
+                "Arv, miljø og sociale vilkår påvirker mennesket",
+                "Alt afgøres af tilfældige tryllekræfter",
+                "Personer har ingen baggrund",
+                "Samfundet findes ikke i teksten"
+              ],
+              "correctIndex": 0,
+              "answer": "Arv, miljø og sociale vilkår påvirker mennesket"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_10",
+              "category": "Litteraturhistorie og tekster",
+              "question": "Hvorfor arbejder man med perioder i dansk?",
+              "points": 500,
+              "options": [
+                "For at forstå tekster i historisk og kulturel sammenhæng",
+                "For at slippe for nærlæsning",
+                "For at kunne ignorere sproget",
+                "For at alle tekster får samme facit"
+              ],
+              "correctIndex": 0,
+              "answer": "For at forstå tekster i historisk og kulturel sammenhæng"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_11",
+              "category": "Medier, reklamer og film",
+              "question": "Hvad er en målgruppe i reklameanalyse?",
+              "points": 100,
+              "options": [
+                "Den gruppe reklamen især prøver at ramme",
+                "Alle mennesker i verden",
+                "Kun reklamebureauet",
+                "Den person der tilfældigt ser væk"
+              ],
+              "correctIndex": 0,
+              "answer": "Den gruppe reklamen især prøver at ramme"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_12",
+              "category": "Medier, reklamer og film",
+              "question": "Hvad betyder virkemiddel i en reklame?",
+              "points": 200,
+              "options": [
+                "Et valg der påvirker modtagerens oplevelse og forståelse",
+                "Et tilfældigt teknisk problem",
+                "Et krav om at købe produktet",
+                "En fejl i billedet"
+              ],
+              "correctIndex": 0,
+              "answer": "Et valg der påvirker modtagerens oplevelse og forståelse"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_13",
+              "category": "Medier, reklamer og film",
+              "question": "Hvad undersøger man ved et pressefoto?",
+              "points": 300,
+              "options": [
+                "Motiv, udsnit, vinkel, situation og mulig virkning",
+                "Kun filnavnet",
+                "Kun kameraets pris",
+                "Kun fotografens alder"
+              ],
+              "correctIndex": 0,
+              "answer": "Motiv, udsnit, vinkel, situation og mulig virkning"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_14",
+              "category": "Medier, reklamer og film",
+              "question": "Hvorfor skal man være kildekritisk ved dokumentarfilm?",
+              "points": 400,
+              "options": [
+                "Fordi dokumentarer også vælger perspektiv, klipning og fortælling",
+                "Fordi dokumentarer aldrig viser virkelighed",
+                "Fordi billeder altid er neutrale",
+                "Fordi lyd ikke betyder noget"
+              ],
+              "correctIndex": 0,
+              "answer": "Fordi dokumentarer også vælger perspektiv, klipning og fortælling"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_15",
+              "category": "Medier, reklamer og film",
+              "question": "Hvad kan en kortfilm ofte sige gennem få billeder?",
+              "points": 500,
+              "options": [
+                "Meget om relationer, konflikt og vendepunkt",
+                "Kun hvem der har lavet plakaten",
+                "Kun hvor lang filmen er",
+                "Kun hvad kameraet hedder"
+              ],
+              "correctIndex": 0,
+              "answer": "Meget om relationer, konflikt og vendepunkt"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_16",
+              "category": "Prøve, synopse og faglige begreber",
+              "question": "Hvad er en synopse?",
+              "points": 100,
+              "options": [
+                "Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter",
+                "En fuld romananalyse på ti sider",
+                "En tilfældig stikordsliste uden fokus",
+                "En karakterbog"
+              ],
+              "correctIndex": 0,
+              "answer": "Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_17",
+              "category": "Prøve, synopse og faglige begreber",
+              "question": "Hvad er en problemstilling?",
+              "points": 200,
+              "options": [
+                "Et åbent fagligt spørgsmål der kan undersøges og diskuteres",
+                "Et ja/nej-spørgsmål uden forklaring",
+                "En overskrift uden indhold",
+                "Et facit fra læreren"
+              ],
+              "correctIndex": 0,
+              "answer": "Et åbent fagligt spørgsmål der kan undersøges og diskuteres"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_18",
+              "category": "Prøve, synopse og faglige begreber",
+              "question": "Hvad er forskellen på analyse og fortolkning?",
+              "points": 300,
+              "options": [
+                "Analyse undersøger dele; fortolkning samler betydningen",
+                "De betyder præcis det samme",
+                "Analyse handler kun om stavning",
+                "Fortolkning må ikke bruge tekstbevis"
+              ],
+              "correctIndex": 0,
+              "answer": "Analyse undersøger dele; fortolkning samler betydningen"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_19",
+              "category": "Prøve, synopse og faglige begreber",
+              "question": "Hvad gør et citat stærkt i en mundtlig præsentation?",
+              "points": 400,
+              "options": [
+                "Det er kort, relevant og bliver forklaret",
+                "Det er så langt som muligt",
+                "Det står uden sammenhæng",
+                "Det erstatter elevens forklaring"
+              ],
+              "correctIndex": 0,
+              "answer": "Det er kort, relevant og bliver forklaret"
+            },
+            {
+              "id": "kp_dansk_aarsfinale_20",
+              "category": "Prøve, synopse og faglige begreber",
+              "question": "Hvad er et godt tegn på prøveparathed?",
+              "points": 500,
+              "options": [
+                "Eleven kan forklare valg, begreber og tekstbevis med egne ord",
+                "Eleven kan læse alt op uden pause",
+                "Eleven undgår spørgsmål",
+                "Eleven bruger kun udenadslære"
+              ],
+              "correctIndex": 0,
+              "answer": "Eleven kan forklare valg, begreber og tekstbevis med egne ord"
+            }
+          ],
+          "updatedAt": "2026-07-07T01:30:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training",
+        "sourceWidgetId": "widget_dansk-25-26_finale_kapardy"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_dansk-25-26_finale_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_dansk-25-26-06-reklamer-proeve_finale_huskekort",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 590,
+        "y": 625,
+        "width": 590,
+        "height": 160,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde · 8 minutter"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_dansk-25-26_finale_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_dansk-25-26-06-reklamer-proeve_finale_kapardy",
+      "type": "kapardy",
+      "title": "KaPardy · Danskfinale",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_dansk_arsfinale_20",
+        "gameStartedAt": "2026-07-07T01:30:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_dansk_aarsfinale_01",
+            "category": "Familie, relationer og identitet",
+            "question": "Hvilket spørgsmål åbner bedst en analyse af en familietekst?",
+            "points": 100,
+            "options": [
+              "Hvordan viser teksten relationer, konflikter og synsvinkel?",
+              "Hvor mange sider har teksten?",
+              "Hvilken skrifttype er brugt?",
+              "Hvem læser højest?"
+            ],
+            "correctIndex": 0,
+            "answer": "Hvordan viser teksten relationer, konflikter og synsvinkel?"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_02",
+            "category": "Familie, relationer og identitet",
+            "question": "Hvad er en jegfortæller?",
+            "points": 200,
+            "options": [
+              "En fortæller der bruger jeg og oplever indefra",
+              "En alvidende fortæller uden holdning",
+              "En person der altid lyver",
+              "En ydre kameravinkel uden tanker"
+            ],
+            "correctIndex": 0,
+            "answer": "En fortæller der bruger jeg og oplever indefra"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_03",
+            "category": "Familie, relationer og identitet",
+            "question": "Hvad er et centralt spor i arbejdet med erindringstekster?",
+            "points": 300,
+            "options": [
+              "Forholdet mellem oplevelse, hukommelse og fortælling",
+              "Kun tekstens antal kommaer",
+              "Kun udgivelsesåret",
+              "Kun om teksten rimer"
+            ],
+            "correctIndex": 0,
+            "answer": "Forholdet mellem oplevelse, hukommelse og fortælling"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_04",
+            "category": "Familie, relationer og identitet",
+            "question": "Hvorfor er miljøbeskrivelse vigtig i en novelle?",
+            "points": 400,
+            "options": [
+              "Den kan vise personernes livsvilkår og konflikter indirekte",
+              "Den erstatter altid handlingen",
+              "Den fjerner behovet for fortolkning",
+              "Den er kun pynt"
+            ],
+            "correctIndex": 0,
+            "answer": "Den kan vise personernes livsvilkår og konflikter indirekte"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_05",
+            "category": "Familie, relationer og identitet",
+            "question": "Hvad skal en god fortolkning kunne?",
+            "points": 500,
+            "options": [
+              "Koble tekstens detaljer til en samlet forståelse",
+              "Gengive handlingen uden analyse",
+              "Vælge det første indtryk som facit",
+              "Undgå citater og eksempler"
+            ],
+            "correctIndex": 0,
+            "answer": "Koble tekstens detaljer til en samlet forståelse"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_06",
+            "category": "Litteraturhistorie og tekster",
+            "question": "Hvilken periode forbindes ofte med Oehlenschläger og nationalromantik?",
+            "points": 100,
+            "options": [
+              "Romantikken",
+              "Det moderne gennembrud",
+              "Efterkrigstiden",
+              "Minimalismen"
+            ],
+            "correctIndex": 0,
+            "answer": "Romantikken"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_07",
+            "category": "Litteraturhistorie og tekster",
+            "question": "Hvilket krav forbindes med Georg Brandes og det moderne gennembrud?",
+            "points": 200,
+            "options": [
+              "At litteraturen skulle sætte problemer under debat",
+              "At alle tekster skulle være eventyr",
+              "At litteraturen skulle undgå samfund",
+              "At kun adelige måtte skrive"
+            ],
+            "correctIndex": 0,
+            "answer": "At litteraturen skulle sætte problemer under debat"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_08",
+            "category": "Litteraturhistorie og tekster",
+            "question": "Hvad kendetegner realisme som læsemåde og litterær retning?",
+            "points": 300,
+            "options": [
+              "Troværdige skildringer af hverdag, miljø og samfund",
+              "Drømme uden forbindelse til virkelighed",
+              "Kun helte og guder",
+              "Kun rimede tekster"
+            ],
+            "correctIndex": 0,
+            "answer": "Troværdige skildringer af hverdag, miljø og samfund"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_09",
+            "category": "Litteraturhistorie og tekster",
+            "question": "Hvad er naturalismens typiske forklaringsramme?",
+            "points": 400,
+            "options": [
+              "Arv, miljø og sociale vilkår påvirker mennesket",
+              "Alt afgøres af tilfældige tryllekræfter",
+              "Personer har ingen baggrund",
+              "Samfundet findes ikke i teksten"
+            ],
+            "correctIndex": 0,
+            "answer": "Arv, miljø og sociale vilkår påvirker mennesket"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_10",
+            "category": "Litteraturhistorie og tekster",
+            "question": "Hvorfor arbejder man med perioder i dansk?",
+            "points": 500,
+            "options": [
+              "For at forstå tekster i historisk og kulturel sammenhæng",
+              "For at slippe for nærlæsning",
+              "For at kunne ignorere sproget",
+              "For at alle tekster får samme facit"
+            ],
+            "correctIndex": 0,
+            "answer": "For at forstå tekster i historisk og kulturel sammenhæng"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_11",
+            "category": "Medier, reklamer og film",
+            "question": "Hvad er en målgruppe i reklameanalyse?",
+            "points": 100,
+            "options": [
+              "Den gruppe reklamen især prøver at ramme",
+              "Alle mennesker i verden",
+              "Kun reklamebureauet",
+              "Den person der tilfældigt ser væk"
+            ],
+            "correctIndex": 0,
+            "answer": "Den gruppe reklamen især prøver at ramme"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_12",
+            "category": "Medier, reklamer og film",
+            "question": "Hvad betyder virkemiddel i en reklame?",
+            "points": 200,
+            "options": [
+              "Et valg der påvirker modtagerens oplevelse og forståelse",
+              "Et tilfældigt teknisk problem",
+              "Et krav om at købe produktet",
+              "En fejl i billedet"
+            ],
+            "correctIndex": 0,
+            "answer": "Et valg der påvirker modtagerens oplevelse og forståelse"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_13",
+            "category": "Medier, reklamer og film",
+            "question": "Hvad undersøger man ved et pressefoto?",
+            "points": 300,
+            "options": [
+              "Motiv, udsnit, vinkel, situation og mulig virkning",
+              "Kun filnavnet",
+              "Kun kameraets pris",
+              "Kun fotografens alder"
+            ],
+            "correctIndex": 0,
+            "answer": "Motiv, udsnit, vinkel, situation og mulig virkning"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_14",
+            "category": "Medier, reklamer og film",
+            "question": "Hvorfor skal man være kildekritisk ved dokumentarfilm?",
+            "points": 400,
+            "options": [
+              "Fordi dokumentarer også vælger perspektiv, klipning og fortælling",
+              "Fordi dokumentarer aldrig viser virkelighed",
+              "Fordi billeder altid er neutrale",
+              "Fordi lyd ikke betyder noget"
+            ],
+            "correctIndex": 0,
+            "answer": "Fordi dokumentarer også vælger perspektiv, klipning og fortælling"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_15",
+            "category": "Medier, reklamer og film",
+            "question": "Hvad kan en kortfilm ofte sige gennem få billeder?",
+            "points": 500,
+            "options": [
+              "Meget om relationer, konflikt og vendepunkt",
+              "Kun hvem der har lavet plakaten",
+              "Kun hvor lang filmen er",
+              "Kun hvad kameraet hedder"
+            ],
+            "correctIndex": 0,
+            "answer": "Meget om relationer, konflikt og vendepunkt"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_16",
+            "category": "Prøve, synopse og faglige begreber",
+            "question": "Hvad er en synopse?",
+            "points": 100,
+            "options": [
+              "Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter",
+              "En fuld romananalyse på ti sider",
+              "En tilfældig stikordsliste uden fokus",
+              "En karakterbog"
+            ],
+            "correctIndex": 0,
+            "answer": "Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_17",
+            "category": "Prøve, synopse og faglige begreber",
+            "question": "Hvad er en problemstilling?",
+            "points": 200,
+            "options": [
+              "Et åbent fagligt spørgsmål der kan undersøges og diskuteres",
+              "Et ja/nej-spørgsmål uden forklaring",
+              "En overskrift uden indhold",
+              "Et facit fra læreren"
+            ],
+            "correctIndex": 0,
+            "answer": "Et åbent fagligt spørgsmål der kan undersøges og diskuteres"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_18",
+            "category": "Prøve, synopse og faglige begreber",
+            "question": "Hvad er forskellen på analyse og fortolkning?",
+            "points": 300,
+            "options": [
+              "Analyse undersøger dele; fortolkning samler betydningen",
+              "De betyder præcis det samme",
+              "Analyse handler kun om stavning",
+              "Fortolkning må ikke bruge tekstbevis"
+            ],
+            "correctIndex": 0,
+            "answer": "Analyse undersøger dele; fortolkning samler betydningen"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_19",
+            "category": "Prøve, synopse og faglige begreber",
+            "question": "Hvad gør et citat stærkt i en mundtlig præsentation?",
+            "points": 400,
+            "options": [
+              "Det er kort, relevant og bliver forklaret",
+              "Det er så langt som muligt",
+              "Det står uden sammenhæng",
+              "Det erstatter elevens forklaring"
+            ],
+            "correctIndex": 0,
+            "answer": "Det er kort, relevant og bliver forklaret"
+          },
+          {
+            "id": "kp_dansk_aarsfinale_20",
+            "category": "Prøve, synopse og faglige begreber",
+            "question": "Hvad er et godt tegn på prøveparathed?",
+            "points": 500,
+            "options": [
+              "Eleven kan forklare valg, begreber og tekstbevis med egne ord",
+              "Eleven kan læse alt op uden pause",
+              "Eleven undgår spørgsmål",
+              "Eleven bruger kun udenadslære"
+            ],
+            "correctIndex": 0,
+            "answer": "Eleven kan forklare valg, begreber og tekstbevis med egne ord"
+          }
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy-final"
+      },
+      "createdAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:30:00.000Z",
       "legacy": null
     }
   ],
@@ -18355,8 +19375,8 @@
     ],
     "counts": {
       "sessions": 6,
-      "boards": 92,
-      "widgets": 366,
+      "boards": 94,
+      "widgets": 370,
       "datasets": 1,
       "media": 0
     },
@@ -18395,7 +19415,7 @@
       "dansk-25-26-05-frihed-flugt",
       "dansk-25-26-06-reklamer-proeve"
     ],
-    "exportedAt": "2026-06-29T12:45:00.000Z",
+    "exportedAt": "2026-07-07T01:30:00.000Z",
     "sourceAppVersion": "0.9.3r"
   }
 }

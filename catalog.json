@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-06T23:55",
+  "updatedAt": "2026-07-07T01:30",
   "categories": [
     {
       "id": "dansk",
@@ -59,7 +59,7 @@
       "title": "Dansk 9.–10. klasse · årsplan 2025–26",
       "category": "dansk",
       "subject": "Dansk",
-      "description": "Et samlet danskforløb med familie, identitet, litteraturhistorie, frihed, reklamer og prøveforberedelse.",
+      "description": "Et samlet danskforløb med familie, identitet, litteraturhistorie, frihed, reklamer, prøveforberedelse og afsluttende KaPardy-repetition.",
       "schoolYear": "2025–26",
       "gradeLevels": [
         "9",
@@ -71,13 +71,16 @@
         "litteratur",
         "medier",
         "synopse",
-        "prøveforberedelse"
+        "prøveforberedelse",
+        "KaPardy",
+        "huskekort",
+        "demo"
       ],
       "version": "1.0.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/dansk-2025-26/forloeb.json",
-      "sizeBytes": 526748,
+      "sizeBytes": 571541,
       "featured": true,
-      "updatedAt": "2026-06-30"
+      "updatedAt": "2026-07-07"
     },
     {
       "id": "faellessamlinger-2026-27",
@@ -86,7 +89,7 @@
       "title": "Fællessamlinger · årsforløb 2026–27",
       "category": "andre",
       "subject": "Fællessamlinger",
-      "description": "Et skoleårs fællessamlinger med historie, samfund, kultur, natur, musik, prøveperioder og skoleliv.",
+      "description": "Et skoleårs fællessamlinger med historie, samfund, kultur, natur, musik, kilder og gennemrettede KaPardy-opsamlinger.",
       "schoolYear": "2026–27",
       "gradeLevels": [
         "9",
@@ -98,13 +101,16 @@
         "skoleliv",
         "historie",
         "samfund",
-        "kultur"
+        "kultur",
+        "KaPardy",
+        "huskekort",
+        "demo"
       ],
       "version": "1.0.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/faellessamlinger-2026-27/forloeb.json",
-      "sizeBytes": 5106739,
+      "sizeBytes": 5100982,
       "featured": true,
-      "updatedAt": "2026-06-30"
+      "updatedAt": "2026-07-07"
     },
     {
       "id": "camp-26",
@@ -113,7 +119,7 @@
       "title": "Camp 26 · kreativt værksted",
       "category": "andre",
       "subject": "Kunst",
-      "description": "Et kreativt kunstforløb for børn og kommende elever med værkstedsmateriale, gruppeinddeling, skrive-/tænkeaktivitet og videoplayliste.",
+      "description": "Et kreativt kunstforløb med gruppeinddeling, medier, refleksion, huskekort og afsluttende KaPardy.",
       "schoolYear": "2026",
       "gradeLevels": [],
       "tags": [
@@ -124,13 +130,16 @@
         "børn",
         "kommende elever",
         "grupper",
-        "video"
+        "video",
+        "KaPardy",
+        "huskekort",
+        "demo"
       ],
       "version": "1.0.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/camp-26/forloeb.json",
-      "sizeBytes": 2369481,
+      "sizeBytes": 2411637,
       "featured": false,
-      "updatedAt": "2026-07-02"
+      "updatedAt": "2026-07-07"
     },
     {
       "id": "20-sporgsmal-dansk-litteratur",
