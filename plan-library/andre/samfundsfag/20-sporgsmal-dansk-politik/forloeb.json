@@ -1,0 +1,2513 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.9",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T22:10:00.000Z",
+  "course": {
+    "id": "course_professor_20-sporgsmal-dansk-politik_v2_showcase",
+    "title": "20 spørgsmål fra professoren · Dansk politik",
+    "subject": "Samfundsfag",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_20-sporgsmal-dansk-politik_v2_showcase"
+    ],
+    "exportedAt": "2026-07-06T22:10:00.000Z",
+    "sourceAppVersion": "1.0.9"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Dansk politik",
+      "theme": "dark",
+      "activeBoardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+      "boardIds": [
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_4",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_5",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_6",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_7",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_8",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+        "board_professor_20-sporgsmal-dansk-politik_v2_showcase_10"
+      ],
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "courseId": "course_professor_20-sporgsmal-dansk-politik_v2_showcase",
+        "courseTitle": "20 spørgsmål fra professoren · Dansk politik",
+        "courseSubject": "Samfundsfag",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_20-sporgsmal-dansk-politik_v2_showcase"
+        ],
+        "courseSequenceVersion": 2,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/dansk_politik_20.csv",
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Demo-hold/lister",
+          "Afstemning",
+          "Timer",
+          "Gruppeværktøj",
+          "Huskekortmatrix",
+          "KaPardy"
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "Overblik · Dansk politik",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_intro",
+        "w_20-sporgsmal-dansk-politik_route",
+        "w_20-sporgsmal-dansk-politik_index"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "order": 1
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "Ressourcematrix og kilder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_resource_matrix",
+        "w_20-sporgsmal-dansk-politik_source_1",
+        "w_20-sporgsmal-dansk-politik_source_2",
+        "w_20-sporgsmal-dansk-politik_source_3",
+        "w_20-sporgsmal-dansk-politik_source_4",
+        "w_20-sporgsmal-dansk-politik_source_5",
+        "w_20-sporgsmal-dansk-politik_sources_text"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "sources",
+        "order": 2
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_groups",
+        "w_20-sporgsmal-dansk-politik_tool_text",
+        "w_20-sporgsmal-dansk-politik_timer",
+        "w_20-sporgsmal-dansk-politik_countdown",
+        "w_20-sporgsmal-dansk-politik_wordcloud",
+        "w_20-sporgsmal-dansk-politik_calendar"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "showcase",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "1. Grundlov og Folketing",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_cat1_core",
+        "w_20-sporgsmal-dansk-politik_cat1_activity",
+        "w_20-sporgsmal-dansk-politik_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 4
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "2. Valg og partier",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_cat2_core",
+        "w_20-sporgsmal-dansk-politik_cat2_activity",
+        "w_20-sporgsmal-dansk-politik_cat2_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "3. Regeringer og politisk historie",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_cat3_core",
+        "w_20-sporgsmal-dansk-politik_cat3_activity",
+        "w_20-sporgsmal-dansk-politik_cat3_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 6
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "4. Kommuner, regioner og rigsfællesskab",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_cat4_core",
+        "w_20-sporgsmal-dansk-politik_cat4_activity",
+        "w_20-sporgsmal-dansk-politik_cat4_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 7
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_8",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_flashcards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "flashcards",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_workshop",
+        "w_20-sporgsmal-dansk-politik_workshop_timer",
+        "w_20-sporgsmal-dansk-politik_workshop_sources",
+        "w_20-sporgsmal-dansk-politik_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-dansk-politik_v2_showcase",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-dansk-politik_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 10
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w_20-sporgsmal-dansk-politik_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+      "type": "text",
+      "title": "Professorens udfordring",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 405,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nDANSK POLITIK\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/dansk_politik_20.csv",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+      "type": "text",
+      "title": "Lektionsplan og Plan-værktøjer",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 405,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Grundlov og Folketing, Valg og partier, Regeringer og politisk historie, Kommuner, regioner og rigsfællesskab.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Demo-hold/lister\n• Afstemning\n• Timer\n• Gruppeværktøj\n• Huskekortmatrix\n• KaPardy\n\nDEMOIDÉ\nKlassen deles i udvalg/partier og afholder en kort lovbehandlingsrunde med timer og afstemning.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 510,
+        "width": 1160,
+        "height": 295,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_1",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_4",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_5",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_6",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_7",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_8",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+          "board_professor_20-sporgsmal-dansk-politik_v2_showcase_10"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_resource_matrix",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "version": 1,
+        "resources": [
+          {
+            "title": "Folketinget",
+            "url": "https://www.ft.dk/",
+            "type": "web/officiel",
+            "category": "Grundlov og Folketing",
+            "note": "Brug som hovedkilde til lovgivning og Folketing.",
+            "tags": [
+              "grundlov-og-folketing",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "Danmarks Domstole",
+            "url": "https://www.domstol.dk/",
+            "type": "web/officiel",
+            "category": "Grundlov og Folketing",
+            "note": "Brug til den dømmende magt og retssystemet.",
+            "tags": [
+              "grundlov-og-folketing",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "Indenrigs- og Sundhedsministeriet · Valg",
+            "url": "https://valg.im.dk/",
+            "type": "web/officiel",
+            "category": "Valg og partier",
+            "note": "Brug til valg, stemmeafgivning og demokrati.",
+            "tags": [
+              "valg-og-partier",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "Statsministeriet",
+            "url": "https://www.stm.dk/",
+            "type": "web/officiel",
+            "category": "Regeringer og politisk historie",
+            "note": "Brug til statsministre og regeringshistorie.",
+            "tags": [
+              "regeringer-og-politisk-historie",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "Danske Regioner",
+            "url": "https://www.regioner.dk/",
+            "type": "web/organisation",
+            "category": "Kommuner, regioner og rigsfællesskab",
+            "note": "Brug til regionernes opgaver og sundhedsvæsen.",
+            "tags": [
+              "kommuner-regioner-og-rigsfaellesskab",
+              "web-organisation"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "link",
+      "title": "Folketinget",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://www.ft.dk/",
+        "label": "Folketinget",
+        "note": "web/officiel · Brug som hovedkilde til lovgivning og Folketing.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "link",
+      "title": "Danmarks Domstole",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://www.domstol.dk/",
+        "label": "Danmarks Domstole",
+        "note": "web/officiel · Brug til den dømmende magt og retssystemet.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "link",
+      "title": "Indenrigs- og Sundhedsministeriet · Valg",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://valg.im.dk/",
+        "label": "Indenrigs- og Sundhedsministeriet · Valg",
+        "note": "web/officiel · Brug til valg, stemmeafgivning og demokrati.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "link",
+      "title": "Statsministeriet",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.stm.dk/",
+        "label": "Statsministeriet",
+        "note": "web/officiel · Brug til statsministre og regeringshistorie.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "link",
+      "title": "Danske Regioner",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.regioner.dk/",
+        "label": "Danske Regioner",
+        "note": "web/organisation · Brug til regionernes opgaver og sundhedsvæsen.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Grundlov og Folketing",
+            "members": []
+          },
+          {
+            "name": "Valg og partier",
+            "members": []
+          },
+          {
+            "name": "Regeringer og politisk historie",
+            "members": []
+          },
+          {
+            "name": "Kommuner, regioner og rigsfællesskab",
+            "members": []
+          }
+        ],
+        "note": "Klassen deles i udvalg/partier og afholder en kort lovbehandlingsrunde med timer og afstemning."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Grundlov og Folketing\n• Valg og partier\n• Regeringer og politisk historie\n• Kommuner, regioner og rigsfællesskab\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Grundlov og Folketing",
+            "count": 1
+          },
+          {
+            "text": "Valg og partier",
+            "count": 1
+          },
+          {
+            "text": "Regeringer og politisk historie",
+            "count": 1
+          },
+          {
+            "text": "Kommuner, regioner og rigsfællesskab",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_4",
+      "type": "text",
+      "title": "Kildearbejde · Grundlov og Folketing",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Grundlov og Folketing\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad kaldes princippet om, at statsmagten deles i lovgivende, udøvende og dømmende magt?\n• Hvem udøver den dømmende magt i Danmark?\n• Hvem udøver i praksis den udøvende magt?\n• Hvad kaldes et forslag til en ny lov?\n• Hvor mange behandlinger gennemgår et lovforslag normalt i Folketinget?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Grundlov og Folketing\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_4",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad kaldes princippet om, at statsmagten deles i lovgivende, udøvende og dømmende magt?\n• Hvem udøver den dømmende magt i Danmark?\n• Hvem udøver i praksis den udøvende magt?\n• Hvad kaldes et forslag til en ny lov?\n• Hvor mange behandlinger gennemgår et lovforslag normalt i Folketinget?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_5",
+      "type": "text",
+      "title": "Kildearbejde · Valg og partier",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Valg og partier\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad betyder hemmelig stemmeafgivning?\n• Hvilket bogstav bruges traditionelt af Socialdemokratiet på stemmesedlen?\n• Hvilket bogstav bruges traditionelt af Venstre på stemmesedlen?\n• Hvilket bogstav bruges af Det Konservative Folkeparti?\n• Hvilket bogstav bruges af Socialistisk Folkeparti?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Valg og partier\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_5",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad betyder hemmelig stemmeafgivning?\n• Hvilket bogstav bruges traditionelt af Socialdemokratiet på stemmesedlen?\n• Hvilket bogstav bruges traditionelt af Venstre på stemmesedlen?\n• Hvilket bogstav bruges af Det Konservative Folkeparti?\n• Hvilket bogstav bruges af Socialistisk Folkeparti?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_6",
+      "type": "text",
+      "title": "Kildearbejde · Regeringer og politisk historie",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Regeringer og politisk historie\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvem var statsminister, da Danmark blev besat den 9. april 1940?\n• Hvem blev statsminister i november 1942 og fortsatte frem til regeringens ophør i august 1943?\n• Hvem ledede befrielsesregeringen fra maj 1945?\n• Hvilken statsminister stod i spidsen, da Danmark blev medlem af NATO i 1949?\n• Hvilken statsminister udskrev folkeafstemningen om dansk EF-medlemskab i 1972?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Regeringer og politisk historie\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_6",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvem var statsminister, da Danmark blev besat den 9. april 1940?\n• Hvem blev statsminister i november 1942 og fortsatte frem til regeringens ophør i august 1943?\n• Hvem ledede befrielsesregeringen fra maj 1945?\n• Hvilken statsminister stod i spidsen, da Danmark blev medlem af NATO i 1949?\n• Hvilken statsminister udskrev folkeafstemningen om dansk EF-medlemskab i 1972?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_7",
+      "type": "text",
+      "title": "Kildearbejde · Kommuner, regioner og rigsfællesskab",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Kommuner, regioner og rigsfællesskab\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken opgave har regionerne især haft siden 2007?\n• Hvilket folkevalgt organ leder en region?\n• Hvilken by var administrationssæde for Region Hovedstaden ved oprettelsen i 2007?\n• Hvilken by blev administrationssæde for Region Sjælland ved oprettelsen i 2007?\n• Hvilken by blev administrationssæde for Region Syddanmark ved oprettelsen i 2007?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_7",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Kommuner, regioner og rigsfællesskab\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_7",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken opgave har regionerne især haft siden 2007?\n• Hvilket folkevalgt organ leder en region?\n• Hvilken by var administrationssæde for Region Hovedstaden ved oprettelsen i 2007?\n• Hvilken by blev administrationssæde for Region Sjælland ved oprettelsen i 2007?\n• Hvilken by blev administrationssæde for Region Syddanmark ved oprettelsen i 2007?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_8",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-dansk-politik_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Dansk politik",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_dansk-politik_01": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: magtens tredeling. Forklar hvorfor det er mere præcist end: negativ parlamentarisme · forholdstalsvalg · kommunalt selvstyre.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "negativ parlamentarisme",
+              "forholdstalsvalg",
+              "kommunalt selvstyre"
+            ]
+          },
+          "kp_dansk-politik_02": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: domstolene. Forklar hvorfor det er mere præcist end: Folketinget · regeringen · kommunerne.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Folketinget",
+              "regeringen",
+              "kommunerne"
+            ]
+          },
+          "kp_dansk-politik_03": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: regeringen. Forklar hvorfor det er mere præcist end: Folketingets Præsidium · Højesteret · regionerne.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Folketingets Præsidium",
+              "Højesteret",
+              "regionerne"
+            ]
+          },
+          "kp_dansk-politik_04": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: lovforslag. Forklar hvorfor det er mere præcist end: aktstykke · bekendtgørelse · forespørgsel.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "aktstykke",
+              "bekendtgørelse",
+              "forespørgsel"
+            ]
+          },
+          "kp_dansk-politik_05": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: 3. Forklar hvorfor det er mere præcist end: 1 · 2 · 4.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "1",
+              "2",
+              "4"
+            ]
+          },
+          "kp_dansk-politik_06": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: andre må ikke kunne se, hvad den enkelte vælger stemmer. Forklar hvorfor det er mere præcist end: stemmerne tælles ikke · kun partierne kender resultatet · vælgeren må ikke tale om politik.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "stemmerne tælles ikke",
+              "kun partierne kender resultatet",
+              "vælgeren må ikke tale om politik"
+            ]
+          },
+          "kp_dansk-politik_07": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: A. Forklar hvorfor det er mere præcist end: V · C · F.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "V",
+              "C",
+              "F"
+            ]
+          },
+          "kp_dansk-politik_08": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: V. Forklar hvorfor det er mere præcist end: A · B · Ø.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "A",
+              "B",
+              "Ø"
+            ]
+          },
+          "kp_dansk-politik_09": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: C. Forklar hvorfor det er mere præcist end: K · H · D.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "K",
+              "H",
+              "D"
+            ]
+          },
+          "kp_dansk-politik_10": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: F. Forklar hvorfor det er mere præcist end: S · G · R.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "S",
+              "G",
+              "R"
+            ]
+          },
+          "kp_dansk-politik_11": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Thorvald Stauning. Forklar hvorfor det er mere præcist end: Erik Scavenius · Vilhelm Buhl · Hans Hedtoft.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Erik Scavenius",
+              "Vilhelm Buhl",
+              "Hans Hedtoft"
+            ]
+          },
+          "kp_dansk-politik_12": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Erik Scavenius. Forklar hvorfor det er mere præcist end: Vilhelm Buhl · Knud Kristensen · John Christmas Møller.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Vilhelm Buhl",
+              "Knud Kristensen",
+              "John Christmas Møller"
+            ]
+          },
+          "kp_dansk-politik_13": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Vilhelm Buhl. Forklar hvorfor det er mere præcist end: Hans Hedtoft · Erik Scavenius · Knud Kristensen.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Hans Hedtoft",
+              "Erik Scavenius",
+              "Knud Kristensen"
+            ]
+          },
+          "kp_dansk-politik_14": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Hans Hedtoft. Forklar hvorfor det er mere præcist end: H.C. Hansen · Viggo Kampmann · Jens Otto Krag.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "H.C. Hansen",
+              "Viggo Kampmann",
+              "Jens Otto Krag"
+            ]
+          },
+          "kp_dansk-politik_15": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Jens Otto Krag. Forklar hvorfor det er mere præcist end: Anker Jørgensen · Hilmar Baunsgaard · Poul Hartling.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Anker Jørgensen",
+              "Hilmar Baunsgaard",
+              "Poul Hartling"
+            ]
+          },
+          "kp_dansk-politik_16": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: drift af hospitaler og sundhedsvæsen. Forklar hvorfor det er mere præcist end: folkeskoleundervisning · politi og forsvar · udstedelse af pas.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "folkeskoleundervisning",
+              "politi og forsvar",
+              "udstedelse af pas"
+            ]
+          },
+          "kp_dansk-politik_17": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: regionsrådet. Forklar hvorfor det er mere præcist end: kommunalbestyrelsen · Folketingets Præsidium · Statsrådet.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "kommunalbestyrelsen",
+              "Folketingets Præsidium",
+              "Statsrådet"
+            ]
+          },
+          "kp_dansk-politik_18": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: Hillerød. Forklar hvorfor det er mere præcist end: København · Roskilde · Helsingør.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "København",
+              "Roskilde",
+              "Helsingør"
+            ]
+          },
+          "kp_dansk-politik_19": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: Sorø. Forklar hvorfor det er mere præcist end: Roskilde · Næstved · Køge.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Roskilde",
+              "Næstved",
+              "Køge"
+            ]
+          },
+          "kp_dansk-politik_20": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: Vejle. Forklar hvorfor det er mere præcist end: Odense · Esbjerg · Kolding.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Odense",
+              "Esbjerg",
+              "Kolding"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Dansk politik",
+          "questions": [
+            {
+              "id": "kp_dansk-politik_01",
+              "category": "Grundlov og Folketing",
+              "question": "Hvad kaldes princippet om, at statsmagten deles i lovgivende, udøvende og dømmende magt?",
+              "points": 100,
+              "options": [
+                "magtens tredeling",
+                "negativ parlamentarisme",
+                "forholdstalsvalg",
+                "kommunalt selvstyre"
+              ],
+              "correctIndex": 0,
+              "answer": "magtens tredeling"
+            },
+            {
+              "id": "kp_dansk-politik_02",
+              "category": "Grundlov og Folketing",
+              "question": "Hvem udøver den dømmende magt i Danmark?",
+              "points": 200,
+              "options": [
+                "domstolene",
+                "Folketinget",
+                "regeringen",
+                "kommunerne"
+              ],
+              "correctIndex": 0,
+              "answer": "domstolene"
+            },
+            {
+              "id": "kp_dansk-politik_03",
+              "category": "Grundlov og Folketing",
+              "question": "Hvem udøver i praksis den udøvende magt?",
+              "points": 300,
+              "options": [
+                "regeringen",
+                "Folketingets Præsidium",
+                "Højesteret",
+                "regionerne"
+              ],
+              "correctIndex": 0,
+              "answer": "regeringen"
+            },
+            {
+              "id": "kp_dansk-politik_04",
+              "category": "Grundlov og Folketing",
+              "question": "Hvad kaldes et forslag til en ny lov?",
+              "points": 400,
+              "options": [
+                "lovforslag",
+                "aktstykke",
+                "bekendtgørelse",
+                "forespørgsel"
+              ],
+              "correctIndex": 0,
+              "answer": "lovforslag"
+            },
+            {
+              "id": "kp_dansk-politik_05",
+              "category": "Grundlov og Folketing",
+              "question": "Hvor mange behandlinger gennemgår et lovforslag normalt i Folketinget?",
+              "points": 500,
+              "options": [
+                "3",
+                "1",
+                "2",
+                "4"
+              ],
+              "correctIndex": 0,
+              "answer": "3"
+            },
+            {
+              "id": "kp_dansk-politik_06",
+              "category": "Valg og partier",
+              "question": "Hvad betyder hemmelig stemmeafgivning?",
+              "points": 100,
+              "options": [
+                "andre må ikke kunne se, hvad den enkelte vælger stemmer",
+                "stemmerne tælles ikke",
+                "kun partierne kender resultatet",
+                "vælgeren må ikke tale om politik"
+              ],
+              "correctIndex": 0,
+              "answer": "andre må ikke kunne se, hvad den enkelte vælger stemmer"
+            },
+            {
+              "id": "kp_dansk-politik_07",
+              "category": "Valg og partier",
+              "question": "Hvilket bogstav bruges traditionelt af Socialdemokratiet på stemmesedlen?",
+              "points": 200,
+              "options": [
+                "A",
+                "V",
+                "C",
+                "F"
+              ],
+              "correctIndex": 0,
+              "answer": "A"
+            },
+            {
+              "id": "kp_dansk-politik_08",
+              "category": "Valg og partier",
+              "question": "Hvilket bogstav bruges traditionelt af Venstre på stemmesedlen?",
+              "points": 300,
+              "options": [
+                "V",
+                "A",
+                "B",
+                "Ø"
+              ],
+              "correctIndex": 0,
+              "answer": "V"
+            },
+            {
+              "id": "kp_dansk-politik_09",
+              "category": "Valg og partier",
+              "question": "Hvilket bogstav bruges af Det Konservative Folkeparti?",
+              "points": 400,
+              "options": [
+                "C",
+                "K",
+                "H",
+                "D"
+              ],
+              "correctIndex": 0,
+              "answer": "C"
+            },
+            {
+              "id": "kp_dansk-politik_10",
+              "category": "Valg og partier",
+              "question": "Hvilket bogstav bruges af Socialistisk Folkeparti?",
+              "points": 500,
+              "options": [
+                "F",
+                "S",
+                "G",
+                "R"
+              ],
+              "correctIndex": 0,
+              "answer": "F"
+            },
+            {
+              "id": "kp_dansk-politik_11",
+              "category": "Regeringer og politisk historie",
+              "question": "Hvem var statsminister, da Danmark blev besat den 9. april 1940?",
+              "points": 100,
+              "options": [
+                "Thorvald Stauning",
+                "Erik Scavenius",
+                "Vilhelm Buhl",
+                "Hans Hedtoft"
+              ],
+              "correctIndex": 0,
+              "answer": "Thorvald Stauning"
+            },
+            {
+              "id": "kp_dansk-politik_12",
+              "category": "Regeringer og politisk historie",
+              "question": "Hvem blev statsminister i november 1942 og fortsatte frem til regeringens ophør i august 1943?",
+              "points": 200,
+              "options": [
+                "Erik Scavenius",
+                "Vilhelm Buhl",
+                "Knud Kristensen",
+                "John Christmas Møller"
+              ],
+              "correctIndex": 0,
+              "answer": "Erik Scavenius"
+            },
+            {
+              "id": "kp_dansk-politik_13",
+              "category": "Regeringer og politisk historie",
+              "question": "Hvem ledede befrielsesregeringen fra maj 1945?",
+              "points": 300,
+              "options": [
+                "Vilhelm Buhl",
+                "Hans Hedtoft",
+                "Erik Scavenius",
+                "Knud Kristensen"
+              ],
+              "correctIndex": 0,
+              "answer": "Vilhelm Buhl"
+            },
+            {
+              "id": "kp_dansk-politik_14",
+              "category": "Regeringer og politisk historie",
+              "question": "Hvilken statsminister stod i spidsen, da Danmark blev medlem af NATO i 1949?",
+              "points": 400,
+              "options": [
+                "Hans Hedtoft",
+                "H.C. Hansen",
+                "Viggo Kampmann",
+                "Jens Otto Krag"
+              ],
+              "correctIndex": 0,
+              "answer": "Hans Hedtoft"
+            },
+            {
+              "id": "kp_dansk-politik_15",
+              "category": "Regeringer og politisk historie",
+              "question": "Hvilken statsminister udskrev folkeafstemningen om dansk EF-medlemskab i 1972?",
+              "points": 500,
+              "options": [
+                "Jens Otto Krag",
+                "Anker Jørgensen",
+                "Hilmar Baunsgaard",
+                "Poul Hartling"
+              ],
+              "correctIndex": 0,
+              "answer": "Jens Otto Krag"
+            },
+            {
+              "id": "kp_dansk-politik_16",
+              "category": "Kommuner, regioner og rigsfællesskab",
+              "question": "Hvilken opgave har regionerne især haft siden 2007?",
+              "points": 100,
+              "options": [
+                "drift af hospitaler og sundhedsvæsen",
+                "folkeskoleundervisning",
+                "politi og forsvar",
+                "udstedelse af pas"
+              ],
+              "correctIndex": 0,
+              "answer": "drift af hospitaler og sundhedsvæsen"
+            },
+            {
+              "id": "kp_dansk-politik_17",
+              "category": "Kommuner, regioner og rigsfællesskab",
+              "question": "Hvilket folkevalgt organ leder en region?",
+              "points": 200,
+              "options": [
+                "regionsrådet",
+                "kommunalbestyrelsen",
+                "Folketingets Præsidium",
+                "Statsrådet"
+              ],
+              "correctIndex": 0,
+              "answer": "regionsrådet"
+            },
+            {
+              "id": "kp_dansk-politik_18",
+              "category": "Kommuner, regioner og rigsfællesskab",
+              "question": "Hvilken by var administrationssæde for Region Hovedstaden ved oprettelsen i 2007?",
+              "points": 300,
+              "options": [
+                "Hillerød",
+                "København",
+                "Roskilde",
+                "Helsingør"
+              ],
+              "correctIndex": 0,
+              "answer": "Hillerød"
+            },
+            {
+              "id": "kp_dansk-politik_19",
+              "category": "Kommuner, regioner og rigsfællesskab",
+              "question": "Hvilken by blev administrationssæde for Region Sjælland ved oprettelsen i 2007?",
+              "points": 400,
+              "options": [
+                "Sorø",
+                "Roskilde",
+                "Næstved",
+                "Køge"
+              ],
+              "correctIndex": 0,
+              "answer": "Sorø"
+            },
+            {
+              "id": "kp_dansk-politik_20",
+              "category": "Kommuner, regioner og rigsfællesskab",
+              "question": "Hvilken by blev administrationssæde for Region Syddanmark ved oprettelsen i 2007?",
+              "points": 500,
+              "options": [
+                "Vejle",
+                "Odense",
+                "Esbjerg",
+                "Kolding"
+              ],
+              "correctIndex": 0,
+              "answer": "Vejle"
+            }
+          ],
+          "updatedAt": "2026-07-06T22:10:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+      "type": "text",
+      "title": "Professorens prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_workshop_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 180,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_9",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 580,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-dansk-politik_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_10",
+      "type": "kapardy",
+      "title": "KaPardy · Dansk politik",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_20-sporgsmal-dansk-politik_20",
+        "gameStartedAt": "2026-07-06T22:10:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_dansk-politik_01",
+            "category": "Grundlov og Folketing",
+            "question": "Hvad kaldes princippet om, at statsmagten deles i lovgivende, udøvende og dømmende magt?",
+            "points": 100,
+            "options": [
+              "magtens tredeling",
+              "negativ parlamentarisme",
+              "forholdstalsvalg",
+              "kommunalt selvstyre"
+            ],
+            "correctIndex": 0,
+            "answer": "magtens tredeling"
+          },
+          {
+            "id": "kp_dansk-politik_02",
+            "category": "Grundlov og Folketing",
+            "question": "Hvem udøver den dømmende magt i Danmark?",
+            "points": 200,
+            "options": [
+              "domstolene",
+              "Folketinget",
+              "regeringen",
+              "kommunerne"
+            ],
+            "correctIndex": 0,
+            "answer": "domstolene"
+          },
+          {
+            "id": "kp_dansk-politik_03",
+            "category": "Grundlov og Folketing",
+            "question": "Hvem udøver i praksis den udøvende magt?",
+            "points": 300,
+            "options": [
+              "regeringen",
+              "Folketingets Præsidium",
+              "Højesteret",
+              "regionerne"
+            ],
+            "correctIndex": 0,
+            "answer": "regeringen"
+          },
+          {
+            "id": "kp_dansk-politik_04",
+            "category": "Grundlov og Folketing",
+            "question": "Hvad kaldes et forslag til en ny lov?",
+            "points": 400,
+            "options": [
+              "lovforslag",
+              "aktstykke",
+              "bekendtgørelse",
+              "forespørgsel"
+            ],
+            "correctIndex": 0,
+            "answer": "lovforslag"
+          },
+          {
+            "id": "kp_dansk-politik_05",
+            "category": "Grundlov og Folketing",
+            "question": "Hvor mange behandlinger gennemgår et lovforslag normalt i Folketinget?",
+            "points": 500,
+            "options": [
+              "3",
+              "1",
+              "2",
+              "4"
+            ],
+            "correctIndex": 0,
+            "answer": "3"
+          },
+          {
+            "id": "kp_dansk-politik_06",
+            "category": "Valg og partier",
+            "question": "Hvad betyder hemmelig stemmeafgivning?",
+            "points": 100,
+            "options": [
+              "andre må ikke kunne se, hvad den enkelte vælger stemmer",
+              "stemmerne tælles ikke",
+              "kun partierne kender resultatet",
+              "vælgeren må ikke tale om politik"
+            ],
+            "correctIndex": 0,
+            "answer": "andre må ikke kunne se, hvad den enkelte vælger stemmer"
+          },
+          {
+            "id": "kp_dansk-politik_07",
+            "category": "Valg og partier",
+            "question": "Hvilket bogstav bruges traditionelt af Socialdemokratiet på stemmesedlen?",
+            "points": 200,
+            "options": [
+              "A",
+              "V",
+              "C",
+              "F"
+            ],
+            "correctIndex": 0,
+            "answer": "A"
+          },
+          {
+            "id": "kp_dansk-politik_08",
+            "category": "Valg og partier",
+            "question": "Hvilket bogstav bruges traditionelt af Venstre på stemmesedlen?",
+            "points": 300,
+            "options": [
+              "V",
+              "A",
+              "B",
+              "Ø"
+            ],
+            "correctIndex": 0,
+            "answer": "V"
+          },
+          {
+            "id": "kp_dansk-politik_09",
+            "category": "Valg og partier",
+            "question": "Hvilket bogstav bruges af Det Konservative Folkeparti?",
+            "points": 400,
+            "options": [
+              "C",
+              "K",
+              "H",
+              "D"
+            ],
+            "correctIndex": 0,
+            "answer": "C"
+          },
+          {
+            "id": "kp_dansk-politik_10",
+            "category": "Valg og partier",
+            "question": "Hvilket bogstav bruges af Socialistisk Folkeparti?",
+            "points": 500,
+            "options": [
+              "F",
+              "S",
+              "G",
+              "R"
+            ],
+            "correctIndex": 0,
+            "answer": "F"
+          },
+          {
+            "id": "kp_dansk-politik_11",
+            "category": "Regeringer og politisk historie",
+            "question": "Hvem var statsminister, da Danmark blev besat den 9. april 1940?",
+            "points": 100,
+            "options": [
+              "Thorvald Stauning",
+              "Erik Scavenius",
+              "Vilhelm Buhl",
+              "Hans Hedtoft"
+            ],
+            "correctIndex": 0,
+            "answer": "Thorvald Stauning"
+          },
+          {
+            "id": "kp_dansk-politik_12",
+            "category": "Regeringer og politisk historie",
+            "question": "Hvem blev statsminister i november 1942 og fortsatte frem til regeringens ophør i august 1943?",
+            "points": 200,
+            "options": [
+              "Erik Scavenius",
+              "Vilhelm Buhl",
+              "Knud Kristensen",
+              "John Christmas Møller"
+            ],
+            "correctIndex": 0,
+            "answer": "Erik Scavenius"
+          },
+          {
+            "id": "kp_dansk-politik_13",
+            "category": "Regeringer og politisk historie",
+            "question": "Hvem ledede befrielsesregeringen fra maj 1945?",
+            "points": 300,
+            "options": [
+              "Vilhelm Buhl",
+              "Hans Hedtoft",
+              "Erik Scavenius",
+              "Knud Kristensen"
+            ],
+            "correctIndex": 0,
+            "answer": "Vilhelm Buhl"
+          },
+          {
+            "id": "kp_dansk-politik_14",
+            "category": "Regeringer og politisk historie",
+            "question": "Hvilken statsminister stod i spidsen, da Danmark blev medlem af NATO i 1949?",
+            "points": 400,
+            "options": [
+              "Hans Hedtoft",
+              "H.C. Hansen",
+              "Viggo Kampmann",
+              "Jens Otto Krag"
+            ],
+            "correctIndex": 0,
+            "answer": "Hans Hedtoft"
+          },
+          {
+            "id": "kp_dansk-politik_15",
+            "category": "Regeringer og politisk historie",
+            "question": "Hvilken statsminister udskrev folkeafstemningen om dansk EF-medlemskab i 1972?",
+            "points": 500,
+            "options": [
+              "Jens Otto Krag",
+              "Anker Jørgensen",
+              "Hilmar Baunsgaard",
+              "Poul Hartling"
+            ],
+            "correctIndex": 0,
+            "answer": "Jens Otto Krag"
+          },
+          {
+            "id": "kp_dansk-politik_16",
+            "category": "Kommuner, regioner og rigsfællesskab",
+            "question": "Hvilken opgave har regionerne især haft siden 2007?",
+            "points": 100,
+            "options": [
+              "drift af hospitaler og sundhedsvæsen",
+              "folkeskoleundervisning",
+              "politi og forsvar",
+              "udstedelse af pas"
+            ],
+            "correctIndex": 0,
+            "answer": "drift af hospitaler og sundhedsvæsen"
+          },
+          {
+            "id": "kp_dansk-politik_17",
+            "category": "Kommuner, regioner og rigsfællesskab",
+            "question": "Hvilket folkevalgt organ leder en region?",
+            "points": 200,
+            "options": [
+              "regionsrådet",
+              "kommunalbestyrelsen",
+              "Folketingets Præsidium",
+              "Statsrådet"
+            ],
+            "correctIndex": 0,
+            "answer": "regionsrådet"
+          },
+          {
+            "id": "kp_dansk-politik_18",
+            "category": "Kommuner, regioner og rigsfællesskab",
+            "question": "Hvilken by var administrationssæde for Region Hovedstaden ved oprettelsen i 2007?",
+            "points": 300,
+            "options": [
+              "Hillerød",
+              "København",
+              "Roskilde",
+              "Helsingør"
+            ],
+            "correctIndex": 0,
+            "answer": "Hillerød"
+          },
+          {
+            "id": "kp_dansk-politik_19",
+            "category": "Kommuner, regioner og rigsfællesskab",
+            "question": "Hvilken by blev administrationssæde for Region Sjælland ved oprettelsen i 2007?",
+            "points": 400,
+            "options": [
+              "Sorø",
+              "Roskilde",
+              "Næstved",
+              "Køge"
+            ],
+            "correctIndex": 0,
+            "answer": "Sorø"
+          },
+          {
+            "id": "kp_dansk-politik_20",
+            "category": "Kommuner, regioner og rigsfællesskab",
+            "question": "Hvilken by blev administrationssæde for Region Syddanmark ved oprettelsen i 2007?",
+            "points": 500,
+            "options": [
+              "Vejle",
+              "Odense",
+              "Esbjerg",
+              "Kolding"
+            ],
+            "correctIndex": 0,
+            "answer": "Vejle"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceCsv": "spil/kapardy/20/dansk_politik_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_20-sporgsmal-dansk-politik_v2_showcase"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 10,
+      "widgets": 34,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_20-sporgsmal-dansk-politik_v2_showcase",
+    "courseTitle": "20 spørgsmål fra professoren · Dansk politik",
+    "courseSessionIds": [
+      "session_professor_20-sporgsmal-dansk-politik_v2_showcase"
+    ]
+  },
+  "warnings": []
+}

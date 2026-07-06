@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-06T18:30",
+  "updatedAt": "2026-07-06T22:10",
   "categories": [
     {
       "id": "dansk",
@@ -585,6 +585,202 @@
       "sizeBytes": 83982,
       "featured": false,
       "updatedAt": "2026-07-06T18:30"
+    },
+    {
+      "id": "20-sporgsmal-danmark-historie-topografi",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Danmark · historie og topografi",
+      "category": "historie",
+      "subject": "Historie / geografi",
+      "description": "Danmarkshistorie, landskab, øer, farvande og kulturhistorie med kort, kilder, tidslinje og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "historie",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-danmark-historie-topografi/forloeb.json",
+      "sizeBytes": 88063,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-jydsk-historie-topografi",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Jydsk historie og topografi",
+      "category": "historie",
+      "subject": "Historie / geografi",
+      "description": "Jyllands byer, landskaber, arkæologi, kultur og forbindelser med kortarbejde, lokale kilder og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "historie",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-jydsk-historie-topografi/forloeb.json",
+      "sizeBytes": 89656,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-dansk-politik",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Dansk politik",
+      "category": "andre-9",
+      "subject": "Samfundsfag",
+      "description": "Samfundsfagsforløb om grundlov, valg, partier, regeringer, regioner og rigsfællesskab med rollespil og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "samfundsfag",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/samfundsfag/20-sporgsmal-dansk-politik/forloeb.json",
+      "sizeBytes": 85080,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-europaeiske-hovedstaeder",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Europæiske hovedstæder",
+      "category": "andre-9",
+      "subject": "Geografi / kulturfag",
+      "description": "Geografiforløb om europæiske hovedstæder, kort, kendte steder og institutioner med kortværksted og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "geografi",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/geografi/20-sporgsmal-europaeiske-hovedstaeder/forloeb.json",
+      "sizeBytes": 85829,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-nordiske-lande",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Nordiske lande",
+      "category": "andre-9",
+      "subject": "Geografi / samfundsfag",
+      "description": "Nordisk forløb om lande, valutaer, natur, sprog, EU/NATO og samarbejde med kort, grupper og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "geografi",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/geografi/20-sporgsmal-nordiske-lande/forloeb.json",
+      "sizeBytes": 82925,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-verdens-geografi",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Verdens geografi",
+      "category": "andre-9",
+      "subject": "Geografi",
+      "description": "Geografiforløb om hovedstæder, landskaber, have, øer, grænser og kortbegreber med Ressourcematrix og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "geografi",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/geografi/20-sporgsmal-verdens-geografi/forloeb.json",
+      "sizeBytes": 84992,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-vikinger",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Vikinger",
+      "category": "historie",
+      "subject": "Historie",
+      "description": "Historieforløb om vikingeskibe, handel, tro, runer, steder og begivenheder med kilder, kort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "historie",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-vikinger/forloeb.json",
+      "sizeBytes": 84413,
+      "featured": false,
+      "updatedAt": "2026-07-06T22:10"
     }
   ]
 }
