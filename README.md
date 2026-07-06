@@ -1,4 +1,4 @@
-# Plan 1.0.8
+# Plan 1.0.9
 
 <p align="center">
   <img src="plan-assets/plan-icon.svg" alt="Plan" width="180">
@@ -20,7 +20,7 @@ Plan bygger videre på den fleksible tavleform fra **Tavle**, men sætter hele u
 
 ## Nyt i 1.0.8
 
-Plan 1.0.8 samler de seneste ændringer i hjælp, README, bibliotek og læringsaktiviteter:
+Plan 1.0.9 samler de seneste ændringer i hjælp, README, bibliotek og læringsaktiviteter:
 
 - **Hjælp og README** er opdateret til den aktuelle version.
 - **Biblioteket** viser nu fag ud fra kataloget og har faste synlige fag for blandt andet **Musik** og **Historie**.
@@ -49,7 +49,7 @@ Plan kan også åbnes som én selvstændig HTML-fil uden server eller internetfo
 2. Gem den et sikkert sted på enheden.
 3. Åbn HTML-filen i en moderne browser eller en egnet lokal HTML-app.
 
-Et fuldt GitHub-repository kan desuden indeholde appikoner, webmanifest, bibliotekskatalog, demoforløb og KaPardy-spil. Disse filer er ikke nødvendige for at åbne den lokale kerneapp, men de bruges af den online udgave og af biblioteket.
+Den online udgave kan desuden rumme appikon, færdige undervisningsforløb og KaPardy-spil. Den lokale HTML-fil kan bruges alene, men bibliotek og spil fungerer bedst i den online udgave.
 
 På iPad kan den online udgave føjes til hjemmeskærmen. Lokale HTML-filer kan bruges gennem en app, der understøtter lokal browserlagring.
 
@@ -88,7 +88,7 @@ Et bibliotekseksemplar importeres som en selvstændig lokal kopi. Lærerens ænd
 
 ### Fag i biblioteket
 
-Biblioteket læser fagene fra `catalog.json`. Det betyder, at fagknapperne ikke kun afhænger af mapperne i GitHub. Det er kataloget, der bestemmer, hvad Plan viser i brugerfladen.
+Biblioteket viser forløbene samlet efter fag, så læreren hurtigt kan finde det rigtige materiale.
 
 Aktuelle hovedfag kan blandt andet være:
 
@@ -312,7 +312,7 @@ Plan kan desuden samle relaterede elementer i matrixer: Elevkortmatrix, Niveaude
 
 ## Materialer og medier
 
-Du kan vælge eller trække én eller mange filer ind i Plan. Appen forsøger selv at vælge en passende widgettype.
+Du kan vælge eller trække én eller mange filer ind i Plan. Appen forsøger selv at vælge en passende visning.
 
 Det kan blandt andet være:
 
@@ -420,24 +420,11 @@ Hjælpen kan betjenes med tastaturet:
 
 ---
 
-## Repository og filer
+## Onlineudgave og lokalt arbejde
 
-Et fuldt Plan-repository kan blandt andet indeholde:
+Plan kan bruges direkte online eller som en lokal HTML-fil. Den online udgave giver lettest adgang til bibliotek, demoforløb og KaPardy-spil. Den lokale fil er praktisk, når du vil arbejde uden net eller gemme en bestemt version på din egen enhed.
 
-- `index.html` – den aktuelle Plan-app,
-- `README.md` – denne introduktion,
-- `plan.webmanifest` – webapp-manifest,
-- `plan-assets/` – logo og appikoner,
-- `catalog.json` – kompatibelt rodkatalog til biblioteket,
-- `plan-library/` – demoforløb og skabeloner samlet efter fag,
-- `plan-library/catalog.json` – bibliotekets hovedregister,
-- `plan-library/README.md` – vejledning til bibliotekets opbygning,
-- `spil/kapardy/` – KaPardy-spil ordnet efter antal spørgsmål,
-- `docs/manifest_spil.json` – register over spillene.
-
-Demofag ligger ikke som selvstændige mapper i repositoryets rod. De findes samlet under `plan-library/`.
-
-Den lokale kerneapp kan fortsat distribueres og bruges som én selvstændig HTML-fil. Spilbibliotek og demoforløb kræver dog adgang til de tilhørende repositoryfiler eller til den online udgave.
+Uanset hvordan Plan åbnes, er det vigtigt at tage backup af dine egne forløb, især før du skifter browser, enhed eller rydder lokalt lager.
 
 ---
 
