@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-06T13:45",
+  "updatedAt": "2026-07-06T18:30",
   "categories": [
     {
       "id": "dansk",
@@ -417,6 +417,174 @@
       "sizeBytes": 75440,
       "featured": false,
       "updatedAt": "2026-07-06T13:45"
+    },
+    {
+      "id": "20-sporgsmal-astronomi-rum",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Astronomi og rum",
+      "category": "science",
+      "subject": "Science / astronomi",
+      "description": "Astronomi og rum arbejdet frem med kilder, billedressourcer, missionstavler, nedtælling, huskekort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-astronomi-rum/forloeb.json",
+      "sizeBytes": 83997,
+      "featured": false,
+      "updatedAt": "2026-07-06T18:30"
+    },
+    {
+      "id": "20-sporgsmal-beromte-opfindelser",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Berømte opfindelser",
+      "category": "science",
+      "subject": "Science / teknologi og historie",
+      "description": "Teknologihistorisk forløb med tidslinje, kildekritik, opfinderkort, Ressourcematrix og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-beromte-opfindelser/forloeb.json",
+      "sizeBytes": 91291,
+      "featured": false,
+      "updatedAt": "2026-07-06T18:30"
+    },
+    {
+      "id": "20-sporgsmal-biologi-natur",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Biologi og natur",
+      "category": "science",
+      "subject": "Science / biologi",
+      "description": "Biologiforløb med celler, arv, planter, økologi, billedkilder, stationsarbejde, huskekort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-biologi-natur/forloeb.json",
+      "sizeBytes": 85577,
+      "featured": false,
+      "updatedAt": "2026-07-06T18:30"
+    },
+    {
+      "id": "20-sporgsmal-danske-opfindelser",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Danske opfindelser",
+      "category": "science",
+      "subject": "Science / teknologi og dansk forskning",
+      "description": "Danske opfindelser og forskningsspor med tidslinje, virksomheds-/museumskilder, ekspertgrupper og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-danske-opfindelser/forloeb.json",
+      "sizeBytes": 87488,
+      "featured": false,
+      "updatedAt": "2026-07-06T18:30"
+    },
+    {
+      "id": "20-sporgsmal-klimaforandringer",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Klimaforandringer",
+      "category": "science",
+      "subject": "Science / klima og geografi",
+      "description": "Klimaforløb med data, officielle kilder, ekspertgrupper, begrebskort, afstemning, timer og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-klimaforandringer/forloeb.json",
+      "sizeBytes": 91802,
+      "featured": false,
+      "updatedAt": "2026-07-06T18:30"
+    },
+    {
+      "id": "20-sporgsmal-rumfart",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Rumfart",
+      "category": "science",
+      "subject": "Science / rumfart",
+      "description": "Rumfartsforløb med missionstavle, nedtælling, historiske kilder, satellitkort, huskekort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-rumfart/forloeb.json",
+      "sizeBytes": 83982,
+      "featured": false,
+      "updatedAt": "2026-07-06T18:30"
     }
   ]
 }

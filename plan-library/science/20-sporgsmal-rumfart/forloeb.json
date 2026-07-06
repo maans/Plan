@@ -1,0 +1,2513 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.9",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T18:30:00.000Z",
+  "course": {
+    "id": "course_professor_20-sporgsmal-rumfart_v2_showcase",
+    "title": "20 spørgsmål fra professoren · Rumfart",
+    "subject": "Science / rumfart",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_20-sporgsmal-rumfart_v2_showcase"
+    ],
+    "exportedAt": "2026-07-06T18:30:00.000Z",
+    "sourceAppVersion": "1.0.9"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Rumfart",
+      "theme": "dark",
+      "activeBoardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+      "boardIds": [
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_4",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_5",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_6",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_7",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_8",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+        "board_professor_20-sporgsmal-rumfart_v2_showcase_10"
+      ],
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "courseId": "course_professor_20-sporgsmal-rumfart_v2_showcase",
+        "courseTitle": "20 spørgsmål fra professoren · Rumfart",
+        "courseSubject": "Science / rumfart",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_20-sporgsmal-rumfart_v2_showcase"
+        ],
+        "courseSequenceVersion": 2,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/rumfart_20.csv",
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Nedtælling",
+          "Kalender/tidslinje",
+          "Grupper",
+          "Timer",
+          "Huskekortmatrix",
+          "KaPardy"
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "Overblik · Rumfart",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_intro",
+        "w_20-sporgsmal-rumfart_route",
+        "w_20-sporgsmal-rumfart_index"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "order": 1
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "Ressourcematrix og kilder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_resource_matrix",
+        "w_20-sporgsmal-rumfart_source_1",
+        "w_20-sporgsmal-rumfart_source_2",
+        "w_20-sporgsmal-rumfart_source_3",
+        "w_20-sporgsmal-rumfart_source_4",
+        "w_20-sporgsmal-rumfart_source_5",
+        "w_20-sporgsmal-rumfart_sources_text"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "sources",
+        "order": 2
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_groups",
+        "w_20-sporgsmal-rumfart_tool_text",
+        "w_20-sporgsmal-rumfart_timer",
+        "w_20-sporgsmal-rumfart_countdown",
+        "w_20-sporgsmal-rumfart_wordcloud",
+        "w_20-sporgsmal-rumfart_calendar"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "showcase",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "1. Pionerer og milepæle",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_cat1_core",
+        "w_20-sporgsmal-rumfart_cat1_activity",
+        "w_20-sporgsmal-rumfart_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 4
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "2. Raketter og rumfartøjer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_cat2_core",
+        "w_20-sporgsmal-rumfart_cat2_activity",
+        "w_20-sporgsmal-rumfart_cat2_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "3. Månen og Mars",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_cat3_core",
+        "w_20-sporgsmal-rumfart_cat3_activity",
+        "w_20-sporgsmal-rumfart_cat3_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 6
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "4. Satellitter og rumstationer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_cat4_core",
+        "w_20-sporgsmal-rumfart_cat4_activity",
+        "w_20-sporgsmal-rumfart_cat4_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 7
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_8",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_flashcards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "flashcards",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_workshop",
+        "w_20-sporgsmal-rumfart_workshop_timer",
+        "w_20-sporgsmal-rumfart_workshop_sources",
+        "w_20-sporgsmal-rumfart_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-rumfart_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-rumfart_v2_showcase",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-rumfart_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 10
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w_20-sporgsmal-rumfart_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+      "type": "text",
+      "title": "Professorens udfordring",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 405,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nRUMFART\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/rumfart_20.csv",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+      "type": "text",
+      "title": "Lektionsplan og Plan-værktøjer",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 405,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Pionerer og milepæle, Raketter og rumfartøjer, Månen og Mars, Satellitter og rumstationer.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Nedtælling\n• Kalender/tidslinje\n• Grupper\n• Timer\n• Huskekortmatrix\n• KaPardy\n\nDEMOIDÉ\nKontrolrum: historikhold, rakethold, måne-/marshold og satellithold.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 510,
+        "width": 1160,
+        "height": 295,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_1",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_4",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_5",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_6",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_7",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_8",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+          "board_professor_20-sporgsmal-rumfart_v2_showcase_10"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_resource_matrix",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "version": 1,
+        "resources": [
+          {
+            "title": "NASA History",
+            "url": "https://history.nasa.gov/",
+            "type": "web/arkiv",
+            "category": "Pionerer og milepæle",
+            "note": "Brug til Mercury, Apollo, rumfærger og missioner.",
+            "tags": [
+              "pionerer-og-milepaele",
+              "web-arkiv"
+            ]
+          },
+          {
+            "title": "NASA Apollo 11",
+            "url": "https://www.nasa.gov/mission/apollo-11/",
+            "type": "web/arkiv",
+            "category": "Raketter og rumfartøjer",
+            "note": "Brug til Apollo 11 og Saturn V.",
+            "tags": [
+              "raketter-og-rumfartoejer",
+              "web-arkiv"
+            ]
+          },
+          {
+            "title": "ISRO Chandrayaan-3",
+            "url": "https://www.isro.gov.in/Chandrayaan3.html",
+            "type": "web/officiel",
+            "category": "Månen og Mars",
+            "note": "Brug til Chandrayaan-3, Vikram og Pragyan.",
+            "tags": [
+              "maanen-og-mars",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "NASA Mars Exploration",
+            "url": "https://mars.nasa.gov/",
+            "type": "web/medie",
+            "category": "Månen og Mars",
+            "note": "Brug til Marsmissioner og roverhistorie.",
+            "tags": [
+              "maanen-og-mars",
+              "web-medie"
+            ]
+          },
+          {
+            "title": "ESA · Types of orbits",
+            "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+            "type": "web/forklaring",
+            "category": "Satellitter og rumstationer",
+            "note": "Brug til satellitbaner, LEO og geostationær bane.",
+            "tags": [
+              "satellitter-og-rumstationer",
+              "web-forklaring"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "link",
+      "title": "NASA History",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://history.nasa.gov/",
+        "label": "NASA History",
+        "note": "web/arkiv · Brug til Mercury, Apollo, rumfærger og missioner.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "link",
+      "title": "NASA Apollo 11",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://www.nasa.gov/mission/apollo-11/",
+        "label": "NASA Apollo 11",
+        "note": "web/arkiv · Brug til Apollo 11 og Saturn V.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "link",
+      "title": "ISRO Chandrayaan-3",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://www.isro.gov.in/Chandrayaan3.html",
+        "label": "ISRO Chandrayaan-3",
+        "note": "web/officiel · Brug til Chandrayaan-3, Vikram og Pragyan.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "link",
+      "title": "NASA Mars Exploration",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://mars.nasa.gov/",
+        "label": "NASA Mars Exploration",
+        "note": "web/medie · Brug til Marsmissioner og roverhistorie.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "link",
+      "title": "ESA · Types of orbits",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+        "label": "ESA · Types of orbits",
+        "note": "web/forklaring · Brug til satellitbaner, LEO og geostationær bane.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Pionerer og milepæle",
+            "members": []
+          },
+          {
+            "name": "Raketter og rumfartøjer",
+            "members": []
+          },
+          {
+            "name": "Månen og Mars",
+            "members": []
+          },
+          {
+            "name": "Satellitter og rumstationer",
+            "members": []
+          }
+        ],
+        "note": "Kontrolrum: historikhold, rakethold, måne-/marshold og satellithold."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Pionerer og milepæle\n• Raketter og rumfartøjer\n• Månen og Mars\n• Satellitter og rumstationer\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Pionerer og milepæle",
+            "count": 1
+          },
+          {
+            "text": "Raketter og rumfartøjer",
+            "count": 1
+          },
+          {
+            "text": "Månen og Mars",
+            "count": 1
+          },
+          {
+            "text": "Satellitter og rumstationer",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_4",
+      "type": "text",
+      "title": "Kildearbejde · Pionerer og milepæle",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Pionerer og milepæle\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvem blev den første amerikaner i rummet?\n• Hvem udførte den første rumvandring?\n• Hvad hed Alan Shepards Mercury-kapsel?\n• Hvilken mission omfattede den første rumvandring?\n• Hvad hed missionen, der gjorde Valentina Teresjkova til den første kvinde i rummet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Pionerer og milepæle\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_4",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvem blev den første amerikaner i rummet?\n• Hvem udførte den første rumvandring?\n• Hvad hed Alan Shepards Mercury-kapsel?\n• Hvilken mission omfattede den første rumvandring?\n• Hvad hed missionen, der gjorde Valentina Teresjkova til den første kvinde i rummet?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_5",
+      "type": "text",
+      "title": "Kildearbejde · Raketter og rumfartøjer",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Raketter og rumfartøjer\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket program blev Saturn V især udviklet til?\n• Hvilken raket sendte Apollo 11 mod Månen?\n• Hvor mange hovedtrin havde Saturn V-raketten?\n• Hvilken del af rumfærgen vendte tilbage og landede som et svævefly?\n• Hvad bestod det amerikanske rumfærgesystem ved opsendelsen af ud over orbiteren?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Raketter og rumfartøjer\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_5",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilket program blev Saturn V især udviklet til?\n• Hvilken raket sendte Apollo 11 mod Månen?\n• Hvor mange hovedtrin havde Saturn V-raketten?\n• Hvilken del af rumfærgen vendte tilbage og landede som et svævefly?\n• Hvad bestod det amerikanske rumfærgesystem ved opsendelsen af ud over orbiteren?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_6",
+      "type": "text",
+      "title": "Kildearbejde · Månen og Mars",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Månen og Mars\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken indisk mission gennemførte en blød månelanding i 2023?\n• Hvilken sonde foretog den første vellykkede forbiflyvning af Mars?\n• Hvad hedder roveren, der fulgte med Chang’e 4 til Månens bagside?\n• Hvad hed landeren på Chandrayaan-3?\n• Hvilken sovjetisk lander blev i 1971 det første rumfartøj, der gennemførte en blød landing på Mars?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Månen og Mars\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_6",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken indisk mission gennemførte en blød månelanding i 2023?\n• Hvilken sonde foretog den første vellykkede forbiflyvning af Mars?\n• Hvad hedder roveren, der fulgte med Chang’e 4 til Månens bagside?\n• Hvad hed landeren på Chandrayaan-3?\n• Hvilken sovjetisk lander blev i 1971 det første rumfartøj, der gennemførte en blød landing på Mars?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_7",
+      "type": "text",
+      "title": "Kildearbejde · Satellitter og rumstationer",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Satellitter og rumstationer\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad gør en kommunikationssatellit typisk?\n• Hvor lang omløbstid har en geostationær satellit omtrent?\n• Over hvilket område ligger en geostationær satellitbane?\n• Hvad kendetegner en polar satellitbane?\n• Hvad betyder forkortelsen LEO?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_7",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Satellitter og rumstationer\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_7",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad gør en kommunikationssatellit typisk?\n• Hvor lang omløbstid har en geostationær satellit omtrent?\n• Over hvilket område ligger en geostationær satellitbane?\n• Hvad kendetegner en polar satellitbane?\n• Hvad betyder forkortelsen LEO?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_8",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-rumfart_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Rumfart",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_rumfart_01": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Alan Shepard. Forklar hvorfor det er mere præcist end: John Glenn · Gus Grissom · Scott Carpenter.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "John Glenn",
+              "Gus Grissom",
+              "Scott Carpenter"
+            ]
+          },
+          "kp_rumfart_02": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Aleksej Leonov. Forklar hvorfor det er mere præcist end: Ed White · Jurij Gagarin · Neil Armstrong.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Ed White",
+              "Jurij Gagarin",
+              "Neil Armstrong"
+            ]
+          },
+          "kp_rumfart_03": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Freedom 7. Forklar hvorfor det er mere præcist end: Friendship 7 · Liberty Bell 7 · Aurora 7.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Friendship 7",
+              "Liberty Bell 7",
+              "Aurora 7"
+            ]
+          },
+          "kp_rumfart_04": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Voskhod 2. Forklar hvorfor det er mere præcist end: Vostok 1 · Soyuz 4 · Apollo 9.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Vostok 1",
+              "Soyuz 4",
+              "Apollo 9"
+            ]
+          },
+          "kp_rumfart_05": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Vostok 6. Forklar hvorfor det er mere præcist end: Vostok 3 · Voskhod 2 · Soyuz 6.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Vostok 3",
+              "Voskhod 2",
+              "Soyuz 6"
+            ]
+          },
+          "kp_rumfart_06": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: Apollo-programmet. Forklar hvorfor det er mere præcist end: Mercury-programmet · Gemini-programmet · Viking-programmet.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Mercury-programmet",
+              "Gemini-programmet",
+              "Viking-programmet"
+            ]
+          },
+          "kp_rumfart_07": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: Saturn V. Forklar hvorfor det er mere præcist end: Saturn I · Atlas V · Titan II.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Saturn I",
+              "Atlas V",
+              "Titan II"
+            ]
+          },
+          "kp_rumfart_08": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: 3. Forklar hvorfor det er mere præcist end: 2 · 4 · 5.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "2",
+              "4",
+              "5"
+            ]
+          },
+          "kp_rumfart_09": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: orbiteren. Forklar hvorfor det er mere præcist end: den eksterne tank · faststofboosterne samlet · nyttelastkappen.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "den eksterne tank",
+              "faststofboosterne samlet",
+              "nyttelastkappen"
+            ]
+          },
+          "kp_rumfart_10": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: to faststofboostere og en ekstern tank. Forklar hvorfor det er mere præcist end: fire flydende boostere og en kapsel · én faststofbooster og to eksterne tanke · kun orbiteren uden hjælperaketter.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "fire flydende boostere og en kapsel",
+              "én faststofbooster og to eksterne tanke",
+              "kun orbiteren uden hjælperaketter"
+            ]
+          },
+          "kp_rumfart_11": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Chandrayaan-3. Forklar hvorfor det er mere præcist end: Chandrayaan-1 · Mangalyaan · Aditya-L1.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Chandrayaan-1",
+              "Mangalyaan",
+              "Aditya-L1"
+            ]
+          },
+          "kp_rumfart_12": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Mariner 4. Forklar hvorfor det er mere præcist end: Mariner 2 · Viking 1 · Mars 3.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Mariner 2",
+              "Viking 1",
+              "Mars 3"
+            ]
+          },
+          "kp_rumfart_13": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Yutu-2. Forklar hvorfor det er mere præcist end: Pragyan · Lunokhod 1 · Sojourner.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Pragyan",
+              "Lunokhod 1",
+              "Sojourner"
+            ]
+          },
+          "kp_rumfart_14": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Vikram. Forklar hvorfor det er mere præcist end: Pragyan · Rohini · Shakti.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Pragyan",
+              "Rohini",
+              "Shakti"
+            ]
+          },
+          "kp_rumfart_15": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Mars 3. Forklar hvorfor det er mere præcist end: Mars 2 · Viking 1 · Mariner 9.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Mars 2",
+              "Viking 1",
+              "Mariner 9"
+            ]
+          },
+          "kp_rumfart_16": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: modtager og videresender radiosignaler. Forklar hvorfor det er mere præcist end: producerer raketbrændstof · måler kun jordskælv under havet · lander automatisk på Månen.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "producerer raketbrændstof",
+              "måler kun jordskælv under havet",
+              "lander automatisk på Månen"
+            ]
+          },
+          "kp_rumfart_17": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: ét siderisk døgn, cirka 24 timer. Forklar hvorfor det er mere præcist end: 90 minutter · 12 timer · 30 døgn.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "90 minutter",
+              "12 timer",
+              "30 døgn"
+            ]
+          },
+          "kp_rumfart_18": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: over ækvator. Forklar hvorfor det er mere præcist end: over Nordpolen · over en vilkårlig breddegrad · direkte over nulmeridianen alene.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "over Nordpolen",
+              "over en vilkårlig breddegrad",
+              "direkte over nulmeridianen alene"
+            ]
+          },
+          "kp_rumfart_19": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: satellitten passerer nær begge poler. Forklar hvorfor det er mere præcist end: satellitten står stille over ækvator · satellitten kredser om Månen · satellitten forlader Solsystemet.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "satellitten står stille over ækvator",
+              "satellitten kredser om Månen",
+              "satellitten forlader Solsystemet"
+            ]
+          },
+          "kp_rumfart_20": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: Low Earth Orbit. Forklar hvorfor det er mere præcist end: Lunar Escape Operation · Long Elliptical Observatory · Launch Engine Output.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Lunar Escape Operation",
+              "Long Elliptical Observatory",
+              "Launch Engine Output"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Rumfart",
+          "questions": [
+            {
+              "id": "kp_rumfart_01",
+              "category": "Pionerer og milepæle",
+              "question": "Hvem blev den første amerikaner i rummet?",
+              "points": 100,
+              "options": [
+                "Alan Shepard",
+                "John Glenn",
+                "Gus Grissom",
+                "Scott Carpenter"
+              ],
+              "correctIndex": 0,
+              "answer": "Alan Shepard"
+            },
+            {
+              "id": "kp_rumfart_02",
+              "category": "Pionerer og milepæle",
+              "question": "Hvem udførte den første rumvandring?",
+              "points": 200,
+              "options": [
+                "Aleksej Leonov",
+                "Ed White",
+                "Jurij Gagarin",
+                "Neil Armstrong"
+              ],
+              "correctIndex": 0,
+              "answer": "Aleksej Leonov"
+            },
+            {
+              "id": "kp_rumfart_03",
+              "category": "Pionerer og milepæle",
+              "question": "Hvad hed Alan Shepards Mercury-kapsel?",
+              "points": 300,
+              "options": [
+                "Freedom 7",
+                "Friendship 7",
+                "Liberty Bell 7",
+                "Aurora 7"
+              ],
+              "correctIndex": 0,
+              "answer": "Freedom 7"
+            },
+            {
+              "id": "kp_rumfart_04",
+              "category": "Pionerer og milepæle",
+              "question": "Hvilken mission omfattede den første rumvandring?",
+              "points": 400,
+              "options": [
+                "Voskhod 2",
+                "Vostok 1",
+                "Soyuz 4",
+                "Apollo 9"
+              ],
+              "correctIndex": 0,
+              "answer": "Voskhod 2"
+            },
+            {
+              "id": "kp_rumfart_05",
+              "category": "Pionerer og milepæle",
+              "question": "Hvad hed missionen, der gjorde Valentina Teresjkova til den første kvinde i rummet?",
+              "points": 500,
+              "options": [
+                "Vostok 6",
+                "Vostok 3",
+                "Voskhod 2",
+                "Soyuz 6"
+              ],
+              "correctIndex": 0,
+              "answer": "Vostok 6"
+            },
+            {
+              "id": "kp_rumfart_06",
+              "category": "Raketter og rumfartøjer",
+              "question": "Hvilket program blev Saturn V især udviklet til?",
+              "points": 100,
+              "options": [
+                "Apollo-programmet",
+                "Mercury-programmet",
+                "Gemini-programmet",
+                "Viking-programmet"
+              ],
+              "correctIndex": 0,
+              "answer": "Apollo-programmet"
+            },
+            {
+              "id": "kp_rumfart_07",
+              "category": "Raketter og rumfartøjer",
+              "question": "Hvilken raket sendte Apollo 11 mod Månen?",
+              "points": 200,
+              "options": [
+                "Saturn V",
+                "Saturn I",
+                "Atlas V",
+                "Titan II"
+              ],
+              "correctIndex": 0,
+              "answer": "Saturn V"
+            },
+            {
+              "id": "kp_rumfart_08",
+              "category": "Raketter og rumfartøjer",
+              "question": "Hvor mange hovedtrin havde Saturn V-raketten?",
+              "points": 300,
+              "options": [
+                "3",
+                "2",
+                "4",
+                "5"
+              ],
+              "correctIndex": 0,
+              "answer": "3"
+            },
+            {
+              "id": "kp_rumfart_09",
+              "category": "Raketter og rumfartøjer",
+              "question": "Hvilken del af rumfærgen vendte tilbage og landede som et svævefly?",
+              "points": 400,
+              "options": [
+                "orbiteren",
+                "den eksterne tank",
+                "faststofboosterne samlet",
+                "nyttelastkappen"
+              ],
+              "correctIndex": 0,
+              "answer": "orbiteren"
+            },
+            {
+              "id": "kp_rumfart_10",
+              "category": "Raketter og rumfartøjer",
+              "question": "Hvad bestod det amerikanske rumfærgesystem ved opsendelsen af ud over orbiteren?",
+              "points": 500,
+              "options": [
+                "to faststofboostere og en ekstern tank",
+                "fire flydende boostere og en kapsel",
+                "én faststofbooster og to eksterne tanke",
+                "kun orbiteren uden hjælperaketter"
+              ],
+              "correctIndex": 0,
+              "answer": "to faststofboostere og en ekstern tank"
+            },
+            {
+              "id": "kp_rumfart_11",
+              "category": "Månen og Mars",
+              "question": "Hvilken indisk mission gennemførte en blød månelanding i 2023?",
+              "points": 100,
+              "options": [
+                "Chandrayaan-3",
+                "Chandrayaan-1",
+                "Mangalyaan",
+                "Aditya-L1"
+              ],
+              "correctIndex": 0,
+              "answer": "Chandrayaan-3"
+            },
+            {
+              "id": "kp_rumfart_12",
+              "category": "Månen og Mars",
+              "question": "Hvilken sonde foretog den første vellykkede forbiflyvning af Mars?",
+              "points": 200,
+              "options": [
+                "Mariner 4",
+                "Mariner 2",
+                "Viking 1",
+                "Mars 3"
+              ],
+              "correctIndex": 0,
+              "answer": "Mariner 4"
+            },
+            {
+              "id": "kp_rumfart_13",
+              "category": "Månen og Mars",
+              "question": "Hvad hedder roveren, der fulgte med Chang’e 4 til Månens bagside?",
+              "points": 300,
+              "options": [
+                "Yutu-2",
+                "Pragyan",
+                "Lunokhod 1",
+                "Sojourner"
+              ],
+              "correctIndex": 0,
+              "answer": "Yutu-2"
+            },
+            {
+              "id": "kp_rumfart_14",
+              "category": "Månen og Mars",
+              "question": "Hvad hed landeren på Chandrayaan-3?",
+              "points": 400,
+              "options": [
+                "Vikram",
+                "Pragyan",
+                "Rohini",
+                "Shakti"
+              ],
+              "correctIndex": 0,
+              "answer": "Vikram"
+            },
+            {
+              "id": "kp_rumfart_15",
+              "category": "Månen og Mars",
+              "question": "Hvilken sovjetisk lander blev i 1971 det første rumfartøj, der gennemførte en blød landing på Mars?",
+              "points": 500,
+              "options": [
+                "Mars 3",
+                "Mars 2",
+                "Viking 1",
+                "Mariner 9"
+              ],
+              "correctIndex": 0,
+              "answer": "Mars 3"
+            },
+            {
+              "id": "kp_rumfart_16",
+              "category": "Satellitter og rumstationer",
+              "question": "Hvad gør en kommunikationssatellit typisk?",
+              "points": 100,
+              "options": [
+                "modtager og videresender radiosignaler",
+                "producerer raketbrændstof",
+                "måler kun jordskælv under havet",
+                "lander automatisk på Månen"
+              ],
+              "correctIndex": 0,
+              "answer": "modtager og videresender radiosignaler"
+            },
+            {
+              "id": "kp_rumfart_17",
+              "category": "Satellitter og rumstationer",
+              "question": "Hvor lang omløbstid har en geostationær satellit omtrent?",
+              "points": 200,
+              "options": [
+                "ét siderisk døgn, cirka 24 timer",
+                "90 minutter",
+                "12 timer",
+                "30 døgn"
+              ],
+              "correctIndex": 0,
+              "answer": "ét siderisk døgn, cirka 24 timer"
+            },
+            {
+              "id": "kp_rumfart_18",
+              "category": "Satellitter og rumstationer",
+              "question": "Over hvilket område ligger en geostationær satellitbane?",
+              "points": 300,
+              "options": [
+                "over ækvator",
+                "over Nordpolen",
+                "over en vilkårlig breddegrad",
+                "direkte over nulmeridianen alene"
+              ],
+              "correctIndex": 0,
+              "answer": "over ækvator"
+            },
+            {
+              "id": "kp_rumfart_19",
+              "category": "Satellitter og rumstationer",
+              "question": "Hvad kendetegner en polar satellitbane?",
+              "points": 400,
+              "options": [
+                "satellitten passerer nær begge poler",
+                "satellitten står stille over ækvator",
+                "satellitten kredser om Månen",
+                "satellitten forlader Solsystemet"
+              ],
+              "correctIndex": 0,
+              "answer": "satellitten passerer nær begge poler"
+            },
+            {
+              "id": "kp_rumfart_20",
+              "category": "Satellitter og rumstationer",
+              "question": "Hvad betyder forkortelsen LEO?",
+              "points": 500,
+              "options": [
+                "Low Earth Orbit",
+                "Lunar Escape Operation",
+                "Long Elliptical Observatory",
+                "Launch Engine Output"
+              ],
+              "correctIndex": 0,
+              "answer": "Low Earth Orbit"
+            }
+          ],
+          "updatedAt": "2026-07-06T18:30:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+      "type": "text",
+      "title": "Professorens prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_workshop_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 180,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_9",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 580,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-rumfart_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_10",
+      "type": "kapardy",
+      "title": "KaPardy · Rumfart",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_20-sporgsmal-rumfart_20",
+        "gameStartedAt": "2026-07-06T18:30:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_rumfart_01",
+            "category": "Pionerer og milepæle",
+            "question": "Hvem blev den første amerikaner i rummet?",
+            "points": 100,
+            "options": [
+              "Alan Shepard",
+              "John Glenn",
+              "Gus Grissom",
+              "Scott Carpenter"
+            ],
+            "correctIndex": 0,
+            "answer": "Alan Shepard"
+          },
+          {
+            "id": "kp_rumfart_02",
+            "category": "Pionerer og milepæle",
+            "question": "Hvem udførte den første rumvandring?",
+            "points": 200,
+            "options": [
+              "Aleksej Leonov",
+              "Ed White",
+              "Jurij Gagarin",
+              "Neil Armstrong"
+            ],
+            "correctIndex": 0,
+            "answer": "Aleksej Leonov"
+          },
+          {
+            "id": "kp_rumfart_03",
+            "category": "Pionerer og milepæle",
+            "question": "Hvad hed Alan Shepards Mercury-kapsel?",
+            "points": 300,
+            "options": [
+              "Freedom 7",
+              "Friendship 7",
+              "Liberty Bell 7",
+              "Aurora 7"
+            ],
+            "correctIndex": 0,
+            "answer": "Freedom 7"
+          },
+          {
+            "id": "kp_rumfart_04",
+            "category": "Pionerer og milepæle",
+            "question": "Hvilken mission omfattede den første rumvandring?",
+            "points": 400,
+            "options": [
+              "Voskhod 2",
+              "Vostok 1",
+              "Soyuz 4",
+              "Apollo 9"
+            ],
+            "correctIndex": 0,
+            "answer": "Voskhod 2"
+          },
+          {
+            "id": "kp_rumfart_05",
+            "category": "Pionerer og milepæle",
+            "question": "Hvad hed missionen, der gjorde Valentina Teresjkova til den første kvinde i rummet?",
+            "points": 500,
+            "options": [
+              "Vostok 6",
+              "Vostok 3",
+              "Voskhod 2",
+              "Soyuz 6"
+            ],
+            "correctIndex": 0,
+            "answer": "Vostok 6"
+          },
+          {
+            "id": "kp_rumfart_06",
+            "category": "Raketter og rumfartøjer",
+            "question": "Hvilket program blev Saturn V især udviklet til?",
+            "points": 100,
+            "options": [
+              "Apollo-programmet",
+              "Mercury-programmet",
+              "Gemini-programmet",
+              "Viking-programmet"
+            ],
+            "correctIndex": 0,
+            "answer": "Apollo-programmet"
+          },
+          {
+            "id": "kp_rumfart_07",
+            "category": "Raketter og rumfartøjer",
+            "question": "Hvilken raket sendte Apollo 11 mod Månen?",
+            "points": 200,
+            "options": [
+              "Saturn V",
+              "Saturn I",
+              "Atlas V",
+              "Titan II"
+            ],
+            "correctIndex": 0,
+            "answer": "Saturn V"
+          },
+          {
+            "id": "kp_rumfart_08",
+            "category": "Raketter og rumfartøjer",
+            "question": "Hvor mange hovedtrin havde Saturn V-raketten?",
+            "points": 300,
+            "options": [
+              "3",
+              "2",
+              "4",
+              "5"
+            ],
+            "correctIndex": 0,
+            "answer": "3"
+          },
+          {
+            "id": "kp_rumfart_09",
+            "category": "Raketter og rumfartøjer",
+            "question": "Hvilken del af rumfærgen vendte tilbage og landede som et svævefly?",
+            "points": 400,
+            "options": [
+              "orbiteren",
+              "den eksterne tank",
+              "faststofboosterne samlet",
+              "nyttelastkappen"
+            ],
+            "correctIndex": 0,
+            "answer": "orbiteren"
+          },
+          {
+            "id": "kp_rumfart_10",
+            "category": "Raketter og rumfartøjer",
+            "question": "Hvad bestod det amerikanske rumfærgesystem ved opsendelsen af ud over orbiteren?",
+            "points": 500,
+            "options": [
+              "to faststofboostere og en ekstern tank",
+              "fire flydende boostere og en kapsel",
+              "én faststofbooster og to eksterne tanke",
+              "kun orbiteren uden hjælperaketter"
+            ],
+            "correctIndex": 0,
+            "answer": "to faststofboostere og en ekstern tank"
+          },
+          {
+            "id": "kp_rumfart_11",
+            "category": "Månen og Mars",
+            "question": "Hvilken indisk mission gennemførte en blød månelanding i 2023?",
+            "points": 100,
+            "options": [
+              "Chandrayaan-3",
+              "Chandrayaan-1",
+              "Mangalyaan",
+              "Aditya-L1"
+            ],
+            "correctIndex": 0,
+            "answer": "Chandrayaan-3"
+          },
+          {
+            "id": "kp_rumfart_12",
+            "category": "Månen og Mars",
+            "question": "Hvilken sonde foretog den første vellykkede forbiflyvning af Mars?",
+            "points": 200,
+            "options": [
+              "Mariner 4",
+              "Mariner 2",
+              "Viking 1",
+              "Mars 3"
+            ],
+            "correctIndex": 0,
+            "answer": "Mariner 4"
+          },
+          {
+            "id": "kp_rumfart_13",
+            "category": "Månen og Mars",
+            "question": "Hvad hedder roveren, der fulgte med Chang’e 4 til Månens bagside?",
+            "points": 300,
+            "options": [
+              "Yutu-2",
+              "Pragyan",
+              "Lunokhod 1",
+              "Sojourner"
+            ],
+            "correctIndex": 0,
+            "answer": "Yutu-2"
+          },
+          {
+            "id": "kp_rumfart_14",
+            "category": "Månen og Mars",
+            "question": "Hvad hed landeren på Chandrayaan-3?",
+            "points": 400,
+            "options": [
+              "Vikram",
+              "Pragyan",
+              "Rohini",
+              "Shakti"
+            ],
+            "correctIndex": 0,
+            "answer": "Vikram"
+          },
+          {
+            "id": "kp_rumfart_15",
+            "category": "Månen og Mars",
+            "question": "Hvilken sovjetisk lander blev i 1971 det første rumfartøj, der gennemførte en blød landing på Mars?",
+            "points": 500,
+            "options": [
+              "Mars 3",
+              "Mars 2",
+              "Viking 1",
+              "Mariner 9"
+            ],
+            "correctIndex": 0,
+            "answer": "Mars 3"
+          },
+          {
+            "id": "kp_rumfart_16",
+            "category": "Satellitter og rumstationer",
+            "question": "Hvad gør en kommunikationssatellit typisk?",
+            "points": 100,
+            "options": [
+              "modtager og videresender radiosignaler",
+              "producerer raketbrændstof",
+              "måler kun jordskælv under havet",
+              "lander automatisk på Månen"
+            ],
+            "correctIndex": 0,
+            "answer": "modtager og videresender radiosignaler"
+          },
+          {
+            "id": "kp_rumfart_17",
+            "category": "Satellitter og rumstationer",
+            "question": "Hvor lang omløbstid har en geostationær satellit omtrent?",
+            "points": 200,
+            "options": [
+              "ét siderisk døgn, cirka 24 timer",
+              "90 minutter",
+              "12 timer",
+              "30 døgn"
+            ],
+            "correctIndex": 0,
+            "answer": "ét siderisk døgn, cirka 24 timer"
+          },
+          {
+            "id": "kp_rumfart_18",
+            "category": "Satellitter og rumstationer",
+            "question": "Over hvilket område ligger en geostationær satellitbane?",
+            "points": 300,
+            "options": [
+              "over ækvator",
+              "over Nordpolen",
+              "over en vilkårlig breddegrad",
+              "direkte over nulmeridianen alene"
+            ],
+            "correctIndex": 0,
+            "answer": "over ækvator"
+          },
+          {
+            "id": "kp_rumfart_19",
+            "category": "Satellitter og rumstationer",
+            "question": "Hvad kendetegner en polar satellitbane?",
+            "points": 400,
+            "options": [
+              "satellitten passerer nær begge poler",
+              "satellitten står stille over ækvator",
+              "satellitten kredser om Månen",
+              "satellitten forlader Solsystemet"
+            ],
+            "correctIndex": 0,
+            "answer": "satellitten passerer nær begge poler"
+          },
+          {
+            "id": "kp_rumfart_20",
+            "category": "Satellitter og rumstationer",
+            "question": "Hvad betyder forkortelsen LEO?",
+            "points": 500,
+            "options": [
+              "Low Earth Orbit",
+              "Lunar Escape Operation",
+              "Long Elliptical Observatory",
+              "Launch Engine Output"
+            ],
+            "correctIndex": 0,
+            "answer": "Low Earth Orbit"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceCsv": "spil/kapardy/20/rumfart_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_20-sporgsmal-rumfart_v2_showcase"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 10,
+      "widgets": 34,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_20-sporgsmal-rumfart_v2_showcase",
+    "courseTitle": "20 spørgsmål fra professoren · Rumfart",
+    "courseSessionIds": [
+      "session_professor_20-sporgsmal-rumfart_v2_showcase"
+    ]
+  },
+  "warnings": []
+}

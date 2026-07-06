@@ -1,0 +1,2512 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.9",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T18:30:00.000Z",
+  "course": {
+    "id": "course_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+    "title": "20 spørgsmål fra professoren · Berømte opfindelser",
+    "subject": "Science / teknologi og historie",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase"
+    ],
+    "exportedAt": "2026-07-06T18:30:00.000Z",
+    "sourceAppVersion": "1.0.9"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Berømte opfindelser",
+      "theme": "dark",
+      "activeBoardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+      "boardIds": [
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_4",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_5",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_6",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_7",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_8",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+        "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10"
+      ],
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "courseId": "course_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+        "courseTitle": "20 spørgsmål fra professoren · Berømte opfindelser",
+        "courseSubject": "Science / teknologi og historie",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase"
+        ],
+        "courseSequenceVersion": 2,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/beromte_opfindelser_20.csv",
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Kalender/tidslinje",
+          "Gruppeværktøj",
+          "Timer",
+          "Huskekortmatrix",
+          "KaPardy"
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "Overblik · Berømte opfindelser",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_intro",
+        "w_20-sporgsmal-beromte-opfindelser_route",
+        "w_20-sporgsmal-beromte-opfindelser_index"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "order": 1
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "Ressourcematrix og kilder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_resource_matrix",
+        "w_20-sporgsmal-beromte-opfindelser_source_1",
+        "w_20-sporgsmal-beromte-opfindelser_source_2",
+        "w_20-sporgsmal-beromte-opfindelser_source_3",
+        "w_20-sporgsmal-beromte-opfindelser_source_4",
+        "w_20-sporgsmal-beromte-opfindelser_source_5",
+        "w_20-sporgsmal-beromte-opfindelser_sources_text"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "sources",
+        "order": 2
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_groups",
+        "w_20-sporgsmal-beromte-opfindelser_tool_text",
+        "w_20-sporgsmal-beromte-opfindelser_timer",
+        "w_20-sporgsmal-beromte-opfindelser_countdown",
+        "w_20-sporgsmal-beromte-opfindelser_wordcloud",
+        "w_20-sporgsmal-beromte-opfindelser_calendar"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "showcase",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "1. Kommunikation og medier",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_cat1_core",
+        "w_20-sporgsmal-beromte-opfindelser_cat1_activity",
+        "w_20-sporgsmal-beromte-opfindelser_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 4
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "2. Transport og maskiner",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_cat2_core",
+        "w_20-sporgsmal-beromte-opfindelser_cat2_activity",
+        "w_20-sporgsmal-beromte-opfindelser_cat2_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "3. Medicin og hverdag",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_cat3_core",
+        "w_20-sporgsmal-beromte-opfindelser_cat3_activity",
+        "w_20-sporgsmal-beromte-opfindelser_cat3_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 6
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "4. Elektronik og computere",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_cat4_core",
+        "w_20-sporgsmal-beromte-opfindelser_cat4_activity",
+        "w_20-sporgsmal-beromte-opfindelser_cat4_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 7
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_8",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_flashcards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "flashcards",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_workshop",
+        "w_20-sporgsmal-beromte-opfindelser_workshop_timer",
+        "w_20-sporgsmal-beromte-opfindelser_workshop_sources",
+        "w_20-sporgsmal-beromte-opfindelser_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-beromte-opfindelser_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 10
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+      "type": "text",
+      "title": "Professorens udfordring",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 405,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nBERØMTE OPFINDELSER\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/beromte_opfindelser_20.csv",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+      "type": "text",
+      "title": "Lektionsplan og Plan-værktøjer",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 405,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Kommunikation og medier, Transport og maskiner, Medicin og hverdag, Elektronik og computere.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Kalender/tidslinje\n• Gruppeværktøj\n• Timer\n• Huskekortmatrix\n• KaPardy\n\nDEMOIDÉ\nOpfinderhold: kommunikation, transport, medicin og computere bygger fælles tidslinje.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 510,
+        "width": 1160,
+        "height": 295,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_1",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_4",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_5",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_6",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_7",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_8",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+          "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_resource_matrix",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "version": 1,
+        "resources": [
+          {
+            "title": "Science Museum Group · Objects and stories",
+            "url": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "type": "web/arkiv",
+            "category": "Kommunikation og medier",
+            "note": "Brug historiske genstande som konkrete kilder.",
+            "tags": [
+              "kommunikation-og-medier",
+              "web-arkiv"
+            ]
+          },
+          {
+            "title": "Computer History Museum",
+            "url": "https://computerhistory.org/",
+            "type": "web/arkiv",
+            "category": "Elektronik og computere",
+            "note": "Brug til transistor, mikroprocessor og computerhistorie.",
+            "tags": [
+              "elektronik-og-computere",
+              "web-arkiv"
+            ]
+          },
+          {
+            "title": "Britannica · History of photography",
+            "url": "https://www.britannica.com/technology/photography",
+            "type": "web/reference",
+            "category": "Kommunikation og medier",
+            "note": "Brug til foto- og kamerahistorie.",
+            "tags": [
+              "kommunikation-og-medier",
+              "web-reference"
+            ]
+          },
+          {
+            "title": "Otis · Company history",
+            "url": "https://www.otis.com/",
+            "type": "web/virksomhedskilde",
+            "category": "Transport og maskiner",
+            "note": "Brug kritisk som virksomhedsfortælling om elevatorens sikkerhed.",
+            "tags": [
+              "transport-og-maskiner",
+              "web-virksomhedskilde"
+            ]
+          },
+          {
+            "title": "Nobel Prize · Medicine resources",
+            "url": "https://www.nobelprize.org/prizes/medicine/",
+            "type": "web/reference",
+            "category": "Medicin og hverdag",
+            "note": "Brug som indgang til medicinsk opfindelses- og forskningshistorie.",
+            "tags": [
+              "medicin-og-hverdag",
+              "web-reference"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "link",
+      "title": "Science Museum Group · Objects and stories",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://www.sciencemuseum.org.uk/objects-and-stories",
+        "label": "Science Museum Group · Objects and stories",
+        "note": "web/arkiv · Brug historiske genstande som konkrete kilder.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "link",
+      "title": "Computer History Museum",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://computerhistory.org/",
+        "label": "Computer History Museum",
+        "note": "web/arkiv · Brug til transistor, mikroprocessor og computerhistorie.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "link",
+      "title": "Britannica · History of photography",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://www.britannica.com/technology/photography",
+        "label": "Britannica · History of photography",
+        "note": "web/reference · Brug til foto- og kamerahistorie.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "link",
+      "title": "Otis · Company history",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.otis.com/",
+        "label": "Otis · Company history",
+        "note": "web/virksomhedskilde · Brug kritisk som virksomhedsfortælling om elevatorens sikkerhed.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "link",
+      "title": "Nobel Prize · Medicine resources",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.nobelprize.org/prizes/medicine/",
+        "label": "Nobel Prize · Medicine resources",
+        "note": "web/reference · Brug som indgang til medicinsk opfindelses- og forskningshistorie.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Kommunikation og medier",
+            "members": []
+          },
+          {
+            "name": "Transport og maskiner",
+            "members": []
+          },
+          {
+            "name": "Medicin og hverdag",
+            "members": []
+          },
+          {
+            "name": "Elektronik og computere",
+            "members": []
+          }
+        ],
+        "note": "Opfinderhold: kommunikation, transport, medicin og computere bygger fælles tidslinje."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Kommunikation og medier\n• Transport og maskiner\n• Medicin og hverdag\n• Elektronik og computere\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Kommunikation og medier",
+            "count": 1
+          },
+          {
+            "text": "Transport og maskiner",
+            "count": 1
+          },
+          {
+            "text": "Medicin og hverdag",
+            "count": 1
+          },
+          {
+            "text": "Elektronik og computere",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_4",
+      "type": "text",
+      "title": "Kildearbejde · Kommunikation og medier",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Kommunikation og medier\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvem grundlagde Kodak og gjorde rullefilm til et masseprodukt?\n• Hvilket kombineret filmkamera og projektionsapparat forbindes med brødrene Lumière?\n• Hvilken fotografisk proces blev offentliggjort af Louis Daguerre i 1839?\n• Hvem tog det ældste bevarede fotografi fra et kamera omkring 1826 eller 1827?\n• Hvem demonstrerede i 1927 et fuldelektronisk tv-billede med sit system?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Kommunikation og medier\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_4",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvem grundlagde Kodak og gjorde rullefilm til et masseprodukt?\n• Hvilket kombineret filmkamera og projektionsapparat forbindes med brødrene Lumière?\n• Hvilken fotografisk proces blev offentliggjort af Louis Daguerre i 1839?\n• Hvem tog det ældste bevarede fotografi fra et kamera omkring 1826 eller 1827?\n• Hvem demonstrerede i 1927 et fuldelektronisk tv-billede med sit system?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_5",
+      "type": "text",
+      "title": "Kildearbejde · Transport og maskiner",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Transport og maskiner\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken sikkerhedsanordning demonstrerede Elisha Otis til elevatorer i 1854?\n• Hvem fik i 1888 patent på et luftfyldt dæk til cykler?\n• Hvem udviklede VS-300, en vigtig prototype for den moderne enrotorede helikopter?\n• Hvem patenterede en praktisk trykluftsbremse til jernbanetog i 1869?\n• Hvilke to ingeniører udviklede jetmotorer uafhængigt i Storbritannien og Tyskland?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Transport og maskiner\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_5",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken sikkerhedsanordning demonstrerede Elisha Otis til elevatorer i 1854?\n• Hvem fik i 1888 patent på et luftfyldt dæk til cykler?\n• Hvem udviklede VS-300, en vigtig prototype for den moderne enrotorede helikopter?\n• Hvem patenterede en praktisk trykluftsbremse til jernbanetog i 1869?\n• Hvilke to ingeniører udviklede jetmotorer uafhængigt i Storbritannien og Tyskland?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_6",
+      "type": "text",
+      "title": "Kildearbejde · Medicin og hverdag",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Medicin og hverdag\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket apparat registrerer hjertets elektriske aktivitet?\n• Hvem udviklede et kviksølvtermometer og den temperaturskala, der bærer hans navn?\n• Hvem stod for den offentlige demonstration af etherbedøvelse på Massachusetts General Hospital i 1846?\n• Hvem udviklede elektrokardiografen og navngav de klassiske P-, Q-, R-, S- og T-takker?\n• Hvilke to læger udviklede uafhængigt moderne injektionssprøjter med hul nål i 1850’erne?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Medicin og hverdag\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_6",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilket apparat registrerer hjertets elektriske aktivitet?\n• Hvem udviklede et kviksølvtermometer og den temperaturskala, der bærer hans navn?\n• Hvem stod for den offentlige demonstration af etherbedøvelse på Massachusetts General Hospital i 1846?\n• Hvem udviklede elektrokardiografen og navngav de klassiske P-, Q-, R-, S- og T-takker?\n• Hvilke to læger udviklede uafhængigt moderne injektionssprøjter med hul nål i 1850’erne?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_7",
+      "type": "text",
+      "title": "Kildearbejde · Elektronik og computere",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Elektronik og computere\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad hed den første kommercielt tilgængelige mikroprocessor på én chip fra Intel i 1971?\n• Hvilke tre forskere demonstrerede transistoren ved Bell Labs i 1947?\n• Hvilke to ingeniører udviklede integrerede kredsløb uafhængigt omkring 1958–1959?\n• Hvilken computer blev i 1951 den første kommercielle computer leveret til en amerikansk kunde?\n• Hvilket IBM-system fra 1956 indeholdt den første kommercielle harddisk?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_7",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Elektronik og computere\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_7",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad hed den første kommercielt tilgængelige mikroprocessor på én chip fra Intel i 1971?\n• Hvilke tre forskere demonstrerede transistoren ved Bell Labs i 1947?\n• Hvilke to ingeniører udviklede integrerede kredsløb uafhængigt omkring 1958–1959?\n• Hvilken computer blev i 1951 den første kommercielle computer leveret til en amerikansk kunde?\n• Hvilket IBM-system fra 1956 indeholdt den første kommercielle harddisk?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_8",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-beromte-opfindelser_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Berømte opfindelser",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_beromte-opfindelser_01": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: George Eastman. Forklar hvorfor det er mere præcist end: Edwin Land · Louis Daguerre · Eadweard Muybridge.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Edwin Land",
+              "Louis Daguerre",
+              "Eadweard Muybridge"
+            ]
+          },
+          "kp_beromte-opfindelser_02": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: Cinématographe. Forklar hvorfor det er mere præcist end: kinetoskopet · fonografen · laterna magica.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "kinetoskopet",
+              "fonografen",
+              "laterna magica"
+            ]
+          },
+          "kp_beromte-opfindelser_03": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: daguerreotypien. Forklar hvorfor det er mere præcist end: cyanotypien · autokromprocessen · xerografien.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "cyanotypien",
+              "autokromprocessen",
+              "xerografien"
+            ]
+          },
+          "kp_beromte-opfindelser_04": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: Joseph Nicéphore Niépce. Forklar hvorfor det er mere præcist end: Louis Daguerre · George Eastman · William Henry Fox Talbot.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Louis Daguerre",
+              "George Eastman",
+              "William Henry Fox Talbot"
+            ]
+          },
+          "kp_beromte-opfindelser_05": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: Philo Farnsworth. Forklar hvorfor det er mere præcist end: John Logie Baird · Guglielmo Marconi · Edwin Land.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "John Logie Baird",
+              "Guglielmo Marconi",
+              "Edwin Land"
+            ]
+          },
+          "kp_beromte-opfindelser_06": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: en fangmekanisme, der stoppede fald ved kabelbrud. Forklar hvorfor det er mere præcist end: en elektrisk døråbner · en hydraulisk motor · en dampdrevet modvægt.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "en elektrisk døråbner",
+              "en hydraulisk motor",
+              "en dampdrevet modvægt"
+            ]
+          },
+          "kp_beromte-opfindelser_07": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: John Boyd Dunlop. Forklar hvorfor det er mere præcist end: Karl Drais · John Kemp Starley · André Michelin.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Karl Drais",
+              "John Kemp Starley",
+              "André Michelin"
+            ]
+          },
+          "kp_beromte-opfindelser_08": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: Igor Sikorsky. Forklar hvorfor det er mere præcist end: Juan de la Cierva · Frank Whittle · Glenn Curtiss.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Juan de la Cierva",
+              "Frank Whittle",
+              "Glenn Curtiss"
+            ]
+          },
+          "kp_beromte-opfindelser_09": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: George Westinghouse. Forklar hvorfor det er mere præcist end: George Stephenson · Elisha Otis · Robert Fulton.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "George Stephenson",
+              "Elisha Otis",
+              "Robert Fulton"
+            ]
+          },
+          "kp_beromte-opfindelser_10": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: Frank Whittle og Hans von Ohain. Forklar hvorfor det er mere præcist end: James Watt og Thomas Newcomen · Rudolf Diesel og Nikolaus Otto · Igor Sikorsky og Juan de la Cierva.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "James Watt og Thomas Newcomen",
+              "Rudolf Diesel og Nikolaus Otto",
+              "Igor Sikorsky og Juan de la Cierva"
+            ]
+          },
+          "kp_beromte-opfindelser_11": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: elektrokardiografen. Forklar hvorfor det er mere præcist end: stetoskopet · spirometeret · otoskopet.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "stetoskopet",
+              "spirometeret",
+              "otoskopet"
+            ]
+          },
+          "kp_beromte-opfindelser_12": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: Daniel Gabriel Fahrenheit. Forklar hvorfor det er mere præcist end: Anders Celsius · William Thomson · Evangelista Torricelli.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Anders Celsius",
+              "William Thomson",
+              "Evangelista Torricelli"
+            ]
+          },
+          "kp_beromte-opfindelser_13": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: William T. G. Morton. Forklar hvorfor det er mere præcist end: Horace Wells · Joseph Lister · Crawford Long.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Horace Wells",
+              "Joseph Lister",
+              "Crawford Long"
+            ]
+          },
+          "kp_beromte-opfindelser_14": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: Willem Einthoven. Forklar hvorfor det er mere præcist end: René Laennec · Robert Koch · Christiaan Barnard.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "René Laennec",
+              "Robert Koch",
+              "Christiaan Barnard"
+            ]
+          },
+          "kp_beromte-opfindelser_15": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: Charles Pravaz og Alexander Wood. Forklar hvorfor det er mere præcist end: Edward Jenner og Louis Pasteur · Joseph Lister og Robert Koch · Banting og Best.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Edward Jenner og Louis Pasteur",
+              "Joseph Lister og Robert Koch",
+              "Banting og Best"
+            ]
+          },
+          "kp_beromte-opfindelser_16": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: Intel 4004. Forklar hvorfor det er mere præcist end: Intel 8086 · MOS 6502 · Zilog Z80.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Intel 8086",
+              "MOS 6502",
+              "Zilog Z80"
+            ]
+          },
+          "kp_beromte-opfindelser_17": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: John Bardeen, Walter Brattain og William Shockley. Forklar hvorfor det er mere præcist end: Jack Kilby, Robert Noyce og Gordon Moore · Alan Turing, Max Newman og Tommy Flowers · Steve Wozniak, Steve Jobs og Ronald Wayne.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Jack Kilby, Robert Noyce og Gordon Moore",
+              "Alan Turing, Max Newman og Tommy Flowers",
+              "Steve Wozniak, Steve Jobs og Ronald Wayne"
+            ]
+          },
+          "kp_beromte-opfindelser_18": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: Jack Kilby og Robert Noyce. Forklar hvorfor det er mere præcist end: John Bardeen og Walter Brattain · Ted Hoff og Federico Faggin · Ken Thompson og Dennis Ritchie.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "John Bardeen og Walter Brattain",
+              "Ted Hoff og Federico Faggin",
+              "Ken Thompson og Dennis Ritchie"
+            ]
+          },
+          "kp_beromte-opfindelser_19": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: UNIVAC I. Forklar hvorfor det er mere præcist end: ENIAC · Z3 · Altair 8800.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "ENIAC",
+              "Z3",
+              "Altair 8800"
+            ]
+          },
+          "kp_beromte-opfindelser_20": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: IBM 305 RAMAC. Forklar hvorfor det er mere præcist end: IBM System/360 · IBM PC · IBM Deep Blue.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "IBM System/360",
+              "IBM PC",
+              "IBM Deep Blue"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Berømte opfindelser",
+          "questions": [
+            {
+              "id": "kp_beromte-opfindelser_01",
+              "category": "Kommunikation og medier",
+              "question": "Hvem grundlagde Kodak og gjorde rullefilm til et masseprodukt?",
+              "points": 100,
+              "options": [
+                "George Eastman",
+                "Edwin Land",
+                "Louis Daguerre",
+                "Eadweard Muybridge"
+              ],
+              "correctIndex": 0,
+              "answer": "George Eastman"
+            },
+            {
+              "id": "kp_beromte-opfindelser_02",
+              "category": "Kommunikation og medier",
+              "question": "Hvilket kombineret filmkamera og projektionsapparat forbindes med brødrene Lumière?",
+              "points": 200,
+              "options": [
+                "Cinématographe",
+                "kinetoskopet",
+                "fonografen",
+                "laterna magica"
+              ],
+              "correctIndex": 0,
+              "answer": "Cinématographe"
+            },
+            {
+              "id": "kp_beromte-opfindelser_03",
+              "category": "Kommunikation og medier",
+              "question": "Hvilken fotografisk proces blev offentliggjort af Louis Daguerre i 1839?",
+              "points": 300,
+              "options": [
+                "daguerreotypien",
+                "cyanotypien",
+                "autokromprocessen",
+                "xerografien"
+              ],
+              "correctIndex": 0,
+              "answer": "daguerreotypien"
+            },
+            {
+              "id": "kp_beromte-opfindelser_04",
+              "category": "Kommunikation og medier",
+              "question": "Hvem tog det ældste bevarede fotografi fra et kamera omkring 1826 eller 1827?",
+              "points": 400,
+              "options": [
+                "Joseph Nicéphore Niépce",
+                "Louis Daguerre",
+                "George Eastman",
+                "William Henry Fox Talbot"
+              ],
+              "correctIndex": 0,
+              "answer": "Joseph Nicéphore Niépce"
+            },
+            {
+              "id": "kp_beromte-opfindelser_05",
+              "category": "Kommunikation og medier",
+              "question": "Hvem demonstrerede i 1927 et fuldelektronisk tv-billede med sit system?",
+              "points": 500,
+              "options": [
+                "Philo Farnsworth",
+                "John Logie Baird",
+                "Guglielmo Marconi",
+                "Edwin Land"
+              ],
+              "correctIndex": 0,
+              "answer": "Philo Farnsworth"
+            },
+            {
+              "id": "kp_beromte-opfindelser_06",
+              "category": "Transport og maskiner",
+              "question": "Hvilken sikkerhedsanordning demonstrerede Elisha Otis til elevatorer i 1854?",
+              "points": 100,
+              "options": [
+                "en fangmekanisme, der stoppede fald ved kabelbrud",
+                "en elektrisk døråbner",
+                "en hydraulisk motor",
+                "en dampdrevet modvægt"
+              ],
+              "correctIndex": 0,
+              "answer": "en fangmekanisme, der stoppede fald ved kabelbrud"
+            },
+            {
+              "id": "kp_beromte-opfindelser_07",
+              "category": "Transport og maskiner",
+              "question": "Hvem fik i 1888 patent på et luftfyldt dæk til cykler?",
+              "points": 200,
+              "options": [
+                "John Boyd Dunlop",
+                "Karl Drais",
+                "John Kemp Starley",
+                "André Michelin"
+              ],
+              "correctIndex": 0,
+              "answer": "John Boyd Dunlop"
+            },
+            {
+              "id": "kp_beromte-opfindelser_08",
+              "category": "Transport og maskiner",
+              "question": "Hvem udviklede VS-300, en vigtig prototype for den moderne enrotorede helikopter?",
+              "points": 300,
+              "options": [
+                "Igor Sikorsky",
+                "Juan de la Cierva",
+                "Frank Whittle",
+                "Glenn Curtiss"
+              ],
+              "correctIndex": 0,
+              "answer": "Igor Sikorsky"
+            },
+            {
+              "id": "kp_beromte-opfindelser_09",
+              "category": "Transport og maskiner",
+              "question": "Hvem patenterede en praktisk trykluftsbremse til jernbanetog i 1869?",
+              "points": 400,
+              "options": [
+                "George Westinghouse",
+                "George Stephenson",
+                "Elisha Otis",
+                "Robert Fulton"
+              ],
+              "correctIndex": 0,
+              "answer": "George Westinghouse"
+            },
+            {
+              "id": "kp_beromte-opfindelser_10",
+              "category": "Transport og maskiner",
+              "question": "Hvilke to ingeniører udviklede jetmotorer uafhængigt i Storbritannien og Tyskland?",
+              "points": 500,
+              "options": [
+                "Frank Whittle og Hans von Ohain",
+                "James Watt og Thomas Newcomen",
+                "Rudolf Diesel og Nikolaus Otto",
+                "Igor Sikorsky og Juan de la Cierva"
+              ],
+              "correctIndex": 0,
+              "answer": "Frank Whittle og Hans von Ohain"
+            },
+            {
+              "id": "kp_beromte-opfindelser_11",
+              "category": "Medicin og hverdag",
+              "question": "Hvilket apparat registrerer hjertets elektriske aktivitet?",
+              "points": 100,
+              "options": [
+                "elektrokardiografen",
+                "stetoskopet",
+                "spirometeret",
+                "otoskopet"
+              ],
+              "correctIndex": 0,
+              "answer": "elektrokardiografen"
+            },
+            {
+              "id": "kp_beromte-opfindelser_12",
+              "category": "Medicin og hverdag",
+              "question": "Hvem udviklede et kviksølvtermometer og den temperaturskala, der bærer hans navn?",
+              "points": 200,
+              "options": [
+                "Daniel Gabriel Fahrenheit",
+                "Anders Celsius",
+                "William Thomson",
+                "Evangelista Torricelli"
+              ],
+              "correctIndex": 0,
+              "answer": "Daniel Gabriel Fahrenheit"
+            },
+            {
+              "id": "kp_beromte-opfindelser_13",
+              "category": "Medicin og hverdag",
+              "question": "Hvem stod for den offentlige demonstration af etherbedøvelse på Massachusetts General Hospital i 1846?",
+              "points": 300,
+              "options": [
+                "William T. G. Morton",
+                "Horace Wells",
+                "Joseph Lister",
+                "Crawford Long"
+              ],
+              "correctIndex": 0,
+              "answer": "William T. G. Morton"
+            },
+            {
+              "id": "kp_beromte-opfindelser_14",
+              "category": "Medicin og hverdag",
+              "question": "Hvem udviklede elektrokardiografen og navngav de klassiske P-, Q-, R-, S- og T-takker?",
+              "points": 400,
+              "options": [
+                "Willem Einthoven",
+                "René Laennec",
+                "Robert Koch",
+                "Christiaan Barnard"
+              ],
+              "correctIndex": 0,
+              "answer": "Willem Einthoven"
+            },
+            {
+              "id": "kp_beromte-opfindelser_15",
+              "category": "Medicin og hverdag",
+              "question": "Hvilke to læger udviklede uafhængigt moderne injektionssprøjter med hul nål i 1850’erne?",
+              "points": 500,
+              "options": [
+                "Charles Pravaz og Alexander Wood",
+                "Edward Jenner og Louis Pasteur",
+                "Joseph Lister og Robert Koch",
+                "Banting og Best"
+              ],
+              "correctIndex": 0,
+              "answer": "Charles Pravaz og Alexander Wood"
+            },
+            {
+              "id": "kp_beromte-opfindelser_16",
+              "category": "Elektronik og computere",
+              "question": "Hvad hed den første kommercielt tilgængelige mikroprocessor på én chip fra Intel i 1971?",
+              "points": 100,
+              "options": [
+                "Intel 4004",
+                "Intel 8086",
+                "MOS 6502",
+                "Zilog Z80"
+              ],
+              "correctIndex": 0,
+              "answer": "Intel 4004"
+            },
+            {
+              "id": "kp_beromte-opfindelser_17",
+              "category": "Elektronik og computere",
+              "question": "Hvilke tre forskere demonstrerede transistoren ved Bell Labs i 1947?",
+              "points": 200,
+              "options": [
+                "John Bardeen, Walter Brattain og William Shockley",
+                "Jack Kilby, Robert Noyce og Gordon Moore",
+                "Alan Turing, Max Newman og Tommy Flowers",
+                "Steve Wozniak, Steve Jobs og Ronald Wayne"
+              ],
+              "correctIndex": 0,
+              "answer": "John Bardeen, Walter Brattain og William Shockley"
+            },
+            {
+              "id": "kp_beromte-opfindelser_18",
+              "category": "Elektronik og computere",
+              "question": "Hvilke to ingeniører udviklede integrerede kredsløb uafhængigt omkring 1958–1959?",
+              "points": 300,
+              "options": [
+                "Jack Kilby og Robert Noyce",
+                "John Bardeen og Walter Brattain",
+                "Ted Hoff og Federico Faggin",
+                "Ken Thompson og Dennis Ritchie"
+              ],
+              "correctIndex": 0,
+              "answer": "Jack Kilby og Robert Noyce"
+            },
+            {
+              "id": "kp_beromte-opfindelser_19",
+              "category": "Elektronik og computere",
+              "question": "Hvilken computer blev i 1951 den første kommercielle computer leveret til en amerikansk kunde?",
+              "points": 400,
+              "options": [
+                "UNIVAC I",
+                "ENIAC",
+                "Z3",
+                "Altair 8800"
+              ],
+              "correctIndex": 0,
+              "answer": "UNIVAC I"
+            },
+            {
+              "id": "kp_beromte-opfindelser_20",
+              "category": "Elektronik og computere",
+              "question": "Hvilket IBM-system fra 1956 indeholdt den første kommercielle harddisk?",
+              "points": 500,
+              "options": [
+                "IBM 305 RAMAC",
+                "IBM System/360",
+                "IBM PC",
+                "IBM Deep Blue"
+              ],
+              "correctIndex": 0,
+              "answer": "IBM 305 RAMAC"
+            }
+          ],
+          "updatedAt": "2026-07-06T18:30:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+      "type": "text",
+      "title": "Professorens prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_workshop_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 180,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_9",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 580,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-beromte-opfindelser_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10",
+      "type": "kapardy",
+      "title": "KaPardy · Berømte opfindelser",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_20-sporgsmal-beromte-opfindelser_20",
+        "gameStartedAt": "2026-07-06T18:30:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_beromte-opfindelser_01",
+            "category": "Kommunikation og medier",
+            "question": "Hvem grundlagde Kodak og gjorde rullefilm til et masseprodukt?",
+            "points": 100,
+            "options": [
+              "George Eastman",
+              "Edwin Land",
+              "Louis Daguerre",
+              "Eadweard Muybridge"
+            ],
+            "correctIndex": 0,
+            "answer": "George Eastman"
+          },
+          {
+            "id": "kp_beromte-opfindelser_02",
+            "category": "Kommunikation og medier",
+            "question": "Hvilket kombineret filmkamera og projektionsapparat forbindes med brødrene Lumière?",
+            "points": 200,
+            "options": [
+              "Cinématographe",
+              "kinetoskopet",
+              "fonografen",
+              "laterna magica"
+            ],
+            "correctIndex": 0,
+            "answer": "Cinématographe"
+          },
+          {
+            "id": "kp_beromte-opfindelser_03",
+            "category": "Kommunikation og medier",
+            "question": "Hvilken fotografisk proces blev offentliggjort af Louis Daguerre i 1839?",
+            "points": 300,
+            "options": [
+              "daguerreotypien",
+              "cyanotypien",
+              "autokromprocessen",
+              "xerografien"
+            ],
+            "correctIndex": 0,
+            "answer": "daguerreotypien"
+          },
+          {
+            "id": "kp_beromte-opfindelser_04",
+            "category": "Kommunikation og medier",
+            "question": "Hvem tog det ældste bevarede fotografi fra et kamera omkring 1826 eller 1827?",
+            "points": 400,
+            "options": [
+              "Joseph Nicéphore Niépce",
+              "Louis Daguerre",
+              "George Eastman",
+              "William Henry Fox Talbot"
+            ],
+            "correctIndex": 0,
+            "answer": "Joseph Nicéphore Niépce"
+          },
+          {
+            "id": "kp_beromte-opfindelser_05",
+            "category": "Kommunikation og medier",
+            "question": "Hvem demonstrerede i 1927 et fuldelektronisk tv-billede med sit system?",
+            "points": 500,
+            "options": [
+              "Philo Farnsworth",
+              "John Logie Baird",
+              "Guglielmo Marconi",
+              "Edwin Land"
+            ],
+            "correctIndex": 0,
+            "answer": "Philo Farnsworth"
+          },
+          {
+            "id": "kp_beromte-opfindelser_06",
+            "category": "Transport og maskiner",
+            "question": "Hvilken sikkerhedsanordning demonstrerede Elisha Otis til elevatorer i 1854?",
+            "points": 100,
+            "options": [
+              "en fangmekanisme, der stoppede fald ved kabelbrud",
+              "en elektrisk døråbner",
+              "en hydraulisk motor",
+              "en dampdrevet modvægt"
+            ],
+            "correctIndex": 0,
+            "answer": "en fangmekanisme, der stoppede fald ved kabelbrud"
+          },
+          {
+            "id": "kp_beromte-opfindelser_07",
+            "category": "Transport og maskiner",
+            "question": "Hvem fik i 1888 patent på et luftfyldt dæk til cykler?",
+            "points": 200,
+            "options": [
+              "John Boyd Dunlop",
+              "Karl Drais",
+              "John Kemp Starley",
+              "André Michelin"
+            ],
+            "correctIndex": 0,
+            "answer": "John Boyd Dunlop"
+          },
+          {
+            "id": "kp_beromte-opfindelser_08",
+            "category": "Transport og maskiner",
+            "question": "Hvem udviklede VS-300, en vigtig prototype for den moderne enrotorede helikopter?",
+            "points": 300,
+            "options": [
+              "Igor Sikorsky",
+              "Juan de la Cierva",
+              "Frank Whittle",
+              "Glenn Curtiss"
+            ],
+            "correctIndex": 0,
+            "answer": "Igor Sikorsky"
+          },
+          {
+            "id": "kp_beromte-opfindelser_09",
+            "category": "Transport og maskiner",
+            "question": "Hvem patenterede en praktisk trykluftsbremse til jernbanetog i 1869?",
+            "points": 400,
+            "options": [
+              "George Westinghouse",
+              "George Stephenson",
+              "Elisha Otis",
+              "Robert Fulton"
+            ],
+            "correctIndex": 0,
+            "answer": "George Westinghouse"
+          },
+          {
+            "id": "kp_beromte-opfindelser_10",
+            "category": "Transport og maskiner",
+            "question": "Hvilke to ingeniører udviklede jetmotorer uafhængigt i Storbritannien og Tyskland?",
+            "points": 500,
+            "options": [
+              "Frank Whittle og Hans von Ohain",
+              "James Watt og Thomas Newcomen",
+              "Rudolf Diesel og Nikolaus Otto",
+              "Igor Sikorsky og Juan de la Cierva"
+            ],
+            "correctIndex": 0,
+            "answer": "Frank Whittle og Hans von Ohain"
+          },
+          {
+            "id": "kp_beromte-opfindelser_11",
+            "category": "Medicin og hverdag",
+            "question": "Hvilket apparat registrerer hjertets elektriske aktivitet?",
+            "points": 100,
+            "options": [
+              "elektrokardiografen",
+              "stetoskopet",
+              "spirometeret",
+              "otoskopet"
+            ],
+            "correctIndex": 0,
+            "answer": "elektrokardiografen"
+          },
+          {
+            "id": "kp_beromte-opfindelser_12",
+            "category": "Medicin og hverdag",
+            "question": "Hvem udviklede et kviksølvtermometer og den temperaturskala, der bærer hans navn?",
+            "points": 200,
+            "options": [
+              "Daniel Gabriel Fahrenheit",
+              "Anders Celsius",
+              "William Thomson",
+              "Evangelista Torricelli"
+            ],
+            "correctIndex": 0,
+            "answer": "Daniel Gabriel Fahrenheit"
+          },
+          {
+            "id": "kp_beromte-opfindelser_13",
+            "category": "Medicin og hverdag",
+            "question": "Hvem stod for den offentlige demonstration af etherbedøvelse på Massachusetts General Hospital i 1846?",
+            "points": 300,
+            "options": [
+              "William T. G. Morton",
+              "Horace Wells",
+              "Joseph Lister",
+              "Crawford Long"
+            ],
+            "correctIndex": 0,
+            "answer": "William T. G. Morton"
+          },
+          {
+            "id": "kp_beromte-opfindelser_14",
+            "category": "Medicin og hverdag",
+            "question": "Hvem udviklede elektrokardiografen og navngav de klassiske P-, Q-, R-, S- og T-takker?",
+            "points": 400,
+            "options": [
+              "Willem Einthoven",
+              "René Laennec",
+              "Robert Koch",
+              "Christiaan Barnard"
+            ],
+            "correctIndex": 0,
+            "answer": "Willem Einthoven"
+          },
+          {
+            "id": "kp_beromte-opfindelser_15",
+            "category": "Medicin og hverdag",
+            "question": "Hvilke to læger udviklede uafhængigt moderne injektionssprøjter med hul nål i 1850’erne?",
+            "points": 500,
+            "options": [
+              "Charles Pravaz og Alexander Wood",
+              "Edward Jenner og Louis Pasteur",
+              "Joseph Lister og Robert Koch",
+              "Banting og Best"
+            ],
+            "correctIndex": 0,
+            "answer": "Charles Pravaz og Alexander Wood"
+          },
+          {
+            "id": "kp_beromte-opfindelser_16",
+            "category": "Elektronik og computere",
+            "question": "Hvad hed den første kommercielt tilgængelige mikroprocessor på én chip fra Intel i 1971?",
+            "points": 100,
+            "options": [
+              "Intel 4004",
+              "Intel 8086",
+              "MOS 6502",
+              "Zilog Z80"
+            ],
+            "correctIndex": 0,
+            "answer": "Intel 4004"
+          },
+          {
+            "id": "kp_beromte-opfindelser_17",
+            "category": "Elektronik og computere",
+            "question": "Hvilke tre forskere demonstrerede transistoren ved Bell Labs i 1947?",
+            "points": 200,
+            "options": [
+              "John Bardeen, Walter Brattain og William Shockley",
+              "Jack Kilby, Robert Noyce og Gordon Moore",
+              "Alan Turing, Max Newman og Tommy Flowers",
+              "Steve Wozniak, Steve Jobs og Ronald Wayne"
+            ],
+            "correctIndex": 0,
+            "answer": "John Bardeen, Walter Brattain og William Shockley"
+          },
+          {
+            "id": "kp_beromte-opfindelser_18",
+            "category": "Elektronik og computere",
+            "question": "Hvilke to ingeniører udviklede integrerede kredsløb uafhængigt omkring 1958–1959?",
+            "points": 300,
+            "options": [
+              "Jack Kilby og Robert Noyce",
+              "John Bardeen og Walter Brattain",
+              "Ted Hoff og Federico Faggin",
+              "Ken Thompson og Dennis Ritchie"
+            ],
+            "correctIndex": 0,
+            "answer": "Jack Kilby og Robert Noyce"
+          },
+          {
+            "id": "kp_beromte-opfindelser_19",
+            "category": "Elektronik og computere",
+            "question": "Hvilken computer blev i 1951 den første kommercielle computer leveret til en amerikansk kunde?",
+            "points": 400,
+            "options": [
+              "UNIVAC I",
+              "ENIAC",
+              "Z3",
+              "Altair 8800"
+            ],
+            "correctIndex": 0,
+            "answer": "UNIVAC I"
+          },
+          {
+            "id": "kp_beromte-opfindelser_20",
+            "category": "Elektronik og computere",
+            "question": "Hvilket IBM-system fra 1956 indeholdt den første kommercielle harddisk?",
+            "points": 500,
+            "options": [
+              "IBM 305 RAMAC",
+              "IBM System/360",
+              "IBM PC",
+              "IBM Deep Blue"
+            ],
+            "correctIndex": 0,
+            "answer": "IBM 305 RAMAC"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceCsv": "spil/kapardy/20/beromte_opfindelser_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 10,
+      "widgets": 34,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
+    "courseTitle": "20 spørgsmål fra professoren · Berømte opfindelser",
+    "courseSessionIds": [
+      "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase"
+    ]
+  },
+  "warnings": []
+}
