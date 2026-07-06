@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Danmark,Hvilken dansk by er kendt for Den Lille Havfrue?,100,København,Odense,Aarhus,Aalborg
-Danmark,Hvad hedder Danmarks ældste by?,200,Ribe,Roskilde,Aalborg,Helsingør
-Danmark,Hvilket hav omkranser Bornholm?,300,Østersøen,Vesterhavet,Skagerrak,Kattegat
-Danmark,Hvilket år blev Danmarks grundlov vedtaget første gang?,400,1849,1814,1864,1915
-Danmark,Hvad hedder Danmarks højeste punkt?,500,Møllehøj,Yding Skovhøj,Ejer Bavnehøj,Himmelbjerget
-Danmark,Hvilken dansk konge lod Jellingstenene rejse?,600,Harald Blåtand,Gorm den Gamle,Kong Knud,Svend Tveskæg
-Danmark,Hvilken region ligger øen Læsø i?,700,Nordjylland,Sjælland,Syddanmark,Midtjylland
-Danmark,"Hvilken dansk forfatter skrev eventyret ""Den grimme ælling""?",800,H.C. Andersen,Karen Blixen,Tove Ditlevsen,Søren Kierkegaard
-Danmark,Hvilken halvø er Danmarks største?,900,Jylland,Sjælland,Fyn,Møn
-Danmark,Hvilken by er kendt for Domkirkens røde tårn og en berømt musikfestival?,1000,Roskilde,Skagen,Esbjerg,Holstebro
-Danmark,Hvilket dansk slot er hjemsted for den årlige politiske festival Folkemødet?,1100,Hammershus,Frederiksborg Slot,Egeskov Slot,Christiansborg
-Danmark,Hvilken ø forbinder Storebæltsbroen?,1200,Fyn og Sjælland,Bornholm og Sjælland,Jylland og Fyn,Møn og Falster
-Danmark,Hvilken vikingeby er rekonstruktion i Jylland?,1300,Fyrkat,Trelleborg,Lindholm Høje,Bork Vikingehavn
-Danmark,Hvor ligger Danmarks nationalparlament Folketinget?,1400,Christiansborg,Amalienborg,Rosenborg,Det Hvide Hus
-Danmark,Hvilken ø er Danmarks næststørste?,1500,Sjælland,Fyn,Lolland,Mors
-Danmark,"Hvad hedder broen, der forbinder Danmark og Sverige?",1600,Øresundsbroen,Storebæltsbroen,Lillebæltsbroen,Great Belt Bridge
-Danmark,"Hvilken by er kendt som Danmarks ""smilets by""?",1700,Aarhus,Aalborg,Odense,Vejle
-Danmark,Hvilken ø ligger Møns Klint på?,1800,Møn,Langeland,Bornholm,Fyn
-Danmark,"Hvilken dansk maler er kendt for billedet ""Skagens Piger""?",1900,P.S. Krøyer,Anna Ancher,Vilhelm Hammershøi,Asger Jorn
-Danmark,Hvilket dansk museum huser H.C. Andersens barndomshjem?,2000,Odense,Aarhus,Roskilde,København
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+"Konger, krige og demokrati",Hvilken regent stod centralt i dannelsen af Kalmarunionen i 1397?,100,Margrete 1.,Margrete 2.,Dorothea af Brandenburg,Sophie Amalie,,,
+"Konger, krige og demokrati",Hvilken fredsaftale i 1814 skilte Norge fra det danske monarki?,200,Kielerfreden,Roskilde-freden,Freden i Lübeck,Versaillestraktaten,,,
+"Konger, krige og demokrati",Hvilken britisk admiral forbindes med Slaget på Reden i 1801?,300,Horatio Nelson,Arthur Wellesley,Francis Drake,John Jellicoe,,,
+"Konger, krige og demokrati",Hvilken by blev bombarderet af en britisk flåde i 1807?,400,København,Aarhus,Odense,Aalborg,,,
+"Konger, krige og demokrati",Hvad kaldes borgerkrigen i Danmark fra 1534 til 1536?,500,Grevens Fejde,Treårskrigen,Skipper Clements Krig,Kejserkrigen,,,
+"Byer, øer og landskaber",Hvilken ø ligger mellem Jylland og Sjælland?,100,Fyn,Møn,Læsø,Anholt,,,
+"Byer, øer og landskaber",Hvilket farvand ligger mellem Fyn og Sjælland?,200,Storebælt,Lillebælt,Øresund,Skagerrak,,,
+"Byer, øer og landskaber",Hvilket farvand ligger mellem Jylland og Fyn?,300,Lillebælt,Storebælt,Kattegat,Øresund,,,
+"Byer, øer og landskaber",Hvilket sund adskiller Sjælland fra Sverige?,400,Øresund,Storebælt,Fehmarn Bælt,Alssund,,,
+"Byer, øer og landskaber",Hvilken dansk ø er kendt for Møns Klint?,500,Møn,Langeland,Falster,Als,,,
+Oldtid og middelalder,"Hvad hævder Harald Blåtand på den store Jellingsten, at han gjorde ved danerne?",100,gjorde dem kristne,gjorde dem skattefri,gjorde dem romerske,gjorde dem svenske,,,
+Oldtid og middelalder,"Hvad kaldes de geometrisk anlagte vikingeborge som Trelleborg, Aggersborg og Fyrkat?",200,ringborge,motteborge,klippeborge,vandborge,,,
+Oldtid og middelalder,Hvilken vikingeborg ved Slagelse har givet navn til en hel borgtype?,300,Trelleborg,Fyrkat,Aggersborg,Borgring,,,
+Oldtid og middelalder,Hvilken ringborg ved Hobro blev anlagt i Harald Blåtands tid?,400,Fyrkat,Trelleborg,Nonnebakken,Aggersborg,,,
+Oldtid og middelalder,Hvilken ringborg ved Limfjorden var den største af de kendte danske trelleborge?,500,Aggersborg,Fyrkat,Borgring,Trelleborg,,,
+Kulturhistorie og samfund,Hvilken branche blev særlig vigtig i den danske andelsbevægelse fra 1880'erne?,100,mejeribrug,skibsbygning,kulminedrift,silkeproduktion,,,
+Kulturhistorie og samfund,Hvilket år blev undervisningspligten indført gennem de store skolelove?,200,1814,1721,1849,1901,,,
+Kulturhistorie og samfund,Hvilken dansk institution begyndte regelmæssige radioudsendelser som Statsradiofonien i 1925?,300,DR,TV 2,Ritzau,Det Kongelige Teater,,,
+Kulturhistorie og samfund,Hvilket år begyndte Statsradiofonien regelmæssige forsøgsudsendelser med fjernsyn?,400,1951,1936,1964,1973,,,
+Kulturhistorie og samfund,Hvilken fast forbindelse over Storebælt åbnede for vejtrafik i 1998?,500,Storebæltsforbindelsen,Øresundsforbindelsen,Lillebæltsbroen,Farøbroerne,,,

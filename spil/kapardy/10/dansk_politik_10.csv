@@ -1,11 +1,11 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Dansk politik,Hvad hedder Danmarks nationalforsamling?,100,Folketinget,Landstinget,Kommunerådet,Statsrådet
-Dansk politik,Hvor holder Folketinget til?,200,Christiansborg,Amalienborg,Rosenborg,Kastellet
-Dansk politik,Hvor mange medlemmer har Folketinget?,300,179,150,200,349
-Dansk politik,Hvilket år blev Danmarks grundlov vedtaget første gang?,400,1849,1814,1864,1915
-Dansk politik,Hvilken dato er grundlovsdag?,500,5. juni,1. maj,15. juni,24. december
-Dansk politik,Hvilket år fik kvinder stemmeret til Folketinget?,600,1915,1849,1901,1920
-Dansk politik,Hvad kaldes et forslag til en ny lov?,700,lovforslag,forordning,resolution,dom
-Dansk politik,Hvad hedder loven om statens indtægter og udgifter?,800,finansloven,grundloven,straffeloven,kommuneloven
-Dansk politik,Hvem vedtager love i Danmark?,900,Folketinget,Højesteret,kommunalbestyrelsen,kongehuset
-Dansk politik,Hvad kaldes den tredelte magt i demokratiet?,1000,"lovgivende, udøvende og dømmende magt","rød, blå og grøn magt","lokal, national og global magt","skole, kommune og stat"
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Grundlov og Folketing,Hvor mange medlemmer har Folketinget?,100,179,175,181,200,,,
+Grundlov og Folketing,Hvor mange folketingsmedlemmer vælges i Danmark uden Grønland og Færøerne?,200,175,179,171,150,,,
+Grundlov og Folketing,Hvor mange medlemmer vælges til Folketinget fra Grønland?,300,2,1,3,4,,,
+Valg og partier,Hvad er den almindelige spærregrænse for et parti ved folketingsvalg?,100,2 procent,1 procent,4 procent,5 procent,,,
+Valg og partier,Hvor mange kredsmandater fordeles i Danmark ved et folketingsvalg?,200,135,40,175,179,,,
+Valg og partier,Hvor mange tillægsmandater fordeles i Danmark ved et folketingsvalg?,300,40,20,135,175,,,
+Regeringer og politisk historie,Hvem blev Danmarks første socialdemokratiske statsminister i 1924?,100,Thorvald Stauning,Hans Hedtoft,H.C. Hansen,Jens Otto Krag,,,
+Regeringer og politisk historie,Hvem blev Danmarks første kvindelige statsminister i 2011?,200,Helle Thorning-Schmidt,Margrethe Vestager,Mette Frederiksen,Lene Espersen,,,
+"Kommuner, regioner og rigsfællesskab",Hvor mange regioner blev der oprettet ved strukturreformen i 2007?,100,5,3,7,14,,,
+"Kommuner, regioner og rigsfællesskab",Hvad hedder kommunens folkevalgte øverste organ i de fleste kommuner?,200,kommunalbestyrelsen,regionsrådet,statsrådet,folketinget,,,

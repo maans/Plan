@@ -1,26 +1,26 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Dansk politik,Hvad hedder Danmarks nationalforsamling?,100,Folketinget,Landstinget,Kommunerådet,Statsrådet
-Dansk politik,Hvor holder Folketinget til?,200,Christiansborg,Amalienborg,Rosenborg,Kastellet
-Dansk politik,Hvor mange medlemmer har Folketinget?,300,179,150,200,349
-Dansk politik,Hvilket år blev Danmarks grundlov vedtaget første gang?,400,1849,1814,1864,1915
-Dansk politik,Hvilken dato er grundlovsdag?,500,5. juni,1. maj,15. juni,24. december
-Dansk politik,Hvilket år fik kvinder stemmeret til Folketinget?,600,1915,1849,1901,1920
-Dansk politik,Hvad kaldes et forslag til en ny lov?,700,lovforslag,forordning,resolution,dom
-Dansk politik,Hvad hedder loven om statens indtægter og udgifter?,800,finansloven,grundloven,straffeloven,kommuneloven
-Dansk politik,Hvem vedtager love i Danmark?,900,Folketinget,Højesteret,kommunalbestyrelsen,kongehuset
-Dansk politik,Hvad kaldes den tredelte magt i demokratiet?,1000,"lovgivende, udøvende og dømmende magt","rød, blå og grøn magt","lokal, national og global magt","skole, kommune og stat"
-Dansk politik,Hvad er den dømmende magt?,1100,domstolene,regeringen,Folketinget,kommunerne
-Dansk politik,Hvad kaldes den udøvende magt?,1200,regeringen,domstolene,vælgerne,pressen
-Dansk politik,Hvad er en folkeafstemning?,1300,en afstemning blandt vælgerne,en domstolsafgørelse,en ministeraftale,en kommunal ansættelse
-Dansk politik,Hvor gammel skal man normalt være for at stemme til Folketingsvalg?,1400,18 år,16 år,21 år,25 år
-Dansk politik,Hvad kaldes lederen af en kommune?,1500,borgmester,minister,formand for Folketinget,dommer
-Dansk politik,Hvad hedder kommunernes øverste politiske organ?,1600,kommunalbestyrelsen,regionsrådet,Folketinget,byretten
-Dansk politik,Hvad kaldes en dansk regering uden flertal alene?,1700,mindretalsregering,flertalsdomstol,regionsregering,kongehusregering
-Dansk politik,Hvilket parti har bogstavet A på stemmesedlen?,1800,Socialdemokratiet,Venstre,Enhedslisten,Radikale Venstre
-Dansk politik,Hvilket parti har bogstavet V på stemmesedlen?,1900,Venstre,Socialdemokratiet,SF,Alternativet
-Dansk politik,Hvilket parti har bogstavet Ø på stemmesedlen?,2000,Enhedslisten,Venstre,Radikale Venstre,Dansk Folkeparti
-Dansk politik,Hvad er oppositionen?,2100,partier uden for regeringen,domstolene,kommunerne,kongehuset
-Dansk politik,Hvad er en minister?,2200,en politisk leder af et ministerium,en dommer,en borgmester,en embedsmand i EU
-Dansk politik,Hvad er et ministerium?,2300,en statslig forvaltning for et område,en skoleform,en domstol,en kommune
-Dansk politik,Hvilket område handler Udenrigsministeriet især om?,2400,Danmarks forhold til andre lande,skoler og eksamener,hospitaler,vejret
-Dansk politik,Hvad hedder Danmarks møntfod?,2500,dansk krone,euro,dollar,pund
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Grundlov og Folketing,Hvad kaldes den årlige lov om statens forventede indtægter og udgifter?,100,finansloven,grundloven,styrelsesloven,valgloven,,,
+Grundlov og Folketing,Hvem kan fremsætte lovforslag i Folketinget?,200,ministre og folketingsmedlemmer,kun statsministeren,kun dommere,kun kommunalbestyrelser,,,
+Grundlov og Folketing,"Hvad kaldes et forslag, der udtrykker Folketingets holdning uden selv at være en lov?",300,beslutningsforslag,bekendtgørelse,grundlovsforslag,cirkulære,,,
+Grundlov og Folketing,"Hvad kaldes princippet om, at en regering ikke må have et flertal imod sig i Folketinget?",400,negativ parlamentarisme,positiv særbehandling,direkte demokrati,magtens enhed,,,
+Grundlov og Folketing,Hvor lang tid kan der højst gå mellem to folketingsvalg?,500,4 år,3 år,5 år,6 år,,,
+Grundlov og Folketing,Hvornår åbner et nyt folketingsår efter grundloven?,600,den første tirsdag i oktober,den første mandag i januar,den 5. juni,den sidste fredag i september,,,
+Grundlov og Folketing,Hvem leder Folketingets møder fra formandsstolen?,700,Folketingets formand,statsministeren,dronningen,højesteretspræsidenten,,,
+Valg og partier,Hvilket bogstav bruges af Radikale Venstre?,100,B,R,L,Q,,,
+Valg og partier,Hvilket bogstav bruges af Enhedslisten?,200,Ø,E,Å,Z,,,
+Valg og partier,Hvilket år blev Socialdemokratiet grundlagt?,300,1871,1849,1905,1915,,,
+Valg og partier,Hvilket år blev partiet Venstre dannet som en samlet politisk organisation?,400,1870,1848,1901,1915,,,
+Valg og partier,Hvilket år blev Radikale Venstre stiftet efter en splittelse i Venstre?,500,1905,1871,1915,1959,,,
+Valg og partier,Hvilket år blev Det Konservative Folkeparti stiftet?,600,1915,1905,1924,1945,,,
+Regeringer og politisk historie,"Hvad kaldes folketingsvalget i 1973, hvor mange nye partier kom ind?",100,jordskredsvalget,kanonvalget,systemskiftevalget,fredsvalget,,,
+Regeringer og politisk historie,Hvem blev statsminister i 1982 som den første konservative regeringsleder siden systemskiftet?,200,Poul Schlüter,Henning Christophersen,Poul Hartling,Uffe Ellemann-Jensen,,,
+Regeringer og politisk historie,Hvem blev statsminister efter regeringsskiftet i januar 1993?,300,Poul Nyrup Rasmussen,Mogens Lykketoft,Svend Auken,Poul Schlüter,,,
+Regeringer og politisk historie,Hvem blev statsminister efter folketingsvalget i 2001?,400,Anders Fogh Rasmussen,Lars Løkke Rasmussen,Poul Nyrup Rasmussen,Mogens Lykketoft,,,
+Regeringer og politisk historie,"Hvem overtog statsministerposten i 2009, da Anders Fogh Rasmussen blev NATO-generalsekretær?",500,Lars Løkke Rasmussen,Bendt Bendtsen,Claus Hjort Frederiksen,Søren Pind,,,
+Regeringer og politisk historie,Hvad kaldes en regering bestående af ministre fra flere partier?,600,koalitionsregering,forretningsministerium,embedsmandsregering,samrådsregering,,,
+"Kommuner, regioner og rigsfællesskab",Hvilken by blev administrationssæde for Region Midtjylland ved oprettelsen i 2007?,100,Viborg,Aarhus,Herning,Horsens,,,
+"Kommuner, regioner og rigsfællesskab",Hvilken by blev administrationssæde for Region Nordjylland ved oprettelsen i 2007?,200,Aalborg,Hjørring,Frederikshavn,Thisted,,,
+"Kommuner, regioner og rigsfællesskab",Hvilke tre dele indgår i rigsfællesskabet?,300,"Danmark, Færøerne og Grønland","Danmark, Island og Færøerne","Danmark, Norge og Grønland","Danmark, Sverige og Island",,,
+"Kommuner, regioner og rigsfællesskab",Hvad hedder Færøernes folkevalgte parlament?,400,Lagtinget,Landstinget,Altinget,Inatsisartut,,,
+"Kommuner, regioner og rigsfællesskab",Hvad hedder Grønlands folkevalgte parlament?,500,Inatsisartut,Lagtinget,Altinget,Sámediggi,,,
+"Kommuner, regioner og rigsfællesskab",Hvilket år fik Færøerne hjemmestyre?,600,1948,1920,1953,1979,,,

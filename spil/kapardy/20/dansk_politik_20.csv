@@ -1,21 +1,21 @@
-Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3
-Dansk politik,Hvad hedder Danmarks nationalforsamling?,100,Folketinget,Landstinget,Kommunerådet,Statsrådet
-Dansk politik,Hvor holder Folketinget til?,200,Christiansborg,Amalienborg,Rosenborg,Kastellet
-Dansk politik,Hvor mange medlemmer har Folketinget?,300,179,150,200,349
-Dansk politik,Hvilket år blev Danmarks grundlov vedtaget første gang?,400,1849,1814,1864,1915
-Dansk politik,Hvilken dato er grundlovsdag?,500,5. juni,1. maj,15. juni,24. december
-Dansk politik,Hvilket år fik kvinder stemmeret til Folketinget?,600,1915,1849,1901,1920
-Dansk politik,Hvad kaldes et forslag til en ny lov?,700,lovforslag,forordning,resolution,dom
-Dansk politik,Hvad hedder loven om statens indtægter og udgifter?,800,finansloven,grundloven,straffeloven,kommuneloven
-Dansk politik,Hvem vedtager love i Danmark?,900,Folketinget,Højesteret,kommunalbestyrelsen,kongehuset
-Dansk politik,Hvad kaldes den tredelte magt i demokratiet?,1000,"lovgivende, udøvende og dømmende magt","rød, blå og grøn magt","lokal, national og global magt","skole, kommune og stat"
-Dansk politik,Hvad er den dømmende magt?,1100,domstolene,regeringen,Folketinget,kommunerne
-Dansk politik,Hvad kaldes den udøvende magt?,1200,regeringen,domstolene,vælgerne,pressen
-Dansk politik,Hvad er en folkeafstemning?,1300,en afstemning blandt vælgerne,en domstolsafgørelse,en ministeraftale,en kommunal ansættelse
-Dansk politik,Hvor gammel skal man normalt være for at stemme til Folketingsvalg?,1400,18 år,16 år,21 år,25 år
-Dansk politik,Hvad kaldes lederen af en kommune?,1500,borgmester,minister,formand for Folketinget,dommer
-Dansk politik,Hvad hedder kommunernes øverste politiske organ?,1600,kommunalbestyrelsen,regionsrådet,Folketinget,byretten
-Dansk politik,Hvad kaldes en dansk regering uden flertal alene?,1700,mindretalsregering,flertalsdomstol,regionsregering,kongehusregering
-Dansk politik,Hvilket parti har bogstavet A på stemmesedlen?,1800,Socialdemokratiet,Venstre,Enhedslisten,Radikale Venstre
-Dansk politik,Hvilket parti har bogstavet V på stemmesedlen?,1900,Venstre,Socialdemokratiet,SF,Alternativet
-Dansk politik,Hvilket parti har bogstavet Ø på stemmesedlen?,2000,Enhedslisten,Venstre,Radikale Venstre,Dansk Folkeparti
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
+Grundlov og Folketing,"Hvad kaldes princippet om, at statsmagten deles i lovgivende, udøvende og dømmende magt?",100,magtens tredeling,negativ parlamentarisme,forholdstalsvalg,kommunalt selvstyre,,,
+Grundlov og Folketing,Hvem udøver den dømmende magt i Danmark?,200,domstolene,Folketinget,regeringen,kommunerne,,,
+Grundlov og Folketing,Hvem udøver i praksis den udøvende magt?,300,regeringen,Folketingets Præsidium,Højesteret,regionerne,,,
+Grundlov og Folketing,Hvad kaldes et forslag til en ny lov?,400,lovforslag,aktstykke,bekendtgørelse,forespørgsel,,,
+Grundlov og Folketing,Hvor mange behandlinger gennemgår et lovforslag normalt i Folketinget?,500,3,1,2,4,,,
+Valg og partier,Hvad betyder hemmelig stemmeafgivning?,100,"andre må ikke kunne se, hvad den enkelte vælger stemmer",stemmerne tælles ikke,kun partierne kender resultatet,vælgeren må ikke tale om politik,,,
+Valg og partier,Hvilket bogstav bruges traditionelt af Socialdemokratiet på stemmesedlen?,200,A,V,C,F,,,
+Valg og partier,Hvilket bogstav bruges traditionelt af Venstre på stemmesedlen?,300,V,A,B,Ø,,,
+Valg og partier,Hvilket bogstav bruges af Det Konservative Folkeparti?,400,C,K,H,D,,,
+Valg og partier,Hvilket bogstav bruges af Socialistisk Folkeparti?,500,F,S,G,R,,,
+Regeringer og politisk historie,"Hvem var statsminister, da Danmark blev besat den 9. april 1940?",100,Thorvald Stauning,Erik Scavenius,Vilhelm Buhl,Hans Hedtoft,,,
+Regeringer og politisk historie,Hvem blev statsminister i november 1942 og fortsatte frem til regeringens ophør i august 1943?,200,Erik Scavenius,Vilhelm Buhl,Knud Kristensen,John Christmas Møller,,,
+Regeringer og politisk historie,Hvem ledede befrielsesregeringen fra maj 1945?,300,Vilhelm Buhl,Hans Hedtoft,Erik Scavenius,Knud Kristensen,,,
+Regeringer og politisk historie,"Hvilken statsminister stod i spidsen, da Danmark blev medlem af NATO i 1949?",400,Hans Hedtoft,H.C. Hansen,Viggo Kampmann,Jens Otto Krag,,,
+Regeringer og politisk historie,Hvilken statsminister udskrev folkeafstemningen om dansk EF-medlemskab i 1972?,500,Jens Otto Krag,Anker Jørgensen,Hilmar Baunsgaard,Poul Hartling,,,
+"Kommuner, regioner og rigsfællesskab",Hvilken opgave har regionerne især haft siden 2007?,100,drift af hospitaler og sundhedsvæsen,folkeskoleundervisning,politi og forsvar,udstedelse af pas,,,
+"Kommuner, regioner og rigsfællesskab",Hvilket folkevalgt organ leder en region?,200,regionsrådet,kommunalbestyrelsen,Folketingets Præsidium,Statsrådet,,,
+"Kommuner, regioner og rigsfællesskab",Hvilken by var administrationssæde for Region Hovedstaden ved oprettelsen i 2007?,300,Hillerød,København,Roskilde,Helsingør,,,
+"Kommuner, regioner og rigsfællesskab",Hvilken by blev administrationssæde for Region Sjælland ved oprettelsen i 2007?,400,Sorø,Roskilde,Næstved,Køge,,,
+"Kommuner, regioner og rigsfællesskab",Hvilken by blev administrationssæde for Region Syddanmark ved oprettelsen i 2007?,500,Vejle,Odense,Esbjerg,Kolding,,,
