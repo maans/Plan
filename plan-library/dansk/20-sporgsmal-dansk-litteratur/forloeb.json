@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_dansk-litteratur",
+    "title": "20 spørgsmål fra professoren · Dansk litteratur",
+    "subject": "Dansk",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_dansk-litteratur"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_dansk-litteratur",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Dansk litteratur",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_dansk-litteratur_1",
+      "boardIds": [
+        "board_session_professor_dansk-litteratur_1",
+        "board_session_professor_dansk-litteratur_2",
+        "board_session_professor_dansk-litteratur_3",
+        "board_session_professor_dansk-litteratur_4",
+        "board_session_professor_dansk-litteratur_5",
+        "board_session_professor_dansk-litteratur_6",
+        "board_session_professor_dansk-litteratur_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_dansk-litteratur",
+        "courseTitle": "20 spørgsmål fra professoren · Dansk litteratur",
+        "courseSubject": "Dansk",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_dansk-litteratur"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/dansk_litteratur_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_dansk-litteratur_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "Overblik · Dansk litteratur",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_overview_intro",
+        "widget_session_professor_dansk-litteratur_overview_route",
+        "widget_session_professor_dansk-litteratur_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "dansk_litteratur_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_dansk-litteratur_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "1. Forfattere og værker",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_cat1_facts",
+        "widget_session_professor_dansk-litteratur_cat1_activity",
+        "widget_session_professor_dansk-litteratur_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Forfattere og værker",
+        "sourceCsv": "dansk_litteratur_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_dansk-litteratur_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "2. Perioder og strømninger",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_cat2_facts",
+        "widget_session_professor_dansk-litteratur_cat2_activity",
+        "widget_session_professor_dansk-litteratur_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Perioder og strømninger",
+        "sourceCsv": "dansk_litteratur_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_dansk-litteratur_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "3. Figurer, former og genrer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_cat3_facts",
+        "widget_session_professor_dansk-litteratur_cat3_activity",
+        "widget_session_professor_dansk-litteratur_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Figurer, former og genrer",
+        "sourceCsv": "dansk_litteratur_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_dansk-litteratur_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "4. Priser, sprog og litteraturliv",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_cat4_facts",
+        "widget_session_professor_dansk-litteratur_cat4_activity",
+        "widget_session_professor_dansk-litteratur_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Priser, sprog og litteraturliv",
+        "sourceCsv": "dansk_litteratur_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_dansk-litteratur_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_rehearsal_header",
+        "widget_session_professor_dansk-litteratur_rehearsal_1",
+        "widget_session_professor_dansk-litteratur_rehearsal_2",
+        "widget_session_professor_dansk-litteratur_rehearsal_3",
+        "widget_session_professor_dansk-litteratur_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "dansk_litteratur_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_dansk-litteratur_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_dansk-litteratur",
+      "title": "🎯 KaPardy · Dansk litteratur",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_dansk-litteratur_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "dansk_litteratur_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_dansk-litteratur_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nDANSK LITTERATUR\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_dansk-litteratur_1",
+          "board_session_professor_dansk-litteratur_2",
+          "board_session_professor_dansk-litteratur_3",
+          "board_session_professor_dansk-litteratur_4",
+          "board_session_professor_dansk-litteratur_5",
+          "board_session_professor_dansk-litteratur_6",
+          "board_session_professor_dansk-litteratur_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_2",
+      "type": "text",
+      "title": "Kernestof · Forfattere og værker",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · FORFATTERE OG VÆRKER\n\n1. Hvem skrev digtet “Guldhornene”?\n   FACIT: Adam Oehlenschläger\n\n2. Hvem skrev det filosofiske værk “Enten – Eller”?\n   FACIT: Søren Kierkegaard\n\n3. Hvilket værk af Inger Christensen er bygget op efter alfabetets bogstaver?\n   FACIT: Alfabet\n\n4. Hvem skrev romanen “Den kroniske uskyld”?\n   FACIT: Klaus Rifbjerg\n\n5. Hvem skrev romanen “Hærværk”?\n   FACIT: Tom Kristensen\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav fem dobbeltsidede kort: værktitel på forsiden og forfatter på bagsiden. Bland kortene, træk et værk og forklar én ting, der gør koblingen lettere at huske.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvem skrev digtet “Guldhornene”?\n• Hvem skrev det filosofiske værk “Enten – Eller”?\n• Hvilket værk af Inger Christensen er bygget op efter alfabetets bogstaver?\n• Hvem skrev romanen “Den kroniske uskyld”?\n• Hvem skrev romanen “Hærværk”?\n\nHUSKESYSTEM\nHusk i par: Oehlenschläger–Guldhornene, Kierkegaard–Enten – Eller, Christensen–Alfabet, Rifbjerg–Den kroniske uskyld, Kristensen–Hærværk.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_3",
+      "type": "text",
+      "title": "Kernestof · Perioder og strømninger",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · PERIODER OG STRØMNINGER\n\n1. Hvad kaldes den danske kunst- og kulturperiode i første halvdel af 1800-tallet med blandt andre H.C. Andersen og Søren Kierkegaard?\n   FACIT: Guldalderen\n\n2. Hvem indledte i 1871 sine forelæsninger om “Hovedstrømninger i det 19de Aarhundredes Litteratur”?\n   FACIT: Georg Brandes\n\n3. Hvilken formulering sammenfatter Georg Brandes' krav til moderne litteratur?\n   FACIT: at sætte problemer under debat\n\n4. Hvilken litterær retning søger en troværdig skildring af hverdagsliv og samfund?\n   FACIT: realisme\n\n5. Hvilken retning lagde vægt på arv, miljø og mennesket som bestemt af biologiske og sociale vilkår?\n   FACIT: naturalisme\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nPlacér begreberne på en tidslinje. Sammenlign realisme og naturalisme med to nøgleord til hver, og forklar Brandes’ krav med jeres egne ord.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad kaldes den danske kunst- og kulturperiode i første halvdel af 1800-tallet med blandt andre H.C. Andersen og Søren Kierkegaard?\n• Hvem indledte i 1871 sine forelæsninger om “Hovedstrømninger i det 19de Aarhundredes Litteratur”?\n• Hvilken formulering sammenfatter Georg Brandes' krav til moderne litteratur?\n• Hvilken litterær retning søger en troværdig skildring af hverdagsliv og samfund?\n• Hvilken retning lagde vægt på arv, miljø og mennesket som bestemt af biologiske og sociale vilkår?\n\nHUSKESYSTEM\nGuldalder → Brandes → problemer til debat → realisme → naturalisme. Se det som en bevægelse fra ideal og kulturblomstring mod samfund, hverdag, arv og miljø.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_4",
+      "type": "text",
+      "title": "Kernestof · Figurer, former og genrer",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · FIGURER, FORMER OG GENRER\n\n1. Hvad hedder fortælleren i “Den kroniske uskyld”?\n   FACIT: Janus Tolne\n\n2. Hvad hedder journalisten i Tom Kristensens “Hærværk”?\n   FACIT: Ole Jastrau\n\n3. Hvad hedder hovedpersonen i “Barndommens gade”?\n   FACIT: Ester\n\n4. Hvilket erhverv har Smilla Jaspersen i “Frøken Smillas fornemmelse for sne”?\n   FACIT: hun er uddannet glaciolog\n\n5. I hvilken dansk by foregår store dele af “Nordkraft”?\n   FACIT: Aalborg\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nArbejd som litterære detektiver: forbind figur, værk, sted og erhverv. Begrund hvert match uden at se på facitlisten.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad hedder fortælleren i “Den kroniske uskyld”?\n• Hvad hedder journalisten i Tom Kristensens “Hærværk”?\n• Hvad hedder hovedpersonen i “Barndommens gade”?\n• Hvilket erhverv har Smilla Jaspersen i “Frøken Smillas fornemmelse for sne”?\n• I hvilken dansk by foregår store dele af “Nordkraft”?\n\nHUSKESYSTEM\nKnyt hvert navn til et tydeligt billede: Janus Tolne, Ole Jastrau, Ester, glaciologen Smilla og Aalborg i Nordkraft.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_5",
+      "type": "text",
+      "title": "Kernestof · Priser, sprog og litteraturliv",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · PRISER, SPROG OG LITTERATURLIV\n\n1. Hvilken dansk forfatter vandt Nordisk Råds litteraturpris i 1974 for “Uden mål – og med”?\n   FACIT: Villy Sørensen\n\n2. Hvilken forfatter vandt Nordisk Råds litteraturpris i 1997 for romanen “Bang”?\n   FACIT: Dorrit Willumsen\n\n3. Hvilken digter vandt Nordisk Råds litteraturpris i 1999 for “Dronningeporten”?\n   FACIT: Pia Tafdrup\n\n4. Hvilken forfatter vandt Nordisk Råds litteraturpris i 2008 for novellesamlingen “Bavian”?\n   FACIT: Naja Marie Aidt\n\n5. Hvilken forfatter vandt Nordisk Råds litteraturpris i 2017 for “Erindring om kærligheden”?\n   FACIT: Kirsten Thorup\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav en mini-prisuddeling. Hver gruppe præsenterer én prisvinder, titel og år og udvikler en huskeregel til resten af klassen.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken dansk forfatter vandt Nordisk Råds litteraturpris i 1974 for “Uden mål – og med”?\n• Hvilken forfatter vandt Nordisk Råds litteraturpris i 1997 for romanen “Bang”?\n• Hvilken digter vandt Nordisk Råds litteraturpris i 1999 for “Dronningeporten”?\n• Hvilken forfatter vandt Nordisk Råds litteraturpris i 2008 for novellesamlingen “Bavian”?\n• Hvilken forfatter vandt Nordisk Råds litteraturpris i 2017 for “Erindring om kærligheden”?\n\nHUSKESYSTEM\nÅrstallene 1974, 1997, 1999, 2008 og 2017 danner en pris-tidslinje med fem danske forfattere.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_6",
+      "type": "text",
+      "title": "Forfattere og værker",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORFATTERE OG VÆRKER\n\n1. Hvem skrev digtet “Guldhornene”?\n2. Hvem skrev det filosofiske værk “Enten – Eller”?\n3. Hvilket værk af Inger Christensen er bygget op efter alfabetets bogstaver?\n4. Hvem skrev romanen “Den kroniske uskyld”?\n5. Hvem skrev romanen “Hærværk”?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_6",
+      "type": "text",
+      "title": "Perioder og strømninger",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PERIODER OG STRØMNINGER\n\n1. Hvad kaldes den danske kunst- og kulturperiode i første halvdel af 1800-tallet med blandt andre H.C. Andersen og Søren Kierkegaard?\n2. Hvem indledte i 1871 sine forelæsninger om “Hovedstrømninger i det 19de Aarhundredes Litteratur”?\n3. Hvilken formulering sammenfatter Georg Brandes' krav til moderne litteratur?\n4. Hvilken litterær retning søger en troværdig skildring af hverdagsliv og samfund?\n5. Hvilken retning lagde vægt på arv, miljø og mennesket som bestemt af biologiske og sociale vilkår?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_6",
+      "type": "text",
+      "title": "Figurer, former og genrer",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "FIGURER, FORMER OG GENRER\n\n1. Hvad hedder fortælleren i “Den kroniske uskyld”?\n2. Hvad hedder journalisten i Tom Kristensens “Hærværk”?\n3. Hvad hedder hovedpersonen i “Barndommens gade”?\n4. Hvilket erhverv har Smilla Jaspersen i “Frøken Smillas fornemmelse for sne”?\n5. I hvilken dansk by foregår store dele af “Nordkraft”?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_6",
+      "type": "text",
+      "title": "Priser, sprog og litteraturliv",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "PRISER, SPROG OG LITTERATURLIV\n\n1. Hvilken dansk forfatter vandt Nordisk Råds litteraturpris i 1974 for “Uden mål – og med”?\n2. Hvilken forfatter vandt Nordisk Råds litteraturpris i 1997 for romanen “Bang”?\n3. Hvilken digter vandt Nordisk Råds litteraturpris i 1999 for “Dronningeporten”?\n4. Hvilken forfatter vandt Nordisk Råds litteraturpris i 2008 for novellesamlingen “Bavian”?\n5. Hvilken forfatter vandt Nordisk Råds litteraturpris i 2017 for “Erindring om kærligheden”?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_dansk-litteratur_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_dansk-litteratur_7",
+      "type": "kapardy",
+      "title": "KaPardy · Dansk litteratur",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_dansk-litteratur_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_dansk-litteratur_01",
+            "category": "Forfattere og værker",
+            "question": "Hvem skrev digtet “Guldhornene”?",
+            "points": 100,
+            "options": [
+              "Adam Oehlenschläger",
+              "N.F.S. Grundtvig",
+              "Johannes Ewald",
+              "B.S. Ingemann"
+            ],
+            "correctIndex": 0,
+            "answer": "Adam Oehlenschläger"
+          },
+          {
+            "id": "kp_dansk-litteratur_02",
+            "category": "Forfattere og værker",
+            "question": "Hvem skrev det filosofiske værk “Enten – Eller”?",
+            "points": 200,
+            "options": [
+              "Søren Kierkegaard",
+              "Georg Brandes",
+              "Ludvig Holberg",
+              "Poul Martin Møller"
+            ],
+            "correctIndex": 0,
+            "answer": "Søren Kierkegaard"
+          },
+          {
+            "id": "kp_dansk-litteratur_03",
+            "category": "Forfattere og værker",
+            "question": "Hvilket værk af Inger Christensen er bygget op efter alfabetets bogstaver?",
+            "points": 300,
+            "options": [
+              "Alfabet",
+              "Det",
+              "Azorno",
+              "Sommerfugledalen"
+            ],
+            "correctIndex": 0,
+            "answer": "Alfabet"
+          },
+          {
+            "id": "kp_dansk-litteratur_04",
+            "category": "Forfattere og værker",
+            "question": "Hvem skrev romanen “Den kroniske uskyld”?",
+            "points": 400,
+            "options": [
+              "Klaus Rifbjerg",
+              "Leif Panduro",
+              "Villy Sørensen",
+              "Anders Bodelsen"
+            ],
+            "correctIndex": 0,
+            "answer": "Klaus Rifbjerg"
+          },
+          {
+            "id": "kp_dansk-litteratur_05",
+            "category": "Forfattere og værker",
+            "question": "Hvem skrev romanen “Hærværk”?",
+            "points": 500,
+            "options": [
+              "Tom Kristensen",
+              "Hans Scherfig",
+              "Martin A. Hansen",
+              "Mogens Klitgaard"
+            ],
+            "correctIndex": 0,
+            "answer": "Tom Kristensen"
+          },
+          {
+            "id": "kp_dansk-litteratur_06",
+            "category": "Perioder og strømninger",
+            "question": "Hvad kaldes den danske kunst- og kulturperiode i første halvdel af 1800-tallet med blandt andre H.C. Andersen og Søren Kierkegaard?",
+            "points": 100,
+            "options": [
+              "Guldalderen",
+              "Sølvalderen",
+              "Oplysningstiden",
+              "Systemskiftet"
+            ],
+            "correctIndex": 0,
+            "answer": "Guldalderen"
+          },
+          {
+            "id": "kp_dansk-litteratur_07",
+            "category": "Perioder og strømninger",
+            "question": "Hvem indledte i 1871 sine forelæsninger om “Hovedstrømninger i det 19de Aarhundredes Litteratur”?",
+            "points": 200,
+            "options": [
+              "Georg Brandes",
+              "Harald Høffding",
+              "Søren Kierkegaard",
+              "Viggo Hørup"
+            ],
+            "correctIndex": 0,
+            "answer": "Georg Brandes"
+          },
+          {
+            "id": "kp_dansk-litteratur_08",
+            "category": "Perioder og strømninger",
+            "question": "Hvilken formulering sammenfatter Georg Brandes' krav til moderne litteratur?",
+            "points": 300,
+            "options": [
+              "at sætte problemer under debat",
+              "at dyrke rim uden indhold",
+              "at undgå samtidens konflikter",
+              "at efterligne middelalderens helteviser"
+            ],
+            "correctIndex": 0,
+            "answer": "at sætte problemer under debat"
+          },
+          {
+            "id": "kp_dansk-litteratur_09",
+            "category": "Perioder og strømninger",
+            "question": "Hvilken litterær retning søger en troværdig skildring af hverdagsliv og samfund?",
+            "points": 400,
+            "options": [
+              "realisme",
+              "romantik",
+              "surrealisme",
+              "dadaisme"
+            ],
+            "correctIndex": 0,
+            "answer": "realisme"
+          },
+          {
+            "id": "kp_dansk-litteratur_10",
+            "category": "Perioder og strømninger",
+            "question": "Hvilken retning lagde vægt på arv, miljø og mennesket som bestemt af biologiske og sociale vilkår?",
+            "points": 500,
+            "options": [
+              "naturalisme",
+              "symbolisme",
+              "klassicisme",
+              "ekspressionisme"
+            ],
+            "correctIndex": 0,
+            "answer": "naturalisme"
+          },
+          {
+            "id": "kp_dansk-litteratur_11",
+            "category": "Figurer, former og genrer",
+            "question": "Hvad hedder fortælleren i “Den kroniske uskyld”?",
+            "points": 100,
+            "options": [
+              "Janus Tolne",
+              "Tore Reimer",
+              "Poul Berger",
+              "Mogens Jørgensen"
+            ],
+            "correctIndex": 0,
+            "answer": "Janus Tolne"
+          },
+          {
+            "id": "kp_dansk-litteratur_12",
+            "category": "Figurer, former og genrer",
+            "question": "Hvad hedder journalisten i Tom Kristensens “Hærværk”?",
+            "points": 200,
+            "options": [
+              "Ole Jastrau",
+              "Mikkel Thøgersen",
+              "Erik Skram",
+              "Arne Garborg"
+            ],
+            "correctIndex": 0,
+            "answer": "Ole Jastrau"
+          },
+          {
+            "id": "kp_dansk-litteratur_13",
+            "category": "Figurer, former og genrer",
+            "question": "Hvad hedder hovedpersonen i “Barndommens gade”?",
+            "points": 300,
+            "options": [
+              "Ester",
+              "Tine",
+              "Katinka",
+              "Ditte"
+            ],
+            "correctIndex": 0,
+            "answer": "Ester"
+          },
+          {
+            "id": "kp_dansk-litteratur_14",
+            "category": "Figurer, former og genrer",
+            "question": "Hvilket erhverv har Smilla Jaspersen i “Frøken Smillas fornemmelse for sne”?",
+            "points": 400,
+            "options": [
+              "hun er uddannet glaciolog",
+              "hun er arkæolog",
+              "hun er jurist",
+              "hun er kirurg"
+            ],
+            "correctIndex": 0,
+            "answer": "hun er uddannet glaciolog"
+          },
+          {
+            "id": "kp_dansk-litteratur_15",
+            "category": "Figurer, former og genrer",
+            "question": "I hvilken dansk by foregår store dele af “Nordkraft”?",
+            "points": 500,
+            "options": [
+              "Aalborg",
+              "Aarhus",
+              "Odense",
+              "Esbjerg"
+            ],
+            "correctIndex": 0,
+            "answer": "Aalborg"
+          },
+          {
+            "id": "kp_dansk-litteratur_16",
+            "category": "Priser, sprog og litteraturliv",
+            "question": "Hvilken dansk forfatter vandt Nordisk Råds litteraturpris i 1974 for “Uden mål – og med”?",
+            "points": 100,
+            "options": [
+              "Villy Sørensen",
+              "Dan Turèll",
+              "Svend Åge Madsen",
+              "Anders Bodelsen"
+            ],
+            "correctIndex": 0,
+            "answer": "Villy Sørensen"
+          },
+          {
+            "id": "kp_dansk-litteratur_17",
+            "category": "Priser, sprog og litteraturliv",
+            "question": "Hvilken forfatter vandt Nordisk Råds litteraturpris i 1997 for romanen “Bang”?",
+            "points": 200,
+            "options": [
+              "Dorrit Willumsen",
+              "Kirsten Thorup",
+              "Suzanne Brøgger",
+              "Dea Trier Mørch"
+            ],
+            "correctIndex": 0,
+            "answer": "Dorrit Willumsen"
+          },
+          {
+            "id": "kp_dansk-litteratur_18",
+            "category": "Priser, sprog og litteraturliv",
+            "question": "Hvilken digter vandt Nordisk Råds litteraturpris i 1999 for “Dronningeporten”?",
+            "points": 300,
+            "options": [
+              "Pia Tafdrup",
+              "Inger Christensen",
+              "Vita Andersen",
+              "Marianne Larsen"
+            ],
+            "correctIndex": 0,
+            "answer": "Pia Tafdrup"
+          },
+          {
+            "id": "kp_dansk-litteratur_19",
+            "category": "Priser, sprog og litteraturliv",
+            "question": "Hvilken forfatter vandt Nordisk Råds litteraturpris i 2008 for novellesamlingen “Bavian”?",
+            "points": 400,
+            "options": [
+              "Naja Marie Aidt",
+              "Helle Helle",
+              "Jan Sonnergaard",
+              "Simon Fruelund"
+            ],
+            "correctIndex": 0,
+            "answer": "Naja Marie Aidt"
+          },
+          {
+            "id": "kp_dansk-litteratur_20",
+            "category": "Priser, sprog og litteraturliv",
+            "question": "Hvilken forfatter vandt Nordisk Råds litteraturpris i 2017 for “Erindring om kærligheden”?",
+            "points": 500,
+            "options": [
+              "Kirsten Thorup",
+              "Helle Helle",
+              "Dorthe Nors",
+              "Merete Pryds Helle"
+            ],
+            "correctIndex": 0,
+            "answer": "Kirsten Thorup"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "dansk_litteratur_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_dansk-litteratur"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_dansk-litteratur",
+    "courseTitle": "20 spørgsmål fra professoren · Dansk litteratur",
+    "courseSessionIds": [
+      "session_professor_dansk-litteratur"
+    ]
+  },
+  "warnings": []
+}

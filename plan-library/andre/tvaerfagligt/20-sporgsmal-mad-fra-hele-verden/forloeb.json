@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_mad-fra-hele-verden",
+    "title": "20 spørgsmål fra professoren · Mad fra hele verden",
+    "subject": "Mad og kultur",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_mad-fra-hele-verden"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_mad-fra-hele-verden",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Mad fra hele verden",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_mad-fra-hele-verden_1",
+      "boardIds": [
+        "board_session_professor_mad-fra-hele-verden_1",
+        "board_session_professor_mad-fra-hele-verden_2",
+        "board_session_professor_mad-fra-hele-verden_3",
+        "board_session_professor_mad-fra-hele-verden_4",
+        "board_session_professor_mad-fra-hele-verden_5",
+        "board_session_professor_mad-fra-hele-verden_6",
+        "board_session_professor_mad-fra-hele-verden_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_mad-fra-hele-verden",
+        "courseTitle": "20 spørgsmål fra professoren · Mad fra hele verden",
+        "courseSubject": "Mad og kultur",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_mad-fra-hele-verden"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/mad_fra_hele_verden_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "Overblik · Mad fra hele verden",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_overview_intro",
+        "widget_session_professor_mad-fra-hele-verden_overview_route",
+        "widget_session_professor_mad-fra-hele-verden_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "mad_fra_hele_verden_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "1. Retter og hjemsteder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_cat1_facts",
+        "widget_session_professor_mad-fra-hele-verden_cat1_activity",
+        "widget_session_professor_mad-fra-hele-verden_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Retter og hjemsteder",
+        "sourceCsv": "mad_fra_hele_verden_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "2. Ingredienser og teknikker",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_cat2_facts",
+        "widget_session_professor_mad-fra-hele-verden_cat2_activity",
+        "widget_session_professor_mad-fra-hele-verden_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Ingredienser og teknikker",
+        "sourceCsv": "mad_fra_hele_verden_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "3. Brød, sødt og drikke",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_cat3_facts",
+        "widget_session_professor_mad-fra-hele-verden_cat3_activity",
+        "widget_session_professor_mad-fra-hele-verden_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Brød, sødt og drikke",
+        "sourceCsv": "mad_fra_hele_verden_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "4. Måltider og madkultur",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_cat4_facts",
+        "widget_session_professor_mad-fra-hele-verden_cat4_activity",
+        "widget_session_professor_mad-fra-hele-verden_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Måltider og madkultur",
+        "sourceCsv": "mad_fra_hele_verden_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_rehearsal_header",
+        "widget_session_professor_mad-fra-hele-verden_rehearsal_1",
+        "widget_session_professor_mad-fra-hele-verden_rehearsal_2",
+        "widget_session_professor_mad-fra-hele-verden_rehearsal_3",
+        "widget_session_professor_mad-fra-hele-verden_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "mad_fra_hele_verden_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_mad-fra-hele-verden_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_mad-fra-hele-verden",
+      "title": "🎯 KaPardy · Mad fra hele verden",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_mad-fra-hele-verden_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "mad_fra_hele_verden_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nMAD FRA HELE VERDEN\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_mad-fra-hele-verden_1",
+          "board_session_professor_mad-fra-hele-verden_2",
+          "board_session_professor_mad-fra-hele-verden_3",
+          "board_session_professor_mad-fra-hele-verden_4",
+          "board_session_professor_mad-fra-hele-verden_5",
+          "board_session_professor_mad-fra-hele-verden_6",
+          "board_session_professor_mad-fra-hele-verden_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_2",
+      "type": "text",
+      "title": "Kernestof · Retter og hjemsteder",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · RETTER OG HJEMSTEDER\n\n1. Hvilken brasiliansk ret er en kraftig bønnegryde, ofte lavet med sorte bønner og kød?\n   FACIT: feijoada\n\n2. Hvilken mexicansk sauce kan indeholde chili, krydderier, nødder og i nogle varianter chokolade?\n   FACIT: mole\n\n3. Hvilken mexicansk spise består af en tortilla foldet omkring fyld?\n   FACIT: taco\n\n4. Hvilken canadisk ret fra Québec består klassisk af pommes frites, ostekorn og brun sauce?\n   FACIT: poutine\n\n5. Hvilken Louisiana-ret er en tyk suppe eller gryde, som ofte jævnes med roux eller okra?\n   FACIT: gumbo\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nPlacér fem retter på et kort og beskriv deres grundstruktur. Sammenlign gryde/suppe, sauce, tortilla-ret og pommes frites-ret uden at gøre oprindelse mere entydig end spørgsmålene.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken brasiliansk ret er en kraftig bønnegryde, ofte lavet med sorte bønner og kød?\n• Hvilken mexicansk sauce kan indeholde chili, krydderier, nødder og i nogle varianter chokolade?\n• Hvilken mexicansk spise består af en tortilla foldet omkring fyld?\n• Hvilken canadisk ret fra Québec består klassisk af pommes frites, ostekorn og brun sauce?\n• Hvilken Louisiana-ret er en tyk suppe eller gryde, som ofte jævnes med roux eller okra?\n\nHUSKESYSTEM\nFeijoada–Brasilien; mole og taco–Mexico; poutine–Québec; gumbo–Louisiana.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_3",
+      "type": "text",
+      "title": "Kernestof · Ingredienser og teknikker",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · INGREDIENSER OG TEKNIKKER\n\n1. Hvilken proces holder olie og vand blandet i mayonnaise?\n   FACIT: emulgering\n\n2. Hvordan tilsættes fond typisk under klassisk risottotilberedning?\n   FACIT: lidt ad gangen under omrøring\n\n3. Hvad krydres japansk sushiris typisk med?\n   FACIT: riseddike, sukker og salt\n\n4. Hvad er masa harina lavet af?\n   FACIT: tørret, nixtamaliseret majs\n\n5. Hvilken mikroorganismekultur bruges ofte til at fremstille miso og sojasauce?\n   FACIT: koji\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav en teknikstation med tegninger eller demonstrationer: emulgering, fond lidt ad gangen, krydring af sushiris, nixtamaliseret majs og koji-kultur.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken proces holder olie og vand blandet i mayonnaise?\n• Hvordan tilsættes fond typisk under klassisk risottotilberedning?\n• Hvad krydres japansk sushiris typisk med?\n• Hvad er masa harina lavet af?\n• Hvilken mikroorganismekultur bruges ofte til at fremstille miso og sojasauce?\n\nHUSKESYSTEM\nMayonnaise–emulgering; risotto–fond lidt ad gangen; sushiris–eddike/sukker/salt; masa harina–nixtamaliseret majs; miso/soja–koji.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_4",
+      "type": "text",
+      "title": "Kernestof · Brød, sødt og drikke",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · BRØD, SØDT OG DRIKKE\n\n1. Hvilket tyndt fladbrød forbindes med Armenien og andre dele af regionen omkring Kaukasus og Vestasien?\n   FACIT: lavash\n\n2. Hvilket mørkt, tæt rugbrød forbindes med Westfalen i Tyskland?\n   FACIT: pumpernickel\n\n3. Hvilket italiensk julebrød er højt og sødt med kandiseret frugt?\n   FACIT: panettone\n\n4. Hvilken italiensk dessert laves typisk af mascarpone, kaffe og ladyfingers?\n   FACIT: tiramisu\n\n5. Hvilke friturestegte dejstænger serveres ofte med sukker og chokolade i Spanien og Latinamerika?\n   FACIT: churros\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nByg en menu med lavash, pumpernickel, panettone, tiramisu og churros. Sortér efter brød/dessert, region og typisk tilberedning.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket tyndt fladbrød forbindes med Armenien og andre dele af regionen omkring Kaukasus og Vestasien?\n• Hvilket mørkt, tæt rugbrød forbindes med Westfalen i Tyskland?\n• Hvilket italiensk julebrød er højt og sødt med kandiseret frugt?\n• Hvilken italiensk dessert laves typisk af mascarpone, kaffe og ladyfingers?\n• Hvilke friturestegte dejstænger serveres ofte med sukker og chokolade i Spanien og Latinamerika?\n\nHUSKESYSTEM\nLavash, pumpernickel, panettone, tiramisu og churros har tydelige navne, former og regionale forbindelser.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_5",
+      "type": "text",
+      "title": "Kernestof · Måltider og madkultur",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · MÅLTIDER OG MADKULTUR\n\n1. Hvilken japansk madtradition blev optaget på UNESCOs liste som “Washoku”?\n   FACIT: traditionel japansk madkultur\n\n2. Hvilken fælles spise- og livsstilstradition omkring Middelhavet er optaget på UNESCOs kulturarvsliste?\n   FACIT: Middelhavskosten\n\n3. Hvilket fransk måltidsritual med faste serveringsled er optaget på UNESCOs kulturarvsliste?\n   FACIT: det gastronomiske måltid hos franskmændene\n\n4. Hvilket lands traditionelle køkken blev i 2010 optaget på UNESCOs liste med fokus på majs, bønner og chili?\n   FACIT: Mexico\n\n5. Hvilket napolitansk håndværk omkring pizzabagning er optaget på UNESCOs kulturarvsliste?\n   FACIT: pizzaiuolo-kunsten\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nAfhold et UNESCO-råd. Hver gruppe forklarer, hvorfor en madtradition er mere end en enkelt ret: viden, ritualer, håndværk og fællesskab.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken japansk madtradition blev optaget på UNESCOs liste som “Washoku”?\n• Hvilken fælles spise- og livsstilstradition omkring Middelhavet er optaget på UNESCOs kulturarvsliste?\n• Hvilket fransk måltidsritual med faste serveringsled er optaget på UNESCOs kulturarvsliste?\n• Hvilket lands traditionelle køkken blev i 2010 optaget på UNESCOs liste med fokus på majs, bønner og chili?\n• Hvilket napolitansk håndværk omkring pizzabagning er optaget på UNESCOs kulturarvsliste?\n\nHUSKESYSTEM\nWashoku, Middelhavskosten, fransk gastronomisk måltid, mexicansk køkken og napolitansk pizzaiuolo-kunst.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_6",
+      "type": "text",
+      "title": "Retter og hjemsteder",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "RETTER OG HJEMSTEDER\n\n1. Hvilken brasiliansk ret er en kraftig bønnegryde, ofte lavet med sorte bønner og kød?\n2. Hvilken mexicansk sauce kan indeholde chili, krydderier, nødder og i nogle varianter chokolade?\n3. Hvilken mexicansk spise består af en tortilla foldet omkring fyld?\n4. Hvilken canadisk ret fra Québec består klassisk af pommes frites, ostekorn og brun sauce?\n5. Hvilken Louisiana-ret er en tyk suppe eller gryde, som ofte jævnes med roux eller okra?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_6",
+      "type": "text",
+      "title": "Ingredienser og teknikker",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "INGREDIENSER OG TEKNIKKER\n\n1. Hvilken proces holder olie og vand blandet i mayonnaise?\n2. Hvordan tilsættes fond typisk under klassisk risottotilberedning?\n3. Hvad krydres japansk sushiris typisk med?\n4. Hvad er masa harina lavet af?\n5. Hvilken mikroorganismekultur bruges ofte til at fremstille miso og sojasauce?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_6",
+      "type": "text",
+      "title": "Brød, sødt og drikke",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "BRØD, SØDT OG DRIKKE\n\n1. Hvilket tyndt fladbrød forbindes med Armenien og andre dele af regionen omkring Kaukasus og Vestasien?\n2. Hvilket mørkt, tæt rugbrød forbindes med Westfalen i Tyskland?\n3. Hvilket italiensk julebrød er højt og sødt med kandiseret frugt?\n4. Hvilken italiensk dessert laves typisk af mascarpone, kaffe og ladyfingers?\n5. Hvilke friturestegte dejstænger serveres ofte med sukker og chokolade i Spanien og Latinamerika?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_6",
+      "type": "text",
+      "title": "Måltider og madkultur",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "MÅLTIDER OG MADKULTUR\n\n1. Hvilken japansk madtradition blev optaget på UNESCOs liste som “Washoku”?\n2. Hvilken fælles spise- og livsstilstradition omkring Middelhavet er optaget på UNESCOs kulturarvsliste?\n3. Hvilket fransk måltidsritual med faste serveringsled er optaget på UNESCOs kulturarvsliste?\n4. Hvilket lands traditionelle køkken blev i 2010 optaget på UNESCOs liste med fokus på majs, bønner og chili?\n5. Hvilket napolitansk håndværk omkring pizzabagning er optaget på UNESCOs kulturarvsliste?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_mad-fra-hele-verden_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_mad-fra-hele-verden_7",
+      "type": "kapardy",
+      "title": "KaPardy · Mad fra hele verden",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_mad-fra-hele-verden_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_mad-fra-hele-verden_01",
+            "category": "Retter og hjemsteder",
+            "question": "Hvilken brasiliansk ret er en kraftig bønnegryde, ofte lavet med sorte bønner og kød?",
+            "points": 100,
+            "options": [
+              "feijoada",
+              "moqueca",
+              "acarajé",
+              "farofa"
+            ],
+            "correctIndex": 0,
+            "answer": "feijoada"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_02",
+            "category": "Retter og hjemsteder",
+            "question": "Hvilken mexicansk sauce kan indeholde chili, krydderier, nødder og i nogle varianter chokolade?",
+            "points": 200,
+            "options": [
+              "mole",
+              "salsa verde",
+              "guacamole",
+              "pico de gallo"
+            ],
+            "correctIndex": 0,
+            "answer": "mole"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_03",
+            "category": "Retter og hjemsteder",
+            "question": "Hvilken mexicansk spise består af en tortilla foldet omkring fyld?",
+            "points": 300,
+            "options": [
+              "taco",
+              "tamale",
+              "arepa",
+              "empanada"
+            ],
+            "correctIndex": 0,
+            "answer": "taco"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_04",
+            "category": "Retter og hjemsteder",
+            "question": "Hvilken canadisk ret fra Québec består klassisk af pommes frites, ostekorn og brun sauce?",
+            "points": 400,
+            "options": [
+              "poutine",
+              "tourtière",
+              "pemmican",
+              "beavertail"
+            ],
+            "correctIndex": 0,
+            "answer": "poutine"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_05",
+            "category": "Retter og hjemsteder",
+            "question": "Hvilken Louisiana-ret er en tyk suppe eller gryde, som ofte jævnes med roux eller okra?",
+            "points": 500,
+            "options": [
+              "gumbo",
+              "jambalaya",
+              "étouffée",
+              "bisque"
+            ],
+            "correctIndex": 0,
+            "answer": "gumbo"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_06",
+            "category": "Ingredienser og teknikker",
+            "question": "Hvilken proces holder olie og vand blandet i mayonnaise?",
+            "points": 100,
+            "options": [
+              "emulgering",
+              "gelatinering",
+              "krystallisering",
+              "fermentering"
+            ],
+            "correctIndex": 0,
+            "answer": "emulgering"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_07",
+            "category": "Ingredienser og teknikker",
+            "question": "Hvordan tilsættes fond typisk under klassisk risottotilberedning?",
+            "points": 200,
+            "options": [
+              "lidt ad gangen under omrøring",
+              "alt på én gang efter afkøling",
+              "kun efter at risen er færdig",
+              "ved tørbagning uden væske"
+            ],
+            "correctIndex": 0,
+            "answer": "lidt ad gangen under omrøring"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_08",
+            "category": "Ingredienser og teknikker",
+            "question": "Hvad krydres japansk sushiris typisk med?",
+            "points": 300,
+            "options": [
+              "riseddike, sukker og salt",
+              "sojasauce og sesamolie",
+              "kokosmælk og lime",
+              "miso og chili"
+            ],
+            "correctIndex": 0,
+            "answer": "riseddike, sukker og salt"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_09",
+            "category": "Ingredienser og teknikker",
+            "question": "Hvad er masa harina lavet af?",
+            "points": 400,
+            "options": [
+              "tørret, nixtamaliseret majs",
+              "malet rå ris",
+              "ristet boghvede",
+              "tørret kassava"
+            ],
+            "correctIndex": 0,
+            "answer": "tørret, nixtamaliseret majs"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_10",
+            "category": "Ingredienser og teknikker",
+            "question": "Hvilken mikroorganismekultur bruges ofte til at fremstille miso og sojasauce?",
+            "points": 500,
+            "options": [
+              "koji",
+              "kefirgryn",
+              "bagegær",
+              "eddikemor"
+            ],
+            "correctIndex": 0,
+            "answer": "koji"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_11",
+            "category": "Brød, sødt og drikke",
+            "question": "Hvilket tyndt fladbrød forbindes med Armenien og andre dele af regionen omkring Kaukasus og Vestasien?",
+            "points": 100,
+            "options": [
+              "lavash",
+              "injera",
+              "bagel",
+              "bannock"
+            ],
+            "correctIndex": 0,
+            "answer": "lavash"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_12",
+            "category": "Brød, sødt og drikke",
+            "question": "Hvilket mørkt, tæt rugbrød forbindes med Westfalen i Tyskland?",
+            "points": 200,
+            "options": [
+              "pumpernickel",
+              "brioche",
+              "focaccia",
+              "pita"
+            ],
+            "correctIndex": 0,
+            "answer": "pumpernickel"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_13",
+            "category": "Brød, sødt og drikke",
+            "question": "Hvilket italiensk julebrød er højt og sødt med kandiseret frugt?",
+            "points": 300,
+            "options": [
+              "panettone",
+              "pandoro",
+              "colomba",
+              "ciabatta"
+            ],
+            "correctIndex": 0,
+            "answer": "panettone"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_14",
+            "category": "Brød, sødt og drikke",
+            "question": "Hvilken italiensk dessert laves typisk af mascarpone, kaffe og ladyfingers?",
+            "points": 400,
+            "options": [
+              "tiramisu",
+              "panna cotta",
+              "cannoli",
+              "zabaglione"
+            ],
+            "correctIndex": 0,
+            "answer": "tiramisu"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_15",
+            "category": "Brød, sødt og drikke",
+            "question": "Hvilke friturestegte dejstænger serveres ofte med sukker og chokolade i Spanien og Latinamerika?",
+            "points": 500,
+            "options": [
+              "churros",
+              "beignets",
+              "donuts",
+              "zeppole"
+            ],
+            "correctIndex": 0,
+            "answer": "churros"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_16",
+            "category": "Måltider og madkultur",
+            "question": "Hvilken japansk madtradition blev optaget på UNESCOs liste som “Washoku”?",
+            "points": 100,
+            "options": [
+              "traditionel japansk madkultur",
+              "japansk fastfood",
+              "sushikonkurrencer",
+              "teknisk knivslibning"
+            ],
+            "correctIndex": 0,
+            "answer": "traditionel japansk madkultur"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_17",
+            "category": "Måltider og madkultur",
+            "question": "Hvilken fælles spise- og livsstilstradition omkring Middelhavet er optaget på UNESCOs kulturarvsliste?",
+            "points": 200,
+            "options": [
+              "Middelhavskosten",
+              "Atkins-kuren",
+              "paleokost",
+              "New Nordic Cuisine"
+            ],
+            "correctIndex": 0,
+            "answer": "Middelhavskosten"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_18",
+            "category": "Måltider og madkultur",
+            "question": "Hvilket fransk måltidsritual med faste serveringsled er optaget på UNESCOs kulturarvsliste?",
+            "points": 300,
+            "options": [
+              "det gastronomiske måltid hos franskmændene",
+              "den daglige baguette",
+              "café au lait ved morgenmad",
+              "markedslunch i Provence"
+            ],
+            "correctIndex": 0,
+            "answer": "det gastronomiske måltid hos franskmændene"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_19",
+            "category": "Måltider og madkultur",
+            "question": "Hvilket lands traditionelle køkken blev i 2010 optaget på UNESCOs liste med fokus på majs, bønner og chili?",
+            "points": 400,
+            "options": [
+              "Mexico",
+              "Canada",
+              "Argentina",
+              "Cuba"
+            ],
+            "correctIndex": 0,
+            "answer": "Mexico"
+          },
+          {
+            "id": "kp_mad-fra-hele-verden_20",
+            "category": "Måltider og madkultur",
+            "question": "Hvilket napolitansk håndværk omkring pizzabagning er optaget på UNESCOs kulturarvsliste?",
+            "points": 500,
+            "options": [
+              "pizzaiuolo-kunsten",
+              "produktion af tørpasta",
+              "isfremstilling",
+              "trøffeljagt"
+            ],
+            "correctIndex": 0,
+            "answer": "pizzaiuolo-kunsten"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "mad_fra_hele_verden_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_mad-fra-hele-verden"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_mad-fra-hele-verden",
+    "courseTitle": "20 spørgsmål fra professoren · Mad fra hele verden",
+    "courseSessionIds": [
+      "session_professor_mad-fra-hele-verden"
+    ]
+  },
+  "warnings": []
+}

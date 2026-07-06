@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_film-fra-1980erne",
+    "title": "20 spørgsmål fra professoren · Film fra 1980’erne",
+    "subject": "Film og kultur",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_film-fra-1980erne"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_film-fra-1980erne",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Film fra 1980’erne",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_film-fra-1980erne_1",
+      "boardIds": [
+        "board_session_professor_film-fra-1980erne_1",
+        "board_session_professor_film-fra-1980erne_2",
+        "board_session_professor_film-fra-1980erne_3",
+        "board_session_professor_film-fra-1980erne_4",
+        "board_session_professor_film-fra-1980erne_5",
+        "board_session_professor_film-fra-1980erne_6",
+        "board_session_professor_film-fra-1980erne_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_film-fra-1980erne",
+        "courseTitle": "20 spørgsmål fra professoren · Film fra 1980’erne",
+        "courseSubject": "Film og kultur",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_film-fra-1980erne"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/film_fra_1980erne_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_film-fra-1980erne_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "Overblik · Film fra 1980’erne",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_overview_intro",
+        "widget_session_professor_film-fra-1980erne_overview_route",
+        "widget_session_professor_film-fra-1980erne_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "film_fra_1980erne_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_film-fra-1980erne_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "1. Instruktører og film",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_cat1_facts",
+        "widget_session_professor_film-fra-1980erne_cat1_activity",
+        "widget_session_professor_film-fra-1980erne_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Instruktører og film",
+        "sourceCsv": "film_fra_1980erne_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_film-fra-1980erne_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "2. Roller og skuespillere",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_cat2_facts",
+        "widget_session_professor_film-fra-1980erne_cat2_activity",
+        "widget_session_professor_film-fra-1980erne_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Roller og skuespillere",
+        "sourceCsv": "film_fra_1980erne_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_film-fra-1980erne_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "3. Oscarvindere",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_cat3_facts",
+        "widget_session_professor_film-fra-1980erne_cat3_activity",
+        "widget_session_professor_film-fra-1980erne_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Oscarvindere",
+        "sourceCsv": "film_fra_1980erne_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_film-fra-1980erne_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "4. Musik, teknik og filmhistorie",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_cat4_facts",
+        "widget_session_professor_film-fra-1980erne_cat4_activity",
+        "widget_session_professor_film-fra-1980erne_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Musik, teknik og filmhistorie",
+        "sourceCsv": "film_fra_1980erne_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_film-fra-1980erne_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_rehearsal_header",
+        "widget_session_professor_film-fra-1980erne_rehearsal_1",
+        "widget_session_professor_film-fra-1980erne_rehearsal_2",
+        "widget_session_professor_film-fra-1980erne_rehearsal_3",
+        "widget_session_professor_film-fra-1980erne_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "film_fra_1980erne_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_film-fra-1980erne_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_film-fra-1980erne",
+      "title": "🎯 KaPardy · Film fra 1980’erne",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_film-fra-1980erne_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "film_fra_1980erne_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_film-fra-1980erne_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nFILM FRA 1980’ERNE\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_film-fra-1980erne_1",
+          "board_session_professor_film-fra-1980erne_2",
+          "board_session_professor_film-fra-1980erne_3",
+          "board_session_professor_film-fra-1980erne_4",
+          "board_session_professor_film-fra-1980erne_5",
+          "board_session_professor_film-fra-1980erne_6",
+          "board_session_professor_film-fra-1980erne_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_2",
+      "type": "text",
+      "title": "Kernestof · Instruktører og film",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · INSTRUKTØRER OG FILM\n\n1. Hvem instruerede “The Elephant Man” fra 1980?\n   FACIT: David Lynch\n\n2. Hvem instruerede “The Last Emperor” fra 1987?\n   FACIT: Bernardo Bertolucci\n\n3. Hvem instruerede “Cinema Paradiso” fra 1988?\n   FACIT: Giuseppe Tornatore\n\n4. Hvem instruerede animationsfilmen “My Neighbor Totoro” fra 1988?\n   FACIT: Hayao Miyazaki\n\n5. Hvem instruerede “Ran” fra 1985?\n   FACIT: Akira Kurosawa\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav en instruktørfestival: fem grupper får hver en film og skal præsentere instruktør, år og én huskedetalje uden at afsløre de andre kort.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvem instruerede “The Elephant Man” fra 1980?\n• Hvem instruerede “The Last Emperor” fra 1987?\n• Hvem instruerede “Cinema Paradiso” fra 1988?\n• Hvem instruerede animationsfilmen “My Neighbor Totoro” fra 1988?\n• Hvem instruerede “Ran” fra 1985?\n\nHUSKESYSTEM\nLynch–The Elephant Man; Bertolucci–The Last Emperor; Tornatore–Cinema Paradiso; Miyazaki–Totoro; Kurosawa–Ran.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_3",
+      "type": "text",
+      "title": "Kernestof · Roller og skuespillere",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · ROLLER OG SKUESPILLERE\n\n1. Hvem spiller Jack Torrance i “The Shining”?\n   FACIT: Jack Nicholson\n\n2. Hvem spiller bokseren Jake LaMotta i “Raging Bull”?\n   FACIT: Robert De Niro\n\n3. Hvem spiller Henry Jones Sr. i “Indiana Jones and the Last Crusade”?\n   FACIT: Sean Connery\n\n4. Hvem spiller den titelbærende cyborg i “The Terminator”?\n   FACIT: Arnold Schwarzenegger\n\n5. Hvem spiller spøgelsesjægeren Peter Venkman i “Ghostbusters”?\n   FACIT: Bill Murray\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nSpil rolle-charader uden citater: brug kropssprog eller tre stikord til Jack Torrance, Jake LaMotta, Henry Jones Sr., Terminator og Peter Venkman.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvem spiller Jack Torrance i “The Shining”?\n• Hvem spiller bokseren Jake LaMotta i “Raging Bull”?\n• Hvem spiller Henry Jones Sr. i “Indiana Jones and the Last Crusade”?\n• Hvem spiller den titelbærende cyborg i “The Terminator”?\n• Hvem spiller spøgelsesjægeren Peter Venkman i “Ghostbusters”?\n\nHUSKESYSTEM\nNicholson–Jack Torrance; De Niro–Jake LaMotta; Connery–Henry Jones Sr.; Schwarzenegger–Terminator; Murray–Peter Venkman.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_4",
+      "type": "text",
+      "title": "Kernestof · Oscarvindere",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · OSCARVINDERE\n\n1. Hvilken film fra 1987 vandt Oscar for bedste film?\n   FACIT: The Last Emperor\n\n2. Hvilken film fra 1988 vandt Oscar for bedste film?\n   FACIT: Rain Man\n\n3. Hvilken film fra 1989 vandt Oscar for bedste film?\n   FACIT: Driving Miss Daisy\n\n4. Hvem vandt Oscar for bedste mandlige hovedrolle for “Raging Bull”?\n   FACIT: Robert De Niro\n\n5. Hvem vandt Oscar for bedste mandlige hovedrolle for “On Golden Pond”?\n   FACIT: Henry Fonda\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nByg en pris-tidslinje og skeln mellem filmens udgivelsesår, prisens kategori og personen eller filmen, der vandt.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken film fra 1987 vandt Oscar for bedste film?\n• Hvilken film fra 1988 vandt Oscar for bedste film?\n• Hvilken film fra 1989 vandt Oscar for bedste film?\n• Hvem vandt Oscar for bedste mandlige hovedrolle for “Raging Bull”?\n• Hvem vandt Oscar for bedste mandlige hovedrolle for “On Golden Pond”?\n\nHUSKESYSTEM\nThe Last Emperor, Rain Man og Driving Miss Daisy; De Niro for Raging Bull; Henry Fonda for On Golden Pond.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_5",
+      "type": "text",
+      "title": "Kernestof · Musik, teknik og filmhistorie",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · MUSIK, TEKNIK OG FILMHISTORIE\n\n1. Hvilken gruppe indspillede “Take My Breath Away” til “Top Gun”?\n   FACIT: Berlin\n\n2. Hvem synger “(I’ve Had) The Time of My Life” i “Dirty Dancing”?\n   FACIT: Bill Medley og Jennifer Warnes\n\n3. Hvilken kunstner skrev og fremførte titelmusikken til “Purple Rain”?\n   FACIT: Prince\n\n4. Hvilken musiker spiller Jareth og bidrager med sange til “Labyrinth”?\n   FACIT: David Bowie\n\n5. Hvem komponerede musikken til “Cinema Paradiso”?\n   FACIT: Ennio Morricone\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav et lydløst soundtrack-match: film på den ene side og kunstner/komponist på den anden. Forklar, om der er tale om sang, titelmusik, rolle med sange eller original score.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken gruppe indspillede “Take My Breath Away” til “Top Gun”?\n• Hvem synger “(I’ve Had) The Time of My Life” i “Dirty Dancing”?\n• Hvilken kunstner skrev og fremførte titelmusikken til “Purple Rain”?\n• Hvilken musiker spiller Jareth og bidrager med sange til “Labyrinth”?\n• Hvem komponerede musikken til “Cinema Paradiso”?\n\nHUSKESYSTEM\nBerlin–Top Gun; Medley/Warnes–Dirty Dancing; Prince–Purple Rain; Bowie–Labyrinth; Morricone–Cinema Paradiso.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_6",
+      "type": "text",
+      "title": "Instruktører og film",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "INSTRUKTØRER OG FILM\n\n1. Hvem instruerede “The Elephant Man” fra 1980?\n2. Hvem instruerede “The Last Emperor” fra 1987?\n3. Hvem instruerede “Cinema Paradiso” fra 1988?\n4. Hvem instruerede animationsfilmen “My Neighbor Totoro” fra 1988?\n5. Hvem instruerede “Ran” fra 1985?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_6",
+      "type": "text",
+      "title": "Roller og skuespillere",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "ROLLER OG SKUESPILLERE\n\n1. Hvem spiller Jack Torrance i “The Shining”?\n2. Hvem spiller bokseren Jake LaMotta i “Raging Bull”?\n3. Hvem spiller Henry Jones Sr. i “Indiana Jones and the Last Crusade”?\n4. Hvem spiller den titelbærende cyborg i “The Terminator”?\n5. Hvem spiller spøgelsesjægeren Peter Venkman i “Ghostbusters”?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_6",
+      "type": "text",
+      "title": "Oscarvindere",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "OSCARVINDERE\n\n1. Hvilken film fra 1987 vandt Oscar for bedste film?\n2. Hvilken film fra 1988 vandt Oscar for bedste film?\n3. Hvilken film fra 1989 vandt Oscar for bedste film?\n4. Hvem vandt Oscar for bedste mandlige hovedrolle for “Raging Bull”?\n5. Hvem vandt Oscar for bedste mandlige hovedrolle for “On Golden Pond”?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_6",
+      "type": "text",
+      "title": "Musik, teknik og filmhistorie",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "MUSIK, TEKNIK OG FILMHISTORIE\n\n1. Hvilken gruppe indspillede “Take My Breath Away” til “Top Gun”?\n2. Hvem synger “(I’ve Had) The Time of My Life” i “Dirty Dancing”?\n3. Hvilken kunstner skrev og fremførte titelmusikken til “Purple Rain”?\n4. Hvilken musiker spiller Jareth og bidrager med sange til “Labyrinth”?\n5. Hvem komponerede musikken til “Cinema Paradiso”?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_film-fra-1980erne_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_film-fra-1980erne_7",
+      "type": "kapardy",
+      "title": "KaPardy · Film fra 1980’erne",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_film-fra-1980erne_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_film-fra-1980erne_01",
+            "category": "Instruktører og film",
+            "question": "Hvem instruerede “The Elephant Man” fra 1980?",
+            "points": 100,
+            "options": [
+              "David Lynch",
+              "David Cronenberg",
+              "Terry Gilliam",
+              "Alan Parker"
+            ],
+            "correctIndex": 0,
+            "answer": "David Lynch"
+          },
+          {
+            "id": "kp_film-fra-1980erne_02",
+            "category": "Instruktører og film",
+            "question": "Hvem instruerede “The Last Emperor” fra 1987?",
+            "points": 200,
+            "options": [
+              "Bernardo Bertolucci",
+              "Federico Fellini",
+              "Franco Zeffirelli",
+              "Sergio Leone"
+            ],
+            "correctIndex": 0,
+            "answer": "Bernardo Bertolucci"
+          },
+          {
+            "id": "kp_film-fra-1980erne_03",
+            "category": "Instruktører og film",
+            "question": "Hvem instruerede “Cinema Paradiso” fra 1988?",
+            "points": 300,
+            "options": [
+              "Giuseppe Tornatore",
+              "Roberto Benigni",
+              "Nanni Moretti",
+              "Ettore Scola"
+            ],
+            "correctIndex": 0,
+            "answer": "Giuseppe Tornatore"
+          },
+          {
+            "id": "kp_film-fra-1980erne_04",
+            "category": "Instruktører og film",
+            "question": "Hvem instruerede animationsfilmen “My Neighbor Totoro” fra 1988?",
+            "points": 400,
+            "options": [
+              "Hayao Miyazaki",
+              "Isao Takahata",
+              "Katsuhiro Otomo",
+              "Satoshi Kon"
+            ],
+            "correctIndex": 0,
+            "answer": "Hayao Miyazaki"
+          },
+          {
+            "id": "kp_film-fra-1980erne_05",
+            "category": "Instruktører og film",
+            "question": "Hvem instruerede “Ran” fra 1985?",
+            "points": 500,
+            "options": [
+              "Akira Kurosawa",
+              "Nagisa Oshima",
+              "Shohei Imamura",
+              "Masaki Kobayashi"
+            ],
+            "correctIndex": 0,
+            "answer": "Akira Kurosawa"
+          },
+          {
+            "id": "kp_film-fra-1980erne_06",
+            "category": "Roller og skuespillere",
+            "question": "Hvem spiller Jack Torrance i “The Shining”?",
+            "points": 100,
+            "options": [
+              "Jack Nicholson",
+              "Robert De Niro",
+              "Gene Hackman",
+              "Harvey Keitel"
+            ],
+            "correctIndex": 0,
+            "answer": "Jack Nicholson"
+          },
+          {
+            "id": "kp_film-fra-1980erne_07",
+            "category": "Roller og skuespillere",
+            "question": "Hvem spiller bokseren Jake LaMotta i “Raging Bull”?",
+            "points": 200,
+            "options": [
+              "Robert De Niro",
+              "Sylvester Stallone",
+              "Nick Nolte",
+              "Al Pacino"
+            ],
+            "correctIndex": 0,
+            "answer": "Robert De Niro"
+          },
+          {
+            "id": "kp_film-fra-1980erne_08",
+            "category": "Roller og skuespillere",
+            "question": "Hvem spiller Henry Jones Sr. i “Indiana Jones and the Last Crusade”?",
+            "points": 300,
+            "options": [
+              "Sean Connery",
+              "Michael Caine",
+              "Max von Sydow",
+              "Christopher Plummer"
+            ],
+            "correctIndex": 0,
+            "answer": "Sean Connery"
+          },
+          {
+            "id": "kp_film-fra-1980erne_09",
+            "category": "Roller og skuespillere",
+            "question": "Hvem spiller den titelbærende cyborg i “The Terminator”?",
+            "points": 400,
+            "options": [
+              "Arnold Schwarzenegger",
+              "Dolph Lundgren",
+              "Sylvester Stallone",
+              "Rutger Hauer"
+            ],
+            "correctIndex": 0,
+            "answer": "Arnold Schwarzenegger"
+          },
+          {
+            "id": "kp_film-fra-1980erne_10",
+            "category": "Roller og skuespillere",
+            "question": "Hvem spiller spøgelsesjægeren Peter Venkman i “Ghostbusters”?",
+            "points": 500,
+            "options": [
+              "Bill Murray",
+              "Dan Aykroyd",
+              "Harold Ramis",
+              "Chevy Chase"
+            ],
+            "correctIndex": 0,
+            "answer": "Bill Murray"
+          },
+          {
+            "id": "kp_film-fra-1980erne_11",
+            "category": "Oscarvindere",
+            "question": "Hvilken film fra 1987 vandt Oscar for bedste film?",
+            "points": 100,
+            "options": [
+              "The Last Emperor",
+              "Broadcast News",
+              "Fatal Attraction",
+              "Moonstruck"
+            ],
+            "correctIndex": 0,
+            "answer": "The Last Emperor"
+          },
+          {
+            "id": "kp_film-fra-1980erne_12",
+            "category": "Oscarvindere",
+            "question": "Hvilken film fra 1988 vandt Oscar for bedste film?",
+            "points": 200,
+            "options": [
+              "Rain Man",
+              "Dangerous Liaisons",
+              "Mississippi Burning",
+              "Working Girl"
+            ],
+            "correctIndex": 0,
+            "answer": "Rain Man"
+          },
+          {
+            "id": "kp_film-fra-1980erne_13",
+            "category": "Oscarvindere",
+            "question": "Hvilken film fra 1989 vandt Oscar for bedste film?",
+            "points": 300,
+            "options": [
+              "Driving Miss Daisy",
+              "Born on the Fourth of July",
+              "Dead Poets Society",
+              "My Left Foot"
+            ],
+            "correctIndex": 0,
+            "answer": "Driving Miss Daisy"
+          },
+          {
+            "id": "kp_film-fra-1980erne_14",
+            "category": "Oscarvindere",
+            "question": "Hvem vandt Oscar for bedste mandlige hovedrolle for “Raging Bull”?",
+            "points": 400,
+            "options": [
+              "Robert De Niro",
+              "John Hurt",
+              "Jack Lemmon",
+              "Peter O’Toole"
+            ],
+            "correctIndex": 0,
+            "answer": "Robert De Niro"
+          },
+          {
+            "id": "kp_film-fra-1980erne_15",
+            "category": "Oscarvindere",
+            "question": "Hvem vandt Oscar for bedste mandlige hovedrolle for “On Golden Pond”?",
+            "points": 500,
+            "options": [
+              "Henry Fonda",
+              "Burt Lancaster",
+              "Dudley Moore",
+              "Paul Newman"
+            ],
+            "correctIndex": 0,
+            "answer": "Henry Fonda"
+          },
+          {
+            "id": "kp_film-fra-1980erne_16",
+            "category": "Musik, teknik og filmhistorie",
+            "question": "Hvilken gruppe indspillede “Take My Breath Away” til “Top Gun”?",
+            "points": 100,
+            "options": [
+              "Berlin",
+              "Heart",
+              "Blondie",
+              "The Bangles"
+            ],
+            "correctIndex": 0,
+            "answer": "Berlin"
+          },
+          {
+            "id": "kp_film-fra-1980erne_17",
+            "category": "Musik, teknik og filmhistorie",
+            "question": "Hvem synger “(I’ve Had) The Time of My Life” i “Dirty Dancing”?",
+            "points": 200,
+            "options": [
+              "Bill Medley og Jennifer Warnes",
+              "Kenny Rogers og Dolly Parton",
+              "Peter Cetera og Amy Grant",
+              "Lionel Richie og Diana Ross"
+            ],
+            "correctIndex": 0,
+            "answer": "Bill Medley og Jennifer Warnes"
+          },
+          {
+            "id": "kp_film-fra-1980erne_18",
+            "category": "Musik, teknik og filmhistorie",
+            "question": "Hvilken kunstner skrev og fremførte titelmusikken til “Purple Rain”?",
+            "points": 300,
+            "options": [
+              "Prince",
+              "Michael Jackson",
+              "David Bowie",
+              "Stevie Wonder"
+            ],
+            "correctIndex": 0,
+            "answer": "Prince"
+          },
+          {
+            "id": "kp_film-fra-1980erne_19",
+            "category": "Musik, teknik og filmhistorie",
+            "question": "Hvilken musiker spiller Jareth og bidrager med sange til “Labyrinth”?",
+            "points": 400,
+            "options": [
+              "David Bowie",
+              "Sting",
+              "Peter Gabriel",
+              "Freddie Mercury"
+            ],
+            "correctIndex": 0,
+            "answer": "David Bowie"
+          },
+          {
+            "id": "kp_film-fra-1980erne_20",
+            "category": "Musik, teknik og filmhistorie",
+            "question": "Hvem komponerede musikken til “Cinema Paradiso”?",
+            "points": 500,
+            "options": [
+              "Ennio Morricone",
+              "Nino Rota",
+              "Nicola Piovani",
+              "Luis Bacalov"
+            ],
+            "correctIndex": 0,
+            "answer": "Ennio Morricone"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "film_fra_1980erne_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_film-fra-1980erne"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_film-fra-1980erne",
+    "courseTitle": "20 spørgsmål fra professoren · Film fra 1980’erne",
+    "courseSessionIds": [
+      "session_professor_film-fra-1980erne"
+    ]
+  },
+  "warnings": []
+}

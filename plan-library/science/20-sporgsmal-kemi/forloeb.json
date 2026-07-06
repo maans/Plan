@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_kemiens-grundstoffer",
+    "title": "20 spørgsmål fra professoren · Kemiens grundstoffer",
+    "subject": "Science / fysik-kemi",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_kemiens-grundstoffer"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_kemiens-grundstoffer",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Kemiens grundstoffer",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_kemiens-grundstoffer_1",
+      "boardIds": [
+        "board_session_professor_kemiens-grundstoffer_1",
+        "board_session_professor_kemiens-grundstoffer_2",
+        "board_session_professor_kemiens-grundstoffer_3",
+        "board_session_professor_kemiens-grundstoffer_4",
+        "board_session_professor_kemiens-grundstoffer_5",
+        "board_session_professor_kemiens-grundstoffer_6",
+        "board_session_professor_kemiens-grundstoffer_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_kemiens-grundstoffer",
+        "courseTitle": "20 spørgsmål fra professoren · Kemiens grundstoffer",
+        "courseSubject": "Science / fysik-kemi",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_kemiens-grundstoffer"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/kemi_elementer_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "Overblik · Kemiens grundstoffer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_overview_intro",
+        "widget_session_professor_kemiens-grundstoffer_overview_route",
+        "widget_session_professor_kemiens-grundstoffer_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "kemi_elementer_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "1. Symboler og navne",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_cat1_facts",
+        "widget_session_professor_kemiens-grundstoffer_cat1_activity",
+        "widget_session_professor_kemiens-grundstoffer_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Symboler og navne",
+        "sourceCsv": "kemi_elementer_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "2. Atomnumre og system",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_cat2_facts",
+        "widget_session_professor_kemiens-grundstoffer_cat2_activity",
+        "widget_session_professor_kemiens-grundstoffer_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Atomnumre og system",
+        "sourceCsv": "kemi_elementer_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "3. Grupper og egenskaber",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_cat3_facts",
+        "widget_session_professor_kemiens-grundstoffer_cat3_activity",
+        "widget_session_professor_kemiens-grundstoffer_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Grupper og egenskaber",
+        "sourceCsv": "kemi_elementer_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "4. Stoffer og anvendelser",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_cat4_facts",
+        "widget_session_professor_kemiens-grundstoffer_cat4_activity",
+        "widget_session_professor_kemiens-grundstoffer_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Stoffer og anvendelser",
+        "sourceCsv": "kemi_elementer_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_rehearsal_header",
+        "widget_session_professor_kemiens-grundstoffer_rehearsal_1",
+        "widget_session_professor_kemiens-grundstoffer_rehearsal_2",
+        "widget_session_professor_kemiens-grundstoffer_rehearsal_3",
+        "widget_session_professor_kemiens-grundstoffer_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "kemi_elementer_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_kemiens-grundstoffer_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_kemiens-grundstoffer",
+      "title": "🎯 KaPardy · Kemiens grundstoffer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_kemiens-grundstoffer_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "kemi_elementer_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nKEMIENS GRUNDSTOFFER\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_kemiens-grundstoffer_1",
+          "board_session_professor_kemiens-grundstoffer_2",
+          "board_session_professor_kemiens-grundstoffer_3",
+          "board_session_professor_kemiens-grundstoffer_4",
+          "board_session_professor_kemiens-grundstoffer_5",
+          "board_session_professor_kemiens-grundstoffer_6",
+          "board_session_professor_kemiens-grundstoffer_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_2",
+      "type": "text",
+      "title": "Kernestof · Symboler og navne",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · SYMBOLER OG NAVNE\n\n1. Hvilket grundstof har symbolet Ne?\n   FACIT: Neon\n\n2. Hvad er det kemiske symbol for natrium?\n   FACIT: Na\n\n3. Hvilket grundstof har symbolet Mg?\n   FACIT: Magnesium\n\n4. Hvad er det kemiske symbol for aluminium?\n   FACIT: Al\n\n5. Hvilket grundstof har symbolet Si?\n   FACIT: Silicium\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nBrug et periodesystem som opslag – derefter lukkes det. Skriv fem kort med symbol på den ene side og dansk navn på den anden, og træn begge retninger.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket grundstof har symbolet Ne?\n• Hvad er det kemiske symbol for natrium?\n• Hvilket grundstof har symbolet Mg?\n• Hvad er det kemiske symbol for aluminium?\n• Hvilket grundstof har symbolet Si?\n\nHUSKESYSTEM\nNe–neon, Na–natrium, Mg–magnesium, Al–aluminium og Si–silicium. Vær opmærksom på store og små bogstaver.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_3",
+      "type": "text",
+      "title": "Kernestof · Atomnumre og system",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · ATOMNUMRE OG SYSTEM\n\n1. Hvad er atomnummeret for silicium?\n   FACIT: 14\n\n2. Hvad er atomnummeret for fosfor?\n   FACIT: 15\n\n3. Hvad er atomnummeret for svovl?\n   FACIT: 16\n\n4. Hvad er atomnummeret for klor?\n   FACIT: 17\n\n5. Hvad er atomnummeret for argon?\n   FACIT: 18\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nFind rækken 14–18 i periodesystemet. Forklar, hvad atomnummeret tæller, og lav en huskeremse for silicium, fosfor, svovl, klor og argon.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er atomnummeret for silicium?\n• Hvad er atomnummeret for fosfor?\n• Hvad er atomnummeret for svovl?\n• Hvad er atomnummeret for klor?\n• Hvad er atomnummeret for argon?\n\nHUSKESYSTEM\nSi 14, P 15, S 16, Cl 17, Ar 18 – fem naboer i tredje periode.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_4",
+      "type": "text",
+      "title": "Kernestof · Grupper og egenskaber",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · GRUPPER OG EGENSKABER\n\n1. Hvilket af disse grundstoffer er et jordalkalimetal?\n   FACIT: Magnesium\n\n2. Hvilket metal er flydende ved almindelig stuetemperatur?\n   FACIT: Kviksølv\n\n3. Hvilket ikke-metal er flydende ved almindelig stuetemperatur?\n   FACIT: Brom\n\n4. Hvilket grundstof udgør den største del af Jordens atmosfære?\n   FACIT: Kvælstof\n\n5. Hvilket grundstof er det mest udbredte i universet?\n   FACIT: Hydrogen\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nSortér eksemplerne efter metal/ikke-metal, fast/flydende/gas og forekomst. Forklar, hvorfor “mest i atmosfæren” og “mest i universet” ikke er samme spørgsmål.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket af disse grundstoffer er et jordalkalimetal?\n• Hvilket metal er flydende ved almindelig stuetemperatur?\n• Hvilket ikke-metal er flydende ved almindelig stuetemperatur?\n• Hvilket grundstof udgør den største del af Jordens atmosfære?\n• Hvilket grundstof er det mest udbredte i universet?\n\nHUSKESYSTEM\nMagnesium er jordalkalimetal; kviksølv og brom er flydende; kvælstof dominerer atmosfæren; hydrogen dominerer universet.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_5",
+      "type": "text",
+      "title": "Kernestof · Stoffer og anvendelser",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · STOFFER OG ANVENDELSER\n\n1. Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n   FACIT: Kulstof\n\n2. Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n   FACIT: Kobber\n\n3. Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n   FACIT: Fluor\n\n4. Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n   FACIT: Jern\n\n5. Hvilket grundstof findes centralt i klorofylmolekylet?\n   FACIT: Magnesium\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nFind fem hverdagsgenstande eller biologiske sammenhænge, der repræsenterer kulstof, kobber, fluor, jern og magnesium. Forklar anvendelsen med én sætning.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nHUSKESYSTEM\nGrafit–kulstof, ledninger–kobber, cariesforebyggelse–fluorid, hæm–jern, klorofyl–magnesium.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_6",
+      "type": "text",
+      "title": "Symboler og navne",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "SYMBOLER OG NAVNE\n\n1. Hvilket grundstof har symbolet Ne?\n2. Hvad er det kemiske symbol for natrium?\n3. Hvilket grundstof har symbolet Mg?\n4. Hvad er det kemiske symbol for aluminium?\n5. Hvilket grundstof har symbolet Si?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_6",
+      "type": "text",
+      "title": "Atomnumre og system",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "ATOMNUMRE OG SYSTEM\n\n1. Hvad er atomnummeret for silicium?\n2. Hvad er atomnummeret for fosfor?\n3. Hvad er atomnummeret for svovl?\n4. Hvad er atomnummeret for klor?\n5. Hvad er atomnummeret for argon?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_6",
+      "type": "text",
+      "title": "Grupper og egenskaber",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "GRUPPER OG EGENSKABER\n\n1. Hvilket af disse grundstoffer er et jordalkalimetal?\n2. Hvilket metal er flydende ved almindelig stuetemperatur?\n3. Hvilket ikke-metal er flydende ved almindelig stuetemperatur?\n4. Hvilket grundstof udgør den største del af Jordens atmosfære?\n5. Hvilket grundstof er det mest udbredte i universet?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_6",
+      "type": "text",
+      "title": "Stoffer og anvendelser",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "STOFFER OG ANVENDELSER\n\n1. Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n2. Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n3. Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n4. Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n5. Hvilket grundstof findes centralt i klorofylmolekylet?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_kemiens-grundstoffer_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_kemiens-grundstoffer_7",
+      "type": "kapardy",
+      "title": "KaPardy · Kemiens grundstoffer",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_kemiens-grundstoffer_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_kemiens-grundstoffer_01",
+            "category": "Symboler og navne",
+            "question": "Hvilket grundstof har symbolet Ne?",
+            "points": 100,
+            "options": [
+              "Neon",
+              "Natrium",
+              "Klor",
+              "Mangan"
+            ],
+            "correctIndex": 0,
+            "answer": "Neon"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_02",
+            "category": "Symboler og navne",
+            "question": "Hvad er det kemiske symbol for natrium?",
+            "points": 200,
+            "options": [
+              "Na",
+              "Al",
+              "Ca",
+              "Zn"
+            ],
+            "correctIndex": 0,
+            "answer": "Na"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_03",
+            "category": "Symboler og navne",
+            "question": "Hvilket grundstof har symbolet Mg?",
+            "points": 300,
+            "options": [
+              "Magnesium",
+              "Aluminium",
+              "Kalium",
+              "Kobolt"
+            ],
+            "correctIndex": 0,
+            "answer": "Magnesium"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_04",
+            "category": "Symboler og navne",
+            "question": "Hvad er det kemiske symbol for aluminium?",
+            "points": 400,
+            "options": [
+              "Al",
+              "P",
+              "Cr",
+              "Ge"
+            ],
+            "correctIndex": 0,
+            "answer": "Al"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_05",
+            "category": "Symboler og navne",
+            "question": "Hvilket grundstof har symbolet Si?",
+            "points": 500,
+            "options": [
+              "Silicium",
+              "Fosfor",
+              "Titan",
+              "Kobber"
+            ],
+            "correctIndex": 0,
+            "answer": "Silicium"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_06",
+            "category": "Atomnumre og system",
+            "question": "Hvad er atomnummeret for silicium?",
+            "points": 100,
+            "options": [
+              "14",
+              "15",
+              "13",
+              "16"
+            ],
+            "correctIndex": 0,
+            "answer": "14"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_07",
+            "category": "Atomnumre og system",
+            "question": "Hvad er atomnummeret for fosfor?",
+            "points": 200,
+            "options": [
+              "15",
+              "16",
+              "14",
+              "17"
+            ],
+            "correctIndex": 0,
+            "answer": "15"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_08",
+            "category": "Atomnumre og system",
+            "question": "Hvad er atomnummeret for svovl?",
+            "points": 300,
+            "options": [
+              "16",
+              "17",
+              "15",
+              "18"
+            ],
+            "correctIndex": 0,
+            "answer": "16"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_09",
+            "category": "Atomnumre og system",
+            "question": "Hvad er atomnummeret for klor?",
+            "points": 400,
+            "options": [
+              "17",
+              "18",
+              "16",
+              "19"
+            ],
+            "correctIndex": 0,
+            "answer": "17"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_10",
+            "category": "Atomnumre og system",
+            "question": "Hvad er atomnummeret for argon?",
+            "points": 500,
+            "options": [
+              "18",
+              "19",
+              "17",
+              "20"
+            ],
+            "correctIndex": 0,
+            "answer": "18"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_11",
+            "category": "Grupper og egenskaber",
+            "question": "Hvilket af disse grundstoffer er et jordalkalimetal?",
+            "points": 100,
+            "options": [
+              "Magnesium",
+              "Natrium",
+              "Klor",
+              "Jern"
+            ],
+            "correctIndex": 0,
+            "answer": "Magnesium"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_12",
+            "category": "Grupper og egenskaber",
+            "question": "Hvilket metal er flydende ved almindelig stuetemperatur?",
+            "points": 200,
+            "options": [
+              "Kviksølv",
+              "Jern",
+              "Guld",
+              "Aluminium"
+            ],
+            "correctIndex": 0,
+            "answer": "Kviksølv"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_13",
+            "category": "Grupper og egenskaber",
+            "question": "Hvilket ikke-metal er flydende ved almindelig stuetemperatur?",
+            "points": 300,
+            "options": [
+              "Brom",
+              "Klor",
+              "Jod",
+              "Svovl"
+            ],
+            "correctIndex": 0,
+            "answer": "Brom"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_14",
+            "category": "Grupper og egenskaber",
+            "question": "Hvilket grundstof udgør den største del af Jordens atmosfære?",
+            "points": 400,
+            "options": [
+              "Kvælstof",
+              "Ilt",
+              "Argon",
+              "Kulstof"
+            ],
+            "correctIndex": 0,
+            "answer": "Kvælstof"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_15",
+            "category": "Grupper og egenskaber",
+            "question": "Hvilket grundstof er det mest udbredte i universet?",
+            "points": 500,
+            "options": [
+              "Hydrogen",
+              "Helium",
+              "Ilt",
+              "Kulstof"
+            ],
+            "correctIndex": 0,
+            "answer": "Hydrogen"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_16",
+            "category": "Stoffer og anvendelser",
+            "question": "Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?",
+            "points": 100,
+            "options": [
+              "Kulstof",
+              "Bly",
+              "Silicium",
+              "Jern"
+            ],
+            "correctIndex": 0,
+            "answer": "Kulstof"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_17",
+            "category": "Stoffer og anvendelser",
+            "question": "Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?",
+            "points": 200,
+            "options": [
+              "Kobber",
+              "Bly",
+              "Titan",
+              "Magnesium"
+            ],
+            "correctIndex": 0,
+            "answer": "Kobber"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_18",
+            "category": "Stoffer og anvendelser",
+            "question": "Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?",
+            "points": 300,
+            "options": [
+              "Fluor",
+              "Klor",
+              "Jod",
+              "Brom"
+            ],
+            "correctIndex": 0,
+            "answer": "Fluor"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_19",
+            "category": "Stoffer og anvendelser",
+            "question": "Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?",
+            "points": 400,
+            "options": [
+              "Jern",
+              "Calcium",
+              "Natrium",
+              "Zink"
+            ],
+            "correctIndex": 0,
+            "answer": "Jern"
+          },
+          {
+            "id": "kp_kemiens-grundstoffer_20",
+            "category": "Stoffer og anvendelser",
+            "question": "Hvilket grundstof findes centralt i klorofylmolekylet?",
+            "points": 500,
+            "options": [
+              "Magnesium",
+              "Jern",
+              "Kobber",
+              "Calcium"
+            ],
+            "correctIndex": 0,
+            "answer": "Magnesium"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "kemi_elementer_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_kemiens-grundstoffer"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_kemiens-grundstoffer",
+    "courseTitle": "20 spørgsmål fra professoren · Kemiens grundstoffer",
+    "courseSessionIds": [
+      "session_professor_kemiens-grundstoffer"
+    ]
+  },
+  "warnings": []
+}

@@ -1,0 +1,163 @@
+{
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "courses": [
+    {
+      "id": "20-sporgsmal-dansk-litteratur",
+      "path": "dansk/20-sporgsmal-dansk-litteratur",
+      "sourceCsv": "dansk_litteratur_20.csv",
+      "categories": [
+        "Forfattere og værker",
+        "Perioder og strømninger",
+        "Figurer, former og genrer",
+        "Priser, sprog og litteraturliv"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-engelsk",
+      "path": "engelsk/20-sporgsmal-engelsk",
+      "sourceCsv": "engelsk_sprog_kultur_20.csv",
+      "categories": [
+        "Ord og vendinger",
+        "Grammatik og udtale",
+        "Litteratur og kultur",
+        "Den engelsktalende verden"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-matematik",
+      "path": "matematik/20-sporgsmal-matematik",
+      "sourceCsv": "matematik_basics_20.csv",
+      "categories": [
+        "Regning",
+        "Brøker og procent",
+        "Geometri og måling",
+        "Tal og algebra"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-kemi",
+      "path": "science/20-sporgsmal-kemi",
+      "sourceCsv": "kemi_elementer_20.csv",
+      "categories": [
+        "Symboler og navne",
+        "Atomnumre og system",
+        "Grupper og egenskaber",
+        "Stoffer og anvendelser"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-tysk",
+      "path": "tysk/20-sporgsmal-tysk",
+      "sourceCsv": "tysk_sprog_kultur_20.csv",
+      "categories": [
+        "Ord og udtryk",
+        "Grammatik og udtale",
+        "Kunst og kultur",
+        "Den tysktalende verden"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-balkanmusik",
+      "path": "andre-9/musik/20-sporgsmal-balkanmusik",
+      "sourceCsv": "balkanmusik_20.csv",
+      "categories": [
+        "Skæve taktarter og danse",
+        "Roma og musik på tværs",
+        "Instrumenter og ensembler",
+        "Stilarter, sange og steder"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-verdenskrigene",
+      "path": "andre-9/historie/20-sporgsmal-verdenskrigene",
+      "sourceCsv": "verdenskrig_historie_20.csv",
+      "categories": [
+        "Første Verdenskrig",
+        "Anden Verdenskrig i Europa",
+        "Global krig og Holocaust",
+        "Danmark, Norden og efterspil"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-efterskoleliv",
+      "path": "andre/skoleliv/20-sporgsmal-efterskoleliv",
+      "sourceCsv": "efterskoleliv_20.csv",
+      "categories": [
+        "Historie og idégrundlag",
+        "Skoleform og rammer",
+        "Hverdag og fællesskab",
+        "Fag, prøver og elevdemokrati"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-mad-fra-hele-verden",
+      "path": "andre/tvaerfagligt/20-sporgsmal-mad-fra-hele-verden",
+      "sourceCsv": "mad_fra_hele_verden_20.csv",
+      "categories": [
+        "Retter og hjemsteder",
+        "Ingredienser og teknikker",
+        "Brød, sødt og drikke",
+        "Måltider og madkultur"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    },
+    {
+      "id": "20-sporgsmal-film-fra-1980erne",
+      "path": "andre/tvaerfagligt/20-sporgsmal-film-fra-1980erne",
+      "sourceCsv": "film_fra_1980erne_20.csv",
+      "categories": [
+        "Instruktører og film",
+        "Roller og skuespillere",
+        "Oscarvindere",
+        "Musik, teknik og filmhistorie"
+      ],
+      "questions": 20,
+      "boards": 7,
+      "widgets": 21,
+      "errors": []
+    }
+  ],
+  "summary": {
+    "courses": 10,
+    "sessions": 10,
+    "boards": 70,
+    "widgets": 210,
+    "questions": 200,
+    "errors": 0
+  }
+}

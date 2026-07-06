@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_verdenskrigenes-historie",
+    "title": "20 spørgsmål fra professoren · Verdenskrigenes historie",
+    "subject": "Historie",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_verdenskrigenes-historie"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_verdenskrigenes-historie",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Verdenskrigenes historie",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_verdenskrigenes-historie_1",
+      "boardIds": [
+        "board_session_professor_verdenskrigenes-historie_1",
+        "board_session_professor_verdenskrigenes-historie_2",
+        "board_session_professor_verdenskrigenes-historie_3",
+        "board_session_professor_verdenskrigenes-historie_4",
+        "board_session_professor_verdenskrigenes-historie_5",
+        "board_session_professor_verdenskrigenes-historie_6",
+        "board_session_professor_verdenskrigenes-historie_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_verdenskrigenes-historie",
+        "courseTitle": "20 spørgsmål fra professoren · Verdenskrigenes historie",
+        "courseSubject": "Historie",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_verdenskrigenes-historie"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/verdenskrig_historie_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "Overblik · Verdenskrigenes historie",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_overview_intro",
+        "widget_session_professor_verdenskrigenes-historie_overview_route",
+        "widget_session_professor_verdenskrigenes-historie_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "verdenskrig_historie_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "1. Første Verdenskrig",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_cat1_facts",
+        "widget_session_professor_verdenskrigenes-historie_cat1_activity",
+        "widget_session_professor_verdenskrigenes-historie_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Første Verdenskrig",
+        "sourceCsv": "verdenskrig_historie_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "2. Anden Verdenskrig i Europa",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_cat2_facts",
+        "widget_session_professor_verdenskrigenes-historie_cat2_activity",
+        "widget_session_professor_verdenskrigenes-historie_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Anden Verdenskrig i Europa",
+        "sourceCsv": "verdenskrig_historie_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "3. Global krig og Holocaust",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_cat3_facts",
+        "widget_session_professor_verdenskrigenes-historie_cat3_activity",
+        "widget_session_professor_verdenskrigenes-historie_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Global krig og Holocaust",
+        "sourceCsv": "verdenskrig_historie_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "4. Danmark, Norden og efterspil",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_cat4_facts",
+        "widget_session_professor_verdenskrigenes-historie_cat4_activity",
+        "widget_session_professor_verdenskrigenes-historie_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Danmark, Norden og efterspil",
+        "sourceCsv": "verdenskrig_historie_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_rehearsal_header",
+        "widget_session_professor_verdenskrigenes-historie_rehearsal_1",
+        "widget_session_professor_verdenskrigenes-historie_rehearsal_2",
+        "widget_session_professor_verdenskrigenes-historie_rehearsal_3",
+        "widget_session_professor_verdenskrigenes-historie_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "verdenskrig_historie_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_verdenskrigenes-historie_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_verdenskrigenes-historie",
+      "title": "🎯 KaPardy · Verdenskrigenes historie",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_verdenskrigenes-historie_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "verdenskrig_historie_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nVERDENSKRIGENES HISTORIE\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_verdenskrigenes-historie_1",
+          "board_session_professor_verdenskrigenes-historie_2",
+          "board_session_professor_verdenskrigenes-historie_3",
+          "board_session_professor_verdenskrigenes-historie_4",
+          "board_session_professor_verdenskrigenes-historie_5",
+          "board_session_professor_verdenskrigenes-historie_6",
+          "board_session_professor_verdenskrigenes-historie_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_2",
+      "type": "text",
+      "title": "Kernestof · Første Verdenskrig",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · FØRSTE VERDENSKRIG\n\n1. Hvad kaldtes de tyske ubåde under Første Verdenskrig?\n   FACIT: U-både\n\n2. Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?\n   FACIT: Lusitania\n\n3. I hvilket år gik USA ind i Første Verdenskrig?\n   FACIT: 1917\n\n4. Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?\n   FACIT: Oktoberrevolutionen\n\n5. Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?\n   FACIT: Brest-Litovsk-freden\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLæg fem begivenhedskort i kronologisk rækkefølge og forbind dem med årsag–følge-pile. Forklar forskellen mellem et våben, et skib, en revolution og en fredsaftale.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad kaldtes de tyske ubåde under Første Verdenskrig?\n• Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?\n• I hvilket år gik USA ind i Første Verdenskrig?\n• Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?\n• Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?\n\nHUSKESYSTEM\nU-både → Lusitania 1915 → USA 1917 → Oktoberrevolutionen 1917 → Brest-Litovsk 1918.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_3",
+      "type": "text",
+      "title": "Kernestof · Anden Verdenskrig i Europa",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · ANDEN VERDENSKRIG I EUROPA\n\n1. Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?\n   FACIT: Operation Barbarossa\n\n2. Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?\n   FACIT: Stalingrad\n\n3. Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?\n   FACIT: Kursk\n\n4. På hvilken dato fandt D-dag-landgangen i Normandiet sted?\n   FACIT: 6. juni 1944\n\n5. Hvad var kodenavnet for den allierede invasion af Normandiet?\n   FACIT: Operation Overlord\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nPlacér Barbarossa, Stalingrad, Kursk og Normandiet på et kort og en tidslinje. Skeln mellem slag, invasion og kodenavn.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?\n• Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?\n• Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?\n• På hvilken dato fandt D-dag-landgangen i Normandiet sted?\n• Hvad var kodenavnet for den allierede invasion af Normandiet?\n\nHUSKESYSTEM\nBarbarossa 1941, Stalingrad 1942–43, Kursk 1943, D-dag 6. juni 1944, Overlord som invasionskodenavn.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_4",
+      "type": "text",
+      "title": "Kernestof · Global krig og Holocaust",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · GLOBAL KRIG OG HOLOCAUST\n\n1. På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?\n   FACIT: USS Missouri\n\n2. Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?\n   FACIT: Manhattanprojektet\n\n3. Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?\n   FACIT: Executive Order 9066\n\n4. Hvor mange jøder blev omtrent myrdet under Holocaust?\n   FACIT: seks millioner\n\n5. I hvilket besat land lå Auschwitz-Birkenau?\n   FACIT: Polen\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nArbejd med præcise begreber og respektfuldt sprog. Adskil kapitulation, våbenudvikling, internering og folkedrab, og forklar hvorfor seks millioner er et omtrentligt historisk estimat.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?\n• Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?\n• Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?\n• Hvor mange jøder blev omtrent myrdet under Holocaust?\n• I hvilket besat land lå Auschwitz-Birkenau?\n\nHUSKESYSTEM\nUSS Missouri, Manhattanprojektet, Executive Order 9066, omtrent seks millioner jøder, Auschwitz-Birkenau i det besatte Polen.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_5",
+      "type": "text",
+      "title": "Kernestof · Danmark, Norden og efterspil",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · DANMARK, NORDEN OG EFTERSPIL\n\n1. Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?\n   FACIT: Holger Danske\n\n2. Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?\n   FACIT: Borgerlige Partisaner\n\n3. Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?\n   FACIT: Hvidstengruppen\n\n4. Hvad var “Flammen” og “Citronen” kendt som?\n   FACIT: modstandsfolk og likvidatorer\n\n5. Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?\n   FACIT: Folkestrejken\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav et modstandskort med Holger Danske, BOPA, Hvidstengruppen, Flammen og Citronen samt Folkestrejken. Skeln mellem gruppe, personer og begivenhed.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?\n• Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?\n• Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?\n• Hvad var “Flammen” og “Citronen” kendt som?\n• Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?\n\nHUSKESYSTEM\nHolger Danske, BOPA, Hvidstengruppen, Flammen og Citronen, Folkestrejken 1944.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_6",
+      "type": "text",
+      "title": "Første Verdenskrig",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FØRSTE VERDENSKRIG\n\n1. Hvad kaldtes de tyske ubåde under Første Verdenskrig?\n2. Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?\n3. I hvilket år gik USA ind i Første Verdenskrig?\n4. Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?\n5. Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_6",
+      "type": "text",
+      "title": "Anden Verdenskrig i Europa",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "ANDEN VERDENSKRIG I EUROPA\n\n1. Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?\n2. Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?\n3. Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?\n4. På hvilken dato fandt D-dag-landgangen i Normandiet sted?\n5. Hvad var kodenavnet for den allierede invasion af Normandiet?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_6",
+      "type": "text",
+      "title": "Global krig og Holocaust",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "GLOBAL KRIG OG HOLOCAUST\n\n1. På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?\n2. Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?\n3. Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?\n4. Hvor mange jøder blev omtrent myrdet under Holocaust?\n5. I hvilket besat land lå Auschwitz-Birkenau?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_6",
+      "type": "text",
+      "title": "Danmark, Norden og efterspil",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "DANMARK, NORDEN OG EFTERSPIL\n\n1. Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?\n2. Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?\n3. Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?\n4. Hvad var “Flammen” og “Citronen” kendt som?\n5. Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_verdenskrigenes-historie_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_verdenskrigenes-historie_7",
+      "type": "kapardy",
+      "title": "KaPardy · Verdenskrigenes historie",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_verdenskrigenes-historie_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_verdenskrigenes-historie_01",
+            "category": "Første Verdenskrig",
+            "question": "Hvad kaldtes de tyske ubåde under Første Verdenskrig?",
+            "points": 100,
+            "options": [
+              "U-både",
+              "Dreadnoughts",
+              "Zeppelinere",
+              "Monitorer"
+            ],
+            "correctIndex": 0,
+            "answer": "U-både"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_02",
+            "category": "Første Verdenskrig",
+            "question": "Hvilket britisk passagerskib blev sænket af en tysk ubåd i 1915?",
+            "points": 200,
+            "options": [
+              "Lusitania",
+              "Titanic",
+              "Olympic",
+              "Mauretania"
+            ],
+            "correctIndex": 0,
+            "answer": "Lusitania"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_03",
+            "category": "Første Verdenskrig",
+            "question": "I hvilket år gik USA ind i Første Verdenskrig?",
+            "points": 300,
+            "options": [
+              "1917",
+              "1914",
+              "1915",
+              "1919"
+            ],
+            "correctIndex": 0,
+            "answer": "1917"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_04",
+            "category": "Første Verdenskrig",
+            "question": "Hvilken revolution førte til, at bolsjevikkerne tog magten i Rusland i november 1917 efter den gregorianske kalender?",
+            "points": 400,
+            "options": [
+              "Oktoberrevolutionen",
+              "Februarrevolutionen",
+              "1905-revolutionen",
+              "Dekabristopstanden"
+            ],
+            "correctIndex": 0,
+            "answer": "Oktoberrevolutionen"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_05",
+            "category": "Første Verdenskrig",
+            "question": "Hvilken fredsaftale trak Rusland ud af krigen i marts 1918?",
+            "points": 500,
+            "options": [
+              "Brest-Litovsk-freden",
+              "Versaillestraktaten",
+              "Saint-Germain-traktaten",
+              "Lausannefreden"
+            ],
+            "correctIndex": 0,
+            "answer": "Brest-Litovsk-freden"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_06",
+            "category": "Anden Verdenskrig i Europa",
+            "question": "Hvad hed Tysklands invasion af Sovjetunionen i juni 1941?",
+            "points": 100,
+            "options": [
+              "Operation Barbarossa",
+              "Operation Overlord",
+              "Operation Sea Lion",
+              "Operation Market Garden"
+            ],
+            "correctIndex": 0,
+            "answer": "Operation Barbarossa"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_07",
+            "category": "Anden Verdenskrig i Europa",
+            "question": "Hvilket slag fra 1942 til 1943 blev et afgørende tysk nederlag ved Volga?",
+            "points": 200,
+            "options": [
+              "Stalingrad",
+              "Kursk",
+              "Moskva",
+              "Kharkiv"
+            ],
+            "correctIndex": 0,
+            "answer": "Stalingrad"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_08",
+            "category": "Anden Verdenskrig i Europa",
+            "question": "Hvilket slag i 1943 regnes ofte som historiens største kampvognsslag?",
+            "points": 300,
+            "options": [
+              "Kursk",
+              "El Alamein",
+              "Monte Cassino",
+              "Arnhem"
+            ],
+            "correctIndex": 0,
+            "answer": "Kursk"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_09",
+            "category": "Anden Verdenskrig i Europa",
+            "question": "På hvilken dato fandt D-dag-landgangen i Normandiet sted?",
+            "points": 400,
+            "options": [
+              "6. juni 1944",
+              "8. maj 1945",
+              "7. december 1941",
+              "1. september 1939"
+            ],
+            "correctIndex": 0,
+            "answer": "6. juni 1944"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_10",
+            "category": "Anden Verdenskrig i Europa",
+            "question": "Hvad var kodenavnet for den allierede invasion af Normandiet?",
+            "points": 500,
+            "options": [
+              "Operation Overlord",
+              "Operation Torch",
+              "Operation Husky",
+              "Operation Avalanche"
+            ],
+            "correctIndex": 0,
+            "answer": "Operation Overlord"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_11",
+            "category": "Global krig og Holocaust",
+            "question": "På hvilket amerikansk krigsskib blev Japans kapitulation underskrevet 2. september 1945?",
+            "points": 100,
+            "options": [
+              "USS Missouri",
+              "USS Arizona",
+              "USS Enterprise",
+              "USS Yorktown"
+            ],
+            "correctIndex": 0,
+            "answer": "USS Missouri"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_12",
+            "category": "Global krig og Holocaust",
+            "question": "Hvad hed det amerikansk-ledede projekt, der udviklede atombomben?",
+            "points": 200,
+            "options": [
+              "Manhattanprojektet",
+              "Apollo-projektet",
+              "Marshallplanen",
+              "Operation Paperclip"
+            ],
+            "correctIndex": 0,
+            "answer": "Manhattanprojektet"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_13",
+            "category": "Global krig og Holocaust",
+            "question": "Hvilken præsidentordre muliggjorde internering af mange japansk-amerikanere?",
+            "points": 300,
+            "options": [
+              "Executive Order 9066",
+              "Executive Order 8802",
+              "Truman-doktrinen",
+              "Lend-Lease Act"
+            ],
+            "correctIndex": 0,
+            "answer": "Executive Order 9066"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_14",
+            "category": "Global krig og Holocaust",
+            "question": "Hvor mange jøder blev omtrent myrdet under Holocaust?",
+            "points": 400,
+            "options": [
+              "seks millioner",
+              "en million",
+              "tolv millioner",
+              "tre hundrede tusind"
+            ],
+            "correctIndex": 0,
+            "answer": "seks millioner"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_15",
+            "category": "Global krig og Holocaust",
+            "question": "I hvilket besat land lå Auschwitz-Birkenau?",
+            "points": 500,
+            "options": [
+              "Polen",
+              "Tyskland",
+              "Østrig",
+              "Ungarn"
+            ],
+            "correctIndex": 0,
+            "answer": "Polen"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_16",
+            "category": "Danmark, Norden og efterspil",
+            "question": "Hvilken dansk modstandsgruppe tog navn efter en sagnhelt?",
+            "points": 100,
+            "options": [
+              "Holger Danske",
+              "Hvidstengruppen",
+              "BOPA",
+              "Churchill-klubben"
+            ],
+            "correctIndex": 0,
+            "answer": "Holger Danske"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_17",
+            "category": "Danmark, Norden og efterspil",
+            "question": "Hvilken modstandsgruppe voksede ud af kommunistiske sabotørmiljøer og blev kendt som BOPA?",
+            "points": 200,
+            "options": [
+              "Borgerlige Partisaner",
+              "Bondepartiets Organisation",
+              "Britisk Operativ Partisanarmé",
+              "Bornholms Partisaner"
+            ],
+            "correctIndex": 0,
+            "answer": "Borgerlige Partisaner"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_18",
+            "category": "Danmark, Norden og efterspil",
+            "question": "Hvilken gruppe hjalp med at modtage britiske våbennedkastninger ved Hvidsten Kro?",
+            "points": 300,
+            "options": [
+              "Hvidstengruppen",
+              "Holger Danske",
+              "BOPA",
+              "Ringen"
+            ],
+            "correctIndex": 0,
+            "answer": "Hvidstengruppen"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_19",
+            "category": "Danmark, Norden og efterspil",
+            "question": "Hvad var “Flammen” og “Citronen” kendt som?",
+            "points": 400,
+            "options": [
+              "modstandsfolk og likvidatorer",
+              "tyske generaler",
+              "danske ministre",
+              "norske sabotører"
+            ],
+            "correctIndex": 0,
+            "answer": "modstandsfolk og likvidatorer"
+          },
+          {
+            "id": "kp_verdenskrigenes-historie_20",
+            "category": "Danmark, Norden og efterspil",
+            "question": "Hvilken stor arbejdsnedlæggelse og uro ramte København i sommeren 1944?",
+            "points": 500,
+            "options": [
+              "Folkestrejken",
+              "Påskekrisen",
+              "Augustoprøret 1943",
+              "Majrevolten"
+            ],
+            "correctIndex": 0,
+            "answer": "Folkestrejken"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "verdenskrig_historie_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_verdenskrigenes-historie"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_verdenskrigenes-historie",
+    "courseTitle": "20 spørgsmål fra professoren · Verdenskrigenes historie",
+    "courseSessionIds": [
+      "session_professor_verdenskrigenes-historie"
+    ]
+  },
+  "warnings": []
+}

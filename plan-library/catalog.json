@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-06",
   "categories": [
     {
       "id": "dansk",
@@ -121,6 +121,280 @@
       "sizeBytes": 2369481,
       "featured": false,
       "updatedAt": "2026-07-02"
+    },
+    {
+      "id": "20-sporgsmal-dansk-litteratur",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Dansk litteratur",
+      "category": "dansk",
+      "subject": "Dansk",
+      "description": "Fire litterære spor om forfattere og værker, perioder, figurer og dansk litteraturliv – afsluttet med det eksisterende KaPardy-spil.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "dansk",
+        "litteratur",
+        "forfattere",
+        "perioder",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-dansk-litteratur/forloeb.json",
+      "sizeBytes": 48320,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-engelsk",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
+      "category": "engelsk",
+      "subject": "Engelsk",
+      "description": "Ordforråd, grammatik, engelsksproget litteratur og verden – bygget direkte op mod det eksisterende KaPardy-spil.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "engelsk",
+        "ordforråd",
+        "grammatik",
+        "kultur",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/engelsk/20-sporgsmal-engelsk/forloeb.json",
+      "sizeBytes": 47578,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-matematik",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Matematik",
+      "category": "matematik",
+      "subject": "Matematik",
+      "description": "Regning, brøker og procent, geometri samt algebra – med forklaringskrav før det eksisterende 20-spørgsmåls KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "matematik",
+        "regning",
+        "procent",
+        "geometri",
+        "algebra",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/matematik/20-sporgsmal-matematik/forloeb.json",
+      "sizeBytes": 42619,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-kemi",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Kemiens grundstoffer",
+      "category": "science",
+      "subject": "Science / fysik-kemi",
+      "description": "Grundstoffernes symboler, atomnumre, egenskaber og anvendelser – med periodesystemet som arbejdsredskab og KaPardy som afslutning.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kemi",
+        "grundstoffer",
+        "periodesystem",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-kemi/forloeb.json",
+      "sizeBytes": 45450,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-tysk",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Tysk sprog og kultur",
+      "category": "tysk",
+      "subject": "Tysk",
+      "description": "Tysk ordforråd, grammatik, litteratur og geografi – fire undervisningsspor før det eksisterende 20-spørgsmåls KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "tysk",
+        "ordforråd",
+        "grammatik",
+        "kultur",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/tysk/20-sporgsmal-tysk/forloeb.json",
+      "sizeBytes": 46152,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-balkanmusik",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Balkanmusik",
+      "category": "andre-9",
+      "subject": "Musik",
+      "description": "Et musikfagligt forløb om skæve taktarter, Roma-musikeres grænseoverskridende rolle, instrumenter og regionale traditioner.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "musik",
+        "balkanmusik",
+        "rytmer",
+        "Roma",
+        "instrumenter",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre-9/musik/20-sporgsmal-balkanmusik/forloeb.json",
+      "sizeBytes": 46285,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-verdenskrigene",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Verdenskrigenes historie",
+      "category": "andre-9",
+      "subject": "Historie",
+      "description": "Kronologi, operationer, Holocaust, global krig og dansk modstand – med kildebevidst repetition før KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "historie",
+        "verdenskrige",
+        "Holocaust",
+        "Danmark",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre-9/historie/20-sporgsmal-verdenskrigene/forloeb.json",
+      "sizeBytes": 48713,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-efterskoleliv",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Efterskoleliv",
+      "category": "andre",
+      "subject": "Skoleliv",
+      "description": "Et praksisnært forløb om efterskolens historie, rammer, fællesskab, prøver og feedback – afsluttet med KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "efterskole",
+        "skoleliv",
+        "fællesskab",
+        "prøver",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/skoleliv/20-sporgsmal-efterskoleliv/forloeb.json",
+      "sizeBytes": 48382,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-mad-fra-hele-verden",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Mad fra hele verden",
+      "category": "andre",
+      "subject": "Mad og kultur",
+      "description": "Retter, teknikker, brød og kulinarisk kulturarv fra flere verdensdele – uden at ændre det eksisterende KaPardy-spil.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "mad",
+        "kultur",
+        "verden",
+        "teknikker",
+        "UNESCO",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/tvaerfagligt/20-sporgsmal-mad-fra-hele-verden/forloeb.json",
+      "sizeBytes": 48825,
+      "featured": false,
+      "updatedAt": "2026-07-06"
+    },
+    {
+      "id": "20-sporgsmal-film-fra-1980erne",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Film fra 1980’erne",
+      "category": "andre",
+      "subject": "Film og kultur",
+      "description": "Instruktører, skuespillere, Oscarvindere og filmmusik fra 1980’erne – med aktiv filmhistorisk repetition før KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "film",
+        "1980erne",
+        "skuespillere",
+        "Oscar",
+        "musik",
+        "KaPardy"
+      ],
+      "version": "1.0.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/tvaerfagligt/20-sporgsmal-film-fra-1980erne/forloeb.json",
+      "sizeBytes": 47085,
+      "featured": false,
+      "updatedAt": "2026-07-06"
     }
   ]
 }

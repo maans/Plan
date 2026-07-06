@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_matematik",
+    "title": "20 spørgsmål fra professoren · Matematik",
+    "subject": "Matematik",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_matematik"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_matematik",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Matematik",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_matematik_1",
+      "boardIds": [
+        "board_session_professor_matematik_1",
+        "board_session_professor_matematik_2",
+        "board_session_professor_matematik_3",
+        "board_session_professor_matematik_4",
+        "board_session_professor_matematik_5",
+        "board_session_professor_matematik_6",
+        "board_session_professor_matematik_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_matematik",
+        "courseTitle": "20 spørgsmål fra professoren · Matematik",
+        "courseSubject": "Matematik",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_matematik"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/matematik_basics_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_matematik_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "Overblik · Matematik",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_overview_intro",
+        "widget_session_professor_matematik_overview_route",
+        "widget_session_professor_matematik_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "matematik_basics_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_matematik_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "1. Regning",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_cat1_facts",
+        "widget_session_professor_matematik_cat1_activity",
+        "widget_session_professor_matematik_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Regning",
+        "sourceCsv": "matematik_basics_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_matematik_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "2. Brøker og procent",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_cat2_facts",
+        "widget_session_professor_matematik_cat2_activity",
+        "widget_session_professor_matematik_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Brøker og procent",
+        "sourceCsv": "matematik_basics_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_matematik_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "3. Geometri og måling",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_cat3_facts",
+        "widget_session_professor_matematik_cat3_activity",
+        "widget_session_professor_matematik_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Geometri og måling",
+        "sourceCsv": "matematik_basics_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_matematik_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "4. Tal og algebra",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_cat4_facts",
+        "widget_session_professor_matematik_cat4_activity",
+        "widget_session_professor_matematik_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Tal og algebra",
+        "sourceCsv": "matematik_basics_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_matematik_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_rehearsal_header",
+        "widget_session_professor_matematik_rehearsal_1",
+        "widget_session_professor_matematik_rehearsal_2",
+        "widget_session_professor_matematik_rehearsal_3",
+        "widget_session_professor_matematik_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "matematik_basics_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_matematik_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_matematik",
+      "title": "🎯 KaPardy · Matematik",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_matematik_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "matematik_basics_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_matematik_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nMATEMATIK\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_matematik_1",
+          "board_session_professor_matematik_2",
+          "board_session_professor_matematik_3",
+          "board_session_professor_matematik_4",
+          "board_session_professor_matematik_5",
+          "board_session_professor_matematik_6",
+          "board_session_professor_matematik_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_2",
+      "type": "text",
+      "title": "Kernestof · Regning",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · REGNING\n\n1. Hvad er 7 · (5 + 3)?\n   FACIT: 56\n\n2. Hvad er 250 ÷ 5 + 17?\n   FACIT: 67\n\n3. Hvad er 3 · 24 - 16?\n   FACIT: 56\n\n4. Hvad er 1.000 - 468?\n   FACIT: 532\n\n5. Hvad er 32 · 15?\n   FACIT: 480\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLøs hvert udtryk på to måder, når det er muligt. Sæt ring om det trin, hvor regnehierarkiet er afgørende, og lav et overslag før det præcise svar.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er 7 · (5 + 3)?\n• Hvad er 250 ÷ 5 + 17?\n• Hvad er 3 · 24 - 16?\n• Hvad er 1.000 - 468?\n• Hvad er 32 · 15?\n\nHUSKESYSTEM\nParentes før gange og division, før plus og minus. Brug overslag til at opdage taste- og hovedregningsfejl.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_3",
+      "type": "text",
+      "title": "Kernestof · Brøker og procent",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · BRØKER OG PROCENT\n\n1. Hvad er 12,5 % af 160?\n   FACIT: 20\n\n2. Hvad er 7/10 skrevet som procent?\n   FACIT: 70 %\n\n3. Hvad er 30 % af 240?\n   FACIT: 72\n\n4. Hvad er 1 1/2 skrevet som decimaltal?\n   FACIT: 1,5\n\n5. Hvad er 4/5 ÷ 2/5?\n   FACIT: 2\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nVis hvert resultat i mindst to repræsentationer: brøk, decimal, procent eller tegning. Forklar især, hvorfor division med en brøk svarer til at gange med den omvendte.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er 12,5 % af 160?\n• Hvad er 7/10 skrevet som procent?\n• Hvad er 30 % af 240?\n• Hvad er 1 1/2 skrevet som decimaltal?\n• Hvad er 4/5 ÷ 2/5?\n\nHUSKESYSTEM\n12,5 % er en ottendedel; 70 % er 7/10; blandede tal omskrives systematisk; ved brøkdivision vendes den anden brøk.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_4",
+      "type": "text",
+      "title": "Kernestof · Geometri og måling",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · GEOMETRI OG MÅLING\n\n1. Hvad er vinkelsummen i en firkant?\n   FACIT: 360°\n\n2. Hvad er rumfanget af en kasse på 3 cm × 4 cm × 5 cm?\n   FACIT: 60 cm³\n\n3. Hvad er omkredsen af en cirkel med diameter 10 cm, når π sættes til 3,14?\n   FACIT: 31,4 cm\n\n4. Hvad er arealet af en cirkel med radius 3 cm, når π sættes til 3,14?\n   FACIT: 28,26 cm²\n\n5. En retvinklet trekant har kateter på 6 cm og 8 cm. Hvor lang er hypotenusen?\n   FACIT: 10 cm\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nTegn figurerne med mål. Skriv formel, indsættelse, enhed og svar på hver sin linje. Kontrollér om svaret er en længde, et areal eller et rumfang.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er vinkelsummen i en firkant?\n• Hvad er rumfanget af en kasse på 3 cm × 4 cm × 5 cm?\n• Hvad er omkredsen af en cirkel med diameter 10 cm, når π sættes til 3,14?\n• Hvad er arealet af en cirkel med radius 3 cm, når π sættes til 3,14?\n• En retvinklet trekant har kateter på 6 cm og 8 cm. Hvor lang er hypotenusen?\n\nHUSKESYSTEM\nFirkant: 360°. Kasse: længde·bredde·højde. Cirkel: omkreds πd og areal πr². Retvinklet trekant: a²+b²=c².",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_5",
+      "type": "text",
+      "title": "Kernestof · Tal og algebra",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · TAL OG ALGEBRA\n\n1. Hvilken værdi af x løser 3x = 27?\n   FACIT: 9\n\n2. Hvad er næste tal i følgen 1, 4, 9, 16, ...?\n   FACIT: 25\n\n3. Hvad er 10⁻²?\n   FACIT: 0,01\n\n4. Hvilken værdi af x løser 2x + 5 = 17?\n   FACIT: 6\n\n5. Hvad er faktoriseringen af 36 i primtal?\n   FACIT: 2² · 3²\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nForklar ligningsløsninger med balanceprincippet. Find mønstret i kvadrattallene, og vis primtalsfaktoriseringen som et faktortræ.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken værdi af x løser 3x = 27?\n• Hvad er næste tal i følgen 1, 4, 9, 16, ...?\n• Hvad er 10⁻²?\n• Hvilken værdi af x løser 2x + 5 = 17?\n• Hvad er faktoriseringen af 36 i primtal?\n\nHUSKESYSTEM\nIsolér x med samme handling på begge sider. 10⁻² flytter decimaltegnet to pladser. 36 = 2²·3².",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_6",
+      "type": "text",
+      "title": "Regning",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "REGNING\n\n1. Hvad er 7 · (5 + 3)?\n2. Hvad er 250 ÷ 5 + 17?\n3. Hvad er 3 · 24 - 16?\n4. Hvad er 1.000 - 468?\n5. Hvad er 32 · 15?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_6",
+      "type": "text",
+      "title": "Brøker og procent",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "BRØKER OG PROCENT\n\n1. Hvad er 12,5 % af 160?\n2. Hvad er 7/10 skrevet som procent?\n3. Hvad er 30 % af 240?\n4. Hvad er 1 1/2 skrevet som decimaltal?\n5. Hvad er 4/5 ÷ 2/5?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_6",
+      "type": "text",
+      "title": "Geometri og måling",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "GEOMETRI OG MÅLING\n\n1. Hvad er vinkelsummen i en firkant?\n2. Hvad er rumfanget af en kasse på 3 cm × 4 cm × 5 cm?\n3. Hvad er omkredsen af en cirkel med diameter 10 cm, når π sættes til 3,14?\n4. Hvad er arealet af en cirkel med radius 3 cm, når π sættes til 3,14?\n5. En retvinklet trekant har kateter på 6 cm og 8 cm. Hvor lang er hypotenusen?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_6",
+      "type": "text",
+      "title": "Tal og algebra",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "TAL OG ALGEBRA\n\n1. Hvilken værdi af x løser 3x = 27?\n2. Hvad er næste tal i følgen 1, 4, 9, 16, ...?\n3. Hvad er 10⁻²?\n4. Hvilken værdi af x løser 2x + 5 = 17?\n5. Hvad er faktoriseringen af 36 i primtal?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_matematik_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_matematik_7",
+      "type": "kapardy",
+      "title": "KaPardy · Matematik",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_matematik_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_matematik_01",
+            "category": "Regning",
+            "question": "Hvad er 7 · (5 + 3)?",
+            "points": 100,
+            "options": [
+              "56",
+              "40",
+              "49",
+              "63"
+            ],
+            "correctIndex": 0,
+            "answer": "56"
+          },
+          {
+            "id": "kp_matematik_02",
+            "category": "Regning",
+            "question": "Hvad er 250 ÷ 5 + 17?",
+            "points": 200,
+            "options": [
+              "67",
+              "57",
+              "60",
+              "77"
+            ],
+            "correctIndex": 0,
+            "answer": "67"
+          },
+          {
+            "id": "kp_matematik_03",
+            "category": "Regning",
+            "question": "Hvad er 3 · 24 - 16?",
+            "points": 300,
+            "options": [
+              "56",
+              "48",
+              "60",
+              "64"
+            ],
+            "correctIndex": 0,
+            "answer": "56"
+          },
+          {
+            "id": "kp_matematik_04",
+            "category": "Regning",
+            "question": "Hvad er 1.000 - 468?",
+            "points": 400,
+            "options": [
+              "532",
+              "522",
+              "542",
+              "568"
+            ],
+            "correctIndex": 0,
+            "answer": "532"
+          },
+          {
+            "id": "kp_matematik_05",
+            "category": "Regning",
+            "question": "Hvad er 32 · 15?",
+            "points": 500,
+            "options": [
+              "480",
+              "450",
+              "470",
+              "510"
+            ],
+            "correctIndex": 0,
+            "answer": "480"
+          },
+          {
+            "id": "kp_matematik_06",
+            "category": "Brøker og procent",
+            "question": "Hvad er 12,5 % af 160?",
+            "points": 100,
+            "options": [
+              "20",
+              "16",
+              "18",
+              "25"
+            ],
+            "correctIndex": 0,
+            "answer": "20"
+          },
+          {
+            "id": "kp_matematik_07",
+            "category": "Brøker og procent",
+            "question": "Hvad er 7/10 skrevet som procent?",
+            "points": 200,
+            "options": [
+              "70 %",
+              "7 %",
+              "17 %",
+              "700 %"
+            ],
+            "correctIndex": 0,
+            "answer": "70 %"
+          },
+          {
+            "id": "kp_matematik_08",
+            "category": "Brøker og procent",
+            "question": "Hvad er 30 % af 240?",
+            "points": 300,
+            "options": [
+              "72",
+              "60",
+              "70",
+              "84"
+            ],
+            "correctIndex": 0,
+            "answer": "72"
+          },
+          {
+            "id": "kp_matematik_09",
+            "category": "Brøker og procent",
+            "question": "Hvad er 1 1/2 skrevet som decimaltal?",
+            "points": 400,
+            "options": [
+              "1,5",
+              "1,2",
+              "1,25",
+              "2,5"
+            ],
+            "correctIndex": 0,
+            "answer": "1,5"
+          },
+          {
+            "id": "kp_matematik_10",
+            "category": "Brøker og procent",
+            "question": "Hvad er 4/5 ÷ 2/5?",
+            "points": 500,
+            "options": [
+              "2",
+              "1",
+              "4",
+              "8/25"
+            ],
+            "correctIndex": 0,
+            "answer": "2"
+          },
+          {
+            "id": "kp_matematik_11",
+            "category": "Geometri og måling",
+            "question": "Hvad er vinkelsummen i en firkant?",
+            "points": 100,
+            "options": [
+              "360°",
+              "180°",
+              "270°",
+              "540°"
+            ],
+            "correctIndex": 0,
+            "answer": "360°"
+          },
+          {
+            "id": "kp_matematik_12",
+            "category": "Geometri og måling",
+            "question": "Hvad er rumfanget af en kasse på 3 cm × 4 cm × 5 cm?",
+            "points": 200,
+            "options": [
+              "60 cm³",
+              "12 cm³",
+              "20 cm³",
+              "47 cm³"
+            ],
+            "correctIndex": 0,
+            "answer": "60 cm³"
+          },
+          {
+            "id": "kp_matematik_13",
+            "category": "Geometri og måling",
+            "question": "Hvad er omkredsen af en cirkel med diameter 10 cm, når π sættes til 3,14?",
+            "points": 300,
+            "options": [
+              "31,4 cm",
+              "15,7 cm",
+              "62,8 cm",
+              "314 cm"
+            ],
+            "correctIndex": 0,
+            "answer": "31,4 cm"
+          },
+          {
+            "id": "kp_matematik_14",
+            "category": "Geometri og måling",
+            "question": "Hvad er arealet af en cirkel med radius 3 cm, når π sættes til 3,14?",
+            "points": 400,
+            "options": [
+              "28,26 cm²",
+              "18,84 cm²",
+              "9,42 cm²",
+              "56,52 cm²"
+            ],
+            "correctIndex": 0,
+            "answer": "28,26 cm²"
+          },
+          {
+            "id": "kp_matematik_15",
+            "category": "Geometri og måling",
+            "question": "En retvinklet trekant har kateter på 6 cm og 8 cm. Hvor lang er hypotenusen?",
+            "points": 500,
+            "options": [
+              "10 cm",
+              "12 cm",
+              "14 cm",
+              "15 cm"
+            ],
+            "correctIndex": 0,
+            "answer": "10 cm"
+          },
+          {
+            "id": "kp_matematik_16",
+            "category": "Tal og algebra",
+            "question": "Hvilken værdi af x løser 3x = 27?",
+            "points": 100,
+            "options": [
+              "9",
+              "6",
+              "8",
+              "12"
+            ],
+            "correctIndex": 0,
+            "answer": "9"
+          },
+          {
+            "id": "kp_matematik_17",
+            "category": "Tal og algebra",
+            "question": "Hvad er næste tal i følgen 1, 4, 9, 16, ...?",
+            "points": 200,
+            "options": [
+              "25",
+              "20",
+              "24",
+              "32"
+            ],
+            "correctIndex": 0,
+            "answer": "25"
+          },
+          {
+            "id": "kp_matematik_18",
+            "category": "Tal og algebra",
+            "question": "Hvad er 10⁻²?",
+            "points": 300,
+            "options": [
+              "0,01",
+              "0,1",
+              "0,001",
+              "100"
+            ],
+            "correctIndex": 0,
+            "answer": "0,01"
+          },
+          {
+            "id": "kp_matematik_19",
+            "category": "Tal og algebra",
+            "question": "Hvilken værdi af x løser 2x + 5 = 17?",
+            "points": 400,
+            "options": [
+              "6",
+              "5",
+              "7",
+              "11"
+            ],
+            "correctIndex": 0,
+            "answer": "6"
+          },
+          {
+            "id": "kp_matematik_20",
+            "category": "Tal og algebra",
+            "question": "Hvad er faktoriseringen af 36 i primtal?",
+            "points": 500,
+            "options": [
+              "2² · 3²",
+              "2 · 18",
+              "3 · 12",
+              "6²"
+            ],
+            "correctIndex": 0,
+            "answer": "2² · 3²"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "matematik_basics_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_matematik"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_matematik",
+    "courseTitle": "20 spørgsmål fra professoren · Matematik",
+    "courseSessionIds": [
+      "session_professor_matematik"
+    ]
+  },
+  "warnings": []
+}

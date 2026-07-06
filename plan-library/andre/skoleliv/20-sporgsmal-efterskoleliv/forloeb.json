@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_efterskoleliv",
+    "title": "20 spørgsmål fra professoren · Efterskoleliv",
+    "subject": "Skoleliv",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_efterskoleliv"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_efterskoleliv",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Efterskoleliv",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_efterskoleliv_1",
+      "boardIds": [
+        "board_session_professor_efterskoleliv_1",
+        "board_session_professor_efterskoleliv_2",
+        "board_session_professor_efterskoleliv_3",
+        "board_session_professor_efterskoleliv_4",
+        "board_session_professor_efterskoleliv_5",
+        "board_session_professor_efterskoleliv_6",
+        "board_session_professor_efterskoleliv_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_efterskoleliv",
+        "courseTitle": "20 spørgsmål fra professoren · Efterskoleliv",
+        "courseSubject": "Skoleliv",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_efterskoleliv"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/efterskoleliv_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_efterskoleliv_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "Overblik · Efterskoleliv",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_overview_intro",
+        "widget_session_professor_efterskoleliv_overview_route",
+        "widget_session_professor_efterskoleliv_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "efterskoleliv_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_efterskoleliv_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "1. Historie og idégrundlag",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_cat1_facts",
+        "widget_session_professor_efterskoleliv_cat1_activity",
+        "widget_session_professor_efterskoleliv_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Historie og idégrundlag",
+        "sourceCsv": "efterskoleliv_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_efterskoleliv_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "2. Skoleform og rammer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_cat2_facts",
+        "widget_session_professor_efterskoleliv_cat2_activity",
+        "widget_session_professor_efterskoleliv_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Skoleform og rammer",
+        "sourceCsv": "efterskoleliv_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_efterskoleliv_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "3. Hverdag og fællesskab",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_cat3_facts",
+        "widget_session_professor_efterskoleliv_cat3_activity",
+        "widget_session_professor_efterskoleliv_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Hverdag og fællesskab",
+        "sourceCsv": "efterskoleliv_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_efterskoleliv_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "4. Fag, prøver og elevdemokrati",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_cat4_facts",
+        "widget_session_professor_efterskoleliv_cat4_activity",
+        "widget_session_professor_efterskoleliv_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Fag, prøver og elevdemokrati",
+        "sourceCsv": "efterskoleliv_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_efterskoleliv_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_rehearsal_header",
+        "widget_session_professor_efterskoleliv_rehearsal_1",
+        "widget_session_professor_efterskoleliv_rehearsal_2",
+        "widget_session_professor_efterskoleliv_rehearsal_3",
+        "widget_session_professor_efterskoleliv_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "efterskoleliv_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_efterskoleliv_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_efterskoleliv",
+      "title": "🎯 KaPardy · Efterskoleliv",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_efterskoleliv_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "efterskoleliv_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_efterskoleliv_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nEFTERSKOLELIV\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_efterskoleliv_1",
+          "board_session_professor_efterskoleliv_2",
+          "board_session_professor_efterskoleliv_3",
+          "board_session_professor_efterskoleliv_4",
+          "board_session_professor_efterskoleliv_5",
+          "board_session_professor_efterskoleliv_6",
+          "board_session_professor_efterskoleliv_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_2",
+      "type": "text",
+      "title": "Kernestof · Historie og idégrundlag",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · HISTORIE OG IDÉGRUNDLAG\n\n1. Hvilket år blev den første særlige efterskolelov vedtaget?\n   FACIT: 1930\n\n2. Hvilket år fik efterskoler lov til at tilbyde enkelte af folkeskolens afgangsprøver?\n   FACIT: 1967\n\n3. Hvilket år fik efterskoler lov til at tilbyde alle folkeskolens afgangsprøver?\n   FACIT: 1975\n\n4. Hvad skete der med både elevtal og antal efterskoler omtrent fra 1975 til 2000?\n   FACIT: de blev omtrent fordoblet\n\n5. Hvilken ændring i 1994 gjorde efterskoleophold økonomisk tilgængeligt for en bredere gruppe?\n   FACIT: obligatorisk offentlig elevstøtte\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nByg en tidslinje med 1930, 1967, 1975, 1994 og perioden 1975–2000. Forklar, hvordan lovgivning kan ændre både adgang og skolernes rolle.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket år blev den første særlige efterskolelov vedtaget?\n• Hvilket år fik efterskoler lov til at tilbyde enkelte af folkeskolens afgangsprøver?\n• Hvilket år fik efterskoler lov til at tilbyde alle folkeskolens afgangsprøver?\n• Hvad skete der med både elevtal og antal efterskoler omtrent fra 1975 til 2000?\n• Hvilken ændring i 1994 gjorde efterskoleophold økonomisk tilgængeligt for en bredere gruppe?\n\nHUSKESYSTEM\n1930 lov; 1967 enkelte prøver; 1975 alle prøver; 1975–2000 omtrent fordobling; 1994 obligatorisk offentlig elevstøtte.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_3",
+      "type": "text",
+      "title": "Kernestof · Skoleform og rammer",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · SKOLEFORM OG RAMMER\n\n1. Hvilke tre fag er obligatoriske i en almindelig 10. klasse på efterskole?\n   FACIT: dansk, matematik og engelsk\n\n2. Hvad er minimum for den ugentlige undervisningstid på efterskolekurser i 8., 9. og 10. klasse ifølge de gældende rammer?\n   FACIT: 21 timer eksklusive pauser\n\n3. Hvad kan en efterskole vælge i forhold til folkeskolens prøver i 8. og 9. klasse?\n   FACIT: at afholde prøver eller være prøvefri efter reglerne\n\n4. Hvad skal en prøvefri efterskole tydeligt oplyse om?\n   FACIT: at skolen ikke afholder folkeskolens prøver\n\n5. Hvordan kan en elev fra en prøvefri efterskole eventuelt aflægge folkeskolens prøver?\n   FACIT: som privatist efter reglerne\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLøs fem cases om obligatoriske fag, ugentlig undervisningstid, prøvefrihed og privatistmuligheder. Find den præcise regel, som afgør hver case.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilke tre fag er obligatoriske i en almindelig 10. klasse på efterskole?\n• Hvad er minimum for den ugentlige undervisningstid på efterskolekurser i 8., 9. og 10. klasse ifølge de gældende rammer?\n• Hvad kan en efterskole vælge i forhold til folkeskolens prøver i 8. og 9. klasse?\n• Hvad skal en prøvefri efterskole tydeligt oplyse om?\n• Hvordan kan en elev fra en prøvefri efterskole eventuelt aflægge folkeskolens prøver?\n\nHUSKESYSTEM\nDansk, matematik og engelsk; mindst 21 timer; prøve eller prøvefri; tydelig information; eventuelt privatist.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_4",
+      "type": "text",
+      "title": "Kernestof · Hverdag og fællesskab",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · HVERDAG OG FÆLLESSKAB\n\n1. Hvad er hjemve?\n   FACIT: savn og ubehag ved at være væk hjemmefra\n\n2. Hvad hjælper ofte ved almindelig hjemve?\n   FACIT: at tale med en voksen og deltage gradvist i hverdagen\n\n3. Hvorfor har mange efterskoler regler om ro og sengetid?\n   FACIT: for at sikre søvn og hensyn i et tæt fællesskab\n\n4. Hvad er en vigtig grund til faste rengøringsopgaver?\n   FACIT: fælles hygiejne og delt ansvar\n\n5. Hvordan bør personlige grænser på et delt værelse håndteres?\n   FACIT: med tydelige aftaler og respekt\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nDiskutér fire realistiske dilemmaer om hjemve, søvn, rengøring og delt værelse. Formulér en handling, der både tager hensyn til individ og fællesskab.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er hjemve?\n• Hvad hjælper ofte ved almindelig hjemve?\n• Hvorfor har mange efterskoler regler om ro og sengetid?\n• Hvad er en vigtig grund til faste rengøringsopgaver?\n• Hvordan bør personlige grænser på et delt værelse håndteres?\n\nHUSKESYSTEM\nHjemve mødes med samtale og gradvis deltagelse; søvn, hygiejne, ansvar og personlige grænser kræver fælles aftaler.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_5",
+      "type": "text",
+      "title": "Kernestof · Fag, prøver og elevdemokrati",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · FAG, PRØVER OG ELEVDEMOKRATI\n\n1. Hvad er FP9?\n   FACIT: folkeskolens prøver efter 9. klasse\n\n2. Hvad er formålet med en mundtlig prøve?\n   FACIT: at eleven viser faglig forståelse gennem fremlæggelse og samtale\n\n3. Hvad er intern evaluering?\n   FACIT: løbende vurdering og feedback inden for skolen\n\n4. Hvad er formativ feedback?\n   FACIT: feedback, der hjælper eleven videre i læreprocessen\n\n5. Hvad er summativ evaluering?\n   FACIT: en afsluttende vurdering af et fagligt resultat\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nSortér begreberne FP9, mundtlig prøve, intern evaluering, formativ feedback og summativ evaluering. Giv et eksempel fra skolens hverdag på hvert.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er FP9?\n• Hvad er formålet med en mundtlig prøve?\n• Hvad er intern evaluering?\n• Hvad er formativ feedback?\n• Hvad er summativ evaluering?\n\nHUSKESYSTEM\nFP9 er prøver efter 9. klasse; mundtlig prøve viser forståelse; intern, formativ og summativ evaluering har forskellige formål.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_6",
+      "type": "text",
+      "title": "Historie og idégrundlag",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "HISTORIE OG IDÉGRUNDLAG\n\n1. Hvilket år blev den første særlige efterskolelov vedtaget?\n2. Hvilket år fik efterskoler lov til at tilbyde enkelte af folkeskolens afgangsprøver?\n3. Hvilket år fik efterskoler lov til at tilbyde alle folkeskolens afgangsprøver?\n4. Hvad skete der med både elevtal og antal efterskoler omtrent fra 1975 til 2000?\n5. Hvilken ændring i 1994 gjorde efterskoleophold økonomisk tilgængeligt for en bredere gruppe?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_6",
+      "type": "text",
+      "title": "Skoleform og rammer",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "SKOLEFORM OG RAMMER\n\n1. Hvilke tre fag er obligatoriske i en almindelig 10. klasse på efterskole?\n2. Hvad er minimum for den ugentlige undervisningstid på efterskolekurser i 8., 9. og 10. klasse ifølge de gældende rammer?\n3. Hvad kan en efterskole vælge i forhold til folkeskolens prøver i 8. og 9. klasse?\n4. Hvad skal en prøvefri efterskole tydeligt oplyse om?\n5. Hvordan kan en elev fra en prøvefri efterskole eventuelt aflægge folkeskolens prøver?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_6",
+      "type": "text",
+      "title": "Hverdag og fællesskab",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HVERDAG OG FÆLLESSKAB\n\n1. Hvad er hjemve?\n2. Hvad hjælper ofte ved almindelig hjemve?\n3. Hvorfor har mange efterskoler regler om ro og sengetid?\n4. Hvad er en vigtig grund til faste rengøringsopgaver?\n5. Hvordan bør personlige grænser på et delt værelse håndteres?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_6",
+      "type": "text",
+      "title": "Fag, prøver og elevdemokrati",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "FAG, PRØVER OG ELEVDEMOKRATI\n\n1. Hvad er FP9?\n2. Hvad er formålet med en mundtlig prøve?\n3. Hvad er intern evaluering?\n4. Hvad er formativ feedback?\n5. Hvad er summativ evaluering?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_efterskoleliv_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_efterskoleliv_7",
+      "type": "kapardy",
+      "title": "KaPardy · Efterskoleliv",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_efterskoleliv_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_efterskoleliv_01",
+            "category": "Historie og idégrundlag",
+            "question": "Hvilket år blev den første særlige efterskolelov vedtaget?",
+            "points": 100,
+            "options": [
+              "1930",
+              "1849",
+              "1901",
+              "1975"
+            ],
+            "correctIndex": 0,
+            "answer": "1930"
+          },
+          {
+            "id": "kp_efterskoleliv_02",
+            "category": "Historie og idégrundlag",
+            "question": "Hvilket år fik efterskoler lov til at tilbyde enkelte af folkeskolens afgangsprøver?",
+            "points": 200,
+            "options": [
+              "1967",
+              "1930",
+              "1975",
+              "1994"
+            ],
+            "correctIndex": 0,
+            "answer": "1967"
+          },
+          {
+            "id": "kp_efterskoleliv_03",
+            "category": "Historie og idégrundlag",
+            "question": "Hvilket år fik efterskoler lov til at tilbyde alle folkeskolens afgangsprøver?",
+            "points": 300,
+            "options": [
+              "1975",
+              "1967",
+              "1982",
+              "2000"
+            ],
+            "correctIndex": 0,
+            "answer": "1975"
+          },
+          {
+            "id": "kp_efterskoleliv_04",
+            "category": "Historie og idégrundlag",
+            "question": "Hvad skete der med både elevtal og antal efterskoler omtrent fra 1975 til 2000?",
+            "points": 400,
+            "options": [
+              "de blev omtrent fordoblet",
+              "de blev halveret hvert år",
+              "de forsvandt helt",
+              "de blev fastlåst ved lov"
+            ],
+            "correctIndex": 0,
+            "answer": "de blev omtrent fordoblet"
+          },
+          {
+            "id": "kp_efterskoleliv_05",
+            "category": "Historie og idégrundlag",
+            "question": "Hvilken ændring i 1994 gjorde efterskoleophold økonomisk tilgængeligt for en bredere gruppe?",
+            "points": 500,
+            "options": [
+              "obligatorisk offentlig elevstøtte",
+              "afskaffelse af kost og logi",
+              "forbud mod skolepenge",
+              "gratis togdrift til alle skoler"
+            ],
+            "correctIndex": 0,
+            "answer": "obligatorisk offentlig elevstøtte"
+          },
+          {
+            "id": "kp_efterskoleliv_06",
+            "category": "Skoleform og rammer",
+            "question": "Hvilke tre fag er obligatoriske i en almindelig 10. klasse på efterskole?",
+            "points": 100,
+            "options": [
+              "dansk, matematik og engelsk",
+              "latin, græsk og kemi",
+              "musik, idræt og billedkunst",
+              "tysk, fransk og spansk"
+            ],
+            "correctIndex": 0,
+            "answer": "dansk, matematik og engelsk"
+          },
+          {
+            "id": "kp_efterskoleliv_07",
+            "category": "Skoleform og rammer",
+            "question": "Hvad er minimum for den ugentlige undervisningstid på efterskolekurser i 8., 9. og 10. klasse ifølge de gældende rammer?",
+            "points": 200,
+            "options": [
+              "21 timer eksklusive pauser",
+              "5 timer inklusive pauser",
+              "40 timer uden pauser",
+              "10 timer om måneden"
+            ],
+            "correctIndex": 0,
+            "answer": "21 timer eksklusive pauser"
+          },
+          {
+            "id": "kp_efterskoleliv_08",
+            "category": "Skoleform og rammer",
+            "question": "Hvad kan en efterskole vælge i forhold til folkeskolens prøver i 8. og 9. klasse?",
+            "points": 300,
+            "options": [
+              "at afholde prøver eller være prøvefri efter reglerne",
+              "at opfinde nationale eksamensbeviser",
+              "at afskaffe karakterer i hele Danmark",
+              "at lade eleverne rette hinandens officielle prøver"
+            ],
+            "correctIndex": 0,
+            "answer": "at afholde prøver eller være prøvefri efter reglerne"
+          },
+          {
+            "id": "kp_efterskoleliv_09",
+            "category": "Skoleform og rammer",
+            "question": "Hvad skal en prøvefri efterskole tydeligt oplyse om?",
+            "points": 400,
+            "options": [
+              "at skolen ikke afholder folkeskolens prøver",
+              "at skolen ikke har undervisning",
+              "at eleverne ikke må læse",
+              "at skolen er kommunal"
+            ],
+            "correctIndex": 0,
+            "answer": "at skolen ikke afholder folkeskolens prøver"
+          },
+          {
+            "id": "kp_efterskoleliv_10",
+            "category": "Skoleform og rammer",
+            "question": "Hvordan kan en elev fra en prøvefri efterskole eventuelt aflægge folkeskolens prøver?",
+            "points": 500,
+            "options": [
+              "som privatist efter reglerne",
+              "kun som universitetsstuderende",
+              "ved at stemme om resultatet",
+              "uden tilmelding"
+            ],
+            "correctIndex": 0,
+            "answer": "som privatist efter reglerne"
+          },
+          {
+            "id": "kp_efterskoleliv_11",
+            "category": "Hverdag og fællesskab",
+            "question": "Hvad er hjemve?",
+            "points": 100,
+            "options": [
+              "savn og ubehag ved at være væk hjemmefra",
+              "en prøveform",
+              "et linjefag",
+              "en skolelov"
+            ],
+            "correctIndex": 0,
+            "answer": "savn og ubehag ved at være væk hjemmefra"
+          },
+          {
+            "id": "kp_efterskoleliv_12",
+            "category": "Hverdag og fællesskab",
+            "question": "Hvad hjælper ofte ved almindelig hjemve?",
+            "points": 200,
+            "options": [
+              "at tale med en voksen og deltage gradvist i hverdagen",
+              "at isolere sig helt",
+              "at skjule problemet i måneder",
+              "at stoppe med at spise"
+            ],
+            "correctIndex": 0,
+            "answer": "at tale med en voksen og deltage gradvist i hverdagen"
+          },
+          {
+            "id": "kp_efterskoleliv_13",
+            "category": "Hverdag og fællesskab",
+            "question": "Hvorfor har mange efterskoler regler om ro og sengetid?",
+            "points": 300,
+            "options": [
+              "for at sikre søvn og hensyn i et tæt fællesskab",
+              "for at afskaffe fritid",
+              "for at gøre undervisningen kortere",
+              "for at forhindre venskaber"
+            ],
+            "correctIndex": 0,
+            "answer": "for at sikre søvn og hensyn i et tæt fællesskab"
+          },
+          {
+            "id": "kp_efterskoleliv_14",
+            "category": "Hverdag og fællesskab",
+            "question": "Hvad er en vigtig grund til faste rengøringsopgaver?",
+            "points": 400,
+            "options": [
+              "fælles hygiejne og delt ansvar",
+              "at eleverne skal drive et rengøringsfirma",
+              "at lærere ikke må gøre rent",
+              "at erstatte alle fag"
+            ],
+            "correctIndex": 0,
+            "answer": "fælles hygiejne og delt ansvar"
+          },
+          {
+            "id": "kp_efterskoleliv_15",
+            "category": "Hverdag og fællesskab",
+            "question": "Hvordan bør personlige grænser på et delt værelse håndteres?",
+            "points": 500,
+            "options": [
+              "med tydelige aftaler og respekt",
+              "ved at tage hinandens ting frit",
+              "ved at ignorere privatliv",
+              "ved at stemme om personlig post"
+            ],
+            "correctIndex": 0,
+            "answer": "med tydelige aftaler og respekt"
+          },
+          {
+            "id": "kp_efterskoleliv_16",
+            "category": "Fag, prøver og elevdemokrati",
+            "question": "Hvad er FP9?",
+            "points": 100,
+            "options": [
+              "folkeskolens prøver efter 9. klasse",
+              "forstanderens pensionsordning",
+              "et niugers valgfag",
+              "en type elevværelse"
+            ],
+            "correctIndex": 0,
+            "answer": "folkeskolens prøver efter 9. klasse"
+          },
+          {
+            "id": "kp_efterskoleliv_17",
+            "category": "Fag, prøver og elevdemokrati",
+            "question": "Hvad er formålet med en mundtlig prøve?",
+            "points": 200,
+            "options": [
+              "at eleven viser faglig forståelse gennem fremlæggelse og samtale",
+              "at måle løbehastighed",
+              "at vælge værelseskammerat",
+              "at bestemme skolens værdier"
+            ],
+            "correctIndex": 0,
+            "answer": "at eleven viser faglig forståelse gennem fremlæggelse og samtale"
+          },
+          {
+            "id": "kp_efterskoleliv_18",
+            "category": "Fag, prøver og elevdemokrati",
+            "question": "Hvad er intern evaluering?",
+            "points": 300,
+            "options": [
+              "løbende vurdering og feedback inden for skolen",
+              "en national folkeafstemning",
+              "økonomisk revision alene",
+              "et valg til Folketinget"
+            ],
+            "correctIndex": 0,
+            "answer": "løbende vurdering og feedback inden for skolen"
+          },
+          {
+            "id": "kp_efterskoleliv_19",
+            "category": "Fag, prøver og elevdemokrati",
+            "question": "Hvad er formativ feedback?",
+            "points": 400,
+            "options": [
+              "feedback, der hjælper eleven videre i læreprocessen",
+              "en afsluttende karakter uden kommentar",
+              "en regel om sengetid",
+              "en besked om skolepenge"
+            ],
+            "correctIndex": 0,
+            "answer": "feedback, der hjælper eleven videre i læreprocessen"
+          },
+          {
+            "id": "kp_efterskoleliv_20",
+            "category": "Fag, prøver og elevdemokrati",
+            "question": "Hvad er summativ evaluering?",
+            "points": 500,
+            "options": [
+              "en afsluttende vurdering af et fagligt resultat",
+              "en uformel morgensamtale",
+              "en rengøringsopgave",
+              "et værelsesmøde"
+            ],
+            "correctIndex": 0,
+            "answer": "en afsluttende vurdering af et fagligt resultat"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "efterskoleliv_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_efterskoleliv"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_efterskoleliv",
+    "courseTitle": "20 spørgsmål fra professoren · Efterskoleliv",
+    "courseSessionIds": [
+      "session_professor_efterskoleliv"
+    ]
+  },
+  "warnings": []
+}

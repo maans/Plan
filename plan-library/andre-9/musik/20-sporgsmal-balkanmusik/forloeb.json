@@ -1,0 +1,1336 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.0",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T00:55:00.000Z",
+  "course": {
+    "id": "course_professor_balkanmusik",
+    "title": "20 spørgsmål fra professoren · Balkanmusik",
+    "subject": "Musik",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_balkanmusik"
+    ],
+    "exportedAt": "2026-07-06T00:55:00.000Z",
+    "sourceAppVersion": "1.0.0"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_balkanmusik",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Balkanmusik",
+      "theme": "dark",
+      "activeBoardId": "board_session_professor_balkanmusik_1",
+      "boardIds": [
+        "board_session_professor_balkanmusik_1",
+        "board_session_professor_balkanmusik_2",
+        "board_session_professor_balkanmusik_3",
+        "board_session_professor_balkanmusik_4",
+        "board_session_professor_balkanmusik_5",
+        "board_session_professor_balkanmusik_6",
+        "board_session_professor_balkanmusik_7"
+      ],
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_balkanmusik",
+        "courseTitle": "20 spørgsmål fra professoren · Balkanmusik",
+        "courseSubject": "Musik",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_balkanmusik"
+        ],
+        "courseSequenceVersion": 1,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/balkanmusik_20.csv",
+        "estimatedLessons": "2–4"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_session_professor_balkanmusik_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "Overblik · Balkanmusik",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_overview_intro",
+        "widget_session_professor_balkanmusik_overview_route",
+        "widget_session_professor_balkanmusik_overview_index"
+      ],
+      "layoutFamilyId": "professor-overview-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "sourceCsv": "balkanmusik_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_balkanmusik_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "1. Skæve taktarter og danse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_cat1_facts",
+        "widget_session_professor_balkanmusik_cat1_activity",
+        "widget_session_professor_balkanmusik_cat1_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Skæve taktarter og danse",
+        "sourceCsv": "balkanmusik_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_balkanmusik_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "2. Roma og musik på tværs",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_cat2_facts",
+        "widget_session_professor_balkanmusik_cat2_activity",
+        "widget_session_professor_balkanmusik_cat2_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Roma og musik på tværs",
+        "sourceCsv": "balkanmusik_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_balkanmusik_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "3. Instrumenter og ensembler",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_cat3_facts",
+        "widget_session_professor_balkanmusik_cat3_activity",
+        "widget_session_professor_balkanmusik_cat3_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Instrumenter og ensembler",
+        "sourceCsv": "balkanmusik_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_balkanmusik_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "4. Stilarter, sange og steder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_cat4_facts",
+        "widget_session_professor_balkanmusik_cat4_activity",
+        "widget_session_professor_balkanmusik_cat4_check"
+      ],
+      "layoutFamilyId": "professor-category-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "category": "Stilarter, sange og steder",
+        "sourceCsv": "balkanmusik_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_balkanmusik_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "6. Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_rehearsal_header",
+        "widget_session_professor_balkanmusik_rehearsal_1",
+        "widget_session_professor_balkanmusik_rehearsal_2",
+        "widget_session_professor_balkanmusik_rehearsal_3",
+        "widget_session_professor_balkanmusik_rehearsal_4"
+      ],
+      "layoutFamilyId": "professor-rehearsal-v1",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "rehearsal",
+        "sourceCsv": "balkanmusik_20.csv"
+      }
+    },
+    {
+      "id": "board_session_professor_balkanmusik_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_balkanmusik",
+      "title": "🎯 KaPardy · Balkanmusik",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_session_professor_balkanmusik_kapardy"
+      ],
+      "layoutFamilyId": "kapardy-v2",
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "meta": {
+        "lessonPart": "final",
+        "sourceCsv": "balkanmusik_20.csv",
+        "questionCount": 20
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_session_professor_balkanmusik_overview_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_1",
+      "type": "text",
+      "title": "Professorens invitation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 400,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nBALKANMUSIK\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_overview_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_1",
+      "type": "text",
+      "title": "Lektionsplan",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 400,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_overview_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 505,
+        "width": 1160,
+        "height": 300,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_session_professor_balkanmusik_1",
+          "board_session_professor_balkanmusik_2",
+          "board_session_professor_balkanmusik_3",
+          "board_session_professor_balkanmusik_4",
+          "board_session_professor_balkanmusik_5",
+          "board_session_professor_balkanmusik_6",
+          "board_session_professor_balkanmusik_7"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat1_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_2",
+      "type": "text",
+      "title": "Kernestof · Skæve taktarter og danse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · SKÆVE TAKTARTER OG DANSE\n\n1. Hvordan grupperes daichovo horo normalt i 9/8?\n   FACIT: 2+2+2+3\n\n2. Hvilken asymmetrisk taktart forbindes ofte med kopanitsa?\n   FACIT: 11/8\n\n3. Hvordan grupperes den almindelige 7/8-puls i lesnoto ofte?\n   FACIT: 3+2+2\n\n4. Hvilken taktart bruges ofte til pravo horo?\n   FACIT: 2/4\n\n5. Hvilken taktart forbindes stærkt med den græske solodans zeibekiko?\n   FACIT: 9/8\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_2",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nKlap og gå pulsen i 7/8, 9/8 og 11/8. Sig grupperingen højt, mens I klapper de lange og korte slag. Sammenlign med den lige 2/4-puls i pravo horo.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_2",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvordan grupperes daichovo horo normalt i 9/8?\n• Hvilken asymmetrisk taktart forbindes ofte med kopanitsa?\n• Hvordan grupperes den almindelige 7/8-puls i lesnoto ofte?\n• Hvilken taktart bruges ofte til pravo horo?\n• Hvilken taktart forbindes stærkt med den græske solodans zeibekiko?\n\nHUSKESYSTEM\nDaichovo 9/8 = 2+2+2+3; kopanitsa = 11/8; lesnoto 7/8 = 3+2+2; pravo = 2/4; zeibekiko = 9/8.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat2_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_3",
+      "type": "text",
+      "title": "Kernestof · Roma og musik på tværs",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · ROMA OG MUSIK PÅ TVÆRS\n\n1. Ved hvilke familiebegivenheder spiller romani brassbands en særlig vigtig rolle i Sydøstserbien?\n   FACIT: bryllupper\n\n2. Hvilken historisk ensembletype var med til at præge udviklingen af Balkan-brassbands?\n   FACIT: osmanniske militærorkestre\n\n3. I hvilket land ligger byen Guča, der er kendt for sin trompetfestival?\n   FACIT: Serbien\n\n4. Hvilket land kommer brassbandet Fanfare Ciocărlia fra?\n   FACIT: Rumænien\n\n5. Hvilken rumænsk landsby forbindes med ensemblet Taraf de Haïdouks?\n   FACIT: Clejani\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nTegn et musikalsk netværk frem for landegrænser: bryllupper, osmanniske militærorkestre, Guča, Rumænien og Clejani. Tal om musikere som formidlere på tværs.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_3",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Ved hvilke familiebegivenheder spiller romani brassbands en særlig vigtig rolle i Sydøstserbien?\n• Hvilken historisk ensembletype var med til at præge udviklingen af Balkan-brassbands?\n• I hvilket land ligger byen Guča, der er kendt for sin trompetfestival?\n• Hvilket land kommer brassbandet Fanfare Ciocărlia fra?\n• Hvilken rumænsk landsby forbindes med ensemblet Taraf de Haïdouks?\n\nHUSKESYSTEM\nBryllupper, osmanniske militærorkestre, Guča i Serbien, Fanfare Ciocărlia fra Rumænien og Taraf de Haïdouks fra Clejani.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat3_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_4",
+      "type": "text",
+      "title": "Kernestof · Instrumenter og ensembler",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · INSTRUMENTER OG ENSEMBLER\n\n1. Hvilket instrument er stærkt forbundet med græsk rebetiko?\n   FACIT: bouzouki\n\n2. Hvad er en baglamas i rebetiko-ensembler?\n   FACIT: en lille langhalset lut\n\n3. Hvordan frembringes lyden på et cimbalom eller țambal?\n   FACIT: strengene slås med små køller\n\n4. Hvor mange strenge har en traditionel çifteli normalt?\n   FACIT: to\n\n5. Hvilket instrument ledsager traditionelt albanske episke sange under navnet lahuta?\n   FACIT: et enstrenget strygeinstrument\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nSortér instrumenterne efter spillemåde: knipsede strenge, strøgne strenge og strenge slået med køller. Beskriv også størrelse og antal strenge.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_4",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket instrument er stærkt forbundet med græsk rebetiko?\n• Hvad er en baglamas i rebetiko-ensembler?\n• Hvordan frembringes lyden på et cimbalom eller țambal?\n• Hvor mange strenge har en traditionel çifteli normalt?\n• Hvilket instrument ledsager traditionelt albanske episke sange under navnet lahuta?\n\nHUSKESYSTEM\nBouzouki, lille baglamas, cimbalom/țambal med køller, tostrenget çifteli og enstrenget lahuta.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat4_facts",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_5",
+      "type": "text",
+      "title": "Kernestof · Stilarter, sange og steder",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 720,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS KERNESTOF · STILARTER, SANGE OG STEDER\n\n1. Hvad er ojkanje?\n   FACIT: en kroatisk tostemmig sangtradition fra det dalmatiske bagland\n\n2. Hvilket land fik den kollektive dans kolo optaget på UNESCOs repræsentative liste i 2017?\n   FACIT: Serbien\n\n3. I hvilket år kom rebetiko på UNESCOs repræsentative liste?\n   FACIT: 2017\n\n4. I hvilket år kom sevdalinka på UNESCOs repræsentative liste?\n   FACIT: 2024\n\n5. I hvilket år blev dalmatisk klapa-sang optaget på UNESCOs repræsentative liste?\n   FACIT: 2012\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 760,
+        "y": 85,
+        "width": 420,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE\n\nLav en UNESCO-tidslinje for klapa, kolo, rebetiko og sevdalinka. Placér ojkanje som sangtradition og forklar, hvorfor år og sted skal holdes præcist adskilt.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_5",
+      "type": "text",
+      "title": "Kontrol og huskesystem",
+      "geometry": {
+        "x": 760,
+        "y": 420,
+        "width": 420,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad er ojkanje?\n• Hvilket land fik den kollektive dans kolo optaget på UNESCOs repræsentative liste i 2017?\n• I hvilket år kom rebetiko på UNESCOs repræsentative liste?\n• I hvilket år kom sevdalinka på UNESCOs repræsentative liste?\n• I hvilket år blev dalmatisk klapa-sang optaget på UNESCOs repræsentative liste?\n\nHUSKESYSTEM\nOjkanje; kolo 2017; rebetiko 2017; sevdalinka 2024; klapa 2012.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_rehearsal_header",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_6",
+      "type": "text",
+      "title": "Sådan gør I",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 180,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-guide"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_rehearsal_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_6",
+      "type": "text",
+      "title": "Skæve taktarter og danse",
+      "geometry": {
+        "x": 20,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "SKÆVE TAKTARTER OG DANSE\n\n1. Hvordan grupperes daichovo horo normalt i 9/8?\n2. Hvilken asymmetrisk taktart forbindes ofte med kopanitsa?\n3. Hvordan grupperes den almindelige 7/8-puls i lesnoto ofte?\n4. Hvilken taktart bruges ofte til pravo horo?\n5. Hvilken taktart forbindes stærkt med den græske solodans zeibekiko?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_rehearsal_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_6",
+      "type": "text",
+      "title": "Roma og musik på tværs",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "ROMA OG MUSIK PÅ TVÆRS\n\n1. Ved hvilke familiebegivenheder spiller romani brassbands en særlig vigtig rolle i Sydøstserbien?\n2. Hvilken historisk ensembletype var med til at præge udviklingen af Balkan-brassbands?\n3. I hvilket land ligger byen Guča, der er kendt for sin trompetfestival?\n4. Hvilket land kommer brassbandet Fanfare Ciocărlia fra?\n5. Hvilken rumænsk landsby forbindes med ensemblet Taraf de Haïdouks?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_rehearsal_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_6",
+      "type": "text",
+      "title": "Instrumenter og ensembler",
+      "geometry": {
+        "x": 20,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "INSTRUMENTER OG ENSEMBLER\n\n1. Hvilket instrument er stærkt forbundet med græsk rebetiko?\n2. Hvad er en baglamas i rebetiko-ensembler?\n3. Hvordan frembringes lyden på et cimbalom eller țambal?\n4. Hvor mange strenge har en traditionel çifteli normalt?\n5. Hvilket instrument ledsager traditionelt albanske episke sange under navnet lahuta?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_rehearsal_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_6",
+      "type": "text",
+      "title": "Stilarter, sange og steder",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 560,
+        "height": 225,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "STILARTER, SANGE OG STEDER\n\n1. Hvad er ojkanje?\n2. Hvilket land fik den kollektive dans kolo optaget på UNESCOs repræsentative liste i 2017?\n3. I hvilket år kom rebetiko på UNESCOs repræsentative liste?\n4. I hvilket år kom sevdalinka på UNESCOs repræsentative liste?\n5. I hvilket år blev dalmatisk klapa-sang optaget på UNESCOs repræsentative liste?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
+        "fontSize": 13,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "rehearsal-category"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_session_professor_balkanmusik_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_session_professor_balkanmusik_7",
+      "type": "kapardy",
+      "title": "KaPardy · Balkanmusik",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_balkanmusik_20",
+        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_balkanmusik_01",
+            "category": "Skæve taktarter og danse",
+            "question": "Hvordan grupperes daichovo horo normalt i 9/8?",
+            "points": 100,
+            "options": [
+              "2+2+2+3",
+              "3+3+3",
+              "2+3+2+2",
+              "4+2+3"
+            ],
+            "correctIndex": 0,
+            "answer": "2+2+2+3"
+          },
+          {
+            "id": "kp_balkanmusik_02",
+            "category": "Skæve taktarter og danse",
+            "question": "Hvilken asymmetrisk taktart forbindes ofte med kopanitsa?",
+            "points": 200,
+            "options": [
+              "11/8",
+              "7/8",
+              "9/8",
+              "13/8"
+            ],
+            "correctIndex": 0,
+            "answer": "11/8"
+          },
+          {
+            "id": "kp_balkanmusik_03",
+            "category": "Skæve taktarter og danse",
+            "question": "Hvordan grupperes den almindelige 7/8-puls i lesnoto ofte?",
+            "points": 300,
+            "options": [
+              "3+2+2",
+              "2+2+3",
+              "2+3+2",
+              "4+3"
+            ],
+            "correctIndex": 0,
+            "answer": "3+2+2"
+          },
+          {
+            "id": "kp_balkanmusik_04",
+            "category": "Skæve taktarter og danse",
+            "question": "Hvilken taktart bruges ofte til pravo horo?",
+            "points": 400,
+            "options": [
+              "2/4",
+              "5/8",
+              "7/8",
+              "11/8"
+            ],
+            "correctIndex": 0,
+            "answer": "2/4"
+          },
+          {
+            "id": "kp_balkanmusik_05",
+            "category": "Skæve taktarter og danse",
+            "question": "Hvilken taktart forbindes stærkt med den græske solodans zeibekiko?",
+            "points": 500,
+            "options": [
+              "9/8",
+              "4/4",
+              "6/8",
+              "7/8"
+            ],
+            "correctIndex": 0,
+            "answer": "9/8"
+          },
+          {
+            "id": "kp_balkanmusik_06",
+            "category": "Roma og musik på tværs",
+            "question": "Ved hvilke familiebegivenheder spiller romani brassbands en særlig vigtig rolle i Sydøstserbien?",
+            "points": 100,
+            "options": [
+              "bryllupper",
+              "skoleeksamener",
+              "sportsfinaler",
+              "parlamentsåbninger"
+            ],
+            "correctIndex": 0,
+            "answer": "bryllupper"
+          },
+          {
+            "id": "kp_balkanmusik_07",
+            "category": "Roma og musik på tværs",
+            "question": "Hvilken historisk ensembletype var med til at præge udviklingen af Balkan-brassbands?",
+            "points": 200,
+            "options": [
+              "osmanniske militærorkestre",
+              "barokke strygekvartetter",
+              "gregorianske kor",
+              "skotske sækkepibebands"
+            ],
+            "correctIndex": 0,
+            "answer": "osmanniske militærorkestre"
+          },
+          {
+            "id": "kp_balkanmusik_08",
+            "category": "Roma og musik på tværs",
+            "question": "I hvilket land ligger byen Guča, der er kendt for sin trompetfestival?",
+            "points": 300,
+            "options": [
+              "Serbien",
+              "Rumænien",
+              "Albanien",
+              "Grækenland"
+            ],
+            "correctIndex": 0,
+            "answer": "Serbien"
+          },
+          {
+            "id": "kp_balkanmusik_09",
+            "category": "Roma og musik på tværs",
+            "question": "Hvilket land kommer brassbandet Fanfare Ciocărlia fra?",
+            "points": 400,
+            "options": [
+              "Rumænien",
+              "Serbien",
+              "Bulgarien",
+              "Kroatien"
+            ],
+            "correctIndex": 0,
+            "answer": "Rumænien"
+          },
+          {
+            "id": "kp_balkanmusik_10",
+            "category": "Roma og musik på tværs",
+            "question": "Hvilken rumænsk landsby forbindes med ensemblet Taraf de Haïdouks?",
+            "points": 500,
+            "options": [
+              "Clejani",
+              "Guča",
+              "Bistritsa",
+              "Kalamata"
+            ],
+            "correctIndex": 0,
+            "answer": "Clejani"
+          },
+          {
+            "id": "kp_balkanmusik_11",
+            "category": "Instrumenter og ensembler",
+            "question": "Hvilket instrument er stærkt forbundet med græsk rebetiko?",
+            "points": 100,
+            "options": [
+              "bouzouki",
+              "gaida",
+              "tapan",
+              "nai"
+            ],
+            "correctIndex": 0,
+            "answer": "bouzouki"
+          },
+          {
+            "id": "kp_balkanmusik_12",
+            "category": "Instrumenter og ensembler",
+            "question": "Hvad er en baglamas i rebetiko-ensembler?",
+            "points": 200,
+            "options": [
+              "en lille langhalset lut",
+              "en stor bastromme",
+              "en panfløjte",
+              "en metalblæser"
+            ],
+            "correctIndex": 0,
+            "answer": "en lille langhalset lut"
+          },
+          {
+            "id": "kp_balkanmusik_13",
+            "category": "Instrumenter og ensembler",
+            "question": "Hvordan frembringes lyden på et cimbalom eller țambal?",
+            "points": 300,
+            "options": [
+              "strengene slås med små køller",
+              "luft blæses gennem en sæk",
+              "en bue stryger én streng",
+              "et skind gnides med hånden"
+            ],
+            "correctIndex": 0,
+            "answer": "strengene slås med små køller"
+          },
+          {
+            "id": "kp_balkanmusik_14",
+            "category": "Instrumenter og ensembler",
+            "question": "Hvor mange strenge har en traditionel çifteli normalt?",
+            "points": 400,
+            "options": [
+              "to",
+              "én",
+              "fire",
+              "otte"
+            ],
+            "correctIndex": 0,
+            "answer": "to"
+          },
+          {
+            "id": "kp_balkanmusik_15",
+            "category": "Instrumenter og ensembler",
+            "question": "Hvilket instrument ledsager traditionelt albanske episke sange under navnet lahuta?",
+            "points": 500,
+            "options": [
+              "et enstrenget strygeinstrument",
+              "en stor kobberkedel",
+              "en endeblæst fløjte",
+              "en rammetromme"
+            ],
+            "correctIndex": 0,
+            "answer": "et enstrenget strygeinstrument"
+          },
+          {
+            "id": "kp_balkanmusik_16",
+            "category": "Stilarter, sange og steder",
+            "question": "Hvad er ojkanje?",
+            "points": 100,
+            "options": [
+              "en kroatisk tostemmig sangtradition fra det dalmatiske bagland",
+              "en græsk luttetype",
+              "en rumænsk kredsdans",
+              "en bulgarsk trompetfestival"
+            ],
+            "correctIndex": 0,
+            "answer": "en kroatisk tostemmig sangtradition fra det dalmatiske bagland"
+          },
+          {
+            "id": "kp_balkanmusik_17",
+            "category": "Stilarter, sange og steder",
+            "question": "Hvilket land fik den kollektive dans kolo optaget på UNESCOs repræsentative liste i 2017?",
+            "points": 200,
+            "options": [
+              "Serbien",
+              "Albanien",
+              "Rumænien",
+              "Tyrkiet"
+            ],
+            "correctIndex": 0,
+            "answer": "Serbien"
+          },
+          {
+            "id": "kp_balkanmusik_18",
+            "category": "Stilarter, sange og steder",
+            "question": "I hvilket år kom rebetiko på UNESCOs repræsentative liste?",
+            "points": 300,
+            "options": [
+              "2017",
+              "2003",
+              "2012",
+              "2024"
+            ],
+            "correctIndex": 0,
+            "answer": "2017"
+          },
+          {
+            "id": "kp_balkanmusik_19",
+            "category": "Stilarter, sange og steder",
+            "question": "I hvilket år kom sevdalinka på UNESCOs repræsentative liste?",
+            "points": 400,
+            "options": [
+              "2024",
+              "2008",
+              "2012",
+              "2017"
+            ],
+            "correctIndex": 0,
+            "answer": "2024"
+          },
+          {
+            "id": "kp_balkanmusik_20",
+            "category": "Stilarter, sange og steder",
+            "question": "I hvilket år blev dalmatisk klapa-sang optaget på UNESCOs repræsentative liste?",
+            "points": 500,
+            "options": [
+              "2012",
+              "2005",
+              "2017",
+              "2024"
+            ],
+            "correctIndex": 0,
+            "answer": "2012"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selected": null,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceName": "balkanmusik_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T00:55:00.000Z",
+      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_balkanmusik"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 21,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_balkanmusik",
+    "courseTitle": "20 spørgsmål fra professoren · Balkanmusik",
+    "courseSessionIds": [
+      "session_professor_balkanmusik"
+    ]
+  },
+  "warnings": []
+}
