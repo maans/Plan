@@ -1,11 +1,21 @@
-# Fællessamlinger · årsforløb 2026–27
+# Fællessamlinger · skoleåret 2026–27
 
-Et helt skoleårs fælles samlinger og fællestimer, organiseret som 31 sessioner i kronologisk rækkefølge. Forløbet rummer blandt andet skolestart, efterskolernes historie, verdenskrigene, demokrati, natur, idrætshistorie, musik, store taler og afslutning på skoleåret.
+Et samlet forløb til årets fællessamlinger. Forløbet samler ugens temaer, datoer, sang- og samtaleoplæg, korte kildeaktiviteter og små KaPardy-afslutninger, så samlingerne kan bruges direkte i hverdagen.
 
-- **Sessioner:** 31
-- **Tavler:** 428
-- **Widgets:** 1189
-- **Datasæt:** 192
-- **Medier:** 126
+Forløbet er bygget til læreren, der hurtigt vil:
 
-Pakken er konverteret til en rigtig `tavle-next-course-package`, så Plan kan hente den direkte fra demobiblioteket og oprette den som et nyt, adskilt undervisningsforløb.
+- finde næste fællessamling i årshjulet
+- se hvad temaet handler om
+- åbne relevante kilder og billeder
+- samle eleverne om et kort spørgsmål, en sang eller en samtale
+- afslutte med en lille KaPardy-runde, når det passer
+
+## Sådan bruger du forløbet
+
+1. Åbn den uge eller samling, du skal bruge.
+2. Start med overblikstavlen og vælg den konkrete dato.
+3. Brug fortællingstavlen til de vigtigste pointer.
+4. Brug kildetavlen, hvis eleverne skal arbejde med billeder, tekst, lyd eller lokale spor.
+5. Slut eventuelt med KaPardy som fælles repetition.
+
+Forløbet kan frit tilpasses. Slet, ret og flyt tavler, så de passer til årets faktiske fællessamlinger, ansvarlige lærere og lokale aftaler.

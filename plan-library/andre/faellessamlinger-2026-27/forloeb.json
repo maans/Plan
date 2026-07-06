@@ -14455,7 +14455,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-01-aarsplan-og-alle-sessioner_1",
       "type": "text",
-      "title": "Referenceforløb · sådan bruges sessionen",
+      "title": "Sådan bruges fællessamlingsforløbet",
       "geometry": {
         "x": 20,
         "y": 610,
@@ -14465,7 +14465,7 @@
         "z": 1
       },
       "content": {
-        "text": "REFERENCEFORLØB · HISTORIE 9. KLASSE\n126 samlinger · 126 KaPardy-spil\n\n1. Fortælling og fem kontrollerbare fakta.\n2. Kildearbejde og historiebrug.\n3. KaPardy med spørgsmål til samlingen.\n\nFAGLIGT: Kronologi · kildearbejde · historiebrug. Kanonpunkter og opdateringskrav står på tavlerne og i den fælles matrice.\n\nKILDER: Originaler, myndigheder, museer og forskning først. Wikipedia er kun orientering.",
+        "text": "FÆLLESSAMLINGER · SKOLEÅRET 2026–27\n\nHer ligger årets fællessamlinger samlet som et levende årshjul. Brug forløbet som en praktisk kalender: vælg en uge, åbn den samling du skal bruge, og tilpas den til dagens virkelighed.\n\nHver faglig samling er bygget op på samme måde:\n1. Hvad skal eleverne møde i fortællingen?\n2. Hvilke få fakta skal stå klart bagefter?\n3. Hvilke kilder, billeder, sange eller steder kan gøre stoffet konkret?\n4. Hvilke spørgsmål kan bruges til samtale eller KaPardy?\n\nRet gerne ansvarlige, datoer, sange og lokale detaljer. Det vigtigste er, at samlingen bliver levende for det aktuelle elevhold.",
         "fontSize": 13,
         "align": "left"
       },
@@ -14478,7 +14478,7 @@
         "layoutRole": "guide"
       },
       "createdAt": "2026-06-24T22:43:07.368Z",
-      "updatedAt": "2026-06-24T22:43:07.368Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-01-aarsplan-og-alle-sessioner-00-overblik-reference",
@@ -14842,116 +14842,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvilken kildetype fortæller bedst, hvad skolen officielt ønsker at være i dag?",
-            "answer": "Skolens egen hjemmeside og værdigrundlag",
+            "category": "Navn og kilder",
+            "question": "Hvilket tidligere navn skal man også søge på, når man leder efter skolens historie?",
+            "answer": "Himmerlands Ungdomsskole",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Skolens egen hjemmeside og værdigrundlag",
-              "En senere genfortælling, der ikke kan spores tilbage til samtidige kilder",
-              "Et enkelt løsrevet billede eller citat uden proveniens og sammenhæng",
-              "En nutidig kommentar, der ikke skelner mellem fakta og vurdering"
+              "Himmerlands Ungdomsskole",
+              "Himmerlands Universitet",
+              "Havbro Handelsskole",
+              "Aars Akademi"
             ],
-            "id": "kp_hus-historie_01"
+            "id": "kp_hu_hist_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvilken kilde kan dokumentere beslutninger fra et bestemt år?",
-            "answer": "Daterede referater eller protokoller",
+            "category": "Navneskift",
+            "question": "Hvad ændrer et skolenavneskift først og fremmest i en historisk undersøgelse?",
+            "answer": "Søgeord, præsentation og måde skolen fortæller sig selv på",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Daterede referater eller protokoller",
-              "En anonym påstand, som kun gentages i andre sekundære fremstillinger",
-              "Et udateret opslag uden tydelig afsender eller kildehenvisning",
-              "Et enkelt løsrevet billede eller citat uden proveniens og sammenhæng"
+              "Søgeord, præsentation og måde skolen fortæller sig selv på",
+              "At alle gamle kilder bliver ugyldige",
+              "At skolens historie starter forfra",
+              "At billeder ikke længere kan bruges"
             ],
-            "id": "kp_hus-historie_02"
+            "id": "kp_hu_hist_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad er styrken ved et interview med en tidligere elev?",
-            "answer": "Det giver oplevelser og erindringer indefra",
+            "category": "Kildetyper",
+            "question": "Hvilken kilde er særlig god til skolens egen samtidige fortælling om et skoleår?",
+            "answer": "Årsskrift eller jubilæumsskrift",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Det giver oplevelser og erindringer indefra",
-              "Den kan sammenholdes med dokumenterede virkninger",
-              "Den har ingen praktisk betydning uden for symbolikken",
-              "Den virker kun fordi alle andre muligheder var forbudt"
+              "Årsskrift eller jubilæumsskrift",
+              "En tilfældig kommentar uden dato",
+              "En løs huskeregel uden afsender",
+              "Et billede uden sted eller år"
             ],
-            "id": "kp_hus-historie_03"
+            "id": "kp_hu_hist_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad er svagheden ved erindringer?",
-            "answer": "De er selektive og præget af tiden efter begivenheden",
+            "category": "Mundtlig historie",
+            "question": "Hvordan bør man bruge minder fra tidligere elever eller medarbejdere?",
+            "answer": "Som værdifulde erindringer, der placeres i tid og sammenholdes med andre kilder",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "De er selektive og præget af tiden efter begivenheden",
-              "Den kan vurderes uden at kende situationen",
-              "Den kan medføre repressalier, skade eller utilsigtede følger",
-              "Den er risikofri når formålet er godt"
+              "Som værdifulde erindringer, der placeres i tid og sammenholdes med andre kilder",
+              "Som beviser der aldrig behøver kontrol",
+              "Som noget der altid er mindre værd end billeder",
+              "Som erstatning for alle dokumenter"
             ],
-            "id": "kp_hus-historie_04"
+            "id": "kp_hu_hist_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad gør en lokal fortælling historisk troværdig?",
-            "answer": "At påstande knyttes til navngivne, daterede kilder",
+            "category": "Historiebrug",
+            "question": "Hvad viser en moderne hjemmeside især?",
+            "answer": "Hvordan skolen ønsker at præsentere sig i dag",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "At påstande knyttes til navngivne, daterede kilder",
-              "At erstatte fællessang med individuel bedømmelse",
-              "At forklare en sangs baggrund kort",
-              "At angive toneart, tempo og tydelige indsatser"
+              "Hvordan skolen ønsker at præsentere sig i dag",
+              "Præcis hvad alle elever mente for 50 år siden",
+              "Alle detaljer i skolens regnskaber",
+              "Den eneste korrekte fortolkning af fortiden"
             ],
-            "id": "kp_hus-historie_05"
+            "id": "kp_hu_hist_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger HUs historie?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Lokalhistorie",
+            "question": "Hvorfor er lokalhistoriske PDF’er og årsskrifter nyttige?",
+            "answer": "De kan samle fotos, navne, steder og samtidige beskrivelser",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "De kan samle fotos, navne, steder og samtidige beskrivelser",
+              "De gør interviews overflødige",
+              "De beviser altid én bestemt holdning",
+              "De handler kun om bygninger"
             ],
-            "id": "kp_hus-historie_06"
+            "id": "kp_hu_hist_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om HUs historie helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Skolefortælling",
+            "question": "Hvad gør en skolehistorie troværdig?",
+            "answer": "Den skelner mellem fakta, erindring og fortolkning",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Den skelner mellem fakta, erindring og fortolkning",
+              "Den bruger kun flotte formuleringer",
+              "Den undgår årstal og kilder",
+              "Den nævner kun nutiden"
             ],
-            "id": "kp_hus-historie_07"
+            "id": "kp_hu_hist_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan HUs historie bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Kontinuitet",
+            "question": "Hvad kan man undersøge for at se, hvad der fortsætter gennem skolens historie?",
+            "answer": "Værdier, hverdagsformer, fællesskaber og steder",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Værdier, hverdagsformer, fællesskaber og steder",
+              "Kun logoets farve",
+              "Kun om bygningerne er malet",
+              "Kun elevtal i én uge"
             ],
-            "id": "kp_hus-historie_08"
+            "id": "kp_hu_hist_08"
           }
         ],
         "current": 0,
@@ -14969,7 +14969,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.377Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-03-hus-historie-kapardy-game",
@@ -15913,7 +15913,7 @@
         "z": 1
       },
       "content": {
-        "text": "INTRO TIL EFTERSKOLESANGBOGEN\nTirsdag 18/8\n\nHISTORISK PROBLEMSTILLING\nHvordan kan en sangbog være både kulturhistorie, fælles hukommelse og noget, et nyt elevhold selv gør levende?\n\nFEM FAKTA, DER SKAL FREM\n1. Efterskoleforeningen\n   Efterskolesangbogen udgives i efterskoleverdenen som en fælles sangbog for skolerne.\n2. Den bliver en fælles fortolkning\n   Fællessang er ikke kun gengivelse: tempo, betoning og situation gør teksten til en fælles fortolkning.\n3. Tekstforfatter og komponist\n   Tekstforfatter, komponist og årstal hjælper med at placere sangen historisk.\n4. Fordi fællesskabets repertoire og værdier ændrer sig\n   Nye udgaver afspejler både tradition og ændringer i sprog, samfund og musikliv.\n5. Kilden fortæller om sin tid; praksissen viser, hvordan vi bruger den nu\n   En sangtekst kan undersøges som historisk kilde, mens selve fællessangen er nutidig historiebrug.\n\nKONKLUSION\nSangbogen bliver stærkest, når eleverne både kender sangenes baggrund og oplever, at deres egen stemme har betydning i fællesskabet.",
+        "text": "INTRO TIL EFTERSKOLESANGBOGEN\nTirsdag 18/8 · JH\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan en sangbog være både kulturhistorie, fælles hukommelse og noget, et nyt elevhold selv gør levende?\n\nDET SKAL ELEVERNE HAVE MED\n1. Efterskolesangbogen er ikke bare en tekstsamling, men et fælles repertoire for efterskoler.\n2. Når en sang står i en sangbog, er den valgt til et fællesskab – og valget fortæller noget om tid, værdier og brug.\n3. En sang har mindst tre historier: teksten, melodien og de situationer, hvor mennesker synger den.\n4. Fællessang er både kulturarv og nutidig praksis. Den findes først rigtigt, når nogen synger.\n5. Et nyt elevhold arver ikke bare sangene; de giver dem ny betydning gennem årets oplevelser.\n\nELEVOPGAVE\nVælg én sang. Find tekstforfatter, komponist og tidspunkt. Hvad i sangen kan stadig samle et fællesskab i dag?",
         "fontSize": 17,
         "align": "left"
       },
@@ -15926,7 +15926,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.369Z",
-      "updatedAt": "2026-06-24T22:43:07.369Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-ddf35141-faglig",
@@ -16131,9 +16131,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.google.com/search?q=site%3Aefterskolerne.dk+efterskolesangbogen+Intro+til+Efterskolesangbogen",
-        "label": "Efterskole- og højskolebevægelsen · målrettet søgning: efterskolesangbogen",
-        "note": "Målrettet søgning på efterskolerne.dk. Åbn den konkrete institutionsside og kontrollér dato, afsender og dokumenttype.",
+        "url": "https://himmerlandsefterskole.dk/sangtimer/",
+        "label": "Sangtimer på Himmerlands Efterskole",
+        "note": "Brug skolens sangtime-side som lokal ramme og suppler med den konkrete sangbog og de sange, der faktisk synges.",
         "view": "link",
         "datasetId": "ds_faellessamling-26-27-02-skolestart-sangbog-og-hu_2"
       },
@@ -16146,7 +16146,7 @@
         "layoutRole": "links"
       },
       "createdAt": "2026-06-24T22:43:07.373Z",
-      "updatedAt": "2026-06-24T22:43:07.373Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "link",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-ddf35141-links",
@@ -16166,7 +16166,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-02-skolestart-sangbog-og-hu_3",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · Efterskolesangbogen",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -16176,7 +16176,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Efterskoleforeningen\n2. Den bliver en fælles fortolkning\n3. Tekstforfatter og komponist\n4. Fordi fællesskabets repertoire og værdier ændrer sig\n5. Kilden fortæller om sin tid; praksissen viser, hvordan vi bruger den nu",
+        "text": "KERNESVAR TIL OPSAMLING\n1. En sangbog samler et repertoire, som skolen kan dele på tværs af klasser og årgange.\n2. Tekst, melodi og brugssituation skal undersøges sammen.\n3. En sang kan være gammel og samtidig få ny betydning i et aktuelt fællesskab.\n4. Sangvalg viser noget om værdier, traditioner og det fællesskab, man ønsker at skabe.\n5. Den bedste kilde er ikke kun en løs tekst på nettet, men en udgave med oplysninger om forfatter, komponist og sammenhæng.",
         "fontSize": 14,
         "align": "left"
       },
@@ -16189,7 +16189,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.373Z",
-      "updatedAt": "2026-06-24T22:43:07.373Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-ddf35141-kernersvar",
@@ -16233,116 +16233,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvem udgiver Efterskolesangbogen?",
-            "answer": "Efterskoleforeningen",
+            "category": "Sangbog og fællesskab",
+            "question": "Hvad er en sangbog først og fremmest i en efterskolesammenhæng?",
+            "answer": "Et fælles repertoire, skolen kan synge ud fra",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Efterskoleforeningen",
-              "Folkehøjskolen",
-              "Folkekirken",
-              "Sangbogens redaktion"
+              "Et fælles repertoire, skolen kan synge ud fra",
+              "En privat dagbog for den enkelte elev",
+              "En liste over sange, der kun må læses stille",
+              "En karakterbog for musikundervisningen"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_01"
+            "id": "kp_efsang_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad sker der med en sangtekst, når en hel skole synger den?",
-            "answer": "Den bliver en fælles fortolkning",
+            "category": "Sangens spor",
+            "question": "Hvilke tre spor er gode at undersøge, når man arbejder med en sang?",
+            "answer": "Tekst, melodi og brugssituation",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Den bliver en fælles fortolkning",
-              "Publikum modtog musikken uden selv at forme kulturen",
-              "Kommerciel succes fjernede alle lokale forskelle",
-              "Genren blev opfundet på én bestemt dag af én person"
+              "Tekst, melodi og brugssituation",
+              "Papirkvalitet, sidetal og trykfarve",
+              "Kun titel, tempo og længde",
+              "Kun hvem der sang højest"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_02"
+            "id": "kp_efsang_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvilke to slags oplysninger bør eleverne altid lede efter ved en sang?",
-            "answer": "Tekstforfatter og komponist",
+            "category": "Kildearbejde",
+            "question": "Hvorfor er en dateret sangbogsudgave en stærkere kilde end en løs tekst på nettet?",
+            "answer": "Den viser udgave, sammenhæng og redaktionelt valg",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Tekstforfatter og komponist",
-              "Musikalske rødder, teknologi og fællesskab",
-              "Publikum uden indflydelse på genren",
-              "En enkelt opfinders færdige stil"
+              "Den viser udgave, sammenhæng og redaktionelt valg",
+              "Den gør automatisk alle fortolkninger rigtige",
+              "Den viser altid komponistens private dagbog",
+              "Den beviser, at sangen aldrig har ændret betydning"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_03"
+            "id": "kp_efsang_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvorfor ændrer sangbøger sig fra udgave til udgave?",
-            "answer": "Fordi fællesskabets repertoire og værdier ændrer sig",
+            "category": "Tradition og nutid",
+            "question": "Hvad sker der, når et nyt elevhold synger en ældre sang?",
+            "answer": "Sangen får ny brug og ny betydning i årets fællesskab",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Fordi fællesskabets repertoire og værdier ændrer sig",
-              "Fordi ophav og rettigheder har betydning når tidligere lyd bruges igen",
-              "Fordi genren opstod uden forbindelse til ældre musik",
-              "Fordi musiktraditioner blev blandet gennem migration og møder"
+              "Sangen får ny brug og ny betydning i årets fællesskab",
+              "Sangen holder op med at være historisk",
+              "Melodien bliver automatisk moderne",
+              "Alle oplever sangen på præcis samme måde"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_04"
+            "id": "kp_efsang_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er forskellen på en sang som kilde og en sang som levet praksis?",
-            "answer": "Kilden fortæller om sin tid; praksissen viser, hvordan vi bruger den nu",
+            "category": "Valg af sange",
+            "question": "Hvad kan sangvalg i en sangbog fortælle om?",
+            "answer": "Hvilke værdier og fællesskaber man ønsker at synge frem",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Kilden fortæller om sin tid; praksissen viser, hvordan vi bruger den nu",
-              "Den første er en samtidig kilde, den anden en senere fortolkning",
-              "Der er ingen reel forskel; ordene dækker præcis det samme",
-              "Den første beskriver idealet, den anden den faktiske praksis"
+              "Hvilke værdier og fællesskaber man ønsker at synge frem",
+              "Hvor mange elever der kan spille guitar",
+              "Hvilke sange der er forbudt uden for skolen",
+              "Hvilken side der er mest populær i trykkeriet"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_05"
+            "id": "kp_efsang_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Intro til Efterskolesangbogen?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Analyse",
+            "question": "Hvad bør man spørge om, når man vælger en sang til fællessang?",
+            "answer": "Hvad teksten, melodien og situationen kan gøre sammen",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Hvad teksten, melodien og situationen kan gøre sammen",
+              "Om sangen kun kan synges af professionelle",
+              "Om alle ord kan fjernes uden betydning",
+              "Om sangen har flest mulige vers"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_06"
+            "id": "kp_efsang_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Intro til Efterskolesangbogen helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Fælles hukommelse",
+            "question": "Hvordan kan en sang blive en del af et skoleårs hukommelse?",
+            "answer": "Ved at blive sunget i konkrete situationer, som eleverne husker",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Ved at blive sunget i konkrete situationer, som eleverne husker",
+              "Ved kun at stå i et arkiv uden at blive brugt",
+              "Ved at læreren læser titlen højt én gang",
+              "Ved at melodien erstattes af en prøve"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_07"
+            "id": "kp_efsang_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Intro til Efterskolesangbogen bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "God praksis",
+            "question": "Hvad er en god måde at introducere en ny sang på?",
+            "answer": "Giv kort baggrund, tydelig puls og plads til at prøve",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Giv kort baggrund, tydelig puls og plads til at prøve",
+              "Start uden tekst, toneart eller fælles begyndelse",
+              "Forklar alt historisk stof i 45 minutter før første tone",
+              "Lad kun de sikre sangere deltage"
             ],
-            "id": "kp_intro-til-efterskolesangbogen_08"
+            "id": "kp_efsang_08"
           }
         ],
         "current": 0,
@@ -16360,7 +16360,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.373Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-01-intro-til-efterskolesang-kapardy-game",
@@ -16390,7 +16390,7 @@
         "z": 1
       },
       "content": {
-        "text": "SANGTIME\nOnsdag 19/8\n\nHISTORISK PROBLEMSTILLING\nHvorfor kan det at synge sammen skabe et fællesskab, selv når deltagerne ikke kender hinanden endnu?\n\nFEM FAKTA, DER SKAL FREM\n1. En fælles puls og et fælles begyndelsespunkt\n   Fælles puls, indånding og begyndelse gør mange individuelle stemmer til én musikalsk handling.\n2. Fordi alle deler de samme ord samtidig\n   Når alle siger de samme ord samtidig, bliver teksten både personlig og offentlig.\n3. Toneart, tempo og tydelige indsatser\n   En tydelig toneart, et passende tempo og sikre indsatser gør det lettere for hele salen at deltage.\n4. Baggrunden giver teksten retning\n   En kort fortælling om sangens situation eller nøglelinje kan åbne teksten uden at forklare den ihjel.\n5. At flere tør deltage, ikke at alle synger perfekt\n   Fællessang måles først og fremmest på deltagelse og fælles nærvær – ikke solistisk perfektion.\n\nKONKLUSION\nSangtimens mål er ikke at udpege de bedste stemmer, men at skabe en tryg fælles lyd, hvor alle kan bidrage.",
+        "text": "SANGTIME\nOnsdag 19/8 · JH\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor kan det at synge sammen skabe et fællesskab, selv når deltagerne ikke kender hinanden endnu?\n\nDET SKAL ELEVERNE HAVE MED\n1. Fællessang kræver en fælles puls, et fælles begyndelsespunkt og en fælles opmærksomhed.\n2. Man behøver ikke synge perfekt for at bidrage. Deltagelse er vigtigere end præstation.\n3. Sange virker gennem tekst, melodi, rytme, gentagelse og den situation, de synges i.\n4. Forsanger, akkompagnement og tydelige indsatser hjælper fællesskabet i gang.\n5. Sang kan både skabe fælles stemning og give plads til forskellighed: man synger samme sang, men oplever den ikke nødvendigvis ens.\n\nPRAKTISK GREB\nSyng samme vers to gange: først forsigtigt og derefter med tydelig puls, vejrtrækning og fælles begyndelse. Tal kort om forskellen.",
         "fontSize": 17,
         "align": "left"
       },
@@ -16403,7 +16403,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.373Z",
-      "updatedAt": "2026-06-24T22:43:07.373Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-804bffe3-faglig",
@@ -16643,7 +16643,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-02-skolestart-sangbog-og-hu_6",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · Sangtime",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -16653,7 +16653,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. En fælles puls og et fælles begyndelsespunkt\n2. Fordi alle deler de samme ord samtidig\n3. Toneart, tempo og tydelige indsatser\n4. Baggrunden giver teksten retning\n5. At flere tør deltage, ikke at alle synger perfekt",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Fælles puls, tekst og begyndelse gør det muligt at handle samtidig.\n2. Deltagelse betyder mere end solistisk præcision.\n3. Musikalske valg som tempo, toneart, dynamik og akkompagnement ændrer oplevelsen.\n4. En sangtekst bliver stærkere, når man kender noget til dens baggrund og brug.\n5. Fællessang skaber ikke automatisk fællesskab; den skal ledes trygt og åbent.",
         "fontSize": 14,
         "align": "left"
       },
@@ -16666,7 +16666,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.375Z",
-      "updatedAt": "2026-06-24T22:43:07.375Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-804bffe3-kernersvar",
@@ -16710,114 +16710,114 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad skal være fælles, før fællessang kan fungere?",
-            "answer": "En fælles puls og et fælles begyndelsespunkt",
+            "category": "Starten",
+            "question": "Hvad skal være tydeligt, før fællessang kan begynde trygt?",
+            "answer": "Puls, toneart og begyndelsestegn",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "En fælles puls og et fælles begyndelsespunkt",
-              "En afslutning uden tegn fra forsanger eller dirigent",
-              "En fast lydstyrke uden dynamik",
-              "En fælles tekst, men ikke nødvendigvis samme stemme"
+              "Puls, toneart og begyndelsestegn",
+              "Hvem der synger forkert",
+              "Hvilken elev der synger højest",
+              "Hvor hurtigt sangen kan overstås"
             ],
             "id": "kp_sangtime_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvorfor er teksten central i fællessang?",
-            "answer": "Fordi alle deler de samme ord samtidig",
+            "category": "Deltagelse",
+            "question": "Hvad er vigtigst i en almindelig sangtime?",
+            "answer": "At flest muligt tør være med",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Fordi alle deler de samme ord samtidig",
-              "Fordi alle skal fortolke ordene på præcis samme måde",
-              "Fordi melodien bliver overflødig når ordene er fælles",
-              "Fordi teksten alene bestemmer toneart og tempo"
+              "At flest muligt tør være med",
+              "At alle lyder som solister",
+              "At ingen må synge svagt",
+              "At teksten ikke vises"
             ],
             "id": "kp_sangtime_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad kan en forsanger eller pianist især hjælpe med?",
-            "answer": "Toneart, tempo og tydelige indsatser",
+            "category": "Tekst og stemning",
+            "question": "Hvorfor kan samme sang føles forskellig fra gang til gang?",
+            "answer": "Fordi situation, tempo, stemmer og fællesskab ændrer oplevelsen",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Toneart, tempo og tydelige indsatser",
-              "At bedømme hver enkelt stemme undervejs",
-              "At erstatte melodien med oplæsning",
-              "At ændre teksten uden at fortælle det"
+              "Fordi situation, tempo, stemmer og fællesskab ændrer oplevelsen",
+              "Fordi ordene skifter af sig selv",
+              "Fordi melodier ikke har betydning",
+              "Fordi sang kun handler om lydstyrke"
             ],
             "id": "kp_sangtime_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvorfor bør en sang ofte introduceres kort?",
-            "answer": "Fordi baggrunden giver teksten retning",
+            "category": "Ledelse",
+            "question": "Hvad hjælper en stor gruppe til at synge samlet?",
+            "answer": "Tydelig forsanger, akkompagnement og indsatser",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Fordi baggrunden giver teksten retning",
-              "Fordi alle sange har den samme historiske baggrund",
-              "Fordi introduktionen kan erstatte selve sangen",
-              "Fordi teksten ikke kan forstås uden en lang forelæsning"
+              "Tydelig forsanger, akkompagnement og indsatser",
+              "At alle starter, når de selv vil",
+              "At tempoet ændres tilfældigt",
+              "At man undgår øjenkontakt og tegn"
             ],
             "id": "kp_sangtime_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er et godt tegn på vellykket fællessang?",
-            "answer": "At flere tør deltage, ikke at alle synger perfekt",
+            "category": "Fællesskab",
+            "question": "Hvorfor er fællessang ikke det samme som en koncert?",
+            "answer": "Alle er deltagere, ikke kun publikum",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "At flere tør deltage, ikke at alle synger perfekt",
-              "At ingen behøver kende teksten",
-              "At deltagerne undgår øjenkontakt",
-              "At tempoet ændres uden fælles tegn"
+              "Alle er deltagere, ikke kun publikum",
+              "Der er altid billetkontrol",
+              "Kun de dygtigste må synge",
+              "Publikum må ikke mærke rytmen"
             ],
             "id": "kp_sangtime_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Sangtime?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Tryghed",
+            "question": "Hvad kan gøre sangtime mere tryg for nye elever?",
+            "answer": "Gentagelse, tydelige rammer og kendte sange i begyndelsen",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Gentagelse, tydelige rammer og kendte sange i begyndelsen",
+              "At alle synger alene første dag",
+              "At man kun vælger svære sange",
+              "At fejl udpeges offentligt"
             ],
             "id": "kp_sangtime_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Sangtime helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Fortolkning",
+            "question": "Hvad betyder det at fortolke en sang i fællesskab?",
+            "answer": "At gruppen giver teksten og musikken retning gennem fremførelsen",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "At gruppen giver teksten og musikken retning gennem fremførelsen",
+              "At alle skal føle præcis det samme",
+              "At teksten ikke længere betyder noget",
+              "At melodien altid skal være langsom"
             ],
             "id": "kp_sangtime_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Sangtime bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Efter sangen",
+            "question": "Hvilket spørgsmål kan åbne en god samtale efter fællessang?",
+            "answer": "Hvilket ord, billede eller øjeblik lagde I mest mærke til?",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Hvilket ord, billede eller øjeblik lagde I mest mærke til?",
+              "Hvem sang mest forkert?",
+              "Hvor mange sider fyldte sangen?",
+              "Hvad er sangens CPR-nummer?"
             ],
             "id": "kp_sangtime_08"
           }
@@ -16837,7 +16837,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.375Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-02-sangtime-kapardy-game",
@@ -16867,7 +16867,7 @@
         "z": 1
       },
       "content": {
-        "text": "HUS HISTORIE\nMandag 24/8\n\nHISTORISK PROBLEMSTILLING\nHvordan bygger man en troværdig skolehistorie, når minder, fotografier, protokoller og nutidige fortællinger ikke siger helt det samme?\n\nFEM FAKTA, DER SKAL FREM\n1. Skolens egen hjemmeside og værdigrundlag\n   Skolens hjemmeside er en god kilde til den aktuelle selvfremstilling, men ikke en neutral beskrivelse af hele fortiden.\n2. Daterede referater eller protokoller\n   Referater, elevblade, regnskaber og protokoller kan knytte beslutninger til bestemte tidspunkter.\n3. Det giver oplevelser og erindringer indefra\n   Et interview kan vise hverdagsliv og følelser, som sjældent står i officielle papirer.\n4. De er selektive og præget af tiden efter begivenheden\n   Erindringer ændrer sig og bør sammenholdes med samtidige kilder.\n5. At påstande knyttes til navngivne, daterede kilder\n   En god lokalhistorie skelner mellem dokumenteret viden, erindring og vandrehistorie.\n\nKONKLUSION\nSkolens historie bør fortælles som en undersøgt mosaik: officielle spor, fysiske steder og personlige stemmer, der kan bekræfte eller udfordre hinanden.",
+        "text": "HUS HISTORIE\nMandag 24/8\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan fortæller man skolens historie troværdigt, når både gamle dokumenter, årsskrifter, billeder, elevernes minder og skolens nutidige hjemmeside spiller med?\n\nDET SKAL ELEVERNE HAVE MED\n1. Skolen er i dag Himmerlands Efterskole, men meget materiale findes under det tidligere navn Himmerlands Ungdomsskole.\n2. Skolens adresse, hverdag, fag og værdier kan undersøges gennem officielle tekster, lokale kilder, billeder og mundtlige fortællinger.\n3. Navneskift og ny hjemmeside ændrer ikke historien; de ændrer den måde, skolen præsenterer sig selv på.\n4. En god skolehistorie skelner mellem fakta, erindring og fortælling.\n5. Årsskrifter, lokalhistoriske PDF’er og arkivmateriale er særligt vigtige, fordi de er tættere på skolens egen tid end senere genfortællinger.\n\nELEVOPGAVE\nFind ét spor fra skolens fortid og ét spor fra skolens nutid. Hvad er forandret, og hvad kan man stadig genkende?",
         "fontSize": 17,
         "align": "left"
       },
@@ -16880,7 +16880,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.376Z",
-      "updatedAt": "2026-06-24T22:43:07.376Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-bf181892-faglig",
@@ -17085,9 +17085,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.google.com/search?q=site%3Ascholar.google.com+hu+official+HUs+historie",
-        "label": "Faglig kildesøgning · målrettet søgning: hu official",
-        "note": "Målrettet søgning på scholar.google.com. Åbn den konkrete institutionsside og kontrollér dato, afsender og dokumenttype.",
+        "url": "https://slaegtsbibliotek.dk/2024/941292.pdf",
+        "label": "Lokalhistorisk PDF om Himmerlands Ungdomsskole",
+        "note": "Brug PDF’en som historisk kilde. Tjek årstal, afsender, billedtekster og hvad materialet selv bygger på.",
         "view": "link",
         "datasetId": "ds_faellessamling-26-27-02-skolestart-sangbog-og-hu_4"
       },
@@ -17100,7 +17100,7 @@
         "layoutRole": "links"
       },
       "createdAt": "2026-06-24T22:43:07.377Z",
-      "updatedAt": "2026-06-24T22:43:07.377Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "link",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-bf181892-links",
@@ -17120,7 +17120,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-02-skolestart-sangbog-og-hu_9",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · HUs historie",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -17130,7 +17130,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Skolens egen hjemmeside og værdigrundlag\n2. Daterede referater eller protokoller\n3. Det giver oplevelser og erindringer indefra\n4. De er selektive og præget af tiden efter begivenheden\n5. At påstande knyttes til navngivne, daterede kilder",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Søg både på Himmerlands Efterskole og Himmerlands Ungdomsskole.\n2. Årsskrifter, daterede billeder, officielle tekster og lokale artikler giver forskellige typer viden.\n3. Mundtlige fortællinger er værdifulde, men skal placeres i tid og sammenholdes med andre kilder.\n4. Et navneskift er både praktisk information og historiebrug: skolen vælger, hvordan den vil fremstå.\n5. En stærk skolefortælling nævner både kontinuitet og forandring.",
         "fontSize": 14,
         "align": "left"
       },
@@ -17143,7 +17143,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.377Z",
-      "updatedAt": "2026-06-24T22:43:07.377Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-02-skolestart-sangbog-og-hu-bf181892-kernersvar",
@@ -17187,116 +17187,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvilken kilde viser bedst, hvad der faktisk blev serveret?",
-            "answer": "Daterede menuplaner og indkøbslister",
+            "category": "Profil",
+            "question": "Hvad fremhæver skolen om maden på hjemmesiden?",
+            "answer": "Sund, hjemmedyrket og hjemmelavet mad",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Daterede menuplaner og indkøbslister",
-              "En senere genfortælling, der ikke kan spores tilbage til samtidige kilder",
-              "En anonym påstand, som kun gentages i andre sekundære fremstillinger",
-              "Et udateret opslag uden tydelig afsender eller kildehenvisning"
+              "Sund, hjemmedyrket og hjemmelavet mad",
+              "Fastfood som eneste måltid",
+              "At eleverne aldrig spiser sammen",
+              "At køkkenet ikke har betydning"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_01"
+            "id": "kp_kokken_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad kan en køkkenmedarbejders interview bidrage med?",
-            "answer": "Arbejdsgange, traditioner og begrundelser",
+            "category": "Jord-til-bord",
+            "question": "Hvad betyder jord-til-bord i skolens sammenhæng?",
+            "answer": "At råvarer, dyrkning, køkken og måltid forbindes synligt",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Arbejdsgange, traditioner og begrundelser",
-              "At forklare en sangs baggrund kort",
-              "At bestemme elevernes placering i lokalet",
-              "At erstatte fællessang med individuel bedømmelse"
+              "At råvarer, dyrkning, køkken og måltid forbindes synligt",
+              "At maden kun købes færdigpakket",
+              "At eleverne ikke må kende råvarerne",
+              "At bordene står udenfor året rundt"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_02"
+            "id": "kp_kokken_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvorfor er køkkenet også institutionshistorie?",
-            "answer": "Fordi mad forbinder økonomi, sundhed, arbejde og fællesskab",
+            "category": "Kilde",
+            "question": "Hvilken kilde kan bedst vise, hvad der faktisk blev spist en bestemt uge?",
+            "answer": "Menuplaner og køkkenets egne noter",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Fordi mad forbinder økonomi, sundhed, arbejde og fællesskab",
-              "Fordi skolen ønskede at gøre eleverne myndige frem for kun eksamensparate",
-              "Fordi historie og modersmål kunne styrke et folkeligt fællesskab",
-              "Fordi latin skulle erstatte elevernes modersmål"
+              "Menuplaner og køkkenets egne noter",
+              "En løs vittighed om mad",
+              "Et billede af en tom tallerken",
+              "En sangtekst uden dato"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_03"
+            "id": "kp_kokken_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad kan ændrede madvaner vise?",
-            "answer": "Samfundsændringer som globalisering og nye kostvalg",
+            "category": "Dennis",
+            "question": "Hvad er Dennis’ oplagte rolle i en samling om haverne og køkkenet?",
+            "answer": "At fortælle om havernes historie og køkkenets brug af råvarer",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Samfundsændringer som globalisering og nye kostvalg",
-              "At ændre sangteksten undervejs",
-              "At erstatte fællessang med individuel bedømmelse",
-              "At angive toneart, tempo og tydelige indsatser"
+              "At fortælle om havernes historie og køkkenets brug af råvarer",
+              "At erstatte alle kilder med gæt",
+              "At tale om noget helt uden forbindelse til mad",
+              "At bevise at haver ikke kræver pasning"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_04"
+            "id": "kp_kokken_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan undgår man nostalgi som eneste forklaring?",
-            "answer": "Ved at sammenholde minder med samtidige dokumenter",
+            "category": "Fællesskab",
+            "question": "Hvorfor er køkkenet vigtigt i et efterskoleliv?",
+            "answer": "Alle møder det hver dag gennem måltider, rutiner og fællesskab",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at sammenholde minder med samtidige dokumenter",
-              "Som model for en skole uden mundtlig undervisning",
-              "Som bindende pensum i alle danske skoler",
-              "Som inspiration til højskoler, friskoler, efterskoler og fællessang"
+              "Alle møder det hver dag gennem måltider, rutiner og fællesskab",
+              "Det er kun et teknisk rum uden betydning",
+              "Det handler kun om kalorier",
+              "Det har ingen forbindelse til eleverne"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_05"
+            "id": "kp_kokken_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Køkkentraditioner på HU?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Haverne",
+            "question": "Hvad viser arbejdet i haverne bedst?",
+            "answer": "At mad kræver planlægning, pasning, sæsoner og ansvar",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "At mad kræver planlægning, pasning, sæsoner og ansvar",
+              "At grøntsager kommer uden arbejde",
+              "At dyrehold ikke har med fællesskab at gøre",
+              "At råvarer ikke ændrer sig med årstiden"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_06"
+            "id": "kp_kokken_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Køkkentraditioner på HU helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Bæredygtighed",
+            "question": "Hvad gør bæredygtighed konkret i et køkkenforløb?",
+            "answer": "Man kan tale om råvarer, spild, sæson, dyrkning og ansvar",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Man kan tale om råvarer, spild, sæson, dyrkning og ansvar",
+              "Man bruger kun ordet uden eksempler",
+              "Man undgår alle praktiske valg",
+              "Man gør måltiderne tilfældige"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_07"
+            "id": "kp_kokken_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Køkkentraditioner på HU bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Elevopgave",
+            "question": "Hvad er en god elevopgave i et køkken- og haveforløb?",
+            "answer": "Følg én råvare fra jord eller dyrkning til måltid",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Følg én råvare fra jord eller dyrkning til måltid",
+              "Find den længste kniv i køkkenet",
+              "Gæt menuen uden kilder",
+              "Beskriv kun farven på tallerkenerne"
             ],
-            "id": "kp_k-kkentraditioner-p-hu_08"
+            "id": "kp_kokken_08"
           }
         ],
         "current": 0,
@@ -17314,7 +17314,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.382Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-03-koekkentraditioner-paa-h-kapardy-game",
@@ -18471,7 +18471,7 @@
         "z": 1
       },
       "content": {
-        "text": "HISTORIEN OM SYD-VEST\nTirsdag 1/9\n\nHISTORISK PROBLEMSTILLING\nHvordan kan et bestemt sted på eller omkring skolen undersøges som lokalhistorie frem for blot at blive en god historie?\n\nFEM FAKTA, DER SKAL FREM\n1. Placering, funktion og datering\n   Kort, matrikel, bygningsspor og daterede fotografier kan fastslå stedets udvikling.\n2. Protokoller, fotos og interviews\n   Brugere kan spores gennem elevlister, arbejdsplaner, billeder og mundtlige erindringer.\n3. De kan ændre betydning over tid\n   Et navn som Syd-Vest kan have flere forklaringer; den ældste dokumenterede brug er vigtigere end den mest underholdende forklaring.\n4. Med mindst to uafhængige spor\n   Et interview bør sammenholdes med eksempelvis et foto, et kort eller et referat.\n5. Hvordan skolens behov og værdier har ændret sig\n   Ombygninger og nye funktioner kan afspejle ændringer i elevliv, pædagogik og økonomi.\n\nKONKLUSION\nStedshistorie bliver faglig, når eleverne kan se, hvilke spor der understøtter fortællingen, og hvor der stadig er usikkerhed.",
+        "text": "HISTORIEN OM SYDVEST\nTirsdag 1/9 · SP · Maria\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan blev et stykke skoleområde til et levende læringsrum med haver, dyrkning, dyr, mad, elever, medarbejdere og mennesker udefra?\n\nDET SKAL ELEVERNE HAVE MED\n1. SYDVEST er skolens udeområde mod sydvest og beskrives af skolen som et levende læringsrum i naturen.\n2. Området er knap 1,5 hektar og blev officielt indviet 10. juni 2022.\n3. Idéen voksede ud af skolens arbejde med verdensmål, ønsket om mere natur i elevernes hverdag og spørgsmålet: Hvordan får vi unge til at opholde sig mere i naturen?\n4. Køkkenet og jord-til-bord-tanken er en vigtig del af historien. Dennis’ rolle som køkkenchef og interessen for grøntsager var med til at samle trådene.\n5. I dag er Sydvest også skolens haver: Maria har ansvaret, og elever, WOOFere og medarbejdere passer området, hvor der også er kaniner og høns.\n\nFORTÆLLESPOR\nLad Maria og/eller Dennis fortælle. Brug deres fortælling sammen med skolens hjemmeside, billeder fra området og eventuelle årsskrifter eller lokalhistoriske kilder.",
         "fontSize": 17,
         "align": "left"
       },
@@ -18484,7 +18484,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.380Z",
-      "updatedAt": "2026-06-24T22:43:07.380Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-0-8dca2573-faglig",
@@ -18689,9 +18689,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.google.com/search?q=site%3Ascholar.google.com+hu+official+Historien+om+Syd-Vest",
-        "label": "Faglig kildesøgning · målrettet søgning: hu official",
-        "note": "Målrettet søgning på scholar.google.com. Åbn den konkrete institutionsside og kontrollér dato, afsender og dokumenttype.",
+        "url": "https://himmerlandsefterskole.dk/sydvest/",
+        "label": "Himmerlands Efterskole · SYDVEST",
+        "note": "Skolens egen side om SYDVEST med historie, billeder og centrale oplysninger om området.",
         "view": "link",
         "datasetId": "ds_faellessamling-26-27-03-efterskolernes-historie_3"
       },
@@ -18704,7 +18704,7 @@
         "layoutRole": "links"
       },
       "createdAt": "2026-06-24T22:43:07.381Z",
-      "updatedAt": "2026-06-24T22:43:07.381Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "link",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-0-8dca2573-links",
@@ -18724,7 +18724,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-03-efterskolernes-historie_6",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · Sydvest",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -18734,7 +18734,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Placering, funktion og datering\n2. Protokoller, fotos og interviews\n3. De kan ændre betydning over tid\n4. Med mindst to uafhængige spor\n5. Hvordan skolens behov og værdier har ændret sig",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Sydvest er både et fysisk sted og et skoleprojekt: dyrkning, undervisning, samvær og mad hænger sammen.\n2. Området blev formet af flere kilder: verdensmål, ønsket om natur, jord-til-bord, håndværk, bygninger og skolens fællesskab.\n3. Dennis forbindes med køkkenet og den bæredygtige jord-til-bord-retning.\n4. Maria, elever og WOOFere viser, at området ikke kun er en idé, men en praksis der skal passes.\n5. Gode kilder er skolens Sydvest-side, billeder fra området, lokale artikler, årsskrifter og interviews med dem, der arbejder der.\n6. En stærk fortælling om Sydvest handler ikke kun om bygninger, men om ansvar, mad, jord, dyr og fællesskab.",
         "fontSize": 14,
         "align": "left"
       },
@@ -18747,7 +18747,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.381Z",
-      "updatedAt": "2026-06-24T22:43:07.381Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-0-8dca2573-kernersvar",
@@ -18791,116 +18791,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad skal registreres først ved en bygning eller et sted?",
-            "answer": "Placering, funktion og datering",
+            "category": "Stedet",
+            "question": "Hvad er SYDVEST på Himmerlands Efterskole?",
+            "answer": "Et udeområde med dyrkning, undervisning og samvær",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Placering, funktion og datering",
-              "At kun de sikreste sangere deltager",
-              "En tydelig fælles start og en kendt tekst",
-              "En fast placering uden mulighed for bevægelse"
+              "Et udeområde med dyrkning, undervisning og samvær",
+              "Et fodboldhold i Sønderjylland",
+              "Et gammelt elevværelse",
+              "Et digitalt karakterprogram"
             ],
-            "id": "kp_historien-om-syd-vest_01"
+            "id": "kp_sydvest_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvilken kilde kan vise, hvem der brugte stedet?",
-            "answer": "Protokoller, fotos og interviews",
+            "category": "Størrelse",
+            "question": "Hvordan beskriver skolen områdets størrelse?",
+            "answer": "Knap 1,5 hektar",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Protokoller, fotos og interviews",
-              "Et enkelt løsrevet billede eller citat uden proveniens og sammenhæng",
-              "En senere genfortælling, der ikke kan spores tilbage til samtidige kilder",
-              "En anonym påstand, som kun gentages i andre sekundære fremstillinger"
+              "Knap 1,5 hektar",
+              "Cirka 15 kvadratmeter",
+              "En halv parkeringsplads",
+              "Tre klasselokaler indendørs"
             ],
-            "id": "kp_historien-om-syd-vest_02"
+            "id": "kp_sydvest_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvorfor skal kælenavne og stednavne undersøges?",
-            "answer": "Fordi de kan ændre betydning over tid",
+            "category": "Spørgsmålet bag",
+            "question": "Hvilket spørgsmål var centralt i udviklingen af SYDVEST?",
+            "answer": "Hvordan får vi unge til at opholde sig mere i naturen?",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Fordi de kan ændre betydning over tid",
-              "Fordi historie og modersmål kunne styrke et folkeligt fællesskab",
-              "Fordi den skriftlige eksamen blev anset som skolens eneste formål",
-              "Fordi mundtlig fortælling kunne forbinde stoffet med elevernes liv"
+              "Hvordan får vi unge til at opholde sig mere i naturen?",
+              "Hvordan får vi færre elever udenfor?",
+              "Hvordan afskaffer vi fællessang?",
+              "Hvordan gør vi køkkenet usynligt?"
             ],
-            "id": "kp_historien-om-syd-vest_03"
+            "id": "kp_sydvest_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvordan testes en lokal påstand?",
-            "answer": "Med mindst to uafhængige spor",
+            "category": "Køkkenet",
+            "question": "Hvordan hænger Dennis og køkkenet sammen med SYDVEST?",
+            "answer": "Jord-til-bord og grøntsager blev en del af projektets retning",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Med mindst to uafhængige spor",
-              "Som inspiration til højskoler, friskoler, efterskoler og fællessang",
-              "Ved at erstatte samtale med faste lærebøger",
-              "Ved at gøre eksamen til undervisningens eneste mål"
+              "Jord-til-bord og grøntsager blev en del af projektets retning",
+              "Køkkenet skulle flyttes væk fra skolen",
+              "Dennis skulle lukke haverne",
+              "Mad skulle ikke længere være en del af skolen"
             ],
-            "id": "kp_historien-om-syd-vest_04"
+            "id": "kp_sydvest_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad kan stedets ændringer fortælle?",
-            "answer": "Hvordan skolens behov og værdier har ændret sig",
+            "category": "Indvielse",
+            "question": "Hvornår blev området officielt indviet ifølge skolens egen tekst?",
+            "answer": "10. juni 2022",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Hvordan skolens behov og værdier har ændret sig",
-              "At forklare en sangs baggrund kort",
-              "At angive toneart, tempo og tydelige indsatser",
-              "At erstatte fællessang med individuel bedømmelse"
+              "10. juni 2022",
+              "1. januar 1920",
+              "9. april 1940",
+              "24. december 2026"
             ],
-            "id": "kp_historien-om-syd-vest_05"
+            "id": "kp_sydvest_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Historien om Syd-Vest?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Aktuel drift",
+            "question": "Hvem passer i dag haverne sammen med elever og andre hjælpere?",
+            "answer": "Maria, skolens landmand",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Maria, skolens landmand",
+              "En anonym ekstern censor",
+              "Et ministerium i København",
+              "Kun skolens hjemmeside"
             ],
-            "id": "kp_historien-om-syd-vest_06"
+            "id": "kp_sydvest_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Historien om Syd-Vest helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Dyr og haver",
+            "question": "Hvilke levende elementer hører med i den aktuelle fortælling om Sydvest?",
+            "answer": "Haver, kaniner og høns",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Haver, kaniner og høns",
+              "Kun plastikplanter",
+              "Kun akvarier uden planter",
+              "Kun maskiner og asfalt"
             ],
-            "id": "kp_historien-om-syd-vest_07"
+            "id": "kp_sydvest_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Historien om Syd-Vest bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Kilder",
+            "question": "Hvilken kombination giver den bedste fortælling om Sydvest?",
+            "answer": "Skolens tekst, fotos, lokale artikler og interviews med Maria, Dennis og elever",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Skolens tekst, fotos, lokale artikler og interviews med Maria, Dennis og elever",
+              "Kun rygter fra gangen",
+              "Kun et kort uden forklaring",
+              "Kun navnet på området"
             ],
-            "id": "kp_historien-om-syd-vest_08"
+            "id": "kp_sydvest_08"
           }
         ],
         "current": 0,
@@ -18918,7 +18918,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.381Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-02-historien-om-syd-vest-kapardy-game",
@@ -18948,7 +18948,7 @@
         "z": 1
       },
       "content": {
-        "text": "KØKKENTRADITIONER PÅ HU\nTorsdag 3/9\n\nHISTORISK PROBLEMSTILLING\nHvordan kan måltider og køkkenarbejde bruges som kilder til skolens værdier, økonomi og hverdagsliv?\n\nFEM FAKTA, DER SKAL FREM\n1. Daterede menuplaner og indkøbslister\n   Menuplaner, opskrifter og indkøb kan dokumentere ændringer i råvarer og måltidsmønstre.\n2. Arbejdsgange, traditioner og begrundelser\n   Mundtlige kilder kan forklare, hvorfor bestemte retter eller ritualer fik betydning.\n3. Fordi mad forbinder økonomi, sundhed, arbejde og fællesskab\n   Køkkenet afspejler både budgetter, ernæringssyn, elevdeltagelse og skolens fælles rytme.\n4. Samfundsændringer som globalisering og nye kostvalg\n   Vegetariske retter, allergihensyn og internationale køkkener kan spores som nyere ændringer.\n5. Ved at sammenholde minder med samtidige dokumenter\n   En elsket tradition kan have ændret form; dokumentation viser hvornår og hvorfor.\n\nKONKLUSION\nKøkkenhistorien kan gøre store samfundsændringer konkrete gennem det, elever og ansatte faktisk spiste og gjorde.",
+        "text": "KØKKEN, MAD OG JORD-TIL-BORD PÅ HIMMERLANDS EFTERSKOLE\nTorsdag 3/9 · SP · Dennis\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan mad og køkkenarbejde fortælle noget om skolens værdier, hverdagsliv og forholdet mellem jord, elever og fællesskab?\n\nDET SKAL ELEVERNE HAVE MED\n1. Skolens hjemmeside fremhæver sund, hjemmedyrket og hjemmelavet mad som en del af skolens profil.\n2. Køkkenet er ikke kun drift; det er også hverdagskultur og dannelse, fordi alle elever møder det hver dag.\n3. Sydvest og haverne forbinder køkkenet med jord-til-bord: afgrøder, dyrehold, sæsoner og ansvar.\n4. Dennis kan fortælle om havernes historie og om, hvordan køkkenet bruger lokale råvarer og elevernes nysgerrighed.\n5. Når elever hjælper med haver, dyr eller råvarer, bliver mad til en konkret måde at forstå bæredygtighed og fællesskab på.\n\nELEVOPGAVE\nFølg én råvare fra jord eller dyrkning til måltid. Hvem har haft ansvar undervejs, og hvad fortæller det om skolen?",
         "fontSize": 17,
         "align": "left"
       },
@@ -18961,7 +18961,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.381Z",
-      "updatedAt": "2026-06-24T22:43:07.381Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-0-f2542bc5-faglig",
@@ -19166,9 +19166,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.google.com/search?q=site%3Ascholar.google.com+hu+official+K%C3%B8kkentraditioner+p%C3%A5+HU",
-        "label": "Faglig kildesøgning · målrettet søgning: hu official",
-        "note": "Målrettet søgning på scholar.google.com. Åbn den konkrete institutionsside og kontrollér dato, afsender og dokumenttype.",
+        "url": "https://himmerlandsefterskole.dk/sydvest/",
+        "label": "SYDVEST og jord-til-bord",
+        "note": "Brug siden sammen med Dennis’ mundtlige fortælling, menuplaner og fotos fra haverne.",
         "view": "link",
         "datasetId": "ds_faellessamling-26-27-03-efterskolernes-historie_4"
       },
@@ -19181,7 +19181,7 @@
         "layoutRole": "links"
       },
       "createdAt": "2026-06-24T22:43:07.382Z",
-      "updatedAt": "2026-06-24T22:43:07.382Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "link",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-0-f2542bc5-links",
@@ -19201,7 +19201,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-03-efterskolernes-historie_9",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · Køkken og jord-til-bord",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -19211,7 +19211,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Daterede menuplaner og indkøbslister\n2. Arbejdsgange, traditioner og begrundelser\n3. Fordi mad forbinder økonomi, sundhed, arbejde og fællesskab\n4. Samfundsændringer som globalisering og nye kostvalg\n5. Ved at sammenholde minder med samtidige dokumenter",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Menuplaner viser, hvad der serveres; interviews forklarer hvorfor.\n2. Jord-til-bord betyder, at madens vej fra dyrkning til servering bliver synlig.\n3. Haverne kræver ansvar: planlægning, pasning, høst, dyrehold og køkkenarbejde.\n4. Dennis’ fortælling skal bruges sammen med dokumenter, billeder og konkrete observationer i Sydvest.\n5. God køkkenhistorie handler om både smag, sundhed, økonomi, bæredygtighed og fællesskab.",
         "fontSize": 14,
         "align": "left"
       },
@@ -19224,7 +19224,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.382Z",
-      "updatedAt": "2026-06-24T22:43:07.382Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-03-efterskolernes-historie-0-f2542bc5-kernersvar",
@@ -44488,7 +44488,7 @@
         "z": 1
       },
       "content": {
-        "text": "FÆLLESSANG OG ÅRETS SIDSTE SAMLING\nFredag 18/12\n\nHISTORISK PROBLEMSTILLING\nHvordan kan den sidste samling bruge sange og erindringer til at samle året uden at gøre fællesskabet ensartet?\n\nFEM FAKTA, DER SKAL FREM\n1. Et sted, symbol eller ritual, hvor en gruppe samler fælles minder\n   En sang kan fungere som erindringssted, fordi den aktiverer konkrete situationer og relationer.\n2. Musik binder lyd, krop, følelser og gentagelse sammen\n   Det betyder ikke, at alle oplever den samme sang ens.\n3. Flere stemmer, tydelige valg og plads til forskellige erfaringer\n   Fællesskab bliver stærkere, når forskelle kan være synlige uden at opløse helheden.\n4. Ved både at nævne glæder, udfordringer og det uafsluttede\n   En ærlig tilbageblikskultur kan rumme, at året ikke har været ens for alle.\n5. Hvilke sange og værdier gruppen har gjort til sine egne\n   Valget af sange er historiebrug og kan dokumenteres som del af skoleåret.\n\nKONKLUSION\nAfslutningen bliver historisk meningsfuld, når eleverne kan se, hvordan fælles minder er blevet skabt gennem året.",
+        "text": "FÆLLESSANG OG ÅRETS SIDSTE SAMLING\nFredag 18/12\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan en fællessang samle et halvt skoleår uden at gøre alles oplevelser ens?\n\nDET SKAL ELEVERNE HAVE MED\n1. En sang kan blive knyttet til en bestemt periode, fordi den synges i en konkret situation.\n2. Årets sangliste kan bruges som et lille samtidsarkiv: Hvad har vi faktisk sunget?\n3. Fællessang giver fælles lyd og fælles ord, men erfaringerne bag ordene kan være forskellige.\n4. En god afslutningssamling kan rumme både glæde, savn, taknemmelighed og det, der var svært.\n5. Det vigtigste er ikke at kåre den bedste sang, men at finde de sange, der bærer minder og fællesskab.\n\nGREB\nLad eleverne vælge tre sange fra første halvår: én der samlede, én der overraskede, og én der skal med videre.",
         "fontSize": 17,
         "align": "left"
       },
@@ -44501,7 +44501,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.447Z",
-      "updatedAt": "2026-06-24T22:43:07.447Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-1408db98-faglig",
@@ -44741,7 +44741,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-14-jul-i-verden-og-danmark_24",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · årets fællessang",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -44751,7 +44751,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Et sted, symbol eller ritual, hvor en gruppe samler fælles minder\n2. Musik binder lyd, krop, følelser og gentagelse sammen\n3. Flere stemmer, tydelige valg og plads til forskellige erfaringer\n4. Ved både at nævne glæder, udfordringer og det uafsluttede\n5. Hvilke sange og værdier gruppen har gjort til sine egne",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Årets sangliste er en kilde til det fællesskab, der faktisk blev sunget frem.\n2. Sange lagrer minder gennem gentagelse, sted, krop, lyd og relationer.\n3. Fællessang kan samle uden at gøre elevernes oplevelser identiske.\n4. En afslutningssamling bør nævne både højdepunkter og det, der krævede mod.\n5. Sange skal vælges med omtanke: Hvad hjælper netop dette hold med at huske og gå videre?",
         "fontSize": 14,
         "align": "left"
       },
@@ -44764,7 +44764,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.449Z",
-      "updatedAt": "2026-06-24T22:43:07.449Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-1408db98-kernersvar",
@@ -44808,116 +44808,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad er et erindringssted?",
-            "answer": "Et sted, symbol eller ritual, hvor en gruppe samler fælles minder",
+            "category": "Årets spor",
+            "question": "Hvad kan årets sangliste bruges som?",
+            "answer": "Et lille samtidsarkiv over fællesskabets lydspor",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Et sted, symbol eller ritual, hvor en gruppe samler fælles minder",
-              "En musikform uden historiske rødder",
-              "En konkurrence uden nationale eller politiske symboler",
-              "En fast stil, der aldrig ændrer sig"
+              "Et lille samtidsarkiv over fællesskabets lydspor",
+              "En liste over elevernes karakterer",
+              "Et bevis for at alle oplevede året ens",
+              "En erstatning for alle minder"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_01"
+            "id": "kp_ars_sang_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvorfor huskes musik ofte sammen med situationer?",
-            "answer": "Fordi musik binder lyd, krop, følelser og gentagelse sammen",
+            "category": "Minder",
+            "question": "Hvorfor kan en sang blive knyttet til et bestemt øjeblik?",
+            "answer": "Fordi lyd, tekst, sted og relationer opleves samtidig",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Fordi musik binder lyd, krop, følelser og gentagelse sammen",
-              "Fordi musiktraditioner blev blandet gennem migration og møder",
-              "Fordi pladeselskaberne alene skabte hele udviklingen",
-              "Fordi genren opstod uden forbindelse til ældre musik"
+              "Fordi lyd, tekst, sted og relationer opleves samtidig",
+              "Fordi melodien sletter alle andre minder",
+              "Fordi sangen kun betyder noget på papir",
+              "Fordi alle hører den uden følelser"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_02"
+            "id": "kp_ars_sang_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad gør en afsluttende samling inkluderende?",
-            "answer": "Flere stemmer, tydelige valg og plads til forskellige erfaringer",
+            "category": "Forskellighed",
+            "question": "Hvordan kan fællessang rumme forskellige erfaringer?",
+            "answer": "Alle synger samme ord, men kan forbinde dem med forskellige oplevelser",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Flere stemmer, tydelige valg og plads til forskellige erfaringer",
-              "Musikalske rødder, teknologi og fællesskab",
-              "En national tradition uden påvirkning udefra",
-              "Sampling uden kreditering"
+              "Alle synger samme ord, men kan forbinde dem med forskellige oplevelser",
+              "Alle skal føle det samme",
+              "Kun læreren må fortolke sangen",
+              "Forskellighed fjernes ved at synge højt"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_03"
+            "id": "kp_ars_sang_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvordan undgår man falsk nostalgi?",
-            "answer": "Ved både at nævne glæder, udfordringer og det uafsluttede",
+            "category": "Afslutning",
+            "question": "Hvad kendetegner en god afslutningssamling?",
+            "answer": "Den giver plads til både glæde, tak, savn og eftertanke",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Ved både at nævne glæder, udfordringer og det uafsluttede",
-              "Musikken blev udviklet gennem møder mellem traditioner, teknologi og publikum",
-              "Genren blev opfundet på én bestemt dag af én person",
-              "Kommerciel succes fjernede alle lokale forskelle"
+              "Den giver plads til både glæde, tak, savn og eftertanke",
+              "Den nævner kun det perfekte",
+              "Den undgår fællesskabets virkelige erfaringer",
+              "Den handler kun om at vinde KaPardy"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_04"
+            "id": "kp_ars_sang_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad kan et fælles repertoire vise?",
-            "answer": "Hvilke sange og værdier gruppen har gjort til sine egne",
+            "category": "Sangvalg",
+            "question": "Hvad bør afgøre, hvilke sange der vælges til årets sidste samling?",
+            "answer": "Hvilke sange der bærer minder, deltagelse og fælles betydning",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Hvilke sange og værdier gruppen har gjort til sine egne",
-              "At vise en fælles start og afslutning",
-              "At erstatte melodien med oplæsning",
-              "At vælge hvem der må synge med"
+              "Hvilke sange der bærer minder, deltagelse og fælles betydning",
+              "Hvilken sang der har flest sider",
+              "Hvilken sang der er sværest at stave til",
+              "Hvilken sang ingen kender"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_05"
+            "id": "kp_ars_sang_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Fællessang og årets sidste samling?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Samtale",
+            "question": "Hvilket spørgsmål kan åbne en god samtale om en sang?",
+            "answer": "Hvornår i året begyndte sangen at betyde noget for os?",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Hvornår i året begyndte sangen at betyde noget for os?",
+              "Hvem sang højest?",
+              "Hvorfor er alle andre sange forkerte?",
+              "Hvor mange kommaer er der i teksten?"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_06"
+            "id": "kp_ars_sang_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Fællessang og årets sidste samling helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Fællesskab",
+            "question": "Hvad er forskellen på fælles lyd og ens oplevelse?",
+            "answer": "Fælles lyd sker samtidig; oplevelsen kan være personlig",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Fælles lyd sker samtidig; oplevelsen kan være personlig",
+              "Der er ingen forskel",
+              "Ens oplevelse kan kræves af alle",
+              "Fælles lyd betyder altid samme følelse"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_07"
+            "id": "kp_ars_sang_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Fællessang og årets sidste samling bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Historiebrug",
+            "question": "Hvordan kan man dokumentere årets fællessang uden at udlevere private minder?",
+            "answer": "Brug sangliste, datoer og frivillige elevudsagn med samtykke",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Brug sangliste, datoer og frivillige elevudsagn med samtykke",
+              "Del alle elevers private beskeder",
+              "Gæt hvad andre følte",
+              "Undgå alle kilder"
             ],
-            "id": "kp_f-llessang-og-rets-sidste-samling_08"
+            "id": "kp_ars_sang_08"
           }
         ],
         "current": 0,
@@ -44935,7 +44935,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.449Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-08-faellessang-og-aarets-si-kapardy-game",
@@ -80425,116 +80425,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad er musikalsk erindring?",
-            "answer": "At lyd, tekst, krop og situation lagres i forbundne minder",
+            "category": "Hukommelse",
+            "question": "Hvad gør ofte en sang til et stærkt minde fra et skoleår?",
+            "answer": "At den knyttes til en konkret situation og gentages",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "At lyd, tekst, krop og situation lagres i forbundne minder",
-              "At afslutte alle relationer ved sidste skoledag",
-              "At formulere tak og konkrete næste skridt",
-              "At udelade svære eller blandede erfaringer"
+              "At den knyttes til en konkret situation og gentages",
+              "At den aldrig synges højt",
+              "At ingen kender melodien",
+              "At den kun står i en mappe"
             ],
-            "id": "kp_sange-vi-husker_01"
+            "id": "kp_sange_husker_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad viser en sangstatistik?",
-            "answer": "Hvilke sange der blev valgt og gentaget",
+            "category": "Repertoire",
+            "question": "Hvad viser årets repertoire?",
+            "answer": "Hvilke sange fællesskabet vendte tilbage til",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Hvilke sange der blev valgt og gentaget",
-              "Fælles minder, tak og næste skridt",
-              "Afsked uden fortsatte relationer",
-              "Skolen"
+              "Hvilke sange fællesskabet vendte tilbage til",
+              "Hvilke elever der fik bedst karakter",
+              "Hvor mange stole der stod i salen",
+              "Hvilke sange der er forbudt næste år"
             ],
-            "id": "kp_sange-vi-husker_02"
+            "id": "kp_sange_husker_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvorfor bliver en sang et fællesskabssymbol?",
-            "answer": "Fordi gentagelse og fælles begivenheder giver den lokal betydning",
+            "category": "Tidslinje",
+            "question": "Hvorfor kan man placere sange på en tidslinje?",
+            "answer": "For at se, hvilke perioder og begivenheder de hører sammen med",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Fordi gentagelse og fælles begivenheder giver den lokal betydning",
-              "Fordi nye medier og teknologier ændrede produktion og spredning",
-              "Fordi musiktraditioner blev blandet gennem migration og møder",
-              "Fordi pladeselskaberne alene skabte hele udviklingen"
+              "For at se, hvilke perioder og begivenheder de hører sammen med",
+              "For at afgøre sangenes vægt i kilo",
+              "For at fjerne deres betydning",
+              "For at gøre alle minder ens"
             ],
-            "id": "kp_sange-vi-husker_03"
+            "id": "kp_sange_husker_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad er en repertoirekanon?",
-            "answer": "Et udvalg, som gentages og opleves som særligt vigtigt",
+            "category": "Elevstemmer",
+            "question": "Hvorfor er frivillige elevudsagn gode kilder til årets sange?",
+            "answer": "De viser, hvordan sangene faktisk blev oplevet",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Et udvalg, som gentages og opleves som særligt vigtigt",
-              "En ceremoni uden personlig betydning",
-              "En evaluering, der kun handler om karakterer",
-              "En overgang, hvor fælles minder og nye planer mødes"
+              "De viser, hvordan sangene faktisk blev oplevet",
+              "De erstatter alle datoer",
+              "De gør sanglister unødvendige",
+              "De beviser at alle er enige"
             ],
-            "id": "kp_sange-vi-husker_04"
+            "id": "kp_sange_husker_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan respekteres forskellige minder?",
-            "answer": "Ved at lade flere begrundelser og fravalg være synlige",
+            "category": "Fælles og privat",
+            "question": "Hvordan kan samme sang være både fælles og personlig?",
+            "answer": "Alle deler sangen, men forbinder den med egne øjeblikke",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at lade flere begrundelser og fravalg være synlige",
-              "Kun de største begivenheder får lov at tælle",
-              "Afslutningen gennemføres uden elevernes egne stemmer",
-              "Alle oplevelser vurderes ud fra én fælles målestok"
+              "Alle deler sangen, men forbinder den med egne øjeblikke",
+              "Den kan kun betyde én ting",
+              "Den mister melodien",
+              "Den tilhører kun forsangeren"
             ],
-            "id": "kp_sange-vi-husker_05"
+            "id": "kp_sange_husker_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Sange vi husker?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Afslutning",
+            "question": "Hvad er et godt afsluttende sangspørgsmål?",
+            "answer": "Hvilken sang tager du med dig, og hvorfor?",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Hvilken sang tager du med dig, og hvorfor?",
+              "Hvem sang forkert flest gange?",
+              "Hvilken sang har flest konsonanter?",
+              "Hvilken side var pænest?"
             ],
-            "id": "kp_sange-vi-husker_06"
+            "id": "kp_sange_husker_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Sange vi husker helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Dokumentation",
+            "question": "Hvordan kan man gemme årets sangspor sobert?",
+            "answer": "Sangliste, datoer, fælles noter og samtykkede citater",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Sangliste, datoer, fælles noter og samtykkede citater",
+              "Private optagelser uden aftale",
+              "Løse rygter om stemning",
+              "Kun hukommelsen hos én person"
             ],
-            "id": "kp_sange-vi-husker_07"
+            "id": "kp_sange_husker_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Sange vi husker bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Betydning",
+            "question": "Hvad er forskellen på en sang i bogen og en sang i årets historie?",
+            "answer": "Årets brug giver sangen lokal betydning",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Årets brug giver sangen lokal betydning",
+              "Bogens sang kan ikke synges",
+              "Årets historie fjerner teksten",
+              "Der er ingen forskel på tryk og oplevelse"
             ],
-            "id": "kp_sange-vi-husker_08"
+            "id": "kp_sange_husker_08"
           }
         ],
         "current": 0,
@@ -80552,7 +80552,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.541Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-31-outro-uge-03-sange-vi-husker-kapardy-game",
@@ -82186,7 +82186,7 @@
         "z": 1
       },
       "content": {
-        "text": "SANGE VI HUSKER\nTorsdag 1/7\n\nHISTORISK PROBLEMSTILLING\nHvorfor bliver nogle af årets sange knyttet til bestemte øjeblikke, og hvordan kan repertoiret dokumentere et fællesskabs udvikling?\n\nFEM FAKTA, DER SKAL FREM\n1. At lyd, tekst, krop og situation lagres i forbundne minder\n   En sang kan udløse stærk genkendelse uden at alle husker den samme oplevelse.\n2. Hvilke sange der blev valgt og gentaget\n   Den viser ikke alene, hvilke sange eleverne holdt af eller hvorfor.\n3. Gentagelse og fælles begivenheder giver den lokal betydning\n   Betydningen kan være anderledes end sangens oprindelige historiske kontekst.\n4. Et udvalg, som gentages og opleves som særligt vigtigt\n   Enhver kanon inkluderer og udelukker og kan ændres.\n5. Ved at lade flere begrundelser og fravalg være synlige\n   En populær sang kan også være svær eller uvedkommende for nogle.\n\nKONKLUSION\nÅrets sange er både musik og et lokalt arkiv over situationer, værdier og deltagelse.",
+        "text": "SANGE VI HUSKER\nTorsdag 1/7\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor bliver nogle af årets sange hængende som fælles hukommelse, mens andre bare var sange, vi sang?\n\nDET SKAL ELEVERNE HAVE MED\n1. Gentagelse gør en sang genkendelig, men situationen gør den betydningsfuld.\n2. En sang kan minde om en tur, en krise, en morgen, en opvisning, en ven eller en bestemt følelse.\n3. Årets repertoire viser, hvad holdet vendte tilbage til.\n4. Når eleverne selv fortæller, hvorfor en sang betyder noget, bliver repertoiret levende historie.\n5. Afslutningen bør lade eleverne tage sange med videre – ikke som pensum, men som fælles spor.\n\nGREB\nVælg fem sange fra året. Lad eleverne placere dem på en tidslinje og skrive ét ord til hver sang.",
         "fontSize": 17,
         "align": "left"
       },
@@ -82199,7 +82199,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.540Z",
-      "updatedAt": "2026-06-24T22:43:07.540Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-31-outro-uge-03-sange-vi-hus-587d9766-faglig",
@@ -82439,7 +82439,7 @@
       "widgetVersion": 1,
       "boardId": "board_faellessamling-26-27-31-outro-uge_9",
       "type": "text",
-      "title": "Kernesvar · klar til KaPardy",
+      "title": "Kernesvar · Sange vi husker",
       "geometry": {
         "x": 630,
         "y": 655,
@@ -82449,7 +82449,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. At lyd, tekst, krop og situation lagres i forbundne minder\n2. Hvilke sange der blev valgt og gentaget\n3. Gentagelse og fælles begivenheder giver den lokal betydning\n4. Et udvalg, som gentages og opleves som særligt vigtigt\n5. Ved at lade flere begrundelser og fravalg være synlige",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Det er ikke kun sangens kvalitet, men dens brug i året, der skaber minder.\n2. Repertoiret kan dokumenteres med sanglister, datoer, billeder og frivillige elevudsagn.\n3. Gentagelse, sted og situation kan give en sang lokal betydning.\n4. En fælles sang kan godt rumme mange private minder.\n5. Når året slutter, bliver nogle sange til nøgler, der kan åbne minderne igen.",
         "fontSize": 14,
         "align": "left"
       },
@@ -82462,7 +82462,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.541Z",
-      "updatedAt": "2026-06-24T22:43:07.541Z",
+      "updatedAt": "2026-07-06T23:32:11.277638Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-31-outro-uge-03-sange-vi-hus-587d9766-kernersvar",
@@ -116623,7 +116623,7 @@
       "faellessamling-26-27-30-mundtlig-proeveperiode",
       "faellessamling-26-27-31-outro-uge"
     ],
-    "exportedAt": "2026-07-07T01:30:00.000Z",
+    "exportedAt": "2026-07-06T23:32:11.277638Z",
     "sourceAppVersion": "0.2.0"
   },
   "manifest": {
