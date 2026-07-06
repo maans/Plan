@@ -1,0 +1,23 @@
+{
+  "version": "professorforloeb-v2-kilder-huskekort",
+  "updatedAt": "2026-07-06T13:45",
+  "courses": 11,
+  "courseIds": [
+    "20-sporgsmal-dansk-litteratur",
+    "20-sporgsmal-engelsk",
+    "20-sporgsmal-matematik",
+    "20-sporgsmal-kemi",
+    "20-sporgsmal-tysk",
+    "20-sporgsmal-balkanmusik",
+    "20-sporgsmal-verdenskrigene",
+    "20-sporgsmal-efterskoleliv",
+    "20-sporgsmal-mad-fra-hele-verden",
+    "20-sporgsmal-film-fra-1980erne",
+    "20-sporgsmal-musikgenrer"
+  ],
+  "addsCategory": [
+    "musik",
+    "historie"
+  ],
+  "notes": "Alle professorforløb er genbygget med kildetavle, kategoriarbejde, Huskekortmatrix og KaPardy på sidste tavle."
+}

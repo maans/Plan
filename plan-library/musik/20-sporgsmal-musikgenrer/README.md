@@ -1,4 +1,4 @@
-# 20 spørgsmål fra professoren · Efterskoleliv
+# 20 spørgsmål fra professoren · Musikgenrer
 
 Professorforløb v2 med kilder, medier, Huskekortmatrix og KaPardy.
 

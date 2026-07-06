@@ -1,4 +1,4 @@
-# 20 spørgsmål fra professoren · Efterskoleliv
+# 20 spørgsmål fra professoren · Balkanmusik
 
 Professorforløb v2 med kilder, medier, Huskekortmatrix og KaPardy.
 

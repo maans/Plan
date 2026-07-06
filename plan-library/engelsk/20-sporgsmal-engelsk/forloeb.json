@@ -4,61 +4,64 @@
   "coursePackageVersion": 1,
   "version": 3,
   "schemaVersion": 3,
-  "appVersion": "1.0.0",
+  "appVersion": "1.0.3",
   "kind": "course-package",
-  "createdAt": "2026-07-06T00:55:00.000Z",
+  "createdAt": "2026-07-06T13:45:00.000Z",
   "course": {
-    "id": "course_professor_engelsk-sprog-og-kultur",
+    "id": "course_professor_20-sporgsmal-engelsk_v2",
     "title": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
     "subject": "Engelsk",
     "schoolYear": "",
     "sessionIds": [
-      "session_professor_engelsk-sprog-og-kultur"
+      "session_professor_20-sporgsmal-engelsk_v2"
     ],
-    "exportedAt": "2026-07-06T00:55:00.000Z",
-    "sourceAppVersion": "1.0.0"
+    "exportedAt": "2026-07-06T13:45:00.000Z",
+    "sourceAppVersion": "1.0.3"
   },
   "sessions": [
     {
-      "id": "session_professor_engelsk-sprog-og-kultur",
+      "id": "session_professor_20-sporgsmal-engelsk_v2",
       "schemaVersion": 1,
       "title": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
       "theme": "dark",
-      "activeBoardId": "board_session_professor_engelsk-sprog-og-kultur_1",
+      "activeBoardId": "board_professor_20-sporgsmal-engelsk_v2_1",
       "boardIds": [
-        "board_session_professor_engelsk-sprog-og-kultur_1",
-        "board_session_professor_engelsk-sprog-og-kultur_2",
-        "board_session_professor_engelsk-sprog-og-kultur_3",
-        "board_session_professor_engelsk-sprog-og-kultur_4",
-        "board_session_professor_engelsk-sprog-og-kultur_5",
-        "board_session_professor_engelsk-sprog-og-kultur_6",
-        "board_session_professor_engelsk-sprog-og-kultur_7"
+        "board_professor_20-sporgsmal-engelsk_v2_1",
+        "board_professor_20-sporgsmal-engelsk_v2_2",
+        "board_professor_20-sporgsmal-engelsk_v2_3",
+        "board_professor_20-sporgsmal-engelsk_v2_4",
+        "board_professor_20-sporgsmal-engelsk_v2_5",
+        "board_professor_20-sporgsmal-engelsk_v2_6",
+        "board_professor_20-sporgsmal-engelsk_v2_7",
+        "board_professor_20-sporgsmal-engelsk_v2_8",
+        "board_professor_20-sporgsmal-engelsk_v2_9"
       ],
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
-        "courseId": "course_professor_engelsk-sprog-og-kultur",
+        "courseId": "course_professor_20-sporgsmal-engelsk_v2",
         "courseTitle": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
         "courseSubject": "Engelsk",
         "courseSchoolYear": "",
         "courseOrder": 1,
         "planOrder": 1,
         "courseSessionIds": [
-          "session_professor_engelsk-sprog-og-kultur"
+          "session_professor_20-sporgsmal-engelsk_v2"
         ],
-        "courseSequenceVersion": 1,
+        "courseSequenceVersion": 2,
         "courseSequenceSource": "metadata",
         "sourceKind": "plan-library-demo",
         "sourceCsv": "spil/kapardy/20/engelsk_sprog_kultur_20.csv",
-        "estimatedLessons": "2–4"
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort"
       }
     }
   ],
   "boards": [
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_1",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_1",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
       "title": "Overblik · Engelsk sprog og kultur",
       "background": {
         "kind": "image",
@@ -74,23 +77,23 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_overview_intro",
-        "widget_session_professor_engelsk-sprog-og-kultur_overview_route",
-        "widget_session_professor_engelsk-sprog-og-kultur_overview_index"
+        "widget_professor_20-sporgsmal-engelsk_v2_overview_intro",
+        "widget_professor_20-sporgsmal-engelsk_v2_overview_route",
+        "widget_professor_20-sporgsmal-engelsk_v2_overview_index"
       ],
-      "layoutFamilyId": "professor-overview-v1",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
         "lessonPart": "overview",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv"
+        "order": 1
       }
     },
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_2",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_2",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
-      "title": "1. Ord og vendinger",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
+      "title": "Kilder og medier",
       "background": {
         "kind": "image",
         "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
@@ -105,27 +108,59 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_cat1_facts",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat1_activity",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat1_check"
+        "widget_professor_20-sporgsmal-engelsk_v2_sources_text",
+        "widget_professor_20-sporgsmal-engelsk_v2_source_1",
+        "widget_professor_20-sporgsmal-engelsk_v2_source_2",
+        "widget_professor_20-sporgsmal-engelsk_v2_source_3",
+        "widget_professor_20-sporgsmal-engelsk_v2_source_4"
       ],
-      "layoutFamilyId": "professor-category-v1",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
-        "lessonPart": "category",
-        "category": "Ord og vendinger",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv"
+        "lessonPart": "sources",
+        "order": 2
       }
     },
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_3",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_3",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
+      "title": "1. Ord og vendinger",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#7c4a21 55%,#9a6a35 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_professor_20-sporgsmal-engelsk_v2_cat1_core",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat1_activity",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-engelsk_v2_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
       "title": "2. Grammatik og udtale",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#14372f 0%,#205c4b 55%,#357765 100%)",
+        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -137,27 +172,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_cat2_facts",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat2_activity",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat2_check"
+        "widget_professor_20-sporgsmal-engelsk_v2_cat2_core",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat2_activity",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat2_check"
       ],
-      "layoutFamilyId": "professor-category-v1",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
         "lessonPart": "category",
-        "category": "Grammatik og udtale",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv"
+        "order": 4
       }
     },
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_4",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_5",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
       "title": "3. Litteratur og kultur",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#3f2a16 0%,#6b4926 55%,#8a6537 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -169,23 +203,22 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_cat3_facts",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat3_activity",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat3_check"
+        "widget_professor_20-sporgsmal-engelsk_v2_cat3_core",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat3_activity",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat3_check"
       ],
-      "layoutFamilyId": "professor-category-v1",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
         "lessonPart": "category",
-        "category": "Litteratur og kultur",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv"
+        "order": 5
       }
     },
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_5",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_6",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
       "title": "4. Den engelsktalende verden",
       "background": {
         "kind": "image",
@@ -201,27 +234,26 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_cat4_facts",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat4_activity",
-        "widget_session_professor_engelsk-sprog-og-kultur_cat4_check"
+        "widget_professor_20-sporgsmal-engelsk_v2_cat4_core",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat4_activity",
+        "widget_professor_20-sporgsmal-engelsk_v2_cat4_check"
       ],
-      "layoutFamilyId": "professor-category-v1",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
         "lessonPart": "category",
-        "category": "Den engelsktalende verden",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv"
+        "order": 6
       }
     },
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_6",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_7",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
-      "title": "6. Professorens prøveværksted",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
+      "title": "Huskekort og aktiv genkaldelse",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#30204f 0%,#51366d 55%,#714b77 100%)",
+        "value": "linear-gradient(145deg,#3c1632 0%,#63315b 55%,#7e4975 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -233,28 +265,24 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_header",
-        "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_1",
-        "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_2",
-        "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_3",
-        "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_4"
+        "widget_professor_20-sporgsmal-engelsk_v2_flashcards"
       ],
-      "layoutFamilyId": "professor-rehearsal-v1",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
-        "lessonPart": "rehearsal",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv"
+        "lessonPart": "flashcards",
+        "order": 7
       }
     },
     {
-      "id": "board_session_professor_engelsk-sprog-og-kultur_7",
+      "id": "board_professor_20-sporgsmal-engelsk_v2_8",
       "schemaVersion": 1,
-      "sessionId": "session_professor_engelsk-sprog-og-kultur",
-      "title": "🎯 KaPardy · Engelsk sprog og kultur",
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
+      "title": "Professorens prøveværksted",
       "background": {
         "kind": "image",
-        "value": "linear-gradient(145deg,#101827 0%,#1f2937 58%,#334155 100%)",
+        "value": "linear-gradient(145deg,#15234d 0%,#2f4474 55%,#4d6497 100%)",
         "imageRef": null,
         "fit": "cover"
       },
@@ -266,24 +294,54 @@
         "y": 0
       },
       "widgetIds": [
-        "widget_session_professor_engelsk-sprog-og-kultur_kapardy"
+        "widget_professor_20-sporgsmal-engelsk_v2_workshop",
+        "widget_professor_20-sporgsmal-engelsk_v2_workshop_sources",
+        "widget_professor_20-sporgsmal-engelsk_v2_workshop_cards"
       ],
-      "layoutFamilyId": "kapardy-v2",
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "meta": {
-        "lessonPart": "final",
-        "sourceCsv": "engelsk_sprog_kultur_20.csv",
-        "questionCount": 20
+        "lessonPart": "workshop",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-engelsk_v2_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-engelsk_v2",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_professor_20-sporgsmal-engelsk_v2_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 9
       }
     }
   ],
   "widgets": [
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_overview_intro",
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_overview_intro",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_1",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_1",
       "type": "text",
       "title": "Professorens invitation",
       "geometry": {
@@ -295,7 +353,7 @@
         "z": 1
       },
       "content": {
-        "text": "20 SPØRGSMÅL FRA PROFESSOREN\nENGELSK SPROG OG KULTUR\n\nMÅL\nEleverne opbygger den viden, de skal bruge til det eksisterende KaPardy-spil med 20 spørgsmål. Spillet er ikke omskrevet: alle fire kategorier og alle 20 spørgsmål er hentet direkte fra den reviderede 20-spørgsmålsfil.\n\nARBEJDSFORM\nKort læreroplæg · makkerarbejde · aktiv genkaldelse · fælles præcisering · KaPardy på sidste tavle.\n\nMATERIALER\nPlan-tavlerne, papir/noter og eventuelt et kort, periodesystem eller lommeregner, når opgaven lægger op til det.",
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · V2\nENGELSK SPROG OG KULTUR\n\nIDÉ\nEleverne skal ikke møde KaPardy-spørgsmålene som løs quizviden. De arbejder først med kilder, medier, forklaringer og huskekort, så spillet bliver en faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare centrale begreber med egne ord\n• kende forvekslinger og nærliggende svar\n• træne aktiv genkaldelse i Huskekortmatrix\n• afslutte med det eksisterende 20-spørgsmåls KaPardy-spil\n\nLÆRERFLOW\nKilder → kategoriarbejde → huskekort → prøveværksted → KaPardy.",
         "fontSize": 17,
         "align": "left"
       },
@@ -309,17 +367,17 @@
       "relations": {
         "layoutRole": "intro"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_overview_route",
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_overview_route",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_1",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_1",
       "type": "text",
-      "title": "Lektionsplan",
+      "title": "Lektionsplan og faglige spor",
       "geometry": {
         "x": 600,
         "y": 85,
@@ -329,7 +387,7 @@
         "z": 2
       },
       "content": {
-        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Tavle 1–3 i første lektion; tavle 4–7 i anden.\n3 lektioner: Tavle 1–2; tavle 3–4; tavle 5–7.\n4 lektioner: Én kategoritavle pr. lektion. Brug prøveværkstedet og KaPardy i slutningen af lektion 4.\n\nFAST RUTINE PÅ KATEGORITAVLERNE\n1. Læs professorens kernestof.\n2. Løs den aktive opgave uden facit.\n3. Forklar svarene højt.\n4. Luk med professorens kontrolspørgsmål.",
+        "text": "FORLØBET KAN KØRES PÅ 2–4 LEKTIONER\n\n2 lektioner: Overblik + kilder + to kategorier / to kategorier + huskekort + KaPardy.\n3 lektioner: Kilder og kategori 1–2 / kategori 3–4 / huskekort, prøveværksted og KaPardy.\n4 lektioner: Kilder og én kategori pr. lektion, med huskekort og KaPardy som afslutning.\n\nDE FIRE SPOR\n• Ord og vendinger\n• Grammatik og udtale\n• Litteratur og kultur\n• Den engelsktalende verden\n\nFAST RUTINE\n1. Åbn mindst én kilde eller medie.\n2. Notér tre nøgleord uden facit.\n3. Forklar svaret til en makker.\n4. Træn kategorien i Huskekortmatrixen.",
         "fontSize": 16,
         "align": "left"
       },
@@ -343,15 +401,15 @@
       "relations": {
         "layoutRole": "lesson-plan"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_overview_index",
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_overview_index",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_1",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_1",
       "type": "board-index",
       "title": "Tavler i forløbet",
       "geometry": {
@@ -364,13 +422,15 @@
       },
       "content": {
         "boardIds": [
-          "board_session_professor_engelsk-sprog-og-kultur_1",
-          "board_session_professor_engelsk-sprog-og-kultur_2",
-          "board_session_professor_engelsk-sprog-og-kultur_3",
-          "board_session_professor_engelsk-sprog-og-kultur_4",
-          "board_session_professor_engelsk-sprog-og-kultur_5",
-          "board_session_professor_engelsk-sprog-og-kultur_6",
-          "board_session_professor_engelsk-sprog-og-kultur_7"
+          "board_professor_20-sporgsmal-engelsk_v2_1",
+          "board_professor_20-sporgsmal-engelsk_v2_2",
+          "board_professor_20-sporgsmal-engelsk_v2_3",
+          "board_professor_20-sporgsmal-engelsk_v2_4",
+          "board_professor_20-sporgsmal-engelsk_v2_5",
+          "board_professor_20-sporgsmal-engelsk_v2_6",
+          "board_professor_20-sporgsmal-engelsk_v2_7",
+          "board_professor_20-sporgsmal-engelsk_v2_8",
+          "board_professor_20-sporgsmal-engelsk_v2_9"
         ]
       },
       "settings": {
@@ -383,28 +443,28 @@
       "relations": {
         "layoutRole": "board-index"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat1_facts",
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_sources_text",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_2",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_2",
       "type": "text",
-      "title": "Kernestof · Ord og vendinger",
+      "title": "Kilde- og medieliste",
       "geometry": {
         "x": 20,
         "y": 85,
-        "width": 720,
+        "width": 520,
         "height": 700,
         "rotation": 0,
         "z": 1
       },
       "content": {
-        "text": "PROFESSORENS KERNESTOF · ORD OG VENDINGER\n\n1. Hvad betyder det engelske ord eller udtryk ‘lend’?\n   FACIT: låne noget ud\n\n2. Hvad betyder det engelske ord eller udtryk ‘improve’?\n   FACIT: forbedre\n\n3. Hvad betyder det engelske ord eller udtryk ‘avoid’?\n   FACIT: undgå\n\n4. Hvad betyder det engelske ord eller udtryk ‘relieved’?\n   FACIT: lettet\n\n5. Hvad betyder det engelske ord eller udtryk ‘embarrassed’?\n   FACIT: flov\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
-        "fontSize": 17,
+        "text": "KILDER OG MEDIER\n\n1. Cambridge Dictionary · Grammar\n   Type: læsekilde/øvelse\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n2. British Council LearnEnglish\n   Type: læse/lytte/øve\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n3. Government of Canada · Official languages\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\n4. The Booker Prizes\n   Type: kilde\n   Brug: Åbn som link eller webvisning. Find tre oplysninger, der kan forklare kortene.\n\nELEVOPGAVE\nVælg to kilder. Skriv: Hvad kan kilden bruges til? Hvilke spørgsmål hjælper den med? Hvilke ord/begreber skal på huskekort?",
+        "fontSize": 15,
         "align": "left"
       },
       "settings": {
@@ -415,31 +475,32 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "core"
+        "layoutRole": "sources"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat1_activity",
-      "schemaVersion": 3,
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_source_1",
+      "schemaVersion": 1,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_2",
-      "type": "text",
-      "title": "Arbejd aktivt",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_2",
+      "type": "link",
+      "title": "Cambridge Dictionary · Grammar",
       "geometry": {
-        "x": 760,
+        "x": 560,
         "y": 85,
-        "width": 420,
-        "height": 315,
+        "width": 300,
+        "height": 190,
         "rotation": 0,
         "z": 2
       },
       "content": {
-        "text": "AKTIV OPGAVE\n\nSkriv én kort engelsk sætning med hvert ord. Byt med en makker, der oversætter og kontrollerer, om ordet bruges i den rigtige betydning.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
-        "fontSize": 16,
-        "align": "left"
+        "url": "https://dictionary.cambridge.org/grammar/",
+        "label": "Cambridge Dictionary · Grammar",
+        "note": "læsekilde/øvelse. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "view": "link"
       },
       "settings": {
         "locked": false,
@@ -449,31 +510,32 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "activity"
+        "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat1_check",
-      "schemaVersion": 3,
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_source_2",
+      "schemaVersion": 1,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_2",
-      "type": "text",
-      "title": "Kontrol og huskesystem",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_2",
+      "type": "link",
+      "title": "British Council LearnEnglish",
       "geometry": {
-        "x": 760,
-        "y": 420,
-        "width": 420,
-        "height": 365,
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
         "rotation": 0,
         "z": 3
       },
       "content": {
-        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvad betyder det engelske ord eller udtryk ‘lend’?\n• Hvad betyder det engelske ord eller udtryk ‘improve’?\n• Hvad betyder det engelske ord eller udtryk ‘avoid’?\n• Hvad betyder det engelske ord eller udtryk ‘relieved’?\n• Hvad betyder det engelske ord eller udtryk ‘embarrassed’?\n\nHUSKESYSTEM\nLend er at låne ud; borrow er at låne. Improve, avoid, relieved og embarrassed huskes bedst i korte situationer.",
-        "fontSize": 14,
-        "align": "left"
+        "url": "https://learnenglish.britishcouncil.org/",
+        "label": "British Council LearnEnglish",
+        "note": "læse/lytte/øve. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "view": "link"
       },
       "settings": {
         "locked": false,
@@ -483,439 +545,32 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "retrieval"
+        "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat2_facts",
-      "schemaVersion": 3,
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_source_3",
+      "schemaVersion": 1,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_3",
-      "type": "text",
-      "title": "Kernestof · Grammatik og udtale",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_2",
+      "type": "link",
+      "title": "Government of Canada · Official languages",
       "geometry": {
-        "x": 20,
-        "y": 85,
-        "width": 720,
-        "height": 700,
-        "rotation": 0,
-        "z": 1
-      },
-      "content": {
-        "text": "PROFESSORENS KERNESTOF · GRAMMATIK OG UDTALE\n\n1. Hvilken sætning står korrekt i present perfect?\n   FACIT: She has lived here for five years.\n\n2. Hvilken sætning bruger future continuous korrekt?\n   FACIT: At eight, I will be working.\n\n3. Hvilken fortsættelse er korrekt: “If I had known, …”?\n   FACIT: I would have called you.\n\n4. Hvilken verbumsform følger normalt efter modalverbet “must”?\n   FACIT: grundformen uden “to”\n\n5. Hvilken formulering er grammatisk korrekt?\n   FACIT: between you and me\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
-        "fontSize": 17,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "core"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat2_activity",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_3",
-      "type": "text",
-      "title": "Arbejd aktivt",
-      "geometry": {
-        "x": 760,
-        "y": 85,
-        "width": 420,
-        "height": 315,
-        "rotation": 0,
-        "z": 2
-      },
-      "content": {
-        "text": "AKTIV OPGAVE\n\nOmskriv fem nye sætninger efter mønstrene: present perfect, future continuous, third conditional, modal + grundform og korrekt pronomen efter præposition.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
-        "fontSize": 16,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "activity"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat2_check",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_3",
-      "type": "text",
-      "title": "Kontrol og huskesystem",
-      "geometry": {
-        "x": 760,
-        "y": 420,
-        "width": 420,
-        "height": 365,
-        "rotation": 0,
-        "z": 3
-      },
-      "content": {
-        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilken sætning står korrekt i present perfect?\n• Hvilken sætning bruger future continuous korrekt?\n• Hvilken fortsættelse er korrekt: “If I had known, …”?\n• Hvilken verbumsform følger normalt efter modalverbet “must”?\n• Hvilken formulering er grammatisk korrekt?\n\nHUSKESYSTEM\nTidsmarkører hjælper: for five years → present perfect; at eight → future continuous; had known → would have called.",
-        "fontSize": 14,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "retrieval"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat3_facts",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_4",
-      "type": "text",
-      "title": "Kernestof · Litteratur og kultur",
-      "geometry": {
-        "x": 20,
-        "y": 85,
-        "width": 720,
-        "height": 700,
-        "rotation": 0,
-        "z": 1
-      },
-      "content": {
-        "text": "PROFESSORENS KERNESTOF · LITTERATUR OG KULTUR\n\n1. Hvem skrev værket “Ulysses”?\n   FACIT: James Joyce\n\n2. Hvem skabte den litterære figur Sherlock Holmes?\n   FACIT: Arthur Conan Doyle\n\n3. Hvem skabte den litterære figur Paddington Bear?\n   FACIT: Michael Bond\n\n4. Hvem skabte den litterære figur Winnie-the-Pooh?\n   FACIT: A.A. Milne\n\n5. Hvem skabte den litterære figur Harry Potter?\n   FACIT: J.K. Rowling\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
-        "fontSize": 17,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "core"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat3_activity",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_4",
-      "type": "text",
-      "title": "Arbejd aktivt",
-      "geometry": {
-        "x": 760,
-        "y": 85,
-        "width": 420,
-        "height": 315,
-        "rotation": 0,
-        "z": 2
-      },
-      "content": {
-        "text": "AKTIV OPGAVE\n\nLav en forfatter–figur–værk-kæde. En elev nævner forfatteren, den næste figuren eller værket, og den tredje tilføjer en huskedetalje.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
-        "fontSize": 16,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "activity"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat3_check",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_4",
-      "type": "text",
-      "title": "Kontrol og huskesystem",
-      "geometry": {
-        "x": 760,
-        "y": 420,
-        "width": 420,
-        "height": 365,
-        "rotation": 0,
-        "z": 3
-      },
-      "content": {
-        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvem skrev værket “Ulysses”?\n• Hvem skabte den litterære figur Sherlock Holmes?\n• Hvem skabte den litterære figur Paddington Bear?\n• Hvem skabte den litterære figur Winnie-the-Pooh?\n• Hvem skabte den litterære figur Harry Potter?\n\nHUSKESYSTEM\nJoyce–Ulysses, Doyle–Holmes, Bond–Paddington, Milne–Pooh, Rowling–Harry Potter.",
-        "fontSize": 14,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "retrieval"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat4_facts",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_5",
-      "type": "text",
-      "title": "Kernestof · Den engelsktalende verden",
-      "geometry": {
-        "x": 20,
-        "y": 85,
-        "width": 720,
-        "height": 700,
-        "rotation": 0,
-        "z": 1
-      },
-      "content": {
-        "text": "PROFESSORENS KERNESTOF · DEN ENGELSKTALENDE VERDEN\n\n1. Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?\n   FACIT: New Zealand\n\n2. Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?\n   FACIT: Singapore\n\n3. I hvilken by eller hvilket område ligger Frihedsgudinden?\n   FACIT: New York\n\n4. I hvilken by eller hvilket område ligger Stonehenge?\n   FACIT: Wiltshire\n\n5. I hvilken by eller hvilket område ligger CN Tower?\n   FACIT: Toronto\n\nLæs først med facit. Luk derefter denne tavle mentalt ved at dække svarlinjerne og genkalde dem i rækkefølge.",
-        "fontSize": 17,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "core"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat4_activity",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_5",
-      "type": "text",
-      "title": "Arbejd aktivt",
-      "geometry": {
-        "x": 760,
-        "y": 85,
-        "width": 420,
-        "height": 315,
-        "rotation": 0,
-        "z": 2
-      },
-      "content": {
-        "text": "AKTIV OPGAVE\n\nFind stederne på et verdenskort og forklar forskellen mellem land, by, region og sproglig status. Brug præcise stedord: in New Zealand, in Singapore, in New York, in Wiltshire, in Toronto.\n\nKRAV TIL SVARET\n• Alle fem faglige koblinger skal med.\n• Brug præcise navne, tal, steder eller begreber.\n• En anden gruppe skal kunne kontrollere jeres forklaring.",
-        "fontSize": 16,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "activity"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_cat4_check",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_5",
-      "type": "text",
-      "title": "Kontrol og huskesystem",
-      "geometry": {
-        "x": 760,
-        "y": 420,
-        "width": 420,
-        "height": 365,
-        "rotation": 0,
-        "z": 3
-      },
-      "content": {
-        "text": "PROFESSORENS KONTROL\n\nSvar uden valgmuligheder:\n• Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?\n• Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?\n• I hvilken by eller hvilket område ligger Frihedsgudinden?\n• I hvilken by eller hvilket område ligger Stonehenge?\n• I hvilken by eller hvilket område ligger CN Tower?\n\nHUSKESYSTEM\nNew Zealand og Singapore handler om sprogstatus; New York, Wiltshire og Toronto handler om placering af kendte steder.",
-        "fontSize": 14,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "retrieval"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_header",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_6",
-      "type": "text",
-      "title": "Sådan gør I",
-      "geometry": {
-        "x": 20,
-        "y": 85,
-        "width": 1160,
-        "height": 180,
-        "rotation": 0,
-        "z": 1
-      },
-      "content": {
-        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nArbejd i fire ekspertgrupper – én kategori pr. gruppe. Hver gruppe har 8 minutter til at kunne forklare sine fem svar uden at læse op. Derefter dannes nye grupper med én ekspert fra hver kategori. Til sidst vælges de steder, klassen stadig er usikker på, til en kort fælles præcisering.\n\nRegel: Et svar tæller først som lært, når eleven kan forklare, hvorfor det er rigtigt.",
-        "fontSize": 16,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "rehearsal-guide"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_1",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_6",
-      "type": "text",
-      "title": "Ord og vendinger",
-      "geometry": {
-        "x": 20,
-        "y": 285,
-        "width": 560,
-        "height": 225,
-        "rotation": 0,
-        "z": 2
-      },
-      "content": {
-        "text": "ORD OG VENDINGER\n\n1. Hvad betyder det engelske ord eller udtryk ‘lend’?\n2. Hvad betyder det engelske ord eller udtryk ‘improve’?\n3. Hvad betyder det engelske ord eller udtryk ‘avoid’?\n4. Hvad betyder det engelske ord eller udtryk ‘relieved’?\n5. Hvad betyder det engelske ord eller udtryk ‘embarrassed’?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
-        "fontSize": 13,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "rehearsal-category"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_2",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_6",
-      "type": "text",
-      "title": "Grammatik og udtale",
-      "geometry": {
-        "x": 600,
-        "y": 285,
-        "width": 560,
-        "height": 225,
-        "rotation": 0,
-        "z": 3
-      },
-      "content": {
-        "text": "GRAMMATIK OG UDTALE\n\n1. Hvilken sætning står korrekt i present perfect?\n2. Hvilken sætning bruger future continuous korrekt?\n3. Hvilken fortsættelse er korrekt: “If I had known, …”?\n4. Hvilken verbumsform følger normalt efter modalverbet “must”?\n5. Hvilken formulering er grammatisk korrekt?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
-        "fontSize": 13,
-        "align": "left"
-      },
-      "settings": {
-        "locked": false,
-        "hidden": false,
-        "minimized": false,
-        "maximized": false,
-        "restoreGeometry": null
-      },
-      "relations": {
-        "layoutRole": "rehearsal-category"
-      },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
-      "legacy": null
-    },
-    {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_3",
-      "schemaVersion": 3,
-      "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_6",
-      "type": "text",
-      "title": "Litteratur og kultur",
-      "geometry": {
-        "x": 20,
-        "y": 535,
-        "width": 560,
-        "height": 225,
+        "x": 560,
+        "y": 300,
+        "width": 300,
+        "height": 190,
         "rotation": 0,
         "z": 4
       },
       "content": {
-        "text": "LITTERATUR OG KULTUR\n\n1. Hvem skrev værket “Ulysses”?\n2. Hvem skabte den litterære figur Sherlock Holmes?\n3. Hvem skabte den litterære figur Paddington Bear?\n4. Hvem skabte den litterære figur Winnie-the-Pooh?\n5. Hvem skabte den litterære figur Harry Potter?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
-        "fontSize": 13,
-        "align": "left"
+        "url": "https://www.canada.ca/en/canadian-heritage/services/official-languages-bilingualism.html",
+        "label": "Government of Canada · Official languages",
+        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "view": "link"
       },
       "settings": {
         "locked": false,
@@ -925,30 +580,65 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "rehearsal-category"
+        "layoutRole": "source-link"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_rehearsal_4",
-      "schemaVersion": 3,
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_source_4",
+      "schemaVersion": 1,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_6",
-      "type": "text",
-      "title": "Den engelsktalende verden",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_2",
+      "type": "link",
+      "title": "The Booker Prizes",
       "geometry": {
-        "x": 600,
-        "y": 535,
-        "width": 560,
-        "height": 225,
+        "x": 880,
+        "y": 300,
+        "width": 300,
+        "height": 190,
         "rotation": 0,
         "z": 5
       },
       "content": {
-        "text": "DEN ENGELSKTALENDE VERDEN\n\n1. Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?\n2. Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?\n3. I hvilken by eller hvilket område ligger Frihedsgudinden?\n4. I hvilken by eller hvilket område ligger Stonehenge?\n5. I hvilken by eller hvilket område ligger CN Tower?\n\nEksperten skal kunne give alle fem facit og forklare mindst to af dem.",
-        "fontSize": 13,
+        "url": "https://thebookerprizes.com/",
+        "label": "The Booker Prizes",
+        "note": "kilde. Brug som læse-, lytte- eller se-kilde i forløbet.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_3",
+      "type": "text",
+      "title": "Kildearbejde · Ord og vendinger",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Ord og vendinger\n\nARBEJD MED KILDERNE\nBrug især: Cambridge Dictionary · Grammar, British Council LearnEnglish.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad betyder det engelske ord eller udtryk ‘lend’?\n• Hvad betyder det engelske ord eller udtryk ‘improve’?\n• Hvad betyder det engelske ord eller udtryk ‘avoid’?\n• Hvad betyder det engelske ord eller udtryk ‘relieved’?\n• Hvad betyder det engelske ord eller udtryk ‘embarrassed’?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "fontSize": 16,
         "align": "left"
       },
       "settings": {
@@ -959,17 +649,1044 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "rehearsal-category"
+        "layoutRole": "core"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     },
     {
-      "id": "widget_session_professor_engelsk-sprog-og-kultur_kapardy",
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat1_activity",
       "schemaVersion": 3,
       "widgetVersion": 1,
-      "boardId": "board_session_professor_engelsk-sprog-og-kultur_7",
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_3",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Ord og vendinger\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_3",
+      "type": "text",
+      "title": "Kontrol og huskekort",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad betyder det engelske ord eller udtryk ‘lend’?\n• Hvad betyder det engelske ord eller udtryk ‘improve’?\n• Hvad betyder det engelske ord eller udtryk ‘avoid’?\n• Hvad betyder det engelske ord eller udtryk ‘relieved’?\n• Hvad betyder det engelske ord eller udtryk ‘embarrassed’?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_4",
+      "type": "text",
+      "title": "Kildearbejde · Grammatik og udtale",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Grammatik og udtale\n\nARBEJD MED KILDERNE\nBrug især: Cambridge Dictionary · Grammar, British Council LearnEnglish.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken sætning står korrekt i present perfect?\n• Hvilken sætning bruger future continuous korrekt?\n• Hvilken fortsættelse er korrekt: “If I had known, …”?\n• Hvilken verbumsform følger normalt efter modalverbet “must”?\n• Hvilken formulering er grammatisk korrekt?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Grammatik og udtale\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_4",
+      "type": "text",
+      "title": "Kontrol og huskekort",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken sætning står korrekt i present perfect?\n• Hvilken sætning bruger future continuous korrekt?\n• Hvilken fortsættelse er korrekt: “If I had known, …”?\n• Hvilken verbumsform følger normalt efter modalverbet “must”?\n• Hvilken formulering er grammatisk korrekt?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_5",
+      "type": "text",
+      "title": "Kildearbejde · Litteratur og kultur",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Litteratur og kultur\n\nARBEJD MED KILDERNE\nBrug især: Cambridge Dictionary · Grammar, British Council LearnEnglish.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvem skrev værket “Ulysses”?\n• Hvem skabte den litterære figur Sherlock Holmes?\n• Hvem skabte den litterære figur Paddington Bear?\n• Hvem skabte den litterære figur Winnie-the-Pooh?\n• Hvem skabte den litterære figur Harry Potter?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Litteratur og kultur\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_5",
+      "type": "text",
+      "title": "Kontrol og huskekort",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvem skrev værket “Ulysses”?\n• Hvem skabte den litterære figur Sherlock Holmes?\n• Hvem skabte den litterære figur Paddington Bear?\n• Hvem skabte den litterære figur Winnie-the-Pooh?\n• Hvem skabte den litterære figur Harry Potter?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_6",
+      "type": "text",
+      "title": "Kildearbejde · Den engelsktalende verden",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Den engelsktalende verden\n\nARBEJD MED KILDERNE\nBrug især: Cambridge Dictionary · Grammar, British Council LearnEnglish.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?\n• Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?\n• I hvilken by eller hvilket område ligger Frihedsgudinden?\n• I hvilken by eller hvilket område ligger Stonehenge?\n• I hvilken by eller hvilket område ligger CN Tower?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvad betyder begrebet? Hvorfor er de andre svarmuligheder ikke lige så præcise? Hvilken kilde understøtter svaret?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Den engelsktalende verden\n\n1. Arbejd i makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Find støtte i kilderne eller medierne.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv mindst én typisk forveksling eller misforståelse.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål:\nForside = spørgsmål/begreb.\nBagside = præcist svar.\nForklaring = hvorfor svaret passer.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_6",
+      "type": "text",
+      "title": "Kontrol og huskekort",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?\n• Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?\n• I hvilken by eller hvilket område ligger Frihedsgudinden?\n• I hvilken by eller hvilket område ligger Stonehenge?\n• I hvilken by eller hvilket område ligger CN Tower?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_7",
+      "type": "flashcard-matrix",
+      "title": "Huskekort · Engelsk sprog og kultur",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 720,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "sourceType": "kapardy",
+        "sourceWidgetId": "widget_professor_20-sporgsmal-engelsk_v2_kapardy",
+        "sourceDatasetId": null,
+        "sourceTitle": "KaPardy · Engelsk sprog og kultur",
+        "linked": true,
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_engelsk-sprog-og-kultur_01": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: låne noget ud. Brug kilden til at forklare, hvorfor dette er mere præcist end: låne af nogen · forbedre · undgå.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "låne af nogen",
+              "forbedre",
+              "undgå"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_02": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: forbedre. Brug kilden til at forklare, hvorfor dette er mere præcist end: låne af nogen · låne noget ud · undgå.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "låne af nogen",
+              "låne noget ud",
+              "undgå"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_03": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: undgå. Brug kilden til at forklare, hvorfor dette er mere præcist end: låne af nogen · låne noget ud · forbedre.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "låne af nogen",
+              "låne noget ud",
+              "forbedre"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_04": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: lettet. Brug kilden til at forklare, hvorfor dette er mere præcist end: flov · stædig · nysgerrig.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "flov",
+              "stædig",
+              "nysgerrig"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_05": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: flov. Brug kilden til at forklare, hvorfor dette er mere præcist end: lettet · stædig · nysgerrig.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "lettet",
+              "stædig",
+              "nysgerrig"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_06": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: She has lived here for five years.. Brug kilden til at forklare, hvorfor dette er mere præcist end: She lived here since five years. · She has live here for five years. · She is lived here for five years..",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "She lived here since five years.",
+              "She has live here for five years.",
+              "She is lived here for five years."
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_07": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: At eight, I will be working.. Brug kilden til at forklare, hvorfor dette er mere præcist end: At eight, I will working. · At eight, I am will work. · At eight, I will be work..",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "At eight, I will working.",
+              "At eight, I am will work.",
+              "At eight, I will be work."
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_08": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: I would have called you.. Brug kilden til at forklare, hvorfor dette er mere præcist end: I will call you. · I would call you yesterday. · I had call you..",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "I will call you.",
+              "I would call you yesterday.",
+              "I had call you."
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_09": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: grundformen uden “to”. Brug kilden til at forklare, hvorfor dette er mere præcist end: datidsformen · -ing-formen · perfektum participium alene.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "datidsformen",
+              "-ing-formen",
+              "perfektum participium alene"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_10": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: between you and me. Brug kilden til at forklare, hvorfor dette er mere præcist end: between you and I · between your and me · between yours and I.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "between you and I",
+              "between your and me",
+              "between yours and I"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_11": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: James Joyce. Brug kilden til at forklare, hvorfor dette er mere præcist end: J.R.R. Tolkien · Virginia Woolf · Charlotte Brontë.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "J.R.R. Tolkien",
+              "Virginia Woolf",
+              "Charlotte Brontë"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_12": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: Arthur Conan Doyle. Brug kilden til at forklare, hvorfor dette er mere præcist end: Michael Bond · A.A. Milne · J.K. Rowling.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Michael Bond",
+              "A.A. Milne",
+              "J.K. Rowling"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_13": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: Michael Bond. Brug kilden til at forklare, hvorfor dette er mere præcist end: Arthur Conan Doyle · A.A. Milne · J.K. Rowling.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Arthur Conan Doyle",
+              "A.A. Milne",
+              "J.K. Rowling"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_14": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: A.A. Milne. Brug kilden til at forklare, hvorfor dette er mere præcist end: Arthur Conan Doyle · Michael Bond · J.K. Rowling.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Arthur Conan Doyle",
+              "Michael Bond",
+              "J.K. Rowling"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_15": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: J.K. Rowling. Brug kilden til at forklare, hvorfor dette er mere præcist end: Arthur Conan Doyle · Michael Bond · A.A. Milne.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Arthur Conan Doyle",
+              "Michael Bond",
+              "A.A. Milne"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_16": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: New Zealand. Brug kilden til at forklare, hvorfor dette er mere præcist end: Canada · Irland · Singapore.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Canada",
+              "Irland",
+              "Singapore"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_17": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: Singapore. Brug kilden til at forklare, hvorfor dette er mere præcist end: Canada · Irland · New Zealand.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Canada",
+              "Irland",
+              "New Zealand"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_18": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: New York. Brug kilden til at forklare, hvorfor dette er mere præcist end: Wiltshire · Toronto · Northern Territory.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "Wiltshire",
+              "Toronto",
+              "Northern Territory"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_19": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: Wiltshire. Brug kilden til at forklare, hvorfor dette er mere præcist end: New York · Toronto · Northern Territory.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "New York",
+              "Toronto",
+              "Northern Territory"
+            ]
+          },
+          "kp_engelsk-sprog-og-kultur_20": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: Toronto. Brug kilden til at forklare, hvorfor dette er mere præcist end: New York · Wiltshire · Northern Territory.",
+            "sourceTitle": "Cambridge Dictionary · Grammar",
+            "sourceUrl": "https://dictionary.cambridge.org/grammar/",
+            "confusions": [
+              "New York",
+              "Wiltshire",
+              "Northern Territory"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Engelsk sprog og kultur",
+          "questions": [
+            {
+              "id": "kp_engelsk-sprog-og-kultur_01",
+              "category": "Ord og vendinger",
+              "question": "Hvad betyder det engelske ord eller udtryk ‘lend’?",
+              "points": 100,
+              "options": [
+                "låne noget ud",
+                "låne af nogen",
+                "forbedre",
+                "undgå"
+              ],
+              "correctIndex": 0,
+              "answer": "låne noget ud"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_02",
+              "category": "Ord og vendinger",
+              "question": "Hvad betyder det engelske ord eller udtryk ‘improve’?",
+              "points": 200,
+              "options": [
+                "forbedre",
+                "låne af nogen",
+                "låne noget ud",
+                "undgå"
+              ],
+              "correctIndex": 0,
+              "answer": "forbedre"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_03",
+              "category": "Ord og vendinger",
+              "question": "Hvad betyder det engelske ord eller udtryk ‘avoid’?",
+              "points": 300,
+              "options": [
+                "undgå",
+                "låne af nogen",
+                "låne noget ud",
+                "forbedre"
+              ],
+              "correctIndex": 0,
+              "answer": "undgå"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_04",
+              "category": "Ord og vendinger",
+              "question": "Hvad betyder det engelske ord eller udtryk ‘relieved’?",
+              "points": 400,
+              "options": [
+                "lettet",
+                "flov",
+                "stædig",
+                "nysgerrig"
+              ],
+              "correctIndex": 0,
+              "answer": "lettet"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_05",
+              "category": "Ord og vendinger",
+              "question": "Hvad betyder det engelske ord eller udtryk ‘embarrassed’?",
+              "points": 500,
+              "options": [
+                "flov",
+                "lettet",
+                "stædig",
+                "nysgerrig"
+              ],
+              "correctIndex": 0,
+              "answer": "flov"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_06",
+              "category": "Grammatik og udtale",
+              "question": "Hvilken sætning står korrekt i present perfect?",
+              "points": 100,
+              "options": [
+                "She has lived here for five years.",
+                "She lived here since five years.",
+                "She has live here for five years.",
+                "She is lived here for five years."
+              ],
+              "correctIndex": 0,
+              "answer": "She has lived here for five years."
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_07",
+              "category": "Grammatik og udtale",
+              "question": "Hvilken sætning bruger future continuous korrekt?",
+              "points": 200,
+              "options": [
+                "At eight, I will be working.",
+                "At eight, I will working.",
+                "At eight, I am will work.",
+                "At eight, I will be work."
+              ],
+              "correctIndex": 0,
+              "answer": "At eight, I will be working."
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_08",
+              "category": "Grammatik og udtale",
+              "question": "Hvilken fortsættelse er korrekt: “If I had known, …”?",
+              "points": 300,
+              "options": [
+                "I would have called you.",
+                "I will call you.",
+                "I would call you yesterday.",
+                "I had call you."
+              ],
+              "correctIndex": 0,
+              "answer": "I would have called you."
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_09",
+              "category": "Grammatik og udtale",
+              "question": "Hvilken verbumsform følger normalt efter modalverbet “must”?",
+              "points": 400,
+              "options": [
+                "grundformen uden “to”",
+                "datidsformen",
+                "-ing-formen",
+                "perfektum participium alene"
+              ],
+              "correctIndex": 0,
+              "answer": "grundformen uden “to”"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_10",
+              "category": "Grammatik og udtale",
+              "question": "Hvilken formulering er grammatisk korrekt?",
+              "points": 500,
+              "options": [
+                "between you and me",
+                "between you and I",
+                "between your and me",
+                "between yours and I"
+              ],
+              "correctIndex": 0,
+              "answer": "between you and me"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_11",
+              "category": "Litteratur og kultur",
+              "question": "Hvem skrev værket “Ulysses”?",
+              "points": 100,
+              "options": [
+                "James Joyce",
+                "J.R.R. Tolkien",
+                "Virginia Woolf",
+                "Charlotte Brontë"
+              ],
+              "correctIndex": 0,
+              "answer": "James Joyce"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_12",
+              "category": "Litteratur og kultur",
+              "question": "Hvem skabte den litterære figur Sherlock Holmes?",
+              "points": 200,
+              "options": [
+                "Arthur Conan Doyle",
+                "Michael Bond",
+                "A.A. Milne",
+                "J.K. Rowling"
+              ],
+              "correctIndex": 0,
+              "answer": "Arthur Conan Doyle"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_13",
+              "category": "Litteratur og kultur",
+              "question": "Hvem skabte den litterære figur Paddington Bear?",
+              "points": 300,
+              "options": [
+                "Michael Bond",
+                "Arthur Conan Doyle",
+                "A.A. Milne",
+                "J.K. Rowling"
+              ],
+              "correctIndex": 0,
+              "answer": "Michael Bond"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_14",
+              "category": "Litteratur og kultur",
+              "question": "Hvem skabte den litterære figur Winnie-the-Pooh?",
+              "points": 400,
+              "options": [
+                "A.A. Milne",
+                "Arthur Conan Doyle",
+                "Michael Bond",
+                "J.K. Rowling"
+              ],
+              "correctIndex": 0,
+              "answer": "A.A. Milne"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_15",
+              "category": "Litteratur og kultur",
+              "question": "Hvem skabte den litterære figur Harry Potter?",
+              "points": 500,
+              "options": [
+                "J.K. Rowling",
+                "Arthur Conan Doyle",
+                "Michael Bond",
+                "A.A. Milne"
+              ],
+              "correctIndex": 0,
+              "answer": "J.K. Rowling"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_16",
+              "category": "Den engelsktalende verden",
+              "question": "Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?",
+              "points": 100,
+              "options": [
+                "New Zealand",
+                "Canada",
+                "Irland",
+                "Singapore"
+              ],
+              "correctIndex": 0,
+              "answer": "New Zealand"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_17",
+              "category": "Den engelsktalende verden",
+              "question": "Hvilket land har malajisk, mandarin, tamil og engelsk som fire officielle sprog?",
+              "points": 200,
+              "options": [
+                "Singapore",
+                "Canada",
+                "Irland",
+                "New Zealand"
+              ],
+              "correctIndex": 0,
+              "answer": "Singapore"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_18",
+              "category": "Den engelsktalende verden",
+              "question": "I hvilken by eller hvilket område ligger Frihedsgudinden?",
+              "points": 300,
+              "options": [
+                "New York",
+                "Wiltshire",
+                "Toronto",
+                "Northern Territory"
+              ],
+              "correctIndex": 0,
+              "answer": "New York"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_19",
+              "category": "Den engelsktalende verden",
+              "question": "I hvilken by eller hvilket område ligger Stonehenge?",
+              "points": 400,
+              "options": [
+                "Wiltshire",
+                "New York",
+                "Toronto",
+                "Northern Territory"
+              ],
+              "correctIndex": 0,
+              "answer": "Wiltshire"
+            },
+            {
+              "id": "kp_engelsk-sprog-og-kultur_20",
+              "category": "Den engelsktalende verden",
+              "question": "I hvilken by eller hvilket område ligger CN Tower?",
+              "points": 500,
+              "options": [
+                "Toronto",
+                "New York",
+                "Wiltshire",
+                "Northern Territory"
+              ],
+              "correctIndex": 0,
+              "answer": "Toronto"
+            }
+          ],
+          "updatedAt": "2026-07-06T13:45:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training",
+        "sourceWidgetId": "widget_professor_20-sporgsmal-engelsk_v2_kapardy"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_8",
+      "type": "text",
+      "title": "Prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hver gruppe kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet. Det må gerne være enklere end kilden, men ikke upræcist.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_8",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nBrug Link-widgetterne fra tavlen Kilder og medier. Åbn dem som webvisning, når klassen skal se materialet sammen.\n\nNår et kort stadig står som 'Kan ikke endnu', skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_8",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 435,
+        "width": 580,
+        "height": 350,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er 'Næsten' eller 'Kan'.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_professor_20-sporgsmal-engelsk_v2_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-engelsk_v2_9",
       "type": "kapardy",
       "title": "KaPardy · Engelsk sprog og kultur",
       "geometry": {
@@ -983,8 +1700,8 @@
       "content": {
         "kapardyVersion": 2,
         "questionBankContract": "first-answer-correct",
-        "gameId": "kapardy_engelsk-sprog-og-kultur_20",
-        "gameStartedAt": "2026-07-06T00:55:00.000Z",
+        "gameId": "kapardy_20-sporgsmal-engelsk_20",
+        "gameStartedAt": "2026-07-06T13:45:00.000Z",
         "gameMode": "jeopardy",
         "mode": "jeopardy",
         "kapardyScreen": "setup",
@@ -1286,14 +2003,13 @@
         "current": 0,
         "currentTeam": 0,
         "reveal": false,
-        "selected": null,
         "selections": {},
         "awarded": {},
         "revealed": {},
         "optionOrders": {},
         "usedQuestions": {},
         "scoreEvents": [],
-        "sourceName": "engelsk_sprog_kultur_20.csv"
+        "sourceName": "KaPardy · Engelsk sprog og kultur"
       },
       "settings": {
         "locked": false,
@@ -1303,10 +2019,10 @@
         "restoreGeometry": null
       },
       "relations": {
-        "layoutRole": "kapardy"
+        "layoutRole": "kapardy-final"
       },
-      "createdAt": "2026-07-06T00:55:00.000Z",
-      "updatedAt": "2026-07-06T00:55:00.000Z",
+      "createdAt": "2026-07-06T13:45:00.000Z",
+      "updatedAt": "2026-07-06T13:45:00.000Z",
       "legacy": null
     }
   ],
@@ -1314,22 +2030,22 @@
   "media": [],
   "manifest": {
     "selectedSessionIds": [
-      "session_professor_engelsk-sprog-og-kultur"
+      "session_professor_20-sporgsmal-engelsk_v2"
     ],
     "counts": {
       "sessions": 1,
-      "boards": 7,
-      "widgets": 21,
+      "boards": 9,
+      "widgets": 25,
       "datasets": 0,
       "media": 0
     },
     "referencedDatasetIds": [],
     "referencedMediaIds": [],
     "mediaBytes": 0,
-    "courseId": "course_professor_engelsk-sprog-og-kultur",
+    "courseId": "course_professor_20-sporgsmal-engelsk_v2",
     "courseTitle": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
     "courseSessionIds": [
-      "session_professor_engelsk-sprog-og-kultur"
+      "session_professor_20-sporgsmal-engelsk_v2"
     ]
   },
   "warnings": []
