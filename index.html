@@ -1,3 +1,4 @@
+<!-- Plan v1.0.8 README / HJÆLP OPDATERET OWNER SAFE: Bygger på v1.0.7. Opdaterer README- og Hjælp-sporet, så version, biblioteksfag, Musik/Historie, KaPardy-læringsbank, Huskekort/Huskekortmatrix og midlertidige kildevinduer beskrives korrekt. Ingen data-, backup-, import- eller widgetformater ændres. -->
 <!-- Plan v1.0.7 BIBLIOTEKSFAG SYNLIGE OWNER SAFE: Bygger på v1.0.6. Musik og Historie er nu faste synlige biblioteksfag i bibliotekets basekategori-liste, så de også vises når en ældre cachet katalogoversigt eller fallback kun leverer items uden dynamiske categories. Andre 9.-klassefag beskriver nu kun øvrige fag, og fallbacken sender ikke længere musik/historie tilbage i Andre 9. Hjælp/version opdateres til 1.0.7 uden ændring af data-, backup-, import- eller widgetformater. -->
 <!-- Plan v1.0.5 MIDLERTIDIGE HUSKEKORTKILDER OWNER SAFE: Kildeknapper i Huskekort og Huskekortmatrix åbner nu midlertidige kildevinduer i stedet for at oprette Link/Web-widgets direkte. Kilder kan stadig fastgøres udtrykkeligt på tavlen, men almindelig lukning sender intet i Papirkurv og ændrer ikke forløbspakken. -->
 <!-- Plan v1.0.4 HUSKEKORT STATUSVISNING OWNER SAFE: Fjerner støjende standardlabels i Huskekortmatrix: "Ny" vises ikke længere som badge på alle nye kort, og "koblet" vises ikke længere på hvert enkelt kort. Koblingen fremgår kun af kildebjælken øverst, mens kortstatus først bliver synlig, når et kort markeres som Kan ikke endnu, Næsten eller Kan. KaPardy-bank, læringsbank, import, eksport, afkobling og eksisterende dataformater er uændrede. -->
@@ -173,7 +174,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Plan v1.0.7</title>
+<title>Plan v1.0.8</title>
 <meta name="application-name" content="Plan">
 <meta name="apple-mobile-web-app-title" content="Plan">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36037,11 +36038,11 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   });
 
   window.__PLAN_PDF_EXACT_PAGE_POSITION_BUILD__='2026-07-05-owner-safe';
-  TN.version='1.0.7';
+  TN.version='1.0.8';
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.0.7 · Biblioteksfag, huskekort og kildeforhåndsvisning';
-  TN.release={version:'1.0.7',channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0.7';
+  TN.buildLabel='Plan v1.0.8 · Hjælp, README, biblioteksfag og huskekort';
+  TN.release={version:'1.0.8',channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
+  document.title='Plan v1.0.8';
   window.__PLAN_V1_RELEASE_BUILD__='2026-07-05-owner-safe';
 })(window.TavleNext);
 </script>
@@ -36069,8 +36070,8 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       TN.registry.help.set(id,entry);
     };
 
-    set('overview','Kom godt i gang med Plan','Plan 1.0.7 og den korte vej fra forløb til tavle',`
-      <p><b>Plan 1.0.7</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
+    set('overview','Kom godt i gang med Plan','Plan 1.0.8 og den korte vej fra forløb til tavle',`
+      <p><b>Plan 1.0.8</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
       <div class="tn-help-recipe">
         <div class="tn-help-phase"><span>1</span><div><h4>Vælg forløbet</h4><p>Åbn det fag, skoleår eller emne, arbejdet skal høre til.</p></div></div>
         <div class="tn-help-phase"><span>2</span><div><h4>Planlæg datoerne</h4><p>Brug kalenderen til at knytte den aktuelle tavle og eventuelle fortsættelsestavler til en undervisningsgang.</p></div></div>
@@ -36375,29 +36376,32 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       <p>Lokale HTML-apps følger med i backup. Kendte onlineapps bruger deres faste webadresse.</p>
       <div class="tn-help-see"><b>Se også:</b><button data-help-jump="heavy">Store forløb</button><button data-help-jump="import">HTML-import</button><button data-help-jump="data">Linklister</button></div>`);
 
-    set('games','Timer, KaPardy, Lykkehjul, Afstemning og Ordsky','Aktiviteter til undervisningen',`
+    set('games','Timer, KaPardy, Huskekort og aktiviteter','Spil, repetition, træning og fælles respons',`
       <ul class="tn-help-list">
-        <li><b>Timer</b> har nedtælling, sekvenser, stopur og mellemtider.</li>
         <li><b>KaPardy</b> kan hente færdige spil fra Spilbiblioteket, vælge genre og spil med lykkehjul eller importere en CSV-/Excel-spilbank.</li>
+        <li>En KaPardy-bank kan nu bruges på to måder: som <b>spil</b> og som <b>læringsbank</b>.</li>
+        <li><b>Huskekortmatrix</b> kan være en levende træningsvisning af samme KaPardy-spørgsmålsbank. Den kopierer ikke spørgsmålene som standard, men gemmer læringsstatus, hints, forklaringer og kildeberigelser.</li>
+        <li><b>Træn</b> viser ét kort ad gangen med forside, bagside, kilde og markeringerne Kan ikke endnu, Næsten og Kan.</li>
+        <li><b>Åbn kilde</b> og <b>Vis web</b> fra huskekort åbner midlertidige kildevinduer. De sendes ikke i Papirkurv, når de lukkes. Brug <b>Fastgør på tavlen</b>, hvis kilden skal gemmes som rigtig widget.</li>
         <li>I en KaPardy-spilbank står kategori, spørgsmål, point, det rigtige svar og tre forkerte svar i hver række. Det rigtige svar står først; svarenes placering blandes ved spilstart.</li>
         <li>I Kahoot-spil har svarene farverne <b>Blå, Rød, Gul og Grøn</b>, så holdene kan svare med en farve. Nulstil spil fører helt tilbage til starten, mens spilbank og hold bevares.</li>
-        <li><b>Redigér spørgsmål</b> åbner det spørgsmål, der er aktivt i spillet.</li>
-        <li><b>Lykkehjul</b> kan bruge navne fra lister og data og kan beholde eller fjerne valgte deltagere.</li>
-        <li><b>Afstemning</b> viser søjler eller ordsky og kan samle anonyme svar fra PDF-formularer.</li>
-        <li><b>Ordsky</b> kan redigeres direkte eller følge en liste eller datakilde.</li>
+        <li><b>Timer</b>, <b>Lykkehjul</b>, <b>Afstemning</b> og <b>Ordsky</b> kan bruges sammen med lister, hold og datakilder.</li>
       </ul>
-      <p>En midlertidig dataoversigt kan lukkes uden at slette aktivitetens resultater.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Datakilder</button><button data-help-jump="groups">Hold og grupper</button><button data-help-jump="shortcuts">Genveje</button></div>`);
+      <p>Brug Huskekort før KaPardy, når eleverne først skal øve begreber, kilder og forvekslinger. Brug KaPardy til den afsluttende fælles aktivitet.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Datakilder</button><button data-help-jump="groups">Hold og grupper</button><button data-help-jump="library">Professorforløb</button><button data-help-jump="shortcuts">Genveje</button></div>`);
 
     set('library','Bibliotek, demoer og skabeloner','Find et forløb og brug det som din egen kopi',`
       <ul class="tn-help-list">
         <li>Åbn Hent demoforløb fra opstarten eller Datacenter → Bibliotek.</li>
-        <li>Filtrér efter fag og klassetrin, eller søg efter emne.</li>
-        <li>Plan henter først selve forløbet, når du vælger det.</li>
-        <li>Forløbet oprettes som en selvstændig lokal kopi, som du kan redigere og udvide.</li>
-        <li>Åbn fra disk bruges, når pakken allerede ligger på enheden.</li>
+        <li>Biblioteket læser fagene fra kataloget og viser også de nyere fag som <b>Musik</b> og <b>Historie</b>.</li>
+        <li>Filtrér efter fag og klassetrin, eller søg efter emne, kilde, KaPardy, huskekort eller titel.</li>
+        <li>Plan henter først selve forløbspakken, når du vælger <b>Se og brug</b>.</li>
+        <li>Forløbet oprettes som en selvstændig lokal kopi, som du kan redigere, udvide og sikkerhedskopiere.</li>
+        <li>Professorforløbene bruger typisk kilder, medier, huskekortmatrix og KaPardy på sidste tavle.</li>
+        <li><b>Åbn fra disk</b> bruges, når pakken allerede ligger på enheden.</li>
       </ul>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="course-backup">Årsforløbspakker</button></div>`);
+      <p>Mapper i GitHub er kun filstruktur. Det er <b>catalog.json</b>, der bestemmer hvilke fagknapper og forløb Plan viser i Biblioteket.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="games">Huskekort og KaPardy</button><button data-help-jump="course-backup">Årsforløbspakker</button></div>`);
 
     set('course-backup','Backup++, årsforløbspakker og deling','Sikr, flyt eller del arbejdet',`
       <p><b>Backup++</b> kan samle én, flere eller alle sessioner med de tavler, data og medier, de bruger.</p>
@@ -36498,7 +36502,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
         const paragraph=hero.querySelector('p');if(paragraph)paragraph.innerHTML='<b>Vælg en konkret opgave.</b> Hjælpen viser korte trin først og mere udførlige forklaringer bagefter.';
         const line=hero.querySelector('.tn-plan-help-line');if(line)line.textContent='Plan er appen. Tavler, datoer, elever og materialer bindes sammen i undervisningsforløbet.';
         const head=hero.querySelector('.tn-plan-help-hero-head');
-        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.7';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
+        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.8';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
       }
       const quick=root.querySelector('.tn-plan-help-quick');
       if(quick)quick.innerHTML='<article><b>1. Vælg forløbet</b><span>Åbn fag, skoleår eller emne og den rigtige session.</span></article><article><b>2. Planlæg dato og tavler</b><span>Knyt tavler til kalenderen og fortsæt samme undervisningsgang med flere tavler.</span></article><article><b>3. Arbejd med eleverne</b><span>Brug faghold, grupper, Elevkort, samtaler og karakterer.</span></article><article><b>4. Sikr arbejdet</b><span>Kontrollér data, ryd sikkert op og tag backup.</span></article>';
@@ -37024,12 +37028,12 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 <script id="plan-v101-release-version-guard">
 (function(TN){
   if(!TN)return;
-  const VERSION='1.0.7';
+  const VERSION='1.0.8';
   try{Object.defineProperty(TN,'version',{configurable:true,enumerable:true,get:()=>VERSION,set:()=>VERSION});}catch(_){TN.version=VERSION;}
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.0.7 · Biblioteksfag, huskekort og kildeforhåndsvisning';
+  TN.buildLabel='Plan v1.0.8 · Hjælp, README, biblioteksfag og huskekort';
   TN.release={version:VERSION,channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0.7';
+  document.title='Plan v1.0.8';
 })(window.TavleNext);
 </script>
 </body>
