@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-kaninunger_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Kaninunger",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_kaninunger_01": {
-            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: kindling. Forklar hvorfor det er mere præcist end: whelping · foaling · calving.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "whelping",
-              "foaling",
-              "calving"
-            ]
-          },
-          "kp_kaninunger_02": {
-            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: parringen. Forklar hvorfor det er mere præcist end: månefasen · vinterkulde · daglig fodring.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "månefasen",
-              "vinterkulde",
-              "daglig fodring"
-            ]
-          },
-          "kp_kaninunger_03": {
-            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: falsk drægtighed. Forklar hvorfor det er mere præcist end: dvale · fældning · brunstpause.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "dvale",
-              "fældning",
-              "brunstpause"
-            ]
-          },
-          "kp_kaninunger_04": {
-            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: omkring 12 dage efter parring. Forklar hvorfor det er mere præcist end: sammes dag som parringen · først efter fødslen · omkring 6 måneder efter parring.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "sammes dag som parringen",
-              "først efter fødslen",
-              "omkring 6 måneder efter parring"
-            ]
-          },
-          "kp_kaninunger_05": {
-            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: plukker pels fra sin egen krop. Forklar hvorfor det er mere præcist end: samler småsten · graver reden fuld af vand · bider ungernes pels af.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "samler småsten",
-              "graver reden fuld af vand",
-              "bider ungernes pels af"
-            ]
-          },
-          "kp_kaninunger_06": {
-            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: kattemælkserstatning. Forklar hvorfor det er mere præcist end: flødeis · sojasauce · appelsinjuice.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "flødeis",
-              "sojasauce",
-              "appelsinjuice"
-            ]
-          },
-          "kp_kaninunger_07": {
-            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: tage den med hjem med det samme. Forklar hvorfor det er mere præcist end: holde afstand og observere · kontakte en vildtplejer · se efter en rede i nærheden.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "holde afstand og observere",
-              "kontakte en vildtplejer",
-              "se efter en rede i nærheden"
-            ]
-          },
-          "kp_kaninunger_08": {
-            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: hun kan blive drægtig igen næsten straks. Forklar hvorfor det er mere præcist end: han får automatisk rabies · han stopper hendes mælkeproduktion ved synet · hun mister evnen til at bygge rede.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "han får automatisk rabies",
-              "han stopper hendes mælkeproduktion ved synet",
-              "hun mister evnen til at bygge rede"
-            ]
-          },
-          "kp_kaninunger_09": {
-            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: syns- og duftkontakt. Forklar hvorfor det er mere præcist end: fælles foderskål gennem tremmer · fri parring · manglende adgang til hø.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "fælles foderskål gennem tremmer",
-              "fri parring",
-              "manglende adgang til hø"
-            ]
-          },
-          "kp_kaninunger_10": {
-            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: at give et afgrænset, tørt og isoleret fødested. Forklar hvorfor det er mere præcist end: at træne ungerne i at hoppe · at opbevare pellets · at forhindre moderen i at komme ind.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "at træne ungerne i at hoppe",
-              "at opbevare pellets",
-              "at forhindre moderen i at komme ind"
-            ]
-          },
-          "kp_kaninunger_11": {
-            "hint": "Find svaret i kilderne til: Foder og sundhed.",
-            "explanation": "Kort svar: coccidier. Forklar hvorfor det er mere præcist end: bændelorm hos fisk · malariaparasitten · leverikter hos får.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "bændelorm hos fisk",
-              "malariaparasitten",
-              "leverikter hos får"
-            ]
-          },
-          "kp_kaninunger_12": {
-            "hint": "Find svaret i kilderne til: Foder og sundhed.",
-            "explanation": "Kort svar: rabbit haemorrhagic disease. Forklar hvorfor det er mere præcist end: rabbit hereditary deafness · rabbit hair deficiency · rabbit hydration disorder.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "rabbit hereditary deafness",
-              "rabbit hair deficiency",
-              "rabbit hydration disorder"
-            ]
-          },
-          "kp_kaninunger_13": {
-            "hint": "Find svaret i kilderne til: Foder og sundhed.",
-            "explanation": "Kort svar: myxomatose. Forklar hvorfor det er mere præcist end: parvovirus hos hund · kattesyge · mund- og klovsyge.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "parvovirus hos hund",
-              "kattesyge",
-              "mund- og klovsyge"
-            ]
-          },
-          "kp_kaninunger_14": {
-            "hint": "Find svaret i kilderne til: Foder og sundhed.",
-            "explanation": "Kort svar: med vaccination efter dyrlægens plan. Forklar hvorfor det er mere præcist end: med sukker i vandet · med dagligt bad · med vitaminpiller alene.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "med sukker i vandet",
-              "med dagligt bad",
-              "med vitaminpiller alene"
-            ]
-          },
-          "kp_kaninunger_15": {
-            "hint": "Find svaret i kilderne til: Foder og sundhed.",
-            "explanation": "Kort svar: smerter og spiseproblemer. Forklar hvorfor det er mere præcist end: bedre hørelse · hurtigere løb · større kuld.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "bedre hørelse",
-              "hurtigere løb",
-              "større kuld"
-            ]
-          },
-          "kp_kaninunger_16": {
-            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: de er byttedyr og søger sikkerhed. Forklar hvorfor det er mere præcist end: de kan ikke tåle mørke · de skal gemme deres tænder · de sover kun under vand.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "de kan ikke tåle mørke",
-              "de skal gemme deres tænder",
-              "de sover kun under vand"
-            ]
-          },
-          "kp_kaninunger_17": {
-            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: afslapning. Forklar hvorfor det er mere præcist end: akut aggression i alle tilfælde · at den ikke kan trække vejret · at den bygger rede.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "akut aggression i alle tilfælde",
-              "at den ikke kan trække vejret",
-              "at den bygger rede"
-            ]
-          },
-          "kp_kaninunger_18": {
-            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: flop. Forklar hvorfor det er mere præcist end: charge · freeze · boxing.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "charge",
-              "freeze",
-              "boxing"
-            ]
-          },
-          "kp_kaninunger_19": {
-            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: velbehagelig nydelse eller afslapning. Forklar hvorfor det er mere præcist end: alvorlig smerte i alle tilfælde · at tænderne falder ud · at den er sulten efter kød.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "alvorlig smerte i alle tilfælde",
-              "at tænderne falder ud",
-              "at den er sulten efter kød"
-            ]
-          },
-          "kp_kaninunger_20": {
-            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: smerte. Forklar hvorfor det er mere præcist end: glæde · normal søvn · parringsleg.",
-            "sourceTitle": "Merck Veterinary Manual · Rabbits",
-            "sourceUrl": "https://www.merckvetmanual.com/",
-            "confusions": [
-              "glæde",
-              "normal søvn",
-              "parringsleg"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_kaninunger_01": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: kindling. Forklar hvorfor det er mere præcist end: whelping · foaling · calving.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "whelping",
+              "foaling",
+              "calving"
+            ]
+          },
+          "kp_kaninunger_02": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: parringen. Forklar hvorfor det er mere præcist end: månefasen · vinterkulde · daglig fodring.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "månefasen",
+              "vinterkulde",
+              "daglig fodring"
+            ]
+          },
+          "kp_kaninunger_03": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: falsk drægtighed. Forklar hvorfor det er mere præcist end: dvale · fældning · brunstpause.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "dvale",
+              "fældning",
+              "brunstpause"
+            ]
+          },
+          "kp_kaninunger_04": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: omkring 12 dage efter parring. Forklar hvorfor det er mere præcist end: sammes dag som parringen · først efter fødslen · omkring 6 måneder efter parring.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "sammes dag som parringen",
+              "først efter fødslen",
+              "omkring 6 måneder efter parring"
+            ]
+          },
+          "kp_kaninunger_05": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: plukker pels fra sin egen krop. Forklar hvorfor det er mere præcist end: samler småsten · graver reden fuld af vand · bider ungernes pels af.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "samler småsten",
+              "graver reden fuld af vand",
+              "bider ungernes pels af"
+            ]
+          },
+          "kp_kaninunger_06": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: kattemælkserstatning. Forklar hvorfor det er mere præcist end: flødeis · sojasauce · appelsinjuice.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "flødeis",
+              "sojasauce",
+              "appelsinjuice"
+            ]
+          },
+          "kp_kaninunger_07": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: tage den med hjem med det samme. Forklar hvorfor det er mere præcist end: holde afstand og observere · kontakte en vildtplejer · se efter en rede i nærheden.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "holde afstand og observere",
+              "kontakte en vildtplejer",
+              "se efter en rede i nærheden"
+            ]
+          },
+          "kp_kaninunger_08": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: hun kan blive drægtig igen næsten straks. Forklar hvorfor det er mere præcist end: han får automatisk rabies · han stopper hendes mælkeproduktion ved synet · hun mister evnen til at bygge rede.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "han får automatisk rabies",
+              "han stopper hendes mælkeproduktion ved synet",
+              "hun mister evnen til at bygge rede"
+            ]
+          },
+          "kp_kaninunger_09": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: syns- og duftkontakt. Forklar hvorfor det er mere præcist end: fælles foderskål gennem tremmer · fri parring · manglende adgang til hø.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "fælles foderskål gennem tremmer",
+              "fri parring",
+              "manglende adgang til hø"
+            ]
+          },
+          "kp_kaninunger_10": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: at give et afgrænset, tørt og isoleret fødested. Forklar hvorfor det er mere præcist end: at træne ungerne i at hoppe · at opbevare pellets · at forhindre moderen i at komme ind.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "at træne ungerne i at hoppe",
+              "at opbevare pellets",
+              "at forhindre moderen i at komme ind"
+            ]
+          },
+          "kp_kaninunger_11": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: coccidier. Forklar hvorfor det er mere præcist end: bændelorm hos fisk · malariaparasitten · leverikter hos får.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "bændelorm hos fisk",
+              "malariaparasitten",
+              "leverikter hos får"
+            ]
+          },
+          "kp_kaninunger_12": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: rabbit haemorrhagic disease. Forklar hvorfor det er mere præcist end: rabbit hereditary deafness · rabbit hair deficiency · rabbit hydration disorder.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "rabbit hereditary deafness",
+              "rabbit hair deficiency",
+              "rabbit hydration disorder"
+            ]
+          },
+          "kp_kaninunger_13": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: myxomatose. Forklar hvorfor det er mere præcist end: parvovirus hos hund · kattesyge · mund- og klovsyge.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "parvovirus hos hund",
+              "kattesyge",
+              "mund- og klovsyge"
+            ]
+          },
+          "kp_kaninunger_14": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: med vaccination efter dyrlægens plan. Forklar hvorfor det er mere præcist end: med sukker i vandet · med dagligt bad · med vitaminpiller alene.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "med sukker i vandet",
+              "med dagligt bad",
+              "med vitaminpiller alene"
+            ]
+          },
+          "kp_kaninunger_15": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: smerter og spiseproblemer. Forklar hvorfor det er mere præcist end: bedre hørelse · hurtigere løb · større kuld.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "bedre hørelse",
+              "hurtigere løb",
+              "større kuld"
+            ]
+          },
+          "kp_kaninunger_16": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: de er byttedyr og søger sikkerhed. Forklar hvorfor det er mere præcist end: de kan ikke tåle mørke · de skal gemme deres tænder · de sover kun under vand.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "de kan ikke tåle mørke",
+              "de skal gemme deres tænder",
+              "de sover kun under vand"
+            ]
+          },
+          "kp_kaninunger_17": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: afslapning. Forklar hvorfor det er mere præcist end: akut aggression i alle tilfælde · at den ikke kan trække vejret · at den bygger rede.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "akut aggression i alle tilfælde",
+              "at den ikke kan trække vejret",
+              "at den bygger rede"
+            ]
+          },
+          "kp_kaninunger_18": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: flop. Forklar hvorfor det er mere præcist end: charge · freeze · boxing.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "charge",
+              "freeze",
+              "boxing"
+            ]
+          },
+          "kp_kaninunger_19": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: velbehagelig nydelse eller afslapning. Forklar hvorfor det er mere præcist end: alvorlig smerte i alle tilfælde · at tænderne falder ud · at den er sulten efter kød.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "alvorlig smerte i alle tilfælde",
+              "at tænderne falder ud",
+              "at den er sulten efter kød"
+            ]
+          },
+          "kp_kaninunger_20": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: smerte. Forklar hvorfor det er mere præcist end: glæde · normal søvn · parringsleg.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "glæde",
+              "normal søvn",
+              "parringsleg"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

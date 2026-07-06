@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-naturvidenskab_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · grundlæggende",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_naturvidenskab-basics_01": {
-            "hint": "Find svaret i kilderne til: Fysik og energi.",
-            "explanation": "Kort svar: kobber. Forklar hvorfor det er mere præcist end: gummi · glas · porcelæn.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "gummi",
-              "glas",
-              "porcelæn"
-            ]
-          },
-          "kp_naturvidenskab-basics_02": {
-            "hint": "Find svaret i kilderne til: Fysik og energi.",
-            "explanation": "Kort svar: gummi. Forklar hvorfor det er mere præcist end: kobber · aluminium · sølv.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "kobber",
-              "aluminium",
-              "sølv"
-            ]
-          },
-          "kp_naturvidenskab-basics_03": {
-            "hint": "Find svaret i kilderne til: Fysik og energi.",
-            "explanation": "Kort svar: Newtons tredje lov. Forklar hvorfor det er mere præcist end: Newtons første lov · Ohms lov · Arkimedes’ lov.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "Newtons første lov",
-              "Ohms lov",
-              "Arkimedes’ lov"
-            ]
-          },
-          "kp_naturvidenskab-basics_04": {
-            "hint": "Find svaret i kilderne til: Fysik og energi.",
-            "explanation": "Kort svar: 9,8 m/s². Forklar hvorfor det er mere præcist end: 0,98 m/s² · 98 m/s² · 298 m/s².",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "0,98 m/s²",
-              "98 m/s²",
-              "298 m/s²"
-            ]
-          },
-          "kp_naturvidenskab-basics_05": {
-            "hint": "Find svaret i kilderne til: Fysik og energi.",
-            "explanation": "Kort svar: 300.000 km/s. Forklar hvorfor det er mere præcist end: 30.000 km/s · 3.000 km/s · 1.080 km/s.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "30.000 km/s",
-              "3.000 km/s",
-              "1.080 km/s"
-            ]
-          },
-          "kp_naturvidenskab-basics_06": {
-            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
-            "explanation": "Kort svar: CO₂. Forklar hvorfor det er mere præcist end: CO · C₂O · CH₄.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "CO",
-              "C₂O",
-              "CH₄"
-            ]
-          },
-          "kp_naturvidenskab-basics_07": {
-            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
-            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 0 · 5 · 14.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "0",
-              "5",
-              "14"
-            ]
-          },
-          "kp_naturvidenskab-basics_08": {
-            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
-            "explanation": "Kort svar: sur. Forklar hvorfor det er mere præcist end: basisk · neutral · mættet.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "basisk",
-              "neutral",
-              "mættet"
-            ]
-          },
-          "kp_naturvidenskab-basics_09": {
-            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
-            "explanation": "Kort svar: basisk. Forklar hvorfor det er mere præcist end: sur · neutral · radioaktiv.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "sur",
-              "neutral",
-              "radioaktiv"
-            ]
-          },
-          "kp_naturvidenskab-basics_10": {
-            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
-            "explanation": "Kort svar: kovalent binding. Forklar hvorfor det er mere præcist end: ionbinding · metallisk binding · hydrogenkerne.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "ionbinding",
-              "metallisk binding",
-              "hydrogenkerne"
-            ]
-          },
-          "kp_naturvidenskab-basics_11": {
-            "hint": "Find svaret i kilderne til: Jorden og vejret.",
-            "explanation": "Kort svar: hypocentret. Forklar hvorfor det er mere præcist end: epicentret · ækvator · magnetpolen.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "epicentret",
-              "ækvator",
-              "magnetpolen"
-            ]
-          },
-          "kp_naturvidenskab-basics_12": {
-            "hint": "Find svaret i kilderne til: Jorden og vejret.",
-            "explanation": "Kort svar: epicentret. Forklar hvorfor det er mere præcist end: hypocentret · nulmeridianen · subduktionszonen.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "hypocentret",
-              "nulmeridianen",
-              "subduktionszonen"
-            ]
-          },
-          "kp_naturvidenskab-basics_13": {
-            "hint": "Find svaret i kilderne til: Jorden og vejret.",
-            "explanation": "Kort svar: magmatisk bjergart. Forklar hvorfor det er mere præcist end: sedimentær bjergart · metamorf bjergart · organisk jord.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "sedimentær bjergart",
-              "metamorf bjergart",
-              "organisk jord"
-            ]
-          },
-          "kp_naturvidenskab-basics_14": {
-            "hint": "Find svaret i kilderne til: Jorden og vejret.",
-            "explanation": "Kort svar: sedimentær bjergart. Forklar hvorfor det er mere præcist end: magmatisk bjergart · metamorf bjergart · mantelsten.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "magmatisk bjergart",
-              "metamorf bjergart",
-              "mantelsten"
-            ]
-          },
-          "kp_naturvidenskab-basics_15": {
-            "hint": "Find svaret i kilderne til: Jorden og vejret.",
-            "explanation": "Kort svar: metamorf bjergart. Forklar hvorfor det er mere præcist end: sedimentær bjergart · magmatisk bjergart · løssediment.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "sedimentær bjergart",
-              "magmatisk bjergart",
-              "løssediment"
-            ]
-          },
-          "kp_naturvidenskab-basics_16": {
-            "hint": "Find svaret i kilderne til: Måling og metode.",
-            "explanation": "Kort svar: meter. Forklar hvorfor det er mere præcist end: liter · gram · sekund.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "liter",
-              "gram",
-              "sekund"
-            ]
-          },
-          "kp_naturvidenskab-basics_17": {
-            "hint": "Find svaret i kilderne til: Måling og metode.",
-            "explanation": "Kort svar: kilogram. Forklar hvorfor det er mere præcist end: gram · newton · liter.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "gram",
-              "newton",
-              "liter"
-            ]
-          },
-          "kp_naturvidenskab-basics_18": {
-            "hint": "Find svaret i kilderne til: Måling og metode.",
-            "explanation": "Kort svar: sekund. Forklar hvorfor det er mere præcist end: minut · time · hertz.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "minut",
-              "time",
-              "hertz"
-            ]
-          },
-          "kp_naturvidenskab-basics_19": {
-            "hint": "Find svaret i kilderne til: Måling og metode.",
-            "explanation": "Kort svar: kelvin. Forklar hvorfor det er mere præcist end: grad Celsius · joule · candela.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "grad Celsius",
-              "joule",
-              "candela"
-            ]
-          },
-          "kp_naturvidenskab-basics_20": {
-            "hint": "Find svaret i kilderne til: Måling og metode.",
-            "explanation": "Kort svar: hvor tæt gentagne målinger ligger på hinanden. Forklar hvorfor det er mere præcist end: hvor tæt gennemsnittet er på den sande værdi · hvilken enhed der bruges · om hypotesen er populær.",
-            "sourceTitle": "PhET Interactive Simulations",
-            "sourceUrl": "https://phet.colorado.edu/",
-            "confusions": [
-              "hvor tæt gennemsnittet er på den sande værdi",
-              "hvilken enhed der bruges",
-              "om hypotesen er populær"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_naturvidenskab-basics_01": {
+            "hint": "Find svaret i kilderne til: Fysik og energi.",
+            "explanation": "Kort svar: kobber. Forklar hvorfor det er mere præcist end: gummi · glas · porcelæn.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "gummi",
+              "glas",
+              "porcelæn"
+            ]
+          },
+          "kp_naturvidenskab-basics_02": {
+            "hint": "Find svaret i kilderne til: Fysik og energi.",
+            "explanation": "Kort svar: gummi. Forklar hvorfor det er mere præcist end: kobber · aluminium · sølv.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "kobber",
+              "aluminium",
+              "sølv"
+            ]
+          },
+          "kp_naturvidenskab-basics_03": {
+            "hint": "Find svaret i kilderne til: Fysik og energi.",
+            "explanation": "Kort svar: Newtons tredje lov. Forklar hvorfor det er mere præcist end: Newtons første lov · Ohms lov · Arkimedes’ lov.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "Newtons første lov",
+              "Ohms lov",
+              "Arkimedes’ lov"
+            ]
+          },
+          "kp_naturvidenskab-basics_04": {
+            "hint": "Find svaret i kilderne til: Fysik og energi.",
+            "explanation": "Kort svar: 9,8 m/s². Forklar hvorfor det er mere præcist end: 0,98 m/s² · 98 m/s² · 298 m/s².",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "0,98 m/s²",
+              "98 m/s²",
+              "298 m/s²"
+            ]
+          },
+          "kp_naturvidenskab-basics_05": {
+            "hint": "Find svaret i kilderne til: Fysik og energi.",
+            "explanation": "Kort svar: 300.000 km/s. Forklar hvorfor det er mere præcist end: 30.000 km/s · 3.000 km/s · 1.080 km/s.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "30.000 km/s",
+              "3.000 km/s",
+              "1.080 km/s"
+            ]
+          },
+          "kp_naturvidenskab-basics_06": {
+            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
+            "explanation": "Kort svar: CO₂. Forklar hvorfor det er mere præcist end: CO · C₂O · CH₄.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "CO",
+              "C₂O",
+              "CH₄"
+            ]
+          },
+          "kp_naturvidenskab-basics_07": {
+            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
+            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 0 · 5 · 14.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "0",
+              "5",
+              "14"
+            ]
+          },
+          "kp_naturvidenskab-basics_08": {
+            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
+            "explanation": "Kort svar: sur. Forklar hvorfor det er mere præcist end: basisk · neutral · mættet.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "basisk",
+              "neutral",
+              "mættet"
+            ]
+          },
+          "kp_naturvidenskab-basics_09": {
+            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
+            "explanation": "Kort svar: basisk. Forklar hvorfor det er mere præcist end: sur · neutral · radioaktiv.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "sur",
+              "neutral",
+              "radioaktiv"
+            ]
+          },
+          "kp_naturvidenskab-basics_10": {
+            "hint": "Find svaret i kilderne til: Kemi og stoffer.",
+            "explanation": "Kort svar: kovalent binding. Forklar hvorfor det er mere præcist end: ionbinding · metallisk binding · hydrogenkerne.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "ionbinding",
+              "metallisk binding",
+              "hydrogenkerne"
+            ]
+          },
+          "kp_naturvidenskab-basics_11": {
+            "hint": "Find svaret i kilderne til: Jorden og vejret.",
+            "explanation": "Kort svar: hypocentret. Forklar hvorfor det er mere præcist end: epicentret · ækvator · magnetpolen.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "epicentret",
+              "ækvator",
+              "magnetpolen"
+            ]
+          },
+          "kp_naturvidenskab-basics_12": {
+            "hint": "Find svaret i kilderne til: Jorden og vejret.",
+            "explanation": "Kort svar: epicentret. Forklar hvorfor det er mere præcist end: hypocentret · nulmeridianen · subduktionszonen.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "hypocentret",
+              "nulmeridianen",
+              "subduktionszonen"
+            ]
+          },
+          "kp_naturvidenskab-basics_13": {
+            "hint": "Find svaret i kilderne til: Jorden og vejret.",
+            "explanation": "Kort svar: magmatisk bjergart. Forklar hvorfor det er mere præcist end: sedimentær bjergart · metamorf bjergart · organisk jord.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "sedimentær bjergart",
+              "metamorf bjergart",
+              "organisk jord"
+            ]
+          },
+          "kp_naturvidenskab-basics_14": {
+            "hint": "Find svaret i kilderne til: Jorden og vejret.",
+            "explanation": "Kort svar: sedimentær bjergart. Forklar hvorfor det er mere præcist end: magmatisk bjergart · metamorf bjergart · mantelsten.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "magmatisk bjergart",
+              "metamorf bjergart",
+              "mantelsten"
+            ]
+          },
+          "kp_naturvidenskab-basics_15": {
+            "hint": "Find svaret i kilderne til: Jorden og vejret.",
+            "explanation": "Kort svar: metamorf bjergart. Forklar hvorfor det er mere præcist end: sedimentær bjergart · magmatisk bjergart · løssediment.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "sedimentær bjergart",
+              "magmatisk bjergart",
+              "løssediment"
+            ]
+          },
+          "kp_naturvidenskab-basics_16": {
+            "hint": "Find svaret i kilderne til: Måling og metode.",
+            "explanation": "Kort svar: meter. Forklar hvorfor det er mere præcist end: liter · gram · sekund.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "liter",
+              "gram",
+              "sekund"
+            ]
+          },
+          "kp_naturvidenskab-basics_17": {
+            "hint": "Find svaret i kilderne til: Måling og metode.",
+            "explanation": "Kort svar: kilogram. Forklar hvorfor det er mere præcist end: gram · newton · liter.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "gram",
+              "newton",
+              "liter"
+            ]
+          },
+          "kp_naturvidenskab-basics_18": {
+            "hint": "Find svaret i kilderne til: Måling og metode.",
+            "explanation": "Kort svar: sekund. Forklar hvorfor det er mere præcist end: minut · time · hertz.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "minut",
+              "time",
+              "hertz"
+            ]
+          },
+          "kp_naturvidenskab-basics_19": {
+            "hint": "Find svaret i kilderne til: Måling og metode.",
+            "explanation": "Kort svar: kelvin. Forklar hvorfor det er mere præcist end: grad Celsius · joule · candela.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "grad Celsius",
+              "joule",
+              "candela"
+            ]
+          },
+          "kp_naturvidenskab-basics_20": {
+            "hint": "Find svaret i kilderne til: Måling og metode.",
+            "explanation": "Kort svar: hvor tæt gentagne målinger ligger på hinanden. Forklar hvorfor det er mere præcist end: hvor tæt gennemsnittet er på den sande værdi · hvilken enhed der bruges · om hypotesen er populær.",
+            "sourceTitle": "PhET Interactive Simulations",
+            "sourceUrl": "https://phet.colorado.edu/",
+            "confusions": [
+              "hvor tæt gennemsnittet er på den sande værdi",
+              "hvilken enhed der bruges",
+              "om hypotesen er populær"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

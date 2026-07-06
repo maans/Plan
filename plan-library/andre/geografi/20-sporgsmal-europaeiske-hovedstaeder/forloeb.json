@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-europaeiske-hovedstaeder_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Europæiske hovedstæder",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_europaeiske-hovedstader_01": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Frankrig. Forklar hvorfor det er mere præcist end: Grækenland · Ungarn · Schweiz.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Grækenland",
-              "Ungarn",
-              "Schweiz"
-            ]
-          },
-          "kp_europaeiske-hovedstader_02": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Madrid. Forklar hvorfor det er mere præcist end: Athen · Bratislava · Kyiv.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Athen",
-              "Bratislava",
-              "Kyiv"
-            ]
-          },
-          "kp_europaeiske-hovedstader_03": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Portugal. Forklar hvorfor det er mere præcist end: Storbritannien · Kroatien · Andorra.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Storbritannien",
-              "Kroatien",
-              "Andorra"
-            ]
-          },
-          "kp_europaeiske-hovedstader_04": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Rom. Forklar hvorfor det er mere præcist end: London · Ljubljana · Amsterdam.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "London",
-              "Ljubljana",
-              "Amsterdam"
-            ]
-          },
-          "kp_europaeiske-hovedstader_05": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Grækenland. Forklar hvorfor det er mere præcist end: Luxembourg · Serbien · San Marino.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Luxembourg",
-              "Serbien",
-              "San Marino"
-            ]
-          },
-          "kp_europaeiske-hovedstader_06": {
-            "hint": "Find svaret i kilderne til: Kortet og naturen.",
-            "explanation": "Kort svar: Liechtenstein. Forklar hvorfor det er mere præcist end: Vatikanstaten · Island · Østrig.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Vatikanstaten",
-              "Island",
-              "Østrig"
-            ]
-          },
-          "kp_europaeiske-hovedstader_07": {
-            "hint": "Find svaret i kilderne til: Kortet og naturen.",
-            "explanation": "Kort svar: Andorra la Vella. Forklar hvorfor det er mere præcist end: Vatikanstaten · Helsinki · London.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Vatikanstaten",
-              "Helsinki",
-              "London"
-            ]
-          },
-          "kp_europaeiske-hovedstader_08": {
-            "hint": "Find svaret i kilderne til: Kortet og naturen.",
-            "explanation": "Kort svar: Monaco. Forklar hvorfor det er mere præcist end: Cypern · Letland · Tjekkiet.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Cypern",
-              "Letland",
-              "Tjekkiet"
-            ]
-          },
-          "kp_europaeiske-hovedstader_09": {
-            "hint": "Find svaret i kilderne til: Kortet og naturen.",
-            "explanation": "Kort svar: San Marino. Forklar hvorfor det er mere præcist end: Nicosia · Tallinn · Luxembourg.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Nicosia",
-              "Tallinn",
-              "Luxembourg"
-            ]
-          },
-          "kp_europaeiske-hovedstader_10": {
-            "hint": "Find svaret i kilderne til: Kortet og naturen.",
-            "explanation": "Kort svar: Vatikanstaten. Forklar hvorfor det er mere præcist end: Georgien · Tyskland · Ungarn.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Georgien",
-              "Tyskland",
-              "Ungarn"
-            ]
-          },
-          "kp_europaeiske-hovedstader_11": {
-            "hint": "Find svaret i kilderne til: Kendte steder.",
-            "explanation": "Kort svar: Oslo. Forklar hvorfor det er mere præcist end: København · Reykjavík · Stockholm.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "København",
-              "Reykjavík",
-              "Stockholm"
-            ]
-          },
-          "kp_europaeiske-hovedstader_12": {
-            "hint": "Find svaret i kilderne til: Kendte steder.",
-            "explanation": "Kort svar: Stockholm. Forklar hvorfor det er mere præcist end: Tallinn · Helsinki · Riga.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Tallinn",
-              "Helsinki",
-              "Riga"
-            ]
-          },
-          "kp_europaeiske-hovedstader_13": {
-            "hint": "Find svaret i kilderne til: Kendte steder.",
-            "explanation": "Kort svar: Helsinki. Forklar hvorfor det er mere præcist end: Vilnius · Oslo · Tallinn.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Vilnius",
-              "Oslo",
-              "Tallinn"
-            ]
-          },
-          "kp_europaeiske-hovedstader_14": {
-            "hint": "Find svaret i kilderne til: Kendte steder.",
-            "explanation": "Kort svar: Bruxelles. Forklar hvorfor det er mere præcist end: Luxembourg · Paris · Amsterdam.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Luxembourg",
-              "Paris",
-              "Amsterdam"
-            ]
-          },
-          "kp_europaeiske-hovedstader_15": {
-            "hint": "Find svaret i kilderne til: Kendte steder.",
-            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Prag · Budapest · Bratislava.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Prag",
-              "Budapest",
-              "Bratislava"
-            ]
-          },
-          "kp_europaeiske-hovedstader_16": {
-            "hint": "Find svaret i kilderne til: Historie og institutioner.",
-            "explanation": "Kort svar: Oslo. Forklar hvorfor det er mere præcist end: København · Stockholm · Helsinki.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "København",
-              "Stockholm",
-              "Helsinki"
-            ]
-          },
-          "kp_europaeiske-hovedstader_17": {
-            "hint": "Find svaret i kilderne til: Historie og institutioner.",
-            "explanation": "Kort svar: Tallinn. Forklar hvorfor det er mere præcist end: Riga · Vilnius · Minsk.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Riga",
-              "Vilnius",
-              "Minsk"
-            ]
-          },
-          "kp_europaeiske-hovedstader_18": {
-            "hint": "Find svaret i kilderne til: Historie og institutioner.",
-            "explanation": "Kort svar: Istanbul. Forklar hvorfor det er mere præcist end: Ankara · Izmir · Bursa.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Ankara",
-              "Izmir",
-              "Bursa"
-            ]
-          },
-          "kp_europaeiske-hovedstader_19": {
-            "hint": "Find svaret i kilderne til: Historie og institutioner.",
-            "explanation": "Kort svar: Luxembourg. Forklar hvorfor det er mere præcist end: Bruxelles · Strasbourg · Amsterdam.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Bruxelles",
-              "Strasbourg",
-              "Amsterdam"
-            ]
-          },
-          "kp_europaeiske-hovedstader_20": {
-            "hint": "Find svaret i kilderne til: Historie og institutioner.",
-            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Genève · Bruxelles · Prag.",
-            "sourceTitle": "European Union · Countries",
-            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "confusions": [
-              "Genève",
-              "Bruxelles",
-              "Prag"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_europaeiske-hovedstader_01": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Frankrig. Forklar hvorfor det er mere præcist end: Grækenland · Ungarn · Schweiz.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Grækenland",
+              "Ungarn",
+              "Schweiz"
+            ]
+          },
+          "kp_europaeiske-hovedstader_02": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Madrid. Forklar hvorfor det er mere præcist end: Athen · Bratislava · Kyiv.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Athen",
+              "Bratislava",
+              "Kyiv"
+            ]
+          },
+          "kp_europaeiske-hovedstader_03": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Portugal. Forklar hvorfor det er mere præcist end: Storbritannien · Kroatien · Andorra.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Storbritannien",
+              "Kroatien",
+              "Andorra"
+            ]
+          },
+          "kp_europaeiske-hovedstader_04": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Rom. Forklar hvorfor det er mere præcist end: London · Ljubljana · Amsterdam.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "London",
+              "Ljubljana",
+              "Amsterdam"
+            ]
+          },
+          "kp_europaeiske-hovedstader_05": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Grækenland. Forklar hvorfor det er mere præcist end: Luxembourg · Serbien · San Marino.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Luxembourg",
+              "Serbien",
+              "San Marino"
+            ]
+          },
+          "kp_europaeiske-hovedstader_06": {
+            "hint": "Find svaret i kilderne til: Kortet og naturen.",
+            "explanation": "Kort svar: Liechtenstein. Forklar hvorfor det er mere præcist end: Vatikanstaten · Island · Østrig.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Vatikanstaten",
+              "Island",
+              "Østrig"
+            ]
+          },
+          "kp_europaeiske-hovedstader_07": {
+            "hint": "Find svaret i kilderne til: Kortet og naturen.",
+            "explanation": "Kort svar: Andorra la Vella. Forklar hvorfor det er mere præcist end: Vatikanstaten · Helsinki · London.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Vatikanstaten",
+              "Helsinki",
+              "London"
+            ]
+          },
+          "kp_europaeiske-hovedstader_08": {
+            "hint": "Find svaret i kilderne til: Kortet og naturen.",
+            "explanation": "Kort svar: Monaco. Forklar hvorfor det er mere præcist end: Cypern · Letland · Tjekkiet.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Cypern",
+              "Letland",
+              "Tjekkiet"
+            ]
+          },
+          "kp_europaeiske-hovedstader_09": {
+            "hint": "Find svaret i kilderne til: Kortet og naturen.",
+            "explanation": "Kort svar: San Marino. Forklar hvorfor det er mere præcist end: Nicosia · Tallinn · Luxembourg.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Nicosia",
+              "Tallinn",
+              "Luxembourg"
+            ]
+          },
+          "kp_europaeiske-hovedstader_10": {
+            "hint": "Find svaret i kilderne til: Kortet og naturen.",
+            "explanation": "Kort svar: Vatikanstaten. Forklar hvorfor det er mere præcist end: Georgien · Tyskland · Ungarn.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Georgien",
+              "Tyskland",
+              "Ungarn"
+            ]
+          },
+          "kp_europaeiske-hovedstader_11": {
+            "hint": "Find svaret i kilderne til: Kendte steder.",
+            "explanation": "Kort svar: Oslo. Forklar hvorfor det er mere præcist end: København · Reykjavík · Stockholm.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "København",
+              "Reykjavík",
+              "Stockholm"
+            ]
+          },
+          "kp_europaeiske-hovedstader_12": {
+            "hint": "Find svaret i kilderne til: Kendte steder.",
+            "explanation": "Kort svar: Stockholm. Forklar hvorfor det er mere præcist end: Tallinn · Helsinki · Riga.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Tallinn",
+              "Helsinki",
+              "Riga"
+            ]
+          },
+          "kp_europaeiske-hovedstader_13": {
+            "hint": "Find svaret i kilderne til: Kendte steder.",
+            "explanation": "Kort svar: Helsinki. Forklar hvorfor det er mere præcist end: Vilnius · Oslo · Tallinn.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Vilnius",
+              "Oslo",
+              "Tallinn"
+            ]
+          },
+          "kp_europaeiske-hovedstader_14": {
+            "hint": "Find svaret i kilderne til: Kendte steder.",
+            "explanation": "Kort svar: Bruxelles. Forklar hvorfor det er mere præcist end: Luxembourg · Paris · Amsterdam.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Luxembourg",
+              "Paris",
+              "Amsterdam"
+            ]
+          },
+          "kp_europaeiske-hovedstader_15": {
+            "hint": "Find svaret i kilderne til: Kendte steder.",
+            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Prag · Budapest · Bratislava.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Prag",
+              "Budapest",
+              "Bratislava"
+            ]
+          },
+          "kp_europaeiske-hovedstader_16": {
+            "hint": "Find svaret i kilderne til: Historie og institutioner.",
+            "explanation": "Kort svar: Oslo. Forklar hvorfor det er mere præcist end: København · Stockholm · Helsinki.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "København",
+              "Stockholm",
+              "Helsinki"
+            ]
+          },
+          "kp_europaeiske-hovedstader_17": {
+            "hint": "Find svaret i kilderne til: Historie og institutioner.",
+            "explanation": "Kort svar: Tallinn. Forklar hvorfor det er mere præcist end: Riga · Vilnius · Minsk.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Riga",
+              "Vilnius",
+              "Minsk"
+            ]
+          },
+          "kp_europaeiske-hovedstader_18": {
+            "hint": "Find svaret i kilderne til: Historie og institutioner.",
+            "explanation": "Kort svar: Istanbul. Forklar hvorfor det er mere præcist end: Ankara · Izmir · Bursa.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Ankara",
+              "Izmir",
+              "Bursa"
+            ]
+          },
+          "kp_europaeiske-hovedstader_19": {
+            "hint": "Find svaret i kilderne til: Historie og institutioner.",
+            "explanation": "Kort svar: Luxembourg. Forklar hvorfor det er mere præcist end: Bruxelles · Strasbourg · Amsterdam.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Bruxelles",
+              "Strasbourg",
+              "Amsterdam"
+            ]
+          },
+          "kp_europaeiske-hovedstader_20": {
+            "hint": "Find svaret i kilderne til: Historie og institutioner.",
+            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Genève · Bruxelles · Prag.",
+            "sourceTitle": "European Union · Countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "confusions": [
+              "Genève",
+              "Bruxelles",
+              "Prag"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

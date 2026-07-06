@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-sport-olympiske_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Sport og olympiske lege",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_sport-olympiske_01": {
-            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
-            "explanation": "Kort svar: Seoul. Forklar hvorfor det er mere præcist end: Busan · Tokyo · Beijing.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Busan",
-              "Tokyo",
-              "Beijing"
-            ]
-          },
-          "kp_sport-olympiske_02": {
-            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
-            "explanation": "Kort svar: Atlanta. Forklar hvorfor det er mere præcist end: Boston · Dallas · Miami.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Boston",
-              "Dallas",
-              "Miami"
-            ]
-          },
-          "kp_sport-olympiske_03": {
-            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
-            "explanation": "Kort svar: München. Forklar hvorfor det er mere præcist end: Hamborg · Frankfurt · Wien.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Hamborg",
-              "Frankfurt",
-              "Wien"
-            ]
-          },
-          "kp_sport-olympiske_04": {
-            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
-            "explanation": "Kort svar: Montréal. Forklar hvorfor det er mere præcist end: Toronto · Vancouver · Québec.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Toronto",
-              "Vancouver",
-              "Québec"
-            ]
-          },
-          "kp_sport-olympiske_05": {
-            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
-            "explanation": "Kort svar: Mexico City. Forklar hvorfor det er mere præcist end: Guadalajara · Monterrey · Havana.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Guadalajara",
-              "Monterrey",
-              "Havana"
-            ]
-          },
-          "kp_sport-olympiske_06": {
-            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
-            "explanation": "Kort svar: 6. Forklar hvorfor det er mere præcist end: 5 · 7 · 9.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "5",
-              "7",
-              "9"
-            ]
-          },
-          "kp_sport-olympiske_07": {
-            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
-            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 6 · 8 · 11.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "6",
-              "8",
-              "11"
-            ]
-          },
-          "kp_sport-olympiske_08": {
-            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
-            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 5 · 11 · 15.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "5",
-              "11",
-              "15"
-            ]
-          },
-          "kp_sport-olympiske_09": {
-            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
-            "explanation": "Kort svar: 11. Forklar hvorfor det er mere præcist end: 7 · 9 · 12.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "7",
-              "9",
-              "12"
-            ]
-          },
-          "kp_sport-olympiske_10": {
-            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
-            "explanation": "Kort svar: judo. Forklar hvorfor det er mere præcist end: taekwondo · boksning · fægtning.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "taekwondo",
-              "boksning",
-              "fægtning"
-            ]
-          },
-          "kp_sport-olympiske_11": {
-            "hint": "Find svaret i kilderne til: Symboler og organisation.",
-            "explanation": "Kort svar: excellence, respekt og venskab. Forklar hvorfor det er mere præcist end: styrke, sejr og berømmelse · fart, højde og længde · disciplin, lydighed og nationalitet.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "styrke, sejr og berømmelse",
-              "fart, højde og længde",
-              "disciplin, lydighed og nationalitet"
-            ]
-          },
-          "kp_sport-olympiske_12": {
-            "hint": "Find svaret i kilderne til: Symboler og organisation.",
-            "explanation": "Kort svar: International Olympic Committee. Forklar hvorfor det er mere præcist end: International Organisation of Champions · Intercontinental Olympic Council · International Office of Competition.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "International Organisation of Champions",
-              "Intercontinental Olympic Council",
-              "International Office of Competition"
-            ]
-          },
-          "kp_sport-olympiske_13": {
-            "hint": "Find svaret i kilderne til: Symboler og organisation.",
-            "explanation": "Kort svar: en national olympisk komité, NOC. Forklar hvorfor det er mere præcist end: et internationalt specialforbund, IF · en lokal organisationskomité, OCOG · en professionel liga.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "et internationalt specialforbund, IF",
-              "en lokal organisationskomité, OCOG",
-              "en professionel liga"
-            ]
-          },
-          "kp_sport-olympiske_14": {
-            "hint": "Find svaret i kilderne til: Symboler og organisation.",
-            "explanation": "Kort svar: et internationalt specialforbund, IF. Forklar hvorfor det er mere præcist end: en national olympisk komité, NOC · en værtsbys OCOG · en atleterklub.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "en national olympisk komité, NOC",
-              "en værtsbys OCOG",
-              "en atleterklub"
-            ]
-          },
-          "kp_sport-olympiske_15": {
-            "hint": "Find svaret i kilderne til: Symboler og organisation.",
-            "explanation": "Kort svar: OCOG. Forklar hvorfor det er mere præcist end: NOC · WADA · CAS.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "NOC",
-              "WADA",
-              "CAS"
-            ]
-          },
-          "kp_sport-olympiske_16": {
-            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
-            "explanation": "Kort svar: Emil Zátopek. Forklar hvorfor det er mere præcist end: Paavo Nurmi · Abebe Bikila · Lasse Virén.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Paavo Nurmi",
-              "Abebe Bikila",
-              "Lasse Virén"
-            ]
-          },
-          "kp_sport-olympiske_17": {
-            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
-            "explanation": "Kort svar: Abebe Bikila. Forklar hvorfor det er mere præcist end: Mamo Wolde · Haile Gebrselassie · Kenenisa Bekele.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Mamo Wolde",
-              "Haile Gebrselassie",
-              "Kenenisa Bekele"
-            ]
-          },
-          "kp_sport-olympiske_18": {
-            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
-            "explanation": "Kort svar: Dick Fosbury. Forklar hvorfor det er mere præcist end: Valeriy Brumel · Javier Sotomayor · Charles Dumas.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Valeriy Brumel",
-              "Javier Sotomayor",
-              "Charles Dumas"
-            ]
-          },
-          "kp_sport-olympiske_19": {
-            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
-            "explanation": "Kort svar: Bob Beamon. Forklar hvorfor det er mere præcist end: Mike Powell · Carl Lewis · Ralph Boston.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Mike Powell",
-              "Carl Lewis",
-              "Ralph Boston"
-            ]
-          },
-          "kp_sport-olympiske_20": {
-            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
-            "explanation": "Kort svar: Mark Spitz. Forklar hvorfor det er mere præcist end: Michael Phelps · Matt Biondi · Alexander Popov.",
-            "sourceTitle": "Olympics.com · Olympic Games",
-            "sourceUrl": "https://olympics.com/en/olympic-games",
-            "confusions": [
-              "Michael Phelps",
-              "Matt Biondi",
-              "Alexander Popov"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_sport-olympiske_01": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Seoul. Forklar hvorfor det er mere præcist end: Busan · Tokyo · Beijing.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Busan",
+              "Tokyo",
+              "Beijing"
+            ]
+          },
+          "kp_sport-olympiske_02": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Atlanta. Forklar hvorfor det er mere præcist end: Boston · Dallas · Miami.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Boston",
+              "Dallas",
+              "Miami"
+            ]
+          },
+          "kp_sport-olympiske_03": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: München. Forklar hvorfor det er mere præcist end: Hamborg · Frankfurt · Wien.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Hamborg",
+              "Frankfurt",
+              "Wien"
+            ]
+          },
+          "kp_sport-olympiske_04": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Montréal. Forklar hvorfor det er mere præcist end: Toronto · Vancouver · Québec.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Toronto",
+              "Vancouver",
+              "Québec"
+            ]
+          },
+          "kp_sport-olympiske_05": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Mexico City. Forklar hvorfor det er mere præcist end: Guadalajara · Monterrey · Havana.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Guadalajara",
+              "Monterrey",
+              "Havana"
+            ]
+          },
+          "kp_sport-olympiske_06": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 6. Forklar hvorfor det er mere præcist end: 5 · 7 · 9.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "5",
+              "7",
+              "9"
+            ]
+          },
+          "kp_sport-olympiske_07": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 6 · 8 · 11.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "6",
+              "8",
+              "11"
+            ]
+          },
+          "kp_sport-olympiske_08": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 5 · 11 · 15.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "5",
+              "11",
+              "15"
+            ]
+          },
+          "kp_sport-olympiske_09": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 11. Forklar hvorfor det er mere præcist end: 7 · 9 · 12.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "7",
+              "9",
+              "12"
+            ]
+          },
+          "kp_sport-olympiske_10": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: judo. Forklar hvorfor det er mere præcist end: taekwondo · boksning · fægtning.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "taekwondo",
+              "boksning",
+              "fægtning"
+            ]
+          },
+          "kp_sport-olympiske_11": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: excellence, respekt og venskab. Forklar hvorfor det er mere præcist end: styrke, sejr og berømmelse · fart, højde og længde · disciplin, lydighed og nationalitet.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "styrke, sejr og berømmelse",
+              "fart, højde og længde",
+              "disciplin, lydighed og nationalitet"
+            ]
+          },
+          "kp_sport-olympiske_12": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: International Olympic Committee. Forklar hvorfor det er mere præcist end: International Organisation of Champions · Intercontinental Olympic Council · International Office of Competition.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "International Organisation of Champions",
+              "Intercontinental Olympic Council",
+              "International Office of Competition"
+            ]
+          },
+          "kp_sport-olympiske_13": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: en national olympisk komité, NOC. Forklar hvorfor det er mere præcist end: et internationalt specialforbund, IF · en lokal organisationskomité, OCOG · en professionel liga.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "et internationalt specialforbund, IF",
+              "en lokal organisationskomité, OCOG",
+              "en professionel liga"
+            ]
+          },
+          "kp_sport-olympiske_14": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: et internationalt specialforbund, IF. Forklar hvorfor det er mere præcist end: en national olympisk komité, NOC · en værtsbys OCOG · en atleterklub.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "en national olympisk komité, NOC",
+              "en værtsbys OCOG",
+              "en atleterklub"
+            ]
+          },
+          "kp_sport-olympiske_15": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: OCOG. Forklar hvorfor det er mere præcist end: NOC · WADA · CAS.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "NOC",
+              "WADA",
+              "CAS"
+            ]
+          },
+          "kp_sport-olympiske_16": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Emil Zátopek. Forklar hvorfor det er mere præcist end: Paavo Nurmi · Abebe Bikila · Lasse Virén.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Paavo Nurmi",
+              "Abebe Bikila",
+              "Lasse Virén"
+            ]
+          },
+          "kp_sport-olympiske_17": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Abebe Bikila. Forklar hvorfor det er mere præcist end: Mamo Wolde · Haile Gebrselassie · Kenenisa Bekele.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Mamo Wolde",
+              "Haile Gebrselassie",
+              "Kenenisa Bekele"
+            ]
+          },
+          "kp_sport-olympiske_18": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Dick Fosbury. Forklar hvorfor det er mere præcist end: Valeriy Brumel · Javier Sotomayor · Charles Dumas.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Valeriy Brumel",
+              "Javier Sotomayor",
+              "Charles Dumas"
+            ]
+          },
+          "kp_sport-olympiske_19": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Bob Beamon. Forklar hvorfor det er mere præcist end: Mike Powell · Carl Lewis · Ralph Boston.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Mike Powell",
+              "Carl Lewis",
+              "Ralph Boston"
+            ]
+          },
+          "kp_sport-olympiske_20": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Mark Spitz. Forklar hvorfor det er mere præcist end: Michael Phelps · Matt Biondi · Alexander Popov.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Michael Phelps",
+              "Matt Biondi",
+              "Alexander Popov"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

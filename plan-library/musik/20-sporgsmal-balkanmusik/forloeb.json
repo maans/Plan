@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-balkanmusik_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Balkanmusik",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_balkanmusik_01": {
-            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 2+2+2+3. Forklar hvorfor det er mere præcist end: 3+3+3 · 2+3+2+2 · 4+2+3.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "3+3+3",
-              "2+3+2+2",
-              "4+2+3"
-            ]
-          },
-          "kp_balkanmusik_02": {
-            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 11/8. Forklar hvorfor det er mere præcist end: 7/8 · 9/8 · 13/8.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "7/8",
-              "9/8",
-              "13/8"
-            ]
-          },
-          "kp_balkanmusik_03": {
-            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 3+2+2. Forklar hvorfor det er mere præcist end: 2+2+3 · 2+3+2 · 4+3.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "2+2+3",
-              "2+3+2",
-              "4+3"
-            ]
-          },
-          "kp_balkanmusik_04": {
-            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 2/4. Forklar hvorfor det er mere præcist end: 5/8 · 7/8 · 11/8.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "5/8",
-              "7/8",
-              "11/8"
-            ]
-          },
-          "kp_balkanmusik_05": {
-            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
-            "explanation": "Kort svar: 9/8. Forklar hvorfor det er mere præcist end: 4/4 · 6/8 · 7/8.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "4/4",
-              "6/8",
-              "7/8"
-            ]
-          },
-          "kp_balkanmusik_06": {
-            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: bryllupper. Forklar hvorfor det er mere præcist end: skoleeksamener · sportsfinaler · parlamentsåbninger.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "skoleeksamener",
-              "sportsfinaler",
-              "parlamentsåbninger"
-            ]
-          },
-          "kp_balkanmusik_07": {
-            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: osmanniske militærorkestre. Forklar hvorfor det er mere præcist end: barokke strygekvartetter · gregorianske kor · skotske sækkepibebands.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "barokke strygekvartetter",
-              "gregorianske kor",
-              "skotske sækkepibebands"
-            ]
-          },
-          "kp_balkanmusik_08": {
-            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: Serbien. Forklar hvorfor det er mere præcist end: Rumænien · Albanien · Grækenland.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "Rumænien",
-              "Albanien",
-              "Grækenland"
-            ]
-          },
-          "kp_balkanmusik_09": {
-            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: Rumænien. Forklar hvorfor det er mere præcist end: Serbien · Bulgarien · Kroatien.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "Serbien",
-              "Bulgarien",
-              "Kroatien"
-            ]
-          },
-          "kp_balkanmusik_10": {
-            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
-            "explanation": "Kort svar: Clejani. Forklar hvorfor det er mere præcist end: Guča · Bistritsa · Kalamata.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "Guča",
-              "Bistritsa",
-              "Kalamata"
-            ]
-          },
-          "kp_balkanmusik_11": {
-            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: bouzouki. Forklar hvorfor det er mere præcist end: gaida · tapan · nai.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "gaida",
-              "tapan",
-              "nai"
-            ]
-          },
-          "kp_balkanmusik_12": {
-            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: en lille langhalset lut. Forklar hvorfor det er mere præcist end: en stor bastromme · en panfløjte · en metalblæser.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "en stor bastromme",
-              "en panfløjte",
-              "en metalblæser"
-            ]
-          },
-          "kp_balkanmusik_13": {
-            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: strengene slås med små køller. Forklar hvorfor det er mere præcist end: luft blæses gennem en sæk · en bue stryger én streng · et skind gnides med hånden.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "luft blæses gennem en sæk",
-              "en bue stryger én streng",
-              "et skind gnides med hånden"
-            ]
-          },
-          "kp_balkanmusik_14": {
-            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: to. Forklar hvorfor det er mere præcist end: én · fire · otte.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "én",
-              "fire",
-              "otte"
-            ]
-          },
-          "kp_balkanmusik_15": {
-            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
-            "explanation": "Kort svar: et enstrenget strygeinstrument. Forklar hvorfor det er mere præcist end: en stor kobberkedel · en endeblæst fløjte · en rammetromme.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "en stor kobberkedel",
-              "en endeblæst fløjte",
-              "en rammetromme"
-            ]
-          },
-          "kp_balkanmusik_16": {
-            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: en kroatisk tostemmig sangtradition fra det dalmatiske bagland. Forklar hvorfor det er mere præcist end: en græsk luttetype · en rumænsk kredsdans · en bulgarsk trompetfestival.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "en græsk luttetype",
-              "en rumænsk kredsdans",
-              "en bulgarsk trompetfestival"
-            ]
-          },
-          "kp_balkanmusik_17": {
-            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: Serbien. Forklar hvorfor det er mere præcist end: Albanien · Rumænien · Tyrkiet.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "Albanien",
-              "Rumænien",
-              "Tyrkiet"
-            ]
-          },
-          "kp_balkanmusik_18": {
-            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: 2017. Forklar hvorfor det er mere præcist end: 2003 · 2012 · 2024.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "2003",
-              "2012",
-              "2024"
-            ]
-          },
-          "kp_balkanmusik_19": {
-            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: 2024. Forklar hvorfor det er mere præcist end: 2008 · 2012 · 2017.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "2008",
-              "2012",
-              "2017"
-            ]
-          },
-          "kp_balkanmusik_20": {
-            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
-            "explanation": "Kort svar: 2012. Forklar hvorfor det er mere præcist end: 2005 · 2017 · 2024.",
-            "sourceTitle": "Smithsonian Folkways",
-            "sourceUrl": "https://folkways.si.edu/",
-            "confusions": [
-              "2005",
-              "2017",
-              "2024"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_balkanmusik_01": {
+            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
+            "explanation": "Kort svar: 2+2+2+3. Forklar hvorfor det er mere præcist end: 3+3+3 · 2+3+2+2 · 4+2+3.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "3+3+3",
+              "2+3+2+2",
+              "4+2+3"
+            ]
+          },
+          "kp_balkanmusik_02": {
+            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
+            "explanation": "Kort svar: 11/8. Forklar hvorfor det er mere præcist end: 7/8 · 9/8 · 13/8.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "7/8",
+              "9/8",
+              "13/8"
+            ]
+          },
+          "kp_balkanmusik_03": {
+            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
+            "explanation": "Kort svar: 3+2+2. Forklar hvorfor det er mere præcist end: 2+2+3 · 2+3+2 · 4+3.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "2+2+3",
+              "2+3+2",
+              "4+3"
+            ]
+          },
+          "kp_balkanmusik_04": {
+            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
+            "explanation": "Kort svar: 2/4. Forklar hvorfor det er mere præcist end: 5/8 · 7/8 · 11/8.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "5/8",
+              "7/8",
+              "11/8"
+            ]
+          },
+          "kp_balkanmusik_05": {
+            "hint": "Find svaret i kilderne til: Skæve taktarter og danse.",
+            "explanation": "Kort svar: 9/8. Forklar hvorfor det er mere præcist end: 4/4 · 6/8 · 7/8.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "4/4",
+              "6/8",
+              "7/8"
+            ]
+          },
+          "kp_balkanmusik_06": {
+            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
+            "explanation": "Kort svar: bryllupper. Forklar hvorfor det er mere præcist end: skoleeksamener · sportsfinaler · parlamentsåbninger.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "skoleeksamener",
+              "sportsfinaler",
+              "parlamentsåbninger"
+            ]
+          },
+          "kp_balkanmusik_07": {
+            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
+            "explanation": "Kort svar: osmanniske militærorkestre. Forklar hvorfor det er mere præcist end: barokke strygekvartetter · gregorianske kor · skotske sækkepibebands.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "barokke strygekvartetter",
+              "gregorianske kor",
+              "skotske sækkepibebands"
+            ]
+          },
+          "kp_balkanmusik_08": {
+            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
+            "explanation": "Kort svar: Serbien. Forklar hvorfor det er mere præcist end: Rumænien · Albanien · Grækenland.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "Rumænien",
+              "Albanien",
+              "Grækenland"
+            ]
+          },
+          "kp_balkanmusik_09": {
+            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
+            "explanation": "Kort svar: Rumænien. Forklar hvorfor det er mere præcist end: Serbien · Bulgarien · Kroatien.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "Serbien",
+              "Bulgarien",
+              "Kroatien"
+            ]
+          },
+          "kp_balkanmusik_10": {
+            "hint": "Find svaret i kilderne til: Roma og musik på tværs.",
+            "explanation": "Kort svar: Clejani. Forklar hvorfor det er mere præcist end: Guča · Bistritsa · Kalamata.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "Guča",
+              "Bistritsa",
+              "Kalamata"
+            ]
+          },
+          "kp_balkanmusik_11": {
+            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
+            "explanation": "Kort svar: bouzouki. Forklar hvorfor det er mere præcist end: gaida · tapan · nai.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "gaida",
+              "tapan",
+              "nai"
+            ]
+          },
+          "kp_balkanmusik_12": {
+            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
+            "explanation": "Kort svar: en lille langhalset lut. Forklar hvorfor det er mere præcist end: en stor bastromme · en panfløjte · en metalblæser.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "en stor bastromme",
+              "en panfløjte",
+              "en metalblæser"
+            ]
+          },
+          "kp_balkanmusik_13": {
+            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
+            "explanation": "Kort svar: strengene slås med små køller. Forklar hvorfor det er mere præcist end: luft blæses gennem en sæk · en bue stryger én streng · et skind gnides med hånden.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "luft blæses gennem en sæk",
+              "en bue stryger én streng",
+              "et skind gnides med hånden"
+            ]
+          },
+          "kp_balkanmusik_14": {
+            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
+            "explanation": "Kort svar: to. Forklar hvorfor det er mere præcist end: én · fire · otte.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "én",
+              "fire",
+              "otte"
+            ]
+          },
+          "kp_balkanmusik_15": {
+            "hint": "Find svaret i kilderne til: Instrumenter og ensembler.",
+            "explanation": "Kort svar: et enstrenget strygeinstrument. Forklar hvorfor det er mere præcist end: en stor kobberkedel · en endeblæst fløjte · en rammetromme.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "en stor kobberkedel",
+              "en endeblæst fløjte",
+              "en rammetromme"
+            ]
+          },
+          "kp_balkanmusik_16": {
+            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
+            "explanation": "Kort svar: en kroatisk tostemmig sangtradition fra det dalmatiske bagland. Forklar hvorfor det er mere præcist end: en græsk luttetype · en rumænsk kredsdans · en bulgarsk trompetfestival.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "en græsk luttetype",
+              "en rumænsk kredsdans",
+              "en bulgarsk trompetfestival"
+            ]
+          },
+          "kp_balkanmusik_17": {
+            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
+            "explanation": "Kort svar: Serbien. Forklar hvorfor det er mere præcist end: Albanien · Rumænien · Tyrkiet.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "Albanien",
+              "Rumænien",
+              "Tyrkiet"
+            ]
+          },
+          "kp_balkanmusik_18": {
+            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
+            "explanation": "Kort svar: 2017. Forklar hvorfor det er mere præcist end: 2003 · 2012 · 2024.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "2003",
+              "2012",
+              "2024"
+            ]
+          },
+          "kp_balkanmusik_19": {
+            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
+            "explanation": "Kort svar: 2024. Forklar hvorfor det er mere præcist end: 2008 · 2012 · 2017.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "2008",
+              "2012",
+              "2017"
+            ]
+          },
+          "kp_balkanmusik_20": {
+            "hint": "Find svaret i kilderne til: Stilarter, sange og steder.",
+            "explanation": "Kort svar: 2012. Forklar hvorfor det er mere præcist end: 2005 · 2017 · 2024.",
+            "sourceTitle": "Smithsonian Folkways",
+            "sourceUrl": "https://folkways.si.edu/",
+            "confusions": [
+              "2005",
+              "2017",
+              "2024"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

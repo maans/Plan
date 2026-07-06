@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-musikgenrer_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Musikgenrer",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_musikgenrer_01": {
-            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
-            "explanation": "Kort svar: Bronx. Forklar hvorfor det er mere præcist end: Queens · Manhattan · Staten Island.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Queens",
-              "Manhattan",
-              "Staten Island"
-            ]
-          },
-          "kp_musikgenrer_02": {
-            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
-            "explanation": "Kort svar: Jamaica. Forklar hvorfor det er mere præcist end: Cuba · Barbados · Haiti.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Cuba",
-              "Barbados",
-              "Haiti"
-            ]
-          },
-          "kp_musikgenrer_03": {
-            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
-            "explanation": "Kort svar: ska. Forklar hvorfor det er mere præcist end: samba · salsa · soca.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "samba",
-              "salsa",
-              "soca"
-            ]
-          },
-          "kp_musikgenrer_04": {
-            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
-            "explanation": "Kort svar: dub. Forklar hvorfor det er mere præcist end: bossa nova · zydeco · operette.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "bossa nova",
-              "zydeco",
-              "operette"
-            ]
-          },
-          "kp_musikgenrer_05": {
-            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
-            "explanation": "Kort svar: calypso. Forklar hvorfor det er mere præcist end: fado · raï · klezmer.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "fado",
-              "raï",
-              "klezmer"
-            ]
-          },
-          "kp_musikgenrer_06": {
-            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
-            "explanation": "Kort svar: DJ og MC. Forklar hvorfor det er mere præcist end: dirigent og koncertmester · kantor og organist · komponist og librettist.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "dirigent og koncertmester",
-              "kantor og organist",
-              "komponist og librettist"
-            ]
-          },
-          "kp_musikgenrer_07": {
-            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
-            "explanation": "Kort svar: Chicago. Forklar hvorfor det er mere præcist end: Seattle · Memphis · Boston.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Seattle",
-              "Memphis",
-              "Boston"
-            ]
-          },
-          "kp_musikgenrer_08": {
-            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
-            "explanation": "Kort svar: Detroit. Forklar hvorfor det er mere præcist end: Austin · Miami · New Orleans.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Austin",
-              "Miami",
-              "New Orleans"
-            ]
-          },
-          "kp_musikgenrer_09": {
-            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
-            "explanation": "Kort svar: drum and bass. Forklar hvorfor det er mere præcist end: ambient · country pop · bolero.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "ambient",
-              "country pop",
-              "bolero"
-            ]
-          },
-          "kp_musikgenrer_10": {
-            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
-            "explanation": "Kort svar: bandoneon. Forklar hvorfor det er mere præcist end: melodica · mundharpe · concertina.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "melodica",
-              "mundharpe",
-              "concertina"
-            ]
-          },
-          "kp_musikgenrer_11": {
-            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
-            "explanation": "Kort svar: Donna Summer. Forklar hvorfor det er mere præcist end: Janis Joplin · Carole King · Tina Turner.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Janis Joplin",
-              "Carole King",
-              "Tina Turner"
-            ]
-          },
-          "kp_musikgenrer_12": {
-            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
-            "explanation": "Kort svar: Grandmaster Flash. Forklar hvorfor det er mere præcist end: Brian Eno · Giorgio Moroder · Nile Rodgers.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Brian Eno",
-              "Giorgio Moroder",
-              "Nile Rodgers"
-            ]
-          },
-          "kp_musikgenrer_13": {
-            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
-            "explanation": "Kort svar: Bob Marley. Forklar hvorfor det er mere præcist end: Harry Belafonte · Fela Kuti · Carlos Santana.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Harry Belafonte",
-              "Fela Kuti",
-              "Carlos Santana"
-            ]
-          },
-          "kp_musikgenrer_14": {
-            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
-            "explanation": "Kort svar: Lee “Scratch” Perry. Forklar hvorfor det er mere præcist end: Quincy Jones · Phil Spector · Rick Rubin.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Quincy Jones",
-              "Phil Spector",
-              "Rick Rubin"
-            ]
-          },
-          "kp_musikgenrer_15": {
-            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
-            "explanation": "Kort svar: Celia Cruz. Forklar hvorfor det er mere præcist end: Mercedes Sosa · Amália Rodrigues · Astrud Gilberto.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Mercedes Sosa",
-              "Amália Rodrigues",
-              "Astrud Gilberto"
-            ]
-          },
-          "kp_musikgenrer_16": {
-            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
-            "explanation": "Kort svar: Chicago blues. Forklar hvorfor det er mere præcist end: Piedmont blues · country blues · gospel blues.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "Piedmont blues",
-              "country blues",
-              "gospel blues"
-            ]
-          },
-          "kp_musikgenrer_17": {
-            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
-            "explanation": "Kort svar: rockabilly. Forklar hvorfor det er mere præcist end: shoegaze · trip-hop · post-rock.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "shoegaze",
-              "trip-hop",
-              "post-rock"
-            ]
-          },
-          "kp_musikgenrer_18": {
-            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
-            "explanation": "Kort svar: psykedelisk rock. Forklar hvorfor det er mere præcist end: new wave · grunge · rocksteady.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "new wave",
-              "grunge",
-              "rocksteady"
-            ]
-          },
-          "kp_musikgenrer_19": {
-            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
-            "explanation": "Kort svar: progressiv rock. Forklar hvorfor det er mere præcist end: punkrock · garage rock · rockabilly.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "punkrock",
-              "garage rock",
-              "rockabilly"
-            ]
-          },
-          "kp_musikgenrer_20": {
-            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
-            "explanation": "Kort svar: heavy metal. Forklar hvorfor det er mere præcist end: bluegrass · acid house · fado.",
-            "sourceTitle": "AllMusic",
-            "sourceUrl": "https://www.allmusic.com/",
-            "confusions": [
-              "bluegrass",
-              "acid house",
-              "fado"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_musikgenrer_01": {
+            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
+            "explanation": "Kort svar: Bronx. Forklar hvorfor det er mere præcist end: Queens · Manhattan · Staten Island.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Queens",
+              "Manhattan",
+              "Staten Island"
+            ]
+          },
+          "kp_musikgenrer_02": {
+            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
+            "explanation": "Kort svar: Jamaica. Forklar hvorfor det er mere præcist end: Cuba · Barbados · Haiti.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Cuba",
+              "Barbados",
+              "Haiti"
+            ]
+          },
+          "kp_musikgenrer_03": {
+            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
+            "explanation": "Kort svar: ska. Forklar hvorfor det er mere præcist end: samba · salsa · soca.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "samba",
+              "salsa",
+              "soca"
+            ]
+          },
+          "kp_musikgenrer_04": {
+            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
+            "explanation": "Kort svar: dub. Forklar hvorfor det er mere præcist end: bossa nova · zydeco · operette.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "bossa nova",
+              "zydeco",
+              "operette"
+            ]
+          },
+          "kp_musikgenrer_05": {
+            "hint": "Find svaret i kilderne til: Rødder og hjemsteder.",
+            "explanation": "Kort svar: calypso. Forklar hvorfor det er mere præcist end: fado · raï · klezmer.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "fado",
+              "raï",
+              "klezmer"
+            ]
+          },
+          "kp_musikgenrer_06": {
+            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
+            "explanation": "Kort svar: DJ og MC. Forklar hvorfor det er mere præcist end: dirigent og koncertmester · kantor og organist · komponist og librettist.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "dirigent og koncertmester",
+              "kantor og organist",
+              "komponist og librettist"
+            ]
+          },
+          "kp_musikgenrer_07": {
+            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
+            "explanation": "Kort svar: Chicago. Forklar hvorfor det er mere præcist end: Seattle · Memphis · Boston.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Seattle",
+              "Memphis",
+              "Boston"
+            ]
+          },
+          "kp_musikgenrer_08": {
+            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
+            "explanation": "Kort svar: Detroit. Forklar hvorfor det er mere præcist end: Austin · Miami · New Orleans.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Austin",
+              "Miami",
+              "New Orleans"
+            ]
+          },
+          "kp_musikgenrer_09": {
+            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
+            "explanation": "Kort svar: drum and bass. Forklar hvorfor det er mere præcist end: ambient · country pop · bolero.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "ambient",
+              "country pop",
+              "bolero"
+            ]
+          },
+          "kp_musikgenrer_10": {
+            "hint": "Find svaret i kilderne til: Rytmer og instrumenter.",
+            "explanation": "Kort svar: bandoneon. Forklar hvorfor det er mere præcist end: melodica · mundharpe · concertina.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "melodica",
+              "mundharpe",
+              "concertina"
+            ]
+          },
+          "kp_musikgenrer_11": {
+            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
+            "explanation": "Kort svar: Donna Summer. Forklar hvorfor det er mere præcist end: Janis Joplin · Carole King · Tina Turner.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Janis Joplin",
+              "Carole King",
+              "Tina Turner"
+            ]
+          },
+          "kp_musikgenrer_12": {
+            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
+            "explanation": "Kort svar: Grandmaster Flash. Forklar hvorfor det er mere præcist end: Brian Eno · Giorgio Moroder · Nile Rodgers.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Brian Eno",
+              "Giorgio Moroder",
+              "Nile Rodgers"
+            ]
+          },
+          "kp_musikgenrer_13": {
+            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
+            "explanation": "Kort svar: Bob Marley. Forklar hvorfor det er mere præcist end: Harry Belafonte · Fela Kuti · Carlos Santana.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Harry Belafonte",
+              "Fela Kuti",
+              "Carlos Santana"
+            ]
+          },
+          "kp_musikgenrer_14": {
+            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
+            "explanation": "Kort svar: Lee “Scratch” Perry. Forklar hvorfor det er mere præcist end: Quincy Jones · Phil Spector · Rick Rubin.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Quincy Jones",
+              "Phil Spector",
+              "Rick Rubin"
+            ]
+          },
+          "kp_musikgenrer_15": {
+            "hint": "Find svaret i kilderne til: Kunstnere og gennembrud.",
+            "explanation": "Kort svar: Celia Cruz. Forklar hvorfor det er mere præcist end: Mercedes Sosa · Amália Rodrigues · Astrud Gilberto.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Mercedes Sosa",
+              "Amália Rodrigues",
+              "Astrud Gilberto"
+            ]
+          },
+          "kp_musikgenrer_16": {
+            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
+            "explanation": "Kort svar: Chicago blues. Forklar hvorfor det er mere præcist end: Piedmont blues · country blues · gospel blues.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "Piedmont blues",
+              "country blues",
+              "gospel blues"
+            ]
+          },
+          "kp_musikgenrer_17": {
+            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
+            "explanation": "Kort svar: rockabilly. Forklar hvorfor det er mere præcist end: shoegaze · trip-hop · post-rock.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "shoegaze",
+              "trip-hop",
+              "post-rock"
+            ]
+          },
+          "kp_musikgenrer_18": {
+            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
+            "explanation": "Kort svar: psykedelisk rock. Forklar hvorfor det er mere præcist end: new wave · grunge · rocksteady.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "new wave",
+              "grunge",
+              "rocksteady"
+            ]
+          },
+          "kp_musikgenrer_19": {
+            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
+            "explanation": "Kort svar: progressiv rock. Forklar hvorfor det er mere præcist end: punkrock · garage rock · rockabilly.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "punkrock",
+              "garage rock",
+              "rockabilly"
+            ]
+          },
+          "kp_musikgenrer_20": {
+            "hint": "Find svaret i kilderne til: Stilarter og undergenrer.",
+            "explanation": "Kort svar: heavy metal. Forklar hvorfor det er mere præcist end: bluegrass · acid house · fado.",
+            "sourceTitle": "AllMusic",
+            "sourceUrl": "https://www.allmusic.com/",
+            "confusions": [
+              "bluegrass",
+              "acid house",
+              "fado"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

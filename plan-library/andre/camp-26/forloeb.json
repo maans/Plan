@@ -610,235 +610,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "widget_camp-26_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Camp 26",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_camp26_finale_01": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
-            "explanation": "Kort svar: At se på inspiration og vælge en tydelig idé. Forklar hvorfor dette svar passer bedre end: At kopiere uden at tænke · At vente på facit · At smide materialerne væk.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At kopiere uden at tænke",
-              "At vente på facit",
-              "At smide materialerne væk"
-            ]
-          },
-          "kp_camp26_finale_02": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
-            "explanation": "Kort svar: Hvordan former, farver og fokus er placeret. Forklar hvorfor dette svar passer bedre end: Hvad billedet vejer · Hvor dyr rammen er · Hvor længe limen tørrer.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Hvad billedet vejer",
-              "Hvor dyr rammen er",
-              "Hvor længe limen tørrer"
-            ]
-          },
-          "kp_camp26_finale_03": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
-            "explanation": "Kort svar: Den gør idéen synlig, før arbejdet låses fast. Forklar hvorfor dette svar passer bedre end: Den er altid det færdige værk · Den forhindrer ændringer · Den erstatter samarbejde.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Den er altid det færdige værk",
-              "Den forhindrer ændringer",
-              "Den erstatter samarbejde"
-            ]
-          },
-          "kp_camp26_finale_04": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
-            "explanation": "Kort svar: En personlig og begrundet måde at forstå og omsætte et oplæg på. Forklar hvorfor dette svar passer bedre end: En tilfældig fejl · En kopi uden valg · En liste over regler.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "En tilfældig fejl",
-              "En kopi uden valg",
-              "En liste over regler"
-            ]
-          },
-          "kp_camp26_finale_05": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
-            "explanation": "Kort svar: At den kan forklares enkelt og udvikles visuelt. Forklar hvorfor dette svar passer bedre end: At den er hemmelig for gruppen · At ingen kan se den · At den ikke må ændres.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At den er hemmelig for gruppen",
-              "At ingen kan se den",
-              "At den ikke må ændres"
-            ]
-          },
-          "kp_camp26_finale_06": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
-            "explanation": "Kort svar: For at opdage muligheder og begrænsninger. Forklar hvorfor dette svar passer bedre end: For at bruge mest muligt lim · For at undgå at lære noget · For at gøre processen usynlig.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "For at bruge mest muligt lim",
-              "For at undgå at lære noget",
-              "For at gøre processen usynlig"
-            ]
-          },
-          "kp_camp26_finale_07": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
-            "explanation": "Kort svar: At prøve, vælge, forbedre og gøre færdigt. Forklar hvorfor dette svar passer bedre end: At stoppe ved første fejl · At vente på at andre gør alt · At skifte idé hvert minut.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At stoppe ved første fejl",
-              "At vente på at andre gør alt",
-              "At skifte idé hvert minut"
-            ]
-          },
-          "kp_camp26_finale_08": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
-            "explanation": "Kort svar: Forskelle der får noget til at træde tydeligt frem. Forklar hvorfor dette svar passer bedre end: At alt bliver ens · At man skjuler motivet · At man undgår farver.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At alt bliver ens",
-              "At man skjuler motivet",
-              "At man undgår farver"
-            ]
-          },
-          "kp_camp26_finale_09": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
-            "explanation": "Kort svar: De gør det lettere at se arbejdet med friske øjne. Forklar hvorfor dette svar passer bedre end: De fjerner behovet for valg · De gør værket automatisk færdigt · De betyder at man ikke skal evaluere.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "De fjerner behovet for valg",
-              "De gør værket automatisk færdigt",
-              "De betyder at man ikke skal evaluere"
-            ]
-          },
-          "kp_camp26_finale_10": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
-            "explanation": "Kort svar: At de vigtigste valg er tydelige og gennemarbejdede. Forklar hvorfor dette svar passer bedre end: At alt er tilfældigt · At idéen ikke kan ses · At gruppen ikke kan forklare noget.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At alt er tilfældigt",
-              "At idéen ikke kan ses",
-              "At gruppen ikke kan forklare noget"
-            ]
-          },
-          "kp_camp26_finale_11": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
-            "explanation": "Kort svar: En fælles aftale om opgave, roller og tid. Forklar hvorfor dette svar passer bedre end: At alle taler på én gang · At ingen ved hvad de skal · At kun én bestemmer alt.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At alle taler på én gang",
-              "At ingen ved hvad de skal",
-              "At kun én bestemmer alt"
-            ]
-          },
-          "kp_camp26_finale_12": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
-            "explanation": "Kort svar: Konkret hjælp der viser hvad der virker og hvad der kan forbedres. Forklar hvorfor dette svar passer bedre end: Kun “det er flot” · At grine af fejl · At ændre andres arbejde uden aftale.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Kun “det er flot”",
-              "At grine af fejl",
-              "At ændre andres arbejde uden aftale"
-            ]
-          },
-          "kp_camp26_finale_13": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
-            "explanation": "Kort svar: Lytte, begrunde valg og afprøve en løsning. Forklar hvorfor dette svar passer bedre end: Stoppe arbejdet helt · Slette andres idéer · Ignorere opgaven.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Stoppe arbejdet helt",
-              "Slette andres idéer",
-              "Ignorere opgaven"
-            ]
-          },
-          "kp_camp26_finale_14": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
-            "explanation": "Kort svar: Den hjælper gruppen med at nå både forsøg og færdiggørelse. Forklar hvorfor dette svar passer bedre end: Den gør idéer unødvendige · Den bestemmer facit · Den erstatter samtale.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Den gør idéer unødvendige",
-              "Den bestemmer facit",
-              "Den erstatter samtale"
-            ]
-          },
-          "kp_camp26_finale_15": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
-            "explanation": "Kort svar: At flere bidrag hænger sammen i én tydelig helhed. Forklar hvorfor dette svar passer bedre end: At man kan se konflikterne i gruppen · At ingen har bidraget · At produktet ikke kan præsenteres.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At man kan se konflikterne i gruppen",
-              "At ingen har bidraget",
-              "At produktet ikke kan præsenteres"
-            ]
-          },
-          "kp_camp26_finale_16": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
-            "explanation": "Kort svar: Idé, vigtige valg og hvad man har lært. Forklar hvorfor dette svar passer bedre end: Kun en undskyldning · Kun materialelisten · Kun hvem der stod nærmest.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Kun en undskyldning",
-              "Kun materialelisten",
-              "Kun hvem der stod nærmest"
-            ]
-          },
-          "kp_camp26_finale_17": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
-            "explanation": "Kort svar: At forklare hvorfor man gjorde, som man gjorde. Forklar hvorfor dette svar passer bedre end: At gætte på lærerens mening · At sige “fordi sådan” · At undgå spørgsmål.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At gætte på lærerens mening",
-              "At sige “fordi sådan”",
-              "At undgå spørgsmål"
-            ]
-          },
-          "kp_camp26_finale_18": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
-            "explanation": "Kort svar: Sammenhæng mellem idé, proces og produkt. Forklar hvorfor dette svar passer bedre end: Kun om noget er dyrt · Kun om det ligner naboens · Kun om præsentationen er lang.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Kun om noget er dyrt",
-              "Kun om det ligner naboens",
-              "Kun om præsentationen er lang"
-            ]
-          },
-          "kp_camp26_finale_19": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
-            "explanation": "Kort svar: Den hjælper eleverne med at opdage læring og næste skridt. Forklar hvorfor dette svar passer bedre end: Den gør processen usynlig · Den erstatter produktet helt · Den handler kun om karakterer.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Den gør processen usynlig",
-              "Den erstatter produktet helt",
-              "Den handler kun om karakterer"
-            ]
-          },
-          "kp_camp26_finale_20": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
-            "explanation": "Kort svar: “Vi valgte … fordi … og næste gang vil vi …”. Forklar hvorfor dette svar passer bedre end: “Vi gjorde noget.” · “Det ved vi ikke.” · “Ingen må spørge.”.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "“Vi gjorde noget.”",
-              "“Det ved vi ikke.”",
-              "“Ingen må spørge.”"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1126,7 +899,216 @@
             }
           ],
           "updatedAt": "2026-07-07T01:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_camp26_finale_01": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: At se på inspiration og vælge en tydelig idé. Forklar hvorfor dette svar passer bedre end: At kopiere uden at tænke · At vente på facit · At smide materialerne væk.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At kopiere uden at tænke",
+              "At vente på facit",
+              "At smide materialerne væk"
+            ]
+          },
+          "kp_camp26_finale_02": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: Hvordan former, farver og fokus er placeret. Forklar hvorfor dette svar passer bedre end: Hvad billedet vejer · Hvor dyr rammen er · Hvor længe limen tørrer.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Hvad billedet vejer",
+              "Hvor dyr rammen er",
+              "Hvor længe limen tørrer"
+            ]
+          },
+          "kp_camp26_finale_03": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: Den gør idéen synlig, før arbejdet låses fast. Forklar hvorfor dette svar passer bedre end: Den er altid det færdige værk · Den forhindrer ændringer · Den erstatter samarbejde.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Den er altid det færdige værk",
+              "Den forhindrer ændringer",
+              "Den erstatter samarbejde"
+            ]
+          },
+          "kp_camp26_finale_04": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: En personlig og begrundet måde at forstå og omsætte et oplæg på. Forklar hvorfor dette svar passer bedre end: En tilfældig fejl · En kopi uden valg · En liste over regler.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "En tilfældig fejl",
+              "En kopi uden valg",
+              "En liste over regler"
+            ]
+          },
+          "kp_camp26_finale_05": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Kunstblik og idé.",
+            "explanation": "Kort svar: At den kan forklares enkelt og udvikles visuelt. Forklar hvorfor dette svar passer bedre end: At den er hemmelig for gruppen · At ingen kan se den · At den ikke må ændres.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At den er hemmelig for gruppen",
+              "At ingen kan se den",
+              "At den ikke må ændres"
+            ]
+          },
+          "kp_camp26_finale_06": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: For at opdage muligheder og begrænsninger. Forklar hvorfor dette svar passer bedre end: For at bruge mest muligt lim · For at undgå at lære noget · For at gøre processen usynlig.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "For at bruge mest muligt lim",
+              "For at undgå at lære noget",
+              "For at gøre processen usynlig"
+            ]
+          },
+          "kp_camp26_finale_07": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: At prøve, vælge, forbedre og gøre færdigt. Forklar hvorfor dette svar passer bedre end: At stoppe ved første fejl · At vente på at andre gør alt · At skifte idé hvert minut.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At stoppe ved første fejl",
+              "At vente på at andre gør alt",
+              "At skifte idé hvert minut"
+            ]
+          },
+          "kp_camp26_finale_08": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: Forskelle der får noget til at træde tydeligt frem. Forklar hvorfor dette svar passer bedre end: At alt bliver ens · At man skjuler motivet · At man undgår farver.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At alt bliver ens",
+              "At man skjuler motivet",
+              "At man undgår farver"
+            ]
+          },
+          "kp_camp26_finale_09": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: De gør det lettere at se arbejdet med friske øjne. Forklar hvorfor dette svar passer bedre end: De fjerner behovet for valg · De gør værket automatisk færdigt · De betyder at man ikke skal evaluere.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "De fjerner behovet for valg",
+              "De gør værket automatisk færdigt",
+              "De betyder at man ikke skal evaluere"
+            ]
+          },
+          "kp_camp26_finale_10": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Materialer og proces.",
+            "explanation": "Kort svar: At de vigtigste valg er tydelige og gennemarbejdede. Forklar hvorfor dette svar passer bedre end: At alt er tilfældigt · At idéen ikke kan ses · At gruppen ikke kan forklare noget.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At alt er tilfældigt",
+              "At idéen ikke kan ses",
+              "At gruppen ikke kan forklare noget"
+            ]
+          },
+          "kp_camp26_finale_11": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: En fælles aftale om opgave, roller og tid. Forklar hvorfor dette svar passer bedre end: At alle taler på én gang · At ingen ved hvad de skal · At kun én bestemmer alt.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At alle taler på én gang",
+              "At ingen ved hvad de skal",
+              "At kun én bestemmer alt"
+            ]
+          },
+          "kp_camp26_finale_12": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: Konkret hjælp der viser hvad der virker og hvad der kan forbedres. Forklar hvorfor dette svar passer bedre end: Kun “det er flot” · At grine af fejl · At ændre andres arbejde uden aftale.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Kun “det er flot”",
+              "At grine af fejl",
+              "At ændre andres arbejde uden aftale"
+            ]
+          },
+          "kp_camp26_finale_13": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: Lytte, begrunde valg og afprøve en løsning. Forklar hvorfor dette svar passer bedre end: Stoppe arbejdet helt · Slette andres idéer · Ignorere opgaven.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Stoppe arbejdet helt",
+              "Slette andres idéer",
+              "Ignorere opgaven"
+            ]
+          },
+          "kp_camp26_finale_14": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: Den hjælper gruppen med at nå både forsøg og færdiggørelse. Forklar hvorfor dette svar passer bedre end: Den gør idéer unødvendige · Den bestemmer facit · Den erstatter samtale.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Den gør idéer unødvendige",
+              "Den bestemmer facit",
+              "Den erstatter samtale"
+            ]
+          },
+          "kp_camp26_finale_15": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Samarbejde og roller.",
+            "explanation": "Kort svar: At flere bidrag hænger sammen i én tydelig helhed. Forklar hvorfor dette svar passer bedre end: At man kan se konflikterne i gruppen · At ingen har bidraget · At produktet ikke kan præsenteres.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At man kan se konflikterne i gruppen",
+              "At ingen har bidraget",
+              "At produktet ikke kan præsenteres"
+            ]
+          },
+          "kp_camp26_finale_16": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: Idé, vigtige valg og hvad man har lært. Forklar hvorfor dette svar passer bedre end: Kun en undskyldning · Kun materialelisten · Kun hvem der stod nærmest.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Kun en undskyldning",
+              "Kun materialelisten",
+              "Kun hvem der stod nærmest"
+            ]
+          },
+          "kp_camp26_finale_17": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: At forklare hvorfor man gjorde, som man gjorde. Forklar hvorfor dette svar passer bedre end: At gætte på lærerens mening · At sige “fordi sådan” · At undgå spørgsmål.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At gætte på lærerens mening",
+              "At sige “fordi sådan”",
+              "At undgå spørgsmål"
+            ]
+          },
+          "kp_camp26_finale_18": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: Sammenhæng mellem idé, proces og produkt. Forklar hvorfor dette svar passer bedre end: Kun om noget er dyrt · Kun om det ligner naboens · Kun om præsentationen er lang.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Kun om noget er dyrt",
+              "Kun om det ligner naboens",
+              "Kun om præsentationen er lang"
+            ]
+          },
+          "kp_camp26_finale_19": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: Den hjælper eleverne med at opdage læring og næste skridt. Forklar hvorfor dette svar passer bedre end: Den gør processen usynlig · Den erstatter produktet helt · Den handler kun om karakterer.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Den gør processen usynlig",
+              "Den erstatter produktet helt",
+              "Den handler kun om karakterer"
+            ]
+          },
+          "kp_camp26_finale_20": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Præsentation og refleksion.",
+            "explanation": "Kort svar: “Vi valgte … fordi … og næste gang vil vi …”. Forklar hvorfor dette svar passer bedre end: “Vi gjorde noget.” · “Det ved vi ikke.” · “Ingen må spørge.”.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "“Vi gjorde noget.”",
+              "“Det ved vi ikke.”",
+              "“Ingen må spørge.”"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

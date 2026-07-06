@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-nordisk-mytologi_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Nordisk mytologi",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_nordisk-mytologi_01": {
-            "hint": "Find svaret i kilderne til: Guder og slægter.",
-            "explanation": "Kort svar: Njord. Forklar hvorfor det er mere præcist end: Ull · Forsete · Høner.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Ull",
-              "Forsete",
-              "Høner"
-            ]
-          },
-          "kp_nordisk-mytologi_02": {
-            "hint": "Find svaret i kilderne til: Guder og slægter.",
-            "explanation": "Kort svar: Skade. Forklar hvorfor det er mere præcist end: Nanna · Eir · Snotra.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Nanna",
-              "Eir",
-              "Snotra"
-            ]
-          },
-          "kp_nordisk-mytologi_03": {
-            "hint": "Find svaret i kilderne til: Guder og slægter.",
-            "explanation": "Kort svar: Brage. Forklar hvorfor det er mere præcist end: Vidar · Vali · Hod.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Vidar",
-              "Vali",
-              "Hod"
-            ]
-          },
-          "kp_nordisk-mytologi_04": {
-            "hint": "Find svaret i kilderne til: Guder og slægter.",
-            "explanation": "Kort svar: Forsete. Forklar hvorfor det er mere præcist end: Tyr · Ull · Høner.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Tyr",
-              "Ull",
-              "Høner"
-            ]
-          },
-          "kp_nordisk-mytologi_05": {
-            "hint": "Find svaret i kilderne til: Guder og slægter.",
-            "explanation": "Kort svar: Hel. Forklar hvorfor det er mere præcist end: Ran · Gerda · Gefion.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Ran",
-              "Gerda",
-              "Gefion"
-            ]
-          },
-          "kp_nordisk-mytologi_06": {
-            "hint": "Find svaret i kilderne til: Væsner og genstande.",
-            "explanation": "Kort svar: Draupner. Forklar hvorfor det er mere præcist end: Andvaranaut · Brisingamen · Gleipner.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Andvaranaut",
-              "Brisingamen",
-              "Gleipner"
-            ]
-          },
-          "kp_nordisk-mytologi_07": {
-            "hint": "Find svaret i kilderne til: Væsner og genstande.",
-            "explanation": "Kort svar: Skidbladner. Forklar hvorfor det er mere præcist end: Naglfar · Hringhorni · Sessrumnir.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Naglfar",
-              "Hringhorni",
-              "Sessrumnir"
-            ]
-          },
-          "kp_nordisk-mytologi_08": {
-            "hint": "Find svaret i kilderne til: Væsner og genstande.",
-            "explanation": "Kort svar: Gjallarhorn. Forklar hvorfor det er mere præcist end: Odreør · Lur Gjoll · Bragebægeret.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Odreør",
-              "Lur Gjoll",
-              "Bragebægeret"
-            ]
-          },
-          "kp_nordisk-mytologi_09": {
-            "hint": "Find svaret i kilderne til: Væsner og genstande.",
-            "explanation": "Kort svar: Naglfar. Forklar hvorfor det er mere præcist end: Skidbladner · Hringhorni · Ellida.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Skidbladner",
-              "Hringhorni",
-              "Ellida"
-            ]
-          },
-          "kp_nordisk-mytologi_10": {
-            "hint": "Find svaret i kilderne til: Væsner og genstande.",
-            "explanation": "Kort svar: Gram. Forklar hvorfor det er mere præcist end: Gungner · Tyrfing · Dainsleif.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Gungner",
-              "Tyrfing",
-              "Dainsleif"
-            ]
-          },
-          "kp_nordisk-mytologi_11": {
-            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
-            "explanation": "Kort svar: Niflheim. Forklar hvorfor det er mere præcist end: Alfheim · Asgård · Jotunheim.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Alfheim",
-              "Asgård",
-              "Jotunheim"
-            ]
-          },
-          "kp_nordisk-mytologi_12": {
-            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
-            "explanation": "Kort svar: Bifrost. Forklar hvorfor det er mere præcist end: Gjallarbroen · Bilrosts port · Valgrind.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Gjallarbroen",
-              "Bilrosts port",
-              "Valgrind"
-            ]
-          },
-          "kp_nordisk-mytologi_13": {
-            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
-            "explanation": "Kort svar: Urds brønd. Forklar hvorfor det er mere præcist end: Mimers brønd · Hvergelmir · Suttungs kilde.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Mimers brønd",
-              "Hvergelmir",
-              "Suttungs kilde"
-            ]
-          },
-          "kp_nordisk-mytologi_14": {
-            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
-            "explanation": "Kort svar: Mimers brønd. Forklar hvorfor det er mere præcist end: Urds brønd · Hvergelmir · Gjallarkilden.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Urds brønd",
-              "Hvergelmir",
-              "Gjallarkilden"
-            ]
-          },
-          "kp_nordisk-mytologi_15": {
-            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
-            "explanation": "Kort svar: Ragnarok. Forklar hvorfor det er mere præcist end: Fimbulvinter · Ginnungagap · Vigrid.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Fimbulvinter",
-              "Ginnungagap",
-              "Vigrid"
-            ]
-          },
-          "kp_nordisk-mytologi_16": {
-            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
-            "explanation": "Kort svar: Skáldskaparmál. Forklar hvorfor det er mere præcist end: Gylfaginning · Háttatal · Vaftrudnersmål.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "Gylfaginning",
-              "Háttatal",
-              "Vaftrudnersmål"
-            ]
-          },
-          "kp_nordisk-mytologi_17": {
-            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
-            "explanation": "Kort svar: en kenning. Forklar hvorfor det er mere præcist end: en rune · en galder · et blót.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "en rune",
-              "en galder",
-              "et blót"
-            ]
-          },
-          "kp_nordisk-mytologi_18": {
-            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
-            "explanation": "Kort svar: en digter, ofte knyttet til en fyrstes hof. Forklar hvorfor det er mere præcist end: en tempelpræstinde · en skibsbygger · en lovsigemand alene.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "en tempelpræstinde",
-              "en skibsbygger",
-              "en lovsigemand alene"
-            ]
-          },
-          "kp_nordisk-mytologi_19": {
-            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
-            "explanation": "Kort svar: sejd. Forklar hvorfor det er mere præcist end: blót · holmgang · ting.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "blót",
-              "holmgang",
-              "ting"
-            ]
-          },
-          "kp_nordisk-mytologi_20": {
-            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
-            "explanation": "Kort svar: et rituelt offer eller kultmåltid. Forklar hvorfor det er mere præcist end: en skriftlig lovsamling · en begravelseshøj · en krigserklæring.",
-            "sourceTitle": "Heimskringla.no",
-            "sourceUrl": "https://heimskringla.no/",
-            "confusions": [
-              "en skriftlig lovsamling",
-              "en begravelseshøj",
-              "en krigserklæring"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_nordisk-mytologi_01": {
+            "hint": "Find svaret i kilderne til: Guder og slægter.",
+            "explanation": "Kort svar: Njord. Forklar hvorfor det er mere præcist end: Ull · Forsete · Høner.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Ull",
+              "Forsete",
+              "Høner"
+            ]
+          },
+          "kp_nordisk-mytologi_02": {
+            "hint": "Find svaret i kilderne til: Guder og slægter.",
+            "explanation": "Kort svar: Skade. Forklar hvorfor det er mere præcist end: Nanna · Eir · Snotra.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Nanna",
+              "Eir",
+              "Snotra"
+            ]
+          },
+          "kp_nordisk-mytologi_03": {
+            "hint": "Find svaret i kilderne til: Guder og slægter.",
+            "explanation": "Kort svar: Brage. Forklar hvorfor det er mere præcist end: Vidar · Vali · Hod.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Vidar",
+              "Vali",
+              "Hod"
+            ]
+          },
+          "kp_nordisk-mytologi_04": {
+            "hint": "Find svaret i kilderne til: Guder og slægter.",
+            "explanation": "Kort svar: Forsete. Forklar hvorfor det er mere præcist end: Tyr · Ull · Høner.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Tyr",
+              "Ull",
+              "Høner"
+            ]
+          },
+          "kp_nordisk-mytologi_05": {
+            "hint": "Find svaret i kilderne til: Guder og slægter.",
+            "explanation": "Kort svar: Hel. Forklar hvorfor det er mere præcist end: Ran · Gerda · Gefion.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Ran",
+              "Gerda",
+              "Gefion"
+            ]
+          },
+          "kp_nordisk-mytologi_06": {
+            "hint": "Find svaret i kilderne til: Væsner og genstande.",
+            "explanation": "Kort svar: Draupner. Forklar hvorfor det er mere præcist end: Andvaranaut · Brisingamen · Gleipner.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Andvaranaut",
+              "Brisingamen",
+              "Gleipner"
+            ]
+          },
+          "kp_nordisk-mytologi_07": {
+            "hint": "Find svaret i kilderne til: Væsner og genstande.",
+            "explanation": "Kort svar: Skidbladner. Forklar hvorfor det er mere præcist end: Naglfar · Hringhorni · Sessrumnir.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Naglfar",
+              "Hringhorni",
+              "Sessrumnir"
+            ]
+          },
+          "kp_nordisk-mytologi_08": {
+            "hint": "Find svaret i kilderne til: Væsner og genstande.",
+            "explanation": "Kort svar: Gjallarhorn. Forklar hvorfor det er mere præcist end: Odreør · Lur Gjoll · Bragebægeret.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Odreør",
+              "Lur Gjoll",
+              "Bragebægeret"
+            ]
+          },
+          "kp_nordisk-mytologi_09": {
+            "hint": "Find svaret i kilderne til: Væsner og genstande.",
+            "explanation": "Kort svar: Naglfar. Forklar hvorfor det er mere præcist end: Skidbladner · Hringhorni · Ellida.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Skidbladner",
+              "Hringhorni",
+              "Ellida"
+            ]
+          },
+          "kp_nordisk-mytologi_10": {
+            "hint": "Find svaret i kilderne til: Væsner og genstande.",
+            "explanation": "Kort svar: Gram. Forklar hvorfor det er mere præcist end: Gungner · Tyrfing · Dainsleif.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Gungner",
+              "Tyrfing",
+              "Dainsleif"
+            ]
+          },
+          "kp_nordisk-mytologi_11": {
+            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
+            "explanation": "Kort svar: Niflheim. Forklar hvorfor det er mere præcist end: Alfheim · Asgård · Jotunheim.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Alfheim",
+              "Asgård",
+              "Jotunheim"
+            ]
+          },
+          "kp_nordisk-mytologi_12": {
+            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
+            "explanation": "Kort svar: Bifrost. Forklar hvorfor det er mere præcist end: Gjallarbroen · Bilrosts port · Valgrind.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Gjallarbroen",
+              "Bilrosts port",
+              "Valgrind"
+            ]
+          },
+          "kp_nordisk-mytologi_13": {
+            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
+            "explanation": "Kort svar: Urds brønd. Forklar hvorfor det er mere præcist end: Mimers brønd · Hvergelmir · Suttungs kilde.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Mimers brønd",
+              "Hvergelmir",
+              "Suttungs kilde"
+            ]
+          },
+          "kp_nordisk-mytologi_14": {
+            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
+            "explanation": "Kort svar: Mimers brønd. Forklar hvorfor det er mere præcist end: Urds brønd · Hvergelmir · Gjallarkilden.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Urds brønd",
+              "Hvergelmir",
+              "Gjallarkilden"
+            ]
+          },
+          "kp_nordisk-mytologi_15": {
+            "hint": "Find svaret i kilderne til: Verdener og fortællinger.",
+            "explanation": "Kort svar: Ragnarok. Forklar hvorfor det er mere præcist end: Fimbulvinter · Ginnungagap · Vigrid.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Fimbulvinter",
+              "Ginnungagap",
+              "Vigrid"
+            ]
+          },
+          "kp_nordisk-mytologi_16": {
+            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
+            "explanation": "Kort svar: Skáldskaparmál. Forklar hvorfor det er mere præcist end: Gylfaginning · Háttatal · Vaftrudnersmål.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "Gylfaginning",
+              "Háttatal",
+              "Vaftrudnersmål"
+            ]
+          },
+          "kp_nordisk-mytologi_17": {
+            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
+            "explanation": "Kort svar: en kenning. Forklar hvorfor det er mere præcist end: en rune · en galder · et blót.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "en rune",
+              "en galder",
+              "et blót"
+            ]
+          },
+          "kp_nordisk-mytologi_18": {
+            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
+            "explanation": "Kort svar: en digter, ofte knyttet til en fyrstes hof. Forklar hvorfor det er mere præcist end: en tempelpræstinde · en skibsbygger · en lovsigemand alene.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "en tempelpræstinde",
+              "en skibsbygger",
+              "en lovsigemand alene"
+            ]
+          },
+          "kp_nordisk-mytologi_19": {
+            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
+            "explanation": "Kort svar: sejd. Forklar hvorfor det er mere præcist end: blót · holmgang · ting.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "blót",
+              "holmgang",
+              "ting"
+            ]
+          },
+          "kp_nordisk-mytologi_20": {
+            "hint": "Find svaret i kilderne til: Kilder, ritualer og ord.",
+            "explanation": "Kort svar: et rituelt offer eller kultmåltid. Forklar hvorfor det er mere præcist end: en skriftlig lovsamling · en begravelseshøj · en krigserklæring.",
+            "sourceTitle": "Heimskringla.no",
+            "sourceUrl": "https://heimskringla.no/",
+            "confusions": [
+              "en skriftlig lovsamling",
+              "en begravelseshøj",
+              "en krigserklæring"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

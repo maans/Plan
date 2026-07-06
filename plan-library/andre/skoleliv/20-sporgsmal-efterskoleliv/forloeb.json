@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-efterskoleliv_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Efterskoleliv",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_efterskoleliv_01": {
-            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
-            "explanation": "Kort svar: 1930. Forklar hvorfor det er mere præcist end: 1849 · 1901 · 1975.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "1849",
-              "1901",
-              "1975"
-            ]
-          },
-          "kp_efterskoleliv_02": {
-            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
-            "explanation": "Kort svar: 1967. Forklar hvorfor det er mere præcist end: 1930 · 1975 · 1994.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "1930",
-              "1975",
-              "1994"
-            ]
-          },
-          "kp_efterskoleliv_03": {
-            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
-            "explanation": "Kort svar: 1975. Forklar hvorfor det er mere præcist end: 1967 · 1982 · 2000.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "1967",
-              "1982",
-              "2000"
-            ]
-          },
-          "kp_efterskoleliv_04": {
-            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
-            "explanation": "Kort svar: de blev omtrent fordoblet. Forklar hvorfor det er mere præcist end: de blev halveret hvert år · de forsvandt helt · de blev fastlåst ved lov.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "de blev halveret hvert år",
-              "de forsvandt helt",
-              "de blev fastlåst ved lov"
-            ]
-          },
-          "kp_efterskoleliv_05": {
-            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
-            "explanation": "Kort svar: obligatorisk offentlig elevstøtte. Forklar hvorfor det er mere præcist end: afskaffelse af kost og logi · forbud mod skolepenge · gratis togdrift til alle skoler.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "afskaffelse af kost og logi",
-              "forbud mod skolepenge",
-              "gratis togdrift til alle skoler"
-            ]
-          },
-          "kp_efterskoleliv_06": {
-            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
-            "explanation": "Kort svar: dansk, matematik og engelsk. Forklar hvorfor det er mere præcist end: latin, græsk og kemi · musik, idræt og billedkunst · tysk, fransk og spansk.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "latin, græsk og kemi",
-              "musik, idræt og billedkunst",
-              "tysk, fransk og spansk"
-            ]
-          },
-          "kp_efterskoleliv_07": {
-            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
-            "explanation": "Kort svar: 21 timer eksklusive pauser. Forklar hvorfor det er mere præcist end: 5 timer inklusive pauser · 40 timer uden pauser · 10 timer om måneden.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "5 timer inklusive pauser",
-              "40 timer uden pauser",
-              "10 timer om måneden"
-            ]
-          },
-          "kp_efterskoleliv_08": {
-            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
-            "explanation": "Kort svar: at afholde prøver eller være prøvefri efter reglerne. Forklar hvorfor det er mere præcist end: at opfinde nationale eksamensbeviser · at afskaffe karakterer i hele Danmark · at lade eleverne rette hinandens officielle prøver.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "at opfinde nationale eksamensbeviser",
-              "at afskaffe karakterer i hele Danmark",
-              "at lade eleverne rette hinandens officielle prøver"
-            ]
-          },
-          "kp_efterskoleliv_09": {
-            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
-            "explanation": "Kort svar: at skolen ikke afholder folkeskolens prøver. Forklar hvorfor det er mere præcist end: at skolen ikke har undervisning · at eleverne ikke må læse · at skolen er kommunal.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "at skolen ikke har undervisning",
-              "at eleverne ikke må læse",
-              "at skolen er kommunal"
-            ]
-          },
-          "kp_efterskoleliv_10": {
-            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
-            "explanation": "Kort svar: som privatist efter reglerne. Forklar hvorfor det er mere præcist end: kun som universitetsstuderende · ved at stemme om resultatet · uden tilmelding.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "kun som universitetsstuderende",
-              "ved at stemme om resultatet",
-              "uden tilmelding"
-            ]
-          },
-          "kp_efterskoleliv_11": {
-            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
-            "explanation": "Kort svar: savn og ubehag ved at være væk hjemmefra. Forklar hvorfor det er mere præcist end: en prøveform · et linjefag · en skolelov.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "en prøveform",
-              "et linjefag",
-              "en skolelov"
-            ]
-          },
-          "kp_efterskoleliv_12": {
-            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
-            "explanation": "Kort svar: at tale med en voksen og deltage gradvist i hverdagen. Forklar hvorfor det er mere præcist end: at isolere sig helt · at skjule problemet i måneder · at stoppe med at spise.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "at isolere sig helt",
-              "at skjule problemet i måneder",
-              "at stoppe med at spise"
-            ]
-          },
-          "kp_efterskoleliv_13": {
-            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
-            "explanation": "Kort svar: for at sikre søvn og hensyn i et tæt fællesskab. Forklar hvorfor det er mere præcist end: for at afskaffe fritid · for at gøre undervisningen kortere · for at forhindre venskaber.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "for at afskaffe fritid",
-              "for at gøre undervisningen kortere",
-              "for at forhindre venskaber"
-            ]
-          },
-          "kp_efterskoleliv_14": {
-            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
-            "explanation": "Kort svar: fælles hygiejne og delt ansvar. Forklar hvorfor det er mere præcist end: at eleverne skal drive et rengøringsfirma · at lærere ikke må gøre rent · at erstatte alle fag.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "at eleverne skal drive et rengøringsfirma",
-              "at lærere ikke må gøre rent",
-              "at erstatte alle fag"
-            ]
-          },
-          "kp_efterskoleliv_15": {
-            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
-            "explanation": "Kort svar: med tydelige aftaler og respekt. Forklar hvorfor det er mere præcist end: ved at tage hinandens ting frit · ved at ignorere privatliv · ved at stemme om personlig post.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "ved at tage hinandens ting frit",
-              "ved at ignorere privatliv",
-              "ved at stemme om personlig post"
-            ]
-          },
-          "kp_efterskoleliv_16": {
-            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
-            "explanation": "Kort svar: folkeskolens prøver efter 9. klasse. Forklar hvorfor det er mere præcist end: forstanderens pensionsordning · et niugers valgfag · en type elevværelse.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "forstanderens pensionsordning",
-              "et niugers valgfag",
-              "en type elevværelse"
-            ]
-          },
-          "kp_efterskoleliv_17": {
-            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
-            "explanation": "Kort svar: at eleven viser faglig forståelse gennem fremlæggelse og samtale. Forklar hvorfor det er mere præcist end: at måle løbehastighed · at vælge værelseskammerat · at bestemme skolens værdier.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "at måle løbehastighed",
-              "at vælge værelseskammerat",
-              "at bestemme skolens værdier"
-            ]
-          },
-          "kp_efterskoleliv_18": {
-            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
-            "explanation": "Kort svar: løbende vurdering og feedback inden for skolen. Forklar hvorfor det er mere præcist end: en national folkeafstemning · økonomisk revision alene · et valg til Folketinget.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "en national folkeafstemning",
-              "økonomisk revision alene",
-              "et valg til Folketinget"
-            ]
-          },
-          "kp_efterskoleliv_19": {
-            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
-            "explanation": "Kort svar: feedback, der hjælper eleven videre i læreprocessen. Forklar hvorfor det er mere præcist end: en afsluttende karakter uden kommentar · en regel om sengetid · en besked om skolepenge.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "en afsluttende karakter uden kommentar",
-              "en regel om sengetid",
-              "en besked om skolepenge"
-            ]
-          },
-          "kp_efterskoleliv_20": {
-            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
-            "explanation": "Kort svar: en afsluttende vurdering af et fagligt resultat. Forklar hvorfor det er mere præcist end: en uformel morgensamtale · en rengøringsopgave · et værelsesmøde.",
-            "sourceTitle": "Efterskolerne",
-            "sourceUrl": "https://www.efterskolerne.dk/",
-            "confusions": [
-              "en uformel morgensamtale",
-              "en rengøringsopgave",
-              "et værelsesmøde"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_efterskoleliv_01": {
+            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
+            "explanation": "Kort svar: 1930. Forklar hvorfor det er mere præcist end: 1849 · 1901 · 1975.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "1849",
+              "1901",
+              "1975"
+            ]
+          },
+          "kp_efterskoleliv_02": {
+            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
+            "explanation": "Kort svar: 1967. Forklar hvorfor det er mere præcist end: 1930 · 1975 · 1994.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "1930",
+              "1975",
+              "1994"
+            ]
+          },
+          "kp_efterskoleliv_03": {
+            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
+            "explanation": "Kort svar: 1975. Forklar hvorfor det er mere præcist end: 1967 · 1982 · 2000.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "1967",
+              "1982",
+              "2000"
+            ]
+          },
+          "kp_efterskoleliv_04": {
+            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
+            "explanation": "Kort svar: de blev omtrent fordoblet. Forklar hvorfor det er mere præcist end: de blev halveret hvert år · de forsvandt helt · de blev fastlåst ved lov.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "de blev halveret hvert år",
+              "de forsvandt helt",
+              "de blev fastlåst ved lov"
+            ]
+          },
+          "kp_efterskoleliv_05": {
+            "hint": "Find svaret i kilderne til: Historie og idégrundlag.",
+            "explanation": "Kort svar: obligatorisk offentlig elevstøtte. Forklar hvorfor det er mere præcist end: afskaffelse af kost og logi · forbud mod skolepenge · gratis togdrift til alle skoler.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "afskaffelse af kost og logi",
+              "forbud mod skolepenge",
+              "gratis togdrift til alle skoler"
+            ]
+          },
+          "kp_efterskoleliv_06": {
+            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
+            "explanation": "Kort svar: dansk, matematik og engelsk. Forklar hvorfor det er mere præcist end: latin, græsk og kemi · musik, idræt og billedkunst · tysk, fransk og spansk.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "latin, græsk og kemi",
+              "musik, idræt og billedkunst",
+              "tysk, fransk og spansk"
+            ]
+          },
+          "kp_efterskoleliv_07": {
+            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
+            "explanation": "Kort svar: 21 timer eksklusive pauser. Forklar hvorfor det er mere præcist end: 5 timer inklusive pauser · 40 timer uden pauser · 10 timer om måneden.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "5 timer inklusive pauser",
+              "40 timer uden pauser",
+              "10 timer om måneden"
+            ]
+          },
+          "kp_efterskoleliv_08": {
+            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
+            "explanation": "Kort svar: at afholde prøver eller være prøvefri efter reglerne. Forklar hvorfor det er mere præcist end: at opfinde nationale eksamensbeviser · at afskaffe karakterer i hele Danmark · at lade eleverne rette hinandens officielle prøver.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "at opfinde nationale eksamensbeviser",
+              "at afskaffe karakterer i hele Danmark",
+              "at lade eleverne rette hinandens officielle prøver"
+            ]
+          },
+          "kp_efterskoleliv_09": {
+            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
+            "explanation": "Kort svar: at skolen ikke afholder folkeskolens prøver. Forklar hvorfor det er mere præcist end: at skolen ikke har undervisning · at eleverne ikke må læse · at skolen er kommunal.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "at skolen ikke har undervisning",
+              "at eleverne ikke må læse",
+              "at skolen er kommunal"
+            ]
+          },
+          "kp_efterskoleliv_10": {
+            "hint": "Find svaret i kilderne til: Skoleform og rammer.",
+            "explanation": "Kort svar: som privatist efter reglerne. Forklar hvorfor det er mere præcist end: kun som universitetsstuderende · ved at stemme om resultatet · uden tilmelding.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "kun som universitetsstuderende",
+              "ved at stemme om resultatet",
+              "uden tilmelding"
+            ]
+          },
+          "kp_efterskoleliv_11": {
+            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
+            "explanation": "Kort svar: savn og ubehag ved at være væk hjemmefra. Forklar hvorfor det er mere præcist end: en prøveform · et linjefag · en skolelov.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "en prøveform",
+              "et linjefag",
+              "en skolelov"
+            ]
+          },
+          "kp_efterskoleliv_12": {
+            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
+            "explanation": "Kort svar: at tale med en voksen og deltage gradvist i hverdagen. Forklar hvorfor det er mere præcist end: at isolere sig helt · at skjule problemet i måneder · at stoppe med at spise.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "at isolere sig helt",
+              "at skjule problemet i måneder",
+              "at stoppe med at spise"
+            ]
+          },
+          "kp_efterskoleliv_13": {
+            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
+            "explanation": "Kort svar: for at sikre søvn og hensyn i et tæt fællesskab. Forklar hvorfor det er mere præcist end: for at afskaffe fritid · for at gøre undervisningen kortere · for at forhindre venskaber.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "for at afskaffe fritid",
+              "for at gøre undervisningen kortere",
+              "for at forhindre venskaber"
+            ]
+          },
+          "kp_efterskoleliv_14": {
+            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
+            "explanation": "Kort svar: fælles hygiejne og delt ansvar. Forklar hvorfor det er mere præcist end: at eleverne skal drive et rengøringsfirma · at lærere ikke må gøre rent · at erstatte alle fag.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "at eleverne skal drive et rengøringsfirma",
+              "at lærere ikke må gøre rent",
+              "at erstatte alle fag"
+            ]
+          },
+          "kp_efterskoleliv_15": {
+            "hint": "Find svaret i kilderne til: Hverdag og fællesskab.",
+            "explanation": "Kort svar: med tydelige aftaler og respekt. Forklar hvorfor det er mere præcist end: ved at tage hinandens ting frit · ved at ignorere privatliv · ved at stemme om personlig post.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "ved at tage hinandens ting frit",
+              "ved at ignorere privatliv",
+              "ved at stemme om personlig post"
+            ]
+          },
+          "kp_efterskoleliv_16": {
+            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
+            "explanation": "Kort svar: folkeskolens prøver efter 9. klasse. Forklar hvorfor det er mere præcist end: forstanderens pensionsordning · et niugers valgfag · en type elevværelse.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "forstanderens pensionsordning",
+              "et niugers valgfag",
+              "en type elevværelse"
+            ]
+          },
+          "kp_efterskoleliv_17": {
+            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
+            "explanation": "Kort svar: at eleven viser faglig forståelse gennem fremlæggelse og samtale. Forklar hvorfor det er mere præcist end: at måle løbehastighed · at vælge værelseskammerat · at bestemme skolens værdier.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "at måle løbehastighed",
+              "at vælge værelseskammerat",
+              "at bestemme skolens værdier"
+            ]
+          },
+          "kp_efterskoleliv_18": {
+            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
+            "explanation": "Kort svar: løbende vurdering og feedback inden for skolen. Forklar hvorfor det er mere præcist end: en national folkeafstemning · økonomisk revision alene · et valg til Folketinget.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "en national folkeafstemning",
+              "økonomisk revision alene",
+              "et valg til Folketinget"
+            ]
+          },
+          "kp_efterskoleliv_19": {
+            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
+            "explanation": "Kort svar: feedback, der hjælper eleven videre i læreprocessen. Forklar hvorfor det er mere præcist end: en afsluttende karakter uden kommentar · en regel om sengetid · en besked om skolepenge.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "en afsluttende karakter uden kommentar",
+              "en regel om sengetid",
+              "en besked om skolepenge"
+            ]
+          },
+          "kp_efterskoleliv_20": {
+            "hint": "Find svaret i kilderne til: Fag, prøver og elevdemokrati.",
+            "explanation": "Kort svar: en afsluttende vurdering af et fagligt resultat. Forklar hvorfor det er mere præcist end: en uformel morgensamtale · en rengøringsopgave · et værelsesmøde.",
+            "sourceTitle": "Efterskolerne",
+            "sourceUrl": "https://www.efterskolerne.dk/",
+            "confusions": [
+              "en uformel morgensamtale",
+              "en rengøringsopgave",
+              "et værelsesmøde"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

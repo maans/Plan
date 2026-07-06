@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-mytologi_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Mytologi fra verden",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_mytologi_01": {
-            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
-            "explanation": "Kort svar: Dionysos. Forklar hvorfor det er mere præcist end: Ares · Hermes · Pan.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Ares",
-              "Hermes",
-              "Pan"
-            ]
-          },
-          "kp_mytologi_02": {
-            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
-            "explanation": "Kort svar: Hefaistos. Forklar hvorfor det er mere præcist end: Apollo · Hades · Kronos.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Apollo",
-              "Hades",
-              "Kronos"
-            ]
-          },
-          "kp_mytologi_03": {
-            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
-            "explanation": "Kort svar: Hestia. Forklar hvorfor det er mere præcist end: Hera · Iris · Nemesis.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Hera",
-              "Iris",
-              "Nemesis"
-            ]
-          },
-          "kp_mytologi_04": {
-            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
-            "explanation": "Kort svar: Hera. Forklar hvorfor det er mere præcist end: Athene · Demeter · Leto.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Athene",
-              "Demeter",
-              "Leto"
-            ]
-          },
-          "kp_mytologi_05": {
-            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
-            "explanation": "Kort svar: Ares. Forklar hvorfor det er mere præcist end: Hermes · Apollo · Asklepios.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Hermes",
-              "Apollo",
-              "Asklepios"
-            ]
-          },
-          "kp_mytologi_06": {
-            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
-            "explanation": "Kort svar: Sekhmet. Forklar hvorfor det er mere præcist end: Bastet · Isis · Nephthys.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Bastet",
-              "Isis",
-              "Nephthys"
-            ]
-          },
-          "kp_mytologi_07": {
-            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
-            "explanation": "Kort svar: Bastet. Forklar hvorfor det er mere præcist end: Nut · Maat · Tefnut.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Nut",
-              "Maat",
-              "Tefnut"
-            ]
-          },
-          "kp_mytologi_08": {
-            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
-            "explanation": "Kort svar: Ptah. Forklar hvorfor det er mere præcist end: Khonsu · Sobek · Min.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Khonsu",
-              "Sobek",
-              "Min"
-            ]
-          },
-          "kp_mytologi_09": {
-            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
-            "explanation": "Kort svar: Khnum. Forklar hvorfor det er mere præcist end: Amun · Geb · Shu.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Amun",
-              "Geb",
-              "Shu"
-            ]
-          },
-          "kp_mytologi_10": {
-            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
-            "explanation": "Kort svar: Sobek. Forklar hvorfor det er mere præcist end: Anubis · Horus · Bes.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Anubis",
-              "Horus",
-              "Bes"
-            ]
-          },
-          "kp_mytologi_11": {
-            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
-            "explanation": "Kort svar: Nanna-Sin. Forklar hvorfor det er mere præcist end: Utu-Shamash · Nergal · Marduk.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Utu-Shamash",
-              "Nergal",
-              "Marduk"
-            ]
-          },
-          "kp_mytologi_12": {
-            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
-            "explanation": "Kort svar: Ereshkigal. Forklar hvorfor det er mere præcist end: Ninhursag · Tiamat · Asherah.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Ninhursag",
-              "Tiamat",
-              "Asherah"
-            ]
-          },
-          "kp_mytologi_13": {
-            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
-            "explanation": "Kort svar: Nergal. Forklar hvorfor det er mere præcist end: Nabu · Dumuzi · Enkimdu.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Nabu",
-              "Dumuzi",
-              "Enkimdu"
-            ]
-          },
-          "kp_mytologi_14": {
-            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
-            "explanation": "Kort svar: Ashur. Forklar hvorfor det er mere præcist end: Marduk · Baal · El.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Marduk",
-              "Baal",
-              "El"
-            ]
-          },
-          "kp_mytologi_15": {
-            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
-            "explanation": "Kort svar: Tiamat. Forklar hvorfor det er mere præcist end: Apsu · Ereshkigal · Nammu.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Apsu",
-              "Ereshkigal",
-              "Nammu"
-            ]
-          },
-          "kp_mytologi_16": {
-            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
-            "explanation": "Kort svar: Shiva. Forklar hvorfor det er mere præcist end: Brahma · Varuna · Hanuman.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Brahma",
-              "Varuna",
-              "Hanuman"
-            ]
-          },
-          "kp_mytologi_17": {
-            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
-            "explanation": "Kort svar: Lakshmi. Forklar hvorfor det er mere præcist end: Kali · Sarasvati · Durga.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Kali",
-              "Sarasvati",
-              "Durga"
-            ]
-          },
-          "kp_mytologi_18": {
-            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
-            "explanation": "Kort svar: Sarasvati. Forklar hvorfor det er mere præcist end: Parvati · Lakshmi · Ganga.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Parvati",
-              "Lakshmi",
-              "Ganga"
-            ]
-          },
-          "kp_mytologi_19": {
-            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
-            "explanation": "Kort svar: Susanoo. Forklar hvorfor det er mere præcist end: Tsukuyomi · Inari · Hachiman.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Tsukuyomi",
-              "Inari",
-              "Hachiman"
-            ]
-          },
-          "kp_mytologi_20": {
-            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
-            "explanation": "Kort svar: Tsukuyomi. Forklar hvorfor det er mere præcist end: Raijin · Fujin · Ebisu.",
-            "sourceTitle": "Theoi Greek Mythology",
-            "sourceUrl": "https://www.theoi.com/",
-            "confusions": [
-              "Raijin",
-              "Fujin",
-              "Ebisu"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_mytologi_01": {
+            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
+            "explanation": "Kort svar: Dionysos. Forklar hvorfor det er mere præcist end: Ares · Hermes · Pan.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Ares",
+              "Hermes",
+              "Pan"
+            ]
+          },
+          "kp_mytologi_02": {
+            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
+            "explanation": "Kort svar: Hefaistos. Forklar hvorfor det er mere præcist end: Apollo · Hades · Kronos.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Apollo",
+              "Hades",
+              "Kronos"
+            ]
+          },
+          "kp_mytologi_03": {
+            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
+            "explanation": "Kort svar: Hestia. Forklar hvorfor det er mere præcist end: Hera · Iris · Nemesis.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Hera",
+              "Iris",
+              "Nemesis"
+            ]
+          },
+          "kp_mytologi_04": {
+            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
+            "explanation": "Kort svar: Hera. Forklar hvorfor det er mere præcist end: Athene · Demeter · Leto.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Athene",
+              "Demeter",
+              "Leto"
+            ]
+          },
+          "kp_mytologi_05": {
+            "hint": "Find svaret i kilderne til: Grækenland og Rom.",
+            "explanation": "Kort svar: Ares. Forklar hvorfor det er mere præcist end: Hermes · Apollo · Asklepios.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Hermes",
+              "Apollo",
+              "Asklepios"
+            ]
+          },
+          "kp_mytologi_06": {
+            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
+            "explanation": "Kort svar: Sekhmet. Forklar hvorfor det er mere præcist end: Bastet · Isis · Nephthys.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Bastet",
+              "Isis",
+              "Nephthys"
+            ]
+          },
+          "kp_mytologi_07": {
+            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
+            "explanation": "Kort svar: Bastet. Forklar hvorfor det er mere præcist end: Nut · Maat · Tefnut.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Nut",
+              "Maat",
+              "Tefnut"
+            ]
+          },
+          "kp_mytologi_08": {
+            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
+            "explanation": "Kort svar: Ptah. Forklar hvorfor det er mere præcist end: Khonsu · Sobek · Min.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Khonsu",
+              "Sobek",
+              "Min"
+            ]
+          },
+          "kp_mytologi_09": {
+            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
+            "explanation": "Kort svar: Khnum. Forklar hvorfor det er mere præcist end: Amun · Geb · Shu.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Amun",
+              "Geb",
+              "Shu"
+            ]
+          },
+          "kp_mytologi_10": {
+            "hint": "Find svaret i kilderne til: Egyptens gudeverden.",
+            "explanation": "Kort svar: Sobek. Forklar hvorfor det er mere præcist end: Anubis · Horus · Bes.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Anubis",
+              "Horus",
+              "Bes"
+            ]
+          },
+          "kp_mytologi_11": {
+            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
+            "explanation": "Kort svar: Nanna-Sin. Forklar hvorfor det er mere præcist end: Utu-Shamash · Nergal · Marduk.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Utu-Shamash",
+              "Nergal",
+              "Marduk"
+            ]
+          },
+          "kp_mytologi_12": {
+            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
+            "explanation": "Kort svar: Ereshkigal. Forklar hvorfor det er mere præcist end: Ninhursag · Tiamat · Asherah.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Ninhursag",
+              "Tiamat",
+              "Asherah"
+            ]
+          },
+          "kp_mytologi_13": {
+            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
+            "explanation": "Kort svar: Nergal. Forklar hvorfor det er mere præcist end: Nabu · Dumuzi · Enkimdu.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Nabu",
+              "Dumuzi",
+              "Enkimdu"
+            ]
+          },
+          "kp_mytologi_14": {
+            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
+            "explanation": "Kort svar: Ashur. Forklar hvorfor det er mere præcist end: Marduk · Baal · El.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Marduk",
+              "Baal",
+              "El"
+            ]
+          },
+          "kp_mytologi_15": {
+            "hint": "Find svaret i kilderne til: Mesopotamien og Nærorienten.",
+            "explanation": "Kort svar: Tiamat. Forklar hvorfor det er mere præcist end: Apsu · Ereshkigal · Nammu.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Apsu",
+              "Ereshkigal",
+              "Nammu"
+            ]
+          },
+          "kp_mytologi_16": {
+            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
+            "explanation": "Kort svar: Shiva. Forklar hvorfor det er mere præcist end: Brahma · Varuna · Hanuman.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Brahma",
+              "Varuna",
+              "Hanuman"
+            ]
+          },
+          "kp_mytologi_17": {
+            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
+            "explanation": "Kort svar: Lakshmi. Forklar hvorfor det er mere præcist end: Kali · Sarasvati · Durga.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Kali",
+              "Sarasvati",
+              "Durga"
+            ]
+          },
+          "kp_mytologi_18": {
+            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
+            "explanation": "Kort svar: Sarasvati. Forklar hvorfor det er mere præcist end: Parvati · Lakshmi · Ganga.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Parvati",
+              "Lakshmi",
+              "Ganga"
+            ]
+          },
+          "kp_mytologi_19": {
+            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
+            "explanation": "Kort svar: Susanoo. Forklar hvorfor det er mere præcist end: Tsukuyomi · Inari · Hachiman.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Tsukuyomi",
+              "Inari",
+              "Hachiman"
+            ]
+          },
+          "kp_mytologi_20": {
+            "hint": "Find svaret i kilderne til: Myter fra andre kulturer.",
+            "explanation": "Kort svar: Tsukuyomi. Forklar hvorfor det er mere præcist end: Raijin · Fujin · Ebisu.",
+            "sourceTitle": "Theoi Greek Mythology",
+            "sourceUrl": "https://www.theoi.com/",
+            "confusions": [
+              "Raijin",
+              "Fujin",
+              "Ebisu"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

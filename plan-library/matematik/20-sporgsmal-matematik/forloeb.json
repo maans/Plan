@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-matematik_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Matematik",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_matematik-basics_01": {
-            "hint": "Find svaret i kilderne til: Regning.",
-            "explanation": "Kort svar: 56. Forklar hvorfor det er mere præcist end: 40 · 49 · 63.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "40",
-              "49",
-              "63"
-            ]
-          },
-          "kp_matematik-basics_02": {
-            "hint": "Find svaret i kilderne til: Regning.",
-            "explanation": "Kort svar: 67. Forklar hvorfor det er mere præcist end: 57 · 60 · 77.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "57",
-              "60",
-              "77"
-            ]
-          },
-          "kp_matematik-basics_03": {
-            "hint": "Find svaret i kilderne til: Regning.",
-            "explanation": "Kort svar: 56. Forklar hvorfor det er mere præcist end: 48 · 60 · 64.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "48",
-              "60",
-              "64"
-            ]
-          },
-          "kp_matematik-basics_04": {
-            "hint": "Find svaret i kilderne til: Regning.",
-            "explanation": "Kort svar: 532. Forklar hvorfor det er mere præcist end: 522 · 542 · 568.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "522",
-              "542",
-              "568"
-            ]
-          },
-          "kp_matematik-basics_05": {
-            "hint": "Find svaret i kilderne til: Regning.",
-            "explanation": "Kort svar: 480. Forklar hvorfor det er mere præcist end: 450 · 470 · 510.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "450",
-              "470",
-              "510"
-            ]
-          },
-          "kp_matematik-basics_06": {
-            "hint": "Find svaret i kilderne til: Brøker og procent.",
-            "explanation": "Kort svar: 20. Forklar hvorfor det er mere præcist end: 16 · 18 · 25.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "16",
-              "18",
-              "25"
-            ]
-          },
-          "kp_matematik-basics_07": {
-            "hint": "Find svaret i kilderne til: Brøker og procent.",
-            "explanation": "Kort svar: 70 %. Forklar hvorfor det er mere præcist end: 7 % · 17 % · 700 %.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "7 %",
-              "17 %",
-              "700 %"
-            ]
-          },
-          "kp_matematik-basics_08": {
-            "hint": "Find svaret i kilderne til: Brøker og procent.",
-            "explanation": "Kort svar: 72. Forklar hvorfor det er mere præcist end: 60 · 70 · 84.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "60",
-              "70",
-              "84"
-            ]
-          },
-          "kp_matematik-basics_09": {
-            "hint": "Find svaret i kilderne til: Brøker og procent.",
-            "explanation": "Kort svar: 1,5. Forklar hvorfor det er mere præcist end: 1,2 · 1,25 · 2,5.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "1,2",
-              "1,25",
-              "2,5"
-            ]
-          },
-          "kp_matematik-basics_10": {
-            "hint": "Find svaret i kilderne til: Brøker og procent.",
-            "explanation": "Kort svar: 2. Forklar hvorfor det er mere præcist end: 1 · 4 · 8/25.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "1",
-              "4",
-              "8/25"
-            ]
-          },
-          "kp_matematik-basics_11": {
-            "hint": "Find svaret i kilderne til: Geometri og måling.",
-            "explanation": "Kort svar: 360°. Forklar hvorfor det er mere præcist end: 180° · 270° · 540°.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "180°",
-              "270°",
-              "540°"
-            ]
-          },
-          "kp_matematik-basics_12": {
-            "hint": "Find svaret i kilderne til: Geometri og måling.",
-            "explanation": "Kort svar: 60 cm³. Forklar hvorfor det er mere præcist end: 12 cm³ · 20 cm³ · 47 cm³.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "12 cm³",
-              "20 cm³",
-              "47 cm³"
-            ]
-          },
-          "kp_matematik-basics_13": {
-            "hint": "Find svaret i kilderne til: Geometri og måling.",
-            "explanation": "Kort svar: 31,4 cm. Forklar hvorfor det er mere præcist end: 15,7 cm · 62,8 cm · 314 cm.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "15,7 cm",
-              "62,8 cm",
-              "314 cm"
-            ]
-          },
-          "kp_matematik-basics_14": {
-            "hint": "Find svaret i kilderne til: Geometri og måling.",
-            "explanation": "Kort svar: 28,26 cm². Forklar hvorfor det er mere præcist end: 18,84 cm² · 9,42 cm² · 56,52 cm².",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "18,84 cm²",
-              "9,42 cm²",
-              "56,52 cm²"
-            ]
-          },
-          "kp_matematik-basics_15": {
-            "hint": "Find svaret i kilderne til: Geometri og måling.",
-            "explanation": "Kort svar: 10 cm. Forklar hvorfor det er mere præcist end: 12 cm · 14 cm · 15 cm.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "12 cm",
-              "14 cm",
-              "15 cm"
-            ]
-          },
-          "kp_matematik-basics_16": {
-            "hint": "Find svaret i kilderne til: Tal og algebra.",
-            "explanation": "Kort svar: 9. Forklar hvorfor det er mere præcist end: 6 · 8 · 12.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "6",
-              "8",
-              "12"
-            ]
-          },
-          "kp_matematik-basics_17": {
-            "hint": "Find svaret i kilderne til: Tal og algebra.",
-            "explanation": "Kort svar: 25. Forklar hvorfor det er mere præcist end: 20 · 24 · 32.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "20",
-              "24",
-              "32"
-            ]
-          },
-          "kp_matematik-basics_18": {
-            "hint": "Find svaret i kilderne til: Tal og algebra.",
-            "explanation": "Kort svar: 0,01. Forklar hvorfor det er mere præcist end: 0,1 · 0,001 · 100.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "0,1",
-              "0,001",
-              "100"
-            ]
-          },
-          "kp_matematik-basics_19": {
-            "hint": "Find svaret i kilderne til: Tal og algebra.",
-            "explanation": "Kort svar: 6. Forklar hvorfor det er mere præcist end: 5 · 7 · 11.",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "5",
-              "7",
-              "11"
-            ]
-          },
-          "kp_matematik-basics_20": {
-            "hint": "Find svaret i kilderne til: Tal og algebra.",
-            "explanation": "Kort svar: 2² · 3². Forklar hvorfor det er mere præcist end: 2 · 18 · 3 · 12 · 6².",
-            "sourceTitle": "Khan Academy · Math",
-            "sourceUrl": "https://www.khanacademy.org/math",
-            "confusions": [
-              "2 · 18",
-              "3 · 12",
-              "6²"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_matematik-basics_01": {
+            "hint": "Find svaret i kilderne til: Regning.",
+            "explanation": "Kort svar: 56. Forklar hvorfor det er mere præcist end: 40 · 49 · 63.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "40",
+              "49",
+              "63"
+            ]
+          },
+          "kp_matematik-basics_02": {
+            "hint": "Find svaret i kilderne til: Regning.",
+            "explanation": "Kort svar: 67. Forklar hvorfor det er mere præcist end: 57 · 60 · 77.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "57",
+              "60",
+              "77"
+            ]
+          },
+          "kp_matematik-basics_03": {
+            "hint": "Find svaret i kilderne til: Regning.",
+            "explanation": "Kort svar: 56. Forklar hvorfor det er mere præcist end: 48 · 60 · 64.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "48",
+              "60",
+              "64"
+            ]
+          },
+          "kp_matematik-basics_04": {
+            "hint": "Find svaret i kilderne til: Regning.",
+            "explanation": "Kort svar: 532. Forklar hvorfor det er mere præcist end: 522 · 542 · 568.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "522",
+              "542",
+              "568"
+            ]
+          },
+          "kp_matematik-basics_05": {
+            "hint": "Find svaret i kilderne til: Regning.",
+            "explanation": "Kort svar: 480. Forklar hvorfor det er mere præcist end: 450 · 470 · 510.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "450",
+              "470",
+              "510"
+            ]
+          },
+          "kp_matematik-basics_06": {
+            "hint": "Find svaret i kilderne til: Brøker og procent.",
+            "explanation": "Kort svar: 20. Forklar hvorfor det er mere præcist end: 16 · 18 · 25.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "16",
+              "18",
+              "25"
+            ]
+          },
+          "kp_matematik-basics_07": {
+            "hint": "Find svaret i kilderne til: Brøker og procent.",
+            "explanation": "Kort svar: 70 %. Forklar hvorfor det er mere præcist end: 7 % · 17 % · 700 %.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "7 %",
+              "17 %",
+              "700 %"
+            ]
+          },
+          "kp_matematik-basics_08": {
+            "hint": "Find svaret i kilderne til: Brøker og procent.",
+            "explanation": "Kort svar: 72. Forklar hvorfor det er mere præcist end: 60 · 70 · 84.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "60",
+              "70",
+              "84"
+            ]
+          },
+          "kp_matematik-basics_09": {
+            "hint": "Find svaret i kilderne til: Brøker og procent.",
+            "explanation": "Kort svar: 1,5. Forklar hvorfor det er mere præcist end: 1,2 · 1,25 · 2,5.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "1,2",
+              "1,25",
+              "2,5"
+            ]
+          },
+          "kp_matematik-basics_10": {
+            "hint": "Find svaret i kilderne til: Brøker og procent.",
+            "explanation": "Kort svar: 2. Forklar hvorfor det er mere præcist end: 1 · 4 · 8/25.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "1",
+              "4",
+              "8/25"
+            ]
+          },
+          "kp_matematik-basics_11": {
+            "hint": "Find svaret i kilderne til: Geometri og måling.",
+            "explanation": "Kort svar: 360°. Forklar hvorfor det er mere præcist end: 180° · 270° · 540°.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "180°",
+              "270°",
+              "540°"
+            ]
+          },
+          "kp_matematik-basics_12": {
+            "hint": "Find svaret i kilderne til: Geometri og måling.",
+            "explanation": "Kort svar: 60 cm³. Forklar hvorfor det er mere præcist end: 12 cm³ · 20 cm³ · 47 cm³.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "12 cm³",
+              "20 cm³",
+              "47 cm³"
+            ]
+          },
+          "kp_matematik-basics_13": {
+            "hint": "Find svaret i kilderne til: Geometri og måling.",
+            "explanation": "Kort svar: 31,4 cm. Forklar hvorfor det er mere præcist end: 15,7 cm · 62,8 cm · 314 cm.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "15,7 cm",
+              "62,8 cm",
+              "314 cm"
+            ]
+          },
+          "kp_matematik-basics_14": {
+            "hint": "Find svaret i kilderne til: Geometri og måling.",
+            "explanation": "Kort svar: 28,26 cm². Forklar hvorfor det er mere præcist end: 18,84 cm² · 9,42 cm² · 56,52 cm².",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "18,84 cm²",
+              "9,42 cm²",
+              "56,52 cm²"
+            ]
+          },
+          "kp_matematik-basics_15": {
+            "hint": "Find svaret i kilderne til: Geometri og måling.",
+            "explanation": "Kort svar: 10 cm. Forklar hvorfor det er mere præcist end: 12 cm · 14 cm · 15 cm.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "12 cm",
+              "14 cm",
+              "15 cm"
+            ]
+          },
+          "kp_matematik-basics_16": {
+            "hint": "Find svaret i kilderne til: Tal og algebra.",
+            "explanation": "Kort svar: 9. Forklar hvorfor det er mere præcist end: 6 · 8 · 12.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "6",
+              "8",
+              "12"
+            ]
+          },
+          "kp_matematik-basics_17": {
+            "hint": "Find svaret i kilderne til: Tal og algebra.",
+            "explanation": "Kort svar: 25. Forklar hvorfor det er mere præcist end: 20 · 24 · 32.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "20",
+              "24",
+              "32"
+            ]
+          },
+          "kp_matematik-basics_18": {
+            "hint": "Find svaret i kilderne til: Tal og algebra.",
+            "explanation": "Kort svar: 0,01. Forklar hvorfor det er mere præcist end: 0,1 · 0,001 · 100.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "0,1",
+              "0,001",
+              "100"
+            ]
+          },
+          "kp_matematik-basics_19": {
+            "hint": "Find svaret i kilderne til: Tal og algebra.",
+            "explanation": "Kort svar: 6. Forklar hvorfor det er mere præcist end: 5 · 7 · 11.",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "5",
+              "7",
+              "11"
+            ]
+          },
+          "kp_matematik-basics_20": {
+            "hint": "Find svaret i kilderne til: Tal og algebra.",
+            "explanation": "Kort svar: 2² · 3². Forklar hvorfor det er mere præcist end: 2 · 18 · 3 · 12 · 6².",
+            "sourceTitle": "Khan Academy · Math",
+            "sourceUrl": "https://www.khanacademy.org/math",
+            "confusions": [
+              "2 · 18",
+              "3 · 12",
+              "6²"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

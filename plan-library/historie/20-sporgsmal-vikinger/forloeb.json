@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-vikinger_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Vikinger",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_vikinger_01": {
-            "hint": "Find svaret i kilderne til: Skibe og rejser.",
-            "explanation": "Kort svar: lav dybgang. Forklar hvorfor det er mere præcist end: meget dyb køl · høj overbygning · fast ballast af sten.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "meget dyb køl",
-              "høj overbygning",
-              "fast ballast af sten"
-            ]
-          },
-          "kp_vikinger_02": {
-            "hint": "Find svaret i kilderne til: Skibe og rejser.",
-            "explanation": "Kort svar: et havgående fragtskib. Forklar hvorfor det er mere præcist end: et lille krigsskib · en fiskerkano · et ceremonisk flodskib.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "et lille krigsskib",
-              "en fiskerkano",
-              "et ceremonisk flodskib"
-            ]
-          },
-          "kp_vikinger_03": {
-            "hint": "Find svaret i kilderne til: Skibe og rejser.",
-            "explanation": "Kort svar: et stort langskib. Forklar hvorfor det er mere præcist end: et kysthandelsskib · en færge · et fiskeskib.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "et kysthandelsskib",
-              "en færge",
-              "et fiskeskib"
-            ]
-          },
-          "kp_vikinger_04": {
-            "hint": "Find svaret i kilderne til: Skibe og rejser.",
-            "explanation": "Kort svar: Dublinområdet. Forklar hvorfor det er mere præcist end: Roskildeområdet · Oslofjorden · Island.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "Roskildeområdet",
-              "Oslofjorden",
-              "Island"
-            ]
-          },
-          "kp_vikinger_05": {
-            "hint": "Find svaret i kilderne til: Skibe og rejser.",
-            "explanation": "Kort svar: et mindre handelsskib til kystfart. Forklar hvorfor det er mere præcist end: et stort havgående krigsskib · et fladt færgeskib · et kongeligt gravskib.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "et stort havgående krigsskib",
-              "et fladt færgeskib",
-              "et kongeligt gravskib"
-            ]
-          },
-          "kp_vikinger_06": {
-            "hint": "Find svaret i kilderne til: Hverdag og handel.",
-            "explanation": "Kort svar: vævevægte. Forklar hvorfor det er mere præcist end: skjoldbuler · møntstempler · ankersten.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "skjoldbuler",
-              "møntstempler",
-              "ankersten"
-            ]
-          },
-          "kp_vikinger_07": {
-            "hint": "Find svaret i kilderne til: Hverdag og handel.",
-            "explanation": "Kort svar: smeden. Forklar hvorfor det er mere præcist end: skjalden · lovsigemanden · trællen.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "skjalden",
-              "lovsigemanden",
-              "trællen"
-            ]
-          },
-          "kp_vikinger_08": {
-            "hint": "Find svaret i kilderne til: Hverdag og handel.",
-            "explanation": "Kort svar: ben eller gevir. Forklar hvorfor det er mere præcist end: glas · marmor · porcelæn.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "glas",
-              "marmor",
-              "porcelæn"
-            ]
-          },
-          "kp_vikinger_09": {
-            "hint": "Find svaret i kilderne til: Hverdag og handel.",
-            "explanation": "Kort svar: hakkesølv. Forklar hvorfor det er mere præcist end: brakteater · ravperler · jernbarrer.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "brakteater",
-              "ravperler",
-              "jernbarrer"
-            ]
-          },
-          "kp_vikinger_10": {
-            "hint": "Find svaret i kilderne til: Hverdag og handel.",
-            "explanation": "Kort svar: dirhemer. Forklar hvorfor det er mere præcist end: denarer fra USA · dukater · pesos.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "denarer fra USA",
-              "dukater",
-              "pesos"
-            ]
-          },
-          "kp_vikinger_11": {
-            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
-            "explanation": "Kort svar: Bifröst. Forklar hvorfor det er mere præcist end: Gjallarhorn · Yggdrasil · Mjølner.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "Gjallarhorn",
-              "Yggdrasil",
-              "Mjølner"
-            ]
-          },
-          "kp_vikinger_12": {
-            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
-            "explanation": "Kort svar: Valhal. Forklar hvorfor det er mere præcist end: Folkvang · Helheim · Utgård.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "Folkvang",
-              "Helheim",
-              "Utgård"
-            ]
-          },
-          "kp_vikinger_13": {
-            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
-            "explanation": "Kort svar: valkyrier. Forklar hvorfor det er mere præcist end: norger · diser · jætter.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "norger",
-              "diser",
-              "jætter"
-            ]
-          },
-          "kp_vikinger_14": {
-            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
-            "explanation": "Kort svar: Ragnarök. Forklar hvorfor det er mere præcist end: blot · sejd · fimbulting.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "blot",
-              "sejd",
-              "fimbulting"
-            ]
-          },
-          "kp_vikinger_15": {
-            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
-            "explanation": "Kort svar: 16. Forklar hvorfor det er mere præcist end: 12 · 24 · 32.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "12",
-              "24",
-              "32"
-            ]
-          },
-          "kp_vikinger_16": {
-            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
-            "explanation": "Kort svar: 865. Forklar hvorfor det er mere præcist end: 793 · 911 · 1066.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "793",
-              "911",
-              "1066"
-            ]
-          },
-          "kp_vikinger_17": {
-            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
-            "explanation": "Kort svar: slaget ved Edington. Forklar hvorfor det er mere præcist end: slaget ved Hastings · slaget ved Maldon · slaget ved Stamford Bridge.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "slaget ved Hastings",
-              "slaget ved Maldon",
-              "slaget ved Stamford Bridge"
-            ]
-          },
-          "kp_vikinger_18": {
-            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
-            "explanation": "Kort svar: slaget ved Stamford Bridge. Forklar hvorfor det er mere præcist end: slaget ved Hastings · slaget ved Brunanburh · slaget ved Clontarf.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "slaget ved Hastings",
-              "slaget ved Brunanburh",
-              "slaget ved Clontarf"
-            ]
-          },
-          "kp_vikinger_19": {
-            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
-            "explanation": "Kort svar: Danelagen. Forklar hvorfor det er mere præcist end: Normandiet · Mercia · Wessex.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "Normandiet",
-              "Mercia",
-              "Wessex"
-            ]
-          },
-          "kp_vikinger_20": {
-            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
-            "explanation": "Kort svar: Rollo. Forklar hvorfor det er mere præcist end: Guthrum · Ivar Benløs · Harald Hårderåde.",
-            "sourceTitle": "Vikingeskibsmuseet",
-            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
-            "confusions": [
-              "Guthrum",
-              "Ivar Benløs",
-              "Harald Hårderåde"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_vikinger_01": {
+            "hint": "Find svaret i kilderne til: Skibe og rejser.",
+            "explanation": "Kort svar: lav dybgang. Forklar hvorfor det er mere præcist end: meget dyb køl · høj overbygning · fast ballast af sten.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "meget dyb køl",
+              "høj overbygning",
+              "fast ballast af sten"
+            ]
+          },
+          "kp_vikinger_02": {
+            "hint": "Find svaret i kilderne til: Skibe og rejser.",
+            "explanation": "Kort svar: et havgående fragtskib. Forklar hvorfor det er mere præcist end: et lille krigsskib · en fiskerkano · et ceremonisk flodskib.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "et lille krigsskib",
+              "en fiskerkano",
+              "et ceremonisk flodskib"
+            ]
+          },
+          "kp_vikinger_03": {
+            "hint": "Find svaret i kilderne til: Skibe og rejser.",
+            "explanation": "Kort svar: et stort langskib. Forklar hvorfor det er mere præcist end: et kysthandelsskib · en færge · et fiskeskib.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "et kysthandelsskib",
+              "en færge",
+              "et fiskeskib"
+            ]
+          },
+          "kp_vikinger_04": {
+            "hint": "Find svaret i kilderne til: Skibe og rejser.",
+            "explanation": "Kort svar: Dublinområdet. Forklar hvorfor det er mere præcist end: Roskildeområdet · Oslofjorden · Island.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "Roskildeområdet",
+              "Oslofjorden",
+              "Island"
+            ]
+          },
+          "kp_vikinger_05": {
+            "hint": "Find svaret i kilderne til: Skibe og rejser.",
+            "explanation": "Kort svar: et mindre handelsskib til kystfart. Forklar hvorfor det er mere præcist end: et stort havgående krigsskib · et fladt færgeskib · et kongeligt gravskib.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "et stort havgående krigsskib",
+              "et fladt færgeskib",
+              "et kongeligt gravskib"
+            ]
+          },
+          "kp_vikinger_06": {
+            "hint": "Find svaret i kilderne til: Hverdag og handel.",
+            "explanation": "Kort svar: vævevægte. Forklar hvorfor det er mere præcist end: skjoldbuler · møntstempler · ankersten.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "skjoldbuler",
+              "møntstempler",
+              "ankersten"
+            ]
+          },
+          "kp_vikinger_07": {
+            "hint": "Find svaret i kilderne til: Hverdag og handel.",
+            "explanation": "Kort svar: smeden. Forklar hvorfor det er mere præcist end: skjalden · lovsigemanden · trællen.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "skjalden",
+              "lovsigemanden",
+              "trællen"
+            ]
+          },
+          "kp_vikinger_08": {
+            "hint": "Find svaret i kilderne til: Hverdag og handel.",
+            "explanation": "Kort svar: ben eller gevir. Forklar hvorfor det er mere præcist end: glas · marmor · porcelæn.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "glas",
+              "marmor",
+              "porcelæn"
+            ]
+          },
+          "kp_vikinger_09": {
+            "hint": "Find svaret i kilderne til: Hverdag og handel.",
+            "explanation": "Kort svar: hakkesølv. Forklar hvorfor det er mere præcist end: brakteater · ravperler · jernbarrer.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "brakteater",
+              "ravperler",
+              "jernbarrer"
+            ]
+          },
+          "kp_vikinger_10": {
+            "hint": "Find svaret i kilderne til: Hverdag og handel.",
+            "explanation": "Kort svar: dirhemer. Forklar hvorfor det er mere præcist end: denarer fra USA · dukater · pesos.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "denarer fra USA",
+              "dukater",
+              "pesos"
+            ]
+          },
+          "kp_vikinger_11": {
+            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
+            "explanation": "Kort svar: Bifröst. Forklar hvorfor det er mere præcist end: Gjallarhorn · Yggdrasil · Mjølner.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "Gjallarhorn",
+              "Yggdrasil",
+              "Mjølner"
+            ]
+          },
+          "kp_vikinger_12": {
+            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
+            "explanation": "Kort svar: Valhal. Forklar hvorfor det er mere præcist end: Folkvang · Helheim · Utgård.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "Folkvang",
+              "Helheim",
+              "Utgård"
+            ]
+          },
+          "kp_vikinger_13": {
+            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
+            "explanation": "Kort svar: valkyrier. Forklar hvorfor det er mere præcist end: norger · diser · jætter.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "norger",
+              "diser",
+              "jætter"
+            ]
+          },
+          "kp_vikinger_14": {
+            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
+            "explanation": "Kort svar: Ragnarök. Forklar hvorfor det er mere præcist end: blot · sejd · fimbulting.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "blot",
+              "sejd",
+              "fimbulting"
+            ]
+          },
+          "kp_vikinger_15": {
+            "hint": "Find svaret i kilderne til: Tro, runer og kunst.",
+            "explanation": "Kort svar: 16. Forklar hvorfor det er mere præcist end: 12 · 24 · 32.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "12",
+              "24",
+              "32"
+            ]
+          },
+          "kp_vikinger_16": {
+            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
+            "explanation": "Kort svar: 865. Forklar hvorfor det er mere præcist end: 793 · 911 · 1066.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "793",
+              "911",
+              "1066"
+            ]
+          },
+          "kp_vikinger_17": {
+            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
+            "explanation": "Kort svar: slaget ved Edington. Forklar hvorfor det er mere præcist end: slaget ved Hastings · slaget ved Maldon · slaget ved Stamford Bridge.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "slaget ved Hastings",
+              "slaget ved Maldon",
+              "slaget ved Stamford Bridge"
+            ]
+          },
+          "kp_vikinger_18": {
+            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
+            "explanation": "Kort svar: slaget ved Stamford Bridge. Forklar hvorfor det er mere præcist end: slaget ved Hastings · slaget ved Brunanburh · slaget ved Clontarf.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "slaget ved Hastings",
+              "slaget ved Brunanburh",
+              "slaget ved Clontarf"
+            ]
+          },
+          "kp_vikinger_19": {
+            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
+            "explanation": "Kort svar: Danelagen. Forklar hvorfor det er mere præcist end: Normandiet · Mercia · Wessex.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "Normandiet",
+              "Mercia",
+              "Wessex"
+            ]
+          },
+          "kp_vikinger_20": {
+            "hint": "Find svaret i kilderne til: Konger, steder og begivenheder.",
+            "explanation": "Kort svar: Rollo. Forklar hvorfor det er mere præcist end: Guthrum · Ivar Benløs · Harald Hårderåde.",
+            "sourceTitle": "Vikingeskibsmuseet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/",
+            "confusions": [
+              "Guthrum",
+              "Ivar Benløs",
+              "Harald Hårderåde"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

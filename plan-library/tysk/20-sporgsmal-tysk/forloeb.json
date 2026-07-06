@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-tysk_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Tysk sprog og kultur",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_tysk-sprog-kultur_01": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: ost. Forklar hvorfor det er mere præcist end: æble · brød · mælk.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "æble",
-              "brød",
-              "mælk"
-            ]
-          },
-          "kp_tysk-sprog-kultur_02": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: brød. Forklar hvorfor det er mere præcist end: æble · ost · mælk.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "æble",
-              "ost",
-              "mælk"
-            ]
-          },
-          "kp_tysk-sprog-kultur_03": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: mælk. Forklar hvorfor det er mere præcist end: æble · ost · brød.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "æble",
-              "ost",
-              "brød"
-            ]
-          },
-          "kp_tysk-sprog-kultur_04": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: mandag. Forklar hvorfor det er mere præcist end: vi ses i morgen · i går · snart.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "vi ses i morgen",
-              "i går",
-              "snart"
-            ]
-          },
-          "kp_tysk-sprog-kultur_05": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: vi ses i morgen. Forklar hvorfor det er mere præcist end: mandag · i går · snart.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "mandag",
-              "i går",
-              "snart"
-            ]
-          },
-          "kp_tysk-sprog-kultur_06": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: haben. Forklar hvorfor det er mere præcist end: habt · hat · habe.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "habt",
-              "hat",
-              "habe"
-            ]
-          },
-          "kp_tysk-sprog-kultur_07": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: wird. Forklar hvorfor det er mere præcist end: werde · werdet · werden.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "werde",
-              "werdet",
-              "werden"
-            ]
-          },
-          "kp_tysk-sprog-kultur_08": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: stehe … auf. Forklar hvorfor det er mere præcist end: aufstehe … ikke mere · auf … stehe · stehe auf … igen til sidst.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "aufstehe … ikke mere",
-              "auf … stehe",
-              "stehe auf … igen til sidst"
-            ]
-          },
-          "kp_tysk-sprog-kultur_09": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: Ich habe gearbeitet.. Forklar hvorfor det er mere præcist end: Ich bin gearbeitet. · Ich habe arbeiten. · Ich arbeitete gehabt..",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Ich bin gearbeitet.",
-              "Ich habe arbeiten.",
-              "Ich arbeitete gehabt."
-            ]
-          },
-          "kp_tysk-sprog-kultur_10": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: sein. Forklar hvorfor det er mere præcist end: haben · werden · können.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "haben",
-              "werden",
-              "können"
-            ]
-          },
-          "kp_tysk-sprog-kultur_11": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Elfriede Jelinek. Forklar hvorfor det er mere præcist end: Hermann Hesse · Bertolt Brecht · Friedrich Dürrenmatt.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Hermann Hesse",
-              "Bertolt Brecht",
-              "Friedrich Dürrenmatt"
-            ]
-          },
-          "kp_tysk-sprog-kultur_12": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Heinrich Hoffmann. Forklar hvorfor det er mere præcist end: Johanna Spyri · Erich Kästner · Michael Ende.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Johanna Spyri",
-              "Erich Kästner",
-              "Michael Ende"
-            ]
-          },
-          "kp_tysk-sprog-kultur_13": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Johanna Spyri. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Erich Kästner · Michael Ende.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Heinrich Hoffmann",
-              "Erich Kästner",
-              "Michael Ende"
-            ]
-          },
-          "kp_tysk-sprog-kultur_14": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Erich Kästner. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Michael Ende.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Heinrich Hoffmann",
-              "Johanna Spyri",
-              "Michael Ende"
-            ]
-          },
-          "kp_tysk-sprog-kultur_15": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Michael Ende. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Erich Kästner.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Heinrich Hoffmann",
-              "Johanna Spyri",
-              "Erich Kästner"
-            ]
-          },
-          "kp_tysk-sprog-kultur_16": {
-            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Schweiz. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Belgien.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Tyskland",
-              "Østrig",
-              "Belgien"
-            ]
-          },
-          "kp_tysk-sprog-kultur_17": {
-            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Belgien. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Schweiz.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Tyskland",
-              "Østrig",
-              "Schweiz"
-            ]
-          },
-          "kp_tysk-sprog-kultur_18": {
-            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Berlin. Forklar hvorfor det er mere præcist end: Wien · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Wien",
-              "Bayern",
-              "Alperne på grænsen mellem Schweiz og Italien"
-            ]
-          },
-          "kp_tysk-sprog-kultur_19": {
-            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Berlin · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Berlin",
-              "Bayern",
-              "Alperne på grænsen mellem Schweiz og Italien"
-            ]
-          },
-          "kp_tysk-sprog-kultur_20": {
-            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
-            "explanation": "Kort svar: Bayern. Forklar hvorfor det er mere præcist end: Berlin · Wien · Alperne på grænsen mellem Schweiz og Italien.",
-            "sourceTitle": "Duden",
-            "sourceUrl": "https://www.duden.de/",
-            "confusions": [
-              "Berlin",
-              "Wien",
-              "Alperne på grænsen mellem Schweiz og Italien"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_tysk-sprog-kultur_01": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: ost. Forklar hvorfor det er mere præcist end: æble · brød · mælk.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "æble",
+              "brød",
+              "mælk"
+            ]
+          },
+          "kp_tysk-sprog-kultur_02": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: brød. Forklar hvorfor det er mere præcist end: æble · ost · mælk.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "æble",
+              "ost",
+              "mælk"
+            ]
+          },
+          "kp_tysk-sprog-kultur_03": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: mælk. Forklar hvorfor det er mere præcist end: æble · ost · brød.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "æble",
+              "ost",
+              "brød"
+            ]
+          },
+          "kp_tysk-sprog-kultur_04": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: mandag. Forklar hvorfor det er mere præcist end: vi ses i morgen · i går · snart.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "vi ses i morgen",
+              "i går",
+              "snart"
+            ]
+          },
+          "kp_tysk-sprog-kultur_05": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: vi ses i morgen. Forklar hvorfor det er mere præcist end: mandag · i går · snart.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "mandag",
+              "i går",
+              "snart"
+            ]
+          },
+          "kp_tysk-sprog-kultur_06": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: haben. Forklar hvorfor det er mere præcist end: habt · hat · habe.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "habt",
+              "hat",
+              "habe"
+            ]
+          },
+          "kp_tysk-sprog-kultur_07": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: wird. Forklar hvorfor det er mere præcist end: werde · werdet · werden.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "werde",
+              "werdet",
+              "werden"
+            ]
+          },
+          "kp_tysk-sprog-kultur_08": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: stehe … auf. Forklar hvorfor det er mere præcist end: aufstehe … ikke mere · auf … stehe · stehe auf … igen til sidst.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "aufstehe … ikke mere",
+              "auf … stehe",
+              "stehe auf … igen til sidst"
+            ]
+          },
+          "kp_tysk-sprog-kultur_09": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: Ich habe gearbeitet.. Forklar hvorfor det er mere præcist end: Ich bin gearbeitet. · Ich habe arbeiten. · Ich arbeitete gehabt..",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Ich bin gearbeitet.",
+              "Ich habe arbeiten.",
+              "Ich arbeitete gehabt."
+            ]
+          },
+          "kp_tysk-sprog-kultur_10": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: sein. Forklar hvorfor det er mere præcist end: haben · werden · können.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "haben",
+              "werden",
+              "können"
+            ]
+          },
+          "kp_tysk-sprog-kultur_11": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Elfriede Jelinek. Forklar hvorfor det er mere præcist end: Hermann Hesse · Bertolt Brecht · Friedrich Dürrenmatt.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Hermann Hesse",
+              "Bertolt Brecht",
+              "Friedrich Dürrenmatt"
+            ]
+          },
+          "kp_tysk-sprog-kultur_12": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Heinrich Hoffmann. Forklar hvorfor det er mere præcist end: Johanna Spyri · Erich Kästner · Michael Ende.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Johanna Spyri",
+              "Erich Kästner",
+              "Michael Ende"
+            ]
+          },
+          "kp_tysk-sprog-kultur_13": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Johanna Spyri. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Erich Kästner · Michael Ende.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Heinrich Hoffmann",
+              "Erich Kästner",
+              "Michael Ende"
+            ]
+          },
+          "kp_tysk-sprog-kultur_14": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Erich Kästner. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Michael Ende.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Heinrich Hoffmann",
+              "Johanna Spyri",
+              "Michael Ende"
+            ]
+          },
+          "kp_tysk-sprog-kultur_15": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Michael Ende. Forklar hvorfor det er mere præcist end: Heinrich Hoffmann · Johanna Spyri · Erich Kästner.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Heinrich Hoffmann",
+              "Johanna Spyri",
+              "Erich Kästner"
+            ]
+          },
+          "kp_tysk-sprog-kultur_16": {
+            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
+            "explanation": "Kort svar: Schweiz. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Belgien.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Tyskland",
+              "Østrig",
+              "Belgien"
+            ]
+          },
+          "kp_tysk-sprog-kultur_17": {
+            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
+            "explanation": "Kort svar: Belgien. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Schweiz.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Tyskland",
+              "Østrig",
+              "Schweiz"
+            ]
+          },
+          "kp_tysk-sprog-kultur_18": {
+            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
+            "explanation": "Kort svar: Berlin. Forklar hvorfor det er mere præcist end: Wien · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Wien",
+              "Bayern",
+              "Alperne på grænsen mellem Schweiz og Italien"
+            ]
+          },
+          "kp_tysk-sprog-kultur_19": {
+            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
+            "explanation": "Kort svar: Wien. Forklar hvorfor det er mere præcist end: Berlin · Bayern · Alperne på grænsen mellem Schweiz og Italien.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Berlin",
+              "Bayern",
+              "Alperne på grænsen mellem Schweiz og Italien"
+            ]
+          },
+          "kp_tysk-sprog-kultur_20": {
+            "hint": "Find svaret i kilderne til: Den tysktalende verden.",
+            "explanation": "Kort svar: Bayern. Forklar hvorfor det er mere præcist end: Berlin · Wien · Alperne på grænsen mellem Schweiz og Italien.",
+            "sourceTitle": "Duden",
+            "sourceUrl": "https://www.duden.de/",
+            "confusions": [
+              "Berlin",
+              "Wien",
+              "Alperne på grænsen mellem Schweiz og Italien"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

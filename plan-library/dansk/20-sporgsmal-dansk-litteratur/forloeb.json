@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-dansk-litteratur_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Dansk litteratur",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_dansk-litteratur_01": {
-            "hint": "Find svaret i kilderne til: Forfattere og værker.",
-            "explanation": "Kort svar: Adam Oehlenschläger. Forklar hvorfor det er mere præcist end: N.F.S. Grundtvig · Johannes Ewald · B.S. Ingemann.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "N.F.S. Grundtvig",
-              "Johannes Ewald",
-              "B.S. Ingemann"
-            ]
-          },
-          "kp_dansk-litteratur_02": {
-            "hint": "Find svaret i kilderne til: Forfattere og værker.",
-            "explanation": "Kort svar: Søren Kierkegaard. Forklar hvorfor det er mere præcist end: Georg Brandes · Ludvig Holberg · Poul Martin Møller.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Georg Brandes",
-              "Ludvig Holberg",
-              "Poul Martin Møller"
-            ]
-          },
-          "kp_dansk-litteratur_03": {
-            "hint": "Find svaret i kilderne til: Forfattere og værker.",
-            "explanation": "Kort svar: Alfabet. Forklar hvorfor det er mere præcist end: Det · Azorno · Sommerfugledalen.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Det",
-              "Azorno",
-              "Sommerfugledalen"
-            ]
-          },
-          "kp_dansk-litteratur_04": {
-            "hint": "Find svaret i kilderne til: Forfattere og værker.",
-            "explanation": "Kort svar: Klaus Rifbjerg. Forklar hvorfor det er mere præcist end: Leif Panduro · Villy Sørensen · Anders Bodelsen.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Leif Panduro",
-              "Villy Sørensen",
-              "Anders Bodelsen"
-            ]
-          },
-          "kp_dansk-litteratur_05": {
-            "hint": "Find svaret i kilderne til: Forfattere og værker.",
-            "explanation": "Kort svar: Tom Kristensen. Forklar hvorfor det er mere præcist end: Hans Scherfig · Martin A. Hansen · Mogens Klitgaard.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Hans Scherfig",
-              "Martin A. Hansen",
-              "Mogens Klitgaard"
-            ]
-          },
-          "kp_dansk-litteratur_06": {
-            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
-            "explanation": "Kort svar: Guldalderen. Forklar hvorfor det er mere præcist end: Sølvalderen · Oplysningstiden · Systemskiftet.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Sølvalderen",
-              "Oplysningstiden",
-              "Systemskiftet"
-            ]
-          },
-          "kp_dansk-litteratur_07": {
-            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
-            "explanation": "Kort svar: Georg Brandes. Forklar hvorfor det er mere præcist end: Harald Høffding · Søren Kierkegaard · Viggo Hørup.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Harald Høffding",
-              "Søren Kierkegaard",
-              "Viggo Hørup"
-            ]
-          },
-          "kp_dansk-litteratur_08": {
-            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
-            "explanation": "Kort svar: at sætte problemer under debat. Forklar hvorfor det er mere præcist end: at dyrke rim uden indhold · at undgå samtidens konflikter · at efterligne middelalderens helteviser.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "at dyrke rim uden indhold",
-              "at undgå samtidens konflikter",
-              "at efterligne middelalderens helteviser"
-            ]
-          },
-          "kp_dansk-litteratur_09": {
-            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
-            "explanation": "Kort svar: realisme. Forklar hvorfor det er mere præcist end: romantik · surrealisme · dadaisme.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "romantik",
-              "surrealisme",
-              "dadaisme"
-            ]
-          },
-          "kp_dansk-litteratur_10": {
-            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
-            "explanation": "Kort svar: naturalisme. Forklar hvorfor det er mere præcist end: symbolisme · klassicisme · ekspressionisme.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "symbolisme",
-              "klassicisme",
-              "ekspressionisme"
-            ]
-          },
-          "kp_dansk-litteratur_11": {
-            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
-            "explanation": "Kort svar: Janus Tolne. Forklar hvorfor det er mere præcist end: Tore Reimer · Poul Berger · Mogens Jørgensen.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Tore Reimer",
-              "Poul Berger",
-              "Mogens Jørgensen"
-            ]
-          },
-          "kp_dansk-litteratur_12": {
-            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
-            "explanation": "Kort svar: Ole Jastrau. Forklar hvorfor det er mere præcist end: Mikkel Thøgersen · Erik Skram · Arne Garborg.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Mikkel Thøgersen",
-              "Erik Skram",
-              "Arne Garborg"
-            ]
-          },
-          "kp_dansk-litteratur_13": {
-            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
-            "explanation": "Kort svar: Ester. Forklar hvorfor det er mere præcist end: Tine · Katinka · Ditte.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Tine",
-              "Katinka",
-              "Ditte"
-            ]
-          },
-          "kp_dansk-litteratur_14": {
-            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
-            "explanation": "Kort svar: hun er uddannet glaciolog. Forklar hvorfor det er mere præcist end: hun er arkæolog · hun er jurist · hun er kirurg.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "hun er arkæolog",
-              "hun er jurist",
-              "hun er kirurg"
-            ]
-          },
-          "kp_dansk-litteratur_15": {
-            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
-            "explanation": "Kort svar: Aalborg. Forklar hvorfor det er mere præcist end: Aarhus · Odense · Esbjerg.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Aarhus",
-              "Odense",
-              "Esbjerg"
-            ]
-          },
-          "kp_dansk-litteratur_16": {
-            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
-            "explanation": "Kort svar: Villy Sørensen. Forklar hvorfor det er mere præcist end: Dan Turèll · Svend Åge Madsen · Anders Bodelsen.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Dan Turèll",
-              "Svend Åge Madsen",
-              "Anders Bodelsen"
-            ]
-          },
-          "kp_dansk-litteratur_17": {
-            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
-            "explanation": "Kort svar: Dorrit Willumsen. Forklar hvorfor det er mere præcist end: Kirsten Thorup · Suzanne Brøgger · Dea Trier Mørch.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Kirsten Thorup",
-              "Suzanne Brøgger",
-              "Dea Trier Mørch"
-            ]
-          },
-          "kp_dansk-litteratur_18": {
-            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
-            "explanation": "Kort svar: Pia Tafdrup. Forklar hvorfor det er mere præcist end: Inger Christensen · Vita Andersen · Marianne Larsen.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Inger Christensen",
-              "Vita Andersen",
-              "Marianne Larsen"
-            ]
-          },
-          "kp_dansk-litteratur_19": {
-            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
-            "explanation": "Kort svar: Naja Marie Aidt. Forklar hvorfor det er mere præcist end: Helle Helle · Jan Sonnergaard · Simon Fruelund.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Helle Helle",
-              "Jan Sonnergaard",
-              "Simon Fruelund"
-            ]
-          },
-          "kp_dansk-litteratur_20": {
-            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
-            "explanation": "Kort svar: Kirsten Thorup. Forklar hvorfor det er mere præcist end: Helle Helle · Dorthe Nors · Merete Pryds Helle.",
-            "sourceTitle": "Arkiv for Dansk Litteratur",
-            "sourceUrl": "https://adl.dk/",
-            "confusions": [
-              "Helle Helle",
-              "Dorthe Nors",
-              "Merete Pryds Helle"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_dansk-litteratur_01": {
+            "hint": "Find svaret i kilderne til: Forfattere og værker.",
+            "explanation": "Kort svar: Adam Oehlenschläger. Forklar hvorfor det er mere præcist end: N.F.S. Grundtvig · Johannes Ewald · B.S. Ingemann.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "N.F.S. Grundtvig",
+              "Johannes Ewald",
+              "B.S. Ingemann"
+            ]
+          },
+          "kp_dansk-litteratur_02": {
+            "hint": "Find svaret i kilderne til: Forfattere og værker.",
+            "explanation": "Kort svar: Søren Kierkegaard. Forklar hvorfor det er mere præcist end: Georg Brandes · Ludvig Holberg · Poul Martin Møller.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Georg Brandes",
+              "Ludvig Holberg",
+              "Poul Martin Møller"
+            ]
+          },
+          "kp_dansk-litteratur_03": {
+            "hint": "Find svaret i kilderne til: Forfattere og værker.",
+            "explanation": "Kort svar: Alfabet. Forklar hvorfor det er mere præcist end: Det · Azorno · Sommerfugledalen.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Det",
+              "Azorno",
+              "Sommerfugledalen"
+            ]
+          },
+          "kp_dansk-litteratur_04": {
+            "hint": "Find svaret i kilderne til: Forfattere og værker.",
+            "explanation": "Kort svar: Klaus Rifbjerg. Forklar hvorfor det er mere præcist end: Leif Panduro · Villy Sørensen · Anders Bodelsen.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Leif Panduro",
+              "Villy Sørensen",
+              "Anders Bodelsen"
+            ]
+          },
+          "kp_dansk-litteratur_05": {
+            "hint": "Find svaret i kilderne til: Forfattere og værker.",
+            "explanation": "Kort svar: Tom Kristensen. Forklar hvorfor det er mere præcist end: Hans Scherfig · Martin A. Hansen · Mogens Klitgaard.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Hans Scherfig",
+              "Martin A. Hansen",
+              "Mogens Klitgaard"
+            ]
+          },
+          "kp_dansk-litteratur_06": {
+            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
+            "explanation": "Kort svar: Guldalderen. Forklar hvorfor det er mere præcist end: Sølvalderen · Oplysningstiden · Systemskiftet.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Sølvalderen",
+              "Oplysningstiden",
+              "Systemskiftet"
+            ]
+          },
+          "kp_dansk-litteratur_07": {
+            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
+            "explanation": "Kort svar: Georg Brandes. Forklar hvorfor det er mere præcist end: Harald Høffding · Søren Kierkegaard · Viggo Hørup.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Harald Høffding",
+              "Søren Kierkegaard",
+              "Viggo Hørup"
+            ]
+          },
+          "kp_dansk-litteratur_08": {
+            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
+            "explanation": "Kort svar: at sætte problemer under debat. Forklar hvorfor det er mere præcist end: at dyrke rim uden indhold · at undgå samtidens konflikter · at efterligne middelalderens helteviser.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "at dyrke rim uden indhold",
+              "at undgå samtidens konflikter",
+              "at efterligne middelalderens helteviser"
+            ]
+          },
+          "kp_dansk-litteratur_09": {
+            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
+            "explanation": "Kort svar: realisme. Forklar hvorfor det er mere præcist end: romantik · surrealisme · dadaisme.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "romantik",
+              "surrealisme",
+              "dadaisme"
+            ]
+          },
+          "kp_dansk-litteratur_10": {
+            "hint": "Find svaret i kilderne til: Perioder og strømninger.",
+            "explanation": "Kort svar: naturalisme. Forklar hvorfor det er mere præcist end: symbolisme · klassicisme · ekspressionisme.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "symbolisme",
+              "klassicisme",
+              "ekspressionisme"
+            ]
+          },
+          "kp_dansk-litteratur_11": {
+            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
+            "explanation": "Kort svar: Janus Tolne. Forklar hvorfor det er mere præcist end: Tore Reimer · Poul Berger · Mogens Jørgensen.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Tore Reimer",
+              "Poul Berger",
+              "Mogens Jørgensen"
+            ]
+          },
+          "kp_dansk-litteratur_12": {
+            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
+            "explanation": "Kort svar: Ole Jastrau. Forklar hvorfor det er mere præcist end: Mikkel Thøgersen · Erik Skram · Arne Garborg.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Mikkel Thøgersen",
+              "Erik Skram",
+              "Arne Garborg"
+            ]
+          },
+          "kp_dansk-litteratur_13": {
+            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
+            "explanation": "Kort svar: Ester. Forklar hvorfor det er mere præcist end: Tine · Katinka · Ditte.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Tine",
+              "Katinka",
+              "Ditte"
+            ]
+          },
+          "kp_dansk-litteratur_14": {
+            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
+            "explanation": "Kort svar: hun er uddannet glaciolog. Forklar hvorfor det er mere præcist end: hun er arkæolog · hun er jurist · hun er kirurg.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "hun er arkæolog",
+              "hun er jurist",
+              "hun er kirurg"
+            ]
+          },
+          "kp_dansk-litteratur_15": {
+            "hint": "Find svaret i kilderne til: Figurer, former og genrer.",
+            "explanation": "Kort svar: Aalborg. Forklar hvorfor det er mere præcist end: Aarhus · Odense · Esbjerg.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Aarhus",
+              "Odense",
+              "Esbjerg"
+            ]
+          },
+          "kp_dansk-litteratur_16": {
+            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
+            "explanation": "Kort svar: Villy Sørensen. Forklar hvorfor det er mere præcist end: Dan Turèll · Svend Åge Madsen · Anders Bodelsen.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Dan Turèll",
+              "Svend Åge Madsen",
+              "Anders Bodelsen"
+            ]
+          },
+          "kp_dansk-litteratur_17": {
+            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
+            "explanation": "Kort svar: Dorrit Willumsen. Forklar hvorfor det er mere præcist end: Kirsten Thorup · Suzanne Brøgger · Dea Trier Mørch.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Kirsten Thorup",
+              "Suzanne Brøgger",
+              "Dea Trier Mørch"
+            ]
+          },
+          "kp_dansk-litteratur_18": {
+            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
+            "explanation": "Kort svar: Pia Tafdrup. Forklar hvorfor det er mere præcist end: Inger Christensen · Vita Andersen · Marianne Larsen.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Inger Christensen",
+              "Vita Andersen",
+              "Marianne Larsen"
+            ]
+          },
+          "kp_dansk-litteratur_19": {
+            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
+            "explanation": "Kort svar: Naja Marie Aidt. Forklar hvorfor det er mere præcist end: Helle Helle · Jan Sonnergaard · Simon Fruelund.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Helle Helle",
+              "Jan Sonnergaard",
+              "Simon Fruelund"
+            ]
+          },
+          "kp_dansk-litteratur_20": {
+            "hint": "Find svaret i kilderne til: Priser, sprog og litteraturliv.",
+            "explanation": "Kort svar: Kirsten Thorup. Forklar hvorfor det er mere præcist end: Helle Helle · Dorthe Nors · Merete Pryds Helle.",
+            "sourceTitle": "Arkiv for Dansk Litteratur",
+            "sourceUrl": "https://adl.dk/",
+            "confusions": [
+              "Helle Helle",
+              "Dorthe Nors",
+              "Merete Pryds Helle"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

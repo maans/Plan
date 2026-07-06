@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-kemi_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Kemiens grundstoffer",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_kemi-elementer_01": {
-            "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Neon. Forklar hvorfor det er mere præcist end: Natrium · Klor · Mangan.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Natrium",
-              "Klor",
-              "Mangan"
-            ]
-          },
-          "kp_kemi-elementer_02": {
-            "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Na. Forklar hvorfor det er mere præcist end: Al · Ca · Zn.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Al",
-              "Ca",
-              "Zn"
-            ]
-          },
-          "kp_kemi-elementer_03": {
-            "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Aluminium · Kalium · Kobolt.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Aluminium",
-              "Kalium",
-              "Kobolt"
-            ]
-          },
-          "kp_kemi-elementer_04": {
-            "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Al. Forklar hvorfor det er mere præcist end: P · Cr · Ge.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "P",
-              "Cr",
-              "Ge"
-            ]
-          },
-          "kp_kemi-elementer_05": {
-            "hint": "Find svaret i kilderne til: Symboler og navne.",
-            "explanation": "Kort svar: Silicium. Forklar hvorfor det er mere præcist end: Fosfor · Titan · Kobber.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Fosfor",
-              "Titan",
-              "Kobber"
-            ]
-          },
-          "kp_kemi-elementer_06": {
-            "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 14. Forklar hvorfor det er mere præcist end: 15 · 13 · 16.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "15",
-              "13",
-              "16"
-            ]
-          },
-          "kp_kemi-elementer_07": {
-            "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 15. Forklar hvorfor det er mere præcist end: 16 · 14 · 17.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "16",
-              "14",
-              "17"
-            ]
-          },
-          "kp_kemi-elementer_08": {
-            "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 16. Forklar hvorfor det er mere præcist end: 17 · 15 · 18.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "17",
-              "15",
-              "18"
-            ]
-          },
-          "kp_kemi-elementer_09": {
-            "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 17. Forklar hvorfor det er mere præcist end: 18 · 16 · 19.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "18",
-              "16",
-              "19"
-            ]
-          },
-          "kp_kemi-elementer_10": {
-            "hint": "Find svaret i kilderne til: Atomnumre og system.",
-            "explanation": "Kort svar: 18. Forklar hvorfor det er mere præcist end: 19 · 17 · 20.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "19",
-              "17",
-              "20"
-            ]
-          },
-          "kp_kemi-elementer_11": {
-            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Natrium · Klor · Jern.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Natrium",
-              "Klor",
-              "Jern"
-            ]
-          },
-          "kp_kemi-elementer_12": {
-            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Kviksølv. Forklar hvorfor det er mere præcist end: Jern · Guld · Aluminium.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Jern",
-              "Guld",
-              "Aluminium"
-            ]
-          },
-          "kp_kemi-elementer_13": {
-            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Brom. Forklar hvorfor det er mere præcist end: Klor · Jod · Svovl.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Klor",
-              "Jod",
-              "Svovl"
-            ]
-          },
-          "kp_kemi-elementer_14": {
-            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Kvælstof. Forklar hvorfor det er mere præcist end: Ilt · Argon · Kulstof.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Ilt",
-              "Argon",
-              "Kulstof"
-            ]
-          },
-          "kp_kemi-elementer_15": {
-            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
-            "explanation": "Kort svar: Hydrogen. Forklar hvorfor det er mere præcist end: Helium · Ilt · Kulstof.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Helium",
-              "Ilt",
-              "Kulstof"
-            ]
-          },
-          "kp_kemi-elementer_16": {
-            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Kulstof. Forklar hvorfor det er mere præcist end: Bly · Silicium · Jern.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Bly",
-              "Silicium",
-              "Jern"
-            ]
-          },
-          "kp_kemi-elementer_17": {
-            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Kobber. Forklar hvorfor det er mere præcist end: Bly · Titan · Magnesium.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Bly",
-              "Titan",
-              "Magnesium"
-            ]
-          },
-          "kp_kemi-elementer_18": {
-            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Fluor. Forklar hvorfor det er mere præcist end: Klor · Jod · Brom.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Klor",
-              "Jod",
-              "Brom"
-            ]
-          },
-          "kp_kemi-elementer_19": {
-            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Jern. Forklar hvorfor det er mere præcist end: Calcium · Natrium · Zink.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Calcium",
-              "Natrium",
-              "Zink"
-            ]
-          },
-          "kp_kemi-elementer_20": {
-            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
-            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Jern · Kobber · Calcium.",
-            "sourceTitle": "IUPAC · Periodic Table",
-            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "confusions": [
-              "Jern",
-              "Kobber",
-              "Calcium"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_kemi-elementer_01": {
+            "hint": "Find svaret i kilderne til: Symboler og navne.",
+            "explanation": "Kort svar: Neon. Forklar hvorfor det er mere præcist end: Natrium · Klor · Mangan.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Natrium",
+              "Klor",
+              "Mangan"
+            ]
+          },
+          "kp_kemi-elementer_02": {
+            "hint": "Find svaret i kilderne til: Symboler og navne.",
+            "explanation": "Kort svar: Na. Forklar hvorfor det er mere præcist end: Al · Ca · Zn.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Al",
+              "Ca",
+              "Zn"
+            ]
+          },
+          "kp_kemi-elementer_03": {
+            "hint": "Find svaret i kilderne til: Symboler og navne.",
+            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Aluminium · Kalium · Kobolt.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Aluminium",
+              "Kalium",
+              "Kobolt"
+            ]
+          },
+          "kp_kemi-elementer_04": {
+            "hint": "Find svaret i kilderne til: Symboler og navne.",
+            "explanation": "Kort svar: Al. Forklar hvorfor det er mere præcist end: P · Cr · Ge.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "P",
+              "Cr",
+              "Ge"
+            ]
+          },
+          "kp_kemi-elementer_05": {
+            "hint": "Find svaret i kilderne til: Symboler og navne.",
+            "explanation": "Kort svar: Silicium. Forklar hvorfor det er mere præcist end: Fosfor · Titan · Kobber.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Fosfor",
+              "Titan",
+              "Kobber"
+            ]
+          },
+          "kp_kemi-elementer_06": {
+            "hint": "Find svaret i kilderne til: Atomnumre og system.",
+            "explanation": "Kort svar: 14. Forklar hvorfor det er mere præcist end: 15 · 13 · 16.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "15",
+              "13",
+              "16"
+            ]
+          },
+          "kp_kemi-elementer_07": {
+            "hint": "Find svaret i kilderne til: Atomnumre og system.",
+            "explanation": "Kort svar: 15. Forklar hvorfor det er mere præcist end: 16 · 14 · 17.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "16",
+              "14",
+              "17"
+            ]
+          },
+          "kp_kemi-elementer_08": {
+            "hint": "Find svaret i kilderne til: Atomnumre og system.",
+            "explanation": "Kort svar: 16. Forklar hvorfor det er mere præcist end: 17 · 15 · 18.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "17",
+              "15",
+              "18"
+            ]
+          },
+          "kp_kemi-elementer_09": {
+            "hint": "Find svaret i kilderne til: Atomnumre og system.",
+            "explanation": "Kort svar: 17. Forklar hvorfor det er mere præcist end: 18 · 16 · 19.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "18",
+              "16",
+              "19"
+            ]
+          },
+          "kp_kemi-elementer_10": {
+            "hint": "Find svaret i kilderne til: Atomnumre og system.",
+            "explanation": "Kort svar: 18. Forklar hvorfor det er mere præcist end: 19 · 17 · 20.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "19",
+              "17",
+              "20"
+            ]
+          },
+          "kp_kemi-elementer_11": {
+            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
+            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Natrium · Klor · Jern.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Natrium",
+              "Klor",
+              "Jern"
+            ]
+          },
+          "kp_kemi-elementer_12": {
+            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
+            "explanation": "Kort svar: Kviksølv. Forklar hvorfor det er mere præcist end: Jern · Guld · Aluminium.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Jern",
+              "Guld",
+              "Aluminium"
+            ]
+          },
+          "kp_kemi-elementer_13": {
+            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
+            "explanation": "Kort svar: Brom. Forklar hvorfor det er mere præcist end: Klor · Jod · Svovl.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Klor",
+              "Jod",
+              "Svovl"
+            ]
+          },
+          "kp_kemi-elementer_14": {
+            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
+            "explanation": "Kort svar: Kvælstof. Forklar hvorfor det er mere præcist end: Ilt · Argon · Kulstof.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Ilt",
+              "Argon",
+              "Kulstof"
+            ]
+          },
+          "kp_kemi-elementer_15": {
+            "hint": "Find svaret i kilderne til: Grupper og egenskaber.",
+            "explanation": "Kort svar: Hydrogen. Forklar hvorfor det er mere præcist end: Helium · Ilt · Kulstof.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Helium",
+              "Ilt",
+              "Kulstof"
+            ]
+          },
+          "kp_kemi-elementer_16": {
+            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
+            "explanation": "Kort svar: Kulstof. Forklar hvorfor det er mere præcist end: Bly · Silicium · Jern.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Bly",
+              "Silicium",
+              "Jern"
+            ]
+          },
+          "kp_kemi-elementer_17": {
+            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
+            "explanation": "Kort svar: Kobber. Forklar hvorfor det er mere præcist end: Bly · Titan · Magnesium.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Bly",
+              "Titan",
+              "Magnesium"
+            ]
+          },
+          "kp_kemi-elementer_18": {
+            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
+            "explanation": "Kort svar: Fluor. Forklar hvorfor det er mere præcist end: Klor · Jod · Brom.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Klor",
+              "Jod",
+              "Brom"
+            ]
+          },
+          "kp_kemi-elementer_19": {
+            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
+            "explanation": "Kort svar: Jern. Forklar hvorfor det er mere præcist end: Calcium · Natrium · Zink.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Calcium",
+              "Natrium",
+              "Zink"
+            ]
+          },
+          "kp_kemi-elementer_20": {
+            "hint": "Find svaret i kilderne til: Stoffer og anvendelser.",
+            "explanation": "Kort svar: Magnesium. Forklar hvorfor det er mere præcist end: Jern · Kobber · Calcium.",
+            "sourceTitle": "IUPAC · Periodic Table",
+            "sourceUrl": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "confusions": [
+              "Jern",
+              "Kobber",
+              "Calcium"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

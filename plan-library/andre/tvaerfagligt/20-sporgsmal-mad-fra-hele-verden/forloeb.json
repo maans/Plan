@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-mad-fra-hele-verden_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Mad fra hele verden",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_mad-fra-hele-verden_01": {
-            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
-            "explanation": "Kort svar: feijoada. Forklar hvorfor det er mere præcist end: moqueca · acarajé · farofa.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "moqueca",
-              "acarajé",
-              "farofa"
-            ]
-          },
-          "kp_mad-fra-hele-verden_02": {
-            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
-            "explanation": "Kort svar: mole. Forklar hvorfor det er mere præcist end: salsa verde · guacamole · pico de gallo.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "salsa verde",
-              "guacamole",
-              "pico de gallo"
-            ]
-          },
-          "kp_mad-fra-hele-verden_03": {
-            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
-            "explanation": "Kort svar: taco. Forklar hvorfor det er mere præcist end: tamale · arepa · empanada.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "tamale",
-              "arepa",
-              "empanada"
-            ]
-          },
-          "kp_mad-fra-hele-verden_04": {
-            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
-            "explanation": "Kort svar: poutine. Forklar hvorfor det er mere præcist end: tourtière · pemmican · beavertail.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "tourtière",
-              "pemmican",
-              "beavertail"
-            ]
-          },
-          "kp_mad-fra-hele-verden_05": {
-            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
-            "explanation": "Kort svar: gumbo. Forklar hvorfor det er mere præcist end: jambalaya · étouffée · bisque.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "jambalaya",
-              "étouffée",
-              "bisque"
-            ]
-          },
-          "kp_mad-fra-hele-verden_06": {
-            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
-            "explanation": "Kort svar: emulgering. Forklar hvorfor det er mere præcist end: gelatinering · krystallisering · fermentering.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "gelatinering",
-              "krystallisering",
-              "fermentering"
-            ]
-          },
-          "kp_mad-fra-hele-verden_07": {
-            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
-            "explanation": "Kort svar: lidt ad gangen under omrøring. Forklar hvorfor det er mere præcist end: alt på én gang efter afkøling · kun efter at risen er færdig · ved tørbagning uden væske.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "alt på én gang efter afkøling",
-              "kun efter at risen er færdig",
-              "ved tørbagning uden væske"
-            ]
-          },
-          "kp_mad-fra-hele-verden_08": {
-            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
-            "explanation": "Kort svar: riseddike, sukker og salt. Forklar hvorfor det er mere præcist end: sojasauce og sesamolie · kokosmælk og lime · miso og chili.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "sojasauce og sesamolie",
-              "kokosmælk og lime",
-              "miso og chili"
-            ]
-          },
-          "kp_mad-fra-hele-verden_09": {
-            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
-            "explanation": "Kort svar: tørret, nixtamaliseret majs. Forklar hvorfor det er mere præcist end: malet rå ris · ristet boghvede · tørret kassava.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "malet rå ris",
-              "ristet boghvede",
-              "tørret kassava"
-            ]
-          },
-          "kp_mad-fra-hele-verden_10": {
-            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
-            "explanation": "Kort svar: koji. Forklar hvorfor det er mere præcist end: kefirgryn · bagegær · eddikemor.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "kefirgryn",
-              "bagegær",
-              "eddikemor"
-            ]
-          },
-          "kp_mad-fra-hele-verden_11": {
-            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
-            "explanation": "Kort svar: lavash. Forklar hvorfor det er mere præcist end: injera · bagel · bannock.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "injera",
-              "bagel",
-              "bannock"
-            ]
-          },
-          "kp_mad-fra-hele-verden_12": {
-            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
-            "explanation": "Kort svar: pumpernickel. Forklar hvorfor det er mere præcist end: brioche · focaccia · pita.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "brioche",
-              "focaccia",
-              "pita"
-            ]
-          },
-          "kp_mad-fra-hele-verden_13": {
-            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
-            "explanation": "Kort svar: panettone. Forklar hvorfor det er mere præcist end: pandoro · colomba · ciabatta.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "pandoro",
-              "colomba",
-              "ciabatta"
-            ]
-          },
-          "kp_mad-fra-hele-verden_14": {
-            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
-            "explanation": "Kort svar: tiramisu. Forklar hvorfor det er mere præcist end: panna cotta · cannoli · zabaglione.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "panna cotta",
-              "cannoli",
-              "zabaglione"
-            ]
-          },
-          "kp_mad-fra-hele-verden_15": {
-            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
-            "explanation": "Kort svar: churros. Forklar hvorfor det er mere præcist end: beignets · donuts · zeppole.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "beignets",
-              "donuts",
-              "zeppole"
-            ]
-          },
-          "kp_mad-fra-hele-verden_16": {
-            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
-            "explanation": "Kort svar: traditionel japansk madkultur. Forklar hvorfor det er mere præcist end: japansk fastfood · sushikonkurrencer · teknisk knivslibning.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "japansk fastfood",
-              "sushikonkurrencer",
-              "teknisk knivslibning"
-            ]
-          },
-          "kp_mad-fra-hele-verden_17": {
-            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
-            "explanation": "Kort svar: Middelhavskosten. Forklar hvorfor det er mere præcist end: Atkins-kuren · paleokost · New Nordic Cuisine.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "Atkins-kuren",
-              "paleokost",
-              "New Nordic Cuisine"
-            ]
-          },
-          "kp_mad-fra-hele-verden_18": {
-            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
-            "explanation": "Kort svar: det gastronomiske måltid hos franskmændene. Forklar hvorfor det er mere præcist end: den daglige baguette · café au lait ved morgenmad · markedslunch i Provence.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "den daglige baguette",
-              "café au lait ved morgenmad",
-              "markedslunch i Provence"
-            ]
-          },
-          "kp_mad-fra-hele-verden_19": {
-            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
-            "explanation": "Kort svar: Mexico. Forklar hvorfor det er mere præcist end: Canada · Argentina · Cuba.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "Canada",
-              "Argentina",
-              "Cuba"
-            ]
-          },
-          "kp_mad-fra-hele-verden_20": {
-            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
-            "explanation": "Kort svar: pizzaiuolo-kunsten. Forklar hvorfor det er mere præcist end: produktion af tørpasta · isfremstilling · trøffeljagt.",
-            "sourceTitle": "UNESCO Intangible Cultural Heritage",
-            "sourceUrl": "https://ich.unesco.org/",
-            "confusions": [
-              "produktion af tørpasta",
-              "isfremstilling",
-              "trøffeljagt"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_mad-fra-hele-verden_01": {
+            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
+            "explanation": "Kort svar: feijoada. Forklar hvorfor det er mere præcist end: moqueca · acarajé · farofa.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "moqueca",
+              "acarajé",
+              "farofa"
+            ]
+          },
+          "kp_mad-fra-hele-verden_02": {
+            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
+            "explanation": "Kort svar: mole. Forklar hvorfor det er mere præcist end: salsa verde · guacamole · pico de gallo.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "salsa verde",
+              "guacamole",
+              "pico de gallo"
+            ]
+          },
+          "kp_mad-fra-hele-verden_03": {
+            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
+            "explanation": "Kort svar: taco. Forklar hvorfor det er mere præcist end: tamale · arepa · empanada.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "tamale",
+              "arepa",
+              "empanada"
+            ]
+          },
+          "kp_mad-fra-hele-verden_04": {
+            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
+            "explanation": "Kort svar: poutine. Forklar hvorfor det er mere præcist end: tourtière · pemmican · beavertail.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "tourtière",
+              "pemmican",
+              "beavertail"
+            ]
+          },
+          "kp_mad-fra-hele-verden_05": {
+            "hint": "Find svaret i kilderne til: Retter og hjemsteder.",
+            "explanation": "Kort svar: gumbo. Forklar hvorfor det er mere præcist end: jambalaya · étouffée · bisque.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "jambalaya",
+              "étouffée",
+              "bisque"
+            ]
+          },
+          "kp_mad-fra-hele-verden_06": {
+            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
+            "explanation": "Kort svar: emulgering. Forklar hvorfor det er mere præcist end: gelatinering · krystallisering · fermentering.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "gelatinering",
+              "krystallisering",
+              "fermentering"
+            ]
+          },
+          "kp_mad-fra-hele-verden_07": {
+            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
+            "explanation": "Kort svar: lidt ad gangen under omrøring. Forklar hvorfor det er mere præcist end: alt på én gang efter afkøling · kun efter at risen er færdig · ved tørbagning uden væske.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "alt på én gang efter afkøling",
+              "kun efter at risen er færdig",
+              "ved tørbagning uden væske"
+            ]
+          },
+          "kp_mad-fra-hele-verden_08": {
+            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
+            "explanation": "Kort svar: riseddike, sukker og salt. Forklar hvorfor det er mere præcist end: sojasauce og sesamolie · kokosmælk og lime · miso og chili.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "sojasauce og sesamolie",
+              "kokosmælk og lime",
+              "miso og chili"
+            ]
+          },
+          "kp_mad-fra-hele-verden_09": {
+            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
+            "explanation": "Kort svar: tørret, nixtamaliseret majs. Forklar hvorfor det er mere præcist end: malet rå ris · ristet boghvede · tørret kassava.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "malet rå ris",
+              "ristet boghvede",
+              "tørret kassava"
+            ]
+          },
+          "kp_mad-fra-hele-verden_10": {
+            "hint": "Find svaret i kilderne til: Ingredienser og teknikker.",
+            "explanation": "Kort svar: koji. Forklar hvorfor det er mere præcist end: kefirgryn · bagegær · eddikemor.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "kefirgryn",
+              "bagegær",
+              "eddikemor"
+            ]
+          },
+          "kp_mad-fra-hele-verden_11": {
+            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
+            "explanation": "Kort svar: lavash. Forklar hvorfor det er mere præcist end: injera · bagel · bannock.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "injera",
+              "bagel",
+              "bannock"
+            ]
+          },
+          "kp_mad-fra-hele-verden_12": {
+            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
+            "explanation": "Kort svar: pumpernickel. Forklar hvorfor det er mere præcist end: brioche · focaccia · pita.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "brioche",
+              "focaccia",
+              "pita"
+            ]
+          },
+          "kp_mad-fra-hele-verden_13": {
+            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
+            "explanation": "Kort svar: panettone. Forklar hvorfor det er mere præcist end: pandoro · colomba · ciabatta.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "pandoro",
+              "colomba",
+              "ciabatta"
+            ]
+          },
+          "kp_mad-fra-hele-verden_14": {
+            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
+            "explanation": "Kort svar: tiramisu. Forklar hvorfor det er mere præcist end: panna cotta · cannoli · zabaglione.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "panna cotta",
+              "cannoli",
+              "zabaglione"
+            ]
+          },
+          "kp_mad-fra-hele-verden_15": {
+            "hint": "Find svaret i kilderne til: Brød, sødt og drikke.",
+            "explanation": "Kort svar: churros. Forklar hvorfor det er mere præcist end: beignets · donuts · zeppole.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "beignets",
+              "donuts",
+              "zeppole"
+            ]
+          },
+          "kp_mad-fra-hele-verden_16": {
+            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
+            "explanation": "Kort svar: traditionel japansk madkultur. Forklar hvorfor det er mere præcist end: japansk fastfood · sushikonkurrencer · teknisk knivslibning.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "japansk fastfood",
+              "sushikonkurrencer",
+              "teknisk knivslibning"
+            ]
+          },
+          "kp_mad-fra-hele-verden_17": {
+            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
+            "explanation": "Kort svar: Middelhavskosten. Forklar hvorfor det er mere præcist end: Atkins-kuren · paleokost · New Nordic Cuisine.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "Atkins-kuren",
+              "paleokost",
+              "New Nordic Cuisine"
+            ]
+          },
+          "kp_mad-fra-hele-verden_18": {
+            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
+            "explanation": "Kort svar: det gastronomiske måltid hos franskmændene. Forklar hvorfor det er mere præcist end: den daglige baguette · café au lait ved morgenmad · markedslunch i Provence.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "den daglige baguette",
+              "café au lait ved morgenmad",
+              "markedslunch i Provence"
+            ]
+          },
+          "kp_mad-fra-hele-verden_19": {
+            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
+            "explanation": "Kort svar: Mexico. Forklar hvorfor det er mere præcist end: Canada · Argentina · Cuba.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "Canada",
+              "Argentina",
+              "Cuba"
+            ]
+          },
+          "kp_mad-fra-hele-verden_20": {
+            "hint": "Find svaret i kilderne til: Måltider og madkultur.",
+            "explanation": "Kort svar: pizzaiuolo-kunsten. Forklar hvorfor det er mere præcist end: produktion af tørpasta · isfremstilling · trøffeljagt.",
+            "sourceTitle": "UNESCO Intangible Cultural Heritage",
+            "sourceUrl": "https://ich.unesco.org/",
+            "confusions": [
+              "produktion af tørpasta",
+              "isfremstilling",
+              "trøffeljagt"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

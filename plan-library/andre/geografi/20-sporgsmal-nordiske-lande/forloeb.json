@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-nordiske-lande_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Nordiske lande",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_nordiske-lande_01": {
-            "hint": "Find svaret i kilderne til: Lande og styreformer.",
-            "explanation": "Kort svar: norske kroner. Forklar hvorfor det er mere præcist end: danske kroner · euro · svenske kroner.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "danske kroner",
-              "euro",
-              "svenske kroner"
-            ]
-          },
-          "kp_nordiske-lande_02": {
-            "hint": "Find svaret i kilderne til: Lande og styreformer.",
-            "explanation": "Kort svar: svenske kroner. Forklar hvorfor det er mere præcist end: norske kroner · euro · danske kroner.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "norske kroner",
-              "euro",
-              "danske kroner"
-            ]
-          },
-          "kp_nordiske-lande_03": {
-            "hint": "Find svaret i kilderne til: Lande og styreformer.",
-            "explanation": "Kort svar: euro. Forklar hvorfor det er mere præcist end: svenske kroner · finske mark · norske kroner.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "svenske kroner",
-              "finske mark",
-              "norske kroner"
-            ]
-          },
-          "kp_nordiske-lande_04": {
-            "hint": "Find svaret i kilderne til: Lande og styreformer.",
-            "explanation": "Kort svar: islandske kroner. Forklar hvorfor det er mere præcist end: euro · norske kroner · danske kroner.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "euro",
-              "norske kroner",
-              "danske kroner"
-            ]
-          },
-          "kp_nordiske-lande_05": {
-            "hint": "Find svaret i kilderne til: Lande og styreformer.",
-            "explanation": "Kort svar: danske kroner. Forklar hvorfor det er mere præcist end: euro · norske kroner · svenske kroner.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "euro",
-              "norske kroner",
-              "svenske kroner"
-            ]
-          },
-          "kp_nordiske-lande_06": {
-            "hint": "Find svaret i kilderne til: Natur og geografi.",
-            "explanation": "Kort svar: 18. Forklar hvorfor det er mere præcist end: 8 · 24 · 36.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "8",
-              "24",
-              "36"
-            ]
-          },
-          "kp_nordiske-lande_07": {
-            "hint": "Find svaret i kilderne til: Natur og geografi.",
-            "explanation": "Kort svar: 6.757. Forklar hvorfor det er mere præcist end: 675 · 1.581 · 18.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "675",
-              "1.581",
-              "18"
-            ]
-          },
-          "kp_nordiske-lande_08": {
-            "hint": "Find svaret i kilderne til: Natur og geografi.",
-            "explanation": "Kort svar: Galdhøpiggen. Forklar hvorfor det er mere præcist end: Kebnekaise · Halti · Hvannadalshnúkur.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "Kebnekaise",
-              "Halti",
-              "Hvannadalshnúkur"
-            ]
-          },
-          "kp_nordiske-lande_09": {
-            "hint": "Find svaret i kilderne til: Natur og geografi.",
-            "explanation": "Kort svar: Kebnekaise. Forklar hvorfor det er mere præcist end: Galdhøpiggen · Slættaratindur · Orrdalsklint.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "Galdhøpiggen",
-              "Slættaratindur",
-              "Orrdalsklint"
-            ]
-          },
-          "kp_nordiske-lande_10": {
-            "hint": "Find svaret i kilderne til: Natur og geografi.",
-            "explanation": "Kort svar: Halti. Forklar hvorfor det er mere præcist end: Saana · Kebnekaise · Galdhøpiggen.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "Saana",
-              "Kebnekaise",
-              "Galdhøpiggen"
-            ]
-          },
-          "kp_nordiske-lande_11": {
-            "hint": "Find svaret i kilderne til: Sprog og kultur.",
-            "explanation": "Kort svar: svensk. Forklar hvorfor det er mere præcist end: finsk · dansk · norsk.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "finsk",
-              "dansk",
-              "norsk"
-            ]
-          },
-          "kp_nordiske-lande_12": {
-            "hint": "Find svaret i kilderne til: Sprog og kultur.",
-            "explanation": "Kort svar: bokmål og nynorsk. Forklar hvorfor det er mere præcist end: riksmål og landsmål · svensk og nynorsk · bokmål og samisk.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "riksmål og landsmål",
-              "svensk og nynorsk",
-              "bokmål og samisk"
-            ]
-          },
-          "kp_nordiske-lande_13": {
-            "hint": "Find svaret i kilderne til: Sprog og kultur.",
-            "explanation": "Kort svar: Ivar Aasen. Forklar hvorfor det er mere præcist end: Henrik Ibsen · Snorri Sturluson · Elias Lönnrot.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "Henrik Ibsen",
-              "Snorri Sturluson",
-              "Elias Lönnrot"
-            ]
-          },
-          "kp_nordiske-lande_14": {
-            "hint": "Find svaret i kilderne til: Sprog og kultur.",
-            "explanation": "Kort svar: æ, ø og å. Forklar hvorfor det er mere præcist end: ä, ö og ü · å, ä og ö · þ, ð og æ.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "ä, ö og ü",
-              "å, ä og ö",
-              "þ, ð og æ"
-            ]
-          },
-          "kp_nordiske-lande_15": {
-            "hint": "Find svaret i kilderne til: Sprog og kultur.",
-            "explanation": "Kort svar: meänkieli. Forklar hvorfor det er mere præcist end: islandsk · færøsk · grønlandsk.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "islandsk",
-              "færøsk",
-              "grønlandsk"
-            ]
-          },
-          "kp_nordiske-lande_16": {
-            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
-            "explanation": "Kort svar: 1973. Forklar hvorfor det er mere præcist end: 1957 · 1985 · 1995.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "1957",
-              "1985",
-              "1995"
-            ]
-          },
-          "kp_nordiske-lande_17": {
-            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
-            "explanation": "Kort svar: 1995. Forklar hvorfor det er mere præcist end: 1973 · 1986 · 2004.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "1973",
-              "1986",
-              "2004"
-            ]
-          },
-          "kp_nordiske-lande_18": {
-            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
-            "explanation": "Kort svar: 1995. Forklar hvorfor det er mere præcist end: 1973 · 1981 · 2004.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "1973",
-              "1981",
-              "2004"
-            ]
-          },
-          "kp_nordiske-lande_19": {
-            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
-            "explanation": "Kort svar: Finland. Forklar hvorfor det er mere præcist end: Sverige · Island · Danmark.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "Sverige",
-              "Island",
-              "Danmark"
-            ]
-          },
-          "kp_nordiske-lande_20": {
-            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
-            "explanation": "Kort svar: Sverige. Forklar hvorfor det er mere præcist end: Finland · Norge · Island.",
-            "sourceTitle": "Nordisk Samarbejde",
-            "sourceUrl": "https://www.norden.org/",
-            "confusions": [
-              "Finland",
-              "Norge",
-              "Island"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_nordiske-lande_01": {
+            "hint": "Find svaret i kilderne til: Lande og styreformer.",
+            "explanation": "Kort svar: norske kroner. Forklar hvorfor det er mere præcist end: danske kroner · euro · svenske kroner.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "danske kroner",
+              "euro",
+              "svenske kroner"
+            ]
+          },
+          "kp_nordiske-lande_02": {
+            "hint": "Find svaret i kilderne til: Lande og styreformer.",
+            "explanation": "Kort svar: svenske kroner. Forklar hvorfor det er mere præcist end: norske kroner · euro · danske kroner.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "norske kroner",
+              "euro",
+              "danske kroner"
+            ]
+          },
+          "kp_nordiske-lande_03": {
+            "hint": "Find svaret i kilderne til: Lande og styreformer.",
+            "explanation": "Kort svar: euro. Forklar hvorfor det er mere præcist end: svenske kroner · finske mark · norske kroner.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "svenske kroner",
+              "finske mark",
+              "norske kroner"
+            ]
+          },
+          "kp_nordiske-lande_04": {
+            "hint": "Find svaret i kilderne til: Lande og styreformer.",
+            "explanation": "Kort svar: islandske kroner. Forklar hvorfor det er mere præcist end: euro · norske kroner · danske kroner.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "euro",
+              "norske kroner",
+              "danske kroner"
+            ]
+          },
+          "kp_nordiske-lande_05": {
+            "hint": "Find svaret i kilderne til: Lande og styreformer.",
+            "explanation": "Kort svar: danske kroner. Forklar hvorfor det er mere præcist end: euro · norske kroner · svenske kroner.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "euro",
+              "norske kroner",
+              "svenske kroner"
+            ]
+          },
+          "kp_nordiske-lande_06": {
+            "hint": "Find svaret i kilderne til: Natur og geografi.",
+            "explanation": "Kort svar: 18. Forklar hvorfor det er mere præcist end: 8 · 24 · 36.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "8",
+              "24",
+              "36"
+            ]
+          },
+          "kp_nordiske-lande_07": {
+            "hint": "Find svaret i kilderne til: Natur og geografi.",
+            "explanation": "Kort svar: 6.757. Forklar hvorfor det er mere præcist end: 675 · 1.581 · 18.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "675",
+              "1.581",
+              "18"
+            ]
+          },
+          "kp_nordiske-lande_08": {
+            "hint": "Find svaret i kilderne til: Natur og geografi.",
+            "explanation": "Kort svar: Galdhøpiggen. Forklar hvorfor det er mere præcist end: Kebnekaise · Halti · Hvannadalshnúkur.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "Kebnekaise",
+              "Halti",
+              "Hvannadalshnúkur"
+            ]
+          },
+          "kp_nordiske-lande_09": {
+            "hint": "Find svaret i kilderne til: Natur og geografi.",
+            "explanation": "Kort svar: Kebnekaise. Forklar hvorfor det er mere præcist end: Galdhøpiggen · Slættaratindur · Orrdalsklint.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "Galdhøpiggen",
+              "Slættaratindur",
+              "Orrdalsklint"
+            ]
+          },
+          "kp_nordiske-lande_10": {
+            "hint": "Find svaret i kilderne til: Natur og geografi.",
+            "explanation": "Kort svar: Halti. Forklar hvorfor det er mere præcist end: Saana · Kebnekaise · Galdhøpiggen.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "Saana",
+              "Kebnekaise",
+              "Galdhøpiggen"
+            ]
+          },
+          "kp_nordiske-lande_11": {
+            "hint": "Find svaret i kilderne til: Sprog og kultur.",
+            "explanation": "Kort svar: svensk. Forklar hvorfor det er mere præcist end: finsk · dansk · norsk.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "finsk",
+              "dansk",
+              "norsk"
+            ]
+          },
+          "kp_nordiske-lande_12": {
+            "hint": "Find svaret i kilderne til: Sprog og kultur.",
+            "explanation": "Kort svar: bokmål og nynorsk. Forklar hvorfor det er mere præcist end: riksmål og landsmål · svensk og nynorsk · bokmål og samisk.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "riksmål og landsmål",
+              "svensk og nynorsk",
+              "bokmål og samisk"
+            ]
+          },
+          "kp_nordiske-lande_13": {
+            "hint": "Find svaret i kilderne til: Sprog og kultur.",
+            "explanation": "Kort svar: Ivar Aasen. Forklar hvorfor det er mere præcist end: Henrik Ibsen · Snorri Sturluson · Elias Lönnrot.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "Henrik Ibsen",
+              "Snorri Sturluson",
+              "Elias Lönnrot"
+            ]
+          },
+          "kp_nordiske-lande_14": {
+            "hint": "Find svaret i kilderne til: Sprog og kultur.",
+            "explanation": "Kort svar: æ, ø og å. Forklar hvorfor det er mere præcist end: ä, ö og ü · å, ä og ö · þ, ð og æ.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "ä, ö og ü",
+              "å, ä og ö",
+              "þ, ð og æ"
+            ]
+          },
+          "kp_nordiske-lande_15": {
+            "hint": "Find svaret i kilderne til: Sprog og kultur.",
+            "explanation": "Kort svar: meänkieli. Forklar hvorfor det er mere præcist end: islandsk · færøsk · grønlandsk.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "islandsk",
+              "færøsk",
+              "grønlandsk"
+            ]
+          },
+          "kp_nordiske-lande_16": {
+            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
+            "explanation": "Kort svar: 1973. Forklar hvorfor det er mere præcist end: 1957 · 1985 · 1995.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "1957",
+              "1985",
+              "1995"
+            ]
+          },
+          "kp_nordiske-lande_17": {
+            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
+            "explanation": "Kort svar: 1995. Forklar hvorfor det er mere præcist end: 1973 · 1986 · 2004.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "1973",
+              "1986",
+              "2004"
+            ]
+          },
+          "kp_nordiske-lande_18": {
+            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
+            "explanation": "Kort svar: 1995. Forklar hvorfor det er mere præcist end: 1973 · 1981 · 2004.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "1973",
+              "1981",
+              "2004"
+            ]
+          },
+          "kp_nordiske-lande_19": {
+            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
+            "explanation": "Kort svar: Finland. Forklar hvorfor det er mere præcist end: Sverige · Island · Danmark.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "Sverige",
+              "Island",
+              "Danmark"
+            ]
+          },
+          "kp_nordiske-lande_20": {
+            "hint": "Find svaret i kilderne til: Historie og samarbejde.",
+            "explanation": "Kort svar: Sverige. Forklar hvorfor det er mere præcist end: Finland · Norge · Island.",
+            "sourceTitle": "Nordisk Samarbejde",
+            "sourceUrl": "https://www.norden.org/",
+            "confusions": [
+              "Finland",
+              "Norge",
+              "Island"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

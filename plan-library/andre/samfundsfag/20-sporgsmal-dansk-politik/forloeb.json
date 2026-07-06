@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-dansk-politik_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Dansk politik",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_dansk-politik_01": {
-            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
-            "explanation": "Kort svar: magtens tredeling. Forklar hvorfor det er mere præcist end: negativ parlamentarisme · forholdstalsvalg · kommunalt selvstyre.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "negativ parlamentarisme",
-              "forholdstalsvalg",
-              "kommunalt selvstyre"
-            ]
-          },
-          "kp_dansk-politik_02": {
-            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
-            "explanation": "Kort svar: domstolene. Forklar hvorfor det er mere præcist end: Folketinget · regeringen · kommunerne.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Folketinget",
-              "regeringen",
-              "kommunerne"
-            ]
-          },
-          "kp_dansk-politik_03": {
-            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
-            "explanation": "Kort svar: regeringen. Forklar hvorfor det er mere præcist end: Folketingets Præsidium · Højesteret · regionerne.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Folketingets Præsidium",
-              "Højesteret",
-              "regionerne"
-            ]
-          },
-          "kp_dansk-politik_04": {
-            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
-            "explanation": "Kort svar: lovforslag. Forklar hvorfor det er mere præcist end: aktstykke · bekendtgørelse · forespørgsel.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "aktstykke",
-              "bekendtgørelse",
-              "forespørgsel"
-            ]
-          },
-          "kp_dansk-politik_05": {
-            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
-            "explanation": "Kort svar: 3. Forklar hvorfor det er mere præcist end: 1 · 2 · 4.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "1",
-              "2",
-              "4"
-            ]
-          },
-          "kp_dansk-politik_06": {
-            "hint": "Find svaret i kilderne til: Valg og partier.",
-            "explanation": "Kort svar: andre må ikke kunne se, hvad den enkelte vælger stemmer. Forklar hvorfor det er mere præcist end: stemmerne tælles ikke · kun partierne kender resultatet · vælgeren må ikke tale om politik.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "stemmerne tælles ikke",
-              "kun partierne kender resultatet",
-              "vælgeren må ikke tale om politik"
-            ]
-          },
-          "kp_dansk-politik_07": {
-            "hint": "Find svaret i kilderne til: Valg og partier.",
-            "explanation": "Kort svar: A. Forklar hvorfor det er mere præcist end: V · C · F.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "V",
-              "C",
-              "F"
-            ]
-          },
-          "kp_dansk-politik_08": {
-            "hint": "Find svaret i kilderne til: Valg og partier.",
-            "explanation": "Kort svar: V. Forklar hvorfor det er mere præcist end: A · B · Ø.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "A",
-              "B",
-              "Ø"
-            ]
-          },
-          "kp_dansk-politik_09": {
-            "hint": "Find svaret i kilderne til: Valg og partier.",
-            "explanation": "Kort svar: C. Forklar hvorfor det er mere præcist end: K · H · D.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "K",
-              "H",
-              "D"
-            ]
-          },
-          "kp_dansk-politik_10": {
-            "hint": "Find svaret i kilderne til: Valg og partier.",
-            "explanation": "Kort svar: F. Forklar hvorfor det er mere præcist end: S · G · R.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "S",
-              "G",
-              "R"
-            ]
-          },
-          "kp_dansk-politik_11": {
-            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
-            "explanation": "Kort svar: Thorvald Stauning. Forklar hvorfor det er mere præcist end: Erik Scavenius · Vilhelm Buhl · Hans Hedtoft.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Erik Scavenius",
-              "Vilhelm Buhl",
-              "Hans Hedtoft"
-            ]
-          },
-          "kp_dansk-politik_12": {
-            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
-            "explanation": "Kort svar: Erik Scavenius. Forklar hvorfor det er mere præcist end: Vilhelm Buhl · Knud Kristensen · John Christmas Møller.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Vilhelm Buhl",
-              "Knud Kristensen",
-              "John Christmas Møller"
-            ]
-          },
-          "kp_dansk-politik_13": {
-            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
-            "explanation": "Kort svar: Vilhelm Buhl. Forklar hvorfor det er mere præcist end: Hans Hedtoft · Erik Scavenius · Knud Kristensen.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Hans Hedtoft",
-              "Erik Scavenius",
-              "Knud Kristensen"
-            ]
-          },
-          "kp_dansk-politik_14": {
-            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
-            "explanation": "Kort svar: Hans Hedtoft. Forklar hvorfor det er mere præcist end: H.C. Hansen · Viggo Kampmann · Jens Otto Krag.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "H.C. Hansen",
-              "Viggo Kampmann",
-              "Jens Otto Krag"
-            ]
-          },
-          "kp_dansk-politik_15": {
-            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
-            "explanation": "Kort svar: Jens Otto Krag. Forklar hvorfor det er mere præcist end: Anker Jørgensen · Hilmar Baunsgaard · Poul Hartling.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Anker Jørgensen",
-              "Hilmar Baunsgaard",
-              "Poul Hartling"
-            ]
-          },
-          "kp_dansk-politik_16": {
-            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
-            "explanation": "Kort svar: drift af hospitaler og sundhedsvæsen. Forklar hvorfor det er mere præcist end: folkeskoleundervisning · politi og forsvar · udstedelse af pas.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "folkeskoleundervisning",
-              "politi og forsvar",
-              "udstedelse af pas"
-            ]
-          },
-          "kp_dansk-politik_17": {
-            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
-            "explanation": "Kort svar: regionsrådet. Forklar hvorfor det er mere præcist end: kommunalbestyrelsen · Folketingets Præsidium · Statsrådet.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "kommunalbestyrelsen",
-              "Folketingets Præsidium",
-              "Statsrådet"
-            ]
-          },
-          "kp_dansk-politik_18": {
-            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
-            "explanation": "Kort svar: Hillerød. Forklar hvorfor det er mere præcist end: København · Roskilde · Helsingør.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "København",
-              "Roskilde",
-              "Helsingør"
-            ]
-          },
-          "kp_dansk-politik_19": {
-            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
-            "explanation": "Kort svar: Sorø. Forklar hvorfor det er mere præcist end: Roskilde · Næstved · Køge.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Roskilde",
-              "Næstved",
-              "Køge"
-            ]
-          },
-          "kp_dansk-politik_20": {
-            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
-            "explanation": "Kort svar: Vejle. Forklar hvorfor det er mere præcist end: Odense · Esbjerg · Kolding.",
-            "sourceTitle": "Folketinget",
-            "sourceUrl": "https://www.ft.dk/",
-            "confusions": [
-              "Odense",
-              "Esbjerg",
-              "Kolding"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_dansk-politik_01": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: magtens tredeling. Forklar hvorfor det er mere præcist end: negativ parlamentarisme · forholdstalsvalg · kommunalt selvstyre.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "negativ parlamentarisme",
+              "forholdstalsvalg",
+              "kommunalt selvstyre"
+            ]
+          },
+          "kp_dansk-politik_02": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: domstolene. Forklar hvorfor det er mere præcist end: Folketinget · regeringen · kommunerne.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Folketinget",
+              "regeringen",
+              "kommunerne"
+            ]
+          },
+          "kp_dansk-politik_03": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: regeringen. Forklar hvorfor det er mere præcist end: Folketingets Præsidium · Højesteret · regionerne.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Folketingets Præsidium",
+              "Højesteret",
+              "regionerne"
+            ]
+          },
+          "kp_dansk-politik_04": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: lovforslag. Forklar hvorfor det er mere præcist end: aktstykke · bekendtgørelse · forespørgsel.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "aktstykke",
+              "bekendtgørelse",
+              "forespørgsel"
+            ]
+          },
+          "kp_dansk-politik_05": {
+            "hint": "Find svaret i kilderne til: Grundlov og Folketing.",
+            "explanation": "Kort svar: 3. Forklar hvorfor det er mere præcist end: 1 · 2 · 4.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "1",
+              "2",
+              "4"
+            ]
+          },
+          "kp_dansk-politik_06": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: andre må ikke kunne se, hvad den enkelte vælger stemmer. Forklar hvorfor det er mere præcist end: stemmerne tælles ikke · kun partierne kender resultatet · vælgeren må ikke tale om politik.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "stemmerne tælles ikke",
+              "kun partierne kender resultatet",
+              "vælgeren må ikke tale om politik"
+            ]
+          },
+          "kp_dansk-politik_07": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: A. Forklar hvorfor det er mere præcist end: V · C · F.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "V",
+              "C",
+              "F"
+            ]
+          },
+          "kp_dansk-politik_08": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: V. Forklar hvorfor det er mere præcist end: A · B · Ø.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "A",
+              "B",
+              "Ø"
+            ]
+          },
+          "kp_dansk-politik_09": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: C. Forklar hvorfor det er mere præcist end: K · H · D.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "K",
+              "H",
+              "D"
+            ]
+          },
+          "kp_dansk-politik_10": {
+            "hint": "Find svaret i kilderne til: Valg og partier.",
+            "explanation": "Kort svar: F. Forklar hvorfor det er mere præcist end: S · G · R.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "S",
+              "G",
+              "R"
+            ]
+          },
+          "kp_dansk-politik_11": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Thorvald Stauning. Forklar hvorfor det er mere præcist end: Erik Scavenius · Vilhelm Buhl · Hans Hedtoft.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Erik Scavenius",
+              "Vilhelm Buhl",
+              "Hans Hedtoft"
+            ]
+          },
+          "kp_dansk-politik_12": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Erik Scavenius. Forklar hvorfor det er mere præcist end: Vilhelm Buhl · Knud Kristensen · John Christmas Møller.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Vilhelm Buhl",
+              "Knud Kristensen",
+              "John Christmas Møller"
+            ]
+          },
+          "kp_dansk-politik_13": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Vilhelm Buhl. Forklar hvorfor det er mere præcist end: Hans Hedtoft · Erik Scavenius · Knud Kristensen.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Hans Hedtoft",
+              "Erik Scavenius",
+              "Knud Kristensen"
+            ]
+          },
+          "kp_dansk-politik_14": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Hans Hedtoft. Forklar hvorfor det er mere præcist end: H.C. Hansen · Viggo Kampmann · Jens Otto Krag.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "H.C. Hansen",
+              "Viggo Kampmann",
+              "Jens Otto Krag"
+            ]
+          },
+          "kp_dansk-politik_15": {
+            "hint": "Find svaret i kilderne til: Regeringer og politisk historie.",
+            "explanation": "Kort svar: Jens Otto Krag. Forklar hvorfor det er mere præcist end: Anker Jørgensen · Hilmar Baunsgaard · Poul Hartling.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Anker Jørgensen",
+              "Hilmar Baunsgaard",
+              "Poul Hartling"
+            ]
+          },
+          "kp_dansk-politik_16": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: drift af hospitaler og sundhedsvæsen. Forklar hvorfor det er mere præcist end: folkeskoleundervisning · politi og forsvar · udstedelse af pas.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "folkeskoleundervisning",
+              "politi og forsvar",
+              "udstedelse af pas"
+            ]
+          },
+          "kp_dansk-politik_17": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: regionsrådet. Forklar hvorfor det er mere præcist end: kommunalbestyrelsen · Folketingets Præsidium · Statsrådet.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "kommunalbestyrelsen",
+              "Folketingets Præsidium",
+              "Statsrådet"
+            ]
+          },
+          "kp_dansk-politik_18": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: Hillerød. Forklar hvorfor det er mere præcist end: København · Roskilde · Helsingør.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "København",
+              "Roskilde",
+              "Helsingør"
+            ]
+          },
+          "kp_dansk-politik_19": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: Sorø. Forklar hvorfor det er mere præcist end: Roskilde · Næstved · Køge.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Roskilde",
+              "Næstved",
+              "Køge"
+            ]
+          },
+          "kp_dansk-politik_20": {
+            "hint": "Find svaret i kilderne til: Kommuner, regioner og rigsfællesskab.",
+            "explanation": "Kort svar: Vejle. Forklar hvorfor det er mere præcist end: Odense · Esbjerg · Kolding.",
+            "sourceTitle": "Folketinget",
+            "sourceUrl": "https://www.ft.dk/",
+            "confusions": [
+              "Odense",
+              "Esbjerg",
+              "Kolding"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

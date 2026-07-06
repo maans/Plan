@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-rumfart_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Rumfart",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_rumfart_01": {
-            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
-            "explanation": "Kort svar: Alan Shepard. Forklar hvorfor det er mere præcist end: John Glenn · Gus Grissom · Scott Carpenter.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "John Glenn",
-              "Gus Grissom",
-              "Scott Carpenter"
-            ]
-          },
-          "kp_rumfart_02": {
-            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
-            "explanation": "Kort svar: Aleksej Leonov. Forklar hvorfor det er mere præcist end: Ed White · Jurij Gagarin · Neil Armstrong.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Ed White",
-              "Jurij Gagarin",
-              "Neil Armstrong"
-            ]
-          },
-          "kp_rumfart_03": {
-            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
-            "explanation": "Kort svar: Freedom 7. Forklar hvorfor det er mere præcist end: Friendship 7 · Liberty Bell 7 · Aurora 7.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Friendship 7",
-              "Liberty Bell 7",
-              "Aurora 7"
-            ]
-          },
-          "kp_rumfart_04": {
-            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
-            "explanation": "Kort svar: Voskhod 2. Forklar hvorfor det er mere præcist end: Vostok 1 · Soyuz 4 · Apollo 9.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Vostok 1",
-              "Soyuz 4",
-              "Apollo 9"
-            ]
-          },
-          "kp_rumfart_05": {
-            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
-            "explanation": "Kort svar: Vostok 6. Forklar hvorfor det er mere præcist end: Vostok 3 · Voskhod 2 · Soyuz 6.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Vostok 3",
-              "Voskhod 2",
-              "Soyuz 6"
-            ]
-          },
-          "kp_rumfart_06": {
-            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
-            "explanation": "Kort svar: Apollo-programmet. Forklar hvorfor det er mere præcist end: Mercury-programmet · Gemini-programmet · Viking-programmet.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Mercury-programmet",
-              "Gemini-programmet",
-              "Viking-programmet"
-            ]
-          },
-          "kp_rumfart_07": {
-            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
-            "explanation": "Kort svar: Saturn V. Forklar hvorfor det er mere præcist end: Saturn I · Atlas V · Titan II.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Saturn I",
-              "Atlas V",
-              "Titan II"
-            ]
-          },
-          "kp_rumfart_08": {
-            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
-            "explanation": "Kort svar: 3. Forklar hvorfor det er mere præcist end: 2 · 4 · 5.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "2",
-              "4",
-              "5"
-            ]
-          },
-          "kp_rumfart_09": {
-            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
-            "explanation": "Kort svar: orbiteren. Forklar hvorfor det er mere præcist end: den eksterne tank · faststofboosterne samlet · nyttelastkappen.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "den eksterne tank",
-              "faststofboosterne samlet",
-              "nyttelastkappen"
-            ]
-          },
-          "kp_rumfart_10": {
-            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
-            "explanation": "Kort svar: to faststofboostere og en ekstern tank. Forklar hvorfor det er mere præcist end: fire flydende boostere og en kapsel · én faststofbooster og to eksterne tanke · kun orbiteren uden hjælperaketter.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "fire flydende boostere og en kapsel",
-              "én faststofbooster og to eksterne tanke",
-              "kun orbiteren uden hjælperaketter"
-            ]
-          },
-          "kp_rumfart_11": {
-            "hint": "Find svaret i kilderne til: Månen og Mars.",
-            "explanation": "Kort svar: Chandrayaan-3. Forklar hvorfor det er mere præcist end: Chandrayaan-1 · Mangalyaan · Aditya-L1.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Chandrayaan-1",
-              "Mangalyaan",
-              "Aditya-L1"
-            ]
-          },
-          "kp_rumfart_12": {
-            "hint": "Find svaret i kilderne til: Månen og Mars.",
-            "explanation": "Kort svar: Mariner 4. Forklar hvorfor det er mere præcist end: Mariner 2 · Viking 1 · Mars 3.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Mariner 2",
-              "Viking 1",
-              "Mars 3"
-            ]
-          },
-          "kp_rumfart_13": {
-            "hint": "Find svaret i kilderne til: Månen og Mars.",
-            "explanation": "Kort svar: Yutu-2. Forklar hvorfor det er mere præcist end: Pragyan · Lunokhod 1 · Sojourner.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Pragyan",
-              "Lunokhod 1",
-              "Sojourner"
-            ]
-          },
-          "kp_rumfart_14": {
-            "hint": "Find svaret i kilderne til: Månen og Mars.",
-            "explanation": "Kort svar: Vikram. Forklar hvorfor det er mere præcist end: Pragyan · Rohini · Shakti.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Pragyan",
-              "Rohini",
-              "Shakti"
-            ]
-          },
-          "kp_rumfart_15": {
-            "hint": "Find svaret i kilderne til: Månen og Mars.",
-            "explanation": "Kort svar: Mars 3. Forklar hvorfor det er mere præcist end: Mars 2 · Viking 1 · Mariner 9.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Mars 2",
-              "Viking 1",
-              "Mariner 9"
-            ]
-          },
-          "kp_rumfart_16": {
-            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
-            "explanation": "Kort svar: modtager og videresender radiosignaler. Forklar hvorfor det er mere præcist end: producerer raketbrændstof · måler kun jordskælv under havet · lander automatisk på Månen.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "producerer raketbrændstof",
-              "måler kun jordskælv under havet",
-              "lander automatisk på Månen"
-            ]
-          },
-          "kp_rumfart_17": {
-            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
-            "explanation": "Kort svar: ét siderisk døgn, cirka 24 timer. Forklar hvorfor det er mere præcist end: 90 minutter · 12 timer · 30 døgn.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "90 minutter",
-              "12 timer",
-              "30 døgn"
-            ]
-          },
-          "kp_rumfart_18": {
-            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
-            "explanation": "Kort svar: over ækvator. Forklar hvorfor det er mere præcist end: over Nordpolen · over en vilkårlig breddegrad · direkte over nulmeridianen alene.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "over Nordpolen",
-              "over en vilkårlig breddegrad",
-              "direkte over nulmeridianen alene"
-            ]
-          },
-          "kp_rumfart_19": {
-            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
-            "explanation": "Kort svar: satellitten passerer nær begge poler. Forklar hvorfor det er mere præcist end: satellitten står stille over ækvator · satellitten kredser om Månen · satellitten forlader Solsystemet.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "satellitten står stille over ækvator",
-              "satellitten kredser om Månen",
-              "satellitten forlader Solsystemet"
-            ]
-          },
-          "kp_rumfart_20": {
-            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
-            "explanation": "Kort svar: Low Earth Orbit. Forklar hvorfor det er mere præcist end: Lunar Escape Operation · Long Elliptical Observatory · Launch Engine Output.",
-            "sourceTitle": "NASA History",
-            "sourceUrl": "https://history.nasa.gov/",
-            "confusions": [
-              "Lunar Escape Operation",
-              "Long Elliptical Observatory",
-              "Launch Engine Output"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_rumfart_01": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Alan Shepard. Forklar hvorfor det er mere præcist end: John Glenn · Gus Grissom · Scott Carpenter.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "John Glenn",
+              "Gus Grissom",
+              "Scott Carpenter"
+            ]
+          },
+          "kp_rumfart_02": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Aleksej Leonov. Forklar hvorfor det er mere præcist end: Ed White · Jurij Gagarin · Neil Armstrong.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Ed White",
+              "Jurij Gagarin",
+              "Neil Armstrong"
+            ]
+          },
+          "kp_rumfart_03": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Freedom 7. Forklar hvorfor det er mere præcist end: Friendship 7 · Liberty Bell 7 · Aurora 7.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Friendship 7",
+              "Liberty Bell 7",
+              "Aurora 7"
+            ]
+          },
+          "kp_rumfart_04": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Voskhod 2. Forklar hvorfor det er mere præcist end: Vostok 1 · Soyuz 4 · Apollo 9.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Vostok 1",
+              "Soyuz 4",
+              "Apollo 9"
+            ]
+          },
+          "kp_rumfart_05": {
+            "hint": "Find svaret i kilderne til: Pionerer og milepæle.",
+            "explanation": "Kort svar: Vostok 6. Forklar hvorfor det er mere præcist end: Vostok 3 · Voskhod 2 · Soyuz 6.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Vostok 3",
+              "Voskhod 2",
+              "Soyuz 6"
+            ]
+          },
+          "kp_rumfart_06": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: Apollo-programmet. Forklar hvorfor det er mere præcist end: Mercury-programmet · Gemini-programmet · Viking-programmet.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Mercury-programmet",
+              "Gemini-programmet",
+              "Viking-programmet"
+            ]
+          },
+          "kp_rumfart_07": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: Saturn V. Forklar hvorfor det er mere præcist end: Saturn I · Atlas V · Titan II.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Saturn I",
+              "Atlas V",
+              "Titan II"
+            ]
+          },
+          "kp_rumfart_08": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: 3. Forklar hvorfor det er mere præcist end: 2 · 4 · 5.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "2",
+              "4",
+              "5"
+            ]
+          },
+          "kp_rumfart_09": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: orbiteren. Forklar hvorfor det er mere præcist end: den eksterne tank · faststofboosterne samlet · nyttelastkappen.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "den eksterne tank",
+              "faststofboosterne samlet",
+              "nyttelastkappen"
+            ]
+          },
+          "kp_rumfart_10": {
+            "hint": "Find svaret i kilderne til: Raketter og rumfartøjer.",
+            "explanation": "Kort svar: to faststofboostere og en ekstern tank. Forklar hvorfor det er mere præcist end: fire flydende boostere og en kapsel · én faststofbooster og to eksterne tanke · kun orbiteren uden hjælperaketter.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "fire flydende boostere og en kapsel",
+              "én faststofbooster og to eksterne tanke",
+              "kun orbiteren uden hjælperaketter"
+            ]
+          },
+          "kp_rumfart_11": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Chandrayaan-3. Forklar hvorfor det er mere præcist end: Chandrayaan-1 · Mangalyaan · Aditya-L1.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Chandrayaan-1",
+              "Mangalyaan",
+              "Aditya-L1"
+            ]
+          },
+          "kp_rumfart_12": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Mariner 4. Forklar hvorfor det er mere præcist end: Mariner 2 · Viking 1 · Mars 3.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Mariner 2",
+              "Viking 1",
+              "Mars 3"
+            ]
+          },
+          "kp_rumfart_13": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Yutu-2. Forklar hvorfor det er mere præcist end: Pragyan · Lunokhod 1 · Sojourner.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Pragyan",
+              "Lunokhod 1",
+              "Sojourner"
+            ]
+          },
+          "kp_rumfart_14": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Vikram. Forklar hvorfor det er mere præcist end: Pragyan · Rohini · Shakti.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Pragyan",
+              "Rohini",
+              "Shakti"
+            ]
+          },
+          "kp_rumfart_15": {
+            "hint": "Find svaret i kilderne til: Månen og Mars.",
+            "explanation": "Kort svar: Mars 3. Forklar hvorfor det er mere præcist end: Mars 2 · Viking 1 · Mariner 9.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Mars 2",
+              "Viking 1",
+              "Mariner 9"
+            ]
+          },
+          "kp_rumfart_16": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: modtager og videresender radiosignaler. Forklar hvorfor det er mere præcist end: producerer raketbrændstof · måler kun jordskælv under havet · lander automatisk på Månen.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "producerer raketbrændstof",
+              "måler kun jordskælv under havet",
+              "lander automatisk på Månen"
+            ]
+          },
+          "kp_rumfart_17": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: ét siderisk døgn, cirka 24 timer. Forklar hvorfor det er mere præcist end: 90 minutter · 12 timer · 30 døgn.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "90 minutter",
+              "12 timer",
+              "30 døgn"
+            ]
+          },
+          "kp_rumfart_18": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: over ækvator. Forklar hvorfor det er mere præcist end: over Nordpolen · over en vilkårlig breddegrad · direkte over nulmeridianen alene.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "over Nordpolen",
+              "over en vilkårlig breddegrad",
+              "direkte over nulmeridianen alene"
+            ]
+          },
+          "kp_rumfart_19": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: satellitten passerer nær begge poler. Forklar hvorfor det er mere præcist end: satellitten står stille over ækvator · satellitten kredser om Månen · satellitten forlader Solsystemet.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "satellitten står stille over ækvator",
+              "satellitten kredser om Månen",
+              "satellitten forlader Solsystemet"
+            ]
+          },
+          "kp_rumfart_20": {
+            "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
+            "explanation": "Kort svar: Low Earth Orbit. Forklar hvorfor det er mere præcist end: Lunar Escape Operation · Long Elliptical Observatory · Launch Engine Output.",
+            "sourceTitle": "NASA History",
+            "sourceUrl": "https://history.nasa.gov/",
+            "confusions": [
+              "Lunar Escape Operation",
+              "Long Elliptical Observatory",
+              "Launch Engine Output"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-verdens-maerkelige-dyr_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Verdens mærkelige dyr",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_verdens-mrkelige-dyr_01": {
-            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
-            "explanation": "Kort svar: blad-dragefisk. Forklar hvorfor det er mere præcist end: søhest · flyvefisk · kuglefisk.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "søhest",
-              "flyvefisk",
-              "kuglefisk"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_02": {
-            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
-            "explanation": "Kort svar: glasfrøer. Forklar hvorfor det er mere præcist end: giftfrøer · løvfrøer · hornfrøer.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "giftfrøer",
-              "løvfrøer",
-              "hornfrøer"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_03": {
-            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
-            "explanation": "Kort svar: tornet djævel. Forklar hvorfor det er mere præcist end: kraveøgle · blåtunget skink · varan.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "kraveøgle",
-              "blåtunget skink",
-              "varan"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_04": {
-            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
-            "explanation": "Kort svar: basilisk. Forklar hvorfor det er mere præcist end: leguan · gekko · agam.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "leguan",
-              "gekko",
-              "agam"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_05": {
-            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
-            "explanation": "Kort svar: keratin. Forklar hvorfor det er mere præcist end: kalk · kitin · benvæv.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "kalk",
-              "kitin",
-              "benvæv"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_06": {
-            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
-            "explanation": "Kort svar: New Zealand. Forklar hvorfor det er mere præcist end: Australien · Chile · Japan.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "Australien",
-              "Chile",
-              "Japan"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_07": {
-            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
-            "explanation": "Kort svar: Syd- og Sydøstasien. Forklar hvorfor det er mere præcist end: Sahara · Sydamerika · Sydeuropa.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "Sahara",
-              "Sydamerika",
-              "Sydeuropa"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_08": {
-            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
-            "explanation": "Kort svar: Centralasiens bjergkæder. Forklar hvorfor det er mere præcist end: Andesbjergene · Alperne · Atlasbjergene.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "Andesbjergene",
-              "Alperne",
-              "Atlasbjergene"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_09": {
-            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
-            "explanation": "Kort svar: Madagaskar. Forklar hvorfor det er mere præcist end: Filippinerne · Ny Guinea · Sumatra.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "Filippinerne",
-              "Ny Guinea",
-              "Sumatra"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_10": {
-            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
-            "explanation": "Kort svar: Sydamerika. Forklar hvorfor det er mere præcist end: Afrika · Asien · Australien.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "Afrika",
-              "Asien",
-              "Australien"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_11": {
-            "hint": "Find svaret i kilderne til: Adfærd og føde.",
-            "explanation": "Kort svar: lyrehalefugl. Forklar hvorfor det er mere præcist end: kookaburra · kasuar · emu.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "kookaburra",
-              "kasuar",
-              "emu"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_12": {
-            "hint": "Find svaret i kilderne til: Adfærd og føde.",
-            "explanation": "Kort svar: en dekoreret løvhytte. Forklar hvorfor det er mere præcist end: et muddertårn · en flydende rede · en underjordisk tunnel.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "et muddertårn",
-              "en flydende rede",
-              "en underjordisk tunnel"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_13": {
-            "hint": "Find svaret i kilderne til: Adfærd og føde.",
-            "explanation": "Kort svar: stor honninggøg. Forklar hvorfor det er mere præcist end: næsehornsfugl · sekretærfugl · væverfugl.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "næsehornsfugl",
-              "sekretærfugl",
-              "væverfugl"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_14": {
-            "hint": "Find svaret i kilderne til: Adfærd og føde.",
-            "explanation": "Kort svar: gødningsbille. Forklar hvorfor det er mere præcist end: oldenborre · knæler · vandkalv.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "oldenborre",
-              "knæler",
-              "vandkalv"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_15": {
-            "hint": "Find svaret i kilderne til: Adfærd og føde.",
-            "explanation": "Kort svar: kokosblæksprutte. Forklar hvorfor det er mere præcist end: nautil · sepia · kæmpeblæksprutte.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "nautil",
-              "sepia",
-              "kæmpeblæksprutte"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_16": {
-            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
-            "explanation": "Kort svar: leddyr. Forklar hvorfor det er mere præcist end: fisk · bløddyr · pighuder.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "fisk",
-              "bløddyr",
-              "pighuder"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_17": {
-            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
-            "explanation": "Kort svar: en fisk. Forklar hvorfor det er mere præcist end: et pattedyr · en padde · et krybdyr.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "et pattedyr",
-              "en padde",
-              "et krybdyr"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_18": {
-            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
-            "explanation": "Kort svar: pattedyr. Forklar hvorfor det er mere præcist end: fugle · krybdyr · padder.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "fugle",
-              "krybdyr",
-              "padder"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_19": {
-            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
-            "explanation": "Kort svar: myrepindsvin. Forklar hvorfor det er mere præcist end: pindsvin · pungdjævel · muldvarp.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "pindsvin",
-              "pungdjævel",
-              "muldvarp"
-            ]
-          },
-          "kp_verdens-mrkelige-dyr_20": {
-            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
-            "explanation": "Kort svar: nældedyr. Forklar hvorfor det er mere præcist end: bløddyr · pighuder · ledorme.",
-            "sourceTitle": "Smithsonian National Zoo",
-            "sourceUrl": "https://nationalzoo.si.edu/animals",
-            "confusions": [
-              "bløddyr",
-              "pighuder",
-              "ledorme"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_verdens-mrkelige-dyr_01": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: blad-dragefisk. Forklar hvorfor det er mere præcist end: søhest · flyvefisk · kuglefisk.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "søhest",
+              "flyvefisk",
+              "kuglefisk"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_02": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: glasfrøer. Forklar hvorfor det er mere præcist end: giftfrøer · løvfrøer · hornfrøer.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "giftfrøer",
+              "løvfrøer",
+              "hornfrøer"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_03": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: tornet djævel. Forklar hvorfor det er mere præcist end: kraveøgle · blåtunget skink · varan.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "kraveøgle",
+              "blåtunget skink",
+              "varan"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_04": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: basilisk. Forklar hvorfor det er mere præcist end: leguan · gekko · agam.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "leguan",
+              "gekko",
+              "agam"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_05": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: keratin. Forklar hvorfor det er mere præcist end: kalk · kitin · benvæv.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "kalk",
+              "kitin",
+              "benvæv"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_06": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: New Zealand. Forklar hvorfor det er mere præcist end: Australien · Chile · Japan.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Australien",
+              "Chile",
+              "Japan"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_07": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Syd- og Sydøstasien. Forklar hvorfor det er mere præcist end: Sahara · Sydamerika · Sydeuropa.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Sahara",
+              "Sydamerika",
+              "Sydeuropa"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_08": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Centralasiens bjergkæder. Forklar hvorfor det er mere præcist end: Andesbjergene · Alperne · Atlasbjergene.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Andesbjergene",
+              "Alperne",
+              "Atlasbjergene"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_09": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Madagaskar. Forklar hvorfor det er mere præcist end: Filippinerne · Ny Guinea · Sumatra.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Filippinerne",
+              "Ny Guinea",
+              "Sumatra"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_10": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Sydamerika. Forklar hvorfor det er mere præcist end: Afrika · Asien · Australien.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Afrika",
+              "Asien",
+              "Australien"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_11": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: lyrehalefugl. Forklar hvorfor det er mere præcist end: kookaburra · kasuar · emu.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "kookaburra",
+              "kasuar",
+              "emu"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_12": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: en dekoreret løvhytte. Forklar hvorfor det er mere præcist end: et muddertårn · en flydende rede · en underjordisk tunnel.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "et muddertårn",
+              "en flydende rede",
+              "en underjordisk tunnel"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_13": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: stor honninggøg. Forklar hvorfor det er mere præcist end: næsehornsfugl · sekretærfugl · væverfugl.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "næsehornsfugl",
+              "sekretærfugl",
+              "væverfugl"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_14": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: gødningsbille. Forklar hvorfor det er mere præcist end: oldenborre · knæler · vandkalv.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "oldenborre",
+              "knæler",
+              "vandkalv"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_15": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: kokosblæksprutte. Forklar hvorfor det er mere præcist end: nautil · sepia · kæmpeblæksprutte.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "nautil",
+              "sepia",
+              "kæmpeblæksprutte"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_16": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: leddyr. Forklar hvorfor det er mere præcist end: fisk · bløddyr · pighuder.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "fisk",
+              "bløddyr",
+              "pighuder"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_17": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: en fisk. Forklar hvorfor det er mere præcist end: et pattedyr · en padde · et krybdyr.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "et pattedyr",
+              "en padde",
+              "et krybdyr"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_18": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: pattedyr. Forklar hvorfor det er mere præcist end: fugle · krybdyr · padder.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "fugle",
+              "krybdyr",
+              "padder"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_19": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: myrepindsvin. Forklar hvorfor det er mere præcist end: pindsvin · pungdjævel · muldvarp.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "pindsvin",
+              "pungdjævel",
+              "muldvarp"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_20": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: nældedyr. Forklar hvorfor det er mere præcist end: bløddyr · pighuder · ledorme.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "bløddyr",
+              "pighuder",
+              "ledorme"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

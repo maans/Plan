@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-film-fra-1980erne_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Film fra 1980’erne",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_film-fra-1980erne_01": {
-            "hint": "Find svaret i kilderne til: Instruktører og film.",
-            "explanation": "Kort svar: David Lynch. Forklar hvorfor det er mere præcist end: David Cronenberg · Terry Gilliam · Alan Parker.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "David Cronenberg",
-              "Terry Gilliam",
-              "Alan Parker"
-            ]
-          },
-          "kp_film-fra-1980erne_02": {
-            "hint": "Find svaret i kilderne til: Instruktører og film.",
-            "explanation": "Kort svar: Bernardo Bertolucci. Forklar hvorfor det er mere præcist end: Federico Fellini · Franco Zeffirelli · Sergio Leone.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Federico Fellini",
-              "Franco Zeffirelli",
-              "Sergio Leone"
-            ]
-          },
-          "kp_film-fra-1980erne_03": {
-            "hint": "Find svaret i kilderne til: Instruktører og film.",
-            "explanation": "Kort svar: Giuseppe Tornatore. Forklar hvorfor det er mere præcist end: Roberto Benigni · Nanni Moretti · Ettore Scola.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Roberto Benigni",
-              "Nanni Moretti",
-              "Ettore Scola"
-            ]
-          },
-          "kp_film-fra-1980erne_04": {
-            "hint": "Find svaret i kilderne til: Instruktører og film.",
-            "explanation": "Kort svar: Hayao Miyazaki. Forklar hvorfor det er mere præcist end: Isao Takahata · Katsuhiro Otomo · Satoshi Kon.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Isao Takahata",
-              "Katsuhiro Otomo",
-              "Satoshi Kon"
-            ]
-          },
-          "kp_film-fra-1980erne_05": {
-            "hint": "Find svaret i kilderne til: Instruktører og film.",
-            "explanation": "Kort svar: Akira Kurosawa. Forklar hvorfor det er mere præcist end: Nagisa Oshima · Shohei Imamura · Masaki Kobayashi.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Nagisa Oshima",
-              "Shohei Imamura",
-              "Masaki Kobayashi"
-            ]
-          },
-          "kp_film-fra-1980erne_06": {
-            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
-            "explanation": "Kort svar: Jack Nicholson. Forklar hvorfor det er mere præcist end: Robert De Niro · Gene Hackman · Harvey Keitel.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Robert De Niro",
-              "Gene Hackman",
-              "Harvey Keitel"
-            ]
-          },
-          "kp_film-fra-1980erne_07": {
-            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
-            "explanation": "Kort svar: Robert De Niro. Forklar hvorfor det er mere præcist end: Sylvester Stallone · Nick Nolte · Al Pacino.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Sylvester Stallone",
-              "Nick Nolte",
-              "Al Pacino"
-            ]
-          },
-          "kp_film-fra-1980erne_08": {
-            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
-            "explanation": "Kort svar: Sean Connery. Forklar hvorfor det er mere præcist end: Michael Caine · Max von Sydow · Christopher Plummer.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Michael Caine",
-              "Max von Sydow",
-              "Christopher Plummer"
-            ]
-          },
-          "kp_film-fra-1980erne_09": {
-            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
-            "explanation": "Kort svar: Arnold Schwarzenegger. Forklar hvorfor det er mere præcist end: Dolph Lundgren · Sylvester Stallone · Rutger Hauer.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Dolph Lundgren",
-              "Sylvester Stallone",
-              "Rutger Hauer"
-            ]
-          },
-          "kp_film-fra-1980erne_10": {
-            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
-            "explanation": "Kort svar: Bill Murray. Forklar hvorfor det er mere præcist end: Dan Aykroyd · Harold Ramis · Chevy Chase.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Dan Aykroyd",
-              "Harold Ramis",
-              "Chevy Chase"
-            ]
-          },
-          "kp_film-fra-1980erne_11": {
-            "hint": "Find svaret i kilderne til: Oscarvindere.",
-            "explanation": "Kort svar: The Last Emperor. Forklar hvorfor det er mere præcist end: Broadcast News · Fatal Attraction · Moonstruck.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Broadcast News",
-              "Fatal Attraction",
-              "Moonstruck"
-            ]
-          },
-          "kp_film-fra-1980erne_12": {
-            "hint": "Find svaret i kilderne til: Oscarvindere.",
-            "explanation": "Kort svar: Rain Man. Forklar hvorfor det er mere præcist end: Dangerous Liaisons · Mississippi Burning · Working Girl.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Dangerous Liaisons",
-              "Mississippi Burning",
-              "Working Girl"
-            ]
-          },
-          "kp_film-fra-1980erne_13": {
-            "hint": "Find svaret i kilderne til: Oscarvindere.",
-            "explanation": "Kort svar: Driving Miss Daisy. Forklar hvorfor det er mere præcist end: Born on the Fourth of July · Dead Poets Society · My Left Foot.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Born on the Fourth of July",
-              "Dead Poets Society",
-              "My Left Foot"
-            ]
-          },
-          "kp_film-fra-1980erne_14": {
-            "hint": "Find svaret i kilderne til: Oscarvindere.",
-            "explanation": "Kort svar: Robert De Niro. Forklar hvorfor det er mere præcist end: John Hurt · Jack Lemmon · Peter O’Toole.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "John Hurt",
-              "Jack Lemmon",
-              "Peter O’Toole"
-            ]
-          },
-          "kp_film-fra-1980erne_15": {
-            "hint": "Find svaret i kilderne til: Oscarvindere.",
-            "explanation": "Kort svar: Henry Fonda. Forklar hvorfor det er mere præcist end: Burt Lancaster · Dudley Moore · Paul Newman.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Burt Lancaster",
-              "Dudley Moore",
-              "Paul Newman"
-            ]
-          },
-          "kp_film-fra-1980erne_16": {
-            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
-            "explanation": "Kort svar: Berlin. Forklar hvorfor det er mere præcist end: Heart · Blondie · The Bangles.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Heart",
-              "Blondie",
-              "The Bangles"
-            ]
-          },
-          "kp_film-fra-1980erne_17": {
-            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
-            "explanation": "Kort svar: Bill Medley og Jennifer Warnes. Forklar hvorfor det er mere præcist end: Kenny Rogers og Dolly Parton · Peter Cetera og Amy Grant · Lionel Richie og Diana Ross.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Kenny Rogers og Dolly Parton",
-              "Peter Cetera og Amy Grant",
-              "Lionel Richie og Diana Ross"
-            ]
-          },
-          "kp_film-fra-1980erne_18": {
-            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
-            "explanation": "Kort svar: Prince. Forklar hvorfor det er mere præcist end: Michael Jackson · David Bowie · Stevie Wonder.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Michael Jackson",
-              "David Bowie",
-              "Stevie Wonder"
-            ]
-          },
-          "kp_film-fra-1980erne_19": {
-            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
-            "explanation": "Kort svar: David Bowie. Forklar hvorfor det er mere præcist end: Sting · Peter Gabriel · Freddie Mercury.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Sting",
-              "Peter Gabriel",
-              "Freddie Mercury"
-            ]
-          },
-          "kp_film-fra-1980erne_20": {
-            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
-            "explanation": "Kort svar: Ennio Morricone. Forklar hvorfor det er mere præcist end: Nino Rota · Nicola Piovani · Luis Bacalov.",
-            "sourceTitle": "IMDb",
-            "sourceUrl": "https://www.imdb.com/",
-            "confusions": [
-              "Nino Rota",
-              "Nicola Piovani",
-              "Luis Bacalov"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_film-fra-1980erne_01": {
+            "hint": "Find svaret i kilderne til: Instruktører og film.",
+            "explanation": "Kort svar: David Lynch. Forklar hvorfor det er mere præcist end: David Cronenberg · Terry Gilliam · Alan Parker.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "David Cronenberg",
+              "Terry Gilliam",
+              "Alan Parker"
+            ]
+          },
+          "kp_film-fra-1980erne_02": {
+            "hint": "Find svaret i kilderne til: Instruktører og film.",
+            "explanation": "Kort svar: Bernardo Bertolucci. Forklar hvorfor det er mere præcist end: Federico Fellini · Franco Zeffirelli · Sergio Leone.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Federico Fellini",
+              "Franco Zeffirelli",
+              "Sergio Leone"
+            ]
+          },
+          "kp_film-fra-1980erne_03": {
+            "hint": "Find svaret i kilderne til: Instruktører og film.",
+            "explanation": "Kort svar: Giuseppe Tornatore. Forklar hvorfor det er mere præcist end: Roberto Benigni · Nanni Moretti · Ettore Scola.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Roberto Benigni",
+              "Nanni Moretti",
+              "Ettore Scola"
+            ]
+          },
+          "kp_film-fra-1980erne_04": {
+            "hint": "Find svaret i kilderne til: Instruktører og film.",
+            "explanation": "Kort svar: Hayao Miyazaki. Forklar hvorfor det er mere præcist end: Isao Takahata · Katsuhiro Otomo · Satoshi Kon.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Isao Takahata",
+              "Katsuhiro Otomo",
+              "Satoshi Kon"
+            ]
+          },
+          "kp_film-fra-1980erne_05": {
+            "hint": "Find svaret i kilderne til: Instruktører og film.",
+            "explanation": "Kort svar: Akira Kurosawa. Forklar hvorfor det er mere præcist end: Nagisa Oshima · Shohei Imamura · Masaki Kobayashi.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Nagisa Oshima",
+              "Shohei Imamura",
+              "Masaki Kobayashi"
+            ]
+          },
+          "kp_film-fra-1980erne_06": {
+            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
+            "explanation": "Kort svar: Jack Nicholson. Forklar hvorfor det er mere præcist end: Robert De Niro · Gene Hackman · Harvey Keitel.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Robert De Niro",
+              "Gene Hackman",
+              "Harvey Keitel"
+            ]
+          },
+          "kp_film-fra-1980erne_07": {
+            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
+            "explanation": "Kort svar: Robert De Niro. Forklar hvorfor det er mere præcist end: Sylvester Stallone · Nick Nolte · Al Pacino.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Sylvester Stallone",
+              "Nick Nolte",
+              "Al Pacino"
+            ]
+          },
+          "kp_film-fra-1980erne_08": {
+            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
+            "explanation": "Kort svar: Sean Connery. Forklar hvorfor det er mere præcist end: Michael Caine · Max von Sydow · Christopher Plummer.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Michael Caine",
+              "Max von Sydow",
+              "Christopher Plummer"
+            ]
+          },
+          "kp_film-fra-1980erne_09": {
+            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
+            "explanation": "Kort svar: Arnold Schwarzenegger. Forklar hvorfor det er mere præcist end: Dolph Lundgren · Sylvester Stallone · Rutger Hauer.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Dolph Lundgren",
+              "Sylvester Stallone",
+              "Rutger Hauer"
+            ]
+          },
+          "kp_film-fra-1980erne_10": {
+            "hint": "Find svaret i kilderne til: Roller og skuespillere.",
+            "explanation": "Kort svar: Bill Murray. Forklar hvorfor det er mere præcist end: Dan Aykroyd · Harold Ramis · Chevy Chase.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Dan Aykroyd",
+              "Harold Ramis",
+              "Chevy Chase"
+            ]
+          },
+          "kp_film-fra-1980erne_11": {
+            "hint": "Find svaret i kilderne til: Oscarvindere.",
+            "explanation": "Kort svar: The Last Emperor. Forklar hvorfor det er mere præcist end: Broadcast News · Fatal Attraction · Moonstruck.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Broadcast News",
+              "Fatal Attraction",
+              "Moonstruck"
+            ]
+          },
+          "kp_film-fra-1980erne_12": {
+            "hint": "Find svaret i kilderne til: Oscarvindere.",
+            "explanation": "Kort svar: Rain Man. Forklar hvorfor det er mere præcist end: Dangerous Liaisons · Mississippi Burning · Working Girl.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Dangerous Liaisons",
+              "Mississippi Burning",
+              "Working Girl"
+            ]
+          },
+          "kp_film-fra-1980erne_13": {
+            "hint": "Find svaret i kilderne til: Oscarvindere.",
+            "explanation": "Kort svar: Driving Miss Daisy. Forklar hvorfor det er mere præcist end: Born on the Fourth of July · Dead Poets Society · My Left Foot.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Born on the Fourth of July",
+              "Dead Poets Society",
+              "My Left Foot"
+            ]
+          },
+          "kp_film-fra-1980erne_14": {
+            "hint": "Find svaret i kilderne til: Oscarvindere.",
+            "explanation": "Kort svar: Robert De Niro. Forklar hvorfor det er mere præcist end: John Hurt · Jack Lemmon · Peter O’Toole.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "John Hurt",
+              "Jack Lemmon",
+              "Peter O’Toole"
+            ]
+          },
+          "kp_film-fra-1980erne_15": {
+            "hint": "Find svaret i kilderne til: Oscarvindere.",
+            "explanation": "Kort svar: Henry Fonda. Forklar hvorfor det er mere præcist end: Burt Lancaster · Dudley Moore · Paul Newman.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Burt Lancaster",
+              "Dudley Moore",
+              "Paul Newman"
+            ]
+          },
+          "kp_film-fra-1980erne_16": {
+            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
+            "explanation": "Kort svar: Berlin. Forklar hvorfor det er mere præcist end: Heart · Blondie · The Bangles.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Heart",
+              "Blondie",
+              "The Bangles"
+            ]
+          },
+          "kp_film-fra-1980erne_17": {
+            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
+            "explanation": "Kort svar: Bill Medley og Jennifer Warnes. Forklar hvorfor det er mere præcist end: Kenny Rogers og Dolly Parton · Peter Cetera og Amy Grant · Lionel Richie og Diana Ross.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Kenny Rogers og Dolly Parton",
+              "Peter Cetera og Amy Grant",
+              "Lionel Richie og Diana Ross"
+            ]
+          },
+          "kp_film-fra-1980erne_18": {
+            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
+            "explanation": "Kort svar: Prince. Forklar hvorfor det er mere præcist end: Michael Jackson · David Bowie · Stevie Wonder.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Michael Jackson",
+              "David Bowie",
+              "Stevie Wonder"
+            ]
+          },
+          "kp_film-fra-1980erne_19": {
+            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
+            "explanation": "Kort svar: David Bowie. Forklar hvorfor det er mere præcist end: Sting · Peter Gabriel · Freddie Mercury.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Sting",
+              "Peter Gabriel",
+              "Freddie Mercury"
+            ]
+          },
+          "kp_film-fra-1980erne_20": {
+            "hint": "Find svaret i kilderne til: Musik, teknik og filmhistorie.",
+            "explanation": "Kort svar: Ennio Morricone. Forklar hvorfor det er mere præcist end: Nino Rota · Nicola Piovani · Luis Bacalov.",
+            "sourceTitle": "IMDb",
+            "sourceUrl": "https://www.imdb.com/",
+            "confusions": [
+              "Nino Rota",
+              "Nicola Piovani",
+              "Luis Bacalov"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

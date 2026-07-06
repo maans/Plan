@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-astronomi-rum_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Astronomi og rum",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_astronomi-rum_01": {
-            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
-            "explanation": "Kort svar: Jupiter. Forklar hvorfor det er mere præcist end: Mars · Saturn · Neptun.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Mars",
-              "Saturn",
-              "Neptun"
-            ]
-          },
-          "kp_astronomi-rum_02": {
-            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
-            "explanation": "Kort svar: Mars. Forklar hvorfor det er mere præcist end: Venus · Jorden · Merkur.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Venus",
-              "Jorden",
-              "Merkur"
-            ]
-          },
-          "kp_astronomi-rum_03": {
-            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
-            "explanation": "Kort svar: Merkur. Forklar hvorfor det er mere præcist end: Venus · Mars · Jorden.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Venus",
-              "Mars",
-              "Jorden"
-            ]
-          },
-          "kp_astronomi-rum_04": {
-            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
-            "explanation": "Kort svar: Neptun. Forklar hvorfor det er mere præcist end: Uranus · Saturn · Jupiter.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Uranus",
-              "Saturn",
-              "Jupiter"
-            ]
-          },
-          "kp_astronomi-rum_05": {
-            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
-            "explanation": "Kort svar: Venus. Forklar hvorfor det er mere præcist end: Merkur · Mars · Saturn.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Merkur",
-              "Mars",
-              "Saturn"
-            ]
-          },
-          "kp_astronomi-rum_06": {
-            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
-            "explanation": "Kort svar: Charon. Forklar hvorfor det er mere præcist end: Nix · Hydra · Triton.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Nix",
-              "Hydra",
-              "Triton"
-            ]
-          },
-          "kp_astronomi-rum_07": {
-            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
-            "explanation": "Kort svar: Ceres. Forklar hvorfor det er mere præcist end: Pluto · Eris · Haumea.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Pluto",
-              "Eris",
-              "Haumea"
-            ]
-          },
-          "kp_astronomi-rum_08": {
-            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
-            "explanation": "Kort svar: Pluto. Forklar hvorfor det er mere præcist end: Ceres · Eris · Makemake.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Ceres",
-              "Eris",
-              "Makemake"
-            ]
-          },
-          "kp_astronomi-rum_09": {
-            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
-            "explanation": "Kort svar: Asteroidebæltet. Forklar hvorfor det er mere præcist end: Kuiperbæltet · Oortskyen · Van Allen-bælterne.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Kuiperbæltet",
-              "Oortskyen",
-              "Van Allen-bælterne"
-            ]
-          },
-          "kp_astronomi-rum_10": {
-            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
-            "explanation": "Kort svar: Kuiperbæltet. Forklar hvorfor det er mere præcist end: Asteroidebæltet · Orionarmen · Heliosfæren.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Asteroidebæltet",
-              "Orionarmen",
-              "Heliosfæren"
-            ]
-          },
-          "kp_astronomi-rum_11": {
-            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
-            "explanation": "Kort svar: Rigel. Forklar hvorfor det er mere præcist end: Aldebaran · Antares · Capella.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Aldebaran",
-              "Antares",
-              "Capella"
-            ]
-          },
-          "kp_astronomi-rum_12": {
-            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
-            "explanation": "Kort svar: Vega, Deneb og Altair. Forklar hvorfor det er mere præcist end: Sirius, Rigel og Betelgeuse · Polaris, Capella og Aldebaran · Antares, Spica og Regulus.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Sirius, Rigel og Betelgeuse",
-              "Polaris, Capella og Aldebaran",
-              "Antares, Spica og Regulus"
-            ]
-          },
-          "kp_astronomi-rum_13": {
-            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
-            "explanation": "Kort svar: Supernova. Forklar hvorfor det er mere præcist end: Nebula · Pulsar · Komet.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Nebula",
-              "Pulsar",
-              "Komet"
-            ]
-          },
-          "kp_astronomi-rum_14": {
-            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
-            "explanation": "Kort svar: En hurtigt roterende neutronstjerne. Forklar hvorfor det er mere præcist end: En ung planet · En type komet · En kold brun dværg.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "En ung planet",
-              "En type komet",
-              "En kold brun dværg"
-            ]
-          },
-          "kp_astronomi-rum_15": {
-            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
-            "explanation": "Kort svar: En sky af gas og støv i rummet. Forklar hvorfor det er mere præcist end: En gruppe planeter · Et sort hul uden masse · En stjernes faste overflade.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "En gruppe planeter",
-              "Et sort hul uden masse",
-              "En stjernes faste overflade"
-            ]
-          },
-          "kp_astronomi-rum_16": {
-            "hint": "Find svaret i kilderne til: Rumfart og observation.",
-            "explanation": "Kort svar: Perseverance. Forklar hvorfor det er mere præcist end: Curiosity · Spirit · Sojourner.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Curiosity",
-              "Spirit",
-              "Sojourner"
-            ]
-          },
-          "kp_astronomi-rum_17": {
-            "hint": "Find svaret i kilderne til: Rumfart og observation.",
-            "explanation": "Kort svar: Curiosity. Forklar hvorfor det er mere præcist end: Perseverance · Opportunity · Viking 1.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Perseverance",
-              "Opportunity",
-              "Viking 1"
-            ]
-          },
-          "kp_astronomi-rum_18": {
-            "hint": "Find svaret i kilderne til: Rumfart og observation.",
-            "explanation": "Kort svar: Voyager 1. Forklar hvorfor det er mere præcist end: Voyager 2 · New Horizons · Pioneer 10.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Voyager 2",
-              "New Horizons",
-              "Pioneer 10"
-            ]
-          },
-          "kp_astronomi-rum_19": {
-            "hint": "Find svaret i kilderne til: Rumfart og observation.",
-            "explanation": "Kort svar: New Horizons. Forklar hvorfor det er mere præcist end: Cassini · Juno · Galileo.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Cassini",
-              "Juno",
-              "Galileo"
-            ]
-          },
-          "kp_astronomi-rum_20": {
-            "hint": "Find svaret i kilderne til: Rumfart og observation.",
-            "explanation": "Kort svar: Cassini. Forklar hvorfor det er mere præcist end: Juno · Galileo · Magellan.",
-            "sourceTitle": "NASA Solar System Exploration",
-            "sourceUrl": "https://science.nasa.gov/solar-system/",
-            "confusions": [
-              "Juno",
-              "Galileo",
-              "Magellan"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_astronomi-rum_01": {
+            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
+            "explanation": "Kort svar: Jupiter. Forklar hvorfor det er mere præcist end: Mars · Saturn · Neptun.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Mars",
+              "Saturn",
+              "Neptun"
+            ]
+          },
+          "kp_astronomi-rum_02": {
+            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
+            "explanation": "Kort svar: Mars. Forklar hvorfor det er mere præcist end: Venus · Jorden · Merkur.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Venus",
+              "Jorden",
+              "Merkur"
+            ]
+          },
+          "kp_astronomi-rum_03": {
+            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
+            "explanation": "Kort svar: Merkur. Forklar hvorfor det er mere præcist end: Venus · Mars · Jorden.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Venus",
+              "Mars",
+              "Jorden"
+            ]
+          },
+          "kp_astronomi-rum_04": {
+            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
+            "explanation": "Kort svar: Neptun. Forklar hvorfor det er mere præcist end: Uranus · Saturn · Jupiter.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Uranus",
+              "Saturn",
+              "Jupiter"
+            ]
+          },
+          "kp_astronomi-rum_05": {
+            "hint": "Find svaret i kilderne til: Solsystemets verdener.",
+            "explanation": "Kort svar: Venus. Forklar hvorfor det er mere præcist end: Merkur · Mars · Saturn.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Merkur",
+              "Mars",
+              "Saturn"
+            ]
+          },
+          "kp_astronomi-rum_06": {
+            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
+            "explanation": "Kort svar: Charon. Forklar hvorfor det er mere præcist end: Nix · Hydra · Triton.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Nix",
+              "Hydra",
+              "Triton"
+            ]
+          },
+          "kp_astronomi-rum_07": {
+            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
+            "explanation": "Kort svar: Ceres. Forklar hvorfor det er mere præcist end: Pluto · Eris · Haumea.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Pluto",
+              "Eris",
+              "Haumea"
+            ]
+          },
+          "kp_astronomi-rum_08": {
+            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
+            "explanation": "Kort svar: Pluto. Forklar hvorfor det er mere præcist end: Ceres · Eris · Makemake.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Ceres",
+              "Eris",
+              "Makemake"
+            ]
+          },
+          "kp_astronomi-rum_09": {
+            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
+            "explanation": "Kort svar: Asteroidebæltet. Forklar hvorfor det er mere præcist end: Kuiperbæltet · Oortskyen · Van Allen-bælterne.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Kuiperbæltet",
+              "Oortskyen",
+              "Van Allen-bælterne"
+            ]
+          },
+          "kp_astronomi-rum_10": {
+            "hint": "Find svaret i kilderne til: Måner og smålegemer.",
+            "explanation": "Kort svar: Kuiperbæltet. Forklar hvorfor det er mere præcist end: Asteroidebæltet · Orionarmen · Heliosfæren.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Asteroidebæltet",
+              "Orionarmen",
+              "Heliosfæren"
+            ]
+          },
+          "kp_astronomi-rum_11": {
+            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
+            "explanation": "Kort svar: Rigel. Forklar hvorfor det er mere præcist end: Aldebaran · Antares · Capella.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Aldebaran",
+              "Antares",
+              "Capella"
+            ]
+          },
+          "kp_astronomi-rum_12": {
+            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
+            "explanation": "Kort svar: Vega, Deneb og Altair. Forklar hvorfor det er mere præcist end: Sirius, Rigel og Betelgeuse · Polaris, Capella og Aldebaran · Antares, Spica og Regulus.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Sirius, Rigel og Betelgeuse",
+              "Polaris, Capella og Aldebaran",
+              "Antares, Spica og Regulus"
+            ]
+          },
+          "kp_astronomi-rum_13": {
+            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
+            "explanation": "Kort svar: Supernova. Forklar hvorfor det er mere præcist end: Nebula · Pulsar · Komet.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Nebula",
+              "Pulsar",
+              "Komet"
+            ]
+          },
+          "kp_astronomi-rum_14": {
+            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
+            "explanation": "Kort svar: En hurtigt roterende neutronstjerne. Forklar hvorfor det er mere præcist end: En ung planet · En type komet · En kold brun dværg.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "En ung planet",
+              "En type komet",
+              "En kold brun dværg"
+            ]
+          },
+          "kp_astronomi-rum_15": {
+            "hint": "Find svaret i kilderne til: Stjerner og galakser.",
+            "explanation": "Kort svar: En sky af gas og støv i rummet. Forklar hvorfor det er mere præcist end: En gruppe planeter · Et sort hul uden masse · En stjernes faste overflade.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "En gruppe planeter",
+              "Et sort hul uden masse",
+              "En stjernes faste overflade"
+            ]
+          },
+          "kp_astronomi-rum_16": {
+            "hint": "Find svaret i kilderne til: Rumfart og observation.",
+            "explanation": "Kort svar: Perseverance. Forklar hvorfor det er mere præcist end: Curiosity · Spirit · Sojourner.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Curiosity",
+              "Spirit",
+              "Sojourner"
+            ]
+          },
+          "kp_astronomi-rum_17": {
+            "hint": "Find svaret i kilderne til: Rumfart og observation.",
+            "explanation": "Kort svar: Curiosity. Forklar hvorfor det er mere præcist end: Perseverance · Opportunity · Viking 1.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Perseverance",
+              "Opportunity",
+              "Viking 1"
+            ]
+          },
+          "kp_astronomi-rum_18": {
+            "hint": "Find svaret i kilderne til: Rumfart og observation.",
+            "explanation": "Kort svar: Voyager 1. Forklar hvorfor det er mere præcist end: Voyager 2 · New Horizons · Pioneer 10.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Voyager 2",
+              "New Horizons",
+              "Pioneer 10"
+            ]
+          },
+          "kp_astronomi-rum_19": {
+            "hint": "Find svaret i kilderne til: Rumfart og observation.",
+            "explanation": "Kort svar: New Horizons. Forklar hvorfor det er mere præcist end: Cassini · Juno · Galileo.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Cassini",
+              "Juno",
+              "Galileo"
+            ]
+          },
+          "kp_astronomi-rum_20": {
+            "hint": "Find svaret i kilderne til: Rumfart og observation.",
+            "explanation": "Kort svar: Cassini. Forklar hvorfor det er mere præcist end: Juno · Galileo · Magellan.",
+            "sourceTitle": "NASA Solar System Exploration",
+            "sourceUrl": "https://science.nasa.gov/solar-system/",
+            "confusions": [
+              "Juno",
+              "Galileo",
+              "Magellan"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

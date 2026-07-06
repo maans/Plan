@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-musik-komponister_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Musikkens komponister",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_musik-komponister_01": {
-            "hint": "Find svaret i kilderne til: Renæssance og barok.",
-            "explanation": "Kort svar: Johann Pachelbel. Forklar hvorfor det er mere præcist end: Arcangelo Corelli · Dieterich Buxtehude · Georg Philipp Telemann.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Arcangelo Corelli",
-              "Dieterich Buxtehude",
-              "Georg Philipp Telemann"
-            ]
-          },
-          "kp_musik-komponister_02": {
-            "hint": "Find svaret i kilderne til: Renæssance og barok.",
-            "explanation": "Kort svar: Georg Friedrich Händel. Forklar hvorfor det er mere præcist end: Johann Sebastian Bach · Antonio Vivaldi · Henry Purcell.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Johann Sebastian Bach",
-              "Antonio Vivaldi",
-              "Henry Purcell"
-            ]
-          },
-          "kp_musik-komponister_03": {
-            "hint": "Find svaret i kilderne til: Renæssance og barok.",
-            "explanation": "Kort svar: Antonio Vivaldi. Forklar hvorfor det er mere præcist end: Johann Sebastian Bach · Georg Friedrich Händel · Henry Purcell.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Johann Sebastian Bach",
-              "Georg Friedrich Händel",
-              "Henry Purcell"
-            ]
-          },
-          "kp_musik-komponister_04": {
-            "hint": "Find svaret i kilderne til: Renæssance og barok.",
-            "explanation": "Kort svar: Henry Purcell. Forklar hvorfor det er mere præcist end: Johann Sebastian Bach · Georg Friedrich Händel · Antonio Vivaldi.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Johann Sebastian Bach",
-              "Georg Friedrich Händel",
-              "Antonio Vivaldi"
-            ]
-          },
-          "kp_musik-komponister_05": {
-            "hint": "Find svaret i kilderne til: Renæssance og barok.",
-            "explanation": "Kort svar: Arcangelo Corelli. Forklar hvorfor det er mere præcist end: Johann Pachelbel · Dieterich Buxtehude · Georg Philipp Telemann.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Johann Pachelbel",
-              "Dieterich Buxtehude",
-              "Georg Philipp Telemann"
-            ]
-          },
-          "kp_musik-komponister_06": {
-            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
-            "explanation": "Kort svar: Ludwig van Beethoven. Forklar hvorfor det er mere præcist end: Wolfgang Amadeus Mozart · Joseph Haydn · Luigi Boccherini.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Wolfgang Amadeus Mozart",
-              "Joseph Haydn",
-              "Luigi Boccherini"
-            ]
-          },
-          "kp_musik-komponister_07": {
-            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
-            "explanation": "Kort svar: Wolfgang Amadeus Mozart. Forklar hvorfor det er mere præcist end: Ludwig van Beethoven · Joseph Haydn · Luigi Boccherini.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Ludwig van Beethoven",
-              "Joseph Haydn",
-              "Luigi Boccherini"
-            ]
-          },
-          "kp_musik-komponister_08": {
-            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
-            "explanation": "Kort svar: Wolfgang Amadeus Mozart. Forklar hvorfor det er mere præcist end: Ludwig van Beethoven · Franz Schubert · Carl Maria von Weber.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Ludwig van Beethoven",
-              "Franz Schubert",
-              "Carl Maria von Weber"
-            ]
-          },
-          "kp_musik-komponister_09": {
-            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
-            "explanation": "Kort svar: Joseph Haydn. Forklar hvorfor det er mere præcist end: Wolfgang Amadeus Mozart · Ludwig van Beethoven · Luigi Boccherini.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Wolfgang Amadeus Mozart",
-              "Ludwig van Beethoven",
-              "Luigi Boccherini"
-            ]
-          },
-          "kp_musik-komponister_10": {
-            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
-            "explanation": "Kort svar: Luigi Boccherini. Forklar hvorfor det er mere præcist end: Wolfgang Amadeus Mozart · Ludwig van Beethoven · Joseph Haydn.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Wolfgang Amadeus Mozart",
-              "Ludwig van Beethoven",
-              "Joseph Haydn"
-            ]
-          },
-          "kp_musik-komponister_11": {
-            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
-            "explanation": "Kort svar: Georges Bizet. Forklar hvorfor det er mere præcist end: Richard Wagner · Giuseppe Verdi · Giacomo Puccini.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Richard Wagner",
-              "Giuseppe Verdi",
-              "Giacomo Puccini"
-            ]
-          },
-          "kp_musik-komponister_12": {
-            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
-            "explanation": "Kort svar: Giuseppe Verdi. Forklar hvorfor det er mere præcist end: Richard Wagner · Giacomo Puccini · Georges Bizet.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Richard Wagner",
-              "Giacomo Puccini",
-              "Georges Bizet"
-            ]
-          },
-          "kp_musik-komponister_13": {
-            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
-            "explanation": "Kort svar: Giacomo Puccini. Forklar hvorfor det er mere præcist end: Richard Wagner · Giuseppe Verdi · Georges Bizet.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Richard Wagner",
-              "Giuseppe Verdi",
-              "Georges Bizet"
-            ]
-          },
-          "kp_musik-komponister_14": {
-            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
-            "explanation": "Kort svar: Bedřich Smetana. Forklar hvorfor det er mere præcist end: Johannes Brahms · Pjotr Tjajkovskij · Antonín Dvořák.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Johannes Brahms",
-              "Pjotr Tjajkovskij",
-              "Antonín Dvořák"
-            ]
-          },
-          "kp_musik-komponister_15": {
-            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
-            "explanation": "Kort svar: Richard Wagner. Forklar hvorfor det er mere præcist end: Giuseppe Verdi · Giacomo Puccini · Georges Bizet.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Giuseppe Verdi",
-              "Giacomo Puccini",
-              "Georges Bizet"
-            ]
-          },
-          "kp_musik-komponister_16": {
-            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
-            "explanation": "Kort svar: George Gershwin. Forklar hvorfor det er mere præcist end: Benjamin Britten · Aaron Copland · Leonard Bernstein.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Benjamin Britten",
-              "Aaron Copland",
-              "Leonard Bernstein"
-            ]
-          },
-          "kp_musik-komponister_17": {
-            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
-            "explanation": "Kort svar: Dmitrij Sjostakovitj. Forklar hvorfor det er mere præcist end: Béla Bartók · Sergej Prokofjev · Leoš Janáček.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Béla Bartók",
-              "Sergej Prokofjev",
-              "Leoš Janáček"
-            ]
-          },
-          "kp_musik-komponister_18": {
-            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
-            "explanation": "Kort svar: Benjamin Britten. Forklar hvorfor det er mere præcist end: Aaron Copland · George Gershwin · Leonard Bernstein.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Aaron Copland",
-              "George Gershwin",
-              "Leonard Bernstein"
-            ]
-          },
-          "kp_musik-komponister_19": {
-            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
-            "explanation": "Kort svar: Aaron Copland. Forklar hvorfor det er mere præcist end: Benjamin Britten · George Gershwin · Leonard Bernstein.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Benjamin Britten",
-              "George Gershwin",
-              "Leonard Bernstein"
-            ]
-          },
-          "kp_musik-komponister_20": {
-            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
-            "explanation": "Kort svar: Leoš Janáček. Forklar hvorfor det er mere præcist end: Béla Bartók · Sergej Prokofjev · Dmitrij Sjostakovitj.",
-            "sourceTitle": "IMSLP · Petrucci Music Library",
-            "sourceUrl": "https://imslp.org/",
-            "confusions": [
-              "Béla Bartók",
-              "Sergej Prokofjev",
-              "Dmitrij Sjostakovitj"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_musik-komponister_01": {
+            "hint": "Find svaret i kilderne til: Renæssance og barok.",
+            "explanation": "Kort svar: Johann Pachelbel. Forklar hvorfor det er mere præcist end: Arcangelo Corelli · Dieterich Buxtehude · Georg Philipp Telemann.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Arcangelo Corelli",
+              "Dieterich Buxtehude",
+              "Georg Philipp Telemann"
+            ]
+          },
+          "kp_musik-komponister_02": {
+            "hint": "Find svaret i kilderne til: Renæssance og barok.",
+            "explanation": "Kort svar: Georg Friedrich Händel. Forklar hvorfor det er mere præcist end: Johann Sebastian Bach · Antonio Vivaldi · Henry Purcell.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Johann Sebastian Bach",
+              "Antonio Vivaldi",
+              "Henry Purcell"
+            ]
+          },
+          "kp_musik-komponister_03": {
+            "hint": "Find svaret i kilderne til: Renæssance og barok.",
+            "explanation": "Kort svar: Antonio Vivaldi. Forklar hvorfor det er mere præcist end: Johann Sebastian Bach · Georg Friedrich Händel · Henry Purcell.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Johann Sebastian Bach",
+              "Georg Friedrich Händel",
+              "Henry Purcell"
+            ]
+          },
+          "kp_musik-komponister_04": {
+            "hint": "Find svaret i kilderne til: Renæssance og barok.",
+            "explanation": "Kort svar: Henry Purcell. Forklar hvorfor det er mere præcist end: Johann Sebastian Bach · Georg Friedrich Händel · Antonio Vivaldi.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Johann Sebastian Bach",
+              "Georg Friedrich Händel",
+              "Antonio Vivaldi"
+            ]
+          },
+          "kp_musik-komponister_05": {
+            "hint": "Find svaret i kilderne til: Renæssance og barok.",
+            "explanation": "Kort svar: Arcangelo Corelli. Forklar hvorfor det er mere præcist end: Johann Pachelbel · Dieterich Buxtehude · Georg Philipp Telemann.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Johann Pachelbel",
+              "Dieterich Buxtehude",
+              "Georg Philipp Telemann"
+            ]
+          },
+          "kp_musik-komponister_06": {
+            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
+            "explanation": "Kort svar: Ludwig van Beethoven. Forklar hvorfor det er mere præcist end: Wolfgang Amadeus Mozart · Joseph Haydn · Luigi Boccherini.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Wolfgang Amadeus Mozart",
+              "Joseph Haydn",
+              "Luigi Boccherini"
+            ]
+          },
+          "kp_musik-komponister_07": {
+            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
+            "explanation": "Kort svar: Wolfgang Amadeus Mozart. Forklar hvorfor det er mere præcist end: Ludwig van Beethoven · Joseph Haydn · Luigi Boccherini.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Ludwig van Beethoven",
+              "Joseph Haydn",
+              "Luigi Boccherini"
+            ]
+          },
+          "kp_musik-komponister_08": {
+            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
+            "explanation": "Kort svar: Wolfgang Amadeus Mozart. Forklar hvorfor det er mere præcist end: Ludwig van Beethoven · Franz Schubert · Carl Maria von Weber.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Ludwig van Beethoven",
+              "Franz Schubert",
+              "Carl Maria von Weber"
+            ]
+          },
+          "kp_musik-komponister_09": {
+            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
+            "explanation": "Kort svar: Joseph Haydn. Forklar hvorfor det er mere præcist end: Wolfgang Amadeus Mozart · Ludwig van Beethoven · Luigi Boccherini.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Luigi Boccherini"
+            ]
+          },
+          "kp_musik-komponister_10": {
+            "hint": "Find svaret i kilderne til: Klassik og tidlig romantik.",
+            "explanation": "Kort svar: Luigi Boccherini. Forklar hvorfor det er mere præcist end: Wolfgang Amadeus Mozart · Ludwig van Beethoven · Joseph Haydn.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Wolfgang Amadeus Mozart",
+              "Ludwig van Beethoven",
+              "Joseph Haydn"
+            ]
+          },
+          "kp_musik-komponister_11": {
+            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
+            "explanation": "Kort svar: Georges Bizet. Forklar hvorfor det er mere præcist end: Richard Wagner · Giuseppe Verdi · Giacomo Puccini.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Richard Wagner",
+              "Giuseppe Verdi",
+              "Giacomo Puccini"
+            ]
+          },
+          "kp_musik-komponister_12": {
+            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
+            "explanation": "Kort svar: Giuseppe Verdi. Forklar hvorfor det er mere præcist end: Richard Wagner · Giacomo Puccini · Georges Bizet.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Richard Wagner",
+              "Giacomo Puccini",
+              "Georges Bizet"
+            ]
+          },
+          "kp_musik-komponister_13": {
+            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
+            "explanation": "Kort svar: Giacomo Puccini. Forklar hvorfor det er mere præcist end: Richard Wagner · Giuseppe Verdi · Georges Bizet.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Richard Wagner",
+              "Giuseppe Verdi",
+              "Georges Bizet"
+            ]
+          },
+          "kp_musik-komponister_14": {
+            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
+            "explanation": "Kort svar: Bedřich Smetana. Forklar hvorfor det er mere præcist end: Johannes Brahms · Pjotr Tjajkovskij · Antonín Dvořák.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Johannes Brahms",
+              "Pjotr Tjajkovskij",
+              "Antonín Dvořák"
+            ]
+          },
+          "kp_musik-komponister_15": {
+            "hint": "Find svaret i kilderne til: Romantik og nationalromantik.",
+            "explanation": "Kort svar: Richard Wagner. Forklar hvorfor det er mere præcist end: Giuseppe Verdi · Giacomo Puccini · Georges Bizet.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Giuseppe Verdi",
+              "Giacomo Puccini",
+              "Georges Bizet"
+            ]
+          },
+          "kp_musik-komponister_16": {
+            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
+            "explanation": "Kort svar: George Gershwin. Forklar hvorfor det er mere præcist end: Benjamin Britten · Aaron Copland · Leonard Bernstein.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Benjamin Britten",
+              "Aaron Copland",
+              "Leonard Bernstein"
+            ]
+          },
+          "kp_musik-komponister_17": {
+            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
+            "explanation": "Kort svar: Dmitrij Sjostakovitj. Forklar hvorfor det er mere præcist end: Béla Bartók · Sergej Prokofjev · Leoš Janáček.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Béla Bartók",
+              "Sergej Prokofjev",
+              "Leoš Janáček"
+            ]
+          },
+          "kp_musik-komponister_18": {
+            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
+            "explanation": "Kort svar: Benjamin Britten. Forklar hvorfor det er mere præcist end: Aaron Copland · George Gershwin · Leonard Bernstein.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Aaron Copland",
+              "George Gershwin",
+              "Leonard Bernstein"
+            ]
+          },
+          "kp_musik-komponister_19": {
+            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
+            "explanation": "Kort svar: Aaron Copland. Forklar hvorfor det er mere præcist end: Benjamin Britten · George Gershwin · Leonard Bernstein.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Benjamin Britten",
+              "George Gershwin",
+              "Leonard Bernstein"
+            ]
+          },
+          "kp_musik-komponister_20": {
+            "hint": "Find svaret i kilderne til: 1900-tallet og Norden.",
+            "explanation": "Kort svar: Leoš Janáček. Forklar hvorfor det er mere præcist end: Béla Bartók · Sergej Prokofjev · Dmitrij Sjostakovitj.",
+            "sourceTitle": "IMSLP · Petrucci Music Library",
+            "sourceUrl": "https://imslp.org/",
+            "confusions": [
+              "Béla Bartók",
+              "Sergej Prokofjev",
+              "Dmitrij Sjostakovitj"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-beromte-opfindelser_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Berømte opfindelser",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_beromte-opfindelser_01": {
-            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
-            "explanation": "Kort svar: George Eastman. Forklar hvorfor det er mere præcist end: Edwin Land · Louis Daguerre · Eadweard Muybridge.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Edwin Land",
-              "Louis Daguerre",
-              "Eadweard Muybridge"
-            ]
-          },
-          "kp_beromte-opfindelser_02": {
-            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
-            "explanation": "Kort svar: Cinématographe. Forklar hvorfor det er mere præcist end: kinetoskopet · fonografen · laterna magica.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "kinetoskopet",
-              "fonografen",
-              "laterna magica"
-            ]
-          },
-          "kp_beromte-opfindelser_03": {
-            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
-            "explanation": "Kort svar: daguerreotypien. Forklar hvorfor det er mere præcist end: cyanotypien · autokromprocessen · xerografien.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "cyanotypien",
-              "autokromprocessen",
-              "xerografien"
-            ]
-          },
-          "kp_beromte-opfindelser_04": {
-            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
-            "explanation": "Kort svar: Joseph Nicéphore Niépce. Forklar hvorfor det er mere præcist end: Louis Daguerre · George Eastman · William Henry Fox Talbot.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Louis Daguerre",
-              "George Eastman",
-              "William Henry Fox Talbot"
-            ]
-          },
-          "kp_beromte-opfindelser_05": {
-            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
-            "explanation": "Kort svar: Philo Farnsworth. Forklar hvorfor det er mere præcist end: John Logie Baird · Guglielmo Marconi · Edwin Land.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "John Logie Baird",
-              "Guglielmo Marconi",
-              "Edwin Land"
-            ]
-          },
-          "kp_beromte-opfindelser_06": {
-            "hint": "Find svaret i kilderne til: Transport og maskiner.",
-            "explanation": "Kort svar: en fangmekanisme, der stoppede fald ved kabelbrud. Forklar hvorfor det er mere præcist end: en elektrisk døråbner · en hydraulisk motor · en dampdrevet modvægt.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "en elektrisk døråbner",
-              "en hydraulisk motor",
-              "en dampdrevet modvægt"
-            ]
-          },
-          "kp_beromte-opfindelser_07": {
-            "hint": "Find svaret i kilderne til: Transport og maskiner.",
-            "explanation": "Kort svar: John Boyd Dunlop. Forklar hvorfor det er mere præcist end: Karl Drais · John Kemp Starley · André Michelin.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Karl Drais",
-              "John Kemp Starley",
-              "André Michelin"
-            ]
-          },
-          "kp_beromte-opfindelser_08": {
-            "hint": "Find svaret i kilderne til: Transport og maskiner.",
-            "explanation": "Kort svar: Igor Sikorsky. Forklar hvorfor det er mere præcist end: Juan de la Cierva · Frank Whittle · Glenn Curtiss.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Juan de la Cierva",
-              "Frank Whittle",
-              "Glenn Curtiss"
-            ]
-          },
-          "kp_beromte-opfindelser_09": {
-            "hint": "Find svaret i kilderne til: Transport og maskiner.",
-            "explanation": "Kort svar: George Westinghouse. Forklar hvorfor det er mere præcist end: George Stephenson · Elisha Otis · Robert Fulton.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "George Stephenson",
-              "Elisha Otis",
-              "Robert Fulton"
-            ]
-          },
-          "kp_beromte-opfindelser_10": {
-            "hint": "Find svaret i kilderne til: Transport og maskiner.",
-            "explanation": "Kort svar: Frank Whittle og Hans von Ohain. Forklar hvorfor det er mere præcist end: James Watt og Thomas Newcomen · Rudolf Diesel og Nikolaus Otto · Igor Sikorsky og Juan de la Cierva.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "James Watt og Thomas Newcomen",
-              "Rudolf Diesel og Nikolaus Otto",
-              "Igor Sikorsky og Juan de la Cierva"
-            ]
-          },
-          "kp_beromte-opfindelser_11": {
-            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
-            "explanation": "Kort svar: elektrokardiografen. Forklar hvorfor det er mere præcist end: stetoskopet · spirometeret · otoskopet.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "stetoskopet",
-              "spirometeret",
-              "otoskopet"
-            ]
-          },
-          "kp_beromte-opfindelser_12": {
-            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
-            "explanation": "Kort svar: Daniel Gabriel Fahrenheit. Forklar hvorfor det er mere præcist end: Anders Celsius · William Thomson · Evangelista Torricelli.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Anders Celsius",
-              "William Thomson",
-              "Evangelista Torricelli"
-            ]
-          },
-          "kp_beromte-opfindelser_13": {
-            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
-            "explanation": "Kort svar: William T. G. Morton. Forklar hvorfor det er mere præcist end: Horace Wells · Joseph Lister · Crawford Long.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Horace Wells",
-              "Joseph Lister",
-              "Crawford Long"
-            ]
-          },
-          "kp_beromte-opfindelser_14": {
-            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
-            "explanation": "Kort svar: Willem Einthoven. Forklar hvorfor det er mere præcist end: René Laennec · Robert Koch · Christiaan Barnard.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "René Laennec",
-              "Robert Koch",
-              "Christiaan Barnard"
-            ]
-          },
-          "kp_beromte-opfindelser_15": {
-            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
-            "explanation": "Kort svar: Charles Pravaz og Alexander Wood. Forklar hvorfor det er mere præcist end: Edward Jenner og Louis Pasteur · Joseph Lister og Robert Koch · Banting og Best.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Edward Jenner og Louis Pasteur",
-              "Joseph Lister og Robert Koch",
-              "Banting og Best"
-            ]
-          },
-          "kp_beromte-opfindelser_16": {
-            "hint": "Find svaret i kilderne til: Elektronik og computere.",
-            "explanation": "Kort svar: Intel 4004. Forklar hvorfor det er mere præcist end: Intel 8086 · MOS 6502 · Zilog Z80.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Intel 8086",
-              "MOS 6502",
-              "Zilog Z80"
-            ]
-          },
-          "kp_beromte-opfindelser_17": {
-            "hint": "Find svaret i kilderne til: Elektronik og computere.",
-            "explanation": "Kort svar: John Bardeen, Walter Brattain og William Shockley. Forklar hvorfor det er mere præcist end: Jack Kilby, Robert Noyce og Gordon Moore · Alan Turing, Max Newman og Tommy Flowers · Steve Wozniak, Steve Jobs og Ronald Wayne.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "Jack Kilby, Robert Noyce og Gordon Moore",
-              "Alan Turing, Max Newman og Tommy Flowers",
-              "Steve Wozniak, Steve Jobs og Ronald Wayne"
-            ]
-          },
-          "kp_beromte-opfindelser_18": {
-            "hint": "Find svaret i kilderne til: Elektronik og computere.",
-            "explanation": "Kort svar: Jack Kilby og Robert Noyce. Forklar hvorfor det er mere præcist end: John Bardeen og Walter Brattain · Ted Hoff og Federico Faggin · Ken Thompson og Dennis Ritchie.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "John Bardeen og Walter Brattain",
-              "Ted Hoff og Federico Faggin",
-              "Ken Thompson og Dennis Ritchie"
-            ]
-          },
-          "kp_beromte-opfindelser_19": {
-            "hint": "Find svaret i kilderne til: Elektronik og computere.",
-            "explanation": "Kort svar: UNIVAC I. Forklar hvorfor det er mere præcist end: ENIAC · Z3 · Altair 8800.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "ENIAC",
-              "Z3",
-              "Altair 8800"
-            ]
-          },
-          "kp_beromte-opfindelser_20": {
-            "hint": "Find svaret i kilderne til: Elektronik og computere.",
-            "explanation": "Kort svar: IBM 305 RAMAC. Forklar hvorfor det er mere præcist end: IBM System/360 · IBM PC · IBM Deep Blue.",
-            "sourceTitle": "Science Museum Group · Objects and stories",
-            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "confusions": [
-              "IBM System/360",
-              "IBM PC",
-              "IBM Deep Blue"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_beromte-opfindelser_01": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: George Eastman. Forklar hvorfor det er mere præcist end: Edwin Land · Louis Daguerre · Eadweard Muybridge.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Edwin Land",
+              "Louis Daguerre",
+              "Eadweard Muybridge"
+            ]
+          },
+          "kp_beromte-opfindelser_02": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: Cinématographe. Forklar hvorfor det er mere præcist end: kinetoskopet · fonografen · laterna magica.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "kinetoskopet",
+              "fonografen",
+              "laterna magica"
+            ]
+          },
+          "kp_beromte-opfindelser_03": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: daguerreotypien. Forklar hvorfor det er mere præcist end: cyanotypien · autokromprocessen · xerografien.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "cyanotypien",
+              "autokromprocessen",
+              "xerografien"
+            ]
+          },
+          "kp_beromte-opfindelser_04": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: Joseph Nicéphore Niépce. Forklar hvorfor det er mere præcist end: Louis Daguerre · George Eastman · William Henry Fox Talbot.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Louis Daguerre",
+              "George Eastman",
+              "William Henry Fox Talbot"
+            ]
+          },
+          "kp_beromte-opfindelser_05": {
+            "hint": "Find svaret i kilderne til: Kommunikation og medier.",
+            "explanation": "Kort svar: Philo Farnsworth. Forklar hvorfor det er mere præcist end: John Logie Baird · Guglielmo Marconi · Edwin Land.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "John Logie Baird",
+              "Guglielmo Marconi",
+              "Edwin Land"
+            ]
+          },
+          "kp_beromte-opfindelser_06": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: en fangmekanisme, der stoppede fald ved kabelbrud. Forklar hvorfor det er mere præcist end: en elektrisk døråbner · en hydraulisk motor · en dampdrevet modvægt.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "en elektrisk døråbner",
+              "en hydraulisk motor",
+              "en dampdrevet modvægt"
+            ]
+          },
+          "kp_beromte-opfindelser_07": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: John Boyd Dunlop. Forklar hvorfor det er mere præcist end: Karl Drais · John Kemp Starley · André Michelin.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Karl Drais",
+              "John Kemp Starley",
+              "André Michelin"
+            ]
+          },
+          "kp_beromte-opfindelser_08": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: Igor Sikorsky. Forklar hvorfor det er mere præcist end: Juan de la Cierva · Frank Whittle · Glenn Curtiss.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Juan de la Cierva",
+              "Frank Whittle",
+              "Glenn Curtiss"
+            ]
+          },
+          "kp_beromte-opfindelser_09": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: George Westinghouse. Forklar hvorfor det er mere præcist end: George Stephenson · Elisha Otis · Robert Fulton.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "George Stephenson",
+              "Elisha Otis",
+              "Robert Fulton"
+            ]
+          },
+          "kp_beromte-opfindelser_10": {
+            "hint": "Find svaret i kilderne til: Transport og maskiner.",
+            "explanation": "Kort svar: Frank Whittle og Hans von Ohain. Forklar hvorfor det er mere præcist end: James Watt og Thomas Newcomen · Rudolf Diesel og Nikolaus Otto · Igor Sikorsky og Juan de la Cierva.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "James Watt og Thomas Newcomen",
+              "Rudolf Diesel og Nikolaus Otto",
+              "Igor Sikorsky og Juan de la Cierva"
+            ]
+          },
+          "kp_beromte-opfindelser_11": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: elektrokardiografen. Forklar hvorfor det er mere præcist end: stetoskopet · spirometeret · otoskopet.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "stetoskopet",
+              "spirometeret",
+              "otoskopet"
+            ]
+          },
+          "kp_beromte-opfindelser_12": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: Daniel Gabriel Fahrenheit. Forklar hvorfor det er mere præcist end: Anders Celsius · William Thomson · Evangelista Torricelli.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Anders Celsius",
+              "William Thomson",
+              "Evangelista Torricelli"
+            ]
+          },
+          "kp_beromte-opfindelser_13": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: William T. G. Morton. Forklar hvorfor det er mere præcist end: Horace Wells · Joseph Lister · Crawford Long.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Horace Wells",
+              "Joseph Lister",
+              "Crawford Long"
+            ]
+          },
+          "kp_beromte-opfindelser_14": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: Willem Einthoven. Forklar hvorfor det er mere præcist end: René Laennec · Robert Koch · Christiaan Barnard.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "René Laennec",
+              "Robert Koch",
+              "Christiaan Barnard"
+            ]
+          },
+          "kp_beromte-opfindelser_15": {
+            "hint": "Find svaret i kilderne til: Medicin og hverdag.",
+            "explanation": "Kort svar: Charles Pravaz og Alexander Wood. Forklar hvorfor det er mere præcist end: Edward Jenner og Louis Pasteur · Joseph Lister og Robert Koch · Banting og Best.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Edward Jenner og Louis Pasteur",
+              "Joseph Lister og Robert Koch",
+              "Banting og Best"
+            ]
+          },
+          "kp_beromte-opfindelser_16": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: Intel 4004. Forklar hvorfor det er mere præcist end: Intel 8086 · MOS 6502 · Zilog Z80.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Intel 8086",
+              "MOS 6502",
+              "Zilog Z80"
+            ]
+          },
+          "kp_beromte-opfindelser_17": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: John Bardeen, Walter Brattain og William Shockley. Forklar hvorfor det er mere præcist end: Jack Kilby, Robert Noyce og Gordon Moore · Alan Turing, Max Newman og Tommy Flowers · Steve Wozniak, Steve Jobs og Ronald Wayne.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "Jack Kilby, Robert Noyce og Gordon Moore",
+              "Alan Turing, Max Newman og Tommy Flowers",
+              "Steve Wozniak, Steve Jobs og Ronald Wayne"
+            ]
+          },
+          "kp_beromte-opfindelser_18": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: Jack Kilby og Robert Noyce. Forklar hvorfor det er mere præcist end: John Bardeen og Walter Brattain · Ted Hoff og Federico Faggin · Ken Thompson og Dennis Ritchie.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "John Bardeen og Walter Brattain",
+              "Ted Hoff og Federico Faggin",
+              "Ken Thompson og Dennis Ritchie"
+            ]
+          },
+          "kp_beromte-opfindelser_19": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: UNIVAC I. Forklar hvorfor det er mere præcist end: ENIAC · Z3 · Altair 8800.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "ENIAC",
+              "Z3",
+              "Altair 8800"
+            ]
+          },
+          "kp_beromte-opfindelser_20": {
+            "hint": "Find svaret i kilderne til: Elektronik og computere.",
+            "explanation": "Kort svar: IBM 305 RAMAC. Forklar hvorfor det er mere præcist end: IBM System/360 · IBM PC · IBM Deep Blue.",
+            "sourceTitle": "Science Museum Group · Objects and stories",
+            "sourceUrl": "https://www.sciencemuseum.org.uk/objects-and-stories",
+            "confusions": [
+              "IBM System/360",
+              "IBM PC",
+              "IBM Deep Blue"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

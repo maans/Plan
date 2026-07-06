@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-biologi-natur_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Biologi og natur",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_biologi-natur_01": {
-            "hint": "Find svaret i kilderne til: Celler og krop.",
-            "explanation": "Kort svar: kloroplasten. Forklar hvorfor det er mere præcist end: mitokondriet · lysosomet · Golgiapparatet.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "mitokondriet",
-              "lysosomet",
-              "Golgiapparatet"
-            ]
-          },
-          "kp_biologi-natur_02": {
-            "hint": "Find svaret i kilderne til: Celler og krop.",
-            "explanation": "Kort svar: hvide blodlegemer. Forklar hvorfor det er mere præcist end: røde blodlegemer · blodplader · fedtceller.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "røde blodlegemer",
-              "blodplader",
-              "fedtceller"
-            ]
-          },
-          "kp_biologi-natur_03": {
-            "hint": "Find svaret i kilderne til: Celler og krop.",
-            "explanation": "Kort svar: hæmoglobin. Forklar hvorfor det er mere præcist end: insulin · keratin · fibrin.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "insulin",
-              "keratin",
-              "fibrin"
-            ]
-          },
-          "kp_biologi-natur_04": {
-            "hint": "Find svaret i kilderne til: Celler og krop.",
-            "explanation": "Kort svar: cellulose. Forklar hvorfor det er mere præcist end: kitin · glykogen · kollagen.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "kitin",
-              "glykogen",
-              "kollagen"
-            ]
-          },
-          "kp_biologi-natur_05": {
-            "hint": "Find svaret i kilderne til: Celler og krop.",
-            "explanation": "Kort svar: det endoplasmatiske retikulum. Forklar hvorfor det er mere præcist end: cytoskelettet · cellevæggen · kromosomet.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "cytoskelettet",
-              "cellevæggen",
-              "kromosomet"
-            ]
-          },
-          "kp_biologi-natur_06": {
-            "hint": "Find svaret i kilderne til: Arv og evolution.",
-            "explanation": "Kort svar: alleler. Forklar hvorfor det er mere præcist end: organeller · antigener · enzymer.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "organeller",
-              "antigener",
-              "enzymer"
-            ]
-          },
-          "kp_biologi-natur_07": {
-            "hint": "Find svaret i kilderne til: Arv og evolution.",
-            "explanation": "Kort svar: 23. Forklar hvorfor det er mere præcist end: 44 · 46 · 92.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "44",
-              "46",
-              "92"
-            ]
-          },
-          "kp_biologi-natur_08": {
-            "hint": "Find svaret i kilderne til: Arv og evolution.",
-            "explanation": "Kort svar: uracil. Forklar hvorfor det er mere præcist end: adenin · cytosin · guanin.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "adenin",
-              "cytosin",
-              "guanin"
-            ]
-          },
-          "kp_biologi-natur_09": {
-            "hint": "Find svaret i kilderne til: Arv og evolution.",
-            "explanation": "Kort svar: at de to alleler er ens. Forklar hvorfor det er mere præcist end: at allelerne altid er dominante · at genet mangler · at kromosomet er fordoblet.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "at allelerne altid er dominante",
-              "at genet mangler",
-              "at kromosomet er fordoblet"
-            ]
-          },
-          "kp_biologi-natur_10": {
-            "hint": "Find svaret i kilderne til: Arv og evolution.",
-            "explanation": "Kort svar: at de to alleler er forskellige. Forklar hvorfor det er mere præcist end: at begge alleler er ens · at organismen mangler DNA · at genet kun findes i kønsceller.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "at begge alleler er ens",
-              "at organismen mangler DNA",
-              "at genet kun findes i kønsceller"
-            ]
-          },
-          "kp_biologi-natur_11": {
-            "hint": "Find svaret i kilderne til: Planter og svampe.",
-            "explanation": "Kort svar: overførsel af pollen til et støvfang. Forklar hvorfor det er mere præcist end: sammensmeltning af kønsceller · spiring af et frø · transport af sukker i floem.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "sammensmeltning af kønsceller",
-              "spiring af et frø",
-              "transport af sukker i floem"
-            ]
-          },
-          "kp_biologi-natur_12": {
-            "hint": "Find svaret i kilderne til: Planter og svampe.",
-            "explanation": "Kort svar: støvknappen. Forklar hvorfor det er mere præcist end: støvfanget · frugtknuden · bægerbladet.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "støvfanget",
-              "frugtknuden",
-              "bægerbladet"
-            ]
-          },
-          "kp_biologi-natur_13": {
-            "hint": "Find svaret i kilderne til: Planter og svampe.",
-            "explanation": "Kort svar: støvfanget. Forklar hvorfor det er mere præcist end: støvtråden · kronbladet · frøhviden.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "støvtråden",
-              "kronbladet",
-              "frøhviden"
-            ]
-          },
-          "kp_biologi-natur_14": {
-            "hint": "Find svaret i kilderne til: Planter og svampe.",
-            "explanation": "Kort svar: transpiration. Forklar hvorfor det er mere præcist end: respiration · bestøvning · spiring.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "respiration",
-              "bestøvning",
-              "spiring"
-            ]
-          },
-          "kp_biologi-natur_15": {
-            "hint": "Find svaret i kilderne til: Planter og svampe.",
-            "explanation": "Kort svar: i frugtknuden. Forklar hvorfor det er mere præcist end: i støvknappen · i kronbladet · i stænglens bark.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "i støvknappen",
-              "i kronbladet",
-              "i stænglens bark"
-            ]
-          },
-          "kp_biologi-natur_16": {
-            "hint": "Find svaret i kilderne til: Økologi og dyr.",
-            "explanation": "Kort svar: variation af gener, arter og økosystemer. Forklar hvorfor det er mere præcist end: antallet af rovdyr alene · mængden af regn i et område · ensartethed mellem alle organismer.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "antallet af rovdyr alene",
-              "mængden af regn i et område",
-              "ensartethed mellem alle organismer"
-            ]
-          },
-          "kp_biologi-natur_17": {
-            "hint": "Find svaret i kilderne til: Økologi og dyr.",
-            "explanation": "Kort svar: en ikke-hjemmehørende art, der spreder sig og skaber skade. Forklar hvorfor det er mere præcist end: enhver sjælden hjemmehørende art · en uddød art · en art, der kun lever i havet.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "enhver sjælden hjemmehørende art",
-              "en uddød art",
-              "en art, der kun lever i havet"
-            ]
-          },
-          "kp_biologi-natur_18": {
-            "hint": "Find svaret i kilderne til: Økologi og dyr.",
-            "explanation": "Kort svar: en endemisk art. Forklar hvorfor det er mere præcist end: en invasiv art · en domesticeret art · en kosmopolitisk art.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "en invasiv art",
-              "en domesticeret art",
-              "en kosmopolitisk art"
-            ]
-          },
-          "kp_biologi-natur_19": {
-            "hint": "Find svaret i kilderne til: Økologi og dyr.",
-            "explanation": "Kort svar: fordi meget energi omsættes og afgives som varme. Forklar hvorfor det er mere præcist end: fordi energi skabes på hvert niveau · fordi rovdyr ikke respirerer · fordi planter bruger al ilt.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "fordi energi skabes på hvert niveau",
-              "fordi rovdyr ikke respirerer",
-              "fordi planter bruger al ilt"
-            ]
-          },
-          "kp_biologi-natur_20": {
-            "hint": "Find svaret i kilderne til: Økologi og dyr.",
-            "explanation": "Kort svar: en arts rolle og ressourcebrug i økosystemet. Forklar hvorfor det er mere præcist end: det samme som artens geografiske sted alene · en fysisk rede hos alle dyr · en organismes kromosomtal.",
-            "sourceTitle": "Biology LibreTexts",
-            "sourceUrl": "https://bio.libretexts.org/",
-            "confusions": [
-              "det samme som artens geografiske sted alene",
-              "en fysisk rede hos alle dyr",
-              "en organismes kromosomtal"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_biologi-natur_01": {
+            "hint": "Find svaret i kilderne til: Celler og krop.",
+            "explanation": "Kort svar: kloroplasten. Forklar hvorfor det er mere præcist end: mitokondriet · lysosomet · Golgiapparatet.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "mitokondriet",
+              "lysosomet",
+              "Golgiapparatet"
+            ]
+          },
+          "kp_biologi-natur_02": {
+            "hint": "Find svaret i kilderne til: Celler og krop.",
+            "explanation": "Kort svar: hvide blodlegemer. Forklar hvorfor det er mere præcist end: røde blodlegemer · blodplader · fedtceller.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "røde blodlegemer",
+              "blodplader",
+              "fedtceller"
+            ]
+          },
+          "kp_biologi-natur_03": {
+            "hint": "Find svaret i kilderne til: Celler og krop.",
+            "explanation": "Kort svar: hæmoglobin. Forklar hvorfor det er mere præcist end: insulin · keratin · fibrin.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "insulin",
+              "keratin",
+              "fibrin"
+            ]
+          },
+          "kp_biologi-natur_04": {
+            "hint": "Find svaret i kilderne til: Celler og krop.",
+            "explanation": "Kort svar: cellulose. Forklar hvorfor det er mere præcist end: kitin · glykogen · kollagen.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "kitin",
+              "glykogen",
+              "kollagen"
+            ]
+          },
+          "kp_biologi-natur_05": {
+            "hint": "Find svaret i kilderne til: Celler og krop.",
+            "explanation": "Kort svar: det endoplasmatiske retikulum. Forklar hvorfor det er mere præcist end: cytoskelettet · cellevæggen · kromosomet.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "cytoskelettet",
+              "cellevæggen",
+              "kromosomet"
+            ]
+          },
+          "kp_biologi-natur_06": {
+            "hint": "Find svaret i kilderne til: Arv og evolution.",
+            "explanation": "Kort svar: alleler. Forklar hvorfor det er mere præcist end: organeller · antigener · enzymer.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "organeller",
+              "antigener",
+              "enzymer"
+            ]
+          },
+          "kp_biologi-natur_07": {
+            "hint": "Find svaret i kilderne til: Arv og evolution.",
+            "explanation": "Kort svar: 23. Forklar hvorfor det er mere præcist end: 44 · 46 · 92.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "44",
+              "46",
+              "92"
+            ]
+          },
+          "kp_biologi-natur_08": {
+            "hint": "Find svaret i kilderne til: Arv og evolution.",
+            "explanation": "Kort svar: uracil. Forklar hvorfor det er mere præcist end: adenin · cytosin · guanin.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "adenin",
+              "cytosin",
+              "guanin"
+            ]
+          },
+          "kp_biologi-natur_09": {
+            "hint": "Find svaret i kilderne til: Arv og evolution.",
+            "explanation": "Kort svar: at de to alleler er ens. Forklar hvorfor det er mere præcist end: at allelerne altid er dominante · at genet mangler · at kromosomet er fordoblet.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "at allelerne altid er dominante",
+              "at genet mangler",
+              "at kromosomet er fordoblet"
+            ]
+          },
+          "kp_biologi-natur_10": {
+            "hint": "Find svaret i kilderne til: Arv og evolution.",
+            "explanation": "Kort svar: at de to alleler er forskellige. Forklar hvorfor det er mere præcist end: at begge alleler er ens · at organismen mangler DNA · at genet kun findes i kønsceller.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "at begge alleler er ens",
+              "at organismen mangler DNA",
+              "at genet kun findes i kønsceller"
+            ]
+          },
+          "kp_biologi-natur_11": {
+            "hint": "Find svaret i kilderne til: Planter og svampe.",
+            "explanation": "Kort svar: overførsel af pollen til et støvfang. Forklar hvorfor det er mere præcist end: sammensmeltning af kønsceller · spiring af et frø · transport af sukker i floem.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "sammensmeltning af kønsceller",
+              "spiring af et frø",
+              "transport af sukker i floem"
+            ]
+          },
+          "kp_biologi-natur_12": {
+            "hint": "Find svaret i kilderne til: Planter og svampe.",
+            "explanation": "Kort svar: støvknappen. Forklar hvorfor det er mere præcist end: støvfanget · frugtknuden · bægerbladet.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "støvfanget",
+              "frugtknuden",
+              "bægerbladet"
+            ]
+          },
+          "kp_biologi-natur_13": {
+            "hint": "Find svaret i kilderne til: Planter og svampe.",
+            "explanation": "Kort svar: støvfanget. Forklar hvorfor det er mere præcist end: støvtråden · kronbladet · frøhviden.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "støvtråden",
+              "kronbladet",
+              "frøhviden"
+            ]
+          },
+          "kp_biologi-natur_14": {
+            "hint": "Find svaret i kilderne til: Planter og svampe.",
+            "explanation": "Kort svar: transpiration. Forklar hvorfor det er mere præcist end: respiration · bestøvning · spiring.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "respiration",
+              "bestøvning",
+              "spiring"
+            ]
+          },
+          "kp_biologi-natur_15": {
+            "hint": "Find svaret i kilderne til: Planter og svampe.",
+            "explanation": "Kort svar: i frugtknuden. Forklar hvorfor det er mere præcist end: i støvknappen · i kronbladet · i stænglens bark.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "i støvknappen",
+              "i kronbladet",
+              "i stænglens bark"
+            ]
+          },
+          "kp_biologi-natur_16": {
+            "hint": "Find svaret i kilderne til: Økologi og dyr.",
+            "explanation": "Kort svar: variation af gener, arter og økosystemer. Forklar hvorfor det er mere præcist end: antallet af rovdyr alene · mængden af regn i et område · ensartethed mellem alle organismer.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "antallet af rovdyr alene",
+              "mængden af regn i et område",
+              "ensartethed mellem alle organismer"
+            ]
+          },
+          "kp_biologi-natur_17": {
+            "hint": "Find svaret i kilderne til: Økologi og dyr.",
+            "explanation": "Kort svar: en ikke-hjemmehørende art, der spreder sig og skaber skade. Forklar hvorfor det er mere præcist end: enhver sjælden hjemmehørende art · en uddød art · en art, der kun lever i havet.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "enhver sjælden hjemmehørende art",
+              "en uddød art",
+              "en art, der kun lever i havet"
+            ]
+          },
+          "kp_biologi-natur_18": {
+            "hint": "Find svaret i kilderne til: Økologi og dyr.",
+            "explanation": "Kort svar: en endemisk art. Forklar hvorfor det er mere præcist end: en invasiv art · en domesticeret art · en kosmopolitisk art.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "en invasiv art",
+              "en domesticeret art",
+              "en kosmopolitisk art"
+            ]
+          },
+          "kp_biologi-natur_19": {
+            "hint": "Find svaret i kilderne til: Økologi og dyr.",
+            "explanation": "Kort svar: fordi meget energi omsættes og afgives som varme. Forklar hvorfor det er mere præcist end: fordi energi skabes på hvert niveau · fordi rovdyr ikke respirerer · fordi planter bruger al ilt.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "fordi energi skabes på hvert niveau",
+              "fordi rovdyr ikke respirerer",
+              "fordi planter bruger al ilt"
+            ]
+          },
+          "kp_biologi-natur_20": {
+            "hint": "Find svaret i kilderne til: Økologi og dyr.",
+            "explanation": "Kort svar: en arts rolle og ressourcebrug i økosystemet. Forklar hvorfor det er mere præcist end: det samme som artens geografiske sted alene · en fysisk rede hos alle dyr · en organismes kromosomtal.",
+            "sourceTitle": "Biology LibreTexts",
+            "sourceUrl": "https://bio.libretexts.org/",
+            "confusions": [
+              "det samme som artens geografiske sted alene",
+              "en fysisk rede hos alle dyr",
+              "en organismes kromosomtal"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

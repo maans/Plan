@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-engelsk_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Engelsk sprog og kultur",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_engelsk-sprog-kultur_01": {
-            "hint": "Find svaret i kilderne til: Ord og vendinger.",
-            "explanation": "Kort svar: låne noget ud. Forklar hvorfor det er mere præcist end: låne af nogen · forbedre · undgå.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "låne af nogen",
-              "forbedre",
-              "undgå"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_02": {
-            "hint": "Find svaret i kilderne til: Ord og vendinger.",
-            "explanation": "Kort svar: forbedre. Forklar hvorfor det er mere præcist end: låne af nogen · låne noget ud · undgå.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "låne af nogen",
-              "låne noget ud",
-              "undgå"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_03": {
-            "hint": "Find svaret i kilderne til: Ord og vendinger.",
-            "explanation": "Kort svar: undgå. Forklar hvorfor det er mere præcist end: låne af nogen · låne noget ud · forbedre.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "låne af nogen",
-              "låne noget ud",
-              "forbedre"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_04": {
-            "hint": "Find svaret i kilderne til: Ord og vendinger.",
-            "explanation": "Kort svar: lettet. Forklar hvorfor det er mere præcist end: flov · stædig · nysgerrig.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "flov",
-              "stædig",
-              "nysgerrig"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_05": {
-            "hint": "Find svaret i kilderne til: Ord og vendinger.",
-            "explanation": "Kort svar: flov. Forklar hvorfor det er mere præcist end: lettet · stædig · nysgerrig.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "lettet",
-              "stædig",
-              "nysgerrig"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_06": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: She has lived here for five years.. Forklar hvorfor det er mere præcist end: She lived here since five years. · She has live here for five years. · She is lived here for five years..",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "She lived here since five years.",
-              "She has live here for five years.",
-              "She is lived here for five years."
-            ]
-          },
-          "kp_engelsk-sprog-kultur_07": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: At eight, I will be working.. Forklar hvorfor det er mere præcist end: At eight, I will working. · At eight, I am will work. · At eight, I will be work..",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "At eight, I will working.",
-              "At eight, I am will work.",
-              "At eight, I will be work."
-            ]
-          },
-          "kp_engelsk-sprog-kultur_08": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: I would have called you.. Forklar hvorfor det er mere præcist end: I will call you. · I would call you yesterday. · I had call you..",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "I will call you.",
-              "I would call you yesterday.",
-              "I had call you."
-            ]
-          },
-          "kp_engelsk-sprog-kultur_09": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: grundformen uden “to”. Forklar hvorfor det er mere præcist end: datidsformen · -ing-formen · perfektum participium alene.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "datidsformen",
-              "-ing-formen",
-              "perfektum participium alene"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_10": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: between you and me. Forklar hvorfor det er mere præcist end: between you and I · between your and me · between yours and I.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "between you and I",
-              "between your and me",
-              "between yours and I"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_11": {
-            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
-            "explanation": "Kort svar: James Joyce. Forklar hvorfor det er mere præcist end: J.R.R. Tolkien · Virginia Woolf · Charlotte Brontë.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "J.R.R. Tolkien",
-              "Virginia Woolf",
-              "Charlotte Brontë"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_12": {
-            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
-            "explanation": "Kort svar: Arthur Conan Doyle. Forklar hvorfor det er mere præcist end: Michael Bond · A.A. Milne · J.K. Rowling.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Michael Bond",
-              "A.A. Milne",
-              "J.K. Rowling"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_13": {
-            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
-            "explanation": "Kort svar: Michael Bond. Forklar hvorfor det er mere præcist end: Arthur Conan Doyle · A.A. Milne · J.K. Rowling.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Arthur Conan Doyle",
-              "A.A. Milne",
-              "J.K. Rowling"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_14": {
-            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
-            "explanation": "Kort svar: A.A. Milne. Forklar hvorfor det er mere præcist end: Arthur Conan Doyle · Michael Bond · J.K. Rowling.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Arthur Conan Doyle",
-              "Michael Bond",
-              "J.K. Rowling"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_15": {
-            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
-            "explanation": "Kort svar: J.K. Rowling. Forklar hvorfor det er mere præcist end: Arthur Conan Doyle · Michael Bond · A.A. Milne.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Arthur Conan Doyle",
-              "Michael Bond",
-              "A.A. Milne"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_16": {
-            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
-            "explanation": "Kort svar: New Zealand. Forklar hvorfor det er mere præcist end: Canada · Irland · Singapore.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Canada",
-              "Irland",
-              "Singapore"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_17": {
-            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
-            "explanation": "Kort svar: Singapore. Forklar hvorfor det er mere præcist end: Canada · Irland · New Zealand.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Canada",
-              "Irland",
-              "New Zealand"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_18": {
-            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
-            "explanation": "Kort svar: New York. Forklar hvorfor det er mere præcist end: Wiltshire · Toronto · Northern Territory.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "Wiltshire",
-              "Toronto",
-              "Northern Territory"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_19": {
-            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
-            "explanation": "Kort svar: Wiltshire. Forklar hvorfor det er mere præcist end: New York · Toronto · Northern Territory.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "New York",
-              "Toronto",
-              "Northern Territory"
-            ]
-          },
-          "kp_engelsk-sprog-kultur_20": {
-            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
-            "explanation": "Kort svar: Toronto. Forklar hvorfor det er mere præcist end: New York · Wiltshire · Northern Territory.",
-            "sourceTitle": "Cambridge Dictionary",
-            "sourceUrl": "https://dictionary.cambridge.org/",
-            "confusions": [
-              "New York",
-              "Wiltshire",
-              "Northern Territory"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_engelsk-sprog-kultur_01": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: låne noget ud. Forklar hvorfor det er mere præcist end: låne af nogen · forbedre · undgå.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "låne af nogen",
+              "forbedre",
+              "undgå"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_02": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: forbedre. Forklar hvorfor det er mere præcist end: låne af nogen · låne noget ud · undgå.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "låne af nogen",
+              "låne noget ud",
+              "undgå"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_03": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: undgå. Forklar hvorfor det er mere præcist end: låne af nogen · låne noget ud · forbedre.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "låne af nogen",
+              "låne noget ud",
+              "forbedre"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_04": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: lettet. Forklar hvorfor det er mere præcist end: flov · stædig · nysgerrig.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "flov",
+              "stædig",
+              "nysgerrig"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_05": {
+            "hint": "Find svaret i kilderne til: Ord og vendinger.",
+            "explanation": "Kort svar: flov. Forklar hvorfor det er mere præcist end: lettet · stædig · nysgerrig.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "lettet",
+              "stædig",
+              "nysgerrig"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_06": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: She has lived here for five years.. Forklar hvorfor det er mere præcist end: She lived here since five years. · She has live here for five years. · She is lived here for five years..",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "She lived here since five years.",
+              "She has live here for five years.",
+              "She is lived here for five years."
+            ]
+          },
+          "kp_engelsk-sprog-kultur_07": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: At eight, I will be working.. Forklar hvorfor det er mere præcist end: At eight, I will working. · At eight, I am will work. · At eight, I will be work..",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "At eight, I will working.",
+              "At eight, I am will work.",
+              "At eight, I will be work."
+            ]
+          },
+          "kp_engelsk-sprog-kultur_08": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: I would have called you.. Forklar hvorfor det er mere præcist end: I will call you. · I would call you yesterday. · I had call you..",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "I will call you.",
+              "I would call you yesterday.",
+              "I had call you."
+            ]
+          },
+          "kp_engelsk-sprog-kultur_09": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: grundformen uden “to”. Forklar hvorfor det er mere præcist end: datidsformen · -ing-formen · perfektum participium alene.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "datidsformen",
+              "-ing-formen",
+              "perfektum participium alene"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_10": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: between you and me. Forklar hvorfor det er mere præcist end: between you and I · between your and me · between yours and I.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "between you and I",
+              "between your and me",
+              "between yours and I"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_11": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: James Joyce. Forklar hvorfor det er mere præcist end: J.R.R. Tolkien · Virginia Woolf · Charlotte Brontë.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "J.R.R. Tolkien",
+              "Virginia Woolf",
+              "Charlotte Brontë"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_12": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: Arthur Conan Doyle. Forklar hvorfor det er mere præcist end: Michael Bond · A.A. Milne · J.K. Rowling.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Michael Bond",
+              "A.A. Milne",
+              "J.K. Rowling"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_13": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: Michael Bond. Forklar hvorfor det er mere præcist end: Arthur Conan Doyle · A.A. Milne · J.K. Rowling.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Arthur Conan Doyle",
+              "A.A. Milne",
+              "J.K. Rowling"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_14": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: A.A. Milne. Forklar hvorfor det er mere præcist end: Arthur Conan Doyle · Michael Bond · J.K. Rowling.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Arthur Conan Doyle",
+              "Michael Bond",
+              "J.K. Rowling"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_15": {
+            "hint": "Find svaret i kilderne til: Litteratur og kultur.",
+            "explanation": "Kort svar: J.K. Rowling. Forklar hvorfor det er mere præcist end: Arthur Conan Doyle · Michael Bond · A.A. Milne.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Arthur Conan Doyle",
+              "Michael Bond",
+              "A.A. Milne"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_16": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: New Zealand. Forklar hvorfor det er mere præcist end: Canada · Irland · Singapore.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Canada",
+              "Irland",
+              "Singapore"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_17": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: Singapore. Forklar hvorfor det er mere præcist end: Canada · Irland · New Zealand.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Canada",
+              "Irland",
+              "New Zealand"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_18": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: New York. Forklar hvorfor det er mere præcist end: Wiltshire · Toronto · Northern Territory.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "Wiltshire",
+              "Toronto",
+              "Northern Territory"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_19": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: Wiltshire. Forklar hvorfor det er mere præcist end: New York · Toronto · Northern Territory.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "New York",
+              "Toronto",
+              "Northern Territory"
+            ]
+          },
+          "kp_engelsk-sprog-kultur_20": {
+            "hint": "Find svaret i kilderne til: Den engelsktalende verden.",
+            "explanation": "Kort svar: Toronto. Forklar hvorfor det er mere præcist end: New York · Wiltshire · Northern Territory.",
+            "sourceTitle": "Cambridge Dictionary",
+            "sourceUrl": "https://dictionary.cambridge.org/",
+            "confusions": [
+              "New York",
+              "Wiltshire",
+              "Northern Territory"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

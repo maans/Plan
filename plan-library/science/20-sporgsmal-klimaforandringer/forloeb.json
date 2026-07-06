@@ -1470,235 +1470,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-klimaforandringer_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Klimaforandringer",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_klimaforandringer_01": {
-            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: den andel af indkommende lys, som en overflade reflekterer. Forklar hvorfor det er mere præcist end: luftens indhold af ilt · havets gennemsnitlige dybde · en gletsjers bevægelseshastighed.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "luftens indhold af ilt",
-              "havets gennemsnitlige dybde",
-              "en gletsjers bevægelseshastighed"
-            ]
-          },
-          "kp_klimaforandringer_02": {
-            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: en proces, der forstærker eller dæmper en indledende klimaændring. Forklar hvorfor det er mere præcist end: en meningsmåling om klima · en daglig vejrudsigt · et internationalt klimatopmøde.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "en meningsmåling om klima",
-              "en daglig vejrudsigt",
-              "et internationalt klimatopmøde"
-            ]
-          },
-          "kp_klimaforandringer_03": {
-            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: den forstærker den oprindelige ændring. Forklar hvorfor det er mere præcist end: den ophæver altid al opvarmning · den påvirker kun tidevand · den virker kun i laboratorier.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "den ophæver altid al opvarmning",
-              "den påvirker kun tidevand",
-              "den virker kun i laboratorier"
-            ]
-          },
-          "kp_klimaforandringer_04": {
-            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: små partikler eller dråber i atmosfæren. Forklar hvorfor det er mere præcist end: en type havstrøm · et lag i Jordens kerne · en måleenhed for nedbør.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "en type havstrøm",
-              "et lag i Jordens kerne",
-              "en måleenhed for nedbør"
-            ]
-          },
-          "kp_klimaforandringer_05": {
-            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen. Forklar hvorfor det er mere præcist end: vanddamp forsvinder helt fra atmosfæren · mere vanddamp stopper al solstråling · vanddamp ændrer Jordens aksehældning.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "vanddamp forsvinder helt fra atmosfæren",
-              "mere vanddamp stopper al solstråling",
-              "vanddamp ændrer Jordens aksehældning"
-            ]
-          },
-          "kp_klimaforandringer_06": {
-            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
-            "explanation": "Kort svar: forbrænding af kullets kulstof. Forklar hvorfor det er mere præcist end: vandets fordampning i køletårnet · generatorens magnetfelt · elektricitetens bevægelse i ledninger.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "vandets fordampning i køletårnet",
-              "generatorens magnetfelt",
-              "elektricitetens bevægelse i ledninger"
-            ]
-          },
-          "kp_klimaforandringer_07": {
-            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
-            "explanation": "Kort svar: oliebaserede brændstoffer. Forklar hvorfor det er mere præcist end: vindenergi · geotermisk energi · vandkraft.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "vindenergi",
-              "geotermisk energi",
-              "vandkraft"
-            ]
-          },
-          "kp_klimaforandringer_08": {
-            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
-            "explanation": "Kort svar: HFC-gasser. Forklar hvorfor det er mere præcist end: ædelgasser · sulfater · iltisotoper.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "ædelgasser",
-              "sulfater",
-              "iltisotoper"
-            ]
-          },
-          "kp_klimaforandringer_09": {
-            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
-            "explanation": "Kort svar: svovlhexafluorid, SF₆. Forklar hvorfor det er mere præcist end: svovldioxid, SO₂ · metan, CH₄ · ammoniak, NH₃.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "svovldioxid, SO₂",
-              "metan, CH₄",
-              "ammoniak, NH₃"
-            ]
-          },
-          "kp_klimaforandringer_10": {
-            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
-            "explanation": "Kort svar: PFC-gasser. Forklar hvorfor det er mere præcist end: nitrater · silikater · chlorider.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "nitrater",
-              "silikater",
-              "chlorider"
-            ]
-          },
-          "kp_klimaforandringer_11": {
-            "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: hedebølger. Forklar hvorfor det er mere præcist end: solformørkelser · jordskælv · vulkanudbrud.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "solformørkelser",
-              "jordskælv",
-              "vulkanudbrud"
-            ]
-          },
-          "kp_klimaforandringer_12": {
-            "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: en længere periode med usædvanligt lidt nedbør. Forklar hvorfor det er mere præcist end: en periode med lavt tidevand · et pludseligt temperaturfald · en storm uden lyn.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "en periode med lavt tidevand",
-              "et pludseligt temperaturfald",
-              "en storm uden lyn"
-            ]
-          },
-          "kp_klimaforandringer_13": {
-            "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp. Forklar hvorfor det er mere præcist end: varmere luft kan ikke indeholde vand · regnskyer bliver altid mindre · havene holder op med at fordampe.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "varmere luft kan ikke indeholde vand",
-              "regnskyer bliver altid mindre",
-              "havene holder op med at fordampe"
-            ]
-          },
-          "kp_klimaforandringer_14": {
-            "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: Arktis opvarmes hurtigere end det globale gennemsnit. Forklar hvorfor det er mere præcist end: Arktis bliver større hvert år · vinden i Arktis stopper helt · Solen skinner stærkere ved Nordpolen end ved ækvator.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "Arktis bliver større hvert år",
-              "vinden i Arktis stopper helt",
-              "Solen skinner stærkere ved Nordpolen end ved ækvator"
-            ]
-          },
-          "kp_klimaforandringer_15": {
-            "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: kulstof kan frigives som CO₂ og metan. Forklar hvorfor det er mere præcist end: frossen jord omdannes til sollys · permafrost absorberer al atmosfærisk ilt · optøning stopper nedbrydning af organisk stof.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "frossen jord omdannes til sollys",
-              "permafrost absorberer al atmosfærisk ilt",
-              "optøning stopper nedbrydning af organisk stof"
-            ]
-          },
-          "kp_klimaforandringer_16": {
-            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: at levere samme nytte med mindre energi. Forklar hvorfor det er mere præcist end: at bruge mere energi på samme opgave · at lagre al energi som kul · at slukke for alle elektriske apparater permanent.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "at bruge mere energi på samme opgave",
-              "at lagre al energi som kul",
-              "at slukke for alle elektriske apparater permanent"
-            ]
-          },
-          "kp_klimaforandringer_17": {
-            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: ved at flytte flere personer med færre køretøjer og mindre energi pr. passager. Forklar hvorfor det er mere præcist end: ved at gøre alle rejser længere · ved kun at bruge større parkeringspladser · ved at forbyde gang og cykling.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "ved at gøre alle rejser længere",
-              "ved kun at bruge større parkeringspladser",
-              "ved at forbyde gang og cykling"
-            ]
-          },
-          "kp_klimaforandringer_18": {
-            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: den flytter varme fra et koldere område til et varmere ved hjælp af energi. Forklar hvorfor det er mere præcist end: den producerer varme ved at brænde kul i boligen · den omdanner al varme til lys · den kan kun køle og aldrig varme.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "den producerer varme ved at brænde kul i boligen",
-              "den omdanner al varme til lys",
-              "den kan kun køle og aldrig varme"
-            ]
-          },
-          "kp_klimaforandringer_19": {
-            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt. Forklar hvorfor det er mere præcist end: at gøre elnettet mekanisk · at øge benzinforbruget · at fjerne alle batterier.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "at gøre elnettet mekanisk",
-              "at øge benzinforbruget",
-              "at fjerne alle batterier"
-            ]
-          },
-          "kp_klimaforandringer_20": {
-            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: at genetablere skov på arealer, der tidligere var skov. Forklar hvorfor det er mere præcist end: at plante skov på havbunden · at fjerne alle gamle træer · at dyrke korn i en skov.",
-            "sourceTitle": "IPCC",
-            "sourceUrl": "https://www.ipcc.ch/",
-            "confusions": [
-              "at plante skov på havbunden",
-              "at fjerne alle gamle træer",
-              "at dyrke korn i en skov"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1986,7 +1759,236 @@
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_klimaforandringer_01": {
+            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
+            "explanation": "Kort svar: den andel af indkommende lys, som en overflade reflekterer. Forklar hvorfor det er mere præcist end: luftens indhold af ilt · havets gennemsnitlige dybde · en gletsjers bevægelseshastighed.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "luftens indhold af ilt",
+              "havets gennemsnitlige dybde",
+              "en gletsjers bevægelseshastighed"
+            ]
+          },
+          "kp_klimaforandringer_02": {
+            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
+            "explanation": "Kort svar: en proces, der forstærker eller dæmper en indledende klimaændring. Forklar hvorfor det er mere præcist end: en meningsmåling om klima · en daglig vejrudsigt · et internationalt klimatopmøde.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "en meningsmåling om klima",
+              "en daglig vejrudsigt",
+              "et internationalt klimatopmøde"
+            ]
+          },
+          "kp_klimaforandringer_03": {
+            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
+            "explanation": "Kort svar: den forstærker den oprindelige ændring. Forklar hvorfor det er mere præcist end: den ophæver altid al opvarmning · den påvirker kun tidevand · den virker kun i laboratorier.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "den ophæver altid al opvarmning",
+              "den påvirker kun tidevand",
+              "den virker kun i laboratorier"
+            ]
+          },
+          "kp_klimaforandringer_04": {
+            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
+            "explanation": "Kort svar: små partikler eller dråber i atmosfæren. Forklar hvorfor det er mere præcist end: en type havstrøm · et lag i Jordens kerne · en måleenhed for nedbør.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "en type havstrøm",
+              "et lag i Jordens kerne",
+              "en måleenhed for nedbør"
+            ]
+          },
+          "kp_klimaforandringer_05": {
+            "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
+            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen. Forklar hvorfor det er mere præcist end: vanddamp forsvinder helt fra atmosfæren · mere vanddamp stopper al solstråling · vanddamp ændrer Jordens aksehældning.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "vanddamp forsvinder helt fra atmosfæren",
+              "mere vanddamp stopper al solstråling",
+              "vanddamp ændrer Jordens aksehældning"
+            ]
+          },
+          "kp_klimaforandringer_06": {
+            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
+            "explanation": "Kort svar: forbrænding af kullets kulstof. Forklar hvorfor det er mere præcist end: vandets fordampning i køletårnet · generatorens magnetfelt · elektricitetens bevægelse i ledninger.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "vandets fordampning i køletårnet",
+              "generatorens magnetfelt",
+              "elektricitetens bevægelse i ledninger"
+            ]
+          },
+          "kp_klimaforandringer_07": {
+            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
+            "explanation": "Kort svar: oliebaserede brændstoffer. Forklar hvorfor det er mere præcist end: vindenergi · geotermisk energi · vandkraft.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "vindenergi",
+              "geotermisk energi",
+              "vandkraft"
+            ]
+          },
+          "kp_klimaforandringer_08": {
+            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
+            "explanation": "Kort svar: HFC-gasser. Forklar hvorfor det er mere præcist end: ædelgasser · sulfater · iltisotoper.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "ædelgasser",
+              "sulfater",
+              "iltisotoper"
+            ]
+          },
+          "kp_klimaforandringer_09": {
+            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
+            "explanation": "Kort svar: svovlhexafluorid, SF₆. Forklar hvorfor det er mere præcist end: svovldioxid, SO₂ · metan, CH₄ · ammoniak, NH₃.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "svovldioxid, SO₂",
+              "metan, CH₄",
+              "ammoniak, NH₃"
+            ]
+          },
+          "kp_klimaforandringer_10": {
+            "hint": "Find svaret i kilderne til: Menneskelige udledninger.",
+            "explanation": "Kort svar: PFC-gasser. Forklar hvorfor det er mere præcist end: nitrater · silikater · chlorider.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "nitrater",
+              "silikater",
+              "chlorider"
+            ]
+          },
+          "kp_klimaforandringer_11": {
+            "hint": "Find svaret i kilderne til: Følger og risici.",
+            "explanation": "Kort svar: hedebølger. Forklar hvorfor det er mere præcist end: solformørkelser · jordskælv · vulkanudbrud.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "solformørkelser",
+              "jordskælv",
+              "vulkanudbrud"
+            ]
+          },
+          "kp_klimaforandringer_12": {
+            "hint": "Find svaret i kilderne til: Følger og risici.",
+            "explanation": "Kort svar: en længere periode med usædvanligt lidt nedbør. Forklar hvorfor det er mere præcist end: en periode med lavt tidevand · et pludseligt temperaturfald · en storm uden lyn.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "en periode med lavt tidevand",
+              "et pludseligt temperaturfald",
+              "en storm uden lyn"
+            ]
+          },
+          "kp_klimaforandringer_13": {
+            "hint": "Find svaret i kilderne til: Følger og risici.",
+            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp. Forklar hvorfor det er mere præcist end: varmere luft kan ikke indeholde vand · regnskyer bliver altid mindre · havene holder op med at fordampe.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "varmere luft kan ikke indeholde vand",
+              "regnskyer bliver altid mindre",
+              "havene holder op med at fordampe"
+            ]
+          },
+          "kp_klimaforandringer_14": {
+            "hint": "Find svaret i kilderne til: Følger og risici.",
+            "explanation": "Kort svar: Arktis opvarmes hurtigere end det globale gennemsnit. Forklar hvorfor det er mere præcist end: Arktis bliver større hvert år · vinden i Arktis stopper helt · Solen skinner stærkere ved Nordpolen end ved ækvator.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "Arktis bliver større hvert år",
+              "vinden i Arktis stopper helt",
+              "Solen skinner stærkere ved Nordpolen end ved ækvator"
+            ]
+          },
+          "kp_klimaforandringer_15": {
+            "hint": "Find svaret i kilderne til: Følger og risici.",
+            "explanation": "Kort svar: kulstof kan frigives som CO₂ og metan. Forklar hvorfor det er mere præcist end: frossen jord omdannes til sollys · permafrost absorberer al atmosfærisk ilt · optøning stopper nedbrydning af organisk stof.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "frossen jord omdannes til sollys",
+              "permafrost absorberer al atmosfærisk ilt",
+              "optøning stopper nedbrydning af organisk stof"
+            ]
+          },
+          "kp_klimaforandringer_16": {
+            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
+            "explanation": "Kort svar: at levere samme nytte med mindre energi. Forklar hvorfor det er mere præcist end: at bruge mere energi på samme opgave · at lagre al energi som kul · at slukke for alle elektriske apparater permanent.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "at bruge mere energi på samme opgave",
+              "at lagre al energi som kul",
+              "at slukke for alle elektriske apparater permanent"
+            ]
+          },
+          "kp_klimaforandringer_17": {
+            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
+            "explanation": "Kort svar: ved at flytte flere personer med færre køretøjer og mindre energi pr. passager. Forklar hvorfor det er mere præcist end: ved at gøre alle rejser længere · ved kun at bruge større parkeringspladser · ved at forbyde gang og cykling.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "ved at gøre alle rejser længere",
+              "ved kun at bruge større parkeringspladser",
+              "ved at forbyde gang og cykling"
+            ]
+          },
+          "kp_klimaforandringer_18": {
+            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
+            "explanation": "Kort svar: den flytter varme fra et koldere område til et varmere ved hjælp af energi. Forklar hvorfor det er mere præcist end: den producerer varme ved at brænde kul i boligen · den omdanner al varme til lys · den kan kun køle og aldrig varme.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "den producerer varme ved at brænde kul i boligen",
+              "den omdanner al varme til lys",
+              "den kan kun køle og aldrig varme"
+            ]
+          },
+          "kp_klimaforandringer_19": {
+            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
+            "explanation": "Kort svar: at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt. Forklar hvorfor det er mere præcist end: at gøre elnettet mekanisk · at øge benzinforbruget · at fjerne alle batterier.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "at gøre elnettet mekanisk",
+              "at øge benzinforbruget",
+              "at fjerne alle batterier"
+            ]
+          },
+          "kp_klimaforandringer_20": {
+            "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
+            "explanation": "Kort svar: at genetablere skov på arealer, der tidligere var skov. Forklar hvorfor det er mere præcist end: at plante skov på havbunden · at fjerne alle gamle træer · at dyrke korn i en skov.",
+            "sourceTitle": "IPCC",
+            "sourceUrl": "https://www.ipcc.ch/",
+            "confusions": [
+              "at plante skov på havbunden",
+              "at fjerne alle gamle træer",
+              "at dyrke korn i en skov"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

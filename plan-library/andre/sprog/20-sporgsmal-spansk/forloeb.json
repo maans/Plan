@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-spansk_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Spansk sprog og kultur",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_spansk-sprog-kultur_01": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: ost. Forklar hvorfor det er mere præcist end: æble · brød · mælk.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "æble",
-              "brød",
-              "mælk"
-            ]
-          },
-          "kp_spansk-sprog-kultur_02": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: brød. Forklar hvorfor det er mere præcist end: æble · ost · mælk.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "æble",
-              "ost",
-              "mælk"
-            ]
-          },
-          "kp_spansk-sprog-kultur_03": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: mælk. Forklar hvorfor det er mere præcist end: æble · ost · brød.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "æble",
-              "ost",
-              "brød"
-            ]
-          },
-          "kp_spansk-sprog-kultur_04": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: mandag. Forklar hvorfor det er mere præcist end: vi ses i morgen · i går · snart.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "vi ses i morgen",
-              "i går",
-              "snart"
-            ]
-          },
-          "kp_spansk-sprog-kultur_05": {
-            "hint": "Find svaret i kilderne til: Ord og udtryk.",
-            "explanation": "Kort svar: vi ses i morgen. Forklar hvorfor det er mere præcist end: mandag · i går · snart.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "mandag",
-              "i går",
-              "snart"
-            ]
-          },
-          "kp_spansk-sprog-kultur_06": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: hay. Forklar hvorfor det er mere præcist end: es · está · tiene.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "es",
-              "está",
-              "tiene"
-            ]
-          },
-          "kp_spansk-sprog-kultur_07": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: tengo. Forklar hvorfor det er mere præcist end: tiene · tenemos · tienes.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "tiene",
-              "tenemos",
-              "tienes"
-            ]
-          },
-          "kp_spansk-sprog-kultur_08": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: vamos. Forklar hvorfor det er mere præcist end: van · vais · voy.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "van",
-              "vais",
-              "voy"
-            ]
-          },
-          "kp_spansk-sprog-kultur_09": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: fui. Forklar hvorfor det er mere præcist end: iba · voy · iré.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "iba",
-              "voy",
-              "iré"
-            ]
-          },
-          "kp_spansk-sprog-kultur_10": {
-            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
-            "explanation": "Kort svar: era. Forklar hvorfor det er mere præcist end: fui · soy · sería.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "fui",
-              "soy",
-              "sería"
-            ]
-          },
-          "kp_spansk-sprog-kultur_11": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Mario Vargas Llosa. Forklar hvorfor det er mere præcist end: Isabel Allende · Pablo Neruda · Octavio Paz.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Isabel Allende",
-              "Pablo Neruda",
-              "Octavio Paz"
-            ]
-          },
-          "kp_spansk-sprog-kultur_12": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Fernando de Rojas. Forklar hvorfor det er mere præcist end: Quino · Juan Ramón Jiménez · Pedro Calderón de la Barca.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Quino",
-              "Juan Ramón Jiménez",
-              "Pedro Calderón de la Barca"
-            ]
-          },
-          "kp_spansk-sprog-kultur_13": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Quino. Forklar hvorfor det er mere præcist end: Fernando de Rojas · Juan Ramón Jiménez · Pedro Calderón de la Barca.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Fernando de Rojas",
-              "Juan Ramón Jiménez",
-              "Pedro Calderón de la Barca"
-            ]
-          },
-          "kp_spansk-sprog-kultur_14": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Juan Ramón Jiménez. Forklar hvorfor det er mere præcist end: Fernando de Rojas · Quino · Pedro Calderón de la Barca.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Fernando de Rojas",
-              "Quino",
-              "Pedro Calderón de la Barca"
-            ]
-          },
-          "kp_spansk-sprog-kultur_15": {
-            "hint": "Find svaret i kilderne til: Kunst og kultur.",
-            "explanation": "Kort svar: Pedro Calderón de la Barca. Forklar hvorfor det er mere præcist end: Fernando de Rojas · Quino · Juan Ramón Jiménez.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Fernando de Rojas",
-              "Quino",
-              "Juan Ramón Jiménez"
-            ]
-          },
-          "kp_spansk-sprog-kultur_16": {
-            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
-            "explanation": "Kort svar: Ækvatorialguinea. Forklar hvorfor det er mere præcist end: Paraguay · Bolivia · Peru.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Paraguay",
-              "Bolivia",
-              "Peru"
-            ]
-          },
-          "kp_spansk-sprog-kultur_17": {
-            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
-            "explanation": "Kort svar: Peru. Forklar hvorfor det er mere præcist end: Paraguay · Bolivia · Ækvatorialguinea.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Paraguay",
-              "Bolivia",
-              "Ækvatorialguinea"
-            ]
-          },
-          "kp_spansk-sprog-kultur_18": {
-            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
-            "explanation": "Kort svar: Peru. Forklar hvorfor det er mere præcist end: Chile · Mexico · Colombia.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Chile",
-              "Mexico",
-              "Colombia"
-            ]
-          },
-          "kp_spansk-sprog-kultur_19": {
-            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
-            "explanation": "Kort svar: Chile. Forklar hvorfor det er mere præcist end: Peru · Mexico · Colombia.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Peru",
-              "Mexico",
-              "Colombia"
-            ]
-          },
-          "kp_spansk-sprog-kultur_20": {
-            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
-            "explanation": "Kort svar: Mexico. Forklar hvorfor det er mere præcist end: Peru · Chile · Colombia.",
-            "sourceTitle": "Instituto Cervantes",
-            "sourceUrl": "https://cvc.cervantes.es/",
-            "confusions": [
-              "Peru",
-              "Chile",
-              "Colombia"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_spansk-sprog-kultur_01": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: ost. Forklar hvorfor det er mere præcist end: æble · brød · mælk.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "æble",
+              "brød",
+              "mælk"
+            ]
+          },
+          "kp_spansk-sprog-kultur_02": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: brød. Forklar hvorfor det er mere præcist end: æble · ost · mælk.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "æble",
+              "ost",
+              "mælk"
+            ]
+          },
+          "kp_spansk-sprog-kultur_03": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: mælk. Forklar hvorfor det er mere præcist end: æble · ost · brød.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "æble",
+              "ost",
+              "brød"
+            ]
+          },
+          "kp_spansk-sprog-kultur_04": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: mandag. Forklar hvorfor det er mere præcist end: vi ses i morgen · i går · snart.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "vi ses i morgen",
+              "i går",
+              "snart"
+            ]
+          },
+          "kp_spansk-sprog-kultur_05": {
+            "hint": "Find svaret i kilderne til: Ord og udtryk.",
+            "explanation": "Kort svar: vi ses i morgen. Forklar hvorfor det er mere præcist end: mandag · i går · snart.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "mandag",
+              "i går",
+              "snart"
+            ]
+          },
+          "kp_spansk-sprog-kultur_06": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: hay. Forklar hvorfor det er mere præcist end: es · está · tiene.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "es",
+              "está",
+              "tiene"
+            ]
+          },
+          "kp_spansk-sprog-kultur_07": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: tengo. Forklar hvorfor det er mere præcist end: tiene · tenemos · tienes.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "tiene",
+              "tenemos",
+              "tienes"
+            ]
+          },
+          "kp_spansk-sprog-kultur_08": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: vamos. Forklar hvorfor det er mere præcist end: van · vais · voy.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "van",
+              "vais",
+              "voy"
+            ]
+          },
+          "kp_spansk-sprog-kultur_09": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: fui. Forklar hvorfor det er mere præcist end: iba · voy · iré.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "iba",
+              "voy",
+              "iré"
+            ]
+          },
+          "kp_spansk-sprog-kultur_10": {
+            "hint": "Find svaret i kilderne til: Grammatik og udtale.",
+            "explanation": "Kort svar: era. Forklar hvorfor det er mere præcist end: fui · soy · sería.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "fui",
+              "soy",
+              "sería"
+            ]
+          },
+          "kp_spansk-sprog-kultur_11": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Mario Vargas Llosa. Forklar hvorfor det er mere præcist end: Isabel Allende · Pablo Neruda · Octavio Paz.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Isabel Allende",
+              "Pablo Neruda",
+              "Octavio Paz"
+            ]
+          },
+          "kp_spansk-sprog-kultur_12": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Fernando de Rojas. Forklar hvorfor det er mere præcist end: Quino · Juan Ramón Jiménez · Pedro Calderón de la Barca.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Quino",
+              "Juan Ramón Jiménez",
+              "Pedro Calderón de la Barca"
+            ]
+          },
+          "kp_spansk-sprog-kultur_13": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Quino. Forklar hvorfor det er mere præcist end: Fernando de Rojas · Juan Ramón Jiménez · Pedro Calderón de la Barca.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Fernando de Rojas",
+              "Juan Ramón Jiménez",
+              "Pedro Calderón de la Barca"
+            ]
+          },
+          "kp_spansk-sprog-kultur_14": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Juan Ramón Jiménez. Forklar hvorfor det er mere præcist end: Fernando de Rojas · Quino · Pedro Calderón de la Barca.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Fernando de Rojas",
+              "Quino",
+              "Pedro Calderón de la Barca"
+            ]
+          },
+          "kp_spansk-sprog-kultur_15": {
+            "hint": "Find svaret i kilderne til: Kunst og kultur.",
+            "explanation": "Kort svar: Pedro Calderón de la Barca. Forklar hvorfor det er mere præcist end: Fernando de Rojas · Quino · Juan Ramón Jiménez.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Fernando de Rojas",
+              "Quino",
+              "Juan Ramón Jiménez"
+            ]
+          },
+          "kp_spansk-sprog-kultur_16": {
+            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
+            "explanation": "Kort svar: Ækvatorialguinea. Forklar hvorfor det er mere præcist end: Paraguay · Bolivia · Peru.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Paraguay",
+              "Bolivia",
+              "Peru"
+            ]
+          },
+          "kp_spansk-sprog-kultur_17": {
+            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
+            "explanation": "Kort svar: Peru. Forklar hvorfor det er mere præcist end: Paraguay · Bolivia · Ækvatorialguinea.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Paraguay",
+              "Bolivia",
+              "Ækvatorialguinea"
+            ]
+          },
+          "kp_spansk-sprog-kultur_18": {
+            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
+            "explanation": "Kort svar: Peru. Forklar hvorfor det er mere præcist end: Chile · Mexico · Colombia.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Chile",
+              "Mexico",
+              "Colombia"
+            ]
+          },
+          "kp_spansk-sprog-kultur_19": {
+            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
+            "explanation": "Kort svar: Chile. Forklar hvorfor det er mere præcist end: Peru · Mexico · Colombia.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Peru",
+              "Mexico",
+              "Colombia"
+            ]
+          },
+          "kp_spansk-sprog-kultur_20": {
+            "hint": "Find svaret i kilderne til: Den spansktalende verden.",
+            "explanation": "Kort svar: Mexico. Forklar hvorfor det er mere præcist end: Peru · Chile · Colombia.",
+            "sourceTitle": "Instituto Cervantes",
+            "sourceUrl": "https://cvc.cervantes.es/",
+            "confusions": [
+              "Peru",
+              "Chile",
+              "Colombia"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

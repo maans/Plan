@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-verdenskrigene_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Verdenskrigenes historie",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_verdenskrig-historie_01": {
-            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: U-både. Forklar hvorfor det er mere præcist end: Dreadnoughts · Zeppelinere · Monitorer.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Dreadnoughts",
-              "Zeppelinere",
-              "Monitorer"
-            ]
-          },
-          "kp_verdenskrig-historie_02": {
-            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: Lusitania. Forklar hvorfor det er mere præcist end: Titanic · Olympic · Mauretania.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Titanic",
-              "Olympic",
-              "Mauretania"
-            ]
-          },
-          "kp_verdenskrig-historie_03": {
-            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: 1917. Forklar hvorfor det er mere præcist end: 1914 · 1915 · 1919.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "1914",
-              "1915",
-              "1919"
-            ]
-          },
-          "kp_verdenskrig-historie_04": {
-            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: Oktoberrevolutionen. Forklar hvorfor det er mere præcist end: Februarrevolutionen · 1905-revolutionen · Dekabristopstanden.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Februarrevolutionen",
-              "1905-revolutionen",
-              "Dekabristopstanden"
-            ]
-          },
-          "kp_verdenskrig-historie_05": {
-            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
-            "explanation": "Kort svar: Brest-Litovsk-freden. Forklar hvorfor det er mere præcist end: Versaillestraktaten · Saint-Germain-traktaten · Lausannefreden.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Versaillestraktaten",
-              "Saint-Germain-traktaten",
-              "Lausannefreden"
-            ]
-          },
-          "kp_verdenskrig-historie_06": {
-            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Operation Barbarossa. Forklar hvorfor det er mere præcist end: Operation Overlord · Operation Sea Lion · Operation Market Garden.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Operation Overlord",
-              "Operation Sea Lion",
-              "Operation Market Garden"
-            ]
-          },
-          "kp_verdenskrig-historie_07": {
-            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Stalingrad. Forklar hvorfor det er mere præcist end: Kursk · Moskva · Kharkiv.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Kursk",
-              "Moskva",
-              "Kharkiv"
-            ]
-          },
-          "kp_verdenskrig-historie_08": {
-            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Kursk. Forklar hvorfor det er mere præcist end: El Alamein · Monte Cassino · Arnhem.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "El Alamein",
-              "Monte Cassino",
-              "Arnhem"
-            ]
-          },
-          "kp_verdenskrig-historie_09": {
-            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: 6. juni 1944. Forklar hvorfor det er mere præcist end: 8. maj 1945 · 7. december 1941 · 1. september 1939.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "8. maj 1945",
-              "7. december 1941",
-              "1. september 1939"
-            ]
-          },
-          "kp_verdenskrig-historie_10": {
-            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
-            "explanation": "Kort svar: Operation Overlord. Forklar hvorfor det er mere præcist end: Operation Torch · Operation Husky · Operation Avalanche.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Operation Torch",
-              "Operation Husky",
-              "Operation Avalanche"
-            ]
-          },
-          "kp_verdenskrig-historie_11": {
-            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: USS Missouri. Forklar hvorfor det er mere præcist end: USS Arizona · USS Enterprise · USS Yorktown.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "USS Arizona",
-              "USS Enterprise",
-              "USS Yorktown"
-            ]
-          },
-          "kp_verdenskrig-historie_12": {
-            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: Manhattanprojektet. Forklar hvorfor det er mere præcist end: Apollo-projektet · Marshallplanen · Operation Paperclip.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Apollo-projektet",
-              "Marshallplanen",
-              "Operation Paperclip"
-            ]
-          },
-          "kp_verdenskrig-historie_13": {
-            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: Executive Order 9066. Forklar hvorfor det er mere præcist end: Executive Order 8802 · Truman-doktrinen · Lend-Lease Act.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Executive Order 8802",
-              "Truman-doktrinen",
-              "Lend-Lease Act"
-            ]
-          },
-          "kp_verdenskrig-historie_14": {
-            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: seks millioner. Forklar hvorfor det er mere præcist end: en million · tolv millioner · tre hundrede tusind.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "en million",
-              "tolv millioner",
-              "tre hundrede tusind"
-            ]
-          },
-          "kp_verdenskrig-historie_15": {
-            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
-            "explanation": "Kort svar: Polen. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Ungarn.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Tyskland",
-              "Østrig",
-              "Ungarn"
-            ]
-          },
-          "kp_verdenskrig-historie_16": {
-            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Holger Danske. Forklar hvorfor det er mere præcist end: Hvidstengruppen · BOPA · Churchill-klubben.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Hvidstengruppen",
-              "BOPA",
-              "Churchill-klubben"
-            ]
-          },
-          "kp_verdenskrig-historie_17": {
-            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Borgerlige Partisaner. Forklar hvorfor det er mere præcist end: Bondepartiets Organisation · Britisk Operativ Partisanarmé · Bornholms Partisaner.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Bondepartiets Organisation",
-              "Britisk Operativ Partisanarmé",
-              "Bornholms Partisaner"
-            ]
-          },
-          "kp_verdenskrig-historie_18": {
-            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Hvidstengruppen. Forklar hvorfor det er mere præcist end: Holger Danske · BOPA · Ringen.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Holger Danske",
-              "BOPA",
-              "Ringen"
-            ]
-          },
-          "kp_verdenskrig-historie_19": {
-            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: modstandsfolk og likvidatorer. Forklar hvorfor det er mere præcist end: tyske generaler · danske ministre · norske sabotører.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "tyske generaler",
-              "danske ministre",
-              "norske sabotører"
-            ]
-          },
-          "kp_verdenskrig-historie_20": {
-            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
-            "explanation": "Kort svar: Folkestrejken. Forklar hvorfor det er mere præcist end: Påskekrisen · Augustoprøret 1943 · Majrevolten.",
-            "sourceTitle": "Imperial War Museums",
-            "sourceUrl": "https://www.iwm.org.uk/",
-            "confusions": [
-              "Påskekrisen",
-              "Augustoprøret 1943",
-              "Majrevolten"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_verdenskrig-historie_01": {
+            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
+            "explanation": "Kort svar: U-både. Forklar hvorfor det er mere præcist end: Dreadnoughts · Zeppelinere · Monitorer.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Dreadnoughts",
+              "Zeppelinere",
+              "Monitorer"
+            ]
+          },
+          "kp_verdenskrig-historie_02": {
+            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
+            "explanation": "Kort svar: Lusitania. Forklar hvorfor det er mere præcist end: Titanic · Olympic · Mauretania.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Titanic",
+              "Olympic",
+              "Mauretania"
+            ]
+          },
+          "kp_verdenskrig-historie_03": {
+            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
+            "explanation": "Kort svar: 1917. Forklar hvorfor det er mere præcist end: 1914 · 1915 · 1919.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "1914",
+              "1915",
+              "1919"
+            ]
+          },
+          "kp_verdenskrig-historie_04": {
+            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
+            "explanation": "Kort svar: Oktoberrevolutionen. Forklar hvorfor det er mere præcist end: Februarrevolutionen · 1905-revolutionen · Dekabristopstanden.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Februarrevolutionen",
+              "1905-revolutionen",
+              "Dekabristopstanden"
+            ]
+          },
+          "kp_verdenskrig-historie_05": {
+            "hint": "Find svaret i kilderne til: Første Verdenskrig.",
+            "explanation": "Kort svar: Brest-Litovsk-freden. Forklar hvorfor det er mere præcist end: Versaillestraktaten · Saint-Germain-traktaten · Lausannefreden.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Versaillestraktaten",
+              "Saint-Germain-traktaten",
+              "Lausannefreden"
+            ]
+          },
+          "kp_verdenskrig-historie_06": {
+            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
+            "explanation": "Kort svar: Operation Barbarossa. Forklar hvorfor det er mere præcist end: Operation Overlord · Operation Sea Lion · Operation Market Garden.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Operation Overlord",
+              "Operation Sea Lion",
+              "Operation Market Garden"
+            ]
+          },
+          "kp_verdenskrig-historie_07": {
+            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
+            "explanation": "Kort svar: Stalingrad. Forklar hvorfor det er mere præcist end: Kursk · Moskva · Kharkiv.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Kursk",
+              "Moskva",
+              "Kharkiv"
+            ]
+          },
+          "kp_verdenskrig-historie_08": {
+            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
+            "explanation": "Kort svar: Kursk. Forklar hvorfor det er mere præcist end: El Alamein · Monte Cassino · Arnhem.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "El Alamein",
+              "Monte Cassino",
+              "Arnhem"
+            ]
+          },
+          "kp_verdenskrig-historie_09": {
+            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
+            "explanation": "Kort svar: 6. juni 1944. Forklar hvorfor det er mere præcist end: 8. maj 1945 · 7. december 1941 · 1. september 1939.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "8. maj 1945",
+              "7. december 1941",
+              "1. september 1939"
+            ]
+          },
+          "kp_verdenskrig-historie_10": {
+            "hint": "Find svaret i kilderne til: Anden Verdenskrig i Europa.",
+            "explanation": "Kort svar: Operation Overlord. Forklar hvorfor det er mere præcist end: Operation Torch · Operation Husky · Operation Avalanche.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Operation Torch",
+              "Operation Husky",
+              "Operation Avalanche"
+            ]
+          },
+          "kp_verdenskrig-historie_11": {
+            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
+            "explanation": "Kort svar: USS Missouri. Forklar hvorfor det er mere præcist end: USS Arizona · USS Enterprise · USS Yorktown.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "USS Arizona",
+              "USS Enterprise",
+              "USS Yorktown"
+            ]
+          },
+          "kp_verdenskrig-historie_12": {
+            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
+            "explanation": "Kort svar: Manhattanprojektet. Forklar hvorfor det er mere præcist end: Apollo-projektet · Marshallplanen · Operation Paperclip.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Apollo-projektet",
+              "Marshallplanen",
+              "Operation Paperclip"
+            ]
+          },
+          "kp_verdenskrig-historie_13": {
+            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
+            "explanation": "Kort svar: Executive Order 9066. Forklar hvorfor det er mere præcist end: Executive Order 8802 · Truman-doktrinen · Lend-Lease Act.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Executive Order 8802",
+              "Truman-doktrinen",
+              "Lend-Lease Act"
+            ]
+          },
+          "kp_verdenskrig-historie_14": {
+            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
+            "explanation": "Kort svar: seks millioner. Forklar hvorfor det er mere præcist end: en million · tolv millioner · tre hundrede tusind.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "en million",
+              "tolv millioner",
+              "tre hundrede tusind"
+            ]
+          },
+          "kp_verdenskrig-historie_15": {
+            "hint": "Find svaret i kilderne til: Global krig og Holocaust.",
+            "explanation": "Kort svar: Polen. Forklar hvorfor det er mere præcist end: Tyskland · Østrig · Ungarn.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Tyskland",
+              "Østrig",
+              "Ungarn"
+            ]
+          },
+          "kp_verdenskrig-historie_16": {
+            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
+            "explanation": "Kort svar: Holger Danske. Forklar hvorfor det er mere præcist end: Hvidstengruppen · BOPA · Churchill-klubben.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Hvidstengruppen",
+              "BOPA",
+              "Churchill-klubben"
+            ]
+          },
+          "kp_verdenskrig-historie_17": {
+            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
+            "explanation": "Kort svar: Borgerlige Partisaner. Forklar hvorfor det er mere præcist end: Bondepartiets Organisation · Britisk Operativ Partisanarmé · Bornholms Partisaner.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Bondepartiets Organisation",
+              "Britisk Operativ Partisanarmé",
+              "Bornholms Partisaner"
+            ]
+          },
+          "kp_verdenskrig-historie_18": {
+            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
+            "explanation": "Kort svar: Hvidstengruppen. Forklar hvorfor det er mere præcist end: Holger Danske · BOPA · Ringen.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Holger Danske",
+              "BOPA",
+              "Ringen"
+            ]
+          },
+          "kp_verdenskrig-historie_19": {
+            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
+            "explanation": "Kort svar: modstandsfolk og likvidatorer. Forklar hvorfor det er mere præcist end: tyske generaler · danske ministre · norske sabotører.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "tyske generaler",
+              "danske ministre",
+              "norske sabotører"
+            ]
+          },
+          "kp_verdenskrig-historie_20": {
+            "hint": "Find svaret i kilderne til: Danmark, Norden og efterspil.",
+            "explanation": "Kort svar: Folkestrejken. Forklar hvorfor det er mere præcist end: Påskekrisen · Augustoprøret 1943 · Majrevolten.",
+            "sourceTitle": "Imperial War Museums",
+            "sourceUrl": "https://www.iwm.org.uk/",
+            "confusions": [
+              "Påskekrisen",
+              "Augustoprøret 1943",
+              "Majrevolten"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

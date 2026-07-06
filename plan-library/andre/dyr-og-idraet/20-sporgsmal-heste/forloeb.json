@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-heste_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Heste",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_heste_01": {
-            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
-            "explanation": "Kort svar: manen. Forklar hvorfor det er mere præcist end: pandluggen · halen · hovskægget.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "pandluggen",
-              "halen",
-              "hovskægget"
-            ]
-          },
-          "kp_heste_02": {
-            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
-            "explanation": "Kort svar: pandluggen. Forklar hvorfor det er mere præcist end: manen · haleroden · hovskægget.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "manen",
-              "haleroden",
-              "hovskægget"
-            ]
-          },
-          "kp_heste_03": {
-            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
-            "explanation": "Kort svar: hovvæggen. Forklar hvorfor det er mere præcist end: manen · strålen alene · koden.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "manen",
-              "strålen alene",
-              "koden"
-            ]
-          },
-          "kp_heste_04": {
-            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
-            "explanation": "Kort svar: sålen. Forklar hvorfor det er mere præcist end: kronranden · ballen · piben.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "kronranden",
-              "ballen",
-              "piben"
-            ]
-          },
-          "kp_heste_05": {
-            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
-            "explanation": "Kort svar: kronranden. Forklar hvorfor det er mere præcist end: kodeleddet · strålefuren · hasebøjningen.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "kodeleddet",
-              "strålefuren",
-              "hasebøjningen"
-            ]
-          },
-          "kp_heste_06": {
-            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: at stimulere immunforsvaret mod bestemte smitsomme sygdomme. Forklar hvorfor det er mere præcist end: at erstatte alt grovfoder · at helbrede alle skader øjeblikkeligt · at gøre hesten immun mod parasitter generelt.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "at erstatte alt grovfoder",
-              "at helbrede alle skader øjeblikkeligt",
-              "at gøre hesten immun mod parasitter generelt"
-            ]
-          },
-          "kp_heste_07": {
-            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: smerter fra bughulen, ofte knyttet til fordøjelsessystemet. Forklar hvorfor det er mere præcist end: en bestemt hudfarve · en normal hvileposition · en infektion kun i øret.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "en bestemt hudfarve",
-              "en normal hvileposition",
-              "en infektion kun i øret"
-            ]
-          },
-          "kp_heste_08": {
-            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: en ændret bevægelse på grund af smerte eller funktionsproblem. Forklar hvorfor det er mere præcist end: en bestemt type trav · at hesten sover stående · at hesten er født uden hale.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "en bestemt type trav",
-              "at hesten sover stående",
-              "at hesten er født uden hale"
-            ]
-          },
-          "kp_heste_09": {
-            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: at mindske risikoen for at indføre smitsom sygdom i flokken. Forklar hvorfor det er mere præcist end: at træne hesten hurtigere · at ændre dens pelsfarve · at lære den nye gangarter.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "at træne hesten hurtigere",
-              "at ændre dens pelsfarve",
-              "at lære den nye gangarter"
-            ]
-          },
-          "kp_heste_10": {
-            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: hovens lameller. Forklar hvorfor det er mere præcist end: manens hårsække · øjets hornhinde · halens ryghvirvler.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "manens hårsække",
-              "øjets hornhinde",
-              "halens ryghvirvler"
-            ]
-          },
-          "kp_heste_11": {
-            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
-            "explanation": "Kort svar: Lipizzaner. Forklar hvorfor det er mere præcist end: Frieser · Clydesdale · Appaloosa.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "Frieser",
-              "Clydesdale",
-              "Appaloosa"
-            ]
-          },
-          "kp_heste_12": {
-            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
-            "explanation": "Kort svar: Friesland. Forklar hvorfor det er mere præcist end: Zeeland · Limburg · Groningen.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "Zeeland",
-              "Limburg",
-              "Groningen"
-            ]
-          },
-          "kp_heste_13": {
-            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
-            "explanation": "Kort svar: Frankrig. Forklar hvorfor det er mere præcist end: Italien · Tyskland · Portugal.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "Italien",
-              "Tyskland",
-              "Portugal"
-            ]
-          },
-          "kp_heste_14": {
-            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
-            "explanation": "Kort svar: den andalusiske hest. Forklar hvorfor det er mere præcist end: den arabiske hest · frieseren · fjordhesten.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "den arabiske hest",
-              "frieseren",
-              "fjordhesten"
-            ]
-          },
-          "kp_heste_15": {
-            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
-            "explanation": "Kort svar: Tyrol og Sydtyrol. Forklar hvorfor det er mere præcist end: Normandiet · Andalusien · Transsylvanien.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "Normandiet",
-              "Andalusien",
-              "Transsylvanien"
-            ]
-          },
-          "kp_heste_16": {
-            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: gymnastiske øvelser på en hest, der bevæger sig på en cirkel. Forklar hvorfor det er mere præcist end: springning over faste terrænforhindringer · kapløb med vogn · dressur uden hest.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "springning over faste terrænforhindringer",
-              "kapløb med vogn",
-              "dressur uden hest"
-            ]
-          },
-          "kp_heste_17": {
-            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: en hestevogn trukket af én eller flere heste. Forklar hvorfor det er mere præcist end: en sulky i alle discipliner · en longe uden vogn · et surfbræt.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "en sulky i alle discipliner",
-              "en longe uden vogn",
-              "et surfbræt"
-            ]
-          },
-          "kp_heste_18": {
-            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: dressur tilpasset ryttere med funktionsnedsættelser. Forklar hvorfor det er mere præcist end: dressur kun for ponyer · springning uden sadel · galopløb for pensionerede heste.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "dressur kun for ponyer",
-              "springning uden sadel",
-              "galopløb for pensionerede heste"
-            ]
-          },
-          "kp_heste_19": {
-            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: en stærkt samlet trav næsten på stedet. Forklar hvorfor det er mere præcist end: en hurtig firetakts galop · en stående vending på bagbenene · et spring over en bred forhindring.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "en hurtig firetakts galop",
-              "en stående vending på bagbenene",
-              "et spring over en bred forhindring"
-            ]
-          },
-          "kp_heste_20": {
-            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: en langsom, stærkt løftet og samlet trav. Forklar hvorfor det er mere præcist end: en lateral totakts pasgang · en hurtig arbejds-galop · en vending fra parade.",
-            "sourceTitle": "The Horse · Health Library",
-            "sourceUrl": "https://thehorse.com/",
-            "confusions": [
-              "en lateral totakts pasgang",
-              "en hurtig arbejds-galop",
-              "en vending fra parade"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_heste_01": {
+            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
+            "explanation": "Kort svar: manen. Forklar hvorfor det er mere præcist end: pandluggen · halen · hovskægget.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "pandluggen",
+              "halen",
+              "hovskægget"
+            ]
+          },
+          "kp_heste_02": {
+            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
+            "explanation": "Kort svar: pandluggen. Forklar hvorfor det er mere præcist end: manen · haleroden · hovskægget.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "manen",
+              "haleroden",
+              "hovskægget"
+            ]
+          },
+          "kp_heste_03": {
+            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
+            "explanation": "Kort svar: hovvæggen. Forklar hvorfor det er mere præcist end: manen · strålen alene · koden.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "manen",
+              "strålen alene",
+              "koden"
+            ]
+          },
+          "kp_heste_04": {
+            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
+            "explanation": "Kort svar: sålen. Forklar hvorfor det er mere præcist end: kronranden · ballen · piben.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "kronranden",
+              "ballen",
+              "piben"
+            ]
+          },
+          "kp_heste_05": {
+            "hint": "Find svaret i kilderne til: Krop og bevægelse.",
+            "explanation": "Kort svar: kronranden. Forklar hvorfor det er mere præcist end: kodeleddet · strålefuren · hasebøjningen.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "kodeleddet",
+              "strålefuren",
+              "hasebøjningen"
+            ]
+          },
+          "kp_heste_06": {
+            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
+            "explanation": "Kort svar: at stimulere immunforsvaret mod bestemte smitsomme sygdomme. Forklar hvorfor det er mere præcist end: at erstatte alt grovfoder · at helbrede alle skader øjeblikkeligt · at gøre hesten immun mod parasitter generelt.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "at erstatte alt grovfoder",
+              "at helbrede alle skader øjeblikkeligt",
+              "at gøre hesten immun mod parasitter generelt"
+            ]
+          },
+          "kp_heste_07": {
+            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
+            "explanation": "Kort svar: smerter fra bughulen, ofte knyttet til fordøjelsessystemet. Forklar hvorfor det er mere præcist end: en bestemt hudfarve · en normal hvileposition · en infektion kun i øret.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "en bestemt hudfarve",
+              "en normal hvileposition",
+              "en infektion kun i øret"
+            ]
+          },
+          "kp_heste_08": {
+            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
+            "explanation": "Kort svar: en ændret bevægelse på grund af smerte eller funktionsproblem. Forklar hvorfor det er mere præcist end: en bestemt type trav · at hesten sover stående · at hesten er født uden hale.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "en bestemt type trav",
+              "at hesten sover stående",
+              "at hesten er født uden hale"
+            ]
+          },
+          "kp_heste_09": {
+            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
+            "explanation": "Kort svar: at mindske risikoen for at indføre smitsom sygdom i flokken. Forklar hvorfor det er mere præcist end: at træne hesten hurtigere · at ændre dens pelsfarve · at lære den nye gangarter.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "at træne hesten hurtigere",
+              "at ændre dens pelsfarve",
+              "at lære den nye gangarter"
+            ]
+          },
+          "kp_heste_10": {
+            "hint": "Find svaret i kilderne til: Pasning og sundhed.",
+            "explanation": "Kort svar: hovens lameller. Forklar hvorfor det er mere præcist end: manens hårsække · øjets hornhinde · halens ryghvirvler.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "manens hårsække",
+              "øjets hornhinde",
+              "halens ryghvirvler"
+            ]
+          },
+          "kp_heste_11": {
+            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
+            "explanation": "Kort svar: Lipizzaner. Forklar hvorfor det er mere præcist end: Frieser · Clydesdale · Appaloosa.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "Frieser",
+              "Clydesdale",
+              "Appaloosa"
+            ]
+          },
+          "kp_heste_12": {
+            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
+            "explanation": "Kort svar: Friesland. Forklar hvorfor det er mere præcist end: Zeeland · Limburg · Groningen.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "Zeeland",
+              "Limburg",
+              "Groningen"
+            ]
+          },
+          "kp_heste_13": {
+            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
+            "explanation": "Kort svar: Frankrig. Forklar hvorfor det er mere præcist end: Italien · Tyskland · Portugal.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "Italien",
+              "Tyskland",
+              "Portugal"
+            ]
+          },
+          "kp_heste_14": {
+            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
+            "explanation": "Kort svar: den andalusiske hest. Forklar hvorfor det er mere præcist end: den arabiske hest · frieseren · fjordhesten.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "den arabiske hest",
+              "frieseren",
+              "fjordhesten"
+            ]
+          },
+          "kp_heste_15": {
+            "hint": "Find svaret i kilderne til: Racer og anvendelse.",
+            "explanation": "Kort svar: Tyrol og Sydtyrol. Forklar hvorfor det er mere præcist end: Normandiet · Andalusien · Transsylvanien.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "Normandiet",
+              "Andalusien",
+              "Transsylvanien"
+            ]
+          },
+          "kp_heste_16": {
+            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
+            "explanation": "Kort svar: gymnastiske øvelser på en hest, der bevæger sig på en cirkel. Forklar hvorfor det er mere præcist end: springning over faste terrænforhindringer · kapløb med vogn · dressur uden hest.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "springning over faste terrænforhindringer",
+              "kapløb med vogn",
+              "dressur uden hest"
+            ]
+          },
+          "kp_heste_17": {
+            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
+            "explanation": "Kort svar: en hestevogn trukket af én eller flere heste. Forklar hvorfor det er mere præcist end: en sulky i alle discipliner · en longe uden vogn · et surfbræt.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "en sulky i alle discipliner",
+              "en longe uden vogn",
+              "et surfbræt"
+            ]
+          },
+          "kp_heste_18": {
+            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
+            "explanation": "Kort svar: dressur tilpasset ryttere med funktionsnedsættelser. Forklar hvorfor det er mere præcist end: dressur kun for ponyer · springning uden sadel · galopløb for pensionerede heste.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "dressur kun for ponyer",
+              "springning uden sadel",
+              "galopløb for pensionerede heste"
+            ]
+          },
+          "kp_heste_19": {
+            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
+            "explanation": "Kort svar: en stærkt samlet trav næsten på stedet. Forklar hvorfor det er mere præcist end: en hurtig firetakts galop · en stående vending på bagbenene · et spring over en bred forhindring.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "en hurtig firetakts galop",
+              "en stående vending på bagbenene",
+              "et spring over en bred forhindring"
+            ]
+          },
+          "kp_heste_20": {
+            "hint": "Find svaret i kilderne til: Ridning og hestesport.",
+            "explanation": "Kort svar: en langsom, stærkt løftet og samlet trav. Forklar hvorfor det er mere præcist end: en lateral totakts pasgang · en hurtig arbejds-galop · en vending fra parade.",
+            "sourceTitle": "The Horse · Health Library",
+            "sourceUrl": "https://thehorse.com/",
+            "confusions": [
+              "en lateral totakts pasgang",
+              "en hurtig arbejds-galop",
+              "en vending fra parade"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

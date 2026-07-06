@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-verdens-geografi_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Verdens geografi",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_verdens-geografi_01": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Washington, D.C.. Forklar hvorfor det er mere præcist end: New York · Los Angeles · Philadelphia.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "New York",
-              "Los Angeles",
-              "Philadelphia"
-            ]
-          },
-          "kp_verdens-geografi_02": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Tokyo. Forklar hvorfor det er mere præcist end: Kyoto · Osaka · Nagoya.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Kyoto",
-              "Osaka",
-              "Nagoya"
-            ]
-          },
-          "kp_verdens-geografi_03": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Mexico City. Forklar hvorfor det er mere præcist end: Guadalajara · Monterrey · Puebla.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Guadalajara",
-              "Monterrey",
-              "Puebla"
-            ]
-          },
-          "kp_verdens-geografi_04": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Brasília. Forklar hvorfor det er mere præcist end: Rio de Janeiro · São Paulo · Salvador.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Rio de Janeiro",
-              "São Paulo",
-              "Salvador"
-            ]
-          },
-          "kp_verdens-geografi_05": {
-            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
-            "explanation": "Kort svar: Canberra. Forklar hvorfor det er mere præcist end: Sydney · Melbourne · Perth.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Sydney",
-              "Melbourne",
-              "Perth"
-            ]
-          },
-          "kp_verdens-geografi_06": {
-            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
-            "explanation": "Kort svar: Asien. Forklar hvorfor det er mere præcist end: Afrika · Australien · Sydamerika.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Afrika",
-              "Australien",
-              "Sydamerika"
-            ]
-          },
-          "kp_verdens-geografi_07": {
-            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
-            "explanation": "Kort svar: Sydamerika. Forklar hvorfor det er mere præcist end: Afrika · Asien · Nordamerika.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Afrika",
-              "Asien",
-              "Nordamerika"
-            ]
-          },
-          "kp_verdens-geografi_08": {
-            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
-            "explanation": "Kort svar: Denali. Forklar hvorfor det er mere præcist end: Mount Logan · Mount Whitney · Pico de Orizaba.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Mount Logan",
-              "Mount Whitney",
-              "Pico de Orizaba"
-            ]
-          },
-          "kp_verdens-geografi_09": {
-            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
-            "explanation": "Kort svar: Aconcagua. Forklar hvorfor det er mere præcist end: Huascarán · Chimborazo · Cotopaxi.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Huascarán",
-              "Chimborazo",
-              "Cotopaxi"
-            ]
-          },
-          "kp_verdens-geografi_10": {
-            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
-            "explanation": "Kort svar: Coloradofloden. Forklar hvorfor det er mere præcist end: Columbiafloden · Rio Grande · Missourifloden.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Columbiafloden",
-              "Rio Grande",
-              "Missourifloden"
-            ]
-          },
-          "kp_verdens-geografi_11": {
-            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
-            "explanation": "Kort svar: Japan. Forklar hvorfor det er mere præcist end: Sydkorea · Rusland · Kina.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Sydkorea",
-              "Rusland",
-              "Kina"
-            ]
-          },
-          "kp_verdens-geografi_12": {
-            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
-            "explanation": "Kort svar: Det Indiske Ocean. Forklar hvorfor det er mere præcist end: Atlanterhavet · Stillehavet · Det Arktiske Ocean.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Atlanterhavet",
-              "Stillehavet",
-              "Det Arktiske Ocean"
-            ]
-          },
-          "kp_verdens-geografi_13": {
-            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
-            "explanation": "Kort svar: Afrika og Asien. Forklar hvorfor det er mere præcist end: Europa og Afrika · Asien og Australien · Nordamerika og Sydamerika.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Europa og Afrika",
-              "Asien og Australien",
-              "Nordamerika og Sydamerika"
-            ]
-          },
-          "kp_verdens-geografi_14": {
-            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
-            "explanation": "Kort svar: Østersøen. Forklar hvorfor det er mere præcist end: Nordsøen · Sortehavet · Adriaterhavet.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Nordsøen",
-              "Sortehavet",
-              "Adriaterhavet"
-            ]
-          },
-          "kp_verdens-geografi_15": {
-            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
-            "explanation": "Kort svar: Atlanterhavet. Forklar hvorfor det er mere præcist end: Stillehavet · Det Indiske Ocean · Det Sydlige Ocean.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "Stillehavet",
-              "Det Indiske Ocean",
-              "Det Sydlige Ocean"
-            ]
-          },
-          "kp_verdens-geografi_16": {
-            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
-            "explanation": "Kort svar: land omgivet af vand på tre sider. Forklar hvorfor det er mere præcist end: en kæde af øer · en smal havpassage · et fladt område under havniveau.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "en kæde af øer",
-              "en smal havpassage",
-              "et fladt område under havniveau"
-            ]
-          },
-          "kp_verdens-geografi_17": {
-            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
-            "explanation": "Kort svar: en øgruppe. Forklar hvorfor det er mere præcist end: en bjergkæde · et floddelta · en ørkenslette.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "en bjergkæde",
-              "et floddelta",
-              "en ørkenslette"
-            ]
-          },
-          "kp_verdens-geografi_18": {
-            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
-            "explanation": "Kort svar: en smal landstrimmel mellem større landområder. Forklar hvorfor det er mere præcist end: en bred floddal · en undersøisk bjergkæde · en gruppe vulkanøer.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "en bred floddal",
-              "en undersøisk bjergkæde",
-              "en gruppe vulkanøer"
-            ]
-          },
-          "kp_verdens-geografi_19": {
-            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
-            "explanation": "Kort svar: et aflejringsområde ved en flods udmunding med forgrenede løb. Forklar hvorfor det er mere præcist end: et vandfald midt i en flod · en dyb sø skabt af is · en underjordisk vandstrøm.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "et vandfald midt i en flod",
-              "en dyb sø skabt af is",
-              "en underjordisk vandstrøm"
-            ]
-          },
-          "kp_verdens-geografi_20": {
-            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
-            "explanation": "Kort svar: en grænse mellem afvandingsområder. Forklar hvorfor det er mere præcist end: en grænse mellem tidszoner · en linje med samme temperatur · en kystlinje ved højvande.",
-            "sourceTitle": "CIA World Factbook",
-            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
-            "confusions": [
-              "en grænse mellem tidszoner",
-              "en linje med samme temperatur",
-              "en kystlinje ved højvande"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_verdens-geografi_01": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Washington, D.C.. Forklar hvorfor det er mere præcist end: New York · Los Angeles · Philadelphia.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "New York",
+              "Los Angeles",
+              "Philadelphia"
+            ]
+          },
+          "kp_verdens-geografi_02": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Tokyo. Forklar hvorfor det er mere præcist end: Kyoto · Osaka · Nagoya.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Kyoto",
+              "Osaka",
+              "Nagoya"
+            ]
+          },
+          "kp_verdens-geografi_03": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Mexico City. Forklar hvorfor det er mere præcist end: Guadalajara · Monterrey · Puebla.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Guadalajara",
+              "Monterrey",
+              "Puebla"
+            ]
+          },
+          "kp_verdens-geografi_04": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Brasília. Forklar hvorfor det er mere præcist end: Rio de Janeiro · São Paulo · Salvador.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Rio de Janeiro",
+              "São Paulo",
+              "Salvador"
+            ]
+          },
+          "kp_verdens-geografi_05": {
+            "hint": "Find svaret i kilderne til: Lande og hovedstæder.",
+            "explanation": "Kort svar: Canberra. Forklar hvorfor det er mere præcist end: Sydney · Melbourne · Perth.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Sydney",
+              "Melbourne",
+              "Perth"
+            ]
+          },
+          "kp_verdens-geografi_06": {
+            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
+            "explanation": "Kort svar: Asien. Forklar hvorfor det er mere præcist end: Afrika · Australien · Sydamerika.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Afrika",
+              "Australien",
+              "Sydamerika"
+            ]
+          },
+          "kp_verdens-geografi_07": {
+            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
+            "explanation": "Kort svar: Sydamerika. Forklar hvorfor det er mere præcist end: Afrika · Asien · Nordamerika.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Afrika",
+              "Asien",
+              "Nordamerika"
+            ]
+          },
+          "kp_verdens-geografi_08": {
+            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
+            "explanation": "Kort svar: Denali. Forklar hvorfor det er mere præcist end: Mount Logan · Mount Whitney · Pico de Orizaba.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Mount Logan",
+              "Mount Whitney",
+              "Pico de Orizaba"
+            ]
+          },
+          "kp_verdens-geografi_09": {
+            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
+            "explanation": "Kort svar: Aconcagua. Forklar hvorfor det er mere præcist end: Huascarán · Chimborazo · Cotopaxi.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Huascarán",
+              "Chimborazo",
+              "Cotopaxi"
+            ]
+          },
+          "kp_verdens-geografi_10": {
+            "hint": "Find svaret i kilderne til: Bjerge, floder og landskaber.",
+            "explanation": "Kort svar: Coloradofloden. Forklar hvorfor det er mere præcist end: Columbiafloden · Rio Grande · Missourifloden.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Columbiafloden",
+              "Rio Grande",
+              "Missourifloden"
+            ]
+          },
+          "kp_verdens-geografi_11": {
+            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
+            "explanation": "Kort svar: Japan. Forklar hvorfor det er mere præcist end: Sydkorea · Rusland · Kina.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Sydkorea",
+              "Rusland",
+              "Kina"
+            ]
+          },
+          "kp_verdens-geografi_12": {
+            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
+            "explanation": "Kort svar: Det Indiske Ocean. Forklar hvorfor det er mere præcist end: Atlanterhavet · Stillehavet · Det Arktiske Ocean.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Atlanterhavet",
+              "Stillehavet",
+              "Det Arktiske Ocean"
+            ]
+          },
+          "kp_verdens-geografi_13": {
+            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
+            "explanation": "Kort svar: Afrika og Asien. Forklar hvorfor det er mere præcist end: Europa og Afrika · Asien og Australien · Nordamerika og Sydamerika.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Europa og Afrika",
+              "Asien og Australien",
+              "Nordamerika og Sydamerika"
+            ]
+          },
+          "kp_verdens-geografi_14": {
+            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
+            "explanation": "Kort svar: Østersøen. Forklar hvorfor det er mere præcist end: Nordsøen · Sortehavet · Adriaterhavet.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Nordsøen",
+              "Sortehavet",
+              "Adriaterhavet"
+            ]
+          },
+          "kp_verdens-geografi_15": {
+            "hint": "Find svaret i kilderne til: Hav, øer og grænser.",
+            "explanation": "Kort svar: Atlanterhavet. Forklar hvorfor det er mere præcist end: Stillehavet · Det Indiske Ocean · Det Sydlige Ocean.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "Stillehavet",
+              "Det Indiske Ocean",
+              "Det Sydlige Ocean"
+            ]
+          },
+          "kp_verdens-geografi_16": {
+            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
+            "explanation": "Kort svar: land omgivet af vand på tre sider. Forklar hvorfor det er mere præcist end: en kæde af øer · en smal havpassage · et fladt område under havniveau.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "en kæde af øer",
+              "en smal havpassage",
+              "et fladt område under havniveau"
+            ]
+          },
+          "kp_verdens-geografi_17": {
+            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
+            "explanation": "Kort svar: en øgruppe. Forklar hvorfor det er mere præcist end: en bjergkæde · et floddelta · en ørkenslette.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "en bjergkæde",
+              "et floddelta",
+              "en ørkenslette"
+            ]
+          },
+          "kp_verdens-geografi_18": {
+            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
+            "explanation": "Kort svar: en smal landstrimmel mellem større landområder. Forklar hvorfor det er mere præcist end: en bred floddal · en undersøisk bjergkæde · en gruppe vulkanøer.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "en bred floddal",
+              "en undersøisk bjergkæde",
+              "en gruppe vulkanøer"
+            ]
+          },
+          "kp_verdens-geografi_19": {
+            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
+            "explanation": "Kort svar: et aflejringsområde ved en flods udmunding med forgrenede løb. Forklar hvorfor det er mere præcist end: et vandfald midt i en flod · en dyb sø skabt af is · en underjordisk vandstrøm.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "et vandfald midt i en flod",
+              "en dyb sø skabt af is",
+              "en underjordisk vandstrøm"
+            ]
+          },
+          "kp_verdens-geografi_20": {
+            "hint": "Find svaret i kilderne til: Kort, klima og verdensdele.",
+            "explanation": "Kort svar: en grænse mellem afvandingsområder. Forklar hvorfor det er mere præcist end: en grænse mellem tidszoner · en linje med samme temperatur · en kystlinje ved højvande.",
+            "sourceTitle": "CIA World Factbook",
+            "sourceUrl": "https://www.cia.gov/the-world-factbook/",
+            "confusions": [
+              "en grænse mellem tidszoner",
+              "en linje med samme temperatur",
+              "en kystlinje ved højvande"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

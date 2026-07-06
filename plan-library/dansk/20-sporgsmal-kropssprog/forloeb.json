@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-kropssprog_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Kropssprog",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_kropssprog_01": {
-            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
-            "explanation": "Kort svar: et tegn på opmærksomhed eller tilslutning. Forklar hvorfor det er mere præcist end: et sikkert bevis på løgn · et tegn på døvhed · en skriftlig kommando.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "et sikkert bevis på løgn",
-              "et tegn på døvhed",
-              "en skriftlig kommando"
-            ]
-          },
-          "kp_kropssprog_02": {
-            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
-            "explanation": "Kort svar: en deiktisk gestus. Forklar hvorfor det er mere præcist end: en vokal pause · en duftmarkør · en tidskode.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "en vokal pause",
-              "en duftmarkør",
-              "en tidskode"
-            ]
-          },
-          "kp_kropssprog_03": {
-            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
-            "explanation": "Kort svar: måden kroppen bæres og placeres på. Forklar hvorfor det er mere præcist end: lydstyrken i stemmen · afstanden mellem to bygninger · ordvalget i en tekst.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "lydstyrken i stemmen",
-              "afstanden mellem to bygninger",
-              "ordvalget i en tekst"
-            ]
-          },
-          "kp_kropssprog_04": {
-            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
-            "explanation": "Kort svar: at kroppene vender mod hinanden. Forklar hvorfor det er mere præcist end: at begge ser væk · at man står ryg mod ryg · at begge sidder ned.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "at begge ser væk",
-              "at man står ryg mod ryg",
-              "at begge sidder ned"
-            ]
-          },
-          "kp_kropssprog_05": {
-            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
-            "explanation": "Kort svar: at løfte en hånd. Forklar hvorfor det er mere præcist end: at lukke øjnene i søvn · at binde sko · at tage en jakke på.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "at lukke øjnene i søvn",
-              "at binde sko",
-              "at tage en jakke på"
-            ]
-          },
-          "kp_kropssprog_06": {
-            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
-            "explanation": "Kort svar: proxemics. Forklar hvorfor det er mere præcist end: chronemics · haptics · fonologi.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "chronemics",
-              "haptics",
-              "fonologi"
-            ]
-          },
-          "kp_kropssprog_07": {
-            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
-            "explanation": "Kort svar: haptics. Forklar hvorfor det er mere præcist end: proxemics · vocalics · oculesics.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "proxemics",
-              "vocalics",
-              "oculesics"
-            ]
-          },
-          "kp_kropssprog_08": {
-            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
-            "explanation": "Kort svar: chronemics. Forklar hvorfor det er mere præcist end: kinesics · semantics · haptics.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "kinesics",
-              "semantics",
-              "haptics"
-            ]
-          },
-          "kp_kropssprog_09": {
-            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
-            "explanation": "Kort svar: intim afstand. Forklar hvorfor det er mere præcist end: offentlig afstand · social afstand · forelæsningsafstand.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "offentlig afstand",
-              "social afstand",
-              "forelæsningsafstand"
-            ]
-          },
-          "kp_kropssprog_10": {
-            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
-            "explanation": "Kort svar: personlig afstand. Forklar hvorfor det er mere præcist end: offentlig afstand · sceneafstand · trafikafstand.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "offentlig afstand",
-              "sceneafstand",
-              "trafikafstand"
-            ]
-          },
-          "kp_kropssprog_11": {
-            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
-            "explanation": "Kort svar: et ønske om at afslutte eller skifte fokus. Forklar hvorfor det er mere præcist end: et sikkert bevis på tyveri · at personen er blind · at døren er låst.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "et sikkert bevis på tyveri",
-              "at personen er blind",
-              "at døren er låst"
-            ]
-          },
-          "kp_kropssprog_12": {
-            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
-            "explanation": "Kort svar: at signalerne peger i samme retning. Forklar hvorfor det er mere præcist end: at ordene og kroppen altid modsiger hinanden · at kun stemmen bruges · at kommunikationen foregår på skrift.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "at ordene og kroppen altid modsiger hinanden",
-              "at kun stemmen bruges",
-              "at kommunikationen foregår på skrift"
-            ]
-          },
-          "kp_kropssprog_13": {
-            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
-            "explanation": "Kort svar: at forskellige signaler ikke passer sammen. Forklar hvorfor det er mere præcist end: at alle signaler gentager hinanden · at samtalen er lydløs · at to personer bruger samme ord.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "at alle signaler gentager hinanden",
-              "at samtalen er lydløs",
-              "at to personer bruger samme ord"
-            ]
-          },
-          "kp_kropssprog_14": {
-            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
-            "explanation": "Kort svar: blødgøre den opfattede relationelle tone. Forklar hvorfor det er mere præcist end: fjerne alle ord · gøre kritikken matematisk · ændre modtagerens alder.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "fjerne alle ord",
-              "gøre kritikken matematisk",
-              "ændre modtagerens alder"
-            ]
-          },
-          "kp_kropssprog_15": {
-            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
-            "explanation": "Kort svar: nærhed, magt og holdning. Forklar hvorfor det er mere præcist end: postnummer og CPR-nummer · grammatisk køn alene · vejrudsigten.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "postnummer og CPR-nummer",
-              "grammatisk køn alene",
-              "vejrudsigten"
-            ]
-          },
-          "kp_kropssprog_16": {
-            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
-            "explanation": "Kort svar: tallet kan ikke generaliseres til al kommunikation. Forklar hvorfor det er mere præcist end: procenten er altid 100 · kropssprog findes ikke · ord er aldrig vigtige.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "procenten er altid 100",
-              "kropssprog findes ikke",
-              "ord er aldrig vigtige"
-            ]
-          },
-          "kp_kropssprog_17": {
-            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
-            "explanation": "Kort svar: med kultur, relation, situation og individ. Forklar hvorfor det er mere præcist end: de er biologisk faste for alle · de afhænger kun af højde · de er ens i alle lande.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "de er biologisk faste for alle",
-              "de afhænger kun af højde",
-              "de er ens i alle lande"
-            ]
-          },
-          "kp_kropssprog_18": {
-            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
-            "explanation": "Kort svar: den kan have forskellige eller modsatte betydninger. Forklar hvorfor det er mere præcist end: den har altid samme betydning · den mister al betydning uden tale · den forstås kun af børn.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "den har altid samme betydning",
-              "den mister al betydning uden tale",
-              "den forstås kun af børn"
-            ]
-          },
-          "kp_kropssprog_19": {
-            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
-            "explanation": "Kort svar: bruge dem som forsigtige pejlemærker, ikke stereotyper. Forklar hvorfor det er mere præcist end: behandle dem som absolutte love · ignorere individuelle forskelle · antage at alle i et land er ens.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "behandle dem som absolutte love",
-              "ignorere individuelle forskelle",
-              "antage at alle i et land er ens"
-            ]
-          },
-          "kp_kropssprog_20": {
-            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
-            "explanation": "Kort svar: nej, tegnsprog er fuldt udviklede sprog. Forklar hvorfor det er mere præcist end: ja, tegnsprog har ingen grammatik · ja, tegnsprog består kun af mimik · nej, fordi tegnsprog kun er skrift.",
-            "sourceTitle": "Verywell Mind · Body Language",
-            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "confusions": [
-              "ja, tegnsprog har ingen grammatik",
-              "ja, tegnsprog består kun af mimik",
-              "nej, fordi tegnsprog kun er skrift"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_kropssprog_01": {
+            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
+            "explanation": "Kort svar: et tegn på opmærksomhed eller tilslutning. Forklar hvorfor det er mere præcist end: et sikkert bevis på løgn · et tegn på døvhed · en skriftlig kommando.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "et sikkert bevis på løgn",
+              "et tegn på døvhed",
+              "en skriftlig kommando"
+            ]
+          },
+          "kp_kropssprog_02": {
+            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
+            "explanation": "Kort svar: en deiktisk gestus. Forklar hvorfor det er mere præcist end: en vokal pause · en duftmarkør · en tidskode.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "en vokal pause",
+              "en duftmarkør",
+              "en tidskode"
+            ]
+          },
+          "kp_kropssprog_03": {
+            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
+            "explanation": "Kort svar: måden kroppen bæres og placeres på. Forklar hvorfor det er mere præcist end: lydstyrken i stemmen · afstanden mellem to bygninger · ordvalget i en tekst.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "lydstyrken i stemmen",
+              "afstanden mellem to bygninger",
+              "ordvalget i en tekst"
+            ]
+          },
+          "kp_kropssprog_04": {
+            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
+            "explanation": "Kort svar: at kroppene vender mod hinanden. Forklar hvorfor det er mere præcist end: at begge ser væk · at man står ryg mod ryg · at begge sidder ned.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "at begge ser væk",
+              "at man står ryg mod ryg",
+              "at begge sidder ned"
+            ]
+          },
+          "kp_kropssprog_05": {
+            "hint": "Find svaret i kilderne til: Ansigt, blik og bevægelse.",
+            "explanation": "Kort svar: at løfte en hånd. Forklar hvorfor det er mere præcist end: at lukke øjnene i søvn · at binde sko · at tage en jakke på.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "at lukke øjnene i søvn",
+              "at binde sko",
+              "at tage en jakke på"
+            ]
+          },
+          "kp_kropssprog_06": {
+            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
+            "explanation": "Kort svar: proxemics. Forklar hvorfor det er mere præcist end: chronemics · haptics · fonologi.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "chronemics",
+              "haptics",
+              "fonologi"
+            ]
+          },
+          "kp_kropssprog_07": {
+            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
+            "explanation": "Kort svar: haptics. Forklar hvorfor det er mere præcist end: proxemics · vocalics · oculesics.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "proxemics",
+              "vocalics",
+              "oculesics"
+            ]
+          },
+          "kp_kropssprog_08": {
+            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
+            "explanation": "Kort svar: chronemics. Forklar hvorfor det er mere præcist end: kinesics · semantics · haptics.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "kinesics",
+              "semantics",
+              "haptics"
+            ]
+          },
+          "kp_kropssprog_09": {
+            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
+            "explanation": "Kort svar: intim afstand. Forklar hvorfor det er mere præcist end: offentlig afstand · social afstand · forelæsningsafstand.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "offentlig afstand",
+              "social afstand",
+              "forelæsningsafstand"
+            ]
+          },
+          "kp_kropssprog_10": {
+            "hint": "Find svaret i kilderne til: Stemme, rum og berøring.",
+            "explanation": "Kort svar: personlig afstand. Forklar hvorfor det er mere præcist end: offentlig afstand · sceneafstand · trafikafstand.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "offentlig afstand",
+              "sceneafstand",
+              "trafikafstand"
+            ]
+          },
+          "kp_kropssprog_11": {
+            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
+            "explanation": "Kort svar: et ønske om at afslutte eller skifte fokus. Forklar hvorfor det er mere præcist end: et sikkert bevis på tyveri · at personen er blind · at døren er låst.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "et sikkert bevis på tyveri",
+              "at personen er blind",
+              "at døren er låst"
+            ]
+          },
+          "kp_kropssprog_12": {
+            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
+            "explanation": "Kort svar: at signalerne peger i samme retning. Forklar hvorfor det er mere præcist end: at ordene og kroppen altid modsiger hinanden · at kun stemmen bruges · at kommunikationen foregår på skrift.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "at ordene og kroppen altid modsiger hinanden",
+              "at kun stemmen bruges",
+              "at kommunikationen foregår på skrift"
+            ]
+          },
+          "kp_kropssprog_13": {
+            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
+            "explanation": "Kort svar: at forskellige signaler ikke passer sammen. Forklar hvorfor det er mere præcist end: at alle signaler gentager hinanden · at samtalen er lydløs · at to personer bruger samme ord.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "at alle signaler gentager hinanden",
+              "at samtalen er lydløs",
+              "at to personer bruger samme ord"
+            ]
+          },
+          "kp_kropssprog_14": {
+            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
+            "explanation": "Kort svar: blødgøre den opfattede relationelle tone. Forklar hvorfor det er mere præcist end: fjerne alle ord · gøre kritikken matematisk · ændre modtagerens alder.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "fjerne alle ord",
+              "gøre kritikken matematisk",
+              "ændre modtagerens alder"
+            ]
+          },
+          "kp_kropssprog_15": {
+            "hint": "Find svaret i kilderne til: Samtalens funktioner.",
+            "explanation": "Kort svar: nærhed, magt og holdning. Forklar hvorfor det er mere præcist end: postnummer og CPR-nummer · grammatisk køn alene · vejrudsigten.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "postnummer og CPR-nummer",
+              "grammatisk køn alene",
+              "vejrudsigten"
+            ]
+          },
+          "kp_kropssprog_16": {
+            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
+            "explanation": "Kort svar: tallet kan ikke generaliseres til al kommunikation. Forklar hvorfor det er mere præcist end: procenten er altid 100 · kropssprog findes ikke · ord er aldrig vigtige.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "procenten er altid 100",
+              "kropssprog findes ikke",
+              "ord er aldrig vigtige"
+            ]
+          },
+          "kp_kropssprog_17": {
+            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
+            "explanation": "Kort svar: med kultur, relation, situation og individ. Forklar hvorfor det er mere præcist end: de er biologisk faste for alle · de afhænger kun af højde · de er ens i alle lande.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "de er biologisk faste for alle",
+              "de afhænger kun af højde",
+              "de er ens i alle lande"
+            ]
+          },
+          "kp_kropssprog_18": {
+            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
+            "explanation": "Kort svar: den kan have forskellige eller modsatte betydninger. Forklar hvorfor det er mere præcist end: den har altid samme betydning · den mister al betydning uden tale · den forstås kun af børn.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "den har altid samme betydning",
+              "den mister al betydning uden tale",
+              "den forstås kun af børn"
+            ]
+          },
+          "kp_kropssprog_19": {
+            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
+            "explanation": "Kort svar: bruge dem som forsigtige pejlemærker, ikke stereotyper. Forklar hvorfor det er mere præcist end: behandle dem som absolutte love · ignorere individuelle forskelle · antage at alle i et land er ens.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "behandle dem som absolutte love",
+              "ignorere individuelle forskelle",
+              "antage at alle i et land er ens"
+            ]
+          },
+          "kp_kropssprog_20": {
+            "hint": "Find svaret i kilderne til: Kultur, forskning og myter.",
+            "explanation": "Kort svar: nej, tegnsprog er fuldt udviklede sprog. Forklar hvorfor det er mere præcist end: ja, tegnsprog har ingen grammatik · ja, tegnsprog består kun af mimik · nej, fordi tegnsprog kun er skrift.",
+            "sourceTitle": "Verywell Mind · Body Language",
+            "sourceUrl": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
+            "confusions": [
+              "ja, tegnsprog har ingen grammatik",
+              "ja, tegnsprog består kun af mimik",
+              "nej, fordi tegnsprog kun er skrift"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

@@ -1474,235 +1474,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-jydsk-historie-topografi_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Jydsk historie og topografi",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_jydsk-historie-og-topografi_01": {
-            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
-            "explanation": "Kort svar: Kolding. Forklar hvorfor det er mere præcist end: Fredericia · Viborg · Aabenraa.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Fredericia",
-              "Viborg",
-              "Aabenraa"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_02": {
-            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
-            "explanation": "Kort svar: Fredericia. Forklar hvorfor det er mere præcist end: Esbjerg · Grenaa · Skanderborg.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Esbjerg",
-              "Grenaa",
-              "Skanderborg"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_03": {
-            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
-            "explanation": "Kort svar: Sønderborg. Forklar hvorfor det er mere præcist end: Tønder · Haderslev · Aabenraa.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Tønder",
-              "Haderslev",
-              "Aabenraa"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_04": {
-            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
-            "explanation": "Kort svar: Ribe. Forklar hvorfor det er mere præcist end: Viborg · Aarhus · Hobro.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Viborg",
-              "Aarhus",
-              "Hobro"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_05": {
-            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
-            "explanation": "Kort svar: Skagen. Forklar hvorfor det er mere præcist end: Frederikshavn · Hirtshals · Sæby.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Frederikshavn",
-              "Hirtshals",
-              "Sæby"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_06": {
-            "hint": "Find svaret i kilderne til: Landskab og farvande.",
-            "explanation": "Kort svar: Nationalpark Thy. Forklar hvorfor det er mere præcist end: Nationalpark Mols Bjerge · Nationalpark Kongernes Nordsjælland · Nationalpark Skjoldungernes Land.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Nationalpark Mols Bjerge",
-              "Nationalpark Kongernes Nordsjælland",
-              "Nationalpark Skjoldungernes Land"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_07": {
-            "hint": "Find svaret i kilderne til: Landskab og farvande.",
-            "explanation": "Kort svar: Nationalpark Mols Bjerge. Forklar hvorfor det er mere præcist end: Nationalpark Thy · Nationalpark Vadehavet · Nationalpark Rebild Bakker.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Nationalpark Thy",
-              "Nationalpark Vadehavet",
-              "Nationalpark Rebild Bakker"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_08": {
-            "hint": "Find svaret i kilderne til: Landskab og farvande.",
-            "explanation": "Kort svar: Vadehavet. Forklar hvorfor det er mere præcist end: Ringkøbing Fjord · Limfjorden · Mariager Fjord.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Ringkøbing Fjord",
-              "Limfjorden",
-              "Mariager Fjord"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_09": {
-            "hint": "Find svaret i kilderne til: Landskab og farvande.",
-            "explanation": "Kort svar: Limfjorden. Forklar hvorfor det er mere præcist end: Randers Fjord · Horsens Fjord · Kolding Fjord.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Randers Fjord",
-              "Horsens Fjord",
-              "Kolding Fjord"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_10": {
-            "hint": "Find svaret i kilderne til: Landskab og farvande.",
-            "explanation": "Kort svar: Skjern Å. Forklar hvorfor det er mere præcist end: Gudenåen · Storå · Kongeåen.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Gudenåen",
-              "Storå",
-              "Kongeåen"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_11": {
-            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
-            "explanation": "Kort svar: Lindholm Høje. Forklar hvorfor det er mere præcist end: Jelling · Lejre · Borre.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Jelling",
-              "Lejre",
-              "Borre"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_12": {
-            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
-            "explanation": "Kort svar: Danevirke. Forklar hvorfor det er mere præcist end: Margrethevolden · Vestvolden · Virket.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Margrethevolden",
-              "Vestvolden",
-              "Virket"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_13": {
-            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
-            "explanation": "Kort svar: Hærvejen. Forklar hvorfor det er mere præcist end: Kongevejen · Margueritruten · Adelgade.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Kongevejen",
-              "Margueritruten",
-              "Adelgade"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_14": {
-            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
-            "explanation": "Kort svar: Slaget ved Fredericia. Forklar hvorfor det er mere præcist end: Slaget ved Dybbøl · Slaget på Isted Hede · Slaget ved Helgoland.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Slaget ved Dybbøl",
-              "Slaget på Isted Hede",
-              "Slaget ved Helgoland"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_15": {
-            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
-            "explanation": "Kort svar: Slaget ved Dybbøl. Forklar hvorfor det er mere præcist end: Slaget ved Fredericia · Slaget ved Bov · Slaget ved Lundby.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Slaget ved Fredericia",
-              "Slaget ved Bov",
-              "Slaget ved Lundby"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_16": {
-            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
-            "explanation": "Kort svar: P.S. Krøyer. Forklar hvorfor det er mere præcist end: Michael Ancher · Anna Ancher · J.F. Willumsen.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Michael Ancher",
-              "Anna Ancher",
-              "J.F. Willumsen"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_17": {
-            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
-            "explanation": "Kort svar: Steen Steensen Blicher. Forklar hvorfor det er mere præcist end: Jeppe Aakjær · Johannes V. Jensen · Hans Kirk.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Jeppe Aakjær",
-              "Johannes V. Jensen",
-              "Hans Kirk"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_18": {
-            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
-            "explanation": "Kort svar: Jeppe Aakjær. Forklar hvorfor det er mere præcist end: St.St. Blicher · Martin Andersen Nexø · Thøger Larsen.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "St.St. Blicher",
-              "Martin Andersen Nexø",
-              "Thøger Larsen"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_19": {
-            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
-            "explanation": "Kort svar: Johannes V. Jensen. Forklar hvorfor det er mere præcist end: Henrik Pontoppidan · Karl Gjellerup · Martin Andersen Nexø.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Henrik Pontoppidan",
-              "Karl Gjellerup",
-              "Martin Andersen Nexø"
-            ]
-          },
-          "kp_jydsk-historie-og-topografi_20": {
-            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
-            "explanation": "Kort svar: Fiskerne. Forklar hvorfor det er mere præcist end: Lykke-Per · Hærværk · Pelle Erobreren.",
-            "sourceTitle": "VisitDenmark · Jylland",
-            "sourceUrl": "https://www.visitdenmark.dk/",
-            "confusions": [
-              "Lykke-Per",
-              "Hærværk",
-              "Pelle Erobreren"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1990,7 +1763,236 @@
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_jydsk-historie-og-topografi_01": {
+            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
+            "explanation": "Kort svar: Kolding. Forklar hvorfor det er mere præcist end: Fredericia · Viborg · Aabenraa.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Fredericia",
+              "Viborg",
+              "Aabenraa"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_02": {
+            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
+            "explanation": "Kort svar: Fredericia. Forklar hvorfor det er mere præcist end: Esbjerg · Grenaa · Skanderborg.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Esbjerg",
+              "Grenaa",
+              "Skanderborg"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_03": {
+            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
+            "explanation": "Kort svar: Sønderborg. Forklar hvorfor det er mere præcist end: Tønder · Haderslev · Aabenraa.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Tønder",
+              "Haderslev",
+              "Aabenraa"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_04": {
+            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
+            "explanation": "Kort svar: Ribe. Forklar hvorfor det er mere præcist end: Viborg · Aarhus · Hobro.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Viborg",
+              "Aarhus",
+              "Hobro"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_05": {
+            "hint": "Find svaret i kilderne til: Byer og kendte steder.",
+            "explanation": "Kort svar: Skagen. Forklar hvorfor det er mere præcist end: Frederikshavn · Hirtshals · Sæby.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Frederikshavn",
+              "Hirtshals",
+              "Sæby"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_06": {
+            "hint": "Find svaret i kilderne til: Landskab og farvande.",
+            "explanation": "Kort svar: Nationalpark Thy. Forklar hvorfor det er mere præcist end: Nationalpark Mols Bjerge · Nationalpark Kongernes Nordsjælland · Nationalpark Skjoldungernes Land.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Nationalpark Mols Bjerge",
+              "Nationalpark Kongernes Nordsjælland",
+              "Nationalpark Skjoldungernes Land"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_07": {
+            "hint": "Find svaret i kilderne til: Landskab og farvande.",
+            "explanation": "Kort svar: Nationalpark Mols Bjerge. Forklar hvorfor det er mere præcist end: Nationalpark Thy · Nationalpark Vadehavet · Nationalpark Rebild Bakker.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Nationalpark Thy",
+              "Nationalpark Vadehavet",
+              "Nationalpark Rebild Bakker"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_08": {
+            "hint": "Find svaret i kilderne til: Landskab og farvande.",
+            "explanation": "Kort svar: Vadehavet. Forklar hvorfor det er mere præcist end: Ringkøbing Fjord · Limfjorden · Mariager Fjord.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Ringkøbing Fjord",
+              "Limfjorden",
+              "Mariager Fjord"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_09": {
+            "hint": "Find svaret i kilderne til: Landskab og farvande.",
+            "explanation": "Kort svar: Limfjorden. Forklar hvorfor det er mere præcist end: Randers Fjord · Horsens Fjord · Kolding Fjord.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Randers Fjord",
+              "Horsens Fjord",
+              "Kolding Fjord"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_10": {
+            "hint": "Find svaret i kilderne til: Landskab og farvande.",
+            "explanation": "Kort svar: Skjern Å. Forklar hvorfor det er mere præcist end: Gudenåen · Storå · Kongeåen.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Gudenåen",
+              "Storå",
+              "Kongeåen"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_11": {
+            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
+            "explanation": "Kort svar: Lindholm Høje. Forklar hvorfor det er mere præcist end: Jelling · Lejre · Borre.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Jelling",
+              "Lejre",
+              "Borre"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_12": {
+            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
+            "explanation": "Kort svar: Danevirke. Forklar hvorfor det er mere præcist end: Margrethevolden · Vestvolden · Virket.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Margrethevolden",
+              "Vestvolden",
+              "Virket"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_13": {
+            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
+            "explanation": "Kort svar: Hærvejen. Forklar hvorfor det er mere præcist end: Kongevejen · Margueritruten · Adelgade.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Kongevejen",
+              "Margueritruten",
+              "Adelgade"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_14": {
+            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
+            "explanation": "Kort svar: Slaget ved Fredericia. Forklar hvorfor det er mere præcist end: Slaget ved Dybbøl · Slaget på Isted Hede · Slaget ved Helgoland.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Slaget ved Dybbøl",
+              "Slaget på Isted Hede",
+              "Slaget ved Helgoland"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_15": {
+            "hint": "Find svaret i kilderne til: Historie og arkæologi.",
+            "explanation": "Kort svar: Slaget ved Dybbøl. Forklar hvorfor det er mere præcist end: Slaget ved Fredericia · Slaget ved Bov · Slaget ved Lundby.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Slaget ved Fredericia",
+              "Slaget ved Bov",
+              "Slaget ved Lundby"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_16": {
+            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
+            "explanation": "Kort svar: P.S. Krøyer. Forklar hvorfor det er mere præcist end: Michael Ancher · Anna Ancher · J.F. Willumsen.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Michael Ancher",
+              "Anna Ancher",
+              "J.F. Willumsen"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_17": {
+            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
+            "explanation": "Kort svar: Steen Steensen Blicher. Forklar hvorfor det er mere præcist end: Jeppe Aakjær · Johannes V. Jensen · Hans Kirk.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Jeppe Aakjær",
+              "Johannes V. Jensen",
+              "Hans Kirk"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_18": {
+            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
+            "explanation": "Kort svar: Jeppe Aakjær. Forklar hvorfor det er mere præcist end: St.St. Blicher · Martin Andersen Nexø · Thøger Larsen.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "St.St. Blicher",
+              "Martin Andersen Nexø",
+              "Thøger Larsen"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_19": {
+            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
+            "explanation": "Kort svar: Johannes V. Jensen. Forklar hvorfor det er mere præcist end: Henrik Pontoppidan · Karl Gjellerup · Martin Andersen Nexø.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Henrik Pontoppidan",
+              "Karl Gjellerup",
+              "Martin Andersen Nexø"
+            ]
+          },
+          "kp_jydsk-historie-og-topografi_20": {
+            "hint": "Find svaret i kilderne til: Kultur, erhverv og forbindelser.",
+            "explanation": "Kort svar: Fiskerne. Forklar hvorfor det er mere præcist end: Lykke-Per · Hærværk · Pelle Erobreren.",
+            "sourceTitle": "VisitDenmark · Jylland",
+            "sourceUrl": "https://www.visitdenmark.dk/",
+            "confusions": [
+              "Lykke-Per",
+              "Hærværk",
+              "Pelle Erobreren"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

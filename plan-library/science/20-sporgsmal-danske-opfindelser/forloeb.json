@@ -1473,235 +1473,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "w_20-sporgsmal-danske-opfindelser_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Danske opfindelser",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_danske-opfindelser_01": {
-            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
-            "explanation": "Kort svar: Det bevæger sig med en endelig hastighed. Forklar hvorfor det er mere præcist end: Det kan ikke bevæge sig i vakuum · Det består kun af lydsvingninger · Det bevæger sig øjeblikkeligt.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Det kan ikke bevæge sig i vakuum",
-              "Det består kun af lydsvingninger",
-              "Det bevæger sig øjeblikkeligt"
-            ]
-          },
-          "kp_danske-opfindelser_02": {
-            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
-            "explanation": "Kort svar: S.P.L. Sørensen. Forklar hvorfor det er mere præcist end: Johan Kjeldahl · Niels Finsen · August Krogh.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Johan Kjeldahl",
-              "Niels Finsen",
-              "August Krogh"
-            ]
-          },
-          "kp_danske-opfindelser_03": {
-            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
-            "explanation": "Kort svar: 1909. Forklar hvorfor det er mere præcist end: 1884 · 1920 · 1943.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "1884",
-              "1920",
-              "1943"
-            ]
-          },
-          "kp_danske-opfindelser_04": {
-            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
-            "explanation": "Kort svar: Carlsberg Laboratorium. Forklar hvorfor det er mere præcist end: Niels Bohr Institutet · Statens Serum Institut · Risø.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Niels Bohr Institutet",
-              "Statens Serum Institut",
-              "Risø"
-            ]
-          },
-          "kp_danske-opfindelser_05": {
-            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
-            "explanation": "Kort svar: hvor sur eller basisk en opløsning er. Forklar hvorfor det er mere præcist end: hvor hurtigt en væske fordamper · hvor meget en genstand vejer · hvor stærkt et stof leder elektricitet.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "hvor hurtigt en væske fordamper",
-              "hvor meget en genstand vejer",
-              "hvor stærkt et stof leder elektricitet"
-            ]
-          },
-          "kp_danske-opfindelser_06": {
-            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
-            "explanation": "Kort svar: Hans Christian Hagedorn. Forklar hvorfor det er mere præcist end: Hans Christian Gram · Niels Stensen · Villum Kann Rasmussen.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Hans Christian Gram",
-              "Niels Stensen",
-              "Villum Kann Rasmussen"
-            ]
-          },
-          "kp_danske-opfindelser_07": {
-            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
-            "explanation": "Kort svar: Neutral Protamine Hagedorn. Forklar hvorfor det er mere præcist end: Nordic Pure Human · Neutral Pancreatic Hormone · Novo Protamine Hybrid.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Nordic Pure Human",
-              "Neutral Pancreatic Hormone",
-              "Novo Protamine Hybrid"
-            ]
-          },
-          "kp_danske-opfindelser_08": {
-            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
-            "explanation": "Kort svar: protamin. Forklar hvorfor det er mere præcist end: heparin · penicillin · adrenalin.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "heparin",
-              "penicillin",
-              "adrenalin"
-            ]
-          },
-          "kp_danske-opfindelser_09": {
-            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
-            "explanation": "Kort svar: 1946. Forklar hvorfor det er mere præcist end: 1923 · 1954 · 1985.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "1923",
-              "1954",
-              "1985"
-            ]
-          },
-          "kp_danske-opfindelser_10": {
-            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
-            "explanation": "Kort svar: 1985. Forklar hvorfor det er mere præcist end: 1957 · 1973 · 1997.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "1957",
-              "1973",
-              "1997"
-            ]
-          },
-          "kp_danske-opfindelser_11": {
-            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
-            "explanation": "Kort svar: Mads Clausen. Forklar hvorfor det er mere præcist end: Poul Due Jensen · P.A. Fisker · Villum Kann Rasmussen.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Poul Due Jensen",
-              "P.A. Fisker",
-              "Villum Kann Rasmussen"
-            ]
-          },
-          "kp_danske-opfindelser_12": {
-            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
-            "explanation": "Kort svar: Nordborg på Als. Forklar hvorfor det er mere præcist end: Billund · Bjerringbro · Kalundborg.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Billund",
-              "Bjerringbro",
-              "Kalundborg"
-            ]
-          },
-          "kp_danske-opfindelser_13": {
-            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
-            "explanation": "Kort svar: 1933. Forklar hvorfor det er mere præcist end: 1906 · 1945 · 1957.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "1906",
-              "1945",
-              "1957"
-            ]
-          },
-          "kp_danske-opfindelser_14": {
-            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
-            "explanation": "Kort svar: en automatisk ekspansionsventil. Forklar hvorfor det er mere præcist end: en dieselmotor · en elektrisk støvsuger · en insulinpumpe.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "en dieselmotor",
-              "en elektrisk støvsuger",
-              "en insulinpumpe"
-            ]
-          },
-          "kp_danske-opfindelser_15": {
-            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
-            "explanation": "Kort svar: rummets temperatur. Forklar hvorfor det er mere præcist end: vandets surhedsgrad · bilmotorens omdrejninger · radioens lydstyrke.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "vandets surhedsgrad",
-              "bilmotorens omdrejninger",
-              "radioens lydstyrke"
-            ]
-          },
-          "kp_danske-opfindelser_16": {
-            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
-            "explanation": "Kort svar: 1925. Forklar hvorfor det er mere præcist end: 1898 · 1932 · 1958.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "1898",
-              "1932",
-              "1958"
-            ]
-          },
-          "kp_danske-opfindelser_17": {
-            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
-            "explanation": "Kort svar: Struer. Forklar hvorfor det er mere præcist end: Herning · Esbjerg · Holstebro.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Herning",
-              "Esbjerg",
-              "Holstebro"
-            ]
-          },
-          "kp_danske-opfindelser_18": {
-            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
-            "explanation": "Kort svar: lyd- og billedudstyr. Forklar hvorfor det er mere præcist end: pumper og ventiler · medicin og stomiposer · byggesten og legetøj.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "pumper og ventiler",
-              "medicin og stomiposer",
-              "byggesten og legetøj"
-            ]
-          },
-          "kp_danske-opfindelser_19": {
-            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
-            "explanation": "Kort svar: Bjarne Stroustrup. Forklar hvorfor det er mere præcist end: Anders Hejlsberg · Peter Naur · Per Brinch Hansen.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "Anders Hejlsberg",
-              "Peter Naur",
-              "Per Brinch Hansen"
-            ]
-          },
-          "kp_danske-opfindelser_20": {
-            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
-            "explanation": "Kort svar: Bell Labs. Forklar hvorfor det er mere præcist end: CERN · Niels Bohr Institutet · Carlsberg Laboratorium.",
-            "sourceTitle": "DTU Space · Ole Rømer",
-            "sourceUrl": "https://www.space.dtu.dk/",
-            "confusions": [
-              "CERN",
-              "Niels Bohr Institutet",
-              "Carlsberg Laboratorium"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -1989,7 +1762,236 @@
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_danske-opfindelser_01": {
+            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
+            "explanation": "Kort svar: Det bevæger sig med en endelig hastighed. Forklar hvorfor det er mere præcist end: Det kan ikke bevæge sig i vakuum · Det består kun af lydsvingninger · Det bevæger sig øjeblikkeligt.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Det kan ikke bevæge sig i vakuum",
+              "Det består kun af lydsvingninger",
+              "Det bevæger sig øjeblikkeligt"
+            ]
+          },
+          "kp_danske-opfindelser_02": {
+            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
+            "explanation": "Kort svar: S.P.L. Sørensen. Forklar hvorfor det er mere præcist end: Johan Kjeldahl · Niels Finsen · August Krogh.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Johan Kjeldahl",
+              "Niels Finsen",
+              "August Krogh"
+            ]
+          },
+          "kp_danske-opfindelser_03": {
+            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
+            "explanation": "Kort svar: 1909. Forklar hvorfor det er mere præcist end: 1884 · 1920 · 1943.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "1884",
+              "1920",
+              "1943"
+            ]
+          },
+          "kp_danske-opfindelser_04": {
+            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
+            "explanation": "Kort svar: Carlsberg Laboratorium. Forklar hvorfor det er mere præcist end: Niels Bohr Institutet · Statens Serum Institut · Risø.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Niels Bohr Institutet",
+              "Statens Serum Institut",
+              "Risø"
+            ]
+          },
+          "kp_danske-opfindelser_05": {
+            "hint": "Find svaret i kilderne til: Fysik, måling og forskning.",
+            "explanation": "Kort svar: hvor sur eller basisk en opløsning er. Forklar hvorfor det er mere præcist end: hvor hurtigt en væske fordamper · hvor meget en genstand vejer · hvor stærkt et stof leder elektricitet.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "hvor hurtigt en væske fordamper",
+              "hvor meget en genstand vejer",
+              "hvor stærkt et stof leder elektricitet"
+            ]
+          },
+          "kp_danske-opfindelser_06": {
+            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
+            "explanation": "Kort svar: Hans Christian Hagedorn. Forklar hvorfor det er mere præcist end: Hans Christian Gram · Niels Stensen · Villum Kann Rasmussen.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Hans Christian Gram",
+              "Niels Stensen",
+              "Villum Kann Rasmussen"
+            ]
+          },
+          "kp_danske-opfindelser_07": {
+            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
+            "explanation": "Kort svar: Neutral Protamine Hagedorn. Forklar hvorfor det er mere præcist end: Nordic Pure Human · Neutral Pancreatic Hormone · Novo Protamine Hybrid.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Nordic Pure Human",
+              "Neutral Pancreatic Hormone",
+              "Novo Protamine Hybrid"
+            ]
+          },
+          "kp_danske-opfindelser_08": {
+            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
+            "explanation": "Kort svar: protamin. Forklar hvorfor det er mere præcist end: heparin · penicillin · adrenalin.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "heparin",
+              "penicillin",
+              "adrenalin"
+            ]
+          },
+          "kp_danske-opfindelser_09": {
+            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
+            "explanation": "Kort svar: 1946. Forklar hvorfor det er mere præcist end: 1923 · 1954 · 1985.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "1923",
+              "1954",
+              "1985"
+            ]
+          },
+          "kp_danske-opfindelser_10": {
+            "hint": "Find svaret i kilderne til: Medicin og bioteknologi.",
+            "explanation": "Kort svar: 1985. Forklar hvorfor det er mere præcist end: 1957 · 1973 · 1997.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "1957",
+              "1973",
+              "1997"
+            ]
+          },
+          "kp_danske-opfindelser_11": {
+            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
+            "explanation": "Kort svar: Mads Clausen. Forklar hvorfor det er mere præcist end: Poul Due Jensen · P.A. Fisker · Villum Kann Rasmussen.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Poul Due Jensen",
+              "P.A. Fisker",
+              "Villum Kann Rasmussen"
+            ]
+          },
+          "kp_danske-opfindelser_12": {
+            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
+            "explanation": "Kort svar: Nordborg på Als. Forklar hvorfor det er mere præcist end: Billund · Bjerringbro · Kalundborg.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Billund",
+              "Bjerringbro",
+              "Kalundborg"
+            ]
+          },
+          "kp_danske-opfindelser_13": {
+            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
+            "explanation": "Kort svar: 1933. Forklar hvorfor det er mere præcist end: 1906 · 1945 · 1957.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "1906",
+              "1945",
+              "1957"
+            ]
+          },
+          "kp_danske-opfindelser_14": {
+            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
+            "explanation": "Kort svar: en automatisk ekspansionsventil. Forklar hvorfor det er mere præcist end: en dieselmotor · en elektrisk støvsuger · en insulinpumpe.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "en dieselmotor",
+              "en elektrisk støvsuger",
+              "en insulinpumpe"
+            ]
+          },
+          "kp_danske-opfindelser_15": {
+            "hint": "Find svaret i kilderne til: Industri, transport og hverdag.",
+            "explanation": "Kort svar: rummets temperatur. Forklar hvorfor det er mere præcist end: vandets surhedsgrad · bilmotorens omdrejninger · radioens lydstyrke.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "vandets surhedsgrad",
+              "bilmotorens omdrejninger",
+              "radioens lydstyrke"
+            ]
+          },
+          "kp_danske-opfindelser_16": {
+            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
+            "explanation": "Kort svar: 1925. Forklar hvorfor det er mere præcist end: 1898 · 1932 · 1958.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "1898",
+              "1932",
+              "1958"
+            ]
+          },
+          "kp_danske-opfindelser_17": {
+            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
+            "explanation": "Kort svar: Struer. Forklar hvorfor det er mere præcist end: Herning · Esbjerg · Holstebro.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Herning",
+              "Esbjerg",
+              "Holstebro"
+            ]
+          },
+          "kp_danske-opfindelser_18": {
+            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
+            "explanation": "Kort svar: lyd- og billedudstyr. Forklar hvorfor det er mere præcist end: pumper og ventiler · medicin og stomiposer · byggesten og legetøj.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "pumper og ventiler",
+              "medicin og stomiposer",
+              "byggesten og legetøj"
+            ]
+          },
+          "kp_danske-opfindelser_19": {
+            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
+            "explanation": "Kort svar: Bjarne Stroustrup. Forklar hvorfor det er mere præcist end: Anders Hejlsberg · Peter Naur · Per Brinch Hansen.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "Anders Hejlsberg",
+              "Peter Naur",
+              "Per Brinch Hansen"
+            ]
+          },
+          "kp_danske-opfindelser_20": {
+            "hint": "Find svaret i kilderne til: Lyd, leg og digitale idéer.",
+            "explanation": "Kort svar: Bell Labs. Forklar hvorfor det er mere præcist end: CERN · Niels Bohr Institutet · Carlsberg Laboratorium.",
+            "sourceTitle": "DTU Space · Ole Rømer",
+            "sourceUrl": "https://www.space.dtu.dk/",
+            "confusions": [
+              "CERN",
+              "Niels Bohr Institutet",
+              "Carlsberg Laboratorium"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,

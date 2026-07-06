@@ -17267,235 +17267,8 @@
       "content": {
         "flashcardMatrixVersion": 2,
         "sourceWidgetId": "widget_dansk-25-26_finale_kapardy",
-        "sourceKind": "kapardy",
         "sourceTitle": "KaPardy · Danskfinale",
-        "mode": "training",
-        "showAnswers": false,
         "shuffle": true,
-        "filterCategory": "all",
-        "statusMap": {},
-        "enrichment": {
-          "kp_dansk_aarsfinale_01": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
-            "explanation": "Kort svar: Hvordan viser teksten relationer, konflikter og synsvinkel?. Forklar hvorfor dette svar passer bedre end: Hvor mange sider har teksten? · Hvilken skrifttype er brugt? · Hvem læser højest?.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Hvor mange sider har teksten?",
-              "Hvilken skrifttype er brugt?",
-              "Hvem læser højest?"
-            ]
-          },
-          "kp_dansk_aarsfinale_02": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
-            "explanation": "Kort svar: En fortæller der bruger jeg og oplever indefra. Forklar hvorfor dette svar passer bedre end: En alvidende fortæller uden holdning · En person der altid lyver · En ydre kameravinkel uden tanker.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "En alvidende fortæller uden holdning",
-              "En person der altid lyver",
-              "En ydre kameravinkel uden tanker"
-            ]
-          },
-          "kp_dansk_aarsfinale_03": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
-            "explanation": "Kort svar: Forholdet mellem oplevelse, hukommelse og fortælling. Forklar hvorfor dette svar passer bedre end: Kun tekstens antal kommaer · Kun udgivelsesåret · Kun om teksten rimer.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Kun tekstens antal kommaer",
-              "Kun udgivelsesåret",
-              "Kun om teksten rimer"
-            ]
-          },
-          "kp_dansk_aarsfinale_04": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
-            "explanation": "Kort svar: Den kan vise personernes livsvilkår og konflikter indirekte. Forklar hvorfor dette svar passer bedre end: Den erstatter altid handlingen · Den fjerner behovet for fortolkning · Den er kun pynt.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Den erstatter altid handlingen",
-              "Den fjerner behovet for fortolkning",
-              "Den er kun pynt"
-            ]
-          },
-          "kp_dansk_aarsfinale_05": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
-            "explanation": "Kort svar: Koble tekstens detaljer til en samlet forståelse. Forklar hvorfor dette svar passer bedre end: Gengive handlingen uden analyse · Vælge det første indtryk som facit · Undgå citater og eksempler.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Gengive handlingen uden analyse",
-              "Vælge det første indtryk som facit",
-              "Undgå citater og eksempler"
-            ]
-          },
-          "kp_dansk_aarsfinale_06": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
-            "explanation": "Kort svar: Romantikken. Forklar hvorfor dette svar passer bedre end: Det moderne gennembrud · Efterkrigstiden · Minimalismen.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Det moderne gennembrud",
-              "Efterkrigstiden",
-              "Minimalismen"
-            ]
-          },
-          "kp_dansk_aarsfinale_07": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
-            "explanation": "Kort svar: At litteraturen skulle sætte problemer under debat. Forklar hvorfor dette svar passer bedre end: At alle tekster skulle være eventyr · At litteraturen skulle undgå samfund · At kun adelige måtte skrive.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "At alle tekster skulle være eventyr",
-              "At litteraturen skulle undgå samfund",
-              "At kun adelige måtte skrive"
-            ]
-          },
-          "kp_dansk_aarsfinale_08": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
-            "explanation": "Kort svar: Troværdige skildringer af hverdag, miljø og samfund. Forklar hvorfor dette svar passer bedre end: Drømme uden forbindelse til virkelighed · Kun helte og guder · Kun rimede tekster.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Drømme uden forbindelse til virkelighed",
-              "Kun helte og guder",
-              "Kun rimede tekster"
-            ]
-          },
-          "kp_dansk_aarsfinale_09": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
-            "explanation": "Kort svar: Arv, miljø og sociale vilkår påvirker mennesket. Forklar hvorfor dette svar passer bedre end: Alt afgøres af tilfældige tryllekræfter · Personer har ingen baggrund · Samfundet findes ikke i teksten.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Alt afgøres af tilfældige tryllekræfter",
-              "Personer har ingen baggrund",
-              "Samfundet findes ikke i teksten"
-            ]
-          },
-          "kp_dansk_aarsfinale_10": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
-            "explanation": "Kort svar: For at forstå tekster i historisk og kulturel sammenhæng. Forklar hvorfor dette svar passer bedre end: For at slippe for nærlæsning · For at kunne ignorere sproget · For at alle tekster får samme facit.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "For at slippe for nærlæsning",
-              "For at kunne ignorere sproget",
-              "For at alle tekster får samme facit"
-            ]
-          },
-          "kp_dansk_aarsfinale_11": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
-            "explanation": "Kort svar: Den gruppe reklamen især prøver at ramme. Forklar hvorfor dette svar passer bedre end: Alle mennesker i verden · Kun reklamebureauet · Den person der tilfældigt ser væk.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Alle mennesker i verden",
-              "Kun reklamebureauet",
-              "Den person der tilfældigt ser væk"
-            ]
-          },
-          "kp_dansk_aarsfinale_12": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
-            "explanation": "Kort svar: Et valg der påvirker modtagerens oplevelse og forståelse. Forklar hvorfor dette svar passer bedre end: Et tilfældigt teknisk problem · Et krav om at købe produktet · En fejl i billedet.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Et tilfældigt teknisk problem",
-              "Et krav om at købe produktet",
-              "En fejl i billedet"
-            ]
-          },
-          "kp_dansk_aarsfinale_13": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
-            "explanation": "Kort svar: Motiv, udsnit, vinkel, situation og mulig virkning. Forklar hvorfor dette svar passer bedre end: Kun filnavnet · Kun kameraets pris · Kun fotografens alder.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Kun filnavnet",
-              "Kun kameraets pris",
-              "Kun fotografens alder"
-            ]
-          },
-          "kp_dansk_aarsfinale_14": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
-            "explanation": "Kort svar: Fordi dokumentarer også vælger perspektiv, klipning og fortælling. Forklar hvorfor dette svar passer bedre end: Fordi dokumentarer aldrig viser virkelighed · Fordi billeder altid er neutrale · Fordi lyd ikke betyder noget.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Fordi dokumentarer aldrig viser virkelighed",
-              "Fordi billeder altid er neutrale",
-              "Fordi lyd ikke betyder noget"
-            ]
-          },
-          "kp_dansk_aarsfinale_15": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
-            "explanation": "Kort svar: Meget om relationer, konflikt og vendepunkt. Forklar hvorfor dette svar passer bedre end: Kun hvem der har lavet plakaten · Kun hvor lang filmen er · Kun hvad kameraet hedder.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Kun hvem der har lavet plakaten",
-              "Kun hvor lang filmen er",
-              "Kun hvad kameraet hedder"
-            ]
-          },
-          "kp_dansk_aarsfinale_16": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
-            "explanation": "Kort svar: Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter. Forklar hvorfor dette svar passer bedre end: En fuld romananalyse på ti sider · En tilfældig stikordsliste uden fokus · En karakterbog.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "En fuld romananalyse på ti sider",
-              "En tilfældig stikordsliste uden fokus",
-              "En karakterbog"
-            ]
-          },
-          "kp_dansk_aarsfinale_17": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
-            "explanation": "Kort svar: Et åbent fagligt spørgsmål der kan undersøges og diskuteres. Forklar hvorfor dette svar passer bedre end: Et ja/nej-spørgsmål uden forklaring · En overskrift uden indhold · Et facit fra læreren.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Et ja/nej-spørgsmål uden forklaring",
-              "En overskrift uden indhold",
-              "Et facit fra læreren"
-            ]
-          },
-          "kp_dansk_aarsfinale_18": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
-            "explanation": "Kort svar: Analyse undersøger dele; fortolkning samler betydningen. Forklar hvorfor dette svar passer bedre end: De betyder præcis det samme · Analyse handler kun om stavning · Fortolkning må ikke bruge tekstbevis.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "De betyder præcis det samme",
-              "Analyse handler kun om stavning",
-              "Fortolkning må ikke bruge tekstbevis"
-            ]
-          },
-          "kp_dansk_aarsfinale_19": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
-            "explanation": "Kort svar: Det er kort, relevant og bliver forklaret. Forklar hvorfor dette svar passer bedre end: Det er så langt som muligt · Det står uden sammenhæng · Det erstatter elevens forklaring.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Det er så langt som muligt",
-              "Det står uden sammenhæng",
-              "Det erstatter elevens forklaring"
-            ]
-          },
-          "kp_dansk_aarsfinale_20": {
-            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
-            "explanation": "Kort svar: Eleven kan forklare valg, begreber og tekstbevis med egne ord. Forklar hvorfor dette svar passer bedre end: Eleven kan læse alt op uden pause · Eleven undgår spørgsmål · Eleven bruger kun udenadslære.",
-            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
-            "sourceUrl": "",
-            "confusions": [
-              "Eleven kan læse alt op uden pause",
-              "Eleven undgår spørgsmål",
-              "Eleven bruger kun udenadslære"
-            ]
-          }
-        },
         "cards": [],
         "extraCards": [],
         "sourceSnapshot": {
@@ -17783,7 +17556,216 @@
             }
           ],
           "updatedAt": "2026-07-07T01:30:00.000Z"
-        }
+        },
+        "sourceType": "kapardy",
+        "view": "overview",
+        "categoryFilter": "Alle",
+        "statusFilter": "Alle",
+        "progress": {},
+        "overrides": {
+          "kp_dansk_aarsfinale_01": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Hvordan viser teksten relationer, konflikter og synsvinkel?. Forklar hvorfor dette svar passer bedre end: Hvor mange sider har teksten? · Hvilken skrifttype er brugt? · Hvem læser højest?.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Hvor mange sider har teksten?",
+              "Hvilken skrifttype er brugt?",
+              "Hvem læser højest?"
+            ]
+          },
+          "kp_dansk_aarsfinale_02": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: En fortæller der bruger jeg og oplever indefra. Forklar hvorfor dette svar passer bedre end: En alvidende fortæller uden holdning · En person der altid lyver · En ydre kameravinkel uden tanker.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "En alvidende fortæller uden holdning",
+              "En person der altid lyver",
+              "En ydre kameravinkel uden tanker"
+            ]
+          },
+          "kp_dansk_aarsfinale_03": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Forholdet mellem oplevelse, hukommelse og fortælling. Forklar hvorfor dette svar passer bedre end: Kun tekstens antal kommaer · Kun udgivelsesåret · Kun om teksten rimer.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Kun tekstens antal kommaer",
+              "Kun udgivelsesåret",
+              "Kun om teksten rimer"
+            ]
+          },
+          "kp_dansk_aarsfinale_04": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Den kan vise personernes livsvilkår og konflikter indirekte. Forklar hvorfor dette svar passer bedre end: Den erstatter altid handlingen · Den fjerner behovet for fortolkning · Den er kun pynt.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Den erstatter altid handlingen",
+              "Den fjerner behovet for fortolkning",
+              "Den er kun pynt"
+            ]
+          },
+          "kp_dansk_aarsfinale_05": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Familie, relationer og identitet.",
+            "explanation": "Kort svar: Koble tekstens detaljer til en samlet forståelse. Forklar hvorfor dette svar passer bedre end: Gengive handlingen uden analyse · Vælge det første indtryk som facit · Undgå citater og eksempler.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Gengive handlingen uden analyse",
+              "Vælge det første indtryk som facit",
+              "Undgå citater og eksempler"
+            ]
+          },
+          "kp_dansk_aarsfinale_06": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: Romantikken. Forklar hvorfor dette svar passer bedre end: Det moderne gennembrud · Efterkrigstiden · Minimalismen.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Det moderne gennembrud",
+              "Efterkrigstiden",
+              "Minimalismen"
+            ]
+          },
+          "kp_dansk_aarsfinale_07": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: At litteraturen skulle sætte problemer under debat. Forklar hvorfor dette svar passer bedre end: At alle tekster skulle være eventyr · At litteraturen skulle undgå samfund · At kun adelige måtte skrive.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "At alle tekster skulle være eventyr",
+              "At litteraturen skulle undgå samfund",
+              "At kun adelige måtte skrive"
+            ]
+          },
+          "kp_dansk_aarsfinale_08": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: Troværdige skildringer af hverdag, miljø og samfund. Forklar hvorfor dette svar passer bedre end: Drømme uden forbindelse til virkelighed · Kun helte og guder · Kun rimede tekster.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Drømme uden forbindelse til virkelighed",
+              "Kun helte og guder",
+              "Kun rimede tekster"
+            ]
+          },
+          "kp_dansk_aarsfinale_09": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: Arv, miljø og sociale vilkår påvirker mennesket. Forklar hvorfor dette svar passer bedre end: Alt afgøres af tilfældige tryllekræfter · Personer har ingen baggrund · Samfundet findes ikke i teksten.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Alt afgøres af tilfældige tryllekræfter",
+              "Personer har ingen baggrund",
+              "Samfundet findes ikke i teksten"
+            ]
+          },
+          "kp_dansk_aarsfinale_10": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Litteraturhistorie og tekster.",
+            "explanation": "Kort svar: For at forstå tekster i historisk og kulturel sammenhæng. Forklar hvorfor dette svar passer bedre end: For at slippe for nærlæsning · For at kunne ignorere sproget · For at alle tekster får samme facit.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "For at slippe for nærlæsning",
+              "For at kunne ignorere sproget",
+              "For at alle tekster får samme facit"
+            ]
+          },
+          "kp_dansk_aarsfinale_11": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Den gruppe reklamen især prøver at ramme. Forklar hvorfor dette svar passer bedre end: Alle mennesker i verden · Kun reklamebureauet · Den person der tilfældigt ser væk.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Alle mennesker i verden",
+              "Kun reklamebureauet",
+              "Den person der tilfældigt ser væk"
+            ]
+          },
+          "kp_dansk_aarsfinale_12": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Et valg der påvirker modtagerens oplevelse og forståelse. Forklar hvorfor dette svar passer bedre end: Et tilfældigt teknisk problem · Et krav om at købe produktet · En fejl i billedet.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Et tilfældigt teknisk problem",
+              "Et krav om at købe produktet",
+              "En fejl i billedet"
+            ]
+          },
+          "kp_dansk_aarsfinale_13": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Motiv, udsnit, vinkel, situation og mulig virkning. Forklar hvorfor dette svar passer bedre end: Kun filnavnet · Kun kameraets pris · Kun fotografens alder.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Kun filnavnet",
+              "Kun kameraets pris",
+              "Kun fotografens alder"
+            ]
+          },
+          "kp_dansk_aarsfinale_14": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Fordi dokumentarer også vælger perspektiv, klipning og fortælling. Forklar hvorfor dette svar passer bedre end: Fordi dokumentarer aldrig viser virkelighed · Fordi billeder altid er neutrale · Fordi lyd ikke betyder noget.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Fordi dokumentarer aldrig viser virkelighed",
+              "Fordi billeder altid er neutrale",
+              "Fordi lyd ikke betyder noget"
+            ]
+          },
+          "kp_dansk_aarsfinale_15": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Medier, reklamer og film.",
+            "explanation": "Kort svar: Meget om relationer, konflikt og vendepunkt. Forklar hvorfor dette svar passer bedre end: Kun hvem der har lavet plakaten · Kun hvor lang filmen er · Kun hvad kameraet hedder.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Kun hvem der har lavet plakaten",
+              "Kun hvor lang filmen er",
+              "Kun hvad kameraet hedder"
+            ]
+          },
+          "kp_dansk_aarsfinale_16": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Et kort fagligt oplæg med problemstilling, materiale og fokuspunkter. Forklar hvorfor dette svar passer bedre end: En fuld romananalyse på ti sider · En tilfældig stikordsliste uden fokus · En karakterbog.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "En fuld romananalyse på ti sider",
+              "En tilfældig stikordsliste uden fokus",
+              "En karakterbog"
+            ]
+          },
+          "kp_dansk_aarsfinale_17": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Et åbent fagligt spørgsmål der kan undersøges og diskuteres. Forklar hvorfor dette svar passer bedre end: Et ja/nej-spørgsmål uden forklaring · En overskrift uden indhold · Et facit fra læreren.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Et ja/nej-spørgsmål uden forklaring",
+              "En overskrift uden indhold",
+              "Et facit fra læreren"
+            ]
+          },
+          "kp_dansk_aarsfinale_18": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Analyse undersøger dele; fortolkning samler betydningen. Forklar hvorfor dette svar passer bedre end: De betyder præcis det samme · Analyse handler kun om stavning · Fortolkning må ikke bruge tekstbevis.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "De betyder præcis det samme",
+              "Analyse handler kun om stavning",
+              "Fortolkning må ikke bruge tekstbevis"
+            ]
+          },
+          "kp_dansk_aarsfinale_19": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Det er kort, relevant og bliver forklaret. Forklar hvorfor dette svar passer bedre end: Det er så langt som muligt · Det står uden sammenhæng · Det erstatter elevens forklaring.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Det er så langt som muligt",
+              "Det står uden sammenhæng",
+              "Det erstatter elevens forklaring"
+            ]
+          },
+          "kp_dansk_aarsfinale_20": {
+            "hint": "Find svaret ved at bruge forløbets kilder og noter til kategorien: Prøve, synopse og faglige begreber.",
+            "explanation": "Kort svar: Eleven kan forklare valg, begreber og tekstbevis med egne ord. Forklar hvorfor dette svar passer bedre end: Eleven kan læse alt op uden pause · Eleven undgår spørgsmål · Eleven bruger kun udenadslære.",
+            "sourceTitle": "Forløbets kilder, tekster og fælles noter",
+            "confusions": [
+              "Eleven kan læse alt op uden pause",
+              "Eleven undgår spørgsmål",
+              "Eleven bruger kun udenadslære"
+            ]
+          }
+        },
+        "activeIndex": 0,
+        "flipped": false
       },
       "settings": {
         "locked": false,
