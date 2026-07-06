@@ -1,3 +1,4 @@
+<!-- Plan v1.0.7 BIBLIOTEKSFAG SYNLIGE OWNER SAFE: Bygger på v1.0.6. Musik og Historie er nu faste synlige biblioteksfag i bibliotekets basekategori-liste, så de også vises når en ældre cachet katalogoversigt eller fallback kun leverer items uden dynamiske categories. Andre 9.-klassefag beskriver nu kun øvrige fag, og fallbacken sender ikke længere musik/historie tilbage i Andre 9. Hjælp/version opdateres til 1.0.7 uden ændring af data-, backup-, import- eller widgetformater. -->
 <!-- Plan v1.0.5 MIDLERTIDIGE HUSKEKORTKILDER OWNER SAFE: Kildeknapper i Huskekort og Huskekortmatrix åbner nu midlertidige kildevinduer i stedet for at oprette Link/Web-widgets direkte. Kilder kan stadig fastgøres udtrykkeligt på tavlen, men almindelig lukning sender intet i Papirkurv og ændrer ikke forløbspakken. -->
 <!-- Plan v1.0.4 HUSKEKORT STATUSVISNING OWNER SAFE: Fjerner støjende standardlabels i Huskekortmatrix: "Ny" vises ikke længere som badge på alle nye kort, og "koblet" vises ikke længere på hvert enkelt kort. Koblingen fremgår kun af kildebjælken øverst, mens kortstatus først bliver synlig, når et kort markeres som Kan ikke endnu, Næsten eller Kan. KaPardy-bank, læringsbank, import, eksport, afkobling og eksisterende dataformater er uændrede. -->
 <!-- Plan v1.0.3 KAPARDY-LÆRINGSBANK / HUSKEKORT SOM VISNING OWNER SAFE: Gør Huskekortmatrix til en koblet læringsvisning af samme KaPardy-spørgsmålsbank. KaPardy-menuen kan nu åbne en levende huskekortmatrix eller træningsvisning uden at kopiere spørgsmålene; matrixen gemmer kun lokal læringsstatus, forklaringer, kildeberigelser og ekstra kort. Afkobling som lokal kopi og KaPardy-kopi fra kort er mulige. Eksisterende KaPardy-CSV, spørgsmål, point og spiladfærd bevares. -->
@@ -172,7 +173,7 @@ smalle mobilvisninger, og mobilzoom/panorering gemmes ikke over desktopkameraet.
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Plan v1.0.6</title>
+<title>Plan v1.0.7</title>
 <meta name="application-name" content="Plan">
 <meta name="apple-mobile-web-app-title" content="Plan">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -8514,7 +8515,9 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         {id:'matematik',label:'Matematik',description:'Tal, geometri og statistik'},
         {id:'science',label:'Science',description:'Naturfag, fysik/kemi, biologi og geografi'},
         {id:'tysk',label:'Tysk',description:'Sprog og kultur'},
-        {id:'andre-9',label:'Andre 9.-klassefag',description:'Historie, samfundsfag, idræt m.fl.'},
+        {id:'musik',label:'Musik',description:'Genrer, lytning, rytmer og sammenspil'},
+        {id:'historie',label:'Historie',description:'Kilder, kronologi og historiske forløb'},
+        {id:'andre-9',label:'Andre 9.-klassefag',description:'Samfundsfag, idræt, kristendom m.fl.'},
         {id:'andre',label:'Andre',description:'Tværfagligt, skoleliv og øvrige forløb'}
       ];
       let categoryDefs=baseCategoryDefs.slice();
@@ -8532,7 +8535,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         const order=['all','dansk','engelsk','matematik','science','tysk','musik','historie','biologi','geografi','samfundsfag','kristendom','idraet-gymnastik','praktiske-kreative-fag','andre-9','andre'];
         categoryDefs=[...map.values()].sort((a,b)=>{const ai=order.indexOf(a.id),bi=order.indexOf(b.id);return (ai<0?999:ai)-(bi<0?999:bi)||a.label.localeCompare(b.label,'da');});
       };
-      const categoryOf=item=>{const explicit=normalizeCategoryId(item.category);if(categoryDefs.some(entry=>entry.id===explicit))return explicit;const hay=` ${normalize(item.subject)} ${normalize((item.tags||[]).join(' '))} `;if(/(dansk|danish)/.test(hay))return'dansk';if(/(engelsk|english)/.test(hay))return'engelsk';if(/(matematik|mathematics|math)/.test(hay))return'matematik';if(/(science|naturfag|fysik|kemi)/.test(hay))return'science';if(/(tysk|german)/.test(hay))return'tysk';if(/(musik|music)/.test(hay)&&categoryDefs.some(entry=>entry.id==='musik'))return'musik';if(/(historie|history)/.test(hay)&&categoryDefs.some(entry=>entry.id==='historie'))return'historie';if(/(biologi|biology)/.test(hay)&&categoryDefs.some(entry=>entry.id==='biologi'))return'biologi';if(/(geografi|geography)/.test(hay)&&categoryDefs.some(entry=>entry.id==='geografi'))return'geografi';if(/(samfundsfag|civics)/.test(hay)&&categoryDefs.some(entry=>entry.id==='samfundsfag'))return'samfundsfag';if(/(kristendom|religion)/.test(hay)&&categoryDefs.some(entry=>entry.id==='kristendom'))return'kristendom';if(/(idraet|idræt|gymnastik)/.test(hay)&&categoryDefs.some(entry=>entry.id==='idraet-gymnastik'))return'idraet-gymnastik';if(/(historie|samfundsfag|idraet|idræt|gymnastik|kristendom|religion|musik|haandvaerk|håndværk|design|madkundskab|billedkunst)/.test(hay))return'andre-9';return'andre';};
+      const categoryOf=item=>{const explicit=normalizeCategoryId(item.category);if(categoryDefs.some(entry=>entry.id===explicit))return explicit;const hay=` ${normalize(item.subject)} ${normalize((item.tags||[]).join(' '))} `;if(/(dansk|danish)/.test(hay))return'dansk';if(/(engelsk|english)/.test(hay))return'engelsk';if(/(matematik|mathematics|math)/.test(hay))return'matematik';if(/(science|naturfag|fysik|kemi)/.test(hay))return'science';if(/(tysk|german)/.test(hay))return'tysk';if(/(musik|music)/.test(hay)&&categoryDefs.some(entry=>entry.id==='musik'))return'musik';if(/(historie|history)/.test(hay)&&categoryDefs.some(entry=>entry.id==='historie'))return'historie';if(/(biologi|biology)/.test(hay)&&categoryDefs.some(entry=>entry.id==='biologi'))return'biologi';if(/(geografi|geography)/.test(hay)&&categoryDefs.some(entry=>entry.id==='geografi'))return'geografi';if(/(samfundsfag|civics)/.test(hay)&&categoryDefs.some(entry=>entry.id==='samfundsfag'))return'samfundsfag';if(/(kristendom|religion)/.test(hay)&&categoryDefs.some(entry=>entry.id==='kristendom'))return'kristendom';if(/(idraet|idræt|gymnastik)/.test(hay)&&categoryDefs.some(entry=>entry.id==='idraet-gymnastik'))return'idraet-gymnastik';if(/(samfundsfag|idraet|idræt|gymnastik|kristendom|religion|haandvaerk|håndværk|design|madkundskab|billedkunst)/.test(hay))return'andre-9';return'andre';};
       let catalog=null,activeCategory='all';
       const buildCategories=()=>{categories.replaceChildren();for(const def of categoryDefs){const count=catalog?catalog.items.filter(item=>def.id==='all'||categoryOf(item)===def.id).length:0,button=document.createElement('button');button.type='button';button.className=`tn-library-category${activeCategory===def.id?' active':''}`;button.innerHTML=`<strong>${TN.escapeHtml(def.label)}</strong><small>${TN.escapeHtml(def.description)}${catalog?` · ${count}`:''}</small>`;button.onclick=()=>{activeCategory=def.id;buildCategories();paint();};categories.append(button);}};
       const paint=()=>{if(!catalog)return;const q=filters.querySelector('[data-library-search]').value.trim().toLocaleLowerCase('da-DK'),kind=filters.querySelector('[data-library-kind]').value,grade=filters.querySelector('[data-library-grade]').value;grid.replaceChildren();const items=catalog.items.filter(item=>(activeCategory==='all'||categoryOf(item)===activeCategory)&&(kind==='all'||item.kind===kind)&&(grade==='all'||item.gradeLevels.includes(grade))&&(!q||`${item.title} ${item.subject} ${item.description} ${item.tags.join(' ')}`.toLocaleLowerCase('da-DK').includes(q)));const activeDef=categoryDefs.find(entry=>entry.id===activeCategory)||categoryDefs[0];sectionTitle.querySelector('h3').textContent=activeDef.label;sectionTitle.querySelector('[data-library-count]').textContent=`${items.length} forløb`;for(const item of items){const card=document.createElement('article');card.className=`tn-library-card${item.status!=='published'?' is-coming':''}`;const categoryLabel=(categoryDefs.find(entry=>entry.id===categoryOf(item))||categoryDefs.at(-1)).label,meta=[categoryLabel,item.subject,item.schoolYear,...item.gradeLevels.map(value=>`${value}. klasse`),item.version?`v${item.version}`:'',item.sizeBytes?TN.formatBytes(item.sizeBytes):''].filter(Boolean),tags=item.tags.slice(0,6);card.innerHTML=`${item.thumbnailUrl?`<img class="tn-library-cover" src="${TN.escapeHtml(item.thumbnailUrl)}" alt="">`:''}<div class="tn-library-card-head"><h3>${TN.escapeHtml(item.title)}</h3><span class="tn-library-kind ${item.kind==='demo'?'demo':''}">${item.kind==='demo'?'Demo':'Skabelon'}</span></div><p>${TN.escapeHtml(item.description||'Ingen beskrivelse endnu.')}</p><div class="tn-library-actions"><button data-preview class="${item.status==='published'?'primary':''}">${item.status==='published'?'Se og brug':'På vej'}</button></div><div class="tn-library-meta">${meta.map(value=>`<span>${TN.escapeHtml(value)}</span>`).join('')}</div><div class="tn-library-tags">${tags.map(value=>`<span>${TN.escapeHtml(value)}</span>`).join('')}</div>`;card.querySelector('.tn-library-cover')?.addEventListener('error',event=>event.currentTarget.remove());const button=card.querySelector('[data-preview]');button.disabled=item.status!=='published';button.onclick=()=>this.showLibraryItemPreview(item,catalog);grid.append(card);}if(!items.length)grid.innerHTML='<div class="tn-library-empty">Ingen demoer eller skabeloner matcher den valgte faggruppe og filtrene.</div>';};
@@ -36034,11 +36037,11 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   });
 
   window.__PLAN_PDF_EXACT_PAGE_POSITION_BUILD__='2026-07-05-owner-safe';
-  TN.version='1.0.6';
+  TN.version='1.0.7';
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.0.6 · Biblioteksfag og huskekortkilder';
-  TN.release={version:'1.0.6',channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0.6';
+  TN.buildLabel='Plan v1.0.7 · Biblioteksfag, huskekort og kildeforhåndsvisning';
+  TN.release={version:'1.0.7',channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
+  document.title='Plan v1.0.7';
   window.__PLAN_V1_RELEASE_BUILD__='2026-07-05-owner-safe';
 })(window.TavleNext);
 </script>
@@ -36066,8 +36069,8 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       TN.registry.help.set(id,entry);
     };
 
-    set('overview','Kom godt i gang med Plan','Plan 1.0.6 og den korte vej fra forløb til tavle',`
-      <p><b>Plan 1.0.6</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
+    set('overview','Kom godt i gang med Plan','Plan 1.0.7 og den korte vej fra forløb til tavle',`
+      <p><b>Plan 1.0.7</b> samler undervisningsforløb, sessioner, tavler, kalender, elever, data og medier i ét arbejdsrum.</p>
       <div class="tn-help-recipe">
         <div class="tn-help-phase"><span>1</span><div><h4>Vælg forløbet</h4><p>Åbn det fag, skoleår eller emne, arbejdet skal høre til.</p></div></div>
         <div class="tn-help-phase"><span>2</span><div><h4>Planlæg datoerne</h4><p>Brug kalenderen til at knytte den aktuelle tavle og eventuelle fortsættelsestavler til en undervisningsgang.</p></div></div>
@@ -36495,7 +36498,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
         const paragraph=hero.querySelector('p');if(paragraph)paragraph.innerHTML='<b>Vælg en konkret opgave.</b> Hjælpen viser korte trin først og mere udførlige forklaringer bagefter.';
         const line=hero.querySelector('.tn-plan-help-line');if(line)line.textContent='Plan er appen. Tavler, datoer, elever og materialer bindes sammen i undervisningsforløbet.';
         const head=hero.querySelector('.tn-plan-help-hero-head');
-        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.6';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
+        if(head&&!head.querySelector('.tn-help-version')){const version=document.createElement('span');version.className='tn-help-version';version.textContent='Plan 1.0.7';const readme=head.querySelector('[data-help-readme]');head.insertBefore(version,readme||null);}
       }
       const quick=root.querySelector('.tn-plan-help-quick');
       if(quick)quick.innerHTML='<article><b>1. Vælg forløbet</b><span>Åbn fag, skoleår eller emne og den rigtige session.</span></article><article><b>2. Planlæg dato og tavler</b><span>Knyt tavler til kalenderen og fortsæt samme undervisningsgang med flere tavler.</span></article><article><b>3. Arbejd med eleverne</b><span>Brug faghold, grupper, Elevkort, samtaler og karakterer.</span></article><article><b>4. Sikr arbejdet</b><span>Kontrollér data, ryd sikkert op og tag backup.</span></article>';
@@ -37021,12 +37024,12 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 <script id="plan-v101-release-version-guard">
 (function(TN){
   if(!TN)return;
-  const VERSION='1.0.5';
+  const VERSION='1.0.7';
   try{Object.defineProperty(TN,'version',{configurable:true,enumerable:true,get:()=>VERSION,set:()=>VERSION});}catch(_){TN.version=VERSION;}
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.0.6 · Biblioteksfag og huskekortkilder';
+  TN.buildLabel='Plan v1.0.7 · Biblioteksfag, huskekort og kildeforhåndsvisning';
   TN.release={version:VERSION,channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.0.6';
+  document.title='Plan v1.0.7';
 })(window.TavleNext);
 </script>
 </body>
