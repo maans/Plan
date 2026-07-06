@@ -1,0 +1,2512 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.9",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T23:55:00.000Z",
+  "course": {
+    "id": "course_professor_20-sporgsmal-kaninunger_v2_showcase",
+    "title": "20 spørgsmål fra professoren · Kaninunger",
+    "subject": "Biologi / dyrevelfærd",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_20-sporgsmal-kaninunger_v2_showcase"
+    ],
+    "exportedAt": "2026-07-06T23:55:00.000Z",
+    "sourceAppVersion": "1.0.9"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Kaninunger",
+      "theme": "dark",
+      "activeBoardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+      "boardIds": [
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_4",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_5",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_6",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_7",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_8",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+        "board_professor_20-sporgsmal-kaninunger_v2_showcase_10"
+      ],
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_20-sporgsmal-kaninunger_v2_showcase",
+        "courseTitle": "20 spørgsmål fra professoren · Kaninunger",
+        "courseSubject": "Biologi / dyrevelfærd",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_20-sporgsmal-kaninunger_v2_showcase"
+        ],
+        "courseSequenceVersion": 2,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/kaninunger_20.csv",
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Billed-/webressourcer",
+          "Timer",
+          "Gruppeværktøj",
+          "Huskekortmatrix",
+          "KaPardy"
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "Overblik · Kaninunger",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_intro",
+        "w_20-sporgsmal-kaninunger_route",
+        "w_20-sporgsmal-kaninunger_index"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "order": 1
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "Ressourcematrix og kilder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_resource_matrix",
+        "w_20-sporgsmal-kaninunger_source_1",
+        "w_20-sporgsmal-kaninunger_source_2",
+        "w_20-sporgsmal-kaninunger_source_3",
+        "w_20-sporgsmal-kaninunger_source_4",
+        "w_20-sporgsmal-kaninunger_source_5",
+        "w_20-sporgsmal-kaninunger_sources_text"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "sources",
+        "order": 2
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_groups",
+        "w_20-sporgsmal-kaninunger_tool_text",
+        "w_20-sporgsmal-kaninunger_timer",
+        "w_20-sporgsmal-kaninunger_countdown",
+        "w_20-sporgsmal-kaninunger_wordcloud",
+        "w_20-sporgsmal-kaninunger_calendar"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "showcase",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "1. Fødsel og udvikling",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_cat1_core",
+        "w_20-sporgsmal-kaninunger_cat1_activity",
+        "w_20-sporgsmal-kaninunger_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 4
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "2. Rede og moderpleje",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_cat2_core",
+        "w_20-sporgsmal-kaninunger_cat2_activity",
+        "w_20-sporgsmal-kaninunger_cat2_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "3. Foder og sundhed",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_cat3_core",
+        "w_20-sporgsmal-kaninunger_cat3_activity",
+        "w_20-sporgsmal-kaninunger_cat3_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 6
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "4. Adfærd og ansvarligt kaninhold",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_cat4_core",
+        "w_20-sporgsmal-kaninunger_cat4_activity",
+        "w_20-sporgsmal-kaninunger_cat4_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 7
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_8",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_flashcards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "flashcards",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_workshop",
+        "w_20-sporgsmal-kaninunger_workshop_timer",
+        "w_20-sporgsmal-kaninunger_workshop_sources",
+        "w_20-sporgsmal-kaninunger_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-kaninunger_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-kaninunger_v2_showcase",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-kaninunger_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 10
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w_20-sporgsmal-kaninunger_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+      "type": "text",
+      "title": "Professorens udfordring",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 405,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nKANINUNGER\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/kaninunger_20.csv",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+      "type": "text",
+      "title": "Lektionsplan og Plan-værktøjer",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 405,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Fødsel og udvikling, Rede og moderpleje, Foder og sundhed, Adfærd og ansvarligt kaninhold.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Billed-/webressourcer\n• Timer\n• Gruppeværktøj\n• Huskekortmatrix\n• KaPardy\n\nDEMOIDÉ\nPasningsplan-værksted: grupper laver anbefalinger med kilde, advarsel og huskekort.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 510,
+        "width": 1160,
+        "height": 295,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_1",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_4",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_5",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_6",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_7",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_8",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+          "board_professor_20-sporgsmal-kaninunger_v2_showcase_10"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_resource_matrix",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "version": 1,
+        "resources": [
+          {
+            "title": "Merck Veterinary Manual · Rabbits",
+            "url": "https://www.merckvetmanual.com/",
+            "type": "web/veterinær",
+            "category": "Fødsel og udvikling",
+            "note": "Brug til drægtighed, sygdom og sundhed.",
+            "tags": [
+              "foedsel-og-udvikling",
+              "web-veterinaer"
+            ]
+          },
+          {
+            "title": "Rabbit Welfare Association & Fund",
+            "url": "https://rabbitwelfare.co.uk/",
+            "type": "web/dyrevelfærd",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "note": "Brug til ansvarligt kaninhold.",
+            "tags": [
+              "adfaerd-og-ansvarligt-kaninhold",
+              "web-dyrevelfaerd"
+            ]
+          },
+          {
+            "title": "House Rabbit Society",
+            "url": "https://houserabbit.org/",
+            "type": "web/dyrevelfærd",
+            "category": "Rede og moderpleje",
+            "note": "Brug til pleje og adfærd med kildekritik.",
+            "tags": [
+              "rede-og-moderpleje",
+              "web-dyrevelfaerd"
+            ]
+          },
+          {
+            "title": "PDSA · Rabbit health",
+            "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/rabbits",
+            "type": "web/dyrevelfærd",
+            "category": "Foder og sundhed",
+            "note": "Brug til sundhed og forebyggelse.",
+            "tags": [
+              "foder-og-sundhed",
+              "web-dyrevelfaerd"
+            ]
+          },
+          {
+            "title": "RSPCA · Rabbits",
+            "url": "https://www.rspca.org.uk/adviceandwelfare/pets/rabbits",
+            "type": "web/dyrevelfærd",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "note": "Brug til behov, skjulesteder og trivsel.",
+            "tags": [
+              "adfaerd-og-ansvarligt-kaninhold",
+              "web-dyrevelfaerd"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "link",
+      "title": "Merck Veterinary Manual · Rabbits",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://www.merckvetmanual.com/",
+        "label": "Merck Veterinary Manual · Rabbits",
+        "note": "web/veterinær · Brug til drægtighed, sygdom og sundhed.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "link",
+      "title": "Rabbit Welfare Association & Fund",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://rabbitwelfare.co.uk/",
+        "label": "Rabbit Welfare Association & Fund",
+        "note": "web/dyrevelfærd · Brug til ansvarligt kaninhold.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "link",
+      "title": "House Rabbit Society",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://houserabbit.org/",
+        "label": "House Rabbit Society",
+        "note": "web/dyrevelfærd · Brug til pleje og adfærd med kildekritik.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "link",
+      "title": "PDSA · Rabbit health",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/rabbits",
+        "label": "PDSA · Rabbit health",
+        "note": "web/dyrevelfærd · Brug til sundhed og forebyggelse.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "link",
+      "title": "RSPCA · Rabbits",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.rspca.org.uk/adviceandwelfare/pets/rabbits",
+        "label": "RSPCA · Rabbits",
+        "note": "web/dyrevelfærd · Brug til behov, skjulesteder og trivsel.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Fødsel og udvikling",
+            "members": []
+          },
+          {
+            "name": "Rede og moderpleje",
+            "members": []
+          },
+          {
+            "name": "Foder og sundhed",
+            "members": []
+          },
+          {
+            "name": "Adfærd og ansvarligt kaninhold",
+            "members": []
+          }
+        ],
+        "note": "Pasningsplan-værksted: grupper laver anbefalinger med kilde, advarsel og huskekort."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Fødsel og udvikling\n• Rede og moderpleje\n• Foder og sundhed\n• Adfærd og ansvarligt kaninhold\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Fødsel og udvikling",
+            "count": 1
+          },
+          {
+            "text": "Rede og moderpleje",
+            "count": 1
+          },
+          {
+            "text": "Foder og sundhed",
+            "count": 1
+          },
+          {
+            "text": "Adfærd og ansvarligt kaninhold",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_4",
+      "type": "text",
+      "title": "Kildearbejde · Fødsel og udvikling",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Fødsel og udvikling\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad kaldes selve fødslen hos kaniner ofte på engelsk?\n• Hvilken proces udløser normalt ægløsning hos hunkaninen?\n• Hvad kaldes det, når en hunkanin bygger rede og viser drægtighedstegn uden at være drægtig?\n• Hvor tidligt kan en dyrlæge ifølge Merck undertiden mærke fostre i en drægtig kanins bug?\n• Hvad gør en hunkanin typisk kort før fødslen for at isolere reden?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Fødsel og udvikling\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_4",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad kaldes selve fødslen hos kaniner ofte på engelsk?\n• Hvilken proces udløser normalt ægløsning hos hunkaninen?\n• Hvad kaldes det, når en hunkanin bygger rede og viser drægtighedstegn uden at være drægtig?\n• Hvor tidligt kan en dyrlæge ifølge Merck undertiden mærke fostre i en drægtig kanins bug?\n• Hvad gør en hunkanin typisk kort før fødslen for at isolere reden?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_5",
+      "type": "text",
+      "title": "Kildearbejde · Rede og moderpleje",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Rede og moderpleje\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken mælk er normalt et bedre udgangspunkt ved nødhåndopmadning efter veterinær vejledning end komælk?\n• Hvad bør man ikke gøre ved en mistænkt forældreløs vildkaninunge uden først at vurdere situationen?\n• Hvorfor er det vigtigt at adskille en fertil han fra en hun, der netop har født?\n• Hvad bør stadig bevares mellem et midlertidigt adskilt kaninpar, hvis det kan ske sikkert?\n• Hvad er hovedformålet med en redekasse?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Rede og moderpleje\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_5",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken mælk er normalt et bedre udgangspunkt ved nødhåndopmadning efter veterinær vejledning end komælk?\n• Hvad bør man ikke gøre ved en mistænkt forældreløs vildkaninunge uden først at vurdere situationen?\n• Hvorfor er det vigtigt at adskille en fertil han fra en hun, der netop har født?\n• Hvad bør stadig bevares mellem et midlertidigt adskilt kaninpar, hvis det kan ske sikkert?\n• Hvad er hovedformålet med en redekasse?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_6",
+      "type": "text",
+      "title": "Kildearbejde · Foder og sundhed",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Foder og sundhed\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken mikroskopisk parasit rammer især unge og nyligt fravænnede kaniner?\n• Hvilken alvorlig virussygdom hos kaniner forkortes ofte RHD?\n• Hvilken virussygdom kan give hævelser omkring øjne og kønsorganer hos kaniner?\n• Hvordan forebygges alvorlige virussygdomme som myxomatose og RHD bedst hos kælekaniner, hvor vacciner anbefales?\n• Hvad kan for lange fortænder eller kindtænder føre til?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Foder og sundhed\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_6",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken mikroskopisk parasit rammer især unge og nyligt fravænnede kaniner?\n• Hvilken alvorlig virussygdom hos kaniner forkortes ofte RHD?\n• Hvilken virussygdom kan give hævelser omkring øjne og kønsorganer hos kaniner?\n• Hvordan forebygges alvorlige virussygdomme som myxomatose og RHD bedst hos kælekaniner, hvor vacciner anbefales?\n• Hvad kan for lange fortænder eller kindtænder føre til?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_7",
+      "type": "text",
+      "title": "Kildearbejde · Adfærd og ansvarligt kaninhold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Adfærd og ansvarligt kaninhold\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvorfor har kaniner brug for skjulesteder?\n• Hvad kan en helt flad kanin med kroppen strakt ud ofte vise?\n• Hvad kaldes en hurtig drejning om på siden, som ofte viser afslapning?\n• Hvad kan stille tænderskæren hos en afslappet kanin være tegn på?\n• Hvad kan høj og vedvarende tænderskæren sammen med sammenkrøbet holdning tyde på?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_7",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Adfærd og ansvarligt kaninhold\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_7",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvorfor har kaniner brug for skjulesteder?\n• Hvad kan en helt flad kanin med kroppen strakt ud ofte vise?\n• Hvad kaldes en hurtig drejning om på siden, som ofte viser afslapning?\n• Hvad kan stille tænderskæren hos en afslappet kanin være tegn på?\n• Hvad kan høj og vedvarende tænderskæren sammen med sammenkrøbet holdning tyde på?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_8",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-kaninunger_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Kaninunger",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_kaninunger_01": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: kindling. Forklar hvorfor det er mere præcist end: whelping · foaling · calving.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "whelping",
+              "foaling",
+              "calving"
+            ]
+          },
+          "kp_kaninunger_02": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: parringen. Forklar hvorfor det er mere præcist end: månefasen · vinterkulde · daglig fodring.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "månefasen",
+              "vinterkulde",
+              "daglig fodring"
+            ]
+          },
+          "kp_kaninunger_03": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: falsk drægtighed. Forklar hvorfor det er mere præcist end: dvale · fældning · brunstpause.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "dvale",
+              "fældning",
+              "brunstpause"
+            ]
+          },
+          "kp_kaninunger_04": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: omkring 12 dage efter parring. Forklar hvorfor det er mere præcist end: sammes dag som parringen · først efter fødslen · omkring 6 måneder efter parring.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "sammes dag som parringen",
+              "først efter fødslen",
+              "omkring 6 måneder efter parring"
+            ]
+          },
+          "kp_kaninunger_05": {
+            "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
+            "explanation": "Kort svar: plukker pels fra sin egen krop. Forklar hvorfor det er mere præcist end: samler småsten · graver reden fuld af vand · bider ungernes pels af.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "samler småsten",
+              "graver reden fuld af vand",
+              "bider ungernes pels af"
+            ]
+          },
+          "kp_kaninunger_06": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: kattemælkserstatning. Forklar hvorfor det er mere præcist end: flødeis · sojasauce · appelsinjuice.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "flødeis",
+              "sojasauce",
+              "appelsinjuice"
+            ]
+          },
+          "kp_kaninunger_07": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: tage den med hjem med det samme. Forklar hvorfor det er mere præcist end: holde afstand og observere · kontakte en vildtplejer · se efter en rede i nærheden.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "holde afstand og observere",
+              "kontakte en vildtplejer",
+              "se efter en rede i nærheden"
+            ]
+          },
+          "kp_kaninunger_08": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: hun kan blive drægtig igen næsten straks. Forklar hvorfor det er mere præcist end: han får automatisk rabies · han stopper hendes mælkeproduktion ved synet · hun mister evnen til at bygge rede.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "han får automatisk rabies",
+              "han stopper hendes mælkeproduktion ved synet",
+              "hun mister evnen til at bygge rede"
+            ]
+          },
+          "kp_kaninunger_09": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: syns- og duftkontakt. Forklar hvorfor det er mere præcist end: fælles foderskål gennem tremmer · fri parring · manglende adgang til hø.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "fælles foderskål gennem tremmer",
+              "fri parring",
+              "manglende adgang til hø"
+            ]
+          },
+          "kp_kaninunger_10": {
+            "hint": "Find svaret i kilderne til: Rede og moderpleje.",
+            "explanation": "Kort svar: at give et afgrænset, tørt og isoleret fødested. Forklar hvorfor det er mere præcist end: at træne ungerne i at hoppe · at opbevare pellets · at forhindre moderen i at komme ind.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "at træne ungerne i at hoppe",
+              "at opbevare pellets",
+              "at forhindre moderen i at komme ind"
+            ]
+          },
+          "kp_kaninunger_11": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: coccidier. Forklar hvorfor det er mere præcist end: bændelorm hos fisk · malariaparasitten · leverikter hos får.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "bændelorm hos fisk",
+              "malariaparasitten",
+              "leverikter hos får"
+            ]
+          },
+          "kp_kaninunger_12": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: rabbit haemorrhagic disease. Forklar hvorfor det er mere præcist end: rabbit hereditary deafness · rabbit hair deficiency · rabbit hydration disorder.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "rabbit hereditary deafness",
+              "rabbit hair deficiency",
+              "rabbit hydration disorder"
+            ]
+          },
+          "kp_kaninunger_13": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: myxomatose. Forklar hvorfor det er mere præcist end: parvovirus hos hund · kattesyge · mund- og klovsyge.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "parvovirus hos hund",
+              "kattesyge",
+              "mund- og klovsyge"
+            ]
+          },
+          "kp_kaninunger_14": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: med vaccination efter dyrlægens plan. Forklar hvorfor det er mere præcist end: med sukker i vandet · med dagligt bad · med vitaminpiller alene.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "med sukker i vandet",
+              "med dagligt bad",
+              "med vitaminpiller alene"
+            ]
+          },
+          "kp_kaninunger_15": {
+            "hint": "Find svaret i kilderne til: Foder og sundhed.",
+            "explanation": "Kort svar: smerter og spiseproblemer. Forklar hvorfor det er mere præcist end: bedre hørelse · hurtigere løb · større kuld.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "bedre hørelse",
+              "hurtigere løb",
+              "større kuld"
+            ]
+          },
+          "kp_kaninunger_16": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: de er byttedyr og søger sikkerhed. Forklar hvorfor det er mere præcist end: de kan ikke tåle mørke · de skal gemme deres tænder · de sover kun under vand.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "de kan ikke tåle mørke",
+              "de skal gemme deres tænder",
+              "de sover kun under vand"
+            ]
+          },
+          "kp_kaninunger_17": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: afslapning. Forklar hvorfor det er mere præcist end: akut aggression i alle tilfælde · at den ikke kan trække vejret · at den bygger rede.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "akut aggression i alle tilfælde",
+              "at den ikke kan trække vejret",
+              "at den bygger rede"
+            ]
+          },
+          "kp_kaninunger_18": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: flop. Forklar hvorfor det er mere præcist end: charge · freeze · boxing.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "charge",
+              "freeze",
+              "boxing"
+            ]
+          },
+          "kp_kaninunger_19": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: velbehagelig nydelse eller afslapning. Forklar hvorfor det er mere præcist end: alvorlig smerte i alle tilfælde · at tænderne falder ud · at den er sulten efter kød.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "alvorlig smerte i alle tilfælde",
+              "at tænderne falder ud",
+              "at den er sulten efter kød"
+            ]
+          },
+          "kp_kaninunger_20": {
+            "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
+            "explanation": "Kort svar: smerte. Forklar hvorfor det er mere præcist end: glæde · normal søvn · parringsleg.",
+            "sourceTitle": "Merck Veterinary Manual · Rabbits",
+            "sourceUrl": "https://www.merckvetmanual.com/",
+            "confusions": [
+              "glæde",
+              "normal søvn",
+              "parringsleg"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Kaninunger",
+          "questions": [
+            {
+              "id": "kp_kaninunger_01",
+              "category": "Fødsel og udvikling",
+              "question": "Hvad kaldes selve fødslen hos kaniner ofte på engelsk?",
+              "points": 100,
+              "options": [
+                "kindling",
+                "whelping",
+                "foaling",
+                "calving"
+              ],
+              "correctIndex": 0,
+              "answer": "kindling"
+            },
+            {
+              "id": "kp_kaninunger_02",
+              "category": "Fødsel og udvikling",
+              "question": "Hvilken proces udløser normalt ægløsning hos hunkaninen?",
+              "points": 200,
+              "options": [
+                "parringen",
+                "månefasen",
+                "vinterkulde",
+                "daglig fodring"
+              ],
+              "correctIndex": 0,
+              "answer": "parringen"
+            },
+            {
+              "id": "kp_kaninunger_03",
+              "category": "Fødsel og udvikling",
+              "question": "Hvad kaldes det, når en hunkanin bygger rede og viser drægtighedstegn uden at være drægtig?",
+              "points": 300,
+              "options": [
+                "falsk drægtighed",
+                "dvale",
+                "fældning",
+                "brunstpause"
+              ],
+              "correctIndex": 0,
+              "answer": "falsk drægtighed"
+            },
+            {
+              "id": "kp_kaninunger_04",
+              "category": "Fødsel og udvikling",
+              "question": "Hvor tidligt kan en dyrlæge ifølge Merck undertiden mærke fostre i en drægtig kanins bug?",
+              "points": 400,
+              "options": [
+                "omkring 12 dage efter parring",
+                "sammes dag som parringen",
+                "først efter fødslen",
+                "omkring 6 måneder efter parring"
+              ],
+              "correctIndex": 0,
+              "answer": "omkring 12 dage efter parring"
+            },
+            {
+              "id": "kp_kaninunger_05",
+              "category": "Fødsel og udvikling",
+              "question": "Hvad gør en hunkanin typisk kort før fødslen for at isolere reden?",
+              "points": 500,
+              "options": [
+                "plukker pels fra sin egen krop",
+                "samler småsten",
+                "graver reden fuld af vand",
+                "bider ungernes pels af"
+              ],
+              "correctIndex": 0,
+              "answer": "plukker pels fra sin egen krop"
+            },
+            {
+              "id": "kp_kaninunger_06",
+              "category": "Rede og moderpleje",
+              "question": "Hvilken mælk er normalt et bedre udgangspunkt ved nødhåndopmadning efter veterinær vejledning end komælk?",
+              "points": 100,
+              "options": [
+                "kattemælkserstatning",
+                "flødeis",
+                "sojasauce",
+                "appelsinjuice"
+              ],
+              "correctIndex": 0,
+              "answer": "kattemælkserstatning"
+            },
+            {
+              "id": "kp_kaninunger_07",
+              "category": "Rede og moderpleje",
+              "question": "Hvad bør man ikke gøre ved en mistænkt forældreløs vildkaninunge uden først at vurdere situationen?",
+              "points": 200,
+              "options": [
+                "tage den med hjem med det samme",
+                "holde afstand og observere",
+                "kontakte en vildtplejer",
+                "se efter en rede i nærheden"
+              ],
+              "correctIndex": 0,
+              "answer": "tage den med hjem med det samme"
+            },
+            {
+              "id": "kp_kaninunger_08",
+              "category": "Rede og moderpleje",
+              "question": "Hvorfor er det vigtigt at adskille en fertil han fra en hun, der netop har født?",
+              "points": 300,
+              "options": [
+                "hun kan blive drægtig igen næsten straks",
+                "han får automatisk rabies",
+                "han stopper hendes mælkeproduktion ved synet",
+                "hun mister evnen til at bygge rede"
+              ],
+              "correctIndex": 0,
+              "answer": "hun kan blive drægtig igen næsten straks"
+            },
+            {
+              "id": "kp_kaninunger_09",
+              "category": "Rede og moderpleje",
+              "question": "Hvad bør stadig bevares mellem et midlertidigt adskilt kaninpar, hvis det kan ske sikkert?",
+              "points": 400,
+              "options": [
+                "syns- og duftkontakt",
+                "fælles foderskål gennem tremmer",
+                "fri parring",
+                "manglende adgang til hø"
+              ],
+              "correctIndex": 0,
+              "answer": "syns- og duftkontakt"
+            },
+            {
+              "id": "kp_kaninunger_10",
+              "category": "Rede og moderpleje",
+              "question": "Hvad er hovedformålet med en redekasse?",
+              "points": 500,
+              "options": [
+                "at give et afgrænset, tørt og isoleret fødested",
+                "at træne ungerne i at hoppe",
+                "at opbevare pellets",
+                "at forhindre moderen i at komme ind"
+              ],
+              "correctIndex": 0,
+              "answer": "at give et afgrænset, tørt og isoleret fødested"
+            },
+            {
+              "id": "kp_kaninunger_11",
+              "category": "Foder og sundhed",
+              "question": "Hvilken mikroskopisk parasit rammer især unge og nyligt fravænnede kaniner?",
+              "points": 100,
+              "options": [
+                "coccidier",
+                "bændelorm hos fisk",
+                "malariaparasitten",
+                "leverikter hos får"
+              ],
+              "correctIndex": 0,
+              "answer": "coccidier"
+            },
+            {
+              "id": "kp_kaninunger_12",
+              "category": "Foder og sundhed",
+              "question": "Hvilken alvorlig virussygdom hos kaniner forkortes ofte RHD?",
+              "points": 200,
+              "options": [
+                "rabbit haemorrhagic disease",
+                "rabbit hereditary deafness",
+                "rabbit hair deficiency",
+                "rabbit hydration disorder"
+              ],
+              "correctIndex": 0,
+              "answer": "rabbit haemorrhagic disease"
+            },
+            {
+              "id": "kp_kaninunger_13",
+              "category": "Foder og sundhed",
+              "question": "Hvilken virussygdom kan give hævelser omkring øjne og kønsorganer hos kaniner?",
+              "points": 300,
+              "options": [
+                "myxomatose",
+                "parvovirus hos hund",
+                "kattesyge",
+                "mund- og klovsyge"
+              ],
+              "correctIndex": 0,
+              "answer": "myxomatose"
+            },
+            {
+              "id": "kp_kaninunger_14",
+              "category": "Foder og sundhed",
+              "question": "Hvordan forebygges alvorlige virussygdomme som myxomatose og RHD bedst hos kælekaniner, hvor vacciner anbefales?",
+              "points": 400,
+              "options": [
+                "med vaccination efter dyrlægens plan",
+                "med sukker i vandet",
+                "med dagligt bad",
+                "med vitaminpiller alene"
+              ],
+              "correctIndex": 0,
+              "answer": "med vaccination efter dyrlægens plan"
+            },
+            {
+              "id": "kp_kaninunger_15",
+              "category": "Foder og sundhed",
+              "question": "Hvad kan for lange fortænder eller kindtænder føre til?",
+              "points": 500,
+              "options": [
+                "smerter og spiseproblemer",
+                "bedre hørelse",
+                "hurtigere løb",
+                "større kuld"
+              ],
+              "correctIndex": 0,
+              "answer": "smerter og spiseproblemer"
+            },
+            {
+              "id": "kp_kaninunger_16",
+              "category": "Adfærd og ansvarligt kaninhold",
+              "question": "Hvorfor har kaniner brug for skjulesteder?",
+              "points": 100,
+              "options": [
+                "de er byttedyr og søger sikkerhed",
+                "de kan ikke tåle mørke",
+                "de skal gemme deres tænder",
+                "de sover kun under vand"
+              ],
+              "correctIndex": 0,
+              "answer": "de er byttedyr og søger sikkerhed"
+            },
+            {
+              "id": "kp_kaninunger_17",
+              "category": "Adfærd og ansvarligt kaninhold",
+              "question": "Hvad kan en helt flad kanin med kroppen strakt ud ofte vise?",
+              "points": 200,
+              "options": [
+                "afslapning",
+                "akut aggression i alle tilfælde",
+                "at den ikke kan trække vejret",
+                "at den bygger rede"
+              ],
+              "correctIndex": 0,
+              "answer": "afslapning"
+            },
+            {
+              "id": "kp_kaninunger_18",
+              "category": "Adfærd og ansvarligt kaninhold",
+              "question": "Hvad kaldes en hurtig drejning om på siden, som ofte viser afslapning?",
+              "points": 300,
+              "options": [
+                "flop",
+                "charge",
+                "freeze",
+                "boxing"
+              ],
+              "correctIndex": 0,
+              "answer": "flop"
+            },
+            {
+              "id": "kp_kaninunger_19",
+              "category": "Adfærd og ansvarligt kaninhold",
+              "question": "Hvad kan stille tænderskæren hos en afslappet kanin være tegn på?",
+              "points": 400,
+              "options": [
+                "velbehagelig nydelse eller afslapning",
+                "alvorlig smerte i alle tilfælde",
+                "at tænderne falder ud",
+                "at den er sulten efter kød"
+              ],
+              "correctIndex": 0,
+              "answer": "velbehagelig nydelse eller afslapning"
+            },
+            {
+              "id": "kp_kaninunger_20",
+              "category": "Adfærd og ansvarligt kaninhold",
+              "question": "Hvad kan høj og vedvarende tænderskæren sammen med sammenkrøbet holdning tyde på?",
+              "points": 500,
+              "options": [
+                "smerte",
+                "glæde",
+                "normal søvn",
+                "parringsleg"
+              ],
+              "correctIndex": 0,
+              "answer": "smerte"
+            }
+          ],
+          "updatedAt": "2026-07-06T23:55:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+      "type": "text",
+      "title": "Professorens prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_workshop_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 180,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_9",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 580,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-kaninunger_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_10",
+      "type": "kapardy",
+      "title": "KaPardy · Kaninunger",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_20-sporgsmal-kaninunger_20",
+        "gameStartedAt": "2026-07-06T23:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_kaninunger_01",
+            "category": "Fødsel og udvikling",
+            "question": "Hvad kaldes selve fødslen hos kaniner ofte på engelsk?",
+            "points": 100,
+            "options": [
+              "kindling",
+              "whelping",
+              "foaling",
+              "calving"
+            ],
+            "correctIndex": 0,
+            "answer": "kindling"
+          },
+          {
+            "id": "kp_kaninunger_02",
+            "category": "Fødsel og udvikling",
+            "question": "Hvilken proces udløser normalt ægløsning hos hunkaninen?",
+            "points": 200,
+            "options": [
+              "parringen",
+              "månefasen",
+              "vinterkulde",
+              "daglig fodring"
+            ],
+            "correctIndex": 0,
+            "answer": "parringen"
+          },
+          {
+            "id": "kp_kaninunger_03",
+            "category": "Fødsel og udvikling",
+            "question": "Hvad kaldes det, når en hunkanin bygger rede og viser drægtighedstegn uden at være drægtig?",
+            "points": 300,
+            "options": [
+              "falsk drægtighed",
+              "dvale",
+              "fældning",
+              "brunstpause"
+            ],
+            "correctIndex": 0,
+            "answer": "falsk drægtighed"
+          },
+          {
+            "id": "kp_kaninunger_04",
+            "category": "Fødsel og udvikling",
+            "question": "Hvor tidligt kan en dyrlæge ifølge Merck undertiden mærke fostre i en drægtig kanins bug?",
+            "points": 400,
+            "options": [
+              "omkring 12 dage efter parring",
+              "sammes dag som parringen",
+              "først efter fødslen",
+              "omkring 6 måneder efter parring"
+            ],
+            "correctIndex": 0,
+            "answer": "omkring 12 dage efter parring"
+          },
+          {
+            "id": "kp_kaninunger_05",
+            "category": "Fødsel og udvikling",
+            "question": "Hvad gør en hunkanin typisk kort før fødslen for at isolere reden?",
+            "points": 500,
+            "options": [
+              "plukker pels fra sin egen krop",
+              "samler småsten",
+              "graver reden fuld af vand",
+              "bider ungernes pels af"
+            ],
+            "correctIndex": 0,
+            "answer": "plukker pels fra sin egen krop"
+          },
+          {
+            "id": "kp_kaninunger_06",
+            "category": "Rede og moderpleje",
+            "question": "Hvilken mælk er normalt et bedre udgangspunkt ved nødhåndopmadning efter veterinær vejledning end komælk?",
+            "points": 100,
+            "options": [
+              "kattemælkserstatning",
+              "flødeis",
+              "sojasauce",
+              "appelsinjuice"
+            ],
+            "correctIndex": 0,
+            "answer": "kattemælkserstatning"
+          },
+          {
+            "id": "kp_kaninunger_07",
+            "category": "Rede og moderpleje",
+            "question": "Hvad bør man ikke gøre ved en mistænkt forældreløs vildkaninunge uden først at vurdere situationen?",
+            "points": 200,
+            "options": [
+              "tage den med hjem med det samme",
+              "holde afstand og observere",
+              "kontakte en vildtplejer",
+              "se efter en rede i nærheden"
+            ],
+            "correctIndex": 0,
+            "answer": "tage den med hjem med det samme"
+          },
+          {
+            "id": "kp_kaninunger_08",
+            "category": "Rede og moderpleje",
+            "question": "Hvorfor er det vigtigt at adskille en fertil han fra en hun, der netop har født?",
+            "points": 300,
+            "options": [
+              "hun kan blive drægtig igen næsten straks",
+              "han får automatisk rabies",
+              "han stopper hendes mælkeproduktion ved synet",
+              "hun mister evnen til at bygge rede"
+            ],
+            "correctIndex": 0,
+            "answer": "hun kan blive drægtig igen næsten straks"
+          },
+          {
+            "id": "kp_kaninunger_09",
+            "category": "Rede og moderpleje",
+            "question": "Hvad bør stadig bevares mellem et midlertidigt adskilt kaninpar, hvis det kan ske sikkert?",
+            "points": 400,
+            "options": [
+              "syns- og duftkontakt",
+              "fælles foderskål gennem tremmer",
+              "fri parring",
+              "manglende adgang til hø"
+            ],
+            "correctIndex": 0,
+            "answer": "syns- og duftkontakt"
+          },
+          {
+            "id": "kp_kaninunger_10",
+            "category": "Rede og moderpleje",
+            "question": "Hvad er hovedformålet med en redekasse?",
+            "points": 500,
+            "options": [
+              "at give et afgrænset, tørt og isoleret fødested",
+              "at træne ungerne i at hoppe",
+              "at opbevare pellets",
+              "at forhindre moderen i at komme ind"
+            ],
+            "correctIndex": 0,
+            "answer": "at give et afgrænset, tørt og isoleret fødested"
+          },
+          {
+            "id": "kp_kaninunger_11",
+            "category": "Foder og sundhed",
+            "question": "Hvilken mikroskopisk parasit rammer især unge og nyligt fravænnede kaniner?",
+            "points": 100,
+            "options": [
+              "coccidier",
+              "bændelorm hos fisk",
+              "malariaparasitten",
+              "leverikter hos får"
+            ],
+            "correctIndex": 0,
+            "answer": "coccidier"
+          },
+          {
+            "id": "kp_kaninunger_12",
+            "category": "Foder og sundhed",
+            "question": "Hvilken alvorlig virussygdom hos kaniner forkortes ofte RHD?",
+            "points": 200,
+            "options": [
+              "rabbit haemorrhagic disease",
+              "rabbit hereditary deafness",
+              "rabbit hair deficiency",
+              "rabbit hydration disorder"
+            ],
+            "correctIndex": 0,
+            "answer": "rabbit haemorrhagic disease"
+          },
+          {
+            "id": "kp_kaninunger_13",
+            "category": "Foder og sundhed",
+            "question": "Hvilken virussygdom kan give hævelser omkring øjne og kønsorganer hos kaniner?",
+            "points": 300,
+            "options": [
+              "myxomatose",
+              "parvovirus hos hund",
+              "kattesyge",
+              "mund- og klovsyge"
+            ],
+            "correctIndex": 0,
+            "answer": "myxomatose"
+          },
+          {
+            "id": "kp_kaninunger_14",
+            "category": "Foder og sundhed",
+            "question": "Hvordan forebygges alvorlige virussygdomme som myxomatose og RHD bedst hos kælekaniner, hvor vacciner anbefales?",
+            "points": 400,
+            "options": [
+              "med vaccination efter dyrlægens plan",
+              "med sukker i vandet",
+              "med dagligt bad",
+              "med vitaminpiller alene"
+            ],
+            "correctIndex": 0,
+            "answer": "med vaccination efter dyrlægens plan"
+          },
+          {
+            "id": "kp_kaninunger_15",
+            "category": "Foder og sundhed",
+            "question": "Hvad kan for lange fortænder eller kindtænder føre til?",
+            "points": 500,
+            "options": [
+              "smerter og spiseproblemer",
+              "bedre hørelse",
+              "hurtigere løb",
+              "større kuld"
+            ],
+            "correctIndex": 0,
+            "answer": "smerter og spiseproblemer"
+          },
+          {
+            "id": "kp_kaninunger_16",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "question": "Hvorfor har kaniner brug for skjulesteder?",
+            "points": 100,
+            "options": [
+              "de er byttedyr og søger sikkerhed",
+              "de kan ikke tåle mørke",
+              "de skal gemme deres tænder",
+              "de sover kun under vand"
+            ],
+            "correctIndex": 0,
+            "answer": "de er byttedyr og søger sikkerhed"
+          },
+          {
+            "id": "kp_kaninunger_17",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "question": "Hvad kan en helt flad kanin med kroppen strakt ud ofte vise?",
+            "points": 200,
+            "options": [
+              "afslapning",
+              "akut aggression i alle tilfælde",
+              "at den ikke kan trække vejret",
+              "at den bygger rede"
+            ],
+            "correctIndex": 0,
+            "answer": "afslapning"
+          },
+          {
+            "id": "kp_kaninunger_18",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "question": "Hvad kaldes en hurtig drejning om på siden, som ofte viser afslapning?",
+            "points": 300,
+            "options": [
+              "flop",
+              "charge",
+              "freeze",
+              "boxing"
+            ],
+            "correctIndex": 0,
+            "answer": "flop"
+          },
+          {
+            "id": "kp_kaninunger_19",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "question": "Hvad kan stille tænderskæren hos en afslappet kanin være tegn på?",
+            "points": 400,
+            "options": [
+              "velbehagelig nydelse eller afslapning",
+              "alvorlig smerte i alle tilfælde",
+              "at tænderne falder ud",
+              "at den er sulten efter kød"
+            ],
+            "correctIndex": 0,
+            "answer": "velbehagelig nydelse eller afslapning"
+          },
+          {
+            "id": "kp_kaninunger_20",
+            "category": "Adfærd og ansvarligt kaninhold",
+            "question": "Hvad kan høj og vedvarende tænderskæren sammen med sammenkrøbet holdning tyde på?",
+            "points": 500,
+            "options": [
+              "smerte",
+              "glæde",
+              "normal søvn",
+              "parringsleg"
+            ],
+            "correctIndex": 0,
+            "answer": "smerte"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceCsv": "spil/kapardy/20/kaninunger_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_20-sporgsmal-kaninunger_v2_showcase"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 10,
+      "widgets": 34,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_20-sporgsmal-kaninunger_v2_showcase",
+    "courseTitle": "20 spørgsmål fra professoren · Kaninunger",
+    "courseSessionIds": [
+      "session_professor_20-sporgsmal-kaninunger_v2_showcase"
+    ]
+  },
+  "warnings": []
+}

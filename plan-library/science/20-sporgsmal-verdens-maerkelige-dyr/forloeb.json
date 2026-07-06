@@ -1,0 +1,2513 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.9",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T23:55:00.000Z",
+  "course": {
+    "id": "course_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+    "title": "20 spørgsmål fra professoren · Verdens mærkelige dyr",
+    "subject": "Biologi / natur",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase"
+    ],
+    "exportedAt": "2026-07-06T23:55:00.000Z",
+    "sourceAppVersion": "1.0.9"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Verdens mærkelige dyr",
+      "theme": "dark",
+      "activeBoardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+      "boardIds": [
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_4",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_5",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_6",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_7",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_8",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+        "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_10"
+      ],
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+        "courseTitle": "20 spørgsmål fra professoren · Verdens mærkelige dyr",
+        "courseSubject": "Biologi / natur",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase"
+        ],
+        "courseSequenceVersion": 2,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/verdens_mrkelige_dyr_20.csv",
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Billed-/webressourcer",
+          "Gruppeværktøj",
+          "Ordsky",
+          "Timer",
+          "Huskekortmatrix",
+          "KaPardy"
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "Overblik · Verdens mærkelige dyr",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_intro",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_route",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_index"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "order": 1
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "Ressourcematrix og kilder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_resource_matrix",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_source_1",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_source_2",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_source_3",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_source_4",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_source_5",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_sources_text"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "sources",
+        "order": 2
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_groups",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_tool_text",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_timer",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_countdown",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_wordcloud",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_calendar"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "showcase",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "1. Kroppe og tilpasninger",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat1_core",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat1_activity",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 4
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "2. Levesteder og udbredelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat2_core",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat2_activity",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat2_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "3. Adfærd og føde",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat3_core",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat3_activity",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat3_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 6
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "4. Slægtskab og formering",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat4_core",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat4_activity",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_cat4_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 7
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_8",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_flashcards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "flashcards",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_workshop",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_workshop_timer",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_workshop_sources",
+        "w_20-sporgsmal-verdens-maerkelige-dyr_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-verdens-maerkelige-dyr_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 10
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+      "type": "text",
+      "title": "Professorens udfordring",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 405,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nVERDENS MÆRKELIGE DYR\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/verdens_mrkelige_dyr_20.csv",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+      "type": "text",
+      "title": "Lektionsplan og Plan-værktøjer",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 405,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Kroppe og tilpasninger, Levesteder og udbredelse, Adfærd og føde, Slægtskab og formering.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Billed-/webressourcer\n• Gruppeværktøj\n• Ordsky\n• Timer\n• Huskekortmatrix\n• KaPardy\n\nDEMOIDÉ\nBilleddetektivhold: tilpasning, levested, adfærd og slægtskab finder billede + forklaring.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 510,
+        "width": 1160,
+        "height": 295,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_1",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_4",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_5",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_6",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_7",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_8",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+          "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_10"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_resource_matrix",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "version": 1,
+        "resources": [
+          {
+            "title": "Smithsonian National Zoo",
+            "url": "https://nationalzoo.si.edu/animals",
+            "type": "web/reference",
+            "category": "Levesteder og udbredelse",
+            "note": "Brug til dyreprofiler og levesteder.",
+            "tags": [
+              "levesteder-og-udbredelse",
+              "web-reference"
+            ]
+          },
+          {
+            "title": "Australian Museum",
+            "url": "https://australian.museum/",
+            "type": "web/museum",
+            "category": "Kroppe og tilpasninger",
+            "note": "Brug til australske dyr og tilpasninger.",
+            "tags": [
+              "kroppe-og-tilpasninger",
+              "web-museum"
+            ]
+          },
+          {
+            "title": "ARKive / Wildscreen Exchange",
+            "url": "https://www.wildscreen.org/",
+            "type": "web/billeder",
+            "category": "Adfærd og føde",
+            "note": "Brug som billed- og mediespor med omtanke.",
+            "tags": [
+              "adfaerd-og-foede",
+              "web-billeder"
+            ]
+          },
+          {
+            "title": "Encyclopaedia Britannica · Animals",
+            "url": "https://www.britannica.com/animal",
+            "type": "web/reference",
+            "category": "Slægtskab og formering",
+            "note": "Brug til klassifikation og begreber.",
+            "tags": [
+              "slaegtskab-og-formering",
+              "web-reference"
+            ]
+          },
+          {
+            "title": "iNaturalist",
+            "url": "https://www.inaturalist.org/",
+            "type": "data/billeder",
+            "category": "Levesteder og udbredelse",
+            "note": "Brug til observationer og udbredelse med kildekritik.",
+            "tags": [
+              "levesteder-og-udbredelse",
+              "data-billeder"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "link",
+      "title": "Smithsonian National Zoo",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://nationalzoo.si.edu/animals",
+        "label": "Smithsonian National Zoo",
+        "note": "web/reference · Brug til dyreprofiler og levesteder.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "link",
+      "title": "Australian Museum",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://australian.museum/",
+        "label": "Australian Museum",
+        "note": "web/museum · Brug til australske dyr og tilpasninger.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "link",
+      "title": "ARKive / Wildscreen Exchange",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://www.wildscreen.org/",
+        "label": "ARKive / Wildscreen Exchange",
+        "note": "web/billeder · Brug som billed- og mediespor med omtanke.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "link",
+      "title": "Encyclopaedia Britannica · Animals",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.britannica.com/animal",
+        "label": "Encyclopaedia Britannica · Animals",
+        "note": "web/reference · Brug til klassifikation og begreber.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "link",
+      "title": "iNaturalist",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://www.inaturalist.org/",
+        "label": "iNaturalist",
+        "note": "data/billeder · Brug til observationer og udbredelse med kildekritik.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Kroppe og tilpasninger",
+            "members": []
+          },
+          {
+            "name": "Levesteder og udbredelse",
+            "members": []
+          },
+          {
+            "name": "Adfærd og føde",
+            "members": []
+          },
+          {
+            "name": "Slægtskab og formering",
+            "members": []
+          }
+        ],
+        "note": "Billeddetektivhold: tilpasning, levested, adfærd og slægtskab finder billede + forklaring."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Kroppe og tilpasninger\n• Levesteder og udbredelse\n• Adfærd og føde\n• Slægtskab og formering\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Kroppe og tilpasninger",
+            "count": 1
+          },
+          {
+            "text": "Levesteder og udbredelse",
+            "count": 1
+          },
+          {
+            "text": "Adfærd og føde",
+            "count": 1
+          },
+          {
+            "text": "Slægtskab og formering",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_4",
+      "type": "text",
+      "title": "Kildearbejde · Kroppe og tilpasninger",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Kroppe og tilpasninger\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken fisk er dækket af bladlignende udvækster, der camouflerer den blandt tang?\n• Hvilken frøgruppe har så gennemsigtig hud på bugen, at organer kan ses?\n• Hvilken australsk øgle leder vand mod munden gennem små riller mellem skællene?\n• Hvilken øgle kaldes “Jesus-øgle”, fordi den kan løbe korte strækninger på vandoverfladen?\n• Hvad består skællene hos skældyr hovedsagelig af?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Kroppe og tilpasninger\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_4",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken fisk er dækket af bladlignende udvækster, der camouflerer den blandt tang?\n• Hvilken frøgruppe har så gennemsigtig hud på bugen, at organer kan ses?\n• Hvilken australsk øgle leder vand mod munden gennem små riller mellem skællene?\n• Hvilken øgle kaldes “Jesus-øgle”, fordi den kan løbe korte strækninger på vandoverfladen?\n• Hvad består skællene hos skældyr hovedsagelig af?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_5",
+      "type": "text",
+      "title": "Kildearbejde · Levesteder og udbredelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Levesteder og udbredelse\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket land er kiwiernes naturlige hjemsted?\n• I hvilken region lever binturongen naturligt?\n• I hvilke høje bjergområder lever sneleoparden?\n• Hvor lever rovdyret fossa naturligt?\n• På hvilket kontinent lever mankeulven naturligt?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Levesteder og udbredelse\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_5",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilket land er kiwiernes naturlige hjemsted?\n• I hvilken region lever binturongen naturligt?\n• I hvilke høje bjergområder lever sneleoparden?\n• Hvor lever rovdyret fossa naturligt?\n• På hvilket kontinent lever mankeulven naturligt?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_6",
+      "type": "text",
+      "title": "Kildearbejde · Adfærd og føde",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Adfærd og føde\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken australsk fugl kan efterligne motorsave, kameraer og andre fugles kald?\n• Hvad bygger en han-løvhyttefugl for at imponere hunner?\n• Hvilken afrikansk fugl kan lede mennesker til vilde bikolonier?\n• Hvilket natligt insekt bruger Mælkevejen som orientering, når det ruller sin kugle?\n• Hvilket havdyr er set bære kokosnøddeskaller som flytbart skjul?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Adfærd og føde\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_6",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken australsk fugl kan efterligne motorsave, kameraer og andre fugles kald?\n• Hvad bygger en han-løvhyttefugl for at imponere hunner?\n• Hvilken afrikansk fugl kan lede mennesker til vilde bikolonier?\n• Hvilket natligt insekt bruger Mælkevejen som orientering, når det ruller sin kugle?\n• Hvilket havdyr er set bære kokosnøddeskaller som flytbart skjul?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_7",
+      "type": "text",
+      "title": "Kildearbejde · Slægtskab og formering",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Slægtskab og formering\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken dyregruppe tilhører dolkhaler trods deres navn?\n• Hvad er en hvalhaj zoologisk set?\n• Hvilken dyreklasse tilhører flagermus?\n• Hvilket pigget australsk dyr er ligesom næbdyret et æglæggende pattedyr?\n• Hvilken dyregruppe tilhører vandmænd?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_7",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Slægtskab og formering\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_7",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken dyregruppe tilhører dolkhaler trods deres navn?\n• Hvad er en hvalhaj zoologisk set?\n• Hvilken dyreklasse tilhører flagermus?\n• Hvilket pigget australsk dyr er ligesom næbdyret et æglæggende pattedyr?\n• Hvilken dyregruppe tilhører vandmænd?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_8",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-verdens-maerkelige-dyr_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Verdens mærkelige dyr",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_verdens-mrkelige-dyr_01": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: blad-dragefisk. Forklar hvorfor det er mere præcist end: søhest · flyvefisk · kuglefisk.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "søhest",
+              "flyvefisk",
+              "kuglefisk"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_02": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: glasfrøer. Forklar hvorfor det er mere præcist end: giftfrøer · løvfrøer · hornfrøer.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "giftfrøer",
+              "løvfrøer",
+              "hornfrøer"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_03": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: tornet djævel. Forklar hvorfor det er mere præcist end: kraveøgle · blåtunget skink · varan.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "kraveøgle",
+              "blåtunget skink",
+              "varan"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_04": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: basilisk. Forklar hvorfor det er mere præcist end: leguan · gekko · agam.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "leguan",
+              "gekko",
+              "agam"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_05": {
+            "hint": "Find svaret i kilderne til: Kroppe og tilpasninger.",
+            "explanation": "Kort svar: keratin. Forklar hvorfor det er mere præcist end: kalk · kitin · benvæv.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "kalk",
+              "kitin",
+              "benvæv"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_06": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: New Zealand. Forklar hvorfor det er mere præcist end: Australien · Chile · Japan.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Australien",
+              "Chile",
+              "Japan"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_07": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Syd- og Sydøstasien. Forklar hvorfor det er mere præcist end: Sahara · Sydamerika · Sydeuropa.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Sahara",
+              "Sydamerika",
+              "Sydeuropa"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_08": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Centralasiens bjergkæder. Forklar hvorfor det er mere præcist end: Andesbjergene · Alperne · Atlasbjergene.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Andesbjergene",
+              "Alperne",
+              "Atlasbjergene"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_09": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Madagaskar. Forklar hvorfor det er mere præcist end: Filippinerne · Ny Guinea · Sumatra.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Filippinerne",
+              "Ny Guinea",
+              "Sumatra"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_10": {
+            "hint": "Find svaret i kilderne til: Levesteder og udbredelse.",
+            "explanation": "Kort svar: Sydamerika. Forklar hvorfor det er mere præcist end: Afrika · Asien · Australien.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "Afrika",
+              "Asien",
+              "Australien"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_11": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: lyrehalefugl. Forklar hvorfor det er mere præcist end: kookaburra · kasuar · emu.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "kookaburra",
+              "kasuar",
+              "emu"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_12": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: en dekoreret løvhytte. Forklar hvorfor det er mere præcist end: et muddertårn · en flydende rede · en underjordisk tunnel.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "et muddertårn",
+              "en flydende rede",
+              "en underjordisk tunnel"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_13": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: stor honninggøg. Forklar hvorfor det er mere præcist end: næsehornsfugl · sekretærfugl · væverfugl.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "næsehornsfugl",
+              "sekretærfugl",
+              "væverfugl"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_14": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: gødningsbille. Forklar hvorfor det er mere præcist end: oldenborre · knæler · vandkalv.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "oldenborre",
+              "knæler",
+              "vandkalv"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_15": {
+            "hint": "Find svaret i kilderne til: Adfærd og føde.",
+            "explanation": "Kort svar: kokosblæksprutte. Forklar hvorfor det er mere præcist end: nautil · sepia · kæmpeblæksprutte.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "nautil",
+              "sepia",
+              "kæmpeblæksprutte"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_16": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: leddyr. Forklar hvorfor det er mere præcist end: fisk · bløddyr · pighuder.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "fisk",
+              "bløddyr",
+              "pighuder"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_17": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: en fisk. Forklar hvorfor det er mere præcist end: et pattedyr · en padde · et krybdyr.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "et pattedyr",
+              "en padde",
+              "et krybdyr"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_18": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: pattedyr. Forklar hvorfor det er mere præcist end: fugle · krybdyr · padder.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "fugle",
+              "krybdyr",
+              "padder"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_19": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: myrepindsvin. Forklar hvorfor det er mere præcist end: pindsvin · pungdjævel · muldvarp.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "pindsvin",
+              "pungdjævel",
+              "muldvarp"
+            ]
+          },
+          "kp_verdens-mrkelige-dyr_20": {
+            "hint": "Find svaret i kilderne til: Slægtskab og formering.",
+            "explanation": "Kort svar: nældedyr. Forklar hvorfor det er mere præcist end: bløddyr · pighuder · ledorme.",
+            "sourceTitle": "Smithsonian National Zoo",
+            "sourceUrl": "https://nationalzoo.si.edu/animals",
+            "confusions": [
+              "bløddyr",
+              "pighuder",
+              "ledorme"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Verdens mærkelige dyr",
+          "questions": [
+            {
+              "id": "kp_verdens-mrkelige-dyr_01",
+              "category": "Kroppe og tilpasninger",
+              "question": "Hvilken fisk er dækket af bladlignende udvækster, der camouflerer den blandt tang?",
+              "points": 100,
+              "options": [
+                "blad-dragefisk",
+                "søhest",
+                "flyvefisk",
+                "kuglefisk"
+              ],
+              "correctIndex": 0,
+              "answer": "blad-dragefisk"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_02",
+              "category": "Kroppe og tilpasninger",
+              "question": "Hvilken frøgruppe har så gennemsigtig hud på bugen, at organer kan ses?",
+              "points": 200,
+              "options": [
+                "glasfrøer",
+                "giftfrøer",
+                "løvfrøer",
+                "hornfrøer"
+              ],
+              "correctIndex": 0,
+              "answer": "glasfrøer"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_03",
+              "category": "Kroppe og tilpasninger",
+              "question": "Hvilken australsk øgle leder vand mod munden gennem små riller mellem skællene?",
+              "points": 300,
+              "options": [
+                "tornet djævel",
+                "kraveøgle",
+                "blåtunget skink",
+                "varan"
+              ],
+              "correctIndex": 0,
+              "answer": "tornet djævel"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_04",
+              "category": "Kroppe og tilpasninger",
+              "question": "Hvilken øgle kaldes “Jesus-øgle”, fordi den kan løbe korte strækninger på vandoverfladen?",
+              "points": 400,
+              "options": [
+                "basilisk",
+                "leguan",
+                "gekko",
+                "agam"
+              ],
+              "correctIndex": 0,
+              "answer": "basilisk"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_05",
+              "category": "Kroppe og tilpasninger",
+              "question": "Hvad består skællene hos skældyr hovedsagelig af?",
+              "points": 500,
+              "options": [
+                "keratin",
+                "kalk",
+                "kitin",
+                "benvæv"
+              ],
+              "correctIndex": 0,
+              "answer": "keratin"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_06",
+              "category": "Levesteder og udbredelse",
+              "question": "Hvilket land er kiwiernes naturlige hjemsted?",
+              "points": 100,
+              "options": [
+                "New Zealand",
+                "Australien",
+                "Chile",
+                "Japan"
+              ],
+              "correctIndex": 0,
+              "answer": "New Zealand"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_07",
+              "category": "Levesteder og udbredelse",
+              "question": "I hvilken region lever binturongen naturligt?",
+              "points": 200,
+              "options": [
+                "Syd- og Sydøstasien",
+                "Sahara",
+                "Sydamerika",
+                "Sydeuropa"
+              ],
+              "correctIndex": 0,
+              "answer": "Syd- og Sydøstasien"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_08",
+              "category": "Levesteder og udbredelse",
+              "question": "I hvilke høje bjergområder lever sneleoparden?",
+              "points": 300,
+              "options": [
+                "Centralasiens bjergkæder",
+                "Andesbjergene",
+                "Alperne",
+                "Atlasbjergene"
+              ],
+              "correctIndex": 0,
+              "answer": "Centralasiens bjergkæder"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_09",
+              "category": "Levesteder og udbredelse",
+              "question": "Hvor lever rovdyret fossa naturligt?",
+              "points": 400,
+              "options": [
+                "Madagaskar",
+                "Filippinerne",
+                "Ny Guinea",
+                "Sumatra"
+              ],
+              "correctIndex": 0,
+              "answer": "Madagaskar"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_10",
+              "category": "Levesteder og udbredelse",
+              "question": "På hvilket kontinent lever mankeulven naturligt?",
+              "points": 500,
+              "options": [
+                "Sydamerika",
+                "Afrika",
+                "Asien",
+                "Australien"
+              ],
+              "correctIndex": 0,
+              "answer": "Sydamerika"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_11",
+              "category": "Adfærd og føde",
+              "question": "Hvilken australsk fugl kan efterligne motorsave, kameraer og andre fugles kald?",
+              "points": 100,
+              "options": [
+                "lyrehalefugl",
+                "kookaburra",
+                "kasuar",
+                "emu"
+              ],
+              "correctIndex": 0,
+              "answer": "lyrehalefugl"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_12",
+              "category": "Adfærd og føde",
+              "question": "Hvad bygger en han-løvhyttefugl for at imponere hunner?",
+              "points": 200,
+              "options": [
+                "en dekoreret løvhytte",
+                "et muddertårn",
+                "en flydende rede",
+                "en underjordisk tunnel"
+              ],
+              "correctIndex": 0,
+              "answer": "en dekoreret løvhytte"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_13",
+              "category": "Adfærd og føde",
+              "question": "Hvilken afrikansk fugl kan lede mennesker til vilde bikolonier?",
+              "points": 300,
+              "options": [
+                "stor honninggøg",
+                "næsehornsfugl",
+                "sekretærfugl",
+                "væverfugl"
+              ],
+              "correctIndex": 0,
+              "answer": "stor honninggøg"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_14",
+              "category": "Adfærd og føde",
+              "question": "Hvilket natligt insekt bruger Mælkevejen som orientering, når det ruller sin kugle?",
+              "points": 400,
+              "options": [
+                "gødningsbille",
+                "oldenborre",
+                "knæler",
+                "vandkalv"
+              ],
+              "correctIndex": 0,
+              "answer": "gødningsbille"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_15",
+              "category": "Adfærd og føde",
+              "question": "Hvilket havdyr er set bære kokosnøddeskaller som flytbart skjul?",
+              "points": 500,
+              "options": [
+                "kokosblæksprutte",
+                "nautil",
+                "sepia",
+                "kæmpeblæksprutte"
+              ],
+              "correctIndex": 0,
+              "answer": "kokosblæksprutte"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_16",
+              "category": "Slægtskab og formering",
+              "question": "Hvilken dyregruppe tilhører dolkhaler trods deres navn?",
+              "points": 100,
+              "options": [
+                "leddyr",
+                "fisk",
+                "bløddyr",
+                "pighuder"
+              ],
+              "correctIndex": 0,
+              "answer": "leddyr"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_17",
+              "category": "Slægtskab og formering",
+              "question": "Hvad er en hvalhaj zoologisk set?",
+              "points": 200,
+              "options": [
+                "en fisk",
+                "et pattedyr",
+                "en padde",
+                "et krybdyr"
+              ],
+              "correctIndex": 0,
+              "answer": "en fisk"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_18",
+              "category": "Slægtskab og formering",
+              "question": "Hvilken dyreklasse tilhører flagermus?",
+              "points": 300,
+              "options": [
+                "pattedyr",
+                "fugle",
+                "krybdyr",
+                "padder"
+              ],
+              "correctIndex": 0,
+              "answer": "pattedyr"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_19",
+              "category": "Slægtskab og formering",
+              "question": "Hvilket pigget australsk dyr er ligesom næbdyret et æglæggende pattedyr?",
+              "points": 400,
+              "options": [
+                "myrepindsvin",
+                "pindsvin",
+                "pungdjævel",
+                "muldvarp"
+              ],
+              "correctIndex": 0,
+              "answer": "myrepindsvin"
+            },
+            {
+              "id": "kp_verdens-mrkelige-dyr_20",
+              "category": "Slægtskab og formering",
+              "question": "Hvilken dyregruppe tilhører vandmænd?",
+              "points": 500,
+              "options": [
+                "nældedyr",
+                "bløddyr",
+                "pighuder",
+                "ledorme"
+              ],
+              "correctIndex": 0,
+              "answer": "nældedyr"
+            }
+          ],
+          "updatedAt": "2026-07-06T23:55:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+      "type": "text",
+      "title": "Professorens prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_workshop_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 180,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_9",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 580,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-verdens-maerkelige-dyr_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_10",
+      "type": "kapardy",
+      "title": "KaPardy · Verdens mærkelige dyr",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_20-sporgsmal-verdens-maerkelige-dyr_20",
+        "gameStartedAt": "2026-07-06T23:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_verdens-mrkelige-dyr_01",
+            "category": "Kroppe og tilpasninger",
+            "question": "Hvilken fisk er dækket af bladlignende udvækster, der camouflerer den blandt tang?",
+            "points": 100,
+            "options": [
+              "blad-dragefisk",
+              "søhest",
+              "flyvefisk",
+              "kuglefisk"
+            ],
+            "correctIndex": 0,
+            "answer": "blad-dragefisk"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_02",
+            "category": "Kroppe og tilpasninger",
+            "question": "Hvilken frøgruppe har så gennemsigtig hud på bugen, at organer kan ses?",
+            "points": 200,
+            "options": [
+              "glasfrøer",
+              "giftfrøer",
+              "løvfrøer",
+              "hornfrøer"
+            ],
+            "correctIndex": 0,
+            "answer": "glasfrøer"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_03",
+            "category": "Kroppe og tilpasninger",
+            "question": "Hvilken australsk øgle leder vand mod munden gennem små riller mellem skællene?",
+            "points": 300,
+            "options": [
+              "tornet djævel",
+              "kraveøgle",
+              "blåtunget skink",
+              "varan"
+            ],
+            "correctIndex": 0,
+            "answer": "tornet djævel"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_04",
+            "category": "Kroppe og tilpasninger",
+            "question": "Hvilken øgle kaldes “Jesus-øgle”, fordi den kan løbe korte strækninger på vandoverfladen?",
+            "points": 400,
+            "options": [
+              "basilisk",
+              "leguan",
+              "gekko",
+              "agam"
+            ],
+            "correctIndex": 0,
+            "answer": "basilisk"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_05",
+            "category": "Kroppe og tilpasninger",
+            "question": "Hvad består skællene hos skældyr hovedsagelig af?",
+            "points": 500,
+            "options": [
+              "keratin",
+              "kalk",
+              "kitin",
+              "benvæv"
+            ],
+            "correctIndex": 0,
+            "answer": "keratin"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_06",
+            "category": "Levesteder og udbredelse",
+            "question": "Hvilket land er kiwiernes naturlige hjemsted?",
+            "points": 100,
+            "options": [
+              "New Zealand",
+              "Australien",
+              "Chile",
+              "Japan"
+            ],
+            "correctIndex": 0,
+            "answer": "New Zealand"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_07",
+            "category": "Levesteder og udbredelse",
+            "question": "I hvilken region lever binturongen naturligt?",
+            "points": 200,
+            "options": [
+              "Syd- og Sydøstasien",
+              "Sahara",
+              "Sydamerika",
+              "Sydeuropa"
+            ],
+            "correctIndex": 0,
+            "answer": "Syd- og Sydøstasien"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_08",
+            "category": "Levesteder og udbredelse",
+            "question": "I hvilke høje bjergområder lever sneleoparden?",
+            "points": 300,
+            "options": [
+              "Centralasiens bjergkæder",
+              "Andesbjergene",
+              "Alperne",
+              "Atlasbjergene"
+            ],
+            "correctIndex": 0,
+            "answer": "Centralasiens bjergkæder"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_09",
+            "category": "Levesteder og udbredelse",
+            "question": "Hvor lever rovdyret fossa naturligt?",
+            "points": 400,
+            "options": [
+              "Madagaskar",
+              "Filippinerne",
+              "Ny Guinea",
+              "Sumatra"
+            ],
+            "correctIndex": 0,
+            "answer": "Madagaskar"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_10",
+            "category": "Levesteder og udbredelse",
+            "question": "På hvilket kontinent lever mankeulven naturligt?",
+            "points": 500,
+            "options": [
+              "Sydamerika",
+              "Afrika",
+              "Asien",
+              "Australien"
+            ],
+            "correctIndex": 0,
+            "answer": "Sydamerika"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_11",
+            "category": "Adfærd og føde",
+            "question": "Hvilken australsk fugl kan efterligne motorsave, kameraer og andre fugles kald?",
+            "points": 100,
+            "options": [
+              "lyrehalefugl",
+              "kookaburra",
+              "kasuar",
+              "emu"
+            ],
+            "correctIndex": 0,
+            "answer": "lyrehalefugl"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_12",
+            "category": "Adfærd og føde",
+            "question": "Hvad bygger en han-løvhyttefugl for at imponere hunner?",
+            "points": 200,
+            "options": [
+              "en dekoreret løvhytte",
+              "et muddertårn",
+              "en flydende rede",
+              "en underjordisk tunnel"
+            ],
+            "correctIndex": 0,
+            "answer": "en dekoreret løvhytte"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_13",
+            "category": "Adfærd og føde",
+            "question": "Hvilken afrikansk fugl kan lede mennesker til vilde bikolonier?",
+            "points": 300,
+            "options": [
+              "stor honninggøg",
+              "næsehornsfugl",
+              "sekretærfugl",
+              "væverfugl"
+            ],
+            "correctIndex": 0,
+            "answer": "stor honninggøg"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_14",
+            "category": "Adfærd og føde",
+            "question": "Hvilket natligt insekt bruger Mælkevejen som orientering, når det ruller sin kugle?",
+            "points": 400,
+            "options": [
+              "gødningsbille",
+              "oldenborre",
+              "knæler",
+              "vandkalv"
+            ],
+            "correctIndex": 0,
+            "answer": "gødningsbille"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_15",
+            "category": "Adfærd og føde",
+            "question": "Hvilket havdyr er set bære kokosnøddeskaller som flytbart skjul?",
+            "points": 500,
+            "options": [
+              "kokosblæksprutte",
+              "nautil",
+              "sepia",
+              "kæmpeblæksprutte"
+            ],
+            "correctIndex": 0,
+            "answer": "kokosblæksprutte"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_16",
+            "category": "Slægtskab og formering",
+            "question": "Hvilken dyregruppe tilhører dolkhaler trods deres navn?",
+            "points": 100,
+            "options": [
+              "leddyr",
+              "fisk",
+              "bløddyr",
+              "pighuder"
+            ],
+            "correctIndex": 0,
+            "answer": "leddyr"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_17",
+            "category": "Slægtskab og formering",
+            "question": "Hvad er en hvalhaj zoologisk set?",
+            "points": 200,
+            "options": [
+              "en fisk",
+              "et pattedyr",
+              "en padde",
+              "et krybdyr"
+            ],
+            "correctIndex": 0,
+            "answer": "en fisk"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_18",
+            "category": "Slægtskab og formering",
+            "question": "Hvilken dyreklasse tilhører flagermus?",
+            "points": 300,
+            "options": [
+              "pattedyr",
+              "fugle",
+              "krybdyr",
+              "padder"
+            ],
+            "correctIndex": 0,
+            "answer": "pattedyr"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_19",
+            "category": "Slægtskab og formering",
+            "question": "Hvilket pigget australsk dyr er ligesom næbdyret et æglæggende pattedyr?",
+            "points": 400,
+            "options": [
+              "myrepindsvin",
+              "pindsvin",
+              "pungdjævel",
+              "muldvarp"
+            ],
+            "correctIndex": 0,
+            "answer": "myrepindsvin"
+          },
+          {
+            "id": "kp_verdens-mrkelige-dyr_20",
+            "category": "Slægtskab og formering",
+            "question": "Hvilken dyregruppe tilhører vandmænd?",
+            "points": 500,
+            "options": [
+              "nældedyr",
+              "bløddyr",
+              "pighuder",
+              "ledorme"
+            ],
+            "correctIndex": 0,
+            "answer": "nældedyr"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceCsv": "spil/kapardy/20/verdens_mrkelige_dyr_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 10,
+      "widgets": 34,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
+    "courseTitle": "20 spørgsmål fra professoren · Verdens mærkelige dyr",
+    "courseSessionIds": [
+      "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase"
+    ]
+  },
+  "warnings": []
+}

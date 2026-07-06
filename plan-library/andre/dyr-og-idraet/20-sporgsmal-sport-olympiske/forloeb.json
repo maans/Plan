@@ -1,0 +1,2513 @@
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 3,
+  "appVersion": "1.0.9",
+  "kind": "course-package",
+  "createdAt": "2026-07-06T23:55:00.000Z",
+  "course": {
+    "id": "course_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+    "title": "20 spørgsmål fra professoren · Sport og olympiske lege",
+    "subject": "Idræt / historie",
+    "schoolYear": "",
+    "sessionIds": [
+      "session_professor_20-sporgsmal-sport-olympiske_v2_showcase"
+    ],
+    "exportedAt": "2026-07-06T23:55:00.000Z",
+    "sourceAppVersion": "1.0.9"
+  },
+  "sessions": [
+    {
+      "id": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "schemaVersion": 1,
+      "title": "20 spørgsmål fra professoren · Sport og olympiske lege",
+      "theme": "dark",
+      "activeBoardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+      "boardIds": [
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_4",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_5",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_6",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_7",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_8",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+        "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_10"
+      ],
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "courseId": "course_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+        "courseTitle": "20 spørgsmål fra professoren · Sport og olympiske lege",
+        "courseSubject": "Idræt / historie",
+        "courseSchoolYear": "",
+        "courseOrder": 1,
+        "planOrder": 1,
+        "courseSessionIds": [
+          "session_professor_20-sporgsmal-sport-olympiske_v2_showcase"
+        ],
+        "courseSequenceVersion": 2,
+        "courseSequenceSource": "metadata",
+        "sourceKind": "plan-library-demo",
+        "sourceCsv": "spil/kapardy/20/sport_olympiske_20.csv",
+        "estimatedLessons": "2–4",
+        "professorVersion": "v2-kilder-huskekort-showcase",
+        "showcaseTools": [
+          "Ressourcematrix",
+          "Kalender/tidslinje",
+          "Gruppeværktøj",
+          "Nedtælling",
+          "Timer",
+          "Huskekortmatrix",
+          "KaPardy"
+        ]
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "Overblik · Sport og olympiske lege",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_intro",
+        "w_20-sporgsmal-sport-olympiske_route",
+        "w_20-sporgsmal-sport-olympiske_index"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "overview",
+        "order": 1
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "Ressourcematrix og kilder",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#30204f 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_resource_matrix",
+        "w_20-sporgsmal-sport-olympiske_source_1",
+        "w_20-sporgsmal-sport-olympiske_source_2",
+        "w_20-sporgsmal-sport-olympiske_source_3",
+        "w_20-sporgsmal-sport-olympiske_source_4",
+        "w_20-sporgsmal-sport-olympiske_source_5",
+        "w_20-sporgsmal-sport-olympiske_sources_text"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "sources",
+        "order": 2
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "Demo-hold, timer og arbejdsflow",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_groups",
+        "w_20-sporgsmal-sport-olympiske_tool_text",
+        "w_20-sporgsmal-sport-olympiske_timer",
+        "w_20-sporgsmal-sport-olympiske_countdown",
+        "w_20-sporgsmal-sport-olympiske_wordcloud",
+        "w_20-sporgsmal-sport-olympiske_calendar"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "showcase",
+        "order": 3
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_4",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "1. Værtsbyer og år",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_cat1_core",
+        "w_20-sporgsmal-sport-olympiske_cat1_activity",
+        "w_20-sporgsmal-sport-olympiske_cat1_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 4
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_5",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "2. Sportsgrene og discipliner",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_cat2_core",
+        "w_20-sporgsmal-sport-olympiske_cat2_activity",
+        "w_20-sporgsmal-sport-olympiske_cat2_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 5
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_6",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "3. Symboler og organisation",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_cat3_core",
+        "w_20-sporgsmal-sport-olympiske_cat3_activity",
+        "w_20-sporgsmal-sport-olympiske_cat3_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 6
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_7",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "4. Atleter og præstationer",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#15234d 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_cat4_core",
+        "w_20-sporgsmal-sport-olympiske_cat4_activity",
+        "w_20-sporgsmal-sport-olympiske_cat4_check"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "category",
+        "order": 7
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_8",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "Huskekortmatrix og aktiv genkaldelse",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#3c1632 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_flashcards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "flashcards",
+        "order": 8
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "Professorens prøveværksted",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#4a2a12 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_workshop",
+        "w_20-sporgsmal-sport-olympiske_workshop_timer",
+        "w_20-sporgsmal-sport-olympiske_workshop_sources",
+        "w_20-sporgsmal-sport-olympiske_workshop_cards"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "workshop",
+        "order": 9
+      }
+    },
+    {
+      "id": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_10",
+      "schemaVersion": 1,
+      "sessionId": "session_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+      "title": "KaPardy · 20 spørgsmål",
+      "background": {
+        "kind": "image",
+        "value": "linear-gradient(145deg,#10243e 0%,#173b5e 55%,#28536f 100%)",
+        "imageRef": null,
+        "fit": "cover"
+      },
+      "grid": false,
+      "snap": 10,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "w_20-sporgsmal-sport-olympiske_kapardy"
+      ],
+      "layoutFamilyId": "professor-v2-showcase",
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "meta": {
+        "lessonPart": "kapardy",
+        "order": 10
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_intro",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+      "type": "text",
+      "title": "Professorens udfordring",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 405,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "20 SPØRGSMÅL FRA PROFESSOREN · DEMOFORLØB\nSPORT OG OLYMPISKE LEGE\n\nIDÉ\nEleverne arbejder først med kilder, forklaringer, forvekslinger, huskekort og Plan-værktøjer. KaPardy-spillet kommer til sidst som faglig opsamling.\n\nMÅL\n• finde viden i kilder og medier\n• forklare de rigtige svar med egne ord\n• gennemskue plausible, men forkerte svar\n• bruge Huskekortmatrix til aktiv genkaldelse\n• afprøve flere Plan-værktøjer i én sammenhæng\n\nKilde for spillet: spil/kapardy/20/sport_olympiske_20.csv",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "intro"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_route",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+      "type": "text",
+      "title": "Lektionsplan og Plan-værktøjer",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 405,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "2–4 LEKTIONER\n\n1. Overblik og professorens udfordring.\n2. Ressourcematrix og kildevalg.\n3. Demo-hold og arbejdsfordeling.\n4. Kategoriarbejde: Værtsbyer og år, Sportsgrene og discipliner, Symboler og organisation, Atleter og præstationer.\n5. Huskekortmatrix og aktiv genkaldelse.\n6. Prøveværksted og afsluttende KaPardy.\n\nPLAN-VÆRKTØJER I DETTE FORLØB\n• Ressourcematrix\n• Kalender/tidslinje\n• Gruppeværktøj\n• Nedtælling\n• Timer\n• Huskekortmatrix\n• KaPardy\n\nDEMOIDÉ\nMini-OL: grupper er lande/discipliner, bruger timer og afslutter med KaPardy-finale.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "lesson-plan"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_index",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+      "type": "board-index",
+      "title": "Tavler i forløbet",
+      "geometry": {
+        "x": 20,
+        "y": 510,
+        "width": 1160,
+        "height": 295,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "boardIds": [
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_1",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_4",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_5",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_6",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_7",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_8",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+          "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_10"
+        ]
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_resource_matrix",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "resource-matrix",
+      "title": "Ressourcematrix",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "version": 1,
+        "resources": [
+          {
+            "title": "Olympics.com · Olympic Games",
+            "url": "https://olympics.com/en/olympic-games",
+            "type": "web/officiel",
+            "category": "Værtsbyer og år",
+            "note": "Brug til værtsbyer og årstal.",
+            "tags": [
+              "vaertsbyer-og-aar",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "IOC · Olympic values",
+            "url": "https://olympics.com/ioc/olympic-values",
+            "type": "web/officiel",
+            "category": "Symboler og organisation",
+            "note": "Brug til excellence, respect og friendship.",
+            "tags": [
+              "symboler-og-organisation",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "Olympics.com · Athletes",
+            "url": "https://olympics.com/en/athletes/",
+            "type": "web/officiel",
+            "category": "Atleter og præstationer",
+            "note": "Brug til atleter og præstationer.",
+            "tags": [
+              "atleter-og-praestationer",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "World Rugby · Sevens",
+            "url": "https://www.world.rugby/sevens",
+            "type": "web/officiel",
+            "category": "Sportsgrene og discipliner",
+            "note": "Brug til rugby sevens.",
+            "tags": [
+              "sportsgrene-og-discipliner",
+              "web-officiel"
+            ]
+          },
+          {
+            "title": "FEI/IF/IOC sports pages",
+            "url": "https://olympics.com/en/sports/",
+            "type": "web/officiel",
+            "category": "Sportsgrene og discipliner",
+            "note": "Brug til sportsgrene og internationale forbund.",
+            "tags": [
+              "sportsgrene-og-discipliner",
+              "web-officiel"
+            ]
+          }
+        ],
+        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "resource-matrix"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_source_1",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "link",
+      "title": "Olympics.com · Olympic Games",
+      "geometry": {
+        "x": 560,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "url": "https://olympics.com/en/olympic-games",
+        "label": "Olympics.com · Olympic Games",
+        "note": "web/officiel · Brug til værtsbyer og årstal.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_source_2",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "link",
+      "title": "IOC · Olympic values",
+      "geometry": {
+        "x": 880,
+        "y": 85,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "url": "https://olympics.com/ioc/olympic-values",
+        "label": "IOC · Olympic values",
+        "note": "web/officiel · Brug til excellence, respect og friendship.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_source_3",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "link",
+      "title": "Olympics.com · Athletes",
+      "geometry": {
+        "x": 560,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "url": "https://olympics.com/en/athletes/",
+        "label": "Olympics.com · Athletes",
+        "note": "web/officiel · Brug til atleter og præstationer.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_source_4",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "link",
+      "title": "World Rugby · Sevens",
+      "geometry": {
+        "x": 880,
+        "y": 305,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "url": "https://www.world.rugby/sevens",
+        "label": "World Rugby · Sevens",
+        "note": "web/officiel · Brug til rugby sevens.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_source_5",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "link",
+      "title": "FEI/IF/IOC sports pages",
+      "geometry": {
+        "x": 560,
+        "y": 525,
+        "width": 300,
+        "height": 190,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "url": "https://olympics.com/en/sports/",
+        "label": "FEI/IF/IOC sports pages",
+        "note": "web/officiel · Brug til sportsgrene og internationale forbund.",
+        "view": "link"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-link"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_sources_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
+      "type": "text",
+      "title": "Kildeopgave",
+      "geometry": {
+        "x": 560,
+        "y": 745,
+        "width": 620,
+        "height": 80,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Åbn mindst to ressourcer. Notér ét sikkert svar, én forklaring og én mulig forveksling.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "sources-task"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_groups",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "type": "groups",
+      "title": "Demo-hold",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "groupSetVersion": 1,
+        "title": "Demo-hold",
+        "groupSize": 4,
+        "groups": [
+          {
+            "name": "Værtsbyer og år",
+            "members": []
+          },
+          {
+            "name": "Sportsgrene og discipliner",
+            "members": []
+          },
+          {
+            "name": "Symboler og organisation",
+            "members": []
+          },
+          {
+            "name": "Atleter og præstationer",
+            "members": []
+          }
+        ],
+        "note": "Mini-OL: grupper er lande/discipliner, bruger timer og afslutter med KaPardy-finale."
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_tool_text",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "type": "text",
+      "title": "Arbejdsfordeling",
+      "geometry": {
+        "x": 400,
+        "y": 85,
+        "width": 360,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "BRUG GRUPPEVÆRKTØJET\n\nFordel klassen i fire ekspertgrupper: \n• Værtsbyer og år\n• Sportsgrene og discipliner\n• Symboler og organisation\n• Atleter og præstationer\n\nHver gruppe skal finde svar, kilde og forveksling til sin kategori. Derefter bytter grupperne forklaringer.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "groups-instructions"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "type": "timer",
+      "title": "Kilderunde · 12 minutter",
+      "geometry": {
+        "x": 790,
+        "y": 85,
+        "width": 390,
+        "height": 150,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 720,
+        "mode": "countdown",
+        "label": "Kilderunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_countdown",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "type": "countdown",
+      "title": "Professorens nedtælling",
+      "geometry": {
+        "x": 790,
+        "y": 255,
+        "width": 390,
+        "height": 160,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "countdownVersion": 1,
+        "durationSeconds": 180,
+        "label": "Sidste tre minutter før deling"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "countdown"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_wordcloud",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "type": "wordcloud",
+      "title": "Nøgleord før spillet",
+      "geometry": {
+        "x": 20,
+        "y": 445,
+        "width": 560,
+        "height": 260,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "items": [
+          {
+            "text": "Værtsbyer og år",
+            "count": 1
+          },
+          {
+            "text": "Sportsgrene og discipliner",
+            "count": 1
+          },
+          {
+            "text": "Symboler og organisation",
+            "count": 1
+          },
+          {
+            "text": "Atleter og præstationer",
+            "count": 1
+          }
+        ],
+        "caseInsensitive": true,
+        "sourceKind": "manual"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "wordcloud"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_calendar",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_3",
+      "type": "calendar",
+      "title": "Minitidslinje",
+      "geometry": {
+        "x": 600,
+        "y": 445,
+        "width": 580,
+        "height": 260,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "calendarVersion": 1,
+        "events": [
+          {
+            "title": "Kilder",
+            "date": "Lektion 1"
+          },
+          {
+            "title": "Kategoriarbejde",
+            "date": "Lektion 2"
+          },
+          {
+            "title": "Huskekort og KaPardy",
+            "date": "Lektion 3"
+          }
+        ],
+        "view": "timeline"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat1_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_4",
+      "type": "text",
+      "title": "Kildearbejde · Værtsbyer og år",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Værtsbyer og år\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken by var vært for sommer-OL i 1988?\n• Hvilken by var vært for sommer-OL i 1996?\n• Hvilken by var vært for sommer-OL i 1972?\n• Hvilken by var vært for sommer-OL i 1976?\n• Hvilken by var vært for sommer-OL i 1968?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat1_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_4",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Værtsbyer og år\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat1_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_4",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken by var vært for sommer-OL i 1988?\n• Hvilken by var vært for sommer-OL i 1996?\n• Hvilken by var vært for sommer-OL i 1972?\n• Hvilken by var vært for sommer-OL i 1976?\n• Hvilken by var vært for sommer-OL i 1968?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat2_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_5",
+      "type": "text",
+      "title": "Kildearbejde · Sportsgrene og discipliner",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Sportsgrene og discipliner\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvor mange spillere har et volleyballhold på banen ad gangen?\n• Hvor mange spillere har et håndboldhold på banen ad gangen inklusive målmanden?\n• Hvor mange spillere har et rugby sevens-hold på banen?\n• Hvor mange spillere har et landhockeyhold normalt på banen inklusive målmanden?\n• Hvilken kampsport bruger kast, holdegreb og ippon som central scoring?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat2_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_5",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Sportsgrene og discipliner\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat2_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_5",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvor mange spillere har et volleyballhold på banen ad gangen?\n• Hvor mange spillere har et håndboldhold på banen ad gangen inklusive målmanden?\n• Hvor mange spillere har et rugby sevens-hold på banen?\n• Hvor mange spillere har et landhockeyhold normalt på banen inklusive målmanden?\n• Hvilken kampsport bruger kast, holdegreb og ippon som central scoring?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat3_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_6",
+      "type": "text",
+      "title": "Kildearbejde · Symboler og organisation",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Symboler og organisation\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilke tre værdier fremhæver IOC som olympiske kerneværdier?\n• Hvad betyder forkortelsen IOC på engelsk?\n• Hvad kaldes et lands organisation under den olympiske bevægelse, for eksempel Danmarks Idrætsforbund som dansk repræsentant?\n• Hvad kaldes det internationale forbund, der styrer en olympisk sportsgren?\n• Hvad kaldes organisationskomitéen for en bestemt udgave af de olympiske lege?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat3_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_6",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Symboler og organisation\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat3_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_6",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilke tre værdier fremhæver IOC som olympiske kerneværdier?\n• Hvad betyder forkortelsen IOC på engelsk?\n• Hvad kaldes et lands organisation under den olympiske bevægelse, for eksempel Danmarks Idrætsforbund som dansk repræsentant?\n• Hvad kaldes det internationale forbund, der styrer en olympisk sportsgren?\n• Hvad kaldes organisationskomitéen for en bestemt udgave af de olympiske lege?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat4_core",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_7",
+      "type": "text",
+      "title": "Kildearbejde · Atleter og præstationer",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 700,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "KATEGORI: Atleter og præstationer\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilken atlet vandt guld i både 5000 meter, 10.000 meter og maraton ved Helsinki 1952?\n• Hvilken etiopisk løber vandt OL-maraton barfodet i Rom 1960?\n• Hvilken højdespringer gjorde “Fosbury Flop” berømt ved OL i 1968?\n• Hvilken længdespringer satte verdensrekord med 8,90 meter ved OL i Mexico City 1968?\n• Hvilken svømmer vandt syv guldmedaljer ved OL i München 1972?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "core"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat4_activity",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_7",
+      "type": "text",
+      "title": "Arbejd aktivt",
+      "geometry": {
+        "x": 750,
+        "y": 85,
+        "width": 430,
+        "height": 315,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "text": "AKTIV OPGAVE · Atleter og præstationer\n\n1. Arbejd i ekspertgruppe eller makkerpar.\n2. Vælg to spørgsmål fra kategorien.\n3. Åbn en relevant kilde.\n4. Formulér et kort svar og en forklaring på 2–3 sætninger.\n5. Skriv én typisk forveksling.\n\nPRODUKT\nEt mini-huskekort pr. spørgsmål: forside = spørgsmål, bagside = svar, note = forklaring.",
+        "fontSize": 15,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "activity"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_cat4_check",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_7",
+      "type": "text",
+      "title": "Kontrol uden valgmuligheder",
+      "geometry": {
+        "x": 750,
+        "y": 420,
+        "width": 430,
+        "height": 365,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilken atlet vandt guld i både 5000 meter, 10.000 meter og maraton ved Helsinki 1952?\n• Hvilken etiopisk løber vandt OL-maraton barfodet i Rom 1960?\n• Hvilken højdespringer gjorde “Fosbury Flop” berømt ved OL i 1968?\n• Hvilken længdespringer satte verdensrekord med 8,90 meter ved OL i Mexico City 1968?\n• Hvilken svømmer vandt syv guldmedaljer ved OL i München 1972?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "fontSize": 14,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "retrieval"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_flashcards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_8",
+      "type": "flashcard-matrix",
+      "title": "Huskekortmatrix · aktiv genkaldelse",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "flashcardMatrixVersion": 2,
+        "sourceWidgetId": "w_20-sporgsmal-sport-olympiske_kapardy",
+        "sourceKind": "kapardy",
+        "sourceTitle": "KaPardy · Sport og olympiske lege",
+        "mode": "training",
+        "showAnswers": false,
+        "shuffle": true,
+        "filterCategory": "all",
+        "statusMap": {},
+        "enrichment": {
+          "kp_sport-olympiske_01": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Seoul. Forklar hvorfor det er mere præcist end: Busan · Tokyo · Beijing.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Busan",
+              "Tokyo",
+              "Beijing"
+            ]
+          },
+          "kp_sport-olympiske_02": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Atlanta. Forklar hvorfor det er mere præcist end: Boston · Dallas · Miami.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Boston",
+              "Dallas",
+              "Miami"
+            ]
+          },
+          "kp_sport-olympiske_03": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: München. Forklar hvorfor det er mere præcist end: Hamborg · Frankfurt · Wien.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Hamborg",
+              "Frankfurt",
+              "Wien"
+            ]
+          },
+          "kp_sport-olympiske_04": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Montréal. Forklar hvorfor det er mere præcist end: Toronto · Vancouver · Québec.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Toronto",
+              "Vancouver",
+              "Québec"
+            ]
+          },
+          "kp_sport-olympiske_05": {
+            "hint": "Find svaret i kilderne til: Værtsbyer og år.",
+            "explanation": "Kort svar: Mexico City. Forklar hvorfor det er mere præcist end: Guadalajara · Monterrey · Havana.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Guadalajara",
+              "Monterrey",
+              "Havana"
+            ]
+          },
+          "kp_sport-olympiske_06": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 6. Forklar hvorfor det er mere præcist end: 5 · 7 · 9.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "5",
+              "7",
+              "9"
+            ]
+          },
+          "kp_sport-olympiske_07": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 6 · 8 · 11.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "6",
+              "8",
+              "11"
+            ]
+          },
+          "kp_sport-olympiske_08": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 7. Forklar hvorfor det er mere præcist end: 5 · 11 · 15.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "5",
+              "11",
+              "15"
+            ]
+          },
+          "kp_sport-olympiske_09": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: 11. Forklar hvorfor det er mere præcist end: 7 · 9 · 12.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "7",
+              "9",
+              "12"
+            ]
+          },
+          "kp_sport-olympiske_10": {
+            "hint": "Find svaret i kilderne til: Sportsgrene og discipliner.",
+            "explanation": "Kort svar: judo. Forklar hvorfor det er mere præcist end: taekwondo · boksning · fægtning.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "taekwondo",
+              "boksning",
+              "fægtning"
+            ]
+          },
+          "kp_sport-olympiske_11": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: excellence, respekt og venskab. Forklar hvorfor det er mere præcist end: styrke, sejr og berømmelse · fart, højde og længde · disciplin, lydighed og nationalitet.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "styrke, sejr og berømmelse",
+              "fart, højde og længde",
+              "disciplin, lydighed og nationalitet"
+            ]
+          },
+          "kp_sport-olympiske_12": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: International Olympic Committee. Forklar hvorfor det er mere præcist end: International Organisation of Champions · Intercontinental Olympic Council · International Office of Competition.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "International Organisation of Champions",
+              "Intercontinental Olympic Council",
+              "International Office of Competition"
+            ]
+          },
+          "kp_sport-olympiske_13": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: en national olympisk komité, NOC. Forklar hvorfor det er mere præcist end: et internationalt specialforbund, IF · en lokal organisationskomité, OCOG · en professionel liga.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "et internationalt specialforbund, IF",
+              "en lokal organisationskomité, OCOG",
+              "en professionel liga"
+            ]
+          },
+          "kp_sport-olympiske_14": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: et internationalt specialforbund, IF. Forklar hvorfor det er mere præcist end: en national olympisk komité, NOC · en værtsbys OCOG · en atleterklub.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "en national olympisk komité, NOC",
+              "en værtsbys OCOG",
+              "en atleterklub"
+            ]
+          },
+          "kp_sport-olympiske_15": {
+            "hint": "Find svaret i kilderne til: Symboler og organisation.",
+            "explanation": "Kort svar: OCOG. Forklar hvorfor det er mere præcist end: NOC · WADA · CAS.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "NOC",
+              "WADA",
+              "CAS"
+            ]
+          },
+          "kp_sport-olympiske_16": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Emil Zátopek. Forklar hvorfor det er mere præcist end: Paavo Nurmi · Abebe Bikila · Lasse Virén.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Paavo Nurmi",
+              "Abebe Bikila",
+              "Lasse Virén"
+            ]
+          },
+          "kp_sport-olympiske_17": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Abebe Bikila. Forklar hvorfor det er mere præcist end: Mamo Wolde · Haile Gebrselassie · Kenenisa Bekele.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Mamo Wolde",
+              "Haile Gebrselassie",
+              "Kenenisa Bekele"
+            ]
+          },
+          "kp_sport-olympiske_18": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Dick Fosbury. Forklar hvorfor det er mere præcist end: Valeriy Brumel · Javier Sotomayor · Charles Dumas.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Valeriy Brumel",
+              "Javier Sotomayor",
+              "Charles Dumas"
+            ]
+          },
+          "kp_sport-olympiske_19": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Bob Beamon. Forklar hvorfor det er mere præcist end: Mike Powell · Carl Lewis · Ralph Boston.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Mike Powell",
+              "Carl Lewis",
+              "Ralph Boston"
+            ]
+          },
+          "kp_sport-olympiske_20": {
+            "hint": "Find svaret i kilderne til: Atleter og præstationer.",
+            "explanation": "Kort svar: Mark Spitz. Forklar hvorfor det er mere præcist end: Michael Phelps · Matt Biondi · Alexander Popov.",
+            "sourceTitle": "Olympics.com · Olympic Games",
+            "sourceUrl": "https://olympics.com/en/olympic-games",
+            "confusions": [
+              "Michael Phelps",
+              "Matt Biondi",
+              "Alexander Popov"
+            ]
+          }
+        },
+        "cards": [],
+        "extraCards": [],
+        "sourceSnapshot": {
+          "title": "KaPardy · Sport og olympiske lege",
+          "questions": [
+            {
+              "id": "kp_sport-olympiske_01",
+              "category": "Værtsbyer og år",
+              "question": "Hvilken by var vært for sommer-OL i 1988?",
+              "points": 100,
+              "options": [
+                "Seoul",
+                "Busan",
+                "Tokyo",
+                "Beijing"
+              ],
+              "correctIndex": 0,
+              "answer": "Seoul"
+            },
+            {
+              "id": "kp_sport-olympiske_02",
+              "category": "Værtsbyer og år",
+              "question": "Hvilken by var vært for sommer-OL i 1996?",
+              "points": 200,
+              "options": [
+                "Atlanta",
+                "Boston",
+                "Dallas",
+                "Miami"
+              ],
+              "correctIndex": 0,
+              "answer": "Atlanta"
+            },
+            {
+              "id": "kp_sport-olympiske_03",
+              "category": "Værtsbyer og år",
+              "question": "Hvilken by var vært for sommer-OL i 1972?",
+              "points": 300,
+              "options": [
+                "München",
+                "Hamborg",
+                "Frankfurt",
+                "Wien"
+              ],
+              "correctIndex": 0,
+              "answer": "München"
+            },
+            {
+              "id": "kp_sport-olympiske_04",
+              "category": "Værtsbyer og år",
+              "question": "Hvilken by var vært for sommer-OL i 1976?",
+              "points": 400,
+              "options": [
+                "Montréal",
+                "Toronto",
+                "Vancouver",
+                "Québec"
+              ],
+              "correctIndex": 0,
+              "answer": "Montréal"
+            },
+            {
+              "id": "kp_sport-olympiske_05",
+              "category": "Værtsbyer og år",
+              "question": "Hvilken by var vært for sommer-OL i 1968?",
+              "points": 500,
+              "options": [
+                "Mexico City",
+                "Guadalajara",
+                "Monterrey",
+                "Havana"
+              ],
+              "correctIndex": 0,
+              "answer": "Mexico City"
+            },
+            {
+              "id": "kp_sport-olympiske_06",
+              "category": "Sportsgrene og discipliner",
+              "question": "Hvor mange spillere har et volleyballhold på banen ad gangen?",
+              "points": 100,
+              "options": [
+                "6",
+                "5",
+                "7",
+                "9"
+              ],
+              "correctIndex": 0,
+              "answer": "6"
+            },
+            {
+              "id": "kp_sport-olympiske_07",
+              "category": "Sportsgrene og discipliner",
+              "question": "Hvor mange spillere har et håndboldhold på banen ad gangen inklusive målmanden?",
+              "points": 200,
+              "options": [
+                "7",
+                "6",
+                "8",
+                "11"
+              ],
+              "correctIndex": 0,
+              "answer": "7"
+            },
+            {
+              "id": "kp_sport-olympiske_08",
+              "category": "Sportsgrene og discipliner",
+              "question": "Hvor mange spillere har et rugby sevens-hold på banen?",
+              "points": 300,
+              "options": [
+                "7",
+                "5",
+                "11",
+                "15"
+              ],
+              "correctIndex": 0,
+              "answer": "7"
+            },
+            {
+              "id": "kp_sport-olympiske_09",
+              "category": "Sportsgrene og discipliner",
+              "question": "Hvor mange spillere har et landhockeyhold normalt på banen inklusive målmanden?",
+              "points": 400,
+              "options": [
+                "11",
+                "7",
+                "9",
+                "12"
+              ],
+              "correctIndex": 0,
+              "answer": "11"
+            },
+            {
+              "id": "kp_sport-olympiske_10",
+              "category": "Sportsgrene og discipliner",
+              "question": "Hvilken kampsport bruger kast, holdegreb og ippon som central scoring?",
+              "points": 500,
+              "options": [
+                "judo",
+                "taekwondo",
+                "boksning",
+                "fægtning"
+              ],
+              "correctIndex": 0,
+              "answer": "judo"
+            },
+            {
+              "id": "kp_sport-olympiske_11",
+              "category": "Symboler og organisation",
+              "question": "Hvilke tre værdier fremhæver IOC som olympiske kerneværdier?",
+              "points": 100,
+              "options": [
+                "excellence, respekt og venskab",
+                "styrke, sejr og berømmelse",
+                "fart, højde og længde",
+                "disciplin, lydighed og nationalitet"
+              ],
+              "correctIndex": 0,
+              "answer": "excellence, respekt og venskab"
+            },
+            {
+              "id": "kp_sport-olympiske_12",
+              "category": "Symboler og organisation",
+              "question": "Hvad betyder forkortelsen IOC på engelsk?",
+              "points": 200,
+              "options": [
+                "International Olympic Committee",
+                "International Organisation of Champions",
+                "Intercontinental Olympic Council",
+                "International Office of Competition"
+              ],
+              "correctIndex": 0,
+              "answer": "International Olympic Committee"
+            },
+            {
+              "id": "kp_sport-olympiske_13",
+              "category": "Symboler og organisation",
+              "question": "Hvad kaldes et lands organisation under den olympiske bevægelse, for eksempel Danmarks Idrætsforbund som dansk repræsentant?",
+              "points": 300,
+              "options": [
+                "en national olympisk komité, NOC",
+                "et internationalt specialforbund, IF",
+                "en lokal organisationskomité, OCOG",
+                "en professionel liga"
+              ],
+              "correctIndex": 0,
+              "answer": "en national olympisk komité, NOC"
+            },
+            {
+              "id": "kp_sport-olympiske_14",
+              "category": "Symboler og organisation",
+              "question": "Hvad kaldes det internationale forbund, der styrer en olympisk sportsgren?",
+              "points": 400,
+              "options": [
+                "et internationalt specialforbund, IF",
+                "en national olympisk komité, NOC",
+                "en værtsbys OCOG",
+                "en atleterklub"
+              ],
+              "correctIndex": 0,
+              "answer": "et internationalt specialforbund, IF"
+            },
+            {
+              "id": "kp_sport-olympiske_15",
+              "category": "Symboler og organisation",
+              "question": "Hvad kaldes organisationskomitéen for en bestemt udgave af de olympiske lege?",
+              "points": 500,
+              "options": [
+                "OCOG",
+                "NOC",
+                "WADA",
+                "CAS"
+              ],
+              "correctIndex": 0,
+              "answer": "OCOG"
+            },
+            {
+              "id": "kp_sport-olympiske_16",
+              "category": "Atleter og præstationer",
+              "question": "Hvilken atlet vandt guld i både 5000 meter, 10.000 meter og maraton ved Helsinki 1952?",
+              "points": 100,
+              "options": [
+                "Emil Zátopek",
+                "Paavo Nurmi",
+                "Abebe Bikila",
+                "Lasse Virén"
+              ],
+              "correctIndex": 0,
+              "answer": "Emil Zátopek"
+            },
+            {
+              "id": "kp_sport-olympiske_17",
+              "category": "Atleter og præstationer",
+              "question": "Hvilken etiopisk løber vandt OL-maraton barfodet i Rom 1960?",
+              "points": 200,
+              "options": [
+                "Abebe Bikila",
+                "Mamo Wolde",
+                "Haile Gebrselassie",
+                "Kenenisa Bekele"
+              ],
+              "correctIndex": 0,
+              "answer": "Abebe Bikila"
+            },
+            {
+              "id": "kp_sport-olympiske_18",
+              "category": "Atleter og præstationer",
+              "question": "Hvilken højdespringer gjorde “Fosbury Flop” berømt ved OL i 1968?",
+              "points": 300,
+              "options": [
+                "Dick Fosbury",
+                "Valeriy Brumel",
+                "Javier Sotomayor",
+                "Charles Dumas"
+              ],
+              "correctIndex": 0,
+              "answer": "Dick Fosbury"
+            },
+            {
+              "id": "kp_sport-olympiske_19",
+              "category": "Atleter og præstationer",
+              "question": "Hvilken længdespringer satte verdensrekord med 8,90 meter ved OL i Mexico City 1968?",
+              "points": 400,
+              "options": [
+                "Bob Beamon",
+                "Mike Powell",
+                "Carl Lewis",
+                "Ralph Boston"
+              ],
+              "correctIndex": 0,
+              "answer": "Bob Beamon"
+            },
+            {
+              "id": "kp_sport-olympiske_20",
+              "category": "Atleter og præstationer",
+              "question": "Hvilken svømmer vandt syv guldmedaljer ved OL i München 1972?",
+              "points": 500,
+              "options": [
+                "Mark Spitz",
+                "Michael Phelps",
+                "Matt Biondi",
+                "Alexander Popov"
+              ],
+              "correctIndex": 0,
+              "answer": "Mark Spitz"
+            }
+          ],
+          "updatedAt": "2026-07-06T23:55:00.000Z"
+        }
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-training"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_workshop",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+      "type": "text",
+      "title": "Professorens prøveværksted",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 700,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "PROFESSORENS PRØVEVÆRKSTED\n\nFør KaPardy skal hvert hold kunne forklare mindst fem kort uden at se bagsiden.\n\nARBEJDSFORM\n• Vælg en kategori.\n• Træk 3–5 kort fra Huskekortmatrixen.\n• Forklar hvert kort højt.\n• Brug en kilde, hvis gruppen er uenig.\n• Notér én forveksling, som de andre hold let kan falde i.\n\nKVALITETSKRAV\nEt godt svar er kort, korrekt og begrundet.",
+        "fontSize": 17,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workshop"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_workshop_timer",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+      "type": "timer",
+      "title": "Forklaringsrunde · 8 minutter",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 580,
+        "height": 180,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "timerVersion": 1,
+        "durationSeconds": 480,
+        "mode": "countdown",
+        "label": "Forklaringsrunde"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "timer"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_workshop_sources",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+      "type": "text",
+      "title": "Kildekrav før spillet",
+      "geometry": {
+        "x": 600,
+        "y": 285,
+        "width": 580,
+        "height": 230,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "text": "KILDEKRAV\n\nHvert hold skal kunne pege på mindst én kilde eller ét medie, der støtter deres forklaring.\n\nNår et kort stadig står som “Kan ikke endnu”, skal gruppen tilbage til kilden før KaPardy.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "source-requirement"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_workshop_cards",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_9",
+      "type": "text",
+      "title": "Huskekortrunde",
+      "geometry": {
+        "x": 600,
+        "y": 535,
+        "width": 580,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "HUSKEKORTRUNDE\n\n1. Åbn Huskekortmatrixen.\n2. Filtrér én kategori ad gangen.\n3. Bland kortene.\n4. Lad grupperne svare, før bagsiden vendes.\n5. Markér status.\n6. Spil først KaPardy, når de fleste kort er “Næsten” eller “Kan”.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "flashcard-routine"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "w_20-sporgsmal-sport-olympiske_kapardy",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_10",
+      "type": "kapardy",
+      "title": "KaPardy · Sport og olympiske lege",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 1160,
+        "height": 740,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "kapardyVersion": 2,
+        "questionBankContract": "first-answer-correct",
+        "gameId": "kapardy_20-sporgsmal-sport-olympiske_20",
+        "gameStartedAt": "2026-07-06T23:55:00.000Z",
+        "gameMode": "jeopardy",
+        "mode": "jeopardy",
+        "kapardyScreen": "setup",
+        "jeopardyStage": "board",
+        "teams": [
+          {
+            "name": "Hold 1",
+            "score": 0,
+            "correct": 0
+          },
+          {
+            "name": "Hold 2",
+            "score": 0,
+            "correct": 0
+          }
+        ],
+        "questions": [
+          {
+            "id": "kp_sport-olympiske_01",
+            "category": "Værtsbyer og år",
+            "question": "Hvilken by var vært for sommer-OL i 1988?",
+            "points": 100,
+            "options": [
+              "Seoul",
+              "Busan",
+              "Tokyo",
+              "Beijing"
+            ],
+            "correctIndex": 0,
+            "answer": "Seoul"
+          },
+          {
+            "id": "kp_sport-olympiske_02",
+            "category": "Værtsbyer og år",
+            "question": "Hvilken by var vært for sommer-OL i 1996?",
+            "points": 200,
+            "options": [
+              "Atlanta",
+              "Boston",
+              "Dallas",
+              "Miami"
+            ],
+            "correctIndex": 0,
+            "answer": "Atlanta"
+          },
+          {
+            "id": "kp_sport-olympiske_03",
+            "category": "Værtsbyer og år",
+            "question": "Hvilken by var vært for sommer-OL i 1972?",
+            "points": 300,
+            "options": [
+              "München",
+              "Hamborg",
+              "Frankfurt",
+              "Wien"
+            ],
+            "correctIndex": 0,
+            "answer": "München"
+          },
+          {
+            "id": "kp_sport-olympiske_04",
+            "category": "Værtsbyer og år",
+            "question": "Hvilken by var vært for sommer-OL i 1976?",
+            "points": 400,
+            "options": [
+              "Montréal",
+              "Toronto",
+              "Vancouver",
+              "Québec"
+            ],
+            "correctIndex": 0,
+            "answer": "Montréal"
+          },
+          {
+            "id": "kp_sport-olympiske_05",
+            "category": "Værtsbyer og år",
+            "question": "Hvilken by var vært for sommer-OL i 1968?",
+            "points": 500,
+            "options": [
+              "Mexico City",
+              "Guadalajara",
+              "Monterrey",
+              "Havana"
+            ],
+            "correctIndex": 0,
+            "answer": "Mexico City"
+          },
+          {
+            "id": "kp_sport-olympiske_06",
+            "category": "Sportsgrene og discipliner",
+            "question": "Hvor mange spillere har et volleyballhold på banen ad gangen?",
+            "points": 100,
+            "options": [
+              "6",
+              "5",
+              "7",
+              "9"
+            ],
+            "correctIndex": 0,
+            "answer": "6"
+          },
+          {
+            "id": "kp_sport-olympiske_07",
+            "category": "Sportsgrene og discipliner",
+            "question": "Hvor mange spillere har et håndboldhold på banen ad gangen inklusive målmanden?",
+            "points": 200,
+            "options": [
+              "7",
+              "6",
+              "8",
+              "11"
+            ],
+            "correctIndex": 0,
+            "answer": "7"
+          },
+          {
+            "id": "kp_sport-olympiske_08",
+            "category": "Sportsgrene og discipliner",
+            "question": "Hvor mange spillere har et rugby sevens-hold på banen?",
+            "points": 300,
+            "options": [
+              "7",
+              "5",
+              "11",
+              "15"
+            ],
+            "correctIndex": 0,
+            "answer": "7"
+          },
+          {
+            "id": "kp_sport-olympiske_09",
+            "category": "Sportsgrene og discipliner",
+            "question": "Hvor mange spillere har et landhockeyhold normalt på banen inklusive målmanden?",
+            "points": 400,
+            "options": [
+              "11",
+              "7",
+              "9",
+              "12"
+            ],
+            "correctIndex": 0,
+            "answer": "11"
+          },
+          {
+            "id": "kp_sport-olympiske_10",
+            "category": "Sportsgrene og discipliner",
+            "question": "Hvilken kampsport bruger kast, holdegreb og ippon som central scoring?",
+            "points": 500,
+            "options": [
+              "judo",
+              "taekwondo",
+              "boksning",
+              "fægtning"
+            ],
+            "correctIndex": 0,
+            "answer": "judo"
+          },
+          {
+            "id": "kp_sport-olympiske_11",
+            "category": "Symboler og organisation",
+            "question": "Hvilke tre værdier fremhæver IOC som olympiske kerneværdier?",
+            "points": 100,
+            "options": [
+              "excellence, respekt og venskab",
+              "styrke, sejr og berømmelse",
+              "fart, højde og længde",
+              "disciplin, lydighed og nationalitet"
+            ],
+            "correctIndex": 0,
+            "answer": "excellence, respekt og venskab"
+          },
+          {
+            "id": "kp_sport-olympiske_12",
+            "category": "Symboler og organisation",
+            "question": "Hvad betyder forkortelsen IOC på engelsk?",
+            "points": 200,
+            "options": [
+              "International Olympic Committee",
+              "International Organisation of Champions",
+              "Intercontinental Olympic Council",
+              "International Office of Competition"
+            ],
+            "correctIndex": 0,
+            "answer": "International Olympic Committee"
+          },
+          {
+            "id": "kp_sport-olympiske_13",
+            "category": "Symboler og organisation",
+            "question": "Hvad kaldes et lands organisation under den olympiske bevægelse, for eksempel Danmarks Idrætsforbund som dansk repræsentant?",
+            "points": 300,
+            "options": [
+              "en national olympisk komité, NOC",
+              "et internationalt specialforbund, IF",
+              "en lokal organisationskomité, OCOG",
+              "en professionel liga"
+            ],
+            "correctIndex": 0,
+            "answer": "en national olympisk komité, NOC"
+          },
+          {
+            "id": "kp_sport-olympiske_14",
+            "category": "Symboler og organisation",
+            "question": "Hvad kaldes det internationale forbund, der styrer en olympisk sportsgren?",
+            "points": 400,
+            "options": [
+              "et internationalt specialforbund, IF",
+              "en national olympisk komité, NOC",
+              "en værtsbys OCOG",
+              "en atleterklub"
+            ],
+            "correctIndex": 0,
+            "answer": "et internationalt specialforbund, IF"
+          },
+          {
+            "id": "kp_sport-olympiske_15",
+            "category": "Symboler og organisation",
+            "question": "Hvad kaldes organisationskomitéen for en bestemt udgave af de olympiske lege?",
+            "points": 500,
+            "options": [
+              "OCOG",
+              "NOC",
+              "WADA",
+              "CAS"
+            ],
+            "correctIndex": 0,
+            "answer": "OCOG"
+          },
+          {
+            "id": "kp_sport-olympiske_16",
+            "category": "Atleter og præstationer",
+            "question": "Hvilken atlet vandt guld i både 5000 meter, 10.000 meter og maraton ved Helsinki 1952?",
+            "points": 100,
+            "options": [
+              "Emil Zátopek",
+              "Paavo Nurmi",
+              "Abebe Bikila",
+              "Lasse Virén"
+            ],
+            "correctIndex": 0,
+            "answer": "Emil Zátopek"
+          },
+          {
+            "id": "kp_sport-olympiske_17",
+            "category": "Atleter og præstationer",
+            "question": "Hvilken etiopisk løber vandt OL-maraton barfodet i Rom 1960?",
+            "points": 200,
+            "options": [
+              "Abebe Bikila",
+              "Mamo Wolde",
+              "Haile Gebrselassie",
+              "Kenenisa Bekele"
+            ],
+            "correctIndex": 0,
+            "answer": "Abebe Bikila"
+          },
+          {
+            "id": "kp_sport-olympiske_18",
+            "category": "Atleter og præstationer",
+            "question": "Hvilken højdespringer gjorde “Fosbury Flop” berømt ved OL i 1968?",
+            "points": 300,
+            "options": [
+              "Dick Fosbury",
+              "Valeriy Brumel",
+              "Javier Sotomayor",
+              "Charles Dumas"
+            ],
+            "correctIndex": 0,
+            "answer": "Dick Fosbury"
+          },
+          {
+            "id": "kp_sport-olympiske_19",
+            "category": "Atleter og præstationer",
+            "question": "Hvilken længdespringer satte verdensrekord med 8,90 meter ved OL i Mexico City 1968?",
+            "points": 400,
+            "options": [
+              "Bob Beamon",
+              "Mike Powell",
+              "Carl Lewis",
+              "Ralph Boston"
+            ],
+            "correctIndex": 0,
+            "answer": "Bob Beamon"
+          },
+          {
+            "id": "kp_sport-olympiske_20",
+            "category": "Atleter og præstationer",
+            "question": "Hvilken svømmer vandt syv guldmedaljer ved OL i München 1972?",
+            "points": 500,
+            "options": [
+              "Mark Spitz",
+              "Michael Phelps",
+              "Matt Biondi",
+              "Alexander Popov"
+            ],
+            "correctIndex": 0,
+            "answer": "Mark Spitz"
+          }
+        ],
+        "current": 0,
+        "currentTeam": 0,
+        "reveal": false,
+        "selections": {},
+        "awarded": {},
+        "revealed": {},
+        "optionOrders": {},
+        "usedQuestions": {},
+        "scoreEvents": [],
+        "sourceCsv": "spil/kapardy/20/sport_olympiske_20.csv"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "kapardy"
+      },
+      "createdAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "session_professor_20-sporgsmal-sport-olympiske_v2_showcase"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 10,
+      "widgets": 34,
+      "datasets": 0,
+      "media": 0
+    },
+    "referencedDatasetIds": [],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "course_professor_20-sporgsmal-sport-olympiske_v2_showcase",
+    "courseTitle": "20 spørgsmål fra professoren · Sport og olympiske lege",
+    "courseSessionIds": [
+      "session_professor_20-sporgsmal-sport-olympiske_v2_showcase"
+    ]
+  },
+  "warnings": []
+}

@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-06T22:10",
+  "updatedAt": "2026-07-06T23:55",
   "categories": [
     {
       "id": "dansk",
@@ -781,6 +781,314 @@
       "sizeBytes": 84413,
       "featured": false,
       "updatedAt": "2026-07-06T22:10"
+    },
+    {
+      "id": "20-sporgsmal-fransk",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Fransk sprog og kultur",
+      "category": "andre-9",
+      "subject": "Fransk",
+      "description": "Franskforløb med ordforråd, grammatik, kultur og frankofon verden med lyd-/webressourcer, mundtlige runder og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "fransk",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/sprog/20-sporgsmal-fransk/forloeb.json",
+      "sizeBytes": 82653,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-spansk",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Spansk sprog og kultur",
+      "category": "andre-9",
+      "subject": "Spansk",
+      "description": "Spanskforløb med ordforråd, grammatik, kunst, kultur og spansktalende verden med mundtlige øvelser og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "spansk",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/sprog/20-sporgsmal-spansk/forloeb.json",
+      "sizeBytes": 82391,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-kropssprog",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Kropssprog",
+      "category": "dansk",
+      "subject": "Dansk / kommunikation",
+      "description": "Kommunikationsforløb om ansigt, blik, rum, berøring, samtalefunktioner og myter med videoanalyse, rollespil og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "dansk",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-kropssprog/forloeb.json",
+      "sizeBytes": 90061,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-mytologi",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Mytologi fra verden",
+      "category": "andre-9",
+      "subject": "Kristendomskundskab / kulturfag",
+      "description": "Kulturfagligt forløb om græsk-romersk, egyptisk, mesopotamisk, hinduistisk og japansk mytologi med sammenligningskort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "kristendomskundskab",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/kulturfag/20-sporgsmal-mytologi/forloeb.json",
+      "sizeBytes": 82419,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-nordisk-mytologi",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Nordisk mytologi",
+      "category": "dansk",
+      "subject": "Dansk / historie / kristendomskundskab",
+      "description": "Forløb om nordiske guder, væsner, verdener, kilder og ritualer med kildelæsning, begrebskort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "dansk",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-nordisk-mytologi/forloeb.json",
+      "sizeBytes": 84918,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-musik-komponister",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Musikkens komponister",
+      "category": "musik",
+      "subject": "Musik",
+      "description": "Musikforløb om komponister, værker og perioder med lytning, tidslinje, kildearbejde, huskekort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "musik",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/musik/20-sporgsmal-musik-komponister/forloeb.json",
+      "sizeBytes": 87193,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-heste",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Heste",
+      "category": "andre-9",
+      "subject": "Biologi / idræt",
+      "description": "Forløb om hestens krop, pasning, sundhed, racer og sport med billedressourcer, stationsarbejde og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "biologi",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-heste/forloeb.json",
+      "sizeBytes": 84858,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-kaninunger",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Kaninunger",
+      "category": "andre-9",
+      "subject": "Biologi / dyrevelfærd",
+      "description": "Forløb om kaninungers fødsel, rede, pleje, sundhed og adfærd med veterinære kilder, pasningsplan og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "biologi",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-kaninunger/forloeb.json",
+      "sizeBytes": 88844,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-verdens-maerkelige-dyr",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Verdens mærkelige dyr",
+      "category": "science",
+      "subject": "Biologi / natur",
+      "description": "Biologiforløb om usædvanlige tilpasninger, levesteder, adfærd og slægtskab med billedmatrix, kilder og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "biologi",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-verdens-maerkelige-dyr/forloeb.json",
+      "sizeBytes": 86422,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-sport-olympiske",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Sport og olympiske lege",
+      "category": "andre-9",
+      "subject": "Idræt / historie",
+      "description": "Forløb om olympiske værtsbyer, sportsgrene, organisation og præstationer med tidslinje, hold, timer og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "idræt",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-sport-olympiske/forloeb.json",
+      "sizeBytes": 86397,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "20-sporgsmal-naturvidenskab",
+      "kind": "demo",
+      "status": "published",
+      "title": "20 spørgsmål fra professoren · Naturvidenskab · grundlæggende",
+      "category": "science",
+      "subject": "Science / naturvidenskab",
+      "description": "Grundlæggende naturvidenskab med fysik, kemi, geologi og måling/metode gennem forsøg, begrebskort og KaPardy.",
+      "schoolYear": "",
+      "gradeLevels": [
+        "9",
+        "10"
+      ],
+      "tags": [
+        "20 spørgsmål fra professoren",
+        "science",
+        "kilder",
+        "ressourcematrix",
+        "huskekort",
+        "KaPardy",
+        "Plan-demo"
+      ],
+      "version": "2.1.0-showcase",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-naturvidenskab/forloeb.json",
+      "sizeBytes": 84449,
+      "featured": false,
+      "updatedAt": "2026-07-06T23:55"
     }
   ]
 }
