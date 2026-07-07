@@ -8334,7 +8334,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 
     async renderLibraryCenter(container,rerender){
       const shell=document.createElement('div');shell.className='tn-library-shell';
-      const intro=document.createElement('div');intro.className='tn-warning';intro.innerHTML='<b>Færdige årsforløb og skabeloner</b><br>Vælg fag og forløb. Plan henter kun den pakke, du vælger, og opretter den som en selvstændig lokal kopi uden at blande den sammen med dit nuværende arbejde.';
+      const intro=document.createElement('div');intro.className='tn-warning';intro.innerHTML='<b>Demoforløb og skabeloner</b><br>Vælg en færdig pakke. Plan henter kun den pakke, du vælger, og opretter den som en selvstændig lokal kopi uden at blande den sammen med dit nuværende arbejde.';
       const status=document.createElement('div');status.className='tn-library-status';status.innerHTML='<strong>Åbner biblioteket …</strong><span>Et øjeblik</span>';
       const categories=document.createElement('div');categories.className='tn-library-categories';
       const filters=document.createElement('div');filters.className='tn-library-filters';filters.innerHTML='<input type="search" data-library-search placeholder="Søg titel, fag eller emne"><select data-library-kind><option value="all">Demoer og skabeloner</option><option value="demo">Kun demoer</option><option value="template">Kun skabeloner</option></select><select data-library-grade><option value="all">Alle klassetrin</option></select><button data-library-local>Åbn forløb fra disk…</button>';
@@ -31142,9 +31142,17 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const relationDataset=await findPlanLinksDataset(app,widget,calendarDataset),rows=relationDataset?planLinkRows(relationDataset).filter(row=>String(planLinkSourceDatasetId(row))===String(calendarDataset.id)):[],byEvent=new Map();for(const row of rows){const key=planLinkEventKey(row);if(!key)continue;if(!byEvent.has(key))byEvent.set(key,[]);byEvent.get(key).push(row);}const linked=events.map(event=>{const rowsForEvent=(byEvent.get(eventIdentity(event))||[]).slice().sort((a,b)=>Number(b.primary)-Number(a.primary)||Number(a.planPoint?.order||0)-Number(b.planPoint?.order||0)),subjectBinding=calendarSubjectGroupBinding(event,relationDataset,calendarDataset),groupBinding=calendarGroupSetBinding(event,relationDataset,calendarDataset,rowsForEvent),relationPatch={...(subjectBinding?{_subjectGroupId:asText(subjectBinding.subjectGroupId),_subjectGroupBinding:subjectBinding}:{}),...(groupBinding?{_groupSetId:asText(groupBinding.groupSetId),_groupSetBinding:groupBinding}:{})};if(!rowsForEvent.length)return {...event,...relationPatch};const primary=rowsForEvent.find(row=>row.primary)||rowsForEvent[0],target=primary.target||{};return {...event,...relationPatch,_planLinks:rowsForEvent,boardId:asText(target.boardId)||event.boardId,sessionId:asText(target.sessionId)||event.sessionId};});return {events:linked,dataset:relationDataset,linkCount:rows.length,planPointCount:new Set(rows.map(row=>row.planPoint?.id).filter(Boolean)).size,subjectGroupBindingCount:calendarSubjectGroupBindings(relationDataset).length,groupSetBindingCount:calendarGroupSetBindings(relationDataset).length};
   }
 
-  async function openPlanLinkTarget(app,row){const target=row?.target||row||{},boardId=asText(target.boardId),sessionId=asText(target.sessionId);if(boardId){const board=await app.boardManager.get(boardId);if(board){app.modalManager.closeAll();if(String(board.sessionId)!==String(TN.runtime.activeSession?.id))await app.loadSession(board.sessionId,board.id);else await app.loadBoard(board);return true;}}if(sessionId&&await app.sessionManager.get(sessionId)){app.modalManager.closeAll();await app.loadSession(sessionId);return true;}app.toast('Den koblede tavle eller session findes ikke længere');return false;}
+  async function restoreCalendarReturnViewBeforeNavigation(app,sourceWidget){
+    if(!sourceWidget||sourceWidget.type!=='calendar'||!sourceWidget.content)return;
+    const returnView=asText(sourceWidget.content.returnView||sourceWidget.content._returnView),returnDate=asText(sourceWidget.content.returnDate||sourceWidget.content._returnDate);
+    if(!returnView)return;
+    sourceWidget.content={...(sourceWidget.content||{}),view:returnView,date:returnDate||sourceWidget.content.date};
+    delete sourceWidget.content.returnView;delete sourceWidget.content.returnDate;delete sourceWidget.content._returnView;delete sourceWidget.content._returnDate;
+    try{await app.widgetManager.update(sourceWidget,{immediate:true});}catch(error){console.warn('Kalenderens oprindelige visning kunne ikke gendannes før navigation',error);}
+  }
+  async function openPlanLinkTarget(app,row,sourceWidget=null){await restoreCalendarReturnViewBeforeNavigation(app,sourceWidget);const target=row?.target||row||{},boardId=asText(target.boardId),sessionId=asText(target.sessionId);if(boardId){const board=await app.boardManager.get(boardId);if(board){app.modalManager.closeAll();if(String(board.sessionId)!==String(TN.runtime.activeSession?.id))await app.loadSession(board.sessionId,board.id);else await app.loadBoard(board);return true;}}if(sessionId&&await app.sessionManager.get(sessionId)){app.modalManager.closeAll();await app.loadSession(sessionId);return true;}app.toast('Den koblede tavle eller session findes ikke længere');return false;}
 
-  async function showCalendarPlanTargets(app,event){const rows=planLinkTargets(event);if(!rows.length)return openPlanLinkTarget(app,event);if(rows.length===1)return openPlanLinkTarget(app,rows[0]);const context=await calendarLinkContext(app),body=document.createElement('div');body.className='tn-calendar-plan-targets';for(const row of rows){const board=context.boardById.get(String(row.target?.boardId||'')),session=context.sessionById.get(String(row.target?.sessionId||board?.sessionId||'')),button=document.createElement('button');button.type='button';button.innerHTML=`<b>${escape(board?.title||row.planPoint?.title||'Tavle')}</b><span>${escape(session?.title||'Session')}</span>`;button.onclick=()=>openPlanLinkTarget(app,row);body.append(button);}app.modalManager.open({title:`Tavler til ${event.summary}`,body,className:'tn-calendar-plan-targets-modal',actions:[{label:'Luk',run:()=>{}}]});return true;}
+  async function showCalendarPlanTargets(app,event,sourceWidget=null){const rows=planLinkTargets(event);if(!rows.length)return openPlanLinkTarget(app,event,sourceWidget);if(rows.length===1)return openPlanLinkTarget(app,rows[0],sourceWidget);const context=await calendarLinkContext(app),body=document.createElement('div');body.className='tn-calendar-plan-targets';for(const row of rows){const board=context.boardById.get(String(row.target?.boardId||'')),session=context.sessionById.get(String(row.target?.sessionId||board?.sessionId||'')),button=document.createElement('button');button.type='button';button.innerHTML=`<b>${escape(board?.title||row.planPoint?.title||'Tavle')}</b><span>${escape(session?.title||'Session')}</span>`;button.onclick=()=>openPlanLinkTarget(app,row,sourceWidget);body.append(button);}app.modalManager.open({title:`Tavler til ${event.summary}`,body,className:'tn-calendar-plan-targets-modal',actions:[{label:'Luk',run:()=>{}}]});return true;}
 
   async function saveManualPlanLink(app,widget,calendarDataset,event,targetSelection){
     const eventKey=eventIdentity(event),existingDataset=await findPlanLinksDataset(app,widget,calendarDataset);if(!targetSelection?.kind&&!existingDataset)return null;const relationDataset=existingDataset||await ensurePlanLinksDataset(app,widget,calendarDataset),rows=planLinkRows(relationDataset),eventRows=rows.filter(row=>String(planLinkSourceDatasetId(row))===String(calendarDataset.id)&&planLinkEventKey(row)===eventKey),otherRows=rows.filter(row=>!(String(planLinkSourceDatasetId(row))===String(calendarDataset.id)&&planLinkEventKey(row)===eventKey));
@@ -31270,7 +31278,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const options=[{value:'',label:'Ingen kobling'}];for(const session of sessions){const score=suggested.get(`session:${session.id}`);options.push({value:`session:${session.id}`,label:`${score?'★ ':''}Session · ${session.title||session.name||'Uden titel'}`});const sessionBoards=boards.filter(board=>String(board.sessionId)===String(session.id)).sort((a,b)=>String(a.title||'').localeCompare(String(b.title||''),'da'));for(const board of sessionBoards){const boardScore=suggested.get(`board:${board.id}`);options.push({value:`board:${board.id}:${session.id}`,label:`${boardScore?'★ ':''}Tavle · ${session.title||session.name||'Session'} › ${board.title||'Uden titel'}`});}}
     select.replaceChildren(...options.map(option=>{const el=document.createElement('option');el.value=option.value;el.textContent=option.label;return el;}));select.value=boardId?`board:${boardId}:${sessionId}`:sessionId?`session:${sessionId}`:'';
   }
-  async function openCalendarTarget(app,event){const links=planLinkTargets(event);if(links.length)return showCalendarPlanTargets(app,event);return openPlanLinkTarget(app,event);}
+  async function openCalendarTarget(app,event,sourceWidget=null){const links=planLinkTargets(event);if(links.length)return showCalendarPlanTargets(app,event,sourceWidget);return openPlanLinkTarget(app,event,sourceWidget);}
 
   async function autoLinkCalendarEvents(app,dataset,events){
     let changed=false;for(const event of events){if(event.boardId||event.sessionId)continue;const suggestions=await calendarTargetSuggestions(app,event),best=suggestions[0],next=suggestions[1],threshold=best?.kind==='board'?13:11;if(!best||best.score<threshold||(next&&best.score-next.score<3))continue;if(best.kind==='board'){event.boardId=best.item.id;event.sessionId=best.item.sessionId;}else event.sessionId=best.item.id;event.linkedBy='auto';event.linkedAt=new Date().toISOString();event.linkScore=String(best.score);changed=true;}
@@ -31313,7 +31321,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 
   async function editCalendarEvent(app,widget,{event=null,date=null}={}){
     const dataset=await ensureWidgetDataset(app,widget),rawEvents=datasetEvents(dataset),enriched=(await applyPlanLinksToEvents(app,widget,dataset,rawEvents)).events,original=event?enriched.find(item=>eventIdentity(item)===eventIdentity(event)):null,sourceOriginal=original?rawEvents.find(item=>eventIdentity(item)===eventIdentity(original)):null,body=eventEditorBody(original,date||widget.content?.date||todayISO()),initialTarget=planTargetSelection(original);await populateCalendarTargetSelect(app,body,original||{start:date||widget.content?.date||todayISO(),summary:''});
-    const actions=[{label:'Annuller',run:()=>{}}];if(original&&planLinkTargets(original).length)actions.push({label:planLinkTargets(original).length>1?`Åbn ${planLinkTargets(original).length} tavler`:'Åbn tavle',run:async()=>{await showCalendarPlanTargets(app,original);return false;}});if(original&&app.subjectGroups)actions.push({label:original._subjectGroupId?'Arbejd med holdet':'Knyt faghold …',run:async()=>{await app.subjectGroups.openForCalendarEvent({widget,event:original,calendarDataset:dataset});return false;}});if(sourceOriginal)actions.push({label:'Slet aktivitet',run:async()=>{if(!confirm(`Slet “${sourceOriginal.summary}”?`))return false;await removePlanLinksForEvent(app,widget,dataset,sourceOriginal);const next=rawEvents.filter(item=>eventIdentity(item)!==eventIdentity(sourceOriginal));writeDatasetEvents(dataset,next);await app.dataManager.update(dataset);app.toast('Aktiviteten er slettet');}});actions.push({label:sourceOriginal?'Gem ændringer':'Tilføj aktivitet',primary:true,run:async()=>{
+    const actions=[{label:'Annuller',run:()=>{}}];if(original&&planLinkTargets(original).length)actions.push({label:planLinkTargets(original).length>1?`Åbn ${planLinkTargets(original).length} tavler`:'Åbn tavle',run:async()=>{await showCalendarPlanTargets(app,original,widget);return false;}});if(original&&app.subjectGroups)actions.push({label:original._subjectGroupId?'Arbejd med holdet':'Knyt faghold …',run:async()=>{await app.subjectGroups.openForCalendarEvent({widget,event:original,calendarDataset:dataset});return false;}});if(sourceOriginal)actions.push({label:'Slet aktivitet',run:async()=>{if(!confirm(`Slet “${sourceOriginal.summary}”?`))return false;await removePlanLinksForEvent(app,widget,dataset,sourceOriginal);const next=rawEvents.filter(item=>eventIdentity(item)!==eventIdentity(sourceOriginal));writeDatasetEvents(dataset,next);await app.dataManager.update(dataset);app.toast('Aktiviteten er slettet');}});actions.push({label:sourceOriginal?'Gem ændringer':'Tilføj aktivitet',primary:true,run:async()=>{
       let nextEvent;try{nextEvent=readEventEditor(body,sourceOriginal||{uid:generatedUid(),sourceName:''});}catch(error){app.toast(error.message);return false;}const targetSelection=nextEvent._targetSelection;
       let choice='single',overwrite=false,changes=[],titleMatches=[],seriesMatches=[],rulesAdded=[];
       if(sourceOriginal){changes=propagationChanges(sourceOriginal,nextEvent);const titleKey=norm(sourceOriginal.summary);titleMatches=rawEvents.filter(item=>norm(item.summary)===titleKey);seriesMatches=asText(sourceOriginal.uid)?rawEvents.filter(item=>asText(item.uid)===asText(sourceOriginal.uid)):[];const canCreateRules=changes.some(item=>CALENDAR_RULE_FIELDS.has(item.field))&&!!titleKey;if(changes.length&&(titleMatches.length>1||seriesMatches.length>1||(canCreateRules&&(dataset.meta?.sourceFormat==='ics'||asText(sourceOriginal.sourceName))))){const selected=await chooseCalendarUpdateScope(app,{title:sourceOriginal.summary,changes,titleMatches,seriesMatches,canCreateRules});choice=selected.choice;overwrite=selected.overwrite;}}
@@ -31421,7 +31429,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     renderToolbar(root,widget,first.toLocaleDateString('da-DK',{month:'long',year:'numeric'}),app);const weekdays=document.createElement('div');weekdays.className=`tn-calendar-weekdays${showWeeks?' with-weeks':''}`;weekdays.innerHTML=`${showWeeks?'<span>Uge</span>':''}${['Man','Tir','Ons','Tor','Fre','Lør','Søn'].map(day=>`<span>${day}</span>`).join('')}`;root.append(weekdays);const grid=document.createElement('div');grid.className=`tn-calendar-month-grid${showWeeks?' with-weeks':''}`;
     for(let row=0;row<6;row++){
       if(showWeeks){const rowDate=new Date(year,month-1,1-offset+row*7,12),week=document.createElement('button');week.className='tn-calendar-week-number';week.textContent=isoWeek(localDateISO(rowDate));week.onclick=()=>{widget.content.date=localDateISO(rowDate);app.setCalendarView(widget,'week');};grid.append(week);}
-      for(let col=0;col<7;col++){const index=row*7+col,raw=index-offset+1,cellDate=new Date(year,month-1,raw,12),key=localDateISO(cellDate),out=cellDate.getMonth()!==month-1,list=byDay.get(key)||[],cell=document.createElement('button');cell.type='button';cell.className=`tn-calendar-month-day${out?' out':''}${key===todayISO()?' today':''}${holidayMap.has(key)?' holiday':''}`;cell.dataset.date=key;cell.innerHTML=`<span class="tn-calendar-day-number">${cellDate.getDate()}</span>${holidayMap.has(key)?`<small class="tn-calendar-holiday">${escape(holidayMap.get(key))}</small>`:''}<span class="tn-calendar-day-events">${list.slice(0,3).map(event=>`<i style="--event-color:${safeColor(event.color)}" title="${escape(event.summary)}">${escape(eventCalendarDisplayTitle(event))}</i>`).join('')}${list.length>3?`<em>+${list.length-3}</em>`:''}</span>`;cell.onclick=()=>{widget.content.date=key;app.setCalendarView(widget,'day');};grid.append(cell);}
+      for(let col=0;col<7;col++){const index=row*7+col,raw=index-offset+1,cellDate=new Date(year,month-1,raw,12),key=localDateISO(cellDate),out=cellDate.getMonth()!==month-1,list=byDay.get(key)||[],cell=document.createElement('button');cell.type='button';cell.className=`tn-calendar-month-day${out?' out':''}${key===todayISO()?' today':''}${holidayMap.has(key)?' holiday':''}`;cell.dataset.date=key;cell.innerHTML=`<span class="tn-calendar-day-number">${cellDate.getDate()}</span>${holidayMap.has(key)?`<small class="tn-calendar-holiday">${escape(holidayMap.get(key))}</small>`:''}<span class="tn-calendar-day-events">${list.slice(0,3).map(event=>`<i style="--event-color:${safeColor(event.color)}" title="${escape(event.summary)}">${escape(eventCalendarDisplayTitle(event))}</i>`).join('')}${list.length>3?`<em>+${list.length-3}</em>`:''}</span>`;cell.onclick=()=>{widget.content={...(widget.content||{}),returnView:widget.content?.view||'month',returnDate:widget.content?.date||localDateISO(first),date:key};app.setCalendarView(widget,'day');};grid.append(cell);}
     }
     root.append(grid);
   }
@@ -31430,10 +31438,10 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const raw=String(value??'').trim();if(!raw)return'';if(!/[<&]/.test(raw))return raw;const prepared=raw.replace(/<\s*br\s*\/?>/gi,'\n').replace(/<\s*li\b[^>]*>/gi,'• ').replace(/<\s*td\b[^>]*>/gi,' ').replace(/<\/\s*(p|div|li|tr|h[1-6])\s*>/gi,'\n');const template=document.createElement('template');template.innerHTML=prepared;template.content.querySelectorAll('script,style,noscript').forEach(node=>node.remove());return (template.content.textContent||'').replace(/\u00a0/g,' ').replace(/[ \t]+\n/g,'\n').replace(/\n[ \t]+/g,'\n').replace(/\n{3,}/g,'\n\n').trim();
   }
   function eventUrls(event){const found=[],seen=new Set(),add=value=>{const raw=typeof value==='string'?value:value?.url,url=asText(raw).replace(/[),.;]+$/,'');if(!/^https?:\/\//i.test(url)||seen.has(url))return;seen.add(url);found.push(url);};add(event.url);for(const item of event.links||[])add(item);for(const text of [event.location,event.description])for(const match of String(text||'').match(/https?:\/\/[^\s<>"']+/gi)||[])add(match);return found;}
-  function eventCard(event,{compact=false,app=null}={}){const card=document.createElement('article'),description=calendarDescriptionText(event.description),targets=planLinkTargets(event),planTitle=eventPlanTitle(event),displayTitle=planTitle||event.summary,context=[planTitle&&norm(planTitle)!==norm(event.summary)?event.summary:'',event.subject,event.className,event.team,event.teacher,event.type,event.category,event.location,event.status].filter(Boolean);card.className=`tn-calendar-event-card-v2${compact?' compact':''}${norm(event.status)==='aflyst'?' cancelled':''}`;card.style.setProperty('--event-color',safeColor(event.color));card.innerHTML=`<div class="tn-calendar-event-time-v2">${escape(eventTimeLabel(event))}</div><div class="tn-calendar-event-main-v2"><b>${escape(displayTitle)}</b><small>${escape(context.join(' · '))}</small>${!compact&&description?`<p>${escape(description)}</p>`:''}</div>`;const urls=eventUrls(event);if(app&&(urls.length||targets.length||event.boardId||event.sessionId||event._subjectGroupId)){const actions=document.createElement('div');actions.className='tn-calendar-event-inline-actions';for(const [index,url] of urls.entries()){const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=urls.length===1?'Åbn link':`Åbn link ${index+1}`;link.onclick=click=>click.stopPropagation();actions.append(link);}if(targets.length||event.boardId||event.sessionId){const button=document.createElement('button');button.type='button';button.textContent=targets.length>1?`Åbn tavler · ${targets.length}`:(event.boardId||targets[0]?.target?.boardId?'Åbn tavle':'Åbn session');button.onclick=click=>{click.preventDefault();click.stopPropagation();openCalendarTarget(app,event).catch(console.error);};actions.append(button);}if(event._subjectGroupId&&app.subjectGroups){const button=document.createElement('button');button.type='button';button.className='tn-calendar-subject-group-button';button.textContent='Arbejd med holdet';button.onclick=click=>{click.preventDefault();click.stopPropagation();app.subjectGroups.openWorkPanel({subjectGroupId:event._subjectGroupId,event}).catch(error=>app.toast(error?.message||'Fagholdet kunne ikke åbnes'));};actions.append(button);}card.append(actions);}return card;}  function currentOrNext(events,date){if(date!==todayISO())return events[0]||null;const now=Date.now();return events.find(event=>{const end=new Date(event.end||event.start).valueOf();return !Number.isNaN(end)&&end>=now;})||events.at(-1)||null;}
+  function eventCard(event,{compact=false,app=null,calendarWidget=null}={}){const card=document.createElement('article'),description=calendarDescriptionText(event.description),targets=planLinkTargets(event),planTitle=eventPlanTitle(event),displayTitle=planTitle||event.summary,context=[planTitle&&norm(planTitle)!==norm(event.summary)?event.summary:'',event.subject,event.className,event.team,event.teacher,event.type,event.category,event.location,event.status].filter(Boolean);card.className=`tn-calendar-event-card-v2${compact?' compact':''}${norm(event.status)==='aflyst'?' cancelled':''}`;card.style.setProperty('--event-color',safeColor(event.color));card.innerHTML=`<div class="tn-calendar-event-time-v2">${escape(eventTimeLabel(event))}</div><div class="tn-calendar-event-main-v2"><b>${escape(displayTitle)}</b><small>${escape(context.join(' · '))}</small>${!compact&&description?`<p>${escape(description)}</p>`:''}</div>`;const urls=eventUrls(event);if(app&&(urls.length||targets.length||event.boardId||event.sessionId||event._subjectGroupId)){const actions=document.createElement('div');actions.className='tn-calendar-event-inline-actions';for(const [index,url] of urls.entries()){const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.textContent=urls.length===1?'Åbn link':`Åbn link ${index+1}`;link.onclick=click=>click.stopPropagation();actions.append(link);}if(targets.length||event.boardId||event.sessionId){const button=document.createElement('button');button.type='button';button.textContent=targets.length>1?`Åbn tavler · ${targets.length}`:(event.boardId||targets[0]?.target?.boardId?'Åbn tavle':'Åbn session');button.onclick=click=>{click.preventDefault();click.stopPropagation();openCalendarTarget(app,event,calendarWidget).catch(console.error);};actions.append(button);}if(event._subjectGroupId&&app.subjectGroups){const button=document.createElement('button');button.type='button';button.className='tn-calendar-subject-group-button';button.textContent='Arbejd med holdet';button.onclick=click=>{click.preventDefault();click.stopPropagation();app.subjectGroups.openWorkPanel({subjectGroupId:event._subjectGroupId,event}).catch(error=>app.toast(error?.message||'Fagholdet kunne ikke åbnes'));};actions.append(button);}card.append(actions);}return card;}  function currentOrNext(events,date){if(date!==todayISO())return events[0]||null;const now=Date.now();return events.find(event=>{const end=new Date(event.end||event.start).valueOf();return !Number.isNaN(end)&&end>=now;})||events.at(-1)||null;}
   function renderDay(root,widget,events,app){
     const date=String(widget.content?.date||todayISO()).slice(0,10);renderToolbar(root,widget,formatDate(date),app);const list=document.createElement('div');list.className='tn-calendar-day-list-v2';const dayEvents=events.filter(event=>eventDate(event)===date).sort(compareEvents),highlight=currentOrNext(dayEvents,date);if(widget.content?.showHolidays!==false){const holiday=danishHolidays(Number(date.slice(0,4))).find(item=>item.date===date);if(holiday){const note=document.createElement('div');note.className='tn-calendar-holiday-note';note.textContent=holiday.title;list.append(note);}}
-    if(!dayEvents.length){const empty=document.createElement('button');empty.className='tn-calendar-empty-day';empty.innerHTML='<b>Ingen aktiviteter denne dag</b><span>Tryk for at tilføje en aktivitet.</span>';empty.onclick=()=>editCalendarEvent(app,widget,{date});list.append(empty);}else for(const event of dayEvents){const card=eventCard(event,{app});if(eventIdentity(event)===eventIdentity(highlight))card.classList.add('current-next');card.tabIndex=0;card.onclick=()=>editCalendarEvent(app,widget,{event});list.append(card);}root.append(list);
+    if(!dayEvents.length){const empty=document.createElement('button');empty.className='tn-calendar-empty-day';empty.innerHTML='<b>Ingen aktiviteter denne dag</b><span>Tryk for at tilføje en aktivitet.</span>';empty.onclick=()=>editCalendarEvent(app,widget,{date});list.append(empty);}else for(const event of dayEvents){const card=eventCard(event,{app,calendarWidget:widget});if(eventIdentity(event)===eventIdentity(highlight))card.classList.add('current-next');card.tabIndex=0;card.onclick=()=>editCalendarEvent(app,widget,{event});list.append(card);}root.append(list);
   }
 
   function layoutWeekEvents(dayEvents){
@@ -31442,13 +31450,13 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   }
   function renderWeek(root,widget,events,app){
     const weekStart=startOfWeek(widget.content?.date||todayISO()),weekEnd=endOfWeek(weekStart),label=`Uge ${isoWeek(weekStart)} · ${formatDate(weekStart,{day:'numeric',month:'short'})}–${formatDate(weekEnd,{day:'numeric',month:'short',year:'numeric'})}`;renderToolbar(root,widget,label,app);const shell=document.createElement('div');shell.className='tn-calendar-week-shell';const days=Array.from({length:7},(_,index)=>addDays(weekStart,index));
-    const sticky=document.createElement('div');sticky.className='tn-calendar-week-sticky';const header=document.createElement('div');header.className='tn-calendar-week-header';header.innerHTML='<span></span>'+days.map(date=>`<button data-date="${date}" class="${date===todayISO()?'today':''}"><b>${formatDate(date,{weekday:'short'})}</b><small>${formatDate(date,{day:'numeric',month:'short'})}</small></button>`).join('');for(const button of header.querySelectorAll('button'))button.onclick=()=>{widget.content.date=button.dataset.date;app.setCalendarView(widget,'day');};sticky.append(header);
+    const sticky=document.createElement('div');sticky.className='tn-calendar-week-sticky';const header=document.createElement('div');header.className='tn-calendar-week-header';header.innerHTML='<span></span>'+days.map(date=>`<button data-date="${date}" class="${date===todayISO()?'today':''}"><b>${formatDate(date,{weekday:'short'})}</b><small>${formatDate(date,{day:'numeric',month:'short'})}</small></button>`).join('');for(const button of header.querySelectorAll('button'))button.onclick=()=>{widget.content={...(widget.content||{}),returnView:widget.content?.view||'week',returnDate:widget.content?.date||weekStart,date:button.dataset.date};app.setCalendarView(widget,'day');};sticky.append(header);
     const allDay=document.createElement('div');allDay.className='tn-calendar-week-allday';allDay.innerHTML='<span>Hele dagen</span>';for(const date of days){const cell=document.createElement('div');for(const event of events.filter(item=>eventDate(item)===date&&isCalendarAllDay(item))){const button=document.createElement('button');button.textContent=eventCalendarDisplayTitle(event);button.title=event.summary;button.style.setProperty('--event-color',safeColor(event.color));button.onclick=()=>editCalendarEvent(app,widget,{event});cell.append(button);}allDay.append(cell);}sticky.append(allDay);shell.append(sticky);
     const grid=document.createElement('div');grid.className='tn-calendar-week-grid';const hours=document.createElement('div');hours.className='tn-calendar-week-hours';for(let hour=6;hour<=22;hour++){const span=document.createElement('span');span.style.top=`${((hour-6)/16)*100}%`;span.textContent=`${pad(hour)}:00`;hours.append(span);}grid.append(hours);
     for(const date of days){const column=document.createElement('div');column.className='tn-calendar-week-column';for(let hour=6;hour<=22;hour++){const line=document.createElement('i');line.style.top=`${((hour-6)/16)*100}%`;column.append(line);}for(const item of layoutWeekEvents(events.filter(event=>eventDate(event)===date))){const top=Math.max(0,Math.min(100,((item.startMin-360)/960)*100)),height=Math.max(2,Math.min(100-top,((item.endMin-item.startMin)/960)*100)),button=document.createElement('button');button.className='tn-calendar-week-event';button.style.cssText=`--event-color:${safeColor(item.event.color)};top:${top}%;height:${height}%;left:${(item.column/item.columns)*100}%;width:${100/item.columns}%;`;button.innerHTML=`<b>${escape(eventCalendarDisplayTitle(item.event))}</b><small>${escape(eventTimeLabel(item.event))}${eventPlanTitle(item.event)&&norm(eventPlanTitle(item.event))!==norm(item.event.summary)?` · ${escape(item.event.summary)}`:''}</small>`;button.onclick=()=>editCalendarEvent(app,widget,{event:item.event});column.append(button);}grid.append(column);}shell.append(grid);root.append(shell);
   }
   function renderList(root,widget,events,app){
-    const date=dateAtNoon(widget.content?.date||todayISO()),year=date.getFullYear(),month=date.getMonth()+1,prefix=`${year}-${pad(month)}-`;renderToolbar(root,widget,date.toLocaleDateString('da-DK',{month:'long',year:'numeric'}),app);const list=document.createElement('div');list.className='tn-calendar-list-v2';let shown=events.filter(event=>eventDate(event).startsWith(prefix)).sort(compareEvents);if(!shown.length){list.innerHTML='<div class="tn-empty-state">Ingen aktiviteter i denne måned.</div>';root.append(list);return;}let last='';for(const event of shown.slice(0,600)){const dateKey=eventDate(event);if(dateKey!==last){last=dateKey;const heading=document.createElement('h3');heading.textContent=formatDate(dateKey,{weekday:'long',day:'numeric',month:'long'});list.append(heading);}const card=eventCard(event,{compact:true,app});card.onclick=()=>editCalendarEvent(app,widget,{event});list.append(card);}if(shown.length>600){const note=document.createElement('div');note.className='tn-calendar-list-limit';note.textContent=`Viser de første 600 af ${shown.length} aktiviteter. Brug filtre for et mindre udsnit.`;list.append(note);}root.append(list);
+    const date=dateAtNoon(widget.content?.date||todayISO()),year=date.getFullYear(),month=date.getMonth()+1,prefix=`${year}-${pad(month)}-`;renderToolbar(root,widget,date.toLocaleDateString('da-DK',{month:'long',year:'numeric'}),app);const list=document.createElement('div');list.className='tn-calendar-list-v2';let shown=events.filter(event=>eventDate(event).startsWith(prefix)).sort(compareEvents);if(!shown.length){list.innerHTML='<div class="tn-empty-state">Ingen aktiviteter i denne måned.</div>';root.append(list);return;}let last='';for(const event of shown.slice(0,600)){const dateKey=eventDate(event);if(dateKey!==last){last=dateKey;const heading=document.createElement('h3');heading.textContent=formatDate(dateKey,{weekday:'long',day:'numeric',month:'long'});list.append(heading);}const card=eventCard(event,{compact:true,app,calendarWidget:widget});card.onclick=()=>editCalendarEvent(app,widget,{event});list.append(card);}if(shown.length>600){const note=document.createElement('div');note.className='tn-calendar-list-limit';note.textContent=`Viser de første 600 af ${shown.length} aktiviteter. Brug filtre for et mindre udsnit.`;list.append(note);}root.append(list);
   }
 
   function renderEmptyCalendar(body,widget,app){const root=document.createElement('div');root.className='tn-calendar-empty-v2';root.innerHTML='<div class="tn-calendar-empty-icon">📅</div><h3>Hvad skal kalenderen vise?</h3><p>Aktiviteterne gemmes som kalenderdata. Widgetten gemmer kun visning, dato og filtre.</p>';const choices=sourceChoiceBody(app,widget);root.append(...choices.children);root.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(!button)return;const action=button.dataset.action;if(action==='ics')pickFiles(app,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(app,files,{widgetId:widget.id})});if(action==='existing')chooseExistingDataset(app,widget);if(action==='empty')createEmptyCalendar(app,widget);if(action==='table')importTableAsCalendar(app,widget);});body.append(root);}
@@ -37492,5 +37500,177 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   document.title='Plan v1.1.3';
 })(window.TavleNext);
 </script>
+
+<!-- Plan OWNER SAFE: Hjælp · navigation, sessionsgenveje og demo/skabelon-sprog -->
+<script id="plan-help-navigation-templates-owner-safe">
+(function(TN){
+  'use strict';
+  const App=TN&&TN.TavleNextApp;
+  if(!App)return;
+  function setHelp(app,id,title,subtitle,body,keywords=''){
+    const registry=app&&app.helpRegistry;
+    if(!registry||!Array.isArray(registry.entries))return null;
+    let entry=registry.entries.find(item=>item&&item.id===id);
+    if(entry)Object.assign(entry,{id,title,subtitle,body,keywords});
+    else{
+      entry={id,title,subtitle,body,keywords};
+      if(typeof registry.register==='function')registry.register(entry);else registry.entries.push(entry);
+      entry=registry.entries.find(item=>item&&item.id===id)||entry;
+    }
+    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
+    return entry;
+  }
+  function orderHelp(app){
+    const entries=app&&app.helpRegistry&&app.helpRegistry.entries;
+    if(!Array.isArray(entries))return;
+    const wanted=['overview','startup','library','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
+    const order=new Map(wanted.map((id,index)=>[id,index]));
+    entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
+  }
+  function applyHelp(app){
+    if(!app||!app.helpRegistry)return;
+    setHelp(app,'course-navigation','Skift mellem forløb, sessioner og tavler','Brug de store lag i Plan uden at miste overblikket',`
+      <p>Plan har tre niveauer: <b>undervisningsforløb</b>, <b>sessioner</b> og <b>tavler</b>. Forløbet er hele pakken, sessioner er perioder eller emner, og tavlerne er de konkrete arbejdsflader.</p>
+      <ol class="tn-help-plain-steps">
+        <li><b>Skift tavle</b> med pileknapperne øverst eller <b>← / →</b>.</li>
+        <li><b>Skift session</b> med forløbsnavnet øverst til venstre eller med <b>Shift+← / Shift+→</b>.</li>
+        <li><b>Åbn en bestemt tavle</b> fra Tavleindeks, kalenderens Åbn tavle eller Tavleoversigten.</li>
+        <li><b>Brug kalenderen</b>, når du tænker i datoer og undervisningsgange.</li>
+        <li><b>Brug sessionslisten</b>, når du tænker i emner, perioder eller dele af årsplanen.</li>
+      </ol>
+      <p>Almindelige pile skifter altså tavler. Shift+piletaster skifter sessioner. På den måde kan du bevæge dig hurtigt uden at blande de to ting sammen.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="boards">Tavler</button><button data-help-jump="calendar">Kalender</button><button data-help-jump="shortcuts">Genveje</button></div>`,'sessioner forløb tavler navigation shift pil piletaster');
+
+    setHelp(app,'library','Bibliotek, demoforløb og skabeloner','Færdige startpunkter, som altid bliver lokale kopier',`
+      <p>Åbn <b>Hent demoforløb</b> fra opstarten eller <b>Datacenter → Bibliotek</b>. Biblioteket viser forløb, der kan bruges som startpunkt. Der ændres ikke i dit nuværende arbejde, før du selv vælger en pakke.</p>
+      <div class="tn-help-check"><b>Ord i biblioteket:</b> Et <b>demoforløb</b> er et færdigt eksempel med indhold, som viser en mulig arbejdsgang. En <b>skabelon</b> er et startpunkt, der typisk er mere tomt og venter på dine egne titler, datoer, elever eller materialer. I Plan oprettes begge som en selvstændig lokal kopi.</div>
+      <ol class="tn-help-plain-steps">
+        <li>Filtrér efter fag, klassetrin eller søg efter emne.</li>
+        <li>Vælg <b>Se og brug</b> for at hente netop den pakke.</li>
+        <li>Brug kopien som den er, eller ret titler, tavler, datoer og materialer.</li>
+        <li>Et demoforløb kan godt bruges som skabelon: behold strukturen, og udskift det indhold, der ikke passer.</li>
+        <li>Et materialefrit forløb kan have pladsholdere. Tilføj materialerne manuelt lokalt, når du skal bruge dem.</li>
+      </ol>
+      <p>På længere sigt giver det mening at have rigtige tomme skabeloner ved siden af demoforløb: for eksempel tomt årsforløb, tom materialebank, tomt KaPardy-spil, tom elevdata-arbejdsgang og tom prøveforberedelse.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="course-backup">Årsforløbspakker</button></div>`,'bibliotek demo demoforløb skabelon skabeloner lokal kopi materialefrit');
+
+    setHelp(app,'boards','Tavler og navigation','Opret, fortsæt, duplikér og flyt tavler',`
+      <p>Tavlerne er arbejdsfladerne i en session. Tavletallet øverst viser din placering og åbner Tavleoversigten.</p>
+      <ul class="tn-help-list">
+        <li><b>← / →</b> skifter tavle, når en åben visning ikke selv bruger tasterne.</li>
+        <li><b>Shift+← / Shift+→</b> skifter til forrige eller næste session i samme undervisningsforløb.</li>
+        <li><b>Q, Å eller Shift+T</b> åbner Tavleoversigten.</li>
+        <li><b>N</b> opretter en tom tavle direkte efter den aktive tavle.</li>
+        <li><b>Shift+D</b> duplikerer den aktive tavle og placerer kopien lige efter originalen.</li>
+        <li>Er den aktive tavle knyttet til en kalenderaktivitet, følger den nye eller duplikerede tavle automatisk samme aktivitet og placeres efter den aktive i tavleforløbet.</li>
+        <li>Du kan flytte tavler i Tavleoversigten med Cmd/Ctrl + pil.</li>
+      </ul>
+      <p><b>Ny tavle</b> kopierer udseende og grundindstillinger, men starter uden widgets. <b>Duplikér tavle</b> kopierer også indholdet.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="course-navigation">Forløb og sessioner</button><button data-help-jump="calendar">Kalender</button><button data-help-jump="widgets">Widgets</button></div>`,'tavler navigation sessioner piletaster ny tavle dupliker');
+
+    setHelp(app,'windows','Vinduer, minimering og stor visning','Få ro på tavlen uden at miste indhold',`
+      <ul class="tn-help-list">
+        <li><b>M</b> minimerer den valgte widget. Tryk igen for at hente den senest minimerede tilbage.</li>
+        <li><b>Shift+M</b> maksimerer eller gendanner den valgte widget.</li>
+        <li>I maksimeret visning bladrer <b>↑ / ↓</b> mellem tavlens synlige widgets. Det fungerer som en lightbox uden at du først skal oprette en matrix.</li>
+        <li>Når den maksimerede widget er en PDF, bruger PDF’en stadig <b>← / →</b> til sidebladring. <b>↑ / ↓</b> skifter fortsat mellem widgets.</li>
+        <li><b>Esc</b>, et klik på topbjælken eller et klik på fri tavleplads lukker stor visning.</li>
+        <li><b>G</b> åbner Vindueslayout. Vælg med pilene eller 1–7 og bekræft med Enter.</li>
+        <li><b>Shift+R</b> gendanner tavlens tidligere layout.</li>
+        <li><b>Vinduer</b> i værktøjslinjen viser minimerede vinduer i den aktuelle session.</li>
+      </ul>
+      <p>Brug maksimeret visning, når du hurtigt vil gennemse mange materialer på samme tavle. Brug en matrix, når du vil lave en egentlig samling med egen oversigt.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="zoom-focus">Vis tydeligt</button><button data-help-jump="shortcuts">Genveje</button><button data-help-jump="rescue-recipe">Red et layout</button></div>`,'vinduer maksimer lightbox PDF piletaster layout minimér');
+
+    setHelp(app,'zoom-focus','Vis tydeligt på skærmen','Fokus, præsentation, zoom, fuld skærm og stor visning',`
+      <ol class="tn-help-plain-steps">
+        <li>Vælg den widget, eleverne skal se.</li>
+        <li>Brug <b>Fokusér</b> eller F for at fremhæve den uden at ændre tavlens opstilling.</li>
+        <li>Brug <b>Shift+M</b> for at åbne widgetten stort.</li>
+        <li>I stor visning kan du bruge <b>↑ / ↓</b> til at bladre videre til næste eller forrige widget på tavlen.</li>
+        <li>Brug <b>Præsentér</b> eller P/R for at skjule redigeringsgreb.</li>
+        <li>Brug zoomknapperne eller knib med to fingre for at tilpasse hele tavlen.</li>
+        <li>Brug <b>Shift+Enter</b> til fuld skærm.</li>
+      </ol>
+      <p>På iPad og Mac bruger Plan browserens fuldskærm, når den er tilgængelig. Ellers kan Plan bruge hele browserområdet. Menusystem, modaler og PDF-betjening forbliver tilgængelige.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="windows">Vinduer</button><button data-help-jump="pdf">PDF</button><button data-help-jump="shortcuts">Genveje</button></div>`,'fokus præsentation zoom fuld skærm maksimer lightbox');
+
+    setHelp(app,'selection','Valg, fokus og tastaturejerskab','Hvad piletasterne gør i de forskellige situationer',`
+      <ul class="tn-help-list">
+        <li><b>↑ / ↓</b> vælger forrige eller næste synlige widget på tavlen.</li>
+        <li><b>← / →</b> skifter tavle, når ingen åben visning selv bruger tasterne.</li>
+        <li><b>Shift+← / Shift+→</b> skifter session i samme undervisningsforløb.</li>
+        <li><b>Enter</b> går ind i den valgte widget. <b>Esc</b> går ét niveau tilbage eller slipper widgetten.</li>
+        <li><b>F</b> fokuserer den valgte widget. <b>M</b> minimerer, og <b>Shift+M</b> maksimerer.</li>
+        <li>I stor visning bruger <b>↑ / ↓</b> næste/forrige widget. PDF beholder <b>← / →</b> til sider.</li>
+      </ul>
+      <p>Hovedreglen er: vandrette pile flytter dig i tavle- eller PDF-retning, mens lodrette pile vælger eller bladrer mellem widgets. Shift gør vandrette pile til sessionsskift.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="shortcuts">Genvejskort</button><button data-help-jump="windows">Stor visning</button><button data-help-jump="pdf">PDF</button></div>`,'valg fokus piletaster tastaturejerskab sessioner');
+
+    setHelp(app,'shortcuts','Genvejskort — hurtigt overblik','De vigtigste tastaturgenveje',`
+      <div class="tn-help-key-grid">
+        <div><b>Visning</b><span><b>P/R</b> præsentation · <b>F</b> fokus · <b>Shift+Enter</b> fuld skærm · <b>Esc</b> tilbage</span></div>
+        <div><b>Kalender</b><span><b>K</b> åbner eller lukker kalenderen fra enhver tavle</span></div>
+        <div><b>Sessioner</b><span><b>Shift+← / Shift+→</b> forrige/næste session i samme undervisningsforløb</span></div>
+        <div><b>Tavler</b><span><b>← / →</b> skift tavle · <b>Q/Å/Shift+T</b> oversigt · <b>N</b> ny · <b>Shift+D</b> duplikér</span></div>
+        <div><b>Stor widget</b><span><b>Shift+M</b> maksimer · <b>↑ / ↓</b> næste/forrige widget · <b>Esc</b> luk</span></div>
+        <div><b>PDF i stor visning</b><span><b>← / →</b> blad sider · <b>↑ / ↓</b> skift widget</span></div>
+        <div><b>Widgets</b><span><b>↑ / ↓</b> eller <b>Tab</b> vælg · <b>M</b> minimér · <b>Delete</b> Papirkurv</span></div>
+        <div><b>Vinduer</b><span><b>G</b> layout · <b>1–7</b> vælg · <b>Shift+R</b> gendan</span></div>
+        <div><b>Indhold</b><span><b>Shift+A</b> tekst · <b>Shift+I</b> billede · <b>Shift+L</b> link · <b>Shift+Q</b> KaPardy</span></div>
+        <div><b>Værktøjer</b><span><b>Shift+W</b> Lykkehjul · <b>Shift+S</b> Ordsky · <b>D</b> Datacenter</span></div>
+        <div><b>Udseende</b><span><b>Shift+B</b> baggrund · <b>Shift+G</b> grid · <b>Shift+O</b> Redningsbælte</span></div>
+        <div><b>I Hjælp</b><span><b>→ / ←</b> skift afsnit · <b>↑ / ↓</b> rul · <b>Enter</b> åbn/luk · <b>B</b> tema · <b>Esc</b> luk</span></div>
+      </div>
+      <details class="tn-help-shortcut-details"><summary>Vis alle registrerede tastaturgenveje</summary><div id="tnShortcutHelp"></div></details>`,'genveje tastatur shift piletaster sessioner tavler PDF lightbox');
+
+    const startup=app.helpRegistry.entries.find(item=>item.id==='startup');
+    if(startup&&String(startup.body||'').includes('Hent demoforløb')&&!String(startup.body||'').includes('Bibliotekets pakker bliver lokale kopier')){
+      startup.body += `<div class="tn-help-check"><b>Bibliotekets pakker bliver lokale kopier.</b> Brug dem som færdige eksempler eller som skabeloner, du tilpasser. Dit eksisterende arbejde blandes ikke sammen med pakken.</div>`;
+      try{TN.registry&&TN.registry.help&&TN.registry.help.set('startup',startup);}catch(_){ }
+    }
+    orderHelp(app);
+  }
+
+  if(typeof App.prototype.registerHelp==='function'&&!App.prototype.registerHelp.__planHelpNavigationTemplates){
+    const previous=App.prototype.registerHelp;
+    const wrapped=function(...args){const result=previous.apply(this,args);applyHelp(this);return result;};
+    wrapped.__planHelpNavigationTemplates=true;
+    App.prototype.registerHelp=wrapped;
+  }
+
+  if(typeof App.prototype.showHelp==='function'&&!App.prototype.showHelp.__planHelpNavigationTemplates){
+    const previous=App.prototype.showHelp;
+    const wrapped=function(...args){
+      applyHelp(this);
+      const result=previous.apply(this,args);
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{
+        const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
+        if(!root)return;
+        const keyHint=root.querySelector('.tn-help-key-hint');
+        if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> K åbner kalenderen. Shift+← / Shift+→ skifter session. Alle genveje findes i Genvejskort.';
+        const intents=root.querySelector('.tn-plan-help-intents');
+        if(intents){
+          const grid=intents.querySelector(':scope > div');
+          if(grid&&!grid.querySelector('[data-help-jump="course-navigation"]')){
+            const button=document.createElement('button');
+            button.type='button';
+            button.dataset.helpJump='course-navigation';
+            button.textContent='Skift mellem forløb, sessioner og tavler';
+            grid.insertBefore(button,grid.children[1]||null);
+          }
+        }
+      }));
+      return result;
+    };
+    wrapped.__planHelpNavigationTemplates=true;
+    App.prototype.showHelp=wrapped;
+  }
+
+  if(TN.runtime&&TN.runtime.app)applyHelp(TN.runtime.app);
+  window.__PLAN_HELP_NAVIGATION_TEMPLATES_BUILD__='2026-07-07-help-navigation-templates-owner-safe';
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
