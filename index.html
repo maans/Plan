@@ -4085,7 +4085,53 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 
 
   const visibleCardFields=(dataset,row)=>{
-    const hidden=/^(id|elevid|studentid|noteid|maskinkode)$/i,fields=[];(dataset?.columns||[]).forEach((column,index)=>{const value=Array.isArray(row)?row[index]??'':'';if(value===''||value==null||hidden.test(String(column).replace(/[^a-z0-9]/gi,'')))return;const label=TN.studentDisplayLabel?TN.studentDisplayLabel(column):column,displayValue=TN.studentDisplayValue?TN.studentDisplayValue(label,value):String(value);fields.push({label,value:displayValue});});return fields.slice(0,12);
+    const normalizeFieldKey=value=>String(value??'')
+      .trim()
+      .toLocaleLowerCase('da')
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g,'')
+      .replace(/æ/g,'ae')
+      .replace(/ø/g,'oe')
+      .replace(/å/g,'aa')
+      .replace(/[^a-z0-9]+/g,'');
+    const fieldTokens=value=>String(value??'')
+      .toLocaleLowerCase('da')
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g,'')
+      .replace(/æ/g,'ae')
+      .replace(/ø/g,'oe')
+      .replace(/å/g,'aa')
+      .split(/[^a-z0-9]+/g)
+      .filter(Boolean);
+    const hidden=/^(id|elevid|studentid|noteid|maskinkode)$/i;
+    const parentMarkers=['mor','mors','moder','mother','far','fars','fader','father','vaerge','vaerge1','vaerge2','guardian','guardian1','guardian2','foralder','foraelder','parent','parent1','parent2','kontaktperson','kontaktperson1','kontaktperson2'];
+    const parentFieldWords=['navn','name','mobil','mobile','telefon','phone','mail','email','adresse','address','postnr','postnummer','zipcode','zip','by','city','arbejde','work','kontakt','contact','relation','relationer','vaerge','guardian'];
+    const isParentField=column=>{
+      const label=String(column??'');
+      const compact=normalizeFieldKey(label);
+      const tokens=fieldTokens(label);
+      const hasParentToken=tokens.some(token=>parentMarkers.includes(token));
+      const relationPrefix=compact.startsWith('relationer')||compact.startsWith('relation')||compact.startsWith('relations');
+      if(relationPrefix&&hasParentToken)return true;
+      return parentMarkers.some(marker=>parentFieldWords.some(word=>{
+        return compact===`${marker}${word}`
+          || compact===`${word}${marker}`
+          || compact.startsWith(`${marker}${word}`)
+          || compact.startsWith(`${word}${marker}`)
+          || compact.includes(`relationer${marker}${word}`)
+          || compact.includes(`relation${marker}${word}`);
+      }));
+    };
+    const fields=[];
+    (dataset?.columns||[]).forEach((column,index)=>{
+      const value=Array.isArray(row)?row[index]??'':'';
+      const key=String(column).replace(/[^a-z0-9]/gi,'');
+      if(value===''||value==null||hidden.test(key)||isParentField(column))return;
+      const label=TN.studentDisplayLabel?TN.studentDisplayLabel(column):column;
+      const displayValue=TN.studentDisplayValue?TN.studentDisplayValue(label,value):String(value);
+      fields.push({label,value:displayValue});
+    });
+    return fields.slice(0,12);
   };
   const rerenderWidget=async(app,widget)=>{await app.widgetManager.update(widget);await app.renderActiveBoard({preserveSelection:true});app.selectWidget(widget.id);};
   function cardTabs(root,tabs,active,onSelect){const nav=document.createElement('nav');nav.className='tn-card-tabs';for(const tab of tabs){const button=document.createElement('button');button.type='button';button.textContent=tab.label;button.classList.toggle('active',tab.id===active);button.onclick=()=>onSelect(tab.id);nav.append(button);}root.append(nav);return nav;}
@@ -7683,6 +7729,55 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 }
 </style>
 
+
+
+<!-- Plan: Datacenter viser senest tilføjede datakilder øverst -->
+<script id="plan-datacenter-recent-sort-owner">
+(function(TN){
+  'use strict';
+  if(!TN?.DataManager || window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__)return;
+  window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__=true;
+
+  const DM=TN.DataManager;
+  const originalListSession=DM.prototype.listSession;
+  const originalListCommon=DM.prototype.listCommon;
+
+  const stamp=dataset=>{
+    const candidates=[
+      dataset?.createdAt,
+      dataset?.meta?.importedAt,
+      dataset?.meta?.createdAt,
+      dataset?.updatedAt,
+      dataset?.meta?.copiedAt,
+      dataset?.meta?.updatedAt
+    ];
+    for(const value of candidates){
+      const time=Date.parse(String(value||''));
+      if(Number.isFinite(time))return time;
+    }
+    return 0;
+  };
+  const sortRecent=datasets=>[...(datasets||[])].sort((a,b)=>{
+    const byTime=stamp(b)-stamp(a);
+    if(byTime)return byTime;
+    return String(a?.name||'').localeCompare(String(b?.name||''),'da',{numeric:true,sensitivity:'base'});
+  });
+
+  DM.prototype.listSession=async function(sessionId){
+    return sortRecent(await originalListSession.call(this,sessionId));
+  };
+  DM.prototype.listCommon=async function(){
+    return sortRecent(await originalListCommon.call(this));
+  };
+  DM.prototype.listAvailable=async function(sessionId){
+    const [session,common]=await Promise.all([this.listSession(sessionId),this.listCommon()]);
+    return [...session,...common];
+  };
+
+  window.__PLAN_DATACENTER_RECENT_SORT_BUILD__='2026-07-07-kontaktgruppe-owner-safe';
+})(window.TavleNext);
+</script>
+
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -9513,7 +9608,56 @@ window.addEventListener('DOMContentLoaded',async()=>{
 
 
 <!-- Plan v0.9.3bo STARTFIX / NIVEAUDELING I HELE HØJDEN OWNER SAFE:
-Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige </body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
+Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige 
+
+<!-- Plan: Datacenter viser senest tilføjede datakilder øverst -->
+<script id="plan-datacenter-recent-sort-owner">
+(function(TN){
+  'use strict';
+  if(!TN?.DataManager || window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__)return;
+  window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__=true;
+
+  const DM=TN.DataManager;
+  const originalListSession=DM.prototype.listSession;
+  const originalListCommon=DM.prototype.listCommon;
+
+  const stamp=dataset=>{
+    const candidates=[
+      dataset?.createdAt,
+      dataset?.meta?.importedAt,
+      dataset?.meta?.createdAt,
+      dataset?.updatedAt,
+      dataset?.meta?.copiedAt,
+      dataset?.meta?.updatedAt
+    ];
+    for(const value of candidates){
+      const time=Date.parse(String(value||''));
+      if(Number.isFinite(time))return time;
+    }
+    return 0;
+  };
+  const sortRecent=datasets=>[...(datasets||[])].sort((a,b)=>{
+    const byTime=stamp(b)-stamp(a);
+    if(byTime)return byTime;
+    return String(a?.name||'').localeCompare(String(b?.name||''),'da',{numeric:true,sensitivity:'base'});
+  });
+
+  DM.prototype.listSession=async function(sessionId){
+    return sortRecent(await originalListSession.call(this,sessionId));
+  };
+  DM.prototype.listCommon=async function(){
+    return sortRecent(await originalListCommon.call(this));
+  };
+  DM.prototype.listAvailable=async function(sessionId){
+    const [session,common]=await Promise.all([this.listSession(sessionId),this.listCommon()]);
+    return [...session,...common];
+  };
+
+  window.__PLAN_DATACENTER_RECENT_SORT_BUILD__='2026-07-07-kontaktgruppe-owner-safe';
+})(window.TavleNext);
+</script>
+
+</body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
 -->
 <style id="plan-v093bo-leveling-full-height-style">
 #tnModalRoot .tn-modal.tn-leveling-modal{
@@ -37791,6 +37935,55 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 
   if(TN.runtime&&TN.runtime.app)applyHelp(TN.runtime.app);
   window.__PLAN_HELP_PRACTICAL_MATERIALS_BUILD__='2026-07-07-practical-materials-owner-safe-fixed';
+})(window.TavleNext);
+</script>
+
+
+
+<!-- Plan: Datacenter viser senest tilføjede datakilder øverst -->
+<script id="plan-datacenter-recent-sort-owner">
+(function(TN){
+  'use strict';
+  if(!TN?.DataManager || window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__)return;
+  window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__=true;
+
+  const DM=TN.DataManager;
+  const originalListSession=DM.prototype.listSession;
+  const originalListCommon=DM.prototype.listCommon;
+
+  const stamp=dataset=>{
+    const candidates=[
+      dataset?.createdAt,
+      dataset?.meta?.importedAt,
+      dataset?.meta?.createdAt,
+      dataset?.updatedAt,
+      dataset?.meta?.copiedAt,
+      dataset?.meta?.updatedAt
+    ];
+    for(const value of candidates){
+      const time=Date.parse(String(value||''));
+      if(Number.isFinite(time))return time;
+    }
+    return 0;
+  };
+  const sortRecent=datasets=>[...(datasets||[])].sort((a,b)=>{
+    const byTime=stamp(b)-stamp(a);
+    if(byTime)return byTime;
+    return String(a?.name||'').localeCompare(String(b?.name||''),'da',{numeric:true,sensitivity:'base'});
+  });
+
+  DM.prototype.listSession=async function(sessionId){
+    return sortRecent(await originalListSession.call(this,sessionId));
+  };
+  DM.prototype.listCommon=async function(){
+    return sortRecent(await originalListCommon.call(this));
+  };
+  DM.prototype.listAvailable=async function(sessionId){
+    const [session,common]=await Promise.all([this.listSession(sessionId),this.listCommon()]);
+    return [...session,...common];
+  };
+
+  window.__PLAN_DATACENTER_RECENT_SORT_BUILD__='2026-07-07-kontaktgruppe-owner-safe';
 })(window.TavleNext);
 </script>
 
