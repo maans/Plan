@@ -34877,6 +34877,55 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     return false;
   };
 
+  const sessionSortKey = session => {
+    const meta = session?.meta || {};
+    const order = Number(meta.courseOrder ?? meta.planOrder ?? meta.order ?? 999999);
+    const date = String(meta.plannedDate || meta.startDate || meta.endDate || '9999-12-31');
+    return [Number.isFinite(order) ? order : 999999, date, String(session?.title || '')];
+  };
+
+  const orderedCourseSessions = async app => {
+    const active = TN.runtime?.activeSession;
+    if(!app?.sessionManager || !active) return [];
+    const all = await app.sessionManager.list();
+    const activeCourseId = String(active.meta?.courseId || '');
+    const activeBatchId = String(active.meta?.planBatchId || '');
+    let list = all;
+    if(activeCourseId) list = all.filter(session => String(session.meta?.courseId || '') === activeCourseId);
+    else if(activeBatchId) list = all.filter(session => String(session.meta?.planBatchId || '') === activeBatchId);
+    if(!list.some(session => String(session.id) === String(active.id))) list = all;
+    return [...list].sort((a,b) => {
+      const ak = sessionSortKey(a), bk = sessionSortKey(b);
+      return (ak[0]-bk[0]) || ak[1].localeCompare(bk[1],'da') || ak[2].localeCompare(bk[2],'da');
+    });
+  };
+
+  const navigateCourseSession = async (app, direction) => {
+    if(!app || !direction || modalOpen(app)) return false;
+    const active = TN.runtime?.activeSession;
+    if(!active) return false;
+    const sessions = await orderedCourseSessions(app);
+    if(sessions.length < 2){
+      app.toast?.('Der er kun én session i dette forløb');
+      return true;
+    }
+    const current = sessions.findIndex(session => String(session.id) === String(active.id));
+    if(current < 0) return false;
+    const nextIndex = current + (direction < 0 ? -1 : 1);
+    if(nextIndex < 0 || nextIndex >= sessions.length){
+      app.toast?.(direction < 0 ? 'Første session' : 'Sidste session');
+      return true;
+    }
+    const next = sessions[nextIndex];
+    clearPdfKeyboard();
+    clearWidgetKeyboard(app);
+    if(maxState(app)) await closeMaximized(app);
+    await app.loadSession(next.id);
+    app.showToolbar?.({delay:2600});
+    app.toast?.(`${nextIndex + 1}/${sessions.length} · ${next.title || 'Session'}`);
+    return true;
+  };
+
   if(typeof proto.applyTransientWidgetMaximize === 'function' && !proto.applyTransientWidgetMaximize.__planPdfAutoOwnerWrapped){
     const original = proto.applyTransientWidgetMaximize;
     const wrapped = async function(anchorId,...args){
@@ -34936,7 +34985,13 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
      ←/→ bevares til PDF-sidebladring, mens ↑/↓ altid bruges som lightbox-
      navigation mellem tavlens synlige widgets i maksimeret visning. */
   window.addEventListener('keydown',event => {
-    const app = appNow(), state = maxState(app);
+    const app = appNow();
+    if(event.shiftKey && !event.metaKey && !event.ctrlKey && !event.altKey && (event.key === 'ArrowLeft' || event.key === 'ArrowRight') && !typingTarget(event.target) && !modalOpen(app)){
+      stop(event);
+      void navigateCourseSession(app,event.key === 'ArrowLeft' ? -1 : 1);
+      return;
+    }
+    const state = maxState(app);
     if(!state || modalOpen(app)) return;
     if(event.key === 'Escape'){
       stop(event);
@@ -35027,7 +35082,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       const result = originalRegisterHelp.apply(this,args);
       const entry = this.helpRegistry?.entries?.find?.(item => item.id === 'windows');
       if(entry && !String(entry.body||'').includes('↑ / ↓ bladrer mellem widgets i stor visning')){
-        entry.body = String(entry.body||'').replace('</ul>','<li><b>↑ / ↓</b> bladrer mellem tavlens widgets, når en widget er maksimeret. I PDF bruges <b>← / →</b> stadig til at bladre sider.</li></ul>');
+        entry.body = String(entry.body||'').replace('</ul>','<li><b>↑ / ↓</b> bladrer mellem tavlens widgets, når en widget er maksimeret. I PDF bruges <b>← / →</b> stadig til at bladre sider.</li><li><b>Shift+← / Shift+→</b> skifter til forrige eller næste session i samme undervisningsforløb.</li></ul>');
         try{TN.registry?.help?.set?.('windows',entry);}catch(_){ }
       }
       return result;
@@ -35038,7 +35093,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 
   ensureThemeButton();
   window.PlanMaximizedKeyboardOwner = {maxState,closeMaximized,activateMaximizedPdf};
-  window.__PLAN_MAXIMIZED_THEME_BUILD__ = '2026-07-07-lightbox-updown-owner-safe';
+  window.__PLAN_MAXIMIZED_THEME_BUILD__ = '2026-07-07-shift-session-timer-owner-safe';
 })(window.TavleNext);
 </script>
 
