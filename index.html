@@ -1245,18 +1245,19 @@ textarea.tn-pdf-form-field{resize:none;overflow:auto}
 .tn-widget-move-new{min-height:42px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink);font:inherit;font-weight:900}
 .tn-widget-move-hint{margin:0;color:var(--tn-muted);font-size:13px;line-height:1.45}
 .tn-board-order-list{display:grid;gap:8px}
-.tn-board-order-row{display:grid;grid-template-columns:minmax(0,1fr) repeat(4,44px);gap:6px;align-items:stretch}
+.tn-board-order-row{display:grid;grid-template-columns:minmax(0,1fr) repeat(5,44px);gap:6px;align-items:stretch}
 .tn-board-order-row>button{min-width:0;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink);font:inherit;font-weight:900}
 .tn-board-order-row .tn-board-open{grid-template-columns:34px minmax(0,1fr)!important}
 .tn-board-order-row .tn-board-open strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .tn-board-order-row.active .tn-board-open{border-color:var(--tn-accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--tn-accent) 30%,transparent)}
 .tn-board-order-row.kbd-selected{outline:2px solid #60a5fa;outline-offset:2px;border-radius:13px}
 .tn-board-order-row [data-move-board]{font-size:20px;padding:0}
+.tn-board-order-row [data-rename-board]{font-size:18px}
 .tn-board-order-row [data-copy]{font-size:18px}
 .tn-board-order-row [data-delete]{font-size:20px}
 .tn-board-order-hint{margin:10px 2px 0;color:var(--tn-muted);font-size:13px;font-weight:800;line-height:1.45}
 @media(max-width:620px){
-  .tn-board-order-row{grid-template-columns:minmax(0,1fr) repeat(4,40px)}
+  .tn-board-order-row{grid-template-columns:minmax(0,1fr) repeat(5,40px)}
   .tn-board-order-row>button{padding-inline:7px}
 }
 </style>
@@ -8062,10 +8063,24 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         if(!result)return this.toast('Der er kun én tavle');
         selectedId=String(boardId);this.toast(`Tavlen er nu nr. ${result.to+1}`);await reopen(boardId);
       };
+      const renameBoard=async boardId=>{
+        const board=boards.find(item=>String(item.id)===String(boardId))||await this.boardManager.get(boardId);
+        if(!board)return;
+        const title=prompt('Nyt navn på tavlen',board.title||'');
+        if(title==null)return;
+        const clean=String(title).trim();
+        if(!clean)return this.toast('Tavlen skal have et navn');
+        if(clean===board.title)return;
+        await this.boardManager.rename(board,clean);
+        await this.storage.flush?.();
+        if(String(TN.runtime.activeBoard?.id)===String(board.id)){TN.runtime.activeBoard.title=clean;this.updateStatus();}
+        selectedId=String(board.id);this.toast('Tavlen er omdøbt');await reopen(board.id);
+      };
       for(const [index,board] of boards.entries()){
         const row=document.createElement('div');row.className=`tn-board-order-row ${String(board.id)===String(TN.runtime.activeBoard?.id)?'active':''}`;row.dataset.boardId=board.id;row.tabIndex=0;
-        row.innerHTML=`<button class="tn-board-open" title="Åbn tavle"><span>${index+1}</span><strong>${TN.escapeHtml(board.title)}</strong></button><button type="button" data-move-board="-1" title="Flyt tavlen op">↑</button><button type="button" data-move-board="1" title="Flyt tavlen ned">↓</button><button type="button" data-copy title="Duplikér tavle">⧉</button><button type="button" data-delete title="Flyt tavlen til papirkurven" ${boards.length<=1?'disabled':''}>×</button>`;
+        row.innerHTML=`<button class="tn-board-open" title="Åbn tavle"><span>${index+1}</span><strong>${TN.escapeHtml(board.title)}</strong></button><button type="button" data-rename-board title="Omdøb tavle" aria-label="Omdøb tavle">✎</button><button type="button" data-move-board="-1" title="Flyt tavlen op">↑</button><button type="button" data-move-board="1" title="Flyt tavlen ned">↓</button><button type="button" data-copy title="Duplikér tavle">⧉</button><button type="button" data-delete title="Flyt tavlen til papirkurven" ${boards.length<=1?'disabled':''}>×</button>`;
         row.querySelector('.tn-board-open').onclick=()=>this.openBoard(board.id);
+        row.querySelector('[data-rename-board]').onclick=event=>{event.preventDefault();event.stopPropagation();void renameBoard(board.id);};
         row.querySelectorAll('[data-move-board]').forEach(button=>button.onclick=event=>{event.preventDefault();event.stopPropagation();void moveBoard(board.id,Number(button.dataset.moveBoard));});
         row.querySelector('[data-copy]').onclick=async()=>{this.modalManager.close(modal?.layer);await this.duplicateBoardFrom(board,{inheritLinks:true,open:true});};
         row.querySelector('[data-delete]').onclick=async()=>{
@@ -8076,7 +8091,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         row.onclick=event=>{if(event.target===row){selectedId=String(board.id);paintSelection({focus:true});}};
         body.append(row);
       }
-      const hint=document.createElement('p');hint.className='tn-board-order-hint';hint.textContent='Pile markerer · Enter åbner · Cmd/Ctrl + pil flytter den markerede tavle · 1–9 åbner tavlen direkte';body.append(hint);
+      const hint=document.createElement('p');hint.className='tn-board-order-hint';hint.textContent='Pile markerer · Enter åbner · F2/R omdøber · Cmd/Ctrl + pil flytter · 1–9 åbner direkte';body.append(hint);
       const cleanup=()=>{if(keyHandler)window.removeEventListener('keydown',keyHandler,true);};
       modal=this.modalManager.open({title:`Tavler · ${boards.length}`,body,onClose:cleanup,actions:[{label:'Ny tavle',primary:true,run:async()=>{await this.createBoard();}}]});
       keyHandler=event=>{
@@ -8087,6 +8102,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         if(event.key==='0'){if(boards[9]){stop(event);void this.openBoard(boards[9].id);}return;}
         if(event.key==='Enter'){stop(event);const row=rows[position];if(row)void this.openBoard(row.dataset.boardId);return;}
         if(event.key==='Escape'){stop(event);this.modalManager.close(modal.layer);return;}
+        if(event.key==='F2'||(!event.metaKey&&!event.ctrlKey&&!event.altKey&&!event.shiftKey&&String(event.key||'').toLocaleLowerCase('da')==='r')){stop(event);const row=rows[position];if(row)void renameBoard(row.dataset.boardId);return;}
         if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key)){
           stop(event);
           const direction=(event.key==='ArrowUp'||event.key==='ArrowLeft')?-1:1;
