@@ -1,79 +1,36 @@
-# Fællessamlinger · skoleåret 2026–27
+# Fællessamlinger · årsforløb 2026–27
 
-Et samlet forløb til årets fællessamlinger. Forløbet samler ugens temaer, datoer, sang- og samtaleoplæg, korte kildeaktiviteter og små KaPardy-afslutninger, så samlingerne kan bruges direkte i hverdagen.
+Dette forløb samler et helt skoleårs fællessamlinger, fællestimer, samtaler og korte KaPardy-afslutninger.
 
-## Sådan bruger du forløbet
+## Sådan kan du bruge forløbet
 
-1. Åbn den uge eller samling, du skal bruge.
-2. Start med overblikstavlen og vælg den konkrete dato.
-3. Brug fortællingstavlen til de vigtigste pointer.
-4. Brug kildetavlen, hvis eleverne skal arbejde med billeder, tekst, lyd eller lokale spor.
-5. Slut eventuelt med KaPardy som fælles repetition.
+Åbn den samling, der passer til dagen, og brug tavlerne i rækkefølge:
 
-## Brug jubilæumsskriftet som levende lokalhistorie
+1. **Fortælling** – giver rammen for dagens samling.
+2. **Billede eller kilde** – giver noget konkret at se på og tale ud fra.
+3. **Kernesvar** – samler det vigtigste, eleverne skal huske.
+4. **KaPardy** – bruges til kort repetition, samtale eller afslutning.
 
-Jubilæumsskriftet er ikke bare en baggrundstekst. Det er en samling af stemmer, billeder og erindringer, der kan bruges direkte i samlinger om HU, fællesskab, køkken, Sydvest, rejser, gymnastik, sang, afsked og elevernes egne valg.
+KaPardy-spillene er ikke tænkt som tilfældige quizzer. Brug dem som en måde at få eleverne til at genkalde hovedpointerne, forklare begreber og tale om hvorfor svarene er rigtige.
 
-Brug billederne aktivt:
+## Lokalt HU-stof
 
-- Hvad kan vi se?
-- Hvad fortæller billedteksten?
-- Hvad kan billedet ikke fortælle alene?
+Flere samlinger bygger på Himmerlands Ungdomsskoles egen historie: hoveddøren, Sydvest, køkkenet, rejserne, sangen, gymnastikken, personfortællingerne og skolens 100-årsjubilæum. Brug gerne jubilæumsskriftets billeder som samtalestartere: Hvad kan billedet fortælle? Hvad kan det ikke fortælle? Hvilke spørgsmål får vi lyst til at stille?
+
+## Fællessang
+
+Når en samling handler om sang, er pointen ikke kun at kende fakta om en sang. Eleverne skal også mærke, hvordan sang kan skabe fælles begyndelser, fælles rytme og fælles afslutning. Start enkelt: fortæl kort, giv tone og puls, syng, og tal bagefter om hvad sangen gjorde ved rummet.
+
+## Kilder og aktualitet
+
+Ved historiske og aktuelle emner skal eleverne øve sig i at skelne mellem fakta, fortolkning og holdning. Brug spørgsmål som:
+
+- Hvem siger det?
+- Hvornår er det skrevet?
+- Hvad bygger det på?
 - Hvem mangler vi at høre?
-- Hvordan hænger billedet sammen med elevernes egen hverdag i dag?
+- Hvad ændrer det ved vores forståelse?
 
-## Lokale HU-samlinger
+## Seneste kvalitetsrunde
 
-Samlingerne om Himmerlands Efterskole, Sydvest, køkkenet, rejser, gymnastik, sang og skolens traditioner bygger nu tydeligere på jubilæumsskriftet og skolens egne fortællinger.
-
-- Ved HU-historie: Brug den gamle hoveddør som billede på første dag, sidste dag og alt det, der sker imellem.
-- Ved køkken og jord-til-bord: Lad Dennis koble råvarer, dyrkning, smag, madspild og skolehverdag sammen.
-- Ved Sydvest: Gå ud i området, hvis det kan lade sig gøre. Brug Maria, elever, WOOFere, haver, høns, kaniner og køkkenet som levende kilder.
-- Ved sang: Syng først, tal bagefter. Fællessang mærkes bedst før den forklares.
-- Ved gymnastik: Brug opvisningen som billede på forpligtende fællesskab: mange elever skal lykkes sammen.
-- Ved rejser: Lad eleverne planlægge konkret. Transport, mad, overnatning og klima er ikke detaljer – de er ansvar.
-- Ved uddannelsesvalg: Brug tidligere elevers erfaringer som spejle, ikke facitlister.
-- Ved afsked: Brug gamle og nye billeder til at tale om, hvad et skoleår efterlader.
-
-## Historiske samlinger
-
-Samlingerne om besættelsen, Holocaust, den kolde krig, demokrati, kolonihistorie og verden i dag skal bruges med ro og præcision. Start med få sikre fakta, brug tydelige kilder, og giv plads til samtale om dilemmaer, menneskeværd og ansvar.
-
-Forløbet kan frit tilpasses. Ret navne, datoer og ansvarlige, så det passer til årets faktiske fællessamlinger og de mennesker, der står for dem.
-
-## Runde 7: aktuelle temaer, EU, billeder og kildekritik
-
-Flere af de globale og aktuelle samlinger er nu skrevet mere elevvenligt og mindre skabelonagtigt. Brug dem som fælles samtaler, ikke som facitlister.
-
-Gode greb:
-
-- Ved EU: tegn aktørerne på tavlen og lad eleverne følge én konkret sag fra problem til beslutning.
-- Ved aktuelle nyheder: brug modellen én nyhed, tre fakta, to kilder og én ting vi stadig ikke ved.
-- Ved billeder: skel mellem hvad eleverne ser, hvad de tolker, og hvad de faktisk ved.
-- Ved AI-billeder: spørg ikke kun om billedet “ser ægte ud”, men hvor det kommer fra, hvem der bruger det og hvad det bruges som bevis for.
-- Ved Israel/Palæstina, migration og klima: brug daterede tal og tydelige kilder, og hold sproget præcist og menneskeligt.
-- Ved håb og handlekraft: slut med noget konkret eleverne kan gøre, ikke kun noget de skal mene.
-
-## Runde 8: årshjul, taler, natur, revolution og musikhistorie
-
-Denne runde gør flere resterende samlinger mindre generiske og mere brugbare som fællessamlinger.
-
-Gode greb:
-
-- Ved jul: tal om traditioner som noget mennesker skaber, gentager og ændrer – ikke som faste facitlister.
-- Ved fællessang: brug sangen som fælles handling og kort rammesætning, ikke som musikquiz alene.
-- Ved taler: spørg altid hvem der taler, til hvem, hvorfor nu, og hvad publikum skal sidde tilbage med.
-- Ved natur: koble begreberne til elevernes nærnatur og Sydvest, så biodiversitet og trivsel ikke bliver abstrakt.
-- Ved revolution: skel mellem begivenhed, symbol og eftertid.
-- Ved musikhistorie: lyt både efter lyd og efter den sociale sammenhæng musikken kommer fra.
-
-## KaPardy i fællessamlingerne
-
-KaPardy-spillene er tænkt som korte fælles afslutninger, ikke som prøver. Brug dem til at samle op på dagens fortælling:
-
-1. Fortæl eller vis først kernen i emnet.
-2. Lad eleverne tale kort to og to om de vigtigste pointer.
-3. Spil KaPardy som fælles repetition.
-4. Stop gerne ved et spørgsmål, hvis det åbner for en god samtale.
-
-Svarmulighederne er skrevet, så de forkerte svar lyder som mulige misforståelser eller for snævre vinkler. Derfor kan spillet bruges til at tale om, hvorfor et svar er bedre end et andet — ikke bare til at tælle point.
+Denne udgave har fået en ekstra sproglig slutrensning af KaPardy-spillene. De sidste metaformuleringer som “god forklaring” og “god analyse” er gjort mere konkrete, så spørgsmålene nu i højere grad spørger direkte ind til emnet.
