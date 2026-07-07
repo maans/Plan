@@ -31332,6 +31332,71 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     if(changed){writeDatasetEvents(dataset,datasetEvents(dataset).map(stored=>events.find(item=>eventIdentity(item)===eventIdentity(stored))||stored));await app.dataManager.update(dataset);}return changed;
   }
 
+  function groupSetMemberCountFromDataset(set){
+    const ids=new Set();
+    for(const row of set?.rows||[]){
+      const member=Array.isArray(row)?row[2]:row?.MemberId||row?.memberId||row?.id;
+      if(String(member||'').trim())ids.add(String(member));
+    }
+    return ids.size;
+  }
+  function groupSetGroupCountFromDataset(set){
+    const ids=new Set();
+    for(const row of set?.rows||[]){
+      const group=Array.isArray(row)?row[0]:row?.GroupId||row?.groupId||row?.gruppe;
+      if(String(group||'').trim())ids.add(String(group));
+    }
+    if(ids.size)return ids.size;
+    return Array.isArray(set?.meta?.groupCatalog)?set.meta.groupCatalog.length:0;
+  }
+  async function chooseCalendarGroupSetForEvent(app,widget,dataset,event,{forcePicker=false}={}){
+    const owner=TN.BoardContinuationOwner||{},existingId=asText(event?._groupSetId);
+    if(existingId&&!forcePicker){
+      const existing=await app.groupManager?.get?.(existingId);
+      if(existing){
+        app.modalManager.closeAll();
+        await app.showGroupGalaxy?.(existing,{mode:'show'});
+        return;
+      }
+    }
+    const sets=app.groupManager?.list?await app.groupManager.list(TN.runtime.activeSession?.id):[];
+    const subjectId=asText(event?._subjectGroupId);
+    const ordered=sets.slice().sort((a,b)=>{
+      const aFrom=String(a.meta?.sourceDatasetId||'')===subjectId,bFrom=String(b.meta?.sourceDatasetId||'')===subjectId;
+      return Number(bFrom)-Number(aFrom)||String(a.name||'').localeCompare(String(b.name||''),'da',{numeric:true,sensitivity:'base'});
+    });
+    let selected=existingId||ordered[0]?.id||'';
+    const body=document.createElement('div');
+    body.className='tn-calendar-board-flow-form';
+    body.innerHTML=`<p>Vælg den gruppe eller gruppering, som aktiviteten skal følge. Kalenderen gemmer kun en levende kobling til gruppen — ikke en kopi af eleverne.</p><div class="tn-calendar-binding-grid"></div><div class="tn-calendar-binding-scope"><label><input type="radio" name="calendar-group-scope" value="title" checked><span><b>Alle aktiviteter med samme titel</b><small>Godt til tilbagevendende kontaktgruppemøder og skemabegivenheder.</small></span></label><label><input type="radio" name="calendar-group-scope" value="event"><span><b>Kun denne aktivitet</b><small>Bruges når netop denne dato har en anden gruppe.</small></span></label></div>`;
+    const grid=body.querySelector('.tn-calendar-binding-grid');
+    for(const set of ordered){
+      const button=document.createElement('button');
+      button.type='button';
+      button.className='tn-calendar-binding-card';
+      button.dataset.id=set.id;
+      button.setAttribute('aria-pressed',String(String(set.id)===String(selected)));
+      const groupCount=groupSetGroupCountFromDataset(set),memberCount=groupSetMemberCountFromDataset(set);
+      button.innerHTML=`<b>${escape(set.name||'Grupper')}</b><span>${groupCount||1} gruppe${groupCount===1?'':'r'} · ${memberCount} elev${memberCount===1?'':'er'}</span><small>${escape(String(set.meta?.sourceDatasetId||'')===subjectId?'Bygget fra aktivitetens faghold':set.meta?.sourceName||'Gemt gruppering')}</small>`;
+      button.onclick=()=>{selected=set.id;for(const item of grid.children)item.setAttribute('aria-pressed',String(item===button));};
+      grid.append(button);
+    }
+    if(!ordered.length)grid.innerHTML='<div class="tn-global-calendar-empty"><b>Der findes endnu ingen gemte grupper.</b><span>Opret først en gruppe fra Elevstamdata eller Gruppegalaksen, og vend derefter tilbage til kalenderaktiviteten.</span></div>';
+    const actions=[{label:'Annuller',run:()=>{}}];
+    if(existingId)actions.push({label:'Skift gruppe …',run:async()=>{await chooseCalendarGroupSetForEvent(app,widget,dataset,event,{forcePicker:true});return false;}});
+    if(subjectId&&app.showGroupSetBuilder)actions.push({label:'Dan nye grupper fra holdet',run:async()=>{const subject=await app.dataManager.get(subjectId);if(!subject)throw new Error('Fagholdet findes ikke længere');app.__planCalendarPendingGroupBinding={calendarDatasetId:dataset.id,eventKey:eventIdentity(event),planPointId:clean(event?._planLinks?.[0]?.planPoint?.id),boardId:TN.runtime.activeBoard?.id||widget?.boardId||'',createdAt:Date.now()};app.modalManager.closeAll();await app.showGroupSetBuilder(subject);return false;}});
+    if(ordered.length)actions.push({label:existingId?'Knyt anden gruppe':'Knyt gruppe',primary:true,run:async()=>{
+      if(!selected)throw new Error('Vælg en gruppe');
+      if(typeof owner.saveGroupBinding!=='function')throw new Error('Kalenderens gruppebinding er ikke klar');
+      await owner.saveGroupBinding(app,{calendarDataset:dataset,event,groupSetId:selected,boardId:TN.runtime.activeBoard?.id||widget?.boardId||''});
+      await app.refreshWidgetView?.(widget.id);
+      await window.PlanGlobalCalendarPanel?.reload?.({fresh:true,keepContext:true});
+      app.toast('Gruppen er knyttet til aktiviteten');
+      return true;
+    }});
+    app.modalManager.open({title:existingId?'Arbejd med grupper':'Knyt gruppe til aktiviteten',body,actions});
+  }
+
   const CALENDAR_PROPAGATION_FIELDS=[
     ['subject','Fag'],['className','Klasse'],['team','Hold'],['teacher','Lærer'],['type','Type'],['category','Kategori'],['location','Sted'],['status','Status'],['color','Farve'],['url','Link']
   ];
@@ -31368,7 +31433,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 
   async function editCalendarEvent(app,widget,{event=null,date=null}={}){
     const dataset=await ensureWidgetDataset(app,widget),rawEvents=datasetEvents(dataset),enriched=(await applyPlanLinksToEvents(app,widget,dataset,rawEvents)).events,original=event?enriched.find(item=>eventIdentity(item)===eventIdentity(event)):null,sourceOriginal=original?rawEvents.find(item=>eventIdentity(item)===eventIdentity(original)):null,body=eventEditorBody(original,date||widget.content?.date||todayISO()),initialTarget=planTargetSelection(original);await populateCalendarTargetSelect(app,body,original||{start:date||widget.content?.date||todayISO(),summary:''});
-    const actions=[{label:'Annuller',run:()=>{}}];if(original&&planLinkTargets(original).length)actions.push({label:planLinkTargets(original).length>1?`Åbn ${planLinkTargets(original).length} tavler`:'Åbn tavle',run:async()=>{await showCalendarPlanTargets(app,original,widget);return false;}});if(original&&app.subjectGroups)actions.push({label:original._subjectGroupId?'Arbejd med holdet':'Knyt faghold …',run:async()=>{await app.subjectGroups.openForCalendarEvent({widget,event:original,calendarDataset:dataset});return false;}});if(sourceOriginal)actions.push({label:'Slet aktivitet',run:async()=>{if(!confirm(`Slet “${sourceOriginal.summary}”?`))return false;await removePlanLinksForEvent(app,widget,dataset,sourceOriginal);const next=rawEvents.filter(item=>eventIdentity(item)!==eventIdentity(sourceOriginal));writeDatasetEvents(dataset,next);await app.dataManager.update(dataset);app.toast('Aktiviteten er slettet');}});actions.push({label:sourceOriginal?'Gem ændringer':'Tilføj aktivitet',primary:true,run:async()=>{
+    const actions=[{label:'Annuller',run:()=>{}}];if(original&&planLinkTargets(original).length)actions.push({label:planLinkTargets(original).length>1?`Åbn ${planLinkTargets(original).length} tavler`:'Åbn tavle',run:async()=>{await showCalendarPlanTargets(app,original,widget);return false;}});if(original&&app.subjectGroups)actions.push({label:original._subjectGroupId?'Arbejd med holdet':'Knyt faghold …',run:async()=>{await app.subjectGroups.openForCalendarEvent({widget,event:original,calendarDataset:dataset});return false;}});if(original&&app.groupManager)actions.push({label:original._groupSetId?'Arbejd med grupper':'Knyt gruppe …',run:async()=>{await chooseCalendarGroupSetForEvent(app,widget,dataset,original);return false;}});if(sourceOriginal)actions.push({label:'Slet aktivitet',run:async()=>{if(!confirm(`Slet “${sourceOriginal.summary}”?`))return false;await removePlanLinksForEvent(app,widget,dataset,sourceOriginal);const next=rawEvents.filter(item=>eventIdentity(item)!==eventIdentity(sourceOriginal));writeDatasetEvents(dataset,next);await app.dataManager.update(dataset);app.toast('Aktiviteten er slettet');}});actions.push({label:sourceOriginal?'Gem ændringer':'Tilføj aktivitet',primary:true,run:async()=>{
       let nextEvent;try{nextEvent=readEventEditor(body,sourceOriginal||{uid:generatedUid(),sourceName:''});}catch(error){app.toast(error.message);return false;}const targetSelection=nextEvent._targetSelection;
       let choice='single',overwrite=false,changes=[],titleMatches=[],seriesMatches=[],rulesAdded=[];
       if(sourceOriginal){changes=propagationChanges(sourceOriginal,nextEvent);const titleKey=norm(sourceOriginal.summary);titleMatches=rawEvents.filter(item=>norm(item.summary)===titleKey);seriesMatches=asText(sourceOriginal.uid)?rawEvents.filter(item=>asText(item.uid)===asText(sourceOriginal.uid)):[];const canCreateRules=changes.some(item=>CALENDAR_RULE_FIELDS.has(item.field))&&!!titleKey;if(changes.length&&(titleMatches.length>1||seriesMatches.length>1||(canCreateRules&&(dataset.meta?.sourceFormat==='ics'||asText(sourceOriginal.sourceName))))){const selected=await chooseCalendarUpdateScope(app,{title:sourceOriginal.summary,changes,titleMatches,seriesMatches,canCreateRules});choice=selected.choice;overwrite=selected.overwrite;}}
@@ -37885,6 +37950,243 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   };
 
   TN.__PLAN_DATACENTER_RECENT_SORT_BUILD__ = '2026-07-07-owner-safe-v2';
+})(window.TavleNext);
+</script>
+
+
+<!-- plan_group_calendar_follow_OWNER_SAFE:
+Knytter ikke-destruktivt gemte gruppesæt til kalenderaktiviteter med samme navn.
+Hvis en gruppe eller et gruppesæt hedder det samme som en skemaaktivitet, vises gruppen som
+relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt.
+-->
+<style id="plan-group-calendar-follow-style">
+.tn-group-calendar-modal{display:grid;gap:12px;min-width:min(720px,90vw)}
+.tn-group-calendar-intro{margin:0;padding:12px 14px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-muted);line-height:1.45}
+.tn-group-calendar-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+.tn-group-calendar-controls label{display:grid;gap:5px;font-weight:850;color:var(--tn-ink)}
+.tn-group-calendar-controls select{min-height:40px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel);color:var(--tn-ink);padding:0 10px;font:inherit}
+.tn-group-calendar-list{display:grid;gap:8px;max-height:46vh;overflow:auto;padding-right:2px}
+.tn-group-calendar-event{display:grid;grid-template-columns:132px minmax(0,1fr);gap:10px;align-items:start;padding:11px 12px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2)}
+.tn-group-calendar-event time{font-weight:950;color:var(--tn-accent)}
+.tn-group-calendar-event b{display:block;color:var(--tn-ink)}
+.tn-group-calendar-event small{display:block;color:var(--tn-muted);line-height:1.35}
+.tn-group-calendar-empty{padding:22px;border:1px dashed var(--tn-line);border-radius:12px;color:var(--tn-muted);text-align:center;background:var(--tn-panel2)}
+.tn-group-tools-card{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px;align-items:center;padding:12px 13px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink)}
+.tn-group-tools-card strong,.tn-group-tools-card span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tn-group-tools-card span{color:var(--tn-muted)}
+.tn-group-tools-card button{min-height:36px;padding:0 11px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel);color:var(--tn-ink);font-weight:850}
+@media(max-width:680px){.tn-group-calendar-controls{grid-template-columns:1fr}.tn-group-calendar-event,.tn-group-tools-card{grid-template-columns:1fr}.tn-group-tools-card strong,.tn-group-tools-card span{white-space:normal}}
+</style>
+<script id="plan-group-calendar-follow-owner">
+(function(TN){
+  'use strict';
+  if(!TN || window.__planGroupCalendarFollowOwner) return;
+  window.__planGroupCalendarFollowOwner = true;
+
+  const norm = value => String(value ?? '')
+    .normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
+    .toLocaleLowerCase('da-DK').replace(/\s+/g,' ').trim();
+  const clean = value => String(value ?? '').trim();
+  const escape = value => TN.escapeHtml ? TN.escapeHtml(String(value ?? '')) : String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const appNow = () => window.tavleNextApp || TN.runtime?.app || null;
+  const isCalendarDataset = dataset => {
+    const cal = TN.CalendarDataViewsFilters || {};
+    if(!dataset) return false;
+    if(typeof cal.compatibleCalendarDataset === 'function') return !!cal.compatibleCalendarDataset(dataset);
+    return dataset.type === 'calendar' || !!dataset.meta?.calendarVersion || !!dataset.meta?.sourceFormat;
+  };
+  const eventDate = event => {
+    const raw = clean(event?.start || event?.date || '');
+    if(/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;
+    const date = new Date(raw);
+    if(Number.isNaN(date.valueOf())) return raw.slice(0,10);
+    return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+  };
+  const eventTime = event => {
+    const startRaw = clean(event?.start), endRaw = clean(event?.end);
+    if(!startRaw || /^\d{4}-\d{2}-\d{2}$/.test(startRaw) || event?.allDay) return 'Hele dagen';
+    const fmt = raw => { const d = new Date(raw); return Number.isNaN(d.valueOf()) ? '' : d.toLocaleTimeString('da-DK',{hour:'2-digit',minute:'2-digit'}); };
+    const start = fmt(startRaw), end = fmt(endRaw);
+    return start && end ? `${start}–${end}` : start || 'Tid ikke angivet';
+  };
+  const sameOrStartsWithSeparator = (title, alias) => {
+    const t = norm(title), a = norm(alias);
+    if(!t || !a) return false;
+    if(t === a) return true;
+    if(!t.startsWith(a)) return false;
+    const rest = t.slice(a.length);
+    return !rest || /^[\s·:;,.\-–—(\[]/.test(rest);
+  };
+  const aliasListFor = (groupSet, group) => {
+    const values = [group?.title, groupSet?.name];
+    const metaAliases = groupSet?.meta?.calendarAliases || groupSet?.meta?.calendarKeywords || '';
+    if(Array.isArray(metaAliases)) values.push(...metaAliases);
+    else values.push(...String(metaAliases || '').split(','));
+    return [...new Set(values.map(clean).filter(Boolean))];
+  };
+
+  let matchCache = { key:'', time:0, entries:[] };
+  async function groupMatchEntries(app){
+    const sessionId = String(TN.runtime?.activeSession?.id || '');
+    const key = `${sessionId}|${TN.runtime?.activeBoard?.id || ''}`;
+    const now = Date.now();
+    if(matchCache.key === key && now - matchCache.time < 2500) return matchCache.entries;
+    const sets = app?.groupManager?.list ? await app.groupManager.list(sessionId) : [];
+    const entries = [];
+    for(const groupSet of sets || []){
+      let groups = [];
+      try{ groups = await app.groupManager.listGroups(groupSet.id); }catch(_){ groups = []; }
+      if(!groups.length) groups = [{id:'',title:groupSet.name,members:[]}];
+      for(const group of groups){
+        for(const alias of aliasListFor(groupSet, group)){
+          entries.push({groupSetId:String(groupSet.id),groupSetName:groupSet.name || 'Grupper',groupId:String(group.id || ''),groupTitle:group.title || groupSet.name || 'Gruppe',alias,aliasNorm:norm(alias),memberCount:(group.members||[]).length,groupCount:groups.length});
+        }
+      }
+    }
+    entries.sort((a,b)=>b.aliasNorm.length-a.aliasNorm.length || String(a.groupSetName).localeCompare(String(b.groupSetName),'da',{numeric:true,sensitivity:'base'}));
+    matchCache = {key,time:now,entries};
+    return entries;
+  }
+  async function autoAttachGroupMatches(app, events){
+    if(!app || !Array.isArray(events) || !events.length) return events;
+    const entries = await groupMatchEntries(app);
+    if(!entries.length) return events;
+    for(const event of events){
+      if(event?._groupSetId) continue;
+      const title = clean(event?._planLinks?.[0]?.planPoint?.title || event?.summary || '');
+      const match = entries.find(entry => sameOrStartsWithSeparator(title, entry.alias));
+      if(!match) continue;
+      event._groupSetId = match.groupSetId;
+      event._groupSetAutoMatch = {kind:'same-title', groupId:match.groupId, groupTitle:match.groupTitle, alias:match.alias, groupSetName:match.groupSetName};
+    }
+    return events;
+  }
+
+  const cal = TN.CalendarDataViewsFilters || {};
+  if(cal.applyPlanLinksToEvents && !cal.__groupCalendarFollowWrapped){
+    const original = cal.applyPlanLinksToEvents;
+    cal.applyPlanLinksToEvents = async function(app, widget, calendarDataset, events){
+      const result = await original.call(this, app, widget, calendarDataset, events);
+      try{ await autoAttachGroupMatches(app, result?.events || events); }
+      catch(error){ console.warn('Automatisk gruppe-/kalendermatch fejlede', error); }
+      return result;
+    };
+    cal.__groupCalendarFollowWrapped = true;
+  }
+
+  async function calendarDatasets(app){
+    const sessionId = String(TN.runtime?.activeSession?.id || '');
+    const all = app?.dataManager?.listAvailable ? await app.dataManager.listAvailable(sessionId) : [];
+    return (all || []).filter(isCalendarDataset).sort((a,b)=>String(b.updatedAt||b.createdAt||'').localeCompare(String(a.updatedAt||a.createdAt||'')) || String(a.name||'').localeCompare(String(b.name||''),'da',{numeric:true,sensitivity:'base'}));
+  }
+  function rawEvents(dataset){
+    const cal = TN.CalendarDataViewsFilters || {};
+    try{ return typeof cal.datasetEvents === 'function' ? cal.datasetEvents(dataset) : []; }
+    catch(_){ return []; }
+  }
+  function eventMatchesAliases(event, aliases){
+    const title = clean(event?._planLinks?.[0]?.planPoint?.title || event?.summary || '');
+    return aliases.some(alias => sameOrStartsWithSeparator(title, alias));
+  }
+  async function collectActivities(app, groupSet, selectedGroupId=''){
+    const groups = await app.groupManager.listGroups(groupSet.id).catch(()=>[]);
+    const selectedGroup = groups.find(group => String(group.id) === String(selectedGroupId)) || (groups.length === 1 ? groups[0] : null);
+    const aliases = selectedGroup ? aliasListFor(groupSet, selectedGroup) : aliasListFor(groupSet, null);
+    const datasets = await calendarDatasets(app);
+    const activities = [];
+    for(const dataset of datasets){
+      for(const event of rawEvents(dataset)){
+        if(eventMatchesAliases(event, aliases)) activities.push({dataset,event,date:eventDate(event),time:eventTime(event),title:clean(event.summary || event.title || 'Kalenderaktivitet')});
+      }
+    }
+    activities.sort((a,b)=>String(a.date||'').localeCompare(String(b.date||'')) || String(a.event?.start||'').localeCompare(String(b.event?.start||'')) || String(a.title).localeCompare(String(b.title),'da',{numeric:true,sensitivity:'base'}));
+    return {groups,selectedGroup,aliases,datasets,activities};
+  }
+
+  const App = TN.TavleNextApp;
+  if(App && !App.prototype.__groupCalendarFollowOwner){
+    App.prototype.__groupCalendarFollowOwner = true;
+    App.prototype.openGroupCalendarActivities = async function(groupSetId, selectedGroupId=''){
+      const groupSet = await this.dataManager.get(groupSetId);
+      if(!groupSet || groupSet.type !== 'group-set') return this.toast('Gruppesættet findes ikke længere');
+      const body = document.createElement('div');
+      body.className = 'tn-group-calendar-modal';
+      body.innerHTML = '<p class="tn-group-calendar-intro">Plan finder aktiviteter i dine kalenderdata, hvor titlen matcher gruppens navn. Kalenderen ændres ikke.</p><div class="tn-group-calendar-controls"><label><span>Gruppe</span><select data-group></select></label><label><span>Kalenderdata</span><select data-calendar disabled><option>Alle kalenderdatakilder</option></select></label></div><div class="tn-group-calendar-list" data-list><div class="tn-group-calendar-empty">Finder aktiviteter …</div></div>';
+      const groupSelect = body.querySelector('[data-group]'), list = body.querySelector('[data-list]');
+      const render = async () => {
+        const state = await collectActivities(this, groupSet, groupSelect.value);
+        groupSelect.replaceChildren();
+        if(state.groups.length > 1){
+          const all = document.createElement('option'); all.value=''; all.textContent=`Alle grupper / ${groupSet.name}`; groupSelect.append(all);
+        }
+        for(const group of state.groups){
+          const option = document.createElement('option'); option.value = group.id; option.textContent = `${group.title} · ${(group.members||[]).length} elever`; option.selected = String(group.id) === String(state.selectedGroup?.id || selectedGroupId || ''); groupSelect.append(option);
+        }
+        const label = state.selectedGroup ? state.selectedGroup.title : groupSet.name;
+        if(!state.activities.length){
+          list.innerHTML = `<div class="tn-group-calendar-empty"><b>Ingen matchende aktiviteter fundet.</b><br>Sørg for at kalenderaktiviteten hedder fx <b>${escape(label)}</b> eller starter med samme navn.</div>`;
+          return;
+        }
+        const frag = document.createDocumentFragment();
+        for(const item of state.activities.slice(0,250)){
+          const row = document.createElement('article');
+          row.className = 'tn-group-calendar-event';
+          const dateLabel = item.date ? new Date(`${item.date}T12:00:00`).toLocaleDateString('da-DK',{weekday:'short',day:'numeric',month:'short',year:'numeric'}) : 'Dato ukendt';
+          row.innerHTML = `<time>${escape(dateLabel)}<br><small>${escape(item.time)}</small></time><div><b>${escape(item.title)}</b><small>${escape(item.dataset.name || 'Kalender')} ${item.event?.location ? '· '+escape(item.event.location) : ''}</small>${item.event?.description ? `<small>${escape(String(item.event.description).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim()).slice(0,220)}</small>` : ''}</div>`;
+          frag.append(row);
+        }
+        if(state.activities.length > 250){
+          const more = document.createElement('div'); more.className='tn-group-calendar-empty'; more.textContent = `Viser 250 af ${state.activities.length} aktiviteter.`; frag.append(more);
+        }
+        list.replaceChildren(frag);
+      };
+      groupSelect.onchange = () => { selectedGroupId = groupSelect.value; render().catch(error => { console.error(error); this.toast(error.message || 'Aktiviteterne kunne ikke vises'); }); };
+      await render();
+      this.modalManager.open({title:`Aktiviteter · ${groupSet.name}`, body, className:'tn-modal-wide', actions:[{label:'Luk',run:()=>{}}]});
+    };
+
+    const originalShowGroupSetTools = App.prototype.showGroupSetTools;
+    App.prototype.showGroupSetTools = async function(groupSet){
+      const groups = await this.groupManager.listGroups(groupSet.id);
+      const body = document.createElement('div');
+      body.className = 'tn-board-list';
+      for(const group of groups){
+        const row = document.createElement('article');
+        row.className = 'tn-group-tools-card';
+        row.innerHTML = `<div><strong>${escape(group.title)}</strong><span>${(group.members||[]).length} medlemmer</span></div><button type="button" data-card>Gruppekort</button><button type="button" data-activities>Aktiviteter</button>`;
+        row.querySelector('[data-card]').onclick = async () => { this.modalManager.closeAll(); await this.addWidget('group-card',{title:group.title,content:{kind:'group',groupSetId:groupSet.id,groupId:group.id,groupTitle:group.title,activeTab:'group'},geometry:{width:390,height:360}}); };
+        row.querySelector('[data-activities]').onclick = async () => { await this.openGroupCalendarActivities(groupSet.id, group.id); };
+        body.append(row);
+      }
+      if(!groups.length) body.innerHTML = '<div class="tn-empty-state">Gruppesættet har ingen grupper endnu.</div>';
+      const modal = this.modalManager.open({title:groupSet.name,body,actions:[
+        {label:'Vis som galakse',run:()=>{this.modalManager.closeAll();this.showGroupGalaxy(groupSet,{mode:'show'});}},
+        {label:'Aktiviteter',run:async()=>{await this.openGroupCalendarActivities(groupSet.id);return false;}},
+        {label:'GruppeWidget',run:async()=>{this.modalManager.closeAll();await this.addGroupWidget(groupSet);}},
+        {label:'Opret matrix/tavler…',primary:true,run:()=>{this.showGroupBoardGenerator(groupSet.id);return false;}}
+      ]});
+      modal.footer.style.flexWrap = 'wrap';
+    };
+
+    // Læg en lille aktivitetsknap ind i eksisterende GruppeWidget, uden at ændre widget-rendereren.
+    const attachActivityButtons = () => {
+      const app = appNow(); if(!app) return;
+      for(const el of document.querySelectorAll('.tn-widget[data-widget-id]')){
+        const widget = TN.runtime?.activeWidgets?.find(item => String(item.id) === String(el.dataset.widgetId));
+        if(!widget || widget.type !== 'group' || !widget.content?.groupSetId) continue;
+        const toolbar = el.querySelector('.tn-group-toolbar > div:last-child');
+        if(!toolbar || toolbar.querySelector('[data-group-calendar-activities]')) continue;
+        const button = document.createElement('button');
+        button.type = 'button'; button.dataset.groupCalendarActivities = '1'; button.textContent = 'Aktiviteter';
+        button.onclick = event => { event.preventDefault(); event.stopPropagation(); app.openGroupCalendarActivities(widget.content.groupSetId).catch(error => { console.error(error); app.toast(error.message || 'Aktiviteterne kunne ikke åbnes'); }); };
+        toolbar.insertBefore(button, toolbar.firstChild);
+      }
+    };
+    const mo = new MutationObserver(() => requestAnimationFrame(attachActivityButtons));
+    if(document.body) mo.observe(document.body,{childList:true,subtree:true});
+    requestAnimationFrame(attachActivityButtons);
+  }
+
+  TN.__PLAN_GROUP_CALENDAR_FOLLOW_BUILD__ = '2026-07-07-owner-safe-v1';
 })(window.TavleNext);
 </script>
 
