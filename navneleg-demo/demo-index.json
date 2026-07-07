@@ -13,7 +13,7 @@
       "xlsxPath": "navneleg-demo/students/elevstamdata_navneleg_demo.xlsx",
       "imageBasePath": "navneleg-demo/students/photos/",
       "imageColumn": "Billedfil",
-      "frontLabelColumn": "Fornavn",
+      "frontLabelColumn": "Forside",
       "defaultAnswerColumn": "FuldeNavn",
       "answerColumns": [
         "FuldeNavn",
@@ -23,7 +23,8 @@
       "noteColumn": "HumorNote",
       "categoryColumn": "Klasse",
       "matrixTitle": "Billedmatrix · demoelever",
-      "gameTitle": "Navnespil · opdigtede elever"
+      "gameTitle": "Navnespil · opdigtede elever",
+      "defaultFrontLabelMode": "hidden"
     },
     {
       "id": "fruit-vegetables",
@@ -33,7 +34,7 @@
       "datasetPath": "navneleg-demo/fruit-vegetables/frugt_groent_flersproget_demo.csv",
       "imageBasePath": "navneleg-demo/fruit-vegetables/photos/",
       "imageColumn": "Billedfil",
-      "frontLabelColumn": "Dansk",
+      "frontLabelColumn": "Forside",
       "defaultAnswerColumn": "English",
       "answerColumns": [
         "English",
@@ -46,7 +47,8 @@
       "categoryColumn": "Kategori",
       "matrixTitle": "Billedmatrix · frugt og grønt",
       "gameTitle": "Billedvendespil · fruit & vegetables",
-      "xlsxPath": "navneleg-demo/fruit-vegetables/frugt_groent_flersproget_demo.xlsx"
+      "xlsxPath": "navneleg-demo/fruit-vegetables/frugt_groent_flersproget_demo.xlsx",
+      "defaultFrontLabelMode": "label"
     },
     {
       "id": "periodic-table",
@@ -56,12 +58,12 @@
       "datasetPath": "navneleg-demo/periodic-table/periodisk_tabel_demo.csv",
       "imageBasePath": "navneleg-demo/periodic-table/photos/",
       "imageColumn": "Billedfil",
-      "frontLabelColumn": "Symbol",
-      "defaultAnswerColumn": "Bagside",
+      "frontLabelColumn": "Forside",
+      "defaultAnswerColumn": "English",
       "answerColumns": [
-        "Bagside",
         "English",
         "Dansk",
+        "Bagside",
         "Symbol",
         "AtomicNumber",
         "Group"
@@ -70,7 +72,8 @@
       "categoryColumn": "Group",
       "matrixTitle": "Billedmatrix · periodisk tabel",
       "gameTitle": "Billedvendespil · periodisk tabel",
-      "xlsxPath": "navneleg-demo/periodic-table/periodisk_tabel_demo.xlsx"
+      "xlsxPath": "navneleg-demo/periodic-table/periodisk_tabel_demo.xlsx",
+      "defaultFrontLabelMode": "label"
     },
     {
       "id": "planets",
@@ -80,7 +83,7 @@
       "datasetPath": "navneleg-demo/planets/planeter_demo.csv",
       "imageBasePath": "navneleg-demo/planets/photos/",
       "imageColumn": "Billedfil",
-      "frontLabelColumn": "Dansk",
+      "frontLabelColumn": "Forside",
       "defaultAnswerColumn": "English",
       "answerColumns": [
         "English",
@@ -93,7 +96,8 @@
       "categoryColumn": "Type",
       "matrixTitle": "Billedmatrix · planeter",
       "gameTitle": "Billedvendespil · planeter",
-      "xlsxPath": "navneleg-demo/planets/planeter_demo.xlsx"
+      "xlsxPath": "navneleg-demo/planets/planeter_demo.xlsx",
+      "defaultFrontLabelMode": "label"
     }
   ]
 }

@@ -38207,7 +38207,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 </script>
 
 
-<!-- Plan Billedvendespil demo extension · v2 -->
+<!-- Plan Billedvendespil demo extension · v4 -->
 <style id="plan-picture-flip-style">
 .tn-pfg-toolbar-button span{font-size:20px}
 .tn-pfg-picker{display:grid;gap:14px;line-height:1.45}
@@ -38229,22 +38229,25 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 .tn-pfg-card{position:relative;min-height:178px;border:0;background:transparent;padding:0;perspective:900px;cursor:pointer;color:#0f172a}
 .tn-pfg-card-inner{position:absolute;inset:0;transition:transform .28s;transform-style:preserve-3d}.tn-pfg-card.flipped .tn-pfg-card-inner{transform:rotateY(180deg)}
 .tn-pfg-face{position:absolute;inset:0;display:grid;grid-template-rows:minmax(0,1fr) auto;backface-visibility:hidden;border:1px solid #cbd5e1;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 7px 18px rgba(15,23,42,.16)}
-.tn-pfg-front img{width:100%;height:100%;object-fit:cover;min-height:118px;background:#e2e8f0}.tn-pfg-front span{display:block;padding:8px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#f8fafc}
+.tn-pfg-front img{width:100%;height:100%;object-fit:cover;min-height:118px;background:#e2e8f0}.tn-pfg-front span{display:block;padding:8px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#f8fafc}.tn-pfg-front.hide-label{grid-template-rows:1fr}.tn-pfg-front.hide-label span{display:none}
 .tn-pfg-back{transform:rotateY(180deg);align-content:center;justify-items:center;text-align:center;padding:12px;background:linear-gradient(145deg,#eff6ff,#fff);grid-template-rows:1fr auto}.tn-pfg-back b{font-size:20px;line-height:1.1}.tn-pfg-back small{color:#475569;line-height:1.25}
 .tn-pfg-status{position:absolute;top:8px;right:8px;z-index:4;border-radius:999px;background:#0f172a;color:#fff;font-size:12px;font-weight:1000;padding:4px 7px}
 .tn-pfg-status-known{background:#16a34a}.tn-pfg-status-almost{background:#f59e0b;color:#111827}.tn-pfg-status-hard{background:#dc2626}
 .tn-pfg-statusbar{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding-top:8px}.tn-pfg-statusbar button{border:1px solid #bfdbfe;border-radius:999px;background:#fff;color:#172554;font-weight:900;padding:6px 9px}.tn-pfg-statusbar button.active{background:#172554;color:#fff}
-.tn-pfg-single{min-height:100%;display:grid;place-items:center}.tn-pfg-single-card{width:min(720px,96%);display:grid;grid-template-columns:minmax(240px,1fr) minmax(260px,1fr);gap:16px;align-items:center;border:1px solid #dbeafe;border-radius:24px;background:#fff;padding:18px;box-shadow:0 14px 40px rgba(15,23,42,.18)}.tn-pfg-single-card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;background:#e2e8f0}.tn-pfg-single-info{display:grid;gap:10px;text-align:center}.tn-pfg-single-info h3{margin:0;font-size:34px}.tn-pfg-single-info p{margin:0;color:#475569}.tn-pfg-single-controls,.tn-pfg-score{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}.tn-pfg-single-controls button,.tn-pfg-score button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:9px 11px}.tn-pfg-single-controls button.primary{background:#2563eb;color:#fff}
-.tn-pfg-score{padding:8px;border-radius:14px;background:#f8fafc}.tn-pfg-score b{padding:8px;color:#0f172a}
+.tn-pfg-single{min-height:100%;display:grid;place-items:center}.tn-pfg-single-card{width:min(700px,96%);display:grid;grid-template-columns:minmax(240px,1fr) minmax(230px,.75fr);gap:18px;align-items:center;border:1px solid #dbeafe;border-radius:24px;background:#fff;padding:18px;box-shadow:0 14px 40px rgba(15,23,42,.18)}.tn-pfg-single-card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;background:#e2e8f0}.tn-pfg-single-info{display:grid;gap:12px;text-align:center;align-content:center}.tn-pfg-single-info h3{margin:0;font-size:clamp(32px,5vw,56px);line-height:1.05}.tn-pfg-single-info p{margin:0;color:#475569}.tn-pfg-single-controls{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}.tn-pfg-single-controls button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:10px 13px}.tn-pfg-single-controls button.primary{background:#2563eb;color:#fff}
+.tn-pfg-single-card.simple{grid-template-columns:minmax(260px,1fr) minmax(230px,.70fr)}
+.tn-pfg-single-simple{display:grid;gap:12px;justify-items:center;width:min(760px,96%)}.tn-pfg-single-flip-card{width:min(560px,92vw);height:min(560px,62vh);min-height:280px}.tn-pfg-single-flip-card .tn-pfg-front img{min-height:0}.tn-pfg-single-nav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.tn-pfg-single-nav button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:9px 13px}.tn-pfg-single-status{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}.tn-pfg-single-status button{border:1px solid #bfdbfe;border-radius:999px;background:#fff;color:#172554;font-weight:900;padding:6px 10px}.tn-pfg-single-status button.active{background:#172554;color:#fff}
 .tn-pfg-empty{height:100%;display:grid;place-items:center;text-align:center;color:#475569;padding:22px}
 .tn-pfg-edit{display:grid;gap:10px}.tn-pfg-edit-row{display:grid;grid-template-columns:minmax(120px,1fr) minmax(180px,2fr);gap:10px;align-items:center;padding:8px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2)}.tn-pfg-edit-row small{color:var(--tn-muted)}.tn-pfg-edit-row input{width:100%;padding:9px 10px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel);color:var(--tn-ink)}
-@media(max-width:760px){.tn-pfg-single-card{grid-template-columns:1fr}.tn-pfg-grid{grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}.tn-pfg-card{min-height:158px}}
+/* Enkel en-ad-gangen-visning: selve kortet er knappen. Teksten bliver inde i kortet. */
+.tn-pfg-single{height:100%;min-height:0;display:grid;place-items:center}.tn-pfg-single-simple{height:100%;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:12px;justify-items:center;align-items:center;width:min(760px,96%);padding:8px}.tn-pfg-single-flip-card{width:min(560px,92vw);height:min(560px,100%);min-height:240px;max-height:100%;align-self:stretch}.tn-pfg-single-flip-card .tn-pfg-face{grid-template-rows:minmax(0,1fr) auto}.tn-pfg-single-flip-card .tn-pfg-front img{min-height:0}.tn-pfg-single-flip-card .tn-pfg-back{grid-template-rows:1fr;align-content:center;justify-items:center;padding:22px;overflow:hidden}.tn-pfg-single-flip-card .tn-pfg-back b{display:block;max-width:100%;font-size:clamp(28px,7vw,62px);line-height:1.05;overflow-wrap:anywhere;hyphens:auto}.tn-pfg-single-flip-card .tn-pfg-back small{display:none}.tn-pfg-single-nav{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap}.tn-pfg-single-nav button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:9px 13px}.tn-pfg-single-count{font-weight:900;color:#475569;padding:0 6px}.tn-pfg-single-status{display:none!important}
+@media(max-width:760px){.tn-pfg-single-card{grid-template-columns:1fr}.tn-pfg-grid{grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}.tn-pfg-card{min-height:158px}.tn-pfg-single-simple{width:100%}.tn-pfg-single-flip-card{width:min(480px,94vw)}}
 </style>
 <script id="plan-picture-flip-script">
 (function(TN){
   'use strict';
-  if(!TN || TN.__PLAN_PICTURE_FLIP_V2__) return;
-  TN.__PLAN_PICTURE_FLIP_V2__ = true;
+  if(!TN || TN.__PLAN_PICTURE_FLIP_V5__) return;
+  TN.__PLAN_PICTURE_FLIP_V5__ = true;
 
   const esc = value => TN.escapeHtml ? TN.escapeHtml(String(value ?? '')) : String(value ?? '').replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
   const now = () => TN.now ? TN.now() : new Date().toISOString();
@@ -38404,8 +38407,8 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
       Kategori:'',
       Hint:'Bagsiden er oprettet fra billedets filnavn. Ret den i datasættet, hvis den skal være noget andet.'
     }));
-    const demo = {id:'local-images',title:'Egne billeder',imageColumn:'Billedfil',frontLabelColumn:'Bagside',defaultAnswerColumn:'Bagside',answerColumns:['Bagside','Kategori'],noteColumn:'Hint',categoryColumn:'Kategori',matrixTitle:'Billedmatrix · egne billeder',gameTitle:'Billedvendespil · egne billeder'};
-    const dataset = await app.dataManager.create({sessionId:TN.runtime.activeSession.id,name:'Billedvendespil · datasæt fra billednavne',type:'picture-flip-source',scope:'session',columns,rows:matrixRows(columns,objects),meta:{createdBy:'PlanPictureFlipDemo',importedAt:now(),pictureFlip:{imageColumn:'Billedfil',frontLabelColumn:'Bagside',defaultAnswerColumn:'Bagside',answerColumns:['Bagside','Kategori'],noteColumn:'Hint',categoryColumn:'Kategori',gameTitle:demo.gameTitle}}});
+    const demo = {id:'local-images',title:'Egne billeder',imageColumn:'Billedfil',frontLabelColumn:'Forside',defaultFrontLabelMode:'hidden',defaultAnswerColumn:'Bagside',answerColumns:['Bagside','Forside','Kategori'],noteColumn:'Hint',categoryColumn:'Kategori',matrixTitle:'Billedmatrix · egne billeder',gameTitle:'Billedvendespil · egne billeder'};
+    const dataset = await app.dataManager.create({sessionId:TN.runtime.activeSession.id,name:'Billedvendespil · datasæt fra billednavne',type:'picture-flip-source',scope:'session',columns,rows:matrixRows(columns,objects),meta:{createdBy:'PlanPictureFlipDemo',importedAt:now(),pictureFlip:{imageColumn:'Billedfil',frontLabelColumn:'Forside',defaultFrontLabelMode:'hidden',defaultAnswerColumn:'Bagside',answerColumns:['Bagside','Forside','Kategori'],noteColumn:'Hint',categoryColumn:'Kategori',gameTitle:demo.gameTitle}}});
     const imported = {byFile:new Map(),results:results.map((result,index)=>({media:result.media,fileName:accepted[index].name,row:objects[index]}))};
     imported.results.forEach(entry => imported.byFile.set(baseName(entry.fileName).toLocaleLowerCase('da'), entry.media));
     await app.addWidget('image-matrix',{title:demo.matrixTitle,content:contentForImageMatrix(demo,dataset,imported,objects),geometry:{x:70,y:70,width:1080,height:650}});
@@ -38480,7 +38483,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
       order:cards.map(card=>card.id),
       activeIndex:0,
       singleFlipped:false,
-      scores:{a:0,b:0},
+      frontLabelMode:'hidden',
       createdAt:now()
     };
     await app.widgetManager.update(widget,{immediate:true});
@@ -38524,9 +38527,30 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
       const persist=async(immediate=false)=>app.widgetManager.update(widget,{immediate});
       const setStatus=(id,status)=>{content.progress[id]=status;};
       const answerOf = card => clean(card.answers?.[content.answerKey]) || clean(Object.values(card.answers||{}).find(Boolean)) || '—';
+      const frontTextOf = card => {
+        const mode = content.frontLabelMode || 'hidden';
+        const answer = answerOf(card);
+        const words = answer.split(/\s+/).filter(Boolean);
+        const second = words[1] || '';
+        if(mode === 'label') return clean(card.frontLabel);
+        if(mode === 'answer-first') return words[0] || '';
+        if(mode === 'answer-second') return second;
+        if(mode === 'answer-second-start') return second ? (second.length > 4 ? `${second.slice(0,3)}…` : second) : '';
+        if(mode === 'category') return clean(card.category);
+        return '';
+      };
+      const frontModeOptions = [
+        ['hidden','Kun billede'],
+        ['label','Korttekst fra datasæt'],
+        ['answer-first','Første ord af bagsiden'],
+        ['answer-second','Andet ord af bagsiden'],
+        ['answer-second-start','Første del af andet ord'],
+        ['category','Kategori/gruppe']
+      ];
       const toolbar = (cards,stat) => `<div class="tn-pfg-head">
         <div class="tn-pfg-titleline"><strong>${esc(widget.title||'Billedvendespil')}</strong><small>${cards.length} kort · forside/bagside</small>
           <label><small>Bagside:</small> <select data-pfg-answer>${(content.answerColumns||[]).map(col=>`<option value="${esc(col)}"${col===content.answerKey?' selected':''}>${esc(col)}</option>`).join('')}</select></label>
+          <label><small>Forside:</small> <select data-pfg-front-label>${frontModeOptions.map(([value,label])=>`<option value="${esc(value)}"${(content.frontLabelMode||'hidden')===value?' selected':''}>${esc(label)}</option>`).join('')}</select></label>
         </div>
         <div class="tn-pfg-actions">
           <button type="button" data-pfg-action="view-matrix" class="${content.view!=='single'?'active':''}">Tavlematrix</button>
@@ -38544,12 +38568,12 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         const token=++renderToken; release();
         const parts = [];
         for(const card of list){
-          const st = content.progress?.[card.id] || 'new', flipped = !!content.flipped?.[card.id], src = await mediaUrl(app,card,urls);
+          const st = content.progress?.[card.id] || 'new', flipped = !!content.flipped?.[card.id], src = await mediaUrl(app,card,urls), frontText = frontTextOf(card);
           if(token !== renderToken) return '';
-          parts.push(`<button type="button" class="tn-pfg-card ${flipped?'flipped':''}" data-pfg-card="${esc(card.id)}" aria-label="Vend ${esc(card.frontLabel)}">
+          parts.push(`<button type="button" class="tn-pfg-card ${flipped?'flipped':''}" data-pfg-card="${esc(card.id)}" aria-label="Vend kort">
             <span class="tn-pfg-status ${statusClass(st)}">${esc(statusIcons[st]||'?')}</span>
             <span class="tn-pfg-card-inner">
-              <span class="tn-pfg-face tn-pfg-front"><img src="${esc(src)}" alt="${esc(card.frontLabel)}" draggable="false"><span>${esc(card.frontLabel)}</span></span>
+              <span class="tn-pfg-face tn-pfg-front ${frontText?'':'hide-label'}"><img src="${esc(src)}" alt="${esc(card.frontLabel||'Billede')}" draggable="false"><span>${esc(frontText)}</span></span>
               <span class="tn-pfg-face tn-pfg-back"><b>${esc(answerOf(card))}</b><small>${esc(card.category||content.answerKey||'')}</small><small>${esc(card.note||'')}</small></span>
             </span>
           </button>`);
@@ -38557,23 +38581,19 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         return `<div class="tn-pfg-body"><div class="tn-pfg-grid">${parts.join('')}</div></div>`;
       }
       async function singleHtml(list){
-        const card = list[Math.max(0,Math.min(list.length-1,Number(content.activeIndex)||0))];
+        const index = Math.max(0,Math.min(list.length-1,Number(content.activeIndex)||0));
+        const card = list[index];
         if(!card) return `<div class="tn-pfg-empty">Ingen kort i denne visning.</div>`;
-        const src = await mediaUrl(app,card,urls), nameVisible = !!content.singleFlipped, st = content.progress?.[card.id] || 'new';
-        return `<div class="tn-pfg-body"><div class="tn-pfg-single"><div class="tn-pfg-single-card">
-          <img src="${esc(src)}" alt="${esc(card.frontLabel)}" draggable="false">
-          <div class="tn-pfg-single-info">
-            <small>${esc(card.category||'')}</small>
-            <h3>${nameVisible ? esc(answerOf(card)) : 'Hvad er det?'}</h3>
-            <p>${nameVisible ? esc(card.note || 'Ingen ekstra snydehjælp her.') : 'Gæt, vend kortet og giv eventuelt point.'}</p>
-            <div class="tn-pfg-single-controls"><button class="primary" type="button" data-pfg-action="single-flip">${nameVisible?'Skjul bagside':'Vend kort'}</button><button type="button" data-pfg-action="prev">‹ Forrige</button><button type="button" data-pfg-action="next">Næste ›</button><button type="button" data-pfg-action="random">Tilfældig</button></div>
-            <div class="tn-pfg-statusbar">
-              <button type="button" data-pfg-action="status" data-id="${esc(card.id)}" data-status="hard" class="${st==='hard'?'active':''}">Kan ikke endnu</button>
-              <button type="button" data-pfg-action="status" data-id="${esc(card.id)}" data-status="almost" class="${st==='almost'?'active':''}">Næsten</button>
-              <button type="button" data-pfg-action="status" data-id="${esc(card.id)}" data-status="known" class="${st==='known'?'active':''}">Kan</button>
-            </div>
-            <div class="tn-pfg-score"><b>Hold 1: ${Number(content.scores.a)||0}</b><button type="button" data-pfg-action="score-a">+1</button><b>Hold 2: ${Number(content.scores.b)||0}</b><button type="button" data-pfg-action="score-b">+1</button><button type="button" data-pfg-action="score-reset">Nulstil</button></div>
-          </div>
+        const src = await mediaUrl(app,card,urls), nameVisible = !!content.singleFlipped, st = content.progress?.[card.id] || 'new', frontText = frontTextOf(card);
+        return `<div class="tn-pfg-body"><div class="tn-pfg-single"><div class="tn-pfg-single-simple">
+          <button type="button" class="tn-pfg-card tn-pfg-single-flip-card ${nameVisible?'flipped':''}" data-pfg-action="single-flip" aria-label="Vend kort">
+            <span class="tn-pfg-status ${statusClass(st)}">${esc(statusIcons[st]||'?')}</span>
+            <span class="tn-pfg-card-inner">
+              <span class="tn-pfg-face tn-pfg-front ${frontText?'':'hide-label'}"><img src="${esc(src)}" alt="${esc(card.frontLabel||'Billede')}" draggable="false"><span>${esc(frontText)}</span></span>
+              <span class="tn-pfg-face tn-pfg-back"><b>${esc(answerOf(card))}</b><small>${esc(card.category||content.answerKey||'')}</small><small>${esc(card.note||'')}</small></span>
+            </span>
+          </button>
+          <div class="tn-pfg-single-nav"><button type="button" data-pfg-action="prev">‹ Forrige</button><span class="tn-pfg-single-count">${index+1} / ${list.length}</span><button type="button" data-pfg-action="next">Næste ›</button></div>
         </div></div></div>`;
       }
       async function render(){
@@ -38608,9 +38628,10 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         ]});
       }
       root.addEventListener('change',async event=>{
-        const select = event.target.closest('[data-pfg-answer]');
-        if(!select) return;
-        content.answerKey = select.value; content.singleFlipped=false; await persist(true); await render();
+        const answerSelect = event.target.closest('[data-pfg-answer]');
+        if(answerSelect){content.answerKey = answerSelect.value; content.singleFlipped=false; await persist(true); await render(); return;}
+        const frontSelect = event.target.closest('[data-pfg-front-label]');
+        if(frontSelect){content.frontLabelMode = frontSelect.value || 'hidden'; await persist(true); await render(); return;}
       });
       root.addEventListener('click',async event=>{
         const cardEl = event.target.closest('[data-pfg-card]');
@@ -38628,9 +38649,6 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         else if(action === 'next'){content.activeIndex=((Number(content.activeIndex)||0)+1)%Math.max(1,list.length);content.singleFlipped=false;}
         else if(action === 'random'){content.activeIndex=Math.floor(Math.random()*Math.max(1,list.length));content.singleFlipped=false;}
         else if(action === 'status'){setStatus(el.dataset.id,el.dataset.status||'new');}
-        else if(action === 'score-a'){content.scores.a=(Number(content.scores.a)||0)+1;}
-        else if(action === 'score-b'){content.scores.b=(Number(content.scores.b)||0)+1;}
-        else if(action === 'score-reset'){content.scores={a:0,b:0};}
         else if(action === 'data'){const ds=content.sourceDatasetId?await app.dataManager.get(content.sourceDatasetId):null; if(ds) await app.openDatasetAsWidget(ds,{closeMode:'view',viewRole:'picture-flip-source',sourceWidgetId:widget.id}); else app.toast?.('Datasættet findes ikke længere'); return;}
         else if(action === 'edit'){await openEditAnswers(); return;}
         await persist(true); await render();
@@ -38667,7 +38685,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     const oldTitle = TN.Models.widgetTitle;
     TN.Models.widgetTitle = function(type){return type === 'picture-flip-game' ? 'Billedvendespil' : oldTitle.call(this,type);};
     const oldDefault = TN.Models.defaultWidgetContent;
-    TN.Models.defaultWidgetContent = function(type){return type === 'picture-flip-game' ? {cards:[],answerColumns:['Bagside'],answerKey:'Bagside',view:'matrix',flipped:{},progress:{},order:[],scores:{a:0,b:0}} : oldDefault.call(this,type);};
+    TN.Models.defaultWidgetContent = function(type){return type === 'picture-flip-game' ? {cards:[],answerColumns:['Bagside'],answerKey:'Bagside',view:'matrix',frontLabelMode:'hidden',flipped:{},progress:{},order:[]} : oldDefault.call(this,type);};
   }
 
   function openPicker(app){
