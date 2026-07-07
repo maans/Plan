@@ -40,3 +40,16 @@ Samlingerne om Himmerlands Efterskole, Sydvest, køkkenet, rejser, gymnastik, sa
 Samlingerne om besættelsen, Holocaust, den kolde krig, demokrati, kolonihistorie og verden i dag skal bruges med ro og præcision. Start med få sikre fakta, brug tydelige kilder, og giv plads til samtale om dilemmaer, menneskeværd og ansvar.
 
 Forløbet kan frit tilpasses. Ret navne, datoer og ansvarlige, så det passer til årets faktiske fællessamlinger og de mennesker, der står for dem.
+
+## Runde 7: aktuelle temaer, EU, billeder og kildekritik
+
+Flere af de globale og aktuelle samlinger er nu skrevet mere elevvenligt og mindre skabelonagtigt. Brug dem som fælles samtaler, ikke som facitlister.
+
+Gode greb:
+
+- Ved EU: tegn aktørerne på tavlen og lad eleverne følge én konkret sag fra problem til beslutning.
+- Ved aktuelle nyheder: brug modellen én nyhed, tre fakta, to kilder og én ting vi stadig ikke ved.
+- Ved billeder: skel mellem hvad eleverne ser, hvad de tolker, og hvad de faktisk ved.
+- Ved AI-billeder: spørg ikke kun om billedet “ser ægte ud”, men hvor det kommer fra, hvem der bruger det og hvad det bruges som bevis for.
+- Ved Israel/Palæstina, migration og klima: brug daterede tal og tydelige kilder, og hold sproget præcist og menneskeligt.
+- Ved håb og handlekraft: slut med noget konkret eleverne kan gøre, ikke kun noget de skal mene.
