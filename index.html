@@ -38206,5 +38206,514 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 })(window.TavleNext);
 </script>
 
+
+<!-- Plan Billedvendespil demo extension · v2 -->
+<style id="plan-picture-flip-style">
+.tn-pfg-toolbar-button span{font-size:20px}
+.tn-pfg-picker{display:grid;gap:14px;line-height:1.45}
+.tn-pfg-picker p{margin:0;color:var(--tn-muted)}
+.tn-pfg-demo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.tn-pfg-demo-card,.tn-pfg-file-card{display:grid;gap:8px;text-align:left;border:1px solid var(--tn-line);border-radius:16px;background:var(--tn-panel2);color:var(--tn-ink);padding:14px;cursor:pointer}
+.tn-pfg-demo-card strong,.tn-pfg-file-card strong{font-size:16px}
+.tn-pfg-demo-card span,.tn-pfg-file-card span{color:var(--tn-muted);font-size:13px}
+.tn-pfg-demo-card:hover,.tn-pfg-file-card:hover{border-color:var(--tn-accent);transform:translateY(-1px)}
+.tn-pfg-bind-panel{position:absolute;left:12px;right:12px;bottom:12px;z-index:20;display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:10px 12px;border:1px solid rgba(15,23,42,.18);border-radius:14px;background:rgba(248,250,252,.94);box-shadow:0 12px 30px rgba(0,0,0,.20);color:#0f172a;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.tn-pfg-bind-panel strong{font-size:13px}.tn-pfg-bind-panel small{color:#475569;flex:1;min-width:210px}.tn-pfg-bind-panel button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:8px 10px}.tn-pfg-bind-panel button.primary{background:#2563eb;color:#fff;border-color:#2563eb}
+.tn-pfg{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr);background:#f8fafc;color:#0f172a;overflow:hidden}
+.tn-pfg-head{display:grid;gap:8px;padding:10px;border-bottom:1px solid #dbeafe;background:#eef6ff}
+.tn-pfg-titleline{display:flex;align-items:center;gap:8px;min-width:0;flex-wrap:wrap}.tn-pfg-titleline strong{font-size:15px}.tn-pfg-titleline small{color:#475569}.tn-pfg-titleline select{min-height:34px;border:1px solid #bfdbfe;border-radius:10px;padding:6px 8px;background:#fff;color:#0f172a;font-weight:850}
+.tn-pfg-actions{display:flex;gap:6px;flex-wrap:wrap}.tn-pfg-actions button,.tn-pfg-actions select{border:1px solid #bfdbfe;border-radius:10px;background:#fff;color:#172554;font-weight:900;padding:7px 9px}.tn-pfg-actions button.active{background:#2563eb;color:#fff}
+.tn-pfg-stats{display:flex;gap:6px;flex-wrap:wrap}.tn-pfg-pill{display:inline-flex;gap:4px;align-items:center;border-radius:999px;background:#fff;border:1px solid #dbeafe;color:#334155;padding:4px 8px;font-size:12px;font-weight:850}
+.tn-pfg-body{min-height:0;overflow:auto;padding:12px}
+.tn-pfg-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;align-content:start}
+.tn-pfg-card{position:relative;min-height:178px;border:0;background:transparent;padding:0;perspective:900px;cursor:pointer;color:#0f172a}
+.tn-pfg-card-inner{position:absolute;inset:0;transition:transform .28s;transform-style:preserve-3d}.tn-pfg-card.flipped .tn-pfg-card-inner{transform:rotateY(180deg)}
+.tn-pfg-face{position:absolute;inset:0;display:grid;grid-template-rows:minmax(0,1fr) auto;backface-visibility:hidden;border:1px solid #cbd5e1;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 7px 18px rgba(15,23,42,.16)}
+.tn-pfg-front img{width:100%;height:100%;object-fit:cover;min-height:118px;background:#e2e8f0}.tn-pfg-front span{display:block;padding:8px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#f8fafc}
+.tn-pfg-back{transform:rotateY(180deg);align-content:center;justify-items:center;text-align:center;padding:12px;background:linear-gradient(145deg,#eff6ff,#fff);grid-template-rows:1fr auto}.tn-pfg-back b{font-size:20px;line-height:1.1}.tn-pfg-back small{color:#475569;line-height:1.25}
+.tn-pfg-status{position:absolute;top:8px;right:8px;z-index:4;border-radius:999px;background:#0f172a;color:#fff;font-size:12px;font-weight:1000;padding:4px 7px}
+.tn-pfg-status-known{background:#16a34a}.tn-pfg-status-almost{background:#f59e0b;color:#111827}.tn-pfg-status-hard{background:#dc2626}
+.tn-pfg-statusbar{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;padding-top:8px}.tn-pfg-statusbar button{border:1px solid #bfdbfe;border-radius:999px;background:#fff;color:#172554;font-weight:900;padding:6px 9px}.tn-pfg-statusbar button.active{background:#172554;color:#fff}
+.tn-pfg-single{min-height:100%;display:grid;place-items:center}.tn-pfg-single-card{width:min(720px,96%);display:grid;grid-template-columns:minmax(240px,1fr) minmax(260px,1fr);gap:16px;align-items:center;border:1px solid #dbeafe;border-radius:24px;background:#fff;padding:18px;box-shadow:0 14px 40px rgba(15,23,42,.18)}.tn-pfg-single-card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;background:#e2e8f0}.tn-pfg-single-info{display:grid;gap:10px;text-align:center}.tn-pfg-single-info h3{margin:0;font-size:34px}.tn-pfg-single-info p{margin:0;color:#475569}.tn-pfg-single-controls,.tn-pfg-score{display:flex;gap:7px;flex-wrap:wrap;justify-content:center}.tn-pfg-single-controls button,.tn-pfg-score button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:9px 11px}.tn-pfg-single-controls button.primary{background:#2563eb;color:#fff}
+.tn-pfg-score{padding:8px;border-radius:14px;background:#f8fafc}.tn-pfg-score b{padding:8px;color:#0f172a}
+.tn-pfg-empty{height:100%;display:grid;place-items:center;text-align:center;color:#475569;padding:22px}
+.tn-pfg-edit{display:grid;gap:10px}.tn-pfg-edit-row{display:grid;grid-template-columns:minmax(120px,1fr) minmax(180px,2fr);gap:10px;align-items:center;padding:8px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2)}.tn-pfg-edit-row small{color:var(--tn-muted)}.tn-pfg-edit-row input{width:100%;padding:9px 10px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel);color:var(--tn-ink)}
+@media(max-width:760px){.tn-pfg-single-card{grid-template-columns:1fr}.tn-pfg-grid{grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}.tn-pfg-card{min-height:158px}}
+</style>
+<script id="plan-picture-flip-script">
+(function(TN){
+  'use strict';
+  if(!TN || TN.__PLAN_PICTURE_FLIP_V2__) return;
+  TN.__PLAN_PICTURE_FLIP_V2__ = true;
+
+  const esc = value => TN.escapeHtml ? TN.escapeHtml(String(value ?? '')) : String(value ?? '').replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
+  const now = () => TN.now ? TN.now() : new Date().toISOString();
+  const uid = prefix => TN.uid ? TN.uid(prefix) : `${prefix}_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+  const statusLabels = {new:'Ny',hard:'Kan ikke endnu',almost:'Næsten',known:'Kan'};
+  const statusIcons = {new:'?',hard:'Øv',almost:'…',known:'✓'};
+  const statusClass = status => status === 'known' ? 'tn-pfg-status-known' : status === 'almost' ? 'tn-pfg-status-almost' : status === 'hard' ? 'tn-pfg-status-hard' : '';
+  const clean = value => String(value ?? '').trim();
+  const appNow = () => TN.runtime?.app || window.tavleNextApp || null;
+  const baseName = value => clean(value).split(/[\\/]/).pop().split('?')[0].split('#')[0];
+  const stemTitle = value => baseName(value).replace(/\.[^.]+$/,'').replace(/^\d+[_ -]*/,'').replace(/[_-]+/g,' ').replace(/\s+/g,' ').trim();
+
+  function parseCsv(text){
+    const lines = String(text || '').replace(/^\uFEFF/,'').split(/\r?\n/).filter(line => line.trim());
+    if(!lines.length) return {columns:[],objects:[]};
+    const sample = lines.slice(0,5).join('\n');
+    const candidates = [';','\t',','];
+    const delim = candidates.map(d => [d,(sample.match(new RegExp('\\'+d,'g'))||[]).length]).sort((a,b)=>b[1]-a[1])[0][0];
+    const parseLine = line => {
+      const out=[]; let cur='', quote=false;
+      for(let i=0;i<line.length;i++){
+        const ch=line[i];
+        if(ch === '"'){ if(quote && line[i+1] === '"'){ cur+='"'; i++; } else quote=!quote; }
+        else if(ch === delim && !quote){ out.push(cur); cur=''; }
+        else cur += ch;
+      }
+      out.push(cur); return out.map(v => v.trim());
+    };
+    const columns = parseLine(lines[0]).map((c,i)=>c||`Kolonne ${i+1}`);
+    const objects = lines.slice(1).map(line => {
+      const values = parseLine(line), obj={};
+      columns.forEach((col,i)=>obj[col]=values[i] ?? '');
+      return obj;
+    }).filter(row => Object.values(row).some(v=>clean(v)));
+    return {columns,objects};
+  }
+
+  async function loadDemoIndex(){
+    const res = await fetch('./navneleg-demo/demo-index.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('Kunne ikke hente navneleg-demo/demo-index.json');
+    return res.json();
+  }
+  async function loadDemoRows(demo){
+    const res = await fetch('./' + demo.datasetPath.replace(/^\.\//,''), {cache:'no-store'});
+    if(!res.ok) throw new Error(`Kunne ikke hente ${demo.datasetPath}`);
+    return parseCsv(await res.text());
+  }
+
+  function imageUrlFor(row,demo){
+    const raw = clean(row[demo.imageColumn] || row.Billedsti || row.Billedfil || row.Filnavn || row.File || row.Image || '');
+    if(!raw) return '';
+    if(/^https?:|^data:/i.test(raw)) return raw;
+    if(raw.includes('/') || raw.includes('\\')) return './' + raw.replace(/^\.\//,'');
+    return './' + clean(demo.imageBasePath || '').replace(/^\.\//,'') + raw;
+  }
+
+  function matrixRows(columns, objects){
+    return objects.map(obj => columns.map(col => obj[col] ?? ''));
+  }
+
+  async function createSourceDataset(app,demo,parsed,{namePrefix='Demo'}={}){
+    const meta = {
+      createdBy:'PlanPictureFlipDemo',
+      importedAt:now(),
+      demoId:demo.id || '',
+      pictureFlip:{
+        imageColumn:demo.imageColumn || 'Billedfil',
+        frontLabelColumn:demo.frontLabelColumn || '',
+        defaultAnswerColumn:demo.defaultAnswerColumn || demo.answerColumns?.[0] || 'Bagside',
+        answerColumns:demo.answerColumns || ['Bagside'],
+        noteColumn:demo.noteColumn || '',
+        categoryColumn:demo.categoryColumn || '',
+        imageBasePath:demo.imageBasePath || '',
+        gameTitle:demo.gameTitle || demo.title || 'Billedvendespil'
+      }
+    };
+    return app.dataManager.create({
+      sessionId:TN.runtime.activeSession.id,
+      name:`${namePrefix} · ${demo.title}`,
+      type:'picture-flip-source',
+      scope:'session',
+      columns:parsed.columns,
+      rows:matrixRows(parsed.columns, parsed.objects),
+      meta
+    });
+  }
+
+  async function importDemoImages(app,demo,objects,onProgress){
+    const byFile = new Map(), results=[];
+    for(let i=0;i<objects.length;i++){
+      const row = objects[i], url = imageUrlFor(row,demo), fileName = baseName(row[demo.imageColumn] || row.Billedsti || row.Billedfil || url) || `billede_${i+1}.png`;
+      onProgress?.(`Henter billede ${i+1}/${objects.length}: ${fileName}`);
+      const res = await fetch(url, {cache:'no-store'});
+      if(!res.ok) throw new Error(`Billedet kunne ikke hentes: ${url}`);
+      const blob = await res.blob();
+      const file = new File([blob], fileName, {type: blob.type || 'image/png'});
+      const result = await app.mediaManager.importFile(file, {optimize:true,maxDimension:900,quality:.84,keepOriginal:false});
+      byFile.set(baseName(fileName).toLocaleLowerCase('da'), result.media);
+      results.push({row,media:result.media,fileName,url});
+      await TN.idle?.(()=>{});
+    }
+    return {byFile,results};
+  }
+
+  function contentForImageMatrix(demo,dataset,imported,objects){
+    const items = objects.map((row,index)=>{
+      const fileName = baseName(row[demo.imageColumn] || row.Billedsti || row.Billedfil || '');
+      const found = imported.byFile.get(fileName.toLocaleLowerCase('da')) || imported.results[index]?.media;
+      const front = clean(row[demo.frontLabelColumn] || stemTitle(fileName) || `Billede ${index+1}`);
+      return {mediaId:found?.id || null,name:front,alt:front,fileName,rowIndex:index,sourceDatasetId:dataset.id};
+    });
+    return {
+      items,
+      page:0,
+      pageSize:12,
+      fit:'cover',
+      pictureFlipBinding:{
+        datasetId:dataset.id,
+        demoId:demo.id || '',
+        imageColumn:demo.imageColumn || 'Billedfil',
+        frontLabelColumn:demo.frontLabelColumn || '',
+        answerColumns:demo.answerColumns || ['Bagside'],
+        defaultAnswerColumn:demo.defaultAnswerColumn || demo.answerColumns?.[0] || 'Bagside',
+        noteColumn:demo.noteColumn || '',
+        categoryColumn:demo.categoryColumn || '',
+        gameTitle:demo.gameTitle || `Billedvendespil · ${demo.title}`
+      }
+    };
+  }
+
+  async function createDemoWorkflow(app,demo){
+    let message = 'Henter datasæt …';
+    app.toast?.(message);
+    const parsed = await loadDemoRows(demo);
+    if(!parsed.objects.length) throw new Error('Datasættet er tomt');
+    const dataset = await createSourceDataset(app,demo,parsed);
+    const imported = await importDemoImages(app,demo,parsed.objects, msg => { message = msg; app.toast?.(msg); });
+    const widget = await app.addWidget('image-matrix',{
+      title:demo.matrixTitle || `Billedmatrix · ${demo.title}`,
+      content:contentForImageMatrix(demo,dataset,imported,parsed.objects),
+      geometry:{x:70,y:70,width:1080,height:650}
+    });
+    app.toast?.(`Datasæt + billedmatrix er klar. Tryk “Forvandl til billedvendespil” på matrixen.`);
+    return {dataset,widget};
+  }
+
+  async function createFromLocalImages(app,files){
+    const accepted = [...(files||[])].filter(file => String(file.type||'').startsWith('image/'));
+    if(!accepted.length) throw new Error('Vælg en bunke billeder');
+    app.toast?.(`Importerer ${accepted.length} billeder …`);
+    const results = await app.mediaManager.importFiles(accepted,{optimize:true,maxDimension:900,quality:.84,keepOriginal:false});
+    const columns = ['KortID','Billedfil','Bagside','Kategori','Hint'];
+    const objects = accepted.map((file,index)=>({
+      KortID:`K${String(index+1).padStart(3,'0')}`,
+      Billedfil:file.name,
+      Bagside:stemTitle(file.name) || `Billede ${index+1}`,
+      Kategori:'',
+      Hint:'Bagsiden er oprettet fra billedets filnavn. Ret den i datasættet, hvis den skal være noget andet.'
+    }));
+    const demo = {id:'local-images',title:'Egne billeder',imageColumn:'Billedfil',frontLabelColumn:'Bagside',defaultAnswerColumn:'Bagside',answerColumns:['Bagside','Kategori'],noteColumn:'Hint',categoryColumn:'Kategori',matrixTitle:'Billedmatrix · egne billeder',gameTitle:'Billedvendespil · egne billeder'};
+    const dataset = await app.dataManager.create({sessionId:TN.runtime.activeSession.id,name:'Billedvendespil · datasæt fra billednavne',type:'picture-flip-source',scope:'session',columns,rows:matrixRows(columns,objects),meta:{createdBy:'PlanPictureFlipDemo',importedAt:now(),pictureFlip:{imageColumn:'Billedfil',frontLabelColumn:'Bagside',defaultAnswerColumn:'Bagside',answerColumns:['Bagside','Kategori'],noteColumn:'Hint',categoryColumn:'Kategori',gameTitle:demo.gameTitle}}});
+    const imported = {byFile:new Map(),results:results.map((result,index)=>({media:result.media,fileName:accepted[index].name,row:objects[index]}))};
+    imported.results.forEach(entry => imported.byFile.set(baseName(entry.fileName).toLocaleLowerCase('da'), entry.media));
+    await app.addWidget('image-matrix',{title:demo.matrixTitle,content:contentForImageMatrix(demo,dataset,imported,objects),geometry:{x:70,y:70,width:1080,height:650}});
+    app.toast?.('Billednavne er lavet til datasæt, og billedmatrixen er klar.');
+  }
+
+  function rowObject(dataset,row){
+    const obj={}; (dataset.columns||[]).forEach((col,i)=>obj[col]=Array.isArray(row)?row[i]??'':row?.[col]??''); return obj;
+  }
+
+  function cardsFromDatasetAndMatrix(dataset,widget){
+    const binding = widget.content?.pictureFlipBinding || dataset.meta?.pictureFlip || {};
+    const columns = dataset.columns || [];
+    const rows = (dataset.rows||[]).map(row => rowObject(dataset,row));
+    const answerColumns = (binding.answerColumns||[]).filter(col => columns.includes(col));
+    if(!answerColumns.length){
+      const fallback = columns.filter(col => !/billed|image|foto|fil|sti|path/i.test(col));
+      answerColumns.push(...fallback.slice(0,4));
+    }
+    const imageCol = binding.imageColumn || columns.find(c=>/billedfil|filnavn|image|foto/i.test(c)) || 'Billedfil';
+    const frontCol = binding.frontLabelColumn || '';
+    const noteCol = binding.noteColumn || '';
+    const categoryCol = binding.categoryColumn || '';
+    const items = Array.isArray(widget.content?.items) ? widget.content.items : [];
+    const itemByFile = new Map();
+    items.forEach((item,index)=>{
+      [item.fileName,item.name,item.alt].filter(Boolean).forEach(value => itemByFile.set(baseName(value).toLocaleLowerCase('da'), item));
+      itemByFile.set(`__index_${index}`,item);
+    });
+    return rows.map((row,index)=>{
+      const file = baseName(row[imageCol] || row.Billedsti || row.Billedfil || '');
+      const item = itemByFile.get(file.toLocaleLowerCase('da')) || itemByFile.get(`__index_${index}`) || items[index] || {};
+      const answers = {};
+      answerColumns.forEach(col => answers[col] = clean(row[col]));
+      const fallback = clean(row.Bagside || row.FuldeNavn || row.Navn || row.English || row.Dansk || stemTitle(file) || `Kort ${index+1}`);
+      if(!Object.values(answers).some(Boolean)) answers.Bagside = fallback;
+      return {
+        id:clean(row.KortID || row.ElevID || row.ID || file || uid('card')),
+        mediaId:item.mediaId || null,
+        src:item.src || '',
+        fileName:file,
+        frontLabel:clean(row[frontCol] || item.name || stemTitle(file) || `Kort ${index+1}`),
+        answers,
+        category:clean(row[categoryCol] || ''),
+        note:clean(row[noteCol] || row.Hint || row.HumorNote || ''),
+        rowIndex:index
+      };
+    }).filter(card => card.mediaId || card.src);
+  }
+
+  async function transformImageMatrix(app,widget){
+    const binding = widget.content?.pictureFlipBinding;
+    if(!binding?.datasetId) return app.toast?.('Billedmatrixen mangler et koblet datasæt');
+    const dataset = await app.dataManager.get(binding.datasetId);
+    if(!dataset) return app.toast?.('Det koblede datasæt findes ikke længere');
+    const cards = cardsFromDatasetAndMatrix(dataset,widget);
+    if(!cards.length) return app.toast?.('Der kunne ikke laves kort af koblingen');
+    const answerColumns = [...new Set(cards.flatMap(card => Object.keys(card.answers||{})))];
+    widget.type = 'picture-flip-game';
+    widget.title = binding.gameTitle || dataset.meta?.pictureFlip?.gameTitle || `Billedvendespil · ${dataset.name}`;
+    widget.content = {
+      cards,
+      answerColumns,
+      answerKey:(binding.defaultAnswerColumn && answerColumns.includes(binding.defaultAnswerColumn)) ? binding.defaultAnswerColumn : answerColumns[0],
+      sourceDatasetId:dataset.id,
+      sourceDatasetName:dataset.name,
+      sourceImageWidgetId:widget.id,
+      view:'matrix',
+      onlyUnknown:false,
+      flipped:{},
+      progress:{},
+      order:cards.map(card=>card.id),
+      activeIndex:0,
+      singleFlipped:false,
+      scores:{a:0,b:0},
+      createdAt:now()
+    };
+    await app.widgetManager.update(widget,{immediate:true});
+    await app.renderActiveBoard({preserveSelection:true});
+    app.selectWidget?.(widget.id);
+    app.toast?.('Billedmatrixen er forvandlet til billedvendespil');
+  }
+
+  function statsFor(cards,progress){
+    return cards.reduce((acc,card)=>{const st=progress?.[card.id]||'new';acc[st]=(acc[st]||0)+1;return acc;},{new:0,hard:0,almost:0,known:0});
+  }
+  function orderedCards(content){
+    const cards = Array.isArray(content.cards) ? content.cards : [];
+    const byId = new Map(cards.map(card=>[String(card.id),card]));
+    let ordered = Array.isArray(content.order) && content.order.length ? content.order.map(id=>byId.get(String(id))).filter(Boolean) : cards.slice();
+    if(content.onlyUnknown) ordered = ordered.filter(card => (content.progress?.[card.id]||'new') !== 'known');
+    return ordered;
+  }
+  async function mediaUrl(app,card,urls){
+    if(card.mediaId){
+      const media = await app.mediaManager.get(card.mediaId);
+      if(media?.blob){const url = URL.createObjectURL(media.blob); urls.push(url); return url;}
+    }
+    return card.src || '';
+  }
+
+  function installPictureGame(app){
+    if(!app || app.__PLAN_PICTURE_FLIP_INSTALLED__) return;
+    app.__PLAN_PICTURE_FLIP_INSTALLED__ = true;
+
+    app.widgetManager.register('picture-flip-game',{async mount({widget,body,app}){
+      const content = widget.content || {};
+      if(!content.progress) content.progress = {};
+      if(!content.flipped) content.flipped = {};
+      if(!content.scores) content.scores = {a:0,b:0};
+      const root = document.createElement('div');
+      root.className = 'tn-pfg';
+      body.append(root);
+      let urls=[],renderToken=0;
+      const release=()=>{for(const url of urls)try{URL.revokeObjectURL(url);}catch(_){}urls=[];};
+      const persist=async(immediate=false)=>app.widgetManager.update(widget,{immediate});
+      const setStatus=(id,status)=>{content.progress[id]=status;};
+      const answerOf = card => clean(card.answers?.[content.answerKey]) || clean(Object.values(card.answers||{}).find(Boolean)) || '—';
+      const toolbar = (cards,stat) => `<div class="tn-pfg-head">
+        <div class="tn-pfg-titleline"><strong>${esc(widget.title||'Billedvendespil')}</strong><small>${cards.length} kort · forside/bagside</small>
+          <label><small>Bagside:</small> <select data-pfg-answer>${(content.answerColumns||[]).map(col=>`<option value="${esc(col)}"${col===content.answerKey?' selected':''}>${esc(col)}</option>`).join('')}</select></label>
+        </div>
+        <div class="tn-pfg-actions">
+          <button type="button" data-pfg-action="view-matrix" class="${content.view!=='single'?'active':''}">Tavlematrix</button>
+          <button type="button" data-pfg-action="view-single" class="${content.view==='single'?'active':''}">En ad gangen</button>
+          <button type="button" data-pfg-action="shuffle">Bland</button>
+          <button type="button" data-pfg-action="toggle-known" class="${content.onlyUnknown?'active':''}">${content.onlyUnknown?'Vis alle':'Skjul kendte'}</button>
+          <button type="button" data-pfg-action="edit">Ret bagsider</button>
+          <button type="button" data-pfg-action="data">Åbn datasæt</button>
+        </div>
+        <div class="tn-pfg-stats">
+          <span class="tn-pfg-pill">Ny: ${stat.new||0}</span><span class="tn-pfg-pill">Kan ikke endnu: ${stat.hard||0}</span><span class="tn-pfg-pill">Næsten: ${stat.almost||0}</span><span class="tn-pfg-pill">Kan: ${stat.known||0}</span>
+        </div>
+      </div>`;
+      async function matrixHtml(list){
+        const token=++renderToken; release();
+        const parts = [];
+        for(const card of list){
+          const st = content.progress?.[card.id] || 'new', flipped = !!content.flipped?.[card.id], src = await mediaUrl(app,card,urls);
+          if(token !== renderToken) return '';
+          parts.push(`<button type="button" class="tn-pfg-card ${flipped?'flipped':''}" data-pfg-card="${esc(card.id)}" aria-label="Vend ${esc(card.frontLabel)}">
+            <span class="tn-pfg-status ${statusClass(st)}">${esc(statusIcons[st]||'?')}</span>
+            <span class="tn-pfg-card-inner">
+              <span class="tn-pfg-face tn-pfg-front"><img src="${esc(src)}" alt="${esc(card.frontLabel)}" draggable="false"><span>${esc(card.frontLabel)}</span></span>
+              <span class="tn-pfg-face tn-pfg-back"><b>${esc(answerOf(card))}</b><small>${esc(card.category||content.answerKey||'')}</small><small>${esc(card.note||'')}</small></span>
+            </span>
+          </button>`);
+        }
+        return `<div class="tn-pfg-body"><div class="tn-pfg-grid">${parts.join('')}</div></div>`;
+      }
+      async function singleHtml(list){
+        const card = list[Math.max(0,Math.min(list.length-1,Number(content.activeIndex)||0))];
+        if(!card) return `<div class="tn-pfg-empty">Ingen kort i denne visning.</div>`;
+        const src = await mediaUrl(app,card,urls), nameVisible = !!content.singleFlipped, st = content.progress?.[card.id] || 'new';
+        return `<div class="tn-pfg-body"><div class="tn-pfg-single"><div class="tn-pfg-single-card">
+          <img src="${esc(src)}" alt="${esc(card.frontLabel)}" draggable="false">
+          <div class="tn-pfg-single-info">
+            <small>${esc(card.category||'')}</small>
+            <h3>${nameVisible ? esc(answerOf(card)) : 'Hvad er det?'}</h3>
+            <p>${nameVisible ? esc(card.note || 'Ingen ekstra snydehjælp her.') : 'Gæt, vend kortet og giv eventuelt point.'}</p>
+            <div class="tn-pfg-single-controls"><button class="primary" type="button" data-pfg-action="single-flip">${nameVisible?'Skjul bagside':'Vend kort'}</button><button type="button" data-pfg-action="prev">‹ Forrige</button><button type="button" data-pfg-action="next">Næste ›</button><button type="button" data-pfg-action="random">Tilfældig</button></div>
+            <div class="tn-pfg-statusbar">
+              <button type="button" data-pfg-action="status" data-id="${esc(card.id)}" data-status="hard" class="${st==='hard'?'active':''}">Kan ikke endnu</button>
+              <button type="button" data-pfg-action="status" data-id="${esc(card.id)}" data-status="almost" class="${st==='almost'?'active':''}">Næsten</button>
+              <button type="button" data-pfg-action="status" data-id="${esc(card.id)}" data-status="known" class="${st==='known'?'active':''}">Kan</button>
+            </div>
+            <div class="tn-pfg-score"><b>Hold 1: ${Number(content.scores.a)||0}</b><button type="button" data-pfg-action="score-a">+1</button><b>Hold 2: ${Number(content.scores.b)||0}</b><button type="button" data-pfg-action="score-b">+1</button><button type="button" data-pfg-action="score-reset">Nulstil</button></div>
+          </div>
+        </div></div></div>`;
+      }
+      async function render(){
+        const cards = orderedCards(content), stat = statsFor(content.cards||[],content.progress||{});
+        root.innerHTML = toolbar(cards,stat) + '<div class="tn-pfg-empty">Henter billeder …</div>';
+        const bodyHtml = content.view === 'single' ? await singleHtml(cards) : await matrixHtml(cards);
+        root.innerHTML = toolbar(cards,stat) + bodyHtml;
+      }
+      async function openEditAnswers(){
+        const dataset = content.sourceDatasetId ? await app.dataManager.get(content.sourceDatasetId) : null;
+        if(!dataset) return app.toast?.('Datasættet findes ikke længere');
+        const col = content.answerKey || content.answerColumns?.[0] || 'Bagside';
+        const colIndex = (dataset.columns||[]).indexOf(col);
+        if(colIndex < 0) return app.toast?.(`Kolonnen ${col} findes ikke i datasættet`);
+        const body = document.createElement('div'); body.className='tn-pfg-edit';
+        body.innerHTML = `<p>Ret teksten på bagsiden for kolonnen <b>${esc(col)}</b>. Ændringen gemmes i sessionens datasæt og opdaterer spillet.</p>`;
+        (dataset.rows||[]).forEach((row,index)=>{
+          const obj = rowObject(dataset,row), label = clean(obj.FuldeNavn || obj.Dansk || obj.English || obj.Symbol || obj.Bagside || obj.Billedfil || `Kort ${index+1}`);
+          const div = document.createElement('label'); div.className='tn-pfg-edit-row';
+          div.innerHTML = `<small>${esc(label)}</small><input type="text" value="${esc(row[colIndex] ?? '')}" data-row="${index}">`;
+          body.append(div);
+        });
+        app.modalManager.open({title:'Ret bagsider',body,className:'tn-modal-wide',actions:[
+          {label:'Annuller',run:()=>{}},
+          {label:'Gem rettelser',primary:true,run:async()=>{
+            body.querySelectorAll('input[data-row]').forEach(input=>{
+              const i=Number(input.dataset.row); if(dataset.rows[i]) dataset.rows[i][colIndex]=input.value;
+              const card = (content.cards||[]).find(c=>Number(c.rowIndex)===i); if(card){card.answers=card.answers||{}; card.answers[col]=input.value;}
+            });
+            await app.dataManager.update(dataset); await persist(true); await render(); app.toast?.('Bagsiderne er opdateret');
+          }}
+        ]});
+      }
+      root.addEventListener('change',async event=>{
+        const select = event.target.closest('[data-pfg-answer]');
+        if(!select) return;
+        content.answerKey = select.value; content.singleFlipped=false; await persist(true); await render();
+      });
+      root.addEventListener('click',async event=>{
+        const cardEl = event.target.closest('[data-pfg-card]');
+        if(cardEl){event.preventDefault();event.stopPropagation();const id=cardEl.dataset.pfgCard;content.flipped[id]=!content.flipped[id];await persist(false);cardEl.classList.toggle('flipped');return;}
+        const el = event.target.closest('[data-pfg-action]');
+        if(!el) return;
+        event.preventDefault(); event.stopPropagation();
+        const action = el.dataset.pfgAction, list = orderedCards(content);
+        if(action === 'view-matrix'){content.view='matrix';content.singleFlipped=false;}
+        else if(action === 'view-single'){content.view='single';content.singleFlipped=false;}
+        else if(action === 'shuffle'){content.order=[...(content.cards||[]).map(c=>c.id)].sort(()=>Math.random()-.5);content.activeIndex=0;content.flipped={};}
+        else if(action === 'toggle-known'){content.onlyUnknown=!content.onlyUnknown;content.activeIndex=0;}
+        else if(action === 'single-flip'){content.singleFlipped=!content.singleFlipped;}
+        else if(action === 'prev'){content.activeIndex=(Number(content.activeIndex)||0)-1;if(content.activeIndex<0)content.activeIndex=Math.max(0,list.length-1);content.singleFlipped=false;}
+        else if(action === 'next'){content.activeIndex=((Number(content.activeIndex)||0)+1)%Math.max(1,list.length);content.singleFlipped=false;}
+        else if(action === 'random'){content.activeIndex=Math.floor(Math.random()*Math.max(1,list.length));content.singleFlipped=false;}
+        else if(action === 'status'){setStatus(el.dataset.id,el.dataset.status||'new');}
+        else if(action === 'score-a'){content.scores.a=(Number(content.scores.a)||0)+1;}
+        else if(action === 'score-b'){content.scores.b=(Number(content.scores.b)||0)+1;}
+        else if(action === 'score-reset'){content.scores={a:0,b:0};}
+        else if(action === 'data'){const ds=content.sourceDatasetId?await app.dataManager.get(content.sourceDatasetId):null; if(ds) await app.openDatasetAsWidget(ds,{closeMode:'view',viewRole:'picture-flip-source',sourceWidgetId:widget.id}); else app.toast?.('Datasættet findes ikke længere'); return;}
+        else if(action === 'edit'){await openEditAnswers(); return;}
+        await persist(true); await render();
+      });
+      root.addEventListener('pointerdown',event=>{ if(event.target.closest('button,select,input')) event.stopPropagation(); }, true);
+      await render();
+      return()=>{renderToken++;release();};
+    },unmount(){}});
+  }
+
+  function enhanceImageMatrix(app){
+    if(app.__PLAN_PICTURE_FLIP_MATRIX_PATCHED__) return;
+    const original = app.widgetManager.definition('image-matrix');
+    if(!original || original.__pictureFlipWrapped) return;
+    app.__PLAN_PICTURE_FLIP_MATRIX_PATCHED__ = true;
+    app.widgetManager.register('image-matrix',{...original,__pictureFlipWrapped:true,async mount(ctx){
+      const cleanup = await original.mount(ctx);
+      const {widget,body,app} = ctx, binding = widget.content?.pictureFlipBinding;
+      if(binding?.datasetId){
+        const panel = document.createElement('div');
+        panel.className = 'tn-pfg-bind-panel';
+        panel.innerHTML = `<strong>Koblet datasæt</strong><small>Matrixen er klar: billederne ligger i mediearkivet, og datasættet ligger i sessionens dataliste.</small><button type="button" data-pfg-open-data>Åbn datasæt</button><button type="button" class="primary" data-pfg-transform>Forvandl til billedvendespil</button>`;
+        body.append(panel);
+        panel.querySelector('[data-pfg-open-data]').onclick = async event => {event.preventDefault();event.stopPropagation();const ds=await app.dataManager.get(binding.datasetId); if(ds) await app.openDatasetAsWidget(ds,{closeMode:'view',viewRole:'picture-flip-source',sourceWidgetId:widget.id}); else app.toast?.('Datasættet findes ikke længere');};
+        panel.querySelector('[data-pfg-transform]').onclick = async event => {event.preventDefault();event.stopPropagation();await transformImageMatrix(app,widget);};
+        panel.addEventListener('pointerdown',event=>event.stopPropagation(),true);
+      }
+      return cleanup;
+    }});
+  }
+
+  if(TN.Models && !TN.Models.__pictureFlipTitlePatch){
+    TN.Models.__pictureFlipTitlePatch = true;
+    const oldTitle = TN.Models.widgetTitle;
+    TN.Models.widgetTitle = function(type){return type === 'picture-flip-game' ? 'Billedvendespil' : oldTitle.call(this,type);};
+    const oldDefault = TN.Models.defaultWidgetContent;
+    TN.Models.defaultWidgetContent = function(type){return type === 'picture-flip-game' ? {cards:[],answerColumns:['Bagside'],answerKey:'Bagside',view:'matrix',flipped:{},progress:{},order:[],scores:{a:0,b:0}} : oldDefault.call(this,type);};
+  }
+
+  function openPicker(app){
+    app = app || appNow(); if(!app) return;
+    installPictureGame(app); enhanceImageMatrix(app);
+    const body = document.createElement('div'); body.className='tn-pfg-picker';
+    body.innerHTML = `<p><b>Billedvendespil</b> bruger den samme arbejdsgang til navneleg, sprogkort, planeter og faglige begreber: datasæt i sessionen + billedmatrix + kobling → spil.</p><div class="tn-pfg-demo-grid" data-demo-grid><div class="tn-pfg-file-card" data-local><strong>Importer egne billeder</strong><span>Vælg en bunke billeder. Plan laver automatisk et datasæt ud fra filnavnene, som du kan rette før spillet.</span></div></div><p>GitHub-sti: <code>index.html</code> skal ligge ved siden af mappen <code>navneleg-demo/</code>.</p>`;
+    const grid = body.querySelector('[data-demo-grid]');
+    const input = document.createElement('input'); input.type='file'; input.accept='image/*'; input.multiple=true; input.hidden=true; body.append(input);
+    body.querySelector('[data-local]').onclick=()=>input.click();
+    input.onchange=async()=>{try{app.modalManager.closeAll(); await createFromLocalImages(app,input.files);}catch(error){console.error(error);app.toast?.(error.message||'Billederne kunne ikke importeres');}};
+    loadDemoIndex().then(index=>{
+      for(const demo of index.demos||[]){
+        const card = document.createElement('button'); card.type='button'; card.className='tn-pfg-demo-card';
+        card.innerHTML = `<strong>${esc(demo.title)}</strong><span>${esc(demo.humor || '')}</span><span><code>${esc(demo.datasetPath)}</code></span>`;
+        card.onclick=async()=>{try{app.modalManager.closeAll(); await createDemoWorkflow(app,demo);}catch(error){console.error(error);app.toast?.(error.message||'Demoen kunne ikke oprettes');}};
+        grid.insertBefore(card, body.querySelector('[data-local]'));
+      }
+    }).catch(error=>{
+      const warn=document.createElement('p'); warn.innerHTML=`Demoindekset kunne ikke hentes. Læg mappen <code>navneleg-demo</code> ved siden af HTML-filen.`;
+      body.append(warn); console.warn(error);
+    });
+    app.modalManager.open({title:'Opret billedvendespil',body,className:'tn-modal-wide',actions:[{label:'Luk',run:()=>{}}]});
+  }
+
+  function attachToolbarButton(){
+    const toolbar = document.querySelector('#tavleNextApp .tn-toolbar');
+    if(!toolbar || toolbar.querySelector('[data-plan-picture-flip-button]')) return;
+    const button = document.createElement('button');
+    button.type='button'; button.className='tn-tool tn-pfg-toolbar-button'; button.dataset.planPictureFlipButton='1';
+    button.title='Opret billedvendespil'; button.innerHTML='<span>🃏</span><small>Billedspil</small>';
+    button.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();const app=appNow(); if(app) openPicker(app);});
+    const after = toolbar.querySelector('[data-action="data"]') || toolbar.querySelector('[data-action="image"]') || toolbar.querySelector('[data-action="add"]');
+    if(after && after.parentElement === toolbar) after.insertAdjacentElement('afterend',button); else toolbar.prepend(button);
+  }
+
+  const previousRegister = TN.registerDefaultWidgets;
+  TN.registerDefaultWidgets = function(app){previousRegister?.(app); installPictureGame(app); setTimeout(()=>enhanceImageMatrix(app),0);};
+
+  TN.PlanPictureFlip = {openPicker,createDemoWorkflow,createFromLocalImages,transformImageMatrix,installPictureGame};
+  const boot = () => {const app=appNow(); if(app){installPictureGame(app);enhanceImageMatrix(app);} attachToolbarButton();};
+  if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded',boot,{once:true}); else boot();
+  queueMicrotask(boot);
+  let tries=0; const timer=setInterval(()=>{boot(); if(++tries>80 || (appNow() && document.querySelector('[data-plan-picture-flip-button]'))) clearInterval(timer);},250);
+})(window.TavleNext);
+</script>
+
 </body>
 </html>

@@ -1,0 +1,99 @@
+{
+  "schema": "plan-picture-flip-demo-index-v2",
+  "title": "Plan Billedvendespil demoer",
+  "description": "Demoer der viser rigtig arbejdsgang: hent datasæt til sessionen, opret billedmatrix, koble datasæt og forvandle matrixen til et billedvendespil/navnespil.",
+  "baseFolder": "navneleg-demo",
+  "demos": [
+    {
+      "id": "students",
+      "title": "Navneleg · opdigtede elever",
+      "kind": "student-name-game",
+      "humor": "25 demoelever med efternavne fra lærerværelsets parallelunivers.",
+      "datasetPath": "navneleg-demo/students/elevstamdata_navneleg_demo.csv",
+      "xlsxPath": "navneleg-demo/students/elevstamdata_navneleg_demo.xlsx",
+      "imageBasePath": "navneleg-demo/students/photos/",
+      "imageColumn": "Billedfil",
+      "frontLabelColumn": "Fornavn",
+      "defaultAnswerColumn": "FuldeNavn",
+      "answerColumns": [
+        "FuldeNavn",
+        "Bagside",
+        "Klasse"
+      ],
+      "noteColumn": "HumorNote",
+      "categoryColumn": "Klasse",
+      "matrixTitle": "Billedmatrix · demoelever",
+      "gameTitle": "Navnespil · opdigtede elever"
+    },
+    {
+      "id": "fruit-vegetables",
+      "title": "Frugt og grønt · sprog",
+      "kind": "language-picture-game",
+      "humor": "Sund ordforrådstræning, nu med mindre risiko for frugtsalat på SmartBoardet.",
+      "datasetPath": "navneleg-demo/fruit-vegetables/frugt_groent_flersproget_demo.csv",
+      "imageBasePath": "navneleg-demo/fruit-vegetables/photos/",
+      "imageColumn": "Billedfil",
+      "frontLabelColumn": "Dansk",
+      "defaultAnswerColumn": "English",
+      "answerColumns": [
+        "English",
+        "Deutsch",
+        "Français",
+        "Español",
+        "Dansk"
+      ],
+      "noteColumn": "Hint",
+      "categoryColumn": "Kategori",
+      "matrixTitle": "Billedmatrix · frugt og grønt",
+      "gameTitle": "Billedvendespil · fruit & vegetables",
+      "xlsxPath": "navneleg-demo/fruit-vegetables/frugt_groent_flersproget_demo.xlsx"
+    },
+    {
+      "id": "periodic-table",
+      "title": "Periodisk tabel · de første 25",
+      "kind": "science-picture-game",
+      "humor": "Elementært, min kære kemilærer.",
+      "datasetPath": "navneleg-demo/periodic-table/periodisk_tabel_demo.csv",
+      "imageBasePath": "navneleg-demo/periodic-table/photos/",
+      "imageColumn": "Billedfil",
+      "frontLabelColumn": "Symbol",
+      "defaultAnswerColumn": "Bagside",
+      "answerColumns": [
+        "Bagside",
+        "English",
+        "Dansk",
+        "Symbol",
+        "AtomicNumber",
+        "Group"
+      ],
+      "noteColumn": "Hint",
+      "categoryColumn": "Group",
+      "matrixTitle": "Billedmatrix · periodisk tabel",
+      "gameTitle": "Billedvendespil · periodisk tabel",
+      "xlsxPath": "navneleg-demo/periodic-table/periodisk_tabel_demo.xlsx"
+    },
+    {
+      "id": "planets",
+      "title": "Planeter og rumobjekter",
+      "kind": "space-picture-game",
+      "humor": "Fra Merkur til Pluto — ja, Pluto må godt være med i demoen.",
+      "datasetPath": "navneleg-demo/planets/planeter_demo.csv",
+      "imageBasePath": "navneleg-demo/planets/photos/",
+      "imageColumn": "Billedfil",
+      "frontLabelColumn": "Dansk",
+      "defaultAnswerColumn": "English",
+      "answerColumns": [
+        "English",
+        "Dansk",
+        "Bagside",
+        "Type",
+        "OrderFromSun"
+      ],
+      "noteColumn": "Hint",
+      "categoryColumn": "Type",
+      "matrixTitle": "Billedmatrix · planeter",
+      "gameTitle": "Billedvendespil · planeter",
+      "xlsxPath": "navneleg-demo/planets/planeter_demo.xlsx"
+    }
+  ]
+}
