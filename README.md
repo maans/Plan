@@ -1,27 +1,56 @@
 # Plan
 
-Plan er et lokalt arbejdsrum til undervisning. Du samler forløb, tavler, materialer, elever, grupper, kalender, kilder, huskekort og spil ét sted.
+Plan er lærerens lokale forløbs- og tavleværktøj. Du samler undervisningsforløb, tavler, kalender, opgaver, materialereferencer, elevdata, grupper, huskekort og KaPardy ét sted.
 
-Plan er tænkt til lærere, der vil have overblik uden at miste fleksibiliteten: Du kan starte med et færdigt demoforløb, tilpasse det til din klasse og gemme arbejdet som din egen kopi.
+Plan er tænkt til lærere, der vil have overblik uden at miste fleksibiliteten: Du kan starte med et demoforløb eller en skabelon, tilpasse det til din klasse og gemme arbejdet som din egen lokale kopi.
+
+## Materialer i Plan
+
+Plan er ikke en fagportal i traditionel forstand. En fagportal stiller materialer til rådighed. Plan hjælper dig med at planlægge, organisere og bruge de materialer, du allerede har adgang til — i din egen lokale kopi.
+
+Når et forløb mangler et materiale, kan du tilføje det manuelt. Det gør forløb lette at dele, tilpasse og genbruge, uden at selve forløbet behøver at indeholde alle filer fra start.
+
+## Demoforløb og skabeloner
+
+Plan-biblioteket kan indeholde både demoforløb og skabeloner.
+
+**Demoforløb** er færdige eksempler med tavler, opgaver, beskrivelser, huskekort og KaPardy. De viser, hvordan et forløb kan gennemføres.
+
+**Skabeloner** er tomme eller næsten tomme startpunkter, hvor læreren selv udfylder titler, datoer, elevdata og materialer.
+
+Et demoforløb kan også bruges som skabelon: behold strukturen, og udskift det indhold, der ikke passer.
+
+Når du henter et demoforløb eller en skabelon, opretter Plan en selvstændig lokal kopi. Den lokale kopi kan frit redigeres uden at ændre originalen.
 
 ## Hvad bruger man Plan til?
 
 - Bygge årsforløb og korte undervisningsforløb.
-- Samle tavler, PDF’er, links, billeder, video og lyd.
+- Samle tavler, opgaver, PDF-pladsholdere, links, billeder, video og lyd.
 - Knytte tavler til datoer i kalenderen.
-- Arbejde med elever, hold, grupper og fælles data.
+- Arbejde med elever, hold, grupper og fælles data lokalt.
 - Lave kildematricer, huskekort, repetition og KaPardy.
 - Gemme og flytte forløb som sikkerhedskopier.
+- Dele forløbsstrukturer med kolleger og selv tilføje materialer lokalt.
 
 ## Hurtig start
 
 1. Åbn Plan.
-2. Vælg **Hent demoforløb**, hvis du vil starte med et færdigt forløb.
+2. Vælg **Hent demoforløb**, hvis du vil starte med et færdigt eksempel.
 3. Vælg fag eller søg efter emne.
 4. Tryk **Se og brug**.
 5. Plan laver en lokal kopi, som du frit kan redigere.
-6. Brug tavlerne fra venstre mod højre, eller vælg tavlerne fra oversigten.
-7. Gem en sikkerhedskopi, når du har tilpasset noget vigtigt.
+6. Tilføj de materialer, du har adgang til, manuelt i din lokale kopi.
+7. Brug tavlerne fra venstre mod højre, eller vælg tavlerne fra oversigten.
+8. Gem en sikkerhedskopi, når du har tilpasset noget vigtigt.
+
+## Navigation
+
+- **← / →** skifter tavle.
+- **Shift+← / Shift+→** skifter til forrige eller næste session i samme undervisningsforløb.
+- **K** åbner eller lukker kalenderen.
+- **Shift+M** maksimerer den valgte widget.
+- I maksimeret visning bladrer **↑ / ↓** mellem tavlens synlige widgets.
+- Når en maksimeret widget er en PDF, bruger PDF’en stadig **← / →** til sidebladring.
 
 ## 20 spørgsmål fra professoren
 
@@ -110,11 +139,14 @@ Gode anvendelser:
 
 Tag en sikkerhedskopi, når du har lavet ændringer, du ikke vil miste. Det er især vigtigt efter større tilpasninger, import af mange filer eller opbygning af et helt årsforløb.
 
+Vær opmærksom på, at en sikkerhedskopi kan indeholde både materialer, noter og elevoplysninger. Del derfor kun sikkerhedskopier, når indholdet passer til modtageren.
+
 ## God arbejdsgang
 
-1. Start med et færdigt forløb eller en tom session.
-2. Saml kilder og materialer.
-3. Lav tavler med tydelige arbejdsopgaver.
-4. Brug grupper, timer og huskekort til aktivitet.
-5. Afslut med fælles opsamling, KaPardy eller elevproduktion.
-6. Gem en sikkerhedskopi.
+1. Start med et demoforløb, en skabelon eller en tom session.
+2. Tilpas struktur, datoer og tavler.
+3. Tilføj lokale materialer, du har ret til at bruge.
+4. Lav tavler med tydelige arbejdsopgaver.
+5. Brug grupper, timer og huskekort til aktivitet.
+6. Afslut med fælles opsamling, KaPardy eller elevproduktion.
+7. Gem en sikkerhedskopi.
