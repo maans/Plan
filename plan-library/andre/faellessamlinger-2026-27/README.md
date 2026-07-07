@@ -19,3 +19,8 @@ Samlingerne om Himmerlands Efterskole, Sydvest, køkkenet og skolens historier e
 Samlingerne om besættelsen, Holocaust, den kolde krig og Ukraine skal bruges med ro og præcision. Start med de få sikre fakta, brug tydelige kilder, og giv plads til samtale om dilemmaer, menneskeværd og ansvar.
 
 Forløbet kan frit tilpasses. Slet, ret og flyt tavler, så de passer til årets faktiske fællessamlinger, ansvarlige lærere og lokale aftaler.
+
+
+## Kvalitetsrunde 3
+
+Denne runde løfter især Danmarkshistorie, tyranni/demokrati, Dansk Vestindien, Grønland og demokratiforløb. Spørgsmålene er skrevet, så de kan bruges direkte i fællessamling: få sikre pointer, tydelige dilemmaer, ordentlige svarmuligheder og plads til samtale.
