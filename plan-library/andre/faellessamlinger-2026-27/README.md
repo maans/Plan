@@ -12,17 +12,18 @@ Et samlet forløb til årets fællessamlinger. Forløbet samler ugens temaer, da
 
 ## Lokale samlinger om HU
 
-Samlingerne om Himmerlands Efterskole, Sydvest, køkkenet, rejser, gymnastik, sang og skolens traditioner er nu bygget tydeligere på jubilæumsskriftet og skolens egne fortællinger.
+Samlingerne om Himmerlands Efterskole, Sydvest, køkkenet, rejser, gymnastik, sang og skolens traditioner bygger nu tydeligere på jubilæumsskriftet og skolens egne fortællinger.
 
-Brug gerne billederne aktivt: Lad eleverne beskrive, hvad de kan se, hvad billedteksten fortæller, og hvad billedet ikke kan forklare alene. Et gammelt foto er ikke bare pynt; det er en kilde til tøj, rum, vaner, fællesskab og forandring.
+Brug billederne aktivt: Hvad kan eleverne se? Hvilket år eller hvilken situation viser billedet? Hvad siger billedteksten? Og hvad kan billedet ikke fortælle alene?
 
-## Sydvest og køkkenet
+## Gode greb
 
-Sydvest-samlingerne skal helst kobles til det virkelige område. Gå derud, hvis det kan lade sig gøre. Brug Maria, elever, WOOFere, haver, høns, kaniner og køkkenet som levende kilder. Lad Dennis fortælle, hvordan råvarer, dyrkning, måltider og skolehverdag hænger sammen.
-
-## Sang, gymnastik og afslutning
-
-Fællessang og gymnastik er ikke bare aktiviteter. De er måder, et elevhold bliver til et fællesskab på. Brug sangene, HU-leve, opvisning, tak og årets minder som samtaler om, hvad eleverne tager med sig.
+- Ved Sydvest: Gå ud i området, hvis det kan lade sig gøre. Brug Maria, elever, WOOFere, haver, høns, kaniner og køkkenet som levende kilder.
+- Ved køkken og jord-til-bord: Lad Dennis koble råvarer, dyrkning, smag, madspild og skolehverdag sammen.
+- Ved sang: Syng først, tal bagefter. Fællessang mærkes bedst før den forklares.
+- Ved gymnastik: Brug opvisningen som billede på forpligtende fællesskab: mange elever skal lykkes sammen.
+- Ved rejser: Lad eleverne planlægge konkret. Transport, mad, overnatning og klima er ikke detaljer – de er ansvar.
+- Ved afsked: Brug gamle og nye billeder til at tale om, hvad et skoleår efterlader.
 
 ## Historiske samlinger
 
