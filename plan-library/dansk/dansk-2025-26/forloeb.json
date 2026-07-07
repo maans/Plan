@@ -25757,9 +25757,9 @@
       "materialSourceReferencesRemoved": true,
       "mediaRemovedForGithub": 65
     },
-    "contentHash": "ae4fbf6d50707f797ea230ab7ca63b4a5321844546735bf86ad89142cf2d54e9",
-    "packageHash": "bad390506bdb4db3f6de2b3fd78dc3b93babc3ab6e1060b236cbddfffe762670",
-    "materialsMode": "external-manual"
+    "contentHash": "2dec5f5621bddf7320143f8a29ecb8f7f38d60a8e104e52e7470901e2c8a65fe",
+    "packageHash": "b6f50c0851c2e8b3ea99b5dbdb00abfe82da573ae2cd407f42cc0a6863bcbe5a",
+    "materialsMode": "external-manual-placeholders"
   },
   "warnings": [
     "Denne GitHub-version indeholder ikke indlejrede PDF’er eller billeder.",
@@ -25782,7 +25782,7 @@
     "exportedAt": "2026-07-07T01:30:00.000Z",
     "sourceAppVersion": "0.9.3r"
   },
-  "updatedAt": "2026-07-07T10:35:28Z",
+  "updatedAt": "2026-07-07T12:50:00.000Z",
   "meta": {
     "materialPatches": [
       {
@@ -25829,6 +25829,8 @@
         "tavlestruktur",
         "kalenderdata"
       ]
-    }
+    },
+    "githubReadyWithoutMaterials": true,
+    "materialsRemovedAt": "2026-07-07T12:50:00.000Z"
   }
 }

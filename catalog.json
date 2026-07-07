@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · årsforløb og demoforløb",
   "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-07T01:30",
+  "updatedAt": "2026-07-07T12:50",
   "categories": [
     {
       "id": "dansk",
@@ -59,7 +59,7 @@
       "title": "Dansk 9.–10. klasse · årsplan 2025–26",
       "category": "dansk",
       "subject": "Dansk",
-      "description": "Et samlet danskforløb med familie, identitet, litteraturhistorie, frihed, reklamer, prøveforberedelse og afsluttende KaPardy-repetition.",
+      "description": "Et samlet danskforløb uden indlejrede materialer: familie, identitet, litteraturhistorie, frihed, reklamer, prøveforberedelse og afsluttende KaPardy-repetition. Materialer tilføjes manuelt lokalt.",
       "schoolYear": "2025–26",
       "gradeLevels": [
         "9",
@@ -76,9 +76,9 @@
         "huskekort",
         "demo"
       ],
-      "version": "1.0.0",
+      "version": "1.0.1-github",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/dansk-2025-26/forloeb.json",
-      "sizeBytes": 571541,
+      "sizeBytes": 885780,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
