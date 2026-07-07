@@ -66,3 +66,14 @@ Gode greb:
 - Ved natur: koble begreberne til elevernes nærnatur og Sydvest, så biodiversitet og trivsel ikke bliver abstrakt.
 - Ved revolution: skel mellem begivenhed, symbol og eftertid.
 - Ved musikhistorie: lyt både efter lyd og efter den sociale sammenhæng musikken kommer fra.
+
+## KaPardy i fællessamlingerne
+
+KaPardy-spillene er tænkt som korte fælles afslutninger, ikke som prøver. Brug dem til at samle op på dagens fortælling:
+
+1. Fortæl eller vis først kernen i emnet.
+2. Lad eleverne tale kort to og to om de vigtigste pointer.
+3. Spil KaPardy som fælles repetition.
+4. Stop gerne ved et spørgsmål, hvis det åbner for en god samtale.
+
+Svarmulighederne er skrevet, så de forkerte svar lyder som mulige misforståelser eller for snævre vinkler. Derfor kan spillet bruges til at tale om, hvorfor et svar er bedre end et andet — ikke bare til at tælle point.
