@@ -1,9 +1,9 @@
 {
   "format": "plan-library-catalog",
   "version": 2,
-  "title": "Plan · årsforløb og demoforløb",
-  "description": "Færdige årsforløb og skabeloner, som Plan henter som selvstændige lokale arbejdskopier.",
-  "updatedAt": "2026-07-07T12:50",
+  "title": "Plan · demoforløb og skabeloner",
+  "description": "Demoforløb og arbejdsklare skabeloner, som Plan henter som selvstændige lokale kopier.",
+  "updatedAt": "2026-07-07T13:20",
   "categories": [
     {
       "id": "dansk",
@@ -49,6 +49,11 @@
       "id": "andre",
       "title": "Andre",
       "description": "Tværfaglige forløb, skoleliv, fællessamlinger, kontaktgrupper og øvrige forløb."
+    },
+    {
+      "id": "skabeloner",
+      "title": "Skabeloner",
+      "description": "Tomme, men arbejdsklare tavlesæt til fag, roller, hold og efterskolearbejdsgange."
     }
   ],
   "items": [
@@ -1098,6 +1103,279 @@
       "sizeBytes": 84449,
       "featured": false,
       "updatedAt": "2026-07-06T23:55"
+    },
+    {
+      "id": "kontaktgruppe",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Kontaktgruppe",
+      "category": "skabeloner",
+      "subject": "Kontaktgruppe",
+      "description": "Kontaktlærerens tomme tavlesæt til elevoversigt, samtaler, aftaler, forældrekontakt og trivsel.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "kontaktgruppe",
+        "elevsamtaler",
+        "trivsel",
+        "forældrekontakt"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/kontaktgruppe/forloeb.json",
+      "sizeBytes": 18542,
+      "featured": true,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "fagforloeb-4-6-uger",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Fagforløb 4–6 uger",
+      "category": "skabeloner",
+      "subject": "Fagforløb",
+      "description": "Tomt fagforløb med mål, materialebank, lektionstavler, opgavekort, timer, KaPardy og huskekort.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "fagforløb",
+        "lektioner",
+        "materialebank",
+        "KaPardy",
+        "huskekort"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/fagforloeb-4-6-uger/forloeb.json",
+      "sizeBytes": 33678,
+      "featured": true,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "aarsforloeb",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Årsforløb",
+      "category": "skabeloner",
+      "subject": "Årsforløb",
+      "description": "Tom årsstruktur med kalender, forløbskort, materialebank og evaluering.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "årsforløb",
+        "kalender",
+        "planlægning"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/aarsforloeb/forloeb.json",
+      "sizeBytes": 29893,
+      "featured": true,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "materialebank",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Materialebank",
+      "category": "skabeloner",
+      "subject": "Materialebank",
+      "description": "Tom materialebank til lærerens egne PDF’er, billeder, links, lyd/video og opgaver.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "materialebank",
+        "PDF",
+        "billeder",
+        "links"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/materialebank/forloeb.json",
+      "sizeBytes": 33310,
+      "featured": true,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "kapardy-repetition",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · KaPardy og repetition",
+      "category": "skabeloner",
+      "subject": "Repetition",
+      "description": "Tomt KaPardy- og huskekortsetup til repetition, prøveforberedelse og begrebstræning.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "KaPardy",
+        "huskekort",
+        "repetition",
+        "spørgsmålsbank"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/kapardy-repetition/forloeb.json",
+      "sizeBytes": 13289,
+      "featured": true,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "udtalelser",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Udtalelser",
+      "category": "skabeloner",
+      "subject": "Udtalelser",
+      "description": "Arbejdsgang til elevdata, noter, udtalelseskladder, tjek og færdiggørelse.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "udtalelser",
+        "elevnoter",
+        "kladder"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/udtalelser/forloeb.json",
+      "sizeBytes": 13059,
+      "featured": false,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "praktisk-uge",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Praktisk uge",
+      "category": "skabeloner",
+      "subject": "Praktisk uge",
+      "description": "Tavlesæt til hold, opgaver, dagsplaner og opsamling i en praktisk uge.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "praktisk uge",
+        "hold",
+        "opgaver"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/praktisk-uge/forloeb.json",
+      "sizeBytes": 25958,
+      "featured": false,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "rejsehold",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Rejsehold",
+      "category": "skabeloner",
+      "subject": "Rejsehold",
+      "description": "Planlægningstavler til deltagerliste, program, pakkeliste, aftaler og opsamling før/under/efter en rejse.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "rejsehold",
+        "studietur",
+        "pakkeliste",
+        "program"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/rejsehold/forloeb.json",
+      "sizeBytes": 14530,
+      "featured": false,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "koekkenhold",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Køkkenhold",
+      "category": "skabeloner",
+      "subject": "Køkkenhold",
+      "description": "Overblik til køkkenhold, opgaver, opskrifter, timer, rengøring og evaluering.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "køkkenhold",
+        "køkken",
+        "opskrifter",
+        "rengøring"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/koekkenhold/forloeb.json",
+      "sizeBytes": 14531,
+      "featured": false,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "vikar",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Vikar",
+      "category": "skabeloner",
+      "subject": "Vikar",
+      "description": "Klar vikarskabelon med dagsplan, materialer, holdinfo, besked til lærer og backupopgaver.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "vikar",
+        "dagsplan",
+        "materialer",
+        "backup"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/vikar/forloeb.json",
+      "sizeBytes": 13136,
+      "featured": false,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "gruppeinddeling-gruppetavler",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · Gruppeinddeling og gruppetavler",
+      "category": "skabeloner",
+      "subject": "Grupper",
+      "description": "Tavlesæt til deltagerliste, gruppeinddeling, gruppetavleskabelon og opsamling.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "grupper",
+        "gruppetavler",
+        "gruppearbejde"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/gruppeinddeling-gruppetavler/forloeb.json",
+      "sizeBytes": 14526,
+      "featured": false,
+      "updatedAt": "2026-07-07"
+    },
+    {
+      "id": "sydvest-linjehold",
+      "kind": "template",
+      "status": "published",
+      "title": "Skabelon · SydVest / linjehold",
+      "category": "skabeloner",
+      "subject": "Linjehold",
+      "description": "Fleksibel skabelon til linjehold eller aktivitetshold med deltagere, kalender, materialer og projekter.",
+      "schoolYear": "Skabelon",
+      "gradeLevels": [],
+      "tags": [
+        "skabelon",
+        "SydVest",
+        "linjehold",
+        "aktiviteter",
+        "projekter"
+      ],
+      "version": "0.1.0",
+      "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/sydvest-linjehold/forloeb.json",
+      "sizeBytes": 16428,
+      "featured": false,
+      "updatedAt": "2026-07-07"
     }
   ]
 }
