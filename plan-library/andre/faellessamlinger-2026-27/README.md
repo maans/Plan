@@ -53,3 +53,16 @@ Gode greb:
 - Ved AI-billeder: spørg ikke kun om billedet “ser ægte ud”, men hvor det kommer fra, hvem der bruger det og hvad det bruges som bevis for.
 - Ved Israel/Palæstina, migration og klima: brug daterede tal og tydelige kilder, og hold sproget præcist og menneskeligt.
 - Ved håb og handlekraft: slut med noget konkret eleverne kan gøre, ikke kun noget de skal mene.
+
+## Runde 8: årshjul, taler, natur, revolution og musikhistorie
+
+Denne runde gør flere resterende samlinger mindre generiske og mere brugbare som fællessamlinger.
+
+Gode greb:
+
+- Ved jul: tal om traditioner som noget mennesker skaber, gentager og ændrer – ikke som faste facitlister.
+- Ved fællessang: brug sangen som fælles handling og kort rammesætning, ikke som musikquiz alene.
+- Ved taler: spørg altid hvem der taler, til hvem, hvorfor nu, og hvad publikum skal sidde tilbage med.
+- Ved natur: koble begreberne til elevernes nærnatur og Sydvest, så biodiversitet og trivsel ikke bliver abstrakt.
+- Ved revolution: skel mellem begivenhed, symbol og eftertid.
+- Ved musikhistorie: lyt både efter lyd og efter den sociale sammenhæng musikken kommer fra.

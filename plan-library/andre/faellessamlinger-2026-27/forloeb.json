@@ -42884,7 +42884,7 @@
         "z": 1
       },
       "content": {
-        "text": "DEN DANSKE JULS HISTORIE\nMandag 14/12\n\nHISTORISK PROBLEMSTILLING\nHvordan blev religiøs højtid, bondesamfundets vinterfest og borgerlig familiejul blandet til det, mange kalder dansk jul?\n\nFEM FAKTA, DER SKAL FREM\n1. Det er et førkristent nordisk højtidsord\n   Ordet overlevede kristningen og blev navn for den kristne højtid i Norden.\n2. I 1800-tallet\n   Træ, gaver, børn og hjemmets ritualer blev centrale i den moderne familiejul.\n3. Fra tysktalende områder\n   De første kendte danske juletræer findes i begyndelsen af 1800-tallet, før skikken bredte sig socialt.\n4. Julemåltidet varierer efter region, økonomi og familiehistorie\n   Der findes ikke én ubrudt national menu.\n5. Kalendere, radio, tv og reklamer skabte fælles nationale ritualer\n   Julekalendere og bestemte udsendelser er nyere traditioner, som hurtigt kan opleves som gamle.\n\nKONKLUSION\nDen danske jul er ikke en bevaret oldtidspakke, men en lagdelt tradition med religiøse, lokale og kommercielle spor.",
+        "text": "DEN DANSKE JULS HISTORIE\nMandag 14/12\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan bliver en højtid til en tradition, som føles gammel, selv om mange dele er forholdsvis nye?\n\nDET SKAL ELEVERNE HAVE MED\n1. Julen i Danmark er ikke én uforandret tradition. Den er et lag af kristne fortællinger, nordiske vinterritualer, borgerlige familieformer, handel, medier og lokale vaner.\n2. Juletræ, julegaver, julesalmer, nisser, julekalendere og familiejul har forskellige historier og er blevet almindelige på forskellige tidspunkter.\n3. Traditioner virker stærke, fordi de gentages: samme sange, samme mad, samme lys, samme forventninger.\n4. En god samtale om jul undersøger både tro, kultur, økonomi, familie, ensomhed og fællesskab.\n5. På en efterskole kan julen bruges til at tale om, hvordan man skaber fælles ritualer uden at alle behøver have samme baggrund.\n\nGREB\nBed eleverne nævne én juletradition, de tror er “meget gammel”. Undersøg bagefter, om den faktisk er gammel, eller om den er blevet almindelig i moderne tid.",
         "fontSize": 17,
         "align": "left"
       },
@@ -42897,7 +42897,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.444Z",
-      "updatedAt": "2026-06-24T22:43:07.444Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-0140fdd9-faglig",
@@ -43147,7 +43147,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Det er et førkristent nordisk højtidsord\n2. I 1800-tallet\n3. Fra tysktalende områder\n4. Julemåltidet varierer efter region, økonomi og familiehistorie\n5. Kalendere, radio, tv og reklamer skabte fælles nationale ritualer",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Dansk jul er sammensat af kristendom, vinterkultur, familiehistorie, handel og lokale skikke.\n2. Mange traditioner føles gamle, fordi de gentages, selv om de kan være nyere end man tror.\n3. Juletraditioner kan både samle og udelukke; derfor skal fællesskaber arbejde bevidst med dem.\n4. Kilder til julehistorie kan være salmer, billeder, madtraditioner, erindringer, tv og reklamer.\n5. Det vigtigste spørgsmål er ikke kun “hvad plejer vi?”, men “hvad gør traditionen ved os?”.",
         "fontSize": 14,
         "align": "left"
       },
@@ -43160,7 +43160,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.445Z",
-      "updatedAt": "2026-06-24T22:43:07.445Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-0140fdd9-kernersvar",
@@ -43204,116 +43204,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad betyder ordet jul i nordisk sammenhæng?",
-            "answer": "Det er et førkristent nordisk højtidsord",
+            "category": "Tradition",
+            "question": "Hvad er en god samlet forklaring på dansk jul?",
+            "answer": "Et lag af kristne fortællinger, vinterritualer, familiekultur, handel og lokale vaner",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Det er et førkristent nordisk højtidsord",
-              "En uforanderlig skik med samme betydning overalt",
-              "En individuel vane uden fælles eller symbolsk betydning",
-              "En religiøs regel, der følges ens i alle lande"
+              "Et lag af kristne fortællinger, vinterritualer, familiekultur, handel og lokale vaner",
+              "En tradition der altid har været uændret siden vikingetiden",
+              "En højtid uden forbindelse til religion eller kultur",
+              "En rent moderne tv-opfindelse uden historiske spor"
             ],
-            "id": "kp_den-danske-juls-historie_01"
+            "id": "kp_jul8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvornår blev juleaften som familiefest særlig tydelig i borgerskabet?",
-            "answer": "I 1800-tallet",
+            "category": "Juletræ",
+            "question": "Hvad viser juletræets historie i Danmark?",
+            "answer": "At traditioner kan vandre mellem lande og blive lokale med tiden",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "I 1800-tallet",
-              "I 1799-tallet",
-              "I 1790-tallet",
-              "I 1805-tallet"
+              "At traditioner kan vandre mellem lande og blive lokale med tiden",
+              "At alle danske familier altid har haft juletræ",
+              "At juletræet stammer fra amerikansk fastfood",
+              "At træet kun bruges i kirker og aldrig i hjem"
             ],
-            "id": "kp_den-danske-juls-historie_02"
+            "id": "kp_jul8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvorfra kom juletræsskikken til Danmark?",
-            "answer": "Fra tysktalende områder",
+            "category": "Gentagelse",
+            "question": "Hvorfor føles traditioner ofte stærke?",
+            "answer": "Fordi de gentages med sange, mad, lys, fortællinger og forventninger",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Fra tysktalende områder",
-              "Kirken",
-              "Medierne",
-              "En uforanderlig regel fra oldtiden"
+              "Fordi de gentages med sange, mad, lys, fortællinger og forventninger",
+              "Fordi de kun sker én gang og derefter glemmes",
+              "Fordi alle oplever dem helt ens",
+              "Fordi de ikke kan ændre sig"
             ],
-            "id": "kp_den-danske-juls-historie_03"
+            "id": "kp_jul8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvorfor spiser danskere både and, gås og flæskesteg?",
-            "answer": "Fordi julemåltidet varierer efter region, økonomi og familiehistorie",
+            "category": "Fællesskab",
+            "question": "Hvad bør en efterskole være opmærksom på ved juletraditioner?",
+            "answer": "At traditioner kan samle, men også føles fremmede for nogle elever",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Fordi julemåltidet varierer efter region, økonomi og familiehistorie",
-              "Fordi handel, migration og medier blander skikke",
-              "Fordi lokale variationer blev forbudt af myndighederne",
-              "Fordi traditioner ændres, når de bruges i nye fællesskaber"
+              "At traditioner kan samle, men også føles fremmede for nogle elever",
+              "At alle elever har præcis samme jul derhjemme",
+              "At jul kun handler om pyntens farver",
+              "At samtale om traditioner er forbudt"
             ],
-            "id": "kp_den-danske-juls-historie_04"
+            "id": "kp_jul8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan ændrede massemedier julen?",
-            "answer": "Kalendere, radio, tv og reklamer skabte fælles nationale ritualer",
+            "category": "Kilder",
+            "question": "Hvilken kilde kan bruges til at undersøge julekultur?",
+            "answer": "Salmer, billeder, madtraditioner, erindringer, tv og reklamer",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Kalendere, radio, tv og reklamer skabte fælles nationale ritualer",
-              "Traditionen blev kopieret uændret fra ét land til alle andre",
-              "Den religiøse betydning forsvandt straks og fuldstændigt",
-              "Myndighederne fastlagde én officiel udgave for hele verden"
+              "Salmer, billeder, madtraditioner, erindringer, tv og reklamer",
+              "Kun supermarkedets priser",
+              "Kun vejrudsigten juleaften",
+              "Kun hvor mange gaver man får"
             ],
-            "id": "kp_den-danske-juls-historie_05"
+            "id": "kp_jul8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Den danske juls historie?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Forandring",
+            "question": "Hvad betyder det, at traditioner er historiske?",
+            "answer": "De er opstået, ændret og fortolket af mennesker gennem tid",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "De er opstået, ændret og fortolket af mennesker gennem tid",
+              "De er naturlover uden begyndelse",
+              "De kan aldrig diskuteres",
+              "De er altid ens i alle lande"
             ],
-            "id": "kp_den-danske-juls-historie_06"
+            "id": "kp_jul8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Den danske juls historie helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Samtale",
+            "question": "Hvad er et godt spørgsmål til en samling om jul?",
+            "answer": "Hvad gør traditionen ved fællesskabet?",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Hvad gør traditionen ved fællesskabet?",
+              "Hvem har den dyreste julepynt?",
+              "Hvor hurtigt kan man pakke gaver ud?",
+              "Hvilken reklame har flest farver?"
             ],
-            "id": "kp_den-danske-juls-historie_07"
+            "id": "kp_jul8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Den danske juls historie bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Nuance",
+            "question": "Hvad er en moden måde at tale om dansk jul på?",
+            "answer": "At se både tro, kultur, familie, økonomi, glæde og ensomhed",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "At se både tro, kultur, familie, økonomi, glæde og ensomhed",
+              "At påstå at alle elsker jul på samme måde",
+              "At reducere jul til konkurrencer",
+              "At undgå alle historiske forklaringer"
             ],
-            "id": "kp_den-danske-juls-historie_08"
+            "id": "kp_jul8_08"
           }
         ],
         "current": 0,
@@ -43331,7 +43331,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.445Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-05-den-danske-juls-historie-kapardy-game",
@@ -44488,7 +44488,7 @@
         "z": 1
       },
       "content": {
-        "text": "FÆLLESSANG OG ÅRETS SIDSTE SAMLING\nFredag 18/12\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan sang, lys og ritualer bære et fællesskab gennem jul og afslutning?\n\nDET SKAL ELEVERNE HAVE MED\n1. Jubilæumsskriftet fortæller, at den store juleafslutning med taler, kor og Lucia stadig er en tradition.\n2. Palle og Edith beskriver, hvordan elevtaler og et stort flerstemmigt elevkor gjorde juleafslutningen til noget, eleverne blev i.\n3. HU-leve og HU-klap viser, at fællesskab også kan sidde i lyd, rytme og gentagelse.\n4. Sang er ikke bare fremførelse. Det er en måde at lade mange stemmer gøre noget samtidigt.\n5. Årets sidste samling bør både samle, takke og sende eleverne videre med en følelse af at høre til.\n\nGREB\nLad eleverne lytte efter tre lag: teksten, stemmerne og ritualet omkring sangen.",
+        "text": "FÆLLESSANG OG ÅRETS SIDSTE SAMLING\nFredag 18/12\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor kan en sang gøre noget, som en tale ikke kan?\n\nDET SKAL ELEVERNE HAVE MED\n1. Fællessang er ikke kun musik. Det er en fælles handling, hvor elever og voksne trækker vejret, lytter og former samme tekst på samme tid.\n2. HU’s jubilæumsskrift beskriver sang som et af skolens fællesfag sammen med gymnastik. Det gør sang til en del af skolens fællesskabsform, ikke bare et indslag.\n3. En afsluttende samling skal ikke kun lukke en periode. Den skal hjælpe eleverne med at huske, hvad de har delt, og hvordan de vil gå videre.\n4. Sangvalg betyder noget: nogle sange samler omkring erindring, andre omkring håb, humor, tro, afsked eller mod.\n5. Den gode introduktion til en sang gør eleverne klar til at synge med mening, ikke bare ramme tonerne.\n\nGREB\nVælg én sang. Fortæl på 60 sekunder, hvorfor den passer til netop denne dag. Syng derefter uden at forklare mere.",
         "fontSize": 17,
         "align": "left"
       },
@@ -44501,7 +44501,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.447Z",
-      "updatedAt": "2026-07-07T00:24:15Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-1408db98-faglig",
@@ -44751,7 +44751,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Juleafslutningen binder taler, kor, Lucia og fællessang sammen.\n2. Elevstemmer gør en afslutning stærkere end en voksenmonolog.\n3. HU-leve og HU-klap er lydlige traditioner, som skaber genkendelse.\n4. Et kor kan være en engangsoplevelse for nogle elever og alligevel blive et stærkt minde.\n5. En god afslutning både rummer tak, fællesskab og overgang.",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Fællessang er en kropslig og social fælleshandling.\n2. På HU hænger sang sammen med fællesskab, tradition og skolens daglige rytme.\n3. Sangvalg kan sætte retning for stemningen i en samling.\n4. En god sangintroduktion åbner teksten og situationen for eleverne.\n5. Årets sidste samling bør give både tak, eftertanke og blik fremad.",
         "fontSize": 14,
         "align": "left"
       },
@@ -44764,7 +44764,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.449Z",
-      "updatedAt": "2026-07-07T00:24:15Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-1408db98-kernersvar",
@@ -44808,116 +44808,116 @@
         ],
         "questions": [
           {
-            "category": "Juleafslutning",
-            "question": "Hvilke elementer nævner jubilæumsskriftet som stadig levende tradition?",
-            "answer": "Taler, kor og Lucia",
+            "category": "Fællessang",
+            "question": "Hvad gør fællessang særligt i en samling?",
+            "answer": "Mange mennesker udfører samme tekst, rytme og åndedræt sammen",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Taler, kor og Lucia",
-              "Kun karakteruddeling",
-              "Kun tavs spisning",
-              "Kun en sportsfinale"
+              "Mange mennesker udfører samme tekst, rytme og åndedræt sammen",
+              "Én person viser teknisk kunnen alene",
+              "Alle konkurrerer om at synge højest",
+              "Sangen erstatter al mening med lyd"
             ],
-            "id": "kp_faellessang5_01"
+            "id": "kp_faellessang8_01"
           },
           {
-            "category": "Elevstemmer",
-            "question": "Hvad gjorde elevtaler ved juleafslutningen hos Palle og Edith?",
-            "answer": "De fik eleverne til at blive i hallen og lytte",
+            "category": "HU",
+            "question": "Hvordan beskrives sang i HU’s jubilæumsskrift?",
+            "answer": "Som et af skolens fællesfag sammen med gymnastik",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "De fik eleverne til at blive i hallen og lytte",
-              "De gjorde samlingen kortere end et minut",
-              "De fjernede alle elever fra scenen",
-              "De gjorde sang overflødig"
+              "Som et af skolens fællesfag sammen med gymnastik",
+              "Som et valgfag der kun findes hvert femte år",
+              "Som noget der kun foregår uden elever",
+              "Som en tradition uden fællesskab"
             ],
-            "id": "kp_faellessang5_02"
+            "id": "kp_faellessang8_02"
           },
           {
-            "category": "Elevkor",
-            "question": "Hvad var særligt ved det store elevkor?",
-            "answer": "Alle elever optrådte sammen, flerstemmigt med julesange",
+            "category": "Sangvalg",
+            "question": "Hvorfor betyder sangvalg noget?",
+            "answer": "Fordi sange kan bære håb, afsked, humor, tro eller fælles minder",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Alle elever optrådte sammen, flerstemmigt med julesange",
-              "Kun lærere sang alene",
-              "Det var uden musik og tekst",
-              "Det var en prøve i tavshed"
+              "Fordi sange kan bære håb, afsked, humor, tro eller fælles minder",
+              "Fordi alle sange skaber samme stemning",
+              "Fordi melodien gør teksten ligegyldig",
+              "Fordi valget kun handler om længde"
             ],
-            "id": "kp_faellessang5_03"
+            "id": "kp_faellessang8_03"
           },
           {
-            "category": "Ritual",
-            "question": "Hvad viser HU-klap og HU-leve?",
-            "answer": "At rytme og lyd kan bære fællesskab og tradition",
+            "category": "Introduktion",
+            "question": "Hvad kendetegner en god sangintroduktion?",
+            "answer": "Den åbner tekstens betydning og dagens situation kort og præcist",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "At rytme og lyd kan bære fællesskab og tradition",
-              "At kun skriftlige regler betyder noget",
-              "At traditioner ikke må gentages",
-              "At sang ikke er fælles"
+              "Den åbner tekstens betydning og dagens situation kort og præcist",
+              "Den forklarer alle vers i ti minutter",
+              "Den afslører at sangen er uvigtig",
+              "Den handler kun om komponistens fødselsdag"
             ],
-            "id": "kp_faellessang5_04"
-          },
-          {
-            "category": "Sang",
-            "question": "Hvad er fællessang i en efterskole?",
-            "answer": "Mange stemmer, der gør noget sammen",
-            "correctIndex": 0,
-            "points": 500,
-            "options": [
-              "Mange stemmer, der gør noget sammen",
-              "En konkurrence om at synge højest",
-              "Kun solister på scene",
-              "Et individuelt karakterfag"
-            ],
-            "id": "kp_faellessang5_05"
+            "id": "kp_faellessang8_04"
           },
           {
             "category": "Afslutning",
-            "question": "Hvad skal årets sidste samling gerne gøre?",
-            "answer": "Samle, takke og sende eleverne videre",
-            "correctIndex": 0,
-            "points": 300,
-            "options": [
-              "Samle, takke og sende eleverne videre",
-              "Skjule at året slutter",
-              "Undgå alle minder",
-              "Erstatte fællesskabet med en test"
-            ],
-            "id": "kp_faellessang5_06"
-          },
-          {
-            "category": "Lucia",
-            "question": "Hvorfor virker Lucia ofte stærkt i en juleafslutning?",
-            "answer": "Fordi lys, bevægelse og sang skaber ritual og stemning",
-            "correctIndex": 0,
-            "points": 400,
-            "options": [
-              "Fordi lys, bevægelse og sang skaber ritual og stemning",
-              "Fordi ingen skal deltage",
-              "Fordi den kun handler om teknik",
-              "Fordi den fjerner teksten"
-            ],
-            "id": "kp_faellessang5_07"
-          },
-          {
-            "category": "Minde",
-            "question": "Hvorfor kan et kor blive et stort minde?",
-            "answer": "Fordi elever mærker at de er del af noget større end sig selv",
+            "question": "Hvad skal årets sidste samling kunne?",
+            "answer": "Samle tak, eftertanke, fælles minder og blik fremad",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Fordi elever mærker at de er del af noget større end sig selv",
-              "Fordi alle synger alene",
-              "Fordi man aldrig øver sig",
-              "Fordi sangen ikke deles"
+              "Samle tak, eftertanke, fælles minder og blik fremad",
+              "Kun tælle hvor mange dage der er tilbage",
+              "Aflyse alle traditioner",
+              "Handle om hvem der sang mest korrekt"
             ],
-            "id": "kp_faellessang5_08"
+            "id": "kp_faellessang8_05"
+          },
+          {
+            "category": "Deltagelse",
+            "question": "Hvorfor kan fællessang være sårbar for elever?",
+            "answer": "Man bruger sin egen stemme i et fælles rum",
+            "correctIndex": 0,
+            "points": 300,
+            "options": [
+              "Man bruger sin egen stemme i et fælles rum",
+              "Man behøver ikke være til stede",
+              "Man kan ikke høre andre",
+              "Man slipper for at deltage i fællesskabet"
+            ],
+            "id": "kp_faellessang8_06"
+          },
+          {
+            "category": "Lytning",
+            "question": "Hvad kræver fællessang ud over at synge?",
+            "answer": "At lytte til hinanden og følge en fælles puls",
+            "correctIndex": 0,
+            "points": 400,
+            "options": [
+              "At lytte til hinanden og følge en fælles puls",
+              "At overdøve alle omkring sig",
+              "At synge sin egen sang samtidig",
+              "At ignorere teksten"
+            ],
+            "id": "kp_faellessang8_07"
+          },
+          {
+            "category": "Mening",
+            "question": "Hvornår bliver en sang mere end et nummer på programmet?",
+            "answer": "Når den forbindes med situation, mennesker og fælles erindring",
+            "correctIndex": 0,
+            "points": 500,
+            "options": [
+              "Når den forbindes med situation, mennesker og fælles erindring",
+              "Når den synges uden kontekst hver gang",
+              "Når ingen forstår teksten",
+              "Når den vælges tilfældigt"
+            ],
+            "id": "kp_faellessang8_08"
           }
         ],
         "current": 0,
@@ -44935,7 +44935,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.449Z",
-      "updatedAt": "2026-07-07T00:24:15Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-08-faellessang-og-aarets-si-kapardy-game",
@@ -45097,7 +45097,7 @@
         "z": 1
       },
       "content": {
-        "text": "JULETRADITIONER PÅ TVÆRS AF VERDEN\nMandag 7/12\n\nHISTORISK PROBLEMSTILLING\nHvorfor ligner juletraditioner hinanden på tværs af lande, samtidig med at datoer, figurer, mad og ritualer varierer?\n\nFEM FAKTA, DER SKAL FREM\n1. Jesu fødsel\n   Evangeliernes fortællinger er religiøst grundlag, men mange nutidige skikke har andre historiske rødder.\n2. De følger den julianske kalender i den liturgiske datering\n   Forskellen skyldes kalenderbrug, ikke en anden religiøs begivenhed.\n3. Sankt Nikolaus, europæiske gavefigurer og amerikansk populærkultur\n   Figuren er et historisk miks, som er blevet globaliseret gennem litteratur, reklame og film.\n4. De viser klima, handel, religion og familieøkonomi\n   Ris, krydderier, nødder, kød og bagværk kan afsløre globale forbindelser.\n5. At traditioner blandes og får nye lokale former\n   Jul er ikke en fast pakke, men ændres gennem migration, medier og familier.\n\nKONKLUSION\nJuletraditioner er historiske blandinger, der både kan skabe fællesskab og vise forskelle i tro, klasse, geografi og migration.",
+        "text": "JULETRADITIONER PÅ TVÆRS AF VERDEN\nMandag 7/12\n\nSPØRGSMÅL TIL SAMLINGEN\nHvad sker der, når samme højtid får forskellige former i forskellige kulturer?\n\nDET SKAL ELEVERNE HAVE MED\n1. Jul fejres på mange måder, fordi kristendom, lokale vintertraditioner, kolonihistorie, migration, klima og familieformer mødes forskelligt.\n2. Nogle lande lægger vægt på religiøse gudstjenester, andre på familie, mad, gaveudveksling, optog, lys eller offentlige ritualer.\n3. Det er vigtigt at undgå “eksotiske fun facts” som eneste viden. Spørg altid: Hvad betyder ritualet for dem, der bruger det?\n4. Sammenligning er bedst, når den undersøger ligheder og forskelle uden at rangordne kulturer.\n5. Eleverne kan bruge jul i verden som øvelse i kulturmøder: nysgerrighed, præcision og respekt.\n\nGREB\nLad grupper vælge en tradition og forklare: Hvem deltager? Hvad gøres? Hvad betyder det? Hvad ligner noget vi kender?",
         "fontSize": 17,
         "align": "left"
       },
@@ -45110,7 +45110,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.440Z",
-      "updatedAt": "2026-06-24T22:43:07.440Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-653f6982-faglig",
@@ -45360,7 +45360,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Jesu fødsel\n2. De følger den julianske kalender i den liturgiske datering\n3. Sankt Nikolaus, europæiske gavefigurer og amerikansk populærkultur\n4. De viser klima, handel, religion og familieøkonomi\n5. At traditioner blandes og får nye lokale former",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Højtider forandres af lokale forhold, religion, historie, klima og migration.\n2. En tradition skal forstås indefra, ikke kun som et mærkeligt “fun fact”.\n3. Gode sammenligninger viser både ligheder og forskelle.\n4. Mad, lys, sange og ritualer kan have dybere social betydning end selve formen.\n5. Kulturmøder kræver nysgerrige spørgsmål og respektfuldt sprog.",
         "fontSize": 14,
         "align": "left"
       },
@@ -45373,7 +45373,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.441Z",
-      "updatedAt": "2026-06-24T22:43:07.441Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-0-653f6982-kernersvar",
@@ -45417,116 +45417,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvilken begivenhed markerer kristen jul?",
-            "answer": "Jesu fødsel",
+            "category": "Kulturmøde",
+            "question": "Hvorfor fejres jul forskelligt rundt om i verden?",
+            "answer": "Fordi religion, lokal kultur, klima, historie og migration former højtiden",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Jesu fødsel",
-              "Detailhandlen",
-              "En national tradition uden påvirkning udefra",
-              "En fælles skik med lokale variationer"
+              "Fordi religion, lokal kultur, klima, historie og migration former højtiden",
+              "Fordi alle lande har fået samme manual",
+              "Fordi jul kun handler om sne",
+              "Fordi traditioner ikke påvirkes af mennesker"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_01"
+            "id": "kp_julverden8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvorfor fejrer nogle ortodokse kirker jul 7. januar?",
-            "answer": "Fordi de følger den julianske kalender i den liturgiske datering",
+            "category": "Sammenligning",
+            "question": "Hvad er en god måde at sammenligne traditioner på?",
+            "answer": "Undersøg både ligheder, forskelle og betydning for deltagerne",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Fordi de følger den julianske kalender i den liturgiske datering",
-              "Fordi traditioner ændres, når de bruges i nye fællesskaber",
-              "Fordi lokale variationer blev forbudt af myndighederne",
-              "Fordi traditionen kun blev skabt af moderne reklamer"
+              "Undersøg både ligheder, forskelle og betydning for deltagerne",
+              "Rangordn kulturer efter hvor mærkelige de virker",
+              "Vælg kun den tradition der ligner ens egen",
+              "Undgå at spørge hvad ritualet betyder"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_02"
+            "id": "kp_julverden8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvor stammer den moderne Santa Claus-figur blandt andet fra?",
-            "answer": "Sankt Nikolaus, europæiske gavefigurer og amerikansk populærkultur",
+            "category": "Respekt",
+            "question": "Hvad er problemet med kun at kalde andre traditioner “sjove” eller “mærkelige”?",
+            "answer": "Det kan gøre menneskers meningsfulde ritualer til underholdning udefra",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Sankt Nikolaus, europæiske gavefigurer og amerikansk populærkultur",
-              "Nederlandene",
-              "Mexico",
-              "Tyskland"
+              "Det kan gøre menneskers meningsfulde ritualer til underholdning udefra",
+              "Det gør forklaringen mere præcis",
+              "Det viser altid dyb respekt",
+              "Det erstatter behovet for kilder"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_03"
+            "id": "kp_julverden8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvorfor er madtraditioner gode historiske kilder?",
-            "answer": "Fordi de viser klima, handel, religion og familieøkonomi",
+            "category": "Ritual",
+            "question": "Hvad bør man spørge om ved et ritual?",
+            "answer": "Hvem deltager, hvad gøres, og hvad betyder det?",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Fordi de viser klima, handel, religion og familieøkonomi",
-              "Fordi den nyeste kilde altid er den mest troværdige",
-              "Fordi tid, sted og afsender kan ændre hvordan oplysningerne skal forstås",
-              "Fordi kilder kan være selektive og kræver kontrol"
+              "Hvem deltager, hvad gøres, og hvad betyder det?",
+              "Hvor dyrt ser det ud?",
+              "Kan det bruges som reklame?",
+              "Hvor hurtigt kan det afskaffes?"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_04"
+            "id": "kp_julverden8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er kulturel hybridisering?",
-            "answer": "At traditioner blandes og får nye lokale former",
+            "category": "Migration",
+            "question": "Hvordan kan migration påvirke jul?",
+            "answer": "Traditioner kan flytte med mennesker og blandes med nye lokale skikke",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "At traditioner blandes og får nye lokale former",
-              "At sammenligne hvordan samme skik bruges forskellige steder",
-              "At udpege én korrekt udgave af traditionen",
-              "At skelne mellem ældre rødder og moderne form"
+              "Traditioner kan flytte med mennesker og blandes med nye lokale skikke",
+              "Alle traditioner forsvinder straks",
+              "Ingen familier ændrer nogensinde ritualer",
+              "Migration handler kun om sprogprøver"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_05"
+            "id": "kp_julverden8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Juletraditioner på tværs af verden?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Mad",
+            "question": "Hvorfor er mad ofte central i højtider?",
+            "answer": "Den samler mennesker, minder og familiehistorier omkring konkrete handlinger",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Den samler mennesker, minder og familiehistorier omkring konkrete handlinger",
+              "Fordi mad aldrig har symbolsk betydning",
+              "Fordi alle lande spiser præcis det samme",
+              "Fordi mad gør religion irrelevant"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_06"
+            "id": "kp_julverden8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Juletraditioner på tværs af verden helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Lys",
+            "question": "Hvorfor optræder lys ofte i vinterhøjtider?",
+            "answer": "Det kan markere håb, fællesskab og overgang i en mørk årstid",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Det kan markere håb, fællesskab og overgang i en mørk årstid",
+              "Fordi pærer kun virker i december",
+              "Fordi lys altid betyder det samme i alle religioner",
+              "Fordi vinterhøjtider ikke har historie"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_07"
+            "id": "kp_julverden8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Juletraditioner på tværs af verden bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Elevopgave",
+            "question": "Hvad er den bedste elevopgave om jul i verden?",
+            "answer": "Forklar en tradition med kilde, betydning og respektfuld sammenligning",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Forklar en tradition med kilde, betydning og respektfuld sammenligning",
+              "Find den mærkeligste detalje og stop der",
+              "Lav kun en liste over lande uden forklaring",
+              "Gæt uden at undersøge noget"
             ],
-            "id": "kp_juletraditioner-p-tv-rs-af-verden_08"
+            "id": "kp_julverden8_08"
           }
         ],
         "current": 0,
@@ -45544,7 +45544,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.441Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-14-jul-i-verden-og-danmark-01-juletraditioner-paa-tvae-kapardy-game",
@@ -47005,7 +47005,7 @@
         "z": 1
       },
       "content": {
-        "text": "VI SKRIVER EGNE TALER\nMandag 11/1\n\nHISTORISK PROBLEMSTILLING\nHvordan omdannes historisk viden til en kort tale med tydelig påstand, belæg og appel uden at forenkle fakta?\n\nFEM FAKTA, DER SKAL FREM\n1. Det centrale synspunkt, publikum skal forstå eller acceptere\n   En stærk påstand kan formuleres i én præcis sætning.\n2. Dokumentation eller begrundelse for påstanden\n   Historiske taler skal skelne mellem kildebelagt fakta, fortolkning og personlig vurdering.\n3. Talerens troværdighed\n   Ethos skabes gennem faglig sikkerhed, fair gengivelse og relation til publikum.\n4. Argumentets logik og dokumentation\n   Logos kræver sammenhæng mellem påstand, belæg og konklusion.\n5. Følelsesmæssig appel\n   Pathos kan gøre emnet vigtigt, men må ikke erstatte præcision.\n\nKONKLUSION\nDen bedste elevtale bruger historisk stof som dokumentation og viser tydeligt, hvornår taleren fortolker eller appellerer.",
+        "text": "VI SKRIVER EGNE TALER\nMandag 11/1\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan skriver man en tale, der faktisk kan siges højt for andre?\n\nDET SKAL ELEVERNE HAVE MED\n1. En tale er skrevet til ører, ikke kun til øjne. Korte sætninger, pauser og tydelige billeder virker ofte bedre end tætte afsnit.\n2. Den gode tale har en situation: hvem taler, til hvem, hvorfor nu?\n3. En enkel struktur hjælper: åbning, fortælling/eksempel, pointe, opfordring eller afrunding.\n4. Et konkret eksempel er ofte stærkere end en generel påstand.\n5. Respons på taler bør handle om virkning: Hvad husker vi? Hvor blev vi berørt? Hvor blev budskabet klart?\n\nGREB\nSkriv først talens sidste sætning. Hvad skal publikum sidde tilbage med? Byg derefter talen baglæns.",
         "fontSize": 17,
         "align": "left"
       },
@@ -47018,7 +47018,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.458Z",
-      "updatedAt": "2026-06-24T22:43:07.458Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-15-store-taler-05-vi-skriver-fbf024e0-faglig",
@@ -47268,7 +47268,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Det centrale synspunkt, publikum skal forstå eller acceptere\n2. Dokumentation eller begrundelse for påstanden\n3. Talerens troværdighed\n4. Argumentets logik og dokumentation\n5. Følelsesmæssig appel",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Taler skal kunne siges højt og høres i rummet.\n2. En tale kræver tydelig situation, modtager og formål.\n3. Struktur og konkrete eksempler gør budskabet lettere at huske.\n4. Pauser, gentagelser og billeder kan bære betydning.\n5. Respons skal hjælpe taleren, ikke bare bedømme personen.",
         "fontSize": 14,
         "align": "left"
       },
@@ -47281,7 +47281,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.459Z",
-      "updatedAt": "2026-06-24T22:43:07.459Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-15-store-taler-05-vi-skriver-fbf024e0-kernersvar",
@@ -47325,116 +47325,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad er en talers hovedpåstand?",
-            "answer": "Det centrale synspunkt, publikum skal forstå eller acceptere",
+            "category": "Mundtlighed",
+            "question": "Hvad betyder det, at en tale er skrevet til ører?",
+            "answer": "Den skal kunne høres, forstås og huskes, når den siges højt",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Det centrale synspunkt, publikum skal forstå eller acceptere",
-              "Et mundtligt budskab med argumenter, appel og fremførelse",
-              "En liste over fakta uden sammenhæng",
-              "En tekst uden tydelig modtager eller hensigt"
+              "Den skal kunne høres, forstås og huskes, når den siges højt",
+              "Den skal kun fungere som stillelæsning",
+              "Den skal være sværere end en roman",
+              "Den skal undgå alle pauser"
             ],
-            "id": "kp_vi-skriver-egne-taler_01"
+            "id": "kp_taleskriv8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad er belæg?",
-            "answer": "Dokumentation eller begrundelse for påstanden",
+            "category": "Situation",
+            "question": "Hvilket spørgsmål skal en taler kunne besvare?",
+            "answer": "Hvem taler til hvem, og hvorfor netop nu?",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Dokumentation eller begrundelse for påstanden",
-              "Borgerrettighedsbevægelsen",
-              "Fakta uden afsender eller formål",
-              "Statsministeriet"
+              "Hvem taler til hvem, og hvorfor netop nu?",
+              "Hvor mange sider kan jeg fylde?",
+              "Kan jeg undgå en afslutning?",
+              "Hvordan skjuler jeg min pointe?"
             ],
-            "id": "kp_vi-skriver-egne-taler_02"
+            "id": "kp_taleskriv8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad betyder ethos?",
-            "answer": "Talerens troværdighed",
+            "category": "Struktur",
+            "question": "Hvilken struktur er enkel og brugbar?",
+            "answer": "Åbning, eksempel, pointe og afrunding",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Talerens troværdighed",
-              "En reklame uden påstand eller appel",
-              "En privat samtale uden publikum",
-              "En tekst uden tydelig modtager eller hensigt"
+              "Åbning, eksempel, pointe og afrunding",
+              "Tilfældige fakta uden retning",
+              "Kun citater uden egen stemme",
+              "Først konklusion og derefter ingenting"
             ],
-            "id": "kp_vi-skriver-egne-taler_03"
+            "id": "kp_taleskriv8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad betyder logos?",
-            "answer": "Argumentets logik og dokumentation",
+            "category": "Eksempel",
+            "question": "Hvorfor er konkrete eksempler stærke?",
+            "answer": "De gør en pointe synlig og lettere at huske",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Argumentets logik og dokumentation",
-              "En reklame uden påstand eller appel",
-              "Et mundtligt budskab med argumenter, appel og fremførelse",
-              "En tekst uden tydelig modtager eller hensigt"
+              "De gør en pointe synlig og lettere at huske",
+              "De fjerner budskabet",
+              "De gør talen mindre menneskelig",
+              "De virker kun i skriftlige rapporter"
             ],
-            "id": "kp_vi-skriver-egne-taler_04"
+            "id": "kp_taleskriv8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad betyder pathos?",
-            "answer": "Følelsesmæssig appel",
+            "category": "Afslutning",
+            "question": "Hvorfor kan man starte med at skrive sidste sætning?",
+            "answer": "Fordi den viser, hvad publikum skal sidde tilbage med",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Følelsesmæssig appel",
-              "En reklame uden påstand eller appel",
-              "En tekst uden tydelig modtager eller hensigt",
-              "En privat samtale uden publikum"
+              "Fordi den viser, hvad publikum skal sidde tilbage med",
+              "Fordi resten af talen så er overflødig",
+              "Fordi afslutningen aldrig betyder noget",
+              "Fordi det skjuler formålet"
             ],
-            "id": "kp_vi-skriver-egne-taler_05"
+            "id": "kp_taleskriv8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Vi skriver egne taler?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Virkemiddel",
+            "question": "Hvad kan gentagelse gøre i en tale?",
+            "answer": "Fremhæve en pointe og skabe rytme",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Fremhæve en pointe og skabe rytme",
+              "Gøre alle udsagn falske",
+              "Erstatte behovet for indhold",
+              "Forvirre uanset hvordan den bruges"
             ],
-            "id": "kp_vi-skriver-egne-taler_06"
+            "id": "kp_taleskriv8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Vi skriver egne taler helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Respons",
+            "question": "Hvad er god respons på en tale?",
+            "answer": "Hvad virker, hvad huskes, og hvor kan budskabet blive tydeligere?",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Hvad virker, hvad huskes, og hvor kan budskabet blive tydeligere?",
+              "Kun om taleren var populær",
+              "Kun om teksten havde kommafejl",
+              "Kun om talen var kortest"
             ],
-            "id": "kp_vi-skriver-egne-taler_07"
+            "id": "kp_taleskriv8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Vi skriver egne taler bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Nærvær",
+            "question": "Hvad gør en tale nærværende?",
+            "answer": "At taleren forbinder budskabet med konkrete mennesker og en virkelig situation",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "At taleren forbinder budskabet med konkrete mennesker og en virkelig situation",
+              "At talen er fyldt med tomme vendinger",
+              "At publikum aldrig nævnes",
+              "At alle eksempler fjernes"
             ],
-            "id": "kp_vi-skriver-egne-taler_08"
+            "id": "kp_taleskriv8_08"
           }
         ],
         "current": 0,
@@ -47452,7 +47452,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.459Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-15-store-taler-05-vi-skriver-egne-taler-kapardy-game",
@@ -49086,7 +49086,7 @@
         "z": 1
       },
       "content": {
-        "text": "KONGENS NYTÅRSTALE\nMandag 4/1\n\nHISTORISK PROBLEMSTILLING\nHvad kan en kongelig nytårstale politisk og kulturelt, når monarken ikke leder regeringen?\n\nFEM FAKTA, DER SKAL FREM\n1. 31. december kl. 18\n   Talen er et tilbagevendende medie- og familieritual.\n2. Statsoverhoved med overvejende repræsentative og ceremonielle opgaver\n   Regeringen har den politiske ledelse, mens monarken skal stå uden for partipolitisk kamp.\n3. Kongehuset udarbejder den med kontakt til Statsministeriet\n   Processen afspejler, at talen skal balancere personlig tone og konstitutionel neutralitet.\n4. Et nationalt fællesskab\n   Talen kan samle gennem stednavne, tak, sorg, håb og forestillinger om fælles værdier.\n5. Indholdet kan ikke kendes på forhånd\n   Forløbet skal bruge transskription og video fra den faktiske 31. december 2026-tale.\n\nKONKLUSION\nKongens tale er mindre et politisk program end en årlig symbolsk fortolkning af nationens fællesskab.",
+        "text": "KONGENS NYTÅRSTALE\nMandag 4/1\n\nSPØRGSMÅL TIL SAMLINGEN\nHvad kan en samlende tale gøre i et land, hvor mennesker ikke mener det samme?\n\nDET SKAL ELEVERNE HAVE MED\n1. Den danske monarks nytårstale er ikke en partipolitisk tale, men en national rituel tale.\n2. Talen samler ofte året i temaer: fællesskab, ansvar, sårbarhed, kriser, tak og håb.\n3. En god analyse ser på afsender, anledning, målgruppe, værdier, eksempler og sproglige virkemidler.\n4. Nytårstalen virker også gennem ritualet omkring den: tidspunktet, tv-transmissionen, traditionen og forventningen.\n5. Eleverne kan bruge talen til at øve forskellen mellem politisk argumentation, personlig appel og nationalt fællesskabssprog.\n\nGREB\nSpørg eleverne: Hvilke tre ord ville I vælge, hvis I skulle samle skolens år i en nytårstale?",
         "fontSize": 17,
         "align": "left"
       },
@@ -49099,7 +49099,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.449Z",
-      "updatedAt": "2026-06-24T22:43:07.449Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-15-store-taler-01-kongens-ny-3eb66f06-faglig",
@@ -49349,7 +49349,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. 31. december kl. 18\n2. Statsoverhoved med overvejende repræsentative og ceremonielle opgaver\n3. Kongehuset udarbejder den med kontakt til Statsministeriet\n4. Et nationalt fællesskab\n5. Indholdet kan ikke kendes på forhånd",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Monarkens nytårstale er en rituel og samlende tale, ikke en partipolitisk tale.\n2. Den bruger ofte tak, tilbageblik, værdier, fællesskab og håb.\n3. Talen skal analyseres ud fra afsender, anledning, målgruppe og virkemidler.\n4. Ritualet omkring talen er en del af dens virkning.\n5. Eleverne kan overføre grebene til egne samlende taler.",
         "fontSize": 14,
         "align": "left"
       },
@@ -49362,7 +49362,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.454Z",
-      "updatedAt": "2026-06-24T22:43:07.454Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-15-store-taler-01-kongens-ny-3eb66f06-kernersvar",
@@ -49406,116 +49406,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvornår sendes den danske monarks nytårstale traditionelt?",
-            "answer": "31. december kl. 18",
+            "category": "Genre",
+            "question": "Hvilken type tale er monarkens nytårstale bedst forstået som?",
+            "answer": "En rituel og samlende national tale",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "31. december kl. 18",
-              "29. december kl. 18",
-              "28. december kl. 18",
-              "31. februar kl. 18"
+              "En rituel og samlende national tale",
+              "En partipolitisk valgkampstale",
+              "En reklame for et produkt",
+              "En juridisk domsafsigelse"
             ],
-            "id": "kp_kongens-nyt-rstale_01"
+            "id": "kp_konge8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad er monarkens formelle rolle i et konstitutionelt monarki?",
-            "answer": "Statsoverhoved med overvejende repræsentative og ceremonielle opgaver",
+            "category": "Anledning",
+            "question": "Hvorfor betyder tidspunktet nytårsaften noget?",
+            "answer": "Det giver talen karakter af tilbageblik og fælles overgang",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Statsoverhoved med overvejende repræsentative og ceremonielle opgaver",
-              "At være neutral observatør uden egne mål",
-              "At fungere som symbol i senere erindring",
-              "At gennemføre beslutninger og forme samtidens handlemuligheder"
+              "Det giver talen karakter af tilbageblik og fælles overgang",
+              "Det gør talen til en eksamen",
+              "Det gør alle udsagn videnskabelige",
+              "Det betyder at målgruppen kun er børn"
             ],
-            "id": "kp_kongens-nyt-rstale_02"
+            "id": "kp_konge8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvem skriver talen?",
-            "answer": "Kongehuset udarbejder den med kontakt til Statsministeriet",
+            "category": "Virkemidler",
+            "question": "Hvilket virkemiddel bruges ofte i samlende taler?",
+            "answer": "Tak, fælles værdier og konkrete eksempler",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Kongehuset udarbejder den med kontakt til Statsministeriet",
-              "Nobelkomitéen",
-              "Folketinget",
-              "FN"
+              "Tak, fælles værdier og konkrete eksempler",
+              "Kun tekniske tabeller",
+              "Kun ironi uden alvor",
+              "Kun private beskeder til én person"
             ],
-            "id": "kp_kongens-nyt-rstale_03"
+            "id": "kp_konge8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvilket retorisk “vi” bruges ofte?",
-            "answer": "Et nationalt fællesskab",
+            "category": "Analyse",
+            "question": "Hvad bør man undersøge først i en taleanalyse?",
+            "answer": "Afsender, anledning, målgruppe og formål",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Et nationalt fællesskab",
-              "En liste over fakta uden sammenhæng",
-              "En skriftlig prøve uden mundtlig fremførelse",
-              "En privat samtale uden publikum"
+              "Afsender, anledning, målgruppe og formål",
+              "Hvor mange kommaer teksten har",
+              "Hvilken skrifttype der var i tv-guiden",
+              "Om talen kan synges"
             ],
-            "id": "kp_kongens-nyt-rstale_04"
+            "id": "kp_konge8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvorfor skal årets konkrete tale først analyseres efter udsendelsen?",
-            "answer": "Fordi indholdet kan ikke kendes på forhånd",
+            "category": "Fællesskab",
+            "question": "Hvordan kan en tale samle uden at alle er enige?",
+            "answer": "Ved at pege på fælles erfaringer, ansvar og håb",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Fordi indholdet kan ikke kendes på forhånd",
-              "Fordi en tale virker bedst uden tydelig modtager",
-              "Fordi dokumentation gør følelser overflødige",
-              "Fordi konkrete billeder kan forbinde argumenter med erfaringer"
+              "Ved at pege på fælles erfaringer, ansvar og håb",
+              "Ved at kræve ens meninger af alle",
+              "Ved at undgå alle konkrete emner",
+              "Ved kun at tale til dem der allerede er enige"
             ],
-            "id": "kp_kongens-nyt-rstale_05"
+            "id": "kp_konge8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Kongens nytårstale?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Ritual",
+            "question": "Hvad betyder ritualet omkring talen?",
+            "answer": "At tradition, tidspunkt og forventning styrker talens betydning",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "At tradition, tidspunkt og forventning styrker talens betydning",
+              "At indholdet bliver ligegyldigt",
+              "At talen ikke kan analyseres",
+              "At ingen må være uenige"
             ],
-            "id": "kp_kongens-nyt-rstale_06"
+            "id": "kp_konge8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Kongens nytårstale helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Elevbrug",
+            "question": "Hvad kan elever lære af nytårstalen?",
+            "answer": "At samle oplevelser i temaer og tale til et fællesskab",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "At samle oplevelser i temaer og tale til et fællesskab",
+              "At alle taler skal være meget lange",
+              "At man aldrig skal bruge eksempler",
+              "At en tale kun er fakta uden følelse"
             ],
-            "id": "kp_kongens-nyt-rstale_07"
+            "id": "kp_konge8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Kongens nytårstale bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Sprog",
+            "question": "Hvilket sprog passer bedst til en samlende nytårstale?",
+            "answer": "Klart, værdibåret og inkluderende sprog",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Klart, værdibåret og inkluderende sprog",
+              "Aggressivt kampagnesprog",
+              "Interne jokes uden forklaring",
+              "Tekniske koder uden publikum"
             ],
-            "id": "kp_kongens-nyt-rstale_08"
+            "id": "kp_konge8_08"
           }
         ],
         "current": 0,
@@ -49533,7 +49533,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.454Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-15-store-taler-01-kongens-nytaarstale-kapardy-game",
@@ -57821,7 +57821,7 @@
         "z": 1
       },
       "content": {
-        "text": "NATUR, RO OG MENNESKELIG TRIVSEL\nFredag 5/3\n\nHISTORISK PROBLEMSTILLING\nHvad ved forskningen faktisk om naturens betydning for trivsel, og hvad bliver let til romantiske påstande?\n\nFEM FAKTA, DER SKAL FREM\n1. En sammenhæng med fysisk aktivitet og visse mål for trivsel\n   Sammenhæng er ikke altid det samme som direkte årsag, fordi bolig, økonomi og sundhed også spiller ind.\n2. Den kan give bevægelse, sansning, pause og mindre krav om rettet opmærksomhed\n   Mekanismerne varierer mellem mennesker og aktiviteter.\n3. Nej\n   Erfaring, handicap, allergi, vejr, kultur og tidligere oplevelser påvirker adgang og følelse.\n4. Samme korte aktivitet flere steder med enkel, anonym før/efter-registrering\n   Resultatet kan sige noget om gruppen, men ikke bevise en universel behandlingseffekt.\n5. Individuel trivsel er kompleks, og natur erstatter ikke nødvendig professionel hjælp\n   Samlingen skal undgå at gøre elever ansvarlige for at “gå sig raske”.\n\nKONKLUSION\nNaturen kan være en vigtig ressource for mange, men virkninger skal beskrives nøgternt, inkluderende og uden behandlingsløfter.",
+        "text": "NATUR, RO OG MENNESKELIG TRIVSEL\nFredag 5/3\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor kan ro være noget, man øver sig i sammen?\n\nDET SKAL ELEVERNE HAVE MED\n1. Natur kan give ro, men det sker ikke automatisk. Elever kan have brug for rammer, tid og en tydelig opgave for at falde til ro.\n2. Trivsel handler både om krop, relationer, søvn, bevægelse, mening, pauser og mulighed for at være uden præstation.\n3. Et uderum som Sydvest kan give en anden type fællesskab end klasselokalet: mere sansning, mere kropslighed og andre samtaler.\n4. Ro betyder ikke, at alt skal være stille. Det kan også være fordybelse, langsomhed og nærvær.\n5. Eleverne skal kunne skelne mellem natur som mirakelkur og natur som et muligt redskab blandt flere.\n\nGREB\nLav en 5-minutters stille observation. Bagefter skriver eleverne tre ord: noget de så, noget de hørte, og noget de mærkede.",
         "fontSize": 17,
         "align": "left"
       },
@@ -57834,7 +57834,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.484Z",
-      "updatedAt": "2026-06-24T22:43:07.484Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-20-naturen-04-natur-ro-og-me-00f05b32-faglig",
@@ -58084,7 +58084,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. En sammenhæng med fysisk aktivitet og visse mål for trivsel\n2. Den kan give bevægelse, sansning, pause og mindre krav om rettet opmærksomhed\n3. Nej\n4. Samme korte aktivitet flere steder med enkel, anonym før/efter-registrering\n5. Individuel trivsel er kompleks, og natur erstatter ikke nødvendig professionel hjælp",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Natur kan støtte trivsel, men kræver rammer og tid.\n2. Ro kan være stilhed, fordybelse, langsomhed eller nærvær.\n3. Uderum kan skabe andre samtaler og relationer end klasselokaler.\n4. Natur er ikke en mirakelkur, men kan være et vigtigt redskab.\n5. Trivsel skal forstås kropsligt, socialt og mentalt.",
         "fontSize": 14,
         "align": "left"
       },
@@ -58097,7 +58097,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.485Z",
-      "updatedAt": "2026-06-24T22:43:07.485Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-20-naturen-04-natur-ro-og-me-00f05b32-kernersvar",
@@ -58141,116 +58141,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad viser mange studier om adgang til grønne områder?",
-            "answer": "En sammenhæng med fysisk aktivitet og visse mål for trivsel",
+            "category": "Ro",
+            "question": "Hvad kan ro betyde i en skolesammenhæng?",
+            "answer": "Stilhed, fordybelse, langsomhed eller nærvær",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "En sammenhæng med fysisk aktivitet og visse mål for trivsel",
-              "Mangfoldigheden af arter, gener og levesteder",
-              "Et lands samlede areal",
-              "Natur uden menneskelig påvirkning"
+              "Stilhed, fordybelse, langsomhed eller nærvær",
+              "At ingen må tænke",
+              "At alt fællesskab stopper",
+              "At alle aktiviteter forbydes"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_01"
+            "id": "kp_trivsel8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvorfor kan natur virke genopbyggende?",
-            "answer": "Fordi den kan give bevægelse, sansning, pause og mindre krav om rettet opmærksomhed",
+            "category": "Natur",
+            "question": "Hvorfor virker natur ikke automatisk beroligende for alle?",
+            "answer": "Elever kan have brug for rammer, tid og tydelig opgave",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Fordi den kan give bevægelse, sansning, pause og mindre krav om rettet opmærksomhed",
-              "Fordi klimaet ændrer arters levevilkår",
-              "Fordi naturen er helt uafhængig af menneskers valg",
-              "Fordi en enkelt kold vinter afgør den langsigtede udvikling"
+              "Elever kan have brug for rammer, tid og tydelig opgave",
+              "Fordi natur altid larmer for meget",
+              "Fordi mennesker ikke kan være ude",
+              "Fordi ro kun findes i prøvelokaler"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_02"
+            "id": "kp_trivsel8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Er natur altid tryg og rolig for alle?",
-            "answer": "Nej",
+            "category": "Trivsel",
+            "question": "Hvad indgår i trivsel?",
+            "answer": "Krop, relationer, søvn, bevægelse, mening og pauser",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Nej",
-              "Det kan ikke afgøres sikkert ud fra de bevarede kilder",
-              "Ja – påstanden er dokumenteret i samtidige kilder",
-              "Kun delvist – kilderne viser et mere blandet forløb"
+              "Krop, relationer, søvn, bevægelse, mening og pauser",
+              "Kun karaktergennemsnit",
+              "Kun hvor mange beskeder man får",
+              "Kun at undgå alle krav"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_03"
+            "id": "kp_trivsel8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad er en god skolebaseret undersøgelse?",
-            "answer": "Samme korte aktivitet flere steder med enkel, anonym før/efter-registrering",
+            "category": "Uderum",
+            "question": "Hvad kan et uderum som Sydvest give?",
+            "answer": "Andre sansninger, samtaler og fælles handlinger end et klasselokale",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Samme korte aktivitet flere steder med enkel, anonym før/efter-registrering",
-              "Sammenlign vejrdata fra én dag med et århundredes klima",
-              "Kombinér feltobservationer med langsigtede dataserier",
-              "Udelad menneskelig påvirkning på forhånd"
+              "Andre sansninger, samtaler og fælles handlinger end et klasselokale",
+              "Præcis samme oplevelse som en skærm",
+              "Ingen mulighed for læring",
+              "Kun pause uden ansvar"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_04"
+            "id": "kp_trivsel8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvorfor skal sundhedspåstande formuleres forsigtigt?",
-            "answer": "Fordi individuel trivsel er kompleks, og natur erstatter ikke nødvendig professionel hjælp",
+            "category": "Nuance",
+            "question": "Hvad er en god måde at tale om natur og trivsel på?",
+            "answer": "Som et muligt redskab, ikke som en mirakelkur for alt",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Fordi individuel trivsel er kompleks, og natur erstatter ikke nødvendig professionel hjælp",
-              "Fordi en enkelt kold vinter afgør den langsigtede udvikling",
-              "Fordi levesteder forsvinder eller bliver opdelt",
-              "Fordi alle arter tilpasser sig lige hurtigt"
+              "Som et muligt redskab, ikke som en mirakelkur for alt",
+              "Som en garanti for at ingen får det svært",
+              "Som noget der kun virker uden voksne",
+              "Som noget der ikke kræver rammer"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_05"
+            "id": "kp_trivsel8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Natur, ro og menneskelig trivsel?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Observation",
+            "question": "Hvad træner en stille observation?",
+            "answer": "Opmærksomhed på sanser, sted og egen tilstand",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Opmærksomhed på sanser, sted og egen tilstand",
+              "Kun evnen til at kede sig",
+              "Kun hukommelse for tal",
+              "Kun konkurrence om at være stille"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_06"
+            "id": "kp_trivsel8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Natur, ro og menneskelig trivsel helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Fællesskab",
+            "question": "Hvordan kan ro øves sammen?",
+            "answer": "Ved fælles rammer, respekt for hinanden og tydelig afslutning",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Ved fælles rammer, respekt for hinanden og tydelig afslutning",
+              "Ved at gøre alle alene uden forklaring",
+              "Ved at måle hvem der slapper mest af",
+              "Ved at skælde ud på uro"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_07"
+            "id": "kp_trivsel8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Natur, ro og menneskelig trivsel bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Efterskole",
+            "question": "Hvorfor er ro vigtig på en efterskole?",
+            "answer": "Fordi tæt fællesskab også kræver pauser og mulighed for at lande",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Fordi tæt fællesskab også kræver pauser og mulighed for at lande",
+              "Fordi fællesskab er et problem i sig selv",
+              "Fordi ingen har brug for søvn",
+              "Fordi læring kun sker i højt tempo"
             ],
-            "id": "kp_natur-ro-og-menneskelig-trivsel_08"
+            "id": "kp_trivsel8_08"
           }
         ],
         "current": 0,
@@ -58268,7 +58268,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.485Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-20-naturen-04-natur-ro-og-menneskelig-kapardy-game",
@@ -58471,7 +58471,7 @@
         "z": 1
       },
       "content": {
-        "text": "NATUREN TÆT PÅ OS\nMandag 1/3\n\nHISTORISK PROBLEMSTILLING\nHvornår er et landskab “natur”, når næsten hele Danmark er formet af landbrug, skovbrug, byer og politiske beslutninger?\n\nFEM FAKTA, DER SKAL FREM\n1. Et landskab formet af menneskelig brug over tid\n   Marker, hegn, grøfter, veje og plantager er historiske spor, ikke modsætninger til al natur.\n2. De viser ændringer i arealanvendelse og stednavne\n   Sammenligning kan dokumentere dræning, tilplantning, byvækst og tab af småbiotoper.\n3. Et afgrænset levested med bestemte miljøforhold\n   Vandhul, hede, eng eller levende hegn kan rumme forskellige arter og historiske driftsformer.\n4. Det tidspunkt eller niveau man sammenligner med\n   Forestillinger om “oprindelig natur” afhænger af, hvilket historisk udgangspunkt der vælges.\n5. Med gentagne observationer, fotos, artsdata og præcis position\n   En enkelt oplevelse er værdifuld, men systematik gør udvikling målbar.\n\nKONKLUSION\nNaturen tæt på skolen er både økologi og historie: den viser tidligere valg om jord, vand og produktion.",
+        "text": "NATUREN TÆT PÅ OS\nMandag 1/3\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor kan naturen tæt på skolen være lige så vigtig som den store, vilde natur langt væk?\n\nDET SKAL ELEVERNE HAVE MED\n1. Natur er ikke kun nationalparker og spektakulære landskaber. Det er også haver, hegn, grøfter, fugle, insekter, jord og små levesteder lige udenfor døren.\n2. HU’s Sydvest viser, at natur kan være et læringsrum: dyrkning, dyr, årstider, mad, fællesskab, ansvar og nysgerrighed.\n3. Når elever lærer et sted at kende, bliver det lettere at føle ansvar for det.\n4. Naturforståelse kræver både sanser og viden: hvad ser vi, hvad ved vi, og hvad skal undersøges?\n5. Et godt fællesskab bruger naturen uden at bruge den op.\n\nGREB\nGå fem minutter ud. Eleverne skal finde én levende ting, ét spor af mennesker og ét spørgsmål, de ikke kender svaret på.",
         "fontSize": 17,
         "align": "left"
       },
@@ -58484,7 +58484,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.481Z",
-      "updatedAt": "2026-06-24T22:43:07.481Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-20-naturen-01-naturen-taet-p-53ebbeec-faglig",
@@ -58734,7 +58734,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Et landskab formet af menneskelig brug over tid\n2. De viser ændringer i arealanvendelse og stednavne\n3. Et afgrænset levested med bestemte miljøforhold\n4. Det tidspunkt eller niveau man sammenligner med\n5. Med gentagne observationer, fotos, artsdata og præcis position",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Nærnatur er de levende systemer tæt på vores hverdag.\n2. Sydvest kan bruges som eksempel på natur, mad, læring og fælles ansvar.\n3. Kendskab til et sted kan skabe omsorg for stedet.\n4. Naturarbejde kræver både observation, viden og spørgsmål.\n5. Man kan bruge naturen som fællesrum, hvis man samtidig tager ansvar for den.",
         "fontSize": 14,
         "align": "left"
       },
@@ -58747,7 +58747,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.482Z",
-      "updatedAt": "2026-06-24T22:43:07.482Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-20-naturen-01-naturen-taet-p-53ebbeec-kernersvar",
@@ -58791,116 +58791,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvad er et kulturlandskab?",
-            "answer": "Et landskab formet af menneskelig brug over tid",
+            "category": "Nærnatur",
+            "question": "Hvad menes med nærnatur?",
+            "answer": "Natur og levende levesteder tæt på vores hverdag",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Et landskab formet af menneskelig brug over tid",
-              "En kortvarig vejrsituation i et enkelt område",
-              "En måling af temperatur på én dag",
-              "En naturlig proces, der altid øger artsrigdommen"
+              "Natur og levende levesteder tæt på vores hverdag",
+              "Kun regnskove på andre kontinenter",
+              "Kun natur man ser i fjernsynet",
+              "Kun områder uden mennesker nogensinde"
             ],
-            "id": "kp_naturen-t-t-p-os_01"
+            "id": "kp_naernatur8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvorfor er gamle kort vigtige?",
-            "answer": "Fordi de viser ændringer i arealanvendelse og stednavne",
+            "category": "Sydvest",
+            "question": "Hvorfor er Sydvest et godt eksempel på nærnatur?",
+            "answer": "Fordi dyrkning, dyr, mad, årstider og undervisning mødes tæt på skolen",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Fordi de viser ændringer i arealanvendelse og stednavne",
-              "Fordi en anonym kilde er fri for interesser",
-              "Fordi den nyeste kilde altid er den mest troværdige",
-              "Fordi tid, sted og afsender kan ændre hvordan oplysningerne skal forstås"
+              "Fordi dyrkning, dyr, mad, årstider og undervisning mødes tæt på skolen",
+              "Fordi det ligger langt fra alle mennesker",
+              "Fordi det kun er en parkeringsplads",
+              "Fordi det ikke ændrer sig med årstiderne"
             ],
-            "id": "kp_naturen-t-t-p-os_02"
+            "id": "kp_naernatur8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad er en biotop?",
-            "answer": "Et afgrænset levested med bestemte miljøforhold",
+            "category": "Observation",
+            "question": "Hvad er en god begyndelse på naturundersøgelse?",
+            "answer": "At se, lytte, beskrive og stille præcise spørgsmål",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Et afgrænset levested med bestemte miljøforhold",
-              "En måling af temperatur på én dag",
-              "En naturlig proces, der altid øger artsrigdommen",
-              "Et område uden nogen menneskelig påvirkning"
+              "At se, lytte, beskrive og stille præcise spørgsmål",
+              "At gætte hurtigt og gå videre",
+              "At tage alt med hjem",
+              "At undgå at bruge sanserne"
             ],
-            "id": "kp_naturen-t-t-p-os_03"
+            "id": "kp_naernatur8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad betyder baseline i naturforvaltning?",
-            "answer": "Det tidspunkt eller niveau man sammenligner med",
+            "category": "Ansvar",
+            "question": "Hvorfor skaber kendskab ofte ansvar?",
+            "answer": "Fordi man lettere passer på noget, man kender og forstår",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Det tidspunkt eller niveau man sammenligner med",
-              "En naturlig proces, der altid øger artsrigdommen",
-              "Antallet af dyr i én bestemt bestand",
-              "En måling af temperatur på én dag"
+              "Fordi man lettere passer på noget, man kender og forstår",
+              "Fordi viden altid gør mennesker ligeglade",
+              "Fordi ansvar kun handler om regler",
+              "Fordi steder ikke betyder noget"
             ],
-            "id": "kp_naturen-t-t-p-os_04"
+            "id": "kp_naernatur8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan kan elever dokumentere lokal natur?",
-            "answer": "Med gentagne observationer, fotos, artsdata og præcis position",
+            "category": "Fællesskab",
+            "question": "Hvad betyder det at bruge naturen uden at bruge den op?",
+            "answer": "At færdes, lære og dyrke med hensyn til levende systemer",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Med gentagne observationer, fotos, artsdata og præcis position",
-              "Menneskelig aktivitet påvirker ikke økosystemerne",
-              "En enkelt observation bruges som bevis for en lang udvikling",
-              "Alle naturtyper reagerer på samme måde"
+              "At færdes, lære og dyrke med hensyn til levende systemer",
+              "At tage så meget som muligt hurtigst muligt",
+              "At undgå alle former for udendørs aktivitet",
+              "At naturen kun er pynt"
             ],
-            "id": "kp_naturen-t-t-p-os_05"
+            "id": "kp_naernatur8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Naturen tæt på os?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Levested",
+            "question": "Hvad er et levested?",
+            "answer": "Et område hvor en art kan finde føde, skjul og mulighed for formering",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Et område hvor en art kan finde føde, skjul og mulighed for formering",
+              "Et klasselokale uden vinduer",
+              "En liste over navne",
+              "Et sted uden relation til dyr eller planter"
             ],
-            "id": "kp_naturen-t-t-p-os_06"
+            "id": "kp_naernatur8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Naturen tæt på os helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Menneskespor",
+            "question": "Hvorfor skal man også se efter spor af mennesker?",
+            "answer": "Fordi mennesker påvirker næsten al natur omkring os",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Fordi mennesker påvirker næsten al natur omkring os",
+              "Fordi menneskespor altid er ulovlige",
+              "Fordi de gør natur uinteressant",
+              "Fordi kun dyr former landskaber"
             ],
-            "id": "kp_naturen-t-t-p-os_07"
+            "id": "kp_naernatur8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Naturen tæt på os bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Undring",
+            "question": "Hvorfor er et godt spørgsmål vigtigt i naturen?",
+            "answer": "Det åbner for undersøgelse i stedet for hurtige facitsvar",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Det åbner for undersøgelse i stedet for hurtige facitsvar",
+              "Det lukker samtalen med det samme",
+              "Det viser at man ikke må lære mere",
+              "Det kan erstatte alle observationer"
             ],
-            "id": "kp_naturen-t-t-p-os_08"
+            "id": "kp_naernatur8_08"
           }
         ],
         "current": 0,
@@ -58918,7 +58918,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.482Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-20-naturen-01-naturen-taet-paa-os-kapardy-game",
@@ -58948,7 +58948,7 @@
         "z": 1
       },
       "content": {
-        "text": "BIODIVERSITET OG ARTSKRISE\nTirsdag 2/3\n\nHISTORISK PROBLEMSTILLING\nHvad betyder biodiversitet, og hvorfor kan et grønt landskab stadig være fattigt på arter og levesteder?\n\nFEM FAKTA, DER SKAL FREM\n1. Genetisk variation, arter og økosystemer\n   Biodiversitet er mere end antal synlige arter.\n2. En vurdering af arters risiko for at forsvinde\n   Rødlister bruger dokumenterede kriterier og er ikke bare lister over sjældne arter.\n3. Tab og opsplitning af levesteder\n   Intensiv arealbrug, dræning, byggeri og ensartning reducerer plads og forbindelser.\n4. De kan ændre økosystemer og udkonkurrere hjemmehørende arter\n   Ikke alle nye arter er invasive; begrebet handler om dokumenteret skade og spredning.\n5. Aktive tiltag, der genskaber processer eller levesteder\n   Det kan være vådområder, græsning, dødt ved eller fjernelse af spærringer.\n\nKONKLUSION\nArtskrisen handler ikke kun om enkelte dyr, men om areal, processer og langsigtet variation.",
+        "text": "BIODIVERSITET OG ARTSKRISE\nTirsdag 2/3\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor betyder det noget, om der er mange forskellige arter, gener og levesteder?\n\nDET SKAL ELEVERNE HAVE MED\n1. Biodiversitet betyder variation i liv: arter, gener og økosystemer.\n2. Artskrise handler ikke kun om enkelte “søde dyr”, men om hele levesteder, fødekæder og økologiske sammenhænge.\n3. Insekter, jordbund, planter, svampe og mikroorganismer er ofte usynlige helte i økosystemerne.\n4. Mennesker påvirker biodiversitet gennem arealbrug, forurening, klimaændringer, invasive arter og overudnyttelse.\n5. Skoler kan arbejde konkret med biodiversitet gennem haver, blomstrende områder, dødt ved, mindre klipning, vand, jord og omtanke.\n\nGREB\nLad eleverne rangere: Hvad hjælper mest biodiversitet på en skolegrund – blomster, vand, dødt ved, færre klippede flader, eller mindre forstyrrelse?",
         "fontSize": 17,
         "align": "left"
       },
@@ -58961,7 +58961,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.482Z",
-      "updatedAt": "2026-06-24T22:43:07.482Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-20-naturen-02-biodiversitet-370f3ac5-faglig",
@@ -59211,7 +59211,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Genetisk variation, arter og økosystemer\n2. En vurdering af arters risiko for at forsvinde\n3. Tab og opsplitning af levesteder\n4. De kan ændre økosystemer og udkonkurrere hjemmehørende arter\n5. Aktive tiltag, der genskaber processer eller levesteder",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Biodiversitet er variation i arter, gener og økosystemer.\n2. Artskrise handler om tab af levesteder og sammenhænge, ikke kun enkelte arter.\n3. Små organismer kan have stor betydning for økosystemer.\n4. Mennesker er en hovedårsag til tab af biodiversitet, men kan også skabe bedre levesteder.\n5. Lokale handlinger er ikke hele løsningen, men de kan gøre naturen tættere og mere konkret.",
         "fontSize": 14,
         "align": "left"
       },
@@ -59224,7 +59224,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.483Z",
-      "updatedAt": "2026-06-24T22:43:07.483Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-20-naturen-02-biodiversitet-370f3ac5-kernersvar",
@@ -59268,116 +59268,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvilke tre niveauer indgår i biodiversitet?",
-            "answer": "Genetisk variation, arter og økosystemer",
+            "category": "Begreb",
+            "question": "Hvad betyder biodiversitet?",
+            "answer": "Variation i arter, gener og økosystemer",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Genetisk variation, arter og økosystemer",
-              "IPCC",
-              "Universitetet",
-              "En enkelt arts antal på én dato"
+              "Variation i arter, gener og økosystemer",
+              "Kun antallet af store pattedyr",
+              "Kun hvor grønt et område ser ud",
+              "Kun planter i urtepotter"
             ],
-            "id": "kp_biodiversitet-og-artskrise_01"
+            "id": "kp_bio8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad er en rødliste?",
-            "answer": "En vurdering af arters risiko for at forsvinde",
+            "category": "Artskrise",
+            "question": "Hvad handler artskrise især om?",
+            "answer": "Tab af arter, levesteder og økologiske sammenhænge",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "En vurdering af arters risiko for at forsvinde",
-              "En måling af temperatur på én dag",
-              "En kortvarig vejrsituation i et enkelt område",
-              "Mangfoldigheden af arter, gener og levesteder"
+              "Tab af arter, levesteder og økologiske sammenhænge",
+              "At alle dyr flytter til byerne frivilligt",
+              "At der findes for mange blomster",
+              "At naturen aldrig ændrer sig"
             ],
-            "id": "kp_biodiversitet-og-artskrise_02"
+            "id": "kp_bio8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad er en central årsag til biodiversitetstab?",
-            "answer": "Tab og opsplitning af levesteder",
+            "category": "Levesteder",
+            "question": "Hvorfor er levesteder vigtige?",
+            "answer": "Arter har brug for føde, skjul, plads og formeringsmuligheder",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Tab og opsplitning af levesteder",
-              "Fordi en enkelt kold vinter afgør den langsigtede udvikling",
-              "Fordi levesteder forsvinder eller bliver opdelt",
-              "Fordi klimaet ændrer arters levevilkår"
+              "Arter har brug for føde, skjul, plads og formeringsmuligheder",
+              "De gør artsnavne sværere",
+              "De er kun vigtige for mennesker",
+              "De kan erstattes af billeder"
             ],
-            "id": "kp_biodiversitet-og-artskrise_03"
+            "id": "kp_bio8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvorfor kan invasive arter være et problem?",
-            "answer": "Fordi de kan ændre økosystemer og udkonkurrere hjemmehørende arter",
+            "category": "Usynlige arter",
+            "question": "Hvorfor betyder jordbund, svampe og insekter meget?",
+            "answer": "De indgår i nedbrydning, bestøvning, fødekæder og næringskredsløb",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Fordi de kan ændre økosystemer og udkonkurrere hjemmehørende arter",
-              "Fordi levesteder forsvinder eller bliver opdelt",
-              "Fordi menneskelig aktivitet påvirker jord, vand og luft",
-              "Fordi naturen er helt uafhængig af menneskers valg"
+              "De indgår i nedbrydning, bestøvning, fødekæder og næringskredsløb",
+              "De er kun pynt i naturen",
+              "De har ingen forbindelse til planter",
+              "De findes ikke på skoleområder"
             ],
-            "id": "kp_biodiversitet-og-artskrise_04"
+            "id": "kp_bio8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er naturgenopretning?",
-            "answer": "Aktive tiltag, der genskaber processer eller levesteder",
+            "category": "Årsager",
+            "question": "Hvad er en vigtig menneskelig årsag til tab af biodiversitet?",
+            "answer": "Ændret arealbrug, forurening, klimaændringer og overudnyttelse",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Aktive tiltag, der genskaber processer eller levesteder",
-              "En enkelt arts antal på én dato",
-              "Et lands samlede areal",
-              "Kommunen"
+              "Ændret arealbrug, forurening, klimaændringer og overudnyttelse",
+              "For meget fuglesang",
+              "At elever stiller spørgsmål",
+              "At alle planter får navne"
             ],
-            "id": "kp_biodiversitet-og-artskrise_05"
+            "id": "kp_bio8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Biodiversitet og artskrise?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Skolegrund",
+            "question": "Hvad kan hjælpe biodiversitet lokalt?",
+            "answer": "Blomstrende planter, vand, dødt ved og mindre ensartet klipning",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Blomstrende planter, vand, dødt ved og mindre ensartet klipning",
+              "Mere asfalt overalt",
+              "At fjerne alle blade straks",
+              "At gøre alle områder helt ens"
             ],
-            "id": "kp_biodiversitet-og-artskrise_06"
+            "id": "kp_bio8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Biodiversitet og artskrise helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Nuance",
+            "question": "Hvorfor er lokale handlinger ikke hele løsningen?",
+            "answer": "Fordi artskrisen også kræver større politiske og økonomiske ændringer",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Fordi artskrisen også kræver større politiske og økonomiske ændringer",
+              "Fordi lokale handlinger aldrig betyder noget",
+              "Fordi kun elever kan løse problemet",
+              "Fordi natur ikke påvirkes af samfundet"
             ],
-            "id": "kp_biodiversitet-og-artskrise_07"
+            "id": "kp_bio8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Biodiversitet og artskrise bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Fokus",
+            "question": "Hvad er en god biodiversitetsopgave for elever?",
+            "answer": "Undersøg et konkret levested og foreslå en forbedring med begrundelse",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Undersøg et konkret levested og foreslå en forbedring med begrundelse",
+              "Tæl kun de arter der er nuttede",
+              "Lav en plakat uden observationer",
+              "Find én skyldig og stop der"
             ],
-            "id": "kp_biodiversitet-og-artskrise_08"
+            "id": "kp_bio8_08"
           }
         ],
         "current": 0,
@@ -59395,7 +59395,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.483Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-20-naturen-02-biodiversitet-og-artskri-kapardy-game",
@@ -62567,116 +62567,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvornår blev erklæringen vedtaget?",
-            "answer": "26. august 1789",
+            "category": "1789",
+            "question": "Hvilken erklæring forbindes med den franske revolution i 1789?",
+            "answer": "Erklæringen om menneskets og borgerens rettigheder",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "26. august 1789",
-              "26. august 1779",
-              "26. august 1788",
-              "26. august 1794"
+              "Erklæringen om menneskets og borgerens rettigheder",
+              "Versaillestraktaten",
+              "FN-pagten fra 1945",
+              "Magna Carta fra 1215"
             ],
-            "id": "kp_menneskerettigheder_01"
+            "id": "kp_mr8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad siger artikel 1?",
-            "answer": "Mennesker fødes og forbliver frie og lige i rettigheder",
+            "category": "Ideal",
+            "question": "Hvilke idealer forbindes ofte med revolutionens rettighedstænkning?",
+            "answer": "Frihed, lighed og folkesuverænitet",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Mennesker fødes og forbliver frie og lige i rettigheder",
-              "Jakobinerklubben",
-              "En folkelig bevægelse uden organiseret ledelse",
-              "Direktoriet"
+              "Frihed, lighed og folkesuverænitet",
+              "Enevælde, censur og arvelige privilegier",
+              "Kolonial handel og toldmure",
+              "Teknologi, reklame og forbrug"
             ],
-            "id": "kp_menneskerettigheder_02"
+            "id": "kp_mr8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvem skrev en erklæring om kvindens og borgerindens rettigheder i 1791?",
-            "answer": "Olympe de Gouges",
+            "category": "Kritik",
+            "question": "Hvad er en vigtig kritik af rettighederne i praksis?",
+            "answer": "Kvinder, slavegjorte og mange fattige var ikke fuldt inkluderet",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Olympe de Gouges",
-              "Maximilien Robespierre",
-              "Ludvig 16.",
-              "Marquis de Lafayette"
+              "Kvinder, slavegjorte og mange fattige var ikke fuldt inkluderet",
+              "Alle fik straks fuld lighed overalt",
+              "Rettighederne handlede kun om sport",
+              "Der fandtes ingen udelukkelse"
             ],
-            "id": "kp_menneskerettigheder_03"
+            "id": "kp_mr8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad skete der med slaveriet i franske kolonier under revolutionen?",
-            "answer": "Det blev ophævet i 1794 og genindført af Napoleon i 1802",
+            "category": "Begreb",
+            "question": "Hvad betyder folkesuverænitet?",
+            "answer": "At den politiske magt i princippet udgår fra folket",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Det blev ophævet i 1794 og genindført af Napoleon i 1802",
-              "Forløbet endte uden varige ændringer i samfundet",
-              "Beslutningen blev gennemført straks og uden modstand",
-              "Begivenheden blev først kendt gennem senere erindringer"
+              "At den politiske magt i princippet udgår fra folket",
+              "At kongen ejer alle borgere",
+              "At domstole afskaffes",
+              "At kun præster kan stemme"
             ],
-            "id": "kp_menneskerettigheder_04"
+            "id": "kp_mr8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan adskiller en rettighedserklæring sig fra faktisk rettighedsbeskyttelse?",
-            "answer": "Teksten kræver institutioner, love og mulighed for håndhævelse",
+            "category": "Metode",
+            "question": "Hvorfor skal man skelne mellem ideal og praksis?",
+            "answer": "Fordi en tekst kan love lighed uden at samfundet giver alle lighed",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Teksten kræver institutioner, love og mulighed for håndhævelse",
-              "Myndighederne ændrede kurs efter pres fra både ind- og udland",
-              "Den politiske aftale blev efterfulgt af militær indgriben",
-              "Begivenheden blev først kendt gennem senere erindringer"
+              "Fordi en tekst kan love lighed uden at samfundet giver alle lighed",
+              "Fordi praksis altid er perfekt",
+              "Fordi idealer aldrig betyder noget",
+              "Fordi lovtekster ikke kan undersøges"
             ],
-            "id": "kp_menneskerettigheder_05"
+            "id": "kp_mr8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Menneskerettigheder?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Magt",
+            "question": "Hvad er en funktion ved rettigheder?",
+            "answer": "At begrænse magt og beskytte personer mod overgreb",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "At begrænse magt og beskytte personer mod overgreb",
+              "At give staten ubegrænset magt",
+              "At fjerne behovet for domstole",
+              "At gøre uenighed ulovlig"
             ],
-            "id": "kp_menneskerettigheder_06"
+            "id": "kp_mr8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Menneskerettigheder helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Spørgsmål",
+            "question": "Hvilket spørgsmål åbner for kritisk rettighedshistorie?",
+            "answer": "Hvem blev regnet med, og hvem måtte kæmpe sig ind?",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Hvem blev regnet med, og hvem måtte kæmpe sig ind?",
+              "Hvor hurtigt kan teksten læses?",
+              "Hvilken skrifttype er pænest?",
+              "Kan rettigheder bruges som pynt?"
             ],
-            "id": "kp_menneskerettigheder_07"
+            "id": "kp_mr8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Menneskerettigheder bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Nutid",
+            "question": "Hvorfor er menneskerettigheder stadig relevante?",
+            "answer": "Fordi de bruges til at diskutere statens magt, individers beskyttelse og lighed",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Fordi de bruges til at diskutere statens magt, individers beskyttelse og lighed",
+              "Fordi de kun hører 1700-tallet til",
+              "Fordi alle lande altid overholder dem fuldt",
+              "Fordi de ikke handler om mennesker"
             ],
-            "id": "kp_menneskerettigheder_08"
+            "id": "kp_mr8_08"
           }
         ],
         "current": 0,
@@ -62694,7 +62694,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.496Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-03-menneskerettigheder-kapardy-game",
@@ -62724,7 +62724,7 @@
         "z": 1
       },
       "content": {
-        "text": "REVOLUTIONENS ARV OG NAPOLEON\nFredag 19/3\n\nHISTORISK PROBLEMSTILLING\nVar Napoleon revolutionens beskytter, dens afslutter eller begge dele?\n\nFEM FAKTA, DER SKAL FREM\n1. 1799\n   Kuppet 18. brumaire afsluttede Direktoriet og etablerede konsulatet.\n2. 1804\n   Kejserkroningen viste, at republikansk revolution kunne ende i personlig magt.\n3. En samlet civil lovbog fra 1804\n   Loven fastlagde lighed for loven og ejendomsret, men styrkede også mandlig familieautoritet.\n4. Gennem erobring, reform og afskaffelse af visse feudale privilegier\n   Samtidig udløste fransk dominans modstand og nationalisme.\n5. Napoleon led sit endelige militære nederlag\n   Efter nederlaget blev han sendt i eksil på St. Helena.\n\nKONKLUSION\nNapoleon bevarede dele af revolutionens juridiske arv, mens han afskaffede politisk frihed og byggede et imperium.",
+        "text": "REVOLUTIONENS ARV OG NAPOLEON\nFredag 19/3\n\nSPØRGSMÅL TIL SAMLINGEN\nHvornår bliver en revolution til orden, og hvornår bliver orden til ny magtkoncentration?\n\nDET SKAL ELEVERNE HAVE MED\n1. Den franske revolution ændrede lov, politisk sprog, borgerbegreb, privilegier og forestillingen om folkets rolle.\n2. Napoleon samlede og stabiliserede dele af revolutionens arv, blandt andet gennem lovgivning og administration.\n3. Samtidig koncentrerede han magt og førte krige, der spredte både revolutionære idéer og fransk dominans.\n4. Napoleons historie viser, at frihedsidealer kan følges af stærk statsmagt og militær ekspansion.\n5. Eleverne skal kunne diskutere både arv, brud og modsætninger.\n\nGREB\nLad eleverne placere Napoleon på en linje: “revolutionens beskytter” — “revolutionens forræder”. De skal begrunde placeringen med to fakta.",
         "fontSize": 17,
         "align": "left"
       },
@@ -62737,7 +62737,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.496Z",
-      "updatedAt": "2026-06-24T22:43:07.496Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-04-96692f7b-faglig",
@@ -62987,7 +62987,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. 1799\n2. 1804\n3. En samlet civil lovbog fra 1804\n4. Gennem erobring, reform og afskaffelse af visse feudale privilegier\n5. Napoleon led sit endelige militære nederlag",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Revolutionen ændrede samfundets politiske sprog og institutioner.\n2. Napoleon videreførte dele af revolutionens lov- og statsprojekt.\n3. Han samlede samtidig stor personlig magt.\n4. Napoleonskrigene spredte idéer, men også fransk dominans.\n5. Historien rummer både frihedsidealer, orden, magt og krig.",
         "fontSize": 14,
         "align": "left"
       },
@@ -63000,7 +63000,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.501Z",
-      "updatedAt": "2026-06-24T22:43:07.501Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-04-96692f7b-kernersvar",
@@ -63044,116 +63044,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvornår tog Napoleon magten ved et statskup?",
-            "answer": "1799",
+            "category": "Arv",
+            "question": "Hvad ændrede revolutionen især i politisk sprog?",
+            "answer": "Borger, rettigheder, folkets magt og privilegiekritik blev centrale begreber",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "1799",
-              "1789",
-              "1804",
-              "1798"
+              "Borger, rettigheder, folkets magt og privilegiekritik blev centrale begreber",
+              "Kun navne på desserter",
+              "Kun uniformernes farver",
+              "Kun regler for teaterbilletter"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_01"
+            "id": "kp_nap8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvornår blev han kejser?",
-            "answer": "1804",
+            "category": "Napoleon",
+            "question": "Hvad gjorde Napoleon med dele af revolutionens arv?",
+            "answer": "Han samlede dem i lovgivning, administration og statsstyring",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "1804",
-              "1803",
-              "1794",
-              "1809"
+              "Han samlede dem i lovgivning, administration og statsstyring",
+              "Han afskaffede al lovgivning",
+              "Han gjorde Frankrig til en middelalderby",
+              "Han forbød alle skoler"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_02"
+            "id": "kp_nap8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad var Code civil?",
-            "answer": "En samlet civil lovbog fra 1804",
+            "category": "Magt",
+            "question": "Hvad er den store modsætning i Napoleon-historien?",
+            "answer": "Frihedsidealer blev kombineret med stærk personlig magt og krig",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "En samlet civil lovbog fra 1804",
-              "En militær alliance mellem de vigtigste stormagter",
-              "Et lokalt oprør uden betydning uden for området",
-              "En statslig beslutning, der aldrig blev gennemført"
+              "Frihedsidealer blev kombineret med stærk personlig magt og krig",
+              "Alle fik direkte demokrati hver dag",
+              "Frankrig opgav al militær magt",
+              "Revolutionen blev aldrig nævnt igen"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_03"
+            "id": "kp_nap8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvordan spredte Napoleonskrigene revolutionære ændringer?",
-            "answer": "Gennem erobring, reform og afskaffelse af visse feudale privilegier",
+            "category": "Krig",
+            "question": "Hvad spredte Napoleonskrigene ud over Europa?",
+            "answer": "Både revolutionære idéer og fransk dominans",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Gennem erobring, reform og afskaffelse af visse feudale privilegier",
-              "Myndighederne ændrede kurs efter pres fra både ind- og udland",
-              "Den politiske aftale blev efterfulgt af militær indgriben",
-              "Begivenheden blev først kendt gennem senere erindringer"
+              "Både revolutionære idéer og fransk dominans",
+              "Kun juletraditioner",
+              "Kun danske fædrelandssange",
+              "Kun amerikanske valgplakater"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_04"
+            "id": "kp_nap8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad skete der ved Waterloo i 1815?",
-            "answer": "Napoleon led sit endelige militære nederlag",
+            "category": "Diskussion",
+            "question": "Hvorfor kan Napoleon diskuteres som både viderefører og brud?",
+            "answer": "Han bevarede nogle reformer, men koncentrerede magten hos sig selv",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Napoleon led sit endelige militære nederlag",
-              "Myndighederne ændrede kurs efter pres fra både ind- og udland",
-              "Den politiske aftale blev efterfulgt af militær indgriben",
-              "Udviklingen skete gradvist gennem forhandlinger og lokale konflikter"
+              "Han bevarede nogle reformer, men koncentrerede magten hos sig selv",
+              "Fordi han aldrig havde politisk magt",
+              "Fordi han kun var filosof",
+              "Fordi ingen ved om han fandtes"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_05"
+            "id": "kp_nap8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Revolutionens arv og Napoleon?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Lov",
+            "question": "Hvorfor er lovgivning vigtig i revolutionens efterliv?",
+            "answer": "Den kan gøre idéer til konkrete regler i samfundet",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Den kan gøre idéer til konkrete regler i samfundet",
+              "Den gør idéer usynlige",
+              "Den fjerner behovet for borgere",
+              "Den er altid upolitisk"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_06"
+            "id": "kp_nap8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Revolutionens arv og Napoleon helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Metode",
+            "question": "Hvad kræver en god vurdering af Napoleon?",
+            "answer": "Mindst to fakta, der viser både arv og magtkoncentration",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Mindst to fakta, der viser både arv og magtkoncentration",
+              "Kun et kælenavn",
+              "Kun en filmplakat",
+              "Kun om man kan lide ham"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_07"
+            "id": "kp_nap8_07"
           },
           {
             "category": "Perspektiv",
-            "question": "Hvordan kan Revolutionens arv og Napoleon bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "question": "Hvad lærer Napoleon-forløbet om revolutioner?",
+            "answer": "At revolutioner kan skabe både nye rettigheder, ny orden og ny magt",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "At revolutioner kan skabe både nye rettigheder, ny orden og ny magt",
+              "At revolutioner altid ender uden konflikter",
+              "At idéer aldrig overlever konflikter",
+              "At krig og politik ikke hænger sammen"
             ],
-            "id": "kp_revolutionens-arv-og-napoleon_08"
+            "id": "kp_nap8_08"
           }
         ],
         "current": 0,
@@ -63171,7 +63171,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.501Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-04-revolutionens-arv-og-nap-kapardy-game",
@@ -63374,7 +63374,7 @@
         "z": 1
       },
       "content": {
-        "text": "STORMEN PÅ BASTILLEN\nMandag 15/3\n\nHISTORISK PROBLEMSTILLING\nHvorfor blev angrebet på et fængsel med få fanger 14. juli 1789 et symbol på en hel revolution?\n\nFEM FAKTA, DER SKAL FREM\n1. 14. juli 1789\n   Parisere angreb fæstningen for våben og krudt under en politisk og økonomisk krise.\n2. Syv\n   Fængslets symbolske betydning som kongelig vilkårlighed var større end antallet af fanger.\n3. Han blev dræbt af folkemængden\n   Begivenheden viser både revolutionær mobilisering og voldens hurtige eskalation.\n4. En repræsentation af gejstlighed, adel og tredjestand\n   Kong Ludvig 16. indkaldte den i maj 1789 på grund af statens finanskrise.\n5. Dagen samler Bastillens storm og mindet om Fête de la Fédération 1790\n   Nationaldagen bruger revolutionen som symbol på folk, nation og frihed.\n\nKONKLUSION\nBastillen blev historisk vigtig både som faktisk magtkamp og som et billede, revolutionen og senere staten kunne bruge.",
+        "text": "STORMEN PÅ BASTILLEN\nMandag 15/3\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan en enkelt begivenhed blive symbol på en hel revolution?\n\nDET SKAL ELEVERNE HAVE MED\n1. Bastillen var ikke kun en fæstning og et fængsel. Den blev symbol på kongelig magt og vilkårlig fængsling.\n2. Stormen 14. juli 1789 skete i en situation med økonomisk krise, politisk mistillid, rygter og frygt for militær indgriben.\n3. Begivenheden fik enorm symbolsk betydning, selv om antallet af fanger var lille.\n4. Revolutioner opstår ikke af én årsag, men gennem kriser, idéer, organisation, frygt og konkrete handlinger.\n5. Når man arbejder med symboler, skal man spørge: Hvad skete der faktisk, og hvad kom begivenheden til at betyde bagefter?\n\nGREB\nSkriv to kolonner: “Hvad skete der?” og “Hvad kom det til at betyde?”. Brug Bastillen som eksempel på forskellen.",
         "fontSize": 17,
         "align": "left"
       },
@@ -63387,7 +63387,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.493Z",
-      "updatedAt": "2026-06-24T22:43:07.493Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-01-7079a0f5-faglig",
@@ -63637,7 +63637,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. 14. juli 1789\n2. Syv\n3. Han blev dræbt af folkemængden\n4. En repræsentation af gejstlighed, adel og tredjestand\n5. Dagen samler Bastillens storm og mindet om Fête de la Fédération 1790",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Bastillen blev symbol på kongelig magt og uretfærdig fængsling.\n2. Stormen skete midt i økonomisk og politisk krise.\n3. Begivenhedens symbolske betydning blev større end den konkrete fængselsbefrielse.\n4. Revolutioner har flere årsager og udvikler sig gennem handlinger og fortolkninger.\n5. Historie kræver skelnen mellem begivenhed og eftertidens symbol.",
         "fontSize": 14,
         "align": "left"
       },
@@ -63650,7 +63650,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.494Z",
-      "updatedAt": "2026-06-24T22:43:07.494Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-01-7079a0f5-kernersvar",
@@ -63694,116 +63694,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvilken dato blev Bastillen stormet?",
+            "category": "Dato",
+            "question": "Hvornår blev Bastillen stormet?",
             "answer": "14. juli 1789",
             "correctIndex": 0,
             "points": 100,
             "options": [
               "14. juli 1789",
-              "14. juli 1794",
-              "14. juli 1788",
-              "14. juli 1779"
+              "4. juli 1776",
+              "5. juni 1849",
+              "9. november 1989"
             ],
-            "id": "kp_stormen-p-bastillen_01"
+            "id": "kp_bastille8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvor mange fanger sad i Bastillen ved stormen?",
-            "answer": "Syv",
+            "category": "Symbol",
+            "question": "Hvad blev Bastillen især symbol på?",
+            "answer": "Kongelig magt og vilkårlig fængsling",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Syv",
-              "Ni",
-              "Otte",
-              "Seks"
+              "Kongelig magt og vilkårlig fængsling",
+              "Fri presse i alle lande",
+              "Det moderne EU",
+              "Napoleons endelige nederlag"
             ],
-            "id": "kp_stormen-p-bastillen_02"
+            "id": "kp_bastille8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad skete der med kommandanten de Launay?",
-            "answer": "Han blev dræbt af folkemængden",
+            "category": "Krise",
+            "question": "Hvilken baggrund var vigtig for stormen?",
+            "answer": "Økonomisk krise, mistillid og frygt for militær indgriben",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Han blev dræbt af folkemængden",
-              "Myndighederne ændrede kurs efter pres fra både ind- og udland",
-              "Begivenheden blev først kendt gennem senere erindringer",
-              "Beslutningen blev gennemført straks og uden modstand"
+              "Økonomisk krise, mistillid og frygt for militær indgriben",
+              "Et fredeligt folkefestprogram uden konflikt",
+              "Et fælles europæisk sportsstævne",
+              "En planlagt museumsåbning"
             ],
-            "id": "kp_stormen-p-bastillen_03"
+            "id": "kp_bastille8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad var stænderforsamlingen?",
-            "answer": "En repræsentation af gejstlighed, adel og tredjestand",
+            "category": "Betydning",
+            "question": "Hvorfor blev stormen på Bastillen så vigtig?",
+            "answer": "Den blev et stærkt symbol på folkelig modstand mod enevældig magt",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "En repræsentation af gejstlighed, adel og tredjestand",
-              "En økonomisk ordning, der bevarede de eksisterende privilegier",
-              "En officiel beslutning uden praktisk gennemførelse",
-              "En økonomisk reform, der kun berørte handelen"
+              "Den blev et stærkt symbol på folkelig modstand mod enevældig magt",
+              "Fordi fængslet rummede tusindvis af fanger",
+              "Fordi kongen selv ledte stormen",
+              "Fordi revolutionen sluttede samme dag"
             ],
-            "id": "kp_stormen-p-bastillen_04"
+            "id": "kp_bastille8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvorfor fejrer Frankrig 14. juli?",
-            "answer": "Fordi dagen samler Bastillens storm og mindet om Fête de la Fédération 1790",
+            "category": "Metode",
+            "question": "Hvad skal man skelne mellem ved Bastillen?",
+            "answer": "Hvad der faktisk skete, og hvad begivenheden senere kom til at betyde",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Fordi dagen samler Bastillens storm og mindet om Fête de la Fédération 1790",
-              "Fordi sociale konflikter gjorde et kompromis vanskeligt",
-              "Fordi politiske ledere ønskede at bevare kontrollen",
-              "Fordi økonomiske interesser pressede udviklingen i en anden retning"
+              "Hvad der faktisk skete, og hvad begivenheden senere kom til at betyde",
+              "Hvad der blev sagt på tv, og hvad der stod på sociale medier",
+              "Hvilke farver fæstningen havde, og hvilke sko folk bar",
+              "Hvem der kunne bedst fransk i klassen"
             ],
-            "id": "kp_stormen-p-bastillen_05"
+            "id": "kp_bastille8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Stormen på Bastillen?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Årsager",
+            "question": "Hvad er en god forklaring på revolutionens årsager?",
+            "answer": "Flere kriser, idéer, sociale spændinger og politiske handlinger virkede sammen",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Flere kriser, idéer, sociale spændinger og politiske handlinger virkede sammen",
+              "Én enkelt person besluttede det hele alene",
+              "Alle var enige fra starten",
+              "Der var ingen økonomiske problemer"
             ],
-            "id": "kp_stormen-p-bastillen_06"
+            "id": "kp_bastille8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Stormen på Bastillen helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Eftertid",
+            "question": "Hvad viser Bastillens efterliv?",
+            "answer": "At historiske begivenheder kan få symbolsk kraft i national erindring",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "At historiske begivenheder kan få symbolsk kraft i national erindring",
+              "At symboler ikke betyder noget",
+              "At begivenheder kun har betydning samme dag",
+              "At historie er uafhængig af fortolkning"
             ],
-            "id": "kp_stormen-p-bastillen_07"
+            "id": "kp_bastille8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Stormen på Bastillen bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Revolution",
+            "question": "Hvad kendetegner ofte en revolution?",
+            "answer": "Magtforhold, institutioner og idéer ændres gennem konflikt og mobilisering",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Magtforhold, institutioner og idéer ændres gennem konflikt og mobilisering",
+              "Alt fortsætter uden ændringer",
+              "Kun navne på gader skiftes",
+              "Der er aldrig vold eller uenighed"
             ],
-            "id": "kp_stormen-p-bastillen_08"
+            "id": "kp_bastille8_08"
           }
         ],
         "current": 0,
@@ -63821,7 +63821,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.494Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-01-stormen-paa-bastillen-kapardy-game",
@@ -64328,7 +64328,7 @@
         "z": 1
       },
       "content": {
-        "text": "MENNESKERETTIGHEDER\nTorsdag 18/3\n\nHISTORISK PROBLEMSTILLING\nHvor universel var Erklæringen om menneskets og borgerens rettigheder fra 1789, når kvinder, slaver og koloniserede ikke fik lige politisk magt?\n\nFEM FAKTA, DER SKAL FREM\n1. 26. august 1789\n   Nationalforsamlingen formulerede grundprincipper om frihed, lighed, ejendom og folkesuverænitet.\n2. Mennesker fødes og forbliver frie og lige i rettigheder\n   Den universelle formulering stod i spænding med samfundets faktiske uligheder.\n3. Olympe de Gouges\n   Hun spejlede 1789-erklæringen og kritiserede kvinders politiske udelukkelse.\n4. Det blev ophævet i 1794 og genindført af Napoleon i 1802\n   Haitis revolution var afgørende for, at universelle rettigheder også blev en antikolonial kamp.\n5. Teksten kræver institutioner, love og mulighed for håndhævelse\n   Rettigheder på papir kan eksistere samtidig med diskrimination og vold.\n\nKONKLUSION\n1789-erklæringen var revolutionerende i sit sprog og begrænset i sin første praksis; netop spændingen gjorde den til redskab for senere krav.",
+        "text": "MENNESKERETTIGHEDER\nTorsdag 18/3\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor er menneskerettigheder både idealer og konflikter?\n\nDET SKAL ELEVERNE HAVE MED\n1. Revolutionens erklæring om menneskets og borgerens rettigheder fra 1789 formulerede frihed, lighed og folkesuverænitet som politiske idealer.\n2. Rettighederne gjaldt ikke alle i praksis. Kvinder, slavegjorte mennesker og mange fattige stod uden fuld politisk lighed.\n3. Derfor skal menneskerettigheder læses både som fremskridt og som en kilde til kritik: Hvem er med i “mennesket”?\n4. Senere menneskerettighedstænkning bygger videre på idéen om, at magt skal begrænses af rettigheder.\n5. Eleverne skal kunne skelne mellem rettighed, pligt, ideal, lov og praksis.\n\nGREB\nSkriv ordet “menneske” på tavlen. Spørg: Hvem blev tænkt med i 1789, og hvem måtte kæmpe sig ind senere?",
         "fontSize": 17,
         "align": "left"
       },
@@ -64341,7 +64341,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.495Z",
-      "updatedAt": "2026-06-24T22:43:07.495Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-03-68e45ff2-faglig",
@@ -64591,7 +64591,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. 26. august 1789\n2. Mennesker fødes og forbliver frie og lige i rettigheder\n3. Olympe de Gouges\n4. Det blev ophævet i 1794 og genindført af Napoleon i 1802\n5. Teksten kræver institutioner, love og mulighed for håndhævelse",
+        "text": "KERNESVAR TIL OPSAMLING\n1. 1789-erklæringen formulerede vigtige idealer om frihed, lighed og folkesuverænitet.\n2. Den gjaldt ikke alle mennesker lige i praksis.\n3. Rettighedshistorie er både fremskridtshistorie og kritik af udelukkelse.\n4. Menneskerettigheder begrænser magt og beskytter personer.\n5. En god analyse skelner mellem idealer, love og faktisk praksis.",
         "fontSize": 14,
         "align": "left"
       },
@@ -64604,7 +64604,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.496Z",
-      "updatedAt": "2026-06-24T22:43:07.496Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-22-den-franske-revolution-03-68e45ff2-kernersvar",
@@ -68967,7 +68967,7 @@
         "z": 1
       },
       "content": {
-        "text": "TOVE DITLEVSEN\nFredag 23/4\n\nHISTORISK PROBLEMSTILLING\nHvordan kan Tove Ditlevsens tekster bruges som kilder til køn, klasse, barndom og forfatterliv uden at gøre litteratur til direkte selvbiografi?\n\nFEM FAKTA, DER SKAL FREM\n1. På Vesterbro i København\n   Barndommens arbejdermiljø blev et vigtigt stof i både digte, romaner og erindringer.\n2. 1939\n   Debuten placerede en ung kvindelig stemme i dansk litteratur kort før besættelsen.\n3. Barndom, Ungdom og Gift\n   De tre erindringsbøger undersøger opvækst, forfatterdrøm, ægteskab og afhængighed.\n4. Litterær form udvælger, ordner og fortolker erfaring\n   Selvbiografisk stof er stadig skrevet med komposition, sprog og eftertidens blik.\n5. Køn, klasse, skam, kreativitet, kærlighed og afhængighed\n   Ditlevsens popularitet hænger sammen med præcis fremstilling af private erfaringer som samfundsmæssige.\n\nKONKLUSION\nDitlevsen kan læses både litterært og historisk, hvis teksten ikke reduceres til et dokument uden form.",
+        "text": "TOVE DITLEVSEN\nFredag 23/4\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan et menneskes personlige erfaringer blive til litteratur, som andre kan spejle sig i?\n\nDET SKAL ELEVERNE HAVE MED\n1. Tove Ditlevsen skrev om barndom, køn, klasse, længsel, skrivetrang, afhængighed og sårbarhed med en stærk personlig stemme.\n2. Hun er ikke kun interessant på grund af sit liv, men på grund af hvordan hun formede erfaringer til sprog.\n3. Når man læser selvbiografisk litteratur, skal man skelne mellem forfatter, fortæller og tekst.\n4. Hendes tekster kan åbne samtaler om social arv, psykisk sårbarhed, kærlighed, ambitioner og det at ville blive til noget.\n5. Eleverne skal møde forfatterskabet med respekt: ikke som sladder, men som kunstnerisk bearbejdning af livserfaring.\n\nGREB\nLæs et kort uddrag. Spørg: Hvad får vi at vide om verden — ikke bare om personen?",
         "fontSize": 17,
         "align": "left"
       },
@@ -68980,7 +68980,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.516Z",
-      "updatedAt": "2026-06-24T22:43:07.516Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-24-store-personligheder-08-t-8ed87212-faglig",
@@ -69230,7 +69230,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. På Vesterbro i København\n2. 1939\n3. Barndom, Ungdom og Gift\n4. Litterær form udvælger, ordner og fortolker erfaring\n5. Køn, klasse, skam, kreativitet, kærlighed og afhængighed",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Ditlevsen skrev personligt, men hendes tekster rækker ud over privatlivet.\n2. Hun brugte sprog til at bearbejde erfaringer med klasse, køn, længsel og sårbarhed.\n3. Selvbiografisk litteratur kræver skelnen mellem forfatter, fortæller og tekst.\n4. En respektfuld læsning undgår sladder og undersøger form, stemme og temaer.\n5. Litteratur kan gøre personlige erfaringer delbare.",
         "fontSize": 14,
         "align": "left"
       },
@@ -69243,7 +69243,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.518Z",
-      "updatedAt": "2026-06-24T22:43:07.518Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-24-store-personligheder-08-t-8ed87212-kernersvar",
@@ -69287,116 +69287,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvor voksede Tove Ditlevsen op?",
-            "answer": "På Vesterbro i København",
+            "category": "Forfatterskab",
+            "question": "Hvilke temaer forbindes ofte med Tove Ditlevsen?",
+            "answer": "Barndom, klasse, køn, længsel, skrivetrang og sårbarhed",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "På Vesterbro i København",
-              "Warszawa",
-              "Kenya",
-              "Pakistan"
+              "Barndom, klasse, køn, længsel, skrivetrang og sårbarhed",
+              "Rumfart, vikingeskibe og skattepolitik",
+              "Middelalderlige kongerækker alene",
+              "Kun madopskrifter og sport"
             ],
-            "id": "kp_tove-ditlevsen_01"
+            "id": "kp_tove8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvornår debuterede hun med digtsamlingen Pigesind?",
-            "answer": "1939",
+            "category": "Litteratur",
+            "question": "Hvorfor er Ditlevsen ikke kun interessant på grund af sit liv?",
+            "answer": "Fordi hun formede erfaringer til præcist og stærkt litterært sprog",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "1939",
-              "1929",
-              "1944",
-              "1938"
+              "Fordi hun formede erfaringer til præcist og stærkt litterært sprog",
+              "Fordi hendes tekster aldrig handler om mennesker",
+              "Fordi hun kun skrev rapporter",
+              "Fordi læsere ikke må tolke litteratur"
             ],
-            "id": "kp_tove-ditlevsen_02"
+            "id": "kp_tove8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad består København-trilogien af?",
-            "answer": "Barndom, Ungdom og Gift",
+            "category": "Metode",
+            "question": "Hvad skal man skelne mellem i selvbiografisk litteratur?",
+            "answer": "Forfatter, fortæller og tekst",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Barndom, Ungdom og Gift",
-              "ANC",
-              "Berømmelse uden dokumenterede handlinger",
-              "FN"
+              "Forfatter, fortæller og tekst",
+              "Titel, pris og papirtykkelse",
+              "Sang, dans og idræt",
+              "Kommune, region og land"
             ],
-            "id": "kp_tove-ditlevsen_03"
+            "id": "kp_tove8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvorfor er jeg-fortælleren ikke automatisk identisk med forfatteren?",
-            "answer": "Fordi litterær form udvælger, ordner og fortolker erfaring",
+            "category": "Respekt",
+            "question": "Hvad er en respektfuld læsning af et sårbart forfatterskab?",
+            "answer": "At undersøge tekstens form og temaer uden at gøre livet til sladder",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Fordi litterær form udvælger, ordner og fortolker erfaring",
-              "Fordi samtidens konflikter prægede personens valg",
-              "Fordi alle kilder beskriver personen på samme måde",
-              "Fordi personens arbejde ændrede muligheder for andre"
+              "At undersøge tekstens form og temaer uden at gøre livet til sladder",
+              "At reducere alt til rygter",
+              "At ignorere sproget",
+              "At kun tale om forfatterens udseende"
             ],
-            "id": "kp_tove-ditlevsen_04"
+            "id": "kp_tove8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvilke sociale temaer går igen?",
-            "answer": "Køn, klasse, skam, kreativitet, kærlighed og afhængighed",
+            "category": "Spejl",
+            "question": "Hvordan kan personlig litteratur blive fælles?",
+            "answer": "Den kan give sprog til erfaringer, som flere mennesker genkender",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Køn, klasse, skam, kreativitet, kærlighed og afhængighed",
-              "Universitetet",
-              "Berømmelse uden dokumenterede handlinger",
-              "Nobelkomitéen"
+              "Den kan give sprog til erfaringer, som flere mennesker genkender",
+              "Den kan kun forstås af forfatteren selv",
+              "Den stopper al samtale",
+              "Den virker kun uden læsere"
             ],
-            "id": "kp_tove-ditlevsen_05"
+            "id": "kp_tove8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Tove Ditlevsen?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Social arv",
+            "question": "Hvad handler social arv om i litterær samtale?",
+            "answer": "Hvordan opvækst, klasse og muligheder kan præge livsbaner",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Hvordan opvækst, klasse og muligheder kan præge livsbaner",
+              "Hvordan man arver møbler alene",
+              "Hvordan naturlover fungerer",
+              "Hvordan alle får samme muligheder automatisk"
             ],
-            "id": "kp_tove-ditlevsen_06"
+            "id": "kp_tove8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Tove Ditlevsen helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Stemmen",
+            "question": "Hvad menes med en stærk litterær stemme?",
+            "answer": "En særlig måde at se, formulere og rytmisere erfaring på",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "En særlig måde at se, formulere og rytmisere erfaring på",
+              "At teksten råber med store bogstaver",
+              "At der aldrig bruges billeder",
+              "At alle sætninger er ens"
             ],
-            "id": "kp_tove-ditlevsen_07"
+            "id": "kp_tove8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Tove Ditlevsen bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Elevspørgsmål",
+            "question": "Hvad er et godt spørgsmål til en Ditlevsen-tekst?",
+            "answer": "Hvad lærer teksten os om verden, ikke kun om personen?",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Hvad lærer teksten os om verden, ikke kun om personen?",
+              "Hvor hurtigt kan teksten læses?",
+              "Hvor mange sider er bogen?",
+              "Kan vi undgå alle temaer?"
             ],
-            "id": "kp_tove-ditlevsen_08"
+            "id": "kp_tove8_08"
           }
         ],
         "current": 0,
@@ -69414,7 +69414,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.518Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-24-store-personligheder-08-tove-ditlevsen-kapardy-game",
@@ -71673,116 +71673,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvilke musiktraditioner indgik i tidlig rock ’n’ roll?",
-            "answer": "Blandt andet rhythm and blues, gospel og country",
+            "category": "Ungdom",
+            "question": "Hvorfor hænger rock og pop ofte sammen med ungdomskultur?",
+            "answer": "Musikken giver stil, fællesskab, identitet og generationssprog",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Blandt andet rhythm and blues, gospel og country",
-              "Sampling uden kreditering",
-              "Klubberne",
-              "European Broadcasting Union"
+              "Musikken giver stil, fællesskab, identitet og generationssprog",
+              "Fordi unge ikke lytter til tekster",
+              "Fordi musik ikke påvirkes af medier",
+              "Fordi pop kun er for voksne politikere"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_01"
+            "id": "kp_rock8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvilken teknologi gjorde musik mere mobil for unge?",
-            "answer": "Transistorradioen og senere bærbare afspillere",
+            "category": "Medier",
+            "question": "Hvilke medier var vigtige for pop- og rockkulturens udbredelse?",
+            "answer": "Plader, radio, tv, koncerter og senere musikvideoer",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "Transistorradioen og senere bærbare afspillere",
-              "Musikalske rødder, teknologi og fællesskab",
-              "En enkelt opfinders færdige stil",
-              "En national tradition uden påvirkning udefra"
+              "Plader, radio, tv, koncerter og senere musikvideoer",
+              "Kun håndskrevne breve",
+              "Kun kirkebøger",
+              "Kun skoleprotokoller"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_02"
+            "id": "kp_rock8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvorfor blev 1960’ernes pop og rock politisk?",
-            "answer": "Fordi musik blev knyttet til borgerrettigheder, krigsmodstand og nye livsformer",
+            "category": "Oprør",
+            "question": "Hvad er en vigtig dobbelthed ved rock?",
+            "answer": "Den kan opleves som oprør og samtidig være en kommerciel vare",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Fordi musik blev knyttet til borgerrettigheder, krigsmodstand og nye livsformer",
-              "Fordi ungdomskultur skabte nye fællesskaber og konflikter",
-              "Fordi publikum ikke påvirkede musikkens betydning",
-              "Fordi nye medier og teknologier ændrede produktion og spredning"
+              "Den kan opleves som oprør og samtidig være en kommerciel vare",
+              "Den er altid uden publikum",
+              "Den kan aldrig være politisk",
+              "Den findes kun uden instrumenter"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_03"
+            "id": "kp_rock8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad gjorde musikvideoen i 1980’erne?",
-            "answer": "Gjorde visuel identitet og tv-distribution endnu vigtigere for pop",
+            "category": "Pop",
+            "question": "Hvad er en nuanceret forståelse af popmusik?",
+            "answer": "Den kan være bredt tilgængelig og samtidig kunstnerisk eller politisk vigtig",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Gjorde visuel identitet og tv-distribution endnu vigtigere for pop",
-              "Musikken forblev uændret efter sin første indspilning",
-              "Musikken blev udviklet gennem møder mellem traditioner, teknologi og publikum",
-              "Nye medier havde ingen betydning for udbredelsen"
+              "Den kan være bredt tilgængelig og samtidig kunstnerisk eller politisk vigtig",
+              "Den er altid tom og uden betydning",
+              "Den er kun musik uden tekst",
+              "Den kan ikke analyseres"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_04"
+            "id": "kp_rock8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan kan en subkultur undersøges?",
-            "answer": "Gennem lyd, tøj, steder, medier og deltagernes egne forklaringer",
+            "category": "Analyse",
+            "question": "Hvilke seks felter er gode i en musikanalyse?",
+            "answer": "Lyd, tekst, image, publikum, teknologi og tid",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Gennem lyd, tøj, steder, medier og deltagernes egne forklaringer",
-              "Musikken blev udviklet gennem møder mellem traditioner, teknologi og publikum",
-              "Nye medier havde ingen betydning for udbredelsen",
-              "Musikken forblev uændret efter sin første indspilning"
+              "Lyd, tekst, image, publikum, teknologi og tid",
+              "Højde, bredde, vægt, pris, farve og vejr",
+              "Kun titel og længde",
+              "Kun om kunstneren er kendt"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_05"
+            "id": "kp_rock8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Rock, pop og ungdomskultur?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Teknologi",
+            "question": "Hvorfor betyder teknologi noget i musikhistorie?",
+            "answer": "Fordi optagelse, forstærkning og distribution ændrer musikkens muligheder",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Fordi optagelse, forstærkning og distribution ændrer musikkens muligheder",
+              "Fordi teknologi aldrig påvirker musik",
+              "Fordi alle sange lyder ens uden teknologi",
+              "Fordi koncerter ikke bruger udstyr"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_06"
+            "id": "kp_rock8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Rock, pop og ungdomskultur helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Fans",
+            "question": "Hvorfor er fans vigtige i popkultur?",
+            "answer": "De skaber fællesskaber, ritualer, symboler og betydning omkring musikken",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "De skaber fællesskaber, ritualer, symboler og betydning omkring musikken",
+              "De er kun passive tal i et regneark",
+              "De har ingen forbindelse til identitet",
+              "De gør altid musikken mindre vigtig"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_07"
+            "id": "kp_rock8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Rock, pop og ungdomskultur bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Skolebrug",
+            "question": "Hvad er en god opgave om ungdomskultur og musik?",
+            "answer": "Undersøg hvordan et nummer skaber identitet gennem lyd, tekst og image",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Undersøg hvordan et nummer skaber identitet gennem lyd, tekst og image",
+              "Find kun hvor mange streams nummeret har",
+              "Skriv at alt nyt er bedre end alt gammelt",
+              "Undgå at lytte til musikken"
             ],
-            "id": "kp_rock-pop-og-ungdomskultur_08"
+            "id": "kp_rock8_08"
           }
         ],
         "current": 0,
@@ -71800,7 +71800,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.522Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-03-rock-pop-og-ungdomskultu-kapardy-game",
@@ -71830,7 +71830,7 @@
         "z": 1
       },
       "content": {
-        "text": "HIP-HOP, SAMPLING OG ELEKTRONISK MUSIK\nFredag 14/5\n\nHISTORISK PROBLEMSTILLING\nHvordan blev pladespillere, trommemaskiner, samples og lokale fester til globale musikformer og nye diskussioner om ejerskab?\n\nFEM FAKTA, DER SKAL FREM\n1. Bronx i New York i 1970’erne\n   DJ-kultur, MC’ing, breakdance og graffiti voksede i lokale afroamerikanske og latino-miljøer.\n2. At forlænge break-sektioner ved at skifte mellem to plader\n   Teknikken gav dansere og MC’er længere rytmiske forløb.\n3. Genbrug af et lydudsnit i et nyt værk\n   Sampling kan være kreativ dialog med musikhistorien, men rejser ophavsretlige og økonomiske spørgsmål.\n4. De gjorde programmerede rytmer og præcis gentagelse til kreative instrumenter\n   Maskinens begrænsninger og fejl kunne blive en genres lyd.\n5. Nye værker kan bygge på tidligere musikeres præstationer og rettigheder\n   Juridisk tilladelse, betaling og kulturel anerkendelse er beslægtede, men ikke identiske spørgsmål.\n\nKONKLUSION\nHip-hop og elektronisk musik viser, at teknologi ikke skaber kultur alene; mennesker omformer værktøjer ud fra lokale behov og æstetik.",
+        "text": "HIP-HOP, SAMPLING OG ELEKTRONISK MUSIK\nFredag 14/5\n\nSPØRGSMÅL TIL SAMLINGEN\nHvornår bliver teknologi et instrument?\n\nDET SKAL ELEVERNE HAVE MED\n1. Hip-hop voksede ud af blokfester, DJ-kultur, MC’ing, breakdance, graffiti og lokale fællesskaber.\n2. Sampling er ikke bare kopiering. Det kan være citat, genbrug, rytmisk materiale, lydcollage og musikalsk dialog med fortiden.\n3. Elektronisk musik viser, at instrumenter også kan være pladespillere, samplere, synthesizere, trommemaskiner og computere.\n4. Der er både kunstneriske og juridiske spørgsmål i sampling: Hvem ejer lyd, og hvem skaber ny betydning?\n5. Eleverne kan lytte efter beat, flow, hook, sample, klang, produktion og kontekst.\n\nGREB\nAfspil et beat og spørg: Hvad er instrumentet her — trommen, maskinen, produceren eller den gamle plade?",
         "fontSize": 17,
         "align": "left"
       },
@@ -71843,7 +71843,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.522Z",
-      "updatedAt": "2026-06-24T22:43:07.522Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-04-hip-hop-bc646067-faglig",
@@ -72093,7 +72093,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Bronx i New York i 1970’erne\n2. At forlænge break-sektioner ved at skifte mellem to plader\n3. Genbrug af et lydudsnit i et nyt værk\n4. De gjorde programmerede rytmer og præcis gentagelse til kreative instrumenter\n5. Nye værker kan bygge på tidligere musikeres præstationer og rettigheder",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Hip-hop er en kulturform med flere elementer, ikke kun rap.\n2. Sampling kan skabe ny musik gennem genbrug og omfortolkning.\n3. Elektroniske instrumenter ændrer, hvad musik kan være.\n4. Sampling rejser spørgsmål om ophavsret, ejerskab og kreativitet.\n5. En god lytning undersøger beat, flow, sample, klang, produktion og social kontekst.",
         "fontSize": 14,
         "align": "left"
       },
@@ -72106,7 +72106,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.523Z",
-      "updatedAt": "2026-06-24T22:43:07.523Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-04-hip-hop-bc646067-kernersvar",
@@ -72150,116 +72150,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvor forbindes hip-hops tidlige udvikling især med?",
-            "answer": "Bronx i New York i 1970’erne",
+            "category": "Hip-hop",
+            "question": "Hvilket miljø forbindes ofte med hiphoppens tidlige udvikling?",
+            "answer": "Blokfester, DJ-kultur, MC’er, breakdance og graffiti",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "Bronx i New York i 1970’erne",
-              "New Orleans",
-              "Memphis",
-              "Detroit"
+              "Blokfester, DJ-kultur, MC’er, breakdance og graffiti",
+              "Europæiske slotte i 1600-tallet",
+              "Operahuse uden publikum",
+              "Kun klassiske symfoniorkestre"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_01"
+            "id": "kp_hiphop8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad gjorde DJ Kool Herc kendt for?",
-            "answer": "At forlænge break-sektioner ved at skifte mellem to plader",
+            "category": "Sampling",
+            "question": "Hvad er sampling i musik?",
+            "answer": "At bruge et stykke eksisterende lyd som materiale i en ny produktion",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "At forlænge break-sektioner ved at skifte mellem to plader",
-              "At afskaffe dans ved hip-hop-arrangementer",
-              "At skrive de første elektroniske noder til Eurovision",
-              "At erstatte alle plader med liveorkester"
+              "At bruge et stykke eksisterende lyd som materiale i en ny produktion",
+              "At synge uden mikrofon",
+              "At skrive noder i hånden",
+              "At spille hurtigere hver gang"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_02"
+            "id": "kp_hiphop8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvad er sampling?",
-            "answer": "Genbrug af et lydudsnit i et nyt værk",
+            "category": "Kreativitet",
+            "question": "Hvorfor er sampling mere end simpel kopiering?",
+            "answer": "Fordi lyd kan omformes, sættes i ny sammenhæng og få ny betydning",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Genbrug af et lydudsnit i et nyt værk",
-              "At ændre tempoet på en hel sang uden at udtage dele",
-              "At spille et eksisterende nummer hurtigere uden at hente lydudsnit",
-              "At indspille hele nummeret live uden genbrug"
+              "Fordi lyd kan omformes, sættes i ny sammenhæng og få ny betydning",
+              "Fordi ingen kan høre originalen",
+              "Fordi det altid er ulovligt",
+              "Fordi det aldrig ændrer lyden"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_03"
+            "id": "kp_hiphop8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvilken rolle fik trommemaskiner og sequencere?",
-            "answer": "De gjorde programmerede rytmer og præcis gentagelse til kreative instrumenter",
+            "category": "Teknologi",
+            "question": "Hvilket udstyr kan fungere som instrument i elektronisk musik?",
+            "answer": "Pladespiller, sampler, synthesizer, trommemaskine og computer",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "De gjorde programmerede rytmer og præcis gentagelse til kreative instrumenter",
-              "De gjorde det umuligt at gentage rytmiske mønstre",
-              "De blev udviklet til at fjerne al gentagelse fra musikken",
-              "De havde kun betydning i klassisk notation"
+              "Pladespiller, sampler, synthesizer, trommemaskine og computer",
+              "Kun violin og obo",
+              "Kun papir og blyant",
+              "Kun publikums klapsalver"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_04"
+            "id": "kp_hiphop8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvorfor er kreditering vigtig?",
-            "answer": "Fordi nye værker kan bygge på tidligere musikeres præstationer og rettigheder",
+            "category": "Jura",
+            "question": "Hvilket spørgsmål rejser sampling?",
+            "answer": "Hvem ejer lyd, og hvordan må den bruges i ny musik?",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Fordi nye værker kan bygge på tidligere musikeres præstationer og rettigheder",
-              "Fordi nye medier og teknologier ændrede produktion og spredning",
-              "Fordi pladeselskaberne alene skabte hele udviklingen",
-              "Fordi genren opstod uden forbindelse til ældre musik"
+              "Hvem ejer lyd, og hvordan må den bruges i ny musik?",
+              "Hvor mange stole står i lokalet?",
+              "Hvad koster en guitarstreng?",
+              "Hvilken farve har scenelyset?"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_05"
+            "id": "kp_hiphop8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Hip-hop, sampling og elektronisk musik?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Flow",
+            "question": "Hvad betyder flow i rap?",
+            "answer": "Rapperens rytmiske placering og bevægelse i forhold til beatet",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "Rapperens rytmiske placering og bevægelse i forhold til beatet",
+              "Hvor hurtigt publikum forlader salen",
+              "Hvor meget vand der løber i en flod",
+              "Hvor mange højttalere der er tændt"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_06"
+            "id": "kp_hiphop8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Hip-hop, sampling og elektronisk musik helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Producer",
+            "question": "Hvorfor er produceren vigtig?",
+            "answer": "Produktionens beat, klang og struktur former nummerets udtryk",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Produktionens beat, klang og struktur former nummerets udtryk",
+              "Produceren tæller kun billetter",
+              "Produceren må aldrig påvirke lyden",
+              "Produceren erstatter alle musikere med tavshed"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_07"
+            "id": "kp_hiphop8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Hip-hop, sampling og elektronisk musik bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Analyse",
+            "question": "Hvad bør man lytte efter i hip-hop og elektronisk musik?",
+            "answer": "Beat, flow, sample, klang, produktion og kontekst",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Beat, flow, sample, klang, produktion og kontekst",
+              "Kun om sangen er lang",
+              "Kun om kunstneren er ældst",
+              "Kun om titlen rimer"
             ],
-            "id": "kp_hip-hop-sampling-og-elektronisk-musik_08"
+            "id": "kp_hiphop8_08"
           }
         ],
         "current": 0,
@@ -72277,7 +72277,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.523Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-04-hip-hop-sampling-og-elek-kapardy-game",
@@ -72957,7 +72957,7 @@
         "z": 1
       },
       "content": {
-        "text": "BLUES, JAZZ OG RØDDER\nTirsdag 11/5\n\nHISTORISK PROBLEMSTILLING\nHvordan voksede blues og jazz ud af afroamerikansk historie, og hvad går tabt, når musikken kun fortælles som en række store solister?\n\nFEM FAKTA, DER SKAL FREM\n1. I afroamerikanske miljøer i det amerikanske syd\n   Blues voksede ud af blandt andet work songs, spirituals, ballader og nye by- og landmiljøer efter slaveriet.\n2. En udbredt harmonisk form over tolv takter\n   Formen varierer og er ikke definitionen på al blues.\n3. New Orleans\n   Byens afroamerikanske, kreolske, caribiske og europæiske musikmiljøer bidrog til en ny improviseret ensemblemusik.\n4. Musik skabt eller formet i øjeblikket inden for et fælles musikalsk sprog\n   Improvisation er ikke tilfældighed; den bygger på lytning, form, rytme og erfaring.\n5. Sorte musikere skabte centrale genrer, men blev ofte dårligere betalt, adskilt og krediteret ujævnt\n   Pladeindustri og historieskrivning kunne gøre hvide versioner mere synlige.\n\nKONKLUSION\nBlues og jazz er både musikalske sprog og historie om frihed, migration, marked og racemagt.",
+        "text": "BLUES, JAZZ OG RØDDER\nTirsdag 11/5\n\nSPØRGSMÅL TIL SAMLINGEN\nHvordan kan musik bære erfaringer med undertrykkelse, arbejde, tro, fest og frihed?\n\nDET SKAL ELEVERNE HAVE MED\n1. Blues og jazz er forankret i afroamerikansk historie og kan ikke forstås løsrevet fra slaveri, segregation, kirke, arbejde, byliv og migration.\n2. Blues bruger ofte gentagelser, call and response, blå toner og personlige fortællinger.\n3. Jazz udviklede sig i mødet mellem blues, ragtime, brassbandtraditioner, improvisation og bymiljøer.\n4. Improvisation er ikke tilfældighed. Det er musikalsk frihed inden for form, lytning og fælles aftaler.\n5. Når elever lytter, skal de både høre lyd og spørge efter kontekst: Hvem spiller, for hvem, hvornår og hvorfor?\n\nGREB\nAfspil et kort blues- eller jazzklip. Lad eleverne først beskrive lyden, derefter gætte hvilken social situation musikken kunne høre til.",
         "fontSize": 17,
         "align": "left"
       },
@@ -72970,7 +72970,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.520Z",
-      "updatedAt": "2026-06-24T22:43:07.520Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-02-blues-ja-859ff586-faglig",
@@ -73220,7 +73220,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. I afroamerikanske miljøer i det amerikanske syd\n2. En udbredt harmonisk form over tolv takter\n3. New Orleans\n4. Musik skabt eller formet i øjeblikket inden for et fælles musikalsk sprog\n5. Sorte musikere skabte centrale genrer, men blev ofte dårligere betalt, adskilt og krediteret ujævnt",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Blues og jazz hænger sammen med afroamerikansk historie.\n2. Blues bygger ofte på gentagelse, blå toner, call and response og personlig erfaring.\n3. Jazz udviklede improvisation, sammenspil og rytmisk frihed.\n4. Improvisation kræver form, lytning og musikalsk sprog.\n5. Musik skal høres både som lyd og som historisk/kulturel praksis.",
         "fontSize": 14,
         "align": "left"
       },
@@ -73233,7 +73233,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.521Z",
-      "updatedAt": "2026-06-24T22:43:07.521Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-02-blues-ja-859ff586-kernersvar",
@@ -73277,116 +73277,116 @@
         ],
         "questions": [
           {
-            "category": "Fakta",
-            "question": "Hvor udviklede blues sig?",
-            "answer": "I afroamerikanske miljøer i det amerikanske syd",
+            "category": "Historie",
+            "question": "Hvilken historisk sammenhæng er vigtig for blues og jazz?",
+            "answer": "Afroamerikansk historie med slaveri, segregation, kirke, arbejde og migration",
             "correctIndex": 0,
             "points": 100,
             "options": [
-              "I afroamerikanske miljøer i det amerikanske syd",
-              "Memphis",
-              "Europa",
-              "New Orleans"
+              "Afroamerikansk historie med slaveri, segregation, kirke, arbejde og migration",
+              "Skandinavisk middelalder alene",
+              "Rumkapløbet i 1960’erne alene",
+              "Europæisk hofmusik uden kulturmøder"
             ],
-            "id": "kp_blues-jazz-og-r-dder_01"
+            "id": "kp_blues8_01"
           },
           {
-            "category": "Tid og sted",
-            "question": "Hvad er en 12-takters blues?",
-            "answer": "En udbredt harmonisk form over tolv takter",
+            "category": "Blues",
+            "question": "Hvad forbindes ofte med blues?",
+            "answer": "Gentagelse, blå toner, call and response og personlige erfaringer",
             "correctIndex": 0,
             "points": 200,
             "options": [
-              "En udbredt harmonisk form over tolv takter",
-              "En genre skabt gennem blanding af musikalske traditioner",
-              "En konkurrence uden nationale eller politiske symboler",
-              "En musikform uden historiske rødder"
+              "Gentagelse, blå toner, call and response og personlige erfaringer",
+              "Kun marchrytmer og fanfarer",
+              "Kun opera uden improvisation",
+              "Kun elektroniske loops uden sang"
             ],
-            "id": "kp_blues-jazz-og-r-dder_02"
+            "id": "kp_blues8_02"
           },
           {
-            "category": "Personer og begreber",
-            "question": "Hvor forbindes tidlig jazz især med?",
-            "answer": "New Orleans",
+            "category": "Jazz",
+            "question": "Hvad er improvisation i jazz?",
+            "answer": "Musikalsk frihed inden for form, lytning og fælles aftaler",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "New Orleans",
-              "Memphis",
-              "Europa",
-              "Bronx"
+              "Musikalsk frihed inden for form, lytning og fælles aftaler",
+              "At spille helt uden at lytte",
+              "At alle spiller forskellige numre samtidig",
+              "At noder er forbudt i alle situationer"
             ],
-            "id": "kp_blues-jazz-og-r-dder_03"
+            "id": "kp_blues8_03"
           },
           {
-            "category": "Årsag og følge",
-            "question": "Hvad er improvisation?",
-            "answer": "Musik skabt eller formet i øjeblikket inden for et fælles musikalsk sprog",
+            "category": "New Orleans",
+            "question": "Hvorfor nævnes New Orleans ofte i jazzhistorien?",
+            "answer": "Byen var et vigtigt kulturmøde for brassbands, blues, ragtime og dans",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Musik skabt eller formet i øjeblikket inden for et fælles musikalsk sprog",
-              "Publikum uden indflydelse på genren",
-              "Sampling uden kreditering",
-              "Toneart, tempo og fælles indsatser"
+              "Byen var et vigtigt kulturmøde for brassbands, blues, ragtime og dans",
+              "Fordi al musik i verden opstod der",
+              "Fordi jazz kun blev spillet på biblioteker",
+              "Fordi byen ligger i Danmark"
             ],
-            "id": "kp_blues-jazz-og-r-dder_04"
+            "id": "kp_blues8_04"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvordan påvirkede raceadskillelse musikhistorien?",
-            "answer": "Sorte musikere skabte centrale genrer, men blev ofte dårligere betalt, adskilt og krediteret ujævnt",
+            "category": "Kontekst",
+            "question": "Hvad bør man spørge om, når man lytter historisk?",
+            "answer": "Hvem spiller, for hvem, hvornår og i hvilken social sammenhæng?",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Sorte musikere skabte centrale genrer, men blev ofte dårligere betalt, adskilt og krediteret ujævnt",
-              "Nye medier havde ingen betydning for udbredelsen",
-              "Publikum modtog musikken uden selv at forme kulturen",
-              "Musikken forblev uændret efter sin første indspilning"
+              "Hvem spiller, for hvem, hvornår og i hvilken social sammenhæng?",
+              "Hvor høj er filens lydstyrke?",
+              "Hvilken farve har albummet?",
+              "Kan musikken bruges som ringetone?"
             ],
-            "id": "kp_blues-jazz-og-r-dder_05"
+            "id": "kp_blues8_05"
           },
           {
-            "category": "Kildeblik",
-            "question": "Hvad er den bedste start, når I undersøger Blues, jazz og rødder?",
-            "answer": "Find en tydelig kilde med afsender, dato og sammenhæng.",
+            "category": "Call response",
+            "question": "Hvad betyder call and response?",
+            "answer": "En musikalsk vekslen mellem et kald og et svar",
             "correctIndex": 0,
             "points": 300,
             "options": [
-              "Find en tydelig kilde med afsender, dato og sammenhæng.",
-              "Begynd med den mest dramatiske påstand uden at tjekke den.",
-              "Brug kun én løs sætning som bevis for hele emnet.",
-              "Vælg den kilde der passer bedst til det, man allerede mener."
+              "En musikalsk vekslen mellem et kald og et svar",
+              "At publikum ringer til radioen",
+              "At alle instrumenter spiller solo samtidig",
+              "At sangeren aldrig gentager noget"
             ],
-            "id": "kp_blues-jazz-og-r-dder_06"
+            "id": "kp_blues8_06"
           },
           {
-            "category": "Forklaring",
-            "question": "Hvad skal en god forklaring om Blues, jazz og rødder helst vise?",
-            "answer": "Både centrale fakta, årsager og hvorfor emnet har betydning.",
+            "category": "Migration",
+            "question": "Hvordan påvirkede migration musikken?",
+            "answer": "Musikformer flyttede med mennesker og ændrede sig i nye bymiljøer",
             "correctIndex": 0,
             "points": 400,
             "options": [
-              "Både centrale fakta, årsager og hvorfor emnet har betydning.",
-              "Kun én løs detalje uden sammenhæng.",
-              "At alle kilder altid siger det samme.",
-              "At personer, tid og sted er ligegyldige."
+              "Musikformer flyttede med mennesker og ændrede sig i nye bymiljøer",
+              "Musik blev stående helt uændret på landet",
+              "Migration stoppede al musik",
+              "Kun instrumenter flyttede, ikke mennesker"
             ],
-            "id": "kp_blues-jazz-og-r-dder_07"
+            "id": "kp_blues8_07"
           },
           {
-            "category": "Perspektiv",
-            "question": "Hvordan kan Blues, jazz og rødder bruges i en nutidig samtale uden at blive forenklet?",
-            "answer": "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
+            "category": "Lytning",
+            "question": "Hvad er en god elevanalyse af blues eller jazz?",
+            "answer": "Beskriv lyden og forbind den med historisk kontekst",
             "correctIndex": 0,
             "points": 500,
             "options": [
-              "Ved at skelne mellem fakta, fortolkning og egne vurderinger.",
-              "Ved at gøre én fortælling til hele sandheden.",
-              "Ved at udelade kilder der giver modstand.",
-              "Ved at bruge emnet som pynt uden forklaring."
+              "Beskriv lyden og forbind den med historisk kontekst",
+              "Nøjes med om man kan lide nummeret",
+              "Ignorer hvem der spiller",
+              "Skriv kun tempoet og stop"
             ],
-            "id": "kp_blues-jazz-og-r-dder_08"
+            "id": "kp_blues8_08"
           }
         ],
         "current": 0,
@@ -73404,7 +73404,7 @@
         "layoutRole": "game"
       },
       "createdAt": "2026-06-24T22:43:07.521Z",
-      "updatedAt": "2026-07-07T01:30:00.000Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "kahoopardy",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-02-blues-jazz-og-roedder-kapardy-game",
@@ -73434,7 +73434,7 @@
         "z": 1
       },
       "content": {
-        "text": "ROCK, POP OG UNGDOMSKULTUR\nTorsdag 13/5\n\nHISTORISK PROBLEMSTILLING\nHvordan blev ungdom efter 1950 både en ny livsfase, en forbrugergruppe og en politisk-kulturel kraft gennem musik?\n\nFEM FAKTA, DER SKAL FREM\n1. Blandt andet rhythm and blues, gospel og country\n   Genren voksede gennem kulturel blanding i et raceopdelt musikmarked.\n2. Transistorradioen og senere bærbare afspillere\n   Teknologi gav adgang uden for familiens fælles radio og styrkede et ungdomsmarked.\n3. Musik blev knyttet til borgerrettigheder, krigsmodstand og nye livsformer\n   Ikke alle sange var protest, men musikscenen blev en central offentlig ungdomsarena.\n4. Gjorde visuel identitet og tv-distribution endnu vigtigere for pop\n   MTV og nationale musikprogrammer ændrede markedsføring og stjernedannelse.\n5. Gennem lyd, tøj, steder, medier og deltagernes egne forklaringer\n   Punk, hiphop eller metal er ikke kun musikgenrer, men sociale miljøer med interne forskelle.\n\nKONKLUSION\nRock- og pophistorie handler ikke kun om hits, men om teknologi, rettigheder, forbrug og unges forsøg på at skabe egne rum.",
+        "text": "ROCK, POP OG UNGDOMSKULTUR\nTorsdag 13/5\n\nSPØRGSMÅL TIL SAMLINGEN\nHvorfor bliver musik ofte et sprog for ungdom, identitet og fællesskab?\n\nDET SKAL ELEVERNE HAVE MED\n1. Rock og pop er ikke kun lyd. Det er også stil, medier, teknologi, krop, fans, økonomi og ungdomskultur.\n2. Efterkrigstidens ungdomskultur voksede sammen med pladeindustri, radio, tv, koncertkultur og flere unge med egne penge.\n3. Rock kunne opleves som oprør, men blev samtidig en del af kommerciel populærkultur.\n4. Popmusik kan være enkel og bred, men også kunstnerisk, politisk og identitetsskabende.\n5. Eleverne kan undersøge musik ved at se på lyd, tekst, image, publikum, teknologi og tid.\n\nGREB\nLad eleverne vælge et nummer og analysere seks felter: lyd · tekst · image · publikum · teknologi · tid.",
         "fontSize": 17,
         "align": "left"
       },
@@ -73447,7 +73447,7 @@
         "layoutRole": "story"
       },
       "createdAt": "2026-06-24T22:43:07.521Z",
-      "updatedAt": "2026-06-24T22:43:07.521Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-03-rock-pop-dbb6bee2-faglig",
@@ -73697,7 +73697,7 @@
         "z": 4
       },
       "content": {
-        "text": "KERNESVAR TIL OPSAMLING\n1. Blandt andet rhythm and blues, gospel og country\n2. Transistorradioen og senere bærbare afspillere\n3. Musik blev knyttet til borgerrettigheder, krigsmodstand og nye livsformer\n4. Gjorde visuel identitet og tv-distribution endnu vigtigere for pop\n5. Gennem lyd, tøj, steder, medier og deltagernes egne forklaringer",
+        "text": "KERNESVAR TIL OPSAMLING\n1. Rock og pop er både musik, medier, stil og ungdomskultur.\n2. Ungdomskultur voksede med nye medier, købekraft og fælles idoler.\n3. Rock har både været oprør og kommerciel vare.\n4. Pop kan være bredt tilgængelig og samtidig betydningsfuld.\n5. Musik analyseres bedst gennem lyd, tekst, image, publikum, teknologi og historisk tid.",
         "fontSize": 14,
         "align": "left"
       },
@@ -73710,7 +73710,7 @@
         "layoutRole": "core-answer"
       },
       "createdAt": "2026-06-24T22:43:07.522Z",
-      "updatedAt": "2026-06-24T22:43:07.522Z",
+      "updatedAt": "2026-07-07T01:07:24Z",
       "legacy": {
         "type": "text",
         "id": "w-sl-faellessamling-26-27-27-musikhistorie-03-rock-pop-dbb6bee2-kernersvar",
@@ -116938,6 +116938,11 @@
       "Fokus er kildekritik, tydelige begreber, daterede oplysninger og elevvenlige forklaringer uden skabelonagtige distraktorer.",
       "Kildelinks er opdateret til EU, UNESCO, IPCC og UNHCR for relevante tavler.",
       "Distraktorer i runde 7 er efterrenset, så de er mere plausible og mindre fjollede/skabelonagtige."
+    ],
+    "qualityRound8Notes": [
+      "Runde 8 omskriver især jul, fællessang, store taler, natur, fransk revolution, musikhistorie og Tove Ditlevsen.",
+      "Fokus er at gøre samlingerne mere elevnære, mindre triviaagtige og mere anvendelige som oplæg med tydelige greb.",
+      "Sydvest og HU-fællessang bruges som lokalt anker i natur- og fællessangsdelene."
     ]
   },
   "migration": {
@@ -117028,7 +117033,7 @@
       "faellessamling-26-27-30-mundtlig-proeveperiode",
       "faellessamling-26-27-31-outro-uge"
     ],
-    "exportedAt": "2026-07-07T00:54:00Z",
+    "exportedAt": "2026-07-07T01:07:24Z",
     "sourceAppVersion": "0.2.0"
   },
   "manifest": {
@@ -117410,7 +117415,7 @@
       "ds_faellessamling-26-27-31-outro-uge_4",
       "ds_faellessamling-26-27-31-outro-uge_5"
     ],
-    "contentHash": "7c3c3ffb6bcafc992c0bb5f6c414e6a4fcb35e85d1c6af69042df7cc5ba58019",
-    "packageHash": "c1affb5bf3f7eebbbaf9c5795e749307e6ae7381c3c8df7e34636f75c2319c5d"
+    "contentHash": "3e05b1ae5d286121c5c0e6d2fb698195e74ea1b46d09faede01ce9ffca386282",
+    "packageHash": "d3653a8099adbefd01a60851ce8136b323a87a028b56b37792dfa26e1b72be16"
   }
 }
