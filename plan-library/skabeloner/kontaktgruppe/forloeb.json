@@ -1,1 +1,1328 @@
-{"format":"tavle-next-course-package","backupKind":"course-package","coursePackageVersion":1,"version":3,"schemaVersion":1,"appVersion":"0.9.3r","kind":"course-package","createdAt":"2026-07-07T13:20:00.000Z","sessions":[{"id":"template-kontaktgruppe","schemaVersion":1,"title":"Skabelon · Kontaktgruppe","theme":"dark","activeBoardId":"board_kontaktgruppe_01_overblik","boardIds":["board_kontaktgruppe_01_overblik","board_kontaktgruppe_02_elevoversigt","board_kontaktgruppe_03_samtaler-og-aftaler","board_kontaktgruppe_04_foraeldrekontakt","board_kontaktgruppe_05_trivsel-og-opfoelgning","board_kontaktgruppe_06_udtalelser"],"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","meta":{"template":true,"templateId":"kontaktgruppe","templateTitle":"Skabelon · Kontaktgruppe","planOrder":1,"sourceKind":"template"}}],"boards":[{"id":"board_kontaktgruppe_01_overblik","schemaVersion":1,"sessionId":"template-kontaktgruppe","title":"Overblik","background":{"kind":"image","value":"linear-gradient(145deg,#14324a 0%,#1f4f69 60%,#2a6f77 100%)","imageRef":null,"fit":"cover"},"grid":false,"snap":10,"zoom":1,"pan":{"x":0,"y":0},"widgetIds":["widget_kontaktgruppe_001_saadan-bruger-du-skabelonen","widget_kontaktgruppe_002_tavleindeks","widget_kontaktgruppe_003_lokalt-indhold","widget_kontaktgruppe_004_kontaktgruppe-kalender","widget_kontaktgruppe_005_elevoversigt"],"layoutFamilyId":"template-v1","createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","meta":{"template":true}},{"id":"board_kontaktgruppe_02_elevoversigt","schemaVersion":1,"sessionId":"template-kontaktgruppe","title":"Elevoversigt","background":{"kind":"image","value":"linear-gradient(145deg,#1f2937 0%,#3f3f46 58%,#57534e 100%)","imageRef":null,"fit":"cover"},"grid":false,"snap":10,"zoom":1,"pan":{"x":0,"y":0},"widgetIds":["widget_kontaktgruppe_006_tom-elevliste","widget_kontaktgruppe_007_tjek-foer-import","widget_kontaktgruppe_008_hurtige-spoergsmaal"],"layoutFamilyId":"template-v1","createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","meta":{"template":true}},{"id":"board_kontaktgruppe_03_samtaler-og-aftaler","schemaVersion":1,"sessionId":"template-kontaktgruppe","title":"Samtaler og aftaler","background":{"kind":"image","value":"linear-gradient(145deg,#3b1f4a 0%,#4f2f69 55%,#7c3f6d 100%)","imageRef":null,"fit":"cover"},"grid":false,"snap":10,"zoom":1,"pan":{"x":0,"y":0},"widgetIds":["widget_kontaktgruppe_009_samtaleoversigt","widget_kontaktgruppe_010_naeste-samtale","widget_kontaktgruppe_011_aftale","widget_kontaktgruppe_012_opfoelgning","widget_kontaktgruppe_013_husk-til-teamet"],"layoutFamilyId":"template-v1","createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","meta":{"template":true}},{"id":"board_kontaktgruppe_04_foraeldrekontakt","schemaVersion":1,"sessionId":"template-kontaktgruppe","title":"Forældrekontakt","background":{"kind":"image","value":"linear-gradient(145deg,#1f3a2e 0%,#2f5f50 55%,#5b6f3a 100%)","imageRef":null,"fit":"cover"},"grid":false,"snap":10,"zoom":1,"pan":{"x":0,"y":0},"widgetIds":["widget_kontaktgruppe_014_foraeldrekontakt","widget_kontaktgruppe_015_telefonnotat","widget_kontaktgruppe_016_mailkladde"],"layoutFamilyId":"template-v1","createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","meta":{"template":true}},{"id":"board_kontaktgruppe_05_trivsel-og-opfoelgning","schemaVersion":1,"sessionId":"template-kontaktgruppe","title":"Trivsel og opfølgning","background":{"kind":"image","value":"linear-gradient(145deg,#4a2f14 0%,#69451f 60%,#77572a 100%)","imageRef":null,"fit":"cover"},"grid":false,"snap":10,"zoom":1,"pan":{"x":0,"y":0},"widgetIds":["widget_kontaktgruppe_017_trivselsblik","widget_kontaktgruppe_018_tjekliste","widget_kontaktgruppe_019_samtale-20-minutter"],"layoutFamilyId":"template-v1","createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","meta":{"template":true}},{"id":"board_kontaktgruppe_06_udtalelser","schemaVersion":1,"sessionId":"template-kontaktgruppe","title":"Udtalelser","background":{"kind":"image","value":"linear-gradient(145deg,#14324a 0%,#1f4f69 58%,#2a6f77 100%)","imageRef":null,"fit":"cover"},"grid":false,"snap":10,"zoom":1,"pan":{"x":0,"y":0},"widgetIds":["widget_kontaktgruppe_020_udtalelser-fra-kontaktgruppe","widget_kontaktgruppe_021_elevdata-til-udtalelser","widget_kontaktgruppe_022_skriv-udtalelser-i-plan","widget_kontaktgruppe_023_arbejdsgang-udtalelser","widget_kontaktgruppe_024_alternativ-aabn-skriv","widget_kontaktgruppe_025_vigtigt-om-browserlinket"],"layoutFamilyId":"template-v1","createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","meta":{"template":true,"purpose":"udtalelser"}}],"widgets":[{"id":"widget_kontaktgruppe_001_saadan-bruger-du-skabelonen","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_01_overblik","type":"text","title":"Sådan bruger du skabelonen","geometry":{"x":20,"y":85,"width":560,"height":430,"rotation":0,"z":1},"content":{"text":"Skabelon · Kontaktgruppe\n\n• Skriv kontaktgruppens navn og skoleår.\n• Indsæt elevdata lokalt i datasættet.\n• Brug samtale- og opfølgningsfelterne i løbet af året.\n• Brug tavlen Udtalelser, når kontaktgruppens noter skal blive til færdige elevudtalelser.","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"guide"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_002_tavleindeks","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_01_overblik","type":"board-index","title":"Tavleindeks","geometry":{"x":600,"y":85,"width":560,"height":330,"rotation":0,"z":2},"content":{"boardIds":[]},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"board-index"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_003_lokalt-indhold","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_01_overblik","type":"text","title":"Lokalt indhold","geometry":{"x":600,"y":440,"width":560,"height":210,"rotation":0,"z":3},"content":{"text":"Tilføj selv materialer, datoer, elevdata og noter i din lokale kopi. Kontaktgruppens tavler kan bruges som forarbejde til udtalelser, men indholdet er dit lokale arbejdsrum.","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"local-content"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_004_kontaktgruppe-kalender","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_01_overblik","type":"calendar","title":"Kontaktgruppe · kalender","geometry":{"x":20,"y":535,"width":560,"height":310,"rotation":0,"z":4},"content":{"view":"month","date":"2026-08-01","datasetId":"dataset_kontaktgruppe_kontaktgruppe-aarshjul","events":[]},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"calendar"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_005_elevoversigt","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_01_overblik","type":"data","title":"Elevoversigt","geometry":{"x":600,"y":670,"width":560,"height":180,"rotation":0,"z":5},"content":{"datasetId":"dataset_kontaktgruppe_kontaktgruppe-elevdata","view":"table","search":"","columnWidths":{}},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"data"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_006_tom-elevliste","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_02_elevoversigt","type":"data","title":"Tom elevliste","geometry":{"x":20,"y":85,"width":760,"height":450,"rotation":0,"z":1},"content":{"datasetId":"dataset_kontaktgruppe_kontaktgruppe-elevdata","view":"table","search":"","columnWidths":{}},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"data"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_007_tjek-foer-import","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_02_elevoversigt","type":"text","title":"Tjek før import","geometry":{"x":810,"y":85,"width":350,"height":220,"rotation":0,"z":2},"content":{"text":"Importer kun data, du har brug for i arbejdet. Du kan altid begynde med navn, klasse og et enkelt notefelt.","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_008_hurtige-spoergsmaal","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_02_elevoversigt","type":"list","title":"Hurtige spørgsmål","geometry":{"x":810,"y":330,"width":350,"height":250,"rotation":0,"z":3},"content":{"items":["Hvem skal følges op på?","Hvem skal have ny aftale?","Hvem skal der ringes hjem om?","Hvad skal huskes til næste møde?"],"style":"bullets","fontSize":20},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_009_samtaleoversigt","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_03_samtaler-og-aftaler","type":"data","title":"Samtaleoversigt","geometry":{"x":20,"y":85,"width":760,"height":360,"rotation":0,"z":1},"content":{"datasetId":"dataset_kontaktgruppe_kontaktgruppe-samtaler-og-aftaler","view":"table","search":"","columnWidths":{}},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"data"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_010_naeste-samtale","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_03_samtaler-og-aftaler","type":"text","title":"Næste samtale","geometry":{"x":20,"y":475,"width":370,"height":150,"rotation":0,"z":2},"content":{"text":"Skriv her …","fontSize":20,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_011_aftale","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_03_samtaler-og-aftaler","type":"text","title":"Aftale","geometry":{"x":410,"y":475,"width":370,"height":150,"rotation":0,"z":3},"content":{"text":"Skriv her …","fontSize":20,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_012_opfoelgning","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_03_samtaler-og-aftaler","type":"text","title":"Opfølgning","geometry":{"x":20,"y":655,"width":370,"height":150,"rotation":0,"z":4},"content":{"text":"Skriv her …","fontSize":20,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_013_husk-til-teamet","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_03_samtaler-og-aftaler","type":"text","title":"Husk til teamet","geometry":{"x":410,"y":655,"width":370,"height":150,"rotation":0,"z":5},"content":{"text":"Skriv her …","fontSize":20,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_014_foraeldrekontakt","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_04_foraeldrekontakt","type":"data","title":"Forældrekontakt","geometry":{"x":20,"y":85,"width":760,"height":420,"rotation":0,"z":1},"content":{"datasetId":"dataset_kontaktgruppe_kontaktgruppe-foraeldrekontakt","view":"table","search":"","columnWidths":{}},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"data"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_015_telefonnotat","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_04_foraeldrekontakt","type":"text","title":"Telefonnotat","geometry":{"x":810,"y":85,"width":350,"height":260,"rotation":0,"z":2},"content":{"text":"Dato:\nHvem:\nKort notat:\nNæste skridt:","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_016_mailkladde","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_04_foraeldrekontakt","type":"text","title":"Mailkladde","geometry":{"x":810,"y":370,"width":350,"height":180,"rotation":0,"z":3},"content":{"text":"Skriv evt. kladde her, før du sender fra skolens mailsystem.","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_017_trivselsblik","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_05_trivsel-og-opfoelgning","type":"text","title":"Trivselsblik","geometry":{"x":20,"y":85,"width":520,"height":200,"rotation":0,"z":1},"content":{"text":"Hvem trives? Hvem skal have en rolig samtale? Hvem skal teamet være opmærksom på?","fontSize":20,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_018_tjekliste","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_05_trivsel-og-opfoelgning","type":"list","title":"Tjekliste","geometry":{"x":570,"y":85,"width":520,"height":300,"rotation":0,"z":2},"content":{"items":["Samtale booket","Aftale skrevet ned","Kontakt hjem vurderet","Team orienteret","Opfølgning sat i kalender"],"style":"bullets","fontSize":20},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_019_samtale-20-minutter","schemaVersion":3,"widgetVersion":1,"boardId":"board_kontaktgruppe_05_trivsel-og-opfoelgning","type":"timer","title":"Samtale · 20 minutter","geometry":{"x":20,"y":320,"width":520,"height":170,"rotation":0,"z":3},"content":{"timerVersion":1,"durationSeconds":1200,"mode":"countdown","label":"Samtale · 20 minutter","running":false,"startedAt":null,"remainingAtStart":1200,"elapsedBefore":0,"sequenceIndex":0,"sequences":[{"id":"timerseq_kontaktgruppe_19","title":"Samtale · 20 minutter","duration":1200,"alarm":"chime"}],"autoAdvance":false,"repeat":false,"alarmEnabled":true,"stopwatchGroups":[{"id":"timergroup_kontaktgruppe_19","title":"Stopur","laps":[]}],"activeGroup":0,"panelMode":"view","logEnabled":false,"logDatasetId":null},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"timer"},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_020_udtalelser-fra-kontaktgruppe","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_06_udtalelser","type":"text","title":"Fra kontaktgruppenoter til udtalelser","geometry":{"x":20,"y":85,"width":520,"height":250,"rotation":0,"z":1},"content":{"text":"Brug denne tavle, når kontaktgruppens samtaler, aftaler og trivselsnoter skal omsættes til elevudtalelser.\n\nSkriv bruges her kun som udtalelsesværktøj. Hvis du hellere vil arbejde i den særskilte Udtalelser-skabelon, kan du importere den fra biblioteket og bruge kontaktgruppen som forarbejde.","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"guide"},"createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_021_elevdata-til-udtalelser","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_06_udtalelser","type":"data","title":"Elevdata / kontaktgruppe","geometry":{"x":20,"y":365,"width":520,"height":230,"rotation":0,"z":2},"content":{"datasetId":"dataset_kontaktgruppe_kontaktgruppe-elevdata","view":"table","search":"","columnWidths":{}},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"data"},"createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_022_skriv-udtalelser-i-plan","schemaVersion":3,"widgetVersion":1,"boardId":"board_kontaktgruppe_06_udtalelser","type":"html","title":"Skriv · udtalelser i Plan","geometry":{"x":570,"y":85,"width":590,"height":510,"rotation":0,"z":3},"content":{"html":"","mediaId":null,"source":"known-app","trusted":true,"htmlApp":true,"name":"Skriv.html","appKind":"skriv","appKindFixed":true,"githubSourceUrl":"https://skriv.måns.dk/index.html","remoteRuntimeUrl":"https://skriv.måns.dk/index.html","githubFolderUrl":"https://skriv.måns.dk/","githubImportedAt":"2026-07-07T14:20:00.000Z","githubVersion":"","githubDescription":"Skriv, udtalelser og PDF-arbejdsgange.","htmlAppZoom":1,"appState":null},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"skriv-htmlapp","purpose":"udtalelser"},"createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_023_arbejdsgang-udtalelser","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_06_udtalelser","type":"text","title":"Kort arbejdsgang","geometry":{"x":20,"y":625,"width":520,"height":230,"rotation":0,"z":4},"content":{"text":"1. Find eleven i kontaktgruppens data/noter.\n2. Skriv udtalelsen i Skriv-widgetten.\n3. Gem løbende i Plan.\n4. Udskriv/eksportér PDF tilbage til Plan, når udtalelsen er færdig.\n5. Tilføj den færdige PDF manuelt på tavlen, hvis den skal gemmes sammen med kontaktgruppen.","fontSize":18,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"workflow"},"createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_024_alternativ-aabn-skriv","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_06_udtalelser","type":"link","title":"Alternativ · Åbn Skriv i browseren","geometry":{"x":570,"y":625,"width":285,"height":110,"rotation":0,"z":5},"content":{"url":"https://skriv.måns.dk/","label":"Åbn skriv.måns.dk","note":"Alternativt skrivevindue uden for denne Plan-widget.","view":"card"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"external-link"},"createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null},{"id":"widget_kontaktgruppe_025_vigtigt-om-browserlinket","schemaVersion":1,"widgetVersion":1,"boardId":"board_kontaktgruppe_06_udtalelser","type":"text","title":"Vigtigt om alternativet","geometry":{"x":875,"y":625,"width":285,"height":175,"rotation":0,"z":6},"content":{"text":"Bruger du skriv.måns.dk i browseren, arbejder du uden for denne Plan-widget. Det du skriver dér, følger ikke automatisk med Plan. Gem eller udskriv selv, og tilføj PDF/backup manuelt bagefter.","fontSize":16,"align":"left"},"settings":{"locked":false,"hidden":false,"minimized":false,"maximized":false,"restoreGeometry":null},"relations":{"layoutRole":"warning"},"createdAt":"2026-07-07T14:20:00.000Z","updatedAt":"2026-07-07T14:20:00.000Z","legacy":null}],"datasets":[{"id":"dataset_kontaktgruppe_kontaktgruppe-elevdata","schemaVersion":1,"sessionId":"template-kontaktgruppe","name":"Kontaktgruppe · elevdata","type":"table","scope":"session","columns":["Elev","Klasse","Værelse","Telefon","Mail","Kontaktperson","Bemærkning"],"rows":[],"meta":{"template":true,"emptyTemplate":true},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z"},{"id":"dataset_kontaktgruppe_kontaktgruppe-foraeldrekontakt","schemaVersion":1,"sessionId":"template-kontaktgruppe","name":"Kontaktgruppe · forældrekontakt","type":"table","scope":"session","columns":["Elev","Kontakt","Relation","Telefon","Mail","Seneste kontakt","Næste opfølgning","Notat"],"rows":[],"meta":{"template":true,"emptyTemplate":true},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z"},{"id":"dataset_kontaktgruppe_kontaktgruppe-samtaler-og-aftaler","schemaVersion":1,"sessionId":"template-kontaktgruppe","name":"Kontaktgruppe · samtaler og aftaler","type":"table","scope":"session","columns":["Elev","Dato","Tema","Aftale","Opfølgning","Status"],"rows":[],"meta":{"template":true,"emptyTemplate":true},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z"},{"id":"dataset_kontaktgruppe_kontaktgruppe-aarshjul","schemaVersion":1,"sessionId":"template-kontaktgruppe","name":"Kontaktgruppe · årshjul","type":"calendar","scope":"session","columns":["Titel","Start","Slut","Hele dagen","Sted","Beskrivelse","TavleId","Farve"],"rows":[],"meta":{"template":true,"emptyTemplate":true},"createdAt":"2026-07-07T13:20:00.000Z","updatedAt":"2026-07-07T13:20:00.000Z"}],"media":[],"manifest":{"selectedSessionIds":["template-kontaktgruppe"],"counts":{"sessions":1,"boards":6,"widgets":25,"datasets":4,"media":0},"referencedDatasetIds":["dataset_kontaktgruppe_kontaktgruppe-elevdata","dataset_kontaktgruppe_kontaktgruppe-foraeldrekontakt","dataset_kontaktgruppe_kontaktgruppe-samtaler-og-aftaler","dataset_kontaktgruppe_kontaktgruppe-aarshjul"],"referencedMediaIds":[],"mediaBytes":0,"courseId":"template_kontaktgruppe","courseTitle":"Skabelon · Kontaktgruppe","courseSessionIds":["template-kontaktgruppe"],"template":true,"templateId":"kontaktgruppe","templateTitle":"Skabelon · Kontaktgruppe","contentHash":"3be723abab6d65a0e9cb1ad22064592f02181fbe93ad6c5aaff3718a909e832c","packageHash":"856428411632749af3d220a67e32c3bc0db0a792da6b8233c5ce9a6025860af2"},"warnings":["Skabelonen indeholder ingen elevdata. Tilføj elevliste, noter og færdige udtalelses-PDF’er manuelt i din lokale kopi."],"course":{"id":"template_kontaktgruppe","title":"Skabelon · Kontaktgruppe","subject":"Kontaktgruppe","schoolYear":"Skabelon","sessionIds":["template-kontaktgruppe"],"exportedAt":"2026-07-07T14:20:00.000Z","sourceAppVersion":"0.9.3r"},"updatedAt":"2026-07-07T14:20:00.000Z","meta":{"template":true,"templateId":"kontaktgruppe","templateVersion":"0.2.0","templatePrinciple":"Tom, men ikke blank: tavler og widgets er gjort klar til lærerens eget indhold."}}
+{
+  "format": "tavle-next-course-package",
+  "backupKind": "course-package",
+  "coursePackageVersion": 1,
+  "version": 3,
+  "schemaVersion": 1,
+  "appVersion": "0.9.3r",
+  "kind": "course-package",
+  "createdAt": "2026-07-07T13:20:00.000Z",
+  "sessions": [
+    {
+      "id": "template-kontaktgruppe",
+      "schemaVersion": 1,
+      "title": "Skabelon · Kontaktgruppe",
+      "theme": "dark",
+      "activeBoardId": "board_kontaktgruppe_01_overblik",
+      "boardIds": [
+        "board_kontaktgruppe_01_overblik",
+        "board_kontaktgruppe_02_importer_elevstamdata",
+        "board_kontaktgruppe_03_opret_elevkort",
+        "board_kontaktgruppe_04_kalender",
+        "board_kontaktgruppe_05_samtaler-og-noter",
+        "board_kontaktgruppe_06_foraeldrekontakt",
+        "board_kontaktgruppe_07_udtalelser"
+      ],
+      "createdAt": "2026-07-07T13:20:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "templateTitle": "Skabelon · Kontaktgruppe",
+        "planOrder": 1,
+        "sourceKind": "template"
+      }
+    }
+  ],
+  "boards": [
+    {
+      "id": "board_kontaktgruppe_01_overblik",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Overblik",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_001_kontaktgruppe-saadan-kommer-du-i-gang",
+        "widget_kontaktgruppe_002_tavleindeks",
+        "widget_kontaktgruppe_003_tjekliste",
+        "widget_kontaktgruppe_004_vigtigt-princip"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 1
+      }
+    },
+    {
+      "id": "board_kontaktgruppe_02_importer_elevstamdata",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Importer elevstamdata",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_005_1-import-r-elevstamdata",
+        "widget_kontaktgruppe_006_hvor-finder-jeg-listen-bagefter",
+        "widget_kontaktgruppe_007_gode-kolonner-i-elevstamdata",
+        "widget_kontaktgruppe_008_importer-ikke-mere-end-du-skal-bruge"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 2
+      }
+    },
+    {
+      "id": "board_kontaktgruppe_03_opret_elevkort",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Opret elevkort",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_009_2-opret-elevkortmatrix-eller-elevtavler",
+        "widget_kontaktgruppe_010_matrix-eller-tavler",
+        "widget_kontaktgruppe_011_efter-oprettelsen",
+        "widget_kontaktgruppe_012_hvis-du-ikke-kan-se-datakilden"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 3
+      }
+    },
+    {
+      "id": "board_kontaktgruppe_04_kalender",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Kalender og møder",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_013_kontaktgruppekalender",
+        "widget_kontaktgruppe_014_hvad-skal-i-kalenderen",
+        "widget_kontaktgruppe_015_typiske-kalenderpunkter"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 4
+      }
+    },
+    {
+      "id": "board_kontaktgruppe_05_samtaler-og-noter",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Samtaler og noter",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_016_noter-hoerer-til-eleven",
+        "widget_kontaktgruppe_017_samtalehjaelp",
+        "widget_kontaktgruppe_018_kort-arbejdsgang",
+        "widget_kontaktgruppe_019_gode-noter"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 5
+      }
+    },
+    {
+      "id": "board_kontaktgruppe_06_foraeldrekontakt",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Forældrekontakt",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_020_foraeldrekontakt",
+        "widget_kontaktgruppe_021_telefonnotat-paa-elevkortet",
+        "widget_kontaktgruppe_022_mail-og-beskeder",
+        "widget_kontaktgruppe_023_husk-kalenderen"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 6
+      }
+    },
+    {
+      "id": "board_kontaktgruppe_07_udtalelser",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "title": "Udtalelser",
+      "background": "#12344a",
+      "grid": false,
+      "snap": false,
+      "zoom": 1,
+      "pan": {
+        "x": 0,
+        "y": 0
+      },
+      "widgetIds": [
+        "widget_kontaktgruppe_024_fra-elevnoter-til-udtalelser",
+        "widget_kontaktgruppe_025_skriv-udtalelser-i-plan",
+        "widget_kontaktgruppe_026_kort-arbejdsgang",
+        "widget_kontaktgruppe_027_alternativ-aabn-skriv-i-browseren",
+        "widget_kontaktgruppe_028_vigtigt-om-alternativet"
+      ],
+      "layoutFamilyId": "template-kontaktgruppe",
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "meta": {
+        "template": true,
+        "templateId": "kontaktgruppe",
+        "planOrder": 7
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "widget_kontaktgruppe_001_kontaktgruppe-saadan-kommer-du-i-gang",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_01_overblik",
+      "type": "text",
+      "title": "Kontaktgruppe · sådan kommer du i gang",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 330,
+        "rotation": 0,
+        "z": 1
+      },
+      "content": {
+        "text": "Denne skabelon bruger skolens Elevstamdata som udgangspunkt.\n\nDen opretter ikke egne elev-regneark, fordi du normalt allerede har elevdata i Plan eller kan importere dem fra skolens system.\n\nArbejdsgangen er:\n1. Importér Elevstamdata.\n2. Opret elevkortmatrix eller elevtavler fra datakilden.\n3. Skriv noter på den enkelte elev.\n4. Brug kalenderen til møder og opfølgning.\n5. Brug Skriv til udtalelser, når det er tid.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "guide"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_002_tavleindeks",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_01_overblik",
+      "type": "board-index",
+      "title": "Tavleindeks",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 560,
+        "height": 330,
+        "rotation": 0,
+        "z": 2
+      },
+      "content": {
+        "boardIds": []
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "board-index"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_003_tjekliste",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_01_overblik",
+      "type": "list",
+      "title": "Tjekliste",
+      "geometry": {
+        "x": 20,
+        "y": 440,
+        "width": 560,
+        "height": 250,
+        "rotation": 0,
+        "z": 3
+      },
+      "content": {
+        "items": [
+          "Elevstamdata er importeret",
+          "Kontaktgruppen er filtreret frem",
+          "Elevkortmatrix eller elevtavler er oprettet",
+          "Kontaktgruppekalenderen er klar",
+          "Noter skrives på de enkelte elevkort",
+          "Udtalelser skrives først, når de skal formuleres"
+        ],
+        "style": "bullets",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "checklist"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_004_vigtigt-princip",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_01_overblik",
+      "type": "text",
+      "title": "Vigtigt princip",
+      "geometry": {
+        "x": 600,
+        "y": 440,
+        "width": 560,
+        "height": 250,
+        "rotation": 0,
+        "z": 4
+      },
+      "content": {
+        "text": "Noter og aftaler bør følge den enkelte elev.\n\nBrug derfor elevkortets Note-knap til samtaler, opfølgning og observationer. Denne skabelon giver overblik og arbejdsgang — ikke et ekstra parallelt elevregister.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "principle"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_005_1-import-r-elevstamdata",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_02_importer_elevstamdata",
+      "type": "text",
+      "title": "1 · Importér Elevstamdata",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 330,
+        "rotation": 0,
+        "z": 5
+      },
+      "content": {
+        "text": "Åbn Datacenter og importér skolens elevliste som CSV eller Excel.\n\nVælg Fælles data, hvis samme elevliste skal kunne bruges i flere sessioner.\n\nVælg Denne session, hvis listen kun skal bruges i denne kontaktgruppe-skabelon.",
+        "fontSize": 20,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "guide"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_006_hvor-finder-jeg-listen-bagefter",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_02_importer_elevstamdata",
+      "type": "text",
+      "title": "Hvor finder jeg listen bagefter?",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 560,
+        "height": 250,
+        "rotation": 0,
+        "z": 6
+      },
+      "content": {
+        "text": "Efter import ligger den nyeste datakilde øverst i Datacenter.\n\nDu kan finde den under:\n• Sessionsdata, hvis du importerede til denne session.\n• Fælles data, hvis du gemte den fælles.\n• Datakilder, hvis du vil se begge dele samlet.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "where"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_007_gode-kolonner-i-elevstamdata",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_02_importer_elevstamdata",
+      "type": "list",
+      "title": "Gode kolonner i Elevstamdata",
+      "geometry": {
+        "x": 20,
+        "y": 440,
+        "width": 560,
+        "height": 300,
+        "rotation": 0,
+        "z": 7
+      },
+      "content": {
+        "items": [
+          "Navn eller Fornavn + Efternavn",
+          "Klasse eller hold",
+          "Kontaktgruppe / kontaktlærer",
+          "Værelse eller hus",
+          "Skolemail",
+          "Telefon",
+          "Evt. ElevID eller UniLogin"
+        ],
+        "style": "bullets",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "columns"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_008_importer-ikke-mere-end-du-skal-bruge",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_02_importer_elevstamdata",
+      "type": "text",
+      "title": "Importer ikke mere end du skal bruge",
+      "geometry": {
+        "x": 600,
+        "y": 365,
+        "width": 560,
+        "height": 270,
+        "rotation": 0,
+        "z": 8
+      },
+      "content": {
+        "text": "Du kan godt begynde enkelt: navn, klasse/hold og et notefelt er nok til at oprette elevkort.\n\nFlere oplysninger kan tilføjes senere, hvis de skal bruges i arbejdet.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "privacy"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_009_2-opret-elevkortmatrix-eller-elevtavler",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_03_opret_elevkort",
+      "type": "text",
+      "title": "2 · Opret elevkortmatrix eller elevtavler",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 360,
+        "rotation": 0,
+        "z": 9
+      },
+      "content": {
+        "text": "Når Elevstamdata er importeret:\n\n1. Åbn Datacenter.\n2. Find datakilden øverst på listen.\n3. Tryk Kort/tavler.\n4. Vælg Elevkortmatrix, hvis du vil have et samlet overblik.\n5. Vælg tavler med elevkort, hvis hver elev skal have sin egen tavle.\n6. Filtrér på din kontaktgruppe, klasse eller kontaktlærer.",
+        "fontSize": 19,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "guide"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_010_matrix-eller-tavler",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_03_opret_elevkort",
+      "type": "list",
+      "title": "Matrix eller tavler?",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 560,
+        "height": 250,
+        "rotation": 0,
+        "z": 10
+      },
+      "content": {
+        "items": [
+          "Elevkortmatrix: hurtigt overblik over hele kontaktgruppen",
+          "Elevtavler: bedst til længere individuelt arbejde",
+          "Begge kan bruges sammen",
+          "Noter bør oprettes fra elevkortet, ikke som løse tekstkort"
+        ],
+        "style": "bullets",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "choice"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_011_efter-oprettelsen",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_03_opret_elevkort",
+      "type": "text",
+      "title": "Efter oprettelsen",
+      "geometry": {
+        "x": 20,
+        "y": 480,
+        "width": 560,
+        "height": 230,
+        "rotation": 0,
+        "z": 11
+      },
+      "content": {
+        "text": "Brug knappen Åbn elevkort på matrixen for at se den enkelte elev.\n\nBrug Note på elevkortet til samtaler, aftaler, opfølgning og observationer. Så bliver oplysningerne knyttet til eleven.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "after"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_012_hvis-du-ikke-kan-se-datakilden",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_03_opret_elevkort",
+      "type": "text",
+      "title": "Hvis du ikke kan se datakilden",
+      "geometry": {
+        "x": 600,
+        "y": 365,
+        "width": 560,
+        "height": 230,
+        "rotation": 0,
+        "z": 12
+      },
+      "content": {
+        "text": "Åbn Datacenter igen. De nyeste importerede data ligger øverst.\n\nSøg på elevlistens navn, klasse eller kontaktgruppe, hvis der er mange datakilder.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "troubleshooting"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_013_kontaktgruppekalender",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_04_kalender",
+      "type": "calendar",
+      "title": "Kontaktgruppekalender",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 650,
+        "height": 500,
+        "rotation": 0,
+        "z": 13
+      },
+      "content": {
+        "view": "month",
+        "date": "2026-08-01",
+        "datasetId": "dataset_kontaktgruppe_kalender",
+        "events": []
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_014_hvad-skal-i-kalenderen",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_04_kalender",
+      "type": "text",
+      "title": "Hvad skal i kalenderen?",
+      "geometry": {
+        "x": 700,
+        "y": 85,
+        "width": 460,
+        "height": 220,
+        "rotation": 0,
+        "z": 14
+      },
+      "content": {
+        "text": "Brug kalenderen til de fælles kontaktgruppe-ting — ikke til alt, der kun hører til én elev.",
+        "fontSize": 20,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar-guide"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_015_typiske-kalenderpunkter",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_04_kalender",
+      "type": "list",
+      "title": "Typiske kalenderpunkter",
+      "geometry": {
+        "x": 700,
+        "y": 330,
+        "width": 460,
+        "height": 330,
+        "rotation": 0,
+        "z": 15
+      },
+      "content": {
+        "items": [
+          "Kontaktgruppemøder",
+          "K-gruppelærermøder",
+          "Fælles arrangementer",
+          "Forældresamtaler",
+          "Opfølgningsdatoer",
+          "Deadlines for udtalelser"
+        ],
+        "style": "bullets",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar-items"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_016_noter-hoerer-til-eleven",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_05_samtaler-og-noter",
+      "type": "text",
+      "title": "Noter hører til eleven",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 300,
+        "rotation": 0,
+        "z": 16
+      },
+      "content": {
+        "text": "Denne tavle er en arbejdsgang — ikke et sted til løse elevnoter.\n\nÅbn elevens elevkort fra matrixen eller elevtavlen og brug Note-knappen. Så følger samtaler, aftaler og opfølgning den rigtige elev.",
+        "fontSize": 20,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "principle"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_017_samtalehjaelp",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_05_samtaler-og-noter",
+      "type": "list",
+      "title": "Samtalehjælp",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 560,
+        "height": 320,
+        "rotation": 0,
+        "z": 17
+      },
+      "content": {
+        "items": [
+          "Hvordan går det fagligt?",
+          "Hvordan går det socialt?",
+          "Hvad fungerer godt lige nu?",
+          "Hvad er svært?",
+          "Hvilken konkret aftale laver vi?",
+          "Hvornår følger vi op?"
+        ],
+        "style": "bullets",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "conversation-prompts"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_018_kort-arbejdsgang",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_05_samtaler-og-noter",
+      "type": "text",
+      "title": "Kort arbejdsgang",
+      "geometry": {
+        "x": 20,
+        "y": 430,
+        "width": 560,
+        "height": 270,
+        "rotation": 0,
+        "z": 18
+      },
+      "content": {
+        "text": "1. Åbn elevkortet.\n2. Tryk Note.\n3. Skriv kort og konkret.\n4. Sæt opfølgning i kalenderen, hvis noget skal huskes.\n5. Brug noterne senere som grundlag for samtaler og udtalelser.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workflow"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_019_gode-noter",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_05_samtaler-og-noter",
+      "type": "text",
+      "title": "Gode noter",
+      "geometry": {
+        "x": 600,
+        "y": 440,
+        "width": 560,
+        "height": 210,
+        "rotation": 0,
+        "z": 19
+      },
+      "content": {
+        "text": "Skriv helst observationer, aftaler og næste skridt — ikke lange fritekster, der bliver svære at finde igen.",
+        "fontSize": 20,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "note-advice"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_020_foraeldrekontakt",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_06_foraeldrekontakt",
+      "type": "text",
+      "title": "Forældrekontakt",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 560,
+        "height": 320,
+        "rotation": 0,
+        "z": 20
+      },
+      "content": {
+        "text": "Brug elevkortet som indgang til elevens oplysninger og noter.\n\nTelefonnumre og mails kommer fra Elevstamdata, hvis de er importeret. Skriv selve opfølgningen som note på eleven.",
+        "fontSize": 20,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "guide"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_021_telefonnotat-paa-elevkortet",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_06_foraeldrekontakt",
+      "type": "list",
+      "title": "Telefonnotat på elevkortet",
+      "geometry": {
+        "x": 600,
+        "y": 85,
+        "width": 560,
+        "height": 300,
+        "rotation": 0,
+        "z": 21
+      },
+      "content": {
+        "items": [
+          "Dato",
+          "Hvem blev kontaktet?",
+          "Kort årsag",
+          "Hvad blev aftalt?",
+          "Hvad er næste skridt?",
+          "Skal teamet orienteres?"
+        ],
+        "style": "bullets",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "phone-note"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_022_mail-og-beskeder",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_06_foraeldrekontakt",
+      "type": "text",
+      "title": "Mail og beskeder",
+      "geometry": {
+        "x": 20,
+        "y": 440,
+        "width": 560,
+        "height": 250,
+        "rotation": 0,
+        "z": 22
+      },
+      "content": {
+        "text": "Skriv eventuelt en kladde i Plan, men send fra skolens almindelige mailsystem.\n\nGem vigtig opfølgning som note på eleven, så den kan findes igen.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "mail-advice"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_023_husk-kalenderen",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_06_foraeldrekontakt",
+      "type": "text",
+      "title": "Husk kalenderen",
+      "geometry": {
+        "x": 600,
+        "y": 420,
+        "width": 560,
+        "height": 220,
+        "rotation": 0,
+        "z": 23
+      },
+      "content": {
+        "text": "Hvis der skal følges op, så læg datoen i kontaktgruppekalenderen. Så bliver aftalen synlig på tavlen.",
+        "fontSize": 20,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "calendar-reminder"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_024_fra-elevnoter-til-udtalelser",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_07_udtalelser",
+      "type": "text",
+      "title": "Fra elevnoter til udtalelser",
+      "geometry": {
+        "x": 20,
+        "y": 85,
+        "width": 520,
+        "height": 280,
+        "rotation": 0,
+        "z": 24
+      },
+      "content": {
+        "text": "Brug denne tavle, når kontaktgruppens noter og samtaler skal omsættes til elevudtalelser.\n\nSkriv bruges her kun som udtalelsesværktøj. Det er ikke nødvendigt til almindelige elevnoter.",
+        "fontSize": 18,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "guide"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_025_skriv-udtalelser-i-plan",
+      "schemaVersion": 3,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_07_udtalelser",
+      "type": "html",
+      "title": "Skriv · udtalelser i Plan",
+      "geometry": {
+        "x": 570,
+        "y": 85,
+        "width": 590,
+        "height": 510,
+        "rotation": 0,
+        "z": 25
+      },
+      "content": {
+        "html": "",
+        "mediaId": null,
+        "source": "known-app",
+        "trusted": true,
+        "htmlApp": true,
+        "name": "Skriv.html",
+        "appKind": "skriv",
+        "appKindFixed": true,
+        "githubSourceUrl": "https://skriv.måns.dk/index.html",
+        "remoteRuntimeUrl": "https://skriv.måns.dk/index.html",
+        "githubFolderUrl": "https://skriv.måns.dk/",
+        "githubImportedAt": "2026-07-07T15:25:00.000Z",
+        "githubVersion": "",
+        "githubDescription": "Skriv, udtalelser og PDF-arbejdsgange.",
+        "htmlAppZoom": 1,
+        "appState": null
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "skriv-htmlapp",
+        "purpose": "udtalelser"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_026_kort-arbejdsgang",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_07_udtalelser",
+      "type": "list",
+      "title": "Kort arbejdsgang",
+      "geometry": {
+        "x": 20,
+        "y": 390,
+        "width": 520,
+        "height": 260,
+        "rotation": 0,
+        "z": 26
+      },
+      "content": {
+        "items": [
+          "Find eleven i elevkortmatrixen eller elevtavlen",
+          "Læs elevens noter",
+          "Formulér udtalelsen i Skriv-widgetten",
+          "Gem løbende i Plan",
+          "Udskriv/eksportér PDF tilbage til Plan, når den er færdig"
+        ],
+        "style": "numbers",
+        "fontSize": 18
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "workflow"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_027_alternativ-aabn-skriv-i-browseren",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_07_udtalelser",
+      "type": "link",
+      "title": "Alternativ · Åbn Skriv i browseren",
+      "geometry": {
+        "x": 570,
+        "y": 625,
+        "width": 285,
+        "height": 110,
+        "rotation": 0,
+        "z": 27
+      },
+      "content": {
+        "url": "https://skriv.måns.dk/",
+        "label": "Åbn skriv.måns.dk",
+        "note": "Alternativt skrivevindue uden for denne Plan-widget.",
+        "view": "card"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "external-link"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    },
+    {
+      "id": "widget_kontaktgruppe_028_vigtigt-om-alternativet",
+      "schemaVersion": 1,
+      "widgetVersion": 1,
+      "boardId": "board_kontaktgruppe_07_udtalelser",
+      "type": "text",
+      "title": "Vigtigt om alternativet",
+      "geometry": {
+        "x": 875,
+        "y": 625,
+        "width": 285,
+        "height": 160,
+        "rotation": 0,
+        "z": 28
+      },
+      "content": {
+        "text": "Bruger du skriv.måns.dk i browseren, arbejder du uden for denne Plan-widget. Det du skriver dér, følger ikke automatisk med Plan.",
+        "fontSize": 16,
+        "align": "left"
+      },
+      "settings": {
+        "locked": false,
+        "hidden": false,
+        "minimized": false,
+        "maximized": false,
+        "restoreGeometry": null
+      },
+      "relations": {
+        "layoutRole": "external-warning"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z",
+      "legacy": null
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_kontaktgruppe_kalender",
+      "schemaVersion": 1,
+      "sessionId": "template-kontaktgruppe",
+      "name": "Kontaktgruppe · kalender",
+      "type": "calendar",
+      "scope": "session",
+      "columns": [
+        "Titel",
+        "Start",
+        "Slut",
+        "Hele dagen",
+        "Sted",
+        "Beskrivelse",
+        "TavleId",
+        "Farve"
+      ],
+      "rows": [],
+      "meta": {
+        "template": true,
+        "emptyTemplate": true,
+        "purpose": "Kontaktgruppemøder, k-gruppelærermøder, samtaler og opfølgning"
+      },
+      "createdAt": "2026-07-07T15:25:00.000Z",
+      "updatedAt": "2026-07-07T15:25:00.000Z"
+    }
+  ],
+  "media": [],
+  "manifest": {
+    "selectedSessionIds": [
+      "template-kontaktgruppe"
+    ],
+    "counts": {
+      "sessions": 1,
+      "boards": 7,
+      "widgets": 28,
+      "datasets": 1,
+      "media": 0
+    },
+    "referencedDatasetIds": [
+      "dataset_kontaktgruppe_kalender"
+    ],
+    "referencedMediaIds": [],
+    "mediaBytes": 0,
+    "courseId": "template_kontaktgruppe",
+    "courseTitle": "Skabelon · Kontaktgruppe",
+    "courseSessionIds": [
+      "template-kontaktgruppe"
+    ],
+    "template": true,
+    "templateId": "kontaktgruppe",
+    "templateTitle": "Skabelon · Kontaktgruppe",
+    "contentHash": "46dbf8a48864376369f7a71edfdc160b3d0f67777dd40cf2d718dca611f4577c",
+    "packageHash": "bfd6c66ed58f67f2c487e858c0ac0f962f45f562e4b349e799966e4e50d2c37f"
+  },
+  "warnings": [],
+  "course": {
+    "id": "template_kontaktgruppe",
+    "title": "Skabelon · Kontaktgruppe",
+    "subject": "Kontaktgruppe",
+    "schoolYear": "Skabelon",
+    "sessionIds": [
+      "template-kontaktgruppe"
+    ],
+    "exportedAt": "2026-07-07T15:25:00.000Z",
+    "sourceAppVersion": "0.9.3r"
+  },
+  "updatedAt": "2026-07-07T15:25:00.000Z",
+  "meta": {
+    "template": true,
+    "templateId": "kontaktgruppe",
+    "templateVersion": "0.2.0",
+    "templatePrinciple": "Tom, men ikke blank: tavler og widgets er gjort klar til lærerens eget indhold.",
+    "templateTitle": "Skabelon · Kontaktgruppe",
+    "version": "0.4.0",
+    "description": "Workflow-baseret kontaktgruppeskabelon uden tomme elevdataark. Elevstamdata importeres og bruges via Datacenter til elevkortmatrix eller elevtavler."
+  }
+}
