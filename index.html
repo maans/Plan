@@ -7683,131 +7683,6 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 }
 </style>
 
-
-<script id="plan-help-practical-materials-owner-safe">
-(function(TN){
-  'use strict';
-  const App=TN&&TN.TavleNextApp;
-  if(!App||window.__PLAN_HELP_PRACTICAL_MATERIALS_OWNER_SAFE__)return;
-  window.__PLAN_HELP_PRACTICAL_MATERIALS_OWNER_SAFE__=true;
-
-  function setHelp(app,id,title,subtitle,body,keywords=''){
-    const registry=app&&app.helpRegistry;
-    if(!registry||!Array.isArray(registry.entries))return null;
-    let entry=registry.entries.find(item=>item&&item.id===id);
-    if(entry)Object.assign(entry,{id,title,subtitle,body,keywords});
-    else{
-      entry={id,title,subtitle,body,keywords};
-      if(typeof registry.register==='function')registry.register(entry);else registry.entries.push(entry);
-      entry=registry.entries.find(item=>item&&item.id===id)||entry;
-    }
-    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
-    return entry;
-  }
-
-  function replaceCheck(app,id,contains,newHtml){
-    const entry=app&&app.helpRegistry&&app.helpRegistry.entries&&app.helpRegistry.entries.find(item=>item&&item.id===id);
-    if(!entry||!entry.body)return;
-    const re=/<div class="tn-help-check"><b>[^<]*<\/b>[\s\S]*?<\/div>/g;
-    let changed=false;
-    entry.body=entry.body.replace(re,(match)=>{
-      if(match.includes(contains)){changed=true;return newHtml;}
-      return match;
-    });
-    if(!changed&&newHtml)entry.body+=newHtml;
-    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
-  }
-
-  function orderHelp(app){
-    const entries=app&&app.helpRegistry&&app.helpRegistry.entries;
-    if(!Array.isArray(entries))return;
-    const wanted=['overview','startup','library','rights-local','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
-    const order=new Map(wanted.map((id,index)=>[id,index]));
-    entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
-  }
-
-  function applyHelp(app){
-    if(!app||!app.helpRegistry)return;
-
-    setHelp(app,'rights-local','Materialer i Plan','Tilføj materialer i din lokale kopi',`
-      <p>Plan hjælper dig med at samle tavler, opgaver, kalender, spil og materialer i ét arbejdsrum.</p>
-      <p><b>Plan er ikke en fagportal i traditionel forstand.</b> En fagportal stiller materialer til rådighed. Plan hjælper dig med at organisere og bruge de materialer, du allerede har adgang til.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Hent et demoforløb eller en skabelon</b> fra biblioteket. Plan laver en lokal kopi.</li>
-        <li><b>Brug strukturen</b>: tavler, datoer, opgaver, huskekort og KaPardy.</li>
-        <li><b>Tilføj materialer manuelt</b>, når du skal bruge dem i din egen undervisning.</li>
-        <li><b>Gem backup</b>, når du har tilpasset forløbet til din klasse.</li>
-      </ol>
-      <div class="tn-help-check"><b>Praktisk idé:</b> Et forløb kan godt være brugbart, selv om materialerne ikke er indsat endnu. Pladsholderne viser, hvor du kan tilføje dine egne filer.</div>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="library">Bibliotek</button><button data-help-jump="import">Importér materialer</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'materialer lokale kopier demoforløb skabeloner import');
-
-    setHelp(app,'library','Bibliotek, demoforløb og skabeloner','Find et startpunkt, og gør det til dit eget',`
-      <p>Biblioteket er et sted at hente forløb, der kan bruges som startpunkt. Når du vælger et forløb, laver Plan en <b>lokal kopi</b>, som du kan ændre frit.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Demoforløb</b> er færdige eksempler med tavler, arbejdsgange, opgaver, huskekort og KaPardy.</li>
-        <li><b>Skabeloner</b> er tomme eller næsten tomme startpunkter, hvor du selv udfylder titler, datoer, elevdata og materialer.</li>
-        <li>Et demoforløb kan også bruges som skabelon: behold strukturen, og udskift det indhold, der ikke passer.</li>
-        <li>Hvis et materiale mangler, viser Plan en pladsholder. Tilføj materialet manuelt i din lokale kopi.</li>
-      </ol>
-      <p>På længere sigt giver det mening at have rigtige tomme skabeloner ved siden af demoforløb: for eksempel tomt årsforløb, tom materialebank, tomt KaPardy-spil og tom prøveforberedelse.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer i Plan</button><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'bibliotek demo demoforløb skabelon skabeloner lokal kopi materialer');
-
-    setHelp(app,'course-backup','Backup og deling','Gem dit arbejde, og del kun det der giver mening',`
-      <p>Plan kan gemme forløb, sessioner og tavler som filer. Det er praktisk til backup, flytning mellem enheder og deling med kolleger.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Til egen backup</b>: gem det, du har brug for at kunne gendanne.</li>
-        <li><b>Til kolleger</b>: del gerne struktur, tavler, opgaver, kalender, KaPardy, huskekort og beskrivelser.</li>
-        <li><b>Til brug i undervisningen</b>: tilføj materialer manuelt i din egen lokale kopi.</li>
-      </ol>
-      <p>På den måde kan forløb bruges som inspiration og arbejdsstruktur, mens de konkrete materialer kan tilpasses lokalt.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer i Plan</button><button data-help-jump="library">Bibliotek</button><button data-help-jump="storage">Lager</button></div>`,'backup deling forløb lokal kopi materialer');
-
-    replaceCheck(app,'overview','Plan er ikke en fagportal',`<div class="tn-help-check"><b>Materialer i Plan:</b> Plan organiserer de materialer, du allerede har adgang til. Hent et forløb som startpunkt, og tilføj dine egne materialer manuelt i den lokale kopi.</div>`);
-    replaceCheck(app,'startup','Bibliotekets forløb er lokale kopier',`<div class="tn-help-check"><b>Bibliotekets forløb er startpunkter.</b> Brug dem som inspiration eller skabelon, og tilføj materialer manuelt i din egen kopi.</div>`);
-
-    orderHelp(app);
-  }
-
-  function patchVisibleHelp(){
-    const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
-    if(!root)return;
-    const keyHint=root.querySelector('.tn-help-key-hint');
-    if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> K åbner kalenderen. Shift+← / Shift+→ skifter session. Se også Materialer i Plan.';
-    const intents=root.querySelector('.tn-plan-help-intents');
-    const grid=intents&&intents.querySelector(':scope > div');
-    if(grid&&!grid.querySelector('[data-help-jump="rights-local"]')){
-      const button=document.createElement('button');
-      button.type='button';
-      button.dataset.helpJump='rights-local';
-      button.textContent='Tilføj materialer i Plan';
-      grid.appendChild(button);
-    }
-  }
-
-  if(typeof App.prototype.registerHelp==='function'&&!App.prototype.registerHelp.__planHelpPracticalMaterials){
-    const previous=App.prototype.registerHelp;
-    const wrapped=function(...args){const result=previous.apply(this,args);applyHelp(this);return result;};
-    wrapped.__planHelpPracticalMaterials=true;
-    App.prototype.registerHelp=wrapped;
-  }
-
-  if(typeof App.prototype.showHelp==='function'&&!App.prototype.showHelp.__planHelpPracticalMaterials){
-    const previous=App.prototype.showHelp;
-    const wrapped=function(...args){
-      applyHelp(this);
-      const result=previous.apply(this,args);
-      requestAnimationFrame(()=>requestAnimationFrame(()=>{applyHelp(this);patchVisibleHelp();}));
-      return result;
-    };
-    wrapped.__planHelpPracticalMaterials=true;
-    App.prototype.showHelp=wrapped;
-  }
-
-  if(TN.runtime&&TN.runtime.app)applyHelp(TN.runtime.app);
-  window.__PLAN_HELP_PRACTICAL_MATERIALS_BUILD__='2026-07-07-practical-materials-owner-safe';
-})(window.TavleNext);
-</script>
-
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -9638,132 +9513,7 @@ window.addEventListener('DOMContentLoaded',async()=>{
 
 
 <!-- Plan v0.9.3bo STARTFIX / NIVEAUDELING I HELE HØJDEN OWNER SAFE:
-Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige 
-<script id="plan-help-practical-materials-owner-safe">
-(function(TN){
-  'use strict';
-  const App=TN&&TN.TavleNextApp;
-  if(!App||window.__PLAN_HELP_PRACTICAL_MATERIALS_OWNER_SAFE__)return;
-  window.__PLAN_HELP_PRACTICAL_MATERIALS_OWNER_SAFE__=true;
-
-  function setHelp(app,id,title,subtitle,body,keywords=''){
-    const registry=app&&app.helpRegistry;
-    if(!registry||!Array.isArray(registry.entries))return null;
-    let entry=registry.entries.find(item=>item&&item.id===id);
-    if(entry)Object.assign(entry,{id,title,subtitle,body,keywords});
-    else{
-      entry={id,title,subtitle,body,keywords};
-      if(typeof registry.register==='function')registry.register(entry);else registry.entries.push(entry);
-      entry=registry.entries.find(item=>item&&item.id===id)||entry;
-    }
-    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
-    return entry;
-  }
-
-  function replaceCheck(app,id,contains,newHtml){
-    const entry=app&&app.helpRegistry&&app.helpRegistry.entries&&app.helpRegistry.entries.find(item=>item&&item.id===id);
-    if(!entry||!entry.body)return;
-    const re=/<div class="tn-help-check"><b>[^<]*<\/b>[\s\S]*?<\/div>/g;
-    let changed=false;
-    entry.body=entry.body.replace(re,(match)=>{
-      if(match.includes(contains)){changed=true;return newHtml;}
-      return match;
-    });
-    if(!changed&&newHtml)entry.body+=newHtml;
-    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
-  }
-
-  function orderHelp(app){
-    const entries=app&&app.helpRegistry&&app.helpRegistry.entries;
-    if(!Array.isArray(entries))return;
-    const wanted=['overview','startup','library','rights-local','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
-    const order=new Map(wanted.map((id,index)=>[id,index]));
-    entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
-  }
-
-  function applyHelp(app){
-    if(!app||!app.helpRegistry)return;
-
-    setHelp(app,'rights-local','Materialer i Plan','Tilføj materialer i din lokale kopi',`
-      <p>Plan hjælper dig med at samle tavler, opgaver, kalender, spil og materialer i ét arbejdsrum.</p>
-      <p><b>Plan er ikke en fagportal i traditionel forstand.</b> En fagportal stiller materialer til rådighed. Plan hjælper dig med at organisere og bruge de materialer, du allerede har adgang til.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Hent et demoforløb eller en skabelon</b> fra biblioteket. Plan laver en lokal kopi.</li>
-        <li><b>Brug strukturen</b>: tavler, datoer, opgaver, huskekort og KaPardy.</li>
-        <li><b>Tilføj materialer manuelt</b>, når du skal bruge dem i din egen undervisning.</li>
-        <li><b>Gem backup</b>, når du har tilpasset forløbet til din klasse.</li>
-      </ol>
-      <div class="tn-help-check"><b>Praktisk idé:</b> Et forløb kan godt være brugbart, selv om materialerne ikke er indsat endnu. Pladsholderne viser, hvor du kan tilføje dine egne filer.</div>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="library">Bibliotek</button><button data-help-jump="import">Importér materialer</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'materialer lokale kopier demoforløb skabeloner import');
-
-    setHelp(app,'library','Bibliotek, demoforløb og skabeloner','Find et startpunkt, og gør det til dit eget',`
-      <p>Biblioteket er et sted at hente forløb, der kan bruges som startpunkt. Når du vælger et forløb, laver Plan en <b>lokal kopi</b>, som du kan ændre frit.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Demoforløb</b> er færdige eksempler med tavler, arbejdsgange, opgaver, huskekort og KaPardy.</li>
-        <li><b>Skabeloner</b> er tomme eller næsten tomme startpunkter, hvor du selv udfylder titler, datoer, elevdata og materialer.</li>
-        <li>Et demoforløb kan også bruges som skabelon: behold strukturen, og udskift det indhold, der ikke passer.</li>
-        <li>Hvis et materiale mangler, viser Plan en pladsholder. Tilføj materialet manuelt i din lokale kopi.</li>
-      </ol>
-      <p>På længere sigt giver det mening at have rigtige tomme skabeloner ved siden af demoforløb: for eksempel tomt årsforløb, tom materialebank, tomt KaPardy-spil og tom prøveforberedelse.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer i Plan</button><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'bibliotek demo demoforløb skabelon skabeloner lokal kopi materialer');
-
-    setHelp(app,'course-backup','Backup og deling','Gem dit arbejde, og del kun det der giver mening',`
-      <p>Plan kan gemme forløb, sessioner og tavler som filer. Det er praktisk til backup, flytning mellem enheder og deling med kolleger.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Til egen backup</b>: gem det, du har brug for at kunne gendanne.</li>
-        <li><b>Til kolleger</b>: del gerne struktur, tavler, opgaver, kalender, KaPardy, huskekort og beskrivelser.</li>
-        <li><b>Til brug i undervisningen</b>: tilføj materialer manuelt i din egen lokale kopi.</li>
-      </ol>
-      <p>På den måde kan forløb bruges som inspiration og arbejdsstruktur, mens de konkrete materialer kan tilpasses lokalt.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer i Plan</button><button data-help-jump="library">Bibliotek</button><button data-help-jump="storage">Lager</button></div>`,'backup deling forløb lokal kopi materialer');
-
-    replaceCheck(app,'overview','Plan er ikke en fagportal',`<div class="tn-help-check"><b>Materialer i Plan:</b> Plan organiserer de materialer, du allerede har adgang til. Hent et forløb som startpunkt, og tilføj dine egne materialer manuelt i den lokale kopi.</div>`);
-    replaceCheck(app,'startup','Bibliotekets forløb er lokale kopier',`<div class="tn-help-check"><b>Bibliotekets forløb er startpunkter.</b> Brug dem som inspiration eller skabelon, og tilføj materialer manuelt i din egen kopi.</div>`);
-
-    orderHelp(app);
-  }
-
-  function patchVisibleHelp(){
-    const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
-    if(!root)return;
-    const keyHint=root.querySelector('.tn-help-key-hint');
-    if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> K åbner kalenderen. Shift+← / Shift+→ skifter session. Se også Materialer i Plan.';
-    const intents=root.querySelector('.tn-plan-help-intents');
-    const grid=intents&&intents.querySelector(':scope > div');
-    if(grid&&!grid.querySelector('[data-help-jump="rights-local"]')){
-      const button=document.createElement('button');
-      button.type='button';
-      button.dataset.helpJump='rights-local';
-      button.textContent='Tilføj materialer i Plan';
-      grid.appendChild(button);
-    }
-  }
-
-  if(typeof App.prototype.registerHelp==='function'&&!App.prototype.registerHelp.__planHelpPracticalMaterials){
-    const previous=App.prototype.registerHelp;
-    const wrapped=function(...args){const result=previous.apply(this,args);applyHelp(this);return result;};
-    wrapped.__planHelpPracticalMaterials=true;
-    App.prototype.registerHelp=wrapped;
-  }
-
-  if(typeof App.prototype.showHelp==='function'&&!App.prototype.showHelp.__planHelpPracticalMaterials){
-    const previous=App.prototype.showHelp;
-    const wrapped=function(...args){
-      applyHelp(this);
-      const result=previous.apply(this,args);
-      requestAnimationFrame(()=>requestAnimationFrame(()=>{applyHelp(this);patchVisibleHelp();}));
-      return result;
-    };
-    wrapped.__planHelpPracticalMaterials=true;
-    App.prototype.showHelp=wrapped;
-  }
-
-  if(TN.runtime&&TN.runtime.app)applyHelp(TN.runtime.app);
-  window.__PLAN_HELP_PRACTICAL_MATERIALS_BUILD__='2026-07-07-practical-materials-owner-safe';
-})(window.TavleNext);
-</script>
-
-</body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
+Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige </body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
 -->
 <style id="plan-v093bo-leveling-full-height-style">
 #tnModalRoot .tn-modal.tn-leveling-modal{
@@ -36255,7 +36005,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   window.__PLAN_PDF_EXACT_PAGE_POSITION_BUILD__='2026-07-05-owner-safe';
   TN.version='1.1.1';
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.1.4 · Hjælp præciserer materialer, skabeloner og sessionsnavigation';
+  TN.buildLabel='Plan v1.1.4 · Hjælp rettet, sessionsgenveje og praktisk materialetekst';
   TN.release={version:'1.1.3',channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
   document.title='Plan v1.1.4';
   window.__PLAN_V1_RELEASE_BUILD__='2026-07-05-owner-safe';
@@ -37745,7 +37495,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   const VERSION='1.1.1';
   try{Object.defineProperty(TN,'version',{configurable:true,enumerable:true,get:()=>VERSION,set:()=>VERSION});}catch(_){TN.version=VERSION;}
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.1.4 · Hjælp præciserer materialer, skabeloner og sessionsnavigation';
+  TN.buildLabel='Plan v1.1.4 · Hjælp rettet, sessionsgenveje og praktisk materialetekst';
   TN.release={version:VERSION,channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
   document.title='Plan v1.1.4';
 })(window.TavleNext);
@@ -37923,143 +37673,8 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 </script>
 
 
-<!-- Plan OWNER SAFE: Hjælp · lokal materialehåndtering, ophavsret og GDPR -->
-<script id="plan-help-local-materials-rights-owner-safe">
-(function(TN){
-  'use strict';
-  const App=TN&&TN.TavleNextApp;
-  if(!App||TN.__planHelpLocalMaterialsRightsOwnerSafe)return;
-  TN.__planHelpLocalMaterialsRightsOwnerSafe=true;
 
-  function setHelp(app,id,title,subtitle,body,keywords=''){
-    const registry=app&&app.helpRegistry;
-    if(!registry||!Array.isArray(registry.entries))return null;
-    let entry=registry.entries.find(item=>item&&item.id===id);
-    if(entry)Object.assign(entry,{id,title,subtitle,body,keywords});
-    else{
-      entry={id,title,subtitle,body,keywords};
-      if(typeof registry.register==='function')registry.register(entry);else registry.entries.push(entry);
-      entry=registry.entries.find(item=>item&&item.id===id)||entry;
-    }
-    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
-    return entry;
-  }
-
-  function patchBody(app,id,needle,addition){
-    const entry=app&&app.helpRegistry&&app.helpRegistry.entries&&app.helpRegistry.entries.find(item=>item&&item.id===id);
-    if(!entry||!entry.body||entry.body.includes(addition))return;
-    if(needle&&entry.body.includes(needle))entry.body=entry.body.replace(needle,needle+addition);
-    else entry.body+=addition;
-    try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
-  }
-
-  function orderHelp(app){
-    const entries=app&&app.helpRegistry&&app.helpRegistry.entries;
-    if(!Array.isArray(entries))return;
-    const wanted=['overview','startup','library','rights-local','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
-    const order=new Map(wanted.map((id,index)=>[id,index]));
-    entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
-  }
-
-  function applyHelp(app){
-    if(!app||!app.helpRegistry)return;
-
-    setHelp(app,'rights-local','Materialer, elevdata og lokale kopier','Plan organiserer — Plan leverer ikke forlagsmaterialer',`
-      <p><b>Plan er ikke en fagportal.</b> En fagportal leverer materialer, som skolen typisk betaler for. Plan er lærerens lokale værktøj til at samle, strukturere og bruge de materialer, læreren allerede har adgang til.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Hent et forløb eller en skabelon</b> fra biblioteket. Plan opretter en lokal kopi.</li>
-        <li><b>Tilføj materialer manuelt</b> i din egen kopi, når du skal bruge dem.</li>
-        <li><b>Brug kun materialer, du har ret til at anvende</b> i undervisningen.</li>
-        <li><b>Lad elevdata blive lokalt</b>, medmindre du bevidst laver en sikkerhedskopi efter skolens regler.</li>
-        <li><b>Del helst strukturen</b>: tavler, opgaver, kalender, KaPardy, huskekort og beskrivelser — ikke elevdata og ikke beskyttede materialer.</li>
-      </ol>
-      <p>Det gør det lettere at arbejde ansvarligt med både ophavsret og GDPR: GitHub-versioner kan være små og rene, mens lærerens lokale kopi kan indeholde de konkrete materialer og data, som kun hører til i lærerens eget arbejdsrum.</p>
-      <div class="tn-help-check"><b>Praktisk tommelfingerregel:</b> Hvis materialet kommer fra et forlag, en lukket portal, elever eller personoplysninger, skal det normalt ikke ligge i et offentligt Plan-bibliotek. Tilføj det lokalt.</div>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="library">Bibliotek</button><button data-help-jump="import">Importér materialer</button><button data-help-jump="course-backup">Del forløb</button></div>`,'fagportal ophavsret copyright GDPR elevdata lokale kopier materialer deling');
-
-    setHelp(app,'library','Bibliotek, demoforløb og skabeloner','Hent inspiration som lokal kopi — tilføj materialer lokalt',`
-      <p>Biblioteket er et sted at hente <b>demoforløb</b> og <b>skabeloner</b>. Når du bruger en pakke, laver Plan en <b>selvstændig lokal kopi</b>, som du kan ændre uden at påvirke originalen.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Demoforløb</b> er færdige eksempler med tavler, arbejdsgange, opgaver, huskekort og KaPardy.</li>
-        <li><b>Skabeloner</b> er tomme eller næsten tomme startpunkter, hvor du selv udfylder titler, datoer, elevdata og materialer.</li>
-        <li>Et demoforløb kan også bruges som skabelon: behold strukturen, og udskift indholdet.</li>
-        <li>Et materialefrit forløb kan have pladsholdere. Tilføj materialerne manuelt i din lokale kopi, når du skal bruge dem.</li>
-        <li>Plan-biblioteket bør først og fremmest dele <b>struktur og arbejdsgange</b> — ikke beskyttede materialer eller elevdata.</li>
-      </ol>
-      <p><b>Plan er ikke en fagportal.</b> En fagportal stiller materialer til rådighed. Plan hjælper læreren med at organisere de materialer, læreren allerede har adgang til.</p>
-      <p>På længere sigt giver det mening at have rigtige tomme skabeloner ved siden af demoforløb: tomt årsforløb, tom materialebank, tomt KaPardy-spil, tom elevdata-arbejdsgang og tom prøveforberedelse.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer og lokale kopier</button><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="course-backup">Del forløb</button></div>`,'bibliotek demo demoforløb skabelon lokale kopier materialer ophavsret GDPR');
-
-    setHelp(app,'import','Importér materialer lokalt','Tilføj filer i din egen kopi af forløbet',`
-      <p>Du kan vælge filer eller slippe dem direkte på Plan. Plan genkender blandt andet JSON, CSV, TSV, TXT, XLSX, ICS, PDF, HTML, billeder, lyd og video.</p>
-      <ul class="tn-help-list">
-        <li>PDF’er, billeder, lyd, video og links kan bruges som materialer på tavler.</li>
-        <li>Datafiler åbner et preview, før de gemmes.</li>
-        <li>Én mediefil oprettes som en almindelig widget.</li>
-        <li>Flere billeder, videoer, lydfiler eller PDF’er kan samles automatisk pr. medietype i en matrix.</li>
-        <li>Backup++ og årsforløbspakker åbner et import-preview med sessionsvalg og konflikthåndtering.</li>
-        <li>Gamle Tavle-backups og kendte legacy-widgets konverteres, hvor Plan har en sikker tilsvarende model.</li>
-      </ul>
-      <p>Materialer, som er beskyttet af ophavsret eller kun må bruges gennem skolens adgang, bør tilføjes <b>lokalt</b> i lærerens egen kopi. Det samme gælder elevdata og andre personoplysninger.</p>
-      <p>Importen genbruger identiske mediefiler, når det er sikkert, og springer dubletter på den aktive tavle over. Ukendte elementer må ikke slettes stiltiende.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer og lokale kopier</button><button data-help-jump="media">Medier</button><button data-help-jump="pdf">PDF</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'import materialer lokalt filer ophavsret copyright GDPR PDF billeder video lyd');
-
-    setHelp(app,'course-backup','Del forløb og tag backup','Gem struktur, og tænk over hvad der bør blive lokalt',`
-      <p>Plan kan gemme forløb, sessioner og tavler som filer. Det er praktisk til sikkerhedskopi, flytning mellem enheder og deling med kolleger.</p>
-      <ol class="tn-help-plain-steps">
-        <li><b>Til egen backup</b>: gem det, du har brug for at kunne gendanne.</li>
-        <li><b>Til deling</b>: del helst en materialefri kopi med tavler, opgaver, kalender, KaPardy, huskekort og beskrivelser.</li>
-        <li><b>Til kolleger lokalt</b>: del kun materialer ved siden af forløbet, hvis I har ret til det.</li>
-        <li><b>Til offentlige biblioteker</b>: fjern normalt elevdata og beskyttede materialer først.</li>
-      </ol>
-      <p>På den måde kan Plan-forløb bruges som inspiration og arbejdsstruktur, mens de konkrete materialer bliver tilføjet manuelt i den lokale kopi.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer og lokale kopier</button><button data-help-jump="library">Bibliotek</button><button data-help-jump="storage">Lager</button></div>`,'backup deling forløb materialefri lokal kopi ophavsret GDPR elevdata');
-
-    patchBody(app,'overview','Plan er et arbejdsrum',`<div class="tn-help-check"><b>Plan er ikke en fagportal.</b> Plan organiserer lærerens egne og adgangsberettigede materialer lokalt. Del gerne forløbsstruktur, opgaver og spil — men tilføj beskyttede materialer og elevdata i din egen lokale kopi.</div>`);
-    patchBody(app,'startup','Hent demoforløb',`<div class="tn-help-check"><b>Bibliotekets forløb er lokale kopier.</b> De kan bruges som inspiration eller skabelon. Materialer og elevdata, der kræver særlig adgang eller hensyn, tilføjes lokalt.</div>`);
-
-    orderHelp(app);
-  }
-
-  if(typeof App.prototype.registerHelp==='function'&&!App.prototype.registerHelp.__planHelpLocalMaterialsRights){
-    const previous=App.prototype.registerHelp;
-    const wrapped=function(...args){const result=previous.apply(this,args);applyHelp(this);return result;};
-    wrapped.__planHelpLocalMaterialsRights=true;
-    App.prototype.registerHelp=wrapped;
-  }
-
-  if(typeof App.prototype.showHelp==='function'&&!App.prototype.showHelp.__planHelpLocalMaterialsRights){
-    const previous=App.prototype.showHelp;
-    const wrapped=function(...args){
-      applyHelp(this);
-      const result=previous.apply(this,args);
-      requestAnimationFrame(()=>requestAnimationFrame(()=>{
-        const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
-        if(!root)return;
-        const keyHint=root.querySelector('.tn-help-key-hint');
-        if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> K åbner kalenderen. Shift+← / Shift+→ skifter session. Se også Materialer og lokale kopier.';
-        const intents=root.querySelector('.tn-plan-help-intents');
-        const grid=intents&&intents.querySelector(':scope > div');
-        if(grid&&!grid.querySelector('[data-help-jump="rights-local"]')){
-          const button=document.createElement('button');
-          button.type='button';
-          button.dataset.helpJump='rights-local';
-          button.textContent='Forstå materialer, elevdata og lokale kopier';
-          grid.appendChild(button);
-        }
-      }));
-      return result;
-    };
-    wrapped.__planHelpLocalMaterialsRights=true;
-    App.prototype.showHelp=wrapped;
-  }
-
-  if(TN.runtime&&TN.runtime.app)applyHelp(TN.runtime.app);
-  window.__PLAN_HELP_LOCAL_MATERIALS_RIGHTS_BUILD__='2026-07-07-local-materials-rights-owner-safe';
-})(window.TavleNext);
-</script>
-
-
+<!-- Plan OWNER SAFE: Hjælp · praktisk materialetekst uden teknisk GitHub-sprog -->
 <script id="plan-help-practical-materials-owner-safe">
 (function(TN){
   'use strict';
@@ -38081,16 +37696,12 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     return entry;
   }
 
-  function replaceCheck(app,id,contains,newHtml){
+  function replaceFirstCheck(app,id,newHtml){
     const entry=app&&app.helpRegistry&&app.helpRegistry.entries&&app.helpRegistry.entries.find(item=>item&&item.id===id);
     if(!entry||!entry.body)return;
-    const re=/<div class="tn-help-check"><b>[^<]*<\/b>[\s\S]*?<\/div>/g;
-    let changed=false;
-    entry.body=entry.body.replace(re,(match)=>{
-      if(match.includes(contains)){changed=true;return newHtml;}
-      return match;
-    });
-    if(!changed&&newHtml)entry.body+=newHtml;
+    const re=/<div class="tn-help-check"><b>[^<]*<\/b>[\s\S]*?<\/div>/;
+    if(re.test(entry.body))entry.body=entry.body.replace(re,newHtml);
+    else entry.body+=newHtml;
     try{TN.registry&&TN.registry.help&&TN.registry.help.set(id,entry);}catch(_){ }
   }
 
@@ -38109,13 +37720,13 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       <p>Plan hjælper dig med at samle tavler, opgaver, kalender, spil og materialer i ét arbejdsrum.</p>
       <p><b>Plan er ikke en fagportal i traditionel forstand.</b> En fagportal stiller materialer til rådighed. Plan hjælper dig med at organisere og bruge de materialer, du allerede har adgang til.</p>
       <ol class="tn-help-plain-steps">
-        <li><b>Hent et demoforløb eller en skabelon</b> fra biblioteket. Plan laver en lokal kopi.</li>
-        <li><b>Brug strukturen</b>: tavler, datoer, opgaver, huskekort og KaPardy.</li>
-        <li><b>Tilføj materialer manuelt</b>, når du skal bruge dem i din egen undervisning.</li>
-        <li><b>Gem backup</b>, når du har tilpasset forløbet til din klasse.</li>
+        <li>Hent et demoforløb eller en skabelon fra biblioteket.</li>
+        <li>Brug strukturen: tavler, datoer, opgaver, huskekort og KaPardy.</li>
+        <li>Tilføj materialer manuelt i din lokale kopi, når du skal bruge dem.</li>
+        <li>Gem backup, når du har tilpasset forløbet til din undervisning.</li>
       </ol>
-      <div class="tn-help-check"><b>Praktisk idé:</b> Et forløb kan godt være brugbart, selv om materialerne ikke er indsat endnu. Pladsholderne viser, hvor du kan tilføje dine egne filer.</div>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="library">Bibliotek</button><button data-help-jump="import">Importér materialer</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'materialer lokale kopier demoforløb skabeloner import');
+      <div class="tn-help-check"><b>God arbejdsgang:</b> Et forløb kan godt være brugbart, selv om materialerne ikke er indsat endnu. Pladsholdere viser, hvor du kan tilføje dine egne filer.</div>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="library">Bibliotek</button><button data-help-jump="import">Importér materialer</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'materialer lokal kopi demoforløb skabeloner import');
 
     setHelp(app,'library','Bibliotek, demoforløb og skabeloner','Find et startpunkt, og gør det til dit eget',`
       <p>Biblioteket er et sted at hente forløb, der kan bruges som startpunkt. Når du vælger et forløb, laver Plan en <b>lokal kopi</b>, som du kan ændre frit.</p>
@@ -38128,19 +37739,18 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       <p>På længere sigt giver det mening at have rigtige tomme skabeloner ved siden af demoforløb: for eksempel tomt årsforløb, tom materialebank, tomt KaPardy-spil og tom prøveforberedelse.</p>
       <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer i Plan</button><button data-help-jump="startup">Opstart</button><button data-help-jump="first-course">Nyt forløb</button><button data-help-jump="course-backup">Backup og deling</button></div>`,'bibliotek demo demoforløb skabelon skabeloner lokal kopi materialer');
 
-    setHelp(app,'course-backup','Backup og deling','Gem dit arbejde, og del kun det der giver mening',`
+    setHelp(app,'course-backup','Backup og deling','Gem dit arbejde, og del det der giver mening',`
       <p>Plan kan gemme forløb, sessioner og tavler som filer. Det er praktisk til backup, flytning mellem enheder og deling med kolleger.</p>
       <ol class="tn-help-plain-steps">
         <li><b>Til egen backup</b>: gem det, du har brug for at kunne gendanne.</li>
         <li><b>Til kolleger</b>: del gerne struktur, tavler, opgaver, kalender, KaPardy, huskekort og beskrivelser.</li>
         <li><b>Til brug i undervisningen</b>: tilføj materialer manuelt i din egen lokale kopi.</li>
       </ol>
-      <p>På den måde kan forløb bruges som inspiration og arbejdsstruktur, mens de konkrete materialer kan tilpasses lokalt.</p>
+      <p>På den måde kan forløb bruges som inspiration og arbejdsstruktur, mens konkrete materialer kan tilpasses lokalt.</p>
       <div class="tn-help-see"><b>Se også:</b><button data-help-jump="rights-local">Materialer i Plan</button><button data-help-jump="library">Bibliotek</button><button data-help-jump="storage">Lager</button></div>`,'backup deling forløb lokal kopi materialer');
 
-    replaceCheck(app,'overview','Plan er ikke en fagportal',`<div class="tn-help-check"><b>Materialer i Plan:</b> Plan organiserer de materialer, du allerede har adgang til. Hent et forløb som startpunkt, og tilføj dine egne materialer manuelt i den lokale kopi.</div>`);
-    replaceCheck(app,'startup','Bibliotekets forløb er lokale kopier',`<div class="tn-help-check"><b>Bibliotekets forløb er startpunkter.</b> Brug dem som inspiration eller skabelon, og tilføj materialer manuelt i din egen kopi.</div>`);
-
+    replaceFirstCheck(app,'overview',`<div class="tn-help-check"><b>Materialer i Plan:</b> Plan organiserer de materialer, du allerede har adgang til. Hent et forløb som startpunkt, og tilføj materialer manuelt i den lokale kopi.</div>`);
+    replaceFirstCheck(app,'startup',`<div class="tn-help-check"><b>Bibliotekets forløb er startpunkter.</b> Brug dem som inspiration eller skabelon, og tilføj materialer manuelt i din egen kopi.</div>`);
     orderHelp(app);
   }
 
@@ -38148,7 +37758,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
     if(!root)return;
     const keyHint=root.querySelector('.tn-help-key-hint');
-    if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> K åbner kalenderen. Shift+← / Shift+→ skifter session. Se også Materialer i Plan.';
+    if(keyHint)keyHint.innerHTML='<b>Brug mus eller touch.</b> K åbner kalenderen. Shift+← / Shift+→ skifter session. Alle genveje findes i Genvejskort.';
     const intents=root.querySelector('.tn-plan-help-intents');
     const grid=intents&&intents.querySelector(':scope > div');
     if(grid&&!grid.querySelector('[data-help-jump="rights-local"]')){
@@ -38180,7 +37790,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
   }
 
   if(TN.runtime&&TN.runtime.app)applyHelp(TN.runtime.app);
-  window.__PLAN_HELP_PRACTICAL_MATERIALS_BUILD__='2026-07-07-practical-materials-owner-safe';
+  window.__PLAN_HELP_PRACTICAL_MATERIALS_BUILD__='2026-07-07-practical-materials-owner-safe-fixed';
 })(window.TavleNext);
 </script>
 
