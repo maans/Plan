@@ -7729,55 +7729,6 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 }
 </style>
 
-
-
-<!-- Plan: Datacenter viser senest tilføjede datakilder øverst -->
-<script id="plan-datacenter-recent-sort-owner">
-(function(TN){
-  'use strict';
-  if(!TN?.DataManager || window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__)return;
-  window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__=true;
-
-  const DM=TN.DataManager;
-  const originalListSession=DM.prototype.listSession;
-  const originalListCommon=DM.prototype.listCommon;
-
-  const stamp=dataset=>{
-    const candidates=[
-      dataset?.createdAt,
-      dataset?.meta?.importedAt,
-      dataset?.meta?.createdAt,
-      dataset?.updatedAt,
-      dataset?.meta?.copiedAt,
-      dataset?.meta?.updatedAt
-    ];
-    for(const value of candidates){
-      const time=Date.parse(String(value||''));
-      if(Number.isFinite(time))return time;
-    }
-    return 0;
-  };
-  const sortRecent=datasets=>[...(datasets||[])].sort((a,b)=>{
-    const byTime=stamp(b)-stamp(a);
-    if(byTime)return byTime;
-    return String(a?.name||'').localeCompare(String(b?.name||''),'da',{numeric:true,sensitivity:'base'});
-  });
-
-  DM.prototype.listSession=async function(sessionId){
-    return sortRecent(await originalListSession.call(this,sessionId));
-  };
-  DM.prototype.listCommon=async function(){
-    return sortRecent(await originalListCommon.call(this));
-  };
-  DM.prototype.listAvailable=async function(sessionId){
-    const [session,common]=await Promise.all([this.listSession(sessionId),this.listCommon()]);
-    return [...session,...common];
-  };
-
-  window.__PLAN_DATACENTER_RECENT_SORT_BUILD__='2026-07-07-kontaktgruppe-owner-safe';
-})(window.TavleNext);
-</script>
-
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -9608,56 +9559,7 @@ window.addEventListener('DOMContentLoaded',async()=>{
 
 
 <!-- Plan v0.9.3bo STARTFIX / NIVEAUDELING I HELE HØJDEN OWNER SAFE:
-Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige 
-
-<!-- Plan: Datacenter viser senest tilføjede datakilder øverst -->
-<script id="plan-datacenter-recent-sort-owner">
-(function(TN){
-  'use strict';
-  if(!TN?.DataManager || window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__)return;
-  window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__=true;
-
-  const DM=TN.DataManager;
-  const originalListSession=DM.prototype.listSession;
-  const originalListCommon=DM.prototype.listCommon;
-
-  const stamp=dataset=>{
-    const candidates=[
-      dataset?.createdAt,
-      dataset?.meta?.importedAt,
-      dataset?.meta?.createdAt,
-      dataset?.updatedAt,
-      dataset?.meta?.copiedAt,
-      dataset?.meta?.updatedAt
-    ];
-    for(const value of candidates){
-      const time=Date.parse(String(value||''));
-      if(Number.isFinite(time))return time;
-    }
-    return 0;
-  };
-  const sortRecent=datasets=>[...(datasets||[])].sort((a,b)=>{
-    const byTime=stamp(b)-stamp(a);
-    if(byTime)return byTime;
-    return String(a?.name||'').localeCompare(String(b?.name||''),'da',{numeric:true,sensitivity:'base'});
-  });
-
-  DM.prototype.listSession=async function(sessionId){
-    return sortRecent(await originalListSession.call(this,sessionId));
-  };
-  DM.prototype.listCommon=async function(){
-    return sortRecent(await originalListCommon.call(this));
-  };
-  DM.prototype.listAvailable=async function(sessionId){
-    const [session,common]=await Promise.all([this.listSession(sessionId),this.listCommon()]);
-    return [...session,...common];
-  };
-
-  window.__PLAN_DATACENTER_RECENT_SORT_BUILD__='2026-07-07-kontaktgruppe-owner-safe';
-})(window.TavleNext);
-</script>
-
-</body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
+Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige </body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
 -->
 <style id="plan-v093bo-leveling-full-height-style">
 #tnModalRoot .tn-modal.tn-leveling-modal{
@@ -37939,51 +37841,49 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 </script>
 
 
-
-<!-- Plan: Datacenter viser senest tilføjede datakilder øverst -->
-<script id="plan-datacenter-recent-sort-owner">
+<script id="plan-datacenter-recent-sort-owner-safe-v2">
 (function(TN){
   'use strict';
-  if(!TN?.DataManager || window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__)return;
-  window.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE__=true;
+  if(!TN || !TN.DataManager || TN.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE_V2__) return;
+  TN.__PLAN_DATACENTER_RECENT_SORT_OWNER_SAFE_V2__ = true;
 
-  const DM=TN.DataManager;
-  const originalListSession=DM.prototype.listSession;
-  const originalListCommon=DM.prototype.listCommon;
+  const proto = TN.DataManager.prototype;
+  const originalListSession = proto.listSession;
+  const originalListCommon = proto.listCommon;
 
-  const stamp=dataset=>{
-    const candidates=[
-      dataset?.createdAt,
-      dataset?.meta?.importedAt,
-      dataset?.meta?.createdAt,
-      dataset?.updatedAt,
-      dataset?.meta?.copiedAt,
-      dataset?.meta?.updatedAt
-    ];
-    for(const value of candidates){
-      const time=Date.parse(String(value||''));
-      if(Number.isFinite(time))return time;
-    }
-    return 0;
+  const asTime = value => {
+    if(value == null || value === '') return 0;
+    if(typeof value === 'number' && Number.isFinite(value)) return value;
+    const time = Date.parse(String(value));
+    return Number.isFinite(time) ? time : 0;
   };
-  const sortRecent=datasets=>[...(datasets||[])].sort((a,b)=>{
-    const byTime=stamp(b)-stamp(a);
-    if(byTime)return byTime;
-    return String(a?.name||'').localeCompare(String(b?.name||''),'da',{numeric:true,sensitivity:'base'});
+  const stamp = dataset => Math.max(
+    asTime(dataset?.createdAt),
+    asTime(dataset?.updatedAt),
+    asTime(dataset?.meta?.importedAt),
+    asTime(dataset?.meta?.copiedAt),
+    asTime(dataset?.meta?.createdAt),
+    asTime(dataset?.meta?.updatedAt),
+    asTime(dataset?.meta?.savedAt)
+  );
+  const sortRecent = datasets => [...(datasets || [])].sort((a,b)=>{
+    const byTime = stamp(b) - stamp(a);
+    if(byTime) return byTime;
+    return String(a?.name || '').localeCompare(String(b?.name || ''), 'da', {numeric:true, sensitivity:'base'});
   });
 
-  DM.prototype.listSession=async function(sessionId){
-    return sortRecent(await originalListSession.call(this,sessionId));
+  proto.listSession = async function(sessionId){
+    return sortRecent(await originalListSession.call(this, sessionId));
   };
-  DM.prototype.listCommon=async function(){
+  proto.listCommon = async function(){
     return sortRecent(await originalListCommon.call(this));
   };
-  DM.prototype.listAvailable=async function(sessionId){
-    const [session,common]=await Promise.all([this.listSession(sessionId),this.listCommon()]);
-    return [...session,...common];
+  proto.listAvailable = async function(sessionId){
+    const [session, common] = await Promise.all([this.listSession(sessionId), this.listCommon()]);
+    return [...session, ...common];
   };
 
-  window.__PLAN_DATACENTER_RECENT_SORT_BUILD__='2026-07-07-kontaktgruppe-owner-safe';
+  TN.__PLAN_DATACENTER_RECENT_SORT_BUILD__ = '2026-07-07-owner-safe-v2';
 })(window.TavleNext);
 </script>
 
