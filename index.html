@@ -38215,10 +38215,10 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 <style id="plan-picture-flip-v6-style">
 /* Billedvendespil lever som visning af billedmatrixen, ikke som selvstændig værktøjslinjeknap. */
 .tn-pfg-toolbar-button,[data-plan-picture-flip-button]{display:none!important}
-.tn-pfg-head{display:grid;gap:8px;padding:10px;border-bottom:1px solid #dbeafe;background:#eef6ff;color:#0f172a}
-.tn-pfg-titleline{display:flex;align-items:center;gap:8px;min-width:0;flex-wrap:wrap}
-.tn-pfg-titleline strong{font-size:15px}.tn-pfg-titleline small{color:#475569}.tn-pfg-titleline select{min-height:34px;border:1px solid #bfdbfe;border-radius:10px;padding:6px 8px;background:#fff;color:#0f172a;font-weight:850;max-width:240px}
-.tn-pfg-actions{display:flex;gap:6px;flex-wrap:wrap}.tn-pfg-actions button{border:1px solid #bfdbfe;border-radius:10px;background:#fff;color:#172554;font-weight:900;padding:7px 9px}.tn-pfg-actions button.active{background:#2563eb;color:#fff}.tn-pfg-dataset-chip{display:inline-flex;align-items:center;max-width:min(420px,100%);min-height:30px;padding:4px 9px;border:1px solid #bfdbfe;border-radius:999px;background:#fff;color:#334155;font-weight:850;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tn-pfg-dataset-chip b{color:#172554;overflow:hidden;text-overflow:ellipsis}.tn-pfg-matrix-bind-chip{position:absolute;left:10px;top:10px;z-index:8;max-width:calc(100% - 20px);padding:6px 10px;border-radius:999px;border:1px solid rgba(191,219,254,.95);background:rgba(248,250,252,.96);color:#172554;font-weight:900;font-size:12px;box-shadow:0 6px 18px rgba(15,23,42,.18);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
+.tn-pfg-head{display:flex;align-items:center;gap:8px;padding:8px 10px;border-bottom:1px solid #dbeafe;background:#eef6ff;color:#0f172a;min-width:0;overflow:hidden}
+.tn-pfg-titleline{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 auto;flex-wrap:nowrap;overflow:hidden}
+.tn-pfg-titleline label{display:flex;align-items:center;gap:5px;min-width:0;white-space:nowrap}.tn-pfg-titleline small{color:#475569}.tn-pfg-titleline select{min-height:32px;border:1px solid #bfdbfe;border-radius:10px;padding:5px 8px;background:#fff;color:#0f172a;font-weight:850;max-width:min(220px,30vw)}
+.tn-pfg-actions{display:flex;gap:6px;flex:0 0 auto;align-items:center}.tn-pfg-actions button{border:1px solid #bfdbfe;border-radius:10px;background:#fff;color:#172554;font-weight:900;padding:6px 9px;min-height:32px}.tn-pfg-actions button.active{background:#2563eb;color:#fff}.tn-pfg-icon-btn{min-width:40px;font-size:18px;line-height:1}.tn-pfg-dice-btn{min-width:40px;font-size:18px;line-height:1}.tn-pfg-dataset-chip{display:inline-flex;align-items:center;max-width:min(420px,100%);min-height:30px;padding:4px 9px;border:1px solid #bfdbfe;border-radius:999px;background:#fff;color:#334155;font-weight:850;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tn-pfg-dataset-chip b{color:#172554;overflow:hidden;text-overflow:ellipsis}.tn-pfg-matrix-bind-chip{position:absolute;left:10px;top:10px;z-index:8;max-width:calc(100% - 20px);padding:6px 10px;border-radius:999px;border:1px solid rgba(191,219,254,.95);background:rgba(248,250,252,.96);color:#172554;font-weight:900;font-size:12px;box-shadow:0 6px 18px rgba(15,23,42,.18);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
 .tn-pfg{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr);background:#f8fafc;color:#0f172a;overflow:hidden}.tn-pfg-body{min-height:0;overflow:auto;padding:12px}.tn-pfg-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;align-content:start}
 .tn-pfg-card{position:relative;min-height:178px;border:0;background:transparent;padding:0;perspective:900px;cursor:pointer;color:#0f172a}.tn-pfg-card-inner{position:absolute;inset:0;transition:transform .24s;transform-style:preserve-3d}.tn-pfg-card.flipped .tn-pfg-card-inner{transform:rotateY(180deg)}
 .tn-pfg-face{position:absolute;inset:0;display:grid;grid-template-rows:minmax(0,1fr) auto;backface-visibility:hidden;border:1px solid #cbd5e1;border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 7px 18px rgba(15,23,42,.16)}
@@ -38230,7 +38230,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 #tavleNextApp[data-mode=presentation] .tn-pfg-head,#tavleNextApp .tn-widget.tn-transient-maximized .tn-pfg-head,#tavleNextApp .tn-widget.maximized .tn-pfg-head{display:none!important}
 #tavleNextApp[data-mode=presentation] .tn-pfg,#tavleNextApp .tn-widget.tn-transient-maximized .tn-pfg,#tavleNextApp .tn-widget.maximized .tn-pfg{grid-template-rows:1fr}
 #tavleNextApp[data-mode=presentation] .tn-pfg-body,#tavleNextApp .tn-widget.tn-transient-maximized .tn-pfg-body,#tavleNextApp .tn-widget.maximized .tn-pfg-body{padding:8px}
-@media(max-width:760px){.tn-pfg-grid{grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}.tn-pfg-card{min-height:158px}.tn-pfg-single-simple{width:100%}.tn-pfg-single-flip-card{width:min(500px,94vw)}}
+@media(max-width:760px){.tn-pfg-head{gap:6px;padding:7px}.tn-pfg-titleline{gap:6px}.tn-pfg-titleline select{max-width:34vw;min-height:30px}.tn-pfg-actions button{min-height:30px;padding:5px 8px}.tn-pfg-grid{grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}.tn-pfg-card{min-height:158px}.tn-pfg-single-simple{width:100%}.tn-pfg-single-flip-card{width:min(500px,94vw)}}
 </style>
 <script id="plan-picture-flip-v6-script">
 (function(TN){
@@ -38350,7 +38350,12 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
   }
 
   async function mediaUrl(app,card,urls){
-    if(card.mediaId){const media=await app.mediaManager.get(card.mediaId);if(media?.blob){const url=URL.createObjectURL(media.blob);urls.push(url);return url;}}
+    if(card.mediaId){
+      const media=await app.mediaManager.get(card.mediaId);
+      const blob=(media?.blob instanceof Blob&&media.blob.size)?media.blob:((media?.originalBlob instanceof Blob&&media.originalBlob.size)?media.originalBlob:null);
+      if(blob){const url=URL.createObjectURL(blob);urls.push(url);return url;}
+      if(typeof media?.dataUrl==='string'&&media.dataUrl.startsWith('data:'))return media.dataUrl;
+    }
     return card.src||'';
   }
   function orderedCards(content){const cards=Array.isArray(content.cards)?content.cards:[],byId=new Map(cards.map(card=>[String(card.id),card]));return Array.isArray(content.order)&&content.order.length?content.order.map(id=>byId.get(String(id))).filter(Boolean):cards.slice();}
@@ -38399,11 +38404,11 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         if(String(content.frontLabelMode||'hidden').startsWith('col:')&&!usable.includes(content.frontLabelMode.slice(4)))content.frontLabelMode='hidden';
       }
       const frontOptions=()=>[['hidden','Kun billede'],...(content.frontColumns||[]).map(col=>[`col:${col}`,col]),['file-stem','Filnavn uden endelse']];
-      const toolbar=cards=>`<div class="tn-pfg-head"><div class="tn-pfg-titleline"><strong>${esc(widget.title||'Billedvendespil')}</strong><small>${cards.length} kort · billedmatrix-visning</small><label><small>Forside:</small> <select data-pfg-front>${frontOptions().map(([value,label])=>`<option value="${esc(value)}"${(content.frontLabelMode||'hidden')===value?' selected':''}>${esc(label)}</option>`).join('')}</select></label><label><small>Bagside:</small> <select data-pfg-answer>${(content.answerColumns||[]).map(col=>`<option value="${esc(col)}"${col===content.answerKey?' selected':''}>${esc(col)}</option>`).join('')}</select></label></div><div class="tn-pfg-actions"><button type="button" data-pfg-action="view-matrix" class="${content.view!=='single'?'active':''}">Tavlematrix</button><button type="button" data-pfg-action="view-single" class="${content.view==='single'?'active':''}">En ad gangen</button><button type="button" data-pfg-action="shuffle">Bland</button></div></div>`;
+      const toolbar=cards=>`<div class="tn-pfg-head"><div class="tn-pfg-actions"><button type="button" class="tn-pfg-icon-btn" data-pfg-action="toggle-view" title="${content.view==='single'?'Vis matrix':'Vis ét kort'}" aria-label="${content.view==='single'?'Vis matrix':'Vis ét kort'}">${content.view==='single'?'👥':'👤'}</button><button type="button" class="tn-pfg-dice-btn" data-pfg-action="shuffle" title="Bland" aria-label="Bland">🎲</button></div><div class="tn-pfg-titleline"><label><small>Forside:</small><select data-pfg-front>${frontOptions().map(([value,label])=>`<option value="${esc(value)}"${(content.frontLabelMode||'hidden')===value?' selected':''}>${esc(label)}</option>`).join('')}</select></label><label><small>Bagside:</small><select data-pfg-answer>${(content.answerColumns||[]).map(col=>`<option value="${esc(col)}"${col===content.answerKey?' selected':''}>${esc(col)}</option>`).join('')}</select></label></div></div>`;
       async function cardHtml(card,flipped=false,extra=''){const src=await mediaUrl(app,card,urls),front=frontText(card,content.frontLabelMode||'hidden'),ans=answerText(card,content.answerKey);return `<button type="button" class="tn-pfg-card ${flipped?'flipped':''} ${extra}" data-pfg-card="${esc(card.id)}" aria-label="Vend kort"><span class="tn-pfg-card-inner"><span class="tn-pfg-face tn-pfg-front ${front?'':'hide-label'}"><img src="${esc(src)}" alt="${esc(front||card.frontLabel||card.fileName||'Billede')}" draggable="false"><span>${esc(front)}</span></span><span class="tn-pfg-face tn-pfg-back"><b>${esc(ans)}</b><small>${esc(card.category||'')}</small></span></span></button>`;}
       async function render(){const my=++token;release();await syncColumns();const cards=orderedCards(content);root.innerHTML=toolbar(cards)+'<div class="tn-pfg-empty">Henter billeder …</div>';if(my!==token)return;let html='';if(content.view==='single'){const index=Math.max(0,Math.min(cards.length-1,Number(content.activeIndex)||0)),card=cards[index];html=card?`<div class="tn-pfg-body"><div class="tn-pfg-single"><div class="tn-pfg-single-simple">${await cardHtml(card,!!content.singleFlipped,'tn-pfg-single-flip-card')}<div class="tn-pfg-single-nav"><button type="button" data-pfg-action="prev">‹ Forrige</button><span class="tn-pfg-single-count">${index+1} / ${cards.length}</span><button type="button" data-pfg-action="next">Næste ›</button></div></div></div></div>`:'<div class="tn-pfg-empty">Ingen kort.</div>';}else{const parts=[];for(const card of cards){parts.push(await cardHtml(card,!!content.flipped?.[card.id]));if(my!==token)return;}html=`<div class="tn-pfg-body"><div class="tn-pfg-grid">${parts.join('')}</div></div>`;}root.innerHTML=toolbar(cards)+html;}
       root.addEventListener('change',async event=>{const a=event.target.closest('[data-pfg-answer]'),f=event.target.closest('[data-pfg-front]');if(a){content.answerKey=a.value;content.singleFlipped=false;await persist(true);await render();}if(f){content.frontLabelMode=f.value||'hidden';content.singleFlipped=false;await persist(true);await render();}});
-      root.addEventListener('click',async event=>{const actionEl=event.target.closest('[data-pfg-action]');if(actionEl){event.preventDefault();event.stopPropagation();const cards=orderedCards(content),action=actionEl.dataset.pfgAction;if(action==='view-matrix'){content.view='matrix';content.singleFlipped=false;}else if(action==='view-single'){content.view='single';content.singleFlipped=false;}else if(action==='shuffle'){content.order=(content.cards||[]).map(c=>c.id).sort(()=>Math.random()-.5);content.activeIndex=0;content.flipped={};content.singleFlipped=false;}else if(action==='prev'){content.activeIndex=(Number(content.activeIndex)||0)-1;if(content.activeIndex<0)content.activeIndex=Math.max(0,cards.length-1);content.singleFlipped=false;}else if(action==='next'){content.activeIndex=((Number(content.activeIndex)||0)+1)%Math.max(1,cards.length);content.singleFlipped=false;}else if(action==='data'){await openPictureFlipDataDialog(app,widget);return;}else if(action==='back-to-matrix'){await restoreImageMatrixV6(app,widget);return;}await persist(true);await render();return;}
+      root.addEventListener('click',async event=>{const actionEl=event.target.closest('[data-pfg-action]');if(actionEl){event.preventDefault();event.stopPropagation();const cards=orderedCards(content),action=actionEl.dataset.pfgAction;if(action==='toggle-view'){content.view=content.view==='single'?'matrix':'single';content.singleFlipped=false;}else if(action==='view-matrix'){content.view='matrix';content.singleFlipped=false;}else if(action==='view-single'){content.view='single';content.singleFlipped=false;}else if(action==='shuffle'){content.order=(content.cards||[]).map(c=>c.id).sort(()=>Math.random()-.5);content.activeIndex=0;content.flipped={};content.singleFlipped=false;}else if(action==='prev'){content.activeIndex=(Number(content.activeIndex)||0)-1;if(content.activeIndex<0)content.activeIndex=Math.max(0,cards.length-1);content.singleFlipped=false;}else if(action==='next'){content.activeIndex=((Number(content.activeIndex)||0)+1)%Math.max(1,cards.length);content.singleFlipped=false;}else if(action==='data'){await openPictureFlipDataDialog(app,widget);return;}else if(action==='back-to-matrix'){await restoreImageMatrixV6(app,widget);return;}await persist(true);await render();return;}
         const cardEl=event.target.closest('[data-pfg-card]');if(cardEl){event.preventDefault();event.stopPropagation();if(content.view==='single'){content.singleFlipped=!content.singleFlipped;}else{content.flipped=content.flipped||{};content.flipped[cardEl.dataset.pfgCard]=!content.flipped[cardEl.dataset.pfgCard];}await persist(false);cardEl.classList.toggle('flipped');}}
       );
       root.addEventListener('pointerdown',event=>{if(event.target.closest('button,select,input'))event.stopPropagation();},true);
@@ -38970,5 +38975,252 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 /* En ad gangen må fortsat være stor og læsbar. */
 .tn-pfg .tn-pfg-single-flip-card .tn-pfg-back b{font-size:clamp(22px,min(4.3vw,5vh),46px)!important;line-height:1.06!important;-webkit-line-clamp:5!important}
 </style>
+
+<!-- Plan Billedvendespil back layout + single image fix · v18 -->
+<style id="plan-picture-flip-v18-back-layout-style">
+/* Bagsiden skal ligne forsiden i rytmen: kategori øverst, svar/titel nederst. */
+.tn-pfg .tn-pfg-back{
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:space-between!important;
+  align-items:stretch!important;
+  gap:8px!important;
+  text-align:center!important;
+  padding:8px!important;
+  overflow:hidden!important;
+}
+.tn-pfg .tn-pfg-back small{
+  order:1!important;
+  display:block!important;
+  flex:0 0 auto!important;
+  width:100%!important;
+  min-height:14px!important;
+  color:#475569!important;
+  font-size:clamp(9px,1.2vw,12px)!important;
+  line-height:1.15!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+}
+.tn-pfg .tn-pfg-back b{
+  order:2!important;
+  flex:0 1 auto!important;
+  width:100%!important;
+  margin-top:auto!important;
+  align-self:end!important;
+}
+.tn-pfg .tn-pfg-grid .tn-pfg-back b{
+  margin-bottom:2px!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back{
+  padding:14px 18px!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back small{
+  display:block!important;
+  font-size:clamp(13px,1.7vw,18px)!important;
+  min-height:20px!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back b{
+  margin-bottom:10px!important;
+  max-height:45%!important;
+  -webkit-line-clamp:4!important;
+}
+/* En-ad-gangen skal altid give billedet plads på forsiden. */
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front{
+  grid-template-rows:minmax(0,1fr) auto!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front.hide-label{
+  grid-template-rows:minmax(0,1fr)!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front img{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  object-fit:contain!important;
+  background:#e2e8f0!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front:not(.hide-label) img{
+  height:calc(100% - 38px)!important;
+}
+</style>
+<script id="plan-picture-flip-v18-single-image-script">
+(function(TN){
+  'use strict';
+  if(!TN || TN.__PLAN_PICTURE_FLIP_V18__) return;
+  TN.__PLAN_PICTURE_FLIP_V18__=true;
+  const objectUrls=new WeakMap();
+  const appNow=()=>TN.runtime?.app || window.tavleNextApp || null;
+  const widgetsNow=()=>TN.runtime?.activeWidgets || [];
+  const cardMap=()=>{
+    const map=new Map();
+    for(const widget of widgetsNow()){
+      if(widget?.type!=='picture-flip-game') continue;
+      for(const card of (widget.content?.cards||[])){
+        if(card?.id) map.set(String(card.id),card);
+      }
+    }
+    return map;
+  };
+  async function ensureImage(img,card){
+    if(!img || !card || img.dataset.pfgV18Loading) return;
+    const current=img.getAttribute('src')||'';
+    if(current && current!=='undefined' && current!=='null') return;
+    img.dataset.pfgV18Loading='1';
+    try{
+      let src=card.src||'';
+      if(!src && card.mediaId){
+        const app=appNow();
+        const media=await app?.mediaManager?.get?.(card.mediaId);
+        if(media?.blob){
+          src=URL.createObjectURL(media.blob);
+          const old=objectUrls.get(img); if(old) try{URL.revokeObjectURL(old);}catch(_){ }
+          objectUrls.set(img,src);
+        }
+      }
+      if(src) img.src=src;
+    }catch(error){
+      console.warn('Kunne ikke gendanne billede i vendespil',error);
+    }finally{
+      delete img.dataset.pfgV18Loading;
+    }
+  }
+  function scan(){
+    const cards=cardMap();
+    document.querySelectorAll('.tn-pfg-card[data-pfg-card] img').forEach(img=>{
+      const el=img.closest('.tn-pfg-card[data-pfg-card]');
+      const card=cards.get(String(el?.dataset?.pfgCard||''));
+      if(!card) return;
+      const src=img.getAttribute('src')||'';
+      if(!src || src==='undefined' || src==='null') void ensureImage(img,card);
+      img.onerror=()=>{ img.removeAttribute('src'); void ensureImage(img,card); };
+    });
+  }
+  const mo=new MutationObserver(()=>requestAnimationFrame(scan));
+  const start=()=>{try{mo.observe(document.body,{childList:true,subtree:true});scan();}catch(_){}};
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start,{once:true}); else start();
+})(window.TavleNext);
+</script>
+
+
+
+<!-- Plan Billedvendespil single image + bagside placement final fix · v19 -->
+<style id="plan-picture-flip-v19-single-image-style">
+/* Bagside: kategori/gruppe øverst, valgt svar nederst. Forside og bagside skal have samme rolige kort-rytme. */
+.tn-pfg .tn-pfg-back{
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:space-between!important;
+  align-items:stretch!important;
+  text-align:center!important;
+  padding:8px!important;
+  gap:6px!important;
+  overflow:hidden!important;
+}
+.tn-pfg .tn-pfg-back small{
+  order:1!important;
+  display:block!important;
+  min-height:1.2em!important;
+  width:100%!important;
+  color:#475569!important;
+  font-weight:800!important;
+  font-size:clamp(9px,1.15vw,12px)!important;
+  line-height:1.15!important;
+  white-space:nowrap!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+}
+.tn-pfg .tn-pfg-back b{
+  order:2!important;
+  display:-webkit-box!important;
+  -webkit-box-orient:vertical!important;
+  -webkit-line-clamp:3!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  align-self:stretch!important;
+  margin-top:auto!important;
+  margin-bottom:2px!important;
+  line-height:1.08!important;
+}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back{padding:14px 18px!important;}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back small{font-size:clamp(13px,1.65vw,18px)!important;min-height:1.4em!important;}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back b{font-size:clamp(24px,min(4.2vw,5vh),44px)!important;-webkit-line-clamp:4!important;margin-bottom:10px!important;}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front{grid-template-rows:minmax(0,1fr) auto!important;}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front.hide-label{grid-template-rows:minmax(0,1fr)!important;}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front img{display:block!important;width:100%!important;height:100%!important;min-height:0!important;object-fit:contain!important;background:#e2e8f0!important;}
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-front:not(.hide-label) img{height:calc(100% - 38px)!important;}
+</style>
+<script id="plan-picture-flip-v19-single-image-script">
+(function(TN){
+  'use strict';
+  if(!TN || TN.__PLAN_PICTURE_FLIP_V19__) return;
+  TN.__PLAN_PICTURE_FLIP_V19__=true;
+  const objectUrls=new WeakMap();
+  const appNow=()=>TN.runtime?.app || window.tavleNextApp || null;
+  const widgetsNow=()=>TN.runtime?.activeWidgets || [];
+  function mediaBlob(media){
+    if(media?.blob instanceof Blob && media.blob.size) return media.blob;
+    if(media?.originalBlob instanceof Blob && media.originalBlob.size) return media.originalBlob;
+    return null;
+  }
+  function cardById(){
+    const map=new Map();
+    for(const widget of widgetsNow()){
+      if(widget?.type!=='picture-flip-game') continue;
+      for(const card of (widget.content?.cards||[])) if(card?.id) map.set(String(card.id),card);
+    }
+    return map;
+  }
+  async function ensureImage(img,card,force){
+    if(!img || !card || img.dataset.pfgV19Loading) return;
+    const current=img.getAttribute('src')||'';
+    const broken=img.complete && !img.naturalWidth;
+    if(!force && current && current!=='undefined' && current!=='null' && !broken) return;
+    img.dataset.pfgV19Loading='1';
+    try{
+      let src='';
+      if(card.mediaId){
+        const app=appNow();
+        const media=await app?.mediaManager?.get?.(card.mediaId);
+        const blob=mediaBlob(media);
+        if(blob){
+          src=URL.createObjectURL(blob);
+          const old=objectUrls.get(img); if(old) try{URL.revokeObjectURL(old);}catch(_){ }
+          objectUrls.set(img,src);
+        }else if(typeof media?.dataUrl==='string' && media.dataUrl.startsWith('data:')){
+          src=media.dataUrl;
+        }
+      }
+      if(!src) src=card.src||'';
+      if(src && img.getAttribute('src')!==src) img.src=src;
+    }catch(error){
+      console.warn('Kunne ikke gendanne billede i vendespil',error);
+    }finally{
+      delete img.dataset.pfgV19Loading;
+    }
+  }
+  function scan(){
+    const cards=cardById();
+    document.querySelectorAll('.tn-pfg-card[data-pfg-card] img').forEach(img=>{
+      const cardEl=img.closest('.tn-pfg-card[data-pfg-card]');
+      const card=cards.get(String(cardEl?.dataset?.pfgCard||''));
+      if(!card) return;
+      const broken=img.complete && !img.naturalWidth;
+      const current=img.getAttribute('src')||'';
+      if(!current || current==='undefined' || current==='null' || broken) void ensureImage(img,card,broken);
+      img.onerror=()=>{void ensureImage(img,card,true);};
+    });
+  }
+  const start=()=>{
+    try{
+      new MutationObserver(()=>requestAnimationFrame(scan)).observe(document.body,{childList:true,subtree:true,attributes:true,attributeFilter:['src']});
+      scan();
+      window.addEventListener('focus',scan,true);
+      document.addEventListener('visibilitychange',scan,true);
+    }catch(_){ }
+  };
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',start,{once:true}); else start();
+})(window.TavleNext);
+</script>
 </body>
 </html>
