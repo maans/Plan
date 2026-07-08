@@ -38242,6 +38242,16 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 /* Enkel en-ad-gangen-visning: selve kortet er knappen. Teksten bliver inde i kortet. */
 .tn-pfg-single{height:100%;min-height:0;display:grid;place-items:center}.tn-pfg-single-simple{height:100%;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:12px;justify-items:center;align-items:center;width:min(760px,96%);padding:8px}.tn-pfg-single-flip-card{width:min(560px,92vw);height:min(560px,100%);min-height:240px;max-height:100%;align-self:stretch}.tn-pfg-single-flip-card .tn-pfg-face{grid-template-rows:minmax(0,1fr) auto}.tn-pfg-single-flip-card .tn-pfg-front img{min-height:0}.tn-pfg-single-flip-card .tn-pfg-back{grid-template-rows:1fr;align-content:center;justify-items:center;padding:22px;overflow:hidden}.tn-pfg-single-flip-card .tn-pfg-back b{display:block;max-width:100%;font-size:clamp(28px,7vw,62px);line-height:1.05;overflow-wrap:anywhere;hyphens:auto}.tn-pfg-single-flip-card .tn-pfg-back small{display:none}.tn-pfg-single-nav{display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap}.tn-pfg-single-nav button{border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;color:#172554;font-weight:900;padding:9px 13px}.tn-pfg-single-count{font-weight:900;color:#475569;padding:0 6px}.tn-pfg-single-status{display:none!important}
 @media(max-width:760px){.tn-pfg-single-card{grid-template-columns:1fr}.tn-pfg-grid{grid-template-columns:repeat(auto-fit,minmax(125px,1fr))}.tn-pfg-card{min-height:158px}.tn-pfg-single-simple{width:100%}.tn-pfg-single-flip-card{width:min(480px,94vw)}}
+
+/* Billedvendespil skal være rent: ingen point/status i matrix eller enkeltvisning. */
+.tn-pfg-stats,.tn-pfg-status,.tn-pfg-statusbar,.tn-pfg-single-status{display:none!important}
+#tavleNextApp[data-mode=presentation] .tn-pfg-head,
+#tavleNextApp .tn-widget.tn-transient-maximized .tn-pfg-head,
+#tavleNextApp .tn-widget.maximized .tn-pfg-head{display:none!important}
+#tavleNextApp[data-mode=presentation] .tn-pfg,
+#tavleNextApp .tn-widget.tn-transient-maximized .tn-pfg,
+#tavleNextApp .tn-widget.maximized .tn-pfg{grid-template-rows:1fr}
+
 </style>
 <script id="plan-picture-flip-script">
 (function(TN){
@@ -38316,6 +38326,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
       pictureFlip:{
         imageColumn:demo.imageColumn || 'Billedfil',
         frontLabelColumn:demo.frontLabelColumn || '',
+        defaultFrontLabelMode:demo.defaultFrontLabelMode || 'hidden',
         defaultAnswerColumn:demo.defaultAnswerColumn || demo.answerColumns?.[0] || 'Bagside',
         answerColumns:demo.answerColumns || ['Bagside'],
         noteColumn:demo.noteColumn || '',
@@ -38356,7 +38367,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     const items = objects.map((row,index)=>{
       const fileName = baseName(row[demo.imageColumn] || row.Billedsti || row.Billedfil || '');
       const found = imported.byFile.get(fileName.toLocaleLowerCase('da')) || imported.results[index]?.media;
-      const front = clean(row[demo.frontLabelColumn] || stemTitle(fileName) || `Billede ${index+1}`);
+      const rawFront = demo.frontLabelColumn ? clean(row[demo.frontLabelColumn]) : ''; const front = rawFront || `Billede ${index+1}`;
       return {mediaId:found?.id || null,name:front,alt:front,fileName,rowIndex:index,sourceDatasetId:dataset.id};
     });
     return {
@@ -38369,6 +38380,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         demoId:demo.id || '',
         imageColumn:demo.imageColumn || 'Billedfil',
         frontLabelColumn:demo.frontLabelColumn || '',
+        defaultFrontLabelMode:demo.defaultFrontLabelMode || 'hidden',
         answerColumns:demo.answerColumns || ['Bagside'],
         defaultAnswerColumn:demo.defaultAnswerColumn || demo.answerColumns?.[0] || 'Bagside',
         noteColumn:demo.noteColumn || '',
@@ -38399,10 +38411,11 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     if(!accepted.length) throw new Error('Vælg en bunke billeder');
     app.toast?.(`Importerer ${accepted.length} billeder …`);
     const results = await app.mediaManager.importFiles(accepted,{optimize:true,maxDimension:900,quality:.84,keepOriginal:false});
-    const columns = ['KortID','Billedfil','Bagside','Kategori','Hint'];
+    const columns = ['KortID','Billedfil','Forside','Bagside','Kategori','Hint'];
     const objects = accepted.map((file,index)=>({
       KortID:`K${String(index+1).padStart(3,'0')}`,
       Billedfil:file.name,
+      Forside:'',
       Bagside:stemTitle(file.name) || `Billede ${index+1}`,
       Kategori:'',
       Hint:'Bagsiden er oprettet fra billedets filnavn. Ret den i datasættet, hvis den skal være noget andet.'
@@ -38423,9 +38436,11 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     const binding = widget.content?.pictureFlipBinding || dataset.meta?.pictureFlip || {};
     const columns = dataset.columns || [];
     const rows = (dataset.rows||[]).map(row => rowObject(dataset,row));
-    const answerColumns = (binding.answerColumns||[]).filter(col => columns.includes(col));
+    const technicalColumn = col => /^(KortID|ElevID|ID|Billedfil|Billedsti|Filnavn|File|Image|mediaId)$/i.test(col) || /billed|image|foto|fil|sti|path|media/i.test(col);
+    const usableColumns = columns.filter(col => !technicalColumn(col) && rows.some(row => clean(row[col])));
+    const answerColumns = (binding.answerColumns||[]).filter(col => usableColumns.includes(col));
     if(!answerColumns.length){
-      const fallback = columns.filter(col => !/billed|image|foto|fil|sti|path/i.test(col));
+      const fallback = usableColumns;
       answerColumns.push(...fallback.slice(0,4));
     }
     const imageCol = binding.imageColumn || columns.find(c=>/billedfil|filnavn|image|foto/i.test(c)) || 'Billedfil';
@@ -38483,7 +38498,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
       order:cards.map(card=>card.id),
       activeIndex:0,
       singleFlipped:false,
-      frontLabelMode:'hidden',
+      frontLabelMode:binding.defaultFrontLabelMode || dataset.meta?.pictureFlip?.defaultFrontLabelMode || 'hidden',
       createdAt:now()
     };
     await app.widgetManager.update(widget,{immediate:true});
@@ -38556,12 +38571,9 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
           <button type="button" data-pfg-action="view-matrix" class="${content.view!=='single'?'active':''}">Tavlematrix</button>
           <button type="button" data-pfg-action="view-single" class="${content.view==='single'?'active':''}">En ad gangen</button>
           <button type="button" data-pfg-action="shuffle">Bland</button>
-          <button type="button" data-pfg-action="toggle-known" class="${content.onlyUnknown?'active':''}">${content.onlyUnknown?'Vis alle':'Skjul kendte'}</button>
           <button type="button" data-pfg-action="edit">Ret bagsider</button>
           <button type="button" data-pfg-action="data">Åbn datasæt</button>
-        </div>
-        <div class="tn-pfg-stats">
-          <span class="tn-pfg-pill">Ny: ${stat.new||0}</span><span class="tn-pfg-pill">Kan ikke endnu: ${stat.hard||0}</span><span class="tn-pfg-pill">Næsten: ${stat.almost||0}</span><span class="tn-pfg-pill">Kan: ${stat.known||0}</span>
+          <button type="button" data-pfg-action="back-to-matrix">Vis billedmatrix</button>
         </div>
       </div>`;
       async function matrixHtml(list){
@@ -38571,7 +38583,6 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
           const st = content.progress?.[card.id] || 'new', flipped = !!content.flipped?.[card.id], src = await mediaUrl(app,card,urls), frontText = frontTextOf(card);
           if(token !== renderToken) return '';
           parts.push(`<button type="button" class="tn-pfg-card ${flipped?'flipped':''}" data-pfg-card="${esc(card.id)}" aria-label="Vend kort">
-            <span class="tn-pfg-status ${statusClass(st)}">${esc(statusIcons[st]||'?')}</span>
             <span class="tn-pfg-card-inner">
               <span class="tn-pfg-face tn-pfg-front ${frontText?'':'hide-label'}"><img src="${esc(src)}" alt="${esc(card.frontLabel||'Billede')}" draggable="false"><span>${esc(frontText)}</span></span>
               <span class="tn-pfg-face tn-pfg-back"><b>${esc(answerOf(card))}</b><small>${esc(card.category||content.answerKey||'')}</small><small>${esc(card.note||'')}</small></span>
@@ -38587,7 +38598,6 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         const src = await mediaUrl(app,card,urls), nameVisible = !!content.singleFlipped, st = content.progress?.[card.id] || 'new', frontText = frontTextOf(card);
         return `<div class="tn-pfg-body"><div class="tn-pfg-single"><div class="tn-pfg-single-simple">
           <button type="button" class="tn-pfg-card tn-pfg-single-flip-card ${nameVisible?'flipped':''}" data-pfg-action="single-flip" aria-label="Vend kort">
-            <span class="tn-pfg-status ${statusClass(st)}">${esc(statusIcons[st]||'?')}</span>
             <span class="tn-pfg-card-inner">
               <span class="tn-pfg-face tn-pfg-front ${frontText?'':'hide-label'}"><img src="${esc(src)}" alt="${esc(card.frontLabel||'Billede')}" draggable="false"><span>${esc(frontText)}</span></span>
               <span class="tn-pfg-face tn-pfg-back"><b>${esc(answerOf(card))}</b><small>${esc(card.category||content.answerKey||'')}</small><small>${esc(card.note||'')}</small></span>
@@ -38627,6 +38637,39 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
           }}
         ]});
       }
+
+      async function restoreImageMatrix(){
+        const items = (content.cards||[]).map((card,index)=>({
+          mediaId:card.mediaId||null,
+          src:card.src||'',
+          name:card.frontLabel || `Billede ${index+1}`,
+          alt:card.frontLabel || 'Billede',
+          fileName:card.fileName||'',
+          rowIndex:card.rowIndex,
+          sourceDatasetId:content.sourceDatasetId||''
+        }));
+        widget.type = 'image-matrix';
+        widget.title = String(widget.title||'Billedmatrix').replace(/^Billedvendespil · /,'Billedmatrix · ').replace(/^Navnespil · /,'Billedmatrix · ');
+        widget.content = {
+          items,
+          page:0,
+          pageSize:12,
+          fit:'cover',
+          pictureFlipBinding:{
+            datasetId:content.sourceDatasetId||'',
+            answerColumns:content.answerColumns||[],
+            defaultAnswerColumn:content.answerKey||'Bagside',
+            frontLabelColumn:'Forside',
+            defaultFrontLabelMode:content.frontLabelMode||'hidden',
+            gameTitle:String(widget.title||'Billedvendespil')
+          }
+        };
+        await app.widgetManager.update(widget,{immediate:true});
+        await app.renderActiveBoard?.({preserveSelection:true});
+        app.selectWidget?.(widget.id);
+        app.toast?.('Viser som almindelig billedmatrix');
+      }
+
       root.addEventListener('change',async event=>{
         const answerSelect = event.target.closest('[data-pfg-answer]');
         if(answerSelect){content.answerKey = answerSelect.value; content.singleFlipped=false; await persist(true); await render(); return;}
@@ -38650,6 +38693,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         else if(action === 'random'){content.activeIndex=Math.floor(Math.random()*Math.max(1,list.length));content.singleFlipped=false;}
         else if(action === 'status'){setStatus(el.dataset.id,el.dataset.status||'new');}
         else if(action === 'data'){const ds=content.sourceDatasetId?await app.dataManager.get(content.sourceDatasetId):null; if(ds) await app.openDatasetAsWidget(ds,{closeMode:'view',viewRole:'picture-flip-source',sourceWidgetId:widget.id}); else app.toast?.('Datasættet findes ikke længere'); return;}
+        else if(action === 'back-to-matrix'){await restoreImageMatrix(); return;}
         else if(action === 'edit'){await openEditAnswers(); return;}
         await persist(true); await render();
       });
@@ -38716,7 +38760,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     if(!toolbar || toolbar.querySelector('[data-plan-picture-flip-button]')) return;
     const button = document.createElement('button');
     button.type='button'; button.className='tn-tool tn-pfg-toolbar-button'; button.dataset.planPictureFlipButton='1';
-    button.title='Opret billedvendespil'; button.innerHTML='<span>🃏</span><small>Billedspil</small>';
+    button.title='Opret billedvendespil'; button.innerHTML='<span>🃏</span><small>Vendespil</small>';
     button.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();const app=appNow(); if(app) openPicker(app);});
     const after = toolbar.querySelector('[data-action="data"]') || toolbar.querySelector('[data-action="image"]') || toolbar.querySelector('[data-action="add"]');
     if(after && after.parentElement === toolbar) after.insertAdjacentElement('afterend',button); else toolbar.prepend(button);
@@ -38726,10 +38770,10 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
   TN.registerDefaultWidgets = function(app){previousRegister?.(app); installPictureGame(app); setTimeout(()=>enhanceImageMatrix(app),0);};
 
   TN.PlanPictureFlip = {openPicker,createDemoWorkflow,createFromLocalImages,transformImageMatrix,installPictureGame};
-  const boot = () => {const app=appNow(); if(app){installPictureGame(app);enhanceImageMatrix(app);} attachToolbarButton();};
+  const boot = () => {const app=appNow(); if(app){installPictureGame(app);enhanceImageMatrix(app);}};
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded',boot,{once:true}); else boot();
   queueMicrotask(boot);
-  let tries=0; const timer=setInterval(()=>{boot(); if(++tries>80 || (appNow() && document.querySelector('[data-plan-picture-flip-button]'))) clearInterval(timer);},250);
+  let tries=0; const timer=setInterval(()=>{boot(); if(++tries>20 || appNow()) clearInterval(timer);},250);
 })(window.TavleNext);
 </script>
 

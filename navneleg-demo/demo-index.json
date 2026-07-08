@@ -1,7 +1,7 @@
 {
-  "schema": "plan-picture-flip-demo-index-v2",
+  "schema": "plan-picture-flip-demo-index-v3-clean-assets",
   "title": "Plan Billedvendespil demoer",
-  "description": "Demoer der viser rigtig arbejdsgang: hent datasæt til sessionen, opret billedmatrix, koble datasæt og forvandle matrixen til et billedvendespil/navnespil.",
+  "description": "Rene demoer uden tekst indbygget i billederne. Alt tekstligt vises fra datasættets forside-/bagsidekolonner.",
   "baseFolder": "navneleg-demo",
   "demos": [
     {
@@ -18,7 +18,8 @@
       "answerColumns": [
         "FuldeNavn",
         "Bagside",
-        "Klasse"
+        "Klasse",
+        "Forside"
       ],
       "noteColumn": "HumorNote",
       "categoryColumn": "Klasse",
@@ -41,7 +42,8 @@
         "Deutsch",
         "Français",
         "Español",
-        "Dansk"
+        "Dansk",
+        "Bagside"
       ],
       "noteColumn": "Hint",
       "categoryColumn": "Kategori",
@@ -90,14 +92,15 @@
         "Dansk",
         "Bagside",
         "Type",
-        "OrderFromSun"
+        "OrderFromSun",
+        "Forside"
       ],
       "noteColumn": "Hint",
       "categoryColumn": "Type",
       "matrixTitle": "Billedmatrix · planeter",
       "gameTitle": "Billedvendespil · planeter",
       "xlsxPath": "navneleg-demo/planets/planeter_demo.xlsx",
-      "defaultFrontLabelMode": "label"
+      "defaultFrontLabelMode": "hidden"
     }
   ]
 }
