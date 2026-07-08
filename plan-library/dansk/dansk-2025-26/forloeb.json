@@ -22,7 +22,7 @@
         "board_dansk-25-26-01-aarsplan_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -34,7 +34,7 @@
         "endDate": "2026-05-27",
         "source": "Dansk årsplan 25/26",
         "sourceKind": "user-plan",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     },
     {
@@ -68,7 +68,7 @@
         "board_dansk-25-26-02-familien_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -80,7 +80,7 @@
         "endDate": "2025-10-01",
         "source": "Dansk årsplan 25/26",
         "sourceKind": "user-plan",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     },
     {
@@ -114,7 +114,7 @@
         "board_dansk-25-26-03-ungdom-identitet_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -126,7 +126,7 @@
         "endDate": "2025-12-17",
         "source": "Dansk årsplan 25/26",
         "sourceKind": "user-plan",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     },
     {
@@ -154,7 +154,7 @@
         "board_dansk-25-26-04-romantik-gennembrud_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -166,7 +166,7 @@
         "endDate": "2026-02-10",
         "source": "Dansk årsplan 25/26",
         "sourceKind": "user-plan",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     },
     {
@@ -192,7 +192,7 @@
         "board_dansk-25-26-05-frihed-flugt_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -204,7 +204,7 @@
         "endDate": "2026-03-18",
         "source": "Dansk årsplan 25/26",
         "sourceKind": "user-plan",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     },
     {
@@ -237,7 +237,7 @@
         "board_dansk-25-26-06-reklamer-proeve_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -249,7 +249,7 @@
         "endDate": "2026-05-27",
         "source": "Dansk årsplan 25/26",
         "sourceKind": "user-plan",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     }
   ],
@@ -6871,7 +6871,7 @@
             "options": [
               "Fordi personstemmer udvælges, klippes og placeres, så de støtter filmens fremstilling",
               "Fordi interviews fungerer som neutrale kilder, mens billederne skaber fortolkningen",
-              "Fordi interviews altid viser sandheden uden filmiske valg",
+              "Fordi interviews kan virke autentiske, selv om de er udvalgt og klippet",
               "Fordi interviewet primært skal vurderes ud fra, om personen virker sympatisk"
             ],
             "correctIndex": 0,
@@ -18293,7 +18293,7 @@
             "options": [
               "Fordi virkemidlernes betydning afhænger af, hvem reklamen forsøger at ramme",
               "Fordi målgruppen afgør, om produktet faktisk er relevant og nødvendigt",
-              "Fordi målgruppen altid reagerer ens på de samme virkemidler",
+              "Fordi målgruppen kan antages at reagere ens, hvis reklamen er tydelig",
               "Fordi modtagerens reaktion kan bruges som facit for reklamens budskab"
             ],
             "correctIndex": 0,
@@ -25767,7 +25767,7 @@
     "packageHash": "b6f50c0851c2e8b3ea99b5dbdb00abfe82da573ae2cd407f42cc0a6863bcbe5a",
     "materialsMode": "external-manual-placeholders",
     "quality": {
-      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "kapardyDidacticUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
     }
   },
   "warnings": [
@@ -25791,8 +25791,8 @@
     "exportedAt": "2026-07-07T01:30:00.000Z",
     "sourceAppVersion": "0.9.3r",
     "quality": {
-      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft",
-      "updatedAt": "2026-07-08T21:30:00Z"
+      "kapardyUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft",
+      "updatedAt": "2026-07-08T23:45:00Z"
     }
   },
   "updatedAt": "2026-07-07T12:50:00.000Z",

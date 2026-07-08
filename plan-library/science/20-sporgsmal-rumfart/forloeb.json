@@ -19,8 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T21:30:00Z",
-      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "updatedAt": "2026-07-08T23:45:00Z",
+      "kapardyUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -43,7 +43,7 @@
         "board_professor_20-sporgsmal-rumfart_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T21:30:00Z",
+      "updatedAt": "2026-07-08T23:45:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-rumfart_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Rumfart",
@@ -70,7 +70,7 @@
           "KaPardy"
         ],
         "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering",
-        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+        "kapardyQualityUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
       }
     }
   ],
@@ -1712,7 +1712,7 @@
                 "modtager og videresender radiosignaler",
                 "producerer raketbrændstof",
                 "måler kun jordskælv under havet",
-                "lander automatisk på Månen"
+                "sender signalet direkte til alle modtagere uden omløb"
               ],
               "correctIndex": 0,
               "answer": "modtager og videresender radiosignaler"
@@ -1753,7 +1753,7 @@
               "options": [
                 "satellitten passerer nær begge poler",
                 "satellitten står stille over ækvator",
-                "satellitten kredser om Månen",
+                "satellitten følger ækvator og ser samme breddegrader hele tiden",
                 "satellitten forlader Solsystemet"
               ],
               "correctIndex": 0,
@@ -2413,7 +2413,7 @@
               "modtager og videresender radiosignaler",
               "producerer raketbrændstof",
               "måler kun jordskælv under havet",
-              "lander automatisk på Månen"
+              "sender signalet direkte til alle modtagere uden omløb"
             ],
             "correctIndex": 0,
             "answer": "modtager og videresender radiosignaler"
@@ -2454,7 +2454,7 @@
             "options": [
               "satellitten passerer nær begge poler",
               "satellitten står stille over ækvator",
-              "satellitten kredser om Månen",
+              "satellitten følger ækvator og ser samme breddegrader hele tiden",
               "satellitten forlader Solsystemet"
             ],
             "correctIndex": 0,
@@ -2527,7 +2527,7 @@
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
       "updatedAt": "2026-07-08T20:35:30Z",
-      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "kapardyDidacticUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
     }
   },
   "warnings": []
