@@ -18,8 +18,10 @@
     "exportedAt": "2026-07-06T23:55:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder som standard; mål- eller engelsksprogede kilder kun som præcise supplementer, når danske kilder er svage.",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
     }
   },
   "sessions": [
@@ -42,7 +44,7 @@
         "board_professor_20-sporgsmal-musik-komponister_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T22:15:00+02:00",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-musik-komponister_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Musikkens komponister",
@@ -68,7 +70,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase4-faktatjek-danske-elevkilder",
+        "teacherNote": "Kilderne er kvalitetsløftet og faktatjekket med hovedvægt på danske, elevtilgængelige kilder til 9.–10. klasse."
       }
     }
   ],
@@ -519,63 +522,135 @@
         "version": 1,
         "resources": [
           {
-            "title": "Lex · musikhistorie",
-            "url": "https://lex.dk/musikhistorie",
+            "title": "Lex · Johann Pachelbel",
+            "url": "https://lex.dk/Johann_Pachelbel",
             "type": "dansk/leksikon",
-            "category": "Perioder og komponister",
-            "note": "Brug til perioder som barok, klassik, romantik og 1900-tallet i en dansk faglig ramme.",
+            "category": "Barokmusik",
+            "note": "Præcis dansk kilde til Pachelbel og Kanon og Gigue i D-dur.",
             "tags": [
-              "musikhistorie",
-              "perioder",
-              "komponister"
+              "Pachelbel",
+              "Kanon",
+              "barok"
             ]
           },
           {
-            "title": "DR Musik · klassisk musik",
-            "url": "https://www.dr.dk/lyd/p2",
-            "type": "dansk/lytteindgang",
-            "category": "Lytning",
-            "note": "Brug til lærerens udvalgte lytteeksempler og samtaler om klassiske værker.",
+            "title": "Lex · Georg Friedrich Händel",
+            "url": "https://lex.dk/Georg_Friedrich_H%C3%A4ndel",
+            "type": "dansk/leksikon",
+            "category": "Barokmusik",
+            "note": "Dansk kilde til Händel, bl.a. Water Music og hans placering i barokmusikken.",
             "tags": [
-              "DR",
-              "klassisk",
-              "lytning"
+              "Händel",
+              "Water Music",
+              "barok"
             ]
           },
           {
-            "title": "IMSLP · Petrucci Music Library",
-            "url": "https://imslp.org/",
-            "type": "international/nodearkiv",
-            "category": "Værker og noder",
-            "note": "Brug til værkidentifikation, partiturer og komponistopslag for klassiske værker.",
+            "title": "Lex · Henry Purcell",
+            "url": "https://lex.dk/Henry_Purcell",
+            "type": "dansk/leksikon",
+            "category": "Barokmusik",
+            "note": "Dansk kilde til Purcell og scenemusik som The Fairy Queen.",
             "tags": [
-              "IMSLP",
-              "værker",
-              "noder"
+              "Purcell",
+              "The Fairy Queen",
+              "barok"
             ]
           },
           {
-            "title": "Naxos · Composers",
-            "url": "https://www.naxos.com/persons/composers",
-            "type": "international/musikleksikon",
-            "category": "Komponistprofiler",
-            "note": "Brug til korte profiler over Pachelbel, Händel, Vivaldi, Beethoven, Mozart, Bizet, Verdi og andre.",
+            "title": "Lex · Måneskinssonaten",
+            "url": "https://lex.dk/M%C3%A5neskinssonaten",
+            "type": "dansk/leksikon",
+            "category": "Klassisk musik",
+            "note": "Præcis dansk kilde til Beethoven og Måneskinssonaten.",
             "tags": [
-              "Naxos",
-              "komponister",
-              "profiler"
+              "Beethoven",
+              "Måneskinssonaten",
+              "klaver"
             ]
           },
           {
-            "title": "BBC Music Magazine · Composer guides",
-            "url": "https://www.classical-music.com/composers",
-            "type": "international/fagformidling",
-            "category": "Supplerende forklaring",
-            "note": "Brug som sekundær kilde til værker og komponister, når dansk kilde ikke er præcis nok.",
+            "title": "Lex · Kejserkvartetten",
+            "url": "https://lex.dk/Kejserkvartetten",
+            "type": "dansk/leksikon",
+            "category": "Klassisk musik",
+            "note": "Præcis dansk kilde til Haydn og Kejserkvartetten.",
             "tags": [
-              "BBC",
-              "klassisk",
-              "værker"
+              "Haydn",
+              "Kejserkvartetten",
+              "klassisk"
+            ]
+          },
+          {
+            "title": "Lex · Carmen",
+            "url": "https://lex.dk/Carmen",
+            "type": "dansk/leksikon",
+            "category": "Opera",
+            "note": "Præcis dansk kilde til Bizets opera Carmen.",
+            "tags": [
+              "Bizet",
+              "Carmen",
+              "opera"
+            ]
+          },
+          {
+            "title": "Lex · Aida",
+            "url": "https://lex.dk/Aida",
+            "type": "dansk/leksikon",
+            "category": "Opera",
+            "note": "Præcis dansk kilde til Verdis opera Aida.",
+            "tags": [
+              "Verdi",
+              "Aida",
+              "opera"
+            ]
+          },
+          {
+            "title": "Lex · La Bohème",
+            "url": "https://lex.dk/La_Boh%C3%A8me",
+            "type": "dansk/leksikon",
+            "category": "Opera",
+            "note": "Præcis dansk kilde til Puccinis opera La Bohème.",
+            "tags": [
+              "Puccini",
+              "La Bohème",
+              "opera"
+            ]
+          },
+          {
+            "title": "Lex · Rhapsody in Blue",
+            "url": "https://lex.dk/Rhapsody_in_Blue",
+            "type": "dansk/leksikon",
+            "category": "Amerikansk musik",
+            "note": "Dansk kilde til Gershwins Rhapsody in Blue.",
+            "tags": [
+              "Gershwin",
+              "Rhapsody in Blue",
+              "jazz"
+            ]
+          },
+          {
+            "title": "Lex · Benjamin Britten",
+            "url": "https://lex.dk/Benjamin_Britten",
+            "type": "dansk/leksikon",
+            "category": "1900-talsmusik",
+            "note": "Dansk kilde til Britten og hans værker, bl.a. War Requiem-kontekst.",
+            "tags": [
+              "Britten",
+              "War Requiem",
+              "1900-tallet"
+            ]
+          },
+          {
+            "title": "Lex · Aaron Copland",
+            "url": "https://lex.dk/Aaron_Copland",
+            "type": "dansk/leksikon",
+            "category": "Amerikansk musik",
+            "note": "Dansk kilde til Copland og Appalachian Spring.",
+            "tags": [
+              "Copland",
+              "Appalachian Spring",
+              "amerikansk musik"
             ]
           }
         ],
@@ -611,9 +686,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://lex.dk/musikhistorie",
-        "label": "Lex · musikhistorie",
-        "note": "Brug til perioder som barok, klassik, romantik og 1900-tallet i en dansk faglig ramme.",
+        "url": "https://lex.dk/Johann_Pachelbel",
+        "label": "Lex · Johann Pachelbel",
+        "note": "Præcis dansk kilde til Pachelbel og Kanon og Gigue i D-dur.",
         "view": "link"
       },
       "settings": {
@@ -646,9 +721,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.dr.dk/lyd/p2",
-        "label": "DR Musik · klassisk musik",
-        "note": "Brug til lærerens udvalgte lytteeksempler og samtaler om klassiske værker.",
+        "url": "https://lex.dk/Georg_Friedrich_H%C3%A4ndel",
+        "label": "Lex · Georg Friedrich Händel",
+        "note": "Dansk kilde til Händel, bl.a. Water Music og hans placering i barokmusikken.",
         "view": "link"
       },
       "settings": {
@@ -681,9 +756,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://imslp.org/",
-        "label": "IMSLP · Petrucci Music Library",
-        "note": "Brug til værkidentifikation, partiturer og komponistopslag for klassiske værker.",
+        "url": "https://lex.dk/Henry_Purcell",
+        "label": "Lex · Henry Purcell",
+        "note": "Dansk kilde til Purcell og scenemusik som The Fairy Queen.",
         "view": "link"
       },
       "settings": {
@@ -716,9 +791,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.naxos.com/persons/composers",
-        "label": "Naxos · Composers",
-        "note": "Brug til korte profiler over Pachelbel, Händel, Vivaldi, Beethoven, Mozart, Bizet, Verdi og andre.",
+        "url": "https://lex.dk/M%C3%A5neskinssonaten",
+        "label": "Lex · Måneskinssonaten",
+        "note": "Præcis dansk kilde til Beethoven og Måneskinssonaten.",
         "view": "link"
       },
       "settings": {
@@ -751,9 +826,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.classical-music.com/composers",
-        "label": "BBC Music Magazine · Composer guides",
-        "note": "Brug som sekundær kilde til værker og komponister, når dansk kilde ikke er præcis nok.",
+        "url": "https://lex.dk/Kejserkvartetten",
+        "label": "Lex · Kejserkvartetten",
+        "note": "Præcis dansk kilde til Haydn og Kejserkvartetten.",
         "view": "link"
       },
       "settings": {
@@ -2523,8 +2598,11 @@
     "contentHash": "4d2c0a03662a6c1cac9bc7fd119a5450fb76d0c9fc1601b2d0ef9ffb380f9caa",
     "packageHash": "d279750e0406a5e9eb1a4dd9a46326fc264a2bf43f6e1cd21b9a068265cd13f9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+      "resourcesChanged": true,
+      "kapardyCorrectionsPhase4": []
     }
   },
   "warnings": []

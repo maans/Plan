@@ -18,8 +18,10 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:35:30Z",
+      "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder som standard; mål- eller engelsksprogede kilder kun som præcise supplementer, når danske kilder er svage.",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
     }
   },
   "sessions": [
@@ -42,7 +44,7 @@
         "board_professor_20-sporgsmal-musikgenrer_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:35:30Z",
+      "updatedAt": "2026-07-08T22:15:00+02:00",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-musikgenrer_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Musikgenrer",
@@ -67,7 +69,8 @@
           "Timer",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
+        "sourceQualityUpgrade": "fase4-faktatjek-danske-elevkilder",
+        "teacherNote": "Kilderne er kvalitetsløftet og faktatjekket med hovedvægt på danske, elevtilgængelige kilder til 9.–10. klasse."
       }
     }
   ],
@@ -518,63 +521,99 @@
         "version": 1,
         "resources": [
           {
-            "title": "Musikipedia · Techno",
-            "url": "https://www.musikipedia.dk/techno/aktiviteter",
-            "type": "dansk/undervisning",
+            "title": "Lex · hiphop",
+            "url": "https://lex.dk/hiphop",
+            "type": "dansk/leksikon",
+            "category": "Hiphopkultur",
+            "note": "Dansk fagkilde til hiphopkulturens elementer, South Bronx og pionerer.",
+            "tags": [
+              "hiphop",
+              "South Bronx",
+              "DJ"
+            ]
+          },
+          {
+            "title": "Lex · rap",
+            "url": "https://lex.dk/rap",
+            "type": "dansk/leksikon",
+            "category": "Rap og MC",
+            "note": "Dansk kilde til rap, block parties, DJ Kool Herc og Grandmaster Flash.",
+            "tags": [
+              "rap",
+              "block parties",
+              "MC"
+            ]
+          },
+          {
+            "title": "Lex · reggae",
+            "url": "https://lex.dk/reggae",
+            "type": "dansk/leksikon",
+            "category": "Jamaicansk musik",
+            "note": "Dansk fagkilde til reggae, ska, rocksteady, dub, Bob Marley og Lee “Scratch” Perry.",
+            "tags": [
+              "reggae",
+              "dub",
+              "Bob Marley"
+            ]
+          },
+          {
+            "title": "Lex · techno",
+            "url": "https://lex.dk/techno",
+            "type": "dansk/leksikon",
             "category": "Elektronisk musik",
-            "note": "Dansk undervisningsindgang til techno med aktiviteter, så eleverne kan arbejde med genren uden at starte på engelske leksikonsider.",
+            "note": "Dansk kilde til techno, synthesizere, trommemaskiner og elektroniske dansegenrer.",
             "tags": [
               "techno",
-              "Musikipedia",
-              "undervisning"
+              "synthesizer",
+              "trommemaskine"
+            ]
+          },
+          {
+            "title": "Lex · Storbritannien (populærmusik)",
+            "url": "https://lex.dk/Storbritannien_%28popul%C3%A6rmusik%29",
+            "type": "dansk/leksikon",
+            "category": "Rock og britiske genrer",
+            "note": "Dansk kilde til britisk populærmusik, progressiv rock, heavy metal og senere elektroniske genrer.",
+            "tags": [
+              "Storbritannien",
+              "heavy metal",
+              "progressiv rock"
+            ]
+          },
+          {
+            "title": "Lex · tango",
+            "url": "https://lex.dk/tango",
+            "type": "dansk/leksikon",
+            "category": "Tango",
+            "note": "Dansk kilde til tangoens oprindelse, instrumenter og bandoneonens rolle.",
+            "tags": [
+              "tango",
+              "Buenos Aires",
+              "bandoneon"
+            ]
+          },
+          {
+            "title": "Lex · bandoneón",
+            "url": "https://lex.dk/bandone%C3%B3n",
+            "type": "dansk/leksikon",
+            "category": "Instrumenter",
+            "note": "Kort dansk kilde til bandoneón som instrument i argentinsk tangomusik.",
+            "tags": [
+              "bandoneón",
+              "instrument",
+              "tango"
             ]
           },
           {
             "title": "Berklee · Electronic music genres",
             "url": "https://www.berklee.edu/berklee-now/news/electronic-music-genres-a-guide-to-the-most-influential-styles",
             "type": "fagformidling/international",
-            "category": "Elektroniske genrer",
-            "note": "Fagligt stærk, men engelsk kilde til house, techno, drum and bass og elektroniske subgenrer. Brug lærerstøttet.",
+            "category": "House og elektroniske subgenrer",
+            "note": "Beholdes kun som præcis støtte til house, Chicago house og drum and bass, hvor danske elevkilder er svagere.",
             "tags": [
               "house",
-              "techno",
+              "Chicago",
               "drum-and-bass"
-            ]
-          },
-          {
-            "title": "Rock & Roll Hall of Fame · Hip Hop",
-            "url": "https://rockhall.com/inductees/categories/hip-hop/",
-            "type": "international/musikinstitution",
-            "category": "Hiphop og pionerer",
-            "note": "Brug til hiphop, DJ/MC og Grandmaster Flash. Engelsk kilde, men institutionelt stærkere end tilfældige oversigter.",
-            "tags": [
-              "hiphop",
-              "Grandmaster-Flash",
-              "DJ-MC"
-            ]
-          },
-          {
-            "title": "Smithsonian Folkways · Reggae and ska",
-            "url": "https://folkways.si.edu/",
-            "type": "international/musikarkiv",
-            "category": "Reggae, ska og calypso",
-            "note": "Brug til jamaicanske/caribiske genrer og lytteeksempler. Læreren bør vælge konkrete opslag/eksempler til eleverne.",
-            "tags": [
-              "reggae",
-              "ska",
-              "calypso"
-            ]
-          },
-          {
-            "title": "Britannica · heavy metal",
-            "url": "https://www.britannica.com/art/heavy-metal-music",
-            "type": "international/leksikon",
-            "category": "Rock og metal",
-            "note": "Brug som kontrolleret kilde til heavy metal, Black Sabbath og tungt forvrængede guitarer, hvor danske elevkilder er tynde.",
-            "tags": [
-              "heavy-metal",
-              "Black-Sabbath",
-              "rock"
             ]
           }
         ],
@@ -610,9 +649,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.musikipedia.dk/techno/aktiviteter",
-        "label": "Musikipedia · Techno",
-        "note": "Dansk undervisningsindgang til techno med aktiviteter, så eleverne kan arbejde med genren uden at starte på engelske leksikonsider.",
+        "url": "https://lex.dk/hiphop",
+        "label": "Lex · hiphop",
+        "note": "Dansk fagkilde til hiphopkulturens elementer, South Bronx og pionerer.",
         "view": "link"
       },
       "settings": {
@@ -645,9 +684,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.berklee.edu/berklee-now/news/electronic-music-genres-a-guide-to-the-most-influential-styles",
-        "label": "Berklee · Electronic music genres",
-        "note": "Fagligt stærk, men engelsk kilde til house, techno, drum and bass og elektroniske subgenrer. Brug lærerstøttet.",
+        "url": "https://lex.dk/rap",
+        "label": "Lex · rap",
+        "note": "Dansk kilde til rap, block parties, DJ Kool Herc og Grandmaster Flash.",
         "view": "link"
       },
       "settings": {
@@ -680,9 +719,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://rockhall.com/inductees/categories/hip-hop/",
-        "label": "Rock & Roll Hall of Fame · Hip Hop",
-        "note": "Brug til hiphop, DJ/MC og Grandmaster Flash. Engelsk kilde, men institutionelt stærkere end tilfældige oversigter.",
+        "url": "https://lex.dk/reggae",
+        "label": "Lex · reggae",
+        "note": "Dansk fagkilde til reggae, ska, rocksteady, dub, Bob Marley og Lee “Scratch” Perry.",
         "view": "link"
       },
       "settings": {
@@ -715,9 +754,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://folkways.si.edu/",
-        "label": "Smithsonian Folkways · Reggae and ska",
-        "note": "Brug til jamaicanske/caribiske genrer og lytteeksempler. Læreren bør vælge konkrete opslag/eksempler til eleverne.",
+        "url": "https://lex.dk/techno",
+        "label": "Lex · techno",
+        "note": "Dansk kilde til techno, synthesizere, trommemaskiner og elektroniske dansegenrer.",
         "view": "link"
       },
       "settings": {
@@ -750,9 +789,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.britannica.com/art/heavy-metal-music",
-        "label": "Britannica · heavy metal",
-        "note": "Brug som kontrolleret kilde til heavy metal, Black Sabbath og tungt forvrængede guitarer, hvor danske elevkilder er tynde.",
+        "url": "https://lex.dk/Storbritannien_%28popul%C3%A6rmusik%29",
+        "label": "Lex · Storbritannien (populærmusik)",
+        "note": "Dansk kilde til britisk populærmusik, progressiv rock, heavy metal og senere elektroniske genrer.",
         "view": "link"
       },
       "settings": {
@@ -2522,8 +2561,11 @@
     "contentHash": "2ff82eede8aa4f59572c54d0e6217cdd0724996a84e8b712db63e1dc28677e52",
     "packageHash": "4f1693794965c87da0206bf85c9e88455b68f2214bc2e3f6ba193755d8ef1d3e",
     "quality": {
-      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:35:30Z",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+      "resourcesChanged": true,
+      "kapardyCorrectionsPhase4": []
     }
   },
   "warnings": []

@@ -18,8 +18,10 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder som standard; mål- eller engelsksprogede kilder kun som præcise supplementer, når danske kilder er svage.",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
     }
   },
   "sessions": [
@@ -42,7 +44,7 @@
         "board_professor_20-sporgsmal-matematik_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T22:15:00+02:00",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-matematik_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Matematik",
@@ -67,7 +69,8 @@
           "Nøgleordssky",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase4-faktatjek-danske-elevkilder",
+        "teacherNote": "Kilderne er kvalitetsløftet og faktatjekket med hovedvægt på danske, elevtilgængelige kilder til 9.–10. klasse."
       }
     }
   ],
@@ -518,63 +521,63 @@
         "version": 1,
         "resources": [
           {
-            "title": "Matematikbanken · regnearter og brøker",
-            "url": "https://matematikbanken.dk/",
+            "title": "Webmatematik · 7.-9. klasse",
+            "url": "https://www.webmatematik.dk/media/1gvdkrsk/7-9-klasse.pdf",
             "type": "dansk/undervisning",
-            "category": "Regning, brøker og procent",
-            "note": "Brug til træning af rækkefølge i regnearter, procent, brøker og decimaltal.",
+            "category": "Udskolingsmatematik",
+            "note": "Samlet dansk elevrettet materiale til centrale udskolingsemner som geometri, brøker, procent, funktioner og statistik.",
             "tags": [
-              "regning",
-              "procent",
-              "brøker"
+              "matematik",
+              "udskoling",
+              "elevkilde"
             ]
           },
           {
-            "title": "MatematikFessor · matematiske emner",
-            "url": "https://www.matematikfessor.dk/",
+            "title": "Matematikbanken · grundskole",
+            "url": "https://matematikbanken.dk/",
             "type": "dansk/undervisning",
-            "category": "Grundlæggende matematik",
-            "note": "Brug som dansk elevvenlig indgang til regning, algebra og geometri, hvis skolen har adgang.",
+            "category": "Opgaver og forklaringer",
+            "note": "Dansk undervisningsbank med opgaver og forklaringer, som passer bedre til 9.–10. klasse end universitetskilder.",
             "tags": [
               "matematik",
-              "øvelser",
+              "opgaver",
               "grundskole"
             ]
           },
           {
             "title": "GeoGebra · dansk",
             "url": "https://www.geogebra.org/?lang=da",
-            "type": "dansk/interaktiv",
-            "category": "Geometri og modeller",
-            "note": "Brug til at visualisere vinkelsum, cirkler, areal, rumfang og retvinklede trekanter.",
+            "type": "dansk/interaktivt",
+            "category": "Geometri og funktioner",
+            "note": "Interaktiv dansk indgang til geometri, grafer, funktioner og konstruktioner; god til at undersøge svar med visuelle eksempler.",
             "tags": [
               "geogebra",
               "geometri",
-              "modeller"
+              "funktioner"
             ]
           },
           {
-            "title": "Webmatematik · grundskole",
-            "url": "https://www.webmatematik.dk/",
-            "type": "dansk/undervisning",
-            "category": "Algebra og geometri",
-            "note": "Brug til korte forklaringer om ligninger, potenser, primtal, cirkler og Pythagoras.",
-            "tags": [
-              "webmatematik",
-              "algebra",
-              "geometri"
-            ]
-          },
-          {
-            "title": "NIST · SI Units",
-            "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
-            "type": "officiel/international",
-            "category": "Måling og enheder",
-            "note": "Brug til præcis kontrol af SI-enheder, når eleverne arbejder med cm³, længde, tid og masse.",
+            "title": "Lex · SI-systemet",
+            "url": "https://lex.dk/SI-systemet",
+            "type": "dansk/leksikon",
+            "category": "Måleenheder",
+            "note": "Præcis dansk fagkilde om SI-systemet og de syv basisenheder, der erstatter en tung engelsksproget NIST-kilde.",
             "tags": [
               "SI",
+              "måleenheder",
+              "Lex"
+            ]
+          },
+          {
+            "title": "Lex · enhedssystem",
+            "url": "https://lex.dk/enhedssystem",
+            "type": "dansk/leksikon",
+            "category": "Måleenheder",
+            "note": "Kort dansk supplerende kilde til enhedssystemer og SI-basisenheder.",
+            "tags": [
               "enheder",
-              "måling"
+              "SI",
+              "Lex"
             ]
           }
         ],
@@ -610,9 +613,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://matematikbanken.dk/",
-        "label": "Matematikbanken · regnearter og brøker",
-        "note": "Brug til træning af rækkefølge i regnearter, procent, brøker og decimaltal.",
+        "url": "https://www.webmatematik.dk/media/1gvdkrsk/7-9-klasse.pdf",
+        "label": "Webmatematik · 7.-9. klasse",
+        "note": "Samlet dansk elevrettet materiale til centrale udskolingsemner som geometri, brøker, procent, funktioner og statistik.",
         "view": "link"
       },
       "settings": {
@@ -645,9 +648,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.matematikfessor.dk/",
-        "label": "MatematikFessor · matematiske emner",
-        "note": "Brug som dansk elevvenlig indgang til regning, algebra og geometri, hvis skolen har adgang.",
+        "url": "https://matematikbanken.dk/",
+        "label": "Matematikbanken · grundskole",
+        "note": "Dansk undervisningsbank med opgaver og forklaringer, som passer bedre til 9.–10. klasse end universitetskilder.",
         "view": "link"
       },
       "settings": {
@@ -682,7 +685,7 @@
       "content": {
         "url": "https://www.geogebra.org/?lang=da",
         "label": "GeoGebra · dansk",
-        "note": "Brug til at visualisere vinkelsum, cirkler, areal, rumfang og retvinklede trekanter.",
+        "note": "Interaktiv dansk indgang til geometri, grafer, funktioner og konstruktioner; god til at undersøge svar med visuelle eksempler.",
         "view": "link"
       },
       "settings": {
@@ -715,9 +718,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.webmatematik.dk/",
-        "label": "Webmatematik · grundskole",
-        "note": "Brug til korte forklaringer om ligninger, potenser, primtal, cirkler og Pythagoras.",
+        "url": "https://lex.dk/SI-systemet",
+        "label": "Lex · SI-systemet",
+        "note": "Præcis dansk fagkilde om SI-systemet og de syv basisenheder, der erstatter en tung engelsksproget NIST-kilde.",
         "view": "link"
       },
       "settings": {
@@ -750,9 +753,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
-        "label": "NIST · SI Units",
-        "note": "Brug til præcis kontrol af SI-enheder, når eleverne arbejder med cm³, længde, tid og masse.",
+        "url": "https://lex.dk/enhedssystem",
+        "label": "Lex · enhedssystem",
+        "note": "Kort dansk supplerende kilde til enhedssystemer og SI-basisenheder.",
         "view": "link"
       },
       "settings": {
@@ -2522,8 +2525,11 @@
     "contentHash": "fcafd8054474219078f8b6a283a8ff87264363cb7f04e19b0bc926ab7f12fce8",
     "packageHash": "a528ba104c486f5cdc91f5744eeb35e7b7701572d58d971ef397c929d37e7756",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+      "resourcesChanged": true,
+      "kapardyCorrectionsPhase4": []
     }
   },
   "warnings": []

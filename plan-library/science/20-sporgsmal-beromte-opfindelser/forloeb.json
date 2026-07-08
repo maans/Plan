@@ -18,8 +18,10 @@
     "exportedAt": "2026-07-06T18:30:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:35:30Z",
+      "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder som standard; mål- eller engelsksprogede kilder kun som præcise supplementer, når danske kilder er svage.",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
     }
   },
   "sessions": [
@@ -42,7 +44,7 @@
         "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:35:30Z",
+      "updatedAt": "2026-07-08T22:15:00+02:00",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Berømte opfindelser",
@@ -67,7 +69,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
+        "sourceQualityUpgrade": "fase4-faktatjek-danske-elevkilder",
+        "teacherNote": "Kilderne er kvalitetsløftet og faktatjekket med hovedvægt på danske, elevtilgængelige kilder til 9.–10. klasse."
       }
     }
   ],
@@ -518,63 +521,100 @@
         "version": 1,
         "resources": [
           {
-            "title": "Lex · elektrokardiograf",
-            "url": "https://lex.dk/elektrokardiograf",
+            "title": "Lex · fotografi – den fotografiske teknik",
+            "url": "https://lex.dk/fotografi_-_den_fotografiske_teknik",
             "type": "dansk/leksikon",
-            "category": "Medicinsk teknologi",
-            "note": "Dansk kilde til elektrokardiografen og EKG som registrering af hjertets elektriske aktivitet.",
+            "category": "Fotografi",
+            "note": "Dansk fagkilde til Niépce, Daguerre, Eastman og fotografiets tekniske udvikling.",
             "tags": [
-              "elektrokardiograf",
-              "EKG",
-              "hjerte"
+              "fotografi",
+              "Niépce",
+              "Daguerre",
+              "Eastman"
             ]
           },
           {
-            "title": "Sundhed.dk · EKG",
-            "url": "https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/undersoegelser/ekg/",
-            "type": "dansk/sundhedsfaglig",
-            "category": "EKG i praksis",
-            "note": "Elevvenlig dansk sundhedskilde til, hvad et EKG viser, og hvorfor apparatet bruges.",
+            "title": "Lex · film",
+            "url": "https://lex.dk/film",
+            "type": "dansk/leksikon",
+            "category": "Filmteknologi",
+            "note": "Dansk kilde til filmens tidlige teknologiske gennembrud, bl.a. Lumière og Cinématographe.",
             "tags": [
-              "EKG",
-              "Patienthåndbogen",
-              "sundhed"
+              "film",
+              "Lumière",
+              "Cinématographe"
+            ]
+          },
+          {
+            "title": "Lex · Philo Taylor Farnsworth",
+            "url": "https://lex.dk/Philo_Taylor_Farnsworth",
+            "type": "dansk/leksikon",
+            "category": "Fjernsyn",
+            "note": "Præcis dansk kilde til Farnsworths elektroniske billedtransmission i 1927.",
+            "tags": [
+              "Farnsworth",
+              "fjernsyn",
+              "1927"
+            ]
+          },
+          {
+            "title": "Lex · William Shockley",
+            "url": "https://lex.dk/William_Shockley",
+            "type": "dansk/leksikon",
+            "category": "Elektronik",
+            "note": "Dansk kilde til transistorens gennembrud ved Bell Labs med Shockley, Bardeen og Brattain.",
+            "tags": [
+              "transistor",
+              "Bell Labs",
+              "Shockley"
+            ]
+          },
+          {
+            "title": "Lex · computerens historie",
+            "url": "https://lex.dk/computerens_historie",
+            "type": "dansk/leksikon",
+            "category": "Computerhistorie",
+            "note": "Dansk oversigt over centrale computerspor, bl.a. mikroprocessor og tidlige kommercielle computere.",
+            "tags": [
+              "computer",
+              "mikroprocessor",
+              "Lex"
+            ]
+          },
+          {
+            "title": "Lex · UNIVAC",
+            "url": "https://lex.dk/UNIVAC",
+            "type": "dansk/leksikon",
+            "category": "Computerhistorie",
+            "note": "Præcis dansk kilde til UNIVAC som tidlig kommerciel computer.",
+            "tags": [
+              "UNIVAC",
+              "computer",
+              "1951"
             ]
           },
           {
             "title": "IBM · RAMAC history",
             "url": "https://www.ibm.com/history/ramac",
-            "type": "virksomhedshistorie/kildekritisk",
-            "category": "Harddisk og datalagring",
-            "note": "Primær virksomhedskilde til IBM 305 RAMAC som første computer med random-access harddisk. Brug kildekritisk pga. afsenderen.",
+            "type": "institution/historie",
+            "category": "Lagring og harddisk",
+            "note": "Officiel kilde til IBM RAMAC og harddiskens tidlige historie. Engelsk, men meget præcis.",
             "tags": [
-              "IBM-305-RAMAC",
+              "RAMAC",
               "harddisk",
               "IBM"
             ]
           },
           {
-            "title": "Computer History Museum · Intel 4004 oral history",
-            "url": "https://www.computerhistory.org/collections/catalog/102658187",
-            "type": "museum/fagdatabase",
+            "title": "Computer History Museum · Intel 4004",
+            "url": "https://www.computerhistory.org/siliconengine/single-chip-processor-is-announced/",
+            "type": "museum/historie",
             "category": "Mikroprocessor",
-            "note": "Museums- og oral-history-kilde til Intel 4004 og udviklingsholdet bag mikroprocessoren.",
+            "note": "Museumsfaglig kilde til Intel 4004 og mikroprocessorens gennembrud. Bruges som præcis kilde, selv om den er engelsk.",
             "tags": [
-              "Intel-4004",
+              "Intel 4004",
               "mikroprocessor",
-              "computerhistorie"
-            ]
-          },
-          {
-            "title": "Science Museum Group · Objects and stories",
-            "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
-            "type": "museum/international",
-            "category": "Opfindelser og teknologi",
-            "note": "Beholdes som bred museumsindgang til kamera, film, elevator, dæk og teknologihistorie, hvor danske kilder ofte er for spredte.",
-            "tags": [
-              "opfindelser",
-              "teknologihistorie",
-              "museum"
+              "CHM"
             ]
           }
         ],
@@ -610,9 +650,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://lex.dk/elektrokardiograf",
-        "label": "Lex · elektrokardiograf",
-        "note": "Dansk kilde til elektrokardiografen og EKG som registrering af hjertets elektriske aktivitet.",
+        "url": "https://lex.dk/fotografi_-_den_fotografiske_teknik",
+        "label": "Lex · fotografi – den fotografiske teknik",
+        "note": "Dansk fagkilde til Niépce, Daguerre, Eastman og fotografiets tekniske udvikling.",
         "view": "link"
       },
       "settings": {
@@ -645,9 +685,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/undersoegelser/ekg/",
-        "label": "Sundhed.dk · EKG",
-        "note": "Elevvenlig dansk sundhedskilde til, hvad et EKG viser, og hvorfor apparatet bruges.",
+        "url": "https://lex.dk/film",
+        "label": "Lex · film",
+        "note": "Dansk kilde til filmens tidlige teknologiske gennembrud, bl.a. Lumière og Cinématographe.",
         "view": "link"
       },
       "settings": {
@@ -680,9 +720,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.ibm.com/history/ramac",
-        "label": "IBM · RAMAC history",
-        "note": "Primær virksomhedskilde til IBM 305 RAMAC som første computer med random-access harddisk. Brug kildekritisk pga. afsenderen.",
+        "url": "https://lex.dk/Philo_Taylor_Farnsworth",
+        "label": "Lex · Philo Taylor Farnsworth",
+        "note": "Præcis dansk kilde til Farnsworths elektroniske billedtransmission i 1927.",
         "view": "link"
       },
       "settings": {
@@ -715,9 +755,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.computerhistory.org/collections/catalog/102658187",
-        "label": "Computer History Museum · Intel 4004 oral history",
-        "note": "Museums- og oral-history-kilde til Intel 4004 og udviklingsholdet bag mikroprocessoren.",
+        "url": "https://lex.dk/William_Shockley",
+        "label": "Lex · William Shockley",
+        "note": "Dansk kilde til transistorens gennembrud ved Bell Labs med Shockley, Bardeen og Brattain.",
         "view": "link"
       },
       "settings": {
@@ -750,9 +790,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
-        "label": "Science Museum Group · Objects and stories",
-        "note": "Beholdes som bred museumsindgang til kamera, film, elevator, dæk og teknologihistorie, hvor danske kilder ofte er for spredte.",
+        "url": "https://lex.dk/computerens_historie",
+        "label": "Lex · computerens historie",
+        "note": "Dansk oversigt over centrale computerspor, bl.a. mikroprocessor og tidlige kommercielle computere.",
         "view": "link"
       },
       "settings": {
@@ -2522,8 +2562,11 @@
     "contentHash": "f25944bc84a2cbf0a2ea03d26f7c7579931d4b6d31e41eaa385b3e116bfb58b9",
     "packageHash": "08896935ab55b750e20e8017b82a15cc373d96e602c45d9eed98361972be7177",
     "quality": {
-      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:35:30Z",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+      "resourcesChanged": true,
+      "kapardyCorrectionsPhase4": []
     }
   },
   "warnings": []

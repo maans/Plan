@@ -18,8 +18,10 @@
     "exportedAt": "2026-07-06T18:30:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder som standard; mål- eller engelsksprogede kilder kun som præcise supplementer, når danske kilder er svage.",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
     }
   },
   "sessions": [
@@ -42,7 +44,7 @@
         "board_professor_20-sporgsmal-danske-opfindelser_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T22:15:00+02:00",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-danske-opfindelser_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Danske opfindelser",
@@ -67,7 +69,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase4-faktatjek-danske-elevkilder",
+        "teacherNote": "Kilderne er kvalitetsløftet og faktatjekket med hovedvægt på danske, elevtilgængelige kilder til 9.–10. klasse."
       }
     }
   ],
@@ -518,63 +521,75 @@
         "version": 1,
         "resources": [
           {
-            "title": "DTU Space · Ole Rømer og lysets hastighed",
-            "url": "https://www.space.dtu.dk/",
-            "type": "dansk/universitet",
-            "category": "Fysik og måling",
-            "note": "Brug til Ole Rømer, astronomi og den danske målehistoriske baggrund for lysets endelige hastighed.",
+            "title": "Lex · Ole Rømer",
+            "url": "https://lex.dk/Ole_R%C3%B8mer",
+            "type": "dansk/leksikon",
+            "category": "Dansk videnskabshistorie",
+            "note": "Præcis dansk kilde til Ole Rømer og målingen/opdagelsen af lysets hastighed.",
             "tags": [
-              "Ole-Rømer",
-              "lys",
-              "DTU"
+              "Ole Rømer",
+              "lysets hastighed",
+              "Lex"
             ]
           },
           {
-            "title": "Carlsbergfondet · S.P.L. Sørensen og pH",
-            "url": "https://www.carlsbergfondet.dk/da/Nyheder/Nyt-fra-fondet/Nyheder/1909-pH-skalaen-opfindes",
-            "type": "dansk/fond/forskning",
-            "category": "pH og Carlsberg Laboratorium",
-            "note": "Brug til S.P.L. Sørensen, Carlsberg Laboratorium og pH-begrebet i 1909.",
+            "title": "Lex · S.P.L. Sørensen",
+            "url": "https://lex.dk/S.P.L._S%C3%B8rensen",
+            "type": "dansk/leksikon",
+            "category": "Dansk kemi",
+            "note": "Dansk kilde til pH-begrebet og Sørensens arbejde på Carlsberg Laboratoriet.",
             "tags": [
               "pH",
-              "SPL-Sørensen",
+              "S.P.L. Sørensen",
               "Carlsberg"
             ]
           },
           {
-            "title": "Novo Nordisk · History",
-            "url": "https://www.novonordisk.com/about/who-we-are/history.html",
-            "type": "virksomhedshistorie",
-            "category": "Insulin og NovoPen",
-            "note": "Brug kritisk til Nordisk Insulinlaboratorium, Hagedorn, NPH-insulin og NovoPen.",
+            "title": "Novo Nordisk Fonden · Hagedorn Prize",
+            "url": "https://novonordiskfonden.dk/en/prizes/the-hagedorn-prize/",
+            "type": "institution/historie",
+            "category": "Insulin og medicinhistorie",
+            "note": "Institutionel kilde til Hagedorn, August Krogh, insulinarbejdet og Nordisk Insulinlaboratorium; bruges lærerstøttet pga. engelsk tekst.",
             "tags": [
-              "insulin",
               "Hagedorn",
-              "NovoPen"
+              "insulin",
+              "Nordisk Insulinlaboratorium"
             ]
           },
           {
-            "title": "Danfoss · History",
-            "url": "https://www.danfoss.com/en/about-danfoss/company/history/",
-            "type": "virksomhedshistorie",
-            "category": "Danfoss og regulering",
-            "note": "Brug kritisk til Mads Clausen, Nordborg, ekspansionsventilen og termostatiske radiatorventiler.",
+            "title": "Lex · Mads Clausen",
+            "url": "https://lex.dk/Mads_Clausen",
+            "type": "dansk/leksikon",
+            "category": "Dansk industrihistorie",
+            "note": "Dansk kilde til Mads Clausen og Danfoss-baggrunden.",
             "tags": [
+              "Mads Clausen",
               "Danfoss",
-              "Mads-Clausen",
-              "termostat"
+              "Lex"
             ]
           },
           {
-            "title": "Bjarne Stroustrup · C++",
-            "url": "https://www.stroustrup.com/C++.html",
-            "type": "primær/personlig fagkilde",
-            "category": "Digitale idéer",
-            "note": "Brug til C++, Bjarne Stroustrup og arbejdet ved Bell Labs.",
+            "title": "Danmarkshistorien · Bang & Olufsen (B&O), 1925-",
+            "url": "https://danmarkshistorien.lex.dk/Bang_%26_Olufsen_%28B%26O%29%2C_1925-",
+            "type": "dansk/historie",
+            "category": "Dansk teknologi og design",
+            "note": "Præcis dansk kilde til B&O, Struer, Peter Bang og Svend Olufsen.",
+            "tags": [
+              "B&O",
+              "Struer",
+              "design"
+            ]
+          },
+          {
+            "title": "Lex · Bjarne Stroustrup",
+            "url": "https://lex.dk/Bjarne_Stroustrup",
+            "type": "dansk/leksikon",
+            "category": "Dansk IT-historie",
+            "note": "Dansk kilde til Bjarne Stroustrup og C++.",
             "tags": [
               "C++",
-              "Bjarne-Stroustrup",
-              "Bell-Labs"
+              "Bjarne Stroustrup",
+              "programmering"
             ]
           }
         ],
@@ -610,9 +625,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.space.dtu.dk/",
-        "label": "DTU Space · Ole Rømer og lysets hastighed",
-        "note": "Brug til Ole Rømer, astronomi og den danske målehistoriske baggrund for lysets endelige hastighed.",
+        "url": "https://lex.dk/Ole_R%C3%B8mer",
+        "label": "Lex · Ole Rømer",
+        "note": "Præcis dansk kilde til Ole Rømer og målingen/opdagelsen af lysets hastighed.",
         "view": "link"
       },
       "settings": {
@@ -645,9 +660,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.carlsbergfondet.dk/da/Nyheder/Nyt-fra-fondet/Nyheder/1909-pH-skalaen-opfindes",
-        "label": "Carlsbergfondet · S.P.L. Sørensen og pH",
-        "note": "Brug til S.P.L. Sørensen, Carlsberg Laboratorium og pH-begrebet i 1909.",
+        "url": "https://lex.dk/S.P.L._S%C3%B8rensen",
+        "label": "Lex · S.P.L. Sørensen",
+        "note": "Dansk kilde til pH-begrebet og Sørensens arbejde på Carlsberg Laboratoriet.",
         "view": "link"
       },
       "settings": {
@@ -680,9 +695,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.novonordisk.com/about/who-we-are/history.html",
-        "label": "Novo Nordisk · History",
-        "note": "Brug kritisk til Nordisk Insulinlaboratorium, Hagedorn, NPH-insulin og NovoPen.",
+        "url": "https://novonordiskfonden.dk/en/prizes/the-hagedorn-prize/",
+        "label": "Novo Nordisk Fonden · Hagedorn Prize",
+        "note": "Institutionel kilde til Hagedorn, August Krogh, insulinarbejdet og Nordisk Insulinlaboratorium; bruges lærerstøttet pga. engelsk tekst.",
         "view": "link"
       },
       "settings": {
@@ -715,9 +730,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.danfoss.com/en/about-danfoss/company/history/",
-        "label": "Danfoss · History",
-        "note": "Brug kritisk til Mads Clausen, Nordborg, ekspansionsventilen og termostatiske radiatorventiler.",
+        "url": "https://lex.dk/Mads_Clausen",
+        "label": "Lex · Mads Clausen",
+        "note": "Dansk kilde til Mads Clausen og Danfoss-baggrunden.",
         "view": "link"
       },
       "settings": {
@@ -750,9 +765,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.stroustrup.com/C++.html",
-        "label": "Bjarne Stroustrup · C++",
-        "note": "Brug til C++, Bjarne Stroustrup og arbejdet ved Bell Labs.",
+        "url": "https://danmarkshistorien.lex.dk/Bang_%26_Olufsen_%28B%26O%29%2C_1925-",
+        "label": "Danmarkshistorien · Bang & Olufsen (B&O), 1925-",
+        "note": "Præcis dansk kilde til B&O, Struer, Peter Bang og Svend Olufsen.",
         "view": "link"
       },
       "settings": {
@@ -1563,7 +1578,7 @@
             {
               "id": "kp_danske-opfindelser_06",
               "category": "Medicin og bioteknologi",
-              "question": "Hvilken forsker var med til at grundlægge Nordisk Insulinlaboratorium i 1923?",
+              "question": "Hvilken læge/forsker var sammen med August Krogh central i den tidlige danske insulinproduktion og Nordisk Insulinlaboratorium?",
               "points": 100,
               "options": [
                 "Hans Christian Hagedorn",
@@ -2264,7 +2279,7 @@
           {
             "id": "kp_danske-opfindelser_06",
             "category": "Medicin og bioteknologi",
-            "question": "Hvilken forsker var med til at grundlægge Nordisk Insulinlaboratorium i 1923?",
+            "question": "Hvilken læge/forsker var sammen med August Krogh central i den tidlige danske insulinproduktion og Nordisk Insulinlaboratorium?",
             "points": 100,
             "options": [
               "Hans Christian Hagedorn",
@@ -2522,8 +2537,13 @@
     "contentHash": "51e0453706fcee641cccb76cf6e5da7344aef8f73c004a6b9e41637d295fac4c",
     "packageHash": "8f01ce8ca0a8789ea752ba6c4adec27738de24c4a4e28b368b0a67f7aa5cf54b",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+      "resourcesChanged": true,
+      "kapardyCorrectionsPhase4": [
+        "kp_danske-opfindelser_06"
+      ]
     }
   },
   "warnings": []

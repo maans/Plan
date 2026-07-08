@@ -18,8 +18,10 @@
     "exportedAt": "2026-07-06T23:55:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder som standard; mål- eller engelsksprogede kilder kun som præcise supplementer, når danske kilder er svage.",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
     }
   },
   "sessions": [
@@ -42,7 +44,7 @@
         "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T22:15:00+02:00",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-naturvidenskab_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Naturvidenskab · grundlæggende",
@@ -68,7 +70,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase4-faktatjek-danske-elevkilder",
+        "teacherNote": "Kilderne er kvalitetsløftet og faktatjekket med hovedvægt på danske, elevtilgængelige kilder til 9.–10. klasse."
       }
     }
   ],
@@ -519,63 +522,63 @@
         "version": 1,
         "resources": [
           {
-            "title": "Astra · naturvidenskabelig metode og aktiviteter",
+            "title": "Astra · Naturfaglige undervisningsaktiviteter",
             "url": "https://astra.dk/aktiviteter/",
             "type": "dansk/undervisning",
-            "category": "Måling, metode og forsøg",
-            "note": "Brug som dansk indgang til naturfaglige aktiviteter, observation, forsøg og forklaringer.",
+            "category": "Naturfag i skolen",
+            "note": "Dansk naturfagsportal med aktiviteter, der kan bruges som elevnær indgang til undersøgelse og forklaring.",
             "tags": [
               "naturfag",
-              "metode",
-              "Astra"
+              "Astra",
+              "undervisning"
             ]
           },
           {
-            "title": "Lex · Newtons love",
-            "url": "https://lex.dk/Newtons_love",
+            "title": "Lex · SI-systemet",
+            "url": "https://lex.dk/SI-systemet",
             "type": "dansk/leksikon",
-            "category": "Fysik og energi",
-            "note": "Brug til aktion og reaktion, Newtons tredje lov og grundlæggende mekanik.",
+            "category": "Målinger og enheder",
+            "note": "Dansk fagkilde om SI og basisenheder; mere elevnær end BIPM-brochuren til grundspørgsmål om målesystemet.",
             "tags": [
-              "Newtons-love",
+              "SI",
+              "måling",
+              "Lex"
+            ]
+          },
+          {
+            "title": "Lex · elektricitet",
+            "url": "https://lex.dk/elektricitet",
+            "type": "dansk/leksikon",
+            "category": "Fysik",
+            "note": "Dansk oversigt over elektricitet som baggrund for spørgsmål om strøm, ledning og elektriske fænomener.",
+            "tags": [
+              "elektricitet",
               "fysik",
-              "mekanik"
+              "Lex"
             ]
           },
           {
             "title": "Lex · pH",
             "url": "https://lex.dk/pH",
             "type": "dansk/leksikon",
-            "category": "Kemi og stoffer",
-            "note": "Brug til sur, neutral og basisk opløsning samt pH-skalaen omkring 7.",
+            "category": "Kemi",
+            "note": "Kort dansk kilde til pH-begrebet og sammenhængen mellem syrer, baser og måling.",
             "tags": [
               "pH",
-              "sur",
-              "basisk"
+              "kemi",
+              "Lex"
             ]
           },
           {
-            "title": "GEUS · jordskælv",
-            "url": "https://www.geus.dk/natur-og-klima/jordskaelv-og-seismologi",
-            "type": "dansk/myndighed/forskning",
-            "category": "Jorden og vejret",
-            "note": "Brug til epicenter, hypocenter og seismologiske begreber på dansk.",
+            "title": "GEUS · Jord og undergrund",
+            "url": "https://www.geus.dk/udforsk-geologien/jord-og-undergrund/",
+            "type": "dansk/faginstitution",
+            "category": "Geologi",
+            "note": "Dansk faginstitutions indgang til geologi, jord og undergrund; egnet som startkilde til naturfaglige spørgsmål om Jorden.",
             "tags": [
-              "jordskælv",
-              "epicenter",
-              "GEUS"
-            ]
-          },
-          {
-            "title": "BIPM · SI Brochure",
-            "url": "https://www.bipm.org/en/publications/si-brochure",
-            "type": "officiel/international",
-            "category": "Måling og SI-enheder",
-            "note": "Brug som officiel reference for SI-grundenheder som meter, kilogram, sekund og kelvin.",
-            "tags": [
-              "SI",
-              "meter",
-              "kelvin"
+              "geologi",
+              "GEUS",
+              "jord"
             ]
           }
         ],
@@ -612,8 +615,8 @@
       },
       "content": {
         "url": "https://astra.dk/aktiviteter/",
-        "label": "Astra · naturvidenskabelig metode og aktiviteter",
-        "note": "Brug som dansk indgang til naturfaglige aktiviteter, observation, forsøg og forklaringer.",
+        "label": "Astra · Naturfaglige undervisningsaktiviteter",
+        "note": "Dansk naturfagsportal med aktiviteter, der kan bruges som elevnær indgang til undersøgelse og forklaring.",
         "view": "link"
       },
       "settings": {
@@ -646,9 +649,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://lex.dk/Newtons_love",
-        "label": "Lex · Newtons love",
-        "note": "Brug til aktion og reaktion, Newtons tredje lov og grundlæggende mekanik.",
+        "url": "https://lex.dk/SI-systemet",
+        "label": "Lex · SI-systemet",
+        "note": "Dansk fagkilde om SI og basisenheder; mere elevnær end BIPM-brochuren til grundspørgsmål om målesystemet.",
         "view": "link"
       },
       "settings": {
@@ -681,9 +684,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://lex.dk/pH",
-        "label": "Lex · pH",
-        "note": "Brug til sur, neutral og basisk opløsning samt pH-skalaen omkring 7.",
+        "url": "https://lex.dk/elektricitet",
+        "label": "Lex · elektricitet",
+        "note": "Dansk oversigt over elektricitet som baggrund for spørgsmål om strøm, ledning og elektriske fænomener.",
         "view": "link"
       },
       "settings": {
@@ -716,9 +719,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.geus.dk/natur-og-klima/jordskaelv-og-seismologi",
-        "label": "GEUS · jordskælv",
-        "note": "Brug til epicenter, hypocenter og seismologiske begreber på dansk.",
+        "url": "https://lex.dk/pH",
+        "label": "Lex · pH",
+        "note": "Kort dansk kilde til pH-begrebet og sammenhængen mellem syrer, baser og måling.",
         "view": "link"
       },
       "settings": {
@@ -751,9 +754,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.bipm.org/en/publications/si-brochure",
-        "label": "BIPM · SI Brochure",
-        "note": "Brug som officiel reference for SI-grundenheder som meter, kilogram, sekund og kelvin.",
+        "url": "https://www.geus.dk/udforsk-geologien/jord-og-undergrund/",
+        "label": "GEUS · Jord og undergrund",
+        "note": "Dansk faginstitutions indgang til geologi, jord og undergrund; egnet som startkilde til naturfaglige spørgsmål om Jorden.",
         "view": "link"
       },
       "settings": {
@@ -2523,8 +2526,11 @@
     "contentHash": "389e0fc391ee8bc981deb9a4d16d14f94597eb755f257eb64fbb05cc79a75aa4",
     "packageHash": "8ceeeb883c5c8eb74fcecf8f3f89e11a3c852bef45afab402934fe5400f33b69",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+      "resourcesChanged": true,
+      "kapardyCorrectionsPhase4": []
     }
   },
   "warnings": []
