@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-efterskoleliv_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-efterskoleliv_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Efterskoleliv",
@@ -62,7 +66,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Efterskolerne",
-            "url": "https://www.efterskolerne.dk/",
-            "type": "web/branche",
-            "category": "Historie og idégrundlag",
-            "note": "Brug til skoleform og elevrettet info.",
+            "title": "Efterskolerne · Efterskolens historie og værdigrundlag",
+            "url": "https://www.efterskolerne.dk/om-efterskoleforeningen/efterskolens-historie-og-vaerdigrundlag/",
+            "type": "dansk/organisation",
+            "category": "Efterskolens historie",
+            "note": "Brug til efterskolelovene, prøvernes indførelse, elevtal og offentlig elevstøtte.",
             "tags": [
-              "historie-og-id-grundlag",
-              "web-branche"
+              "efterskole",
+              "historie",
+              "elevstoette"
             ]
           },
           {
-            "title": "Børne- og Undervisningsministeriet",
-            "url": "https://www.uvm.dk/",
-            "type": "web/officiel",
-            "category": "Skoleform og rammer",
-            "note": "Brug officielle regler og prøveoplysninger.",
+            "title": "Retsinformation · Lov om efterskoler og frie fagskoler",
+            "url": "https://retsinformation.dk/eli/lta/2026/470",
+            "type": "dansk/myndighed",
+            "category": "Regler og rammer",
+            "note": "Brug til de gældende rammer for efterskoler, undervisning, kurser og skolen som fri skoleform.",
             "tags": [
-              "skoleform-og-rammer",
-              "web-officiel"
+              "efterskoleloven",
+              "retsinformation",
+              "regler"
             ]
           },
           {
-            "title": "Retsinformation · Efterskoleloven",
-            "url": "https://www.retsinformation.dk/",
-            "type": "web/lovtekst",
-            "category": "Historie og rammer",
-            "note": "Brug som kilde til lov og rammer.",
+            "title": "Efterskolerne · Forstanderhåndbogen",
+            "url": "https://www.efterskolerne.dk/media/v5odzkd1/efterskolerne_forstanderbog_tryk_071021_web2.pdf",
+            "type": "dansk/faghaandbog",
+            "category": "10. klasse og prøver",
+            "note": "Brug til 10. klasse, obligatoriske fag, 21 timers undervisning og prøvefrihed/privatistmulighed.",
             "tags": [
-              "historie-og-rammer",
-              "web-lovtekst"
+              "10-klasse",
+              "proever",
+              "undervisningstid"
             ]
           },
           {
-            "title": "EMU · Evaluering",
-            "url": "https://emu.dk/",
-            "type": "web/fagportal",
-            "category": "Fag, prøver og evaluering",
-            "note": "Brug til evaluering og feedbackbegreber.",
+            "title": "EMU · Evaluering og feedback",
+            "url": "https://emu.dk/grundskole/paedagogik-og-didaktik/evaluering-og-feedback/evaluering-og-feedback",
+            "type": "dansk/undervisning",
+            "category": "Evaluering",
+            "note": "Brug til forskellen på formativ feedback, intern evaluering og summativ vurdering.",
             "tags": [
-              "fag-proever-og-evaluering",
-              "web-fagportal"
+              "evaluering",
+              "feedback",
+              "læring"
             ]
           },
           {
-            "title": "Psykiatrifonden · Unge og trivsel",
-            "url": "https://psykiatrifonden.dk/",
-            "type": "web/rådgivning",
-            "category": "Hverdag og fællesskab",
-            "note": "Brug forsigtigt til hjemve, trivsel og fællesskab.",
+            "title": "Efterskolerne · Hjemve på efterskole",
+            "url": "https://www.efterskolerne.dk/om-efterskoleforeningen/nyheder/foraeldre/har-dit-barn-hjemve-saadan-stoetter-du-bedst/",
+            "type": "dansk/fagformidling",
+            "category": "Trivsel og fællesskab",
+            "note": "Brug til hjemve, støtte fra voksne og gradvis deltagelse i hverdagen.",
             "tags": [
-              "hverdag-og-faellesskab",
-              "web-raadgivning"
+              "hjemve",
+              "trivsel",
+              "efterskoleliv"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_2",
       "type": "link",
-      "title": "Efterskolerne",
+      "title": "Efterskolerne · Efterskolens historie og værdigrundlag",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.efterskolerne.dk/",
-        "label": "Efterskolerne",
-        "note": "web/branche · Brug til skoleform og elevrettet info.",
+        "url": "https://www.efterskolerne.dk/om-efterskoleforeningen/efterskolens-historie-og-vaerdigrundlag/",
+        "label": "Efterskolerne · Efterskolens historie og værdigrundlag",
+        "note": "Brug til efterskolelovene, prøvernes indførelse, elevtal og offentlig elevstøtte.",
         "view": "link"
       },
       "settings": {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_2",
       "type": "link",
-      "title": "Børne- og Undervisningsministeriet",
+      "title": "Retsinformation · Lov om efterskoler og frie fagskoler",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.uvm.dk/",
-        "label": "Børne- og Undervisningsministeriet",
-        "note": "web/officiel · Brug officielle regler og prøveoplysninger.",
+        "url": "https://retsinformation.dk/eli/lta/2026/470",
+        "label": "Retsinformation · Lov om efterskoler og frie fagskoler",
+        "note": "Brug til de gældende rammer for efterskoler, undervisning, kurser og skolen som fri skoleform.",
         "view": "link"
       },
       "settings": {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_2",
       "type": "link",
-      "title": "Retsinformation · Efterskoleloven",
+      "title": "Efterskolerne · Forstanderhåndbogen",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.retsinformation.dk/",
-        "label": "Retsinformation · Efterskoleloven",
-        "note": "web/lovtekst · Brug som kilde til lov og rammer.",
+        "url": "https://www.efterskolerne.dk/media/v5odzkd1/efterskolerne_forstanderbog_tryk_071021_web2.pdf",
+        "label": "Efterskolerne · Forstanderhåndbogen",
+        "note": "Brug til 10. klasse, obligatoriske fag, 21 timers undervisning og prøvefrihed/privatistmulighed.",
         "view": "link"
       },
       "settings": {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_2",
       "type": "link",
-      "title": "EMU · Evaluering",
+      "title": "EMU · Evaluering og feedback",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://emu.dk/",
-        "label": "EMU · Evaluering",
-        "note": "web/fagportal · Brug til evaluering og feedbackbegreber.",
+        "url": "https://emu.dk/grundskole/paedagogik-og-didaktik/evaluering-og-feedback/evaluering-og-feedback",
+        "label": "EMU · Evaluering og feedback",
+        "note": "Brug til forskellen på formativ feedback, intern evaluering og summativ vurdering.",
         "view": "link"
       },
       "settings": {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_2",
       "type": "link",
-      "title": "Psykiatrifonden · Unge og trivsel",
+      "title": "Efterskolerne · Hjemve på efterskole",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://psykiatrifonden.dk/",
-        "label": "Psykiatrifonden · Unge og trivsel",
-        "note": "web/rådgivning · Brug forsigtigt til hjemve, trivsel og fællesskab.",
+        "url": "https://www.efterskolerne.dk/om-efterskoleforeningen/nyheder/foraeldre/har-dit-barn-hjemve-saadan-stoetter-du-bedst/",
+        "label": "Efterskolerne · Hjemve på efterskole",
+        "note": "Brug til hjemve, støtte fra voksne og gradvis deltagelse i hverdagen.",
         "view": "link"
       },
       "settings": {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-efterskoleliv_v2_showcase"
     ],
     "contentHash": "72d25bbf08c85bedce1b97d5e30308e993a69c25a405391a7767d7e9c3f06a3f",
-    "packageHash": "435fd57e0b353ef0f9259bdda24823db797102bc19ce95213d72829632509996"
+    "packageHash": "435fd57e0b353ef0f9259bdda24823db797102bc19ce95213d72829632509996",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Europæiske hovedstæder",
@@ -63,7 +67,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "European Union · Countries",
-            "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "type": "web/officiel",
+            "title": "Lex · Europas lande",
+            "url": "https://lex.dk/Europas_lande",
+            "type": "dansk/leksikon",
             "category": "Lande og hovedstæder",
-            "note": "Brug til EU-lande og hovedstæder.",
+            "note": "Brug til at kontrollere europæiske lande og hovedstæder, også mikrostater.",
             "tags": [
-              "lande-og-hovedstaeder",
-              "web-officiel"
+              "europa",
+              "lande",
+              "hovedstaeder"
             ]
           },
           {
-            "title": "CIA World Factbook",
-            "url": "https://www.cia.gov/the-world-factbook/",
-            "type": "web/reference",
-            "category": "Lande og hovedstæder",
-            "note": "Brug som international reference til lande og hovedstæder.",
+            "title": "EU · EU-landene",
+            "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_da",
+            "type": "dansk/myndighed",
+            "category": "EU-lande",
+            "note": "Brug til EU-landenes officielle danske navne, hovedstæder og medlemsoplysninger.",
             "tags": [
-              "lande-og-hovedstaeder",
-              "web-reference"
+              "eu",
+              "hovedstaeder",
+              "lande"
             ]
           },
           {
-            "title": "OpenStreetMap",
-            "url": "https://www.openstreetmap.org/",
-            "type": "kort/web",
-            "category": "Kortet og naturen",
-            "note": "Brug til at placere hovedstæder og kendte steder.",
+            "title": "Lex · Oslo",
+            "url": "https://lex.dk/Oslo",
+            "type": "dansk/leksikon",
+            "category": "Nordiske hovedstæder",
+            "note": "Brug til Oslo/Kristiania og baggrund for den norske hovedstad.",
             "tags": [
-              "kortet-og-naturen",
-              "kort-web"
+              "oslo",
+              "kristiania",
+              "norden"
             ]
           },
           {
-            "title": "UNESCO World Heritage Centre",
-            "url": "https://whc.unesco.org/",
-            "type": "web/kulturarv",
-            "category": "Kendte steder",
-            "note": "Brug til kulturarv og europæiske steder.",
+            "title": "Folketinget EU-Oplysningen · EU-Domstolen",
+            "url": "https://www.eu.dk/da/fakta-om-eu/institutioner/domstolen",
+            "type": "dansk/myndighed",
+            "category": "Europæiske institutioner",
+            "note": "Brug til at finde EU-Domstolens placering i Luxembourg.",
             "tags": [
-              "kendte-steder",
-              "web-kulturarv"
+              "eu-domstolen",
+              "luxembourg",
+              "institutioner"
             ]
           },
           {
-            "title": "OSCE",
-            "url": "https://www.osce.org/",
-            "type": "web/officiel",
-            "category": "Historie og institutioner",
-            "note": "Brug til OSCE og Wien-spørgsmålet.",
+            "title": "Lex · OSCE",
+            "url": "https://lex.dk/OSCE",
+            "type": "dansk/leksikon",
+            "category": "Internationale organisationer",
+            "note": "Brug til OSCE og sekretariatet i Wien.",
             "tags": [
-              "historie-og-institutioner",
-              "web-officiel"
+              "osce",
+              "wien",
+              "organisationer"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase_2",
       "type": "link",
-      "title": "European Union · Countries",
+      "title": "Lex · Europas lande",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-        "label": "European Union · Countries",
-        "note": "web/officiel · Brug til EU-lande og hovedstæder.",
+        "url": "https://lex.dk/Europas_lande",
+        "label": "Lex · Europas lande",
+        "note": "Brug til at kontrollere europæiske lande og hovedstæder, også mikrostater.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase_2",
       "type": "link",
-      "title": "CIA World Factbook",
+      "title": "EU · EU-landene",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.cia.gov/the-world-factbook/",
-        "label": "CIA World Factbook",
-        "note": "web/reference · Brug som international reference til lande og hovedstæder.",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_da",
+        "label": "EU · EU-landene",
+        "note": "Brug til EU-landenes officielle danske navne, hovedstæder og medlemsoplysninger.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase_2",
       "type": "link",
-      "title": "OpenStreetMap",
+      "title": "Lex · Oslo",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.openstreetmap.org/",
-        "label": "OpenStreetMap",
-        "note": "kort/web · Brug til at placere hovedstæder og kendte steder.",
+        "url": "https://lex.dk/Oslo",
+        "label": "Lex · Oslo",
+        "note": "Brug til Oslo/Kristiania og baggrund for den norske hovedstad.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO World Heritage Centre",
+      "title": "Folketinget EU-Oplysningen · EU-Domstolen",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://whc.unesco.org/",
-        "label": "UNESCO World Heritage Centre",
-        "note": "web/kulturarv · Brug til kulturarv og europæiske steder.",
+        "url": "https://www.eu.dk/da/fakta-om-eu/institutioner/domstolen",
+        "label": "Folketinget EU-Oplysningen · EU-Domstolen",
+        "note": "Brug til at finde EU-Domstolens placering i Luxembourg.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase_2",
       "type": "link",
-      "title": "OSCE",
+      "title": "Lex · OSCE",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.osce.org/",
-        "label": "OSCE",
-        "note": "web/officiel · Brug til OSCE og Wien-spørgsmålet.",
+        "url": "https://lex.dk/OSCE",
+        "label": "Lex · OSCE",
+        "note": "Brug til OSCE og sekretariatet i Wien.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-europaeiske-hovedstaeder_v2_showcase"
     ],
     "contentHash": "d58b03c63148b9b6158a5d21efd7b356d45e34570b8cb948474378d192eb59c4",
-    "packageHash": "5d307ff5844219593024efad25bad6ad7348b66ffe4a2bbf1477a6c504091893"
+    "packageHash": "5d307ff5844219593024efad25bad6ad7348b66ffe4a2bbf1477a6c504091893",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

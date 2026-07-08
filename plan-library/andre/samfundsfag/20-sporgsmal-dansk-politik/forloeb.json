@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-dansk-politik_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-dansk-politik_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-dansk-politik_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Dansk politik",
@@ -63,7 +67,8 @@
           "Gruppeværktøj",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Folketinget",
-            "url": "https://www.ft.dk/",
-            "type": "web/officiel",
+            "title": "Folketinget · Magtens tredeling",
+            "url": "https://www.ft.dk/da/leksikon/Magtens-tredeling",
+            "type": "dansk/myndighed",
             "category": "Grundlov og Folketing",
-            "note": "Brug som hovedkilde til lovgivning og Folketing.",
+            "note": "Brug til magtens tredeling og forskellen på lovgivende, udøvende og dømmende magt.",
             "tags": [
-              "grundlov-og-folketing",
-              "web-officiel"
+              "grundlov",
+              "magtens-tredeling",
+              "folketinget"
             ]
           },
           {
-            "title": "Danmarks Domstole",
-            "url": "https://www.domstol.dk/",
-            "type": "web/officiel",
-            "category": "Grundlov og Folketing",
-            "note": "Brug til den dømmende magt og retssystemet.",
+            "title": "Folketinget · Lovgivningsprocessen",
+            "url": "https://www.ft.dk/da/folkestyret/folketinget/lovgivningsprocessen-i-folketinget",
+            "type": "dansk/myndighed",
+            "category": "Lovforslag",
+            "note": "Brug til lovforslag og de tre behandlinger i Folketinget.",
             "tags": [
-              "grundlov-og-folketing",
-              "web-officiel"
+              "lovforslag",
+              "lovgivning",
+              "folketinget"
             ]
           },
           {
-            "title": "Indenrigs- og Sundhedsministeriet · Valg",
-            "url": "https://valg.im.dk/",
-            "type": "web/officiel",
+            "title": "Valgmyndigheden · Partiernes bogstavbetegnelser",
+            "url": "https://www.valg.im.dk/partier-og-kandidater/partiernes-bogstavbetegnelser",
+            "type": "dansk/myndighed",
             "category": "Valg og partier",
-            "note": "Brug til valg, stemmeafgivning og demokrati.",
+            "note": "Brug til listebogstaverne A, V, C og F på stemmesedlen.",
             "tags": [
-              "valg-og-partier",
-              "web-officiel"
+              "valg",
+              "partier",
+              "listebogstaver"
             ]
           },
           {
-            "title": "Statsministeriet",
-            "url": "https://www.stm.dk/",
-            "type": "web/officiel",
+            "title": "Statsministeriet · Statsministre siden 1848",
+            "url": "https://stm.dk/statsministeren/statsministre-siden-1848/",
+            "type": "dansk/myndighed",
             "category": "Regeringer og politisk historie",
-            "note": "Brug til statsministre og regeringshistorie.",
+            "note": "Brug til statsministrene fra besættelsen, befrielsesregeringen, NATO og EF-afstemningen.",
             "tags": [
-              "regeringer-og-politisk-historie",
-              "web-officiel"
+              "statsministre",
+              "regeringer",
+              "danmarkshistorie"
             ]
           },
           {
-            "title": "Danske Regioner",
-            "url": "https://www.regioner.dk/",
-            "type": "web/organisation",
+            "title": "Danmarkshistorien · Lov om regioner og nedlæggelse af amtskommuner",
+            "url": "https://danmarkshistorien.lex.dk/Lov_om_regioner_og_nedl%C3%A6ggelse_af_amtskommuner%2C_24._juni_2005",
+            "type": "dansk/leksikon",
             "category": "Kommuner, regioner og rigsfællesskab",
-            "note": "Brug til regionernes opgaver og sundhedsvæsen.",
+            "note": "Brug til regionsrådenes sæder i Hillerød, Sorø og Vejle ved oprettelsen i 2007; supplér med Danske Regioner til opgavefordeling.",
             "tags": [
-              "kommuner-regioner-og-rigsfaellesskab",
-              "web-organisation"
+              "regioner",
+              "sundhedsvaesen",
+              "administrationssaeder"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
       "type": "link",
-      "title": "Folketinget",
+      "title": "Folketinget · Magtens tredeling",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.ft.dk/",
-        "label": "Folketinget",
-        "note": "web/officiel · Brug som hovedkilde til lovgivning og Folketing.",
+        "url": "https://www.ft.dk/da/leksikon/Magtens-tredeling",
+        "label": "Folketinget · Magtens tredeling",
+        "note": "Brug til magtens tredeling og forskellen på lovgivende, udøvende og dømmende magt.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
       "type": "link",
-      "title": "Danmarks Domstole",
+      "title": "Folketinget · Lovgivningsprocessen",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.domstol.dk/",
-        "label": "Danmarks Domstole",
-        "note": "web/officiel · Brug til den dømmende magt og retssystemet.",
+        "url": "https://www.ft.dk/da/folkestyret/folketinget/lovgivningsprocessen-i-folketinget",
+        "label": "Folketinget · Lovgivningsprocessen",
+        "note": "Brug til lovforslag og de tre behandlinger i Folketinget.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
       "type": "link",
-      "title": "Indenrigs- og Sundhedsministeriet · Valg",
+      "title": "Valgmyndigheden · Partiernes bogstavbetegnelser",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://valg.im.dk/",
-        "label": "Indenrigs- og Sundhedsministeriet · Valg",
-        "note": "web/officiel · Brug til valg, stemmeafgivning og demokrati.",
+        "url": "https://www.valg.im.dk/partier-og-kandidater/partiernes-bogstavbetegnelser",
+        "label": "Valgmyndigheden · Partiernes bogstavbetegnelser",
+        "note": "Brug til listebogstaverne A, V, C og F på stemmesedlen.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
       "type": "link",
-      "title": "Statsministeriet",
+      "title": "Statsministeriet · Statsministre siden 1848",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.stm.dk/",
-        "label": "Statsministeriet",
-        "note": "web/officiel · Brug til statsministre og regeringshistorie.",
+        "url": "https://stm.dk/statsministeren/statsministre-siden-1848/",
+        "label": "Statsministeriet · Statsministre siden 1848",
+        "note": "Brug til statsministrene fra besættelsen, befrielsesregeringen, NATO og EF-afstemningen.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-politik_v2_showcase_2",
       "type": "link",
-      "title": "Danske Regioner",
+      "title": "Danmarkshistorien · Lov om regioner og nedlæggelse af amtskommuner",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.regioner.dk/",
-        "label": "Danske Regioner",
-        "note": "web/organisation · Brug til regionernes opgaver og sundhedsvæsen.",
+        "url": "https://danmarkshistorien.lex.dk/Lov_om_regioner_og_nedl%C3%A6ggelse_af_amtskommuner%2C_24._juni_2005",
+        "label": "Danmarkshistorien · Lov om regioner og nedlæggelse af amtskommuner",
+        "note": "Brug til regionsrådenes sæder i Hillerød, Sorø og Vejle ved oprettelsen i 2007; supplér med Danske Regioner til opgavefordeling.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-dansk-politik_v2_showcase"
     ],
     "contentHash": "bc2549b236aad83e3fa89a505cf826fab0ebddf91a4e5de6184e488ae8389d94",
-    "packageHash": "304b48634b052146e3af291357881b2fdd4f1669837d381a52e9899cd8afd60e"
+    "packageHash": "304b48634b052146e3af291357881b2fdd4f1669837d381a52e9899cd8afd60e",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

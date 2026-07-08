@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-vikinger_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-vikinger_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-vikinger_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Vikinger",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Vikingeskibsmuseet",
-            "url": "https://www.vikingeskibsmuseet.dk/",
-            "type": "web/museum",
-            "category": "Skibe og rejser",
-            "note": "Brug til Skuldelevskibene og vikingeskibe.",
+            "title": "Vikingeskibsmuseet · Skuldelevskibene",
+            "url": "https://www.vikingeskibsmuseet.dk/fagligt/viden-om-vikingeskibe/skuldelevskibene",
+            "type": "dansk/museum",
+            "category": "Vikingeskibe",
+            "note": "Brug til Skuldelev 1, 2 og 3, skibstyper, dybgang og Dublinområdet.",
             "tags": [
-              "skibe-og-rejser",
-              "web-museum"
+              "skuldelev",
+              "vikingeskibe",
+              "roskilde"
             ]
           },
           {
-            "title": "Nationalmuseet · Vikingetid",
+            "title": "Nationalmuseet · Vikingetiden",
             "url": "https://natmus.dk/historisk-viden/danmark/oldtid-indtil-aar-1050/vikingetiden/",
-            "type": "web/museum",
-            "category": "Hverdag og handel",
-            "note": "Brug til hverdag, handel og fund.",
+            "type": "dansk/museum",
+            "category": "Vikingetidens samfund",
+            "note": "Brug til håndværk, handel, smede, kamme, tekstiler og betaling med sølv.",
             "tags": [
-              "hverdag-og-handel",
-              "web-museum"
+              "vikingetid",
+              "handel",
+              "haandvaerk"
             ]
           },
           {
-            "title": "Danmarkshistorien.dk · Vikingetiden",
-            "url": "https://danmarkshistorien.dk/",
-            "type": "web/fagkilde",
-            "category": "Konger, steder og begivenheder",
-            "note": "Brug til begivenheder og historisk overblik.",
+            "title": "Nationalmuseet · Runer",
+            "url": "https://natmus.dk/historisk-viden/temaer/runer/",
+            "type": "dansk/museum",
+            "category": "Runer og futhark",
+            "note": "Brug til den yngre futhark og runer i vikingetiden.",
             "tags": [
-              "konger-steder-og-begivenheder",
-              "web-fagkilde"
+              "runer",
+              "futhark",
+              "nationalmuseet"
             ]
           },
           {
-            "title": "Jellingmonumenterne",
-            "url": "https://kongernesjelling.dk/",
-            "type": "web/museum",
-            "category": "Tro, runer og kunst",
-            "note": "Brug til runer, kongemagt og kristning.",
+            "title": "Lex · nordisk kosmologi",
+            "url": "https://lex.dk/nordisk_kosmologi",
+            "type": "dansk/leksikon",
+            "category": "Tro og mytologi",
+            "note": "Brug til Bifröst, Valhal, valkyrier og Ragnarok.",
             "tags": [
-              "tro-runer-og-kunst",
-              "web-museum"
+              "bifrost",
+              "valhal",
+              "ragnarok"
             ]
           },
           {
-            "title": "British Museum · Vikings",
-            "url": "https://www.britishmuseum.org/",
-            "type": "web/museum",
-            "category": "Hverdag og handel",
-            "note": "Brug til genstande, handel og kulturmøder.",
+            "title": "Danmarkshistorien · Vikingetiden ca. 800-1050",
+            "url": "https://danmarkshistorien.dk/vis/materiale/vikingetiden-ca-800-1050",
+            "type": "dansk/undervisning",
+            "category": "Vikinger i Europa",
+            "note": "Brug til vikingetiden, England, Danelagen og Rollo/Normandiet som historisk kontekst.",
             "tags": [
-              "hverdag-og-handel",
-              "web-museum"
+              "danelagen",
+              "rollo",
+              "england"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-vikinger_v2_showcase_2",
       "type": "link",
-      "title": "Vikingeskibsmuseet",
+      "title": "Vikingeskibsmuseet · Skuldelevskibene",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.vikingeskibsmuseet.dk/",
-        "label": "Vikingeskibsmuseet",
-        "note": "web/museum · Brug til Skuldelevskibene og vikingeskibe.",
+        "url": "https://www.vikingeskibsmuseet.dk/fagligt/viden-om-vikingeskibe/skuldelevskibene",
+        "label": "Vikingeskibsmuseet · Skuldelevskibene",
+        "note": "Brug til Skuldelev 1, 2 og 3, skibstyper, dybgang og Dublinområdet.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-vikinger_v2_showcase_2",
       "type": "link",
-      "title": "Nationalmuseet · Vikingetid",
+      "title": "Nationalmuseet · Vikingetiden",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -637,8 +647,8 @@
       },
       "content": {
         "url": "https://natmus.dk/historisk-viden/danmark/oldtid-indtil-aar-1050/vikingetiden/",
-        "label": "Nationalmuseet · Vikingetid",
-        "note": "web/museum · Brug til hverdag, handel og fund.",
+        "label": "Nationalmuseet · Vikingetiden",
+        "note": "Brug til håndværk, handel, smede, kamme, tekstiler og betaling med sølv.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-vikinger_v2_showcase_2",
       "type": "link",
-      "title": "Danmarkshistorien.dk · Vikingetiden",
+      "title": "Nationalmuseet · Runer",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://danmarkshistorien.dk/",
-        "label": "Danmarkshistorien.dk · Vikingetiden",
-        "note": "web/fagkilde · Brug til begivenheder og historisk overblik.",
+        "url": "https://natmus.dk/historisk-viden/temaer/runer/",
+        "label": "Nationalmuseet · Runer",
+        "note": "Brug til den yngre futhark og runer i vikingetiden.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-vikinger_v2_showcase_2",
       "type": "link",
-      "title": "Jellingmonumenterne",
+      "title": "Lex · nordisk kosmologi",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://kongernesjelling.dk/",
-        "label": "Jellingmonumenterne",
-        "note": "web/museum · Brug til runer, kongemagt og kristning.",
+        "url": "https://lex.dk/nordisk_kosmologi",
+        "label": "Lex · nordisk kosmologi",
+        "note": "Brug til Bifröst, Valhal, valkyrier og Ragnarok.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-vikinger_v2_showcase_2",
       "type": "link",
-      "title": "British Museum · Vikings",
+      "title": "Danmarkshistorien · Vikingetiden ca. 800-1050",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.britishmuseum.org/",
-        "label": "British Museum · Vikings",
-        "note": "web/museum · Brug til genstande, handel og kulturmøder.",
+        "url": "https://danmarkshistorien.dk/vis/materiale/vikingetiden-ca-800-1050",
+        "label": "Danmarkshistorien · Vikingetiden ca. 800-1050",
+        "note": "Brug til vikingetiden, England, Danelagen og Rollo/Normandiet som historisk kontekst.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-vikinger_v2_showcase"
     ],
     "contentHash": "24a83e1dfda0b4a3479f6c5377e96bd14d1258cdf34a66a992a739ec3e92b286",
-    "packageHash": "f08c2a2b97185a78dbcdc2caf19a5430d56088f3f9383db626c53445cdec5f8f"
+    "packageHash": "f08c2a2b97185a78dbcdc2caf19a5430d56088f3f9383db626c53445cdec5f8f",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

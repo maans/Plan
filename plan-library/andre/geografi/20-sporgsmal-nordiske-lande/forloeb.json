@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-nordiske-lande_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-nordiske-lande_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-nordiske-lande_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Nordiske lande",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Nordisk Samarbejde",
-            "url": "https://www.norden.org/",
-            "type": "web/officiel",
-            "category": "Alle kategorier",
-            "note": "Brug som hovedkilde til nordiske lande, sprog og samarbejde.",
+            "title": "Nordisk Samarbejde · Fakta om Norge",
+            "url": "https://www.norden.org/da/information/fakta-om-norge",
+            "type": "dansk/organisation",
+            "category": "Norge",
+            "note": "Brug til norske kroner, Galdhøpiggen, bokmål/nynorsk og Ivar Aasen.",
             "tags": [
-              "alle-kategorier",
-              "web-officiel"
+              "norge",
+              "valuta",
+              "sprog"
             ]
           },
           {
-            "title": "Visit Faroe Islands",
-            "url": "https://visitfaroeislands.com/",
-            "type": "web/kilde",
-            "category": "Natur og geografi",
-            "note": "Brug til Færøerne og ø-geografi.",
+            "title": "Nordisk Samarbejde · Fakta om Sverige",
+            "url": "https://www.norden.org/da/information/fakta-om-sverige",
+            "type": "dansk/organisation",
+            "category": "Sverige",
+            "note": "Brug til svenske kroner, Kebnekaise, meänkieli, EU-medlemskab og NATO 2024.",
             "tags": [
-              "natur-og-geografi",
-              "web-kilde"
+              "sverige",
+              "eu",
+              "nato"
             ]
           },
           {
-            "title": "Åland · official guide",
-            "url": "https://www.aland.ax/",
-            "type": "web/officiel",
-            "category": "Natur og geografi",
-            "note": "Brug til Åland, sprog og øer.",
+            "title": "Nordisk Samarbejde · Fakta om Finland",
+            "url": "https://www.norden.org/da/information/fakta-om-finland",
+            "type": "dansk/organisation",
+            "category": "Finland",
+            "note": "Brug til euroen, Halti, EU-medlemskab og NATO 2023.",
             "tags": [
-              "natur-og-geografi",
-              "web-officiel"
+              "finland",
+              "euro",
+              "nato"
             ]
           },
           {
-            "title": "EU · Countries",
-            "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-            "type": "web/officiel",
-            "category": "Historie og samarbejde",
-            "note": "Brug til EU-medlemskab og landeoplysninger.",
+            "title": "Nordisk Samarbejde · Fakta om Åland",
+            "url": "https://www.norden.org/da/information/fakta-om-aaland",
+            "type": "dansk/organisation",
+            "category": "Åland og Færøerne",
+            "note": "Brug til Ålands øer og svensk som eneste officielle sprog; sammenlign med Færøerne i samme kildesamling.",
             "tags": [
-              "historie-og-samarbejde",
-              "web-officiel"
+              "aaland",
+              "sprog",
+              "oeer"
             ]
           },
           {
-            "title": "NATO · Member countries",
-            "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
-            "type": "web/officiel",
-            "category": "Historie og samarbejde",
-            "note": "Brug til NATO-medlemskab og nyere nordisk sikkerhedspolitik.",
+            "title": "Udenrigsministeriet · Danmark i EU",
+            "url": "https://um.dk/udenrigspolitik/eu-da/danmark-i-eu/danmarks-medlemskab/",
+            "type": "dansk/myndighed",
+            "category": "Danmark og EU",
+            "note": "Brug til Danmarks EF/EU-medlemskab fra 1973.",
             "tags": [
-              "historie-og-samarbejde",
-              "web-officiel"
+              "danmark",
+              "ef",
+              "eu"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordiske-lande_v2_showcase_2",
       "type": "link",
-      "title": "Nordisk Samarbejde",
+      "title": "Nordisk Samarbejde · Fakta om Norge",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.norden.org/",
-        "label": "Nordisk Samarbejde",
-        "note": "web/officiel · Brug som hovedkilde til nordiske lande, sprog og samarbejde.",
+        "url": "https://www.norden.org/da/information/fakta-om-norge",
+        "label": "Nordisk Samarbejde · Fakta om Norge",
+        "note": "Brug til norske kroner, Galdhøpiggen, bokmål/nynorsk og Ivar Aasen.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordiske-lande_v2_showcase_2",
       "type": "link",
-      "title": "Visit Faroe Islands",
+      "title": "Nordisk Samarbejde · Fakta om Sverige",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://visitfaroeislands.com/",
-        "label": "Visit Faroe Islands",
-        "note": "web/kilde · Brug til Færøerne og ø-geografi.",
+        "url": "https://www.norden.org/da/information/fakta-om-sverige",
+        "label": "Nordisk Samarbejde · Fakta om Sverige",
+        "note": "Brug til svenske kroner, Kebnekaise, meänkieli, EU-medlemskab og NATO 2024.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordiske-lande_v2_showcase_2",
       "type": "link",
-      "title": "Åland · official guide",
+      "title": "Nordisk Samarbejde · Fakta om Finland",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.aland.ax/",
-        "label": "Åland · official guide",
-        "note": "web/officiel · Brug til Åland, sprog og øer.",
+        "url": "https://www.norden.org/da/information/fakta-om-finland",
+        "label": "Nordisk Samarbejde · Fakta om Finland",
+        "note": "Brug til euroen, Halti, EU-medlemskab og NATO 2023.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordiske-lande_v2_showcase_2",
       "type": "link",
-      "title": "EU · Countries",
+      "title": "Nordisk Samarbejde · Fakta om Åland",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
-        "label": "EU · Countries",
-        "note": "web/officiel · Brug til EU-medlemskab og landeoplysninger.",
+        "url": "https://www.norden.org/da/information/fakta-om-aaland",
+        "label": "Nordisk Samarbejde · Fakta om Åland",
+        "note": "Brug til Ålands øer og svensk som eneste officielle sprog; sammenlign med Færøerne i samme kildesamling.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordiske-lande_v2_showcase_2",
       "type": "link",
-      "title": "NATO · Member countries",
+      "title": "Udenrigsministeriet · Danmark i EU",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.nato.int/cps/en/natohq/topics_52044.htm",
-        "label": "NATO · Member countries",
-        "note": "web/officiel · Brug til NATO-medlemskab og nyere nordisk sikkerhedspolitik.",
+        "url": "https://um.dk/udenrigspolitik/eu-da/danmark-i-eu/danmarks-medlemskab/",
+        "label": "Udenrigsministeriet · Danmark i EU",
+        "note": "Brug til Danmarks EF/EU-medlemskab fra 1973.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-nordiske-lande_v2_showcase"
     ],
     "contentHash": "5a76c9b4087547b26d36f0fb91d5e4b2c748c4bcf76b3b1b14ee29950dd3f2b7",
-    "packageHash": "0d4b9e0af77a3824257242381af0f32a06fb715f2dce1accc4c87760c213d86a"
+    "packageHash": "0d4b9e0af77a3824257242381af0f32a06fb715f2dce1accc4c87760c213d86a",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

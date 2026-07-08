@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-astronomi-rum_v2_showcase"
     ],
     "exportedAt": "2026-07-06T18:30:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-astronomi-rum_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-astronomi-rum_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Astronomi og rum",
@@ -62,7 +66,8 @@
           "Timer",
           "Demo-mission-hold",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "NASA Solar System Exploration",
-            "url": "https://science.nasa.gov/solar-system/",
-            "type": "web/reference",
-            "category": "Solsystemets verdener",
-            "note": "Brug siden til planetfakta, måner og smålegemer.",
+            "title": "Vild med rummet · Solsystemet",
+            "url": "https://www.vildmedrummet.dk/solsystemet/",
+            "type": "dansk/undervisning",
+            "category": "Solsystemet",
+            "note": "Brug til planeter, dværgplaneter, asteroidebæltet, Kuiperbæltet og Pluto.",
             "tags": [
-              "solsystemets-verdener",
-              "web-reference"
+              "solsystemet",
+              "planeter",
+              "pluto"
             ]
           },
           {
-            "title": "NASA Mars Exploration",
-            "url": "https://mars.nasa.gov/",
-            "type": "web/medie",
-            "category": "Rumfart og observation",
-            "note": "Brug rover- og missionssider som kilde til Mars-spørgsmål.",
+            "title": "Lex · planet",
+            "url": "https://lex.dk/planet",
+            "type": "dansk/leksikon",
+            "category": "Planeter",
+            "note": "Brug til planeternes rækkefølge, omløbstid og definitionen af planet/dværgplanet.",
             "tags": [
-              "rumfart-og-observation",
-              "web-medie"
+              "planet",
+              "omløbstid",
+              "dværgplanet"
             ]
           },
           {
-            "title": "ESA Space for Education",
-            "url": "https://www.esa.int/Education",
-            "type": "web/undervisning",
-            "category": "Rumfart og observation",
-            "note": "God fælles indgang til europæisk rumfart og elevvenlige forklaringer.",
+            "title": "Vild med rummet · Mars",
+            "url": "https://www.vildmedrummet.dk/solsystemet/andre-planeter/mars/",
+            "type": "dansk/undervisning",
+            "category": "Mars",
+            "note": "Brug til Olympus Mons, Mars-rovere, Jezero-krateret og Gale-krateret.",
             "tags": [
-              "rumfart-og-observation",
-              "web-undervisning"
+              "mars",
+              "olympus-mons",
+              "rovere"
             ]
           },
           {
-            "title": "IAU · Pluto and the Solar System",
-            "url": "https://www.iau.org/public/themes/pluto/",
-            "type": "web/reference",
-            "category": "Måner og smålegemer",
-            "note": "Brug til at forklare Pluto, dværgplaneter og kategorier.",
+            "title": "Faktalink · Rummet",
+            "url": "https://faktalink.dk/emner/rummet-faktalink-light",
+            "type": "dansk/bibliotek",
+            "category": "Stjerner og universet",
+            "note": "Brug til supernova, pulsar, nebula og centrale begreber om stjerner og galakser.",
             "tags": [
-              "maaner-og-smaalegemer",
-              "web-reference"
+              "rummet",
+              "stjerner",
+              "universet"
             ]
           },
           {
-            "title": "NASA Universe",
-            "url": "https://science.nasa.gov/universe/",
-            "type": "web/reference",
-            "category": "Stjerner og galakser",
-            "note": "Brug til stjerner, tåger, supernovaer og galakser.",
+            "title": "Vild med rummet · Rumfart",
+            "url": "https://www.vildmedrummet.dk/rumfart/",
+            "type": "dansk/undervisning",
+            "category": "Rumsonder og missioner",
+            "note": "Brug til Voyager 1, New Horizons, Cassini og missioner længere ude i Solsystemet.",
             "tags": [
-              "stjerner-og-galakser",
-              "web-reference"
+              "rumfart",
+              "voyager",
+              "cassini"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-astronomi-rum_v2_showcase_2",
       "type": "link",
-      "title": "NASA Solar System Exploration",
+      "title": "Vild med rummet · Solsystemet",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://science.nasa.gov/solar-system/",
-        "label": "NASA Solar System Exploration",
-        "note": "web/reference · Brug siden til planetfakta, måner og smålegemer.",
+        "url": "https://www.vildmedrummet.dk/solsystemet/",
+        "label": "Vild med rummet · Solsystemet",
+        "note": "Brug til planeter, dværgplaneter, asteroidebæltet, Kuiperbæltet og Pluto.",
         "view": "link"
       },
       "settings": {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-astronomi-rum_v2_showcase_2",
       "type": "link",
-      "title": "NASA Mars Exploration",
+      "title": "Lex · planet",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://mars.nasa.gov/",
-        "label": "NASA Mars Exploration",
-        "note": "web/medie · Brug rover- og missionssider som kilde til Mars-spørgsmål.",
+        "url": "https://lex.dk/planet",
+        "label": "Lex · planet",
+        "note": "Brug til planeternes rækkefølge, omløbstid og definitionen af planet/dværgplanet.",
         "view": "link"
       },
       "settings": {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-astronomi-rum_v2_showcase_2",
       "type": "link",
-      "title": "ESA Space for Education",
+      "title": "Vild med rummet · Mars",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.esa.int/Education",
-        "label": "ESA Space for Education",
-        "note": "web/undervisning · God fælles indgang til europæisk rumfart og elevvenlige forklaringer.",
+        "url": "https://www.vildmedrummet.dk/solsystemet/andre-planeter/mars/",
+        "label": "Vild med rummet · Mars",
+        "note": "Brug til Olympus Mons, Mars-rovere, Jezero-krateret og Gale-krateret.",
         "view": "link"
       },
       "settings": {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-astronomi-rum_v2_showcase_2",
       "type": "link",
-      "title": "IAU · Pluto and the Solar System",
+      "title": "Faktalink · Rummet",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.iau.org/public/themes/pluto/",
-        "label": "IAU · Pluto and the Solar System",
-        "note": "web/reference · Brug til at forklare Pluto, dværgplaneter og kategorier.",
+        "url": "https://faktalink.dk/emner/rummet-faktalink-light",
+        "label": "Faktalink · Rummet",
+        "note": "Brug til supernova, pulsar, nebula og centrale begreber om stjerner og galakser.",
         "view": "link"
       },
       "settings": {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-astronomi-rum_v2_showcase_2",
       "type": "link",
-      "title": "NASA Universe",
+      "title": "Vild med rummet · Rumfart",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://science.nasa.gov/universe/",
-        "label": "NASA Universe",
-        "note": "web/reference · Brug til stjerner, tåger, supernovaer og galakser.",
+        "url": "https://www.vildmedrummet.dk/rumfart/",
+        "label": "Vild med rummet · Rumfart",
+        "note": "Brug til Voyager 1, New Horizons, Cassini og missioner længere ude i Solsystemet.",
         "view": "link"
       },
       "settings": {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-astronomi-rum_v2_showcase"
     ],
     "contentHash": "74846d84dbc9d359ce9a5e2fad76db720f6464cfcc90fc3415900675bd4f9e44",
-    "packageHash": "2b20d7928328c4dc6413e6ed8e20294d61926b8b8d3cd8bab1f91be771c7b999"
+    "packageHash": "2b20d7928328c4dc6413e6ed8e20294d61926b8b8d3cd8bab1f91be771c7b999",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

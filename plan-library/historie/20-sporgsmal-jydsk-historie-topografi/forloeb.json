@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Jydsk historie og topografi",
@@ -63,7 +67,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "VisitDenmark · Jylland",
-            "url": "https://www.visitdenmark.dk/",
-            "type": "web/turismekilde",
-            "category": "Byer og kendte steder",
-            "note": "Brug kritisk til steder, attraktioner og lokalisering.",
+            "title": "Lex · Jylland",
+            "url": "https://lex.dk/Jylland",
+            "type": "dansk/leksikon",
+            "category": "Jylland og topografi",
+            "note": "Brug som samlet geografisk indgang til Jylland, Limfjorden og landsdele.",
             "tags": [
-              "byer-og-kendte-steder",
-              "web-turismekilde"
+              "jylland",
+              "topografi",
+              "limfjorden"
+            ]
+          },
+          {
+            "title": "Kongernes Jelling",
+            "url": "https://kongernesjelling.dk/",
+            "type": "dansk/museum",
+            "category": "Jelling og tidlig historie",
+            "note": "Brug til Jellingområdet og den jyske kongemagt i vikingetiden.",
+            "tags": [
+              "jelling",
+              "vikingetid",
+              "museum"
+            ]
+          },
+          {
+            "title": "Danmarkshistorien · Krigen 1864",
+            "url": "https://danmarkshistorien.dk/vis/materiale/krigen-1864",
+            "type": "dansk/undervisning",
+            "category": "Sønderjylland og krigshistorie",
+            "note": "Brug til Dybbøl, Sønderjylland og baggrunden for 1864.",
+            "tags": [
+              "dybboel",
+              "1864",
+              "soenderjylland"
             ]
           },
           {
             "title": "Nationalpark Thy",
             "url": "https://nationalparkthy.dk/",
-            "type": "web/officiel",
-            "category": "Landskab og farvande",
-            "note": "Brug til klit- og hedelandskaber.",
+            "type": "dansk/naturformidling",
+            "category": "Nationalparker",
+            "note": "Brug til klit- og hedelandskaberne ved den nordvestjyske kyst.",
             "tags": [
-              "landskab-og-farvande",
-              "web-officiel"
+              "thy",
+              "nationalpark",
+              "natur"
             ]
           },
           {
-            "title": "Nationalpark Mols Bjerge",
-            "url": "https://nationalparkmolsbjerge.dk/",
-            "type": "web/officiel",
-            "category": "Landskab og farvande",
-            "note": "Brug til istidslandskab og Djursland.",
-            "tags": [
-              "landskab-og-farvande",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "Museum Sønderjylland",
-            "url": "https://msj.dk/",
-            "type": "web/museum",
-            "category": "Historie og arkæologi",
-            "note": "Brug til Sønderjylland, Dybbøl og lokalhistorie.",
-            "tags": [
-              "historie-og-arkaeologi",
-              "web-museum"
-            ]
-          },
-          {
-            "title": "Skagens Museum",
+            "title": "Skagens Kunstmuseer",
             "url": "https://skagenskunstmuseer.dk/",
-            "type": "web/museum",
-            "category": "Kultur, erhverv og forbindelser",
-            "note": "Brug til Skagensmalerne og billedkilder.",
+            "type": "dansk/museum",
+            "category": "Jysk kulturhistorie",
+            "note": "Brug til P.S. Krøyer, skagensmalerne og værket Hip, hip, hurra!.",
             "tags": [
-              "kultur-erhverv-og-forbindelser",
-              "web-museum"
+              "skagen",
+              "ps-kroeyer",
+              "kunst"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "VisitDenmark · Jylland",
+      "title": "Lex · Jylland",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.visitdenmark.dk/",
-        "label": "VisitDenmark · Jylland",
-        "note": "web/turismekilde · Brug kritisk til steder, attraktioner og lokalisering.",
+        "url": "https://lex.dk/Jylland",
+        "label": "Lex · Jylland",
+        "note": "Brug som samlet geografisk indgang til Jylland, Limfjorden og landsdele.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Nationalpark Thy",
+      "title": "Kongernes Jelling",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://nationalparkthy.dk/",
-        "label": "Nationalpark Thy",
-        "note": "web/officiel · Brug til klit- og hedelandskaber.",
+        "url": "https://kongernesjelling.dk/",
+        "label": "Kongernes Jelling",
+        "note": "Brug til Jellingområdet og den jyske kongemagt i vikingetiden.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Nationalpark Mols Bjerge",
+      "title": "Danmarkshistorien · Krigen 1864",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://nationalparkmolsbjerge.dk/",
-        "label": "Nationalpark Mols Bjerge",
-        "note": "web/officiel · Brug til istidslandskab og Djursland.",
+        "url": "https://danmarkshistorien.dk/vis/materiale/krigen-1864",
+        "label": "Danmarkshistorien · Krigen 1864",
+        "note": "Brug til Dybbøl, Sønderjylland og baggrunden for 1864.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Museum Sønderjylland",
+      "title": "Nationalpark Thy",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://msj.dk/",
-        "label": "Museum Sønderjylland",
-        "note": "web/museum · Brug til Sønderjylland, Dybbøl og lokalhistorie.",
+        "url": "https://nationalparkthy.dk/",
+        "label": "Nationalpark Thy",
+        "note": "Brug til klit- og hedelandskaberne ved den nordvestjyske kyst.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Skagens Museum",
+      "title": "Skagens Kunstmuseer",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -742,8 +752,8 @@
       },
       "content": {
         "url": "https://skagenskunstmuseer.dk/",
-        "label": "Skagens Museum",
-        "note": "web/museum · Brug til Skagensmalerne og billedkilder.",
+        "label": "Skagens Kunstmuseer",
+        "note": "Brug til P.S. Krøyer, skagensmalerne og værket Hip, hip, hurra!.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-jydsk-historie-topografi_v2_showcase"
     ],
     "contentHash": "4f93e9fab08cb6c69a15e56d362d23eb3d47f1cdfb42eeb6ac998ff83daf1dc1",
-    "packageHash": "a563b0d495a170211ffcf7d77794e27ade582a1750c5b96a31d644c64bfdc3a8"
+    "packageHash": "a563b0d495a170211ffcf7d77794e27ade582a1750c5b96a31d644c64bfdc3a8",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Danmark · historie og topografi",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Danmarkshistorien.dk",
-            "url": "https://danmarkshistorien.dk/",
-            "type": "web/fagkilde",
-            "category": "Konger, krige og demokrati",
-            "note": "Brug til historiske begivenheder og samfundsudvikling.",
+            "title": "Danmarkshistorien · temaer om Danmarks historie",
+            "url": "https://danmarkshistorien.lex.dk/Temaer_om_Danmarks_historie",
+            "type": "dansk/undervisning",
+            "category": "Danmarkshistorie",
+            "note": "Brug til Kalmarunionen, Grevens Fejde, 1814, 1801/1807 og nyere institutioner.",
             "tags": [
-              "konger-krige-og-demokrati",
-              "web-fagkilde"
+              "danmarkshistorie",
+              "temaer",
+              "overblik"
             ]
           },
           {
-            "title": "Lex.dk · Danmark",
+            "title": "Lex · Danmark",
             "url": "https://lex.dk/Danmark",
-            "type": "web/reference",
-            "category": "Byer, øer og landskaber",
-            "note": "Brug som dansk opslagskilde til geografi og topografi.",
+            "type": "dansk/leksikon",
+            "category": "Topografi",
+            "note": "Brug til øer, farvande, Møn, Storebælt, Lillebælt og Øresund.",
             "tags": [
-              "byer-oeer-og-landskaber",
-              "web-reference"
+              "danmark",
+              "topografi",
+              "geografi"
             ]
           },
           {
-            "title": "Nationalmuseet · Danmarks oldtid",
-            "url": "https://natmus.dk/historisk-viden/danmark/oldtid-indtil-aar-1050/",
-            "type": "web/museum",
-            "category": "Oldtid og middelalder",
-            "note": "Brug til Jelling, vikingetid og oldtid.",
+            "title": "Danmarkshistorien · Kongemagten fra Jellingsten til enevælde",
+            "url": "https://danmarkshistorien.lex.dk/Kongemagten_-_fra_Jellingsten_til_enev%C3%A6lde%2C_800-1849",
+            "type": "dansk/undervisning",
+            "category": "Kongemagt og unioner",
+            "note": "Brug til kongemagt, Jellingsten, Kalmarunionen og enevælde/grundlovsperspektiv.",
             "tags": [
-              "oldtid-og-middelalder",
-              "web-museum"
+              "kongemagt",
+              "jelling",
+              "kalmarunionen"
             ]
           },
           {
             "title": "Kongernes Jelling",
             "url": "https://kongernesjelling.dk/",
-            "type": "web/museum",
-            "category": "Oldtid og middelalder",
-            "note": "Brug til Jellingstenen og Harald Blåtand.",
+            "type": "dansk/museum",
+            "category": "Jelling og Harald Blåtand",
+            "note": "Brug til Jellingstenen, Harald Blåtand og kristningen af danerne.",
             "tags": [
-              "oldtid-og-middelalder",
-              "web-museum"
+              "jelling",
+              "harald-blaatand",
+              "kristning"
             ]
           },
           {
-            "title": "DR Historie",
-            "url": "https://www.dr.dk/historie",
-            "type": "web/medie",
-            "category": "Kulturhistorie og samfund",
-            "note": "Brug korte artikler og klip som mediekilder.",
+            "title": "Nationalmuseet · Vikingetiden",
+            "url": "https://natmus.dk/historisk-viden/danmark/oldtid-indtil-aar-1050/vikingetiden/",
+            "type": "dansk/museum",
+            "category": "Vikingeborge",
+            "note": "Brug til Trelleborg, Fyrkat, Aggersborg og ringborge fra Harald Blåtands tid.",
             "tags": [
-              "kulturhistorie-og-samfund",
-              "web-medie"
+              "vikingeborge",
+              "ringborge",
+              "nationalmuseet"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Danmarkshistorien.dk",
+      "title": "Danmarkshistorien · temaer om Danmarks historie",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://danmarkshistorien.dk/",
-        "label": "Danmarkshistorien.dk",
-        "note": "web/fagkilde · Brug til historiske begivenheder og samfundsudvikling.",
+        "url": "https://danmarkshistorien.lex.dk/Temaer_om_Danmarks_historie",
+        "label": "Danmarkshistorien · temaer om Danmarks historie",
+        "note": "Brug til Kalmarunionen, Grevens Fejde, 1814, 1801/1807 og nyere institutioner.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Lex.dk · Danmark",
+      "title": "Lex · Danmark",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -637,8 +647,8 @@
       },
       "content": {
         "url": "https://lex.dk/Danmark",
-        "label": "Lex.dk · Danmark",
-        "note": "web/reference · Brug som dansk opslagskilde til geografi og topografi.",
+        "label": "Lex · Danmark",
+        "note": "Brug til øer, farvande, Møn, Storebælt, Lillebælt og Øresund.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "Nationalmuseet · Danmarks oldtid",
+      "title": "Danmarkshistorien · Kongemagten fra Jellingsten til enevælde",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://natmus.dk/historisk-viden/danmark/oldtid-indtil-aar-1050/",
-        "label": "Nationalmuseet · Danmarks oldtid",
-        "note": "web/museum · Brug til Jelling, vikingetid og oldtid.",
+        "url": "https://danmarkshistorien.lex.dk/Kongemagten_-_fra_Jellingsten_til_enev%C3%A6lde%2C_800-1849",
+        "label": "Danmarkshistorien · Kongemagten fra Jellingsten til enevælde",
+        "note": "Brug til kongemagt, Jellingsten, Kalmarunionen og enevælde/grundlovsperspektiv.",
         "view": "link"
       },
       "settings": {
@@ -708,7 +718,7 @@
       "content": {
         "url": "https://kongernesjelling.dk/",
         "label": "Kongernes Jelling",
-        "note": "web/museum · Brug til Jellingstenen og Harald Blåtand.",
+        "note": "Brug til Jellingstenen, Harald Blåtand og kristningen af danerne.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase_2",
       "type": "link",
-      "title": "DR Historie",
+      "title": "Nationalmuseet · Vikingetiden",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.dr.dk/historie",
-        "label": "DR Historie",
-        "note": "web/medie · Brug korte artikler og klip som mediekilder.",
+        "url": "https://natmus.dk/historisk-viden/danmark/oldtid-indtil-aar-1050/vikingetiden/",
+        "label": "Nationalmuseet · Vikingetiden",
+        "note": "Brug til Trelleborg, Fyrkat, Aggersborg og ringborge fra Harald Blåtands tid.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-danmark-historie-topografi_v2_showcase"
     ],
     "contentHash": "5e390136ef0f124ce46d7ab94d04b47c611c5ac2a02a58a72fb160ea8661617d",
-    "packageHash": "50f2da59f2a826c3fc15dca2265bcaeb26dea77babb7114a5537b0a08d4a7093"
+    "packageHash": "50f2da59f2a826c3fc15dca2265bcaeb26dea77babb7114a5537b0a08d4a7093",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

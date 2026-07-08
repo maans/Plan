@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-verdenskrigene_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-verdenskrigene_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Verdenskrigenes historie",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Timer",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Imperial War Museums",
-            "url": "https://www.iwm.org.uk/",
-            "type": "web/arkiv",
-            "category": "Verdenskrigene",
-            "note": "Brug billeder, artikler og kilder.",
-            "tags": [
-              "verdenskrigene",
-              "web-arkiv"
-            ]
-          },
-          {
-            "title": "National WWI Museum and Memorial",
-            "url": "https://www.theworldwar.org/",
-            "type": "web/museum",
+            "title": "Danmarkshistorien · Danmark under 1. verdenskrig",
+            "url": "https://danmarkshistorien.lex.dk/Danmark_under_1._verdenskrig",
+            "type": "dansk/undervisning",
             "category": "Første Verdenskrig",
-            "note": "Brug til WWI-sporet.",
+            "note": "Brug til Første Verdenskrig set fra Danmark og krigens ramme 1914-1918.",
             "tags": [
               "foerste-verdenskrig",
-              "web-museum"
+              "danmark",
+              "overblik"
             ]
           },
           {
-            "title": "United States Holocaust Memorial Museum",
-            "url": "https://www.ushmm.org/",
-            "type": "web/museum",
-            "category": "Holocaust",
-            "note": "Brug til Holocaust og kildekritik.",
+            "title": "Lex · 1. Verdenskrig",
+            "url": "https://lex.dk/1._Verdenskrig",
+            "type": "dansk/leksikon",
+            "category": "Første Verdenskrig",
+            "note": "Brug til U-både, Lusitania, USA i 1917, Oktoberrevolutionen og Brest-Litovsk.",
             "tags": [
-              "holocaust",
-              "web-museum"
+              "lusitania",
+              "usa-1917",
+              "brest-litovsk"
             ]
           },
           {
-            "title": "National Archives UK · WWII",
-            "url": "https://www.nationalarchives.gov.uk/education/worldwar2/",
-            "type": "web/kilder",
+            "title": "Lex · 2. Verdenskrig",
+            "url": "https://lex.dk/2._Verdenskrig",
+            "type": "dansk/leksikon",
             "category": "Anden Verdenskrig",
-            "note": "Brug primærkilder og elevopgaver.",
+            "note": "Brug til Barbarossa, Stalingrad, Kursk, D-dag, Overlord, Japan og Manhattanprojektet.",
             "tags": [
               "anden-verdenskrig",
-              "web-kilder"
+              "barbarossa",
+              "d-dag"
             ]
           },
           {
-            "title": "danmarkshistorien.dk · Besættelsen",
-            "url": "https://danmarkshistorien.dk/",
-            "type": "web/fagportal",
-            "category": "Danmark og efterspil",
-            "note": "Brug til dansk modstand og efterspil.",
+            "title": "Folkedrab.dk · Holocaust",
+            "url": "https://folkedrab.dk/eksempler-paa-folkedrab/holocaust",
+            "type": "dansk/undervisning",
+            "category": "Holocaust",
+            "note": "Brug til Holocaust, Auschwitz-Birkenau og de omtrent seks millioner myrdede jøder.",
             "tags": [
-              "danmark-og-efterspil",
-              "web-fagportal"
+              "holocaust",
+              "auschwitz",
+              "folkedrab"
+            ]
+          },
+          {
+            "title": "Danmarkshistorien · Sabotage under besættelsen",
+            "url": "https://danmarkshistorien.dk/vis/materiale/sabotage-i-danmark-under-besaettelsen-1940-45",
+            "type": "dansk/undervisning",
+            "category": "Danmark under besættelsen",
+            "note": "Brug til modstandsgrupper, sabotage, Hvidstengruppen, Flammen og Citronen samt Folkestrejken.",
+            "tags": [
+              "besættelsen",
+              "modstand",
+              "sabotage"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
       "type": "link",
-      "title": "Imperial War Museums",
+      "title": "Danmarkshistorien · Danmark under 1. verdenskrig",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.iwm.org.uk/",
-        "label": "Imperial War Museums",
-        "note": "web/arkiv · Brug billeder, artikler og kilder.",
+        "url": "https://danmarkshistorien.lex.dk/Danmark_under_1._verdenskrig",
+        "label": "Danmarkshistorien · Danmark under 1. verdenskrig",
+        "note": "Brug til Første Verdenskrig set fra Danmark og krigens ramme 1914-1918.",
         "view": "link"
       },
       "settings": {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
       "type": "link",
-      "title": "National WWI Museum and Memorial",
+      "title": "Lex · 1. Verdenskrig",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.theworldwar.org/",
-        "label": "National WWI Museum and Memorial",
-        "note": "web/museum · Brug til WWI-sporet.",
+        "url": "https://lex.dk/1._Verdenskrig",
+        "label": "Lex · 1. Verdenskrig",
+        "note": "Brug til U-både, Lusitania, USA i 1917, Oktoberrevolutionen og Brest-Litovsk.",
         "view": "link"
       },
       "settings": {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
       "type": "link",
-      "title": "United States Holocaust Memorial Museum",
+      "title": "Lex · 2. Verdenskrig",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.ushmm.org/",
-        "label": "United States Holocaust Memorial Museum",
-        "note": "web/museum · Brug til Holocaust og kildekritik.",
+        "url": "https://lex.dk/2._Verdenskrig",
+        "label": "Lex · 2. Verdenskrig",
+        "note": "Brug til Barbarossa, Stalingrad, Kursk, D-dag, Overlord, Japan og Manhattanprojektet.",
         "view": "link"
       },
       "settings": {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
       "type": "link",
-      "title": "National Archives UK · WWII",
+      "title": "Folkedrab.dk · Holocaust",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.nationalarchives.gov.uk/education/worldwar2/",
-        "label": "National Archives UK · WWII",
-        "note": "web/kilder · Brug primærkilder og elevopgaver.",
+        "url": "https://folkedrab.dk/eksempler-paa-folkedrab/holocaust",
+        "label": "Folkedrab.dk · Holocaust",
+        "note": "Brug til Holocaust, Auschwitz-Birkenau og de omtrent seks millioner myrdede jøder.",
         "view": "link"
       },
       "settings": {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdenskrigene_v2_showcase_2",
       "type": "link",
-      "title": "danmarkshistorien.dk · Besættelsen",
+      "title": "Danmarkshistorien · Sabotage under besættelsen",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://danmarkshistorien.dk/",
-        "label": "danmarkshistorien.dk · Besættelsen",
-        "note": "web/fagportal · Brug til dansk modstand og efterspil.",
+        "url": "https://danmarkshistorien.dk/vis/materiale/sabotage-i-danmark-under-besaettelsen-1940-45",
+        "label": "Danmarkshistorien · Sabotage under besættelsen",
+        "note": "Brug til modstandsgrupper, sabotage, Hvidstengruppen, Flammen og Citronen samt Folkestrejken.",
         "view": "link"
       },
       "settings": {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-verdenskrigene_v2_showcase"
     ],
     "contentHash": "b675c1dc86a85089b44e423b8313c00e1a30f5a6c50e79578174bd03d367a33d",
-    "packageHash": "8a9ad0a0684a7df08f7b1df6ffc1ba98518a3296e01b49745bfa30e064b6a2c7"
+    "packageHash": "8a9ad0a0684a7df08f7b1df6ffc1ba98518a3296e01b49745bfa30e064b6a2c7",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

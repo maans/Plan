@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-klimaforandringer_v2_showcase"
     ],
     "exportedAt": "2026-07-06T18:30:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-klimaforandringer_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-klimaforandringer_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Klimaforandringer",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "IPCC",
-            "url": "https://www.ipcc.ch/",
-            "type": "web/rapport",
-            "category": "Alle kategorier",
-            "note": "Brug som hovedkilde til klima, risici og løsninger.",
+            "title": "DMI · Klimastatus 2025",
+            "url": "https://www.dmi.dk/fileadmin/NCKF/Rapporter/NCKF_-_Klimastatus_2025.pdf",
+            "type": "dansk/myndighed",
+            "category": "Klima og feedback",
+            "note": "Brug til albedo, feedback, arktisk forstærkning, hedebølger og kraftigere nedbør.",
             "tags": [
-              "alle-kategorier",
-              "web-rapport"
+              "dmi",
+              "klima",
+              "feedback"
             ]
           },
           {
             "title": "DMI · Klimaatlas",
             "url": "https://www.dmi.dk/klima-atlas/",
-            "type": "data/web",
-            "category": "Følger og risici",
-            "note": "Brug danske data og scenarier som konkret kilde.",
+            "type": "dansk/myndighed",
+            "category": "Danske klimadata",
+            "note": "Brug til danske konsekvenser, temperatur, nedbør, tørke og fremtidige klimascenarier.",
             "tags": [
-              "foelger-og-risici",
-              "data-web"
+              "klimaatlas",
+              "danmark",
+              "nedbør"
             ]
           },
           {
-            "title": "NASA Global Climate Change",
-            "url": "https://climate.nasa.gov/",
-            "type": "web/data",
-            "category": "Klima og drivhuseffekt",
-            "note": "Brug grafik og forklaringer om drivhuseffekt og feedbacks.",
+            "title": "IPCC · Dansk sammendrag for beslutningstagere",
+            "url": "https://www.ipcc.ch/site/assets/uploads/2021/03/AR5_WGI_SPM_dk.pdf",
+            "type": "dansk/forskningsresume",
+            "category": "Drivhusgasser",
+            "note": "Brug til CO₂, metan, HFC, PFC, SF₆ og videnskabeligt grundlag for drivhuseffekten.",
             "tags": [
-              "klima-og-drivhuseffekt",
-              "web-data"
+              "ipcc",
+              "drivhusgasser",
+              "f-gasser"
             ]
           },
           {
-            "title": "NOAA Climate.gov",
-            "url": "https://www.climate.gov/",
-            "type": "web/data",
-            "category": "Klima og drivhuseffekt",
-            "note": "Brug data, figurer og forklaringer.",
+            "title": "Energistyrelsen · Energieffektivitet først",
+            "url": "https://ens.dk/media/7679/download",
+            "type": "dansk/myndighed",
+            "category": "Klimatiltag",
+            "note": "Brug til energieffektivitet, elektrificering, varmepumper og lavere energiforbrug.",
             "tags": [
-              "klima-og-drivhuseffekt",
-              "web-data"
+              "energistyrelsen",
+              "energieffektivitet",
+              "elektrificering"
             ]
           },
           {
-            "title": "UNFCCC · Paris Agreement",
-            "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
-            "type": "web/officiel",
-            "category": "Løsninger og aftaler",
-            "note": "Brug til aftalesporet og internationale løsninger.",
+            "title": "Klimatilpasning.dk",
+            "url": "https://www.klimatilpasning.dk/",
+            "type": "dansk/myndighed",
+            "category": "Tilpasning og ekstremvejr",
+            "note": "Brug til hedebølger, tørke, kraftig nedbør og praktisk klimatilpasning.",
             "tags": [
-              "loesninger-og-aftaler",
-              "web-officiel"
+              "klimatilpasning",
+              "ekstremvejr",
+              "tørke"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-klimaforandringer_v2_showcase_2",
       "type": "link",
-      "title": "IPCC",
+      "title": "DMI · Klimastatus 2025",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.ipcc.ch/",
-        "label": "IPCC",
-        "note": "web/rapport · Brug som hovedkilde til klima, risici og løsninger.",
+        "url": "https://www.dmi.dk/fileadmin/NCKF/Rapporter/NCKF_-_Klimastatus_2025.pdf",
+        "label": "DMI · Klimastatus 2025",
+        "note": "Brug til albedo, feedback, arktisk forstærkning, hedebølger og kraftigere nedbør.",
         "view": "link"
       },
       "settings": {
@@ -638,7 +648,7 @@
       "content": {
         "url": "https://www.dmi.dk/klima-atlas/",
         "label": "DMI · Klimaatlas",
-        "note": "data/web · Brug danske data og scenarier som konkret kilde.",
+        "note": "Brug til danske konsekvenser, temperatur, nedbør, tørke og fremtidige klimascenarier.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-klimaforandringer_v2_showcase_2",
       "type": "link",
-      "title": "NASA Global Climate Change",
+      "title": "IPCC · Dansk sammendrag for beslutningstagere",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://climate.nasa.gov/",
-        "label": "NASA Global Climate Change",
-        "note": "web/data · Brug grafik og forklaringer om drivhuseffekt og feedbacks.",
+        "url": "https://www.ipcc.ch/site/assets/uploads/2021/03/AR5_WGI_SPM_dk.pdf",
+        "label": "IPCC · Dansk sammendrag for beslutningstagere",
+        "note": "Brug til CO₂, metan, HFC, PFC, SF₆ og videnskabeligt grundlag for drivhuseffekten.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-klimaforandringer_v2_showcase_2",
       "type": "link",
-      "title": "NOAA Climate.gov",
+      "title": "Energistyrelsen · Energieffektivitet først",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.climate.gov/",
-        "label": "NOAA Climate.gov",
-        "note": "web/data · Brug data, figurer og forklaringer.",
+        "url": "https://ens.dk/media/7679/download",
+        "label": "Energistyrelsen · Energieffektivitet først",
+        "note": "Brug til energieffektivitet, elektrificering, varmepumper og lavere energiforbrug.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-klimaforandringer_v2_showcase_2",
       "type": "link",
-      "title": "UNFCCC · Paris Agreement",
+      "title": "Klimatilpasning.dk",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
-        "label": "UNFCCC · Paris Agreement",
-        "note": "web/officiel · Brug til aftalesporet og internationale løsninger.",
+        "url": "https://www.klimatilpasning.dk/",
+        "label": "Klimatilpasning.dk",
+        "note": "Brug til hedebølger, tørke, kraftig nedbør og praktisk klimatilpasning.",
         "view": "link"
       },
       "settings": {
@@ -2507,7 +2517,11 @@
       "session_professor_20-sporgsmal-klimaforandringer_v2_showcase"
     ],
     "contentHash": "ee181a0759d88050173a72b5f64b1112db7cc0da8065fab41f7d189cb7400abc",
-    "packageHash": "d701e98598325c0f332f920f96a7750baaa4077f45cae0feb4511381e89adf4b"
+    "packageHash": "d701e98598325c0f332f920f96a7750baaa4077f45cae0feb4511381e89adf4b",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-dansk-litteratur_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-dansk-litteratur_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-dansk-litteratur_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Dansk litteratur",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Timer",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -515,60 +520,65 @@
           {
             "title": "Arkiv for Dansk Litteratur",
             "url": "https://adl.dk/",
-            "type": "web/arkiv",
-            "category": "Forfattere og værker",
-            "note": "Find forfattere, værker og tekstuddrag.",
+            "type": "dansk/litteraturarkiv",
+            "category": "Klassiske forfattere og værker",
+            "note": "Brug til Oehlenschläger, Kierkegaard, Blicher, H.C. Andersen og andre klassiske tekster.",
             "tags": [
-              "forfattere-og-vaerker",
-              "web-arkiv"
+              "adl",
+              "klassikere",
+              "forfattere"
             ]
           },
           {
             "title": "Forfatterweb",
             "url": "https://forfatterweb.dk/",
-            "type": "web/reference",
-            "category": "Forfattere og værker",
-            "note": "Brug biografier og værkoverblik som læsekilde.",
+            "type": "dansk/undervisning",
+            "category": "Forfatterportrætter",
+            "note": "Brug til oversigter over forfattere, hovedværker, perioder og tematikker.",
             "tags": [
-              "forfattere-og-vaerker",
-              "web-reference"
+              "forfatterweb",
+              "biografier",
+              "dansk"
             ]
           },
           {
-            "title": "Litteraturpriser.dk",
-            "url": "https://litteraturpriser.dk/",
-            "type": "web/reference",
-            "category": "Priser, sprog og litteraturliv",
-            "note": "Brug til pris- og forfatterspor.",
+            "title": "Lex · dansk litteratur",
+            "url": "https://lex.dk/dansk_litteratur",
+            "type": "dansk/leksikon",
+            "category": "Litteraturhistorie",
+            "note": "Brug til perioder, retninger og samlet historisk overblik over dansk litteratur.",
             "tags": [
-              "priser-sprog-og-litteraturliv",
-              "web-reference"
+              "litteraturhistorie",
+              "lex",
+              "perioder"
             ]
           },
           {
-            "title": "Den Store Danske · Litteratur",
-            "url": "https://lex.dk/",
-            "type": "web/leksikon",
-            "category": "Perioder og strømninger",
-            "note": "Brug til begreber og perioder.",
+            "title": "Litteratursiden",
+            "url": "https://litteratursiden.dk/",
+            "type": "dansk/bibliotek",
+            "category": "Værker og personer",
+            "note": "Brug til værkbeskrivelser og personer i romaner som Kongens Fald, Barndommens gade og Erindring om kærligheden.",
             "tags": [
-              "perioder-og-stroemninger",
-              "web-leksikon"
+              "værker",
+              "romaner",
+              "bibliotek"
             ]
           },
           {
             "title": "Nordisk Råd · Litteraturprisen",
             "url": "https://www.norden.org/da/literature-prize",
-            "type": "web/officiel",
-            "category": "Priser, sprog og litteraturliv",
-            "note": "Brug som primærnær kilde til prisvindere.",
+            "type": "dansk/organisation",
+            "category": "Litteraturpriser",
+            "note": "Brug til Nordisk Råds litteraturpris og nyere prisvindere som Kirsten Thorup.",
             "tags": [
-              "priser-sprog-og-litteraturliv",
-              "web-officiel"
+              "nordisk-raad",
+              "litteraturpris",
+              "kirsten-thorup"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -602,7 +612,7 @@
       "content": {
         "url": "https://adl.dk/",
         "label": "Arkiv for Dansk Litteratur",
-        "note": "web/arkiv · Find forfattere, værker og tekstuddrag.",
+        "note": "Brug til Oehlenschläger, Kierkegaard, Blicher, H.C. Andersen og andre klassiske tekster.",
         "view": "link"
       },
       "settings": {
@@ -637,7 +647,7 @@
       "content": {
         "url": "https://forfatterweb.dk/",
         "label": "Forfatterweb",
-        "note": "web/reference · Brug biografier og værkoverblik som læsekilde.",
+        "note": "Brug til oversigter over forfattere, hovedværker, perioder og tematikker.",
         "view": "link"
       },
       "settings": {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-litteratur_v2_showcase_2",
       "type": "link",
-      "title": "Litteraturpriser.dk",
+      "title": "Lex · dansk litteratur",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://litteraturpriser.dk/",
-        "label": "Litteraturpriser.dk",
-        "note": "web/reference · Brug til pris- og forfatterspor.",
+        "url": "https://lex.dk/dansk_litteratur",
+        "label": "Lex · dansk litteratur",
+        "note": "Brug til perioder, retninger og samlet historisk overblik over dansk litteratur.",
         "view": "link"
       },
       "settings": {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-dansk-litteratur_v2_showcase_2",
       "type": "link",
-      "title": "Den Store Danske · Litteratur",
+      "title": "Litteratursiden",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://lex.dk/",
-        "label": "Den Store Danske · Litteratur",
-        "note": "web/leksikon · Brug til begreber og perioder.",
+        "url": "https://litteratursiden.dk/",
+        "label": "Litteratursiden",
+        "note": "Brug til værkbeskrivelser og personer i romaner som Kongens Fald, Barndommens gade og Erindring om kærligheden.",
         "view": "link"
       },
       "settings": {
@@ -742,7 +752,7 @@
       "content": {
         "url": "https://www.norden.org/da/literature-prize",
         "label": "Nordisk Råd · Litteraturprisen",
-        "note": "web/officiel · Brug som primærnær kilde til prisvindere.",
+        "note": "Brug til Nordisk Råds litteraturpris og nyere prisvindere som Kirsten Thorup.",
         "view": "link"
       },
       "settings": {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-dansk-litteratur_v2_showcase"
     ],
     "contentHash": "58b6cd4ed1dee5fced4d11c4bde9d44e8447050b84b5abb17ae1143cb98fb4d3",
-    "packageHash": "e8d95b07a7a4fb4d5cb3f6befa7fdc5781b619440ac5a588db462dee570f5e0f"
+    "packageHash": "e8d95b07a7a4fb4d5cb3f6befa7fdc5781b619440ac5a588db462dee570f5e0f",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

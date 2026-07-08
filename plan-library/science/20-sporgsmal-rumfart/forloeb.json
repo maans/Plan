@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-rumfart_v2_showcase"
     ],
     "exportedAt": "2026-07-06T18:30:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-rumfart_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-rumfart_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Rumfart",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "NASA History",
-            "url": "https://history.nasa.gov/",
-            "type": "web/arkiv",
-            "category": "Pionerer og milepæle",
-            "note": "Brug til Mercury, Apollo, rumfærger og missioner.",
+            "title": "Lex · rumfart",
+            "url": "https://lex.dk/rumfart",
+            "type": "dansk/leksikon",
+            "category": "Rumfartens historie",
+            "note": "Brug til rumfartens udvikling, første rumvandring, Apollo, rumfærgen og satellitbaner.",
             "tags": [
-              "pionerer-og-milepaele",
-              "web-arkiv"
+              "rumfart",
+              "apollo",
+              "satellitter"
             ]
           },
           {
-            "title": "NASA Apollo 11",
-            "url": "https://www.nasa.gov/mission/apollo-11/",
-            "type": "web/arkiv",
-            "category": "Raketter og rumfartøjer",
-            "note": "Brug til Apollo 11 og Saturn V.",
+            "title": "Lex · Alan B. Shepard",
+            "url": "https://lex.dk/Alan_B._Shepard",
+            "type": "dansk/leksikon",
+            "category": "Mercury-programmet",
+            "note": "Brug til Alan Shepard, Freedom 7 og den første amerikaner i rummet.",
             "tags": [
-              "raketter-og-rumfartoejer",
-              "web-arkiv"
+              "alan-shepard",
+              "freedom-7",
+              "mercury"
             ]
           },
           {
-            "title": "ISRO Chandrayaan-3",
-            "url": "https://www.isro.gov.in/Chandrayaan3.html",
-            "type": "web/officiel",
-            "category": "Månen og Mars",
-            "note": "Brug til Chandrayaan-3, Vikram og Pragyan.",
+            "title": "Vild med rummet · Rumfart",
+            "url": "https://www.vildmedrummet.dk/rumfart/",
+            "type": "dansk/undervisning",
+            "category": "Missioner og teknologi",
+            "note": "Brug til rumsonder, satellitter, baner og de store trin i rumfartshistorien.",
             "tags": [
-              "maanen-og-mars",
-              "web-officiel"
+              "missioner",
+              "satellitter",
+              "teknologi"
             ]
           },
           {
-            "title": "NASA Mars Exploration",
-            "url": "https://mars.nasa.gov/",
-            "type": "web/medie",
-            "category": "Månen og Mars",
-            "note": "Brug til Marsmissioner og roverhistorie.",
+            "title": "rumfart.dk · Chandrayaan-3 landet nær Månens sydpol",
+            "url": "https://www.rumfart.dk/2023/08/23/chandrayaan-3-landet-naer-maanens-sydpol/",
+            "type": "dansk/fagformidling",
+            "category": "Månemissioner",
+            "note": "Brug til Chandrayaan-3, Vikram-landeren og den bløde landing i 2023.",
             "tags": [
-              "maanen-og-mars",
-              "web-medie"
+              "chandrayaan-3",
+              "vikram",
+              "maanen"
             ]
           },
           {
-            "title": "ESA · Types of orbits",
-            "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
-            "type": "web/forklaring",
-            "category": "Satellitter og rumstationer",
-            "note": "Brug til satellitbaner, LEO og geostationær bane.",
+            "title": "The Planetary Society · Chang'e-4 og Yutu-2",
+            "url": "https://www.planetary.org/space-missions/change-4",
+            "type": "engelsk/ekspertkilde",
+            "category": "Månens bagside",
+            "note": "Brug kun hvor dansk præcis kilde mangler: Yutu-2 og Chang'e-4 på Månens bagside.",
             "tags": [
-              "satellitter-og-rumstationer",
-              "web-forklaring"
+              "yutu-2",
+              "change-4",
+              "maanens-bagside"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "NASA History",
+      "title": "Lex · rumfart",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://history.nasa.gov/",
-        "label": "NASA History",
-        "note": "web/arkiv · Brug til Mercury, Apollo, rumfærger og missioner.",
+        "url": "https://lex.dk/rumfart",
+        "label": "Lex · rumfart",
+        "note": "Brug til rumfartens udvikling, første rumvandring, Apollo, rumfærgen og satellitbaner.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "NASA Apollo 11",
+      "title": "Lex · Alan B. Shepard",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.nasa.gov/mission/apollo-11/",
-        "label": "NASA Apollo 11",
-        "note": "web/arkiv · Brug til Apollo 11 og Saturn V.",
+        "url": "https://lex.dk/Alan_B._Shepard",
+        "label": "Lex · Alan B. Shepard",
+        "note": "Brug til Alan Shepard, Freedom 7 og den første amerikaner i rummet.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "ISRO Chandrayaan-3",
+      "title": "Vild med rummet · Rumfart",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.isro.gov.in/Chandrayaan3.html",
-        "label": "ISRO Chandrayaan-3",
-        "note": "web/officiel · Brug til Chandrayaan-3, Vikram og Pragyan.",
+        "url": "https://www.vildmedrummet.dk/rumfart/",
+        "label": "Vild med rummet · Rumfart",
+        "note": "Brug til rumsonder, satellitter, baner og de store trin i rumfartshistorien.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "NASA Mars Exploration",
+      "title": "rumfart.dk · Chandrayaan-3 landet nær Månens sydpol",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://mars.nasa.gov/",
-        "label": "NASA Mars Exploration",
-        "note": "web/medie · Brug til Marsmissioner og roverhistorie.",
+        "url": "https://www.rumfart.dk/2023/08/23/chandrayaan-3-landet-naer-maanens-sydpol/",
+        "label": "rumfart.dk · Chandrayaan-3 landet nær Månens sydpol",
+        "note": "Brug til Chandrayaan-3, Vikram-landeren og den bløde landing i 2023.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "ESA · Types of orbits",
+      "title": "The Planetary Society · Chang'e-4 og Yutu-2",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
-        "label": "ESA · Types of orbits",
-        "note": "web/forklaring · Brug til satellitbaner, LEO og geostationær bane.",
+        "url": "https://www.planetary.org/space-missions/change-4",
+        "label": "The Planetary Society · Chang'e-4 og Yutu-2",
+        "note": "Brug kun hvor dansk præcis kilde mangler: Yutu-2 og Chang'e-4 på Månens bagside.",
         "view": "link"
       },
       "settings": {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-rumfart_v2_showcase"
     ],
     "contentHash": "aee76e8aed6f797c5ca570cd3602137b4c74911bdf883729e698dd51d9e64e60",
-    "packageHash": "43755b656f8f90b2b22aaa12d39c9381e0f5a541cee4c12be54c42f8d0aee809"
+    "packageHash": "43755b656f8f90b2b22aaa12d39c9381e0f5a541cee4c12be54c42f8d0aee809",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }

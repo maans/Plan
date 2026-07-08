@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-nordisk-mytologi_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-nordisk-mytologi_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T19:27:32Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-nordisk-mytologi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Nordisk mytologi",
@@ -62,7 +66,8 @@
           "Kalender/tidslinje",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Heimskringla.no",
-            "url": "https://heimskringla.no/",
-            "type": "tekst/arkiv",
-            "category": "Kilder, ritualer og ord",
-            "note": "Brug til nordiske kildetekster i oversættelse.",
+            "title": "Lex · nordisk mytologi",
+            "url": "https://lex.dk/nordisk_mytologi",
+            "type": "dansk/leksikon",
+            "category": "Guder og myter",
+            "note": "Brug til guder, jætter, Ragnarok, blót, sejd og centrale begreber.",
             "tags": [
-              "kilder-ritualer-og-ord",
-              "tekst-arkiv"
+              "nordisk-mytologi",
+              "guder",
+              "begreber"
             ]
           },
           {
-            "title": "Den Store Danske · Nordisk mytologi",
-            "url": "https://denstoredanske.lex.dk/Nordisk_mytologi",
-            "type": "web/reference",
-            "category": "Alle kategorier",
-            "note": "Brug til opslag og begrebsafklaring.",
+            "title": "Lex · nordisk kosmologi",
+            "url": "https://lex.dk/nordisk_kosmologi",
+            "type": "dansk/leksikon",
+            "category": "Verdensbillede",
+            "note": "Brug til Midgård, Asgård, Bifrost, Yggdrasil, brønde og verdensopbygning.",
             "tags": [
-              "alle-kategorier",
-              "web-reference"
+              "kosmologi",
+              "bifrost",
+              "yggdrasil"
             ]
           },
           {
-            "title": "Nationalmuseet · Vikingetid og tro",
-            "url": "https://natmus.dk/",
-            "type": "web/museum",
-            "category": "Guder og slægter",
-            "note": "Brug til materielle spor og historisk kontekst.",
+            "title": "Nationalmuseet · Runer",
+            "url": "https://natmus.dk/historisk-viden/temaer/runer/",
+            "type": "dansk/museum",
+            "category": "Vikingetid og kilder",
+            "note": "Brug som dansk museumsindgang til vikingetidens skrift, tro og kulturhistoriske kilder.",
             "tags": [
-              "guder-og-slaegter",
-              "web-museum"
+              "nationalmuseet",
+              "runer",
+              "vikingetid"
             ]
           },
           {
-            "title": "Mythopedia · Norse Mythology",
-            "url": "https://mythopedia.com/topics/norse-mythology",
-            "type": "web/formidling",
-            "category": "Verdener og fortællinger",
-            "note": "Brug med kildekritik til overblik.",
+            "title": "Heimskringla · Edda og norrøne tekster",
+            "url": "https://heimskringla.no/wiki/Forside",
+            "type": "nordisk/kildetekster",
+            "category": "Kildetekster",
+            "note": "Brug til Snorres Edda, Skáldskaparmál, kenninger og norrøne kildetekster.",
             "tags": [
-              "verdener-og-fortaellinger",
-              "web-formidling"
+              "edda",
+              "snorre",
+              "kildetekster"
             ]
           },
           {
-            "title": "Project Gutenberg · The Prose Edda",
-            "url": "https://www.gutenberg.org/ebooks/18947",
-            "type": "tekst/kilde",
-            "category": "Kilder, ritualer og ord",
-            "note": "Brug til Snorres Edda som kildeeksempel.",
+            "title": "Danmarkshistorien · Vikingetiden ca. 800-1050",
+            "url": "https://danmarkshistorien.dk/vis/materiale/vikingetiden-ca-800-1050",
+            "type": "dansk/undervisning",
+            "category": "Historisk kontekst",
+            "note": "Brug til at sætte myterne ind i vikingetidens samfund, handel og religionsskifte.",
             "tags": [
-              "kilder-ritualer-og-ord",
-              "tekst-kilde"
+              "vikingetid",
+              "danmarkshistorien",
+              "kontekst"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
       },
       "settings": {
         "locked": false,
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordisk-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Heimskringla.no",
+      "title": "Lex · nordisk mytologi",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://heimskringla.no/",
-        "label": "Heimskringla.no",
-        "note": "tekst/arkiv · Brug til nordiske kildetekster i oversættelse.",
+        "url": "https://lex.dk/nordisk_mytologi",
+        "label": "Lex · nordisk mytologi",
+        "note": "Brug til guder, jætter, Ragnarok, blót, sejd og centrale begreber.",
         "view": "link"
       },
       "settings": {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordisk-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Den Store Danske · Nordisk mytologi",
+      "title": "Lex · nordisk kosmologi",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://denstoredanske.lex.dk/Nordisk_mytologi",
-        "label": "Den Store Danske · Nordisk mytologi",
-        "note": "web/reference · Brug til opslag og begrebsafklaring.",
+        "url": "https://lex.dk/nordisk_kosmologi",
+        "label": "Lex · nordisk kosmologi",
+        "note": "Brug til Midgård, Asgård, Bifrost, Yggdrasil, brønde og verdensopbygning.",
         "view": "link"
       },
       "settings": {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordisk-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Nationalmuseet · Vikingetid og tro",
+      "title": "Nationalmuseet · Runer",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://natmus.dk/",
-        "label": "Nationalmuseet · Vikingetid og tro",
-        "note": "web/museum · Brug til materielle spor og historisk kontekst.",
+        "url": "https://natmus.dk/historisk-viden/temaer/runer/",
+        "label": "Nationalmuseet · Runer",
+        "note": "Brug som dansk museumsindgang til vikingetidens skrift, tro og kulturhistoriske kilder.",
         "view": "link"
       },
       "settings": {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordisk-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Mythopedia · Norse Mythology",
+      "title": "Heimskringla · Edda og norrøne tekster",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://mythopedia.com/topics/norse-mythology",
-        "label": "Mythopedia · Norse Mythology",
-        "note": "web/formidling · Brug med kildekritik til overblik.",
+        "url": "https://heimskringla.no/wiki/Forside",
+        "label": "Heimskringla · Edda og norrøne tekster",
+        "note": "Brug til Snorres Edda, Skáldskaparmál, kenninger og norrøne kildetekster.",
         "view": "link"
       },
       "settings": {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-nordisk-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Project Gutenberg · The Prose Edda",
+      "title": "Danmarkshistorien · Vikingetiden ca. 800-1050",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.gutenberg.org/ebooks/18947",
-        "label": "Project Gutenberg · The Prose Edda",
-        "note": "tekst/kilde · Brug til Snorres Edda som kildeeksempel.",
+        "url": "https://danmarkshistorien.dk/vis/materiale/vikingetiden-ca-800-1050",
+        "label": "Danmarkshistorien · Vikingetiden ca. 800-1050",
+        "note": "Brug til at sætte myterne ind i vikingetidens samfund, handel og religionsskifte.",
         "view": "link"
       },
       "settings": {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-nordisk-mytologi_v2_showcase"
     ],
     "contentHash": "265895a980e8cef1d3642a9c398459558c4a983b6b5a0dae2bc09ccf8b11b85f",
-    "packageHash": "8be8826dce85602bff5958516b58aa047261fd73f12d8ac0d3f6c8f0e8997a48"
+    "packageHash": "8be8826dce85602bff5958516b58aa047261fd73f12d8ac0d3f6c8f0e8997a48",
+    "quality": {
+      "sourceUpgrade": "fase1-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T19:27:32Z"
+    }
   },
   "warnings": []
 }
