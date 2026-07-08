@@ -79,13 +79,15 @@
         "prøveforberedelse",
         "KaPardy",
         "huskekort",
-        "demo"
+        "demo",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "1.0.1-github",
+      "version": "1.0.1-github-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/dansk-2025-26/forloeb.json",
-      "sizeBytes": 885780,
+      "sizeBytes": 885885,
       "featured": true,
-      "updatedAt": "2026-07-07"
+      "updatedAt": "2026-07-08"
     },
     {
       "id": "faellessamlinger-2026-27",
@@ -109,13 +111,15 @@
         "kultur",
         "KaPardy",
         "huskekort",
-        "demo"
+        "demo",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "1.0.0",
+      "version": "1.0.0-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/faellessamlinger-2026-27/forloeb.json",
-      "sizeBytes": 5100982,
+      "sizeBytes": 8423563,
       "featured": true,
-      "updatedAt": "2026-07-07"
+      "updatedAt": "2026-07-08"
     },
     {
       "id": "camp-26",
@@ -138,13 +142,15 @@
         "video",
         "KaPardy",
         "huskekort",
-        "demo"
+        "demo",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "1.0.0",
+      "version": "1.0.0-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/camp-26/forloeb.json",
-      "sizeBytes": 2411637,
+      "sizeBytes": 2414874,
       "featured": false,
-      "updatedAt": "2026-07-07"
+      "updatedAt": "2026-07-08"
     },
     {
       "id": "20-sporgsmal-dansk-litteratur",
@@ -201,11 +207,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/engelsk/20-sporgsmal-engelsk/forloeb.json",
-      "sizeBytes": 87243,
+      "sizeBytes": 87271,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -399,11 +407,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/skoleliv/20-sporgsmal-efterskoleliv/forloeb.json",
-      "sizeBytes": 91689,
+      "sizeBytes": 91717,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -603,11 +613,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-biologi-natur/forloeb.json",
-      "sizeBytes": 86995,
+      "sizeBytes": 87171,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -673,11 +685,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-klimaforandringer/forloeb.json",
-      "sizeBytes": 93168,
+      "sizeBytes": 93446,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -708,11 +722,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-rumfart/forloeb.json",
-      "sizeBytes": 85487,
+      "sizeBytes": 85515,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -1058,11 +1074,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-kropssprog/forloeb.json",
-      "sizeBytes": 91581,
+      "sizeBytes": 92003,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -1128,11 +1146,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-nordisk-mytologi/forloeb.json",
-      "sizeBytes": 86031,
+      "sizeBytes": 86073,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -1198,11 +1218,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-heste/forloeb.json",
-      "sizeBytes": 86605,
+      "sizeBytes": 86633,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -1233,11 +1255,13 @@
         "kildeløft",
         "fase3",
         "fase4",
-        "faktatjekket"
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse"
       ],
-      "version": "2.4.0-source-quality",
+      "version": "2.4.0-source-quality-kapardy-qc5",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-kaninunger/forloeb.json",
-      "sizeBytes": 90607,
+      "sizeBytes": 90657,
       "featured": false,
       "updatedAt": "2026-07-08",
       "quality": {
@@ -1368,7 +1392,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/kontaktgruppe/forloeb.json",
-      "sizeBytes": 18542,
+      "sizeBytes": 38586,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
@@ -1482,7 +1506,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/udtalelser/forloeb.json",
-      "sizeBytes": 13059,
+      "sizeBytes": 19869,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1628,6 +1652,19 @@
     "updatedAt": "2026-07-08T20:35:30Z",
     "sourceUpgrade": "fase4-faktatjek-danske-elevkilder",
     "sourcePolicy": "Danske, elevtilgængelige kvalitetskilder til 9.–10. klasse som standard.",
-    "phase4UpdatedAt": "2026-07-08T22:15:00+02:00"
+    "phase4UpdatedAt": "2026-07-08T22:15:00+02:00",
+    "kapardyDidacticReview": {
+      "updatedAt": "2026-07-08",
+      "phase": "fase5",
+      "scope": "Alle KaPardy-spil i plan-library blev strukturelt valideret; svage/for lette distraktorer blev omskrevet i resten af biblioteket og synkroniseret til huskekort-snapshots.",
+      "targetGroup": "9.–10. klasse",
+      "checks": [
+        "facit matcher correctIndex",
+        "fire svarmuligheder hvor der er spørgsmål",
+        "huskekort-snapshots synkroniseret",
+        "for tydeligt absurde forkerte svar reduceret",
+        "tom-skabeloner er fortsat tomme"
+      ]
+    }
   }
 }

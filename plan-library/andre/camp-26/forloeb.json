@@ -624,9 +624,9 @@
               "points": 100,
               "options": [
                 "At se på inspiration og vælge en tydelig idé",
-                "At kopiere uden at tænke",
-                "At vente på facit",
-                "At smide materialerne væk"
+                "At bruge inspiration uden at omsætte den til egne valg",
+                "At starte direkte på produktet uden fælles idéafklaring",
+                "At vælge materialer, før idé og udtryk er afklaret"
               ],
               "correctIndex": 0,
               "answer": "At se på inspiration og vælge en tydelig idé"
@@ -638,9 +638,9 @@
               "points": 200,
               "options": [
                 "Hvordan former, farver og fokus er placeret",
-                "Hvad billedet vejer",
-                "Hvor dyr rammen er",
-                "Hvor længe limen tørrer"
+                "Hvor stort billedformatet er i forhold til rammen",
+                "Hvilke materialer der er brugt omkring motivet",
+                "Hvor lang tid det tager at gøre billedet færdigt"
               ],
               "correctIndex": 0,
               "answer": "Hvordan former, farver og fokus er placeret"
@@ -652,7 +652,7 @@
               "points": 300,
               "options": [
                 "Den gør idéen synlig, før arbejdet låses fast",
-                "Den er altid det færdige værk",
+                "Den kan ligne en løsning, selv om den stadig er et udkast",
                 "Den forhindrer ændringer",
                 "Den erstatter samarbejde"
               ],
@@ -666,9 +666,9 @@
               "points": 400,
               "options": [
                 "En personlig og begrundet måde at forstå og omsætte et oplæg på",
-                "En tilfældig fejl",
-                "En kopi uden valg",
-                "En liste over regler"
+                "En umiddelbar reaktion uden begrundelse i værket",
+                "En gengivelse, hvor man ikke tydeligt kan se egne valg",
+                "En fast opskrift, der ikke tager højde for udtryk og virkning"
               ],
               "correctIndex": 0,
               "answer": "En personlig og begrundet måde at forstå og omsætte et oplæg på"
@@ -680,9 +680,9 @@
               "points": 500,
               "options": [
                 "At den kan forklares enkelt og udvikles visuelt",
-                "At den er hemmelig for gruppen",
-                "At ingen kan se den",
-                "At den ikke må ændres"
+                "At den kun forstås af den elev, der fik idéen først",
+                "At den bygger på en privat tanke uden synligt udtryk",
+                "At den fastholdes så hårdt, at processen ikke kan forbedre den"
               ],
               "correctIndex": 0,
               "answer": "At den kan forklares enkelt og udvikles visuelt"
@@ -694,9 +694,9 @@
               "points": 100,
               "options": [
                 "For at opdage muligheder og begrænsninger",
-                "For at bruge mest muligt lim",
-                "For at undgå at lære noget",
-                "For at gøre processen usynlig"
+                "For at finde ud af, hvilke materialer der holder og virker visuelt",
+                "For at springe evalueringen over og komme hurtigere videre",
+                "For at skjule de valg, gruppen faktisk har truffet undervejs"
               ],
               "correctIndex": 0,
               "answer": "For at opdage muligheder og begrænsninger"
@@ -708,9 +708,9 @@
               "points": 200,
               "options": [
                 "At prøve, vælge, forbedre og gøre færdigt",
-                "At stoppe ved første fejl",
-                "At vente på at andre gør alt",
-                "At skifte idé hvert minut"
+                "At vælge den første løsning, også når den kan forbedres",
+                "At fordele arbejdet uklart og håbe, at nogen tager over",
+                "At ændre retning så ofte, at produktet mister sammenhæng"
               ],
               "correctIndex": 0,
               "answer": "At prøve, vælge, forbedre og gøre færdigt"
@@ -722,9 +722,9 @@
               "points": 300,
               "options": [
                 "Forskelle der får noget til at træde tydeligt frem",
-                "At alt bliver ens",
-                "At man skjuler motivet",
-                "At man undgår farver"
+                "At farver og former ligger tæt på hinanden uden tydeligt fokus",
+                "At motivet får mindre opmærksomhed end materialerne",
+                "At man kun bruger få virkemidler uden at tænke på forskelle"
               ],
               "correctIndex": 0,
               "answer": "Forskelle der får noget til at træde tydeligt frem"
@@ -736,9 +736,9 @@
               "points": 400,
               "options": [
                 "De gør det lettere at se arbejdet med friske øjne",
-                "De fjerner behovet for valg",
-                "De gør værket automatisk færdigt",
-                "De betyder at man ikke skal evaluere"
+                "De kan give overblik, men de erstatter ikke gruppens valg",
+                "De giver afstand til arbejdet, men ikke en færdig løsning",
+                "De kan gøre evalueringen lettere, men ikke overflødig"
               ],
               "correctIndex": 0,
               "answer": "De gør det lettere at se arbejdet med friske øjne"
@@ -750,9 +750,9 @@
               "points": 500,
               "options": [
                 "At de vigtigste valg er tydelige og gennemarbejdede",
-                "At alt er tilfældigt",
-                "At idéen ikke kan ses",
-                "At gruppen ikke kan forklare noget"
+                "At processen er synlig, men uden tydelige prioriteringer",
+                "At materialerne fylder mere end det budskab, gruppen vil vise",
+                "At præsentationen mangler forbindelse mellem idé og valg"
               ],
               "correctIndex": 0,
               "answer": "At de vigtigste valg er tydelige og gennemarbejdede"
@@ -764,9 +764,9 @@
               "points": 100,
               "options": [
                 "En fælles aftale om opgave, roller og tid",
-                "At alle taler på én gang",
-                "At ingen ved hvad de skal",
-                "At kun én bestemmer alt"
+                "At alle kommer med idéer, men uden fælles prioritering",
+                "At rollerne fordeles spontant uden tydelig aftale",
+                "At én elev styrer processen uden at samle gruppens bidrag"
               ],
               "correctIndex": 0,
               "answer": "En fælles aftale om opgave, roller og tid"
@@ -778,9 +778,9 @@
               "points": 200,
               "options": [
                 "Konkret hjælp der viser hvad der virker og hvad der kan forbedres",
-                "Kun “det er flot”",
-                "At grine af fejl",
-                "At ændre andres arbejde uden aftale"
+                "En generel ros, der ikke fortæller hvad der virker eller hvorfor",
+                "At pege på svagheder uden at foreslå en mulig forbedring",
+                "At give mange forslag uden først at forstå gruppens idé"
               ],
               "correctIndex": 0,
               "answer": "Konkret hjælp der viser hvad der virker og hvad der kan forbedres"
@@ -792,9 +792,9 @@
               "points": 300,
               "options": [
                 "Lytte, begrunde valg og afprøve en løsning",
-                "Stoppe arbejdet helt",
-                "Slette andres idéer",
-                "Ignorere opgaven"
+                "At stemme hurtigt uden at afprøve argumenterne",
+                "At vælge den idé, der kom først, uden at lytte til resten",
+                "At fortsætte hver for sig uden at afklare uenigheden"
               ],
               "correctIndex": 0,
               "answer": "Lytte, begrunde valg og afprøve en løsning"
@@ -806,9 +806,9 @@
               "points": 400,
               "options": [
                 "Den hjælper gruppen med at nå både forsøg og færdiggørelse",
-                "Den gør idéer unødvendige",
-                "Den bestemmer facit",
-                "Den erstatter samtale"
+                "Den kan give tempo, men kan ikke erstatte idéarbejdet",
+                "Den kan styre processen, men ikke afgøre det kunstneriske valg",
+                "Den kan støtte samtalen, men ikke overtage samarbejdet"
               ],
               "correctIndex": 0,
               "answer": "Den hjælper gruppen med at nå både forsøg og færdiggørelse"
@@ -820,9 +820,9 @@
               "points": 500,
               "options": [
                 "At flere bidrag hænger sammen i én tydelig helhed",
-                "At man kan se konflikterne i gruppen",
-                "At ingen har bidraget",
-                "At produktet ikke kan præsenteres"
+                "At alle bidrag står ved siden af hinanden uden fælles retning",
+                "At produktet virker færdigt, men uden tydelig rollefordeling",
+                "At produktet kræver en meget lang forklaring for at give mening"
               ],
               "correctIndex": 0,
               "answer": "At flere bidrag hænger sammen i én tydelig helhed"
@@ -834,9 +834,9 @@
               "points": 100,
               "options": [
                 "Idé, vigtige valg og hvad man har lært",
-                "Kun en undskyldning",
-                "Kun materialelisten",
-                "Kun hvem der stod nærmest"
+                "Kun en vurdering af, hvad der gik galt i processen",
+                "En gennemgang af materialer uden forklaring af valg",
+                "En fordeling af roller uden forbindelse til værkets idé"
               ],
               "correctIndex": 0,
               "answer": "Idé, vigtige valg og hvad man har lært"
@@ -848,9 +848,9 @@
               "points": 200,
               "options": [
                 "At forklare hvorfor man gjorde, som man gjorde",
-                "At gætte på lærerens mening",
-                "At sige “fordi sådan”",
-                "At undgå spørgsmål"
+                "At forklare valget ud fra, hvad man tror modtageren vil høre",
+                "At nævne et valg uden at forklare dets virkning",
+                "At tale uden at åbne for feedback eller uddybning"
               ],
               "correctIndex": 0,
               "answer": "At forklare hvorfor man gjorde, som man gjorde"
@@ -862,9 +862,9 @@
               "points": 300,
               "options": [
                 "Sammenhæng mellem idé, proces og produkt",
-                "Kun om noget er dyrt",
-                "Kun om det ligner naboens",
-                "Kun om præsentationen er lang"
+                "Om materialerne dominerer over idé og udtryk",
+                "Om produktet minder om andre grupper uden egen vinkel",
+                "Om præsentationen fylder meget uden at gøre valgene tydelige"
               ],
               "correctIndex": 0,
               "answer": "Sammenhæng mellem idé, proces og produkt"
@@ -876,9 +876,9 @@
               "points": 400,
               "options": [
                 "Den hjælper eleverne med at opdage læring og næste skridt",
-                "Den gør processen usynlig",
-                "Den erstatter produktet helt",
-                "Den handler kun om karakterer"
+                "Den kan samle erfaringer, men må ikke skjule processen",
+                "Den forklarer processen, men kan ikke stå i stedet for produktet",
+                "Den kan handle om vurdering, men bør også handle om læring"
               ],
               "correctIndex": 0,
               "answer": "Den hjælper eleverne med at opdage læring og næste skridt"
@@ -890,9 +890,9 @@
               "points": 500,
               "options": [
                 "“Vi valgte … fordi … og næste gang vil vi …”",
-                "“Vi gjorde noget.”",
-                "“Det ved vi ikke.”",
-                "“Ingen må spørge.”"
+                "“Vi nåede et produkt, men har ikke helt forklaret hvorfor.”",
+                "“Vi valgte undervejs, men mangler at sætte ord på valgene.”",
+                "“Vi viser resultatet, men vil helst ikke tale om processen.”"
               ],
               "correctIndex": 0,
               "answer": "“Vi valgte … fordi … og næste gang vil vi …”"
@@ -1204,9 +1204,9 @@
             "points": 100,
             "options": [
               "At se på inspiration og vælge en tydelig idé",
-              "At kopiere uden at tænke",
-              "At vente på facit",
-              "At smide materialerne væk"
+              "At bruge inspiration uden at omsætte den til egne valg",
+              "At starte direkte på produktet uden fælles idéafklaring",
+              "At vælge materialer, før idé og udtryk er afklaret"
             ],
             "correctIndex": 0,
             "answer": "At se på inspiration og vælge en tydelig idé"
@@ -1218,9 +1218,9 @@
             "points": 200,
             "options": [
               "Hvordan former, farver og fokus er placeret",
-              "Hvad billedet vejer",
-              "Hvor dyr rammen er",
-              "Hvor længe limen tørrer"
+              "Hvor stort billedformatet er i forhold til rammen",
+              "Hvilke materialer der er brugt omkring motivet",
+              "Hvor lang tid det tager at gøre billedet færdigt"
             ],
             "correctIndex": 0,
             "answer": "Hvordan former, farver og fokus er placeret"
@@ -1232,7 +1232,7 @@
             "points": 300,
             "options": [
               "Den gør idéen synlig, før arbejdet låses fast",
-              "Den er altid det færdige værk",
+              "Den kan ligne en løsning, selv om den stadig er et udkast",
               "Den forhindrer ændringer",
               "Den erstatter samarbejde"
             ],
@@ -1246,9 +1246,9 @@
             "points": 400,
             "options": [
               "En personlig og begrundet måde at forstå og omsætte et oplæg på",
-              "En tilfældig fejl",
-              "En kopi uden valg",
-              "En liste over regler"
+              "En umiddelbar reaktion uden begrundelse i værket",
+              "En gengivelse, hvor man ikke tydeligt kan se egne valg",
+              "En fast opskrift, der ikke tager højde for udtryk og virkning"
             ],
             "correctIndex": 0,
             "answer": "En personlig og begrundet måde at forstå og omsætte et oplæg på"
@@ -1260,9 +1260,9 @@
             "points": 500,
             "options": [
               "At den kan forklares enkelt og udvikles visuelt",
-              "At den er hemmelig for gruppen",
-              "At ingen kan se den",
-              "At den ikke må ændres"
+              "At den kun forstås af den elev, der fik idéen først",
+              "At den bygger på en privat tanke uden synligt udtryk",
+              "At den fastholdes så hårdt, at processen ikke kan forbedre den"
             ],
             "correctIndex": 0,
             "answer": "At den kan forklares enkelt og udvikles visuelt"
@@ -1274,9 +1274,9 @@
             "points": 100,
             "options": [
               "For at opdage muligheder og begrænsninger",
-              "For at bruge mest muligt lim",
-              "For at undgå at lære noget",
-              "For at gøre processen usynlig"
+              "For at finde ud af, hvilke materialer der holder og virker visuelt",
+              "For at springe evalueringen over og komme hurtigere videre",
+              "For at skjule de valg, gruppen faktisk har truffet undervejs"
             ],
             "correctIndex": 0,
             "answer": "For at opdage muligheder og begrænsninger"
@@ -1288,9 +1288,9 @@
             "points": 200,
             "options": [
               "At prøve, vælge, forbedre og gøre færdigt",
-              "At stoppe ved første fejl",
-              "At vente på at andre gør alt",
-              "At skifte idé hvert minut"
+              "At vælge den første løsning, også når den kan forbedres",
+              "At fordele arbejdet uklart og håbe, at nogen tager over",
+              "At ændre retning så ofte, at produktet mister sammenhæng"
             ],
             "correctIndex": 0,
             "answer": "At prøve, vælge, forbedre og gøre færdigt"
@@ -1302,9 +1302,9 @@
             "points": 300,
             "options": [
               "Forskelle der får noget til at træde tydeligt frem",
-              "At alt bliver ens",
-              "At man skjuler motivet",
-              "At man undgår farver"
+              "At farver og former ligger tæt på hinanden uden tydeligt fokus",
+              "At motivet får mindre opmærksomhed end materialerne",
+              "At man kun bruger få virkemidler uden at tænke på forskelle"
             ],
             "correctIndex": 0,
             "answer": "Forskelle der får noget til at træde tydeligt frem"
@@ -1316,9 +1316,9 @@
             "points": 400,
             "options": [
               "De gør det lettere at se arbejdet med friske øjne",
-              "De fjerner behovet for valg",
-              "De gør værket automatisk færdigt",
-              "De betyder at man ikke skal evaluere"
+              "De kan give overblik, men de erstatter ikke gruppens valg",
+              "De giver afstand til arbejdet, men ikke en færdig løsning",
+              "De kan gøre evalueringen lettere, men ikke overflødig"
             ],
             "correctIndex": 0,
             "answer": "De gør det lettere at se arbejdet med friske øjne"
@@ -1330,9 +1330,9 @@
             "points": 500,
             "options": [
               "At de vigtigste valg er tydelige og gennemarbejdede",
-              "At alt er tilfældigt",
-              "At idéen ikke kan ses",
-              "At gruppen ikke kan forklare noget"
+              "At processen er synlig, men uden tydelige prioriteringer",
+              "At materialerne fylder mere end det budskab, gruppen vil vise",
+              "At præsentationen mangler forbindelse mellem idé og valg"
             ],
             "correctIndex": 0,
             "answer": "At de vigtigste valg er tydelige og gennemarbejdede"
@@ -1344,9 +1344,9 @@
             "points": 100,
             "options": [
               "En fælles aftale om opgave, roller og tid",
-              "At alle taler på én gang",
-              "At ingen ved hvad de skal",
-              "At kun én bestemmer alt"
+              "At alle kommer med idéer, men uden fælles prioritering",
+              "At rollerne fordeles spontant uden tydelig aftale",
+              "At én elev styrer processen uden at samle gruppens bidrag"
             ],
             "correctIndex": 0,
             "answer": "En fælles aftale om opgave, roller og tid"
@@ -1358,9 +1358,9 @@
             "points": 200,
             "options": [
               "Konkret hjælp der viser hvad der virker og hvad der kan forbedres",
-              "Kun “det er flot”",
-              "At grine af fejl",
-              "At ændre andres arbejde uden aftale"
+              "En generel ros, der ikke fortæller hvad der virker eller hvorfor",
+              "At pege på svagheder uden at foreslå en mulig forbedring",
+              "At give mange forslag uden først at forstå gruppens idé"
             ],
             "correctIndex": 0,
             "answer": "Konkret hjælp der viser hvad der virker og hvad der kan forbedres"
@@ -1372,9 +1372,9 @@
             "points": 300,
             "options": [
               "Lytte, begrunde valg og afprøve en løsning",
-              "Stoppe arbejdet helt",
-              "Slette andres idéer",
-              "Ignorere opgaven"
+              "At stemme hurtigt uden at afprøve argumenterne",
+              "At vælge den idé, der kom først, uden at lytte til resten",
+              "At fortsætte hver for sig uden at afklare uenigheden"
             ],
             "correctIndex": 0,
             "answer": "Lytte, begrunde valg og afprøve en løsning"
@@ -1386,9 +1386,9 @@
             "points": 400,
             "options": [
               "Den hjælper gruppen med at nå både forsøg og færdiggørelse",
-              "Den gør idéer unødvendige",
-              "Den bestemmer facit",
-              "Den erstatter samtale"
+              "Den kan give tempo, men kan ikke erstatte idéarbejdet",
+              "Den kan styre processen, men ikke afgøre det kunstneriske valg",
+              "Den kan støtte samtalen, men ikke overtage samarbejdet"
             ],
             "correctIndex": 0,
             "answer": "Den hjælper gruppen med at nå både forsøg og færdiggørelse"
@@ -1400,9 +1400,9 @@
             "points": 500,
             "options": [
               "At flere bidrag hænger sammen i én tydelig helhed",
-              "At man kan se konflikterne i gruppen",
-              "At ingen har bidraget",
-              "At produktet ikke kan præsenteres"
+              "At alle bidrag står ved siden af hinanden uden fælles retning",
+              "At produktet virker færdigt, men uden tydelig rollefordeling",
+              "At produktet kræver en meget lang forklaring for at give mening"
             ],
             "correctIndex": 0,
             "answer": "At flere bidrag hænger sammen i én tydelig helhed"
@@ -1414,9 +1414,9 @@
             "points": 100,
             "options": [
               "Idé, vigtige valg og hvad man har lært",
-              "Kun en undskyldning",
-              "Kun materialelisten",
-              "Kun hvem der stod nærmest"
+              "Kun en vurdering af, hvad der gik galt i processen",
+              "En gennemgang af materialer uden forklaring af valg",
+              "En fordeling af roller uden forbindelse til værkets idé"
             ],
             "correctIndex": 0,
             "answer": "Idé, vigtige valg og hvad man har lært"
@@ -1428,9 +1428,9 @@
             "points": 200,
             "options": [
               "At forklare hvorfor man gjorde, som man gjorde",
-              "At gætte på lærerens mening",
-              "At sige “fordi sådan”",
-              "At undgå spørgsmål"
+              "At forklare valget ud fra, hvad man tror modtageren vil høre",
+              "At nævne et valg uden at forklare dets virkning",
+              "At tale uden at åbne for feedback eller uddybning"
             ],
             "correctIndex": 0,
             "answer": "At forklare hvorfor man gjorde, som man gjorde"
@@ -1442,9 +1442,9 @@
             "points": 300,
             "options": [
               "Sammenhæng mellem idé, proces og produkt",
-              "Kun om noget er dyrt",
-              "Kun om det ligner naboens",
-              "Kun om præsentationen er lang"
+              "Om materialerne dominerer over idé og udtryk",
+              "Om produktet minder om andre grupper uden egen vinkel",
+              "Om præsentationen fylder meget uden at gøre valgene tydelige"
             ],
             "correctIndex": 0,
             "answer": "Sammenhæng mellem idé, proces og produkt"
@@ -1456,9 +1456,9 @@
             "points": 400,
             "options": [
               "Den hjælper eleverne med at opdage læring og næste skridt",
-              "Den gør processen usynlig",
-              "Den erstatter produktet helt",
-              "Den handler kun om karakterer"
+              "Den kan samle erfaringer, men må ikke skjule processen",
+              "Den forklarer processen, men kan ikke stå i stedet for produktet",
+              "Den kan handle om vurdering, men bør også handle om læring"
             ],
             "correctIndex": 0,
             "answer": "Den hjælper eleverne med at opdage læring og næste skridt"
@@ -1470,9 +1470,9 @@
             "points": 500,
             "options": [
               "“Vi valgte … fordi … og næste gang vil vi …”",
-              "“Vi gjorde noget.”",
-              "“Det ved vi ikke.”",
-              "“Ingen må spørge.”"
+              "“Vi nåede et produkt, men har ikke helt forklaret hvorfor.”",
+              "“Vi valgte undervejs, men mangler at sætte ord på valgene.”",
+              "“Vi viser resultatet, men vil helst ikke tale om processen.”"
             ],
             "correctIndex": 0,
             "answer": "“Vi valgte … fordi … og næste gang vil vi …”"

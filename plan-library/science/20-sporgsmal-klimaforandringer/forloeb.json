@@ -1522,7 +1522,7 @@
               "points": 300,
               "options": [
                 "den forstærker den oprindelige ændring",
-                "den ophæver altid al opvarmning",
+                "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
                 "den påvirker kun tidevand",
                 "den virker kun i laboratorier"
               ],
@@ -1663,7 +1663,7 @@
               "options": [
                 "varmere luft kan indeholde mere vanddamp",
                 "varmere luft kan ikke indeholde vand",
-                "regnskyer bliver altid mindre",
+                "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
                 "havene holder op med at fordampe"
               ],
               "correctIndex": 0,
@@ -1734,7 +1734,7 @@
                 "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
                 "den producerer varme ved at brænde kul i boligen",
                 "den omdanner al varme til lys",
-                "den kan kun køle og aldrig varme"
+                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder"
               ],
               "correctIndex": 0,
               "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
@@ -2223,7 +2223,7 @@
             "points": 300,
             "options": [
               "den forstærker den oprindelige ændring",
-              "den ophæver altid al opvarmning",
+              "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
               "den påvirker kun tidevand",
               "den virker kun i laboratorier"
             ],
@@ -2364,7 +2364,7 @@
             "options": [
               "varmere luft kan indeholde mere vanddamp",
               "varmere luft kan ikke indeholde vand",
-              "regnskyer bliver altid mindre",
+              "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
               "havene holder op med at fordampe"
             ],
             "correctIndex": 0,
@@ -2435,7 +2435,7 @@
               "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
               "den producerer varme ved at brænde kul i boligen",
               "den omdanner al varme til lys",
-              "den kan kun køle og aldrig varme"
+              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder"
             ],
             "correctIndex": 0,
             "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"

@@ -1652,7 +1652,7 @@
               "points": 200,
               "options": [
                 "at signalerne peger i samme retning",
-                "at ordene og kroppen altid modsiger hinanden",
+                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
                 "at kun stemmen bruges",
                 "at kommunikationen foregår på skrift"
               ],
@@ -1695,7 +1695,7 @@
               "options": [
                 "nærhed, magt og holdning",
                 "postnummer og CPR-nummer",
-                "grammatisk køn alene",
+                "grammatisk køn som hovedforklaring",
                 "vejrudsigten"
               ],
               "correctIndex": 0,
@@ -1708,9 +1708,9 @@
               "points": 100,
               "options": [
                 "tallet kan ikke generaliseres til al kommunikation",
-                "procenten er altid 100",
-                "kropssprog findes ikke",
-                "ord er aldrig vigtige"
+                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+                "kropssprog er vanskelig at finde i de valgte kilder",
+                "ord har mindre betydning end kropslige signaler"
               ],
               "correctIndex": 0,
               "answer": "tallet kan ikke generaliseres til al kommunikation"
@@ -1736,7 +1736,7 @@
               "points": 300,
               "options": [
                 "den kan have forskellige eller modsatte betydninger",
-                "den har altid samme betydning",
+                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
                 "den mister al betydning uden tale",
                 "den forstås kun af børn"
               ],
@@ -2353,7 +2353,7 @@
             "points": 200,
             "options": [
               "at signalerne peger i samme retning",
-              "at ordene og kroppen altid modsiger hinanden",
+              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
               "at kun stemmen bruges",
               "at kommunikationen foregår på skrift"
             ],
@@ -2396,7 +2396,7 @@
             "options": [
               "nærhed, magt og holdning",
               "postnummer og CPR-nummer",
-              "grammatisk køn alene",
+              "grammatisk køn som hovedforklaring",
               "vejrudsigten"
             ],
             "correctIndex": 0,
@@ -2409,9 +2409,9 @@
             "points": 100,
             "options": [
               "tallet kan ikke generaliseres til al kommunikation",
-              "procenten er altid 100",
-              "kropssprog findes ikke",
-              "ord er aldrig vigtige"
+              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "kropssprog er vanskelig at finde i de valgte kilder",
+              "ord har mindre betydning end kropslige signaler"
             ],
             "correctIndex": 0,
             "answer": "tallet kan ikke generaliseres til al kommunikation"
@@ -2437,7 +2437,7 @@
             "points": 300,
             "options": [
               "den kan have forskellige eller modsatte betydninger",
-              "den har altid samme betydning",
+              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
               "den mister al betydning uden tale",
               "den forstås kun af børn"
             ],
