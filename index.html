@@ -6853,11 +6853,11 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
       add('students','Elevkort, elevtavler og elevnoter',`<p>Importér en elevliste som fælles <b>Elevstamdata</b>. Plan kan genkende almindelige navne-, klasse-, kontakt- og værgefelter og gemmer stabile identiteter uden at vise maskinkoder i brugerfladen.</p><ul class="tn-help-list"><li><b>Kort og tavler fra data</b> kan oprette Elevkort, Elevkortmatrix og elevtavler.</li><li><b>Niveaudelingsmatrix</b> kan oprettes fra et Google Forms-regneark eller en anden elevbesvarelsesliste. Elevens svar bevares i kilden, mens lærernes vurdering og den aktuelle placering på Hold 1, 2 eller 3 gemmes særskilt. UniLogin kan bruges som ElevID. Mangler ElevID, bruger Plan midlertidigt navn + klassetrin. Kolonner som Spørgeskema, Mundtlig - Sat ud og Endelig niveau (forslag) vises som importerede lærervurderinger uden at blive blandet sammen med elevens faglige svar.</li><li>Elevkort har fanerne <b>Elev, Mor, Far og Notater</b> i redigering, præsentation, fokus og maksimeret visning.</li><li>Noter gemmes særskilt fra stamdata og kan åbnes som egne notevinduer eller samlet noteoversigt.</li><li>Elevkortmatrix kan filtrere efter blandt andet klasse, kontaktgruppelærer, køn, gang/hus og værelse.</li><li>Sortering kan bruge <b>Fornavn</b> eller <b>Klasse → Fornavn</b>, med efternavn som sekundær sortering.</li><li><b>Forældremail</b> samler adresser for det valgte elevudvalg og viser mangler, før mailprogrammet åbnes.</li></ul><p>Elevtavler oprettes gennem elevflowet, så den rigtige elevrække, det rigtige Elevkort og de rigtige noter følger med. Brug ikke en almindelig tavlekopi som erstatning.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Elevstamdata</button><button data-help-jump="cards">Matricer</button><button data-help-jump="course-backup">Overførsel og backup</button></div>`,'Elevstamdata, elevkort, elevmatrix, elevtavler og noter');
       add('groups','Grupper, Gruppegalakse og gruppetavler',`<p>GruppeWidgetten er hovedkilden til medlemmer, roller og gruppetitler. Gruppekort, gruppematricer og gruppetavler læser fra det samme gruppesæt.</p><ul class="tn-help-list"><li>Vælg en liste eller datakilde, angiv personer pr. gruppe, lås deltagere eller roller og dan grupper.</li><li><b>Vis som galakse</b> viser både nye forslag og allerede gemte grupperinger. En gemt gruppering åbnes som det samme gruppesæt — ikke som en kopi.</li><li><b>Bland igen</b> og rolleændringer bliver først permanente, når du vælger <b>Gem ændringer</b>.</li><li><b>Gruppekortmatrix</b> giver et samlet levende overblik over grupperne.</li><li><b>Gruppetavler</b> kan bygges ud fra den aktuelle tavle som skabelon. GruppeWidgetten forbliver master.</li><li>Gruppearbejde kan rumme opgaver, kommentarer, svar, materialer, aftaler og afleveringer uden at ændre selve gruppedelingen.</li></ul><p>En gemt gruppering kan åbnes, fokuseres, bruges og senere redigeres som den samme gruppering. Opret kun en ny kopi ved en tydelig kopihandling.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Datakilder</button><button data-help-jump="cards">Gruppekort og matricer</button><button data-help-jump="games">Lykkehjul og Timer</button></div>`,'GruppeWidget, galakse, roller, gruppematrix og gruppetavler');
       add('cards','TavleKort, kortmatricer og Relationer',`<p>Kort i Plan er levende visninger med stabile forbindelser — ikke screenshots eller løse kopier.</p><ul class="tn-help-list"><li><b>Elevkort</b> viser en elev fra Elevstamdata.</li><li><b>Gruppekort</b> viser en gruppe fra et gruppesæt.</li><li><b>TavleKort</b> viser en konkret tavle og dens aktuelle indhold.</li><li><b>Matricer</b> samler mange kort på én oversigtstavle.</li></ul><p>Et TavleKort-sæt kan oprettes af nye tavler eller samle eksisterende tavler uden at kopiere dem. TavleKortmatrixen følger omdøbninger og strukturændringer. Fra Detaljer kan du åbne tavlen, vælge en widget og vise eller skjule indhold uden at bruge Papirkurv.</p><p><b>Datacenter → Relationer</b> viser, hvordan tavler, elever, grupper, matricer, widgets og datakilder hænger sammen. Brug den som læsbar kontrol, ikke som rå maskindata.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="students">Elevkort</button><button data-help-jump="groups">Grupper</button><button data-help-jump="boards">Tavler</button></div>`,'Elevkort, Gruppekort, TavleKort, matricer og relationer');
-      add('media','Billeder, video, lyd og Mediearkiv',`<p>Plan gemmer importerede medier i Mediearkivet og lader widgets pege på de gemte filer. En fil gemmes derfor ikke unødigt mange gange.</p><ul class="tn-help-list"><li>Ét billede, én video eller én lydfil bliver en almindelig widget.</li><li>Flere billeder bliver automatisk en <b>Billedmatrix</b>.</li><li>Flere videoer bliver automatisk en <b>Videomatrix</b>.</li><li>Flere lydfiler bliver automatisk en <b>Lydmatrix</b>.</li><li>Kun den aktuelle matrixside monteres.</li><li>Video og lyd kan afspilles direkte i matrixen og i den store visning. Kun ét lokalt medie spiller ad gangen.</li><li>⛶ åbner stor visning. Brug forrige/næste, swipe eller venstre/højre. Escape lukker.</li></ul><p>Eksisterende løse medier kan samles via <b>••• → Saml tavlens … i matrix</b>. De oprindelige widgets går i Papirkurv og kan gendannes.</p><p>I <b>Datacenter → Medier</b> har hver fil sin egen <b>Hent</b>-knap. Plan henter én fil ad gangen. På iPad åbnes Gem i Filer/Del. Hvis originalen er bevaret, hentes den; ellers hentes Plans anvendte version.</p><p><b>Medier åbner altid i et sikkert scope:</b> først den aktuelle session og efter eget valg hele det aktuelle undervisningsforløb. Medier fra andre forløb vises ikke. En fil, der også bruges uden for det valgte scope, kan hentes, men ikke markeres eller slettes. Markering bruges kun til sletning. Medier i datakilder, Papirkurv eller gendannelsespunkter er beskyttet.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="import">Filimport</button><button data-help-jump="storage">Oprydning</button><button data-help-jump="zoom-focus">Stor visning</button></div>`,'Billedmatrix, Videomatrix, Lydmatrix, lightbox og hent enkeltfil');
+      add('media','Billeder, video, lyd og Mediearkiv',`<p>Plan gemmer importerede medier i Mediearkivet og lader widgets pege på de gemte filer. En fil gemmes derfor ikke unødigt mange gange.</p><ul class="tn-help-list"><li>Ét billede, én video eller én lydfil bliver en almindelig widget.</li><li>Flere billeder bliver automatisk en <b>Billedmatrix</b>.</li><li>Flere videoer bliver automatisk en <b>Videomatrix</b>.</li><li>Flere lydfiler bliver automatisk en <b>Lydmatrix</b>.</li><li>Kun den aktuelle matrixside monteres.</li><li>Video og lyd kan afspilles direkte i matrixen og i den store visning. Kun ét lokalt medie spiller ad gangen.</li><li>⛶ åbner stor visning. Brug forrige/næste, swipe eller venstre/højre. Escape lukker.</li></ul><p>En <b>Billedmatrix</b> kan også bruges som et enkelt vendespil: vælg <b>••• → Vis som vendespil</b>. Det er samme matrix og samme billeder, bare med en koblet datakilde, hvor en kolonne kan vises på forsiden og en anden på bagsiden. Det kan bruges til navneøvelse, sprogkort, grundstoffer, planeter eller andre begreber. Brug <b>••• → Vis som almindelig billedmatrix</b>, når den igen bare skal være en billedmatrix.</p><p>Når vendespillet bruger elevbilleder, bør det være stamdata eller et koblet datasæt, der bestemmer navnet. Elever og lærere skal ikke se tekniske id’er som titel. Billedtitel kan bruges som valgmulighed, men bør være et læsbart navn, fx fornavn + efternavn. Kolonner uden indhold vises ikke som forside- eller bagsidevalg.</p><p>Eksisterende løse medier kan samles via <b>••• → Saml tavlens … i matrix</b>. De oprindelige widgets går i Papirkurv og kan gendannes.</p><p>I <b>Datacenter → Medier</b> har hver fil sin egen <b>Hent</b>-knap. Plan henter én fil ad gangen. På iPad åbnes Gem i Filer/Del. Hvis originalen er bevaret, hentes den; ellers hentes Plans anvendte version.</p><p><b>Medier åbner altid i et sikkert scope:</b> først den aktuelle session og efter eget valg hele det aktuelle undervisningsforløb. Medier fra andre forløb vises ikke. En fil, der også bruges uden for det valgte scope, kan hentes, men ikke markeres eller slettes. Markering bruges kun til sletning. Medier i datakilder, Papirkurv eller gendannelsespunkter er beskyttet.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="import">Filimport</button><button data-help-jump="storage">Oprydning</button><button data-help-jump="zoom-focus">Stor visning</button></div>`,'Billedmatrix, Videomatrix, Lydmatrix, lightbox og hent enkeltfil');
       add('web-html','Links, webvisninger og HTML-apps',`<p><b>LinkWidget</b> kan være et roligt linkkort eller en indlejret webvisning. Den menneskelige titel er den synlige linktekst; den lange URL gemmes som destination.</p><ul class="tn-help-list"><li>Skift mellem <b>Link</b> og <b>Webvisning</b> uden at miste titel, note, linkliste eller placering.</li><li>En linkliste kan deles af mange widgets og redigeres ét sted.</li><li>En linkliste kan oprette en matrix eller én tavle pr. link.</li><li><b>Suspendér webvisning</b> pauser iframeindhold uden at ændre linket.</li></ul><p>I <b>＋ Indhold</b> ligger Plan, Skriv, Tavle, Tjek og TiddlyWiki som direkte HTML-appvalg. Egne single-file apps kan åbnes fra enheden, en direkte webadresse eller en web-/GitHub-mappe.</p><p>HTML-apps har deres egen indholdszoom under <b>•••</b>. Maksimering, minimering og vindueslayout forsøger at bevare den aktive iframe, så en TiddlyWiki eller anden app ikke skal begynde forfra.</p><p><b>Hjem i HTML-app</b> vender til appens startadresse. Eksport og filudveksling bruger Plans fælles filhåndtering.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="heavy">Tungt indhold</button><button data-help-jump="import">HTML-import</button><button data-help-jump="data">Linklister og data</button></div>`,'LinkWidget, webvisning, iframe, Plan, Skriv, Tavle, Tjek og TiddlyWiki');
       add('pdf','PDF — dokumenter, formularer og navigation',`<p>Vælg <b>＋ Indhold → PDF</b> for en tom PDFWidget. Tryk <b>Hent</b> og vælg filen; den samme widget beholder titel, placering, størrelse og rotation.</p><ul class="tn-help-list"><li>En tilknyttet PDF kan udskiftes via <b>••• → Udskift PDF</b>.</li><li>Side, zoom, scrollposition og udfyldte formularfelter gemmes i widgetten.</li><li>I almindelig redigering kan links og formularfelter bruges.</li><li>I præsentation, fokus og maksimeret visning fylder dokumentet hele widgetten, og værktøjslinjen skjules.</li><li>Tryk ved venstre eller højre kant, eller brug piletasterne, for at skifte side.</li><li>Op/ned scroller den aktive PDF, når siden er højere end visningen.</li></ul><p>PDF-svar kan læses ind i en PDFWidget fra et egnet datasæt uden at flytte eller overtage kildens ejerskab. Flere PDFWidgets kan derfor bruge det samme svar-datasæt.</p><p>Skriv kan aflevere en genereret PDF direkte til Plan, hvor den oprettes som almindelig PDFWidget.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">PDF-svar og data</button><button data-help-jump="zoom-focus">Fokus og præsentation</button><button data-help-jump="web-html">Skriv</button></div>`,'PDF.js, formularer, sidebladring, PDF-svar og Skriv');
       add('calendar','Kalender og planlagte aktiviteter',`<p>KalenderWidget kan bruge lokale aktiviteter eller en koblet ICS-/kalenderdatakilde. Fælles kalenderdata kan bruges i flere sessioner.</p><ul class="tn-help-list"><li>Tryk på en dato for at åbne dagens aktiviteter med tid, titel, sted, beskrivelse og links.</li><li>En aktivitet kan kobles til en session eller tavle.</li><li>Plan foreslår match ud fra blandt andet titel, dato, beskrivelse og eksisterende forløbsnavne.</li><li>Dato, start/slut, titel, sted og beskrivelse kan redigeres i dagspanelet.</li><li>DataRemix kan bygge kalenderdata fra et regneark ved at vælge de relevante felter.</li></ul><p>Brug Kalenderen som levende overblik. Den ændrer ikke automatisk rækkefølgen i et undervisningsforløb; den gemte sessionsrækkefølge og Sessionsindekset er fortsat hovedkilden.</p><div class="tn-help-check"><b>Kalenderknappen i topbjælken</b> åbner kalenderen fra enhver tavle. En tom dato kan oprette et lokalt planpunkt og knytte den aktuelle tavle. På en eksisterende aktivitet kan du tilføje den aktuelle tavle eller oprette en ny fortsættelsestavle efter den aktive. Klokkeslæt kommer fra den importerede kalender, mens faghold, arbejdsgrupper og flere tavler gemmes som levende relationer.</div><div class="tn-help-see"><b>Se også:</b><button data-help-jump="startup">Forløbsrækkefølge</button><button data-help-jump="data">ICS og DataRemix</button></div>`,'KalenderWidget, ICS, dagspanel og kobling til tavler/sessioner');
-      add('games','Timer, KaPardy, Huskekort, Lykkehjul, Afstemning og Ordsky',`<p>Plans aktivitetswidgets er lavet til live-undervisning og kan kobles til lister og data.</p><ul class="tn-help-list"><li><b>Timer</b>: nedtælling med sekvenser eller stopur med grupper og mellemtider. Mellemrum starter/pauser, Enter sætter mellemtid.</li><li><b>KaPardy</b>: Kahoot, Jeopardy, Mester og Mix med hold, point, gemt fremdrift og spilbank.</li><li><b>Huskekort</b>: vendekort og huskekortmatrix til begreber, kilder, forvekslinger og repetition før spil.</li><li><b>Lykkehjul</b>: puljer, Behold, Auto, statistik og sammensatte felter som Fornavn + Efternavn.</li><li><b>Afstemning</b>: direkte tavlestemmer, levende resultater, søjler eller ordsky samt anonym optælling fra PDF-formularer.</li><li><b>Ordsky</b>: ord eller sætninger med vægt, direkte redigering eller levende kilde fra liste/data.</li></ul><p><b>KaPardy-spilbanker:</b> I CSV/Excel er første svar efter spørgsmålet det korrekte, og de tre næste er forkerte. KaPardy blander svarenes synlige rækkefølge ved spilstart og gemmer den viste rækkefølge i spillet.</p><p>Lukning af en midlertidig dataoversigt sletter ikke ejerwidgettens levende data. Brug en tydelig nulstil- eller permanent sletning, når selve indholdet skal væk.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Datakilder</button><button data-help-jump="groups">Hold og grupper</button><button data-help-jump="shortcuts">Tastatur</button></div>`,'Timer, KaPardy, Huskekort, Lykkehjul, Afstemning og Ordsky');
+      add('games','Timer, KaPardy, Huskekort, Lykkehjul, Afstemning og Ordsky',`<p>Plans aktivitetswidgets er lavet til live-undervisning og kan kobles til lister og data.</p><ul class="tn-help-list"><li><b>Timer</b>: nedtælling med sekvenser eller stopur med grupper og mellemtider. Mellemrum starter/pauser, Enter sætter mellemtid.</li><li><b>KaPardy</b>: Kahoot, Jeopardy, Mester og Mix med hold, point, gemt fremdrift og spilbank.</li><li><b>Huskekort</b>: vendekort og huskekortmatrix til begreber, kilder, forvekslinger og repetition før spil.</li><li><b>Vendespil i Billedmatrix</b>: brug billeder som forside og datafelter som bagside, når øvelsen først og fremmest handler om at genkende, navngive eller oversætte noget visuelt.</li><li><b>Lykkehjul</b>: puljer, Behold, Auto, statistik og sammensatte felter som Fornavn + Efternavn.</li><li><b>Afstemning</b>: direkte tavlestemmer, levende resultater, søjler eller ordsky samt anonym optælling fra PDF-formularer.</li><li><b>Ordsky</b>: ord eller sætninger med vægt, direkte redigering eller levende kilde fra liste/data.</li></ul><p><b>KaPardy-spilbanker:</b> I CSV/Excel er første svar efter spørgsmålet det korrekte, og de tre næste er forkerte. KaPardy blander svarenes synlige rækkefølge ved spilstart og gemmer den viste rækkefølge i spillet.</p><p>Lukning af en midlertidig dataoversigt sletter ikke ejerwidgettens levende data. Brug en tydelig nulstil- eller permanent sletning, når selve indholdet skal væk.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Datakilder</button><button data-help-jump="groups">Hold og grupper</button><button data-help-jump="shortcuts">Tastatur</button></div>`,'Timer, KaPardy, Huskekort, Lykkehjul, Afstemning og Ordsky');
       add('import','Import, direkte filslip og klassisk Tavle',`<p>Du kan vælge filer eller slippe dem direkte på Plan. Plan genkender blandt andet JSON, CSV, TSV, TXT, XLSX, ICS, PDF, HTML, billeder, lyd og video.</p><ul class="tn-help-list"><li>Datafiler åbner et preview, før de gemmes.</li><li>Flere billeder, videoer eller lydfiler samles automatisk pr. medietype.</li><li>PDF og HTML oprettes som deres egne widgets.</li><li>Backup++ og årsforløbspakker åbner et import-preview med sessionsvalg og konflikthåndtering.</li><li>Gamle Tavle-backups og kendte legacy-widgets konverteres, hvor Plan har en sikker tilsvarende model.</li></ul><p>Plan bevarer kompatibilitet med den klassiske Tavles centrale begreber, data og backupspor, men viser dem gennem Plans egne forløb, sessioner, Datacenter og widgetmotor. Ukendte elementer må ikke slettes stiltiende.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Medieimport</button><button data-help-jump="data">Dataimport</button><button data-help-jump="course-backup">Backupimport</button></div>`,'Filslip, CSV, Excel, ICS, PDF, HTML, medier og gamle Tavle-backups');
       add('library','Bibliotek, demoer og skabeloner',`<p>Åbn <b>Hent demoforløb</b> fra opstarten eller <b>Datacenter → Bibliotek</b>. Plan viser kun kataloget, indtil du aktivt vælger et forløb.</p><ul class="tn-help-list"><li>Filtrér efter fag og klassetrin.</li><li>Søg i titel, fag, emner og tags.</li><li><b>Se og brug</b> henter først den valgte pakke.</li><li><b>Brug som lokal kopi</b> opretter et nyt, selvstændigt undervisningsforløb.</li><li>Bibliotekets original og dine eksisterende forløb ændres ikke.</li><li><b>Åbn fra disk</b> kan bruges, når en pakke allerede ligger på enheden.</li></ul><p>Biblioteket er en startvej, ikke en låst skabelonmotor. Når pakken er importeret, er den din lokale kopi, som kan redigeres, omdøbes, udvides og sikkerhedskopieres.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="startup">Opstart</button><button data-help-jump="course-backup">Årsforløbspakker</button></div>`,'Demoforløb, skabeloner, fag og klassetrin');
       add('course-backup','Backup++, årsforløbspakker og deling',`<p><b>Backup++</b> kan samle én, flere eller alle sessioner i én versioneret fil. Plan medtager de nødvendige tavler, widgets, data og medier samt fælles data, som de valgte sessioner faktisk bruger.</p><ul class="tn-help-list"><li>Vælg <b>Kun aktuel</b>, <b>Alle</b> eller et manuelt udvalg.</li><li>Størrelse og indhold estimeres før eksport.</li><li>Import er som udgangspunkt ikke-destruktiv og opretter nye sessioner.</li><li>Overskrivning kræver et tydeligt match og en udtrykkelig handling.</li><li>Importlog viser, hvad der blev indlæst.</li></ul><p><b>Årsforløbspakken</b> er en samlet, kontrolleret udgave af et undervisningsforløb med navn, fag, skoleår og sessionsrækkefølge. Når pakken er gemt og kontrolleret, kan forløbet arkiveres lokalt, mens delte data og medier, der stadig bruges andre steder, bevares.</p><p><b>Sessionpakker</b> bruges til målrettet overførsel af konkrete tavler, elevtavler, gruppetavler eller matricer. De erstatter ikke Backup++.</p><div class="tn-help-see"><b>Se også:</b><button data-help-jump="storage">Lagerredning</button><button data-help-jump="trash">Gendannelsespunkter</button><button data-help-jump="startup">Forløb og sessioner</button></div>`,'Backup++, årsforløbspakker, sessionpakker og importlog');
@@ -38412,11 +38412,28 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
   }
 
   function fallbackImageLightbox(app,items,startIndex,returnFocus){
-    const list=(items||[]).filter(item=>item&&(item.mediaId||item.src));if(!list.length)return false;let index=Math.max(0,Math.min(list.length-1,startIndex||0)),objectUrl='';
-    const root=document.createElement('div');root.id='tnImageLightbox';root.className='is-open';root.tabIndex=-1;root.innerHTML='<div class="tn-image-lightbox-stage"><img class="tn-image-lightbox-image" alt="" draggable="false"></div><button type="button" class="tn-image-lightbox-close" aria-label="Luk">×</button><button type="button" class="tn-image-lightbox-prev" aria-label="Forrige">‹</button><button type="button" class="tn-image-lightbox-next" aria-label="Næste">›</button><div class="tn-image-lightbox-info"><span class="tn-image-lightbox-counter"></span><span class="tn-image-lightbox-name"></span></div>';document.body.append(root);document.body.classList.add('tn-image-lightbox-open');
-    const img=root.querySelector('img'),counter=root.querySelector('.tn-image-lightbox-counter'),name=root.querySelector('.tn-image-lightbox-name'),release=()=>{if(objectUrl){try{URL.revokeObjectURL(objectUrl);}catch(_){}objectUrl='';}},close=()=>{release();root.remove();document.body.classList.remove('tn-image-lightbox-open');try{returnFocus?.focus?.({preventScroll:true});}catch(_){}};
-    const show=async delta=>{release();index=(index+delta+list.length)%list.length;const item=list[index];counter.textContent=`${index+1} / ${list.length}`;name.textContent=item.name||item.alt||'Billede';let src=item.src||'';if(item.mediaId){const media=await app.mediaManager.get(item.mediaId);if(media?.blob){src=URL.createObjectURL(media.blob);objectUrl=src;}}img.src=src;img.style.cssText='position:absolute;inset:0;margin:auto;max-width:86vw;max-height:86vh;width:auto;height:auto;object-fit:contain;';};
-    root.querySelector('.tn-image-lightbox-close').onclick=close;root.querySelector('.tn-image-lightbox-prev').onclick=()=>show(-1);root.querySelector('.tn-image-lightbox-next').onclick=()=>show(1);root.addEventListener('keydown',e=>{if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(-1);if(e.key==='ArrowRight')show(1);},{capture:true});show(0);root.focus({preventScroll:true});return true;
+    const list=(items||[]).filter(item=>item&&(item.mediaId||item.src));
+    if(!list.length)return false;
+    let index=Math.max(0,Math.min(list.length-1,startIndex||0)),objectUrl='',closed=false;
+    const controller=new AbortController(),signal=controller.signal;
+    const root=document.createElement('div');
+    root.id='tnImageLightbox';root.className='is-open';root.tabIndex=-1;
+    root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');root.setAttribute('aria-label','Stor billedvisning');
+    root.innerHTML='<div class="tn-image-lightbox-stage"><img class="tn-image-lightbox-image" alt="" draggable="false"></div><button type="button" class="tn-image-lightbox-close" aria-label="Luk">×</button><button type="button" class="tn-image-lightbox-prev" aria-label="Forrige">‹</button><button type="button" class="tn-image-lightbox-next" aria-label="Næste">›</button><div class="tn-image-lightbox-info"><span class="tn-image-lightbox-counter"></span><span class="tn-image-lightbox-name"></span></div>';
+    document.body.append(root);document.body.classList.add('tn-image-lightbox-open');
+    const img=root.querySelector('img'),counter=root.querySelector('.tn-image-lightbox-counter'),name=root.querySelector('.tn-image-lightbox-name');
+    const release=()=>{if(objectUrl){try{URL.revokeObjectURL(objectUrl);}catch(_){}objectUrl='';}};
+    const close=()=>{if(closed)return;closed=true;controller.abort();release();root.remove();document.body.classList.remove('tn-image-lightbox-open');try{returnFocus?.focus?.({preventScroll:true});}catch(_){}};
+    const show=async delta=>{if(closed)return;release();index=(index+delta+list.length)%list.length;const item=list[index];counter.textContent=`${index+1} / ${list.length}`;name.textContent=item.name||item.alt||'Billede';img.alt=item.alt||item.name||'Billede';let src=item.src||'';try{if(item.mediaId){const media=await app.mediaManager.get(item.mediaId);if(media?.blob){src=URL.createObjectURL(media.blob);objectUrl=src;}}img.src=src;img.style.cssText='position:absolute;inset:0;margin:auto;max-width:86vw;max-height:86vh;width:auto;height:auto;object-fit:contain;';}catch(_){name.textContent=`${item.name||'Billede'} · kunne ikke åbnes`;}};
+    const nav=delta=>void show(delta);
+    const keyHandler=e=>{if(closed)return;const key=e.key;if(key==='Escape'){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation?.();close();return;}if(key==='ArrowLeft'){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation?.();nav(-1);return;}if(key==='ArrowRight'){e.preventDefault();e.stopPropagation();e.stopImmediatePropagation?.();nav(1);return;}};
+    root.querySelector('.tn-image-lightbox-close').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();close();},{signal});
+    root.querySelector('.tn-image-lightbox-prev').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();nav(-1);},{signal});
+    root.querySelector('.tn-image-lightbox-next').addEventListener('click',e=>{e.preventDefault();e.stopPropagation();nav(1);},{signal});
+    root.addEventListener('keydown',keyHandler,{capture:true,signal});
+    document.addEventListener('keydown',keyHandler,{capture:true,signal});
+    window.addEventListener('keydown',keyHandler,{capture:true,signal});
+    show(0);try{root.focus({preventScroll:true});}catch(_){root.focus();}return true;
   }
 
   function robustOpenImageLightbox(app,widget,index,returnFocus){
@@ -38795,5 +38812,135 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 })(window.TavleNext);
 </script>
 
+
+
+<!-- Plan Billedvendespil lightbox/navigation fix · v10 -->
+<style id="plan-picture-flip-v10-style">
+/* Aftale: skift tilbage til almindelig billedmatrix ligger kun i widgettens •••-menu, ikke i selve vendespilfladen. */
+.tn-pfg [data-pfg-action="back-to-matrix"]{display:none!important}
+/* En-ad-gangen holdes som den enkle lightbox-lignende visning: ét kort + navigation. */
+.tn-pfg .tn-pfg-single-simple{width:100%;min-height:100%;display:grid;grid-template-rows:minmax(0,1fr) auto;justify-items:center;align-items:center;gap:12px;padding:clamp(8px,2vw,20px)}
+.tn-pfg .tn-pfg-single-flip-card{width:min(68vh,72vw,560px);height:min(68vh,72vw,560px);max-width:100%;max-height:calc(100% - 70px)}
+.tn-pfg .tn-pfg-single-nav{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px}
+.tn-pfg .tn-pfg-single-count{font-weight:900;color:#334155;min-width:58px;text-align:center}
+.tn-pfg .tn-pfg-single-nav button{min-height:38px;border-radius:10px;border:1px solid #bfdbfe;background:#eff6ff;color:#172554;font-weight:950;padding:7px 12px}
+</style>
+<script id="plan-picture-flip-v10-script">
+(function(TN){
+  'use strict';
+  if(!TN || TN.__PLAN_PICTURE_FLIP_V10__) return;
+  TN.__PLAN_PICTURE_FLIP_V10__=true;
+  const isTypingTarget=target=>!!target?.closest?.('input,textarea,select,[contenteditable="true"]');
+  const appNow=()=>TN.runtime?.app || window.tavleNextApp || null;
+  function activeSingleFlipWidget(){
+    const widgets=TN.runtime?.activeWidgets||[];
+    const selected=TN.runtime?.selectedWidgetId;
+    let widget=selected?widgets.find(w=>String(w.id)===String(selected)&&w.type==='picture-flip-game'):null;
+    if(!widget) widget=widgets.find(w=>w.type==='picture-flip-game'&&w.content?.view==='single')||null;
+    if(!widget || widget.content?.view!=='single') return null;
+    return widget;
+  }
+  async function updateWidget(widget){
+    const app=appNow(); if(!app||!widget) return;
+    await app.widgetManager.update(widget,{immediate:true});
+    if(typeof app.refreshWidgetView==='function') await app.refreshWidgetView(widget.id);
+    else await app.renderActiveBoard?.({preserveSelection:true});
+    app.selectWidget?.(widget.id);
+  }
+  document.addEventListener('keydown',event=>{
+    const widget=activeSingleFlipWidget();
+    if(!widget) return;
+    const key=event.key;
+    if(isTypingTarget(event.target) && key!=='Escape') return;
+    const content=widget.content=widget.content||{};
+    const cards=Array.isArray(content.cards)?content.cards:[];
+    const count=Math.max(1,cards.length||1);
+    if(key==='ArrowLeft'){
+      event.preventDefault(); event.stopPropagation();
+      content.activeIndex=((Number(content.activeIndex)||0)-1+count)%count;
+      content.singleFlipped=false;
+      void updateWidget(widget);
+    }else if(key==='ArrowRight'){
+      event.preventDefault(); event.stopPropagation();
+      content.activeIndex=((Number(content.activeIndex)||0)+1)%count;
+      content.singleFlipped=false;
+      void updateWidget(widget);
+    }else if(key==='Enter' || key===' ' || key==='Spacebar'){
+      event.preventDefault(); event.stopPropagation();
+      content.singleFlipped=!content.singleFlipped;
+      void updateWidget(widget);
+    }else if(key==='Escape'){
+      event.preventDefault(); event.stopPropagation();
+      content.view='matrix';
+      content.singleFlipped=false;
+      void updateWidget(widget);
+    }
+  },true);
+})(window.TavleNext);
+</script>
+
+
+
+<!-- Plan Billedvendespil keyboard and help fix · v11 -->
+<style id="plan-picture-flip-v11-style">
+/* Vendespilfladen skal forblive enkel; tilbage til billedmatrix ligger i •••-menuen. */
+.tn-pfg [data-pfg-action="back-to-matrix"]{display:none!important}
+.tn-pfg .tn-pfg-face.tn-pfg-back b{font-size:clamp(18px,3.1vw,38px);line-height:1.08;overflow-wrap:anywhere;hyphens:auto}
+</style>
+<script id="plan-picture-flip-v11-script">
+(function(TN){
+  'use strict';
+  if(!TN || TN.__PLAN_PICTURE_FLIP_V11__) return;
+  TN.__PLAN_PICTURE_FLIP_V11__=true;
+  const appNow=()=>TN.runtime?.app || window.tavleNextApp || null;
+  function findSingleWidget(){
+    const widgets=TN.runtime?.activeWidgets||[];
+    const selected=TN.runtime?.selectedWidgetId;
+    let widget=selected?widgets.find(w=>String(w.id)===String(selected)&&w.type==='picture-flip-game'&&w.content?.view==='single'):null;
+    if(!widget) widget=widgets.find(w=>w.type==='picture-flip-game'&&w.content?.view==='single')||null;
+    return widget||null;
+  }
+  async function save(widget){
+    const app=appNow(); if(!app||!widget) return;
+    try{
+      await app.widgetManager.update(widget,{immediate:true});
+      if(typeof app.refreshWidgetView==='function') await app.refreshWidgetView(widget.id);
+      else await app.renderActiveBoard?.({preserveSelection:true});
+      app.selectWidget?.(widget.id);
+    }catch(error){ console.error(error); }
+  }
+  function handleKey(event){
+    const widget=findSingleWidget();
+    if(!widget) return;
+    const key=event.key, code=event.code;
+    const isLeft=key==='ArrowLeft'||code==='ArrowLeft'||key==='Left';
+    const isRight=key==='ArrowRight'||code==='ArrowRight'||key==='Right';
+    const isFlip=key==='Enter'||key===' '||key==='Spacebar'||code==='Space';
+    const isEsc=key==='Escape'||key==='Esc';
+    if(!isLeft&&!isRight&&!isFlip&&!isEsc) return;
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation?.();
+    const content=widget.content=widget.content||{};
+    const cards=Array.isArray(content.cards)?content.cards:[];
+    const count=Math.max(1,cards.length||1);
+    if(isLeft){
+      content.activeIndex=((Number(content.activeIndex)||0)-1+count)%count;
+      content.singleFlipped=false;
+    }else if(isRight){
+      content.activeIndex=((Number(content.activeIndex)||0)+1)%count;
+      content.singleFlipped=false;
+    }else if(isFlip){
+      content.singleFlipped=!content.singleFlipped;
+    }else if(isEsc){
+      content.view='matrix';
+      content.singleFlipped=false;
+    }
+    void save(widget);
+  }
+  window.addEventListener('keydown',handleKey,true);
+  document.addEventListener('keydown',handleKey,true);
+})(window.TavleNext);
+</script>
 </body>
 </html>
