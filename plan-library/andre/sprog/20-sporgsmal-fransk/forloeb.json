@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-06T23:55:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-fransk_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-fransk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Fransk sprog og kultur",
@@ -68,7 +68,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -522,32 +522,44 @@
             "title": "Lex · fransk sprog",
             "url": "https://lex.dk/fransk_sprog",
             "type": "dansk/leksikon",
-            "category": "Ord, udtale og sprogområder",
-            "note": "Brug som dansk overblik over fransk sprog og udbredelse, før eleverne bruger ordbøger og grammatikøvelser.",
+            "category": "Fransk sprog og udbredelse",
+            "note": "Dansk overblik til 9.–10. klasse om fransk som sprog, sprogområder og grundlæggende fagord, før eleverne går videre til konkrete ord og grammatik.",
             "tags": [
               "fransk",
               "sprog",
-              "frankofoni"
+              "overblik"
             ]
           },
           {
-            "title": "TV5MONDE · Apprendre le français",
-            "url": "https://apprendre.tv5monde.com/",
-            "type": "fransk/undervisning",
-            "category": "Ord og udtryk",
-            "note": "Brug til elevvenlige franskøvelser med ordforråd, lytning og korte forklaringer.",
+            "title": "EMU · Fransk prøveforberedelse i udskolingen",
+            "url": "https://emu.dk/grundskole/fransk/proever/proeveforberedende-materiale-til-elever-i-udskolingen-i-fransk",
+            "type": "dansk/myndighed/undervisning",
+            "category": "Niveau og arbejdsformer",
+            "note": "Brug som dansk ramme for 9.–10. klasse: hvad eleverne skal kunne undersøge, forklare og anvende i fransk, uden at kilden bliver for akademisk.",
             "tags": [
               "fransk",
-              "ordforråd",
-              "øvelser"
+              "udskoling",
+              "prøve"
+            ]
+          },
+          {
+            "title": "NCFF · Funktionel grammatik i fransk",
+            "url": "https://ncff.dk/fileadmin/NCFF/Dokumenter/Materialepakker/MP4_FRANSK_FUNKTIONEL_GRAMMATIK.pdf",
+            "type": "dansk/fagdidaktik",
+            "category": "Grammatik i kontekst",
+            "note": "Lærer- og elevstøtte til grammatik i meningsfuld sammenhæng; brug især til passé composé, nægtelse og kongruens som baggrund for spørgsmålene.",
+            "tags": [
+              "fransk",
+              "grammatik",
+              "NCFF"
             ]
           },
           {
             "title": "Forfatterweb · Annie Ernaux",
             "url": "https://forfatterweb.dk/oversigt/ernaux-annie",
             "type": "dansk/undervisning",
-            "category": "Kunst og kultur",
-            "note": "Brug til Annie Ernaux og værket Les Années, sammen med franske forfatter- og værkopslag.",
+            "category": "Fransk litteratur",
+            "note": "Dansk elevvenlig forfatterkilde til Annie Ernaux og Les Années. Supplér mundtligt med Rostand, Leblanc, Simenon og Hergé efter behov.",
             "tags": [
               "Annie-Ernaux",
               "Les-Années",
@@ -558,8 +570,8 @@
             "title": "Lex · sprog i Cameroun",
             "url": "https://lex.dk/sprog_i_Cameroun",
             "type": "dansk/leksikon",
-            "category": "Den frankofone verden",
-            "note": "Brug til Cameroun som centralafrikansk land med fransk og engelsk som officielle sprog.",
+            "category": "Frankofone lande",
+            "note": "Præcis dansk kilde til det rettede Cameroun-spørgsmål: fransk og engelsk som officielle sprog i et centralafrikansk land.",
             "tags": [
               "Cameroun",
               "fransk",
@@ -567,19 +579,19 @@
             ]
           },
           {
-            "title": "OIF · Haïti",
-            "url": "https://www.francophonie.org/haiti-967",
-            "type": "fransk/organisation",
-            "category": "Den frankofone verden",
-            "note": "Brug til Haiti, hvor fransk og kreolsk er officielle sprog, og til begrebet frankofoni.",
+            "title": "Lex · sprog i Haiti",
+            "url": "https://lex.dk/sprog_i_Haiti",
+            "type": "dansk/leksikon",
+            "category": "Frankofone lande",
+            "note": "Præcis dansk kilde til spørgsmålet om Haiti: fransk og haitiansk/fransk kreolsk som officielle sprog.",
             "tags": [
               "Haiti",
               "kreolsk",
-              "OIF"
+              "fransk"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -592,7 +604,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -613,7 +625,7 @@
       "content": {
         "url": "https://lex.dk/fransk_sprog",
         "label": "Lex · fransk sprog",
-        "note": "Brug som dansk overblik over fransk sprog og udbredelse, før eleverne bruger ordbøger og grammatikøvelser.",
+        "note": "Dansk overblik til 9.–10. klasse om fransk som sprog, sprogområder og grundlæggende fagord, før eleverne går videre til konkrete ord og grammatik.",
         "view": "link"
       },
       "settings": {
@@ -627,7 +639,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -636,7 +648,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "TV5MONDE · Apprendre le français",
+      "title": "EMU · Fransk prøveforberedelse i udskolingen",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -646,9 +658,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://apprendre.tv5monde.com/",
-        "label": "TV5MONDE · Apprendre le français",
-        "note": "Brug til elevvenlige franskøvelser med ordforråd, lytning og korte forklaringer.",
+        "url": "https://emu.dk/grundskole/fransk/proever/proeveforberedende-materiale-til-elever-i-udskolingen-i-fransk",
+        "label": "EMU · Fransk prøveforberedelse i udskolingen",
+        "note": "Brug som dansk ramme for 9.–10. klasse: hvad eleverne skal kunne undersøge, forklare og anvende i fransk, uden at kilden bliver for akademisk.",
         "view": "link"
       },
       "settings": {
@@ -662,7 +674,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -671,7 +683,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "Forfatterweb · Annie Ernaux",
+      "title": "NCFF · Funktionel grammatik i fransk",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -681,9 +693,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://forfatterweb.dk/oversigt/ernaux-annie",
-        "label": "Forfatterweb · Annie Ernaux",
-        "note": "Brug til Annie Ernaux og værket Les Années, sammen med franske forfatter- og værkopslag.",
+        "url": "https://ncff.dk/fileadmin/NCFF/Dokumenter/Materialepakker/MP4_FRANSK_FUNKTIONEL_GRAMMATIK.pdf",
+        "label": "NCFF · Funktionel grammatik i fransk",
+        "note": "Lærer- og elevstøtte til grammatik i meningsfuld sammenhæng; brug især til passé composé, nægtelse og kongruens som baggrund for spørgsmålene.",
         "view": "link"
       },
       "settings": {
@@ -697,7 +709,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -706,7 +718,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "Lex · sprog i Cameroun",
+      "title": "Forfatterweb · Annie Ernaux",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -716,9 +728,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://lex.dk/sprog_i_Cameroun",
-        "label": "Lex · sprog i Cameroun",
-        "note": "Brug til Cameroun som centralafrikansk land med fransk og engelsk som officielle sprog.",
+        "url": "https://forfatterweb.dk/oversigt/ernaux-annie",
+        "label": "Forfatterweb · Annie Ernaux",
+        "note": "Dansk elevvenlig forfatterkilde til Annie Ernaux og Les Années. Supplér mundtligt med Rostand, Leblanc, Simenon og Hergé efter behov.",
         "view": "link"
       },
       "settings": {
@@ -732,7 +744,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -741,7 +753,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "OIF · Haïti",
+      "title": "Lex · sprog i Cameroun",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -751,9 +763,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.francophonie.org/haiti-967",
-        "label": "OIF · Haïti",
-        "note": "Brug til Haiti, hvor fransk og kreolsk er officielle sprog, og til begrebet frankofoni.",
+        "url": "https://lex.dk/sprog_i_Cameroun",
+        "label": "Lex · sprog i Cameroun",
+        "note": "Præcis dansk kilde til det rettede Cameroun-spørgsmål: fransk og engelsk som officielle sprog i et centralafrikansk land.",
         "view": "link"
       },
       "settings": {
@@ -767,7 +779,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2523,8 +2535,8 @@
     "contentHash": "61b8ba6b2c1362617604a676b0ae08f518d38efd52072593908d3b9bf8903b8c",
     "packageHash": "1668fa822e5318e162e2d7d8951e2544056c302134df4447f97aac526156d8c4",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

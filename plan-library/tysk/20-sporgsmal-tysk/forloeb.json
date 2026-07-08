@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-tysk_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-tysk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Tysk sprog og kultur",
@@ -67,7 +67,7 @@
           "Webressourcer",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -518,67 +518,79 @@
         "version": 1,
         "resources": [
           {
-            "title": "Duden · Wörterbuch",
-            "url": "https://www.duden.de/woerterbuch",
-            "type": "tysk/ordbog",
-            "category": "Ord og udtryk",
-            "note": "Brug til tyske ord, stavning og betydninger som Käse, Brot, Milch, Montag og bis morgen.",
+            "title": "Lex · tysk",
+            "url": "https://lex.dk/tysk",
+            "type": "dansk/leksikon",
+            "category": "Tysk sprog og udbredelse",
+            "note": "Dansk overblik over tysk som officielt sprog i bl.a. Tyskland, Østrig, Schweiz, Belgien, Liechtenstein og Luxembourg.",
             "tags": [
-              "Duden",
-              "ordbog",
-              "tysk"
-            ]
-          },
-          {
-            "title": "Deutsche Welle · Deutsch lernen",
-            "url": "https://learngerman.dw.com/de/deutsch-lernen/s-9095",
-            "type": "tysk/undervisning",
-            "category": "Grammatik og udtale",
-            "note": "Brug til tysk grammatik, verber som haben/werden, perfektum og elevvenlige øvelser.",
-            "tags": [
-              "DW",
               "tysk",
-              "grammatik"
+              "sprog",
+              "Europa"
             ]
           },
           {
-            "title": "Goethe-Institut · Deutsch lernen",
-            "url": "https://www.goethe.de/de/spr/ueb.html",
-            "type": "tysk/kulturinstitution",
-            "category": "Sprogøvelser",
-            "note": "Brug til tyske sprogøvelser, ordforråd og kulturindgange.",
+            "title": "Goethe-Institut Danmark · Gratis tyskøvelser",
+            "url": "https://www.goethe.de/ins/dk/da/spr/ueb.html",
+            "type": "dansk/tysk/kulturinstitution",
+            "category": "Elevøvelser",
+            "note": "Dansk indgang til autentiske, men niveauopdelte, tyskøvelser. God som valgfri øvekilde, når eleverne kan klare målsproget.",
             "tags": [
               "Goethe",
-              "øvelser",
-              "tysk"
+              "tyskøvelser",
+              "A1-B2"
+            ]
+          },
+          {
+            "title": "Studienet · Perfektum og pluskvamperfektum i tysk",
+            "url": "https://www.studienet.dk/tysk-grammatik/verber/perfektum-og-pluskvamperfektum",
+            "type": "dansk/undervisning",
+            "category": "Tysk grammatik",
+            "note": "Dansk forklaring til perfektum, haben/sein og tysk datidsbrug. Bruges direkte til spørgsmålene om gearbeitet og gehen.",
+            "tags": [
+              "perfektum",
+              "haben",
+              "sein"
+            ]
+          },
+          {
+            "title": "Minlæring · TYSKGRAM",
+            "url": "https://www.minlaering.dk/ungdomsuddannelse/tysk-ungdomsuddannelse",
+            "type": "dansk/læremiddel",
+            "category": "Grammatiktræning",
+            "note": "Læremiddel med dansk stilladsering til tysk grammatik; markeret som læremiddel, ikke åben facitkilde, men relevant for niveau og træning.",
+            "tags": [
+              "TYSKGRAM",
+              "grammatik",
+              "læremiddel"
             ]
           },
           {
             "title": "Forfatterweb · tysksprogede forfattere",
             "url": "https://forfatterweb.dk/",
             "type": "dansk/undervisning",
-            "category": "Kunst og kultur",
-            "note": "Brug til danske elevvenlige forfatteropslag om Elfriede Jelinek, Erich Kästner, Michael Ende m.fl.",
+            "category": "Tysk litteratur",
+            "note": "Brug som dansk søgeindgang til Elfriede Jelinek, Erich Kästner, Michael Ende og andre tysksprogede forfattere. Eleverne søger på forfatternavnet på siden.",
             "tags": [
-              "forfatterweb",
               "tysk-litteratur",
-              "kultur"
+              "Jelinek",
+              "Kästner"
             ]
           },
           {
             "title": "Lex · Schweiz",
             "url": "https://lex.dk/Schweiz",
             "type": "dansk/leksikon",
-            "category": "Den tysktalende verden",
-            "note": "Brug til Schweiz som land med fire nationale sprog og til tysksproget geografi.",
+            "category": "Tysktalende lande",
+            "note": "Brug til Schweiz som flersproget land med tysk som et af de nationale/officielle sprog og til tysksproget geografi.",
             "tags": [
               "Schweiz",
-              "sprog",
-              "tysk"
+              "tysk",
+              "sprog"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +603,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -600,7 +612,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Duden · Wörterbuch",
+      "title": "Lex · tysk",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -610,9 +622,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.duden.de/woerterbuch",
-        "label": "Duden · Wörterbuch",
-        "note": "Brug til tyske ord, stavning og betydninger som Käse, Brot, Milch, Montag og bis morgen.",
+        "url": "https://lex.dk/tysk",
+        "label": "Lex · tysk",
+        "note": "Dansk overblik over tysk som officielt sprog i bl.a. Tyskland, Østrig, Schweiz, Belgien, Liechtenstein og Luxembourg.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +638,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -635,7 +647,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Deutsche Welle · Deutsch lernen",
+      "title": "Goethe-Institut Danmark · Gratis tyskøvelser",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -645,9 +657,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://learngerman.dw.com/de/deutsch-lernen/s-9095",
-        "label": "Deutsche Welle · Deutsch lernen",
-        "note": "Brug til tysk grammatik, verber som haben/werden, perfektum og elevvenlige øvelser.",
+        "url": "https://www.goethe.de/ins/dk/da/spr/ueb.html",
+        "label": "Goethe-Institut Danmark · Gratis tyskøvelser",
+        "note": "Dansk indgang til autentiske, men niveauopdelte, tyskøvelser. God som valgfri øvekilde, når eleverne kan klare målsproget.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +673,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -670,7 +682,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Goethe-Institut · Deutsch lernen",
+      "title": "Studienet · Perfektum og pluskvamperfektum i tysk",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -680,9 +692,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.goethe.de/de/spr/ueb.html",
-        "label": "Goethe-Institut · Deutsch lernen",
-        "note": "Brug til tyske sprogøvelser, ordforråd og kulturindgange.",
+        "url": "https://www.studienet.dk/tysk-grammatik/verber/perfektum-og-pluskvamperfektum",
+        "label": "Studienet · Perfektum og pluskvamperfektum i tysk",
+        "note": "Dansk forklaring til perfektum, haben/sein og tysk datidsbrug. Bruges direkte til spørgsmålene om gearbeitet og gehen.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +708,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -705,7 +717,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Forfatterweb · tysksprogede forfattere",
+      "title": "Minlæring · TYSKGRAM",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -715,9 +727,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://forfatterweb.dk/",
-        "label": "Forfatterweb · tysksprogede forfattere",
-        "note": "Brug til danske elevvenlige forfatteropslag om Elfriede Jelinek, Erich Kästner, Michael Ende m.fl.",
+        "url": "https://www.minlaering.dk/ungdomsuddannelse/tysk-ungdomsuddannelse",
+        "label": "Minlæring · TYSKGRAM",
+        "note": "Læremiddel med dansk stilladsering til tysk grammatik; markeret som læremiddel, ikke åben facitkilde, men relevant for niveau og træning.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +743,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -740,7 +752,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Lex · Schweiz",
+      "title": "Forfatterweb · tysksprogede forfattere",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -750,9 +762,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://lex.dk/Schweiz",
-        "label": "Lex · Schweiz",
-        "note": "Brug til Schweiz som land med fire nationale sprog og til tysksproget geografi.",
+        "url": "https://forfatterweb.dk/",
+        "label": "Forfatterweb · tysksprogede forfattere",
+        "note": "Brug som dansk søgeindgang til Elfriede Jelinek, Erich Kästner, Michael Ende og andre tysksprogede forfattere. Eleverne søger på forfatternavnet på siden.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +778,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2522,8 +2534,8 @@
     "contentHash": "61eee9dac4005b34c98884a4b84f3e07dfc576c2200dfc081856bb5082df6ba6",
     "packageHash": "9db3dff0a36b6aa2db4aeff055c3c4946d6c32b852cee8fd0c9084dcf9b038f0",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

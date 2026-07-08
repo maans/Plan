@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-06T23:55:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-sport-olympiske_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Sport og olympiske lege",
@@ -68,7 +68,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -519,14 +519,38 @@
         "version": 1,
         "resources": [
           {
+            "title": "DIF · De Olympiske Lege",
+            "url": "https://www.dif.dk/olympisk/ol",
+            "type": "dansk/fagorganisation",
+            "category": "Olympisk organisation i Danmark",
+            "note": "Dansk elevvenlig kilde til OL og DIF som Danmarks Olympiske Komité. Brug til NOC, dansk deltagelse og olympisk ramme.",
+            "tags": [
+              "DIF",
+              "OL",
+              "NOC"
+            ]
+          },
+          {
+            "title": "Lex · Danmarks Olympiske Komité",
+            "url": "https://lex.dk/Danmarks_Olympiske_Komit%C3%A9",
+            "type": "dansk/leksikon",
+            "category": "Olympisk organisation",
+            "note": "Brug til historien om Danmarks Olympiske Komité og forbindelsen til DIF.",
+            "tags": [
+              "Danmarks-Olympiske-Komité",
+              "DIF",
+              "olympisme"
+            ]
+          },
+          {
             "title": "Olympics.com · Olympic Games",
             "url": "https://www.olympics.com/en/olympic-games",
             "type": "officiel/international",
             "category": "Værtsbyer og år",
-            "note": "Brug til at kontrollere værtsbyer og årstal for sommer-OL som Seoul 1988, Atlanta 1996 og München 1972.",
+            "note": "Officiel kontrolkilde til værtsbyer og årstal for sommer-OL som Seoul 1988, Atlanta 1996, München 1972, Montréal 1976 og Mexico City 1968.",
             "tags": [
-              "olympiske-lege",
               "værtsbyer",
+              "OL",
               "årstal"
             ]
           },
@@ -534,52 +558,28 @@
             "title": "Olympics.com · Emil Zátopek",
             "url": "https://www.olympics.com/en/athletes/emil-zatopek",
             "type": "officiel/international",
-            "category": "Atleter og præstationer",
-            "note": "Brug til Zátopeks tre guldmedaljer i 5000 m, 10.000 m og maraton i Helsinki 1952.",
+            "category": "Olympiske præstationer",
+            "note": "Beholdes som officiel specialistkilde til Zátopeks tre guldmedaljer ved Helsinki 1952, fordi danske kilder er mindre præcise her.",
             "tags": [
-              "Zatopek",
+              "Zátopek",
               "Helsinki-1952",
               "atletik"
-            ]
-          },
-          {
-            "title": "Olympics.com · Abebe Bikila",
-            "url": "https://www.olympics.com/en/athletes/abebe-bikila",
-            "type": "officiel/international",
-            "category": "Atleter og præstationer",
-            "note": "Brug til Abebe Bikilas barfodede maratonsejr i Rom 1960.",
-            "tags": [
-              "Bikila",
-              "maraton",
-              "Rom-1960"
             ]
           },
           {
             "title": "Dansk Håndbold · Håndboldregler",
             "url": "https://danskhaandbold.dk/spil-haandbold/haandboldregler",
             "type": "dansk/fagorganisation",
-            "category": "Sportsgrene og regler",
-            "note": "Brug til antallet af spillere på et håndboldhold og grundreglerne i håndbold.",
+            "category": "Sportsregler",
+            "note": "Dansk kilde til håndboldspørgsmålet om syv spillere inklusive målmand. Brug sammen med volleyball-/rugby-/hockeyforbundenes regler efter behov.",
             "tags": [
               "håndbold",
               "regler",
               "spillere"
             ]
-          },
-          {
-            "title": "Volleyball Danmark · Regler og spillet",
-            "url": "https://volleyball.dk/volleyball/spillet-og-regler/",
-            "type": "dansk/fagorganisation",
-            "category": "Sportsgrene og regler",
-            "note": "Brug til volleyballholdets seks spillere på banen og spillets grundstruktur.",
-            "tags": [
-              "volleyball",
-              "regler",
-              "spillere"
-            ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -592,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -601,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "Olympics.com · Olympic Games",
+      "title": "DIF · De Olympiske Lege",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -611,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.olympics.com/en/olympic-games",
-        "label": "Olympics.com · Olympic Games",
-        "note": "Brug til at kontrollere værtsbyer og årstal for sommer-OL som Seoul 1988, Atlanta 1996 og München 1972.",
+        "url": "https://www.dif.dk/olympisk/ol",
+        "label": "DIF · De Olympiske Lege",
+        "note": "Dansk elevvenlig kilde til OL og DIF som Danmarks Olympiske Komité. Brug til NOC, dansk deltagelse og olympisk ramme.",
         "view": "link"
       },
       "settings": {
@@ -627,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -636,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "Olympics.com · Emil Zátopek",
+      "title": "Lex · Danmarks Olympiske Komité",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -646,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.olympics.com/en/athletes/emil-zatopek",
-        "label": "Olympics.com · Emil Zátopek",
-        "note": "Brug til Zátopeks tre guldmedaljer i 5000 m, 10.000 m og maraton i Helsinki 1952.",
+        "url": "https://lex.dk/Danmarks_Olympiske_Komit%C3%A9",
+        "label": "Lex · Danmarks Olympiske Komité",
+        "note": "Brug til historien om Danmarks Olympiske Komité og forbindelsen til DIF.",
         "view": "link"
       },
       "settings": {
@@ -662,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -671,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "Olympics.com · Abebe Bikila",
+      "title": "Olympics.com · Olympic Games",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -681,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.olympics.com/en/athletes/abebe-bikila",
-        "label": "Olympics.com · Abebe Bikila",
-        "note": "Brug til Abebe Bikilas barfodede maratonsejr i Rom 1960.",
+        "url": "https://www.olympics.com/en/olympic-games",
+        "label": "Olympics.com · Olympic Games",
+        "note": "Officiel kontrolkilde til værtsbyer og årstal for sommer-OL som Seoul 1988, Atlanta 1996, München 1972, Montréal 1976 og Mexico City 1968.",
         "view": "link"
       },
       "settings": {
@@ -697,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -706,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "Dansk Håndbold · Håndboldregler",
+      "title": "Olympics.com · Emil Zátopek",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -716,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://danskhaandbold.dk/spil-haandbold/haandboldregler",
-        "label": "Dansk Håndbold · Håndboldregler",
-        "note": "Brug til antallet af spillere på et håndboldhold og grundreglerne i håndbold.",
+        "url": "https://www.olympics.com/en/athletes/emil-zatopek",
+        "label": "Olympics.com · Emil Zátopek",
+        "note": "Beholdes som officiel specialistkilde til Zátopeks tre guldmedaljer ved Helsinki 1952, fordi danske kilder er mindre præcise her.",
         "view": "link"
       },
       "settings": {
@@ -732,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -741,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "Volleyball Danmark · Regler og spillet",
+      "title": "Dansk Håndbold · Håndboldregler",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -751,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://volleyball.dk/volleyball/spillet-og-regler/",
-        "label": "Volleyball Danmark · Regler og spillet",
-        "note": "Brug til volleyballholdets seks spillere på banen og spillets grundstruktur.",
+        "url": "https://danskhaandbold.dk/spil-haandbold/haandboldregler",
+        "label": "Dansk Håndbold · Håndboldregler",
+        "note": "Dansk kilde til håndboldspørgsmålet om syv spillere inklusive målmand. Brug sammen med volleyball-/rugby-/hockeyforbundenes regler efter behov.",
         "view": "link"
       },
       "settings": {
@@ -767,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2523,8 +2523,8 @@
     "contentHash": "39b4de009d33209d90c9c7f7a53934792f79ca690be2b6e976be07d872ee67ba",
     "packageHash": "e1a146bd5316502b506a2289070a835cd479bd4413502628d6185b5ceb674cec",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

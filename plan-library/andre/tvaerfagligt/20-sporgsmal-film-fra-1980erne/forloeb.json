@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-film-fra-1980erne_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Film fra 1980’erne",
@@ -67,7 +67,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -518,67 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "DFI · Filmdatabasen",
-            "url": "https://www.dfi.dk/viden-om-film/filmdatabasen",
-            "type": "dansk/filminstitution",
-            "category": "Instruktører, roller og filmfakta",
-            "note": "Brug som dansk filmfaglig database til opslag på film, instruktører, medvirkende og produktionsoplysninger.",
+            "title": "Lex · vindere af Oscar for bedste film",
+            "url": "https://lex.dk/vindere_af_Oscar_for_bedste_film",
+            "type": "dansk/leksikon",
+            "category": "Oscarvindere",
+            "note": "Præcis dansk kilde til The Last Emperor, Rain Man og Driving Miss Daisy som Oscarvindere for bedste film.",
             "tags": [
-              "film",
-              "DFI",
-              "filmdatabasen"
+              "Oscar",
+              "bedste-film",
+              "1980erne"
             ]
           },
           {
-            "title": "DFI · Filmens historie 1980’erne",
-            "url": "https://www.dfi.dk/cinemateket/filmens-historie-1980erne",
-            "type": "dansk/filminstitution",
-            "category": "Filmhistorisk kontekst",
-            "note": "Brug til 1980’erne som filmhistorisk periode og til at sætte titlerne ind i en kulturel sammenhæng.",
+            "title": "DFI Filmdatabasen · Raging Bull",
+            "url": "https://www.dfi.dk/en/viden-om-film/filmdatabasen/film/raging-bull",
+            "type": "dansk/filmdatabase",
+            "category": "Skuespillere og filmdata",
+            "note": "Brug til Raging Bull, Robert De Niro/Jake LaMotta og filmdata i en dansk filminstitutionsdatabase.",
             "tags": [
-              "1980erne",
-              "filmhistorie",
+              "Raging-Bull",
+              "Robert-De-Niro",
               "DFI"
+            ]
+          },
+          {
+            "title": "DFI Filmdatabasen · Driving Miss Daisy",
+            "url": "https://www.dfi.dk/viden-om-film/filmdatabasen/film/driving-miss-daisy",
+            "type": "dansk/filmdatabase",
+            "category": "Filmdata og handling",
+            "note": "Brug til Driving Miss Daisy og som eksempel på dansk filmdataopslag i stedet for IMDb som hovedkilde.",
+            "tags": [
+              "Driving-Miss-Daisy",
+              "DFI",
+              "filmdata"
             ]
           },
           {
             "title": "The Academy · Oscar ceremonies",
             "url": "https://www.oscars.org/oscars/ceremonies",
             "type": "officiel/international",
-            "category": "Oscarvindere",
-            "note": "Brug til bedste film og skuespillerpriser for The Last Emperor, Rain Man, Driving Miss Daisy, Raging Bull og On Golden Pond.",
+            "category": "Officiel Oscar-kontrol",
+            "note": "Beholdes som officiel kontrolkilde for Oscar-facit, når danske oversigter ikke går ned i alle skuespillerpriser.",
             "tags": [
-              "Oscar",
               "Academy",
-              "filmpriser"
+              "Oscar",
+              "kontrol"
             ]
           },
           {
-            "title": "AFI Catalog · Raging Bull",
-            "url": "https://catalog.afi.com/Film/54882-RAGING-BULL",
-            "type": "fagdatabase/international",
-            "category": "Roller og skuespillere",
-            "note": "Brug til Raging Bull, Jake LaMotta, Robert De Niro og filmens nøgleoplysninger.",
+            "title": "DFI · Filmdatabasen",
+            "url": "https://www.dfi.dk/viden-om-film/filmdatabasen",
+            "type": "dansk/filmdatabase",
+            "category": "Instruktører, skuespillere og film",
+            "note": "Dansk søgeindgang til 1980’er-film som The Shining, The Terminator, Ghostbusters, Ran og Cinema Paradiso.",
             "tags": [
-              "Raging-Bull",
-              "De-Niro",
-              "AFI"
-            ]
-          },
-          {
-            "title": "IMDb · filmopslag",
-            "url": "https://www.imdb.com/",
-            "type": "database/kildekritisk",
-            "category": "Kontrolopslag",
-            "note": "Brug kun som supplerende kontrolopslag, ikke som eneste kilde, når eleverne dobbelttjekker roller, instruktører og musik.",
-            "tags": [
-              "IMDb",
-              "opslag",
-              "kildekritik"
+              "filmdatabasen",
+              "instruktører",
+              "skuespillere"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -600,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "DFI · Filmdatabasen",
+      "title": "Lex · vindere af Oscar for bedste film",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -610,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.dfi.dk/viden-om-film/filmdatabasen",
-        "label": "DFI · Filmdatabasen",
-        "note": "Brug som dansk filmfaglig database til opslag på film, instruktører, medvirkende og produktionsoplysninger.",
+        "url": "https://lex.dk/vindere_af_Oscar_for_bedste_film",
+        "label": "Lex · vindere af Oscar for bedste film",
+        "note": "Præcis dansk kilde til The Last Emperor, Rain Man og Driving Miss Daisy som Oscarvindere for bedste film.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -635,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "DFI · Filmens historie 1980’erne",
+      "title": "DFI Filmdatabasen · Raging Bull",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -645,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.dfi.dk/cinemateket/filmens-historie-1980erne",
-        "label": "DFI · Filmens historie 1980’erne",
-        "note": "Brug til 1980’erne som filmhistorisk periode og til at sætte titlerne ind i en kulturel sammenhæng.",
+        "url": "https://www.dfi.dk/en/viden-om-film/filmdatabasen/film/raging-bull",
+        "label": "DFI Filmdatabasen · Raging Bull",
+        "note": "Brug til Raging Bull, Robert De Niro/Jake LaMotta og filmdata i en dansk filminstitutionsdatabase.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -670,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "The Academy · Oscar ceremonies",
+      "title": "DFI Filmdatabasen · Driving Miss Daisy",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -680,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.oscars.org/oscars/ceremonies",
-        "label": "The Academy · Oscar ceremonies",
-        "note": "Brug til bedste film og skuespillerpriser for The Last Emperor, Rain Man, Driving Miss Daisy, Raging Bull og On Golden Pond.",
+        "url": "https://www.dfi.dk/viden-om-film/filmdatabasen/film/driving-miss-daisy",
+        "label": "DFI Filmdatabasen · Driving Miss Daisy",
+        "note": "Brug til Driving Miss Daisy og som eksempel på dansk filmdataopslag i stedet for IMDb som hovedkilde.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -705,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "AFI Catalog · Raging Bull",
+      "title": "The Academy · Oscar ceremonies",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -715,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://catalog.afi.com/Film/54882-RAGING-BULL",
-        "label": "AFI Catalog · Raging Bull",
-        "note": "Brug til Raging Bull, Jake LaMotta, Robert De Niro og filmens nøgleoplysninger.",
+        "url": "https://www.oscars.org/oscars/ceremonies",
+        "label": "The Academy · Oscar ceremonies",
+        "note": "Beholdes som officiel kontrolkilde for Oscar-facit, når danske oversigter ikke går ned i alle skuespillerpriser.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -740,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "IMDb · filmopslag",
+      "title": "DFI · Filmdatabasen",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -750,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.imdb.com/",
-        "label": "IMDb · filmopslag",
-        "note": "Brug kun som supplerende kontrolopslag, ikke som eneste kilde, når eleverne dobbelttjekker roller, instruktører og musik.",
+        "url": "https://www.dfi.dk/viden-om-film/filmdatabasen",
+        "label": "DFI · Filmdatabasen",
+        "note": "Dansk søgeindgang til 1980’er-film som The Shining, The Terminator, Ghostbusters, Ran og Cinema Paradiso.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2522,8 +2522,8 @@
     "contentHash": "fdc24527c067fa7d5035f8001fe2d506df54ceaca3f33a5f7c4d78913ec943d6",
     "packageHash": "cef65b1b19a3bd4b6d807cfe19295fb920f644f64102bbe70dcacf4051e2cf54",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

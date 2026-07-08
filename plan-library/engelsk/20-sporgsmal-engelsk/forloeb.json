@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-engelsk_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-engelsk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
@@ -67,7 +67,7 @@
           "Webressourcer",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -518,59 +518,71 @@
         "version": 1,
         "resources": [
           {
-            "title": "Cambridge Dictionary",
-            "url": "https://dictionary.cambridge.org/",
-            "type": "engelsk/ordbog",
-            "category": "Ord og vendinger",
-            "note": "Brug til præcise betydninger, eksempler og udtale for ord som lend, improve, avoid, relieved og embarrassed.",
-            "tags": [
-              "ordbog",
-              "vocabulary",
-              "Cambridge"
-            ]
-          },
-          {
-            "title": "British Council LearnEnglish · Grammar",
-            "url": "https://learnenglish.britishcouncil.org/grammar",
-            "type": "engelsk/undervisning",
-            "category": "Grammatik og udtale",
-            "note": "Brug til present perfect, future continuous, modalverber og conditional-sætninger.",
-            "tags": [
-              "grammar",
-              "British-Council",
-              "engelsk"
-            ]
-          },
-          {
-            "title": "Forfatterweb · engelsk/irsk litteratur",
-            "url": "https://forfatterweb.dk/",
-            "type": "dansk/undervisning",
-            "category": "Litteratur og kultur",
-            "note": "Brug til danske forfatterportrætter og baggrundsstof, når eleverne undersøger Joyce, Conan Doyle, Milne, Bond og Rowling.",
-            "tags": [
-              "forfatterweb",
-              "litteratur",
-              "engelsk"
-            ]
-          },
-          {
-            "title": "Lex · New Zealand",
-            "url": "https://lex.dk/New_Zealand",
+            "title": "Lex · engelsk",
+            "url": "https://lex.dk/engelsk",
             "type": "dansk/leksikon",
-            "category": "Den engelsktalende verden",
-            "note": "Brug til New Zealands sprogstatus med engelsk som de facto hovedsprog og maori/tegnsprog med officiel status.",
+            "category": "Engelsk sprog og udbredelse",
+            "note": "Dansk overblik over engelsk som sprog; brug til at rammesætte, hvor engelsk bruges som hovedsprog eller officielt sprog.",
             "tags": [
-              "New-Zealand",
+              "engelsk",
               "sprog",
-              "engelsk"
+              "overblik"
             ]
           },
           {
-            "title": "Lex · Singapore",
-            "url": "https://lex.dk/Singapore",
+            "title": "EF Danmark · Engelsk grammatik",
+            "url": "https://www.ef-danmark.dk/engelske-oversaettelser/engelsk-grammatik/",
+            "type": "dansk/undervisning",
+            "category": "Grammatik på dansk",
+            "note": "Danske forklaringer til engelske tider og konstruktioner. Brug især som elevstøtte til present perfect og future continuous.",
+            "tags": [
+              "engelsk",
+              "grammatik",
+              "tider"
+            ]
+          },
+          {
+            "title": "Studienet · Modalverber på engelsk",
+            "url": "https://www.studienet.dk/engelsk/grammatik/verber-udsagnsord/modalverber",
+            "type": "dansk/undervisning",
+            "category": "Modalverber",
+            "note": "Præcis dansk forklaring på, at modalverber som must normalt følges af infinitiv/grundform uden to.",
+            "tags": [
+              "modalverber",
+              "must",
+              "grammatik"
+            ]
+          },
+          {
+            "title": "Forfatterweb · James Joyce / Ulysses",
+            "url": "https://forfatterweb.dk/oversigt/joyce-james/genrer-og-tematikker",
+            "type": "dansk/undervisning",
+            "category": "Engelsksproget litteratur",
+            "note": "Dansk elevvenlig kilde til James Joyce og Ulysses, så litteraturspørgsmålet kan undersøges uden tunge engelske akademiske sider.",
+            "tags": [
+              "James-Joyce",
+              "Ulysses",
+              "litteratur"
+            ]
+          },
+          {
+            "title": "Forfatterweb · Arthur Conan Doyle",
+            "url": "https://forfatterweb.dk/oversigt/doyle-arthur-conan",
+            "type": "dansk/undervisning",
+            "category": "Sherlock Holmes",
+            "note": "Dansk kilde til Arthur Conan Doyle og Sherlock Holmes; kan bruges som model for kildekritisk opslag om andre engelsksprogede figurer.",
+            "tags": [
+              "Conan-Doyle",
+              "Sherlock-Holmes",
+              "litteratur"
+            ]
+          },
+          {
+            "title": "Lex · Singapores sprog",
+            "url": "https://lex.dk/Singapores_sprog",
             "type": "dansk/leksikon",
-            "category": "Den engelsktalende verden",
-            "note": "Brug til Singapores fire officielle sprog: malajisk, mandarin, tamil og engelsk.",
+            "category": "Engelsk som officielt sprog",
+            "note": "Præcis dansk kilde til Singapores fire officielle sprog: malajisk, mandarin/kinesisk, tamil og engelsk.",
             "tags": [
               "Singapore",
               "officielle-sprog",
@@ -578,7 +590,7 @@
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +603,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -600,7 +612,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "Cambridge Dictionary",
+      "title": "Lex · engelsk",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -610,9 +622,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://dictionary.cambridge.org/",
-        "label": "Cambridge Dictionary",
-        "note": "Brug til præcise betydninger, eksempler og udtale for ord som lend, improve, avoid, relieved og embarrassed.",
+        "url": "https://lex.dk/engelsk",
+        "label": "Lex · engelsk",
+        "note": "Dansk overblik over engelsk som sprog; brug til at rammesætte, hvor engelsk bruges som hovedsprog eller officielt sprog.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +638,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -635,7 +647,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "British Council LearnEnglish · Grammar",
+      "title": "EF Danmark · Engelsk grammatik",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -645,9 +657,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://learnenglish.britishcouncil.org/grammar",
-        "label": "British Council LearnEnglish · Grammar",
-        "note": "Brug til present perfect, future continuous, modalverber og conditional-sætninger.",
+        "url": "https://www.ef-danmark.dk/engelske-oversaettelser/engelsk-grammatik/",
+        "label": "EF Danmark · Engelsk grammatik",
+        "note": "Danske forklaringer til engelske tider og konstruktioner. Brug især som elevstøtte til present perfect og future continuous.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +673,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -670,7 +682,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "Forfatterweb · engelsk/irsk litteratur",
+      "title": "Studienet · Modalverber på engelsk",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -680,9 +692,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://forfatterweb.dk/",
-        "label": "Forfatterweb · engelsk/irsk litteratur",
-        "note": "Brug til danske forfatterportrætter og baggrundsstof, når eleverne undersøger Joyce, Conan Doyle, Milne, Bond og Rowling.",
+        "url": "https://www.studienet.dk/engelsk/grammatik/verber-udsagnsord/modalverber",
+        "label": "Studienet · Modalverber på engelsk",
+        "note": "Præcis dansk forklaring på, at modalverber som must normalt følges af infinitiv/grundform uden to.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +708,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -705,7 +717,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "Lex · New Zealand",
+      "title": "Forfatterweb · James Joyce / Ulysses",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -715,9 +727,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://lex.dk/New_Zealand",
-        "label": "Lex · New Zealand",
-        "note": "Brug til New Zealands sprogstatus med engelsk som de facto hovedsprog og maori/tegnsprog med officiel status.",
+        "url": "https://forfatterweb.dk/oversigt/joyce-james/genrer-og-tematikker",
+        "label": "Forfatterweb · James Joyce / Ulysses",
+        "note": "Dansk elevvenlig kilde til James Joyce og Ulysses, så litteraturspørgsmålet kan undersøges uden tunge engelske akademiske sider.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +743,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -740,7 +752,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "Lex · Singapore",
+      "title": "Forfatterweb · Arthur Conan Doyle",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -750,9 +762,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://lex.dk/Singapore",
-        "label": "Lex · Singapore",
-        "note": "Brug til Singapores fire officielle sprog: malajisk, mandarin, tamil og engelsk.",
+        "url": "https://forfatterweb.dk/oversigt/doyle-arthur-conan",
+        "label": "Forfatterweb · Arthur Conan Doyle",
+        "note": "Dansk kilde til Arthur Conan Doyle og Sherlock Holmes; kan bruges som model for kildekritisk opslag om andre engelsksprogede figurer.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +778,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -1703,7 +1715,7 @@
             {
               "id": "kp_engelsk-sprog-kultur_16",
               "category": "Den engelsktalende verden",
-              "question": "Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?",
+              "question": "Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog er lovfæstede officielle sprog?",
               "points": 100,
               "options": [
                 "New Zealand",
@@ -2014,7 +2026,7 @@
         "layoutRole": "flashcard-training"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2404,7 +2416,7 @@
           {
             "id": "kp_engelsk-sprog-kultur_16",
             "category": "Den engelsktalende verden",
-            "question": "Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog har lovfæstet officiel status?",
+            "question": "Hvilket land bruger engelsk som de facto hovedsprog, mens maori og landets tegnsprog er lovfæstede officielle sprog?",
             "points": 100,
             "options": [
               "New Zealand",
@@ -2494,7 +2506,7 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     }
   ],
@@ -2522,8 +2534,8 @@
     "contentHash": "fafd1c772f209f8f5733b59a7fba8e68e1f546bf9c265e1bc7fb0dd5eb17d9d6",
     "packageHash": "1ce9e7966e86700a69f026f999f82f86aa4252afd36d44d572663027547a556c",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

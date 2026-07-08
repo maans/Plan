@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-06T18:30:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase1-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T19:27:32Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-rumfart_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T19:27:32Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-rumfart_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Rumfart",
@@ -68,7 +68,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -522,64 +522,64 @@
             "title": "Lex · rumfart",
             "url": "https://lex.dk/rumfart",
             "type": "dansk/leksikon",
-            "category": "Rumfartens historie",
-            "note": "Brug til rumfartens udvikling, første rumvandring, Apollo, rumfærgen og satellitbaner.",
+            "category": "Rumfartens grundbegreber",
+            "note": "Dansk hovedkilde til rumfart, rumfartøjer, satellitter, sonder og menneskets rejser uden for Jordens atmosfære.",
             "tags": [
               "rumfart",
-              "apollo",
+              "rumfartøjer",
               "satellitter"
             ]
           },
           {
-            "title": "Lex · Alan B. Shepard",
-            "url": "https://lex.dk/Alan_B._Shepard",
+            "title": "Lex · Apollo-rumprogrammet",
+            "url": "https://lex.dk/Apollo_-_rumprogram",
             "type": "dansk/leksikon",
-            "category": "Mercury-programmet",
-            "note": "Brug til Alan Shepard, Freedom 7 og den første amerikaner i rummet.",
+            "category": "Apollo og Saturn V",
+            "note": "Brug til Apollo-programmet og baggrunden for Saturn V-raketten.",
             "tags": [
-              "alan-shepard",
-              "freedom-7",
-              "mercury"
+              "Apollo",
+              "Saturn-V",
+              "Månen"
             ]
           },
           {
-            "title": "Vild med rummet · Rumfart",
-            "url": "https://www.vildmedrummet.dk/rumfart/",
-            "type": "dansk/undervisning",
-            "category": "Missioner og teknologi",
-            "note": "Brug til rumsonder, satellitter, baner og de store trin i rumfartshistorien.",
+            "title": "Lex · Saturn-raketter",
+            "url": "https://lex.dk/Saturn_-_amerikansk_serie_af_l%C3%B8fteraketter",
+            "type": "dansk/leksikon",
+            "category": "Saturn V",
+            "note": "Dansk kilde til Saturn-raketterne som amerikanske løfteraketter udviklet til Apolloprojektet.",
             "tags": [
-              "missioner",
-              "satellitter",
-              "teknologi"
+              "Saturn",
+              "løfteraket",
+              "Apollo"
             ]
           },
           {
-            "title": "rumfart.dk · Chandrayaan-3 landet nær Månens sydpol",
-            "url": "https://www.rumfart.dk/2023/08/23/chandrayaan-3-landet-naer-maanens-sydpol/",
-            "type": "dansk/fagformidling",
-            "category": "Månemissioner",
-            "note": "Brug til Chandrayaan-3, Vikram-landeren og den bløde landing i 2023.",
+            "title": "Lex · satellit og satellitbane",
+            "url": "https://lex.dk/satellitbane",
+            "type": "dansk/leksikon",
+            "category": "Satellitbaner",
+            "note": "Brug til satellitbane, geostationær bane, polar bane og LEO som begreber, før eleverne evt. læser engelske missionssider.",
             "tags": [
-              "chandrayaan-3",
-              "vikram",
-              "maanen"
+              "satellitbane",
+              "geostationær",
+              "LEO"
             ]
           },
           {
-            "title": "The Planetary Society · Chang'e-4 og Yutu-2",
+            "title": "The Planetary Society · Chang’e 4 og Yutu-2",
             "url": "https://www.planetary.org/space-missions/change-4",
             "type": "engelsk/ekspertkilde",
-            "category": "Månens bagside",
-            "note": "Brug kun hvor dansk præcis kilde mangler: Yutu-2 og Chang'e-4 på Månens bagside.",
+            "category": "Nyere missioner",
+            "note": "Beholdes som præcis specialistkilde til Chang’e 4/Yutu-2, fordi de danske åbne kilder er mindre dækkende. Brug lærerstøttet.",
             "tags": [
-              "yutu-2",
-              "change-4",
-              "maanens-bagside"
+              "Chang-e-4",
+              "Yutu-2",
+              "Månen"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -592,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -613,7 +613,7 @@
       "content": {
         "url": "https://lex.dk/rumfart",
         "label": "Lex · rumfart",
-        "note": "Brug til rumfartens udvikling, første rumvandring, Apollo, rumfærgen og satellitbaner.",
+        "note": "Dansk hovedkilde til rumfart, rumfartøjer, satellitter, sonder og menneskets rejser uden for Jordens atmosfære.",
         "view": "link"
       },
       "settings": {
@@ -627,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -636,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "Lex · Alan B. Shepard",
+      "title": "Lex · Apollo-rumprogrammet",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -646,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://lex.dk/Alan_B._Shepard",
-        "label": "Lex · Alan B. Shepard",
-        "note": "Brug til Alan Shepard, Freedom 7 og den første amerikaner i rummet.",
+        "url": "https://lex.dk/Apollo_-_rumprogram",
+        "label": "Lex · Apollo-rumprogrammet",
+        "note": "Brug til Apollo-programmet og baggrunden for Saturn V-raketten.",
         "view": "link"
       },
       "settings": {
@@ -662,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -671,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "Vild med rummet · Rumfart",
+      "title": "Lex · Saturn-raketter",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -681,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.vildmedrummet.dk/rumfart/",
-        "label": "Vild med rummet · Rumfart",
-        "note": "Brug til rumsonder, satellitter, baner og de store trin i rumfartshistorien.",
+        "url": "https://lex.dk/Saturn_-_amerikansk_serie_af_l%C3%B8fteraketter",
+        "label": "Lex · Saturn-raketter",
+        "note": "Dansk kilde til Saturn-raketterne som amerikanske løfteraketter udviklet til Apolloprojektet.",
         "view": "link"
       },
       "settings": {
@@ -697,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -706,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "rumfart.dk · Chandrayaan-3 landet nær Månens sydpol",
+      "title": "Lex · satellit og satellitbane",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -716,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.rumfart.dk/2023/08/23/chandrayaan-3-landet-naer-maanens-sydpol/",
-        "label": "rumfart.dk · Chandrayaan-3 landet nær Månens sydpol",
-        "note": "Brug til Chandrayaan-3, Vikram-landeren og den bløde landing i 2023.",
+        "url": "https://lex.dk/satellitbane",
+        "label": "Lex · satellit og satellitbane",
+        "note": "Brug til satellitbane, geostationær bane, polar bane og LEO som begreber, før eleverne evt. læser engelske missionssider.",
         "view": "link"
       },
       "settings": {
@@ -732,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -741,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-rumfart_v2_showcase_2",
       "type": "link",
-      "title": "The Planetary Society · Chang'e-4 og Yutu-2",
+      "title": "The Planetary Society · Chang’e 4 og Yutu-2",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -752,8 +752,8 @@
       },
       "content": {
         "url": "https://www.planetary.org/space-missions/change-4",
-        "label": "The Planetary Society · Chang'e-4 og Yutu-2",
-        "note": "Brug kun hvor dansk præcis kilde mangler: Yutu-2 og Chang'e-4 på Månens bagside.",
+        "label": "The Planetary Society · Chang’e 4 og Yutu-2",
+        "note": "Beholdes som præcis specialistkilde til Chang’e 4/Yutu-2, fordi de danske åbne kilder er mindre dækkende. Brug lærerstøttet.",
         "view": "link"
       },
       "settings": {
@@ -767,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2523,8 +2523,8 @@
     "contentHash": "aee76e8aed6f797c5ca570cd3602137b4c74911bdf883729e698dd51d9e64e60",
     "packageHash": "43755b656f8f90b2b22aaa12d39c9381e0f5a541cee4c12be54c42f8d0aee809",
     "quality": {
-      "sourceUpgrade": "fase1-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T19:27:32Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

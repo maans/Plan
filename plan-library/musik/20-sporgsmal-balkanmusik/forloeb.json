@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-balkanmusik_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-balkanmusik_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Balkanmusik",
@@ -67,7 +67,7 @@
           "Gruppeværktøj",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -520,9 +520,9 @@
           {
             "title": "UNESCO ICH · Kolo, traditional folk dance",
             "url": "https://ich.unesco.org/en/RL/kolo-traditional-folk-dance-01270",
-            "type": "international/UNESCO",
-            "category": "Stilarter, sange og steder",
-            "note": "Brug til kolo og Serbiens optagelse på UNESCOs repræsentative liste i 2017.",
+            "type": "officiel/international",
+            "category": "UNESCO-facit",
+            "note": "Officiel kilde til at kolo fra Serbien blev optaget på UNESCOs repræsentative liste i 2017.",
             "tags": [
               "kolo",
               "Serbien",
@@ -532,53 +532,53 @@
           {
             "title": "UNESCO ICH · Rebetiko",
             "url": "https://ich.unesco.org/en/RL/rebetiko-01291",
-            "type": "international/UNESCO",
-            "category": "Rebetiko",
-            "note": "Brug til rebetiko, bouzouki-kontekst og optagelsen på UNESCOs liste i 2017.",
+            "type": "officiel/international",
+            "category": "UNESCO-facit",
+            "note": "Officiel kilde til rebetiko og optagelsesåret 2017.",
             "tags": [
               "rebetiko",
-              "bouzouki",
+              "Grækenland",
               "UNESCO"
             ]
           },
           {
             "title": "UNESCO ICH · Sevdalinka",
-            "url": "https://ich.unesco.org/en/RL/sevdalinka-02098",
-            "type": "international/UNESCO",
-            "category": "Sevdalinka",
-            "note": "Brug til sevdalinka og optagelsen på UNESCOs repræsentative liste i 2024.",
+            "url": "https://ich.unesco.org/en/RL/sevdalinka-traditional-urban-folk-song-01872",
+            "type": "officiel/international",
+            "category": "UNESCO-facit",
+            "note": "Officiel kilde til sevdalinka som traditionel urban sang fra Bosnien-Hercegovina og optagelsesåret 2024.",
             "tags": [
               "sevdalinka",
-              "Bosnien",
+              "Bosnien-Hercegovina",
               "UNESCO"
             ]
           },
           {
             "title": "UNESCO ICH · Klapa multipart singing of Dalmatia",
             "url": "https://ich.unesco.org/en/RL/klapa-multipart-singing-of-dalmatia-southern-croatia-00746",
-            "type": "international/UNESCO",
-            "category": "Klapa og Dalmatien",
-            "note": "Brug til dalmatisk klapa-sang og optagelsen i 2012.",
+            "type": "officiel/international",
+            "category": "UNESCO-facit",
+            "note": "Officiel kilde til dalmatisk klapa-sang og optagelsesåret 2012.",
             "tags": [
               "klapa",
-              "Dalmatien",
+              "Kroatien",
               "UNESCO"
             ]
           },
           {
-            "title": "Smithsonian Folkways · Balkan music",
-            "url": "https://folkways.si.edu/search?query=Balkan",
-            "type": "international/musikarkiv",
-            "category": "Lytning og kontekst",
-            "note": "Brug som lytte- og kontekstkilde til Balkanmusik, brassbands, roma-musik og regionale instrumenter.",
+            "title": "Folk Dance Federation of California · Daichovo Horo",
+            "url": "https://www.folkdance.com/video/daichovo-horo/",
+            "type": "fagmiljø/international",
+            "category": "Asymmetriske taktarter",
+            "note": "Bruges som nødkilde til daichovo horo i 9/8, fordi danske, præcise åbne kilder til Balkan-taktarter er meget begrænsede.",
             "tags": [
-              "Balkan",
-              "lytning",
-              "folkways"
+              "daichovo-horo",
+              "9/8",
+              "Balkan"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -612,7 +612,7 @@
       "content": {
         "url": "https://ich.unesco.org/en/RL/kolo-traditional-folk-dance-01270",
         "label": "UNESCO ICH · Kolo, traditional folk dance",
-        "note": "Brug til kolo og Serbiens optagelse på UNESCOs repræsentative liste i 2017.",
+        "note": "Officiel kilde til at kolo fra Serbien blev optaget på UNESCOs repræsentative liste i 2017.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -647,7 +647,7 @@
       "content": {
         "url": "https://ich.unesco.org/en/RL/rebetiko-01291",
         "label": "UNESCO ICH · Rebetiko",
-        "note": "Brug til rebetiko, bouzouki-kontekst og optagelsen på UNESCOs liste i 2017.",
+        "note": "Officiel kilde til rebetiko og optagelsesåret 2017.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -680,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/sevdalinka-02098",
+        "url": "https://ich.unesco.org/en/RL/sevdalinka-traditional-urban-folk-song-01872",
         "label": "UNESCO ICH · Sevdalinka",
-        "note": "Brug til sevdalinka og optagelsen på UNESCOs repræsentative liste i 2024.",
+        "note": "Officiel kilde til sevdalinka som traditionel urban sang fra Bosnien-Hercegovina og optagelsesåret 2024.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -717,7 +717,7 @@
       "content": {
         "url": "https://ich.unesco.org/en/RL/klapa-multipart-singing-of-dalmatia-southern-croatia-00746",
         "label": "UNESCO ICH · Klapa multipart singing of Dalmatia",
-        "note": "Brug til dalmatisk klapa-sang og optagelsen i 2012.",
+        "note": "Officiel kilde til dalmatisk klapa-sang og optagelsesåret 2012.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -740,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "type": "link",
-      "title": "Smithsonian Folkways · Balkan music",
+      "title": "Folk Dance Federation of California · Daichovo Horo",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -750,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://folkways.si.edu/search?query=Balkan",
-        "label": "Smithsonian Folkways · Balkan music",
-        "note": "Brug som lytte- og kontekstkilde til Balkanmusik, brassbands, roma-musik og regionale instrumenter.",
+        "url": "https://www.folkdance.com/video/daichovo-horo/",
+        "label": "Folk Dance Federation of California · Daichovo Horo",
+        "note": "Bruges som nødkilde til daichovo horo i 9/8, fordi danske, præcise åbne kilder til Balkan-taktarter er meget begrænsede.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2522,8 +2522,8 @@
     "contentHash": "391d2ed47e96fbf97953018783c88999096617526035bd02c3edde480a89ecf9",
     "packageHash": "2c528770de7ab2d5192a2559154a24259a22d14443580e78c3db3ef0e99861ca",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

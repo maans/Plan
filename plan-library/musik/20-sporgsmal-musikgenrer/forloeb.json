@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-musikgenrer_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-musikgenrer_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Musikgenrer",
@@ -67,7 +67,7 @@
           "Timer",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -518,35 +518,47 @@
         "version": 1,
         "resources": [
           {
-            "title": "Lex · musikgenrer",
-            "url": "https://lex.dk/musikgenre",
-            "type": "dansk/leksikon",
-            "category": "Genreoverblik",
-            "note": "Brug som dansk begrebsindgang til musikgenrer og stiltræk, før eleverne går til mere specialiserede kilder.",
+            "title": "Musikipedia · Techno",
+            "url": "https://www.musikipedia.dk/techno/aktiviteter",
+            "type": "dansk/undervisning",
+            "category": "Elektronisk musik",
+            "note": "Dansk undervisningsindgang til techno med aktiviteter, så eleverne kan arbejde med genren uden at starte på engelske leksikonsider.",
             "tags": [
-              "musikgenrer",
-              "genre",
-              "lex"
+              "techno",
+              "Musikipedia",
+              "undervisning"
+            ]
+          },
+          {
+            "title": "Berklee · Electronic music genres",
+            "url": "https://www.berklee.edu/berklee-now/news/electronic-music-genres-a-guide-to-the-most-influential-styles",
+            "type": "fagformidling/international",
+            "category": "Elektroniske genrer",
+            "note": "Fagligt stærk, men engelsk kilde til house, techno, drum and bass og elektroniske subgenrer. Brug lærerstøttet.",
+            "tags": [
+              "house",
+              "techno",
+              "drum-and-bass"
             ]
           },
           {
             "title": "Rock & Roll Hall of Fame · Hip Hop",
             "url": "https://rockhall.com/inductees/categories/hip-hop/",
             "type": "international/musikinstitution",
-            "category": "Hip-hop og pionerer",
-            "note": "Brug til hiphop, DJ/MC-roller, Grandmaster Flash og genrens historiske rødder.",
+            "category": "Hiphop og pionerer",
+            "note": "Brug til hiphop, DJ/MC og Grandmaster Flash. Engelsk kilde, men institutionelt stærkere end tilfældige oversigter.",
             "tags": [
               "hiphop",
               "Grandmaster-Flash",
-              "Bronx"
+              "DJ-MC"
             ]
           },
           {
             "title": "Smithsonian Folkways · Reggae and ska",
             "url": "https://folkways.si.edu/",
             "type": "international/musikarkiv",
-            "category": "Reggae, ska og verdensmusik",
-            "note": "Brug til lytning og kontekst omkring reggae, ska, calypso og beslægtede traditioner.",
+            "category": "Reggae, ska og calypso",
+            "note": "Brug til jamaicanske/caribiske genrer og lytteeksempler. Læreren bør vælge konkrete opslag/eksempler til eleverne.",
             "tags": [
               "reggae",
               "ska",
@@ -554,23 +566,11 @@
             ]
           },
           {
-            "title": "Museum of Youth Culture · House music",
-            "url": "https://museumofyouthculture.com/house-music/",
-            "type": "international/kulturhistorie",
-            "category": "Elektronisk musik",
-            "note": "Brug til housemusikkens udspring i Chicago og klubmiljøer i 1980’erne.",
-            "tags": [
-              "house",
-              "Chicago",
-              "elektronisk-musik"
-            ]
-          },
-          {
             "title": "Britannica · heavy metal",
             "url": "https://www.britannica.com/art/heavy-metal-music",
             "type": "international/leksikon",
             "category": "Rock og metal",
-            "note": "Brug som faglig kontrol af heavy metal, Black Sabbath og rockens undergenrer.",
+            "note": "Brug som kontrolleret kilde til heavy metal, Black Sabbath og tungt forvrængede guitarer, hvor danske elevkilder er tynde.",
             "tags": [
               "heavy-metal",
               "Black-Sabbath",
@@ -578,7 +578,7 @@
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -600,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Lex · musikgenrer",
+      "title": "Musikipedia · Techno",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -610,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://lex.dk/musikgenre",
-        "label": "Lex · musikgenrer",
-        "note": "Brug som dansk begrebsindgang til musikgenrer og stiltræk, før eleverne går til mere specialiserede kilder.",
+        "url": "https://www.musikipedia.dk/techno/aktiviteter",
+        "label": "Musikipedia · Techno",
+        "note": "Dansk undervisningsindgang til techno med aktiviteter, så eleverne kan arbejde med genren uden at starte på engelske leksikonsider.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -635,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Rock & Roll Hall of Fame · Hip Hop",
+      "title": "Berklee · Electronic music genres",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -645,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://rockhall.com/inductees/categories/hip-hop/",
-        "label": "Rock & Roll Hall of Fame · Hip Hop",
-        "note": "Brug til hiphop, DJ/MC-roller, Grandmaster Flash og genrens historiske rødder.",
+        "url": "https://www.berklee.edu/berklee-now/news/electronic-music-genres-a-guide-to-the-most-influential-styles",
+        "label": "Berklee · Electronic music genres",
+        "note": "Fagligt stærk, men engelsk kilde til house, techno, drum and bass og elektroniske subgenrer. Brug lærerstøttet.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -670,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Smithsonian Folkways · Reggae and ska",
+      "title": "Rock & Roll Hall of Fame · Hip Hop",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -680,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://folkways.si.edu/",
-        "label": "Smithsonian Folkways · Reggae and ska",
-        "note": "Brug til lytning og kontekst omkring reggae, ska, calypso og beslægtede traditioner.",
+        "url": "https://rockhall.com/inductees/categories/hip-hop/",
+        "label": "Rock & Roll Hall of Fame · Hip Hop",
+        "note": "Brug til hiphop, DJ/MC og Grandmaster Flash. Engelsk kilde, men institutionelt stærkere end tilfældige oversigter.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -705,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Museum of Youth Culture · House music",
+      "title": "Smithsonian Folkways · Reggae and ska",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -715,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://museumofyouthculture.com/house-music/",
-        "label": "Museum of Youth Culture · House music",
-        "note": "Brug til housemusikkens udspring i Chicago og klubmiljøer i 1980’erne.",
+        "url": "https://folkways.si.edu/",
+        "label": "Smithsonian Folkways · Reggae and ska",
+        "note": "Brug til jamaicanske/caribiske genrer og lytteeksempler. Læreren bør vælge konkrete opslag/eksempler til eleverne.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -752,7 +752,7 @@
       "content": {
         "url": "https://www.britannica.com/art/heavy-metal-music",
         "label": "Britannica · heavy metal",
-        "note": "Brug som faglig kontrol af heavy metal, Black Sabbath og rockens undergenrer.",
+        "note": "Brug som kontrolleret kilde til heavy metal, Black Sabbath og tungt forvrængede guitarer, hvor danske elevkilder er tynde.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2522,8 +2522,8 @@
     "contentHash": "2ff82eede8aa4f59572c54d0e6217cdd0724996a84e8b712db63e1dc28677e52",
     "packageHash": "4f1693794965c87da0206bf85c9e88455b68f2214bc2e3f6ba193755d8ef1d3e",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-06T18:30:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Berømte opfindelser",
@@ -67,7 +67,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -518,67 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Science Museum Group · Objects and stories",
-            "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
-            "type": "international/museum",
-            "category": "Opfindelser og teknologi",
-            "note": "Brug til elevvenlige museumsopslag om teknologihistorie, fotografi, transport og hverdagens opfindelser.",
+            "title": "Lex · elektrokardiograf",
+            "url": "https://lex.dk/elektrokardiograf",
+            "type": "dansk/leksikon",
+            "category": "Medicinsk teknologi",
+            "note": "Dansk kilde til elektrokardiografen og EKG som registrering af hjertets elektriske aktivitet.",
             "tags": [
-              "opfindelser",
-              "museum",
-              "teknologi"
-            ]
-          },
-          {
-            "title": "Computer History Museum · Timeline of Computer History",
-            "url": "https://www.computerhistory.org/timeline/",
-            "type": "international/museum",
-            "category": "Elektronik og computere",
-            "note": "Brug til Intel 4004, UNIVAC I, integrerede kredsløb, transistorer og computerhistorisk kontekst.",
-            "tags": [
-              "computerhistorie",
-              "UNIVAC",
-              "Intel-4004"
-            ]
-          },
-          {
-            "title": "Nobel Prize · Willem Einthoven",
-            "url": "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/",
-            "type": "officiel/Nobel",
-            "category": "Medicin og måling",
-            "note": "Brug til elektrokardiografen, EKG og Einthovens arbejde med hjertets elektriske aktivitet.",
-            "tags": [
-              "Einthoven",
+              "elektrokardiograf",
               "EKG",
-              "Nobel"
+              "hjerte"
             ]
           },
           {
-            "title": "Kodak · George Eastman",
-            "url": "https://www.kodak.com/en/company/page/george-eastman-history/",
-            "type": "virksomhedshistorie",
-            "category": "Fotografi og medier",
-            "note": "Brug kritisk til Kodak, George Eastman og rullefilm som masseprodukt.",
+            "title": "Sundhed.dk · EKG",
+            "url": "https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/undersoegelser/ekg/",
+            "type": "dansk/sundhedsfaglig",
+            "category": "EKG i praksis",
+            "note": "Elevvenlig dansk sundhedskilde til, hvad et EKG viser, og hvorfor apparatet bruges.",
             "tags": [
-              "Kodak",
-              "Eastman",
-              "rullefilm"
+              "EKG",
+              "Patienthåndbogen",
+              "sundhed"
             ]
           },
           {
             "title": "IBM · RAMAC history",
             "url": "https://www.ibm.com/history/ramac",
-            "type": "virksomhedshistorie",
-            "category": "Lagring og harddisk",
-            "note": "Brug kritisk til IBM 305 RAMAC og den første kommercielle harddisk.",
+            "type": "virksomhedshistorie/kildekritisk",
+            "category": "Harddisk og datalagring",
+            "note": "Primær virksomhedskilde til IBM 305 RAMAC som første computer med random-access harddisk. Brug kildekritisk pga. afsenderen.",
             "tags": [
-              "IBM",
-              "RAMAC",
-              "harddisk"
+              "IBM-305-RAMAC",
+              "harddisk",
+              "IBM"
+            ]
+          },
+          {
+            "title": "Computer History Museum · Intel 4004 oral history",
+            "url": "https://www.computerhistory.org/collections/catalog/102658187",
+            "type": "museum/fagdatabase",
+            "category": "Mikroprocessor",
+            "note": "Museums- og oral-history-kilde til Intel 4004 og udviklingsholdet bag mikroprocessoren.",
+            "tags": [
+              "Intel-4004",
+              "mikroprocessor",
+              "computerhistorie"
+            ]
+          },
+          {
+            "title": "Science Museum Group · Objects and stories",
+            "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
+            "type": "museum/international",
+            "category": "Opfindelser og teknologi",
+            "note": "Beholdes som bred museumsindgang til kamera, film, elevator, dæk og teknologihistorie, hvor danske kilder ofte er for spredte.",
+            "tags": [
+              "opfindelser",
+              "teknologihistorie",
+              "museum"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -600,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Science Museum Group · Objects and stories",
+      "title": "Lex · elektrokardiograf",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -610,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
-        "label": "Science Museum Group · Objects and stories",
-        "note": "Brug til elevvenlige museumsopslag om teknologihistorie, fotografi, transport og hverdagens opfindelser.",
+        "url": "https://lex.dk/elektrokardiograf",
+        "label": "Lex · elektrokardiograf",
+        "note": "Dansk kilde til elektrokardiografen og EKG som registrering af hjertets elektriske aktivitet.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -635,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Computer History Museum · Timeline of Computer History",
+      "title": "Sundhed.dk · EKG",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -645,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.computerhistory.org/timeline/",
-        "label": "Computer History Museum · Timeline of Computer History",
-        "note": "Brug til Intel 4004, UNIVAC I, integrerede kredsløb, transistorer og computerhistorisk kontekst.",
+        "url": "https://www.sundhed.dk/borger/patienthaandbogen/hjerte-og-blodkar/undersoegelser/ekg/",
+        "label": "Sundhed.dk · EKG",
+        "note": "Elevvenlig dansk sundhedskilde til, hvad et EKG viser, og hvorfor apparatet bruges.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -670,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Nobel Prize · Willem Einthoven",
+      "title": "IBM · RAMAC history",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -680,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/",
-        "label": "Nobel Prize · Willem Einthoven",
-        "note": "Brug til elektrokardiografen, EKG og Einthovens arbejde med hjertets elektriske aktivitet.",
+        "url": "https://www.ibm.com/history/ramac",
+        "label": "IBM · RAMAC history",
+        "note": "Primær virksomhedskilde til IBM 305 RAMAC som første computer med random-access harddisk. Brug kildekritisk pga. afsenderen.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -705,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Kodak · George Eastman",
+      "title": "Computer History Museum · Intel 4004 oral history",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -715,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.kodak.com/en/company/page/george-eastman-history/",
-        "label": "Kodak · George Eastman",
-        "note": "Brug kritisk til Kodak, George Eastman og rullefilm som masseprodukt.",
+        "url": "https://www.computerhistory.org/collections/catalog/102658187",
+        "label": "Computer History Museum · Intel 4004 oral history",
+        "note": "Museums- og oral-history-kilde til Intel 4004 og udviklingsholdet bag mikroprocessoren.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -740,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "IBM · RAMAC history",
+      "title": "Science Museum Group · Objects and stories",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -750,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.ibm.com/history/ramac",
-        "label": "IBM · RAMAC history",
-        "note": "Brug kritisk til IBM 305 RAMAC og den første kommercielle harddisk.",
+        "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
+        "label": "Science Museum Group · Objects and stories",
+        "note": "Beholdes som bred museumsindgang til kamera, film, elevator, dæk og teknologihistorie, hvor danske kilder ofte er for spredte.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2522,8 +2522,8 @@
     "contentHash": "f25944bc84a2cbf0a2ea03d26f7c7579931d4b6d31e41eaa385b3e116bfb58b9",
     "packageHash": "08896935ab55b750e20e8017b82a15cc373d96e602c45d9eed98361972be7177",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

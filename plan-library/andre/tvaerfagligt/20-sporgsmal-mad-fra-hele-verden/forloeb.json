@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-07T00:45:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Mad fra hele verden",
@@ -67,7 +67,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -518,67 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "UNESCO · Food and intangible heritage",
-            "url": "https://courier.unesco.org/en/articles/food-and-intangible-heritage-flavourful-relationship",
-            "type": "international/UNESCO",
-            "category": "Måltider og madkultur",
-            "note": "Brug til madtraditioner som immateriel kulturarv og overblik over UNESCOs madkulturspørgsmål.",
+            "title": "Lex · feijoada",
+            "url": "https://lex.dk/feijoada",
+            "type": "dansk/leksikon",
+            "category": "Verdensretter",
+            "note": "Præcis dansk kilde til feijoada som brasiliansk bønneret med sorte bønner og kød.",
             "tags": [
-              "UNESCO",
+              "feijoada",
+              "Brasilien",
+              "bønner"
+            ]
+          },
+          {
+            "title": "Lex · churros",
+            "url": "https://lex.dk/churros",
+            "type": "dansk/leksikon",
+            "category": "Desserter og bagværk",
+            "note": "Præcis dansk kilde til churros som friturekogt spansk bagværk, ofte med sukker og varm chokolade.",
+            "tags": [
+              "churros",
+              "Spanien",
+              "dessert"
+            ]
+          },
+          {
+            "title": "Lex · gastronomi",
+            "url": "https://lex.dk/gastronomi",
+            "type": "dansk/leksikon",
+            "category": "Madbegreber og teknik",
+            "note": "Dansk overblikskilde til madkultur og gastronomiske begreber; brug som støtte ved emulgering, tilberedning og madtraditioner.",
+            "tags": [
+              "gastronomi",
               "madkultur",
-              "kulturarv"
+              "begreber"
             ]
           },
           {
             "title": "UNESCO ICH · Washoku",
             "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-00869",
-            "type": "international/UNESCO",
-            "category": "Japansk madkultur",
-            "note": "Brug til Washoku som traditionel japansk madkultur på UNESCOs liste.",
+            "type": "officiel/international",
+            "category": "Immateriel kulturarv",
+            "note": "Officiel kilde til Washoku, fordi UNESCO-listespørgsmål bedst kontrolleres hos UNESCO. Brug lærerstøttet pga. engelsk niveau.",
             "tags": [
-              "Washoku",
-              "Japan",
-              "UNESCO"
-            ]
-          },
-          {
-            "title": "UNESCO ICH · Mediterranean diet",
-            "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
-            "type": "international/UNESCO",
-            "category": "Middelhavskosten",
-            "note": "Brug til Middelhavskosten som fælles spise- og livsstilstradition.",
-            "tags": [
-              "Middelhavskosten",
               "UNESCO",
-              "madkultur"
+              "Washoku",
+              "Japan"
             ]
           },
           {
-            "title": "UNESCO ICH · Traditional Mexican cuisine",
-            "url": "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400",
-            "type": "international/UNESCO",
-            "category": "Mexicansk madkultur",
-            "note": "Brug til majs, bønner og chili i traditionel mexicansk madkultur.",
+            "title": "UNESCO ICH · Food heritage entries",
+            "url": "https://ich.unesco.org/en/lists",
+            "type": "officiel/international",
+            "category": "Immateriel kulturarv",
+            "note": "Officiel søgekilde til Middelhavskosten, fransk gastronomisk måltid, mexicansk køkken og pizzaiuolo-kunsten. Bruges som kontrol, ikke som første elevlæsning.",
             "tags": [
-              "Mexico",
-              "majs",
-              "UNESCO"
-            ]
-          },
-          {
-            "title": "UNESCO ICH · Art of Neapolitan pizzaiuolo",
-            "url": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
-            "type": "international/UNESCO",
-            "category": "Pizzaiuolo-kunsten",
-            "note": "Brug til napolitansk pizzabagning som immateriel kulturarv.",
-            "tags": [
-              "pizza",
-              "Napoli",
-              "UNESCO"
+              "UNESCO",
+              "madkultur",
+              "kulturarv"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -591,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -600,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO · Food and intangible heritage",
+      "title": "Lex · feijoada",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -610,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://courier.unesco.org/en/articles/food-and-intangible-heritage-flavourful-relationship",
-        "label": "UNESCO · Food and intangible heritage",
-        "note": "Brug til madtraditioner som immateriel kulturarv og overblik over UNESCOs madkulturspørgsmål.",
+        "url": "https://lex.dk/feijoada",
+        "label": "Lex · feijoada",
+        "note": "Præcis dansk kilde til feijoada som brasiliansk bønneret med sorte bønner og kød.",
         "view": "link"
       },
       "settings": {
@@ -626,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -635,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO ICH · Washoku",
+      "title": "Lex · churros",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -645,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-00869",
-        "label": "UNESCO ICH · Washoku",
-        "note": "Brug til Washoku som traditionel japansk madkultur på UNESCOs liste.",
+        "url": "https://lex.dk/churros",
+        "label": "Lex · churros",
+        "note": "Præcis dansk kilde til churros som friturekogt spansk bagværk, ofte med sukker og varm chokolade.",
         "view": "link"
       },
       "settings": {
@@ -661,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -670,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO ICH · Mediterranean diet",
+      "title": "Lex · gastronomi",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -680,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
-        "label": "UNESCO ICH · Mediterranean diet",
-        "note": "Brug til Middelhavskosten som fælles spise- og livsstilstradition.",
+        "url": "https://lex.dk/gastronomi",
+        "label": "Lex · gastronomi",
+        "note": "Dansk overblikskilde til madkultur og gastronomiske begreber; brug som støtte ved emulgering, tilberedning og madtraditioner.",
         "view": "link"
       },
       "settings": {
@@ -696,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -705,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO ICH · Traditional Mexican cuisine",
+      "title": "UNESCO ICH · Washoku",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -715,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400",
-        "label": "UNESCO ICH · Traditional Mexican cuisine",
-        "note": "Brug til majs, bønner og chili i traditionel mexicansk madkultur.",
+        "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-00869",
+        "label": "UNESCO ICH · Washoku",
+        "note": "Officiel kilde til Washoku, fordi UNESCO-listespørgsmål bedst kontrolleres hos UNESCO. Brug lærerstøttet pga. engelsk niveau.",
         "view": "link"
       },
       "settings": {
@@ -731,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -740,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO ICH · Art of Neapolitan pizzaiuolo",
+      "title": "UNESCO ICH · Food heritage entries",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -750,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
-        "label": "UNESCO ICH · Art of Neapolitan pizzaiuolo",
-        "note": "Brug til napolitansk pizzabagning som immateriel kulturarv.",
+        "url": "https://ich.unesco.org/en/lists",
+        "label": "UNESCO ICH · Food heritage entries",
+        "note": "Officiel søgekilde til Middelhavskosten, fransk gastronomisk måltid, mexicansk køkken og pizzaiuolo-kunsten. Bruges som kontrol, ikke som første elevlæsning.",
         "view": "link"
       },
       "settings": {
@@ -766,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2522,8 +2522,8 @@
     "contentHash": "1ba2a75a54decef3b5c726250ce375c874b6066dd2255a44fecb3eea4d00c9da",
     "packageHash": "64a44b270430cac087da50fb62f52e8a79a6a326791672df6bc1baa3a431d580",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []

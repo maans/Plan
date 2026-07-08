@@ -18,8 +18,8 @@
     "exportedAt": "2026-07-06T23:55:00.000Z",
     "sourceAppVersion": "1.0.9",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "sessions": [
@@ -42,7 +42,7 @@
         "board_professor_20-sporgsmal-spansk_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-spansk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Spansk sprog og kultur",
@@ -68,7 +68,7 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
       }
     }
   ],
@@ -522,64 +522,76 @@
             "title": "Lex · spansk sprog",
             "url": "https://lex.dk/spansk_sprog",
             "type": "dansk/leksikon",
-            "category": "Ord, udtale og sprogområder",
-            "note": "Brug som dansk overblik over spansk sprog og udbredelse i verden.",
+            "category": "Spansk sprog og udbredelse",
+            "note": "Dansk overblik over spansk som verdenssprog og grundlag for at forstå, hvorfor sproget bruges i Spanien, Latinamerika og Ækvatorialguinea.",
             "tags": [
               "spansk",
               "sprog",
-              "spansktalende"
+              "overblik"
             ]
           },
           {
-            "title": "Real Academia Española · Diccionario",
-            "url": "https://dle.rae.es/",
-            "type": "spansk/officiel",
-            "category": "Ord og udtryk",
-            "note": "Brug som autoritativ ordbog til spanske ord som queso, pan, leche og faste udtryk.",
+            "title": "El Planecito · Spansk grammatik på dansk",
+            "url": "https://spanskgrammatik.dk/elplanecito.html",
+            "type": "dansk/undervisning",
+            "category": "Ord og grammatik",
+            "note": "Elevnær dansk grammatikside til netop de former, der optræder i spillet: hay, tener, ir, ser, ugedage og almindelige verber.",
             "tags": [
-              "RAE",
-              "ordbog",
+              "spansk",
+              "grammatik",
+              "verber"
+            ]
+          },
+          {
+            "title": "Forfatterweb · Mario Vargas Llosa",
+            "url": "https://forfatterweb.dk/vargas-llosa-mario/bibliografi",
+            "type": "dansk/undervisning",
+            "category": "Spansksproget litteratur",
+            "note": "Brug til La ciudad y los perros / Byen og hundene og som dansk indgang til spansksproget romantradition.",
+            "tags": [
+              "Vargas-Llosa",
+              "La-ciudad-y-los-perros",
+              "litteratur"
+            ]
+          },
+          {
+            "title": "Lex · La Celestina",
+            "url": "https://lex.dk/La_Celestina",
+            "type": "dansk/leksikon",
+            "category": "Spansk klassiker",
+            "note": "Præcis dansk kilde til La Celestina og Fernando de Rojas, så eleverne ikke skal finde svaret via tilfældige boghandlere eller generiske websider.",
+            "tags": [
+              "La-Celestina",
+              "Fernando-de-Rojas",
+              "klassiker"
+            ]
+          },
+          {
+            "title": "Lex · sprog i Ækvatorialguinea",
+            "url": "https://lex.dk/sprog_i_%C3%86kvatorialguinea",
+            "type": "dansk/leksikon",
+            "category": "Spansk uden for Spanien/Latinamerika",
+            "note": "Brug til spørgsmålet om landet med spansk, fransk og portugisisk som officielle sprog.",
+            "tags": [
+              "Ækvatorialguinea",
+              "officielle-sprog",
               "spansk"
             ]
           },
           {
-            "title": "Instituto Cervantes · CVC",
-            "url": "https://cvc.cervantes.es/",
-            "type": "spansk/kulturinstitution",
-            "category": "Grammatik og kultur",
-            "note": "Brug til sprog- og kulturstof, konjugationer, forfattere og spansksprogede områder.",
+            "title": "Lex · sprog i Peru",
+            "url": "https://lex.dk/sprog_i_Peru",
+            "type": "dansk/leksikon",
+            "category": "Andesregionen og officielle sprog",
+            "note": "Brug til spansk, quechua og aymara i Peru og som dansk baggrund for Machu Picchu-spørgsmålet.",
             "tags": [
-              "Cervantes",
-              "grammatik",
-              "kultur"
-            ]
-          },
-          {
-            "title": "UNESCO World Heritage Centre · Machu Picchu",
-            "url": "https://whc.unesco.org/en/list/274/",
-            "type": "international/UNESCO",
-            "category": "Den spansktalende verden",
-            "note": "Brug til Machu Picchu i Peru og verdensarvskontekst.",
-            "tags": [
-              "Machu-Picchu",
               "Peru",
-              "UNESCO"
-            ]
-          },
-          {
-            "title": "UNESCO World Heritage Centre · Rapa Nui National Park",
-            "url": "https://whc.unesco.org/en/list/715/",
-            "type": "international/UNESCO",
-            "category": "Den spansktalende verden",
-            "note": "Brug til Rapa Nui/Påskeøen som del af Chile og til kulturarvskontekst.",
-            "tags": [
-              "Rapa-Nui",
-              "Chile",
-              "UNESCO"
+              "quechua",
+              "aymara"
             ]
           }
         ],
-        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
+        "teacherNote": "Kvalitetsløftet kildematrix fase 3: Kilderne er valgt til 9.–10. klasse. Standard er danske, elevtilgængelige kvalitetskilder. Autentiske eller internationale kilder bruges kun, når de er tydeligt bedre som facitkontrol eller giver reel faglig værdi, og bør da bruges lærerstøttet."
       },
       "settings": {
         "locked": false,
@@ -592,7 +604,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -613,7 +625,7 @@
       "content": {
         "url": "https://lex.dk/spansk_sprog",
         "label": "Lex · spansk sprog",
-        "note": "Brug som dansk overblik over spansk sprog og udbredelse i verden.",
+        "note": "Dansk overblik over spansk som verdenssprog og grundlag for at forstå, hvorfor sproget bruges i Spanien, Latinamerika og Ækvatorialguinea.",
         "view": "link"
       },
       "settings": {
@@ -627,7 +639,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -636,7 +648,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "Real Academia Española · Diccionario",
+      "title": "El Planecito · Spansk grammatik på dansk",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -646,9 +658,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://dle.rae.es/",
-        "label": "Real Academia Española · Diccionario",
-        "note": "Brug som autoritativ ordbog til spanske ord som queso, pan, leche og faste udtryk.",
+        "url": "https://spanskgrammatik.dk/elplanecito.html",
+        "label": "El Planecito · Spansk grammatik på dansk",
+        "note": "Elevnær dansk grammatikside til netop de former, der optræder i spillet: hay, tener, ir, ser, ugedage og almindelige verber.",
         "view": "link"
       },
       "settings": {
@@ -662,7 +674,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -671,7 +683,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "Instituto Cervantes · CVC",
+      "title": "Forfatterweb · Mario Vargas Llosa",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -681,9 +693,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://cvc.cervantes.es/",
-        "label": "Instituto Cervantes · CVC",
-        "note": "Brug til sprog- og kulturstof, konjugationer, forfattere og spansksprogede områder.",
+        "url": "https://forfatterweb.dk/vargas-llosa-mario/bibliografi",
+        "label": "Forfatterweb · Mario Vargas Llosa",
+        "note": "Brug til La ciudad y los perros / Byen og hundene og som dansk indgang til spansksproget romantradition.",
         "view": "link"
       },
       "settings": {
@@ -697,7 +709,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -706,7 +718,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO World Heritage Centre · Machu Picchu",
+      "title": "Lex · La Celestina",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -716,9 +728,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://whc.unesco.org/en/list/274/",
-        "label": "UNESCO World Heritage Centre · Machu Picchu",
-        "note": "Brug til Machu Picchu i Peru og verdensarvskontekst.",
+        "url": "https://lex.dk/La_Celestina",
+        "label": "Lex · La Celestina",
+        "note": "Præcis dansk kilde til La Celestina og Fernando de Rojas, så eleverne ikke skal finde svaret via tilfældige boghandlere eller generiske websider.",
         "view": "link"
       },
       "settings": {
@@ -732,7 +744,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -741,7 +753,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO World Heritage Centre · Rapa Nui National Park",
+      "title": "Lex · sprog i Ækvatorialguinea",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -751,9 +763,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://whc.unesco.org/en/list/715/",
-        "label": "UNESCO World Heritage Centre · Rapa Nui National Park",
-        "note": "Brug til Rapa Nui/Påskeøen som del af Chile og til kulturarvskontekst.",
+        "url": "https://lex.dk/sprog_i_%C3%86kvatorialguinea",
+        "label": "Lex · sprog i Ækvatorialguinea",
+        "note": "Brug til spørgsmålet om landet med spansk, fransk og portugisisk som officielle sprog.",
         "view": "link"
       },
       "settings": {
@@ -767,7 +779,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T20:35:30Z",
       "legacy": null
     },
     {
@@ -2523,8 +2535,8 @@
     "contentHash": "5fc98e6c38a058e4ae602fda9915311c429a42bbaf4739da6c5847f64a76c37d",
     "packageHash": "a0990425966fd52e3eb8916c7e1017eb9a9b5c9991e28514a9e5bb640a3a2ae6",
     "quality": {
-      "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
+      "updatedAt": "2026-07-08T20:35:30Z"
     }
   },
   "warnings": []
