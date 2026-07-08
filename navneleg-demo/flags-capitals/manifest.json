@@ -1,0 +1,27 @@
+{
+  "schema": "plan-picture-flip-demo-v1",
+  "id": "flags-capitals",
+  "title": "Flag og hovedstæder",
+  "kind": "geography-picture-game",
+  "description": "Flag som forside og land/hovedstad som bagside.",
+  "datasetPath": "navneleg-demo/flags-capitals/flag_hovedstaeder_demo.csv",
+  "imageBasePath": "navneleg-demo/flags-capitals/photos/",
+  "imageColumn": "Billedfil",
+  "frontLabelColumn": "Forside",
+  "defaultAnswerColumn": "BagsideTekst",
+  "answerColumns": [
+    "BagsideTekst",
+    "Bagside",
+    "Land",
+    "Hovedstad",
+    "LandEngelsk",
+    "CapitalEnglish",
+    "Region",
+    "Billedtitel"
+  ],
+  "noteColumn": "Hint",
+  "categoryColumn": "Region",
+  "matrixTitle": "Billedmatrix · flag og hovedstæder",
+  "gameTitle": "Billedvendespil · flag og hovedstæder",
+  "defaultFrontLabelMode": "hidden"
+}

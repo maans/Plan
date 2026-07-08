@@ -10,7 +10,6 @@
       "kind": "student-name-game",
       "humor": "25 demoelever med efternavne fra lærerværelsets parallelunivers.",
       "datasetPath": "navneleg-demo/students/elevstamdata_navneleg_demo.csv",
-      "xlsxPath": "navneleg-demo/students/elevstamdata_navneleg_demo.xlsx",
       "imageBasePath": "navneleg-demo/students/photos/",
       "imageColumn": "Billedfil",
       "frontLabelColumn": "Forside",
@@ -53,7 +52,6 @@
       "categoryColumn": "Kategori",
       "matrixTitle": "Billedmatrix · frugt og grønt",
       "gameTitle": "Billedvendespil · fruit & vegetables",
-      "xlsxPath": "navneleg-demo/fruit-vegetables/frugt_groent_flersproget_demo.xlsx",
       "defaultFrontLabelMode": "label"
     },
     {
@@ -80,23 +78,22 @@
       "categoryColumn": "Group",
       "matrixTitle": "Billedmatrix · periodisk tabel",
       "gameTitle": "Billedvendespil · periodisk tabel",
-      "xlsxPath": "navneleg-demo/periodic-table/periodisk_tabel_demo.xlsx",
       "defaultFrontLabelMode": "label"
     },
     {
       "id": "planets",
       "title": "Planeter og rumobjekter",
       "kind": "space-picture-game",
-      "humor": "Fra Merkur til Pluto — ja, Pluto må godt være med i demoen.",
+      "humor": "Planeter og rumobjekter med rækkefølge fra Solen som ledetråd.",
       "datasetPath": "navneleg-demo/planets/planeter_demo.csv",
       "imageBasePath": "navneleg-demo/planets/photos/",
       "imageColumn": "Billedfil",
       "frontLabelColumn": "Forside",
-      "defaultAnswerColumn": "English",
+      "defaultAnswerColumn": "Dansk",
       "answerColumns": [
+        "Dansk",
         "English",
         "BagsideTekst",
-        "Dansk",
         "Bagside",
         "Type",
         "OrderFromSun",
@@ -106,7 +103,32 @@
       "categoryColumn": "Type",
       "matrixTitle": "Billedmatrix · planeter",
       "gameTitle": "Billedvendespil · planeter",
-      "xlsxPath": "navneleg-demo/planets/planeter_demo.xlsx",
+      "defaultFrontLabelMode": "label"
+    },
+    {
+      "id": "flags-capitals",
+      "title": "Flag og hovedstæder",
+      "kind": "geography-picture-game",
+      "humor": "Flagtræning uden at hele geografitimen går op i vimpler.",
+      "datasetPath": "navneleg-demo/flags-capitals/flag_hovedstaeder_demo.csv",
+      "imageBasePath": "navneleg-demo/flags-capitals/photos/",
+      "imageColumn": "Billedfil",
+      "frontLabelColumn": "Forside",
+      "defaultAnswerColumn": "BagsideTekst",
+      "answerColumns": [
+        "BagsideTekst",
+        "Bagside",
+        "Land",
+        "Hovedstad",
+        "LandEngelsk",
+        "CapitalEnglish",
+        "Region",
+        "Billedtitel"
+      ],
+      "noteColumn": "Hint",
+      "categoryColumn": "Region",
+      "matrixTitle": "Billedmatrix · flag og hovedstæder",
+      "gameTitle": "Billedvendespil · flag og hovedstæder",
       "defaultFrontLabelMode": "hidden"
     }
   ],
