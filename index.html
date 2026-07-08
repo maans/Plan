@@ -38399,7 +38399,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
         if(String(content.frontLabelMode||'hidden').startsWith('col:')&&!usable.includes(content.frontLabelMode.slice(4)))content.frontLabelMode='hidden';
       }
       const frontOptions=()=>[['hidden','Kun billede'],...(content.frontColumns||[]).map(col=>[`col:${col}`,col]),['file-stem','Filnavn uden endelse']];
-      const toolbar=cards=>`<div class="tn-pfg-head"><div class="tn-pfg-titleline"><strong>${esc(widget.title||'Billedvendespil')}</strong><small>${cards.length} kort · billedmatrix-visning</small><label><small>Forside:</small> <select data-pfg-front>${frontOptions().map(([value,label])=>`<option value="${esc(value)}"${(content.frontLabelMode||'hidden')===value?' selected':''}>${esc(label)}</option>`).join('')}</select></label><label><small>Bagside:</small> <select data-pfg-answer>${(content.answerColumns||[]).map(col=>`<option value="${esc(col)}"${col===content.answerKey?' selected':''}>${esc(col)}</option>`).join('')}</select></label></div><div class="tn-pfg-actions"><button type="button" data-pfg-action="view-matrix" class="${content.view!=='single'?'active':''}">Tavlematrix</button><button type="button" data-pfg-action="view-single" class="${content.view==='single'?'active':''}">En ad gangen</button><button type="button" data-pfg-action="shuffle">Bland</button><button type="button" data-pfg-action="back-to-matrix">Vis billedmatrix</button></div></div>`;
+      const toolbar=cards=>`<div class="tn-pfg-head"><div class="tn-pfg-titleline"><strong>${esc(widget.title||'Billedvendespil')}</strong><small>${cards.length} kort · billedmatrix-visning</small><label><small>Forside:</small> <select data-pfg-front>${frontOptions().map(([value,label])=>`<option value="${esc(value)}"${(content.frontLabelMode||'hidden')===value?' selected':''}>${esc(label)}</option>`).join('')}</select></label><label><small>Bagside:</small> <select data-pfg-answer>${(content.answerColumns||[]).map(col=>`<option value="${esc(col)}"${col===content.answerKey?' selected':''}>${esc(col)}</option>`).join('')}</select></label></div><div class="tn-pfg-actions"><button type="button" data-pfg-action="view-matrix" class="${content.view!=='single'?'active':''}">Tavlematrix</button><button type="button" data-pfg-action="view-single" class="${content.view==='single'?'active':''}">En ad gangen</button><button type="button" data-pfg-action="shuffle">Bland</button></div></div>`;
       async function cardHtml(card,flipped=false,extra=''){const src=await mediaUrl(app,card,urls),front=frontText(card,content.frontLabelMode||'hidden'),ans=answerText(card,content.answerKey);return `<button type="button" class="tn-pfg-card ${flipped?'flipped':''} ${extra}" data-pfg-card="${esc(card.id)}" aria-label="Vend kort"><span class="tn-pfg-card-inner"><span class="tn-pfg-face tn-pfg-front ${front?'':'hide-label'}"><img src="${esc(src)}" alt="${esc(front||card.frontLabel||card.fileName||'Billede')}" draggable="false"><span>${esc(front)}</span></span><span class="tn-pfg-face tn-pfg-back"><b>${esc(ans)}</b><small>${esc(card.category||'')}</small></span></span></button>`;}
       async function render(){const my=++token;release();await syncColumns();const cards=orderedCards(content);root.innerHTML=toolbar(cards)+'<div class="tn-pfg-empty">Henter billeder …</div>';if(my!==token)return;let html='';if(content.view==='single'){const index=Math.max(0,Math.min(cards.length-1,Number(content.activeIndex)||0)),card=cards[index];html=card?`<div class="tn-pfg-body"><div class="tn-pfg-single"><div class="tn-pfg-single-simple">${await cardHtml(card,!!content.singleFlipped,'tn-pfg-single-flip-card')}<div class="tn-pfg-single-nav"><button type="button" data-pfg-action="prev">‹ Forrige</button><span class="tn-pfg-single-count">${index+1} / ${cards.length}</span><button type="button" data-pfg-action="next">Næste ›</button></div></div></div></div>`:'<div class="tn-pfg-empty">Ingen kort.</div>';}else{const parts=[];for(const card of cards){parts.push(await cardHtml(card,!!content.flipped?.[card.id]));if(my!==token)return;}html=`<div class="tn-pfg-body"><div class="tn-pfg-grid">${parts.join('')}</div></div>`;}root.innerHTML=toolbar(cards)+html;}
       root.addEventListener('change',async event=>{const a=event.target.closest('[data-pfg-answer]'),f=event.target.closest('[data-pfg-front]');if(a){content.answerKey=a.value;content.singleFlipped=false;await persist(true);await render();}if(f){content.frontLabelMode=f.value||'hidden';content.singleFlipped=false;await persist(true);await render();}});
@@ -38942,5 +38942,33 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
   document.addEventListener('keydown',handleKey,true);
 })(window.TavleNext);
 </script>
+
+<!-- Plan Billedvendespil matrix text size fix · v12 -->
+<style id="plan-picture-flip-v12-matrix-text-style">
+/* Matrixbagsider skal være korte og rolige. Stor tekst hører til En ad gangen/lightbox. */
+.tn-pfg .tn-pfg-grid .tn-pfg-back{padding:7px!important;align-content:center;justify-items:center;overflow:hidden}
+.tn-pfg .tn-pfg-grid .tn-pfg-back b{
+  font-size:clamp(10px,min(1.05vw,1.55vh),14px)!important;
+  line-height:1.08!important;
+  font-weight:850!important;
+  max-width:100%!important;
+  max-height:calc(100% - 18px)!important;
+  overflow:hidden!important;
+  overflow-wrap:anywhere!important;
+  word-break:normal!important;
+  hyphens:auto!important;
+  display:-webkit-box!important;
+  -webkit-box-orient:vertical!important;
+  -webkit-line-clamp:5!important;
+}
+.tn-pfg .tn-pfg-grid .tn-pfg-back small{font-size:10px!important;line-height:1.1!important;max-height:14px;overflow:hidden}
+.tn-pfg .tn-pfg-grid .tn-pfg-card{min-height:168px}
+@media(max-width:760px){
+  .tn-pfg .tn-pfg-grid .tn-pfg-back b{font-size:clamp(9px,2.3vw,12px)!important;-webkit-line-clamp:5!important}
+  .tn-pfg .tn-pfg-grid .tn-pfg-card{min-height:150px}
+}
+/* En ad gangen må fortsat være stor og læsbar. */
+.tn-pfg .tn-pfg-single-flip-card .tn-pfg-back b{font-size:clamp(22px,min(4.3vw,5vh),46px)!important;line-height:1.06!important;-webkit-line-clamp:5!important}
+</style>
 </body>
 </html>
