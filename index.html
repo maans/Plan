@@ -36438,16 +36438,41 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       <p>Vis åbner et datasæt som tabel. X lukker kun visningen. Selve datasættet slettes fra Sessionsdata eller Fælles data, hvor Plan først viser, om det bruges.</p>
       <div class="tn-help-see"><b>Se også:</b><button data-help-jump="data">Data</button><button data-help-jump="calendar">Kalenderdata</button><button data-help-jump="storage">Lager</button></div>`);
 
-    set('media','Billeder, video, lyd og Mediearkiv','Import, matricer, stor visning og oprydning',`
+    set('media','Billeder, video, lyd og Mediearkiv','Import, matricer, stor visning, vendespil og oprydning',`
       <ul class="tn-help-list">
         <li>Ét billede, én video eller én lydfil bliver en almindelig widget.</li>
         <li>Flere filer af samme type samles automatisk i en matrix.</li>
+        <li>En <b>Billedmatrix</b> kan også bruges som vendespil, når billederne kobles til et datasæt med forside- og bagsidetekster.</li>
         <li>Kun den aktuelle side vises, så store samlinger er lettere at arbejde med.</li>
-        <li>⛶ åbner stor visning. Brug pile, swipe eller Escape.</li>
+        <li>Stor visning åbner billedet eller kortet uden at ændre på matrixen. Brug pile til at bladre, Enter eller mellemrum til at vende et vendespilskort, og Escape for at vende tilbage.</li>
         <li>Eksisterende løse medier kan samles fra widgettens •••-menu. Originalerne flyttes til Papirkurv.</li>
       </ul>
       <p>Datacenter → Medier viser som udgangspunkt den aktuelle session og kan udvides til hele undervisningsforløbet. Filer, der stadig bruges eller er beskyttet af Papirkurv og gendannelsespunkter, kan ikke slettes ved en fejl.</p>
-      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="import">Import</button><button data-help-jump="heavy">Store forløb</button><button data-help-jump="storage">Oprydning</button></div>`);
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="picture-flip">Billedvendespil</button><button data-help-jump="import">Import</button><button data-help-jump="heavy">Store forløb</button><button data-help-jump="storage">Oprydning</button></div>`);
+
+    set('picture-flip','Billedvendespil og navneleg','Billedmatrix med koblet datasæt',`
+      <p>Et billedvendespil er ikke en særskilt app i appen. Det er en <b>Billedmatrix</b>, der har fået koblet et datasæt til og derfor kan vende hvert billede til en tekst.</p>
+      <h4>Typisk arbejdsgang</h4>
+      <ol class="tn-help-plain-steps">
+        <li>Importér en stak billeder. Flere billeder bliver til en Billedmatrix.</li>
+        <li>Åbn Billedmatrixens <b>•••</b>-menu.</li>
+        <li>Vælg <b>Kobl datasæt</b>, eller lad Plan oprette et enkelt datasæt ud fra billedtitlerne.</li>
+        <li>Vælg hvad forsiden og bagsiden skal vise. Tomme kolonner vises ikke som valg.</li>
+        <li>Brug matrixen fælles på tavlen, eller brug enkeltvisning til ét kort ad gangen.</li>
+      </ol>
+      <h4>Navneleg med elevbilleder</h4>
+      <p>Til elevfotos bør den viste tekst komme fra Elevstamdata eller et koblet elevdatasæt. Brug fornavn og efternavn, klasse eller en anden lærerrettet kolonne — ikke tekniske filnavne eller ElevID. Hvis billederne hedder med ID, bruges ID kun til matchning og skal ikke være det, elever og lærere ser i spillet.</p>
+      <h4>Demoer</h4>
+      <p>Vendespil-demoer hentes via katalogfiler på samme måde som forløbsdemoer. Demoerne ligger som almindelige filer ved siden af appen, fx <code>navneleg-demo/catalog.json</code> med billeder og datasæt i undermapper. Demodata skal ikke indlejres i <code>index.html</code>.</p>
+      <h4>Gode anvendelser</h4>
+      <ul class="tn-help-list">
+        <li><b>Navneleg:</b> elevfoto på forsiden og fulde navn på bagsiden.</li>
+        <li><b>Sprog:</b> billede og dansk ord på forsiden, engelsk, tysk, fransk eller spansk på bagsiden.</li>
+        <li><b>Flag:</b> flag på forsiden og land eller hovedstad på bagsiden.</li>
+        <li><b>Naturfag:</b> symbol, planet, stof, redskab eller faresymbol på forsiden og forklaring på bagsiden.</li>
+      </ul>
+      <p>I præsentation og maksimeret visning skal vendespillet være roligt: kun kortene og den nødvendige betjening. Redigering, kobling og skift tilbage til almindelig billedmatrix ligger i <b>•••</b>-menuen.</p>
+      <div class="tn-help-see"><b>Se også:</b><button data-help-jump="media">Billedmatrix</button><button data-help-jump="data">Data</button><button data-help-jump="library">Demoer</button></div>`);
 
     set('pdf','PDF — dokumenter, formularer og navigation','Åbn, udfyld, bladre og genbrug svar',`
       <ul class="tn-help-list">
