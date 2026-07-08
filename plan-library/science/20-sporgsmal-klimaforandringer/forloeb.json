@@ -20,7 +20,7 @@
     "quality": {
       "sourceUpgrade": "fase1-danske-praecise-kilder",
       "updatedAt": "2026-07-08T21:30:00Z",
-      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "kapardyUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "sessions": [
@@ -1378,7 +1378,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Løsninger og aftaler\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad betyder energieffektivitet?\n• Hvordan kan god kollektiv trafik reducere transportudledninger?\n• Hvad gør en varmepumpe?\n• Hvad betyder elektrificering som klimatiltag?\n• Hvad betyder genplantning af skov, reforestation?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "text": "KATEGORI: Løsninger og aftaler\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvad betyder energieffektivitet i et klimatiltag?\n• Hvordan kan god kollektiv trafik reducere transportudledninger?\n• Hvad gør en varmepumpe?\n• Hvad betyder elektrificering som klimatiltag i fx transport og opvarmning?\n• Hvad betyder genplantning af skov, reforestation?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -1446,7 +1446,7 @@
         "z": 3
       },
       "content": {
-        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad betyder energieffektivitet?\n• Hvordan kan god kollektiv trafik reducere transportudledninger?\n• Hvad gør en varmepumpe?\n• Hvad betyder elektrificering som klimatiltag?\n• Hvad betyder genplantning af skov, reforestation?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvad betyder energieffektivitet i et klimatiltag?\n• Hvordan kan god kollektiv trafik reducere transportudledninger?\n• Hvad gør en varmepumpe?\n• Hvad betyder elektrificering som klimatiltag i fx transport og opvarmning?\n• Hvad betyder genplantning af skov, reforestation?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
         "fontSize": 14,
         "align": "left"
       },
@@ -1524,9 +1524,9 @@
               "points": 300,
               "options": [
                 "den forstærker den oprindelige ændring",
-                "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
-                "den påvirker kun tidevand",
-                "den virker kun i laboratorier"
+                "en lokal vejrændring, der forveksles med en klimaproces",
+                "den beskriver kun lokale vejrforskelle",
+                "den beskriver kun kortvarige vejrsvingninger"
               ],
               "correctIndex": 0,
               "answer": "den forstærker den oprindelige ændring"
@@ -1552,9 +1552,9 @@
               "points": 500,
               "options": [
                 "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen",
-                "vanddamp forsvinder helt fra atmosfæren",
-                "mere vanddamp stopper al solstråling",
-                "vanddamp ændrer Jordens aksehældning"
+                "mere vanddamp fører kun til flere skyer, ikke drivhuseffekt",
+                "vanddamp virker kun som skydække og ikke som drivhusgas",
+                "vanddamp ændrer kun vejret lokalt og aldrig strålingsbalancen"
               ],
               "correctIndex": 0,
               "answer": "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen"
@@ -1664,9 +1664,9 @@
               "points": 300,
               "options": [
                 "varmere luft kan indeholde mere vanddamp",
-                "varmere luft kan ikke indeholde vand",
-                "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
-                "havene holder op med at fordampe"
+                "opvarmning giver altid lavere luftfugtighed",
+                "en lokal vejrændring, der forveksles med en klimaproces",
+                "fordampning bliver mindre vigtig i en varmere atmosfære"
               ],
               "correctIndex": 0,
               "answer": "varmere luft kan indeholde mere vanddamp"
@@ -1679,7 +1679,7 @@
               "options": [
                 "Arktis opvarmes hurtigere end det globale gennemsnit",
                 "Arktis bliver større hvert år",
-                "vinden i Arktis stopper helt",
+                "vindmønstre alene forklarer hele den arktiske opvarmning",
                 "Solen skinner stærkere ved Nordpolen end ved ækvator"
               ],
               "correctIndex": 0,
@@ -1702,13 +1702,13 @@
             {
               "id": "kp_klimaforandringer_16",
               "category": "Løsninger og aftaler",
-              "question": "Hvad betyder energieffektivitet?",
+              "question": "Hvad betyder energieffektivitet i et klimatiltag?",
               "points": 100,
               "options": [
                 "at levere samme nytte med mindre energi",
                 "at bruge mere energi på samme opgave",
                 "at lagre al energi som kul",
-                "at slukke for alle elektriske apparater permanent"
+                "at spare energi ved at sænke funktion og komfort markant"
               ],
               "correctIndex": 0,
               "answer": "at levere samme nytte med mindre energi"
@@ -1720,9 +1720,9 @@
               "points": 200,
               "options": [
                 "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager",
-                "ved at gøre alle rejser længere",
-                "ved kun at bruge større parkeringspladser",
-                "ved at forbyde gang og cykling"
+                "ved at flytte bilkøer fra bymidten til stationer",
+                "ved at samle flere biler ved stationer uden at ændre transportvaner",
+                "ved at erstatte korte cykel- og gangture med bus"
               ],
               "correctIndex": 0,
               "answer": "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager"
@@ -1736,7 +1736,7 @@
                 "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
                 "den producerer varme ved at brænde kul i boligen",
                 "den omdanner al varme til lys",
-                "den skaber varme uden at flytte energi"
+                "den fungerer som en almindelig elradiator uden at hente varme udefra"
               ],
               "correctIndex": 0,
               "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
@@ -1744,13 +1744,13 @@
             {
               "id": "kp_klimaforandringer_19",
               "category": "Løsninger og aftaler",
-              "question": "Hvad betyder elektrificering som klimatiltag?",
+              "question": "Hvad betyder elektrificering som klimatiltag i fx transport og opvarmning?",
               "points": 400,
               "options": [
                 "at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt",
                 "at gøre elnettet mekanisk",
                 "at øge benzinforbruget",
-                "at fjerne alle batterier"
+                "at bruge el som supplement uden at ændre brændslet"
               ],
               "correctIndex": 0,
               "answer": "at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt"
@@ -1763,7 +1763,7 @@
               "options": [
                 "at genetablere skov på arealer, der tidligere var skov",
                 "at plante skov på havbunden",
-                "at fjerne alle gamle træer",
+                "at plante hurtigvoksende træer uden økologisk plan",
                 "at dyrke korn i en skov"
               ],
               "correctIndex": 0,
@@ -1802,13 +1802,13 @@
           },
           "kp_klimaforandringer_03": {
             "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: den forstærker den oprindelige ændring. Forklar hvorfor det er mere præcist end: den ophæver altid al opvarmning · den påvirker kun tidevand · den virker kun i laboratorier.",
+            "explanation": "Kort svar: den forstærker den oprindelige ændring. Forklar hvorfor det er mere præcist end: den ophæver altid al opvarmning · den beskriver kun lokale vejrforskelle · den beskriver kun kortvarige vejrsvingninger.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
               "den ophæver altid al opvarmning",
-              "den påvirker kun tidevand",
-              "den virker kun i laboratorier"
+              "den beskriver kun lokale vejrforskelle",
+              "den beskriver kun kortvarige vejrsvingninger"
             ]
           },
           "kp_klimaforandringer_04": {
@@ -1824,13 +1824,13 @@
           },
           "kp_klimaforandringer_05": {
             "hint": "Find svaret i kilderne til: Klima og drivhuseffekt.",
-            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen. Forklar hvorfor det er mere præcist end: vanddamp forsvinder helt fra atmosfæren · mere vanddamp stopper al solstråling · vanddamp ændrer Jordens aksehældning.",
+            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen. Forklar hvorfor det er mere præcist end: mere vanddamp fører kun til flere skyer, ikke drivhuseffekt · vanddamp virker kun som skydække og ikke som drivhusgas · vanddamp ændrer kun vejret lokalt og aldrig strålingsbalancen.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
-              "vanddamp forsvinder helt fra atmosfæren",
-              "mere vanddamp stopper al solstråling",
-              "vanddamp ændrer Jordens aksehældning"
+              "mere vanddamp fører kun til flere skyer, ikke drivhuseffekt",
+              "vanddamp virker kun som skydække og ikke som drivhusgas",
+              "vanddamp ændrer kun vejret lokalt og aldrig strålingsbalancen"
             ]
           },
           "kp_klimaforandringer_06": {
@@ -1912,23 +1912,23 @@
           },
           "kp_klimaforandringer_13": {
             "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp. Forklar hvorfor det er mere præcist end: varmere luft kan ikke indeholde vand · regnskyer bliver altid mindre · havene holder op med at fordampe.",
+            "explanation": "Kort svar: varmere luft kan indeholde mere vanddamp. Forklar hvorfor det er mere præcist end: opvarmning giver altid lavere luftfugtighed · regnskyer bliver altid mindre · fordampning bliver mindre vigtig i en varmere atmosfære.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
-              "varmere luft kan ikke indeholde vand",
+              "opvarmning giver altid lavere luftfugtighed",
               "regnskyer bliver altid mindre",
-              "havene holder op med at fordampe"
+              "fordampning bliver mindre vigtig i en varmere atmosfære"
             ]
           },
           "kp_klimaforandringer_14": {
             "hint": "Find svaret i kilderne til: Følger og risici.",
-            "explanation": "Kort svar: Arktis opvarmes hurtigere end det globale gennemsnit. Forklar hvorfor det er mere præcist end: Arktis bliver større hvert år · vinden i Arktis stopper helt · Solen skinner stærkere ved Nordpolen end ved ækvator.",
+            "explanation": "Kort svar: Arktis opvarmes hurtigere end det globale gennemsnit. Forklar hvorfor det er mere præcist end: Arktis bliver større hvert år · vindmønstre alene forklarer hele den arktiske opvarmning · Solen skinner stærkere ved Nordpolen end ved ækvator.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
               "Arktis bliver større hvert år",
-              "vinden i Arktis stopper helt",
+              "vindmønstre alene forklarer hele den arktiske opvarmning",
               "Solen skinner stærkere ved Nordpolen end ved ækvator"
             ]
           },
@@ -1945,24 +1945,24 @@
           },
           "kp_klimaforandringer_16": {
             "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: at levere samme nytte med mindre energi. Forklar hvorfor det er mere præcist end: at bruge mere energi på samme opgave · at lagre al energi som kul · at slukke for alle elektriske apparater permanent.",
+            "explanation": "Kort svar: at levere samme nytte med mindre energi. Forklar hvorfor det er mere præcist end: at bruge mere energi på samme opgave · at lagre al energi som kul · at spare energi ved at sænke funktion og komfort markant.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
               "at bruge mere energi på samme opgave",
               "at lagre al energi som kul",
-              "at slukke for alle elektriske apparater permanent"
+              "at spare energi ved at sænke funktion og komfort markant"
             ]
           },
           "kp_klimaforandringer_17": {
             "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: ved at flytte flere personer med færre køretøjer og mindre energi pr. passager. Forklar hvorfor det er mere præcist end: ved at gøre alle rejser længere · ved kun at bruge større parkeringspladser · ved at forbyde gang og cykling.",
+            "explanation": "Kort svar: ved at flytte flere personer med færre køretøjer og mindre energi pr. passager. Forklar hvorfor det er mere præcist end: ved at flytte bilkøer fra bymidten til stationer · ved at samle flere biler ved stationer uden at ændre transportvaner · ved at erstatte korte cykel- og gangture med bus.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
-              "ved at gøre alle rejser længere",
-              "ved kun at bruge større parkeringspladser",
-              "ved at forbyde gang og cykling"
+              "ved at flytte bilkøer fra bymidten til stationer",
+              "ved at samle flere biler ved stationer uden at ændre transportvaner",
+              "ved at erstatte korte cykel- og gangture med bus"
             ]
           },
           "kp_klimaforandringer_18": {
@@ -1978,23 +1978,23 @@
           },
           "kp_klimaforandringer_19": {
             "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt. Forklar hvorfor det er mere præcist end: at gøre elnettet mekanisk · at øge benzinforbruget · at fjerne alle batterier.",
+            "explanation": "Kort svar: at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt. Forklar hvorfor det er mere præcist end: at gøre elnettet mekanisk · at øge benzinforbruget · at bruge el som supplement uden at ændre brændslet.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
               "at gøre elnettet mekanisk",
               "at øge benzinforbruget",
-              "at fjerne alle batterier"
+              "at bruge el som supplement uden at ændre brændslet"
             ]
           },
           "kp_klimaforandringer_20": {
             "hint": "Find svaret i kilderne til: Løsninger og aftaler.",
-            "explanation": "Kort svar: at genetablere skov på arealer, der tidligere var skov. Forklar hvorfor det er mere præcist end: at plante skov på havbunden · at fjerne alle gamle træer · at dyrke korn i en skov.",
+            "explanation": "Kort svar: at genetablere skov på arealer, der tidligere var skov. Forklar hvorfor det er mere præcist end: at plante skov på havbunden · at plante hurtigvoksende træer uden økologisk plan · at dyrke korn i en skov.",
             "sourceTitle": "IPCC",
             "sourceUrl": "https://www.ipcc.ch/",
             "confusions": [
               "at plante skov på havbunden",
-              "at fjerne alle gamle træer",
+              "at plante hurtigvoksende træer uden økologisk plan",
               "at dyrke korn i en skov"
             ]
           }
@@ -2225,9 +2225,9 @@
             "points": 300,
             "options": [
               "den forstærker den oprindelige ændring",
-              "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
-              "den påvirker kun tidevand",
-              "den virker kun i laboratorier"
+              "en lokal vejrændring, der forveksles med en klimaproces",
+              "den beskriver kun lokale vejrforskelle",
+              "den beskriver kun kortvarige vejrsvingninger"
             ],
             "correctIndex": 0,
             "answer": "den forstærker den oprindelige ændring"
@@ -2253,9 +2253,9 @@
             "points": 500,
             "options": [
               "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen",
-              "vanddamp forsvinder helt fra atmosfæren",
-              "mere vanddamp stopper al solstråling",
-              "vanddamp ændrer Jordens aksehældning"
+              "mere vanddamp fører kun til flere skyer, ikke drivhuseffekt",
+              "vanddamp virker kun som skydække og ikke som drivhusgas",
+              "vanddamp ændrer kun vejret lokalt og aldrig strålingsbalancen"
             ],
             "correctIndex": 0,
             "answer": "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen"
@@ -2365,9 +2365,9 @@
             "points": 300,
             "options": [
               "varmere luft kan indeholde mere vanddamp",
-              "varmere luft kan ikke indeholde vand",
-              "Naturen forstås som stabil, selv om kilderne viser forandring og påvirkning",
-              "havene holder op med at fordampe"
+              "opvarmning giver altid lavere luftfugtighed",
+              "en lokal vejrændring, der forveksles med en klimaproces",
+              "fordampning bliver mindre vigtig i en varmere atmosfære"
             ],
             "correctIndex": 0,
             "answer": "varmere luft kan indeholde mere vanddamp"
@@ -2380,7 +2380,7 @@
             "options": [
               "Arktis opvarmes hurtigere end det globale gennemsnit",
               "Arktis bliver større hvert år",
-              "vinden i Arktis stopper helt",
+              "vindmønstre alene forklarer hele den arktiske opvarmning",
               "Solen skinner stærkere ved Nordpolen end ved ækvator"
             ],
             "correctIndex": 0,
@@ -2403,13 +2403,13 @@
           {
             "id": "kp_klimaforandringer_16",
             "category": "Løsninger og aftaler",
-            "question": "Hvad betyder energieffektivitet?",
+            "question": "Hvad betyder energieffektivitet i et klimatiltag?",
             "points": 100,
             "options": [
               "at levere samme nytte med mindre energi",
               "at bruge mere energi på samme opgave",
               "at lagre al energi som kul",
-              "at slukke for alle elektriske apparater permanent"
+              "at spare energi ved at sænke funktion og komfort markant"
             ],
             "correctIndex": 0,
             "answer": "at levere samme nytte med mindre energi"
@@ -2421,9 +2421,9 @@
             "points": 200,
             "options": [
               "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager",
-              "ved at gøre alle rejser længere",
-              "ved kun at bruge større parkeringspladser",
-              "ved at forbyde gang og cykling"
+              "ved at flytte bilkøer fra bymidten til stationer",
+              "ved at samle flere biler ved stationer uden at ændre transportvaner",
+              "ved at erstatte korte cykel- og gangture med bus"
             ],
             "correctIndex": 0,
             "answer": "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager"
@@ -2437,7 +2437,7 @@
               "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
               "den producerer varme ved at brænde kul i boligen",
               "den omdanner al varme til lys",
-              "den skaber varme uden at flytte energi"
+              "den fungerer som en almindelig elradiator uden at hente varme udefra"
             ],
             "correctIndex": 0,
             "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
@@ -2445,13 +2445,13 @@
           {
             "id": "kp_klimaforandringer_19",
             "category": "Løsninger og aftaler",
-            "question": "Hvad betyder elektrificering som klimatiltag?",
+            "question": "Hvad betyder elektrificering som klimatiltag i fx transport og opvarmning?",
             "points": 400,
             "options": [
               "at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt",
               "at gøre elnettet mekanisk",
               "at øge benzinforbruget",
-              "at fjerne alle batterier"
+              "at bruge el som supplement uden at ændre brændslet"
             ],
             "correctIndex": 0,
             "answer": "at erstatte direkte brug af fossile brændsler med elektricitet, hvor det er muligt"
@@ -2464,7 +2464,7 @@
             "options": [
               "at genetablere skov på arealer, der tidligere var skov",
               "at plante skov på havbunden",
-              "at fjerne alle gamle træer",
+              "at plante hurtigvoksende træer uden økologisk plan",
               "at dyrke korn i en skov"
             ],
             "correctIndex": 0,
@@ -2523,7 +2523,7 @@
     "quality": {
       "sourceUpgrade": "fase1-danske-praecise-kilder",
       "updatedAt": "2026-07-08T19:27:32Z",
-      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "kapardyDidacticUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "warnings": []

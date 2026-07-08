@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "kapardyUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "sessions": [
@@ -1379,7 +1380,7 @@
         "z": 1
       },
       "content": {
-        "text": "KATEGORI: Stoffer og anvendelser\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
+        "text": "KATEGORI: Stoffer og anvendelser\n\nARBEJD MED KILDERNE\nBrug Ressourcematrixen og find mindst én kilde, der kan understøtte hvert svar.\n\nUNDERSØGELSESSPØRGSMÅL\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof indgår i fluorider, som bruges i tandpasta og i nogle lande tilsættes drikkevand for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nVIGTIGT\nSvarene skal ikke bare findes. De skal forklares: Hvorfor er svaret korrekt? Hvorfor kan de tre andre muligheder lyde plausible, men være forkerte?",
         "fontSize": 16,
         "align": "left"
       },
@@ -1447,7 +1448,7 @@
         "z": 3
       },
       "content": {
-        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
+        "text": "AKTIV GENKALDELSE\n\nLuk kilden. Svar mundtligt uden valgmuligheder:\n• Hvilket grundstof er hovedbestanddelen i grafitten i en blyant?\n• Hvilket metal bruges ofte til elektriske ledninger på grund af sin gode ledningsevne?\n• Hvilket grundstof indgår i fluorider, som bruges i tandpasta og i nogle lande tilsættes drikkevand for at forebygge caries?\n• Hvilket grundstof findes centralt i hæmoglobinets hæmgruppe?\n• Hvilket grundstof findes centralt i klorofylmolekylet?\n\nMarker derefter kortene i Huskekortmatrixen: Kan ikke endnu / Næsten / Kan.",
         "fontSize": 14,
         "align": "left"
       },
@@ -1731,7 +1732,7 @@
             {
               "id": "kp_kemi-elementer_18",
               "category": "Stoffer og anvendelser",
-              "question": "Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?",
+              "question": "Hvilket grundstof indgår i fluorider, som bruges i tandpasta og i nogle lande tilsættes drikkevand for at forebygge caries?",
               "points": 300,
               "options": [
                 "Fluor",
@@ -2432,7 +2433,7 @@
           {
             "id": "kp_kemi-elementer_18",
             "category": "Stoffer og anvendelser",
-            "question": "Hvilket grundstof tilsættes ofte drikkevand og tandpasta i form af fluorider for at forebygge caries?",
+            "question": "Hvilket grundstof indgår i fluorider, som bruges i tandpasta og i nogle lande tilsættes drikkevand for at forebygge caries?",
             "points": 300,
             "options": [
               "Fluor",
@@ -2523,7 +2524,8 @@
     "packageHash": "7668b9df6bc374d117c179b3316322d78953e252961cb954023d90ebf52e7b18",
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "kapardyDidacticUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "warnings": []

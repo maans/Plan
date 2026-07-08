@@ -20,7 +20,7 @@
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
       "updatedAt": "2026-07-08T23:45:00Z",
-      "kapardyUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
+      "kapardyUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "sessions": [
@@ -1513,9 +1513,9 @@
               "points": 200,
               "options": [
                 "parringen",
-                "månefasen",
-                "vinterkulde",
-                "daglig fodring"
+                "en almindelig brunstcyklus uden parring",
+                "et fast tidspunkt i døgnrytmen",
+                "fodringsændringer alene"
               ],
               "correctIndex": 0,
               "answer": "parringen"
@@ -1555,9 +1555,9 @@
               "points": 500,
               "options": [
                 "plukker pels fra sin egen krop",
-                "samler småsten",
-                "graver reden fuld af vand",
-                "bider ungernes pels af"
+                "samler kun strå uden pelsisolering",
+                "flytter reden til et fugtigt hjørne",
+                "plukker pels fra ungerne i stedet for sig selv"
               ],
               "correctIndex": 0,
               "answer": "plukker pels fra sin egen krop"
@@ -1569,9 +1569,9 @@
               "points": 100,
               "options": [
                 "kattemælkserstatning",
-                "flødeis",
-                "sojasauce",
-                "appelsinjuice"
+                "fortyndet komælk",
+                "varm havredrik",
+                "sød frugtjuice"
               ],
               "correctIndex": 0,
               "answer": "kattemælkserstatning"
@@ -1598,8 +1598,8 @@
               "options": [
                 "hun kan blive drægtig igen næsten straks",
                 "han kan stresses og forstyrre reden, men kan ikke gøre hunnen drægtig",
-                "han stopper hendes mælkeproduktion ved synet",
-                "hun mister evnen til at bygge rede"
+                "han kan virke stressende, men gør ikke hunnen drægtig",
+                "hun holder normalt op med at passe ungerne med det samme"
               ],
               "correctIndex": 0,
               "answer": "hun kan blive drægtig igen næsten straks"
@@ -1681,9 +1681,9 @@
               "points": 400,
               "options": [
                 "med vaccination efter dyrlægens plan",
-                "med sukker i vandet",
-                "med dagligt bad",
-                "med vitaminpiller"
+                "med ekstra sukker og vitaminer i foderet",
+                "med hyppig vask, så pels og hud holdes rene",
+                "med kosttilskud uden vaccination"
               ],
               "correctIndex": 0,
               "answer": "med vaccination efter dyrlægens plan"
@@ -1711,7 +1711,7 @@
                 "de er byttedyr og søger sikkerhed",
                 "de kan ikke tåle mørke",
                 "de skal gemme deres tænder",
-                "de sover kun under vand"
+                "de bruger skjul som faste toiletpladser"
               ],
               "correctIndex": 0,
               "answer": "de er byttedyr og søger sikkerhed"
@@ -1723,9 +1723,9 @@
               "points": 200,
               "options": [
                 "afslapning",
-                "akut aggression i alle tilfælde",
-                "at den ikke kan trække praktiske forhold",
-                "at den bygger rede"
+                "stress, hvis kroppen samtidig er spændt og ørerne ligger fladt",
+                "at den forsøger at skjule redepladsen",
+                "at den markerer territorium med kropsduft"
               ],
               "correctIndex": 0,
               "answer": "afslapning"
@@ -1751,9 +1751,9 @@
               "points": 400,
               "options": [
                 "velbehagelig nydelse eller afslapning",
-                "alvorlig smerte i alle tilfælde",
-                "at tænderne falder ud",
-                "at den er sulten efter kød"
+                "let irritation, uanset kropsholdning og lydstyrke",
+                "at fortænderne altid er for lange",
+                "at den er i parringshumør"
               ],
               "correctIndex": 0,
               "answer": "velbehagelig nydelse eller afslapning"
@@ -1794,13 +1794,13 @@
           },
           "kp_kaninunger_02": {
             "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: parringen. Forklar hvorfor det er mere præcist end: månefasen · vinterkulde · daglig fodring.",
+            "explanation": "Kort svar: parringen. Forklar hvorfor det er mere præcist end: en almindelig brunstcyklus uden parring · et fast tidspunkt i døgnrytmen · fodringsændringer alene.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "månefasen",
-              "vinterkulde",
-              "daglig fodring"
+              "en almindelig brunstcyklus uden parring",
+              "et fast tidspunkt i døgnrytmen",
+              "fodringsændringer alene"
             ]
           },
           "kp_kaninunger_03": {
@@ -1827,24 +1827,24 @@
           },
           "kp_kaninunger_05": {
             "hint": "Find svaret i kilderne til: Fødsel og udvikling.",
-            "explanation": "Kort svar: plukker pels fra sin egen krop. Forklar hvorfor det er mere præcist end: samler småsten · graver reden fuld af vand · bider ungernes pels af.",
+            "explanation": "Kort svar: plukker pels fra sin egen krop. Forklar hvorfor det er mere præcist end: samler kun strå uden pelsisolering · flytter reden til et fugtigt hjørne · plukker pels fra ungerne i stedet for sig selv.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "samler småsten",
-              "graver reden fuld af vand",
-              "bider ungernes pels af"
+              "samler kun strå uden pelsisolering",
+              "flytter reden til et fugtigt hjørne",
+              "plukker pels fra ungerne i stedet for sig selv"
             ]
           },
           "kp_kaninunger_06": {
             "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: kattemælkserstatning. Forklar hvorfor det er mere præcist end: flødeis · sojasauce · appelsinjuice.",
+            "explanation": "Kort svar: kattemælkserstatning. Forklar hvorfor det er mere præcist end: fortyndet komælk · varm havredrik · sød frugtjuice.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "flødeis",
-              "sojasauce",
-              "appelsinjuice"
+              "fortyndet komælk",
+              "varm havredrik",
+              "sød frugtjuice"
             ]
           },
           "kp_kaninunger_07": {
@@ -1860,13 +1860,13 @@
           },
           "kp_kaninunger_08": {
             "hint": "Find svaret i kilderne til: Rede og moderpleje.",
-            "explanation": "Kort svar: hun kan blive drægtig igen næsten straks. Forklar hvorfor det er mere præcist end: han får automatisk rabies · han stopper hendes mælkeproduktion ved synet · hun mister evnen til at bygge rede.",
+            "explanation": "Kort svar: hun kan blive drægtig igen næsten straks. Forklar hvorfor det er mere præcist end: han kan stresse hunnen, men gør hende ikke drægtig · han kan virke stressende, men gør ikke hunnen drægtig · hun holder normalt op med at passe ungerne med det samme.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "han får automatisk rabies",
-              "han stopper hendes mælkeproduktion ved synet",
-              "hun mister evnen til at bygge rede"
+              "han kan stresse hunnen, men gør hende ikke drægtig",
+              "han kan virke stressende, men gør ikke hunnen drægtig",
+              "hun holder normalt op med at passe ungerne med det samme"
             ]
           },
           "kp_kaninunger_09": {
@@ -1926,13 +1926,13 @@
           },
           "kp_kaninunger_14": {
             "hint": "Find svaret i kilderne til: Foder og sundhed.",
-            "explanation": "Kort svar: med vaccination efter dyrlægens plan. Forklar hvorfor det er mere præcist end: med sukker i vandet · med dagligt bad · med vitaminpiller alene.",
+            "explanation": "Kort svar: med vaccination efter dyrlægens plan. Forklar hvorfor det er mere præcist end: med ekstra sukker og vitaminer i foderet · med hyppig vask, så pels og hud holdes rene · med kosttilskud uden vaccination alene.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "med sukker i vandet",
-              "med dagligt bad",
-              "med vitaminpiller alene"
+              "med ekstra sukker og vitaminer i foderet",
+              "med hyppig vask, så pels og hud holdes rene",
+              "med kosttilskud uden vaccination alene"
             ]
           },
           "kp_kaninunger_15": {
@@ -1948,24 +1948,24 @@
           },
           "kp_kaninunger_16": {
             "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: de er byttedyr og søger sikkerhed. Forklar hvorfor det er mere præcist end: de kan ikke tåle mørke · de skal gemme deres tænder · de sover kun under vand.",
+            "explanation": "Kort svar: de er byttedyr og søger sikkerhed. Forklar hvorfor det er mere præcist end: de kan ikke tåle mørke · de skal gemme deres tænder · de bruger skjul som faste toiletpladser.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
               "de kan ikke tåle mørke",
               "de skal gemme deres tænder",
-              "de sover kun under vand"
+              "de bruger skjul som faste toiletpladser"
             ]
           },
           "kp_kaninunger_17": {
             "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: afslapning. Forklar hvorfor det er mere præcist end: akut aggression i alle tilfælde · at den ikke kan trække vejret · at den bygger rede.",
+            "explanation": "Kort svar: afslapning. Forklar hvorfor det er mere præcist end: stress, hvis kroppen samtidig er spændt og ørerne ligger fladt · at den ikke kan trække vejret · at den markerer territorium med kropsduft.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "akut aggression i alle tilfælde",
+              "stress, hvis kroppen samtidig er spændt og ørerne ligger fladt",
               "at den ikke kan trække vejret",
-              "at den bygger rede"
+              "at den markerer territorium med kropsduft"
             ]
           },
           "kp_kaninunger_18": {
@@ -1981,13 +1981,13 @@
           },
           "kp_kaninunger_19": {
             "hint": "Find svaret i kilderne til: Adfærd og ansvarligt kaninhold.",
-            "explanation": "Kort svar: velbehagelig nydelse eller afslapning. Forklar hvorfor det er mere præcist end: alvorlig smerte i alle tilfælde · at tænderne falder ud · at den er sulten efter kød.",
+            "explanation": "Kort svar: velbehagelig nydelse eller afslapning. Forklar hvorfor det er mere præcist end: let irritation, uanset kropsholdning og lydstyrke · at fortænderne altid er for lange · at den er i parringshumør.",
             "sourceTitle": "Merck Veterinary Manual · Rabbits",
             "sourceUrl": "https://www.merckvetmanual.com/",
             "confusions": [
-              "alvorlig smerte i alle tilfælde",
-              "at tænderne falder ud",
-              "at den er sulten efter kød"
+              "let irritation, uanset kropsholdning og lydstyrke",
+              "at fortænderne altid er for lange",
+              "at den er i parringshumør"
             ]
           },
           "kp_kaninunger_20": {
@@ -2214,9 +2214,9 @@
             "points": 200,
             "options": [
               "parringen",
-              "månefasen",
-              "vinterkulde",
-              "daglig fodring"
+              "en almindelig brunstcyklus uden parring",
+              "et fast tidspunkt i døgnrytmen",
+              "fodringsændringer alene"
             ],
             "correctIndex": 0,
             "answer": "parringen"
@@ -2256,9 +2256,9 @@
             "points": 500,
             "options": [
               "plukker pels fra sin egen krop",
-              "samler småsten",
-              "graver reden fuld af vand",
-              "bider ungernes pels af"
+              "samler kun strå uden pelsisolering",
+              "flytter reden til et fugtigt hjørne",
+              "plukker pels fra ungerne i stedet for sig selv"
             ],
             "correctIndex": 0,
             "answer": "plukker pels fra sin egen krop"
@@ -2270,9 +2270,9 @@
             "points": 100,
             "options": [
               "kattemælkserstatning",
-              "flødeis",
-              "sojasauce",
-              "appelsinjuice"
+              "fortyndet komælk",
+              "varm havredrik",
+              "sød frugtjuice"
             ],
             "correctIndex": 0,
             "answer": "kattemælkserstatning"
@@ -2299,8 +2299,8 @@
             "options": [
               "hun kan blive drægtig igen næsten straks",
               "han kan stresses og forstyrre reden, men kan ikke gøre hunnen drægtig",
-              "han stopper hendes mælkeproduktion ved synet",
-              "hun mister evnen til at bygge rede"
+              "han kan virke stressende, men gør ikke hunnen drægtig",
+              "hun holder normalt op med at passe ungerne med det samme"
             ],
             "correctIndex": 0,
             "answer": "hun kan blive drægtig igen næsten straks"
@@ -2382,9 +2382,9 @@
             "points": 400,
             "options": [
               "med vaccination efter dyrlægens plan",
-              "med sukker i vandet",
-              "med dagligt bad",
-              "med vitaminpiller"
+              "med ekstra sukker og vitaminer i foderet",
+              "med hyppig vask, så pels og hud holdes rene",
+              "med kosttilskud uden vaccination"
             ],
             "correctIndex": 0,
             "answer": "med vaccination efter dyrlægens plan"
@@ -2412,7 +2412,7 @@
               "de er byttedyr og søger sikkerhed",
               "de kan ikke tåle mørke",
               "de skal gemme deres tænder",
-              "de sover kun under vand"
+              "de bruger skjul som faste toiletpladser"
             ],
             "correctIndex": 0,
             "answer": "de er byttedyr og søger sikkerhed"
@@ -2424,9 +2424,9 @@
             "points": 200,
             "options": [
               "afslapning",
-              "akut aggression i alle tilfælde",
-              "at den ikke kan trække praktiske forhold",
-              "at den bygger rede"
+              "stress, hvis kroppen samtidig er spændt og ørerne ligger fladt",
+              "at den forsøger at skjule redepladsen",
+              "at den markerer territorium med kropsduft"
             ],
             "correctIndex": 0,
             "answer": "afslapning"
@@ -2452,9 +2452,9 @@
             "points": 400,
             "options": [
               "velbehagelig nydelse eller afslapning",
-              "alvorlig smerte i alle tilfælde",
-              "at tænderne falder ud",
-              "at den er sulten efter kød"
+              "let irritation, uanset kropsholdning og lydstyrke",
+              "at fortænderne altid er for lange",
+              "at den er i parringshumør"
             ],
             "correctIndex": 0,
             "answer": "velbehagelig nydelse eller afslapning"
@@ -2526,7 +2526,7 @@
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
       "updatedAt": "2026-07-08T20:10:11Z",
-      "kapardyDidacticUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
+      "kapardyDidacticUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "warnings": []

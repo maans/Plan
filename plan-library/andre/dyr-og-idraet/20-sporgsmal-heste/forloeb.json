@@ -20,7 +20,7 @@
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
       "updatedAt": "2026-07-08T21:30:00Z",
-      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "kapardyUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "sessions": [
@@ -1569,9 +1569,9 @@
               "points": 100,
               "options": [
                 "at stimulere immunforsvaret mod bestemte smitsomme sygdomme",
-                "at erstatte alt grovfoder",
-                "at helbrede alle skader øjeblikkeligt",
-                "at gøre hesten immun mod parasitter generelt"
+                "at erstatte god staldhygiejne og smitteforebyggelse",
+                "at behandle skader i led og sener",
+                "at beskytte mod alle sygdomme på én gang"
               ],
               "correctIndex": 0,
               "answer": "at stimulere immunforsvaret mod bestemte smitsomme sygdomme"
@@ -1585,7 +1585,7 @@
                 "smerter fra bughulen, ofte knyttet til fordøjelsessystemet",
                 "en bestemt hudfarve",
                 "en normal hvileposition",
-                "en infektion kun i øret"
+                "uro eller smerte fra luftvejene"
               ],
               "correctIndex": 0,
               "answer": "smerter fra bughulen, ofte knyttet til fordøjelsessystemet"
@@ -1723,9 +1723,9 @@
               "points": 200,
               "options": [
                 "en hestevogn trukket af én eller flere heste",
-                "en sulky i alle discipliner",
-                "en longe uden vogn",
-                "et surfbræt"
+                "en sulky i stedet for vogn i alle kørselsdiscipliner",
+                "lange liner uden vogn og konkurrencekørsel",
+                "en sadel som i almindelig dressur"
               ],
               "correctIndex": 0,
               "answer": "en hestevogn trukket af én eller flere heste"
@@ -1737,9 +1737,9 @@
               "points": 300,
               "options": [
                 "dressur tilpasset ryttere med funktionsnedsættelser",
-                "dressur kun for ponyer",
-                "springning uden sadel",
-                "galopløb for pensionerede heste"
+                "dressur hvor alle ryttere bruger samme program uden tilpasning",
+                "springning med særlige forhindringer for hesten",
+                "galopløb inddelt efter hestens alder"
               ],
               "correctIndex": 0,
               "answer": "dressur tilpasset ryttere med funktionsnedsættelser"
@@ -1838,24 +1838,24 @@
           },
           "kp_heste_06": {
             "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: at stimulere immunforsvaret mod bestemte smitsomme sygdomme. Forklar hvorfor det er mere præcist end: at erstatte alt grovfoder · at helbrede alle skader øjeblikkeligt · at gøre hesten immun mod parasitter generelt.",
+            "explanation": "Kort svar: at stimulere immunforsvaret mod bestemte smitsomme sygdomme. Forklar hvorfor det er mere præcist end: at erstatte god staldhygiejne og smitteforebyggelse · at behandle skader i led og sener · at beskytte mod alle sygdomme på én gang.",
             "sourceTitle": "The Horse · Health Library",
             "sourceUrl": "https://thehorse.com/",
             "confusions": [
-              "at erstatte alt grovfoder",
-              "at helbrede alle skader øjeblikkeligt",
-              "at gøre hesten immun mod parasitter generelt"
+              "at erstatte god staldhygiejne og smitteforebyggelse",
+              "at behandle skader i led og sener",
+              "at beskytte mod alle sygdomme på én gang"
             ]
           },
           "kp_heste_07": {
             "hint": "Find svaret i kilderne til: Pasning og sundhed.",
-            "explanation": "Kort svar: smerter fra bughulen, ofte knyttet til fordøjelsessystemet. Forklar hvorfor det er mere præcist end: en bestemt hudfarve · en normal hvileposition · en infektion kun i øret.",
+            "explanation": "Kort svar: smerter fra bughulen, ofte knyttet til fordøjelsessystemet. Forklar hvorfor det er mere præcist end: en bestemt hudfarve · en normal hvileposition · uro eller smerte fra luftvejene.",
             "sourceTitle": "The Horse · Health Library",
             "sourceUrl": "https://thehorse.com/",
             "confusions": [
               "en bestemt hudfarve",
               "en normal hvileposition",
-              "en infektion kun i øret"
+              "uro eller smerte fra luftvejene"
             ]
           },
           "kp_heste_08": {
@@ -1959,24 +1959,24 @@
           },
           "kp_heste_17": {
             "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: en hestevogn trukket af én eller flere heste. Forklar hvorfor det er mere præcist end: en sulky i alle discipliner · en longe uden vogn · et surfbræt.",
+            "explanation": "Kort svar: en hestevogn trukket af én eller flere heste. Forklar hvorfor det er mere præcist end: en sulky i stedet for vogn i alle kørselsdiscipliner · lange liner uden vogn og konkurrencekørsel · en sadel som i almindelig dressur.",
             "sourceTitle": "The Horse · Health Library",
             "sourceUrl": "https://thehorse.com/",
             "confusions": [
-              "en sulky i alle discipliner",
-              "en longe uden vogn",
-              "et surfbræt"
+              "en sulky i stedet for vogn i alle kørselsdiscipliner",
+              "lange liner uden vogn og konkurrencekørsel",
+              "en sadel som i almindelig dressur"
             ]
           },
           "kp_heste_18": {
             "hint": "Find svaret i kilderne til: Ridning og hestesport.",
-            "explanation": "Kort svar: dressur tilpasset ryttere med funktionsnedsættelser. Forklar hvorfor det er mere præcist end: dressur kun for ponyer · springning uden sadel · galopløb for pensionerede heste.",
+            "explanation": "Kort svar: dressur tilpasset ryttere med funktionsnedsættelser. Forklar hvorfor det er mere præcist end: dressur hvor alle ryttere bruger samme program uden tilpasning · springning med særlige forhindringer for hesten · galopløb inddelt efter hestens alder.",
             "sourceTitle": "The Horse · Health Library",
             "sourceUrl": "https://thehorse.com/",
             "confusions": [
-              "dressur kun for ponyer",
-              "springning uden sadel",
-              "galopløb for pensionerede heste"
+              "dressur hvor alle ryttere bruger samme program uden tilpasning",
+              "springning med særlige forhindringer for hesten",
+              "galopløb inddelt efter hestens alder"
             ]
           },
           "kp_heste_19": {
@@ -2270,9 +2270,9 @@
             "points": 100,
             "options": [
               "at stimulere immunforsvaret mod bestemte smitsomme sygdomme",
-              "at erstatte alt grovfoder",
-              "at helbrede alle skader øjeblikkeligt",
-              "at gøre hesten immun mod parasitter generelt"
+              "at erstatte god staldhygiejne og smitteforebyggelse",
+              "at behandle skader i led og sener",
+              "at beskytte mod alle sygdomme på én gang"
             ],
             "correctIndex": 0,
             "answer": "at stimulere immunforsvaret mod bestemte smitsomme sygdomme"
@@ -2286,7 +2286,7 @@
               "smerter fra bughulen, ofte knyttet til fordøjelsessystemet",
               "en bestemt hudfarve",
               "en normal hvileposition",
-              "en infektion kun i øret"
+              "uro eller smerte fra luftvejene"
             ],
             "correctIndex": 0,
             "answer": "smerter fra bughulen, ofte knyttet til fordøjelsessystemet"
@@ -2424,9 +2424,9 @@
             "points": 200,
             "options": [
               "en hestevogn trukket af én eller flere heste",
-              "en sulky i alle discipliner",
-              "en longe uden vogn",
-              "et surfbræt"
+              "en sulky i stedet for vogn i alle kørselsdiscipliner",
+              "lange liner uden vogn og konkurrencekørsel",
+              "en sadel som i almindelig dressur"
             ],
             "correctIndex": 0,
             "answer": "en hestevogn trukket af én eller flere heste"
@@ -2438,9 +2438,9 @@
             "points": 300,
             "options": [
               "dressur tilpasset ryttere med funktionsnedsættelser",
-              "dressur kun for ponyer",
-              "springning uden sadel",
-              "galopløb for pensionerede heste"
+              "dressur hvor alle ryttere bruger samme program uden tilpasning",
+              "springning med særlige forhindringer for hesten",
+              "galopløb inddelt efter hestens alder"
             ],
             "correctIndex": 0,
             "answer": "dressur tilpasset ryttere med funktionsnedsættelser"
@@ -2526,7 +2526,7 @@
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
       "updatedAt": "2026-07-08T20:10:11Z",
-      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+      "kapardyDidacticUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "warnings": []

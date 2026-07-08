@@ -20,7 +20,7 @@
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
       "updatedAt": "2026-07-08T23:45:00Z",
-      "kapardyUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
+      "kapardyUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "sessions": [
@@ -1949,13 +1949,13 @@
           },
           "kp_rumfart_16": {
             "hint": "Find svaret i kilderne til: Satellitter og rumstationer.",
-            "explanation": "Kort svar: modtager og videresender radiosignaler. Forklar hvorfor det er mere præcist end: producerer raketbrændstof · måler kun jordskælv under havet · lander automatisk på Månen.",
+            "explanation": "Kort svar: modtager og videresender radiosignaler. Forklar hvorfor det er mere præcist end: producerer raketbrændstof · måler kun jordskælv under havet · sender signalet direkte til alle modtagere uden omløb.",
             "sourceTitle": "NASA History",
             "sourceUrl": "https://history.nasa.gov/",
             "confusions": [
               "producerer raketbrændstof",
               "måler kun jordskælv under havet",
-              "lander automatisk på Månen"
+              "sender signalet direkte til alle modtagere uden omløb"
             ]
           },
           "kp_rumfart_17": {
@@ -2527,7 +2527,7 @@
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
       "updatedAt": "2026-07-08T20:35:30Z",
-      "kapardyDidacticUpgrade": "fase7-kvalitativ-faellessamling-og-distraktorloeft"
+      "kapardyDidacticUpgrade": "fase8-fagligt-niveau-og-plausible-distraktorer"
     }
   },
   "warnings": []
