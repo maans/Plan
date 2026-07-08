@@ -1,26 +1,26 @@
-﻿KortID;Billedfil;Billedsti;Forside;Symbol;AtomicNumber;English;Dansk;Group;Hint;Bagside
-EL001;01_hydrogen_h.png;navneleg-demo/periodic-table/photos/01_hydrogen_h.png;H;H;1;Hydrogen;Brint;Nonmetal;Small but dramatic.;Hydrogen
-EL002;02_helium_he.png;navneleg-demo/periodic-table/photos/02_helium_he.png;He;He;2;Helium;Helium;Noble gas;Makes balloons and voices suspicious.;Helium
-EL003;03_lithium_li.png;navneleg-demo/periodic-table/photos/03_lithium_li.png;Li;Li;3;Lithium;Lithium;Alkali metal;Tiny battery celebrity.;Lithium
-EL004;04_beryllium_be.png;navneleg-demo/periodic-table/photos/04_beryllium_be.png;Be;Be;4;Beryllium;Beryllium;Alkaline earth;Light, stiff and not a snack.;Beryllium
-EL005;05_boron_b.png;navneleg-demo/periodic-table/photos/05_boron_b.png;B;B;5;Boron;Bor;Metalloid;"Boron sounds like boring; it isn't.";Boron
-EL006;06_carbon_c.png;navneleg-demo/periodic-table/photos/06_carbon_c.png;C;C;6;Carbon;Kulstof;Nonmetal;Diamonds, pencils and you.;Carbon
-EL007;07_nitrogen_n.png;navneleg-demo/periodic-table/photos/07_nitrogen_n.png;N;N;7;Nitrogen;Kvælstof;Nonmetal;Most of the air, very humble.;Nitrogen
-EL008;08_oxygen_o.png;navneleg-demo/periodic-table/photos/08_oxygen_o.png;O;O;8;Oxygen;Ilt;Nonmetal;Breathing's favorite element.;Oxygen
-EL009;09_fluorine_f.png;navneleg-demo/periodic-table/photos/09_fluorine_f.png;F;F;9;Fluorine;Fluor;Halogen;Toothpaste with attitude.;Fluorine
-EL010;10_neon_ne.png;navneleg-demo/periodic-table/photos/10_neon_ne.png;Ne;Ne;10;Neon;Neon;Noble gas;Signage influencer.;Neon
-EL011;11_sodium_na.png;navneleg-demo/periodic-table/photos/11_sodium_na.png;Na;Na;11;Sodium;Natrium;Alkali metal;Salt's dramatic half.;Sodium
-EL012;12_magnesium_mg.png;navneleg-demo/periodic-table/photos/12_magnesium_mg.png;Mg;Mg;12;Magnesium;Magnesium;Alkaline earth;Flashy when lit.;Magnesium
-EL013;13_aluminium_al.png;navneleg-demo/periodic-table/photos/13_aluminium_al.png;Al;Al;13;Aluminium;Aluminium;Post-transition metal;Foil hat material.;Aluminium
-EL014;14_silicon_si.png;navneleg-demo/periodic-table/photos/14_silicon_si.png;Si;Si;14;Silicon;Silicium;Metalloid;Computer beach sand.;Silicon
-EL015;15_phosphorus_p.png;navneleg-demo/periodic-table/photos/15_phosphorus_p.png;P;P;15;Phosphorus;Fosfor;Nonmetal;Glows in old stories.;Phosphorus
-EL016;16_sulfur_s.png;navneleg-demo/periodic-table/photos/16_sulfur_s.png;S;S;16;Sulfur;Svovl;Nonmetal;Volcano aroma manager.;Sulfur
-EL017;17_chlorine_cl.png;navneleg-demo/periodic-table/photos/17_chlorine_cl.png;Cl;Cl;17;Chlorine;Klor;Halogen;Pool smell boss.;Chlorine
-EL018;18_argon_ar.png;navneleg-demo/periodic-table/photos/18_argon_ar.png;Ar;Ar;18;Argon;Argon;Noble gas;Politely refuses to react.;Argon
-EL019;19_potassium_k.png;navneleg-demo/periodic-table/photos/19_potassium_k.png;K;K;19;Potassium;Kalium;Alkali metal;Banana chemistry.;Potassium
-EL020;20_calcium_ca.png;navneleg-demo/periodic-table/photos/20_calcium_ca.png;Ca;Ca;20;Calcium;Calcium;Alkaline earth;Bones approve.;Calcium
-EL021;21_scandium_sc.png;navneleg-demo/periodic-table/photos/21_scandium_sc.png;Sc;Sc;21;Scandium;Scandium;Transition metal;Rare but Scandinavian-sounding.;Scandium
-EL022;22_titanium_ti.png;navneleg-demo/periodic-table/photos/22_titanium_ti.png;Ti;Ti;22;Titanium;Titanium;Transition metal;Bike frame flex.;Titanium
-EL023;23_vanadium_v.png;navneleg-demo/periodic-table/photos/23_vanadium_v.png;V;V;23;Vanadium;Vanadium;Transition metal;Sounds like a superhero metal.;Vanadium
-EL024;24_chromium_cr.png;navneleg-demo/periodic-table/photos/24_chromium_cr.png;Cr;Cr;24;Chromium;Chrom;Transition metal;Chrome shine.;Chromium
-EL025;25_manganese_mn.png;navneleg-demo/periodic-table/photos/25_manganese_mn.png;Mn;Mn;25;Manganese;Mangan;Transition metal;Not magnesium's cousin, but close in spelling.;Manganese
+﻿KortID;Billedfil;Billedtitel;Billedsti;Forside;Symbol;AtomicNumber;English;Dansk;Group;Hint;Bagside;BagsideTekst
+EL001;01_hydrogen_h.png;H;navneleg-demo/periodic-table/photos/01_hydrogen_h.png;H;H;1;Hydrogen;Brint;Nonmetal;Small but dramatic.;Hydrogen;Hydrogen (H) — dansk: Brint. Atomnummer 1. Gruppe: Nonmetal. Small but dramatic.
+EL002;02_helium_he.png;He;navneleg-demo/periodic-table/photos/02_helium_he.png;He;He;2;Helium;Helium;Noble gas;Makes balloons and voices suspicious.;Helium;Helium (He) — dansk: Helium. Atomnummer 2. Gruppe: Noble gas. Makes balloons and voices suspicious.
+EL003;03_lithium_li.png;Li;navneleg-demo/periodic-table/photos/03_lithium_li.png;Li;Li;3;Lithium;Lithium;Alkali metal;Tiny battery celebrity.;Lithium;Lithium (Li) — dansk: Lithium. Atomnummer 3. Gruppe: Alkali metal. Tiny battery celebrity.
+EL004;04_beryllium_be.png;Be;navneleg-demo/periodic-table/photos/04_beryllium_be.png;Be;Be;4;Beryllium;Beryllium;Alkaline earth;Light, stiff and not a snack.;Beryllium;Beryllium (Be) — dansk: Beryllium. Atomnummer 4. Gruppe: Alkaline earth. Light, stiff and not a snack.
+EL005;05_boron_b.png;B;navneleg-demo/periodic-table/photos/05_boron_b.png;B;B;5;Boron;Bor;Metalloid;"Boron sounds like boring; it isn't.";Boron;"Boron (B) — dansk: Bor. Atomnummer 5. Gruppe: Metalloid. Boron sounds like boring; it isn't."
+EL006;06_carbon_c.png;C;navneleg-demo/periodic-table/photos/06_carbon_c.png;C;C;6;Carbon;Kulstof;Nonmetal;Diamonds, pencils and you.;Carbon;Carbon (C) — dansk: Kulstof. Atomnummer 6. Gruppe: Nonmetal. Diamonds, pencils and you.
+EL007;07_nitrogen_n.png;N;navneleg-demo/periodic-table/photos/07_nitrogen_n.png;N;N;7;Nitrogen;Kvælstof;Nonmetal;Most of the air, very humble.;Nitrogen;Nitrogen (N) — dansk: Kvælstof. Atomnummer 7. Gruppe: Nonmetal. Most of the air, very humble.
+EL008;08_oxygen_o.png;O;navneleg-demo/periodic-table/photos/08_oxygen_o.png;O;O;8;Oxygen;Ilt;Nonmetal;Breathing's favorite element.;Oxygen;Oxygen (O) — dansk: Ilt. Atomnummer 8. Gruppe: Nonmetal. Breathing's favorite element.
+EL009;09_fluorine_f.png;F;navneleg-demo/periodic-table/photos/09_fluorine_f.png;F;F;9;Fluorine;Fluor;Halogen;Toothpaste with attitude.;Fluorine;Fluorine (F) — dansk: Fluor. Atomnummer 9. Gruppe: Halogen. Toothpaste with attitude.
+EL010;10_neon_ne.png;Ne;navneleg-demo/periodic-table/photos/10_neon_ne.png;Ne;Ne;10;Neon;Neon;Noble gas;Signage influencer.;Neon;Neon (Ne) — dansk: Neon. Atomnummer 10. Gruppe: Noble gas. Signage influencer.
+EL011;11_sodium_na.png;Na;navneleg-demo/periodic-table/photos/11_sodium_na.png;Na;Na;11;Sodium;Natrium;Alkali metal;Salt's dramatic half.;Sodium;Sodium (Na) — dansk: Natrium. Atomnummer 11. Gruppe: Alkali metal. Salt's dramatic half.
+EL012;12_magnesium_mg.png;Mg;navneleg-demo/periodic-table/photos/12_magnesium_mg.png;Mg;Mg;12;Magnesium;Magnesium;Alkaline earth;Flashy when lit.;Magnesium;Magnesium (Mg) — dansk: Magnesium. Atomnummer 12. Gruppe: Alkaline earth. Flashy when lit.
+EL013;13_aluminium_al.png;Al;navneleg-demo/periodic-table/photos/13_aluminium_al.png;Al;Al;13;Aluminium;Aluminium;Post-transition metal;Foil hat material.;Aluminium;Aluminium (Al) — dansk: Aluminium. Atomnummer 13. Gruppe: Post-transition metal. Foil hat material.
+EL014;14_silicon_si.png;Si;navneleg-demo/periodic-table/photos/14_silicon_si.png;Si;Si;14;Silicon;Silicium;Metalloid;Computer beach sand.;Silicon;Silicon (Si) — dansk: Silicium. Atomnummer 14. Gruppe: Metalloid. Computer beach sand.
+EL015;15_phosphorus_p.png;P;navneleg-demo/periodic-table/photos/15_phosphorus_p.png;P;P;15;Phosphorus;Fosfor;Nonmetal;Glows in old stories.;Phosphorus;Phosphorus (P) — dansk: Fosfor. Atomnummer 15. Gruppe: Nonmetal. Glows in old stories.
+EL016;16_sulfur_s.png;S;navneleg-demo/periodic-table/photos/16_sulfur_s.png;S;S;16;Sulfur;Svovl;Nonmetal;Volcano aroma manager.;Sulfur;Sulfur (S) — dansk: Svovl. Atomnummer 16. Gruppe: Nonmetal. Volcano aroma manager.
+EL017;17_chlorine_cl.png;Cl;navneleg-demo/periodic-table/photos/17_chlorine_cl.png;Cl;Cl;17;Chlorine;Klor;Halogen;Pool smell boss.;Chlorine;Chlorine (Cl) — dansk: Klor. Atomnummer 17. Gruppe: Halogen. Pool smell boss.
+EL018;18_argon_ar.png;Ar;navneleg-demo/periodic-table/photos/18_argon_ar.png;Ar;Ar;18;Argon;Argon;Noble gas;Politely refuses to react.;Argon;Argon (Ar) — dansk: Argon. Atomnummer 18. Gruppe: Noble gas. Politely refuses to react.
+EL019;19_potassium_k.png;K;navneleg-demo/periodic-table/photos/19_potassium_k.png;K;K;19;Potassium;Kalium;Alkali metal;Banana chemistry.;Potassium;Potassium (K) — dansk: Kalium. Atomnummer 19. Gruppe: Alkali metal. Banana chemistry.
+EL020;20_calcium_ca.png;Ca;navneleg-demo/periodic-table/photos/20_calcium_ca.png;Ca;Ca;20;Calcium;Calcium;Alkaline earth;Bones approve.;Calcium;Calcium (Ca) — dansk: Calcium. Atomnummer 20. Gruppe: Alkaline earth. Bones approve.
+EL021;21_scandium_sc.png;Sc;navneleg-demo/periodic-table/photos/21_scandium_sc.png;Sc;Sc;21;Scandium;Scandium;Transition metal;Rare but Scandinavian-sounding.;Scandium;Scandium (Sc) — dansk: Scandium. Atomnummer 21. Gruppe: Transition metal. Rare but Scandinavian-sounding.
+EL022;22_titanium_ti.png;Ti;navneleg-demo/periodic-table/photos/22_titanium_ti.png;Ti;Ti;22;Titanium;Titanium;Transition metal;Bike frame flex.;Titanium;Titanium (Ti) — dansk: Titanium. Atomnummer 22. Gruppe: Transition metal. Bike frame flex.
+EL023;23_vanadium_v.png;V;navneleg-demo/periodic-table/photos/23_vanadium_v.png;V;V;23;Vanadium;Vanadium;Transition metal;Sounds like a superhero metal.;Vanadium;Vanadium (V) — dansk: Vanadium. Atomnummer 23. Gruppe: Transition metal. Sounds like a superhero metal.
+EL024;24_chromium_cr.png;Cr;navneleg-demo/periodic-table/photos/24_chromium_cr.png;Cr;Cr;24;Chromium;Chrom;Transition metal;Chrome shine.;Chromium;Chromium (Cr) — dansk: Chrom. Atomnummer 24. Gruppe: Transition metal. Chrome shine.
+EL025;25_manganese_mn.png;Mn;navneleg-demo/periodic-table/photos/25_manganese_mn.png;Mn;Mn;25;Manganese;Mangan;Transition metal;Not magnesium's cousin, but close in spelling.;Manganese;Manganese (Mn) — dansk: Mangan. Atomnummer 25. Gruppe: Transition metal. Not magnesium's cousin, but close in spelling.

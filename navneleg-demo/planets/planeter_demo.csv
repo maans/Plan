@@ -1,13 +1,13 @@
-﻿KortID;Billedfil;Billedsti;Forside;English;Dansk;OrderFromSun;Type;Hint;Bagside
-SP01;01_mercury.png;navneleg-demo/planets/photos/01_mercury.png;;Mercury;Merkur;1;Planet;Small and speedy.;Mercury
-SP02;02_venus.png;navneleg-demo/planets/photos/02_venus.png;;Venus;Venus;2;Planet;Greenhouse champion.;Venus
-SP03;03_earth.png;navneleg-demo/planets/photos/03_earth.png;;Earth;Jorden;3;Planet;Currently occupied.;Earth
-SP04;04_mars.png;navneleg-demo/planets/photos/04_mars.png;;Mars;Mars;4;Planet;Red dust enthusiast.;Mars
-SP05;05_jupiter.png;navneleg-demo/planets/photos/05_jupiter.png;;Jupiter;Jupiter;5;Planet;Big storm, bigger personality.;Jupiter
-SP06;06_saturn.png;navneleg-demo/planets/photos/06_saturn.png;;Saturn;Saturn;6;Planet;Clearly accessorized.;Saturn
-SP07;07_uranus.png;navneleg-demo/planets/photos/07_uranus.png;;Uranus;Uranus;7;Planet;Rolls sideways through life.;Uranus
-SP08;08_neptune.png;navneleg-demo/planets/photos/08_neptune.png;;Neptune;Neptun;8;Planet;Windy blue mystery.;Neptune
-SP09;09_the_moon.png;navneleg-demo/planets/photos/09_the_moon.png;;The Moon;Månen;;Moon;Night shift reflector.;The Moon
-SP10;10_the_sun.png;navneleg-demo/planets/photos/10_the_sun.png;;The Sun;Solen;;Star;Classroom lamp, solar edition.;The Sun
-SP11;11_pluto.png;navneleg-demo/planets/photos/11_pluto.png;;Pluto;Pluto;9;Dwarf planet;Still invited to demo parties.;Pluto
-SP12;12_ceres.png;navneleg-demo/planets/photos/12_ceres.png;;Ceres;Ceres;;Dwarf planet;Small, round, and responsible.;Ceres
+﻿KortID;Billedfil;Billedtitel;Billedsti;Forside;English;Dansk;OrderFromSun;Type;Hint;Bagside;BagsideTekst
+SP01;01_mercury.png;Mercury;navneleg-demo/planets/photos/01_mercury.png;;Mercury;Merkur;1;Planet;Small and speedy.;Mercury;Mercury — dansk: Merkur. Planet. Nummer 1 fra Solen. Small and speedy.
+SP02;02_venus.png;Venus;navneleg-demo/planets/photos/02_venus.png;;Venus;Venus;2;Planet;Greenhouse champion.;Venus;Venus — dansk: Venus. Planet. Nummer 2 fra Solen. Greenhouse champion.
+SP03;03_earth.png;Earth;navneleg-demo/planets/photos/03_earth.png;;Earth;Jorden;3;Planet;Currently occupied.;Earth;Earth — dansk: Jorden. Planet. Nummer 3 fra Solen. Currently occupied.
+SP04;04_mars.png;Mars;navneleg-demo/planets/photos/04_mars.png;;Mars;Mars;4;Planet;Red dust enthusiast.;Mars;Mars — dansk: Mars. Planet. Nummer 4 fra Solen. Red dust enthusiast.
+SP05;05_jupiter.png;Jupiter;navneleg-demo/planets/photos/05_jupiter.png;;Jupiter;Jupiter;5;Planet;Big storm, bigger personality.;Jupiter;Jupiter — dansk: Jupiter. Planet. Nummer 5 fra Solen. Big storm, bigger personality.
+SP06;06_saturn.png;Saturn;navneleg-demo/planets/photos/06_saturn.png;;Saturn;Saturn;6;Planet;Clearly accessorized.;Saturn;Saturn — dansk: Saturn. Planet. Nummer 6 fra Solen. Clearly accessorized.
+SP07;07_uranus.png;Uranus;navneleg-demo/planets/photos/07_uranus.png;;Uranus;Uranus;7;Planet;Rolls sideways through life.;Uranus;Uranus — dansk: Uranus. Planet. Nummer 7 fra Solen. Rolls sideways through life.
+SP08;08_neptune.png;Neptune;navneleg-demo/planets/photos/08_neptune.png;;Neptune;Neptun;8;Planet;Windy blue mystery.;Neptune;Neptune — dansk: Neptun. Planet. Nummer 8 fra Solen. Windy blue mystery.
+SP09;09_the_moon.png;The Moon;navneleg-demo/planets/photos/09_the_moon.png;;The Moon;Månen;;Moon;Night shift reflector.;The Moon;The Moon — dansk: Månen. Moon. Night shift reflector.
+SP10;10_the_sun.png;The Sun;navneleg-demo/planets/photos/10_the_sun.png;;The Sun;Solen;;Star;Classroom lamp, solar edition.;The Sun;The Sun — dansk: Solen. Star. Classroom lamp, solar edition.
+SP11;11_pluto.png;Pluto;navneleg-demo/planets/photos/11_pluto.png;;Pluto;Pluto;9;Dwarf planet;Still invited to demo parties.;Pluto;Pluto — dansk: Pluto. Dwarf planet. Nummer 9 fra Solen. Still invited to demo parties.
+SP12;12_ceres.png;Ceres;navneleg-demo/planets/photos/12_ceres.png;;Ceres;Ceres;;Dwarf planet;Small, round, and responsible.;Ceres;Ceres — dansk: Ceres. Dwarf planet. Small, round, and responsible.

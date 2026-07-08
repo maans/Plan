@@ -1,5 +1,5 @@
 {
-  "schema": "plan-picture-flip-demo-index-v3-clean-assets",
+  "schema": "plan-picture-flip-demo-catalog-v1",
   "title": "Plan Billedvendespil demoer",
   "description": "Rene demoer uden tekst indbygget i billederne. Alt tekstligt vises fra datasættets forside-/bagsidekolonner.",
   "baseFolder": "navneleg-demo",
@@ -109,5 +109,6 @@
       "xlsxPath": "navneleg-demo/planets/planeter_demo.xlsx",
       "defaultFrontLabelMode": "hidden"
     }
-  ]
+  ],
+  "assetBaseUrl": "../"
 }
