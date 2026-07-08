@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-kropssprog_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-kropssprog_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-kropssprog_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Kropssprog",
@@ -63,7 +67,8 @@
           "Afstemning",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Verywell Mind · Body Language",
-            "url": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-            "type": "web/formidling",
-            "category": "Ansigt, blik og bevægelse",
-            "note": "Brug som lettilgængelig introduktion, men tal om kildekritik.",
+            "title": "EMU · Forstå dit eget og andres kropssprog",
+            "url": "https://emu.dk/eud/psykologi/psykologifaglige-emner/forstaa-dit-eget-og-andres-kropssprog",
+            "type": "dansk/undervisning",
+            "category": "Kropssprog i praksis",
+            "note": "Brug til læringsaktiviteter om kropssprog og nonverbal kommunikation i en dansk undervisningskontekst.",
             "tags": [
-              "ansigt-blik-og-bevaegelse",
-              "web-formidling"
+              "kropssprog",
+              "nonverbal",
+              "EMU"
             ]
           },
           {
-            "title": "The Nonverbal Dictionary",
-            "url": "https://www.nonverbal-world.com/",
-            "type": "web/reference",
-            "category": "Stemme, rum og berøring",
-            "note": "Brug til begreber og fagord.",
+            "title": "Dansk Tegnsprog · Dansk tegnsprog er et sprog",
+            "url": "https://dansktegnsprog.dk/om-sproget/temaer/tema/dansk-tegnsprog-er-et-sprog",
+            "type": "dansk/sproginstitution",
+            "category": "Tegnsprog og sprogmyter",
+            "note": "Brug til at adskille tegnsprog fra almindeligt kropssprog: tegnsprog er et naturligt sprog med grammatik.",
             "tags": [
-              "stemme-rum-og-beroering",
-              "web-reference"
+              "tegnsprog",
+              "grammatik",
+              "sprog"
             ]
           },
           {
-            "title": "Sign Language Linguistics Society",
-            "url": "https://slls.eu/",
-            "type": "web/fagmiljø",
+            "title": "Dansk Sprognævn · Dansk Tegnsprogsråd",
+            "url": "https://dsn.dk/dansk-tegnsprog/organisation/dansk-tegnsprogsraad/",
+            "type": "dansk/myndighedsnær",
+            "category": "Tegnsprog og dokumentation",
+            "note": "Brug til tegnsprogets officielle sprogarbejde og dokumentation i Danmark.",
+            "tags": [
+              "tegnsprogsråd",
+              "sprognævn",
+              "dokumentation"
+            ]
+          },
+          {
+            "title": "Lex · nonverbal kommunikation",
+            "url": "https://lex.dk/nonverbal_kommunikation",
+            "type": "dansk/leksikon",
+            "category": "Begreber",
+            "note": "Brug til begreber som gestik, mimik, kropsholdning, proxemics, haptics og chronemics, hvis artiklen er tilgængelig; ellers brug EMU og lærerens begrebsliste.",
+            "tags": [
+              "nonverbal",
+              "begreber",
+              "kommunikation"
+            ]
+          },
+          {
+            "title": "Pitcherific · 93/7-myten om kropssprog",
+            "url": "https://blog.pitcherific.com/da/kropssprog-betyder-ikke-alt/",
+            "type": "dansk/formidling",
             "category": "Kultur, forskning og myter",
-            "note": "Brug til at adskille tegnsprog fra “bare kropssprog”.",
+            "note": "Brug til at diskutere, hvorfor 93-procent-påstanden ikke kan generaliseres til al kommunikation.",
             "tags": [
-              "kultur-forskning-og-myter",
-              "web-fagmiljoe"
-            ]
-          },
-          {
-            "title": "Noba Project · Social Psychology",
-            "url": "https://nobaproject.com/",
-            "type": "web/undervisning",
-            "category": "Samtalens funktioner",
-            "note": "Brug til kommunikation og relationelle signaler.",
-            "tags": [
-              "samtalens-funktioner",
-              "web-undervisning"
-            ]
-          },
-          {
-            "title": "Interaction Design Foundation · Nonverbal Communication",
-            "url": "https://www.interaction-design.org/literature/topics/nonverbal-communication",
-            "type": "web/formidling",
-            "category": "Alle kategorier",
-            "note": "Brug som støtte til observation og design af rollespil.",
-            "tags": [
-              "alle-kategorier",
-              "web-formidling"
+              "Mehrabian",
+              "93-procent",
+              "myte"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kropssprog_v2_showcase_2",
       "type": "link",
-      "title": "Verywell Mind · Body Language",
+      "title": "EMU · Forstå dit eget og andres kropssprog",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228",
-        "label": "Verywell Mind · Body Language",
-        "note": "web/formidling · Brug som lettilgængelig introduktion, men tal om kildekritik.",
+        "url": "https://emu.dk/eud/psykologi/psykologifaglige-emner/forstaa-dit-eget-og-andres-kropssprog",
+        "label": "EMU · Forstå dit eget og andres kropssprog",
+        "note": "Brug til læringsaktiviteter om kropssprog og nonverbal kommunikation i en dansk undervisningskontekst.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kropssprog_v2_showcase_2",
       "type": "link",
-      "title": "The Nonverbal Dictionary",
+      "title": "Dansk Tegnsprog · Dansk tegnsprog er et sprog",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.nonverbal-world.com/",
-        "label": "The Nonverbal Dictionary",
-        "note": "web/reference · Brug til begreber og fagord.",
+        "url": "https://dansktegnsprog.dk/om-sproget/temaer/tema/dansk-tegnsprog-er-et-sprog",
+        "label": "Dansk Tegnsprog · Dansk tegnsprog er et sprog",
+        "note": "Brug til at adskille tegnsprog fra almindeligt kropssprog: tegnsprog er et naturligt sprog med grammatik.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kropssprog_v2_showcase_2",
       "type": "link",
-      "title": "Sign Language Linguistics Society",
+      "title": "Dansk Sprognævn · Dansk Tegnsprogsråd",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://slls.eu/",
-        "label": "Sign Language Linguistics Society",
-        "note": "web/fagmiljø · Brug til at adskille tegnsprog fra “bare kropssprog”.",
+        "url": "https://dsn.dk/dansk-tegnsprog/organisation/dansk-tegnsprogsraad/",
+        "label": "Dansk Sprognævn · Dansk Tegnsprogsråd",
+        "note": "Brug til tegnsprogets officielle sprogarbejde og dokumentation i Danmark.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kropssprog_v2_showcase_2",
       "type": "link",
-      "title": "Noba Project · Social Psychology",
+      "title": "Lex · nonverbal kommunikation",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://nobaproject.com/",
-        "label": "Noba Project · Social Psychology",
-        "note": "web/undervisning · Brug til kommunikation og relationelle signaler.",
+        "url": "https://lex.dk/nonverbal_kommunikation",
+        "label": "Lex · nonverbal kommunikation",
+        "note": "Brug til begreber som gestik, mimik, kropsholdning, proxemics, haptics og chronemics, hvis artiklen er tilgængelig; ellers brug EMU og lærerens begrebsliste.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kropssprog_v2_showcase_2",
       "type": "link",
-      "title": "Interaction Design Foundation · Nonverbal Communication",
+      "title": "Pitcherific · 93/7-myten om kropssprog",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.interaction-design.org/literature/topics/nonverbal-communication",
-        "label": "Interaction Design Foundation · Nonverbal Communication",
-        "note": "web/formidling · Brug som støtte til observation og design af rollespil.",
+        "url": "https://blog.pitcherific.com/da/kropssprog-betyder-ikke-alt/",
+        "label": "Pitcherific · 93/7-myten om kropssprog",
+        "note": "Brug til at diskutere, hvorfor 93-procent-påstanden ikke kan generaliseres til al kommunikation.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-kropssprog_v2_showcase"
     ],
     "contentHash": "7ca294a1712ecc9cb6d68774db16b830c774a58a8b4a6b8d0a4246c9e6ca349a",
-    "packageHash": "1d42a7a5833633ef55003788b051b8fefc7ce884ab7a378880d63cc78a98cb53"
+    "packageHash": "1d42a7a5833633ef55003788b051b8fefc7ce884ab7a378880d63cc78a98cb53",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

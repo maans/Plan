@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Mad fra hele verden",
@@ -62,7 +66,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "UNESCO Intangible Cultural Heritage",
-            "url": "https://ich.unesco.org/",
-            "type": "web/officiel",
+            "title": "UNESCO · Food and intangible heritage",
+            "url": "https://courier.unesco.org/en/articles/food-and-intangible-heritage-flavourful-relationship",
+            "type": "international/UNESCO",
             "category": "Måltider og madkultur",
-            "note": "Brug til madkultur og kulturarv.",
+            "note": "Brug til madtraditioner som immateriel kulturarv og overblik over UNESCOs madkulturspørgsmål.",
             "tags": [
-              "maaltider-og-madkultur",
-              "web-officiel"
+              "UNESCO",
+              "madkultur",
+              "kulturarv"
             ]
           },
           {
-            "title": "Serious Eats",
-            "url": "https://www.seriouseats.com/",
-            "type": "web/artikler",
-            "category": "Ingredienser og teknikker",
-            "note": "Brug til teknikker og råvarer.",
+            "title": "UNESCO ICH · Washoku",
+            "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-00869",
+            "type": "international/UNESCO",
+            "category": "Japansk madkultur",
+            "note": "Brug til Washoku som traditionel japansk madkultur på UNESCOs liste.",
             "tags": [
-              "ingredienser-og-teknikker",
-              "web-artikler"
+              "Washoku",
+              "Japan",
+              "UNESCO"
             ]
           },
           {
-            "title": "Britannica · Food",
-            "url": "https://www.britannica.com/topic/food",
-            "type": "web/reference",
-            "category": "Retter og hjemsteder",
-            "note": "Brug som opslag til retter og madkultur.",
+            "title": "UNESCO ICH · Mediterranean diet",
+            "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+            "type": "international/UNESCO",
+            "category": "Middelhavskosten",
+            "note": "Brug til Middelhavskosten som fælles spise- og livsstilstradition.",
             "tags": [
-              "retter-og-hjemsteder",
-              "web-reference"
+              "Middelhavskosten",
+              "UNESCO",
+              "madkultur"
             ]
           },
           {
-            "title": "TasteAtlas",
-            "url": "https://www.tasteatlas.com/",
-            "type": "web/kort",
-            "category": "Retter og hjemsteder",
-            "note": "Brug kritisk som madkort og inspirationskilde.",
+            "title": "UNESCO ICH · Traditional Mexican cuisine",
+            "url": "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400",
+            "type": "international/UNESCO",
+            "category": "Mexicansk madkultur",
+            "note": "Brug til majs, bønner og chili i traditionel mexicansk madkultur.",
             "tags": [
-              "retter-og-hjemsteder",
-              "web-kort"
+              "Mexico",
+              "majs",
+              "UNESCO"
             ]
           },
           {
-            "title": "FAO",
-            "url": "https://www.fao.org/",
-            "type": "web/officiel",
-            "category": "Råvarer og kultur",
-            "note": "Brug til mad, fødevarer og globale sammenhænge.",
+            "title": "UNESCO ICH · Art of Neapolitan pizzaiuolo",
+            "url": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+            "type": "international/UNESCO",
+            "category": "Pizzaiuolo-kunsten",
+            "note": "Brug til napolitansk pizzabagning som immateriel kulturarv.",
             "tags": [
-              "raavarer-og-kultur",
-              "web-officiel"
+              "pizza",
+              "Napoli",
+              "UNESCO"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO Intangible Cultural Heritage",
+      "title": "UNESCO · Food and intangible heritage",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://ich.unesco.org/",
-        "label": "UNESCO Intangible Cultural Heritage",
-        "note": "web/officiel · Brug til madkultur og kulturarv.",
+        "url": "https://courier.unesco.org/en/articles/food-and-intangible-heritage-flavourful-relationship",
+        "label": "UNESCO · Food and intangible heritage",
+        "note": "Brug til madtraditioner som immateriel kulturarv og overblik over UNESCOs madkulturspørgsmål.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "Serious Eats",
+      "title": "UNESCO ICH · Washoku",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.seriouseats.com/",
-        "label": "Serious Eats",
-        "note": "web/artikler · Brug til teknikker og råvarer.",
+        "url": "https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-00869",
+        "label": "UNESCO ICH · Washoku",
+        "note": "Brug til Washoku som traditionel japansk madkultur på UNESCOs liste.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "Britannica · Food",
+      "title": "UNESCO ICH · Mediterranean diet",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.britannica.com/topic/food",
-        "label": "Britannica · Food",
-        "note": "web/reference · Brug som opslag til retter og madkultur.",
+        "url": "https://ich.unesco.org/en/RL/mediterranean-diet-00884",
+        "label": "UNESCO ICH · Mediterranean diet",
+        "note": "Brug til Middelhavskosten som fælles spise- og livsstilstradition.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "TasteAtlas",
+      "title": "UNESCO ICH · Traditional Mexican cuisine",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.tasteatlas.com/",
-        "label": "TasteAtlas",
-        "note": "web/kort · Brug kritisk som madkort og inspirationskilde.",
+        "url": "https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400",
+        "label": "UNESCO ICH · Traditional Mexican cuisine",
+        "note": "Brug til majs, bønner og chili i traditionel mexicansk madkultur.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase_2",
       "type": "link",
-      "title": "FAO",
+      "title": "UNESCO ICH · Art of Neapolitan pizzaiuolo",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.fao.org/",
-        "label": "FAO",
-        "note": "web/officiel · Brug til mad, fødevarer og globale sammenhænge.",
+        "url": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+        "label": "UNESCO ICH · Art of Neapolitan pizzaiuolo",
+        "note": "Brug til napolitansk pizzabagning som immateriel kulturarv.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-mad-fra-hele-verden_v2_showcase"
     ],
     "contentHash": "1ba2a75a54decef3b5c726250ce375c874b6066dd2255a44fecb3eea4d00c9da",
-    "packageHash": "64a44b270430cac087da50fb62f52e8a79a6a326791672df6bc1baa3a431d580"
+    "packageHash": "64a44b270430cac087da50fb62f52e8a79a6a326791672df6bc1baa3a431d580",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

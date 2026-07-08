@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-balkanmusik_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-balkanmusik_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-balkanmusik_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Balkanmusik",
@@ -62,7 +66,8 @@
           "Timer",
           "Gruppeværktøj",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Smithsonian Folkways",
-            "url": "https://folkways.si.edu/",
-            "type": "lyd/arkiv",
-            "category": "Roma og musik på tværs",
-            "note": "Brug som lytte- og kontekstkilde.",
-            "tags": [
-              "roma-og-musik-paa-tvaers",
-              "lyd-arkiv"
-            ]
-          },
-          {
-            "title": "UNESCO Intangible Cultural Heritage",
-            "url": "https://ich.unesco.org/",
-            "type": "web/officiel",
+            "title": "UNESCO ICH · Kolo, traditional folk dance",
+            "url": "https://ich.unesco.org/en/RL/kolo-traditional-folk-dance-01270",
+            "type": "international/UNESCO",
             "category": "Stilarter, sange og steder",
-            "note": "Brug til kolo, rebetiko, sevdalinka og klapa.",
+            "note": "Brug til kolo og Serbiens optagelse på UNESCOs repræsentative liste i 2017.",
             "tags": [
-              "stilarter-sange-og-steder",
-              "web-officiel"
+              "kolo",
+              "Serbien",
+              "UNESCO"
             ]
           },
           {
-            "title": "Europeana Music",
-            "url": "https://www.europeana.eu/en/collections/topic/62-music",
-            "type": "web/arkiv",
-            "category": "Instrumenter og ensembler",
-            "note": "Brug arkivmateriale og billeder.",
+            "title": "UNESCO ICH · Rebetiko",
+            "url": "https://ich.unesco.org/en/RL/rebetiko-01291",
+            "type": "international/UNESCO",
+            "category": "Rebetiko",
+            "note": "Brug til rebetiko, bouzouki-kontekst og optagelsen på UNESCOs liste i 2017.",
             "tags": [
-              "instrumenter-og-ensembler",
-              "web-arkiv"
+              "rebetiko",
+              "bouzouki",
+              "UNESCO"
             ]
           },
           {
-            "title": "WOMEX / World music resources",
-            "url": "https://www.womex.com/",
-            "type": "web/kontekst",
-            "category": "Musik på tværs",
-            "note": "Brug til moderne verdensmusik og branchekontekst.",
+            "title": "UNESCO ICH · Sevdalinka",
+            "url": "https://ich.unesco.org/en/RL/sevdalinka-02098",
+            "type": "international/UNESCO",
+            "category": "Sevdalinka",
+            "note": "Brug til sevdalinka og optagelsen på UNESCOs repræsentative liste i 2024.",
             "tags": [
-              "musik-paa-tvaers",
-              "web-kontekst"
+              "sevdalinka",
+              "Bosnien",
+              "UNESCO"
             ]
           },
           {
-            "title": "BBC Music articles",
-            "url": "https://www.bbc.co.uk/music",
-            "type": "web/artikler",
-            "category": "Skæve taktarter og danse",
-            "note": "Brug til læse- og lytteindgange.",
+            "title": "UNESCO ICH · Klapa multipart singing of Dalmatia",
+            "url": "https://ich.unesco.org/en/RL/klapa-multipart-singing-of-dalmatia-southern-croatia-00746",
+            "type": "international/UNESCO",
+            "category": "Klapa og Dalmatien",
+            "note": "Brug til dalmatisk klapa-sang og optagelsen i 2012.",
             "tags": [
-              "skaeve-taktarter-og-danse",
-              "web-artikler"
+              "klapa",
+              "Dalmatien",
+              "UNESCO"
+            ]
+          },
+          {
+            "title": "Smithsonian Folkways · Balkan music",
+            "url": "https://folkways.si.edu/search?query=Balkan",
+            "type": "international/musikarkiv",
+            "category": "Lytning og kontekst",
+            "note": "Brug som lytte- og kontekstkilde til Balkanmusik, brassbands, roma-musik og regionale instrumenter.",
+            "tags": [
+              "Balkan",
+              "lytning",
+              "folkways"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "type": "link",
-      "title": "Smithsonian Folkways",
+      "title": "UNESCO ICH · Kolo, traditional folk dance",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://folkways.si.edu/",
-        "label": "Smithsonian Folkways",
-        "note": "lyd/arkiv · Brug som lytte- og kontekstkilde.",
+        "url": "https://ich.unesco.org/en/RL/kolo-traditional-folk-dance-01270",
+        "label": "UNESCO ICH · Kolo, traditional folk dance",
+        "note": "Brug til kolo og Serbiens optagelse på UNESCOs repræsentative liste i 2017.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO Intangible Cultural Heritage",
+      "title": "UNESCO ICH · Rebetiko",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://ich.unesco.org/",
-        "label": "UNESCO Intangible Cultural Heritage",
-        "note": "web/officiel · Brug til kolo, rebetiko, sevdalinka og klapa.",
+        "url": "https://ich.unesco.org/en/RL/rebetiko-01291",
+        "label": "UNESCO ICH · Rebetiko",
+        "note": "Brug til rebetiko, bouzouki-kontekst og optagelsen på UNESCOs liste i 2017.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "type": "link",
-      "title": "Europeana Music",
+      "title": "UNESCO ICH · Sevdalinka",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.europeana.eu/en/collections/topic/62-music",
-        "label": "Europeana Music",
-        "note": "web/arkiv · Brug arkivmateriale og billeder.",
+        "url": "https://ich.unesco.org/en/RL/sevdalinka-02098",
+        "label": "UNESCO ICH · Sevdalinka",
+        "note": "Brug til sevdalinka og optagelsen på UNESCOs repræsentative liste i 2024.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "type": "link",
-      "title": "WOMEX / World music resources",
+      "title": "UNESCO ICH · Klapa multipart singing of Dalmatia",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.womex.com/",
-        "label": "WOMEX / World music resources",
-        "note": "web/kontekst · Brug til moderne verdensmusik og branchekontekst.",
+        "url": "https://ich.unesco.org/en/RL/klapa-multipart-singing-of-dalmatia-southern-croatia-00746",
+        "label": "UNESCO ICH · Klapa multipart singing of Dalmatia",
+        "note": "Brug til dalmatisk klapa-sang og optagelsen i 2012.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-balkanmusik_v2_showcase_2",
       "type": "link",
-      "title": "BBC Music articles",
+      "title": "Smithsonian Folkways · Balkan music",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.bbc.co.uk/music",
-        "label": "BBC Music articles",
-        "note": "web/artikler · Brug til læse- og lytteindgange.",
+        "url": "https://folkways.si.edu/search?query=Balkan",
+        "label": "Smithsonian Folkways · Balkan music",
+        "note": "Brug som lytte- og kontekstkilde til Balkanmusik, brassbands, roma-musik og regionale instrumenter.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-balkanmusik_v2_showcase"
     ],
     "contentHash": "391d2ed47e96fbf97953018783c88999096617526035bd02c3edde480a89ecf9",
-    "packageHash": "2c528770de7ab2d5192a2559154a24259a22d14443580e78c3db3ef0e99861ca"
+    "packageHash": "2c528770de7ab2d5192a2559154a24259a22d14443580e78c3db3ef0e99861ca",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

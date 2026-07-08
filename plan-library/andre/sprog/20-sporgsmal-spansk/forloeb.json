@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-spansk_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-spansk_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-spansk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Spansk sprog og kultur",
@@ -63,7 +67,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Instituto Cervantes",
-            "url": "https://cvc.cervantes.es/",
-            "type": "web/reference",
-            "category": "Ord og udtryk",
-            "note": "Brug til sprog, kultur og forklaringer.",
+            "title": "Lex · spansk sprog",
+            "url": "https://lex.dk/spansk_sprog",
+            "type": "dansk/leksikon",
+            "category": "Ord, udtale og sprogområder",
+            "note": "Brug som dansk overblik over spansk sprog og udbredelse i verden.",
             "tags": [
-              "ord-og-udtryk",
-              "web-reference"
+              "spansk",
+              "sprog",
+              "spansktalende"
             ]
           },
           {
-            "title": "StudySpanish.com",
-            "url": "https://studyspanish.com/",
-            "type": "web/undervisning",
-            "category": "Grammatik og udtale",
-            "note": "Brug til tener, ir, hay og tider.",
-            "tags": [
-              "grammatik-og-udtale",
-              "web-undervisning"
-            ]
-          },
-          {
-            "title": "RAE · Diccionario",
+            "title": "Real Academia Española · Diccionario",
             "url": "https://dle.rae.es/",
-            "type": "web/opslag",
+            "type": "spansk/officiel",
             "category": "Ord og udtryk",
-            "note": "Brug til opslag og betydning.",
+            "note": "Brug som autoritativ ordbog til spanske ord som queso, pan, leche og faste udtryk.",
             "tags": [
-              "ord-og-udtryk",
-              "web-opslag"
+              "RAE",
+              "ordbog",
+              "spansk"
             ]
           },
           {
-            "title": "UNESCO World Heritage Centre",
-            "url": "https://whc.unesco.org/",
-            "type": "web/kulturarv",
+            "title": "Instituto Cervantes · CVC",
+            "url": "https://cvc.cervantes.es/",
+            "type": "spansk/kulturinstitution",
+            "category": "Grammatik og kultur",
+            "note": "Brug til sprog- og kulturstof, konjugationer, forfattere og spansksprogede områder.",
+            "tags": [
+              "Cervantes",
+              "grammatik",
+              "kultur"
+            ]
+          },
+          {
+            "title": "UNESCO World Heritage Centre · Machu Picchu",
+            "url": "https://whc.unesco.org/en/list/274/",
+            "type": "international/UNESCO",
             "category": "Den spansktalende verden",
-            "note": "Brug til Machu Picchu, Rapa Nui og Chichén Itzá.",
+            "note": "Brug til Machu Picchu i Peru og verdensarvskontekst.",
             "tags": [
-              "den-spansktalende-verden",
-              "web-kulturarv"
+              "Machu-Picchu",
+              "Peru",
+              "UNESCO"
             ]
           },
           {
-            "title": "Britannica · Spanish literature",
-            "url": "https://www.britannica.com/art/Spanish-literature",
-            "type": "web/reference",
-            "category": "Kunst og kultur",
-            "note": "Brug til værker og forfattere.",
+            "title": "UNESCO World Heritage Centre · Rapa Nui National Park",
+            "url": "https://whc.unesco.org/en/list/715/",
+            "type": "international/UNESCO",
+            "category": "Den spansktalende verden",
+            "note": "Brug til Rapa Nui/Påskeøen som del af Chile og til kulturarvskontekst.",
             "tags": [
-              "kunst-og-kultur",
-              "web-reference"
+              "Rapa-Nui",
+              "Chile",
+              "UNESCO"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "Instituto Cervantes",
+      "title": "Lex · spansk sprog",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://cvc.cervantes.es/",
-        "label": "Instituto Cervantes",
-        "note": "web/reference · Brug til sprog, kultur og forklaringer.",
+        "url": "https://lex.dk/spansk_sprog",
+        "label": "Lex · spansk sprog",
+        "note": "Brug som dansk overblik over spansk sprog og udbredelse i verden.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "StudySpanish.com",
+      "title": "Real Academia Española · Diccionario",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://studyspanish.com/",
-        "label": "StudySpanish.com",
-        "note": "web/undervisning · Brug til tener, ir, hay og tider.",
+        "url": "https://dle.rae.es/",
+        "label": "Real Academia Española · Diccionario",
+        "note": "Brug som autoritativ ordbog til spanske ord som queso, pan, leche og faste udtryk.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "RAE · Diccionario",
+      "title": "Instituto Cervantes · CVC",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://dle.rae.es/",
-        "label": "RAE · Diccionario",
-        "note": "web/opslag · Brug til opslag og betydning.",
+        "url": "https://cvc.cervantes.es/",
+        "label": "Instituto Cervantes · CVC",
+        "note": "Brug til sprog- og kulturstof, konjugationer, forfattere og spansksprogede områder.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "UNESCO World Heritage Centre",
+      "title": "UNESCO World Heritage Centre · Machu Picchu",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://whc.unesco.org/",
-        "label": "UNESCO World Heritage Centre",
-        "note": "web/kulturarv · Brug til Machu Picchu, Rapa Nui og Chichén Itzá.",
+        "url": "https://whc.unesco.org/en/list/274/",
+        "label": "UNESCO World Heritage Centre · Machu Picchu",
+        "note": "Brug til Machu Picchu i Peru og verdensarvskontekst.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-spansk_v2_showcase_2",
       "type": "link",
-      "title": "Britannica · Spanish literature",
+      "title": "UNESCO World Heritage Centre · Rapa Nui National Park",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.britannica.com/art/Spanish-literature",
-        "label": "Britannica · Spanish literature",
-        "note": "web/reference · Brug til værker og forfattere.",
+        "url": "https://whc.unesco.org/en/list/715/",
+        "label": "UNESCO World Heritage Centre · Rapa Nui National Park",
+        "note": "Brug til Rapa Nui/Påskeøen som del af Chile og til kulturarvskontekst.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-spansk_v2_showcase"
     ],
     "contentHash": "5fc98e6c38a058e4ae602fda9915311c429a42bbaf4739da6c5847f64a76c37d",
-    "packageHash": "a0990425966fd52e3eb8916c7e1017eb9a9b5c9991e28514a9e5bb640a3a2ae6"
+    "packageHash": "a0990425966fd52e3eb8916c7e1017eb9a9b5c9991e28514a9e5bb640a3a2ae6",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

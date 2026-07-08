@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-tysk_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-tysk_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-tysk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Tysk sprog og kultur",
@@ -62,7 +66,8 @@
           "Demo-hold",
           "Webressourcer",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Duden",
-            "url": "https://www.duden.de/",
-            "type": "web/ordbog",
+            "title": "Duden · Wörterbuch",
+            "url": "https://www.duden.de/woerterbuch",
+            "type": "tysk/ordbog",
             "category": "Ord og udtryk",
-            "note": "Brug til betydning, stavning og eksempler.",
+            "note": "Brug til tyske ord, stavning og betydninger som Käse, Brot, Milch, Montag og bis morgen.",
             "tags": [
-              "ord-og-udtryk",
-              "web-ordbog"
+              "Duden",
+              "ordbog",
+              "tysk"
             ]
           },
           {
             "title": "Deutsche Welle · Deutsch lernen",
-            "url": "https://learngerman.dw.com/",
-            "type": "web/undervisning",
+            "url": "https://learngerman.dw.com/de/deutsch-lernen/s-9095",
+            "type": "tysk/undervisning",
             "category": "Grammatik og udtale",
-            "note": "Brug til sprogarbejde og lytning.",
+            "note": "Brug til tysk grammatik, verber som haben/werden, perfektum og elevvenlige øvelser.",
             "tags": [
-              "grammatik-og-udtale",
-              "web-undervisning"
+              "DW",
+              "tysk",
+              "grammatik"
             ]
           },
           {
-            "title": "Goethe-Institut",
-            "url": "https://www.goethe.de/",
-            "type": "web/kultur",
+            "title": "Goethe-Institut · Deutsch lernen",
+            "url": "https://www.goethe.de/de/spr/ueb.html",
+            "type": "tysk/kulturinstitution",
+            "category": "Sprogøvelser",
+            "note": "Brug til tyske sprogøvelser, ordforråd og kulturindgange.",
+            "tags": [
+              "Goethe",
+              "øvelser",
+              "tysk"
+            ]
+          },
+          {
+            "title": "Forfatterweb · tysksprogede forfattere",
+            "url": "https://forfatterweb.dk/",
+            "type": "dansk/undervisning",
             "category": "Kunst og kultur",
-            "note": "Brug til tysk kultur og læringsressourcer.",
+            "note": "Brug til danske elevvenlige forfatteropslag om Elfriede Jelinek, Erich Kästner, Michael Ende m.fl.",
             "tags": [
-              "kunst-og-kultur",
-              "web-kultur"
+              "forfatterweb",
+              "tysk-litteratur",
+              "kultur"
             ]
           },
           {
-            "title": "Deutschland.de",
-            "url": "https://www.deutschland.de/",
-            "type": "web/reference",
+            "title": "Lex · Schweiz",
+            "url": "https://lex.dk/Schweiz",
+            "type": "dansk/leksikon",
             "category": "Den tysktalende verden",
-            "note": "Brug til lande, kultur og samfund.",
+            "note": "Brug til Schweiz som land med fire nationale sprog og til tysksproget geografi.",
             "tags": [
-              "den-tysktalende-verden",
-              "web-reference"
-            ]
-          },
-          {
-            "title": "Berlin.de · Brandenburger Tor",
-            "url": "https://www.berlin.de/sehenswuerdigkeiten/3560266-3558930-brandenburger-tor.html",
-            "type": "web/sted",
-            "category": "Den tysktalende verden",
-            "note": "Brug til stedskilde og kulturspor.",
-            "tags": [
-              "den-tysktalende-verden",
-              "web-sted"
+              "Schweiz",
+              "sprog",
+              "tysk"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Duden",
+      "title": "Duden · Wörterbuch",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.duden.de/",
-        "label": "Duden",
-        "note": "web/ordbog · Brug til betydning, stavning og eksempler.",
+        "url": "https://www.duden.de/woerterbuch",
+        "label": "Duden · Wörterbuch",
+        "note": "Brug til tyske ord, stavning og betydninger som Käse, Brot, Milch, Montag og bis morgen.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://learngerman.dw.com/",
+        "url": "https://learngerman.dw.com/de/deutsch-lernen/s-9095",
         "label": "Deutsche Welle · Deutsch lernen",
-        "note": "web/undervisning · Brug til sprogarbejde og lytning.",
+        "note": "Brug til tysk grammatik, verber som haben/werden, perfektum og elevvenlige øvelser.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Goethe-Institut",
+      "title": "Goethe-Institut · Deutsch lernen",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.goethe.de/",
-        "label": "Goethe-Institut",
-        "note": "web/kultur · Brug til tysk kultur og læringsressourcer.",
+        "url": "https://www.goethe.de/de/spr/ueb.html",
+        "label": "Goethe-Institut · Deutsch lernen",
+        "note": "Brug til tyske sprogøvelser, ordforråd og kulturindgange.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Deutschland.de",
+      "title": "Forfatterweb · tysksprogede forfattere",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.deutschland.de/",
-        "label": "Deutschland.de",
-        "note": "web/reference · Brug til lande, kultur og samfund.",
+        "url": "https://forfatterweb.dk/",
+        "label": "Forfatterweb · tysksprogede forfattere",
+        "note": "Brug til danske elevvenlige forfatteropslag om Elfriede Jelinek, Erich Kästner, Michael Ende m.fl.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-tysk_v2_showcase_2",
       "type": "link",
-      "title": "Berlin.de · Brandenburger Tor",
+      "title": "Lex · Schweiz",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.berlin.de/sehenswuerdigkeiten/3560266-3558930-brandenburger-tor.html",
-        "label": "Berlin.de · Brandenburger Tor",
-        "note": "web/sted · Brug til stedskilde og kulturspor.",
+        "url": "https://lex.dk/Schweiz",
+        "label": "Lex · Schweiz",
+        "note": "Brug til Schweiz som land med fire nationale sprog og til tysksproget geografi.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-tysk_v2_showcase"
     ],
     "contentHash": "61eee9dac4005b34c98884a4b84f3e07dfc576c2200dfc081856bb5082df6ba6",
-    "packageHash": "9db3dff0a36b6aa2db4aeff055c3c4946d6c32b852cee8fd0c9084dcf9b038f0"
+    "packageHash": "9db3dff0a36b6aa2db4aeff055c3c4946d6c32b852cee8fd0c9084dcf9b038f0",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-engelsk_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-engelsk_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-engelsk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
@@ -62,7 +66,8 @@
           "Demo-hold",
           "Webressourcer",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -515,60 +520,65 @@
           {
             "title": "Cambridge Dictionary",
             "url": "https://dictionary.cambridge.org/",
-            "type": "web/ordbog",
+            "type": "engelsk/ordbog",
             "category": "Ord og vendinger",
-            "note": "Brug til betydning, udtale og eksempler.",
+            "note": "Brug til præcise betydninger, eksempler og udtale for ord som lend, improve, avoid, relieved og embarrassed.",
             "tags": [
-              "ord-og-vendinger",
-              "web-ordbog"
+              "ordbog",
+              "vocabulary",
+              "Cambridge"
             ]
           },
           {
-            "title": "British Council LearnEnglish",
-            "url": "https://learnenglish.britishcouncil.org/",
-            "type": "web/undervisning",
+            "title": "British Council LearnEnglish · Grammar",
+            "url": "https://learnenglish.britishcouncil.org/grammar",
+            "type": "engelsk/undervisning",
             "category": "Grammatik og udtale",
-            "note": "Brug til grammatik og korte øvelser.",
+            "note": "Brug til present perfect, future continuous, modalverber og conditional-sætninger.",
             "tags": [
-              "grammatik-og-udtale",
-              "web-undervisning"
+              "grammar",
+              "British-Council",
+              "engelsk"
             ]
           },
           {
-            "title": "BBC Bitesize English",
-            "url": "https://www.bbc.co.uk/bitesize/subjects/z3kw2hv",
-            "type": "web/undervisning",
+            "title": "Forfatterweb · engelsk/irsk litteratur",
+            "url": "https://forfatterweb.dk/",
+            "type": "dansk/undervisning",
             "category": "Litteratur og kultur",
-            "note": "Brug elevvenlige forklaringer og kulturspor.",
+            "note": "Brug til danske forfatterportrætter og baggrundsstof, når eleverne undersøger Joyce, Conan Doyle, Milne, Bond og Rowling.",
             "tags": [
-              "litteratur-og-kultur",
-              "web-undervisning"
+              "forfatterweb",
+              "litteratur",
+              "engelsk"
             ]
           },
           {
-            "title": "Encyclopaedia Britannica",
-            "url": "https://www.britannica.com/",
-            "type": "web/reference",
-            "category": "Litteratur og kultur",
-            "note": "Brug til forfattere og figurer.",
-            "tags": [
-              "litteratur-og-kultur",
-              "web-reference"
-            ]
-          },
-          {
-            "title": "The Commonwealth",
-            "url": "https://thecommonwealth.org/",
-            "type": "web/officiel",
+            "title": "Lex · New Zealand",
+            "url": "https://lex.dk/New_Zealand",
+            "type": "dansk/leksikon",
             "category": "Den engelsktalende verden",
-            "note": "Brug som indgang til engelsksprogede lande og kultur.",
+            "note": "Brug til New Zealands sprogstatus med engelsk som de facto hovedsprog og maori/tegnsprog med officiel status.",
             "tags": [
-              "den-engelsktalende-verden",
-              "web-officiel"
+              "New-Zealand",
+              "sprog",
+              "engelsk"
+            ]
+          },
+          {
+            "title": "Lex · Singapore",
+            "url": "https://lex.dk/Singapore",
+            "type": "dansk/leksikon",
+            "category": "Den engelsktalende verden",
+            "note": "Brug til Singapores fire officielle sprog: malajisk, mandarin, tamil og engelsk.",
+            "tags": [
+              "Singapore",
+              "officielle-sprog",
+              "engelsk"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -602,7 +612,7 @@
       "content": {
         "url": "https://dictionary.cambridge.org/",
         "label": "Cambridge Dictionary",
-        "note": "web/ordbog · Brug til betydning, udtale og eksempler.",
+        "note": "Brug til præcise betydninger, eksempler og udtale for ord som lend, improve, avoid, relieved og embarrassed.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "British Council LearnEnglish",
+      "title": "British Council LearnEnglish · Grammar",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://learnenglish.britishcouncil.org/",
-        "label": "British Council LearnEnglish",
-        "note": "web/undervisning · Brug til grammatik og korte øvelser.",
+        "url": "https://learnenglish.britishcouncil.org/grammar",
+        "label": "British Council LearnEnglish · Grammar",
+        "note": "Brug til present perfect, future continuous, modalverber og conditional-sætninger.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "BBC Bitesize English",
+      "title": "Forfatterweb · engelsk/irsk litteratur",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.bbc.co.uk/bitesize/subjects/z3kw2hv",
-        "label": "BBC Bitesize English",
-        "note": "web/undervisning · Brug elevvenlige forklaringer og kulturspor.",
+        "url": "https://forfatterweb.dk/",
+        "label": "Forfatterweb · engelsk/irsk litteratur",
+        "note": "Brug til danske forfatterportrætter og baggrundsstof, når eleverne undersøger Joyce, Conan Doyle, Milne, Bond og Rowling.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "Encyclopaedia Britannica",
+      "title": "Lex · New Zealand",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.britannica.com/",
-        "label": "Encyclopaedia Britannica",
-        "note": "web/reference · Brug til forfattere og figurer.",
+        "url": "https://lex.dk/New_Zealand",
+        "label": "Lex · New Zealand",
+        "note": "Brug til New Zealands sprogstatus med engelsk som de facto hovedsprog og maori/tegnsprog med officiel status.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-engelsk_v2_showcase_2",
       "type": "link",
-      "title": "The Commonwealth",
+      "title": "Lex · Singapore",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://thecommonwealth.org/",
-        "label": "The Commonwealth",
-        "note": "web/officiel · Brug som indgang til engelsksprogede lande og kultur.",
+        "url": "https://lex.dk/Singapore",
+        "label": "Lex · Singapore",
+        "note": "Brug til Singapores fire officielle sprog: malajisk, mandarin, tamil og engelsk.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-engelsk_v2_showcase"
     ],
     "contentHash": "fafd1c772f209f8f5733b59a7fba8e68e1f546bf9c265e1bc7fb0dd5eb17d9d6",
-    "packageHash": "1ce9e7966e86700a69f026f999f82f86aa4252afd36d44d572663027547a556c"
+    "packageHash": "1ce9e7966e86700a69f026f999f82f86aa4252afd36d44d572663027547a556c",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

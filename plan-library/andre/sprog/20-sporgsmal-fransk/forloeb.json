@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-fransk_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-fransk_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-fransk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Fransk sprog og kultur",
@@ -63,7 +67,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "TV5MONDE · Langue française",
+            "title": "Lex · fransk sprog",
+            "url": "https://lex.dk/fransk_sprog",
+            "type": "dansk/leksikon",
+            "category": "Ord, udtale og sprogområder",
+            "note": "Brug som dansk overblik over fransk sprog og udbredelse, før eleverne bruger ordbøger og grammatikøvelser.",
+            "tags": [
+              "fransk",
+              "sprog",
+              "frankofoni"
+            ]
+          },
+          {
+            "title": "TV5MONDE · Apprendre le français",
             "url": "https://apprendre.tv5monde.com/",
-            "type": "web/undervisning",
+            "type": "fransk/undervisning",
             "category": "Ord og udtryk",
-            "note": "Brug til ordforråd, lytning og korte øvelser.",
+            "note": "Brug til elevvenlige franskøvelser med ordforråd, lytning og korte forklaringer.",
             "tags": [
-              "ord-og-udtryk",
-              "web-undervisning"
+              "fransk",
+              "ordforråd",
+              "øvelser"
             ]
           },
           {
-            "title": "Lawless French",
-            "url": "https://www.lawlessfrench.com/",
-            "type": "web/reference",
-            "category": "Grammatik og udtale",
-            "note": "Brug til konjugation, nægtelse og passé composé.",
-            "tags": [
-              "grammatik-og-udtale",
-              "web-reference"
-            ]
-          },
-          {
-            "title": "Académie française · Dictionnaire",
-            "url": "https://www.dictionnaire-academie.fr/",
-            "type": "web/opslag",
-            "category": "Ord og udtryk",
-            "note": "Brug som opslag til franske ord.",
-            "tags": [
-              "ord-og-udtryk",
-              "web-opslag"
-            ]
-          },
-          {
-            "title": "Encyclopaedia Britannica · French literature",
-            "url": "https://www.britannica.com/art/French-literature",
-            "type": "web/reference",
+            "title": "Forfatterweb · Annie Ernaux",
+            "url": "https://forfatterweb.dk/oversigt/ernaux-annie",
+            "type": "dansk/undervisning",
             "category": "Kunst og kultur",
-            "note": "Brug til forfattere og kulturspor.",
+            "note": "Brug til Annie Ernaux og værket Les Années, sammen med franske forfatter- og værkopslag.",
             "tags": [
-              "kunst-og-kultur",
-              "web-reference"
+              "Annie-Ernaux",
+              "Les-Années",
+              "litteratur"
             ]
           },
           {
-            "title": "Organisation internationale de la Francophonie",
-            "url": "https://www.francophonie.org/",
-            "type": "web/officiel",
+            "title": "Lex · sprog i Cameroun",
+            "url": "https://lex.dk/sprog_i_Cameroun",
+            "type": "dansk/leksikon",
             "category": "Den frankofone verden",
-            "note": "Brug til frankofon verden og sprogfællesskab.",
+            "note": "Brug til Cameroun som centralafrikansk land med fransk og engelsk som officielle sprog.",
             "tags": [
-              "den-frankofone-verden",
-              "web-officiel"
+              "Cameroun",
+              "fransk",
+              "engelsk"
+            ]
+          },
+          {
+            "title": "OIF · Haïti",
+            "url": "https://www.francophonie.org/haiti-967",
+            "type": "fransk/organisation",
+            "category": "Den frankofone verden",
+            "note": "Brug til Haiti, hvor fransk og kreolsk er officielle sprog, og til begrebet frankofoni.",
+            "tags": [
+              "Haiti",
+              "kreolsk",
+              "OIF"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "TV5MONDE · Langue française",
+      "title": "Lex · fransk sprog",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://apprendre.tv5monde.com/",
-        "label": "TV5MONDE · Langue française",
-        "note": "web/undervisning · Brug til ordforråd, lytning og korte øvelser.",
+        "url": "https://lex.dk/fransk_sprog",
+        "label": "Lex · fransk sprog",
+        "note": "Brug som dansk overblik over fransk sprog og udbredelse, før eleverne bruger ordbøger og grammatikøvelser.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "Lawless French",
+      "title": "TV5MONDE · Apprendre le français",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.lawlessfrench.com/",
-        "label": "Lawless French",
-        "note": "web/reference · Brug til konjugation, nægtelse og passé composé.",
+        "url": "https://apprendre.tv5monde.com/",
+        "label": "TV5MONDE · Apprendre le français",
+        "note": "Brug til elevvenlige franskøvelser med ordforråd, lytning og korte forklaringer.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "Académie française · Dictionnaire",
+      "title": "Forfatterweb · Annie Ernaux",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.dictionnaire-academie.fr/",
-        "label": "Académie française · Dictionnaire",
-        "note": "web/opslag · Brug som opslag til franske ord.",
+        "url": "https://forfatterweb.dk/oversigt/ernaux-annie",
+        "label": "Forfatterweb · Annie Ernaux",
+        "note": "Brug til Annie Ernaux og værket Les Années, sammen med franske forfatter- og værkopslag.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "Encyclopaedia Britannica · French literature",
+      "title": "Lex · sprog i Cameroun",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.britannica.com/art/French-literature",
-        "label": "Encyclopaedia Britannica · French literature",
-        "note": "web/reference · Brug til forfattere og kulturspor.",
+        "url": "https://lex.dk/sprog_i_Cameroun",
+        "label": "Lex · sprog i Cameroun",
+        "note": "Brug til Cameroun som centralafrikansk land med fransk og engelsk som officielle sprog.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-fransk_v2_showcase_2",
       "type": "link",
-      "title": "Organisation internationale de la Francophonie",
+      "title": "OIF · Haïti",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.francophonie.org/",
-        "label": "Organisation internationale de la Francophonie",
-        "note": "web/officiel · Brug til frankofon verden og sprogfællesskab.",
+        "url": "https://www.francophonie.org/haiti-967",
+        "label": "OIF · Haïti",
+        "note": "Brug til Haiti, hvor fransk og kreolsk er officielle sprog, og til begrebet frankofoni.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -1694,7 +1704,7 @@
             {
               "id": "kp_fransk-sprog-kultur_16",
               "category": "Den frankofone verden",
-              "question": "Hvilket land passer til beskrivelsen “fransk og engelsk er officielle sprog”?",
+              "question": "Hvilket centralafrikansk land passer til beskrivelsen “fransk og engelsk er officielle sprog”?",
               "points": 100,
               "options": [
                 "Cameroun",
@@ -2005,7 +2015,7 @@
         "layoutRole": "flashcard-training"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2395,7 +2405,7 @@
           {
             "id": "kp_fransk-sprog-kultur_16",
             "category": "Den frankofone verden",
-            "question": "Hvilket land passer til beskrivelsen “fransk og engelsk er officielle sprog”?",
+            "question": "Hvilket centralafrikansk land passer til beskrivelsen “fransk og engelsk er officielle sprog”?",
             "points": 100,
             "options": [
               "Cameroun",
@@ -2485,7 +2495,7 @@
         "layoutRole": "kapardy"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     }
   ],
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-fransk_v2_showcase"
     ],
     "contentHash": "61b8ba6b2c1362617604a676b0ae08f518d38efd52072593908d3b9bf8903b8c",
-    "packageHash": "1668fa822e5318e162e2d7d8951e2544056c302134df4447f97aac526156d8c4"
+    "packageHash": "1668fa822e5318e162e2d7d8951e2544056c302134df4447f97aac526156d8c4",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

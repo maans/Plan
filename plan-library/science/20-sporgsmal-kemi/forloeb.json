@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-kemi_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-kemi_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-kemi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Kemiens grundstoffer",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Webvisning",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "IUPAC · Periodic Table",
-            "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-            "type": "web/reference",
-            "category": "Symboler og navne",
-            "note": "Brug som officiel reference til grundstoffer.",
+            "title": "Ptable · periodisk system på dansk",
+            "url": "https://ptable.com/?lang=da",
+            "type": "dansk/interaktiv",
+            "category": "Symboler, navne og atomnumre",
+            "note": "Brug til danske grundstofnavne, symboler, atomnumre og grupper i det periodiske system.",
             "tags": [
-              "symboler-og-navne",
-              "web-reference"
+              "periodisk-system",
+              "grundstoffer",
+              "atomnumre"
             ]
           },
           {
-            "title": "Royal Society of Chemistry · Periodic Table",
-            "url": "https://periodic-table.rsc.org/",
-            "type": "web/interaktiv",
-            "category": "Atomnumre og system",
-            "note": "Brug interaktivt til atomnumre og grupper.",
+            "title": "IUPAC · Periodic Table of Elements",
+            "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+            "type": "officiel/international",
+            "category": "Officiel grundstofreference",
+            "note": "Brug som autoritativ kontrol af grundstoffer, atomnumre og standardiserede oplysninger.",
             "tags": [
-              "atomnumre-og-system",
-              "web-interaktiv"
+              "IUPAC",
+              "grundstoffer",
+              "periodisk-system"
             ]
           },
           {
             "title": "PubChem · Periodic Table",
             "url": "https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
-            "type": "web/reference",
-            "category": "Stoffer og anvendelser",
-            "note": "Brug til egenskaber og anvendelser.",
+            "type": "officiel/database",
+            "category": "Egenskaber og anvendelser",
+            "note": "Brug til egenskaber, anvendelser og hurtige opslag på de enkelte grundstoffer.",
             "tags": [
-              "stoffer-og-anvendelser",
-              "web-reference"
+              "PubChem",
+              "egenskaber",
+              "kemi"
             ]
           },
           {
-            "title": "Ptable",
-            "url": "https://ptable.com/",
-            "type": "web/interaktiv",
-            "category": "Grupper og egenskaber",
-            "note": "Brug til hurtig udforskning af systemet.",
+            "title": "Astra · Hvis man kan se et atom",
+            "url": "https://astra.dk/aktiviteter/hvis-man-kan-se-et-atom/",
+            "type": "dansk/undervisning",
+            "category": "Atomer og grundstoffer",
+            "note": "Brug til den grundlæggende forklaring på atom, molekyle og grundstof i et dansk undervisningssprog.",
             "tags": [
-              "grupper-og-egenskaber",
-              "web-interaktiv"
+              "atomer",
+              "grundstoffer",
+              "Astra"
             ]
           },
           {
-            "title": "Khan Academy · Chemistry",
-            "url": "https://www.khanacademy.org/science/chemistry",
-            "type": "video/web",
-            "category": "Kemi og stoffer",
-            "note": "Brug korte forklaringer før huskekort.",
+            "title": "Lex · grundstoffer",
+            "url": "https://lex.dk/.taxonomy/1757",
+            "type": "dansk/leksikon",
+            "category": "Danske grundstofopslag",
+            "note": "Brug til danske leksikonopslag om udvalgte grundstoffer som aluminium, fosfor, kobber, kviksølv, natrium og svovl.",
             "tags": [
-              "kemi-og-stoffer",
-              "video-web"
+              "lex",
+              "grundstoffer",
+              "dansk"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
-      "title": "IUPAC · Periodic Table",
+      "title": "Ptable · periodisk system på dansk",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
-        "label": "IUPAC · Periodic Table",
-        "note": "web/reference · Brug som officiel reference til grundstoffer.",
+        "url": "https://ptable.com/?lang=da",
+        "label": "Ptable · periodisk system på dansk",
+        "note": "Brug til danske grundstofnavne, symboler, atomnumre og grupper i det periodiske system.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
-      "title": "Royal Society of Chemistry · Periodic Table",
+      "title": "IUPAC · Periodic Table of Elements",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://periodic-table.rsc.org/",
-        "label": "Royal Society of Chemistry · Periodic Table",
-        "note": "web/interaktiv · Brug interaktivt til atomnumre og grupper.",
+        "url": "https://iupac.org/what-we-do/periodic-table-of-elements/",
+        "label": "IUPAC · Periodic Table of Elements",
+        "note": "Brug som autoritativ kontrol af grundstoffer, atomnumre og standardiserede oplysninger.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -672,7 +682,7 @@
       "content": {
         "url": "https://pubchem.ncbi.nlm.nih.gov/periodic-table/",
         "label": "PubChem · Periodic Table",
-        "note": "web/reference · Brug til egenskaber og anvendelser.",
+        "note": "Brug til egenskaber, anvendelser og hurtige opslag på de enkelte grundstoffer.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
-      "title": "Ptable",
+      "title": "Astra · Hvis man kan se et atom",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://ptable.com/",
-        "label": "Ptable",
-        "note": "web/interaktiv · Brug til hurtig udforskning af systemet.",
+        "url": "https://astra.dk/aktiviteter/hvis-man-kan-se-et-atom/",
+        "label": "Astra · Hvis man kan se et atom",
+        "note": "Brug til den grundlæggende forklaring på atom, molekyle og grundstof i et dansk undervisningssprog.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kemi_v2_showcase_2",
       "type": "link",
-      "title": "Khan Academy · Chemistry",
+      "title": "Lex · grundstoffer",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.khanacademy.org/science/chemistry",
-        "label": "Khan Academy · Chemistry",
-        "note": "video/web · Brug korte forklaringer før huskekort.",
+        "url": "https://lex.dk/.taxonomy/1757",
+        "label": "Lex · grundstoffer",
+        "note": "Brug til danske leksikonopslag om udvalgte grundstoffer som aluminium, fosfor, kobber, kviksølv, natrium og svovl.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-kemi_v2_showcase"
     ],
     "contentHash": "041def8c197b123066658e1d95cabfcbdb01624c6d2ebfe59afee514e3560080",
-    "packageHash": "7668b9df6bc374d117c179b3316322d78953e252961cb954023d90ebf52e7b18"
+    "packageHash": "7668b9df6bc374d117c179b3316322d78953e252961cb954023d90ebf52e7b18",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

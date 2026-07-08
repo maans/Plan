@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-musikgenrer_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-musikgenrer_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-musikgenrer_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Musikgenrer",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Timer",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "AllMusic",
-            "url": "https://www.allmusic.com/",
-            "type": "web/reference",
-            "category": "Genrer og kunstnere",
-            "note": "Brug kritisk til genreoverblik.",
+            "title": "Lex · musikgenrer",
+            "url": "https://lex.dk/musikgenre",
+            "type": "dansk/leksikon",
+            "category": "Genreoverblik",
+            "note": "Brug som dansk begrebsindgang til musikgenrer og stiltræk, før eleverne går til mere specialiserede kilder.",
             "tags": [
-              "genrer-og-kunstnere",
-              "web-reference"
+              "musikgenrer",
+              "genre",
+              "lex"
             ]
           },
           {
-            "title": "Britannica · Music",
-            "url": "https://www.britannica.com/art/music",
-            "type": "web/reference",
-            "category": "Rødder og hjemsteder",
-            "note": "Brug til genre- og musikhistorie.",
+            "title": "Rock & Roll Hall of Fame · Hip Hop",
+            "url": "https://rockhall.com/inductees/categories/hip-hop/",
+            "type": "international/musikinstitution",
+            "category": "Hip-hop og pionerer",
+            "note": "Brug til hiphop, DJ/MC-roller, Grandmaster Flash og genrens historiske rødder.",
             "tags": [
-              "roedder-og-hjemsteder",
-              "web-reference"
+              "hiphop",
+              "Grandmaster-Flash",
+              "Bronx"
             ]
           },
           {
-            "title": "Smithsonian Folkways",
+            "title": "Smithsonian Folkways · Reggae and ska",
             "url": "https://folkways.si.edu/",
-            "type": "lyd/arkiv",
-            "category": "Rødder og hjemsteder",
-            "note": "Brug lytning og kontekst.",
+            "type": "international/musikarkiv",
+            "category": "Reggae, ska og verdensmusik",
+            "note": "Brug til lytning og kontekst omkring reggae, ska, calypso og beslægtede traditioner.",
             "tags": [
-              "roedder-og-hjemsteder",
-              "lyd-arkiv"
+              "reggae",
+              "ska",
+              "calypso"
             ]
           },
           {
-            "title": "Rock & Roll Hall of Fame",
-            "url": "https://rockhall.com/",
-            "type": "web/museum",
-            "category": "Rock og populærmusik",
-            "note": "Brug til kunstnere og genrer.",
+            "title": "Museum of Youth Culture · House music",
+            "url": "https://museumofyouthculture.com/house-music/",
+            "type": "international/kulturhistorie",
+            "category": "Elektronisk musik",
+            "note": "Brug til housemusikkens udspring i Chicago og klubmiljøer i 1980’erne.",
             "tags": [
-              "rock-og-populaermusik",
-              "web-museum"
+              "house",
+              "Chicago",
+              "elektronisk-musik"
             ]
           },
           {
-            "title": "YouTube Music / officielle klip",
-            "url": "https://www.youtube.com/",
-            "type": "video/lyd",
-            "category": "Lytning",
-            "note": "Brug korte lydklip til genreidentifikation.",
+            "title": "Britannica · heavy metal",
+            "url": "https://www.britannica.com/art/heavy-metal-music",
+            "type": "international/leksikon",
+            "category": "Rock og metal",
+            "note": "Brug som faglig kontrol af heavy metal, Black Sabbath og rockens undergenrer.",
             "tags": [
-              "lytning",
-              "video-lyd"
+              "heavy-metal",
+              "Black-Sabbath",
+              "rock"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "AllMusic",
+      "title": "Lex · musikgenrer",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.allmusic.com/",
-        "label": "AllMusic",
-        "note": "web/reference · Brug kritisk til genreoverblik.",
+        "url": "https://lex.dk/musikgenre",
+        "label": "Lex · musikgenrer",
+        "note": "Brug som dansk begrebsindgang til musikgenrer og stiltræk, før eleverne går til mere specialiserede kilder.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Britannica · Music",
+      "title": "Rock & Roll Hall of Fame · Hip Hop",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.britannica.com/art/music",
-        "label": "Britannica · Music",
-        "note": "web/reference · Brug til genre- og musikhistorie.",
+        "url": "https://rockhall.com/inductees/categories/hip-hop/",
+        "label": "Rock & Roll Hall of Fame · Hip Hop",
+        "note": "Brug til hiphop, DJ/MC-roller, Grandmaster Flash og genrens historiske rødder.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Smithsonian Folkways",
+      "title": "Smithsonian Folkways · Reggae and ska",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,8 +681,8 @@
       },
       "content": {
         "url": "https://folkways.si.edu/",
-        "label": "Smithsonian Folkways",
-        "note": "lyd/arkiv · Brug lytning og kontekst.",
+        "label": "Smithsonian Folkways · Reggae and ska",
+        "note": "Brug til lytning og kontekst omkring reggae, ska, calypso og beslægtede traditioner.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "Rock & Roll Hall of Fame",
+      "title": "Museum of Youth Culture · House music",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://rockhall.com/",
-        "label": "Rock & Roll Hall of Fame",
-        "note": "web/museum · Brug til kunstnere og genrer.",
+        "url": "https://museumofyouthculture.com/house-music/",
+        "label": "Museum of Youth Culture · House music",
+        "note": "Brug til housemusikkens udspring i Chicago og klubmiljøer i 1980’erne.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musikgenrer_v2_showcase_2",
       "type": "link",
-      "title": "YouTube Music / officielle klip",
+      "title": "Britannica · heavy metal",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.youtube.com/",
-        "label": "YouTube Music / officielle klip",
-        "note": "video/lyd · Brug korte lydklip til genreidentifikation.",
+        "url": "https://www.britannica.com/art/heavy-metal-music",
+        "label": "Britannica · heavy metal",
+        "note": "Brug som faglig kontrol af heavy metal, Black Sabbath og rockens undergenrer.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-musikgenrer_v2_showcase"
     ],
     "contentHash": "2ff82eede8aa4f59572c54d0e6217cdd0724996a84e8b712db63e1dc28677e52",
-    "packageHash": "4f1693794965c87da0206bf85c9e88455b68f2214bc2e3f6ba193755d8ef1d3e"
+    "packageHash": "4f1693794965c87da0206bf85c9e88455b68f2214bc2e3f6ba193755d8ef1d3e",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

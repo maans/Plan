@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase"
     ],
     "exportedAt": "2026-07-06T18:30:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-beromte-opfindelser_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Berømte opfindelser",
@@ -62,7 +66,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,61 +519,66 @@
         "resources": [
           {
             "title": "Science Museum Group · Objects and stories",
-            "url": "https://www.sciencemuseum.org.uk/objects-and-stories",
-            "type": "web/arkiv",
-            "category": "Kommunikation og medier",
-            "note": "Brug historiske genstande som konkrete kilder.",
+            "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
+            "type": "international/museum",
+            "category": "Opfindelser og teknologi",
+            "note": "Brug til elevvenlige museumsopslag om teknologihistorie, fotografi, transport og hverdagens opfindelser.",
             "tags": [
-              "kommunikation-og-medier",
-              "web-arkiv"
+              "opfindelser",
+              "museum",
+              "teknologi"
             ]
           },
           {
-            "title": "Computer History Museum",
-            "url": "https://computerhistory.org/",
-            "type": "web/arkiv",
+            "title": "Computer History Museum · Timeline of Computer History",
+            "url": "https://www.computerhistory.org/timeline/",
+            "type": "international/museum",
             "category": "Elektronik og computere",
-            "note": "Brug til transistor, mikroprocessor og computerhistorie.",
+            "note": "Brug til Intel 4004, UNIVAC I, integrerede kredsløb, transistorer og computerhistorisk kontekst.",
             "tags": [
-              "elektronik-og-computere",
-              "web-arkiv"
+              "computerhistorie",
+              "UNIVAC",
+              "Intel-4004"
             ]
           },
           {
-            "title": "Britannica · History of photography",
-            "url": "https://www.britannica.com/technology/photography",
-            "type": "web/reference",
-            "category": "Kommunikation og medier",
-            "note": "Brug til foto- og kamerahistorie.",
+            "title": "Nobel Prize · Willem Einthoven",
+            "url": "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/",
+            "type": "officiel/Nobel",
+            "category": "Medicin og måling",
+            "note": "Brug til elektrokardiografen, EKG og Einthovens arbejde med hjertets elektriske aktivitet.",
             "tags": [
-              "kommunikation-og-medier",
-              "web-reference"
+              "Einthoven",
+              "EKG",
+              "Nobel"
             ]
           },
           {
-            "title": "Otis · Company history",
-            "url": "https://www.otis.com/",
-            "type": "web/virksomhedskilde",
-            "category": "Transport og maskiner",
-            "note": "Brug kritisk som virksomhedsfortælling om elevatorens sikkerhed.",
+            "title": "Kodak · George Eastman",
+            "url": "https://www.kodak.com/en/company/page/george-eastman-history/",
+            "type": "virksomhedshistorie",
+            "category": "Fotografi og medier",
+            "note": "Brug kritisk til Kodak, George Eastman og rullefilm som masseprodukt.",
             "tags": [
-              "transport-og-maskiner",
-              "web-virksomhedskilde"
+              "Kodak",
+              "Eastman",
+              "rullefilm"
             ]
           },
           {
-            "title": "Nobel Prize · Medicine resources",
-            "url": "https://www.nobelprize.org/prizes/medicine/",
-            "type": "web/reference",
-            "category": "Medicin og hverdag",
-            "note": "Brug som indgang til medicinsk opfindelses- og forskningshistorie.",
+            "title": "IBM · RAMAC history",
+            "url": "https://www.ibm.com/history/ramac",
+            "type": "virksomhedshistorie",
+            "category": "Lagring og harddisk",
+            "note": "Brug kritisk til IBM 305 RAMAC og den første kommercielle harddisk.",
             "tags": [
-              "medicin-og-hverdag",
-              "web-reference"
+              "IBM",
+              "RAMAC",
+              "harddisk"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.sciencemuseum.org.uk/objects-and-stories",
+        "url": "https://www.sciencemuseumgroup.org.uk/objects-and-stories",
         "label": "Science Museum Group · Objects and stories",
-        "note": "web/arkiv · Brug historiske genstande som konkrete kilder.",
+        "note": "Brug til elevvenlige museumsopslag om teknologihistorie, fotografi, transport og hverdagens opfindelser.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Computer History Museum",
+      "title": "Computer History Museum · Timeline of Computer History",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://computerhistory.org/",
-        "label": "Computer History Museum",
-        "note": "web/arkiv · Brug til transistor, mikroprocessor og computerhistorie.",
+        "url": "https://www.computerhistory.org/timeline/",
+        "label": "Computer History Museum · Timeline of Computer History",
+        "note": "Brug til Intel 4004, UNIVAC I, integrerede kredsløb, transistorer og computerhistorisk kontekst.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Britannica · History of photography",
+      "title": "Nobel Prize · Willem Einthoven",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.britannica.com/technology/photography",
-        "label": "Britannica · History of photography",
-        "note": "web/reference · Brug til foto- og kamerahistorie.",
+        "url": "https://www.nobelprize.org/prizes/medicine/1924/einthoven/facts/",
+        "label": "Nobel Prize · Willem Einthoven",
+        "note": "Brug til elektrokardiografen, EKG og Einthovens arbejde med hjertets elektriske aktivitet.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Otis · Company history",
+      "title": "Kodak · George Eastman",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.otis.com/",
-        "label": "Otis · Company history",
-        "note": "web/virksomhedskilde · Brug kritisk som virksomhedsfortælling om elevatorens sikkerhed.",
+        "url": "https://www.kodak.com/en/company/page/george-eastman-history/",
+        "label": "Kodak · George Eastman",
+        "note": "Brug kritisk til Kodak, George Eastman og rullefilm som masseprodukt.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-beromte-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Nobel Prize · Medicine resources",
+      "title": "IBM · RAMAC history",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.nobelprize.org/prizes/medicine/",
-        "label": "Nobel Prize · Medicine resources",
-        "note": "web/reference · Brug som indgang til medicinsk opfindelses- og forskningshistorie.",
+        "url": "https://www.ibm.com/history/ramac",
+        "label": "IBM · RAMAC history",
+        "note": "Brug kritisk til IBM 305 RAMAC og den første kommercielle harddisk.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-beromte-opfindelser_v2_showcase"
     ],
     "contentHash": "f25944bc84a2cbf0a2ea03d26f7c7579931d4b6d31e41eaa385b3e116bfb58b9",
-    "packageHash": "08896935ab55b750e20e8017b82a15cc373d96e602c45d9eed98361972be7177"
+    "packageHash": "08896935ab55b750e20e8017b82a15cc373d96e602c45d9eed98361972be7177",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

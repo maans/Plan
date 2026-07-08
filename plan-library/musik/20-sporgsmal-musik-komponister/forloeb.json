@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-musik-komponister_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-musik-komponister_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-musik-komponister_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Musikkens komponister",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
+            "title": "Lex · musikhistorie",
+            "url": "https://lex.dk/musikhistorie",
+            "type": "dansk/leksikon",
+            "category": "Perioder og komponister",
+            "note": "Brug til perioder som barok, klassik, romantik og 1900-tallet i en dansk faglig ramme.",
+            "tags": [
+              "musikhistorie",
+              "perioder",
+              "komponister"
+            ]
+          },
+          {
+            "title": "DR Musik · klassisk musik",
+            "url": "https://www.dr.dk/lyd/p2",
+            "type": "dansk/lytteindgang",
+            "category": "Lytning",
+            "note": "Brug til lærerens udvalgte lytteeksempler og samtaler om klassiske værker.",
+            "tags": [
+              "DR",
+              "klassisk",
+              "lytning"
+            ]
+          },
+          {
             "title": "IMSLP · Petrucci Music Library",
             "url": "https://imslp.org/",
-            "type": "node/web",
-            "category": "Renæssance og barok",
-            "note": "Brug til noder og værkidentifikation.",
+            "type": "international/nodearkiv",
+            "category": "Værker og noder",
+            "note": "Brug til værkidentifikation, partiturer og komponistopslag for klassiske værker.",
             "tags": [
-              "renaessance-og-barok",
-              "node-web"
+              "IMSLP",
+              "værker",
+              "noder"
             ]
           },
           {
             "title": "Naxos · Composers",
             "url": "https://www.naxos.com/persons/composers",
-            "type": "web/reference",
-            "category": "Alle kategorier",
-            "note": "Brug til korte komponistprofiler.",
+            "type": "international/musikleksikon",
+            "category": "Komponistprofiler",
+            "note": "Brug til korte profiler over Pachelbel, Händel, Vivaldi, Beethoven, Mozart, Bizet, Verdi og andre.",
             "tags": [
-              "alle-kategorier",
-              "web-reference"
+              "Naxos",
+              "komponister",
+              "profiler"
             ]
           },
           {
             "title": "BBC Music Magazine · Composer guides",
             "url": "https://www.classical-music.com/composers",
-            "type": "web/formidling",
-            "category": "Alle kategorier",
-            "note": "Brug til periode- og værkoverblik.",
+            "type": "international/fagformidling",
+            "category": "Supplerende forklaring",
+            "note": "Brug som sekundær kilde til værker og komponister, når dansk kilde ikke er præcis nok.",
             "tags": [
-              "alle-kategorier",
-              "web-formidling"
-            ]
-          },
-          {
-            "title": "The Kennedy Center · ArtsEdge",
-            "url": "https://www.kennedy-center.org/education/resources-for-educators/",
-            "type": "web/undervisning",
-            "category": "1900-tallet og Norden",
-            "note": "Brug til lytteopgaver og formidling.",
-            "tags": [
-              "1900-tallet-og-norden",
-              "web-undervisning"
-            ]
-          },
-          {
-            "title": "YouTube · søg efter værktitler",
-            "url": "https://www.youtube.com/",
-            "type": "video/lyd",
-            "category": "Alle kategorier",
-            "note": "Brug lærerens valgte optagelser til lytning og genkendelse.",
-            "tags": [
-              "alle-kategorier",
-              "video-lyd"
+              "BBC",
+              "klassisk",
+              "værker"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musik-komponister_v2_showcase_2",
       "type": "link",
-      "title": "IMSLP · Petrucci Music Library",
+      "title": "Lex · musikhistorie",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://imslp.org/",
-        "label": "IMSLP · Petrucci Music Library",
-        "note": "node/web · Brug til noder og værkidentifikation.",
+        "url": "https://lex.dk/musikhistorie",
+        "label": "Lex · musikhistorie",
+        "note": "Brug til perioder som barok, klassik, romantik og 1900-tallet i en dansk faglig ramme.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musik-komponister_v2_showcase_2",
       "type": "link",
-      "title": "Naxos · Composers",
+      "title": "DR Musik · klassisk musik",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.naxos.com/persons/composers",
-        "label": "Naxos · Composers",
-        "note": "web/reference · Brug til korte komponistprofiler.",
+        "url": "https://www.dr.dk/lyd/p2",
+        "label": "DR Musik · klassisk musik",
+        "note": "Brug til lærerens udvalgte lytteeksempler og samtaler om klassiske værker.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musik-komponister_v2_showcase_2",
       "type": "link",
-      "title": "BBC Music Magazine · Composer guides",
+      "title": "IMSLP · Petrucci Music Library",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.classical-music.com/composers",
-        "label": "BBC Music Magazine · Composer guides",
-        "note": "web/formidling · Brug til periode- og værkoverblik.",
+        "url": "https://imslp.org/",
+        "label": "IMSLP · Petrucci Music Library",
+        "note": "Brug til værkidentifikation, partiturer og komponistopslag for klassiske værker.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musik-komponister_v2_showcase_2",
       "type": "link",
-      "title": "The Kennedy Center · ArtsEdge",
+      "title": "Naxos · Composers",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.kennedy-center.org/education/resources-for-educators/",
-        "label": "The Kennedy Center · ArtsEdge",
-        "note": "web/undervisning · Brug til lytteopgaver og formidling.",
+        "url": "https://www.naxos.com/persons/composers",
+        "label": "Naxos · Composers",
+        "note": "Brug til korte profiler over Pachelbel, Händel, Vivaldi, Beethoven, Mozart, Bizet, Verdi og andre.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-musik-komponister_v2_showcase_2",
       "type": "link",
-      "title": "YouTube · søg efter værktitler",
+      "title": "BBC Music Magazine · Composer guides",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.youtube.com/",
-        "label": "YouTube · søg efter værktitler",
-        "note": "video/lyd · Brug lærerens valgte optagelser til lytning og genkendelse.",
+        "url": "https://www.classical-music.com/composers",
+        "label": "BBC Music Magazine · Composer guides",
+        "note": "Brug som sekundær kilde til værker og komponister, når dansk kilde ikke er præcis nok.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-musik-komponister_v2_showcase"
     ],
     "contentHash": "4d2c0a03662a6c1cac9bc7fd119a5450fb76d0c9fc1601b2d0ef9ffb380f9caa",
-    "packageHash": "d279750e0406a5e9eb1a4dd9a46326fc264a2bf43f6e1cd21b9a068265cd13f9"
+    "packageHash": "d279750e0406a5e9eb1a4dd9a46326fc264a2bf43f6e1cd21b9a068265cd13f9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

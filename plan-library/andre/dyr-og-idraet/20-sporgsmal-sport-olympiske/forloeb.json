@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-sport-olympiske_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-sport-olympiske_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Sport og olympiske lege",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -515,61 +520,66 @@
         "resources": [
           {
             "title": "Olympics.com · Olympic Games",
-            "url": "https://olympics.com/en/olympic-games",
-            "type": "web/officiel",
+            "url": "https://www.olympics.com/en/olympic-games",
+            "type": "officiel/international",
             "category": "Værtsbyer og år",
-            "note": "Brug til værtsbyer og årstal.",
+            "note": "Brug til at kontrollere værtsbyer og årstal for sommer-OL som Seoul 1988, Atlanta 1996 og München 1972.",
             "tags": [
-              "vaertsbyer-og-aar",
-              "web-officiel"
+              "olympiske-lege",
+              "værtsbyer",
+              "årstal"
             ]
           },
           {
-            "title": "IOC · Olympic values",
-            "url": "https://olympics.com/ioc/olympic-values",
-            "type": "web/officiel",
-            "category": "Symboler og organisation",
-            "note": "Brug til excellence, respect og friendship.",
-            "tags": [
-              "symboler-og-organisation",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "Olympics.com · Athletes",
-            "url": "https://olympics.com/en/athletes/",
-            "type": "web/officiel",
+            "title": "Olympics.com · Emil Zátopek",
+            "url": "https://www.olympics.com/en/athletes/emil-zatopek",
+            "type": "officiel/international",
             "category": "Atleter og præstationer",
-            "note": "Brug til atleter og præstationer.",
+            "note": "Brug til Zátopeks tre guldmedaljer i 5000 m, 10.000 m og maraton i Helsinki 1952.",
             "tags": [
-              "atleter-og-praestationer",
-              "web-officiel"
+              "Zatopek",
+              "Helsinki-1952",
+              "atletik"
             ]
           },
           {
-            "title": "World Rugby · Sevens",
-            "url": "https://www.world.rugby/sevens",
-            "type": "web/officiel",
-            "category": "Sportsgrene og discipliner",
-            "note": "Brug til rugby sevens.",
+            "title": "Olympics.com · Abebe Bikila",
+            "url": "https://www.olympics.com/en/athletes/abebe-bikila",
+            "type": "officiel/international",
+            "category": "Atleter og præstationer",
+            "note": "Brug til Abebe Bikilas barfodede maratonsejr i Rom 1960.",
             "tags": [
-              "sportsgrene-og-discipliner",
-              "web-officiel"
+              "Bikila",
+              "maraton",
+              "Rom-1960"
             ]
           },
           {
-            "title": "FEI/IF/IOC sports pages",
-            "url": "https://olympics.com/en/sports/",
-            "type": "web/officiel",
-            "category": "Sportsgrene og discipliner",
-            "note": "Brug til sportsgrene og internationale forbund.",
+            "title": "Dansk Håndbold · Håndboldregler",
+            "url": "https://danskhaandbold.dk/spil-haandbold/haandboldregler",
+            "type": "dansk/fagorganisation",
+            "category": "Sportsgrene og regler",
+            "note": "Brug til antallet af spillere på et håndboldhold og grundreglerne i håndbold.",
             "tags": [
-              "sportsgrene-og-discipliner",
-              "web-officiel"
+              "håndbold",
+              "regler",
+              "spillere"
+            ]
+          },
+          {
+            "title": "Volleyball Danmark · Regler og spillet",
+            "url": "https://volleyball.dk/volleyball/spillet-og-regler/",
+            "type": "dansk/fagorganisation",
+            "category": "Sportsgrene og regler",
+            "note": "Brug til volleyballholdets seks spillere på banen og spillets grundstruktur.",
+            "tags": [
+              "volleyball",
+              "regler",
+              "spillere"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://olympics.com/en/olympic-games",
+        "url": "https://www.olympics.com/en/olympic-games",
         "label": "Olympics.com · Olympic Games",
-        "note": "web/officiel · Brug til værtsbyer og årstal.",
+        "note": "Brug til at kontrollere værtsbyer og årstal for sommer-OL som Seoul 1988, Atlanta 1996 og München 1972.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "IOC · Olympic values",
+      "title": "Olympics.com · Emil Zátopek",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://olympics.com/ioc/olympic-values",
-        "label": "IOC · Olympic values",
-        "note": "web/officiel · Brug til excellence, respect og friendship.",
+        "url": "https://www.olympics.com/en/athletes/emil-zatopek",
+        "label": "Olympics.com · Emil Zátopek",
+        "note": "Brug til Zátopeks tre guldmedaljer i 5000 m, 10.000 m og maraton i Helsinki 1952.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "Olympics.com · Athletes",
+      "title": "Olympics.com · Abebe Bikila",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://olympics.com/en/athletes/",
-        "label": "Olympics.com · Athletes",
-        "note": "web/officiel · Brug til atleter og præstationer.",
+        "url": "https://www.olympics.com/en/athletes/abebe-bikila",
+        "label": "Olympics.com · Abebe Bikila",
+        "note": "Brug til Abebe Bikilas barfodede maratonsejr i Rom 1960.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "World Rugby · Sevens",
+      "title": "Dansk Håndbold · Håndboldregler",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.world.rugby/sevens",
-        "label": "World Rugby · Sevens",
-        "note": "web/officiel · Brug til rugby sevens.",
+        "url": "https://danskhaandbold.dk/spil-haandbold/haandboldregler",
+        "label": "Dansk Håndbold · Håndboldregler",
+        "note": "Brug til antallet af spillere på et håndboldhold og grundreglerne i håndbold.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-sport-olympiske_v2_showcase_2",
       "type": "link",
-      "title": "FEI/IF/IOC sports pages",
+      "title": "Volleyball Danmark · Regler og spillet",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://olympics.com/en/sports/",
-        "label": "FEI/IF/IOC sports pages",
-        "note": "web/officiel · Brug til sportsgrene og internationale forbund.",
+        "url": "https://volleyball.dk/volleyball/spillet-og-regler/",
+        "label": "Volleyball Danmark · Regler og spillet",
+        "note": "Brug til volleyballholdets seks spillere på banen og spillets grundstruktur.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-sport-olympiske_v2_showcase"
     ],
     "contentHash": "39b4de009d33209d90c9c7f7a53934792f79ca690be2b6e976be07d872ee67ba",
-    "packageHash": "e1a146bd5316502b506a2289070a835cd479bd4413502628d6185b5ceb674cec"
+    "packageHash": "e1a146bd5316502b506a2289070a835cd479bd4413502628d6185b5ceb674cec",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

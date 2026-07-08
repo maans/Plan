@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-heste_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-heste_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-heste_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Heste",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "The Horse · Health Library",
-            "url": "https://thehorse.com/",
-            "type": "web/fagformidling",
-            "category": "Pasning og sundhed",
-            "note": "Brug med kildekritik til sundhedsbegreber.",
+            "title": "Lex · heste / tamheste",
+            "url": "https://lex.dk/heste_-_tamheste",
+            "type": "dansk/leksikon",
+            "category": "Krop, racer og hestehold",
+            "note": "Brug til hestens biologi, historiske brug, hesteracer og danske fagord som man, manke og hesteracer.",
             "tags": [
-              "pasning-og-sundhed",
-              "web-fagformidling"
+              "heste",
+              "racer",
+              "anatomi"
             ]
           },
           {
-            "title": "FEI · Disciplines",
-            "url": "https://inside.fei.org/fei/disc",
-            "type": "web/officiel",
+            "title": "Dansk Ride Forbund · Om vaccination",
+            "url": "https://rideforbund.dk/ryttere-heste/vaccination-medicinering/om-vaccination",
+            "type": "dansk/fagorganisation",
+            "category": "Sundhed og stævnekrav",
+            "note": "Brug til formålet med vaccination og hvorfor korrekt vaccination er en del af ansvarligt hestehold.",
+            "tags": [
+              "vaccination",
+              "sundhed",
+              "heste"
+            ]
+          },
+          {
+            "title": "Evidensia · Forfangenhed hos heste",
+            "url": "https://evidensia.dk/dindyredoktor/forfangenhed-heste-symptomer-aarsager/",
+            "type": "dansk/dyrlægefaglig",
+            "category": "Kolik, halthed og forfangenhed",
+            "note": "Brug til forfangenhed/laminitis, lamellerne i hoven og symptomer, som eleverne kan koble til facitterne.",
+            "tags": [
+              "forfangenhed",
+              "laminitis",
+              "hov"
+            ]
+          },
+          {
+            "title": "Lex · lipizzaner",
+            "url": "https://lex.dk/lipizzaner",
+            "type": "dansk/leksikon",
+            "category": "Racer og traditioner",
+            "note": "Brug til lipizzaneren, Den Spanske Rideskole i Wien og racens historiske baggrund.",
+            "tags": [
+              "lipizzaner",
+              "rideskole",
+              "wien"
+            ]
+          },
+          {
+            "title": "Dansk Ride Forbund · Voltigering",
+            "url": "https://rideforbund.dk/ridesport/discipliner/voltigering",
+            "type": "dansk/fagorganisation",
             "category": "Ridning og hestesport",
-            "note": "Brug til sportsgrene og discipliner.",
+            "note": "Brug til voltigering og som indgang til hestesportens discipliner, sammen med lærerens gennemgang af køresport, paradressur, piaffe og passage.",
             "tags": [
-              "ridning-og-hestesport",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "Spanish Riding School",
-            "url": "https://www.srs.at/en/",
-            "type": "web/officiel",
-            "category": "Racer og anvendelse",
-            "note": "Brug til lipizzanere og traditioner.",
-            "tags": [
-              "racer-og-anvendelse",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "World Horse Welfare",
-            "url": "https://www.worldhorsewelfare.org/",
-            "type": "web/organisation",
-            "category": "Pasning og sundhed",
-            "note": "Brug til dyrevelfærd og ansvarligt hestehold.",
-            "tags": [
-              "pasning-og-sundhed",
-              "web-organisation"
-            ]
-          },
-          {
-            "title": "Britannica · Horse",
-            "url": "https://www.britannica.com/animal/horse",
-            "type": "web/reference",
-            "category": "Krop og bevægelse",
-            "note": "Brug til anatomi og overblik.",
-            "tags": [
-              "krop-og-bevaegelse",
-              "web-reference"
+              "voltigering",
+              "ridesport",
+              "discipliner"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-heste_v2_showcase_2",
       "type": "link",
-      "title": "The Horse · Health Library",
+      "title": "Lex · heste / tamheste",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://thehorse.com/",
-        "label": "The Horse · Health Library",
-        "note": "web/fagformidling · Brug med kildekritik til sundhedsbegreber.",
+        "url": "https://lex.dk/heste_-_tamheste",
+        "label": "Lex · heste / tamheste",
+        "note": "Brug til hestens biologi, historiske brug, hesteracer og danske fagord som man, manke og hesteracer.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-heste_v2_showcase_2",
       "type": "link",
-      "title": "FEI · Disciplines",
+      "title": "Dansk Ride Forbund · Om vaccination",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://inside.fei.org/fei/disc",
-        "label": "FEI · Disciplines",
-        "note": "web/officiel · Brug til sportsgrene og discipliner.",
+        "url": "https://rideforbund.dk/ryttere-heste/vaccination-medicinering/om-vaccination",
+        "label": "Dansk Ride Forbund · Om vaccination",
+        "note": "Brug til formålet med vaccination og hvorfor korrekt vaccination er en del af ansvarligt hestehold.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-heste_v2_showcase_2",
       "type": "link",
-      "title": "Spanish Riding School",
+      "title": "Evidensia · Forfangenhed hos heste",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.srs.at/en/",
-        "label": "Spanish Riding School",
-        "note": "web/officiel · Brug til lipizzanere og traditioner.",
+        "url": "https://evidensia.dk/dindyredoktor/forfangenhed-heste-symptomer-aarsager/",
+        "label": "Evidensia · Forfangenhed hos heste",
+        "note": "Brug til forfangenhed/laminitis, lamellerne i hoven og symptomer, som eleverne kan koble til facitterne.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-heste_v2_showcase_2",
       "type": "link",
-      "title": "World Horse Welfare",
+      "title": "Lex · lipizzaner",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.worldhorsewelfare.org/",
-        "label": "World Horse Welfare",
-        "note": "web/organisation · Brug til dyrevelfærd og ansvarligt hestehold.",
+        "url": "https://lex.dk/lipizzaner",
+        "label": "Lex · lipizzaner",
+        "note": "Brug til lipizzaneren, Den Spanske Rideskole i Wien og racens historiske baggrund.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-heste_v2_showcase_2",
       "type": "link",
-      "title": "Britannica · Horse",
+      "title": "Dansk Ride Forbund · Voltigering",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.britannica.com/animal/horse",
-        "label": "Britannica · Horse",
-        "note": "web/reference · Brug til anatomi og overblik.",
+        "url": "https://rideforbund.dk/ridesport/discipliner/voltigering",
+        "label": "Dansk Ride Forbund · Voltigering",
+        "note": "Brug til voltigering og som indgang til hestesportens discipliner, sammen med lærerens gennemgang af køresport, paradressur, piaffe og passage.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-heste_v2_showcase"
     ],
     "contentHash": "b67e2d45569913bebb97aa6a32e4abb3fbc1d03ec1a0c8c83b845e304d0b78d6",
-    "packageHash": "62fbf787665ce3c6e016562cc18bb0d0631ec57220ee142ecb88ec9634b7916a"
+    "packageHash": "62fbf787665ce3c6e016562cc18bb0d0631ec57220ee142ecb88ec9634b7916a",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-kaninunger_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-kaninunger_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-kaninunger_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Kaninunger",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Merck Veterinary Manual · Rabbits",
-            "url": "https://www.merckvetmanual.com/",
-            "type": "web/veterinær",
+            "title": "Netdyredoktor · Kaninleksikon: fødsel",
+            "url": "https://www.netdyredoktor.dk/smaadyr/kaninleksikon/def/foedsel/",
+            "type": "dansk/dyrlægefaglig",
             "category": "Fødsel og udvikling",
-            "note": "Brug til drægtighed, sygdom og sundhed.",
+            "note": "Brug til drægtighed, fødsel, redebygning, falsk drægtighed og moderpleje hos kaniner.",
             "tags": [
-              "foedsel-og-udvikling",
-              "web-veterinaer"
+              "kaninunger",
+              "fødsel",
+              "drægtighed"
             ]
           },
           {
-            "title": "Rabbit Welfare Association & Fund",
-            "url": "https://rabbitwelfare.co.uk/",
-            "type": "web/dyrevelfærd",
-            "category": "Adfærd og ansvarligt kaninhold",
-            "note": "Brug til ansvarligt kaninhold.",
+            "title": "Dyrenes Beskyttelse · Pasningsvejledning til kanin",
+            "url": "https://www.dyrenesbeskyttelse.dk/familiedyr/pasningsvejledninger/kanin/kanin",
+            "type": "dansk/dyrevelfærd",
+            "category": "Ansvarligt kaninhold",
+            "note": "Brug til skjulesteder, plads, aktivering, bure og de grundlæggende behov hos kaniner som byttedyr.",
             "tags": [
-              "adfaerd-og-ansvarligt-kaninhold",
-              "web-dyrevelfaerd"
+              "kaniner",
+              "pasning",
+              "trivsel"
             ]
           },
           {
-            "title": "House Rabbit Society",
-            "url": "https://houserabbit.org/",
-            "type": "web/dyrevelfærd",
-            "category": "Rede og moderpleje",
-            "note": "Brug til pleje og adfærd med kildekritik.",
+            "title": "Den Danske Dyrlægeforening · Vaccinationsanbefalinger kaniner",
+            "url": "https://www.ddd.dk/media/9939/vaccinationsanbefalinger_kanin.pdf",
+            "type": "dansk/fagorganisation",
+            "category": "Vaccination og virussygdomme",
+            "note": "Brug til myxomatose, RHD/VHD og hvorfor vaccination anbefales efter dyrlægens plan.",
             "tags": [
-              "rede-og-moderpleje",
-              "web-dyrevelfaerd"
+              "myxomatose",
+              "RHD",
+              "vaccination"
             ]
           },
           {
-            "title": "PDSA · Rabbit health",
-            "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/rabbits",
-            "type": "web/dyrevelfærd",
-            "category": "Foder og sundhed",
-            "note": "Brug til sundhed og forebyggelse.",
+            "title": "AniCura · Vaccination af kaniner",
+            "url": "https://www.anicura.dk/behandlinger/andre-dyr/vaccination-af-kaniner/",
+            "type": "dansk/dyrlægefaglig",
+            "category": "Sygdomme og forebyggelse",
+            "note": "Brug som elevvenlig forklaring på myxomatose/kaninpest og RHD/VHD hos tamkaniner.",
             "tags": [
-              "foder-og-sundhed",
-              "web-dyrevelfaerd"
+              "kaninpest",
+              "VHD",
+              "forebyggelse"
             ]
           },
           {
-            "title": "RSPCA · Rabbits",
-            "url": "https://www.rspca.org.uk/adviceandwelfare/pets/rabbits",
-            "type": "web/dyrevelfærd",
-            "category": "Adfærd og ansvarligt kaninhold",
-            "note": "Brug til behov, skjulesteder og trivsel.",
+            "title": "Kaninklinikken · Coccidiose hos kaniner",
+            "url": "https://kaninklinikken.dk/sygdomme-hos-kaniner/coccidiose-hos-kaniner/",
+            "type": "dansk/dyrlægefaglig",
+            "category": "Parasitter og unge kaniner",
+            "note": "Brug til coccidier/coccidiose og hvorfor unge og nyligt fravænnede kaniner er særligt udsatte.",
             "tags": [
-              "adfaerd-og-ansvarligt-kaninhold",
-              "web-dyrevelfaerd"
+              "coccidier",
+              "parasitter",
+              "kaninunger"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
       "type": "link",
-      "title": "Merck Veterinary Manual · Rabbits",
+      "title": "Netdyredoktor · Kaninleksikon: fødsel",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.merckvetmanual.com/",
-        "label": "Merck Veterinary Manual · Rabbits",
-        "note": "web/veterinær · Brug til drægtighed, sygdom og sundhed.",
+        "url": "https://www.netdyredoktor.dk/smaadyr/kaninleksikon/def/foedsel/",
+        "label": "Netdyredoktor · Kaninleksikon: fødsel",
+        "note": "Brug til drægtighed, fødsel, redebygning, falsk drægtighed og moderpleje hos kaniner.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
       "type": "link",
-      "title": "Rabbit Welfare Association & Fund",
+      "title": "Dyrenes Beskyttelse · Pasningsvejledning til kanin",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://rabbitwelfare.co.uk/",
-        "label": "Rabbit Welfare Association & Fund",
-        "note": "web/dyrevelfærd · Brug til ansvarligt kaninhold.",
+        "url": "https://www.dyrenesbeskyttelse.dk/familiedyr/pasningsvejledninger/kanin/kanin",
+        "label": "Dyrenes Beskyttelse · Pasningsvejledning til kanin",
+        "note": "Brug til skjulesteder, plads, aktivering, bure og de grundlæggende behov hos kaniner som byttedyr.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
       "type": "link",
-      "title": "House Rabbit Society",
+      "title": "Den Danske Dyrlægeforening · Vaccinationsanbefalinger kaniner",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://houserabbit.org/",
-        "label": "House Rabbit Society",
-        "note": "web/dyrevelfærd · Brug til pleje og adfærd med kildekritik.",
+        "url": "https://www.ddd.dk/media/9939/vaccinationsanbefalinger_kanin.pdf",
+        "label": "Den Danske Dyrlægeforening · Vaccinationsanbefalinger kaniner",
+        "note": "Brug til myxomatose, RHD/VHD og hvorfor vaccination anbefales efter dyrlægens plan.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
       "type": "link",
-      "title": "PDSA · Rabbit health",
+      "title": "AniCura · Vaccination af kaniner",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/rabbits",
-        "label": "PDSA · Rabbit health",
-        "note": "web/dyrevelfærd · Brug til sundhed og forebyggelse.",
+        "url": "https://www.anicura.dk/behandlinger/andre-dyr/vaccination-af-kaniner/",
+        "label": "AniCura · Vaccination af kaniner",
+        "note": "Brug som elevvenlig forklaring på myxomatose/kaninpest og RHD/VHD hos tamkaniner.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-kaninunger_v2_showcase_2",
       "type": "link",
-      "title": "RSPCA · Rabbits",
+      "title": "Kaninklinikken · Coccidiose hos kaniner",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.rspca.org.uk/adviceandwelfare/pets/rabbits",
-        "label": "RSPCA · Rabbits",
-        "note": "web/dyrevelfærd · Brug til behov, skjulesteder og trivsel.",
+        "url": "https://kaninklinikken.dk/sygdomme-hos-kaniner/coccidiose-hos-kaniner/",
+        "label": "Kaninklinikken · Coccidiose hos kaniner",
+        "note": "Brug til coccidier/coccidiose og hvorfor unge og nyligt fravænnede kaniner er særligt udsatte.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-kaninunger_v2_showcase"
     ],
     "contentHash": "8eefa3c73d4d68de6f1fd8015ccf950c3d03c171f62f25caf5d60a43a1334714",
-    "packageHash": "ad53bb55b2cc1d8cd0e3e854281e38d4dad0275066660123ef880d24f54c6b3c"
+    "packageHash": "ad53bb55b2cc1d8cd0e3e854281e38d4dad0275066660123ef880d24f54c6b3c",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

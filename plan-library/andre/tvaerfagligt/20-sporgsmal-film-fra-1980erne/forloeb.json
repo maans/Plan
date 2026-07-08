@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-film-fra-1980erne_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-film-fra-1980erne_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Film fra 1980’erne",
@@ -62,7 +66,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "IMDb",
-            "url": "https://www.imdb.com/",
-            "type": "web/database",
-            "category": "Instruktører og film",
-            "note": "Brug kritisk som filmdata-opslag.",
+            "title": "DFI · Filmdatabasen",
+            "url": "https://www.dfi.dk/viden-om-film/filmdatabasen",
+            "type": "dansk/filminstitution",
+            "category": "Instruktører, roller og filmfakta",
+            "note": "Brug som dansk filmfaglig database til opslag på film, instruktører, medvirkende og produktionsoplysninger.",
             "tags": [
-              "instruktoerer-og-film",
-              "web-database"
+              "film",
+              "DFI",
+              "filmdatabasen"
             ]
           },
           {
-            "title": "The Academy · Oscars",
-            "url": "https://www.oscars.org/oscars/ceremonies",
-            "type": "web/officiel",
-            "category": "Oscarvindere",
-            "note": "Brug officiel kilde til priser.",
+            "title": "DFI · Filmens historie 1980’erne",
+            "url": "https://www.dfi.dk/cinemateket/filmens-historie-1980erne",
+            "type": "dansk/filminstitution",
+            "category": "Filmhistorisk kontekst",
+            "note": "Brug til 1980’erne som filmhistorisk periode og til at sætte titlerne ind i en kulturel sammenhæng.",
             "tags": [
-              "oscarvindere",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "BFI",
-            "url": "https://www.bfi.org.uk/",
-            "type": "web/filmarkiv",
-            "category": "Filmhistorie",
-            "note": "Brug artikler og filmanalyser.",
-            "tags": [
+              "1980erne",
               "filmhistorie",
-              "web-filmarkiv"
+              "DFI"
             ]
           },
           {
-            "title": "Letterboxd",
-            "url": "https://letterboxd.com/",
-            "type": "web/database",
+            "title": "The Academy · Oscar ceremonies",
+            "url": "https://www.oscars.org/oscars/ceremonies",
+            "type": "officiel/international",
+            "category": "Oscarvindere",
+            "note": "Brug til bedste film og skuespillerpriser for The Last Emperor, Rain Man, Driving Miss Daisy, Raging Bull og On Golden Pond.",
+            "tags": [
+              "Oscar",
+              "Academy",
+              "filmpriser"
+            ]
+          },
+          {
+            "title": "AFI Catalog · Raging Bull",
+            "url": "https://catalog.afi.com/Film/54882-RAGING-BULL",
+            "type": "fagdatabase/international",
             "category": "Roller og skuespillere",
-            "note": "Brug kritisk til filmoverblik og sammenligning.",
+            "note": "Brug til Raging Bull, Jake LaMotta, Robert De Niro og filmens nøgleoplysninger.",
             "tags": [
-              "roller-og-skuespillere",
-              "web-database"
+              "Raging-Bull",
+              "De-Niro",
+              "AFI"
             ]
           },
           {
-            "title": "YouTube · officielle trailers",
-            "url": "https://www.youtube.com/",
-            "type": "video",
-            "category": "Musik og teknik",
-            "note": "Brug korte officielle klip/trailere som mediekilde.",
+            "title": "IMDb · filmopslag",
+            "url": "https://www.imdb.com/",
+            "type": "database/kildekritisk",
+            "category": "Kontrolopslag",
+            "note": "Brug kun som supplerende kontrolopslag, ikke som eneste kilde, når eleverne dobbelttjekker roller, instruktører og musik.",
             "tags": [
-              "musik-og-teknik",
-              "video"
+              "IMDb",
+              "opslag",
+              "kildekritik"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "IMDb",
+      "title": "DFI · Filmdatabasen",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.imdb.com/",
-        "label": "IMDb",
-        "note": "web/database · Brug kritisk som filmdata-opslag.",
+        "url": "https://www.dfi.dk/viden-om-film/filmdatabasen",
+        "label": "DFI · Filmdatabasen",
+        "note": "Brug som dansk filmfaglig database til opslag på film, instruktører, medvirkende og produktionsoplysninger.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "The Academy · Oscars",
+      "title": "DFI · Filmens historie 1980’erne",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.oscars.org/oscars/ceremonies",
-        "label": "The Academy · Oscars",
-        "note": "web/officiel · Brug officiel kilde til priser.",
+        "url": "https://www.dfi.dk/cinemateket/filmens-historie-1980erne",
+        "label": "DFI · Filmens historie 1980’erne",
+        "note": "Brug til 1980’erne som filmhistorisk periode og til at sætte titlerne ind i en kulturel sammenhæng.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "BFI",
+      "title": "The Academy · Oscar ceremonies",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.bfi.org.uk/",
-        "label": "BFI",
-        "note": "web/filmarkiv · Brug artikler og filmanalyser.",
+        "url": "https://www.oscars.org/oscars/ceremonies",
+        "label": "The Academy · Oscar ceremonies",
+        "note": "Brug til bedste film og skuespillerpriser for The Last Emperor, Rain Man, Driving Miss Daisy, Raging Bull og On Golden Pond.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "Letterboxd",
+      "title": "AFI Catalog · Raging Bull",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://letterboxd.com/",
-        "label": "Letterboxd",
-        "note": "web/database · Brug kritisk til filmoverblik og sammenligning.",
+        "url": "https://catalog.afi.com/Film/54882-RAGING-BULL",
+        "label": "AFI Catalog · Raging Bull",
+        "note": "Brug til Raging Bull, Jake LaMotta, Robert De Niro og filmens nøgleoplysninger.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-film-fra-1980erne_v2_showcase_2",
       "type": "link",
-      "title": "YouTube · officielle trailers",
+      "title": "IMDb · filmopslag",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.youtube.com/",
-        "label": "YouTube · officielle trailers",
-        "note": "video · Brug korte officielle klip/trailere som mediekilde.",
+        "url": "https://www.imdb.com/",
+        "label": "IMDb · filmopslag",
+        "note": "Brug kun som supplerende kontrolopslag, ikke som eneste kilde, når eleverne dobbelttjekker roller, instruktører og musik.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-film-fra-1980erne_v2_showcase"
     ],
     "contentHash": "fdc24527c067fa7d5035f8001fe2d506df54ceaca3f33a5f7c4d78913ec943d6",
-    "packageHash": "cef65b1b19a3bd4b6d807cfe19295fb920f644f64102bbe70dcacf4051e2cf54"
+    "packageHash": "cef65b1b19a3bd4b6d807cfe19295fb920f644f64102bbe70dcacf4051e2cf54",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

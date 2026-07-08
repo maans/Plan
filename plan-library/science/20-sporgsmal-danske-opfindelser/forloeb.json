@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-danske-opfindelser_v2_showcase"
     ],
     "exportedAt": "2026-07-06T18:30:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-danske-opfindelser_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-danske-opfindelser_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Danske opfindelser",
@@ -62,7 +66,8 @@
           "Demo-liste",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "DTU Space · Ole Rømer",
+            "title": "DTU Space · Ole Rømer og lysets hastighed",
             "url": "https://www.space.dtu.dk/",
-            "type": "web/fagkilde",
-            "category": "Fysik, måling og forskning",
-            "note": "Brug som indgang til dansk astronomi- og målehistorie.",
+            "type": "dansk/universitet",
+            "category": "Fysik og måling",
+            "note": "Brug til Ole Rømer, astronomi og den danske målehistoriske baggrund for lysets endelige hastighed.",
             "tags": [
-              "fysik-maaling-og-forskning",
-              "web-fagkilde"
+              "Ole-Rømer",
+              "lys",
+              "DTU"
             ]
           },
           {
-            "title": "Carlsbergfondet · Forskning og historie",
-            "url": "https://www.carlsbergfondet.dk/",
-            "type": "web/arkiv",
-            "category": "Fysik, måling og forskning",
-            "note": "Brug til pH, forskning og Carlsberg Laboratorium.",
+            "title": "Carlsbergfondet · S.P.L. Sørensen og pH",
+            "url": "https://www.carlsbergfondet.dk/da/Nyheder/Nyt-fra-fondet/Nyheder/1909-pH-skalaen-opfindes",
+            "type": "dansk/fond/forskning",
+            "category": "pH og Carlsberg Laboratorium",
+            "note": "Brug til S.P.L. Sørensen, Carlsberg Laboratorium og pH-begrebet i 1909.",
             "tags": [
-              "fysik-maaling-og-forskning",
-              "web-arkiv"
+              "pH",
+              "SPL-Sørensen",
+              "Carlsberg"
             ]
           },
           {
             "title": "Novo Nordisk · History",
             "url": "https://www.novonordisk.com/about/who-we-are/history.html",
-            "type": "web/virksomhedskilde",
-            "category": "Medicin og bioteknologi",
-            "note": "Brug kritisk som virksomhedskilde til insulinsporet.",
+            "type": "virksomhedshistorie",
+            "category": "Insulin og NovoPen",
+            "note": "Brug kritisk til Nordisk Insulinlaboratorium, Hagedorn, NPH-insulin og NovoPen.",
             "tags": [
-              "medicin-og-bioteknologi",
-              "web-virksomhedskilde"
+              "insulin",
+              "Hagedorn",
+              "NovoPen"
             ]
           },
           {
             "title": "Danfoss · History",
             "url": "https://www.danfoss.com/en/about-danfoss/company/history/",
-            "type": "web/virksomhedskilde",
-            "category": "Industri, transport og hverdag",
-            "note": "Brug kritisk som virksomhedskilde til Danfoss.",
+            "type": "virksomhedshistorie",
+            "category": "Danfoss og regulering",
+            "note": "Brug kritisk til Mads Clausen, Nordborg, ekspansionsventilen og termostatiske radiatorventiler.",
             "tags": [
-              "industri-transport-og-hverdag",
-              "web-virksomhedskilde"
+              "Danfoss",
+              "Mads-Clausen",
+              "termostat"
             ]
           },
           {
             "title": "Bjarne Stroustrup · C++",
-            "url": "https://www.stroustrup.com/",
-            "type": "web/primærnær kilde",
-            "category": "Lyd, leg og digitale idéer",
-            "note": "Brug til C++-spørgsmål og kildevurdering.",
+            "url": "https://www.stroustrup.com/C++.html",
+            "type": "primær/personlig fagkilde",
+            "category": "Digitale idéer",
+            "note": "Brug til C++, Bjarne Stroustrup og arbejdet ved Bell Labs.",
             "tags": [
-              "lyd-leg-og-digitale-id-er",
-              "web-primaernaer-kilde"
+              "C++",
+              "Bjarne-Stroustrup",
+              "Bell-Labs"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-danske-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "DTU Space · Ole Rømer",
+      "title": "DTU Space · Ole Rømer og lysets hastighed",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,8 +611,8 @@
       },
       "content": {
         "url": "https://www.space.dtu.dk/",
-        "label": "DTU Space · Ole Rømer",
-        "note": "web/fagkilde · Brug som indgang til dansk astronomi- og målehistorie.",
+        "label": "DTU Space · Ole Rømer og lysets hastighed",
+        "note": "Brug til Ole Rømer, astronomi og den danske målehistoriske baggrund for lysets endelige hastighed.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-danske-opfindelser_v2_showcase_2",
       "type": "link",
-      "title": "Carlsbergfondet · Forskning og historie",
+      "title": "Carlsbergfondet · S.P.L. Sørensen og pH",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.carlsbergfondet.dk/",
-        "label": "Carlsbergfondet · Forskning og historie",
-        "note": "web/arkiv · Brug til pH, forskning og Carlsberg Laboratorium.",
+        "url": "https://www.carlsbergfondet.dk/da/Nyheder/Nyt-fra-fondet/Nyheder/1909-pH-skalaen-opfindes",
+        "label": "Carlsbergfondet · S.P.L. Sørensen og pH",
+        "note": "Brug til S.P.L. Sørensen, Carlsberg Laboratorium og pH-begrebet i 1909.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -672,7 +682,7 @@
       "content": {
         "url": "https://www.novonordisk.com/about/who-we-are/history.html",
         "label": "Novo Nordisk · History",
-        "note": "web/virksomhedskilde · Brug kritisk som virksomhedskilde til insulinsporet.",
+        "note": "Brug kritisk til Nordisk Insulinlaboratorium, Hagedorn, NPH-insulin og NovoPen.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -707,7 +717,7 @@
       "content": {
         "url": "https://www.danfoss.com/en/about-danfoss/company/history/",
         "label": "Danfoss · History",
-        "note": "web/virksomhedskilde · Brug kritisk som virksomhedskilde til Danfoss.",
+        "note": "Brug kritisk til Mads Clausen, Nordborg, ekspansionsventilen og termostatiske radiatorventiler.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.stroustrup.com/",
+        "url": "https://www.stroustrup.com/C++.html",
         "label": "Bjarne Stroustrup · C++",
-        "note": "web/primærnær kilde · Brug til C++-spørgsmål og kildevurdering.",
+        "note": "Brug til C++, Bjarne Stroustrup og arbejdet ved Bell Labs.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-06T18:30:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-danske-opfindelser_v2_showcase"
     ],
     "contentHash": "51e0453706fcee641cccb76cf6e5da7344aef8f73c004a6b9e41637d295fac4c",
-    "packageHash": "8f01ce8ca0a8789ea752ba6c4adec27738de24c4a4e28b368b0a67f7aa5cf54b"
+    "packageHash": "8f01ce8ca0a8789ea752ba6c4adec27738de24c4a4e28b368b0a67f7aa5cf54b",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

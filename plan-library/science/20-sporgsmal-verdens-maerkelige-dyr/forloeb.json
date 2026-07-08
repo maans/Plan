@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Verdens mærkelige dyr",
@@ -63,7 +67,8 @@
           "Timer",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Smithsonian National Zoo",
+            "title": "Naturhistorisk Museum Aarhus · Viden om dyr",
+            "url": "https://www.naturhistoriskmuseum.dk/viden",
+            "type": "dansk/museum",
+            "category": "Dyr og tilpasninger",
+            "note": "Brug som dansk museumsindgang til artsbegreber, tilpasning, levesteder og evolution.",
+            "tags": [
+              "dyr",
+              "tilpasning",
+              "museum"
+            ]
+          },
+          {
+            "title": "Australian Museum · Animals",
+            "url": "https://australian.museum/learn/animals/",
+            "type": "international/museum",
+            "category": "Australske dyr og særtilpasninger",
+            "note": "Brug til tornet djævel, lyrehalefugl, næbdyr/myrepindsvin og australske særtilpasninger.",
+            "tags": [
+              "Australien",
+              "tornet-djævel",
+              "lyrehalefugl"
+            ]
+          },
+          {
+            "title": "Smithsonian National Zoo · Animals",
             "url": "https://nationalzoo.si.edu/animals",
-            "type": "web/reference",
-            "category": "Levesteder og udbredelse",
-            "note": "Brug til dyreprofiler og levesteder.",
+            "type": "international/museum/zoo",
+            "category": "Dyreprofiler og levesteder",
+            "note": "Brug til dyreprofiler, udbredelse og særpræg hos arter som sneleopard, binturong og hvalhaj.",
             "tags": [
-              "levesteder-og-udbredelse",
-              "web-reference"
+              "dyreprofiler",
+              "levesteder",
+              "Smithsonian"
             ]
           },
           {
-            "title": "Australian Museum",
-            "url": "https://australian.museum/",
-            "type": "web/museum",
-            "category": "Kroppe og tilpasninger",
-            "note": "Brug til australske dyr og tilpasninger.",
+            "title": "WWF · truede dyr og arter",
+            "url": "https://wwf.dk/arter/",
+            "type": "dansk/naturorganisation",
+            "category": "Levesteder og truede arter",
+            "note": "Brug som dansk indgang til truede dyr, levesteder og naturbeskyttelse.",
             "tags": [
-              "kroppe-og-tilpasninger",
-              "web-museum"
+              "WWF",
+              "truede-dyr",
+              "arter"
             ]
           },
           {
-            "title": "ARKive / Wildscreen Exchange",
-            "url": "https://www.wildscreen.org/",
-            "type": "web/billeder",
-            "category": "Adfærd og føde",
-            "note": "Brug som billed- og mediespor med omtanke.",
+            "title": "Lex · dyreriget",
+            "url": "https://lex.dk/dyreriget",
+            "type": "dansk/leksikon",
+            "category": "Slægtskab og dyregrupper",
+            "note": "Brug til klassifikation: pattedyr, fisk, leddyr, nældedyr og andre dyregrupper.",
             "tags": [
-              "adfaerd-og-foede",
-              "web-billeder"
-            ]
-          },
-          {
-            "title": "Encyclopaedia Britannica · Animals",
-            "url": "https://www.britannica.com/animal",
-            "type": "web/reference",
-            "category": "Slægtskab og formering",
-            "note": "Brug til klassifikation og begreber.",
-            "tags": [
-              "slaegtskab-og-formering",
-              "web-reference"
-            ]
-          },
-          {
-            "title": "iNaturalist",
-            "url": "https://www.inaturalist.org/",
-            "type": "data/billeder",
-            "category": "Levesteder og udbredelse",
-            "note": "Brug til observationer og udbredelse med kildekritik.",
-            "tags": [
-              "levesteder-og-udbredelse",
-              "data-billeder"
+              "dyreriget",
+              "klassifikation",
+              "dyregrupper"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
       "type": "link",
-      "title": "Smithsonian National Zoo",
+      "title": "Naturhistorisk Museum Aarhus · Viden om dyr",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://nationalzoo.si.edu/animals",
-        "label": "Smithsonian National Zoo",
-        "note": "web/reference · Brug til dyreprofiler og levesteder.",
+        "url": "https://www.naturhistoriskmuseum.dk/viden",
+        "label": "Naturhistorisk Museum Aarhus · Viden om dyr",
+        "note": "Brug som dansk museumsindgang til artsbegreber, tilpasning, levesteder og evolution.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
       "type": "link",
-      "title": "Australian Museum",
+      "title": "Australian Museum · Animals",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://australian.museum/",
-        "label": "Australian Museum",
-        "note": "web/museum · Brug til australske dyr og tilpasninger.",
+        "url": "https://australian.museum/learn/animals/",
+        "label": "Australian Museum · Animals",
+        "note": "Brug til tornet djævel, lyrehalefugl, næbdyr/myrepindsvin og australske særtilpasninger.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
       "type": "link",
-      "title": "ARKive / Wildscreen Exchange",
+      "title": "Smithsonian National Zoo · Animals",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.wildscreen.org/",
-        "label": "ARKive / Wildscreen Exchange",
-        "note": "web/billeder · Brug som billed- og mediespor med omtanke.",
+        "url": "https://nationalzoo.si.edu/animals",
+        "label": "Smithsonian National Zoo · Animals",
+        "note": "Brug til dyreprofiler, udbredelse og særpræg hos arter som sneleopard, binturong og hvalhaj.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
       "type": "link",
-      "title": "Encyclopaedia Britannica · Animals",
+      "title": "WWF · truede dyr og arter",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.britannica.com/animal",
-        "label": "Encyclopaedia Britannica · Animals",
-        "note": "web/reference · Brug til klassifikation og begreber.",
+        "url": "https://wwf.dk/arter/",
+        "label": "WWF · truede dyr og arter",
+        "note": "Brug som dansk indgang til truede dyr, levesteder og naturbeskyttelse.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase_2",
       "type": "link",
-      "title": "iNaturalist",
+      "title": "Lex · dyreriget",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.inaturalist.org/",
-        "label": "iNaturalist",
-        "note": "data/billeder · Brug til observationer og udbredelse med kildekritik.",
+        "url": "https://lex.dk/dyreriget",
+        "label": "Lex · dyreriget",
+        "note": "Brug til klassifikation: pattedyr, fisk, leddyr, nældedyr og andre dyregrupper.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-verdens-maerkelige-dyr_v2_showcase"
     ],
     "contentHash": "da60d5e60e89fbee54005ab51bcdd4b977815602089d304759793086093f640f",
-    "packageHash": "c1d11179b567e63c69544809cee0ddaba2f67e1f3b5600f79a9cc7b8c4b668a1"
+    "packageHash": "c1d11179b567e63c69544809cee0ddaba2f67e1f3b5600f79a9cc7b8c4b668a1",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

@@ -4,7 +4,7 @@ Professorforløb v2 med kilder, medier, Huskekortmatrix og KaPardy.
 
 ## Indhold
 
-- 9 tavler
+- 10 tavler
 - Kilde- og medieliste med linkwidgets
 - Fire faglige kategoritavler
 - Huskekortmatrix koblet til den samme KaPardy-spørgsmålsbank

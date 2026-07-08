@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-matematik_v2_showcase"
     ],
     "exportedAt": "2026-07-07T00:45:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-matematik_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-matematik_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Matematik",
@@ -62,7 +66,8 @@
           "Gruppeværktøj",
           "Nøgleordssky",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Khan Academy · Math",
-            "url": "https://www.khanacademy.org/math",
-            "type": "web/video",
-            "category": "Regning og algebra",
-            "note": "Brug korte forklaringer og øvelser.",
+            "title": "Matematikbanken · regnearter og brøker",
+            "url": "https://matematikbanken.dk/",
+            "type": "dansk/undervisning",
+            "category": "Regning, brøker og procent",
+            "note": "Brug til træning af rækkefølge i regnearter, procent, brøker og decimaltal.",
             "tags": [
-              "regning-og-algebra",
-              "web-video"
+              "regning",
+              "procent",
+              "brøker"
             ]
           },
           {
-            "title": "GeoGebra",
-            "url": "https://www.geogebra.org/",
-            "type": "web/interaktiv",
-            "category": "Geometri og måling",
-            "note": "Brug interaktive modeller til geometri.",
+            "title": "MatematikFessor · matematiske emner",
+            "url": "https://www.matematikfessor.dk/",
+            "type": "dansk/undervisning",
+            "category": "Grundlæggende matematik",
+            "note": "Brug som dansk elevvenlig indgang til regning, algebra og geometri, hvis skolen har adgang.",
             "tags": [
-              "geometri-og-maaling",
-              "web-interaktiv"
+              "matematik",
+              "øvelser",
+              "grundskole"
             ]
           },
           {
-            "title": "Math is Fun",
-            "url": "https://www.mathsisfun.com/",
-            "type": "web/reference",
-            "category": "Alle kategorier",
-            "note": "Brug enkle forklaringer og eksempler.",
+            "title": "GeoGebra · dansk",
+            "url": "https://www.geogebra.org/?lang=da",
+            "type": "dansk/interaktiv",
+            "category": "Geometri og modeller",
+            "note": "Brug til at visualisere vinkelsum, cirkler, areal, rumfang og retvinklede trekanter.",
             "tags": [
-              "alle-kategorier",
-              "web-reference"
+              "geogebra",
+              "geometri",
+              "modeller"
             ]
           },
           {
-            "title": "Desmos Calculator",
-            "url": "https://www.desmos.com/calculator",
-            "type": "web/interaktiv",
-            "category": "Tal og algebra",
-            "note": "Brug til at undersøge mønstre og ligninger.",
+            "title": "Webmatematik · grundskole",
+            "url": "https://www.webmatematik.dk/",
+            "type": "dansk/undervisning",
+            "category": "Algebra og geometri",
+            "note": "Brug til korte forklaringer om ligninger, potenser, primtal, cirkler og Pythagoras.",
             "tags": [
-              "tal-og-algebra",
-              "web-interaktiv"
+              "webmatematik",
+              "algebra",
+              "geometri"
             ]
           },
           {
-            "title": "NIST SI units",
+            "title": "NIST · SI Units",
             "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
-            "type": "web/reference",
-            "category": "Måling",
-            "note": "Brug til enheder og måling.",
+            "type": "officiel/international",
+            "category": "Måling og enheder",
+            "note": "Brug til præcis kontrol af SI-enheder, når eleverne arbejder med cm³, længde, tid og masse.",
             "tags": [
-              "maaling",
-              "web-reference"
+              "SI",
+              "enheder",
+              "måling"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-matematik_v2_showcase_2",
       "type": "link",
-      "title": "Khan Academy · Math",
+      "title": "Matematikbanken · regnearter og brøker",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.khanacademy.org/math",
-        "label": "Khan Academy · Math",
-        "note": "web/video · Brug korte forklaringer og øvelser.",
+        "url": "https://matematikbanken.dk/",
+        "label": "Matematikbanken · regnearter og brøker",
+        "note": "Brug til træning af rækkefølge i regnearter, procent, brøker og decimaltal.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-matematik_v2_showcase_2",
       "type": "link",
-      "title": "GeoGebra",
+      "title": "MatematikFessor · matematiske emner",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.geogebra.org/",
-        "label": "GeoGebra",
-        "note": "web/interaktiv · Brug interaktive modeller til geometri.",
+        "url": "https://www.matematikfessor.dk/",
+        "label": "MatematikFessor · matematiske emner",
+        "note": "Brug som dansk elevvenlig indgang til regning, algebra og geometri, hvis skolen har adgang.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-matematik_v2_showcase_2",
       "type": "link",
-      "title": "Math is Fun",
+      "title": "GeoGebra · dansk",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.mathsisfun.com/",
-        "label": "Math is Fun",
-        "note": "web/reference · Brug enkle forklaringer og eksempler.",
+        "url": "https://www.geogebra.org/?lang=da",
+        "label": "GeoGebra · dansk",
+        "note": "Brug til at visualisere vinkelsum, cirkler, areal, rumfang og retvinklede trekanter.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-matematik_v2_showcase_2",
       "type": "link",
-      "title": "Desmos Calculator",
+      "title": "Webmatematik · grundskole",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.desmos.com/calculator",
-        "label": "Desmos Calculator",
-        "note": "web/interaktiv · Brug til at undersøge mønstre og ligninger.",
+        "url": "https://www.webmatematik.dk/",
+        "label": "Webmatematik · grundskole",
+        "note": "Brug til korte forklaringer om ligninger, potenser, primtal, cirkler og Pythagoras.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-matematik_v2_showcase_2",
       "type": "link",
-      "title": "NIST SI units",
+      "title": "NIST · SI Units",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,8 +751,8 @@
       },
       "content": {
         "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
-        "label": "NIST SI units",
-        "note": "web/reference · Brug til enheder og måling.",
+        "label": "NIST · SI Units",
+        "note": "Brug til præcis kontrol af SI-enheder, når eleverne arbejder med cm³, længde, tid og masse.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-07T00:45:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-matematik_v2_showcase"
     ],
     "contentHash": "fcafd8054474219078f8b6a283a8ff87264363cb7f04e19b0bc926ab7f12fce8",
-    "packageHash": "a528ba104c486f5cdc91f5744eeb35e7b7701572d58d971ef397c929d37e7756"
+    "packageHash": "a528ba104c486f5cdc91f5744eeb35e7b7701572d58d971ef397c929d37e7756",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

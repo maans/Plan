@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-verdens-geografi_v2_showcase"
     ],
     "exportedAt": "2026-07-06T22:10:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-verdens-geografi_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-verdens-geografi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Verdens geografi",
@@ -63,7 +67,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "CIA World Factbook",
-            "url": "https://www.cia.gov/the-world-factbook/",
-            "type": "web/reference",
+            "title": "Lex · verdens lande",
+            "url": "https://lex.dk/Verdens_lande",
+            "type": "dansk/leksikon",
             "category": "Lande og hovedstæder",
-            "note": "Brug som global reference til lande og hovedstæder.",
+            "note": "Brug til hovedstæder som Washington, D.C., Tokyo, Brasília og Canberra.",
             "tags": [
-              "lande-og-hovedstaeder",
-              "web-reference"
+              "lande",
+              "hovedstæder",
+              "geografi"
             ]
           },
           {
-            "title": "National Geographic · Geography",
-            "url": "https://www.nationalgeographic.org/encyclopedia/geography/",
-            "type": "web/reference",
+            "title": "Lex · Denali",
+            "url": "https://lex.dk/Denali",
+            "type": "dansk/leksikon",
+            "category": "Bjerge og landskaber",
+            "note": "Brug til Nordamerikas højeste bjerg og navneforholdet mellem Denali og Mount McKinley.",
+            "tags": [
+              "Denali",
+              "bjerge",
+              "Nordamerika"
+            ]
+          },
+          {
+            "title": "Lex · Aconcagua",
+            "url": "https://lex.dk/Aconcagua",
+            "type": "dansk/leksikon",
+            "category": "Bjerge og landskaber",
+            "note": "Brug til Sydamerikas højeste bjerg og Andesbjergenes geografi.",
+            "tags": [
+              "Aconcagua",
+              "Andesbjergene",
+              "Sydamerika"
+            ]
+          },
+          {
+            "title": "Lex · Grand Canyon",
+            "url": "https://lex.dk/Grand_Canyon",
+            "type": "dansk/leksikon",
+            "category": "Floder og erosion",
+            "note": "Brug til Coloradofloden og hvordan Grand Canyon er skåret ud gennem landskabet.",
+            "tags": [
+              "Grand-Canyon",
+              "Coloradofloden",
+              "erosion"
+            ]
+          },
+          {
+            "title": "Lex · geografiske begreber",
+            "url": "https://lex.dk/geografi",
+            "type": "dansk/leksikon",
             "category": "Kort, klima og verdensdele",
-            "note": "Brug til geografiske begreber.",
+            "note": "Brug som dansk begrebsindgang til halvø, arkipelag, landtange, delta og vandskel.",
             "tags": [
-              "kort-klima-og-verdensdele",
-              "web-reference"
-            ]
-          },
-          {
-            "title": "OpenStreetMap",
-            "url": "https://www.openstreetmap.org/",
-            "type": "kort/web",
-            "category": "Alle kategorier",
-            "note": "Brug til kortlæsning og placering.",
-            "tags": [
-              "alle-kategorier",
-              "kort-web"
-            ]
-          },
-          {
-            "title": "Britannica · Geography",
-            "url": "https://www.britannica.com/science/geography",
-            "type": "web/reference",
-            "category": "Bjerge, floder og landskaber",
-            "note": "Brug til begreber og landskaber.",
-            "tags": [
-              "bjerge-floder-og-landskaber",
-              "web-reference"
-            ]
-          },
-          {
-            "title": "UN Geospatial",
-            "url": "https://www.un.org/geospatial/",
-            "type": "web/officiel",
-            "category": "Kort, klima og verdensdele",
-            "note": "Brug til kort og globale geografiske data.",
-            "tags": [
-              "kort-klima-og-verdensdele",
-              "web-officiel"
+              "begreber",
+              "kortlære",
+              "landskaber"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-geografi_v2_showcase_2",
       "type": "link",
-      "title": "CIA World Factbook",
+      "title": "Lex · verdens lande",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.cia.gov/the-world-factbook/",
-        "label": "CIA World Factbook",
-        "note": "web/reference · Brug som global reference til lande og hovedstæder.",
+        "url": "https://lex.dk/Verdens_lande",
+        "label": "Lex · verdens lande",
+        "note": "Brug til hovedstæder som Washington, D.C., Tokyo, Brasília og Canberra.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-geografi_v2_showcase_2",
       "type": "link",
-      "title": "National Geographic · Geography",
+      "title": "Lex · Denali",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.nationalgeographic.org/encyclopedia/geography/",
-        "label": "National Geographic · Geography",
-        "note": "web/reference · Brug til geografiske begreber.",
+        "url": "https://lex.dk/Denali",
+        "label": "Lex · Denali",
+        "note": "Brug til Nordamerikas højeste bjerg og navneforholdet mellem Denali og Mount McKinley.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-geografi_v2_showcase_2",
       "type": "link",
-      "title": "OpenStreetMap",
+      "title": "Lex · Aconcagua",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.openstreetmap.org/",
-        "label": "OpenStreetMap",
-        "note": "kort/web · Brug til kortlæsning og placering.",
+        "url": "https://lex.dk/Aconcagua",
+        "label": "Lex · Aconcagua",
+        "note": "Brug til Sydamerikas højeste bjerg og Andesbjergenes geografi.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-geografi_v2_showcase_2",
       "type": "link",
-      "title": "Britannica · Geography",
+      "title": "Lex · Grand Canyon",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.britannica.com/science/geography",
-        "label": "Britannica · Geography",
-        "note": "web/reference · Brug til begreber og landskaber.",
+        "url": "https://lex.dk/Grand_Canyon",
+        "label": "Lex · Grand Canyon",
+        "note": "Brug til Coloradofloden og hvordan Grand Canyon er skåret ud gennem landskabet.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-verdens-geografi_v2_showcase_2",
       "type": "link",
-      "title": "UN Geospatial",
+      "title": "Lex · geografiske begreber",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.un.org/geospatial/",
-        "label": "UN Geospatial",
-        "note": "web/officiel · Brug til kort og globale geografiske data.",
+        "url": "https://lex.dk/geografi",
+        "label": "Lex · geografiske begreber",
+        "note": "Brug som dansk begrebsindgang til halvø, arkipelag, landtange, delta og vandskel.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T22:10:00.000Z",
-      "updatedAt": "2026-07-06T22:10:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-verdens-geografi_v2_showcase"
     ],
     "contentHash": "a595d26cf10ac95eb6afa0210dd7fb01bea744e9207950848319bc9fde0a6703",
-    "packageHash": "4fdd87dcbe96ae5e4aa2070c228bbd7be3ad3e3b777ee5b5d62a6b13b42f1daf"
+    "packageHash": "4fdd87dcbe96ae5e4aa2070c228bbd7be3ad3e3b777ee5b5d62a6b13b42f1daf",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

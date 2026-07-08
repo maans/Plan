@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-naturvidenskab_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-naturvidenskab_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Naturvidenskab · grundlæggende",
@@ -63,7 +67,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -514,62 +519,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "PhET Interactive Simulations",
-            "url": "https://phet.colorado.edu/",
-            "type": "interaktiv",
+            "title": "Astra · naturvidenskabelig metode og aktiviteter",
+            "url": "https://astra.dk/aktiviteter/",
+            "type": "dansk/undervisning",
+            "category": "Måling, metode og forsøg",
+            "note": "Brug som dansk indgang til naturfaglige aktiviteter, observation, forsøg og forklaringer.",
+            "tags": [
+              "naturfag",
+              "metode",
+              "Astra"
+            ]
+          },
+          {
+            "title": "Lex · Newtons love",
+            "url": "https://lex.dk/Newtons_love",
+            "type": "dansk/leksikon",
             "category": "Fysik og energi",
-            "note": "Brug til fysikforsøg og modeller.",
+            "note": "Brug til aktion og reaktion, Newtons tredje lov og grundlæggende mekanik.",
             "tags": [
-              "fysik-og-energi",
-              "interaktiv"
+              "Newtons-love",
+              "fysik",
+              "mekanik"
             ]
           },
           {
-            "title": "Khan Academy · Science",
-            "url": "https://www.khanacademy.org/science",
-            "type": "video/web",
-            "category": "Alle kategorier",
-            "note": "Brug korte forklaringer til fysik, kemi og geologi.",
-            "tags": [
-              "alle-kategorier",
-              "video-web"
-            ]
-          },
-          {
-            "title": "NIST · SI Units",
-            "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
-            "type": "web/officiel",
-            "category": "Måling og metode",
-            "note": "Brug til SI-enheder.",
-            "tags": [
-              "maaling-og-metode",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "USGS · Earthquake Hazards",
-            "url": "https://www.usgs.gov/programs/earthquake-hazards",
-            "type": "web/officiel",
-            "category": "Jorden og vejret",
-            "note": "Brug til jordskælv, hypocenter og epicenter.",
-            "tags": [
-              "jorden-og-vejret",
-              "web-officiel"
-            ]
-          },
-          {
-            "title": "Royal Society of Chemistry · Periodic Table",
-            "url": "https://periodic-table.rsc.org/",
-            "type": "interaktiv",
+            "title": "Lex · pH",
+            "url": "https://lex.dk/pH",
+            "type": "dansk/leksikon",
             "category": "Kemi og stoffer",
-            "note": "Brug til kemi, pH og bindinger.",
+            "note": "Brug til sur, neutral og basisk opløsning samt pH-skalaen omkring 7.",
             "tags": [
-              "kemi-og-stoffer",
-              "interaktiv"
+              "pH",
+              "sur",
+              "basisk"
+            ]
+          },
+          {
+            "title": "GEUS · jordskælv",
+            "url": "https://www.geus.dk/natur-og-klima/jordskaelv-og-seismologi",
+            "type": "dansk/myndighed/forskning",
+            "category": "Jorden og vejret",
+            "note": "Brug til epicenter, hypocenter og seismologiske begreber på dansk.",
+            "tags": [
+              "jordskælv",
+              "epicenter",
+              "GEUS"
+            ]
+          },
+          {
+            "title": "BIPM · SI Brochure",
+            "url": "https://www.bipm.org/en/publications/si-brochure",
+            "type": "officiel/international",
+            "category": "Måling og SI-enheder",
+            "note": "Brug som officiel reference for SI-grundenheder som meter, kilogram, sekund og kelvin.",
+            "tags": [
+              "SI",
+              "meter",
+              "kelvin"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -582,7 +592,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -591,7 +601,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_2",
       "type": "link",
-      "title": "PhET Interactive Simulations",
+      "title": "Astra · naturvidenskabelig metode og aktiviteter",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -601,9 +611,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://phet.colorado.edu/",
-        "label": "PhET Interactive Simulations",
-        "note": "interaktiv · Brug til fysikforsøg og modeller.",
+        "url": "https://astra.dk/aktiviteter/",
+        "label": "Astra · naturvidenskabelig metode og aktiviteter",
+        "note": "Brug som dansk indgang til naturfaglige aktiviteter, observation, forsøg og forklaringer.",
         "view": "link"
       },
       "settings": {
@@ -617,7 +627,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -626,7 +636,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_2",
       "type": "link",
-      "title": "Khan Academy · Science",
+      "title": "Lex · Newtons love",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -636,9 +646,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.khanacademy.org/science",
-        "label": "Khan Academy · Science",
-        "note": "video/web · Brug korte forklaringer til fysik, kemi og geologi.",
+        "url": "https://lex.dk/Newtons_love",
+        "label": "Lex · Newtons love",
+        "note": "Brug til aktion og reaktion, Newtons tredje lov og grundlæggende mekanik.",
         "view": "link"
       },
       "settings": {
@@ -652,7 +662,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -661,7 +671,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_2",
       "type": "link",
-      "title": "NIST · SI Units",
+      "title": "Lex · pH",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -671,9 +681,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
-        "label": "NIST · SI Units",
-        "note": "web/officiel · Brug til SI-enheder.",
+        "url": "https://lex.dk/pH",
+        "label": "Lex · pH",
+        "note": "Brug til sur, neutral og basisk opløsning samt pH-skalaen omkring 7.",
         "view": "link"
       },
       "settings": {
@@ -687,7 +697,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -696,7 +706,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_2",
       "type": "link",
-      "title": "USGS · Earthquake Hazards",
+      "title": "GEUS · jordskælv",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -706,9 +716,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.usgs.gov/programs/earthquake-hazards",
-        "label": "USGS · Earthquake Hazards",
-        "note": "web/officiel · Brug til jordskælv, hypocenter og epicenter.",
+        "url": "https://www.geus.dk/natur-og-klima/jordskaelv-og-seismologi",
+        "label": "GEUS · jordskælv",
+        "note": "Brug til epicenter, hypocenter og seismologiske begreber på dansk.",
         "view": "link"
       },
       "settings": {
@@ -722,7 +732,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -731,7 +741,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-naturvidenskab_v2_showcase_2",
       "type": "link",
-      "title": "Royal Society of Chemistry · Periodic Table",
+      "title": "BIPM · SI Brochure",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -741,9 +751,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://periodic-table.rsc.org/",
-        "label": "Royal Society of Chemistry · Periodic Table",
-        "note": "interaktiv · Brug til kemi, pH og bindinger.",
+        "url": "https://www.bipm.org/en/publications/si-brochure",
+        "label": "BIPM · SI Brochure",
+        "note": "Brug som officiel reference for SI-grundenheder som meter, kilogram, sekund og kelvin.",
         "view": "link"
       },
       "settings": {
@@ -757,7 +767,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2511,7 +2521,11 @@
       "session_professor_20-sporgsmal-naturvidenskab_v2_showcase"
     ],
     "contentHash": "389e0fc391ee8bc981deb9a4d16d14f94597eb755f257eb64fbb05cc79a75aa4",
-    "packageHash": "8ceeeb883c5c8eb74fcecf8f3f89e11a3c852bef45afab402934fe5400f33b69"
+    "packageHash": "8ceeeb883c5c8eb74fcecf8f3f89e11a3c852bef45afab402934fe5400f33b69",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }

@@ -16,7 +16,11 @@
       "session_professor_20-sporgsmal-mytologi_v2_showcase"
     ],
     "exportedAt": "2026-07-06T23:55:00.000Z",
-    "sourceAppVersion": "1.0.9"
+    "sourceAppVersion": "1.0.9",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "sessions": [
     {
@@ -38,7 +42,7 @@
         "board_professor_20-sporgsmal-mytologi_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-mytologi_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Mytologi fra verden",
@@ -62,7 +66,8 @@
           "Ordsky",
           "Huskekortmatrix",
           "KaPardy"
-        ]
+        ],
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
       }
     }
   ],
@@ -513,62 +518,67 @@
         "version": 1,
         "resources": [
           {
-            "title": "Theoi Greek Mythology",
-            "url": "https://www.theoi.com/",
-            "type": "web/reference",
+            "title": "Lex · græsk mytologi",
+            "url": "https://lex.dk/gr%C3%A6sk_mytologi",
+            "type": "dansk/leksikon",
             "category": "Grækenland og Rom",
-            "note": "Brug til græske guder og fortællinger.",
+            "note": "Brug til Dionysos, Hefaistos, Hestia, Hera, Ares og de græske guders områder.",
             "tags": [
-              "graekenland-og-rom",
-              "web-reference"
+              "græsk-mytologi",
+              "guder",
+              "olympere"
             ]
           },
           {
-            "title": "World History Encyclopedia · Egyptian Gods",
-            "url": "https://www.worldhistory.org/Egyptian_Gods/",
-            "type": "web/reference",
+            "title": "Lex · egyptisk religion",
+            "url": "https://lex.dk/egyptisk_religion",
+            "type": "dansk/leksikon",
             "category": "Egyptens gudeverden",
-            "note": "Brug til egyptiske guder og kultsteder.",
+            "note": "Brug til egyptiske guder, kultsteder og roller for Sekhmet, Bastet, Ptah, Khnum og Sobek.",
             "tags": [
-              "egyptens-gudeverden",
-              "web-reference"
+              "egypten",
+              "religion",
+              "guder"
             ]
           },
           {
-            "title": "ETCSL · Sumerian Literature",
-            "url": "https://etcsl.orinst.ox.ac.uk/",
-            "type": "tekst/arkiv",
+            "title": "Lex · mesopotamisk religion",
+            "url": "https://lex.dk/mesopotamisk_religion",
+            "type": "dansk/leksikon",
             "category": "Mesopotamien og Nærorienten",
-            "note": "Brug som kildeindgang til mesopotamiske myter.",
+            "note": "Brug til Nanna-Sin, Ereshkigal, Nergal, Ashur, Tiamat og Enuma Elish.",
             "tags": [
-              "mesopotamien-og-naerorienten",
-              "tekst-arkiv"
+              "mesopotamien",
+              "sumer",
+              "babylon"
             ]
           },
           {
-            "title": "Encyclopaedia Britannica · Hinduism",
-            "url": "https://www.britannica.com/topic/Hinduism",
-            "type": "web/reference",
-            "category": "Myter fra andre kulturer",
-            "note": "Brug til hinduistiske guder og begreber.",
+            "title": "Lex · hinduisme",
+            "url": "https://lex.dk/hinduisme",
+            "type": "dansk/leksikon",
+            "category": "Hinduisme",
+            "note": "Brug til Shiva, Lakshmi, Sarasvati og hinduistiske gudebegreber.",
             "tags": [
-              "myter-fra-andre-kulturer",
-              "web-reference"
+              "hinduisme",
+              "Shiva",
+              "Lakshmi"
             ]
           },
           {
-            "title": "Encyclopaedia Britannica · Shinto",
-            "url": "https://www.britannica.com/topic/Shinto",
-            "type": "web/reference",
-            "category": "Myter fra andre kulturer",
-            "note": "Brug til japanske guder og shinto.",
+            "title": "Lex · shinto",
+            "url": "https://lex.dk/shinto",
+            "type": "dansk/leksikon",
+            "category": "Japan og shinto",
+            "note": "Brug til Amaterasu, Susanoo, Tsukuyomi og japansk gudeverden.",
             "tags": [
-              "myter-fra-andre-kulturer",
-              "web-reference"
+              "shinto",
+              "japan",
+              "kami"
             ]
           }
         ],
-        "teacherNote": "Ressourcematrixen samler de kilder, eleverne skal bruge før KaPardy."
+        "teacherNote": "Kvalitetsløftet kildematrix: Kilderne er valgt, så eleverne kan undersøge netop de svar, KaPardy-spillet spørger til. Prioritér danske myndigheds-, museums-, leksikon- og undervisningskilder; brug markerede internationale kilder, når de er mere præcise end en dansk oversigt."
       },
       "settings": {
         "locked": false,
@@ -581,7 +591,7 @@
         "layoutRole": "resource-matrix"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -590,7 +600,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Theoi Greek Mythology",
+      "title": "Lex · græsk mytologi",
       "geometry": {
         "x": 560,
         "y": 85,
@@ -600,9 +610,9 @@
         "z": 2
       },
       "content": {
-        "url": "https://www.theoi.com/",
-        "label": "Theoi Greek Mythology",
-        "note": "web/reference · Brug til græske guder og fortællinger.",
+        "url": "https://lex.dk/gr%C3%A6sk_mytologi",
+        "label": "Lex · græsk mytologi",
+        "note": "Brug til Dionysos, Hefaistos, Hestia, Hera, Ares og de græske guders områder.",
         "view": "link"
       },
       "settings": {
@@ -616,7 +626,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -625,7 +635,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "World History Encyclopedia · Egyptian Gods",
+      "title": "Lex · egyptisk religion",
       "geometry": {
         "x": 880,
         "y": 85,
@@ -635,9 +645,9 @@
         "z": 3
       },
       "content": {
-        "url": "https://www.worldhistory.org/Egyptian_Gods/",
-        "label": "World History Encyclopedia · Egyptian Gods",
-        "note": "web/reference · Brug til egyptiske guder og kultsteder.",
+        "url": "https://lex.dk/egyptisk_religion",
+        "label": "Lex · egyptisk religion",
+        "note": "Brug til egyptiske guder, kultsteder og roller for Sekhmet, Bastet, Ptah, Khnum og Sobek.",
         "view": "link"
       },
       "settings": {
@@ -651,7 +661,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -660,7 +670,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "ETCSL · Sumerian Literature",
+      "title": "Lex · mesopotamisk religion",
       "geometry": {
         "x": 560,
         "y": 305,
@@ -670,9 +680,9 @@
         "z": 4
       },
       "content": {
-        "url": "https://etcsl.orinst.ox.ac.uk/",
-        "label": "ETCSL · Sumerian Literature",
-        "note": "tekst/arkiv · Brug som kildeindgang til mesopotamiske myter.",
+        "url": "https://lex.dk/mesopotamisk_religion",
+        "label": "Lex · mesopotamisk religion",
+        "note": "Brug til Nanna-Sin, Ereshkigal, Nergal, Ashur, Tiamat og Enuma Elish.",
         "view": "link"
       },
       "settings": {
@@ -686,7 +696,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -695,7 +705,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Encyclopaedia Britannica · Hinduism",
+      "title": "Lex · hinduisme",
       "geometry": {
         "x": 880,
         "y": 305,
@@ -705,9 +715,9 @@
         "z": 5
       },
       "content": {
-        "url": "https://www.britannica.com/topic/Hinduism",
-        "label": "Encyclopaedia Britannica · Hinduism",
-        "note": "web/reference · Brug til hinduistiske guder og begreber.",
+        "url": "https://lex.dk/hinduisme",
+        "label": "Lex · hinduisme",
+        "note": "Brug til Shiva, Lakshmi, Sarasvati og hinduistiske gudebegreber.",
         "view": "link"
       },
       "settings": {
@@ -721,7 +731,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -730,7 +740,7 @@
       "widgetVersion": 1,
       "boardId": "board_professor_20-sporgsmal-mytologi_v2_showcase_2",
       "type": "link",
-      "title": "Encyclopaedia Britannica · Shinto",
+      "title": "Lex · shinto",
       "geometry": {
         "x": 560,
         "y": 525,
@@ -740,9 +750,9 @@
         "z": 6
       },
       "content": {
-        "url": "https://www.britannica.com/topic/Shinto",
-        "label": "Encyclopaedia Britannica · Shinto",
-        "note": "web/reference · Brug til japanske guder og shinto.",
+        "url": "https://lex.dk/shinto",
+        "label": "Lex · shinto",
+        "note": "Brug til Amaterasu, Susanoo, Tsukuyomi og japansk gudeverden.",
         "view": "link"
       },
       "settings": {
@@ -756,7 +766,7 @@
         "layoutRole": "source-link"
       },
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-06T23:55:00.000Z",
+      "updatedAt": "2026-07-08T20:10:11Z",
       "legacy": null
     },
     {
@@ -2510,7 +2520,11 @@
       "session_professor_20-sporgsmal-mytologi_v2_showcase"
     ],
     "contentHash": "d5e90a2bc08e85ddd64ed6bc6d15c970d948cc9c571e5159586857747e8defc4",
-    "packageHash": "8c9941f41f9ce6b6e89d9dc4788e8cbf3ee0c3469314baf8168cc9673387a5c3"
+    "packageHash": "8c9941f41f9ce6b6e89d9dc4788e8cbf3ee0c3469314baf8168cc9673387a5c3",
+    "quality": {
+      "sourceUpgrade": "fase2-danske-praecise-kilder",
+      "updatedAt": "2026-07-08T20:10:11Z"
+    }
   },
   "warnings": []
 }
