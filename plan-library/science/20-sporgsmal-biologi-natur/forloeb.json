@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "updatedAt": "2026-07-08T21:30:00Z",
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -42,7 +43,7 @@
         "board_professor_20-sporgsmal-biologi-natur_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-biologi-natur_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Biologi og natur",
@@ -67,7 +68,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -1609,7 +1611,7 @@
               "points": 400,
               "options": [
                 "at de to alleler er ens",
-                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+                "at de to alleler er forskellige",
                 "at genet mangler",
                 "at kromosomet er fordoblet"
               ],
@@ -1707,7 +1709,7 @@
               "points": 100,
               "options": [
                 "variation af gener, arter og økosystemer",
-                "antallet af rovdyr som hovedforklaring",
+                "antallet af rovdyr i et bestemt område",
                 "mængden af regn i et område",
                 "ensartethed mellem alle organismer"
               ],
@@ -1763,7 +1765,7 @@
               "points": 500,
               "options": [
                 "en arts rolle og ressourcebrug i økosystemet",
-                "det samme som artens geografiske sted uden at de andre dele inddrages",
+                "kun det geografiske sted, hvor arten findes",
                 "en fysisk rede hos alle dyr",
                 "en organismes kromosomtal"
               ],
@@ -2310,7 +2312,7 @@
             "points": 400,
             "options": [
               "at de to alleler er ens",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "at de to alleler er forskellige",
               "at genet mangler",
               "at kromosomet er fordoblet"
             ],
@@ -2408,7 +2410,7 @@
             "points": 100,
             "options": [
               "variation af gener, arter og økosystemer",
-              "antallet af rovdyr som hovedforklaring",
+              "antallet af rovdyr i et bestemt område",
               "mængden af regn i et område",
               "ensartethed mellem alle organismer"
             ],
@@ -2464,7 +2466,7 @@
             "points": 500,
             "options": [
               "en arts rolle og ressourcebrug i økosystemet",
-              "det samme som artens geografiske sted uden at de andre dele inddrages",
+              "kun det geografiske sted, hvor arten findes",
               "en fysisk rede hos alle dyr",
               "en organismes kromosomtal"
             ],
@@ -2523,7 +2525,8 @@
     "packageHash": "b2c6a1cbced1319508fee99658b371fdbcf46726b955533d80845b88bcad5eaa",
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "warnings": []

@@ -22,7 +22,7 @@
         "board_dansk-25-26-01-aarsplan_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-07T09:05:37Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -33,7 +33,8 @@
         "plannedDate": "2025-08-12",
         "endDate": "2026-05-27",
         "source": "Dansk årsplan 25/26",
-        "sourceKind": "user-plan"
+        "sourceKind": "user-plan",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     },
     {
@@ -67,7 +68,7 @@
         "board_dansk-25-26-02-familien_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-07T09:05:37Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -78,7 +79,8 @@
         "plannedDate": "2025-08-12",
         "endDate": "2025-10-01",
         "source": "Dansk årsplan 25/26",
-        "sourceKind": "user-plan"
+        "sourceKind": "user-plan",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     },
     {
@@ -112,7 +114,7 @@
         "board_dansk-25-26-03-ungdom-identitet_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-07T09:05:37Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -123,7 +125,8 @@
         "plannedDate": "2025-10-22",
         "endDate": "2025-12-17",
         "source": "Dansk årsplan 25/26",
-        "sourceKind": "user-plan"
+        "sourceKind": "user-plan",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     },
     {
@@ -151,7 +154,7 @@
         "board_dansk-25-26-04-romantik-gennembrud_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-07T09:05:37Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -162,7 +165,8 @@
         "plannedDate": "2026-01-06",
         "endDate": "2026-02-10",
         "source": "Dansk årsplan 25/26",
-        "sourceKind": "user-plan"
+        "sourceKind": "user-plan",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     },
     {
@@ -188,7 +192,7 @@
         "board_dansk-25-26-05-frihed-flugt_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-07T09:05:37Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -199,7 +203,8 @@
         "plannedDate": "2026-02-24",
         "endDate": "2026-03-18",
         "source": "Dansk årsplan 25/26",
-        "sourceKind": "user-plan"
+        "sourceKind": "user-plan",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     },
     {
@@ -232,7 +237,7 @@
         "board_dansk-25-26-06-reklamer-proeve_materialer"
       ],
       "createdAt": "2026-06-29T12:45:00.000Z",
-      "updatedAt": "2026-07-07T09:05:37Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_dansk_2025_26",
         "courseTitle": "Dansk 9.–10. klasse · årsplan 2025–26",
@@ -243,7 +248,8 @@
         "plannedDate": "2026-03-24",
         "endDate": "2026-05-27",
         "source": "Dansk årsplan 25/26",
-        "sourceKind": "user-plan"
+        "sourceKind": "user-plan",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -6829,7 +6835,7 @@
             "options": [
               "Relationer kan være tætte på overfladen og samtidig præget af fravær, kontrol eller usikkerhed",
               "Digitale relationer og familierelationer bør holdes adskilt, fordi de tilhører hver sin genre",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "Perspektiveringen bør kun handle om, om personerne ligner hinanden",
               "Perspektiveringen bør primært handle om unges medievaner og ikke om relationer"
             ],
             "correctIndex": 0,
@@ -6865,7 +6871,7 @@
             "options": [
               "Fordi personstemmer udvælges, klippes og placeres, så de støtter filmens fremstilling",
               "Fordi interviews fungerer som neutrale kilder, mens billederne skaber fortolkningen",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "Fordi interviews altid viser sandheden uden filmiske valg",
               "Fordi interviewet primært skal vurderes ud fra, om personen virker sympatisk"
             ],
             "correctIndex": 0,
@@ -6920,7 +6926,7 @@
               "Hvordan relationer formes af facade, ansvar, tavshed og behovet for at høre til",
               "Hvordan familien som institution beskrives historisk fra romantikken til nutiden",
               "Hvordan sociale medier gradvist erstatter nære relationer i alle materialer",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder"
+              "Hvordan alle materialer viser den samme entydige familieløsning"
             ],
             "correctIndex": 0,
             "answer": "Hvordan relationer formes af facade, ansvar, tavshed og behovet for at høre til",
@@ -6955,7 +6961,7 @@
             "options": [
               "De kan skabe socialt pres, kontrast eller følelsesmæssig afstand mellem person og miljø",
               "De kan tydeliggøre filmens genre, men har sjældent betydning for personkarakteristik",
-              "De bruges primært til at markere sceneskift, mens billedsiden bærer temaet uden at de andre dele inddrages",
+              "De markerer primært sceneskift, mens temaet næsten kun bæres af billedsiden",
               "De kan gøre underteksten mindre vigtig, fordi stemningen allerede forklares"
             ],
             "correctIndex": 0,
@@ -10165,7 +10171,7 @@
             "points": 400,
             "options": [
               "Gentagelser, billedsprog, udsigelsesposition og forholdet mellem hyldest og kritik",
-              "Rim og rytme først, fordi sangteksters indhold afhænger af formen uden at de andre dele inddrages",
+              "Rim og rytme isoleret fra udsigelse, billeder og samlet budskab",
               "Sangerens biografi, hvis teksten ikke direkte forklarer sit budskab",
               "Publikums kendskab til sangen, fordi fællessang ændrer tekstens betydning"
             ],
@@ -10363,7 +10369,7 @@
             "points": 500,
             "options": [
               "At undersøge hvordan unge mennesker formes af valg, relationer, selvbillede og omverdenens krav",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "At identitet først og fremmest forklares som en fast personlig egenskab",
               "At sammenligne tekster med nutidige medier for at finde den mest aktuelle problemstilling",
               "At træne både analyse og produktion, men uden at blande kreative og faglige mål"
             ],
@@ -12770,7 +12776,7 @@
             "points": 400,
             "options": [
               "At koble periodebegreber til konkrete træk i tekst, motiv, person og konflikt",
-              "At placere teksten korrekt på tidslinjen og bruge perioden som hovedforklaring",
+              "At bruge perioden som facit uden at vise belæg i teksten",
               "At nævne forfatter og årstal, før man vurderer om teksten passer til perioden",
               "At lade perioden afgøre tekstens budskab, hvis belæggene peger flere steder hen"
             ],
@@ -15168,7 +15174,7 @@
             "options": [
               "Både fysisk bevægelse væk fra noget og indre undvigelse af ansvar, smerte eller konflikt",
               "Først og fremmest en konkret rejse, der skaber handlingens fremdrift",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "Kun en fysisk rejse fra ét sted til et andet",
               "Et motiv, der hører til realistiske tekster mere end til film og lyrik"
             ],
             "correctIndex": 0,
@@ -15223,7 +15229,7 @@
               "En tydelig holdning, relevante argumenter og bevidst appel til modtageren",
               "En undersøgende bevægelse mellem flere mulige synspunkter uden endelig konklusion",
               "En neutral redegørelse for sagen, før forfatteren vurderer den forsigtigt",
-              "En personlig fortælling, hvor erfaringen bærer argumentationen uden tydelig kildekontekst"
+              "En personlig fortælling uden tydelig påstand og uden argumentation"
             ],
             "correctIndex": 0,
             "answer": "En tydelig holdning, relevante argumenter og bevidst appel til modtageren",
@@ -17964,7 +17970,7 @@
               "Renhed, ro og ansvarlighed, som kan overføres til produktets brand",
               "At produktet dokumenterbart er sundere end alternativerne",
               "At reklamen primært henvender sig til børn og unge gennem farver",
-              "At afsenderen undgår brugsværdi og satser på information som eneste forklaring"
+              "At afsenderen kun vil informere neutralt om produktets egenskaber"
             ],
             "correctIndex": 0,
             "answer": "Renhed, ro og ansvarlighed, som kan overføres til produktets brand",
@@ -18287,7 +18293,7 @@
             "options": [
               "Fordi virkemidlernes betydning afhænger af, hvem reklamen forsøger at ramme",
               "Fordi målgruppen afgør, om produktet faktisk er relevant og nødvendigt",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "Fordi målgruppen altid reagerer ens på de samme virkemidler",
               "Fordi modtagerens reaktion kan bruges som facit for reklamens budskab"
             ],
             "correctIndex": 0,
@@ -18604,7 +18610,7 @@
               "points": 500,
               "options": [
                 "Fordi virkeligheden fremstilles gennem valg af kilder, klipning, lyd, rækkefølge og perspektiv",
-                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+                "Fordi dokumentarfilm gengiver virkeligheden uden valg og vinkling",
                 "Fordi modtagerens reaktion er vigtigere end de faktiske oplysninger i filmen",
                 "Fordi interviews og autentiske optagelser primært bruges som dramatiske virkemidler"
               ],
@@ -19382,7 +19388,7 @@
             "points": 500,
             "options": [
               "Fordi virkeligheden fremstilles gennem valg af kilder, klipning, lyd, rækkefølge og perspektiv",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "Fordi dokumentarfilm gengiver virkeligheden uden valg og vinkling",
               "Fordi modtagerens reaktion er vigtigere end de faktiske oplysninger i filmen",
               "Fordi interviews og autentiske optagelser primært bruges som dramatiske virkemidler"
             ],
@@ -25759,7 +25765,10 @@
     },
     "contentHash": "2dec5f5621bddf7320143f8a29ecb8f7f38d60a8e104e52e7470901e2c8a65fe",
     "packageHash": "b6f50c0851c2e8b3ea99b5dbdb00abfe82da573ae2cd407f42cc0a6863bcbe5a",
-    "materialsMode": "external-manual-placeholders"
+    "materialsMode": "external-manual-placeholders",
+    "quality": {
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
+    }
   },
   "warnings": [
     "Denne GitHub-version indeholder ikke indlejrede PDF’er eller billeder.",
@@ -25780,7 +25789,11 @@
       "dansk-25-26-06-reklamer-proeve"
     ],
     "exportedAt": "2026-07-07T01:30:00.000Z",
-    "sourceAppVersion": "0.9.3r"
+    "sourceAppVersion": "0.9.3r",
+    "quality": {
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft",
+      "updatedAt": "2026-07-08T21:30:00Z"
+    }
   },
   "updatedAt": "2026-07-07T12:50:00.000Z",
   "meta": {

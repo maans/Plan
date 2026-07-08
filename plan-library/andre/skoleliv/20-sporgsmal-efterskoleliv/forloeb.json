@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase1-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T19:27:32Z"
+      "updatedAt": "2026-07-08T21:30:00Z",
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -42,7 +43,7 @@
         "board_professor_20-sporgsmal-efterskoleliv_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T19:27:32Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-efterskoleliv_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Efterskoleliv",
@@ -67,7 +68,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -1736,7 +1738,7 @@
               "options": [
                 "løbende vurdering og feedback inden for skolen",
                 "en national folkeafstemning",
-                "økonomisk revision som hovedforklaring",
+                "økonomisk revision",
                 "et valg til Folketinget"
               ],
               "correctIndex": 0,
@@ -2437,7 +2439,7 @@
             "options": [
               "løbende vurdering og feedback inden for skolen",
               "en national folkeafstemning",
-              "økonomisk revision som hovedforklaring",
+              "økonomisk revision",
               "et valg til Folketinget"
             ],
             "correctIndex": 0,
@@ -2523,7 +2525,8 @@
     "packageHash": "435fd57e0b353ef0f9259bdda24823db797102bc19ce95213d72829632509996",
     "quality": {
       "sourceUpgrade": "fase1-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T19:27:32Z"
+      "updatedAt": "2026-07-08T19:27:32Z",
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "warnings": []

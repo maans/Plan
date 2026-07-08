@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase1-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T19:27:32Z"
+      "updatedAt": "2026-07-08T21:30:00Z",
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -42,7 +43,7 @@
         "board_professor_20-sporgsmal-klimaforandringer_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T19:27:32Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-klimaforandringer_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Klimaforandringer",
@@ -68,7 +69,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase1-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase1-danske-praecise-kilder",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -1734,7 +1736,7 @@
                 "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
                 "den producerer varme ved at brænde kul i boligen",
                 "den omdanner al varme til lys",
-                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder"
+                "den skaber varme uden at flytte energi"
               ],
               "correctIndex": 0,
               "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
@@ -2435,7 +2437,7 @@
               "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
               "den producerer varme ved at brænde kul i boligen",
               "den omdanner al varme til lys",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder"
+              "den skaber varme uden at flytte energi"
             ],
             "correctIndex": 0,
             "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
@@ -2520,7 +2522,8 @@
     "packageHash": "d701e98598325c0f332f920f96a7750baaa4077f45cae0feb4511381e89adf4b",
     "quality": {
       "sourceUpgrade": "fase1-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T19:27:32Z"
+      "updatedAt": "2026-07-08T19:27:32Z",
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "warnings": []

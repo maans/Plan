@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "updatedAt": "2026-07-08T21:30:00Z",
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -42,7 +43,7 @@
         "board_professor_20-sporgsmal-kropssprog_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T23:55:00.000Z",
-      "updatedAt": "2026-07-08T20:10:11Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-kropssprog_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Kropssprog",
@@ -68,7 +69,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase2-danske-praecise-kilder"
+        "sourceQualityUpgrade": "fase2-danske-praecise-kilder",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -1652,7 +1654,7 @@
               "points": 200,
               "options": [
                 "at signalerne peger i samme retning",
-                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+                "at ord og kropssignaler trækker i hver sin retning",
                 "at kun stemmen bruges",
                 "at kommunikationen foregår på skrift"
               ],
@@ -1695,7 +1697,7 @@
               "options": [
                 "nærhed, magt og holdning",
                 "postnummer og CPR-nummer",
-                "grammatisk køn som hovedforklaring",
+                "grammatisk køn og sætningsled",
                 "vejrudsigten"
               ],
               "correctIndex": 0,
@@ -1708,7 +1710,7 @@
               "points": 100,
               "options": [
                 "tallet kan ikke generaliseres til al kommunikation",
-                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+                "tallet gælder alle situationer, hvis man bare måler kropssignaler",
                 "kropssprog er vanskelig at finde i de valgte kilder",
                 "ord har mindre betydning end kropslige signaler"
               ],
@@ -1736,7 +1738,7 @@
               "points": 300,
               "options": [
                 "den kan have forskellige eller modsatte betydninger",
-                "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+                "den betyder det samme, hvis bevægelsen ser ens ud",
                 "den mister al betydning uden tale",
                 "den forstås kun af børn"
               ],
@@ -2353,7 +2355,7 @@
             "points": 200,
             "options": [
               "at signalerne peger i samme retning",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "at ord og kropssignaler trækker i hver sin retning",
               "at kun stemmen bruges",
               "at kommunikationen foregår på skrift"
             ],
@@ -2396,7 +2398,7 @@
             "options": [
               "nærhed, magt og holdning",
               "postnummer og CPR-nummer",
-              "grammatisk køn som hovedforklaring",
+              "grammatisk køn og sætningsled",
               "vejrudsigten"
             ],
             "correctIndex": 0,
@@ -2409,7 +2411,7 @@
             "points": 100,
             "options": [
               "tallet kan ikke generaliseres til al kommunikation",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "tallet gælder alle situationer, hvis man bare måler kropssignaler",
               "kropssprog er vanskelig at finde i de valgte kilder",
               "ord har mindre betydning end kropslige signaler"
             ],
@@ -2437,7 +2439,7 @@
             "points": 300,
             "options": [
               "den kan have forskellige eller modsatte betydninger",
-              "Udviklingen forklares som automatisk og entydig uden at undersøge flere kilder",
+              "den betyder det samme, hvis bevægelsen ser ens ud",
               "den mister al betydning uden tale",
               "den forstås kun af børn"
             ],
@@ -2524,7 +2526,8 @@
     "packageHash": "1d42a7a5833633ef55003788b051b8fefc7ce884ab7a378880d63cc78a98cb53",
     "quality": {
       "sourceUpgrade": "fase2-danske-praecise-kilder",
-      "updatedAt": "2026-07-08T20:10:11Z"
+      "updatedAt": "2026-07-08T20:10:11Z",
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "warnings": []

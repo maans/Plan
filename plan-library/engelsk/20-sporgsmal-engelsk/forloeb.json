@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "updatedAt": "2026-07-08T21:30:00Z",
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -42,7 +43,7 @@
         "board_professor_20-sporgsmal-engelsk_v2_showcase_10"
       ],
       "createdAt": "2026-07-07T00:45:00.000Z",
-      "updatedAt": "2026-07-08T20:35:30Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-engelsk_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Engelsk sprog og kultur",
@@ -67,7 +68,8 @@
           "Webressourcer",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -1623,7 +1625,7 @@
                 "grundformen uden “to”",
                 "datidsformen",
                 "-ing-formen",
-                "perfektum participium som hovedforklaring"
+                "perfektum participium"
               ],
               "correctIndex": 0,
               "answer": "grundformen uden “to”"
@@ -2324,7 +2326,7 @@
               "grundformen uden “to”",
               "datidsformen",
               "-ing-formen",
-              "perfektum participium som hovedforklaring"
+              "perfektum participium"
             ],
             "correctIndex": 0,
             "answer": "grundformen uden “to”"
@@ -2535,7 +2537,8 @@
     "packageHash": "1ce9e7966e86700a69f026f999f82f86aa4252afd36d44d572663027547a556c",
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "updatedAt": "2026-07-08T20:35:30Z",
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "warnings": []

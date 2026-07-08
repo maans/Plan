@@ -19,7 +19,8 @@
     "sourceAppVersion": "1.0.9",
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "updatedAt": "2026-07-08T21:30:00Z",
+      "kapardyUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "sessions": [
@@ -42,7 +43,7 @@
         "board_professor_20-sporgsmal-rumfart_v2_showcase_10"
       ],
       "createdAt": "2026-07-06T18:30:00.000Z",
-      "updatedAt": "2026-07-08T20:35:30Z",
+      "updatedAt": "2026-07-08T21:30:00Z",
       "meta": {
         "courseId": "course_professor_20-sporgsmal-rumfart_v2_showcase",
         "courseTitle": "20 spørgsmål fra professoren · Rumfart",
@@ -68,7 +69,8 @@
           "Huskekortmatrix",
           "KaPardy"
         ],
-        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering"
+        "sourceQualityUpgrade": "fase3-9-10-dansk-kildestilladsering",
+        "kapardyQualityUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
       }
     }
   ],
@@ -1738,7 +1740,7 @@
                 "over ækvator",
                 "over Nordpolen",
                 "over en vilkårlig breddegrad",
-                "direkte over nulmeridianen som hovedforklaring"
+                "direkte over nulmeridianen"
               ],
               "correctIndex": 0,
               "answer": "over ækvator"
@@ -2439,7 +2441,7 @@
               "over ækvator",
               "over Nordpolen",
               "over en vilkårlig breddegrad",
-              "direkte over nulmeridianen som hovedforklaring"
+              "direkte over nulmeridianen"
             ],
             "correctIndex": 0,
             "answer": "over ækvator"
@@ -2524,7 +2526,8 @@
     "packageHash": "43755b656f8f90b2b22aaa12d39c9381e0f5a541cee4c12be54c42f8d0aee809",
     "quality": {
       "sourceUpgrade": "fase3-9-10-dansk-kildestilladsering",
-      "updatedAt": "2026-07-08T20:35:30Z"
+      "updatedAt": "2026-07-08T20:35:30Z",
+      "kapardyDidacticUpgrade": "fase6-systemisk-skabelonrens-og-distraktorloeft"
     }
   },
   "warnings": []
