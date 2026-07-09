@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘pharmacy’?,100,apotek,bibliotek,bageri,domhus,,,
-Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘courthouse’?,200,domhus,bibliotek,bageri,apotek,,,
-Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘drizzle’?,300,finregn,torden,brise,hagl,,,
-Grammatik og udtale,Hvad er den korrekte flertalsform af “child”?,100,children,childs,childes,childrens,,,
-Grammatik og udtale,Hvad er datidsformen af “go”?,200,went,goed,gone,going,,,
-Grammatik og udtale,Hvad er perfektum participium af “write”?,300,written,wrote,writed,writing,,,
-Litteratur og kultur,Hvem skrev værket “Pride and Prejudice”?,100,Jane Austen,William Shakespeare,Charles Dickens,George Orwell,,,
-Litteratur og kultur,Hvem skrev værket “Great Expectations”?,200,Charles Dickens,William Shakespeare,Jane Austen,George Orwell,,,
-Den engelsktalende verden,Hvad er hovedstaden i Irland?,100,Dublin,London,Ottawa,Wellington,,,
-Den engelsktalende verden,Hvad er hovedstaden i Canada?,200,Ottawa,London,Dublin,Wellington,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘pharmacy’?,100,apotek,bibliotek,bageri,domhus,,,,Wiktionary – pharmacy,https://en.wiktionary.org/wiki/pharmacy,OK – åbnet,2026-07-09,Åbent ordbogsopslag. Underbygger betydningen af “pharmacy”; det danske svar er en elevvenlig oversættelse/parafrase.
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘courthouse’?,200,domhus,bibliotek,bageri,apotek,,,,Wiktionary – courthouse,https://en.wiktionary.org/wiki/courthouse,OK – åbnet,2026-07-09,Åbent ordbogsopslag. Underbygger betydningen af “courthouse”; det danske svar er en elevvenlig oversættelse/parafrase.
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘drizzle’?,300,finregn,torden,brise,hagl,,,,Wiktionary – drizzle,https://en.wiktionary.org/wiki/drizzle,OK – åbnet,2026-07-09,Åbent ordbogsopslag. Underbygger betydningen af “drizzle”; det danske svar er en elevvenlig oversættelse/parafrase.
+Grammatik og udtale,Hvad er den korrekte flertalsform af “child”?,100,children,childs,childes,childrens,,,,British Council – Count nouns,https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/count-nouns,OK – åbnet,2026-07-09,Åben grammatikkilde. Underbygger flertalsformen “children” for “child”.
+Grammatik og udtale,Hvad er datidsformen af “go”?,200,went,goed,gone,going,,,,British Council – Irregular verbs,https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/irregular-verbs,OK – åbnet,2026-07-09,Åben grammatikkilde. Underbygger at datidsformen af “go” er “went”.
+Grammatik og udtale,Hvad er perfektum participium af “write”?,300,written,wrote,writed,writing,,,,British Council – Irregular verbs,https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/irregular-verbs,OK – åbnet,2026-07-09,Åben grammatikkilde. Underbygger at perfektum participium/past participle af “write” er “written”.
+Litteratur og kultur,Hvem skrev værket “Pride and Prejudice”?,100,Jane Austen,William Shakespeare,Charles Dickens,George Orwell,,,,Lex – Jane Austen,https://lex.dk/Jane_Austen,OK – åbnet,2026-07-09,Dansk Lex-kilde. Underbygger at Jane Austen skrev Pride and Prejudice.
+Litteratur og kultur,Hvem skrev værket “Great Expectations”?,200,Charles Dickens,William Shakespeare,Jane Austen,George Orwell,,,,Lex – Charles Dickens,https://lex.dk/Charles_Dickens,OK – åbnet,2026-07-09,Dansk Lex-kilde. Underbygger at Charles Dickens skrev Great Expectations.
+Den engelsktalende verden,Hvad er hovedstaden i Irland?,100,Dublin,London,Ottawa,Wellington,,,,Lex – Dublin,https://lex.dk/Dublin,OK – åbnet,2026-07-09,Dansk Lex-kilde. Underbygger at Dublin er hovedstad i Irland.
+Den engelsktalende verden,Hvad er hovedstaden i Canada?,200,Ottawa,London,Dublin,Wellington,,,,Lex – Canada,https://lex.dk/Canada,OK – åbnet,2026-07-09,Dansk Lex-kilde. Underbygger at Ottawa er Canadas hovedstad.

@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘library’?,100,bibliotek,bageri,apotek,domhus,,,
-Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘bakery’?,200,bageri,bibliotek,apotek,domhus,,,
-Grammatik og udtale,Hvilken artikel skal stå foran “hour” i standardsproget engelsk?,100,an,a,the,ingen artikel,,,
-Litteratur og kultur,Hvem skrev værket “Hamlet”?,100,William Shakespeare,Jane Austen,Charles Dickens,George Orwell,,,
-Den engelsktalende verden,Hvad er hovedstaden i Storbritannien?,100,London,Dublin,Ottawa,Wellington,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘library’?,100,bibliotek,bageri,apotek,domhus,,,,Wiktionary – library,https://en.wiktionary.org/wiki/library,OK – åbnet,2026-07-09,Åbent ordbogsopslag. Underbygger betydningen af “library”; det danske svar er en elevvenlig oversættelse/parafrase.
+Ord og vendinger,Hvad betyder det engelske ord eller udtryk ‘bakery’?,200,bageri,bibliotek,apotek,domhus,,,,Wiktionary – bakery,https://en.wiktionary.org/wiki/bakery,OK – åbnet,2026-07-09,Åbent ordbogsopslag. Underbygger betydningen af “bakery”; det danske svar er en elevvenlig oversættelse/parafrase.
+Grammatik og udtale,Hvilken artikel skal stå foran “hour” i standardsproget engelsk?,100,an,a,the,ingen artikel,,,,"British Council – Articles: a, an and the",https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the,OK – åbnet,2026-07-09,Åben grammatikkilde. Underbygger at “an” bruges før vokallyd; “hour” begynder med vokallyd i standardsproget engelsk.
+Litteratur og kultur,Hvem skrev værket “Hamlet”?,100,William Shakespeare,Jane Austen,Charles Dickens,George Orwell,,,,Lex – Hamlet,https://lex.dk/Hamlet_-_tragedie_af_William_Shakespeare,OK – åbnet,2026-07-09,Dansk Lex-kilde. Underbygger at Hamlet er en tragedie af William Shakespeare.
+Den engelsktalende verden,Hvad er hovedstaden i Storbritannien?,100,London,Dublin,Ottawa,Wellington,,,,Lex – London,https://lex.dk/London_-_by_i_England,OK – åbnet,2026-07-09,Dansk Lex-kilde. Underbygger at London er hovedstad i Storbritannien.
