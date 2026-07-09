@@ -271,7 +271,7 @@ body.tn-window-dragging .tn-widget-header{cursor:grabbing!important}
   .tn-kapardy-setup p{max-width:52ch;margin:0;opacity:.78;line-height:1.45}
   .tn-kapardy-setup>div{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
   .tn-kapardy-setup button.primary{background:#2563eb;color:#fff;border-color:#2563eb}
-  .tn-kapardy-start{display:grid;grid-template-rows:auto auto minmax(0,1fr);align-content:start;gap:12px;min-height:100%;padding:14px;box-sizing:border-box;overflow:auto}
+  .tn-kapardy-start{display:grid;grid-template-rows:auto auto auto minmax(0,1fr);align-content:start;gap:12px;min-height:100%;padding:14px;box-sizing:border-box;overflow:auto}
   .tn-kapardy-start-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:start}
   .tn-kapardy-start-head h3{margin:0;font-size:clamp(25px,4vw,42px);line-height:1.05}
   .tn-kapardy-start-head p{margin:5px 0 0;opacity:.74;line-height:1.35}
@@ -280,19 +280,26 @@ body.tn-window-dragging .tn-widget-header{cursor:grabbing!important}
   .tn-kapardy-start-stat{display:grid;gap:2px;padding:9px 11px;border-radius:13px;background:color-mix(in srgb,currentColor 7%,transparent);text-align:center}
   .tn-kapardy-start-stat strong{font-size:clamp(20px,3vw,30px);font-variant-numeric:tabular-nums}
   .tn-kapardy-start-stat span{font-size:12px;font-weight:850;opacity:.72}
-  .tn-kapardy-active-game{display:grid;gap:9px;padding:10px 12px;border:1px solid #3b82f6;border-radius:15px;background:linear-gradient(135deg,rgba(37,99,235,.16),rgba(15,23,42,.3));box-shadow:inset 0 0 0 1px rgba(96,165,250,.12)}
+  .tn-kapardy-active-game{display:grid;gap:9px;padding:10px 12px;border:1px solid #3b82f6;border-radius:15px;background:linear-gradient(135deg,rgba(37,99,235,.16),rgba(15,23,42,.3));box-shadow:inset 0 0 0 1px rgba(96,165,250,.12);overflow:hidden}
   .tn-kapardy-active-game-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
   .tn-kapardy-active-game-title{display:grid;gap:2px;min-width:0}
   .tn-kapardy-active-game-title strong{font-size:16px}
   .tn-kapardy-active-game-title small{color:color-mix(in srgb,currentColor 72%,transparent);font-weight:800;line-height:1.35}
   .tn-kapardy-active-game-state{display:inline-flex;align-items:center;min-height:30px;padding:5px 10px;border-radius:999px;background:#2563eb;color:#fff;font-size:12px;font-weight:950;white-space:nowrap}
   .tn-kapardy-active-game-state.finished{background:#475569}
-  .tn-kapardy-active-score-strip{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(122px,1fr);gap:7px;overflow-x:auto;overscroll-behavior-inline:contain;padding:1px 0 3px;scrollbar-width:thin}
-  .tn-kapardy-active-score{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:'name score' 'meta score';gap:1px 8px;align-items:center;min-width:0;padding:8px 10px;border:1px solid color-mix(in srgb,currentColor 17%,transparent);border-radius:11px;background:color-mix(in srgb,currentColor 7%,transparent)}
+  .tn-kapardy-active-score-strip{display:flex;flex-wrap:nowrap;align-items:stretch;gap:7px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;padding:1px 0 3px;scrollbar-width:thin}
+  .tn-kapardy-active-score{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:'name score' 'meta score';gap:1px 8px;align-items:center;flex:1 0 150px;min-width:150px;padding:8px 10px;border:1px solid color-mix(in srgb,currentColor 17%,transparent);border-radius:11px;background:color-mix(in srgb,currentColor 7%,transparent)}
   .tn-kapardy-active-score.current{border-color:#60a5fa;box-shadow:inset 0 0 0 1px #60a5fa}
   .tn-kapardy-active-score span{grid-area:name;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;font-weight:900}
   .tn-kapardy-active-score strong{grid-area:score;font-size:21px;font-variant-numeric:tabular-nums}
   .tn-kapardy-active-score small{grid-area:meta;opacity:.68;font-size:10px;font-weight:800}
+  .tn-kapardy-active-game+.tn-kapardy-start-panel{margin-top:2px}
+
+  .tn-kapardy-start.has-progress{grid-template-rows:auto auto auto minmax(0,1fr);gap:10px}
+  .tn-kapardy-start.has-progress .tn-kapardy-start-card{padding:10px}
+  .tn-kapardy-start.has-progress .tn-kapardy-start-card.tn-kapardy-start-teams{grid-template-rows:auto minmax(120px,1fr) auto auto}
+  .tn-kapardy-start.has-progress .tn-kapardy-start-card textarea{min-height:clamp(115px,22vh,210px)}
+  .tn-kapardy-start.has-progress .tn-kapardy-start-side-actions button,.tn-kapardy-start.has-progress .tn-kapardy-start-card button{min-height:38px;padding:7px 12px}
   .tn-kapardy-start-panel{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(300px,.75fr);grid-template-areas:'teams modes';align-items:start;gap:12px;min-height:auto}
   .tn-kapardy-start-panel>.tn-kapardy-start-card:first-child{grid-area:teams}
   .tn-kapardy-start-panel>.tn-kapardy-start-card:last-child{grid-area:modes}
@@ -390,6 +397,7 @@ body.tn-window-dragging .tn-widget-header{cursor:grabbing!important}
   .tn-kapardy-group-picker button small{opacity:.7}
   @media(max-width:620px){.tn-kapardy-options{grid-template-columns:1fr}.tn-kapardy-scoreboard{grid-template-columns:repeat(2,minmax(0,1fr))}.tn-kapardy-team{grid-template-columns:32px minmax(0,1fr) 32px}.tn-kapardy-team [data-minus],.tn-kapardy-team [data-plus]{width:32px}.tn-kapardy-editor{min-width:0}.tn-kapardy-editor-card-head{grid-template-columns:auto minmax(0,1fr)}.tn-kapardy-editor-card-head label:nth-of-type(2),.tn-kapardy-editor-tools{grid-column:1/-1}.tn-kapardy-editor-answers{grid-template-columns:1fr}.tn-kapardy-start-head{grid-template-columns:1fr}.tn-kapardy-mode-badge{width:100%}.tn-kapardy-active-game-head{align-items:flex-start}.tn-kapardy-active-game-state{width:100%;justify-content:center}.tn-kapardy-start-panel{grid-template-columns:1fr;grid-template-areas:'teams' 'modes'}.tn-kapardy-start-side-actions{justify-content:stretch}.tn-kapardy-start-side-actions button{flex:1 1 100%}}
   @media(max-height:760px){.tn-kapardy-start{align-content:start}.tn-kapardy-start-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.tn-kapardy-start-panel{grid-template-columns:minmax(0,1.35fr) minmax(260px,.85fr);grid-template-areas:'teams modes'}}
+  @media(max-height:760px){.tn-kapardy-start.has-progress{gap:9px;padding:12px}.tn-kapardy-start.has-progress .tn-kapardy-start-head h3{font-size:clamp(22px,3.4vw,34px)}.tn-kapardy-start.has-progress .tn-kapardy-start-head p{font-size:13px}.tn-kapardy-start.has-progress .tn-kapardy-start-stat{padding:7px 10px}.tn-kapardy-start.has-progress .tn-kapardy-active-game{padding:9px 11px}.tn-kapardy-start.has-progress .tn-kapardy-start-card textarea{min-height:clamp(90px,18vh,170px)}.tn-kapardy-start.has-progress .tn-kapardy-mode-grid button{min-height:52px;padding:7px 9px}.tn-kapardy-start.has-progress .tn-kapardy-setting{padding:6px 0}.tn-kapardy-start.has-progress .tn-kapardy-start-side-actions{gap:7px}}
 
 
 </style>
@@ -4565,7 +4573,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
         const activeGamePosition=content.gameMode==='mix'?(content.mix?.completed?`Mix gennemført · ${mixCompletedCount()}/${content.mix?.plan?.length||questions.length*3} trin`:mixLabel()):`${activeMode} · ${usedCount}/${questions.length} spørgsmål brugt`;
         const activeGameState=content.gameFinished?'Afsluttet · point bevaret':'Spil i gang · point aktive';
         const activeScores=(teams||[]).map((team,index)=>`<div class="tn-kapardy-active-score ${index===activeTeamIndex?'current':''}"><span>${escape(text(team.name)||`Hold ${index+1}`)}</span><strong>${Number(team.score)||0}</strong><small>${Number(team.correct)||0} rigtige${index===activeTeamIndex?' · aktivt hold':''}</small></div>`).join('');
-        root.innerHTML=`<div class="tn-kapardy-start">
+        root.innerHTML=`<div class="tn-kapardy-start ${progressExists?'has-progress':''}">
           <div class="tn-kapardy-start-head"><div><h3>${escape(widget.title||'KaPardy')}</h3><p>Vælg spilform og gør holdene klar. Den samme enkle spørgsmålsbank kan genbruges i alle KaPardy-spil.</p></div><button type="button" class="tn-kapardy-mode-badge" data-primary-start>${progressExists?`Fortsæt ${activeMode}`:`Start ${activeMode}`}</button></div>
           <div class="tn-kapardy-start-stats"><div class="tn-kapardy-start-stat"><strong>${questions.length}</strong><span>spørgsmål</span></div><div class="tn-kapardy-start-stat"><strong>${categoryCount}</strong><span>kategorier</span></div><div class="tn-kapardy-start-stat"><strong>${usedCount}</strong><span>brugt i spillet</span></div></div>
           ${progressExists?`<section class="tn-kapardy-active-game"><div class="tn-kapardy-active-game-head"><div class="tn-kapardy-active-game-title"><strong>${content.gameFinished?'Seneste spil':'Aktivt spil'} · ${escape(activeMode)}</strong><small>${escape(activeGamePosition)} · ${content.gameFinished?'pointene er stadig gemt':`${escape(activeTeamName)} er aktivt hold`}</small></div><span class="tn-kapardy-active-game-state ${content.gameFinished?'finished':''}">${escape(activeGameState)}</span></div><div class="tn-kapardy-active-score-strip">${activeScores}</div></section>`:''}
