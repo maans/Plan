@@ -1,16 +1,16 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Symboler og navne,Hvilket grundstof har symbolet C?,100,Kulstof,Kvælstof,Aluminium,Kalium,,,
-Symboler og navne,Hvad er det kemiske symbol for kvælstof?,200,N,F,S,Fe,,,
-Symboler og navne,Hvilket grundstof har symbolet O?,300,Ilt,Fluor,Fosfor,Titan,,,
-Symboler og navne,Hvad er det kemiske symbol for fluor?,400,F,Na,Ar,Ni,,,
-Atomnumre og system,Hvad er atomnummeret for neon?,100,10,11,9,12,,,
-Atomnumre og system,Hvad er atomnummeret for natrium?,200,11,12,10,13,,,
-Atomnumre og system,Hvad er atomnummeret for magnesium?,300,12,13,11,14,,,
-Atomnumre og system,Hvad er atomnummeret for aluminium?,400,13,14,12,15,,,
-Grupper og egenskaber,"Hvad kaldes grundstofferne i gruppe 1, bortset fra hydrogen?",100,Alkalimetaller,Jordalkalimetaller,Halogener,Overgangsmetaller,,,
-Grupper og egenskaber,Hvilket af disse grundstoffer er en ædelgas?,200,Neon,Natrium,Klor,Calcium,,,
-Grupper og egenskaber,Hvilket af disse grundstoffer er et halogen?,300,Brom,Argon,Magnesium,Aluminium,,,
-Grupper og egenskaber,Hvilket af disse grundstoffer er et alkalimetal?,400,Kalium,Calcium,Kobber,Krypton,,,
-Stoffer og anvendelser,Hvad er den kemiske formel for iltmolekylet i atmosfæren?,100,O₂,O,O₃,CO₂,,,
-Stoffer og anvendelser,Hvad er den kemiske formel for ozon?,200,O₃,O₂,CO₃,N₂O,,,
-Stoffer og anvendelser,Hvilket grundstof bruges i glødetråden i traditionelle glødepærer?,300,Wolfram,Kobber,Tin,Bly,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Symboler og navne,Hvilket grundstof har symbolet C?,100,Kulstof,Kvælstof,Aluminium,Kalium,,,,Royal Society of Chemistry – Kulstof/carbon,https://periodic-table.rsc.org/element/6/carbon,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Symboler og navne,Hvad er det kemiske symbol for kvælstof?,200,N,F,S,Fe,,,,Royal Society of Chemistry – Kvælstof/nitrogen,https://periodic-table.rsc.org/element/7/nitrogen,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Symboler og navne,Hvilket grundstof har symbolet O?,300,Ilt,Fluor,Fosfor,Titan,,,,Royal Society of Chemistry – Ilt/oxygen,https://periodic-table.rsc.org/element/8/oxygen,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Symboler og navne,Hvad er det kemiske symbol for fluor?,400,F,Na,Ar,Ni,,,,Royal Society of Chemistry – Fluor,https://periodic-table.rsc.org/element/9/fluorine,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Atomnumre og system,Hvad er atomnummeret for neon?,100,10,11,9,12,,,,Royal Society of Chemistry – Neon,https://periodic-table.rsc.org/element/10/neon,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Atomnumre og system,Hvad er atomnummeret for natrium?,200,11,12,10,13,,,,Royal Society of Chemistry – Natrium/sodium,https://periodic-table.rsc.org/element/11/sodium,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Atomnumre og system,Hvad er atomnummeret for magnesium?,300,12,13,11,14,,,,Royal Society of Chemistry – Magnesium,https://periodic-table.rsc.org/element/12/magnesium,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Atomnumre og system,Hvad er atomnummeret for aluminium?,400,13,14,12,15,,,,Royal Society of Chemistry – Aluminium,https://periodic-table.rsc.org/element/13/aluminium,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
+Grupper og egenskaber,"Hvad kaldes grundstofferne i gruppe 1, bortset fra hydrogen?",100,Alkalimetaller,Jordalkalimetaller,Halogener,Overgangsmetaller,,,,Lex – alkalimetaller,https://lex.dk/alkalimetaller,OK,2026-07-09,"Dansk nationalleksikon. Underbygger gruppe 1-metallerne lithium, natrium, kalium, rubidium, cæsium og francium."
+Grupper og egenskaber,Hvilket af disse grundstoffer er en ædelgas?,200,Neon,Natrium,Klor,Calcium,,,,Lex – ædelgasser,https://lex.dk/%C3%A6delgasser,OK,2026-07-09,"Dansk nationalleksikon. Underbygger gruppe 18 og ædelgasserne helium, neon, argon, krypton, xenon og radon."
+Grupper og egenskaber,Hvilket af disse grundstoffer er et halogen?,300,Brom,Argon,Magnesium,Aluminium,,,,Lex – halogener,https://lex.dk/halogener,OK,2026-07-09,"Dansk nationalleksikon. Underbygger gruppe 17 og halogenerne fluor, klor, brom, jod og astat."
+Grupper og egenskaber,Hvilket af disse grundstoffer er et alkalimetal?,400,Kalium,Calcium,Kobber,Krypton,,,,Lex – alkalimetaller,https://lex.dk/alkalimetaller,OK,2026-07-09,"Dansk nationalleksikon. Underbygger gruppe 1-metallerne lithium, natrium, kalium, rubidium, cæsium og francium."
+Stoffer og anvendelser,Hvad er den kemiske formel for iltmolekylet i atmosfæren?,100,O₂,O,O₃,CO₂,,,,Lex – oxygen,https://lex.dk/oxygen,OK,2026-07-09,Dansk nationalleksikon. Underbygger dioxygen O₂ og ozon O₃ som oxygenmolekyler.
+Stoffer og anvendelser,Hvad er den kemiske formel for ozon?,200,O₃,O₂,CO₃,N₂O,,,,Lex – oxygen,https://lex.dk/oxygen,OK,2026-07-09,Dansk nationalleksikon. Underbygger dioxygen O₂ og ozon O₃ som oxygenmolekyler.
+Stoffer og anvendelser,Hvilket grundstof bruges i glødetråden i traditionelle glødepærer?,300,Wolfram,Kobber,Tin,Bly,,,,Royal Society of Chemistry – Wolfram/tungsten,https://periodic-table.rsc.org/element/74/tungsten,OK,2026-07-09,"Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."

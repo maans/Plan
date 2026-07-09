@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Lande og hovedstæder,Hvad er hovedstaden i Danmark?,100,København,Helsinki,Lissabon,Ljubljana,,,
-Lande og hovedstæder,Hvilket land har Oslo som hovedstad?,200,Norge,Estland,Irland,Albanien,,,
-Kortet og naturen,Hvilket land har Skopje som hovedstad?,100,Nordmakedonien,Ukraine,Malta,Spanien,,,
-Kendte steder,I hvilken hovedstad står Eiffeltårnet?,100,Paris,Bruxelles,Madrid,Rom,,,
-Historie og institutioner,Hvilken by er Belgiens hovedstad og hovedsæde for Europa-Kommissionen?,100,Bruxelles,Strasbourg,Luxembourg,Haag,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Lande og hovedstæder,Hvad er hovedstaden i Danmark?,100,København,Helsinki,Lissabon,Ljubljana,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Lande og hovedstæder,Hvilket land har Oslo som hovedstad?,200,Norge,Estland,Irland,Albanien,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Kortet og naturen,Hvilket land har Skopje som hovedstad?,100,Nordmakedonien,Ukraine,Malta,Spanien,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Kendte steder,I hvilken hovedstad står Eiffeltårnet?,100,Paris,Bruxelles,Madrid,Rom,,,,Eiffel Tower – The monument,https://www.toureiffel.paris/en/the-monument,OK,2026-07-09,Officiel side for Eiffeltårnet. Underbygger Eiffeltårnet som vartegn i Paris.
+Historie og institutioner,Hvilken by er Belgiens hovedstad og hovedsæde for Europa-Kommissionen?,100,Bruxelles,Strasbourg,Luxembourg,Haag,,,,European Commission – Visit the European Commission,https://commission.europa.eu/get-involved/visit-european-commission_en,OK,2026-07-09,"Officiel EU-side. Underbygger, at Europa-Kommissionen kan besøges ved hovedkvarteret i Bruxelles."

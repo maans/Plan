@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Lande og hovedstæder,Hvad er hovedstaden i Sverige?,100,Stockholm,Tallinn,Athen,Sarajevo,,,
-Lande og hovedstæder,Hvilket land har Helsinki som hovedstad?,200,Finland,Litauen,Belgien,Bulgarien,,,
-Lande og hovedstæder,Hvad er hovedstaden i Island?,300,Reykjavík,Vilnius,London,Podgorica,,,
-Kortet og naturen,Hvad er hovedstaden i Bulgarien?,100,Sofia,Kyiv,Vatikanstaten,Vilnius,,,
-Kortet og naturen,Hvilket land har Bukarest som hovedstad?,200,Rumænien,Nederlandene,Tyrkiet,Italien,,,
-Kortet og naturen,Hvad er hovedstaden i Moldova?,300,Chișinău,Amsterdam,Nicosia,Paris,,,
-Kendte steder,I hvilken hovedstad ligger Colosseum?,100,Rom,Athen,Lissabon,Valletta,,,
-Kendte steder,I hvilken hovedstad ligger Akropolis?,200,Athen,Sofia,Skopje,Nicosia,,,
-Historie og institutioner,I hvilken hovedstad har NATO sit politiske hovedkvarter?,100,Bruxelles,Paris,Berlin,Wien,,,
-Historie og institutioner,"Hvilken by er en af Europa-Parlamentets officielle arbejdsbyer, men ikke Frankrigs hovedstad?",200,Strasbourg,Lyon,Marseille,Bordeaux,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Lande og hovedstæder,Hvad er hovedstaden i Sverige?,100,Stockholm,Tallinn,Athen,Sarajevo,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Lande og hovedstæder,Hvilket land har Helsinki som hovedstad?,200,Finland,Litauen,Belgien,Bulgarien,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Lande og hovedstæder,Hvad er hovedstaden i Island?,300,Reykjavík,Vilnius,London,Podgorica,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Kortet og naturen,Hvad er hovedstaden i Bulgarien?,100,Sofia,Kyiv,Vatikanstaten,Vilnius,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Kortet og naturen,Hvilket land har Bukarest som hovedstad?,200,Rumænien,Nederlandene,Tyrkiet,Italien,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Kortet og naturen,Hvad er hovedstaden i Moldova?,300,Chișinău,Amsterdam,Nicosia,Paris,,,,Lex – Europas hovedstæder,https://lex.dk/Europas_hovedst%C3%A6der,OK,2026-07-09,Dansk oversigt fra Lex over europæiske lande og hovedstæder. Underbygger land/hovedstad-relationen i spørgsmålet.
+Kendte steder,I hvilken hovedstad ligger Colosseum?,100,Rom,Athen,Lissabon,Valletta,,,,Lex – Rom,https://lex.dk/Rom,OK,2026-07-09,Dansk Lex-artikel. Underbygger Rom som Italiens hovedstad og omtaler bl.a. Colosseum/Tiberen.
+Kendte steder,I hvilken hovedstad ligger Akropolis?,200,Athen,Sofia,Skopje,Nicosia,,,,"UNESCO World Heritage Centre – Acropolis, Athens",https://whc.unesco.org/en/list/404/,OK,2026-07-09,UNESCO-kilde. Underbygger Akropolis som kulturarvssted i Athen.
+Historie og institutioner,I hvilken hovedstad har NATO sit politiske hovedkvarter?,100,Bruxelles,Paris,Berlin,Wien,,,,NATO – NATO Headquarters,https://www.nato.int/cps/en/natohq/topics_49284.htm,OK,2026-07-09,Officiel NATO-side. Underbygger NATO-hovedkvarterets placering i Bruxelles.
+Historie og institutioner,"Hvilken by er en af Europa-Parlamentets officielle arbejdsbyer, men ikke Frankrigs hovedstad?",200,Strasbourg,Lyon,Marseille,Bordeaux,,,,European Parliament – Strasbourg,https://www.europarl.europa.eu/visiting/en/visitor-offer/strasbourg,OK,2026-07-09,Officiel Europa-Parlamentet-side. Underbygger Strasbourg som parlamentarisk arbejdsby.

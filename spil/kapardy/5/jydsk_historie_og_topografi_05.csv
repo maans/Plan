@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Byer og kendte steder,Hvilken jysk by er Danmarks næststørste og ligger ved Aarhus Bugt?,100,Aarhus,Aalborg,Esbjerg,Randers,,,
-Byer og kendte steder,Hvilken nordjysk by ligger ved Limfjorden og har Utzon Center ved havnefronten?,200,Aalborg,Hjørring,Viborg,Hobro,,,
-Landskab og farvande,Hvilket hav ligger langs Jyllands vestkyst?,100,Nordsøen,Østersøen,Kattegat,Øresund,,,
-Historie og arkæologi,Hvilken konge lod den store Jellingsten rejse?,100,Harald Blåtand,Gorm den Gamle,Svend Tveskæg,Knud den Store,,,
-"Kultur, erhverv og forbindelser",Hvilken legetøjskoncern blev grundlagt af Ole Kirk Christiansen i Billund?,100,LEGO,Danfoss,Grundfos,Bang & Olufsen,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Byer og kendte steder,Hvilken jysk by er Danmarks næststørste og ligger ved Aarhus Bugt?,100,Aarhus,Aalborg,Esbjerg,Randers,,,,Lex – Aarhus,https://lex.dk/Aarhus,OK,2026-07-09,"Dansk leksikonartikel. Underbygger at Aarhus er Danmarks næststørste by, ligger ved Aarhus Bugt og rummer centrale kultur- og uddannelsesinstitutioner."
+Byer og kendte steder,Hvilken nordjysk by ligger ved Limfjorden og har Utzon Center ved havnefronten?,200,Aalborg,Hjørring,Viborg,Hobro,,,,Lex – Aalborg,https://lex.dk/Aalborg,OK,2026-07-09,Dansk leksikonartikel. Underbygger Aalborgs placering ved Limfjorden og byens nyere havne-/kulturmiljø.
+Landskab og farvande,Hvilket hav ligger langs Jyllands vestkyst?,100,Nordsøen,Østersøen,Kattegat,Øresund,,,,Lex – Nordsøen,https://lex.dk/Nords%C3%B8en,OK,2026-07-09,Dansk leksikonartikel. Underbygger Nordsøen som havet langs Jyllands vestkyst.
+Historie og arkæologi,Hvilken konge lod den store Jellingsten rejse?,100,Harald Blåtand,Gorm den Gamle,Svend Tveskæg,Knud den Store,,,,"Danmarkshistorien / Lex – Jellingmonumenterne, ca. 950-1000",https://danmarkshistorien.lex.dk/Jellingmonumenterne%2C_ca._950-1000,OK,2026-07-09,Dansk historisk artikel. Underbygger at den store Jellingsten blev rejst af Harald Blåtand og placerer monumenterne i Jelling.
+"Kultur, erhverv og forbindelser",Hvilken legetøjskoncern blev grundlagt af Ole Kirk Christiansen i Billund?,100,LEGO,Danfoss,Grundfos,Bang & Olufsen,,,,Lex – LEGO,https://lex.dk/LEGO,OK,2026-07-09,Dansk leksikonartikel. Underbygger LEGO som legetøjskoncern grundlagt af Ole Kirk Christiansen i Billund.

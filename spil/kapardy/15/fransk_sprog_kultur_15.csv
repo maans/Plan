@@ -1,16 +1,16 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘fenêtre’?,100,vindue,hus,dør,tag,,,
-Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘porte’?,200,dør,hus,vindue,tag,,,
-Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘toit’?,300,tag,hus,vindue,dør,,,
-Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘pomme’?,400,æble,ost,brød,mælk,,,
-Grammatik og udtale,Hvad er den korrekte flertalsform af “journal”?,100,journaux,journals,journales,journails,,,
-Grammatik og udtale,Hvilken sammentrækning svarer til “de + le”?,200,du,des,au,aux,,,
-Grammatik og udtale,Hvilken form af “être” passer til “je”?,300,suis,es,est,sommes,,,
-Grammatik og udtale,Hvilken form af “avoir” passer til “nous”?,400,avons,avez,ont,sommes,,,
-Kunst og kultur,Hvem skrev værket “L’Étranger”?,100,Albert Camus,Molière,Victor Hugo,Gustave Flaubert,,,
-Kunst og kultur,Hvem skrev værket “À la recherche du temps perdu”?,200,Marcel Proust,Antoine de Saint-Exupéry,Marguerite Duras,Annie Ernaux,,,
-Kunst og kultur,Hvem skrev værket “Le Petit Prince”?,300,Antoine de Saint-Exupéry,Marcel Proust,Marguerite Duras,Annie Ernaux,,,
-Kunst og kultur,Hvem skrev værket “L’Amant”?,400,Marguerite Duras,Marcel Proust,Antoine de Saint-Exupéry,Annie Ernaux,,,
-Den frankofone verden,Hvad er hovedstaden i Haiti?,100,Port-au-Prince,Paris,Bruxelles,Dakar,,,
-Den frankofone verden,Hvilket land passer til beskrivelsen “fransk og engelsk er føderale officielle sprog”?,200,Canada,Schweiz,Cameroun,Haiti,,,
-Den frankofone verden,Hvilket land passer til beskrivelsen “fransk er ét af fire nationale sprog”?,300,Schweiz,Canada,Cameroun,Haiti,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘fenêtre’?,100,vindue,hus,dør,tag,,,,Wiktionary – fenêtre,https://en.wiktionary.org/wiki/fen%C3%AAtre,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det franske ord eller udtryk.
+Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘porte’?,200,dør,hus,vindue,tag,,,,Wiktionary – porte,https://en.wiktionary.org/wiki/porte,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det franske ord eller udtryk.
+Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘toit’?,300,tag,hus,vindue,dør,,,,Wiktionary – toit,https://en.wiktionary.org/wiki/toit,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det franske ord eller udtryk.
+Ord og udtryk,Hvad betyder det franske ord eller udtryk ‘pomme’?,400,æble,ost,brød,mælk,,,,Wiktionary – pomme,https://en.wiktionary.org/wiki/pomme,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det franske ord eller udtryk.
+Grammatik og udtale,Hvad er den korrekte flertalsform af “journal”?,100,journaux,journals,journales,journails,,,,Lawless French – Plurals,https://www.lawlessfrench.com/grammar/nouns-and-adjectives-irregular-plurals/,OK,2026-07-09,Forklarer franske flertalsmønstre og uregelmæssige former som -al/-aux.
+Grammatik og udtale,Hvilken sammentrækning svarer til “de + le”?,200,du,des,au,aux,,,,Coffee Break Languages – French contractions,https://coffeebreaklanguages.com/2024/06/du-des-au-and-aux-a-guide-to-french-contractions/,OK,2026-07-09,Åben grammatikside. Underbygger at de + le trækkes sammen til du.
+Grammatik og udtale,Hvilken form af “être” passer til “je”?,300,suis,es,est,sommes,,,,Wiktionary – être,https://en.wiktionary.org/wiki/%C3%AAtre,OK,2026-07-09,Åben ordbogs-/bøjningsartikel. Underbygger bøjningen af être.
+Grammatik og udtale,Hvilken form af “avoir” passer til “nous”?,400,avons,avez,ont,sommes,,,,Wiktionary – avoir,https://en.wiktionary.org/wiki/avoir,OK,2026-07-09,Åben ordbogs-/bøjningsartikel. Underbygger bøjningen af avoir.
+Kunst og kultur,Hvem skrev værket “L’Étranger”?,100,Albert Camus,Molière,Victor Hugo,Gustave Flaubert,,,,Wikipedia – The Stranger (Camus novel),https://en.wikipedia.org/wiki/The_Stranger_(Camus_novel),OK,2026-07-09,Åben artikel om L’Étranger/The Stranger. Underbygger Albert Camus som forfatter.
+Kunst og kultur,Hvem skrev værket “À la recherche du temps perdu”?,200,Marcel Proust,Antoine de Saint-Exupéry,Marguerite Duras,Annie Ernaux,,,,Wikipedia – In Search of Lost Time,https://en.wikipedia.org/wiki/In_Search_of_Lost_Time,OK,2026-07-09,Åben artikel om À la recherche du temps perdu. Underbygger Marcel Proust som forfatter.
+Kunst og kultur,Hvem skrev værket “Le Petit Prince”?,300,Antoine de Saint-Exupéry,Marcel Proust,Marguerite Duras,Annie Ernaux,,,,Wikipedia – The Little Prince,https://en.wikipedia.org/wiki/The_Little_Prince,OK,2026-07-09,Åben artikel om Le Petit Prince. Underbygger Antoine de Saint-Exupéry som forfatter.
+Kunst og kultur,Hvem skrev værket “L’Amant”?,400,Marguerite Duras,Marcel Proust,Antoine de Saint-Exupéry,Annie Ernaux,,,,Wikipedia – The Lover (Duras novel),https://en.wikipedia.org/wiki/The_Lover_(Duras_novel),OK,2026-07-09,Åben artikel om L’Amant/The Lover. Underbygger Marguerite Duras som forfatter.
+Den frankofone verden,Hvad er hovedstaden i Haiti?,100,Port-au-Prince,Paris,Bruxelles,Dakar,,,,CIA World Factbook – Haiti,https://www.cia.gov/the-world-factbook/countries/haiti/,OK,2026-07-09,Åben landeprofil. Underbygger hovedstad og/eller officielle sprog for landet.
+Den frankofone verden,Hvilket land passer til beskrivelsen “fransk og engelsk er føderale officielle sprog”?,200,Canada,Schweiz,Cameroun,Haiti,,,,CIA World Factbook – Canada,https://www.cia.gov/the-world-factbook/countries/canada/,OK,2026-07-09,Åben landeprofil. Underbygger hovedstad og/eller officielle sprog for landet.
+Den frankofone verden,Hvilket land passer til beskrivelsen “fransk er ét af fire nationale sprog”?,300,Schweiz,Canada,Cameroun,Haiti,,,,CIA World Factbook – Switzerland,https://www.cia.gov/the-world-factbook/countries/switzerland/,OK,2026-07-09,Åben landeprofil. Underbygger hovedstad og/eller officielle sprog for landet.
