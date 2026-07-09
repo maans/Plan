@@ -7799,6 +7799,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 <!-- index32_huskekort_slet_kun_i_matrix_SAFE: removes single-card delete button/shortcut from Træn view; deletion remains via Vælg/Slet multi-select in Huskekortmatrix overview. -->
 <!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
 <!-- index24_kapardy_sourcefields_live_data_SAFE: preserves Kildetitel, Kilde-URL, Kildestatus, Kilde tjekket and Kildenote through Huskekortmatrix editor, KaPardy sync and Åbn data. -->
+
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -9649,12 +9650,8 @@ window.addEventListener('DOMContentLoaded',async()=>{
 </script>
 
 
-<!-- Plan v0.9.3bo STARTFIX / NIVEAUDELING I HELE HØJDEN OWNER SAFE:
-Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige <!-- index25_huskekort_fjern_hvad_er_badge_SAFE: removes the extra top-right Hvad er?-badge while keeping the Hvad er?-toggle button and confusions on the answer side. -->
-<!-- index32_huskekort_slet_kun_i_matrix_SAFE: removes single-card delete button/shortcut from Træn view; deletion remains via Vælg/Slet multi-select in Huskekortmatrix overview. -->
-<!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
-</body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
--->
+<!-- Plan v0.9.3bo STARTFIX / NIVEAUDELING I HELE HØJDEN OWNER SAFE: layoutfix uden indgreb i opstart eller HTML-skabeloner. -->
+
 <style id="plan-v093bo-leveling-full-height-style">
 #tnModalRoot .tn-modal.tn-leveling-modal{
   height:min(900px,calc(100vh - 24px))!important;
@@ -39652,32 +39649,113 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 <!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
 
 
-<script id="plan-pdf-manual-help-overlay-safe">
-/* index35_pdf_manual_help_overlay_SAFE: app-level PDF manual entry. External PDF in manualer/, no embedded PDF bytes. */
+<script id="plan-pdf-manual-catalog-safe">
+/* index38_pdf_manual_catalog_VIEWER_SAFE: PDF-manual via catalog.json + built-in reader. No file:// PDF loading. */
 (function(TN){
   'use strict';
-  if(!TN || window.__planPdfManualHelpOverlaySafeApplied) return;
-  window.__planPdfManualHelpOverlaySafeApplied = true;
+  if(!TN || window.__planPdfManualCatalogViewerSafeApplied) return;
+  window.__planPdfManualCatalogViewerSafeApplied = true;
 
-  const MANUAL_URL = 'manualer/plan-kapardy-huskekort.pdf';
-  const MANUAL_TITLE = 'Plan PDF-manual: KaPardy og huskekort';
+  const MANUAL_ID = 'plan-kapardy-huskekort';
+  const DEFAULT_TITLE = 'Plan PDF-manual: KaPardy og huskekort';
+  const DEFAULT_RELATIVE_URL = 'manualer/plan-kapardy-huskekort.pdf';
+  const DEFAULT_WEB_URLS = [
+    'https://cdn.jsdelivr.net/gh/maans/Plan@main/manualer/plan-kapardy-huskekort.pdf',
+    'https://raw.githubusercontent.com/maans/Plan/main/manualer/plan-kapardy-huskekort.pdf',
+    'https://plan.måns.dk/manualer/plan-kapardy-huskekort.pdf'
+  ];
+  const CATALOG_URLS = [
+    'https://cdn.jsdelivr.net/gh/maans/Plan@main/manualer/catalog.json',
+    'https://raw.githubusercontent.com/maans/Plan/main/manualer/catalog.json',
+    'https://plan.måns.dk/manualer/catalog.json'
+  ];
+  let resolvedManualPromise = null;
 
   function app(){ return TN.runtime?.app || window.tavleNextApp || null; }
-  function html(value){ return TN.escapeHtml ? TN.escapeHtml(String(value ?? '')) : String(value ?? '').replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch])); }
-  function manualHref(){
-    try { return new URL(MANUAL_URL, document.baseURI).href; }
-    catch(_) { return MANUAL_URL; }
+  function html(value){ return TN.escapeHtml ? TN.escapeHtml(String(value ?? '')) : String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
+  function clean(value){ return String(value ?? '').trim(); }
+  function isFileMode(){ return location.protocol === 'file:'; }
+  function localUrl(path){ try { return new URL(path, document.baseURI).href; } catch(_) { return path; } }
+
+  function catalogCandidates(){
+    const list=[];
+    const add=url=>{ url=clean(url); if(url && !list.includes(url)) list.push(url); };
+    if(!isFileMode()){
+      try{ add(new URL('manualer/catalog.json', document.baseURI).href); }catch(_){ }
+    }
+    CATALOG_URLS.forEach(add);
+    return list;
   }
+
+  function manualUrlsFromEntry(entry, catalogUrl){
+    const urls=[];
+    const add=url=>{ url=clean(url); if(url && !urls.includes(url)) urls.push(url); };
+    if(entry?.path){ try{ add(new URL(entry.path, catalogUrl).href); }catch(_){ add(entry.path); } }
+    if(entry?.pdfPath){ try{ add(new URL(entry.pdfPath, catalogUrl).href); }catch(_){ add(entry.pdfPath); } }
+    add(entry?.url);
+    add(entry?.pdfUrl);
+    add(entry?.href);
+    (entry?.fallbackUrls || entry?.fallbacks || []).forEach(add);
+    return urls;
+  }
+
+  async function firstReachable(urls){
+    for(const url of urls){
+      try{
+        const res = await fetch(url, {method:'GET', cache:'no-store'});
+        if(res.ok) return {url:res.url || url, bytes:await res.arrayBuffer()};
+      }catch(_){ }
+    }
+    return {url:urls[0] || '', bytes:null};
+  }
+
+  async function resolveFromCatalog(){
+    let lastError = null;
+    for(const url of catalogCandidates()){
+      try{
+        const res = await fetch(url, {cache:'no-store', headers:{Accept:'application/json'}});
+        if(!res.ok) throw new Error('Serveren svarede '+res.status);
+        const data = await res.json();
+        const manuals = Array.isArray(data?.manuals) ? data.manuals : Array.isArray(data?.items) ? data.items : [];
+        const entry = manuals.find(item => clean(item.id || item.key || item.slug) === MANUAL_ID) || manuals[0];
+        const urls = manualUrlsFromEntry(entry || {}, res.url || url);
+        if(urls.length) return {urls, title:clean(entry?.title) || DEFAULT_TITLE, catalogUrl:res.url || url};
+      }catch(error){ lastError = error; }
+    }
+    if(lastError) console.warn('Plan PDF-manual: katalog kunne ikke hentes, bruger fallback.', lastError);
+    return null;
+  }
+
+  async function resolveManual(){
+    if(resolvedManualPromise) return resolvedManualPromise;
+    resolvedManualPromise = (async()=>{
+      const fromCatalog = await resolveFromCatalog();
+      const urls = fromCatalog?.urls?.length ? fromCatalog.urls : (isFileMode() ? DEFAULT_WEB_URLS : [localUrl(DEFAULT_RELATIVE_URL), ...DEFAULT_WEB_URLS]);
+      const picked = await firstReachable(urls);
+      return {url:picked.url || urls[0], title:fromCatalog?.title || DEFAULT_TITLE, catalogUrl:fromCatalog?.catalogUrl || null, bytes:picked.bytes};
+    })();
+    return resolvedManualPromise;
+  }
+
   function ensureStyle(){
-    if(document.getElementById('planPdfManualHelpOverlayStyle')) return;
+    if(document.getElementById('planPdfManualCatalogStyle')) return;
     const style=document.createElement('style');
-    style.id='planPdfManualHelpOverlayStyle';
+    style.id='planPdfManualCatalogStyle';
     style.textContent = [
-      '.tn-plan-manual-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}',
+      '.tn-plan-help-hero-actions{margin-left:auto;display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:8px!important;flex-wrap:wrap!important}',
+      '.tn-plan-help-hero-actions .tn-plan-help-readme{margin-left:0!important}',
+      '.tn-plan-help-pdf-top{margin-left:0}',
+      '.tn-plan-manual-actions{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}',
       '.tn-plan-manual-actions button,.tn-plan-manual-actions a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink);padding:9px 12px;font-weight:850;text-decoration:none;cursor:pointer}',
       '.tn-plan-manual-actions button.primary{background:var(--tn-accent2);color:#fff;border-color:transparent}',
-      '.tn-plan-manual-frame{width:min(100%,1040px);height:min(70vh,760px);border:1px solid var(--tn-line);border-radius:16px;background:#fff;overflow:hidden}',
-      '.tn-plan-manual-frame iframe{width:100%;height:100%;border:0;background:#fff}',
+      '.tn-plan-manual-modal .tn-modal-body{display:grid;grid-template-rows:auto minmax(0,1fr);overflow:hidden}',
+      '.tn-plan-manual-frame{width:100%;height:min(72vh,760px);border:1px solid var(--tn-line);border-radius:16px;background:#e5e7eb;overflow:hidden}',
+      '.tn-plan-pdfjs-viewer{width:100%;height:100%;overflow:auto;-webkit-overflow-scrolling:touch;padding:12px;box-sizing:border-box;background:#e5e7eb}',
+      '.tn-plan-pdf-page{position:relative;margin:0 auto 14px;background:#fff;box-shadow:0 8px 26px rgba(0,0,0,.22);border-radius:4px;overflow:hidden}',
+      '.tn-plan-pdf-page canvas{display:block;width:100%;height:auto;background:#fff}',
+      '.tn-plan-pdf-link{position:absolute;border:0;background:transparent;cursor:pointer;padding:0;margin:0;border-radius:4px}',
+      '.tn-plan-pdf-link:focus-visible,.tn-plan-pdf-link:hover{outline:2px solid var(--tn-accent);background:color-mix(in srgb,var(--tn-accent) 20%,transparent)}',
+      '.tn-plan-manual-loading{display:grid;place-items:center;min-height:260px;color:#0f172a;background:#fff;font-weight:900;text-align:center;padding:20px}',
       '.tn-plan-manual-note{color:var(--tn-muted);line-height:1.45;margin:0 0 8px}',
       '.tn-help-manual-box{border:1px solid var(--tn-line);border-radius:16px;background:var(--tn-panel2);padding:14px;margin:10px 0;display:grid;gap:8px}',
       '.tn-help-manual-box h4{margin:0;font-size:16px}',
@@ -39686,36 +39764,137 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     document.head.append(style);
   }
 
-  function openManualWidget(instance=app()){
-    if(!instance?.addWidget){ window.open(manualHref(), '_blank', 'noopener'); return; }
+  async function openManualWidget(instance=app()){
+    const manual = await resolveManual();
+    if(!instance?.addWidget){ window.open(manual.url, '_blank', 'noopener'); return; }
     instance.modalManager?.closeAll?.();
     instance.addWidget('pdf',{
       title:'PDF-manual',
-      content:{mediaId:null,url:MANUAL_URL,name:'Plan PDF-manual - KaPardy og huskekort',page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs'},
-      geometry:{x:70,y:55,width:900,height:640}
+      content:{mediaId:null,url:manual.url,name:'Plan PDF-manual - KaPardy og huskekort',page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs'},
+      geometry:{x:60,y:45,width:1040,height:720}
     });
   }
 
+  async function loadPdfRuntime(){
+    const pdfjs = typeof TN.ensureUnifiedPdfRuntime === 'function' ? TN.ensureUnifiedPdfRuntime() : globalThis.pdfjsLib;
+    if(!pdfjs?.getDocument) throw new Error('PDF-læseren kunne ikke starte.');
+    return pdfjs;
+  }
+
+  function pageTargetId(pageNumber){ return 'plan-manual-page-'+pageNumber; }
+
+  async function getDestinationPage(pdf, dest){
+    if(!dest) return null;
+    let explicit = dest;
+    if(typeof explicit === 'string') explicit = await pdf.getDestination(explicit);
+    if(!Array.isArray(explicit) || !explicit.length) return null;
+    const ref = explicit[0];
+    if(typeof ref === 'number') return ref + 1;
+    try { return (await pdf.getPageIndex(ref)) + 1; } catch(_) { return null; }
+  }
+
+  function convertRect(viewport, rect){
+    const points = viewport.convertToViewportRectangle(rect);
+    const x1 = Math.min(points[0], points[2]);
+    const y1 = Math.min(points[1], points[3]);
+    const x2 = Math.max(points[0], points[2]);
+    const y2 = Math.max(points[1], points[3]);
+    return {left:x1, top:y1, width:x2-x1, height:y2-y1};
+  }
+
+  async function renderManualInto(container, manual){
+    const pdfjs = await loadPdfRuntime();
+    container.innerHTML = '<div class="tn-plan-manual-loading">Åbner manualen ...</div>';
+    const source = manual.bytes ? {data:manual.bytes.slice(0)} : {url:manual.url};
+    const pdf = await pdfjs.getDocument(source).promise;
+    const viewer = document.createElement('div');
+    viewer.className = 'tn-plan-pdfjs-viewer';
+    container.replaceChildren(viewer);
+    const first = await pdf.getPage(1);
+    const firstViewport = first.getViewport({scale:1});
+    const available = Math.max(320, viewer.clientWidth - 28);
+    const scale = Math.max(0.45, Math.min(2.15, available / firstViewport.width));
+    const dpr = Math.max(1, Math.min(1.6, window.devicePixelRatio || 1));
+
+    async function renderPage(pageNumber){
+      const page = pageNumber === 1 ? first : await pdf.getPage(pageNumber);
+      const viewport = page.getViewport({scale});
+      const pageDiv = document.createElement('div');
+      pageDiv.className = 'tn-plan-pdf-page';
+      pageDiv.id = pageTargetId(pageNumber);
+      pageDiv.style.width = Math.ceil(viewport.width) + 'px';
+      pageDiv.style.height = Math.ceil(viewport.height) + 'px';
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.ceil(viewport.width * dpr);
+      canvas.height = Math.ceil(viewport.height * dpr);
+      canvas.style.width = Math.ceil(viewport.width) + 'px';
+      canvas.style.height = Math.ceil(viewport.height) + 'px';
+      pageDiv.append(canvas);
+      viewer.append(pageDiv);
+      const ctx = canvas.getContext('2d', {alpha:false});
+      await page.render({canvasContext:ctx, viewport, transform:dpr !== 1 ? [dpr,0,0,dpr,0,0] : null}).promise;
+      try{
+        const annotations = await page.getAnnotations({intent:'display'});
+        for(const ann of annotations){
+          if(!ann || ann.subtype !== 'Link' || !Array.isArray(ann.rect)) continue;
+          const r = convertRect(viewport, ann.rect);
+          if(r.width < 4 || r.height < 4) continue;
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'tn-plan-pdf-link';
+          button.title = ann.url ? 'Åbn link' : 'Gå til afsnit';
+          button.style.left = r.left + 'px';
+          button.style.top = r.top + 'px';
+          button.style.width = r.width + 'px';
+          button.style.height = r.height + 'px';
+          button.addEventListener('click', async event=>{
+            event.preventDefault();
+            event.stopPropagation();
+            if(ann.url || ann.unsafeUrl){ window.open(ann.url || ann.unsafeUrl, '_blank', 'noopener'); return; }
+            const target = await getDestinationPage(pdf, ann.dest);
+            const el = target && viewer.querySelector('#'+pageTargetId(target));
+            if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+          });
+          pageDiv.append(button);
+        }
+      }catch(error){ console.warn('Plan PDF-manual: links kunne ikke læses på side '+pageNumber, error); }
+    }
+
+    for(let pageNumber=1; pageNumber<=pdf.numPages; pageNumber++){
+      await renderPage(pageNumber);
+      await new Promise(requestAnimationFrame);
+    }
+  }
+
   function openManualOverlay(instance=app()){
-    if(!instance?.modalManager){ window.open(manualHref(), '_blank', 'noopener'); return; }
+    if(!instance?.modalManager){ resolveManual().then(manual=>window.open(manual.url, '_blank', 'noopener')); return; }
     ensureStyle();
     const body=document.createElement('div');
     body.className='tn-plan-manual-view';
     body.innerHTML =
-      '<p class="tn-plan-manual-note"><b>Læs manualen uden at ændre tavlen.</b> Luk med Esc eller ×, når du vil tilbage til undervisningen.</p>'+
+      '<p class="tn-plan-manual-note"><b>Læs manualen uden at ændre tavlen.</b> Luk med Esc eller ×, når du vil tilbage til undervisningen.</p>'+ 
       '<div class="tn-plan-manual-actions">'+
-        '<a href="'+html(manualHref())+'" target="_blank" rel="noopener">↗ Åbn i browser/PDF-læser</a>'+
-        '<button type="button" data-plan-manual-open="widget">📄 Åbn på tavlen</button>'+
-      '</div>'+
-      '<div class="tn-plan-manual-frame"><iframe title="'+html(MANUAL_TITLE)+'" src="'+html(manualHref())+'"></iframe></div>';
+        '<a data-manual-browser href="#" target="_blank" rel="noopener">↗ Åbn uden for Plan</a>'+ 
+        '<button type="button" data-plan-manual-open="widget">📄 Læg på tavlen</button>'+ 
+      '</div>'+ 
+      '<div class="tn-plan-manual-frame"><div class="tn-plan-manual-loading">Åbner manualen ...</div></div>';
+    const frame=body.querySelector('.tn-plan-manual-frame');
+    const browserLink=body.querySelector('[data-manual-browser]');
     instance.modalManager.open({
-      title:MANUAL_TITLE,
+      title:DEFAULT_TITLE,
       body,
       className:'tn-modal-wide tn-plan-manual-modal',
       actions:[
-        {label:'Åbn på tavlen',run:()=>{openManualWidget(instance);return true;}},
-        {label:'Åbn i browser',primary:true,run:()=>{window.open(manualHref(),'_blank','noopener');return false;}}
+        {label:'Læg på tavlen',run:()=>{openManualWidget(instance);return true;}},
+        {label:'Åbn uden for Plan',primary:true,run:()=>{resolveManual().then(manual=>window.open(manual.url,'_blank','noopener'));return false;}}
       ]
+    });
+    resolveManual().then(manual=>{
+      if(browserLink) browserLink.href=manual.url;
+      return renderManualInto(frame, manual);
+    }).catch(error=>{
+      console.error('Plan PDF-manual kunne ikke åbnes', error);
+      if(frame) frame.innerHTML='<div class="tn-plan-manual-loading">Manualen kunne ikke hentes. Tjek at manualmappen ligger sammen med appen på GitHub.</div>';
     });
   }
 
@@ -39728,37 +39907,63 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     try{ TN.registry?.help?.set?.(id,entry); }catch(_){ }
   }
 
-  function patchHelp(instance=app()){
-    if(!instance?.helpRegistry || instance.__planPdfManualHelpPatched) return;
-    instance.__planPdfManualHelpPatched=true;
+  function patchHelpRegistry(instance=app()){
+    if(!instance?.helpRegistry || instance.__planPdfManualCatalogHelpPatched) return;
+    instance.__planPdfManualCatalogHelpPatched=true;
     ensureStyle();
-
-    setEntry(instance,'pdf-manualer','PDF-manualer','Åbn lærermanual som overlay eller som PDF på tavlen',
+    setEntry(instance,'pdf-manualer','PDF-manualer','Åbn lærermanualen uden at ændre tavlen',
       '<div class="tn-help-manual-box">'+
-        '<h4>PDF-manual til læreren</h4>'+
-        '<p>Brug overlayet, når du vil læse hjælp uden at ændre tavlen. Brug PDFWidget, hvis manualen skal ligge på en tavle som kursus- eller introduktionsmateriale.</p>'+
+        '<h4>PDF-manual til læreren</h4>'+ 
+        '<p>Brug manualen som rolig læsehjælp ved siden af tavlen. Den kan også lægges på tavlen, hvis du vil bruge den i en introduktion eller et kursus.</p>'+ 
         '<div class="tn-plan-manual-actions">'+
-          '<button type="button" class="primary" data-plan-manual-open="overlay">Åbn PDF-manual</button>'+
-          '<button type="button" data-plan-manual-open="widget">Åbn manual på tavlen</button>'+
-        '</div>'+
-      '</div>'+
-      '<p>Manualen ligger som separat PDF-fil og kan opdateres uden at hele appen skal bygges om.</p>',
-      'pdf manual lærermanual kapardy huskekort overlay hjælp tavlen pdfwidget');
-
-    const tools=instance.helpRegistry.entries.find(item=>item?.id==='tools');
-    if(tools && !String(tools.body||'').includes('data-plan-manual-open')){
-      tools.body = String(tools.body||'').replace('</div></section></div>',
-        '</div></section><section><h4>Manualer</h4><div class="tn-help-tool-grid">'+
-        '<button type="button" data-plan-manual-open="overlay"><span>📘</span><b>Åbn PDF-manual</b><small>læses som overlay</small></button>'+
-        '<button type="button" data-plan-manual-open="widget"><span>📄</span><b>Manual på tavlen</b><small>opret som PDFWidget</small></button>'+
-        '</div></section></div>');
-      tools.keywords=((tools.keywords||'')+' PDF manual lærermanual overlay PDFWidget').trim();
-      try{ TN.registry?.help?.set?.('tools',tools); }catch(_){ }
-    }
-
+          '<button type="button" class="primary" data-plan-manual-open="overlay">Åbn PDF-manual</button>'+ 
+          '<button type="button" data-plan-manual-open="widget">Læg manual på tavlen</button>'+ 
+        '</div>'+ 
+      '</div>',
+      'pdf manual lærermanual kapardy huskekort hjælp tavlen');
     const wanted=['overview','startup','library','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','pdf-manualer','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','picture-flip','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
     const order=new Map(wanted.map((id,index)=>[id,index]));
     instance.helpRegistry.entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
+  }
+
+  function ensureVisibleManualChoice(){
+    ensureStyle();
+    const root=[...document.querySelectorAll('.tn-plan-help')].at(-1);
+    if(!root) return;
+
+    const head=root.querySelector('.tn-plan-help-hero-head');
+    if(head){
+      let actions=head.querySelector('.tn-plan-help-hero-actions');
+      if(!actions){
+        actions=document.createElement('div');
+        actions.className='tn-plan-help-hero-actions';
+        head.appendChild(actions);
+      }
+      const readmeButtons=[...head.querySelectorAll('.tn-plan-help-readme:not(.tn-plan-help-pdf-top)')];
+      for(const button of readmeButtons){ if(button.parentElement !== actions) actions.appendChild(button); }
+      if(!actions.querySelector('.tn-plan-help-pdf-top')){
+        const top=document.createElement('button');
+        top.type='button';
+        top.className='tn-plan-help-readme tn-plan-help-pdf-top';
+        top.dataset.planManualOpen='overlay';
+        top.innerHTML='<span aria-hidden="true">↗</span> PDF-manual';
+        actions.appendChild(top);
+      }
+    }
+
+    const grid=root.querySelector('.tn-plan-help-intents > div');
+    if(grid && !grid.querySelector('[data-plan-manual-open]')){
+      const overlay=document.createElement('button');
+      overlay.type='button';
+      overlay.dataset.planManualOpen='overlay';
+      overlay.textContent='Åbn PDF-manual';
+      grid.appendChild(overlay);
+      const widget=document.createElement('button');
+      widget.type='button';
+      widget.dataset.planManualOpen='widget';
+      widget.textContent='Læg manual på tavlen';
+      grid.appendChild(widget);
+    }
   }
 
   document.addEventListener('click',event=>{
@@ -39767,24 +39972,40 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
     event.preventDefault();
     event.stopPropagation();
     event.stopImmediatePropagation?.();
-    const mode=trigger.dataset.planManualOpen;
+    const mode=trigger.dataset.planManualOpen || 'overlay';
     if(mode==='widget') openManualWidget(); else openManualOverlay();
   },true);
 
   TN.openPlanPdfManual=openManualOverlay;
   TN.openPlanPdfManualOnBoard=openManualWidget;
+  TN.resolvePlanPdfManual=resolveManual;
 
-  if(window.TavleNext?.App?.prototype?.registerHelp && !window.TavleNext.App.prototype.registerHelp.__planPdfManualHelpOverlaySafe){
-    const prev=window.TavleNext.App.prototype.registerHelp;
-    const wrapped=function(...args){ const result=prev.apply(this,args); patchHelp(this); return result; };
-    wrapped.__planPdfManualHelpOverlaySafe=true;
-    window.TavleNext.App.prototype.registerHelp=wrapped;
+  const App=TN.TavleNextApp || TN.App;
+  if(App?.prototype?.registerHelp && !App.prototype.registerHelp.__planPdfManualCatalogViewerSafe){
+    const previous=App.prototype.registerHelp;
+    const wrapped=function(...args){ const result=previous.apply(this,args); patchHelpRegistry(this); return result; };
+    wrapped.__planPdfManualCatalogViewerSafe=true;
+    App.prototype.registerHelp=wrapped;
   }
-  const tryPatch=()=>patchHelp();
+  if(App?.prototype?.showHelp && !App.prototype.showHelp.__planPdfManualCatalogViewerSafe){
+    const previous=App.prototype.showHelp;
+    const wrapped=function(...args){
+      const result=previous.apply(this,args);
+      requestAnimationFrame(()=>requestAnimationFrame(()=>ensureVisibleManualChoice()));
+      setTimeout(ensureVisibleManualChoice,150);
+      setTimeout(ensureVisibleManualChoice,600);
+      return result;
+    };
+    wrapped.__planPdfManualCatalogViewerSafe=true;
+    App.prototype.showHelp=wrapped;
+  }
+
+  const tryPatch=()=>{ patchHelpRegistry(); ensureVisibleManualChoice(); };
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',tryPatch,{once:true}); else tryPatch();
   setTimeout(tryPatch,500);
   setTimeout(tryPatch,1500);
 })(window.TavleNext);
 </script>
+
 </body>
 </html>
