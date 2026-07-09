@@ -1,0 +1,17 @@
+{
+  "schema": "plan-manual-catalog-v1",
+  "title": "Plan PDF-manualer",
+  "description": "Eksterne PDF-manualer til Plan. Appen bruger kataloget til at hente manualer fra web/GitHub, når den kører lokalt.",
+  "manuals": [
+    {
+      "id": "plan-kapardy-huskekort",
+      "title": "Plan PDF-manual: KaPardy og huskekort",
+      "path": "plan-kapardy-huskekort.pdf",
+      "url": "https://plan.måns.dk/manualer/plan-kapardy-huskekort.pdf",
+      "fallbackUrls": [
+        "https://cdn.jsdelivr.net/gh/maans/Plan@main/manualer/plan-kapardy-huskekort.pdf",
+        "https://raw.githubusercontent.com/maans/Plan/main/manualer/plan-kapardy-huskekort.pdf"
+      ]
+    }
+  ]
+}
