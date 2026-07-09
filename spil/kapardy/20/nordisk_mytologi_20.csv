@@ -1,21 +1,21 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Guder og slægter,"Hvilken gud er særlig knyttet til hav, sejlads og rigdom?",100,Njord,Ull,Forsete,Høner,,,
-Guder og slægter,Hvilken jættekvinde og gudinde forbindes med ski og jagt?,200,Skade,Nanna,Eir,Snotra,,,
-Guder og slægter,Hvilken gud forbindes med digtekunst og veltalenhed?,300,Brage,Vidar,Vali,Hod,,,
-Guder og slægter,Hvilken gud forbindes i Snorres Edda med retfærdighed og forlig?,400,Forsete,Tyr,Ull,Høner,,,
-Guder og slægter,Hvilken herskerinde over dødsriget er datter af Loke?,500,Hel,Ran,Gerda,Gefion,,,
-Væsner og genstande,"Hvad hedder Odins ring, som drypper nye ringe hver niende nat?",100,Draupner,Andvaranaut,Brisingamen,Gleipner,,,
-Væsner og genstande,"Hvad hedder Frejs skib, der kan foldes sammen?",200,Skidbladner,Naglfar,Hringhorni,Sessrumnir,,,
-Væsner og genstande,Hvilket horn blæser Heimdal i ved Ragnarok?,300,Gjallarhorn,Odreør,Lur Gjoll,Bragebægeret,,,
-Væsner og genstande,"Hvad hedder skibet af døde menneskers negle, der sejler ved Ragnarok?",400,Naglfar,Skidbladner,Hringhorni,Ellida,,,
-Væsner og genstande,Hvilket sværd bruger Sigurd til at dræbe dragen Fafner?,500,Gram,Gungner,Tyrfing,Dainsleif,,,
-Verdener og fortællinger,Hvilken tåget og kold urverden nævnes sammen med Muspelheim i skabelsesfortællingen?,100,Niflheim,Alfheim,Asgård,Jotunheim,,,
-Verdener og fortællinger,Hvad kaldes broen mellem Midgård og Asgård?,200,Bifrost,Gjallarbroen,Bilrosts port,Valgrind,,,
-Verdener og fortællinger,Hvilken brønd ved Yggdrasil forbindes med nornerne?,300,Urds brønd,Mimers brønd,Hvergelmir,Suttungs kilde,,,
-Verdener og fortællinger,Hvilken brønd ofrer Odin sit øje ved?,400,Mimers brønd,Urds brønd,Hvergelmir,Gjallarkilden,,,
-Verdener og fortællinger,Hvad kaldes gudernes og verdens undergang og fornyelse?,500,Ragnarok,Fimbulvinter,Ginnungagap,Vigrid,,,
-"Kilder, ritualer og ord","Hvad hedder den del af Snorres Edda, der især forklarer skjaldesprogets billeder og omskrivninger?",100,Skáldskaparmál,Gylfaginning,Háttatal,Vaftrudnersmål,,,
-"Kilder, ritualer og ord",Hvad kaldes en poetisk omskrivning som “hvalens vej” for havet?,200,en kenning,en rune,en galder,et blót,,,
-"Kilder, ritualer og ord",Hvad var en skjald i nordisk middelalder?,300,"en digter, ofte knyttet til en fyrstes hof",en tempelpræstinde,en skibsbygger,en lovsigemand alene,,,
-"Kilder, ritualer og ord","Hvad kaldes den norrøne form for magi, som blandt andet forbindes med Freja og Odin?",400,sejd,blót,holmgang,ting,,,
-"Kilder, ritualer og ord",Hvad betyder ordet blót i førkristen nordisk religionspraksis?,500,et rituelt offer eller kultmåltid,en skriftlig lovsamling,en begravelseshøj,en krigserklæring,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Guder og slægter,"Hvilken gud er særlig knyttet til hav, sejlads og rigdom?",100,Njord,Ull,Forsete,Høner,,,,Wikipedia – Njörðr,https://en.wikipedia.org/wiki/Nj%C3%B6r%C3%B0r,OK,2026-07-09,"Åben artikel om Njord/Njörðr, vanegud knyttet til hav, sejlads, rigdom og far til Frej og Freja."
+Guder og slægter,Hvilken jættekvinde og gudinde forbindes med ski og jagt?,200,Skade,Nanna,Eir,Snotra,,,,Wikipedia – Skaði,https://en.wikipedia.org/wiki/Ska%C3%B0i,OK,2026-07-09,"Åben artikel om Skade/Skaði som jættekvinde/gudinde knyttet til ski, jagt og Njord."
+Guder og slægter,Hvilken gud forbindes med digtekunst og veltalenhed?,300,Brage,Vidar,Vali,Hod,,,,Wikipedia – Bragi,https://en.wikipedia.org/wiki/Bragi,OK,2026-07-09,Åben artikel om Brage/Bragi som gud for digtekunst og veltalenhed.
+Guder og slægter,Hvilken gud forbindes i Snorres Edda med retfærdighed og forlig?,400,Forsete,Tyr,Ull,Høner,,,,Wikipedia – Forseti,https://en.wikipedia.org/wiki/Forseti,OK,2026-07-09,Åben artikel om Forsete/Forseti og hans forbindelse til retfærdighed og forlig.
+Guder og slægter,Hvilken herskerinde over dødsriget er datter af Loke?,500,Hel,Ran,Gerda,Gefion,,,,Wikipedia – Hel (mythological being),https://en.wikipedia.org/wiki/Hel_(mythological_being),OK,2026-07-09,Åben artikel om Hel som Lokes datter og herskerinde over dødsriget.
+Væsner og genstande,"Hvad hedder Odins ring, som drypper nye ringe hver niende nat?",100,Draupner,Andvaranaut,Brisingamen,Gleipner,,,,Wikipedia – Draupnir,https://en.wikipedia.org/wiki/Draupnir,OK,2026-07-09,Åben artikel om Odins ring Draupner/Draupnir.
+Væsner og genstande,"Hvad hedder Frejs skib, der kan foldes sammen?",200,Skidbladner,Naglfar,Hringhorni,Sessrumnir,,,,Wikipedia – Skíðblaðnir,https://en.wikipedia.org/wiki/Sk%C3%AD%C3%B0bla%C3%B0nir,OK,2026-07-09,Åben artikel om Frejs skib Skidbladner/Skíðblaðnir.
+Væsner og genstande,Hvilket horn blæser Heimdal i ved Ragnarok?,300,Gjallarhorn,Odreør,Lur Gjoll,Bragebægeret,,,,Wikipedia – Gjallarhorn,https://en.wikipedia.org/wiki/Gjallarhorn,OK,2026-07-09,Åben artikel om Heimdals horn Gjallarhorn ved Ragnarok.
+Væsner og genstande,"Hvad hedder skibet af døde menneskers negle, der sejler ved Ragnarok?",400,Naglfar,Skidbladner,Hringhorni,Ellida,,,,Wikipedia – Naglfar,https://en.wikipedia.org/wiki/Naglfar,OK,2026-07-09,Åben artikel om skibet Naglfar/Naglfari ved Ragnarok.
+Væsner og genstande,Hvilket sværd bruger Sigurd til at dræbe dragen Fafner?,500,Gram,Gungner,Tyrfing,Dainsleif,,,,Wikipedia – Gram (mythology),https://en.wikipedia.org/wiki/Gram_(mythology),OK,2026-07-09,"Åben artikel om sværdet Gram, som Sigurd bruger mod Fafner."
+Verdener og fortællinger,Hvilken tåget og kold urverden nævnes sammen med Muspelheim i skabelsesfortællingen?,100,Niflheim,Alfheim,Asgård,Jotunheim,,,,Wikipedia – Niflheim,https://en.wikipedia.org/wiki/Niflheim,OK,2026-07-09,Åben artikel om Niflheim som tåget/kold urverden i skabelsesfortællingen.
+Verdener og fortællinger,Hvad kaldes broen mellem Midgård og Asgård?,200,Bifrost,Gjallarbroen,Bilrosts port,Valgrind,,,,Wikipedia – Bifröst,https://en.wikipedia.org/wiki/Bifr%C3%B6st,OK,2026-07-09,Åben artikel om Bifrost/Bifröst som broen mellem Midgård og Asgård.
+Verdener og fortællinger,Hvilken brønd ved Yggdrasil forbindes med nornerne?,300,Urds brønd,Mimers brønd,Hvergelmir,Suttungs kilde,,,,Wikipedia – Urðarbrunnr,https://en.wikipedia.org/wiki/Ur%C3%B0arbrunnr,OK,2026-07-09,Åben artikel om Urds brønd/Urðarbrunnr ved Yggdrasil og nornerne.
+Verdener og fortællinger,Hvilken brønd ofrer Odin sit øje ved?,400,Mimers brønd,Urds brønd,Hvergelmir,Gjallarkilden,,,,Wikipedia – Mímisbrunnr,https://en.wikipedia.org/wiki/M%C3%ADmisbrunnr,OK,2026-07-09,Åben artikel om Mimers brønd/Mímisbrunnr og Odins øjeoffer.
+Verdener og fortællinger,Hvad kaldes gudernes og verdens undergang og fornyelse?,500,Ragnarok,Fimbulvinter,Ginnungagap,Vigrid,,,,Wikipedia – Ragnarök,https://en.wikipedia.org/wiki/Ragnar%C3%B6k,OK,2026-07-09,Åben artikel om Ragnarok/Ragnarök som verdens undergang og fornyelse.
+"Kilder, ritualer og ord","Hvad hedder den del af Snorres Edda, der især forklarer skjaldesprogets billeder og omskrivninger?",100,Skáldskaparmál,Gylfaginning,Háttatal,Vaftrudnersmål,,,,Lex – Skáldskaparmál,https://lex.dk/Sk%C3%A1ldskaparm%C3%A1l,OK,2026-07-09,Lex beskriver Skáldskaparmál som del af Snorres Edda om skjaldesprogets billeder.
+"Kilder, ritualer og ord",Hvad kaldes en poetisk omskrivning som “hvalens vej” for havet?,200,en kenning,en rune,en galder,et blót,,,,Wikipedia – Kenning,https://en.wikipedia.org/wiki/Kenning,OK,2026-07-09,Åben artikel om kenning som poetisk omskrivning i norrøn/skjaldisk digtning.
+"Kilder, ritualer og ord",Hvad var en skjald i nordisk middelalder?,300,"en digter, ofte knyttet til en fyrstes hof",en tempelpræstinde,en skibsbygger,en lovsigemand alene,,,,Wikipedia – Skald,https://en.wikipedia.org/wiki/Skald,OK,2026-07-09,Åben artikel om skjald/skald som digter i norrøn middelalder og hofkontekst.
+"Kilder, ritualer og ord","Hvad kaldes den norrøne form for magi, som blandt andet forbindes med Freja og Odin?",400,sejd,blót,holmgang,ting,,,,Wikipedia – Seiðr,https://en.wikipedia.org/wiki/Sei%C3%B0r,OK,2026-07-09,Åben artikel om sejd/seiðr som norrøn magi forbundet med bl.a. Freja og Odin.
+"Kilder, ritualer og ord",Hvad betyder ordet blót i førkristen nordisk religionspraksis?,500,et rituelt offer eller kultmåltid,en skriftlig lovsamling,en begravelseshøj,en krigserklæring,,,,Wikipedia – Blót,https://en.wikipedia.org/wiki/Bl%C3%B3t,OK,2026-07-09,Åben artikel om blót som førkristent nordisk offer/kulthandling.

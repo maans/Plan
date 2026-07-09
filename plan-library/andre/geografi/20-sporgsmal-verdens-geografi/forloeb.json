@@ -1503,7 +1503,12 @@
                 "Philadelphia"
               ],
               "correctIndex": 0,
-              "answer": "Washington, D.C."
+              "answer": "Washington, D.C.",
+              "sourceTitle": "Lex – hovedstad",
+              "sourceUrl": "https://lex.dk/hovedstad",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel om hovedstæder; nævner bl.a. Canberra, Ottawa og Washington som føderale hovedstæder."
             },
             {
               "id": "kp_verdens-geografi_02",
@@ -1517,7 +1522,12 @@
                 "Nagoya"
               ],
               "correctIndex": 0,
-              "answer": "Tokyo"
+              "answer": "Tokyo",
+              "sourceTitle": "Wikipedia – List of national capitals",
+              "sourceUrl": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad."
             },
             {
               "id": "kp_verdens-geografi_03",
@@ -1531,7 +1541,12 @@
                 "Puebla"
               ],
               "correctIndex": 0,
-              "answer": "Mexico City"
+              "answer": "Mexico City",
+              "sourceTitle": "Wikipedia – List of national capitals",
+              "sourceUrl": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad."
             },
             {
               "id": "kp_verdens-geografi_04",
@@ -1545,7 +1560,12 @@
                 "Salvador"
               ],
               "correctIndex": 0,
-              "answer": "Brasília"
+              "answer": "Brasília",
+              "sourceTitle": "Wikipedia – List of national capitals",
+              "sourceUrl": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad."
             },
             {
               "id": "kp_verdens-geografi_05",
@@ -1559,7 +1579,12 @@
                 "Perth"
               ],
               "correctIndex": 0,
-              "answer": "Canberra"
+              "answer": "Canberra",
+              "sourceTitle": "Lex – hovedstad",
+              "sourceUrl": "https://lex.dk/hovedstad",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel om hovedstæder; nævner bl.a. Canberra, Ottawa og Washington som føderale hovedstæder."
             },
             {
               "id": "kp_verdens-geografi_06",
@@ -1573,7 +1598,12 @@
                 "Sydamerika"
               ],
               "correctIndex": 0,
-              "answer": "Asien"
+              "answer": "Asien",
+              "sourceTitle": "Wikipedia – Gobi Desert",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Gobi_Desert",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Gobiørkenen i Asien."
             },
             {
               "id": "kp_verdens-geografi_07",
@@ -1587,7 +1617,12 @@
                 "Nordamerika"
               ],
               "correctIndex": 0,
-              "answer": "Sydamerika"
+              "answer": "Sydamerika",
+              "sourceTitle": "Wikipedia – Atacama Desert",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Atacamaørkenen i Sydamerika."
             },
             {
               "id": "kp_verdens-geografi_08",
@@ -1601,7 +1636,12 @@
                 "Pico de Orizaba"
               ],
               "correctIndex": 0,
-              "answer": "Denali"
+              "answer": "Denali",
+              "sourceTitle": "National Park Service – Denali",
+              "sourceUrl": "https://www.nps.gov/dena/learn/nature/denali.htm",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NPS-kilde om Denali, Nordamerikas højeste bjerg."
             },
             {
               "id": "kp_verdens-geografi_09",
@@ -1615,7 +1655,12 @@
                 "Cotopaxi"
               ],
               "correctIndex": 0,
-              "answer": "Aconcagua"
+              "answer": "Aconcagua",
+              "sourceTitle": "Wikipedia – Aconcagua",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Aconcagua",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Aconcagua som Sydamerikas højeste bjerg."
             },
             {
               "id": "kp_verdens-geografi_10",
@@ -1629,7 +1674,12 @@
                 "Missourifloden"
               ],
               "correctIndex": 0,
-              "answer": "Coloradofloden"
+              "answer": "Coloradofloden",
+              "sourceTitle": "National Park Service – Grand Canyon Geologic Formations",
+              "sourceUrl": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NPS-kilde om Grand Canyon og Coloradoflodens erosionsarbejde."
             },
             {
               "id": "kp_verdens-geografi_11",
@@ -1643,7 +1693,12 @@
                 "Kina"
               ],
               "correctIndex": 0,
-              "answer": "Japan"
+              "answer": "Japan",
+              "sourceTitle": "Wikipedia – Hokkaido",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Hokkaido",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Hokkaido som Japans nordlige hovedø."
             },
             {
               "id": "kp_verdens-geografi_12",
@@ -1657,7 +1712,12 @@
                 "Det Arktiske Ocean"
               ],
               "correctIndex": 0,
-              "answer": "Det Indiske Ocean"
+              "answer": "Det Indiske Ocean",
+              "sourceTitle": "Wikipedia – Madagascar",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Madagascar",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel der placerer Madagaskar i Det Indiske Ocean."
             },
             {
               "id": "kp_verdens-geografi_13",
@@ -1671,7 +1731,12 @@
                 "Nordamerika og Sydamerika"
               ],
               "correctIndex": 0,
-              "answer": "Afrika og Asien"
+              "answer": "Afrika og Asien",
+              "sourceTitle": "Wikipedia – Red Sea",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Red_Sea",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Rødehavet mellem Afrika og Asien."
             },
             {
               "id": "kp_verdens-geografi_14",
@@ -1685,7 +1750,12 @@
                 "Adriaterhavet"
               ],
               "correctIndex": 0,
-              "answer": "Østersøen"
+              "answer": "Østersøen",
+              "sourceTitle": "Wikipedia – Baltic Sea",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Baltic_Sea",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Østersøen ved Skandinavien, Finland, Baltikum og Centraleuropa."
             },
             {
               "id": "kp_verdens-geografi_15",
@@ -1699,7 +1769,12 @@
                 "Det Sydlige Ocean"
               ],
               "correctIndex": 0,
-              "answer": "Atlanterhavet"
+              "answer": "Atlanterhavet",
+              "sourceTitle": "Wikipedia – Caribbean Sea",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Caribbean_Sea",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Det Caribiske Hav som randhav til Atlanterhavet."
             },
             {
               "id": "kp_verdens-geografi_16",
@@ -1713,7 +1788,12 @@
                 "et fladt område under havniveau"
               ],
               "correctIndex": 0,
-              "answer": "land omgivet af vand på tre sider"
+              "answer": "land omgivet af vand på tre sider",
+              "sourceTitle": "National Geographic Education – Peninsula",
+              "sourceUrl": "https://education.nationalgeographic.org/resource/peninsula/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Elevvenlig kilde om halvø som land omgivet af vand på tre sider."
             },
             {
               "id": "kp_verdens-geografi_17",
@@ -1727,7 +1807,12 @@
                 "en ørkenslette"
               ],
               "correctIndex": 0,
-              "answer": "en øgruppe"
+              "answer": "en øgruppe",
+              "sourceTitle": "National Geographic Education – Archipelago",
+              "sourceUrl": "https://education.nationalgeographic.org/resource/archipelago/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Elevvenlig kilde om arkipelag/øgruppe."
             },
             {
               "id": "kp_verdens-geografi_18",
@@ -1741,7 +1826,12 @@
                 "en gruppe vulkanøer"
               ],
               "correctIndex": 0,
-              "answer": "en smal landstrimmel mellem større landområder"
+              "answer": "en smal landstrimmel mellem større landområder",
+              "sourceTitle": "National Geographic Education – Isthmus",
+              "sourceUrl": "https://education.nationalgeographic.org/resource/isthmus/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Elevvenlig kilde om landtange som smal landforbindelse mellem større landområder."
             },
             {
               "id": "kp_verdens-geografi_19",
@@ -1755,7 +1845,12 @@
                 "en underjordisk vandstrøm"
               ],
               "correctIndex": 0,
-              "answer": "et aflejringsområde ved en flods udmunding med forgrenede løb"
+              "answer": "et aflejringsområde ved en flods udmunding med forgrenede løb",
+              "sourceTitle": "National Geographic Education – Delta",
+              "sourceUrl": "https://education.nationalgeographic.org/resource/delta/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Elevvenlig kilde om floddelta ved floders udmunding."
             },
             {
               "id": "kp_verdens-geografi_20",
@@ -1769,7 +1864,12 @@
                 "en kystlinje ved højvande"
               ],
               "correctIndex": 0,
-              "answer": "en grænse mellem afvandingsområder"
+              "answer": "en grænse mellem afvandingsområder",
+              "sourceTitle": "National Geographic Education – Divide",
+              "sourceUrl": "https://education.nationalgeographic.org/resource/divide/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Elevvenlig kilde om vandskel/drainage divide mellem afvandingsområder."
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
@@ -2204,7 +2304,12 @@
               "Philadelphia"
             ],
             "correctIndex": 0,
-            "answer": "Washington, D.C."
+            "answer": "Washington, D.C.",
+            "sourceTitle": "Lex – hovedstad",
+            "sourceUrl": "https://lex.dk/hovedstad",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel om hovedstæder; nævner bl.a. Canberra, Ottawa og Washington som føderale hovedstæder."
           },
           {
             "id": "kp_verdens-geografi_02",
@@ -2218,7 +2323,12 @@
               "Nagoya"
             ],
             "correctIndex": 0,
-            "answer": "Tokyo"
+            "answer": "Tokyo",
+            "sourceTitle": "Wikipedia – List of national capitals",
+            "sourceUrl": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad."
           },
           {
             "id": "kp_verdens-geografi_03",
@@ -2232,7 +2342,12 @@
               "Puebla"
             ],
             "correctIndex": 0,
-            "answer": "Mexico City"
+            "answer": "Mexico City",
+            "sourceTitle": "Wikipedia – List of national capitals",
+            "sourceUrl": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad."
           },
           {
             "id": "kp_verdens-geografi_04",
@@ -2246,7 +2361,12 @@
               "Salvador"
             ],
             "correctIndex": 0,
-            "answer": "Brasília"
+            "answer": "Brasília",
+            "sourceTitle": "Wikipedia – List of national capitals",
+            "sourceUrl": "https://en.wikipedia.org/wiki/List_of_national_capitals",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad."
           },
           {
             "id": "kp_verdens-geografi_05",
@@ -2260,7 +2380,12 @@
               "Perth"
             ],
             "correctIndex": 0,
-            "answer": "Canberra"
+            "answer": "Canberra",
+            "sourceTitle": "Lex – hovedstad",
+            "sourceUrl": "https://lex.dk/hovedstad",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel om hovedstæder; nævner bl.a. Canberra, Ottawa og Washington som føderale hovedstæder."
           },
           {
             "id": "kp_verdens-geografi_06",
@@ -2274,7 +2399,12 @@
               "Sydamerika"
             ],
             "correctIndex": 0,
-            "answer": "Asien"
+            "answer": "Asien",
+            "sourceTitle": "Wikipedia – Gobi Desert",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Gobi_Desert",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Gobiørkenen i Asien."
           },
           {
             "id": "kp_verdens-geografi_07",
@@ -2288,7 +2418,12 @@
               "Nordamerika"
             ],
             "correctIndex": 0,
-            "answer": "Sydamerika"
+            "answer": "Sydamerika",
+            "sourceTitle": "Wikipedia – Atacama Desert",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Atacama_Desert",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Atacamaørkenen i Sydamerika."
           },
           {
             "id": "kp_verdens-geografi_08",
@@ -2302,7 +2437,12 @@
               "Pico de Orizaba"
             ],
             "correctIndex": 0,
-            "answer": "Denali"
+            "answer": "Denali",
+            "sourceTitle": "National Park Service – Denali",
+            "sourceUrl": "https://www.nps.gov/dena/learn/nature/denali.htm",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NPS-kilde om Denali, Nordamerikas højeste bjerg."
           },
           {
             "id": "kp_verdens-geografi_09",
@@ -2316,7 +2456,12 @@
               "Cotopaxi"
             ],
             "correctIndex": 0,
-            "answer": "Aconcagua"
+            "answer": "Aconcagua",
+            "sourceTitle": "Wikipedia – Aconcagua",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Aconcagua",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Aconcagua som Sydamerikas højeste bjerg."
           },
           {
             "id": "kp_verdens-geografi_10",
@@ -2330,7 +2475,12 @@
               "Missourifloden"
             ],
             "correctIndex": 0,
-            "answer": "Coloradofloden"
+            "answer": "Coloradofloden",
+            "sourceTitle": "National Park Service – Grand Canyon Geologic Formations",
+            "sourceUrl": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NPS-kilde om Grand Canyon og Coloradoflodens erosionsarbejde."
           },
           {
             "id": "kp_verdens-geografi_11",
@@ -2344,7 +2494,12 @@
               "Kina"
             ],
             "correctIndex": 0,
-            "answer": "Japan"
+            "answer": "Japan",
+            "sourceTitle": "Wikipedia – Hokkaido",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hokkaido",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Hokkaido som Japans nordlige hovedø."
           },
           {
             "id": "kp_verdens-geografi_12",
@@ -2358,7 +2513,12 @@
               "Det Arktiske Ocean"
             ],
             "correctIndex": 0,
-            "answer": "Det Indiske Ocean"
+            "answer": "Det Indiske Ocean",
+            "sourceTitle": "Wikipedia – Madagascar",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Madagascar",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel der placerer Madagaskar i Det Indiske Ocean."
           },
           {
             "id": "kp_verdens-geografi_13",
@@ -2372,7 +2532,12 @@
               "Nordamerika og Sydamerika"
             ],
             "correctIndex": 0,
-            "answer": "Afrika og Asien"
+            "answer": "Afrika og Asien",
+            "sourceTitle": "Wikipedia – Red Sea",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Red_Sea",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Rødehavet mellem Afrika og Asien."
           },
           {
             "id": "kp_verdens-geografi_14",
@@ -2386,7 +2551,12 @@
               "Adriaterhavet"
             ],
             "correctIndex": 0,
-            "answer": "Østersøen"
+            "answer": "Østersøen",
+            "sourceTitle": "Wikipedia – Baltic Sea",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Baltic_Sea",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Østersøen ved Skandinavien, Finland, Baltikum og Centraleuropa."
           },
           {
             "id": "kp_verdens-geografi_15",
@@ -2400,7 +2570,12 @@
               "Det Sydlige Ocean"
             ],
             "correctIndex": 0,
-            "answer": "Atlanterhavet"
+            "answer": "Atlanterhavet",
+            "sourceTitle": "Wikipedia – Caribbean Sea",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Caribbean_Sea",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Det Caribiske Hav som randhav til Atlanterhavet."
           },
           {
             "id": "kp_verdens-geografi_16",
@@ -2414,7 +2589,12 @@
               "et fladt område under havniveau"
             ],
             "correctIndex": 0,
-            "answer": "land omgivet af vand på tre sider"
+            "answer": "land omgivet af vand på tre sider",
+            "sourceTitle": "National Geographic Education – Peninsula",
+            "sourceUrl": "https://education.nationalgeographic.org/resource/peninsula/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Elevvenlig kilde om halvø som land omgivet af vand på tre sider."
           },
           {
             "id": "kp_verdens-geografi_17",
@@ -2428,7 +2608,12 @@
               "en ørkenslette"
             ],
             "correctIndex": 0,
-            "answer": "en øgruppe"
+            "answer": "en øgruppe",
+            "sourceTitle": "National Geographic Education – Archipelago",
+            "sourceUrl": "https://education.nationalgeographic.org/resource/archipelago/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Elevvenlig kilde om arkipelag/øgruppe."
           },
           {
             "id": "kp_verdens-geografi_18",
@@ -2442,7 +2627,12 @@
               "en gruppe vulkanøer"
             ],
             "correctIndex": 0,
-            "answer": "en smal landstrimmel mellem større landområder"
+            "answer": "en smal landstrimmel mellem større landområder",
+            "sourceTitle": "National Geographic Education – Isthmus",
+            "sourceUrl": "https://education.nationalgeographic.org/resource/isthmus/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Elevvenlig kilde om landtange som smal landforbindelse mellem større landområder."
           },
           {
             "id": "kp_verdens-geografi_19",
@@ -2456,7 +2646,12 @@
               "en underjordisk vandstrøm"
             ],
             "correctIndex": 0,
-            "answer": "et aflejringsområde ved en flods udmunding med forgrenede løb"
+            "answer": "et aflejringsområde ved en flods udmunding med forgrenede løb",
+            "sourceTitle": "National Geographic Education – Delta",
+            "sourceUrl": "https://education.nationalgeographic.org/resource/delta/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Elevvenlig kilde om floddelta ved floders udmunding."
           },
           {
             "id": "kp_verdens-geografi_20",
@@ -2470,7 +2665,12 @@
               "en kystlinje ved højvande"
             ],
             "correctIndex": 0,
-            "answer": "en grænse mellem afvandingsområder"
+            "answer": "en grænse mellem afvandingsområder",
+            "sourceTitle": "National Geographic Education – Divide",
+            "sourceUrl": "https://education.nationalgeographic.org/resource/divide/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Elevvenlig kilde om vandskel/drainage divide mellem afvandingsområder."
           }
         ],
         "current": 0,

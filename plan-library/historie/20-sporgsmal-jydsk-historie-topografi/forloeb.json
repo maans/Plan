@@ -1503,7 +1503,12 @@
                 "Aabenraa"
               ],
               "correctIndex": 0,
-              "answer": "Kolding"
+              "answer": "Kolding",
+              "sourceTitle": "Lex – Koldinghus",
+              "sourceUrl": "https://lex.dk/Koldinghus",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Koldinghus som kongeborg i Kolding."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_02",
@@ -1517,7 +1522,12 @@
                 "Skanderborg"
               ],
               "correctIndex": 0,
-              "answer": "Fredericia"
+              "answer": "Fredericia",
+              "sourceTitle": "Lex – Fredericia",
+              "sourceUrl": "https://lex.dk/Fredericia",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Fredericia som fæstningsby anlagt af Frederik 3. i 1600-tallet."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_03",
@@ -1531,7 +1541,12 @@
                 "Aabenraa"
               ],
               "correctIndex": 0,
-              "answer": "Sønderborg"
+              "answer": "Sønderborg",
+              "sourceTitle": "Lex – Sønderborg",
+              "sourceUrl": "https://lex.dk/S%C3%B8nderborg",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Sønderborgs placering på Als og forbindelsen til Sønderborg Slot."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_04",
@@ -1545,7 +1560,12 @@
                 "Hobro"
               ],
               "correctIndex": 0,
-              "answer": "Ribe"
+              "answer": "Ribe",
+              "sourceTitle": "Lex – Ribe",
+              "sourceUrl": "https://lex.dk/Ribe",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Ribe som Danmarks ældste eksisterende by i almindelig fremstilling."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_05",
@@ -1559,7 +1579,12 @@
                 "Sæby"
               ],
               "correctIndex": 0,
-              "answer": "Skagen"
+              "answer": "Skagen",
+              "sourceTitle": "Lex – Skagen",
+              "sourceUrl": "https://lex.dk/Skagen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Skagen og nærheden til Grenen, hvor Skagerrak og Kattegat mødes."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_06",
@@ -1573,7 +1598,12 @@
                 "Nationalpark Skjoldungernes Land"
               ],
               "correctIndex": 0,
-              "answer": "Nationalpark Thy"
+              "answer": "Nationalpark Thy",
+              "sourceTitle": "Nationalpark Thy – Om nationalparken",
+              "sourceUrl": "https://nationalparkthy.dk/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nationalparkside. Underbygger Nationalpark Thy og dens klit-, hede- og kystlandskaber i Nordvestjylland."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_07",
@@ -1587,7 +1617,12 @@
                 "Nationalpark Rebild Bakker"
               ],
               "correctIndex": 0,
-              "answer": "Nationalpark Mols Bjerge"
+              "answer": "Nationalpark Mols Bjerge",
+              "sourceTitle": "Nationalpark Mols Bjerge – Om nationalparken",
+              "sourceUrl": "https://nationalparkmolsbjerge.dk/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nationalparkside. Underbygger Nationalpark Mols Bjerge på Djursland og det kuperede istidslandskab."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_08",
@@ -1601,7 +1636,12 @@
                 "Mariager Fjord"
               ],
               "correctIndex": 0,
-              "answer": "Vadehavet"
+              "answer": "Vadehavet",
+              "sourceTitle": "UNESCO World Heritage Centre – Wadden Sea",
+              "sourceUrl": "https://whc.unesco.org/en/list/1314/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel UNESCO-side. Underbygger Vadehavet som UNESCO-verdensarv og tidevandsområde."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_09",
@@ -1615,7 +1655,12 @@
                 "Kolding Fjord"
               ],
               "correctIndex": 0,
-              "answer": "Limfjorden"
+              "answer": "Limfjorden",
+              "sourceTitle": "Lex – Limfjorden",
+              "sourceUrl": "https://lex.dk/Limfjorden",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Limfjorden som stor fjord/farvand gennem Nordjylland fra Hals mod Thyborøn."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_10",
@@ -1629,7 +1674,12 @@
                 "Kongeåen"
               ],
               "correctIndex": 0,
-              "answer": "Skjern Å"
+              "answer": "Skjern Å",
+              "sourceTitle": "Lex – Skjern Å",
+              "sourceUrl": "https://lex.dk/Skjern_%C3%85",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Skjern Å og udløbet i Ringkøbing Fjord."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_11",
@@ -1643,7 +1693,12 @@
                 "Borre"
               ],
               "correctIndex": 0,
-              "answer": "Lindholm Høje"
+              "answer": "Lindholm Høje",
+              "sourceTitle": "Lex – Lindholm Høje",
+              "sourceUrl": "https://lex.dk/Lindholm_H%C3%B8je",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Lindholm Høje som oldtidsområde og gravplads ved Aalborg."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_12",
@@ -1657,7 +1712,12 @@
                 "Virket"
               ],
               "correctIndex": 0,
-              "answer": "Danevirke"
+              "answer": "Danevirke",
+              "sourceTitle": "Lex – Danevirke",
+              "sourceUrl": "https://lex.dk/Danevirke",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Danevirke som forsvarsværk tværs over den sydlige jyske halvø."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_13",
@@ -1671,7 +1731,12 @@
                 "Adelgade"
               ],
               "correctIndex": 0,
-              "answer": "Hærvejen"
+              "answer": "Hærvejen",
+              "sourceTitle": "Lex – Hærvejen",
+              "sourceUrl": "https://lex.dk/H%C3%A6rvejen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Hærvejen som historisk landevej langs Jyllands højderyg."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_14",
@@ -1685,7 +1750,12 @@
                 "Slaget ved Helgoland"
               ],
               "correctIndex": 0,
-              "answer": "Slaget ved Fredericia"
+              "answer": "Slaget ved Fredericia",
+              "sourceTitle": "Lex – Slaget ved Fredericia",
+              "sourceUrl": "https://lex.dk/Slaget_ved_Fredericia",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Slaget ved Fredericia i 1849 og det danske udfald fra fæstningen."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_15",
@@ -1699,7 +1769,12 @@
                 "Slaget ved Lundby"
               ],
               "correctIndex": 0,
-              "answer": "Slaget ved Dybbøl"
+              "answer": "Slaget ved Dybbøl",
+              "sourceTitle": "Lex – Dybbøl",
+              "sourceUrl": "https://lex.dk/Dybb%C3%B8l",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Slaget ved Dybbøl den 18. april 1864 som afgørende nederlag."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_16",
@@ -1713,7 +1788,12 @@
                 "J.F. Willumsen"
               ],
               "correctIndex": 0,
-              "answer": "P.S. Krøyer"
+              "answer": "P.S. Krøyer",
+              "sourceTitle": "Lex – P.S. Krøyer",
+              "sourceUrl": "https://lex.dk/P.S._Kr%C3%B8yer",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger P.S. Krøyer og værket “Hip, hip, hurra!”."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_17",
@@ -1727,7 +1807,12 @@
                 "Hans Kirk"
               ],
               "correctIndex": 0,
-              "answer": "Steen Steensen Blicher"
+              "answer": "Steen Steensen Blicher",
+              "sourceTitle": "Lex – Steen Steensen Blicher",
+              "sourceUrl": "https://lex.dk/Steen_Steensen_Blicher",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Blicher, den jyske hede og novellen “Hosekræmmeren”."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_18",
@@ -1741,7 +1826,12 @@
                 "Thøger Larsen"
               ],
               "correctIndex": 0,
-              "answer": "Jeppe Aakjær"
+              "answer": "Jeppe Aakjær",
+              "sourceTitle": "Lex – Jeppe Aakjær",
+              "sourceUrl": "https://lex.dk/Jeppe_Aakj%C3%A6r",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Jeppe Aakjær, “Vredens børn” og digtning om den jyske hede."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_19",
@@ -1755,7 +1845,12 @@
                 "Martin Andersen Nexø"
               ],
               "correctIndex": 0,
-              "answer": "Johannes V. Jensen"
+              "answer": "Johannes V. Jensen",
+              "sourceTitle": "Lex – Johannes V. Jensen",
+              "sourceUrl": "https://lex.dk/Johannes_V._Jensen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Johannes V. Jensen som nobelprismodtager fra Himmerland og forfatter til “Kongens Fald”."
             },
             {
               "id": "kp_jydsk-historie-og-topografi_20",
@@ -1769,7 +1864,12 @@
                 "Pelle Erobreren"
               ],
               "correctIndex": 0,
-              "answer": "Fiskerne"
+              "answer": "Fiskerne",
+              "sourceTitle": "Lex – Fiskerne",
+              "sourceUrl": "https://lex.dk/Fiskerne",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk leksikonartikel. Underbygger Hans Kirks roman “Fiskerne” og skildringen af et indremissionsk fiskersamfund."
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
@@ -2204,7 +2304,12 @@
               "Aabenraa"
             ],
             "correctIndex": 0,
-            "answer": "Kolding"
+            "answer": "Kolding",
+            "sourceTitle": "Lex – Koldinghus",
+            "sourceUrl": "https://lex.dk/Koldinghus",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Koldinghus som kongeborg i Kolding."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_02",
@@ -2218,7 +2323,12 @@
               "Skanderborg"
             ],
             "correctIndex": 0,
-            "answer": "Fredericia"
+            "answer": "Fredericia",
+            "sourceTitle": "Lex – Fredericia",
+            "sourceUrl": "https://lex.dk/Fredericia",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Fredericia som fæstningsby anlagt af Frederik 3. i 1600-tallet."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_03",
@@ -2232,7 +2342,12 @@
               "Aabenraa"
             ],
             "correctIndex": 0,
-            "answer": "Sønderborg"
+            "answer": "Sønderborg",
+            "sourceTitle": "Lex – Sønderborg",
+            "sourceUrl": "https://lex.dk/S%C3%B8nderborg",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Sønderborgs placering på Als og forbindelsen til Sønderborg Slot."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_04",
@@ -2246,7 +2361,12 @@
               "Hobro"
             ],
             "correctIndex": 0,
-            "answer": "Ribe"
+            "answer": "Ribe",
+            "sourceTitle": "Lex – Ribe",
+            "sourceUrl": "https://lex.dk/Ribe",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Ribe som Danmarks ældste eksisterende by i almindelig fremstilling."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_05",
@@ -2260,7 +2380,12 @@
               "Sæby"
             ],
             "correctIndex": 0,
-            "answer": "Skagen"
+            "answer": "Skagen",
+            "sourceTitle": "Lex – Skagen",
+            "sourceUrl": "https://lex.dk/Skagen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Skagen og nærheden til Grenen, hvor Skagerrak og Kattegat mødes."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_06",
@@ -2274,7 +2399,12 @@
               "Nationalpark Skjoldungernes Land"
             ],
             "correctIndex": 0,
-            "answer": "Nationalpark Thy"
+            "answer": "Nationalpark Thy",
+            "sourceTitle": "Nationalpark Thy – Om nationalparken",
+            "sourceUrl": "https://nationalparkthy.dk/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nationalparkside. Underbygger Nationalpark Thy og dens klit-, hede- og kystlandskaber i Nordvestjylland."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_07",
@@ -2288,7 +2418,12 @@
               "Nationalpark Rebild Bakker"
             ],
             "correctIndex": 0,
-            "answer": "Nationalpark Mols Bjerge"
+            "answer": "Nationalpark Mols Bjerge",
+            "sourceTitle": "Nationalpark Mols Bjerge – Om nationalparken",
+            "sourceUrl": "https://nationalparkmolsbjerge.dk/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nationalparkside. Underbygger Nationalpark Mols Bjerge på Djursland og det kuperede istidslandskab."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_08",
@@ -2302,7 +2437,12 @@
               "Mariager Fjord"
             ],
             "correctIndex": 0,
-            "answer": "Vadehavet"
+            "answer": "Vadehavet",
+            "sourceTitle": "UNESCO World Heritage Centre – Wadden Sea",
+            "sourceUrl": "https://whc.unesco.org/en/list/1314/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel UNESCO-side. Underbygger Vadehavet som UNESCO-verdensarv og tidevandsområde."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_09",
@@ -2316,7 +2456,12 @@
               "Kolding Fjord"
             ],
             "correctIndex": 0,
-            "answer": "Limfjorden"
+            "answer": "Limfjorden",
+            "sourceTitle": "Lex – Limfjorden",
+            "sourceUrl": "https://lex.dk/Limfjorden",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Limfjorden som stor fjord/farvand gennem Nordjylland fra Hals mod Thyborøn."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_10",
@@ -2330,7 +2475,12 @@
               "Kongeåen"
             ],
             "correctIndex": 0,
-            "answer": "Skjern Å"
+            "answer": "Skjern Å",
+            "sourceTitle": "Lex – Skjern Å",
+            "sourceUrl": "https://lex.dk/Skjern_%C3%85",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Skjern Å og udløbet i Ringkøbing Fjord."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_11",
@@ -2344,7 +2494,12 @@
               "Borre"
             ],
             "correctIndex": 0,
-            "answer": "Lindholm Høje"
+            "answer": "Lindholm Høje",
+            "sourceTitle": "Lex – Lindholm Høje",
+            "sourceUrl": "https://lex.dk/Lindholm_H%C3%B8je",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Lindholm Høje som oldtidsområde og gravplads ved Aalborg."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_12",
@@ -2358,7 +2513,12 @@
               "Virket"
             ],
             "correctIndex": 0,
-            "answer": "Danevirke"
+            "answer": "Danevirke",
+            "sourceTitle": "Lex – Danevirke",
+            "sourceUrl": "https://lex.dk/Danevirke",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Danevirke som forsvarsværk tværs over den sydlige jyske halvø."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_13",
@@ -2372,7 +2532,12 @@
               "Adelgade"
             ],
             "correctIndex": 0,
-            "answer": "Hærvejen"
+            "answer": "Hærvejen",
+            "sourceTitle": "Lex – Hærvejen",
+            "sourceUrl": "https://lex.dk/H%C3%A6rvejen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Hærvejen som historisk landevej langs Jyllands højderyg."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_14",
@@ -2386,7 +2551,12 @@
               "Slaget ved Helgoland"
             ],
             "correctIndex": 0,
-            "answer": "Slaget ved Fredericia"
+            "answer": "Slaget ved Fredericia",
+            "sourceTitle": "Lex – Slaget ved Fredericia",
+            "sourceUrl": "https://lex.dk/Slaget_ved_Fredericia",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Slaget ved Fredericia i 1849 og det danske udfald fra fæstningen."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_15",
@@ -2400,7 +2570,12 @@
               "Slaget ved Lundby"
             ],
             "correctIndex": 0,
-            "answer": "Slaget ved Dybbøl"
+            "answer": "Slaget ved Dybbøl",
+            "sourceTitle": "Lex – Dybbøl",
+            "sourceUrl": "https://lex.dk/Dybb%C3%B8l",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Slaget ved Dybbøl den 18. april 1864 som afgørende nederlag."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_16",
@@ -2414,7 +2589,12 @@
               "J.F. Willumsen"
             ],
             "correctIndex": 0,
-            "answer": "P.S. Krøyer"
+            "answer": "P.S. Krøyer",
+            "sourceTitle": "Lex – P.S. Krøyer",
+            "sourceUrl": "https://lex.dk/P.S._Kr%C3%B8yer",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger P.S. Krøyer og værket “Hip, hip, hurra!”."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_17",
@@ -2428,7 +2608,12 @@
               "Hans Kirk"
             ],
             "correctIndex": 0,
-            "answer": "Steen Steensen Blicher"
+            "answer": "Steen Steensen Blicher",
+            "sourceTitle": "Lex – Steen Steensen Blicher",
+            "sourceUrl": "https://lex.dk/Steen_Steensen_Blicher",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Blicher, den jyske hede og novellen “Hosekræmmeren”."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_18",
@@ -2442,7 +2627,12 @@
               "Thøger Larsen"
             ],
             "correctIndex": 0,
-            "answer": "Jeppe Aakjær"
+            "answer": "Jeppe Aakjær",
+            "sourceTitle": "Lex – Jeppe Aakjær",
+            "sourceUrl": "https://lex.dk/Jeppe_Aakj%C3%A6r",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Jeppe Aakjær, “Vredens børn” og digtning om den jyske hede."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_19",
@@ -2456,7 +2646,12 @@
               "Martin Andersen Nexø"
             ],
             "correctIndex": 0,
-            "answer": "Johannes V. Jensen"
+            "answer": "Johannes V. Jensen",
+            "sourceTitle": "Lex – Johannes V. Jensen",
+            "sourceUrl": "https://lex.dk/Johannes_V._Jensen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Johannes V. Jensen som nobelprismodtager fra Himmerland og forfatter til “Kongens Fald”."
           },
           {
             "id": "kp_jydsk-historie-og-topografi_20",
@@ -2470,7 +2665,12 @@
               "Pelle Erobreren"
             ],
             "correctIndex": 0,
-            "answer": "Fiskerne"
+            "answer": "Fiskerne",
+            "sourceTitle": "Lex – Fiskerne",
+            "sourceUrl": "https://lex.dk/Fiskerne",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk leksikonartikel. Underbygger Hans Kirks roman “Fiskerne” og skildringen af et indremissionsk fiskersamfund."
           }
         ],
         "current": 0,

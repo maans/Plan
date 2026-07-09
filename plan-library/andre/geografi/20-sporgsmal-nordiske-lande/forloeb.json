@@ -1503,7 +1503,12 @@
                 "svenske kroner"
               ],
               "correctIndex": 0,
-              "answer": "norske kroner"
+              "answer": "norske kroner",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_02",
@@ -1517,7 +1522,12 @@
                 "danske kroner"
               ],
               "correctIndex": 0,
-              "answer": "svenske kroner"
+              "answer": "svenske kroner",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Sweden",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-sweden",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Sverige; underbygger hovedstad, sprog, valuta, minoritetssprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_03",
@@ -1531,7 +1541,12 @@
                 "norske kroner"
               ],
               "correctIndex": 0,
-              "answer": "euro"
+              "answer": "euro",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Finland",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-finland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Finland; underbygger hovedstad, valuta, nationale sprog, EU/NATO-status og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_04",
@@ -1545,7 +1560,12 @@
                 "danske kroner"
               ],
               "correctIndex": 0,
-              "answer": "islandske kroner"
+              "answer": "islandske kroner",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Iceland",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-iceland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Island; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_05",
@@ -1559,7 +1579,12 @@
                 "svenske kroner"
               ],
               "correctIndex": 0,
-              "answer": "danske kroner"
+              "answer": "danske kroner",
+              "sourceTitle": "Nordisk Samarbejde – Facts about the Faroe Islands",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-faroe-islands",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Færøerne; underbygger hovedstad, sprog, øtal, højeste punkt, selvstyre og valuta."
             },
             {
               "id": "kp_nordiske-lande_06",
@@ -1573,7 +1598,12 @@
                 "36"
               ],
               "correctIndex": 0,
-              "answer": "18"
+              "answer": "18",
+              "sourceTitle": "Nordisk Samarbejde – Facts about the Faroe Islands",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-faroe-islands",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Færøerne; underbygger hovedstad, sprog, øtal, højeste punkt, selvstyre og valuta."
             },
             {
               "id": "kp_nordiske-lande_07",
@@ -1587,7 +1617,12 @@
                 "18"
               ],
               "correctIndex": 0,
-              "answer": "6.757"
+              "answer": "6.757",
+              "sourceTitle": "Nordisk Samarbejde – About Åland",
+              "sourceUrl": "https://www.norden.org/en/information/about-aland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Åland; underbygger Mariehamn, svensk som officielt sprog, euro, selvstyre, øtal og Lagtinget."
             },
             {
               "id": "kp_nordiske-lande_08",
@@ -1601,7 +1636,12 @@
                 "Hvannadalshnúkur"
               ],
               "correctIndex": 0,
-              "answer": "Galdhøpiggen"
+              "answer": "Galdhøpiggen",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_09",
@@ -1615,7 +1655,12 @@
                 "Orrdalsklint"
               ],
               "correctIndex": 0,
-              "answer": "Kebnekaise"
+              "answer": "Kebnekaise",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Sweden",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-sweden",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Sverige; underbygger hovedstad, sprog, valuta, minoritetssprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_10",
@@ -1629,7 +1674,12 @@
                 "Galdhøpiggen"
               ],
               "correctIndex": 0,
-              "answer": "Halti"
+              "answer": "Halti",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Finland",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-finland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Finland; underbygger hovedstad, valuta, nationale sprog, EU/NATO-status og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_11",
@@ -1643,7 +1693,12 @@
                 "norsk"
               ],
               "correctIndex": 0,
-              "answer": "svensk"
+              "answer": "svensk",
+              "sourceTitle": "Nordisk Samarbejde – About Åland",
+              "sourceUrl": "https://www.norden.org/en/information/about-aland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Åland; underbygger Mariehamn, svensk som officielt sprog, euro, selvstyre, øtal og Lagtinget."
             },
             {
               "id": "kp_nordiske-lande_12",
@@ -1657,7 +1712,12 @@
                 "bokmål og samisk"
               ],
               "correctIndex": 0,
-              "answer": "bokmål og nynorsk"
+              "answer": "bokmål og nynorsk",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_13",
@@ -1671,7 +1731,12 @@
                 "Elias Lönnrot"
               ],
               "correctIndex": 0,
-              "answer": "Ivar Aasen"
+              "answer": "Ivar Aasen",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_14",
@@ -1685,7 +1750,12 @@
                 "þ, ð og æ"
               ],
               "correctIndex": 0,
-              "answer": "æ, ø og å"
+              "answer": "æ, ø og å",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Denmark",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-denmark",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Danmark; underbygger hovedstad, sprog, valuta, areal, styreform og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_15",
@@ -1699,7 +1769,12 @@
                 "grønlandsk"
               ],
               "correctIndex": 0,
-              "answer": "meänkieli"
+              "answer": "meänkieli",
+              "sourceTitle": "Nordisk Samarbejde – Facts about Sweden",
+              "sourceUrl": "https://www.norden.org/en/information/facts-about-sweden",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel nordisk faktaside om Sverige; underbygger hovedstad, sprog, valuta, minoritetssprog, geografi og nationaldata."
             },
             {
               "id": "kp_nordiske-lande_16",
@@ -1713,7 +1788,12 @@
                 "1995"
               ],
               "correctIndex": 0,
-              "answer": "1973"
+              "answer": "1973",
+              "sourceTitle": "EU – EU countries",
+              "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel EU-oversigt over medlemslande og tiltrædelsesår."
             },
             {
               "id": "kp_nordiske-lande_17",
@@ -1727,7 +1807,12 @@
                 "2004"
               ],
               "correctIndex": 0,
-              "answer": "1995"
+              "answer": "1995",
+              "sourceTitle": "EU – EU countries",
+              "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel EU-oversigt over medlemslande og tiltrædelsesår."
             },
             {
               "id": "kp_nordiske-lande_18",
@@ -1741,7 +1826,12 @@
                 "2004"
               ],
               "correctIndex": 0,
-              "answer": "1995"
+              "answer": "1995",
+              "sourceTitle": "EU – EU countries",
+              "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel EU-oversigt over medlemslande og tiltrædelsesår."
             },
             {
               "id": "kp_nordiske-lande_19",
@@ -1755,7 +1845,12 @@
                 "Danmark"
               ],
               "correctIndex": 0,
-              "answer": "Finland"
+              "answer": "Finland",
+              "sourceTitle": "NATO – Relations with Finland",
+              "sourceUrl": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-finland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NATO-side der angiver, at Finland blev medlem 4. april 2023 og Sverige 7. marts 2024."
             },
             {
               "id": "kp_nordiske-lande_20",
@@ -1769,7 +1864,12 @@
                 "Island"
               ],
               "correctIndex": 0,
-              "answer": "Sverige"
+              "answer": "Sverige",
+              "sourceTitle": "NATO – Relations with Finland",
+              "sourceUrl": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-finland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NATO-side der angiver, at Finland blev medlem 4. april 2023 og Sverige 7. marts 2024."
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
@@ -2204,7 +2304,12 @@
               "svenske kroner"
             ],
             "correctIndex": 0,
-            "answer": "norske kroner"
+            "answer": "norske kroner",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_02",
@@ -2218,7 +2323,12 @@
               "danske kroner"
             ],
             "correctIndex": 0,
-            "answer": "svenske kroner"
+            "answer": "svenske kroner",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Sweden",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-sweden",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Sverige; underbygger hovedstad, sprog, valuta, minoritetssprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_03",
@@ -2232,7 +2342,12 @@
               "norske kroner"
             ],
             "correctIndex": 0,
-            "answer": "euro"
+            "answer": "euro",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Finland",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-finland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Finland; underbygger hovedstad, valuta, nationale sprog, EU/NATO-status og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_04",
@@ -2246,7 +2361,12 @@
               "danske kroner"
             ],
             "correctIndex": 0,
-            "answer": "islandske kroner"
+            "answer": "islandske kroner",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Iceland",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-iceland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Island; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_05",
@@ -2260,7 +2380,12 @@
               "svenske kroner"
             ],
             "correctIndex": 0,
-            "answer": "danske kroner"
+            "answer": "danske kroner",
+            "sourceTitle": "Nordisk Samarbejde – Facts about the Faroe Islands",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-faroe-islands",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Færøerne; underbygger hovedstad, sprog, øtal, højeste punkt, selvstyre og valuta."
           },
           {
             "id": "kp_nordiske-lande_06",
@@ -2274,7 +2399,12 @@
               "36"
             ],
             "correctIndex": 0,
-            "answer": "18"
+            "answer": "18",
+            "sourceTitle": "Nordisk Samarbejde – Facts about the Faroe Islands",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-faroe-islands",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Færøerne; underbygger hovedstad, sprog, øtal, højeste punkt, selvstyre og valuta."
           },
           {
             "id": "kp_nordiske-lande_07",
@@ -2288,7 +2418,12 @@
               "18"
             ],
             "correctIndex": 0,
-            "answer": "6.757"
+            "answer": "6.757",
+            "sourceTitle": "Nordisk Samarbejde – About Åland",
+            "sourceUrl": "https://www.norden.org/en/information/about-aland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Åland; underbygger Mariehamn, svensk som officielt sprog, euro, selvstyre, øtal og Lagtinget."
           },
           {
             "id": "kp_nordiske-lande_08",
@@ -2302,7 +2437,12 @@
               "Hvannadalshnúkur"
             ],
             "correctIndex": 0,
-            "answer": "Galdhøpiggen"
+            "answer": "Galdhøpiggen",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_09",
@@ -2316,7 +2456,12 @@
               "Orrdalsklint"
             ],
             "correctIndex": 0,
-            "answer": "Kebnekaise"
+            "answer": "Kebnekaise",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Sweden",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-sweden",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Sverige; underbygger hovedstad, sprog, valuta, minoritetssprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_10",
@@ -2330,7 +2475,12 @@
               "Galdhøpiggen"
             ],
             "correctIndex": 0,
-            "answer": "Halti"
+            "answer": "Halti",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Finland",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-finland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Finland; underbygger hovedstad, valuta, nationale sprog, EU/NATO-status og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_11",
@@ -2344,7 +2494,12 @@
               "norsk"
             ],
             "correctIndex": 0,
-            "answer": "svensk"
+            "answer": "svensk",
+            "sourceTitle": "Nordisk Samarbejde – About Åland",
+            "sourceUrl": "https://www.norden.org/en/information/about-aland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Åland; underbygger Mariehamn, svensk som officielt sprog, euro, selvstyre, øtal og Lagtinget."
           },
           {
             "id": "kp_nordiske-lande_12",
@@ -2358,7 +2513,12 @@
               "bokmål og samisk"
             ],
             "correctIndex": 0,
-            "answer": "bokmål og nynorsk"
+            "answer": "bokmål og nynorsk",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_13",
@@ -2372,7 +2532,12 @@
               "Elias Lönnrot"
             ],
             "correctIndex": 0,
-            "answer": "Ivar Aasen"
+            "answer": "Ivar Aasen",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Norway",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-norway",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Norge; underbygger hovedstad, valuta, sprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_14",
@@ -2386,7 +2551,12 @@
               "þ, ð og æ"
             ],
             "correctIndex": 0,
-            "answer": "æ, ø og å"
+            "answer": "æ, ø og å",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Denmark",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-denmark",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Danmark; underbygger hovedstad, sprog, valuta, areal, styreform og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_15",
@@ -2400,7 +2570,12 @@
               "grønlandsk"
             ],
             "correctIndex": 0,
-            "answer": "meänkieli"
+            "answer": "meänkieli",
+            "sourceTitle": "Nordisk Samarbejde – Facts about Sweden",
+            "sourceUrl": "https://www.norden.org/en/information/facts-about-sweden",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel nordisk faktaside om Sverige; underbygger hovedstad, sprog, valuta, minoritetssprog, geografi og nationaldata."
           },
           {
             "id": "kp_nordiske-lande_16",
@@ -2414,7 +2589,12 @@
               "1995"
             ],
             "correctIndex": 0,
-            "answer": "1973"
+            "answer": "1973",
+            "sourceTitle": "EU – EU countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel EU-oversigt over medlemslande og tiltrædelsesår."
           },
           {
             "id": "kp_nordiske-lande_17",
@@ -2428,7 +2608,12 @@
               "2004"
             ],
             "correctIndex": 0,
-            "answer": "1995"
+            "answer": "1995",
+            "sourceTitle": "EU – EU countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel EU-oversigt over medlemslande og tiltrædelsesår."
           },
           {
             "id": "kp_nordiske-lande_18",
@@ -2442,7 +2627,12 @@
               "2004"
             ],
             "correctIndex": 0,
-            "answer": "1995"
+            "answer": "1995",
+            "sourceTitle": "EU – EU countries",
+            "sourceUrl": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel EU-oversigt over medlemslande og tiltrædelsesår."
           },
           {
             "id": "kp_nordiske-lande_19",
@@ -2456,7 +2646,12 @@
               "Danmark"
             ],
             "correctIndex": 0,
-            "answer": "Finland"
+            "answer": "Finland",
+            "sourceTitle": "NATO – Relations with Finland",
+            "sourceUrl": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-finland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NATO-side der angiver, at Finland blev medlem 4. april 2023 og Sverige 7. marts 2024."
           },
           {
             "id": "kp_nordiske-lande_20",
@@ -2470,7 +2665,12 @@
               "Island"
             ],
             "correctIndex": 0,
-            "answer": "Sverige"
+            "answer": "Sverige",
+            "sourceTitle": "NATO – Relations with Finland",
+            "sourceUrl": "https://www.nato.int/en/what-we-do/partnerships-and-cooperation/relations-with-finland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NATO-side der angiver, at Finland blev medlem 4. april 2023 og Sverige 7. marts 2024."
           }
         ],
         "current": 0,

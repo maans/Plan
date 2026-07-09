@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Værtsbyer og år,Hvilken by var vært for sommer-OL i 2008?,100,Beijing,Seoul,Tokyo,Shanghai,,,
-Værtsbyer og år,Hvilken by var vært for sommer-OL i 2016?,200,Rio de Janeiro,Buenos Aires,São Paulo,Santiago,,,
-Værtsbyer og år,Hvilken by var vært for sommer-OL i 2000?,300,Sydney,Melbourne,Brisbane,Perth,,,
-Sportsgrene og discipliner,Hvilken vintersport kombinerer langrend og riffelskydning?,100,skiskydning,nordisk kombination,skiorientering,alpint skiløb,,,
-Sportsgrene og discipliner,Hvilken sport spilles på is med granitsten og koste?,200,curling,ishockey,bandy,bobslæde,,,
-Sportsgrene og discipliner,Hvilken ketsjersport bruger en fjerbold?,300,badminton,tennis,squash,bordtennis,,,
-Symboler og organisation,Hvem designede de olympiske ringe i 1913?,100,Pierre de Coubertin,Thomas Bach,Demetrios Vikelas,Henri Didon,,,
-Symboler og organisation,I hvilken schweizisk by har IOC sit hovedkvarter?,200,Lausanne,Genève,Zürich,Bern,,,
-Atleter og præstationer,"Hvilken sprinter vandt 100 og 200 meter ved OL i 2008, 2012 og 2016?",100,Usain Bolt,Carl Lewis,Justin Gatlin,Yohan Blake,,,
-Atleter og præstationer,Hvilken gymnast fik den første registrerede perfekte 10’er ved OL i Montréal 1976?,200,Nadia Comăneci,Olga Korbut,Larisa Latynina,Simone Biles,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 2008?,100,Beijing,Seoul,Tokyo,Shanghai,,,,Olympics.com – Beijing 2008,https://www.olympics.com/en/olympic-games/beijing-2008,OK,2026-07-09,Officiel OL-side for den konkrete udgave. Underbygger værtsby og år.
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 2016?,200,Rio de Janeiro,Buenos Aires,São Paulo,Santiago,,,,Olympics.com – Rio 2016,https://www.olympics.com/en/olympic-games/rio-2016,OK,2026-07-09,Officiel OL-side for den konkrete udgave. Underbygger værtsby og år.
+Værtsbyer og år,Hvilken by var vært for sommer-OL i 2000?,300,Sydney,Melbourne,Brisbane,Perth,,,,Olympics.com – Sydney 2000,https://www.olympics.com/en/olympic-games/sydney-2000,OK,2026-07-09,Officiel OL-side for den konkrete udgave. Underbygger værtsby og år.
+Sportsgrene og discipliner,Hvilken vintersport kombinerer langrend og riffelskydning?,100,skiskydning,nordisk kombination,skiorientering,alpint skiløb,,,,Olympics.com – Biathlon,https://www.olympics.com/en/sports/biathlon/,OK,2026-07-09,Officiel OL-sportside. Underbygger skiskydning som kombination af langrend og riffelskydning.
+Sportsgrene og discipliner,Hvilken sport spilles på is med granitsten og koste?,200,curling,ishockey,bandy,bobslæde,,,,Olympics.com – Curling,https://www.olympics.com/en/sports/curling/,OK,2026-07-09,Officiel OL-sportside. Underbygger curling som sport på is med sten og koste.
+Sportsgrene og discipliner,Hvilken ketsjersport bruger en fjerbold?,300,badminton,tennis,squash,bordtennis,,,,Olympics.com – Badminton,https://www.olympics.com/en/sports/badminton/,OK,2026-07-09,Officiel OL-sportside. Underbygger badminton som ketsjersport med fjerbold/shuttlecock.
+Symboler og organisation,Hvem designede de olympiske ringe i 1913?,100,Pierre de Coubertin,Thomas Bach,Demetrios Vikelas,Henri Didon,,,,IOC – Olympic rings,https://www.olympics.com/ioc/olympic-rings,OK,2026-07-09,Officiel IOC-side. Underbygger de fem olympiske ringe og Pierre de Coubertin som skaber.
+Symboler og organisation,I hvilken schweizisk by har IOC sit hovedkvarter?,200,Lausanne,Genève,Zürich,Bern,,,,IOC – Contact us,https://www.olympics.com/ioc/contact-us,OK,2026-07-09,Officiel IOC-kontaktside. Underbygger IOC’s registrerede kontor i Lausanne.
+Atleter og præstationer,"Hvilken sprinter vandt 100 og 200 meter ved OL i 2008, 2012 og 2016?",100,Usain Bolt,Carl Lewis,Justin Gatlin,Yohan Blake,,,,Olympics.com – Beijing 2008,https://www.olympics.com/en/olympic-games/beijing-2008,OK,2026-07-09,Officiel OL-side for den konkrete udgave. Underbygger værtsby og år.
+Atleter og præstationer,Hvilken gymnast fik den første registrerede perfekte 10’er ved OL i Montréal 1976?,200,Nadia Comăneci,Olga Korbut,Larisa Latynina,Simone Biles,,,,Olympics.com – Montréal 1976,https://www.olympics.com/en/olympic-games/montreal-1976,OK,2026-07-09,Officiel OL-side for den konkrete udgave. Underbygger værtsby og år.

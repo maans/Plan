@@ -1503,7 +1503,12 @@
                 "fast ballast af sten"
               ],
               "correctIndex": 0,
-              "answer": "lav dybgang"
+              "answer": "lav dybgang",
+              "sourceTitle": "Vikingeskibsmuseet – De fem vikingeskibe",
+              "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Vikingeskibsmuseets officielle oversigt over Skuldelevskibene, skibstyper og sejlspærringen i Roskilde Fjord."
             },
             {
               "id": "kp_vikinger_02",
@@ -1517,7 +1522,12 @@
                 "et ceremonisk flodskib"
               ],
               "correctIndex": 0,
-              "answer": "et havgående fragtskib"
+              "answer": "et havgående fragtskib",
+              "sourceTitle": "Vikingeskibsmuseet – Skuldelev 1: Havskibet",
+              "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-1-havskibet",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel museumskilde om Skuldelev 1 som havgående handels-/fragtskib."
             },
             {
               "id": "kp_vikinger_03",
@@ -1531,7 +1541,12 @@
                 "et fiskeskib"
               ],
               "correctIndex": 0,
-              "answer": "et stort langskib"
+              "answer": "et stort langskib",
+              "sourceTitle": "Vikingeskibsmuseet – Skuldelev 2: Det store langskib",
+              "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-2-det-store-langskib",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel museumskilde om Skuldelev 2 som ca. 30 meter langt langskib bygget i Dublinområdet."
             },
             {
               "id": "kp_vikinger_04",
@@ -1545,7 +1560,12 @@
                 "Island"
               ],
               "correctIndex": 0,
-              "answer": "Dublinområdet"
+              "answer": "Dublinområdet",
+              "sourceTitle": "Vikingeskibsmuseet – Skuldelev 2: Det store langskib",
+              "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-2-det-store-langskib",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel museumskilde om Skuldelev 2 som ca. 30 meter langt langskib bygget i Dublinområdet."
             },
             {
               "id": "kp_vikinger_05",
@@ -1559,7 +1579,12 @@
                 "et kongeligt gravskib"
               ],
               "correctIndex": 0,
-              "answer": "et mindre handelsskib til kystfart"
+              "answer": "et mindre handelsskib til kystfart",
+              "sourceTitle": "Vikingeskibsmuseet – Skuldelev 3: Kystfareren",
+              "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-3-kystfareren",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel museumskilde om Skuldelev 3 som kysthandelsskib med plads til omkring 4 tons last."
             },
             {
               "id": "kp_vikinger_06",
@@ -1573,7 +1598,12 @@
                 "ankersten"
               ],
               "correctIndex": 0,
-              "answer": "vævevægte"
+              "answer": "vævevægte",
+              "sourceTitle": "Wikipedia – Warp-weighted loom",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Warp-weighted_loom",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om opretstående væv og vævevægte."
             },
             {
               "id": "kp_vikinger_07",
@@ -1587,7 +1617,12 @@
                 "trællen"
               ],
               "correctIndex": 0,
-              "answer": "smeden"
+              "answer": "smeden",
+              "sourceTitle": "Wikipedia – Blacksmith",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Blacksmith",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om smeden som håndværker der fremstiller og reparerer jernredskaber og våben."
             },
             {
               "id": "kp_vikinger_08",
@@ -1601,7 +1636,12 @@
                 "porcelæn"
               ],
               "correctIndex": 0,
-              "answer": "ben eller gevir"
+              "answer": "ben eller gevir",
+              "sourceTitle": "Wikipedia – Viking Age arms and armour",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Viking_Age_arms_and_armour",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel der bl.a. behandler vikingetidens materiale- og genstandskultur; bruges her til kamme af ben/gevir."
             },
             {
               "id": "kp_vikinger_09",
@@ -1615,7 +1655,12 @@
                 "jernbarrer"
               ],
               "correctIndex": 0,
-              "answer": "hakkesølv"
+              "answer": "hakkesølv",
+              "sourceTitle": "Wikipedia – Hacksilver",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Hacksilver",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om hakkesølv som ituhugget sølv brugt efter vægt som betaling."
             },
             {
               "id": "kp_vikinger_10",
@@ -1629,7 +1674,12 @@
                 "pesos"
               ],
               "correctIndex": 0,
-              "answer": "dirhemer"
+              "answer": "dirhemer",
+              "sourceTitle": "Wikipedia – Dirham",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Dirham",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om dirham-sølvmønter og deres forekomst i vikingetidsfund."
             },
             {
               "id": "kp_vikinger_11",
@@ -1643,7 +1693,12 @@
                 "Mjølner"
               ],
               "correctIndex": 0,
-              "answer": "Bifröst"
+              "answer": "Bifröst",
+              "sourceTitle": "Lex – Bifrost",
+              "sourceUrl": "https://lex.dk/Bifrost",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Lex-artikel om Bifrost som broen mellem gudernes og menneskenes verden."
             },
             {
               "id": "kp_vikinger_12",
@@ -1657,7 +1712,12 @@
                 "Utgård"
               ],
               "correctIndex": 0,
-              "answer": "Valhal"
+              "answer": "Valhal",
+              "sourceTitle": "Lex – Valhal",
+              "sourceUrl": "https://lex.dk/Valhal",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Lex-artikel om Valhal som Odins hal for faldne krigere."
             },
             {
               "id": "kp_vikinger_13",
@@ -1671,7 +1731,12 @@
                 "jætter"
               ],
               "correctIndex": 0,
-              "answer": "valkyrier"
+              "answer": "valkyrier",
+              "sourceTitle": "Lex – valkyrie",
+              "sourceUrl": "https://lex.dk/valkyrie",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Lex-artikel om valkyrier som væsener der udvælger faldne krigere."
             },
             {
               "id": "kp_vikinger_14",
@@ -1685,7 +1750,12 @@
                 "fimbulting"
               ],
               "correctIndex": 0,
-              "answer": "Ragnarök"
+              "answer": "Ragnarök",
+              "sourceTitle": "Lex – Ragnarok",
+              "sourceUrl": "https://lex.dk/Ragnarok",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Lex-artikel om Ragnarok som verdens undergang og fornyelse i nordisk mytologi."
             },
             {
               "id": "kp_vikinger_15",
@@ -1699,7 +1769,12 @@
                 "32"
               ],
               "correctIndex": 0,
-              "answer": "16"
+              "answer": "16",
+              "sourceTitle": "Danmarkshistorien/Lex – Vikingetidens runealfabet (futhark)",
+              "sourceUrl": "https://danmarkshistorien.lex.dk/Vikingetidens_runealfabet_%28futhark%29",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk fagkilde der beskriver vikingetidens yngre futhark med 16 tegn og runernes brug på runesten."
             },
             {
               "id": "kp_vikinger_16",
@@ -1713,7 +1788,12 @@
                 "1066"
               ],
               "correctIndex": 0,
-              "answer": "865"
+              "answer": "865",
+              "sourceTitle": "Danmarkshistorien/Lex – Den store hær 865-878",
+              "sourceUrl": "https://danmarkshistorien.lex.dk/Den_store_h%C3%A6r_865-878",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk fagkilde om Den Store Hær/Great Heathen Army fra 865 til 878."
             },
             {
               "id": "kp_vikinger_17",
@@ -1727,7 +1807,12 @@
                 "slaget ved Stamford Bridge"
               ],
               "correctIndex": 0,
-              "answer": "slaget ved Edington"
+              "answer": "slaget ved Edington",
+              "sourceTitle": "Wikipedia – Battle of Edington",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edington",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om slaget ved Edington i 878 mellem Alfred og Guthrum."
             },
             {
               "id": "kp_vikinger_18",
@@ -1741,7 +1826,12 @@
                 "slaget ved Clontarf"
               ],
               "correctIndex": 0,
-              "answer": "slaget ved Stamford Bridge"
+              "answer": "slaget ved Stamford Bridge",
+              "sourceTitle": "Danmarkshistorien/Lex – Slaget ved Stamford Bridge i 1066",
+              "sourceUrl": "https://danmarkshistorien.lex.dk/Slaget_ved_Stamford_Bridge_i_1066",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk fagkilde om slaget ved Stamford Bridge i 1066."
             },
             {
               "id": "kp_vikinger_19",
@@ -1755,7 +1845,12 @@
                 "Wessex"
               ],
               "correctIndex": 0,
-              "answer": "Danelagen"
+              "answer": "Danelagen",
+              "sourceTitle": "Danmarkshistorien/Lex – Danelagen",
+              "sourceUrl": "https://danmarkshistorien.lex.dk/Danelagen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk fagkilde om Danelagen i England."
             },
             {
               "id": "kp_vikinger_20",
@@ -1769,7 +1864,12 @@
                 "Harald Hårderåde"
               ],
               "correctIndex": 0,
-              "answer": "Rollo"
+              "answer": "Rollo",
+              "sourceTitle": "Wikipedia – Rollo",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Rollo",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Rollo og overdragelsen af området omkring Normandiet i 911."
             }
           ],
           "updatedAt": "2026-07-06T22:10:00.000Z"
@@ -2204,7 +2304,12 @@
               "fast ballast af sten"
             ],
             "correctIndex": 0,
-            "answer": "lav dybgang"
+            "answer": "lav dybgang",
+            "sourceTitle": "Vikingeskibsmuseet – De fem vikingeskibe",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Vikingeskibsmuseets officielle oversigt over Skuldelevskibene, skibstyper og sejlspærringen i Roskilde Fjord."
           },
           {
             "id": "kp_vikinger_02",
@@ -2218,7 +2323,12 @@
               "et ceremonisk flodskib"
             ],
             "correctIndex": 0,
-            "answer": "et havgående fragtskib"
+            "answer": "et havgående fragtskib",
+            "sourceTitle": "Vikingeskibsmuseet – Skuldelev 1: Havskibet",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-1-havskibet",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel museumskilde om Skuldelev 1 som havgående handels-/fragtskib."
           },
           {
             "id": "kp_vikinger_03",
@@ -2232,7 +2342,12 @@
               "et fiskeskib"
             ],
             "correctIndex": 0,
-            "answer": "et stort langskib"
+            "answer": "et stort langskib",
+            "sourceTitle": "Vikingeskibsmuseet – Skuldelev 2: Det store langskib",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-2-det-store-langskib",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel museumskilde om Skuldelev 2 som ca. 30 meter langt langskib bygget i Dublinområdet."
           },
           {
             "id": "kp_vikinger_04",
@@ -2246,7 +2361,12 @@
               "Island"
             ],
             "correctIndex": 0,
-            "answer": "Dublinområdet"
+            "answer": "Dublinområdet",
+            "sourceTitle": "Vikingeskibsmuseet – Skuldelev 2: Det store langskib",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-2-det-store-langskib",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel museumskilde om Skuldelev 2 som ca. 30 meter langt langskib bygget i Dublinområdet."
           },
           {
             "id": "kp_vikinger_05",
@@ -2260,7 +2380,12 @@
               "et kongeligt gravskib"
             ],
             "correctIndex": 0,
-            "answer": "et mindre handelsskib til kystfart"
+            "answer": "et mindre handelsskib til kystfart",
+            "sourceTitle": "Vikingeskibsmuseet – Skuldelev 3: Kystfareren",
+            "sourceUrl": "https://www.vikingeskibsmuseet.dk/besoeg/udstillinger/de-fem-vikingeskibe/skuldelev-3-kystfareren",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel museumskilde om Skuldelev 3 som kysthandelsskib med plads til omkring 4 tons last."
           },
           {
             "id": "kp_vikinger_06",
@@ -2274,7 +2399,12 @@
               "ankersten"
             ],
             "correctIndex": 0,
-            "answer": "vævevægte"
+            "answer": "vævevægte",
+            "sourceTitle": "Wikipedia – Warp-weighted loom",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Warp-weighted_loom",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om opretstående væv og vævevægte."
           },
           {
             "id": "kp_vikinger_07",
@@ -2288,7 +2418,12 @@
               "trællen"
             ],
             "correctIndex": 0,
-            "answer": "smeden"
+            "answer": "smeden",
+            "sourceTitle": "Wikipedia – Blacksmith",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Blacksmith",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om smeden som håndværker der fremstiller og reparerer jernredskaber og våben."
           },
           {
             "id": "kp_vikinger_08",
@@ -2302,7 +2437,12 @@
               "porcelæn"
             ],
             "correctIndex": 0,
-            "answer": "ben eller gevir"
+            "answer": "ben eller gevir",
+            "sourceTitle": "Wikipedia – Viking Age arms and armour",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Viking_Age_arms_and_armour",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel der bl.a. behandler vikingetidens materiale- og genstandskultur; bruges her til kamme af ben/gevir."
           },
           {
             "id": "kp_vikinger_09",
@@ -2316,7 +2456,12 @@
               "jernbarrer"
             ],
             "correctIndex": 0,
-            "answer": "hakkesølv"
+            "answer": "hakkesølv",
+            "sourceTitle": "Wikipedia – Hacksilver",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hacksilver",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om hakkesølv som ituhugget sølv brugt efter vægt som betaling."
           },
           {
             "id": "kp_vikinger_10",
@@ -2330,7 +2475,12 @@
               "pesos"
             ],
             "correctIndex": 0,
-            "answer": "dirhemer"
+            "answer": "dirhemer",
+            "sourceTitle": "Wikipedia – Dirham",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Dirham",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om dirham-sølvmønter og deres forekomst i vikingetidsfund."
           },
           {
             "id": "kp_vikinger_11",
@@ -2344,7 +2494,12 @@
               "Mjølner"
             ],
             "correctIndex": 0,
-            "answer": "Bifröst"
+            "answer": "Bifröst",
+            "sourceTitle": "Lex – Bifrost",
+            "sourceUrl": "https://lex.dk/Bifrost",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Lex-artikel om Bifrost som broen mellem gudernes og menneskenes verden."
           },
           {
             "id": "kp_vikinger_12",
@@ -2358,7 +2513,12 @@
               "Utgård"
             ],
             "correctIndex": 0,
-            "answer": "Valhal"
+            "answer": "Valhal",
+            "sourceTitle": "Lex – Valhal",
+            "sourceUrl": "https://lex.dk/Valhal",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Lex-artikel om Valhal som Odins hal for faldne krigere."
           },
           {
             "id": "kp_vikinger_13",
@@ -2372,7 +2532,12 @@
               "jætter"
             ],
             "correctIndex": 0,
-            "answer": "valkyrier"
+            "answer": "valkyrier",
+            "sourceTitle": "Lex – valkyrie",
+            "sourceUrl": "https://lex.dk/valkyrie",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Lex-artikel om valkyrier som væsener der udvælger faldne krigere."
           },
           {
             "id": "kp_vikinger_14",
@@ -2386,7 +2551,12 @@
               "fimbulting"
             ],
             "correctIndex": 0,
-            "answer": "Ragnarök"
+            "answer": "Ragnarök",
+            "sourceTitle": "Lex – Ragnarok",
+            "sourceUrl": "https://lex.dk/Ragnarok",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Lex-artikel om Ragnarok som verdens undergang og fornyelse i nordisk mytologi."
           },
           {
             "id": "kp_vikinger_15",
@@ -2400,7 +2570,12 @@
               "32"
             ],
             "correctIndex": 0,
-            "answer": "16"
+            "answer": "16",
+            "sourceTitle": "Danmarkshistorien/Lex – Vikingetidens runealfabet (futhark)",
+            "sourceUrl": "https://danmarkshistorien.lex.dk/Vikingetidens_runealfabet_%28futhark%29",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk fagkilde der beskriver vikingetidens yngre futhark med 16 tegn og runernes brug på runesten."
           },
           {
             "id": "kp_vikinger_16",
@@ -2414,7 +2589,12 @@
               "1066"
             ],
             "correctIndex": 0,
-            "answer": "865"
+            "answer": "865",
+            "sourceTitle": "Danmarkshistorien/Lex – Den store hær 865-878",
+            "sourceUrl": "https://danmarkshistorien.lex.dk/Den_store_h%C3%A6r_865-878",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk fagkilde om Den Store Hær/Great Heathen Army fra 865 til 878."
           },
           {
             "id": "kp_vikinger_17",
@@ -2428,7 +2608,12 @@
               "slaget ved Stamford Bridge"
             ],
             "correctIndex": 0,
-            "answer": "slaget ved Edington"
+            "answer": "slaget ved Edington",
+            "sourceTitle": "Wikipedia – Battle of Edington",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Battle_of_Edington",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om slaget ved Edington i 878 mellem Alfred og Guthrum."
           },
           {
             "id": "kp_vikinger_18",
@@ -2442,7 +2627,12 @@
               "slaget ved Clontarf"
             ],
             "correctIndex": 0,
-            "answer": "slaget ved Stamford Bridge"
+            "answer": "slaget ved Stamford Bridge",
+            "sourceTitle": "Danmarkshistorien/Lex – Slaget ved Stamford Bridge i 1066",
+            "sourceUrl": "https://danmarkshistorien.lex.dk/Slaget_ved_Stamford_Bridge_i_1066",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk fagkilde om slaget ved Stamford Bridge i 1066."
           },
           {
             "id": "kp_vikinger_19",
@@ -2456,7 +2646,12 @@
               "Wessex"
             ],
             "correctIndex": 0,
-            "answer": "Danelagen"
+            "answer": "Danelagen",
+            "sourceTitle": "Danmarkshistorien/Lex – Danelagen",
+            "sourceUrl": "https://danmarkshistorien.lex.dk/Danelagen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk fagkilde om Danelagen i England."
           },
           {
             "id": "kp_vikinger_20",
@@ -2470,7 +2665,12 @@
               "Harald Hårderåde"
             ],
             "correctIndex": 0,
-            "answer": "Rollo"
+            "answer": "Rollo",
+            "sourceTitle": "Wikipedia – Rollo",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Rollo",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Rollo og overdragelsen af området omkring Normandiet i 911."
           }
         ],
         "current": 0,

@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘danke’?,100,tak,godmorgen,farvel,vær venlig eller værsgo,,,
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘bitte’?,200,vær venlig eller værsgo,godmorgen,farvel,tak,,,
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Haus’?,300,hus,vindue,dør,tag,,,
-Grammatik og udtale,Hvilken bestemt artikel passer til “Lampe”?,100,die,der,das,den,,,
-Grammatik og udtale,Hvilken bestemt artikel passer til “Buch”?,200,das,der,die,den,,,
-Grammatik og udtale,Hvad er den korrekte flertalsform af “Buch”?,300,Bücher,Buche,Buchs,Buchen,,,
-Kunst og kultur,Hvem skrev værket “Die Räuber”?,100,Friedrich Schiller,Johann Wolfgang von Goethe,Franz Kafka,Thomas Mann,,,
-Kunst og kultur,Hvem skrev værket “Die Verwandlung”?,200,Franz Kafka,Johann Wolfgang von Goethe,Friedrich Schiller,Thomas Mann,,,
-Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Østrig?,100,Wien,Berlin,Bern,Vaduz,,,
-Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Schweiz?,200,Bern,Berlin,Wien,Vaduz,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘danke’?,100,tak,godmorgen,farvel,vær venlig eller værsgo,,,,Wiktionary – danke,https://en.wiktionary.org/wiki/danke,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘bitte’?,200,vær venlig eller værsgo,godmorgen,farvel,tak,,,,Wiktionary – bitte,https://en.wiktionary.org/wiki/bitte,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Haus’?,300,hus,vindue,dør,tag,,,,Wiktionary – Haus,https://en.wiktionary.org/wiki/Haus,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Grammatik og udtale,Hvilken bestemt artikel passer til “Lampe”?,100,die,der,das,den,,,,Wiktionary – Lampe,https://en.wiktionary.org/wiki/Lampe,OK,2026-07-09,Åben ordbogsartikel. Underbygger Lampe som femininum og dermed bestemt artikel die.
+Grammatik og udtale,Hvilken bestemt artikel passer til “Buch”?,200,das,der,die,den,,,,Wiktionary – Buch,https://en.wiktionary.org/wiki/Buch,OK,2026-07-09,"Åben ordbogsartikel. Underbygger Buch som neutrum, bestemt artikel das, og flertalsformen Bücher."
+Grammatik og udtale,Hvad er den korrekte flertalsform af “Buch”?,300,Bücher,Buche,Buchs,Buchen,,,,Wiktionary – Buch,https://en.wiktionary.org/wiki/Buch,OK,2026-07-09,"Åben ordbogsartikel. Underbygger Buch som neutrum, bestemt artikel das, og flertalsformen Bücher."
+Kunst og kultur,Hvem skrev værket “Die Räuber”?,100,Friedrich Schiller,Johann Wolfgang von Goethe,Franz Kafka,Thomas Mann,,,,Wikipedia – The Robbers,https://en.wikipedia.org/wiki/The_Robbers,OK,2026-07-09,Åben artikel om Die Räuber. Underbygger Friedrich Schiller som forfatter.
+Kunst og kultur,Hvem skrev værket “Die Verwandlung”?,200,Franz Kafka,Johann Wolfgang von Goethe,Friedrich Schiller,Thomas Mann,,,,Wikipedia – The Metamorphosis,https://en.wikipedia.org/wiki/The_Metamorphosis,OK,2026-07-09,Åben artikel om Die Verwandlung/Forvandlingen. Underbygger Franz Kafka som forfatter.
+Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Østrig?,100,Wien,Berlin,Bern,Vaduz,,,,Wikipedia – Austria,https://en.wikipedia.org/wiki/Austria,OK,2026-07-09,Åben landeartikel. Underbygger Wien som hovedstad og officielle sprogforhold.
+Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Schweiz?,200,Bern,Berlin,Wien,Vaduz,,,,Wikipedia – Switzerland,https://en.wikipedia.org/wiki/Switzerland,OK,2026-07-09,Åben landeartikel. Underbygger Bern som forbundsby og fire nationale sprog.

@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘hola’?,100,hej,farvel,tak,vær venlig,,,
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘adiós’?,200,farvel,hej,tak,vær venlig,,,
-Grammatik og udtale,Hvilken bestemt artikel passer til “problema” i ental?,100,el,la,los,una,,,
-Kunst og kultur,Hvem skrev værket “Don Quijote”?,100,Miguel de Cervantes,Gabriel García Márquez,Federico García Lorca,Jorge Luis Borges,,,
-Den spansktalende verden,Hvad er hovedstaden i Spanien?,100,Madrid,Mexico City,Buenos Aires,Bogotá,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘hola’?,100,hej,farvel,tak,vær venlig,,,,Wiktionary – hola,https://en.wiktionary.org/wiki/hola,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘adiós’?,200,farvel,hej,tak,vær venlig,,,,Wiktionary – adiós,https://en.wiktionary.org/wiki/adi%C3%B3s,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Grammatik og udtale,Hvilken bestemt artikel passer til “problema” i ental?,100,el,la,los,una,,,,Wiktionary – problema,https://en.wiktionary.org/wiki/problema,OK,2026-07-09,Åben ordbogsartikel. Underbygger at problema er maskulint og derfor tager el.
+Kunst og kultur,Hvem skrev værket “Don Quijote”?,100,Miguel de Cervantes,Gabriel García Márquez,Federico García Lorca,Jorge Luis Borges,,,,Biblioteca Virtual Miguel de Cervantes – Don Quijote de la Mancha,https://www.cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha--0/html/,OK,2026-07-09,Åben tekstudgave. Underbygger Miguel de Cervantes som forfatter til Don Quijote.
+Den spansktalende verden,Hvad er hovedstaden i Spanien?,100,Madrid,Mexico City,Buenos Aires,Bogotá,,,,Wikipedia – Spain,https://en.wikipedia.org/wiki/Spain,OK,2026-07-09,Åben landeartikel. Underbygger hovedstad Madrid og nationale grundoplysninger.

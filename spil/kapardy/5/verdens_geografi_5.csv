@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Lande og hovedstæder,Hvad er Danmarks hovedstad?,100,København,Aarhus,Oslo,Stockholm,,,
-Lande og hovedstæder,Hvad er Norges hovedstad?,200,Oslo,Bergen,København,Helsinki,,,
-"Bjerge, floder og landskaber",Hvad hedder Afrikas højeste bjerg?,100,Kilimanjaro,Mount Kenya,Toubkal,Ras Dashen,,,
-"Hav, øer og grænser","Hvad hedder verdens største ø, når Australien regnes som et kontinent?",100,Grønland,Ny Guinea,Borneo,Madagaskar,,,
-"Kort, klima og verdensdele","Hvad kaldes den tænkte linje, der deler Jorden i en nordlig og en sydlig halvkugle?",100,ækvator,nulmeridianen,den nordlige vendekreds,datolinjen,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Lande og hovedstæder,Hvad er Danmarks hovedstad?,100,København,Aarhus,Oslo,Stockholm,,,,Wikipedia – List of national capitals,https://en.wikipedia.org/wiki/List_of_national_capitals,OK,2026-07-09,Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad.
+Lande og hovedstæder,Hvad er Norges hovedstad?,200,Oslo,Bergen,København,Helsinki,,,,Wikipedia – List of national capitals,https://en.wikipedia.org/wiki/List_of_national_capitals,OK,2026-07-09,Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad.
+"Bjerge, floder og landskaber",Hvad hedder Afrikas højeste bjerg?,100,Kilimanjaro,Mount Kenya,Toubkal,Ras Dashen,,,,National Geographic Education – Kilimanjaro,https://education.nationalgeographic.org/resource/kilimanjaro/,OK,2026-07-09,Elevvenlig kilde der angiver Kilimanjaro som Afrikas højeste bjerg.
+"Hav, øer og grænser","Hvad hedder verdens største ø, når Australien regnes som et kontinent?",100,Grønland,Ny Guinea,Borneo,Madagaskar,,,,Wikipedia – List of islands by area,https://en.wikipedia.org/wiki/List_of_islands_by_area,OK,2026-07-09,"Åben liste over verdens største øer; Grønland er størst, når Australien regnes som kontinent."
+"Kort, klima og verdensdele","Hvad kaldes den tænkte linje, der deler Jorden i en nordlig og en sydlig halvkugle?",100,ækvator,nulmeridianen,den nordlige vendekreds,datolinjen,,,,National Geographic Education – Equator,https://education.nationalgeographic.org/resource/equator/,OK,2026-07-09,Elevvenlig kilde om ækvator som den tænkte linje mellem nordlig og sydlig halvkugle.

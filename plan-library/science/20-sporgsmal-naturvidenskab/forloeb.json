@@ -1506,7 +1506,12 @@
                 "porcelæn"
               ],
               "correctIndex": 0,
-              "answer": "kobber"
+              "answer": "kobber",
+              "sourceTitle": "Royal Society of Chemistry – Copper",
+              "sourceUrl": "https://periodic-table.rsc.org/element/29/copper",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "RSC-elementside. Underbygger kobber som god elektrisk leder og brug i elektriske ledninger."
             },
             {
               "id": "kp_naturvidenskab-basics_02",
@@ -1520,7 +1525,12 @@
                 "sølv"
               ],
               "correctIndex": 0,
-              "answer": "gummi"
+              "answer": "gummi",
+              "sourceTitle": "The Physics Classroom – Conductors and Insulators",
+              "sourceUrl": "https://www.physicsclassroom.com/class/estatics/Lesson-1/Conductors-and-Insulators",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben fysikundervisningskilde om elektriske ledere og isolatorer, herunder metaller og gummi/plast som isolerende materialer."
             },
             {
               "id": "kp_naturvidenskab-basics_03",
@@ -1534,7 +1544,12 @@
                 "Arkimedes’ lov"
               ],
               "correctIndex": 0,
-              "answer": "Newtons tredje lov"
+              "answer": "Newtons tredje lov",
+              "sourceTitle": "Khan Academy – What is Newton's third law?",
+              "sourceUrl": "https://www.khanacademy.org/science/ap-college-physics-1/xf557a762645cccc5%3Aforce-and-translational-dynamics/xf557a762645cccc5%3Aforces-and-systems/a/what-is-newtons-third-law",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben undervisningsside om Newtons tredje lov og lige store, modsat rettede kræfter."
             },
             {
               "id": "kp_naturvidenskab-basics_04",
@@ -1548,7 +1563,12 @@
                 "298 m/s²"
               ],
               "correctIndex": 0,
-              "answer": "9,8 m/s²"
+              "answer": "9,8 m/s²",
+              "sourceTitle": "OpenStax Physics – Free Fall",
+              "sourceUrl": "https://openstax.org/books/physics/pages/2-7-falling-objects",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben fysikbog. Underbygger tyngdeacceleration nær Jordens overflade omkring 9,8 m/s²."
             },
             {
               "id": "kp_naturvidenskab-basics_05",
@@ -1562,7 +1582,12 @@
                 "1.080 km/s"
               ],
               "correctIndex": 0,
-              "answer": "300.000 km/s"
+              "answer": "300.000 km/s",
+              "sourceTitle": "NIST – The NIST Reference on Constants, Units, and Uncertainty",
+              "sourceUrl": "https://physics.nist.gov/cuu/Constants/index.html",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "NIST-reference for fysiske konstanter, herunder lysets hastighed i vakuum."
             },
             {
               "id": "kp_naturvidenskab-basics_06",
@@ -1576,7 +1601,12 @@
                 "CH₄"
               ],
               "correctIndex": 0,
-              "answer": "CO₂"
+              "answer": "CO₂",
+              "sourceTitle": "Lex – kuldioxid",
+              "sourceUrl": "https://lex.dk/kuldioxid",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk nationalleksikon. Underbygger kuldioxid som CO₂."
             },
             {
               "id": "kp_naturvidenskab-basics_07",
@@ -1590,7 +1620,12 @@
                 "14"
               ],
               "correctIndex": 0,
-              "answer": "7"
+              "answer": "7",
+              "sourceTitle": "USGS Water Science School – pH and Water",
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-formidling om pH-skalaen, neutral pH omkring 7 og sure/basiske opløsninger."
             },
             {
               "id": "kp_naturvidenskab-basics_08",
@@ -1604,7 +1639,12 @@
                 "mættet"
               ],
               "correctIndex": 0,
-              "answer": "sur"
+              "answer": "sur",
+              "sourceTitle": "USGS Water Science School – pH and Water",
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-formidling om pH-skalaen, neutral pH omkring 7 og sure/basiske opløsninger."
             },
             {
               "id": "kp_naturvidenskab-basics_09",
@@ -1618,7 +1658,12 @@
                 "radioaktiv"
               ],
               "correctIndex": 0,
-              "answer": "basisk"
+              "answer": "basisk",
+              "sourceTitle": "USGS Water Science School – pH and Water",
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-formidling om pH-skalaen, neutral pH omkring 7 og sure/basiske opløsninger."
             },
             {
               "id": "kp_naturvidenskab-basics_10",
@@ -1632,7 +1677,12 @@
                 "hydrogenkerne"
               ],
               "correctIndex": 0,
-              "answer": "kovalent binding"
+              "answer": "kovalent binding",
+              "sourceTitle": "Chemistry LibreTexts – Ionic and Covalent Bonds",
+              "sourceUrl": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry/08%3A_Chemical_Bonding/8.01%3A_Ionic_and_Covalent_Bonds",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben kemikilde om kovalente bindinger, ionbindinger og elektronpar/ioner."
             },
             {
               "id": "kp_naturvidenskab-basics_11",
@@ -1646,7 +1696,12 @@
                 "magnetpolen"
               ],
               "correctIndex": 0,
-              "answer": "hypocentret"
+              "answer": "hypocentret",
+              "sourceTitle": "USGS – The Science of Earthquakes",
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-formidling om jordskælv, hypocenter/focus, epicenter og seismiske processer."
             },
             {
               "id": "kp_naturvidenskab-basics_12",
@@ -1660,7 +1715,12 @@
                 "subduktionszonen"
               ],
               "correctIndex": 0,
-              "answer": "epicentret"
+              "answer": "epicentret",
+              "sourceTitle": "USGS – The Science of Earthquakes",
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-formidling om jordskælv, hypocenter/focus, epicenter og seismiske processer."
             },
             {
               "id": "kp_naturvidenskab-basics_13",
@@ -1674,7 +1734,12 @@
                 "organisk jord"
               ],
               "correctIndex": 0,
-              "answer": "magmatisk bjergart"
+              "answer": "magmatisk bjergart",
+              "sourceTitle": "USGS – What are igneous, sedimentary, and metamorphic rocks?",
+              "sourceUrl": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-faq om magmatiske, sedimentære og metamorfe bjergarter."
             },
             {
               "id": "kp_naturvidenskab-basics_14",
@@ -1688,7 +1753,12 @@
                 "mantelsten"
               ],
               "correctIndex": 0,
-              "answer": "sedimentær bjergart"
+              "answer": "sedimentær bjergart",
+              "sourceTitle": "USGS – What are igneous, sedimentary, and metamorphic rocks?",
+              "sourceUrl": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-faq om magmatiske, sedimentære og metamorfe bjergarter."
             },
             {
               "id": "kp_naturvidenskab-basics_15",
@@ -1702,7 +1772,12 @@
                 "løssediment"
               ],
               "correctIndex": 0,
-              "answer": "metamorf bjergart"
+              "answer": "metamorf bjergart",
+              "sourceTitle": "USGS – What are igneous, sedimentary, and metamorphic rocks?",
+              "sourceUrl": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel USGS-faq om magmatiske, sedimentære og metamorfe bjergarter."
             },
             {
               "id": "kp_naturvidenskab-basics_16",
@@ -1716,7 +1791,12 @@
                 "sekund"
               ],
               "correctIndex": 0,
-              "answer": "meter"
+              "answer": "meter",
+              "sourceTitle": "NIST – SI Units",
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
             },
             {
               "id": "kp_naturvidenskab-basics_17",
@@ -1730,7 +1810,12 @@
                 "liter"
               ],
               "correctIndex": 0,
-              "answer": "kilogram"
+              "answer": "kilogram",
+              "sourceTitle": "NIST – SI Units",
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
             },
             {
               "id": "kp_naturvidenskab-basics_18",
@@ -1744,7 +1829,12 @@
                 "hertz"
               ],
               "correctIndex": 0,
-              "answer": "sekund"
+              "answer": "sekund",
+              "sourceTitle": "NIST – SI Units",
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
             },
             {
               "id": "kp_naturvidenskab-basics_19",
@@ -1758,7 +1848,12 @@
                 "candela"
               ],
               "correctIndex": 0,
-              "answer": "kelvin"
+              "answer": "kelvin",
+              "sourceTitle": "NIST – SI Units",
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
             },
             {
               "id": "kp_naturvidenskab-basics_20",
@@ -1772,7 +1867,12 @@
                 "om hypotesen er populær"
               ],
               "correctIndex": 0,
-              "answer": "hvor tæt gentagne målinger ligger på hinanden"
+              "answer": "hvor tæt gentagne målinger ligger på hinanden",
+              "sourceTitle": "OpenStax Concepts of Biology – The Process of Science",
+              "sourceUrl": "https://openstax.org/books/concepts-biology/pages/1-2-the-process-of-science",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben lærebogskilde om naturvidenskabelig metode, variable, kontroller og forsøgsdesign."
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
@@ -2207,7 +2307,12 @@
               "porcelæn"
             ],
             "correctIndex": 0,
-            "answer": "kobber"
+            "answer": "kobber",
+            "sourceTitle": "Royal Society of Chemistry – Copper",
+            "sourceUrl": "https://periodic-table.rsc.org/element/29/copper",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "RSC-elementside. Underbygger kobber som god elektrisk leder og brug i elektriske ledninger."
           },
           {
             "id": "kp_naturvidenskab-basics_02",
@@ -2221,7 +2326,12 @@
               "sølv"
             ],
             "correctIndex": 0,
-            "answer": "gummi"
+            "answer": "gummi",
+            "sourceTitle": "The Physics Classroom – Conductors and Insulators",
+            "sourceUrl": "https://www.physicsclassroom.com/class/estatics/Lesson-1/Conductors-and-Insulators",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben fysikundervisningskilde om elektriske ledere og isolatorer, herunder metaller og gummi/plast som isolerende materialer."
           },
           {
             "id": "kp_naturvidenskab-basics_03",
@@ -2235,7 +2345,12 @@
               "Arkimedes’ lov"
             ],
             "correctIndex": 0,
-            "answer": "Newtons tredje lov"
+            "answer": "Newtons tredje lov",
+            "sourceTitle": "Khan Academy – What is Newton's third law?",
+            "sourceUrl": "https://www.khanacademy.org/science/ap-college-physics-1/xf557a762645cccc5%3Aforce-and-translational-dynamics/xf557a762645cccc5%3Aforces-and-systems/a/what-is-newtons-third-law",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben undervisningsside om Newtons tredje lov og lige store, modsat rettede kræfter."
           },
           {
             "id": "kp_naturvidenskab-basics_04",
@@ -2249,7 +2364,12 @@
               "298 m/s²"
             ],
             "correctIndex": 0,
-            "answer": "9,8 m/s²"
+            "answer": "9,8 m/s²",
+            "sourceTitle": "OpenStax Physics – Free Fall",
+            "sourceUrl": "https://openstax.org/books/physics/pages/2-7-falling-objects",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben fysikbog. Underbygger tyngdeacceleration nær Jordens overflade omkring 9,8 m/s²."
           },
           {
             "id": "kp_naturvidenskab-basics_05",
@@ -2263,7 +2383,12 @@
               "1.080 km/s"
             ],
             "correctIndex": 0,
-            "answer": "300.000 km/s"
+            "answer": "300.000 km/s",
+            "sourceTitle": "NIST – The NIST Reference on Constants, Units, and Uncertainty",
+            "sourceUrl": "https://physics.nist.gov/cuu/Constants/index.html",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "NIST-reference for fysiske konstanter, herunder lysets hastighed i vakuum."
           },
           {
             "id": "kp_naturvidenskab-basics_06",
@@ -2277,7 +2402,12 @@
               "CH₄"
             ],
             "correctIndex": 0,
-            "answer": "CO₂"
+            "answer": "CO₂",
+            "sourceTitle": "Lex – kuldioxid",
+            "sourceUrl": "https://lex.dk/kuldioxid",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk nationalleksikon. Underbygger kuldioxid som CO₂."
           },
           {
             "id": "kp_naturvidenskab-basics_07",
@@ -2291,7 +2421,12 @@
               "14"
             ],
             "correctIndex": 0,
-            "answer": "7"
+            "answer": "7",
+            "sourceTitle": "USGS Water Science School – pH and Water",
+            "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-formidling om pH-skalaen, neutral pH omkring 7 og sure/basiske opløsninger."
           },
           {
             "id": "kp_naturvidenskab-basics_08",
@@ -2305,7 +2440,12 @@
               "mættet"
             ],
             "correctIndex": 0,
-            "answer": "sur"
+            "answer": "sur",
+            "sourceTitle": "USGS Water Science School – pH and Water",
+            "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-formidling om pH-skalaen, neutral pH omkring 7 og sure/basiske opløsninger."
           },
           {
             "id": "kp_naturvidenskab-basics_09",
@@ -2319,7 +2459,12 @@
               "radioaktiv"
             ],
             "correctIndex": 0,
-            "answer": "basisk"
+            "answer": "basisk",
+            "sourceTitle": "USGS Water Science School – pH and Water",
+            "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-formidling om pH-skalaen, neutral pH omkring 7 og sure/basiske opløsninger."
           },
           {
             "id": "kp_naturvidenskab-basics_10",
@@ -2333,7 +2478,12 @@
               "hydrogenkerne"
             ],
             "correctIndex": 0,
-            "answer": "kovalent binding"
+            "answer": "kovalent binding",
+            "sourceTitle": "Chemistry LibreTexts – Ionic and Covalent Bonds",
+            "sourceUrl": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry/08%3A_Chemical_Bonding/8.01%3A_Ionic_and_Covalent_Bonds",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben kemikilde om kovalente bindinger, ionbindinger og elektronpar/ioner."
           },
           {
             "id": "kp_naturvidenskab-basics_11",
@@ -2347,7 +2497,12 @@
               "magnetpolen"
             ],
             "correctIndex": 0,
-            "answer": "hypocentret"
+            "answer": "hypocentret",
+            "sourceTitle": "USGS – The Science of Earthquakes",
+            "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-formidling om jordskælv, hypocenter/focus, epicenter og seismiske processer."
           },
           {
             "id": "kp_naturvidenskab-basics_12",
@@ -2361,7 +2516,12 @@
               "subduktionszonen"
             ],
             "correctIndex": 0,
-            "answer": "epicentret"
+            "answer": "epicentret",
+            "sourceTitle": "USGS – The Science of Earthquakes",
+            "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-formidling om jordskælv, hypocenter/focus, epicenter og seismiske processer."
           },
           {
             "id": "kp_naturvidenskab-basics_13",
@@ -2375,7 +2535,12 @@
               "organisk jord"
             ],
             "correctIndex": 0,
-            "answer": "magmatisk bjergart"
+            "answer": "magmatisk bjergart",
+            "sourceTitle": "USGS – What are igneous, sedimentary, and metamorphic rocks?",
+            "sourceUrl": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-faq om magmatiske, sedimentære og metamorfe bjergarter."
           },
           {
             "id": "kp_naturvidenskab-basics_14",
@@ -2389,7 +2554,12 @@
               "mantelsten"
             ],
             "correctIndex": 0,
-            "answer": "sedimentær bjergart"
+            "answer": "sedimentær bjergart",
+            "sourceTitle": "USGS – What are igneous, sedimentary, and metamorphic rocks?",
+            "sourceUrl": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-faq om magmatiske, sedimentære og metamorfe bjergarter."
           },
           {
             "id": "kp_naturvidenskab-basics_15",
@@ -2403,7 +2573,12 @@
               "løssediment"
             ],
             "correctIndex": 0,
-            "answer": "metamorf bjergart"
+            "answer": "metamorf bjergart",
+            "sourceTitle": "USGS – What are igneous, sedimentary, and metamorphic rocks?",
+            "sourceUrl": "https://www.usgs.gov/faqs/what-are-igneous-sedimentary-and-metamorphic-rocks",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel USGS-faq om magmatiske, sedimentære og metamorfe bjergarter."
           },
           {
             "id": "kp_naturvidenskab-basics_16",
@@ -2417,7 +2592,12 @@
               "sekund"
             ],
             "correctIndex": 0,
-            "answer": "meter"
+            "answer": "meter",
+            "sourceTitle": "NIST – SI Units",
+            "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
           },
           {
             "id": "kp_naturvidenskab-basics_17",
@@ -2431,7 +2611,12 @@
               "liter"
             ],
             "correctIndex": 0,
-            "answer": "kilogram"
+            "answer": "kilogram",
+            "sourceTitle": "NIST – SI Units",
+            "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
           },
           {
             "id": "kp_naturvidenskab-basics_18",
@@ -2445,7 +2630,12 @@
               "hertz"
             ],
             "correctIndex": 0,
-            "answer": "sekund"
+            "answer": "sekund",
+            "sourceTitle": "NIST – SI Units",
+            "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
           },
           {
             "id": "kp_naturvidenskab-basics_19",
@@ -2459,7 +2649,12 @@
               "candela"
             ],
             "correctIndex": 0,
-            "answer": "kelvin"
+            "answer": "kelvin",
+            "sourceTitle": "NIST – SI Units",
+            "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel NIST-side om SI-systemets grundenheder og afledte enheder med særlige navne og symboler."
           },
           {
             "id": "kp_naturvidenskab-basics_20",
@@ -2473,7 +2668,12 @@
               "om hypotesen er populær"
             ],
             "correctIndex": 0,
-            "answer": "hvor tæt gentagne målinger ligger på hinanden"
+            "answer": "hvor tæt gentagne målinger ligger på hinanden",
+            "sourceTitle": "OpenStax Concepts of Biology – The Process of Science",
+            "sourceUrl": "https://openstax.org/books/concepts-biology/pages/1-2-the-process-of-science",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben lærebogskilde om naturvidenskabelig metode, variable, kontroller og forsøgsdesign."
           }
         ],
         "current": 0,

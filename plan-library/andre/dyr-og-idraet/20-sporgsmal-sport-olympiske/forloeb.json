@@ -1503,7 +1503,12 @@
                 "Beijing"
               ],
               "correctIndex": 0,
-              "answer": "Seoul"
+              "answer": "Seoul",
+              "sourceTitle": "Olympics.com – Seoul 1988",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/seoul-1988",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_02",
@@ -1517,7 +1522,12 @@
                 "Miami"
               ],
               "correctIndex": 0,
-              "answer": "Atlanta"
+              "answer": "Atlanta",
+              "sourceTitle": "Olympics.com – Atlanta 1996",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/atlanta-1996",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_03",
@@ -1531,7 +1541,12 @@
                 "Wien"
               ],
               "correctIndex": 0,
-              "answer": "München"
+              "answer": "München",
+              "sourceTitle": "Olympics.com – Munich 1972",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/munich-1972",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_04",
@@ -1545,7 +1560,12 @@
                 "Québec"
               ],
               "correctIndex": 0,
-              "answer": "Montréal"
+              "answer": "Montréal",
+              "sourceTitle": "Olympics.com – Montréal 1976",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/montreal-1976",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_05",
@@ -1559,7 +1579,12 @@
                 "Havana"
               ],
               "correctIndex": 0,
-              "answer": "Mexico City"
+              "answer": "Mexico City",
+              "sourceTitle": "Olympics.com – Mexico City 1968",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/mexico-city-1968",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_06",
@@ -1573,7 +1598,12 @@
                 "9"
               ],
               "correctIndex": 0,
-              "answer": "6"
+              "answer": "6",
+              "sourceTitle": "Volleyball World – Volleyball 101",
+              "sourceUrl": "https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/volleyball-101/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel introduktion. Underbygger at volleyball spilles med seks spillere pr. hold på banen."
             },
             {
               "id": "kp_sport-olympiske_07",
@@ -1587,7 +1617,12 @@
                 "11"
               ],
               "correctIndex": 0,
-              "answer": "7"
+              "answer": "7",
+              "sourceTitle": "International Handball Federation – Rules of the Game",
+              "sourceUrl": "https://www.ihf.info/regulations-documents/3/200000",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel regelside. Underbygger at et håndboldhold har syv spillere på banen inklusive målmand."
             },
             {
               "id": "kp_sport-olympiske_08",
@@ -1601,7 +1636,12 @@
                 "15"
               ],
               "correctIndex": 0,
-              "answer": "7"
+              "answer": "7",
+              "sourceTitle": "World Rugby – Rugby Sevens",
+              "sourceUrl": "https://www.world.rugby/sevens/how-to-play",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel introduktion. Underbygger at rugby sevens spilles med syv spillere på hvert hold."
             },
             {
               "id": "kp_sport-olympiske_09",
@@ -1615,7 +1655,12 @@
                 "12"
               ],
               "correctIndex": 0,
-              "answer": "11"
+              "answer": "11",
+              "sourceTitle": "FIH – Rules of Hockey",
+              "sourceUrl": "https://www.fih.hockey/about-fih/official-documents/rules-of-hockey",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel regelside. Underbygger at et landhockeyhold normalt har 11 spillere inklusive målmand."
             },
             {
               "id": "kp_sport-olympiske_10",
@@ -1629,7 +1674,12 @@
                 "fægtning"
               ],
               "correctIndex": 0,
-              "answer": "judo"
+              "answer": "judo",
+              "sourceTitle": "International Judo Federation – IJF Refereeing Rules",
+              "sourceUrl": "https://www.ijf.org/documents",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel IJF-dokumentside. Underbygger judoens kast, holdegreb og ippon som central scoring."
             },
             {
               "id": "kp_sport-olympiske_11",
@@ -1643,7 +1693,12 @@
                 "disciplin, lydighed og nationalitet"
               ],
               "correctIndex": 0,
-              "answer": "excellence, respekt og venskab"
+              "answer": "excellence, respekt og venskab",
+              "sourceTitle": "Olympic Brand Centre – Olympism",
+              "sourceUrl": "https://brand-centre.olympic.org/olympism",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel Olympic Brand Centre-side. Underbygger kerneværdierne excellence, respect og friendship."
             },
             {
               "id": "kp_sport-olympiske_12",
@@ -1657,7 +1712,12 @@
                 "International Office of Competition"
               ],
               "correctIndex": 0,
-              "answer": "International Olympic Committee"
+              "answer": "International Olympic Committee",
+              "sourceTitle": "IOC – International Olympic Committee",
+              "sourceUrl": "https://www.olympics.com/ioc",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel IOC-side. Underbygger forkortelsen IOC for International Olympic Committee."
             },
             {
               "id": "kp_sport-olympiske_13",
@@ -1671,7 +1731,12 @@
                 "en professionel liga"
               ],
               "correctIndex": 0,
-              "answer": "en national olympisk komité, NOC"
+              "answer": "en national olympisk komité, NOC",
+              "sourceTitle": "IOC – National Olympic Committees",
+              "sourceUrl": "https://www.olympics.com/ioc/national-olympic-committees",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel IOC-side. Underbygger nationale olympiske komitéer/NOC’er."
             },
             {
               "id": "kp_sport-olympiske_14",
@@ -1685,7 +1750,12 @@
                 "en atleterklub"
               ],
               "correctIndex": 0,
-              "answer": "et internationalt specialforbund, IF"
+              "answer": "et internationalt specialforbund, IF",
+              "sourceTitle": "IOC – International Federations",
+              "sourceUrl": "https://www.olympics.com/ioc/international-federations",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel IOC-side. Underbygger de internationale specialforbund/IF’er."
             },
             {
               "id": "kp_sport-olympiske_15",
@@ -1699,7 +1769,12 @@
                 "CAS"
               ],
               "correctIndex": 0,
-              "answer": "OCOG"
+              "answer": "OCOG",
+              "sourceTitle": "IOC – Olympic Charter",
+              "sourceUrl": "https://www.olympics.com/ioc/olympic-charter",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel IOC-kilde. Underbygger organisationskomitéen for en bestemt udgave af legene/OCOG."
             },
             {
               "id": "kp_sport-olympiske_16",
@@ -1713,7 +1788,12 @@
                 "Lasse Virén"
               ],
               "correctIndex": 0,
-              "answer": "Emil Zátopek"
+              "answer": "Emil Zátopek",
+              "sourceTitle": "Olympics.com – Helsinki 1952",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/helsinki-1952",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_17",
@@ -1727,7 +1807,12 @@
                 "Kenenisa Bekele"
               ],
               "correctIndex": 0,
-              "answer": "Abebe Bikila"
+              "answer": "Abebe Bikila",
+              "sourceTitle": "Olympics.com – Rome 1960",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/rome-1960",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_18",
@@ -1741,7 +1826,12 @@
                 "Charles Dumas"
               ],
               "correctIndex": 0,
-              "answer": "Dick Fosbury"
+              "answer": "Dick Fosbury",
+              "sourceTitle": "Olympics.com – Mexico City 1968",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/mexico-city-1968",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_19",
@@ -1755,7 +1845,12 @@
                 "Ralph Boston"
               ],
               "correctIndex": 0,
-              "answer": "Bob Beamon"
+              "answer": "Bob Beamon",
+              "sourceTitle": "Olympics.com – Mexico City 1968",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/mexico-city-1968",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             },
             {
               "id": "kp_sport-olympiske_20",
@@ -1769,7 +1864,12 @@
                 "Alexander Popov"
               ],
               "correctIndex": 0,
-              "answer": "Mark Spitz"
+              "answer": "Mark Spitz",
+              "sourceTitle": "Olympics.com – Munich 1972",
+              "sourceUrl": "https://www.olympics.com/en/olympic-games/munich-1972",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
             }
           ],
           "updatedAt": "2026-07-06T23:55:00.000Z"
@@ -2204,7 +2304,12 @@
               "Beijing"
             ],
             "correctIndex": 0,
-            "answer": "Seoul"
+            "answer": "Seoul",
+            "sourceTitle": "Olympics.com – Seoul 1988",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/seoul-1988",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_02",
@@ -2218,7 +2323,12 @@
               "Miami"
             ],
             "correctIndex": 0,
-            "answer": "Atlanta"
+            "answer": "Atlanta",
+            "sourceTitle": "Olympics.com – Atlanta 1996",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/atlanta-1996",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_03",
@@ -2232,7 +2342,12 @@
               "Wien"
             ],
             "correctIndex": 0,
-            "answer": "München"
+            "answer": "München",
+            "sourceTitle": "Olympics.com – Munich 1972",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/munich-1972",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_04",
@@ -2246,7 +2361,12 @@
               "Québec"
             ],
             "correctIndex": 0,
-            "answer": "Montréal"
+            "answer": "Montréal",
+            "sourceTitle": "Olympics.com – Montréal 1976",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/montreal-1976",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_05",
@@ -2260,7 +2380,12 @@
               "Havana"
             ],
             "correctIndex": 0,
-            "answer": "Mexico City"
+            "answer": "Mexico City",
+            "sourceTitle": "Olympics.com – Mexico City 1968",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/mexico-city-1968",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_06",
@@ -2274,7 +2399,12 @@
               "9"
             ],
             "correctIndex": 0,
-            "answer": "6"
+            "answer": "6",
+            "sourceTitle": "Volleyball World – Volleyball 101",
+            "sourceUrl": "https://en.volleyballworld.com/volleyball/competitions/volleyball-nations-league/volleyball-101/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel introduktion. Underbygger at volleyball spilles med seks spillere pr. hold på banen."
           },
           {
             "id": "kp_sport-olympiske_07",
@@ -2288,7 +2418,12 @@
               "11"
             ],
             "correctIndex": 0,
-            "answer": "7"
+            "answer": "7",
+            "sourceTitle": "International Handball Federation – Rules of the Game",
+            "sourceUrl": "https://www.ihf.info/regulations-documents/3/200000",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel regelside. Underbygger at et håndboldhold har syv spillere på banen inklusive målmand."
           },
           {
             "id": "kp_sport-olympiske_08",
@@ -2302,7 +2437,12 @@
               "15"
             ],
             "correctIndex": 0,
-            "answer": "7"
+            "answer": "7",
+            "sourceTitle": "World Rugby – Rugby Sevens",
+            "sourceUrl": "https://www.world.rugby/sevens/how-to-play",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel introduktion. Underbygger at rugby sevens spilles med syv spillere på hvert hold."
           },
           {
             "id": "kp_sport-olympiske_09",
@@ -2316,7 +2456,12 @@
               "12"
             ],
             "correctIndex": 0,
-            "answer": "11"
+            "answer": "11",
+            "sourceTitle": "FIH – Rules of Hockey",
+            "sourceUrl": "https://www.fih.hockey/about-fih/official-documents/rules-of-hockey",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel regelside. Underbygger at et landhockeyhold normalt har 11 spillere inklusive målmand."
           },
           {
             "id": "kp_sport-olympiske_10",
@@ -2330,7 +2475,12 @@
               "fægtning"
             ],
             "correctIndex": 0,
-            "answer": "judo"
+            "answer": "judo",
+            "sourceTitle": "International Judo Federation – IJF Refereeing Rules",
+            "sourceUrl": "https://www.ijf.org/documents",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel IJF-dokumentside. Underbygger judoens kast, holdegreb og ippon som central scoring."
           },
           {
             "id": "kp_sport-olympiske_11",
@@ -2344,7 +2494,12 @@
               "disciplin, lydighed og nationalitet"
             ],
             "correctIndex": 0,
-            "answer": "excellence, respekt og venskab"
+            "answer": "excellence, respekt og venskab",
+            "sourceTitle": "Olympic Brand Centre – Olympism",
+            "sourceUrl": "https://brand-centre.olympic.org/olympism",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel Olympic Brand Centre-side. Underbygger kerneværdierne excellence, respect og friendship."
           },
           {
             "id": "kp_sport-olympiske_12",
@@ -2358,7 +2513,12 @@
               "International Office of Competition"
             ],
             "correctIndex": 0,
-            "answer": "International Olympic Committee"
+            "answer": "International Olympic Committee",
+            "sourceTitle": "IOC – International Olympic Committee",
+            "sourceUrl": "https://www.olympics.com/ioc",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel IOC-side. Underbygger forkortelsen IOC for International Olympic Committee."
           },
           {
             "id": "kp_sport-olympiske_13",
@@ -2372,7 +2532,12 @@
               "en professionel liga"
             ],
             "correctIndex": 0,
-            "answer": "en national olympisk komité, NOC"
+            "answer": "en national olympisk komité, NOC",
+            "sourceTitle": "IOC – National Olympic Committees",
+            "sourceUrl": "https://www.olympics.com/ioc/national-olympic-committees",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel IOC-side. Underbygger nationale olympiske komitéer/NOC’er."
           },
           {
             "id": "kp_sport-olympiske_14",
@@ -2386,7 +2551,12 @@
               "en atleterklub"
             ],
             "correctIndex": 0,
-            "answer": "et internationalt specialforbund, IF"
+            "answer": "et internationalt specialforbund, IF",
+            "sourceTitle": "IOC – International Federations",
+            "sourceUrl": "https://www.olympics.com/ioc/international-federations",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel IOC-side. Underbygger de internationale specialforbund/IF’er."
           },
           {
             "id": "kp_sport-olympiske_15",
@@ -2400,7 +2570,12 @@
               "CAS"
             ],
             "correctIndex": 0,
-            "answer": "OCOG"
+            "answer": "OCOG",
+            "sourceTitle": "IOC – Olympic Charter",
+            "sourceUrl": "https://www.olympics.com/ioc/olympic-charter",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel IOC-kilde. Underbygger organisationskomitéen for en bestemt udgave af legene/OCOG."
           },
           {
             "id": "kp_sport-olympiske_16",
@@ -2414,7 +2589,12 @@
               "Lasse Virén"
             ],
             "correctIndex": 0,
-            "answer": "Emil Zátopek"
+            "answer": "Emil Zátopek",
+            "sourceTitle": "Olympics.com – Helsinki 1952",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/helsinki-1952",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_17",
@@ -2428,7 +2608,12 @@
               "Kenenisa Bekele"
             ],
             "correctIndex": 0,
-            "answer": "Abebe Bikila"
+            "answer": "Abebe Bikila",
+            "sourceTitle": "Olympics.com – Rome 1960",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/rome-1960",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_18",
@@ -2442,7 +2627,12 @@
               "Charles Dumas"
             ],
             "correctIndex": 0,
-            "answer": "Dick Fosbury"
+            "answer": "Dick Fosbury",
+            "sourceTitle": "Olympics.com – Mexico City 1968",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/mexico-city-1968",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_19",
@@ -2456,7 +2646,12 @@
               "Ralph Boston"
             ],
             "correctIndex": 0,
-            "answer": "Bob Beamon"
+            "answer": "Bob Beamon",
+            "sourceTitle": "Olympics.com – Mexico City 1968",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/mexico-city-1968",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           },
           {
             "id": "kp_sport-olympiske_20",
@@ -2470,7 +2665,12 @@
               "Alexander Popov"
             ],
             "correctIndex": 0,
-            "answer": "Mark Spitz"
+            "answer": "Mark Spitz",
+            "sourceTitle": "Olympics.com – Munich 1972",
+            "sourceUrl": "https://www.olympics.com/en/olympic-games/munich-1972",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel OL-side for den konkrete udgave. Underbygger værtsby og år."
           }
         ],
         "current": 0,

@@ -1503,7 +1503,12 @@
                 "Mangan"
               ],
               "correctIndex": 0,
-              "answer": "Neon"
+              "answer": "Neon",
+              "sourceTitle": "Royal Society of Chemistry – Neon",
+              "sourceUrl": "https://periodic-table.rsc.org/element/10/neon",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_02",
@@ -1517,7 +1522,12 @@
                 "Zn"
               ],
               "correctIndex": 0,
-              "answer": "Na"
+              "answer": "Na",
+              "sourceTitle": "Royal Society of Chemistry – Natrium/sodium",
+              "sourceUrl": "https://periodic-table.rsc.org/element/11/sodium",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_03",
@@ -1531,7 +1541,12 @@
                 "Kobolt"
               ],
               "correctIndex": 0,
-              "answer": "Magnesium"
+              "answer": "Magnesium",
+              "sourceTitle": "Royal Society of Chemistry – Magnesium",
+              "sourceUrl": "https://periodic-table.rsc.org/element/12/magnesium",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_04",
@@ -1545,7 +1560,12 @@
                 "Ge"
               ],
               "correctIndex": 0,
-              "answer": "Al"
+              "answer": "Al",
+              "sourceTitle": "Royal Society of Chemistry – Aluminium",
+              "sourceUrl": "https://periodic-table.rsc.org/element/13/aluminium",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_05",
@@ -1559,7 +1579,12 @@
                 "Kobber"
               ],
               "correctIndex": 0,
-              "answer": "Silicium"
+              "answer": "Silicium",
+              "sourceTitle": "Royal Society of Chemistry – Silicium/silicon",
+              "sourceUrl": "https://periodic-table.rsc.org/element/14/silicon",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_06",
@@ -1573,7 +1598,12 @@
                 "16"
               ],
               "correctIndex": 0,
-              "answer": "14"
+              "answer": "14",
+              "sourceTitle": "Royal Society of Chemistry – Silicium/silicon",
+              "sourceUrl": "https://periodic-table.rsc.org/element/14/silicon",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_07",
@@ -1587,7 +1617,12 @@
                 "17"
               ],
               "correctIndex": 0,
-              "answer": "15"
+              "answer": "15",
+              "sourceTitle": "Royal Society of Chemistry – Fosfor/phosphorus",
+              "sourceUrl": "https://periodic-table.rsc.org/element/15/phosphorus",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_08",
@@ -1601,7 +1636,12 @@
                 "18"
               ],
               "correctIndex": 0,
-              "answer": "16"
+              "answer": "16",
+              "sourceTitle": "Royal Society of Chemistry – Svovl/sulfur",
+              "sourceUrl": "https://periodic-table.rsc.org/element/16/sulfur",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_09",
@@ -1615,7 +1655,12 @@
                 "19"
               ],
               "correctIndex": 0,
-              "answer": "17"
+              "answer": "17",
+              "sourceTitle": "Royal Society of Chemistry – Klor/chlorine",
+              "sourceUrl": "https://periodic-table.rsc.org/element/17/chlorine",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_10",
@@ -1629,7 +1674,12 @@
                 "20"
               ],
               "correctIndex": 0,
-              "answer": "18"
+              "answer": "18",
+              "sourceTitle": "Royal Society of Chemistry – Argon",
+              "sourceUrl": "https://periodic-table.rsc.org/element/18/argon",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_11",
@@ -1643,7 +1693,12 @@
                 "Jern"
               ],
               "correctIndex": 0,
-              "answer": "Magnesium"
+              "answer": "Magnesium",
+              "sourceTitle": "Lex – alkalimetaller",
+              "sourceUrl": "https://lex.dk/alkalimetaller",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk nationalleksikon. Underbygger gruppe 1-metallerne lithium, natrium, kalium, rubidium, cæsium og francium."
             },
             {
               "id": "kp_kemi-elementer_12",
@@ -1657,7 +1712,12 @@
                 "Aluminium"
               ],
               "correctIndex": 0,
-              "answer": "Kviksølv"
+              "answer": "Kviksølv",
+              "sourceTitle": "Royal Society of Chemistry – Kviksølv/mercury",
+              "sourceUrl": "https://periodic-table.rsc.org/element/80/mercury",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_13",
@@ -1671,7 +1731,12 @@
                 "Svovl"
               ],
               "correctIndex": 0,
-              "answer": "Brom"
+              "answer": "Brom",
+              "sourceTitle": "Royal Society of Chemistry – Kviksølv/mercury",
+              "sourceUrl": "https://periodic-table.rsc.org/element/80/mercury",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
             },
             {
               "id": "kp_kemi-elementer_14",
@@ -1685,7 +1750,12 @@
                 "Kulstof"
               ],
               "correctIndex": 0,
-              "answer": "Kvælstof"
+              "answer": "Kvælstof",
+              "sourceTitle": "NASA Astrobiology – Nitrogen May Be a Sign of Habitability",
+              "sourceUrl": "https://astrobiology.nasa.gov/news/nitrogen-may-be-a-sign-of-habitability-2/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "NASA-side. Underbygger at ca. 78 % af Jordens atmosfære er kvælstof/nitrogen."
             },
             {
               "id": "kp_kemi-elementer_15",
@@ -1699,7 +1769,12 @@
                 "Kulstof"
               ],
               "correctIndex": 0,
-              "answer": "Hydrogen"
+              "answer": "Hydrogen",
+              "sourceTitle": "Royal Society of Chemistry – Hydrogen",
+              "sourceUrl": "https://periodic-table.rsc.org/element/1/hydrogen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "RSC-elementside. Underbygger hydrogen som grundstof nr. 1, letteste grundstof og almindeligste grundstof i universet."
             },
             {
               "id": "kp_kemi-elementer_16",
@@ -1713,7 +1788,12 @@
                 "Jern"
               ],
               "correctIndex": 0,
-              "answer": "Kulstof"
+              "answer": "Kulstof",
+              "sourceTitle": "Lex – carbon",
+              "sourceUrl": "https://lex.dk/carbon",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk nationalleksikon. Underbygger carbon/kulstof, diamant og grafit, herunder grafit i blyanter."
             },
             {
               "id": "kp_kemi-elementer_17",
@@ -1727,7 +1807,12 @@
                 "Magnesium"
               ],
               "correctIndex": 0,
-              "answer": "Kobber"
+              "answer": "Kobber",
+              "sourceTitle": "Royal Society of Chemistry – Copper",
+              "sourceUrl": "https://periodic-table.rsc.org/element/29/copper",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "RSC-elementside. Underbygger kobber som god elektrisk leder og brug i elektriske ledninger."
             },
             {
               "id": "kp_kemi-elementer_18",
@@ -1755,7 +1840,12 @@
                 "Zink"
               ],
               "correctIndex": 0,
-              "answer": "Jern"
+              "answer": "Jern",
+              "sourceTitle": "Nobel Prize – Establishing plant’s blood relatives",
+              "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/1930/speedread/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Nobel Prize-formidling. Underbygger jern i hæm/hæmoglobin og magnesium i klorofyl."
             },
             {
               "id": "kp_kemi-elementer_20",
@@ -1769,7 +1859,12 @@
                 "Calcium"
               ],
               "correctIndex": 0,
-              "answer": "Magnesium"
+              "answer": "Magnesium",
+              "sourceTitle": "Nobel Prize – Establishing plant’s blood relatives",
+              "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/1930/speedread/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Nobel Prize-formidling. Underbygger jern i hæm/hæmoglobin og magnesium i klorofyl."
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
@@ -2204,7 +2299,12 @@
               "Mangan"
             ],
             "correctIndex": 0,
-            "answer": "Neon"
+            "answer": "Neon",
+            "sourceTitle": "Royal Society of Chemistry – Neon",
+            "sourceUrl": "https://periodic-table.rsc.org/element/10/neon",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_02",
@@ -2218,7 +2318,12 @@
               "Zn"
             ],
             "correctIndex": 0,
-            "answer": "Na"
+            "answer": "Na",
+            "sourceTitle": "Royal Society of Chemistry – Natrium/sodium",
+            "sourceUrl": "https://periodic-table.rsc.org/element/11/sodium",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_03",
@@ -2232,7 +2337,12 @@
               "Kobolt"
             ],
             "correctIndex": 0,
-            "answer": "Magnesium"
+            "answer": "Magnesium",
+            "sourceTitle": "Royal Society of Chemistry – Magnesium",
+            "sourceUrl": "https://periodic-table.rsc.org/element/12/magnesium",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_04",
@@ -2246,7 +2356,12 @@
               "Ge"
             ],
             "correctIndex": 0,
-            "answer": "Al"
+            "answer": "Al",
+            "sourceTitle": "Royal Society of Chemistry – Aluminium",
+            "sourceUrl": "https://periodic-table.rsc.org/element/13/aluminium",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_05",
@@ -2260,7 +2375,12 @@
               "Kobber"
             ],
             "correctIndex": 0,
-            "answer": "Silicium"
+            "answer": "Silicium",
+            "sourceTitle": "Royal Society of Chemistry – Silicium/silicon",
+            "sourceUrl": "https://periodic-table.rsc.org/element/14/silicon",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_06",
@@ -2274,7 +2394,12 @@
               "16"
             ],
             "correctIndex": 0,
-            "answer": "14"
+            "answer": "14",
+            "sourceTitle": "Royal Society of Chemistry – Silicium/silicon",
+            "sourceUrl": "https://periodic-table.rsc.org/element/14/silicon",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_07",
@@ -2288,7 +2413,12 @@
               "17"
             ],
             "correctIndex": 0,
-            "answer": "15"
+            "answer": "15",
+            "sourceTitle": "Royal Society of Chemistry – Fosfor/phosphorus",
+            "sourceUrl": "https://periodic-table.rsc.org/element/15/phosphorus",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_08",
@@ -2302,7 +2432,12 @@
               "18"
             ],
             "correctIndex": 0,
-            "answer": "16"
+            "answer": "16",
+            "sourceTitle": "Royal Society of Chemistry – Svovl/sulfur",
+            "sourceUrl": "https://periodic-table.rsc.org/element/16/sulfur",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_09",
@@ -2316,7 +2451,12 @@
               "19"
             ],
             "correctIndex": 0,
-            "answer": "17"
+            "answer": "17",
+            "sourceTitle": "Royal Society of Chemistry – Klor/chlorine",
+            "sourceUrl": "https://periodic-table.rsc.org/element/17/chlorine",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_10",
@@ -2330,7 +2470,12 @@
               "20"
             ],
             "correctIndex": 0,
-            "answer": "18"
+            "answer": "18",
+            "sourceTitle": "Royal Society of Chemistry – Argon",
+            "sourceUrl": "https://periodic-table.rsc.org/element/18/argon",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_11",
@@ -2344,7 +2489,12 @@
               "Jern"
             ],
             "correctIndex": 0,
-            "answer": "Magnesium"
+            "answer": "Magnesium",
+            "sourceTitle": "Lex – alkalimetaller",
+            "sourceUrl": "https://lex.dk/alkalimetaller",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk nationalleksikon. Underbygger gruppe 1-metallerne lithium, natrium, kalium, rubidium, cæsium og francium."
           },
           {
             "id": "kp_kemi-elementer_12",
@@ -2358,7 +2508,12 @@
               "Aluminium"
             ],
             "correctIndex": 0,
-            "answer": "Kviksølv"
+            "answer": "Kviksølv",
+            "sourceTitle": "Royal Society of Chemistry – Kviksølv/mercury",
+            "sourceUrl": "https://periodic-table.rsc.org/element/80/mercury",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_13",
@@ -2372,7 +2527,12 @@
               "Svovl"
             ],
             "correctIndex": 0,
-            "answer": "Brom"
+            "answer": "Brom",
+            "sourceTitle": "Royal Society of Chemistry – Kviksølv/mercury",
+            "sourceUrl": "https://periodic-table.rsc.org/element/80/mercury",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben RSC-elementside med atomnummer, atomtegn/symbol, placering, tilstandsform, egenskaber og anvendelser."
           },
           {
             "id": "kp_kemi-elementer_14",
@@ -2386,7 +2546,12 @@
               "Kulstof"
             ],
             "correctIndex": 0,
-            "answer": "Kvælstof"
+            "answer": "Kvælstof",
+            "sourceTitle": "NASA Astrobiology – Nitrogen May Be a Sign of Habitability",
+            "sourceUrl": "https://astrobiology.nasa.gov/news/nitrogen-may-be-a-sign-of-habitability-2/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "NASA-side. Underbygger at ca. 78 % af Jordens atmosfære er kvælstof/nitrogen."
           },
           {
             "id": "kp_kemi-elementer_15",
@@ -2400,7 +2565,12 @@
               "Kulstof"
             ],
             "correctIndex": 0,
-            "answer": "Hydrogen"
+            "answer": "Hydrogen",
+            "sourceTitle": "Royal Society of Chemistry – Hydrogen",
+            "sourceUrl": "https://periodic-table.rsc.org/element/1/hydrogen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "RSC-elementside. Underbygger hydrogen som grundstof nr. 1, letteste grundstof og almindeligste grundstof i universet."
           },
           {
             "id": "kp_kemi-elementer_16",
@@ -2414,7 +2584,12 @@
               "Jern"
             ],
             "correctIndex": 0,
-            "answer": "Kulstof"
+            "answer": "Kulstof",
+            "sourceTitle": "Lex – carbon",
+            "sourceUrl": "https://lex.dk/carbon",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk nationalleksikon. Underbygger carbon/kulstof, diamant og grafit, herunder grafit i blyanter."
           },
           {
             "id": "kp_kemi-elementer_17",
@@ -2428,7 +2603,12 @@
               "Magnesium"
             ],
             "correctIndex": 0,
-            "answer": "Kobber"
+            "answer": "Kobber",
+            "sourceTitle": "Royal Society of Chemistry – Copper",
+            "sourceUrl": "https://periodic-table.rsc.org/element/29/copper",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "RSC-elementside. Underbygger kobber som god elektrisk leder og brug i elektriske ledninger."
           },
           {
             "id": "kp_kemi-elementer_18",
@@ -2456,7 +2636,12 @@
               "Zink"
             ],
             "correctIndex": 0,
-            "answer": "Jern"
+            "answer": "Jern",
+            "sourceTitle": "Nobel Prize – Establishing plant’s blood relatives",
+            "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/1930/speedread/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Nobel Prize-formidling. Underbygger jern i hæm/hæmoglobin og magnesium i klorofyl."
           },
           {
             "id": "kp_kemi-elementer_20",
@@ -2470,7 +2655,12 @@
               "Calcium"
             ],
             "correctIndex": 0,
-            "answer": "Magnesium"
+            "answer": "Magnesium",
+            "sourceTitle": "Nobel Prize – Establishing plant’s blood relatives",
+            "sourceUrl": "https://www.nobelprize.org/prizes/chemistry/1930/speedread/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Nobel Prize-formidling. Underbygger jern i hæm/hæmoglobin og magnesium i klorofyl."
           }
         ],
         "current": 0,

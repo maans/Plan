@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Lande og hovedstæder,Hvad er Sveriges hovedstad?,100,Stockholm,Göteborg,Oslo,Helsinki,,,
-Lande og hovedstæder,Hvad er Finlands hovedstad?,200,Helsinki,Turku,Stockholm,Tallinn,,,
-Lande og hovedstæder,Hvad er Islands hovedstad?,300,Reykjavík,Akureyri,Tórshavn,Nuuk,,,
-"Bjerge, floder og landskaber",På hvilket kontinent ligger størstedelen af Sahara?,100,Afrika,Asien,Australien,Sydamerika,,,
-"Bjerge, floder og landskaber",På hvilket kontinent ligger Andesbjergene?,200,Sydamerika,Nordamerika,Asien,Afrika,,,
-"Bjerge, floder og landskaber",Hvilken flod løber gennem London?,300,Themsen,Seinen,Rhinen,Tiberen,,,
-"Hav, øer og grænser",Hvilket stræde forbinder Middelhavet med Atlanterhavet?,100,Gibraltarstrædet,Bosporus,Hormuzstrædet,Malaccastrædet,,,
-"Hav, øer og grænser",Hvilket stræde forbinder Sortehavet med Marmarahavet?,200,Bosporus,Dardanellerne,Gibraltarstrædet,Beringstrædet,,,
-"Kort, klima og verdensdele",Hvad måler breddegrader?,100,afstand nord eller syd for ækvator,højde over havet,afstand øst eller vest for nulmeridianen,afstand til nærmeste pol,,,
-"Kort, klima og verdensdele",Hvad måler længdegrader?,200,afstand øst eller vest for nulmeridianen,afstand nord eller syd for ækvator,landskabets hældning,lufttrykkets variation,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Lande og hovedstæder,Hvad er Sveriges hovedstad?,100,Stockholm,Göteborg,Oslo,Helsinki,,,,Wikipedia – List of national capitals,https://en.wikipedia.org/wiki/List_of_national_capitals,OK,2026-07-09,Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad.
+Lande og hovedstæder,Hvad er Finlands hovedstad?,200,Helsinki,Turku,Stockholm,Tallinn,,,,Wikipedia – List of national capitals,https://en.wikipedia.org/wiki/List_of_national_capitals,OK,2026-07-09,Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad.
+Lande og hovedstæder,Hvad er Islands hovedstad?,300,Reykjavík,Akureyri,Tórshavn,Nuuk,,,,Wikipedia – List of national capitals,https://en.wikipedia.org/wiki/List_of_national_capitals,OK,2026-07-09,Åben oversigt over nationale hovedstæder; bruges til spørgsmål om land og hovedstad.
+"Bjerge, floder og landskaber",På hvilket kontinent ligger størstedelen af Sahara?,100,Afrika,Asien,Australien,Sydamerika,,,,Wikipedia – Sahara,https://en.wikipedia.org/wiki/Sahara,OK,2026-07-09,Åben artikel om Sahara som stor ørken i Afrika.
+"Bjerge, floder og landskaber",På hvilket kontinent ligger Andesbjergene?,200,Sydamerika,Nordamerika,Asien,Afrika,,,,Wikipedia – Andes,https://en.wikipedia.org/wiki/Andes,OK,2026-07-09,Åben artikel om Andesbjergene i Sydamerika.
+"Bjerge, floder og landskaber",Hvilken flod løber gennem London?,300,Themsen,Seinen,Rhinen,Tiberen,,,,Wikipedia – River Thames,https://en.wikipedia.org/wiki/River_Thames,OK,2026-07-09,Åben artikel om Themsen/River Thames gennem London.
+"Hav, øer og grænser",Hvilket stræde forbinder Middelhavet med Atlanterhavet?,100,Gibraltarstrædet,Bosporus,Hormuzstrædet,Malaccastrædet,,,,Wikipedia – Strait of Gibraltar,https://en.wikipedia.org/wiki/Strait_of_Gibraltar,OK,2026-07-09,Åben artikel om Gibraltarstrædet mellem Atlanterhavet og Middelhavet.
+"Hav, øer og grænser",Hvilket stræde forbinder Sortehavet med Marmarahavet?,200,Bosporus,Dardanellerne,Gibraltarstrædet,Beringstrædet,,,,Wikipedia – Bosporus,https://en.wikipedia.org/wiki/Bosporus,OK,2026-07-09,Åben artikel om Bosporus mellem Sortehavet og Marmarahavet.
+"Kort, klima og verdensdele",Hvad måler breddegrader?,100,afstand nord eller syd for ækvator,højde over havet,afstand øst eller vest for nulmeridianen,afstand til nærmeste pol,,,,National Geographic Education – Latitude,https://education.nationalgeographic.org/resource/latitude/,OK,2026-07-09,Elevvenlig kilde der forklarer breddegrader som afstand nord eller syd for ækvator.
+"Kort, klima og verdensdele",Hvad måler længdegrader?,200,afstand øst eller vest for nulmeridianen,afstand nord eller syd for ækvator,landskabets hældning,lufttrykkets variation,,,,National Geographic Education – Prime Meridian,https://education.nationalgeographic.org/resource/prime-meridian/,OK,2026-07-09,Elevvenlig kilde om nulmeridianen og længdegrader øst/vest for Greenwich.

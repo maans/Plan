@@ -1514,7 +1514,12 @@
                 "mælk"
               ],
               "correctIndex": 0,
-              "answer": "ost"
+              "answer": "ost",
+              "sourceTitle": "Wiktionary – Käse",
+              "sourceUrl": "https://en.wiktionary.org/wiki/K%C3%A4se",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
             },
             {
               "id": "kp_tysk-sprog-kultur_02",
@@ -1528,7 +1533,12 @@
                 "mælk"
               ],
               "correctIndex": 0,
-              "answer": "brød"
+              "answer": "brød",
+              "sourceTitle": "Wiktionary – Brot",
+              "sourceUrl": "https://en.wiktionary.org/wiki/Brot",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
             },
             {
               "id": "kp_tysk-sprog-kultur_03",
@@ -1542,7 +1552,12 @@
                 "brød"
               ],
               "correctIndex": 0,
-              "answer": "mælk"
+              "answer": "mælk",
+              "sourceTitle": "Wiktionary – Milch",
+              "sourceUrl": "https://en.wiktionary.org/wiki/Milch",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
             },
             {
               "id": "kp_tysk-sprog-kultur_04",
@@ -1556,7 +1571,12 @@
                 "snart"
               ],
               "correctIndex": 0,
-              "answer": "mandag"
+              "answer": "mandag",
+              "sourceTitle": "Wiktionary – Montag",
+              "sourceUrl": "https://en.wiktionary.org/wiki/Montag",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
             },
             {
               "id": "kp_tysk-sprog-kultur_05",
@@ -1570,7 +1590,12 @@
                 "snart"
               ],
               "correctIndex": 0,
-              "answer": "vi ses i morgen"
+              "answer": "vi ses i morgen",
+              "sourceTitle": "Wiktionary – bis morgen",
+              "sourceUrl": "https://en.wiktionary.org/wiki/bis_morgen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
             },
             {
               "id": "kp_tysk-sprog-kultur_06",
@@ -1584,7 +1609,12 @@
                 "habe"
               ],
               "correctIndex": 0,
-              "answer": "haben"
+              "answer": "haben",
+              "sourceTitle": "Wiktionary – haben",
+              "sourceUrl": "https://en.wiktionary.org/wiki/haben",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben bøjnings-/ordbogsartikel. Underbygger formen haben til wir."
             },
             {
               "id": "kp_tysk-sprog-kultur_07",
@@ -1598,7 +1628,12 @@
                 "werden"
               ],
               "correctIndex": 0,
-              "answer": "wird"
+              "answer": "wird",
+              "sourceTitle": "Wiktionary – werden",
+              "sourceUrl": "https://en.wiktionary.org/wiki/werden",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben bøjnings-/ordbogsartikel. Underbygger formen wird og futurum med werde + infinitiv."
             },
             {
               "id": "kp_tysk-sprog-kultur_08",
@@ -1612,7 +1647,12 @@
                 "stehe auf … igen til sidst"
               ],
               "correctIndex": 0,
-              "answer": "stehe … auf"
+              "answer": "stehe … auf",
+              "sourceTitle": "Dartmouth German Grammar – Separable Prefixes",
+              "sourceUrl": "https://germanstudiesdepartmenaluser.host.dartmouth.edu/Verbs/Separable.html",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben tyskgrammatisk reference. Forklarer delte/separable verber og placeringen af forstavelsen."
             },
             {
               "id": "kp_tysk-sprog-kultur_09",
@@ -1626,7 +1666,12 @@
                 "Ich arbeitete gehabt."
               ],
               "correctIndex": 0,
-              "answer": "Ich habe gearbeitet."
+              "answer": "Ich habe gearbeitet.",
+              "sourceTitle": "Dartmouth German Grammar – Present Perfect",
+              "sourceUrl": "https://germanstudiesdepartmenaluser.host.dartmouth.edu/Perfect/PresentPerfect.html",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben tyskgrammatisk reference. Forklarer perfektum med haben/sein og participium."
             },
             {
               "id": "kp_tysk-sprog-kultur_10",
@@ -1640,7 +1685,12 @@
                 "können"
               ],
               "correctIndex": 0,
-              "answer": "sein"
+              "answer": "sein",
+              "sourceTitle": "Wiktionary – gehen",
+              "sourceUrl": "https://en.wiktionary.org/wiki/gehen",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben bøjnings-/ordbogsartikel. Underbygger perfektum med sein ved bevægelsesverbet gehen."
             },
             {
               "id": "kp_tysk-sprog-kultur_11",
@@ -1654,7 +1704,12 @@
                 "Friedrich Dürrenmatt"
               ],
               "correctIndex": 0,
-              "answer": "Elfriede Jelinek"
+              "answer": "Elfriede Jelinek",
+              "sourceTitle": "Wikipedia – The Piano Teacher (novel)",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Piano_Teacher_(novel)",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om romanen. Underbygger Elfriede Jelinek som forfatter."
             },
             {
               "id": "kp_tysk-sprog-kultur_12",
@@ -1668,7 +1723,12 @@
                 "Michael Ende"
               ],
               "correctIndex": 0,
-              "answer": "Heinrich Hoffmann"
+              "answer": "Heinrich Hoffmann",
+              "sourceTitle": "Wikipedia – Struwwelpeter",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Struwwelpeter",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om værket/figuren. Underbygger Heinrich Hoffmann som skaber."
             },
             {
               "id": "kp_tysk-sprog-kultur_13",
@@ -1682,7 +1742,12 @@
                 "Michael Ende"
               ],
               "correctIndex": 0,
-              "answer": "Johanna Spyri"
+              "answer": "Johanna Spyri",
+              "sourceTitle": "Wikipedia – Heidi",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Heidi",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Heidi. Underbygger Johanna Spyri som forfatter."
             },
             {
               "id": "kp_tysk-sprog-kultur_14",
@@ -1696,7 +1761,12 @@
                 "Michael Ende"
               ],
               "correctIndex": 0,
-              "answer": "Erich Kästner"
+              "answer": "Erich Kästner",
+              "sourceTitle": "Wikipedia – Emil and the Detectives",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Emil_and_the_Detectives",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om værket. Underbygger Erich Kästner som forfatter."
             },
             {
               "id": "kp_tysk-sprog-kultur_15",
@@ -1710,7 +1780,12 @@
                 "Erich Kästner"
               ],
               "correctIndex": 0,
-              "answer": "Michael Ende"
+              "answer": "Michael Ende",
+              "sourceTitle": "Wikipedia – The Neverending Story",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Neverending_Story",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om værket. Underbygger Michael Ende som forfatter."
             },
             {
               "id": "kp_tysk-sprog-kultur_16",
@@ -1724,7 +1799,12 @@
                 "Belgien"
               ],
               "correctIndex": 0,
-              "answer": "Schweiz"
+              "answer": "Schweiz",
+              "sourceTitle": "Wikipedia – Switzerland",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Switzerland",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben landeartikel. Underbygger Bern som forbundsby og fire nationale sprog."
             },
             {
               "id": "kp_tysk-sprog-kultur_17",
@@ -1738,7 +1818,12 @@
                 "Schweiz"
               ],
               "correctIndex": 0,
-              "answer": "Belgien"
+              "answer": "Belgien",
+              "sourceTitle": "Belgium.be – Languages",
+              "sourceUrl": "https://www.belgium.be/en/about_belgium/country/languages",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel belgisk informationsside. Underbygger landets sprog og det tysksprogede fællesskab."
             },
             {
               "id": "kp_tysk-sprog-kultur_18",
@@ -1752,7 +1837,12 @@
                 "Alperne på grænsen mellem Schweiz og Italien"
               ],
               "correctIndex": 0,
-              "answer": "Berlin"
+              "answer": "Berlin",
+              "sourceTitle": "visitBerlin – Brandenburg Gate",
+              "sourceUrl": "https://www.visitberlin.de/en/brandenburg-gate",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel turismeside. Underbygger Brandenburger Tor i Berlin."
             },
             {
               "id": "kp_tysk-sprog-kultur_19",
@@ -1766,7 +1856,12 @@
                 "Alperne på grænsen mellem Schweiz og Italien"
               ],
               "correctIndex": 0,
-              "answer": "Wien"
+              "answer": "Wien",
+              "sourceTitle": "Schönbrunn Palace – Official website",
+              "sourceUrl": "https://www.schoenbrunn.at/en/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel side. Underbygger Schloss Schönbrunn i Wien."
             },
             {
               "id": "kp_tysk-sprog-kultur_20",
@@ -1780,7 +1875,12 @@
                 "Alperne på grænsen mellem Schweiz og Italien"
               ],
               "correctIndex": 0,
-              "answer": "Bayern"
+              "answer": "Bayern",
+              "sourceTitle": "Bayerische Schlösserverwaltung – Neuschwanstein Castle",
+              "sourceUrl": "https://www.neuschwanstein.de/englisch/tourist/index.htm",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Officiel slotsforvaltning. Underbygger Schloss Neuschwanstein i Bayern."
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
@@ -2215,7 +2315,12 @@
               "mælk"
             ],
             "correctIndex": 0,
-            "answer": "ost"
+            "answer": "ost",
+            "sourceTitle": "Wiktionary – Käse",
+            "sourceUrl": "https://en.wiktionary.org/wiki/K%C3%A4se",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
           },
           {
             "id": "kp_tysk-sprog-kultur_02",
@@ -2229,7 +2334,12 @@
               "mælk"
             ],
             "correctIndex": 0,
-            "answer": "brød"
+            "answer": "brød",
+            "sourceTitle": "Wiktionary – Brot",
+            "sourceUrl": "https://en.wiktionary.org/wiki/Brot",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
           },
           {
             "id": "kp_tysk-sprog-kultur_03",
@@ -2243,7 +2353,12 @@
               "brød"
             ],
             "correctIndex": 0,
-            "answer": "mælk"
+            "answer": "mælk",
+            "sourceTitle": "Wiktionary – Milch",
+            "sourceUrl": "https://en.wiktionary.org/wiki/Milch",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
           },
           {
             "id": "kp_tysk-sprog-kultur_04",
@@ -2257,7 +2372,12 @@
               "snart"
             ],
             "correctIndex": 0,
-            "answer": "mandag"
+            "answer": "mandag",
+            "sourceTitle": "Wiktionary – Montag",
+            "sourceUrl": "https://en.wiktionary.org/wiki/Montag",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
           },
           {
             "id": "kp_tysk-sprog-kultur_05",
@@ -2271,7 +2391,12 @@
               "snart"
             ],
             "correctIndex": 0,
-            "answer": "vi ses i morgen"
+            "answer": "vi ses i morgen",
+            "sourceTitle": "Wiktionary – bis morgen",
+            "sourceUrl": "https://en.wiktionary.org/wiki/bis_morgen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
           },
           {
             "id": "kp_tysk-sprog-kultur_06",
@@ -2285,7 +2410,12 @@
               "habe"
             ],
             "correctIndex": 0,
-            "answer": "haben"
+            "answer": "haben",
+            "sourceTitle": "Wiktionary – haben",
+            "sourceUrl": "https://en.wiktionary.org/wiki/haben",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben bøjnings-/ordbogsartikel. Underbygger formen haben til wir."
           },
           {
             "id": "kp_tysk-sprog-kultur_07",
@@ -2299,7 +2429,12 @@
               "werden"
             ],
             "correctIndex": 0,
-            "answer": "wird"
+            "answer": "wird",
+            "sourceTitle": "Wiktionary – werden",
+            "sourceUrl": "https://en.wiktionary.org/wiki/werden",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben bøjnings-/ordbogsartikel. Underbygger formen wird og futurum med werde + infinitiv."
           },
           {
             "id": "kp_tysk-sprog-kultur_08",
@@ -2313,7 +2448,12 @@
               "stehe auf … igen til sidst"
             ],
             "correctIndex": 0,
-            "answer": "stehe … auf"
+            "answer": "stehe … auf",
+            "sourceTitle": "Dartmouth German Grammar – Separable Prefixes",
+            "sourceUrl": "https://germanstudiesdepartmenaluser.host.dartmouth.edu/Verbs/Separable.html",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben tyskgrammatisk reference. Forklarer delte/separable verber og placeringen af forstavelsen."
           },
           {
             "id": "kp_tysk-sprog-kultur_09",
@@ -2327,7 +2467,12 @@
               "Ich arbeitete gehabt."
             ],
             "correctIndex": 0,
-            "answer": "Ich habe gearbeitet."
+            "answer": "Ich habe gearbeitet.",
+            "sourceTitle": "Dartmouth German Grammar – Present Perfect",
+            "sourceUrl": "https://germanstudiesdepartmenaluser.host.dartmouth.edu/Perfect/PresentPerfect.html",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben tyskgrammatisk reference. Forklarer perfektum med haben/sein og participium."
           },
           {
             "id": "kp_tysk-sprog-kultur_10",
@@ -2341,7 +2486,12 @@
               "können"
             ],
             "correctIndex": 0,
-            "answer": "sein"
+            "answer": "sein",
+            "sourceTitle": "Wiktionary – gehen",
+            "sourceUrl": "https://en.wiktionary.org/wiki/gehen",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben bøjnings-/ordbogsartikel. Underbygger perfektum med sein ved bevægelsesverbet gehen."
           },
           {
             "id": "kp_tysk-sprog-kultur_11",
@@ -2355,7 +2505,12 @@
               "Friedrich Dürrenmatt"
             ],
             "correctIndex": 0,
-            "answer": "Elfriede Jelinek"
+            "answer": "Elfriede Jelinek",
+            "sourceTitle": "Wikipedia – The Piano Teacher (novel)",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Piano_Teacher_(novel)",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om romanen. Underbygger Elfriede Jelinek som forfatter."
           },
           {
             "id": "kp_tysk-sprog-kultur_12",
@@ -2369,7 +2524,12 @@
               "Michael Ende"
             ],
             "correctIndex": 0,
-            "answer": "Heinrich Hoffmann"
+            "answer": "Heinrich Hoffmann",
+            "sourceTitle": "Wikipedia – Struwwelpeter",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Struwwelpeter",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om værket/figuren. Underbygger Heinrich Hoffmann som skaber."
           },
           {
             "id": "kp_tysk-sprog-kultur_13",
@@ -2383,7 +2543,12 @@
               "Michael Ende"
             ],
             "correctIndex": 0,
-            "answer": "Johanna Spyri"
+            "answer": "Johanna Spyri",
+            "sourceTitle": "Wikipedia – Heidi",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Heidi",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Heidi. Underbygger Johanna Spyri som forfatter."
           },
           {
             "id": "kp_tysk-sprog-kultur_14",
@@ -2397,7 +2562,12 @@
               "Michael Ende"
             ],
             "correctIndex": 0,
-            "answer": "Erich Kästner"
+            "answer": "Erich Kästner",
+            "sourceTitle": "Wikipedia – Emil and the Detectives",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Emil_and_the_Detectives",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om værket. Underbygger Erich Kästner som forfatter."
           },
           {
             "id": "kp_tysk-sprog-kultur_15",
@@ -2411,7 +2581,12 @@
               "Erich Kästner"
             ],
             "correctIndex": 0,
-            "answer": "Michael Ende"
+            "answer": "Michael Ende",
+            "sourceTitle": "Wikipedia – The Neverending Story",
+            "sourceUrl": "https://en.wikipedia.org/wiki/The_Neverending_Story",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om værket. Underbygger Michael Ende som forfatter."
           },
           {
             "id": "kp_tysk-sprog-kultur_16",
@@ -2425,7 +2600,12 @@
               "Belgien"
             ],
             "correctIndex": 0,
-            "answer": "Schweiz"
+            "answer": "Schweiz",
+            "sourceTitle": "Wikipedia – Switzerland",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Switzerland",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben landeartikel. Underbygger Bern som forbundsby og fire nationale sprog."
           },
           {
             "id": "kp_tysk-sprog-kultur_17",
@@ -2439,7 +2619,12 @@
               "Schweiz"
             ],
             "correctIndex": 0,
-            "answer": "Belgien"
+            "answer": "Belgien",
+            "sourceTitle": "Belgium.be – Languages",
+            "sourceUrl": "https://www.belgium.be/en/about_belgium/country/languages",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel belgisk informationsside. Underbygger landets sprog og det tysksprogede fællesskab."
           },
           {
             "id": "kp_tysk-sprog-kultur_18",
@@ -2453,7 +2638,12 @@
               "Alperne på grænsen mellem Schweiz og Italien"
             ],
             "correctIndex": 0,
-            "answer": "Berlin"
+            "answer": "Berlin",
+            "sourceTitle": "visitBerlin – Brandenburg Gate",
+            "sourceUrl": "https://www.visitberlin.de/en/brandenburg-gate",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel turismeside. Underbygger Brandenburger Tor i Berlin."
           },
           {
             "id": "kp_tysk-sprog-kultur_19",
@@ -2467,7 +2657,12 @@
               "Alperne på grænsen mellem Schweiz og Italien"
             ],
             "correctIndex": 0,
-            "answer": "Wien"
+            "answer": "Wien",
+            "sourceTitle": "Schönbrunn Palace – Official website",
+            "sourceUrl": "https://www.schoenbrunn.at/en/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel side. Underbygger Schloss Schönbrunn i Wien."
           },
           {
             "id": "kp_tysk-sprog-kultur_20",
@@ -2481,7 +2676,12 @@
               "Alperne på grænsen mellem Schweiz og Italien"
             ],
             "correctIndex": 0,
-            "answer": "Bayern"
+            "answer": "Bayern",
+            "sourceTitle": "Bayerische Schlösserverwaltung – Neuschwanstein Castle",
+            "sourceUrl": "https://www.neuschwanstein.de/englisch/tourist/index.htm",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Officiel slotsforvaltning. Underbygger Schloss Neuschwanstein i Bayern."
           }
         ],
         "current": 0,

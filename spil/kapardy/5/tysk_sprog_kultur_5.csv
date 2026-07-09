@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Guten Morgen’?,100,godmorgen,farvel,tak,vær venlig eller værsgo,,,
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘auf Wiedersehen’?,200,farvel,godmorgen,tak,vær venlig eller værsgo,,,
-Grammatik og udtale,Hvilken bestemt artikel passer til “Tisch”?,100,der,die,das,den,,,
-Kunst og kultur,Hvem skrev værket “Faust”?,100,Johann Wolfgang von Goethe,Friedrich Schiller,Franz Kafka,Thomas Mann,,,
-Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Tyskland?,100,Berlin,Wien,Bern,Vaduz,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Guten Morgen’?,100,godmorgen,farvel,tak,vær venlig eller værsgo,,,,Wiktionary – Guten Morgen,https://en.wiktionary.org/wiki/Guten_Morgen,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘auf Wiedersehen’?,200,farvel,godmorgen,tak,vær venlig eller værsgo,,,,Wiktionary – auf Wiedersehen,https://en.wiktionary.org/wiki/auf_Wiedersehen,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Grammatik og udtale,Hvilken bestemt artikel passer til “Tisch”?,100,der,die,das,den,,,,Wiktionary – Tisch,https://en.wiktionary.org/wiki/Tisch,OK,2026-07-09,Åben ordbogsartikel. Underbygger Tisch som maskulinum og dermed bestemt artikel der.
+Kunst og kultur,Hvem skrev værket “Faust”?,100,Johann Wolfgang von Goethe,Friedrich Schiller,Franz Kafka,Thomas Mann,,,,"Wikipedia – Faust, Part One","https://en.wikipedia.org/wiki/Faust,_Part_One",OK,2026-07-09,Åben artikel om Goethes Faust. Underbygger Johann Wolfgang von Goethe som forfatter.
+Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Tyskland?,100,Berlin,Wien,Bern,Vaduz,,,,Wikipedia – Germany,https://en.wikipedia.org/wiki/Germany,OK,2026-07-09,Åben landeartikel. Underbygger Berlin som hovedstad og grundoplysninger om Tyskland.

@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘gracias’?,100,tak,hej,farvel,vær venlig,,,
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘por favor’?,200,vær venlig,hej,farvel,tak,,,
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘casa’?,300,hus,vindue,dør,tag eller loft,,,
-Grammatik og udtale,Hvilken bestemt artikel passer til “mano” i ental?,100,la,el,lo,un,,,
-Grammatik og udtale,"Hvilken artikel bruges normalt foran “agua” i ental, når ordet står alene?",200,el,la,los,una,,,
-Grammatik og udtale,Hvad er den korrekte flertalsform af “lápiz”?,300,lápices,lápizs,lápizes,lápiz,,,
-Kunst og kultur,Hvem skrev værket “Cien años de soledad”?,100,Gabriel García Márquez,Miguel de Cervantes,Federico García Lorca,Jorge Luis Borges,,,
-Kunst og kultur,Hvem skrev værket “Bodas de sangre”?,200,Federico García Lorca,Miguel de Cervantes,Gabriel García Márquez,Jorge Luis Borges,,,
-Den spansktalende verden,Hvad er hovedstaden i Mexico?,100,Mexico City,Madrid,Buenos Aires,Bogotá,,,
-Den spansktalende verden,Hvad er hovedstaden i Argentina?,200,Buenos Aires,Madrid,Mexico City,Bogotá,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘gracias’?,100,tak,hej,farvel,vær venlig,,,,Wiktionary – gracias,https://en.wiktionary.org/wiki/gracias,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘por favor’?,200,vær venlig,hej,farvel,tak,,,,Wiktionary – por favor,https://en.wiktionary.org/wiki/por_favor,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘casa’?,300,hus,vindue,dør,tag eller loft,,,,Wiktionary – casa,https://en.wiktionary.org/wiki/casa,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Grammatik og udtale,Hvilken bestemt artikel passer til “mano” i ental?,100,la,el,lo,un,,,,Wiktionary – mano,https://en.wiktionary.org/wiki/mano,OK,2026-07-09,Åben ordbogsartikel. Underbygger at mano er femininum og derfor tager la.
+Grammatik og udtale,"Hvilken artikel bruges normalt foran “agua” i ental, når ordet står alene?",200,el,la,los,una,,,,Wiktionary – agua,https://en.wiktionary.org/wiki/agua,OK,2026-07-09,Åben ordbogsartikel. Underbygger el agua som bestemt entalsform.
+Grammatik og udtale,Hvad er den korrekte flertalsform af “lápiz”?,300,lápices,lápizs,lápizes,lápiz,,,,SpanishDictionary – Spanish Plural Noun Forms,https://www.spanishdict.com/guide/spanish-plural-noun-forms,OK,2026-07-09,"Forklarer spanske flertalsformer, herunder z → c + es som luz → luces og lápiz → lápices."
+Kunst og kultur,Hvem skrev værket “Cien años de soledad”?,100,Gabriel García Márquez,Miguel de Cervantes,Federico García Lorca,Jorge Luis Borges,,,,Wikipedia – One Hundred Years of Solitude,https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude,OK,2026-07-09,Åben artikel om romanen. Underbygger Gabriel García Márquez som forfatter.
+Kunst og kultur,Hvem skrev værket “Bodas de sangre”?,200,Federico García Lorca,Miguel de Cervantes,Gabriel García Márquez,Jorge Luis Borges,,,,Wikipedia – Blood Wedding,https://en.wikipedia.org/wiki/Blood_Wedding,OK,2026-07-09,Åben artikel om værket. Underbygger Federico García Lorca som forfatter.
+Den spansktalende verden,Hvad er hovedstaden i Mexico?,100,Mexico City,Madrid,Buenos Aires,Bogotá,,,,Wikipedia – Mexico,https://en.wikipedia.org/wiki/Mexico,OK,2026-07-09,Åben landeartikel. Underbygger hovedstad Mexico City og nationale grundoplysninger.
+Den spansktalende verden,Hvad er hovedstaden i Argentina?,200,Buenos Aires,Madrid,Mexico City,Bogotá,,,,Wikipedia – Argentina,https://en.wikipedia.org/wiki/Argentina,OK,2026-07-09,Åben landeartikel. Underbygger hovedstad Buenos Aires og nationale grundoplysninger.

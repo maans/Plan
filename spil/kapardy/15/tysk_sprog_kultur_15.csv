@@ -1,16 +1,16 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Fenster’?,100,vindue,hus,dør,tag,,,
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Tür’?,200,dør,hus,vindue,tag,,,
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Dach’?,300,tag,hus,vindue,dør,,,
-Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Apfel’?,400,æble,ost,brød,mælk,,,
-Grammatik og udtale,Hvilken form er korrekt i akkusativ: “Ich sehe ___ Mann”?,100,den,der,dem,des,,,
-Grammatik og udtale,Hvilken form er korrekt i dativ: “Ich helfe ___ Kind”?,200,dem,das,den,des,,,
-Grammatik og udtale,Hvilken form er korrekt i genitiv: “die Tür ___ Hauses”?,300,des,dem,den,das,,,
-Grammatik og udtale,Hvilken form af “sein” passer til “ich”?,400,bin,bist,ist,sind,,,
-Kunst og kultur,Hvem skrev værket “Buddenbrooks”?,100,Thomas Mann,Johann Wolfgang von Goethe,Friedrich Schiller,Franz Kafka,,,
-Kunst og kultur,Hvem skrev værket “Siddhartha”?,200,Hermann Hesse,Bertolt Brecht,Friedrich Dürrenmatt,Elfriede Jelinek,,,
-Kunst og kultur,Hvem skrev værket “Mutter Courage und ihre Kinder”?,300,Bertolt Brecht,Hermann Hesse,Friedrich Dürrenmatt,Elfriede Jelinek,,,
-Kunst og kultur,Hvem skrev værket “Der Besuch der alten Dame”?,400,Friedrich Dürrenmatt,Hermann Hesse,Bertolt Brecht,Elfriede Jelinek,,,
-Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Liechtenstein?,100,Vaduz,Berlin,Wien,Bern,,,
-Den tysktalende verden,"I hvilket land er tysk det almindelige føderale forvaltningssprog, og Berlin er hovedstad?",200,Tyskland,Østrig,Schweiz,Belgien,,,
-Den tysktalende verden,"I hvilket land er tysk officielt landsdækkende, mens kroatisk, slovensk og ungarsk har officiel status i visse regioner?",300,Østrig,Tyskland,Schweiz,Belgien,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Fenster’?,100,vindue,hus,dør,tag,,,,Wiktionary – Fenster,https://en.wiktionary.org/wiki/Fenster,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Tür’?,200,dør,hus,vindue,tag,,,,Wiktionary – Tür,https://en.wiktionary.org/wiki/T%C3%BCr,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Dach’?,300,tag,hus,vindue,dør,,,,Wiktionary – Dach,https://en.wiktionary.org/wiki/Dach,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Ord og udtryk,Hvad betyder det tyske ord eller udtryk ‘Apfel’?,400,æble,ost,brød,mælk,,,,Wiktionary – Apfel,https://en.wiktionary.org/wiki/Apfel,OK,2026-07-09,"Åben ordbogsartikel. Underbygger betydningen, kønnet, bøjningen eller brugen af det tyske ord eller udtryk."
+Grammatik og udtale,Hvilken form er korrekt i akkusativ: “Ich sehe ___ Mann”?,100,den,der,dem,des,,,,Grimm Grammar – Der Akkusativ,https://coerll.utexas.edu/gg/gr/cas_03.html,OK,2026-07-09,Åben tyskgrammatisk reference. Forklarer akkusativ som kasus for det direkte objekt og artikelændringer.
+Grammatik og udtale,Hvilken form er korrekt i dativ: “Ich helfe ___ Kind”?,200,dem,das,den,des,,,,Grimm Grammar – Der Dativ,https://coerll.utexas.edu/gg/gr/cas_07.html,OK,2026-07-09,Åben tyskgrammatisk reference. Forklarer dativ og dativformer som dem.
+Grammatik og udtale,Hvilken form er korrekt i genitiv: “die Tür ___ Hauses”?,300,des,dem,den,das,,,,Grimm Grammar – Der Genitiv,https://coerll.utexas.edu/gg/gr/cas_08.html,OK,2026-07-09,Åben tyskgrammatisk reference. Forklarer genitiv og former som des.
+Grammatik og udtale,Hvilken form af “sein” passer til “ich”?,400,bin,bist,ist,sind,,,,Wiktionary – sein,https://en.wiktionary.org/wiki/sein,OK,2026-07-09,Åben bøjnings-/ordbogsartikel. Underbygger formen bin af sein.
+Kunst og kultur,Hvem skrev værket “Buddenbrooks”?,100,Thomas Mann,Johann Wolfgang von Goethe,Friedrich Schiller,Franz Kafka,,,,Wikipedia – Buddenbrooks,https://en.wikipedia.org/wiki/Buddenbrooks,OK,2026-07-09,Åben artikel om romanen. Underbygger Thomas Mann som forfatter.
+Kunst og kultur,Hvem skrev værket “Siddhartha”?,200,Hermann Hesse,Bertolt Brecht,Friedrich Dürrenmatt,Elfriede Jelinek,,,,Wikipedia – Siddhartha (novel),https://en.wikipedia.org/wiki/Siddhartha_(novel),OK,2026-07-09,Åben artikel om romanen. Underbygger Hermann Hesse som forfatter.
+Kunst og kultur,Hvem skrev værket “Mutter Courage und ihre Kinder”?,300,Bertolt Brecht,Hermann Hesse,Friedrich Dürrenmatt,Elfriede Jelinek,,,,Wikipedia – Mother Courage and Her Children,https://en.wikipedia.org/wiki/Mother_Courage_and_Her_Children,OK,2026-07-09,Åben artikel om dramaet. Underbygger Bertolt Brecht som forfatter.
+Kunst og kultur,Hvem skrev værket “Der Besuch der alten Dame”?,400,Friedrich Dürrenmatt,Hermann Hesse,Bertolt Brecht,Elfriede Jelinek,,,,Wikipedia – The Visit (play),https://en.wikipedia.org/wiki/The_Visit_(play),OK,2026-07-09,Åben artikel om dramaet. Underbygger Friedrich Dürrenmatt som forfatter.
+Den tysktalende verden,Hvad er hovedstaden eller forbundsbyen i Liechtenstein?,100,Vaduz,Berlin,Wien,Bern,,,,Wikipedia – Liechtenstein,https://en.wikipedia.org/wiki/Liechtenstein,OK,2026-07-09,Åben landeartikel. Underbygger Vaduz som hovedstad og landets institutioner.
+Den tysktalende verden,"I hvilket land er tysk det almindelige føderale forvaltningssprog, og Berlin er hovedstad?",200,Tyskland,Østrig,Schweiz,Belgien,,,,Wikipedia – Germany,https://en.wikipedia.org/wiki/Germany,OK,2026-07-09,Åben landeartikel. Underbygger Berlin som hovedstad og grundoplysninger om Tyskland.
+Den tysktalende verden,"I hvilket land er tysk officielt landsdækkende, mens kroatisk, slovensk og ungarsk har officiel status i visse regioner?",300,Østrig,Tyskland,Schweiz,Belgien,,,,Wikipedia – Austria,https://en.wikipedia.org/wiki/Austria,OK,2026-07-09,Åben landeartikel. Underbygger Wien som hovedstad og officielle sprogforhold.

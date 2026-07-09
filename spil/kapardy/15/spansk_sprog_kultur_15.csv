@@ -1,16 +1,16 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘ventana’?,100,vindue,hus,dør,tag eller loft,,,
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘puerta’?,200,dør,hus,vindue,tag eller loft,,,
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘techo’?,300,tag eller loft,hus,vindue,dør,,,
-Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘manzana’?,400,æble,ost,brød,mælk,,,
-Grammatik og udtale,Hvad er den korrekte flertalsform af “luz”?,100,luces,luzes,luzs,luzas,,,
-Grammatik og udtale,Hvilken ubestemt artikel passer til “casa”?,200,una,un,unos,el,,,
-Grammatik og udtale,Hvilket verbum bruges normalt om varig identitet i “Madrid ___ la capital de España”?,300,es,está,hay,tiene,,,
-Grammatik og udtale,Hvilket verbum bruges normalt om midlertidig tilstand i “Ana ___ cansada”?,400,está,es,hay,tiene,,,
-Kunst og kultur,Hvem skrev værket “Ficciones”?,100,Jorge Luis Borges,Miguel de Cervantes,Gabriel García Márquez,Federico García Lorca,,,
-Kunst og kultur,Hvem skrev værket “La casa de los espíritus”?,200,Isabel Allende,Pablo Neruda,Octavio Paz,Mario Vargas Llosa,,,
-Kunst og kultur,Hvem skrev værket “Veinte poemas de amor y una canción desesperada”?,300,Pablo Neruda,Isabel Allende,Octavio Paz,Mario Vargas Llosa,,,
-Kunst og kultur,Hvem skrev værket “El laberinto de la soledad”?,400,Octavio Paz,Isabel Allende,Pablo Neruda,Mario Vargas Llosa,,,
-Den spansktalende verden,Hvad er hovedstaden i Colombia?,100,Bogotá,Madrid,Mexico City,Buenos Aires,,,
-Den spansktalende verden,Hvilket land passer til beskrivelsen “spansk og guaraní er officielle sprog”?,200,Paraguay,Bolivia,Ækvatorialguinea,Peru,,,
-Den spansktalende verden,Hvilket land passer til beskrivelsen “spansk er officielt sammen med en række oprindelige sprog”?,300,Bolivia,Paraguay,Ækvatorialguinea,Peru,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘ventana’?,100,vindue,hus,dør,tag eller loft,,,,Wiktionary – ventana,https://en.wiktionary.org/wiki/ventana,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘puerta’?,200,dør,hus,vindue,tag eller loft,,,,Wiktionary – puerta,https://en.wiktionary.org/wiki/puerta,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘techo’?,300,tag eller loft,hus,vindue,dør,,,,Wiktionary – techo,https://en.wiktionary.org/wiki/techo,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Ord og udtryk,Hvad betyder det spanske ord eller udtryk ‘manzana’?,400,æble,ost,brød,mælk,,,,Wiktionary – manzana,https://en.wiktionary.org/wiki/manzana,OK,2026-07-09,Åben ordbogsartikel. Underbygger betydningen af det spanske ord eller udtryk.
+Grammatik og udtale,Hvad er den korrekte flertalsform af “luz”?,100,luces,luzes,luzs,luzas,,,,SpanishDictionary – Spanish Plural Noun Forms,https://www.spanishdict.com/guide/spanish-plural-noun-forms,OK,2026-07-09,"Forklarer spanske flertalsformer, herunder z → c + es som luz → luces og lápiz → lápices."
+Grammatik og udtale,Hvilken ubestemt artikel passer til “casa”?,200,una,un,unos,el,,,,SpanishDictionary – Indefinite Articles in Spanish,https://www.spanishdict.com/guide/indefinite-articles-in-spanish,OK,2026-07-09,"Forklarer de ubestemte artikler un, una, unos og unas."
+Grammatik og udtale,Hvilket verbum bruges normalt om varig identitet i “Madrid ___ la capital de España”?,300,es,está,hay,tiene,,,,SpanishDictionary – Ser vs. Estar,https://www.spanishdict.com/guide/ser-vs-estar,OK,2026-07-09,"Forklarer forskellen mellem ser og estar, bl.a. varig identitet/egenskab og midlertidig tilstand."
+Grammatik og udtale,Hvilket verbum bruges normalt om midlertidig tilstand i “Ana ___ cansada”?,400,está,es,hay,tiene,,,,SpanishDictionary – Ser vs. Estar,https://www.spanishdict.com/guide/ser-vs-estar,OK,2026-07-09,"Forklarer forskellen mellem ser og estar, bl.a. varig identitet/egenskab og midlertidig tilstand."
+Kunst og kultur,Hvem skrev værket “Ficciones”?,100,Jorge Luis Borges,Miguel de Cervantes,Gabriel García Márquez,Federico García Lorca,,,,Wikipedia – Ficciones,https://en.wikipedia.org/wiki/Ficciones,OK,2026-07-09,Åben artikel om værket. Underbygger Jorge Luis Borges som forfatter.
+Kunst og kultur,Hvem skrev værket “La casa de los espíritus”?,200,Isabel Allende,Pablo Neruda,Octavio Paz,Mario Vargas Llosa,,,,Wikipedia – The House of the Spirits,https://en.wikipedia.org/wiki/The_House_of_the_Spirits,OK,2026-07-09,Åben artikel om romanen. Underbygger Isabel Allende som forfatter.
+Kunst og kultur,Hvem skrev værket “Veinte poemas de amor y una canción desesperada”?,300,Pablo Neruda,Isabel Allende,Octavio Paz,Mario Vargas Llosa,,,,Wikipedia – Twenty Love Poems and a Song of Despair,https://en.wikipedia.org/wiki/Twenty_Love_Poems_and_a_Song_of_Despair,OK,2026-07-09,Åben artikel om digtsamlingen. Underbygger Pablo Neruda som forfatter.
+Kunst og kultur,Hvem skrev værket “El laberinto de la soledad”?,400,Octavio Paz,Isabel Allende,Pablo Neruda,Mario Vargas Llosa,,,,Wikipedia – The Labyrinth of Solitude,https://en.wikipedia.org/wiki/The_Labyrinth_of_Solitude,OK,2026-07-09,Åben artikel om værket. Underbygger Octavio Paz som forfatter.
+Den spansktalende verden,Hvad er hovedstaden i Colombia?,100,Bogotá,Madrid,Mexico City,Buenos Aires,,,,Wikipedia – Colombia,https://en.wikipedia.org/wiki/Colombia,OK,2026-07-09,Åben landeartikel. Underbygger hovedstad Bogotá og nationale grundoplysninger.
+Den spansktalende verden,Hvilket land passer til beskrivelsen “spansk og guaraní er officielle sprog”?,200,Paraguay,Bolivia,Ækvatorialguinea,Peru,,,,Wikipedia – Paraguay,https://en.wikipedia.org/wiki/Paraguay,OK,2026-07-09,Åben landeartikel. Underbygger at spansk og guaraní er officielle sprog.
+Den spansktalende verden,Hvilket land passer til beskrivelsen “spansk er officielt sammen med en række oprindelige sprog”?,300,Bolivia,Paraguay,Ækvatorialguinea,Peru,,,,Wikipedia – Bolivia,https://en.wikipedia.org/wiki/Bolivia,OK,2026-07-09,Åben landeartikel. Underbygger at spansk er officielt sammen med flere oprindelige sprog.

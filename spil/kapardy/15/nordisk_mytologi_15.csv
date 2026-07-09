@@ -1,16 +1,16 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Guder og slægter,Hvilken gud har ravnene Hugin og Munin som spejdere?,100,Odin,Thor,Loke,Heimdal,,,
-Guder og slægter,Hvilken gudinde er gift med Thor?,200,Sif,Sigyn,Frigg,Gerda,,,
-Guder og slægter,Hvilken gudinde er gift med Odin i de eddiske kilder?,300,Frigg,Freja,Idun,Skade,,,
-Guder og slægter,Hvilken gud vogter Bifrost og ejer Gjallarhorn?,400,Heimdal,Tyr,Balder,Brage,,,
-Væsner og genstande,Hvilket egern løber med beskeder på Yggdrasil?,100,Ratatosk,Vedfolner,Heidrun,Eiktyrner,,,
-Væsner og genstande,Hvilken drage eller slange gnaver ved Yggdrasils rødder?,200,Nidhug,Fafner,Jormungand,Fenrisulven,,,
-Væsner og genstande,"Hvad hedder det magiske bånd, der holder Fenrisulven?",300,Gleipner,Draupner,Brisingamen,Andvaranaut,,,
-Væsner og genstande,Hvad hedder Frejas berømte halssmykke?,400,Brisingamen,Draupner,Andvaranaut,Men Bragafull,,,
-Verdener og fortællinger,Hvilken verden forbindes med jætterne?,100,Jotunheim,Vanaheim,Alfheim,Muspelheim,,,
-Verdener og fortællinger,Hvilken verden forbindes med vanerne?,200,Vanaheim,Asgård,Midgård,Niflheim,,,
-Verdener og fortællinger,Hvilken verden forbindes med lysalferne i Gylfaginning?,300,Alfheim,Hel,Jotunheim,Niflheim,,,
-Verdener og fortællinger,Hvilken ildverden regeres af Surt?,400,Muspelheim,Niflheim,Vanaheim,Midgård,,,
-"Kilder, ritualer og ord",Hvilket eddadigt skildrer verdens skabelse og Ragnarok gennem en vølves tale?,100,Vølvens Spådom,Skirners Færd,Rigsthula,Alvismål,,,
-"Kilder, ritualer og ord",Hvilket eddadigt indeholder ordsprog og visdomsråd lagt i Odins mund?,200,Håvamål,Grimnersmål,Balderdrømme,Hymerskvadet,,,
-"Kilder, ritualer og ord","Hvad hedder den del af Snorres Edda, der forklarer gudemyterne som en dialog med kong Gylfe?",300,Gylfaginning,Skáldskaparmál,Háttatal,Ynglingesaga,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Guder og slægter,Hvilken gud har ravnene Hugin og Munin som spejdere?,100,Odin,Thor,Loke,Heimdal,,,,Mytologi Lex – Odin,https://mytologi.lex.dk/Odin,OK,2026-07-09,Mytologi Lex beskriver Odin og hans centrale rolle i nordisk mytologi.
+Guder og slægter,Hvilken gudinde er gift med Thor?,200,Sif,Sigyn,Frigg,Gerda,,,,Wikipedia – Sif,https://en.wikipedia.org/wiki/Sif,OK,2026-07-09,Åben artikel om Sif som Thors hustru.
+Guder og slægter,Hvilken gudinde er gift med Odin i de eddiske kilder?,300,Frigg,Freja,Idun,Skade,,,,Wikipedia – Frigg,https://en.wikipedia.org/wiki/Frigg,OK,2026-07-09,Åben artikel om Frigg som Odins hustru i de norrøne kilder.
+Guder og slægter,Hvilken gud vogter Bifrost og ejer Gjallarhorn?,400,Heimdal,Tyr,Balder,Brage,,,,Wikipedia – Heimdall,https://en.wikipedia.org/wiki/Heimdall,OK,2026-07-09,Åben artikel om Heimdal/Heimdall som Bifrosts vogter og ejer af Gjallarhorn.
+Væsner og genstande,Hvilket egern løber med beskeder på Yggdrasil?,100,Ratatosk,Vedfolner,Heidrun,Eiktyrner,,,,Wikipedia – Ratatoskr,https://en.wikipedia.org/wiki/Ratatoskr,OK,2026-07-09,Åben artikel om egernet Ratatosk/Ratatoskr på Yggdrasil.
+Væsner og genstande,Hvilken drage eller slange gnaver ved Yggdrasils rødder?,200,Nidhug,Fafner,Jormungand,Fenrisulven,,,,Wikipedia – Níðhöggr,https://en.wikipedia.org/wiki/N%C3%AD%C3%B0h%C3%B6ggr,OK,2026-07-09,"Åben artikel om Nidhug/Níðhöggr, dragen/slangen ved Yggdrasils rødder."
+Væsner og genstande,"Hvad hedder det magiske bånd, der holder Fenrisulven?",300,Gleipner,Draupner,Brisingamen,Andvaranaut,,,,Wikipedia – Gleipnir,https://en.wikipedia.org/wiki/Gleipnir,OK,2026-07-09,"Åben artikel om Gleipner/Gleipnir, båndet der binder Fenrisulven."
+Væsner og genstande,Hvad hedder Frejas berømte halssmykke?,400,Brisingamen,Draupner,Andvaranaut,Men Bragafull,,,,Wikipedia – Brísingamen,https://en.wikipedia.org/wiki/Br%C3%ADsingamen,OK,2026-07-09,Åben artikel om Frejas halssmykke Brisingamen.
+Verdener og fortællinger,Hvilken verden forbindes med jætterne?,100,Jotunheim,Vanaheim,Alfheim,Muspelheim,,,,Wikipedia – Jötunheimr,https://en.wikipedia.org/wiki/J%C3%B6tunheimr,OK,2026-07-09,Åben artikel om Jotunheim/Jötunheimr som jætternes verden.
+Verdener og fortællinger,Hvilken verden forbindes med vanerne?,200,Vanaheim,Asgård,Midgård,Niflheim,,,,Wikipedia – Vanaheimr,https://en.wikipedia.org/wiki/Vanaheimr,OK,2026-07-09,Åben artikel om Vanaheim/Vanaheimr som vanernes verden.
+Verdener og fortællinger,Hvilken verden forbindes med lysalferne i Gylfaginning?,300,Alfheim,Hel,Jotunheim,Niflheim,,,,Wikipedia – Álfheimr,https://en.wikipedia.org/wiki/%C3%81lfheimr,OK,2026-07-09,Åben artikel om Alfheim/Álfheimr som lysalfernes verden i Gylfaginning.
+Verdener og fortællinger,Hvilken ildverden regeres af Surt?,400,Muspelheim,Niflheim,Vanaheim,Midgård,,,,Wikipedia – Muspelheim,https://en.wikipedia.org/wiki/Muspelheim,OK,2026-07-09,Åben artikel om Muspelheim som ildverdenen forbundet med Surt.
+"Kilder, ritualer og ord",Hvilket eddadigt skildrer verdens skabelse og Ragnarok gennem en vølves tale?,100,Vølvens Spådom,Skirners Færd,Rigsthula,Alvismål,,,,Wikipedia – Völuspá,https://en.wikipedia.org/wiki/V%C3%B6lusp%C3%A1,OK,2026-07-09,Åben artikel om Vølvens Spådom/Völuspá som eddadigt om skabelse og Ragnarok.
+"Kilder, ritualer og ord",Hvilket eddadigt indeholder ordsprog og visdomsråd lagt i Odins mund?,200,Håvamål,Grimnersmål,Balderdrømme,Hymerskvadet,,,,Wikipedia – Hávamál,https://en.wikipedia.org/wiki/H%C3%A1vam%C3%A1l,OK,2026-07-09,Åben artikel om Håvamål som eddadigt med visdomsråd og Odin-stof.
+"Kilder, ritualer og ord","Hvad hedder den del af Snorres Edda, der forklarer gudemyterne som en dialog med kong Gylfe?",300,Gylfaginning,Skáldskaparmál,Háttatal,Ynglingesaga,,,,Lex – Gylfaginning,https://lex.dk/Gylfaginning,OK,2026-07-09,Lex beskriver Gylfaginning som første del af Snorres Edda om gudemyterne i dialogform.

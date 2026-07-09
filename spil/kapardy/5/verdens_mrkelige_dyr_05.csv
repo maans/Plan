@@ -1,6 +1,6 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Kroppe og tilpasninger,"Hvilket padderdyr kan gendanne blandt andet ben, dele af hjertet og rygmarven?",100,axolotl,ildsalamander,frø,olm,,,
-Kroppe og tilpasninger,Hvilket æglæggende pattedyr registrerer elektriske signaler fra byttedyr med næbbet?,200,næbdyr,myrepindsvin,bæver,odder,,,
-Levesteder og udbredelse,I hvilket afrikansk land lever okapien naturligt i regnskoven?,100,Den Demokratiske Republik Congo,Kenya,Namibia,Ghana,,,
-Adfærd og føde,Hvilke pigmenter i føden bidrager til flamingoers rosa farve?,100,carotenoider,melanin,klorofyl,keratin,,,
-Slægtskab og formering,"Hvad kaldes gruppen af æglæggende pattedyr, som næbdyr og myrepindsvin tilhører?",100,kloakdyr,pungdyr,gnavere,tandløse,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Kroppe og tilpasninger,"Hvilket padderdyr kan gendanne blandt andet ben, dele af hjertet og rygmarven?",100,axolotl,ildsalamander,frø,olm,,,,PMC – The axolotl limb blastema,https://pmc.ncbi.nlm.nih.gov/articles/PMC4895312/,OK,2026-07-09,Faglig åben kilde om axolotlens regeneration af bl.a. lemmer; bruges til regenerationsspørgsmål.
+Kroppe og tilpasninger,Hvilket æglæggende pattedyr registrerer elektriske signaler fra byttedyr med næbbet?,200,næbdyr,myrepindsvin,bæver,odder,,,,PubMed – Receptors in the bill of the platypus,https://pubmed.ncbi.nlm.nih.gov/3418529/,OK,2026-07-09,Faglig kilde om elektroreceptorer i næbdyrets næb.
+Levesteder og udbredelse,I hvilket afrikansk land lever okapien naturligt i regnskoven?,100,Den Demokratiske Republik Congo,Kenya,Namibia,Ghana,,,,Wikipedia – Okapi,https://en.wikipedia.org/wiki/Okapi,OK,2026-07-09,Åben artikel om okapiens naturlige udbredelse i regnskove i DR Congo.
+Adfærd og føde,Hvilke pigmenter i føden bidrager til flamingoers rosa farve?,100,carotenoider,melanin,klorofyl,keratin,,,,San Diego Zoo Wildlife Explorers – Flamingo,https://sdzwildlifeexplorers.org/animals/flamingo,OK,2026-07-09,Elevvenlig kilde om flamingoers farve og carotenoider fra føden.
+Slægtskab og formering,"Hvad kaldes gruppen af æglæggende pattedyr, som næbdyr og myrepindsvin tilhører?",100,kloakdyr,pungdyr,gnavere,tandløse,,,,Wikipedia – Monotreme,https://en.wikipedia.org/wiki/Monotreme,OK,2026-07-09,"Åben artikel om kloakdyr/monotremes som æglæggende pattedyr, bl.a. næbdyr og myrepindsvin."

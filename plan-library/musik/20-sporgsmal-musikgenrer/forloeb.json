@@ -1541,7 +1541,12 @@
                 "Staten Island"
               ],
               "correctIndex": 0,
-              "answer": "Bronx"
+              "answer": "Bronx",
+              "sourceTitle": "Wikipedia – Hip hop music",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Hip_hop_music",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om hiphoppens fremkomst ved blokfester i Bronx i 1970’erne."
             },
             {
               "id": "kp_musikgenrer_02",
@@ -1555,7 +1560,12 @@
                 "Haiti"
               ],
               "correctIndex": 0,
-              "answer": "Jamaica"
+              "answer": "Jamaica",
+              "sourceTitle": "Wikipedia – Reggae",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Reggae",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om reggae som jamaicansk musikgenre."
             },
             {
               "id": "kp_musikgenrer_03",
@@ -1569,7 +1579,12 @@
                 "soca"
               ],
               "correctIndex": 0,
-              "answer": "ska"
+              "answer": "ska",
+              "sourceTitle": "Wikipedia – Ska",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Ska",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om ska som jamaicansk genre før rocksteady og reggae."
             },
             {
               "id": "kp_musikgenrer_04",
@@ -1583,7 +1598,12 @@
                 "operette"
               ],
               "correctIndex": 0,
-              "answer": "dub"
+              "answer": "dub",
+              "sourceTitle": "Wikipedia – Dub music",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Dub_music",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om dub som jamaicansk studiestil med remix, ekko og fremhævet bas."
             },
             {
               "id": "kp_musikgenrer_05",
@@ -1597,7 +1617,12 @@
                 "klezmer"
               ],
               "correctIndex": 0,
-              "answer": "calypso"
+              "answer": "calypso",
+              "sourceTitle": "Wikipedia – Calypso music",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Calypso_music",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om calypso fra Trinidad og Tobago, karneval og fortællende sange."
             },
             {
               "id": "kp_musikgenrer_06",
@@ -1611,7 +1636,12 @@
                 "komponist og librettist"
               ],
               "correctIndex": 0,
-              "answer": "DJ og MC"
+              "answer": "DJ og MC",
+              "sourceTitle": "Wikipedia – Hip hop music",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Hip_hop_music",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om hiphoppens fremkomst ved blokfester i Bronx i 1970’erne."
             },
             {
               "id": "kp_musikgenrer_07",
@@ -1625,7 +1655,12 @@
                 "Boston"
               ],
               "correctIndex": 0,
-              "answer": "Chicago"
+              "answer": "Chicago",
+              "sourceTitle": "Wikipedia – House music",
+              "sourceUrl": "https://en.wikipedia.org/wiki/House_music",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om housemusikkens opståen i Chicago-klubmiljøet."
             },
             {
               "id": "kp_musikgenrer_08",
@@ -1639,7 +1674,12 @@
                 "New Orleans"
               ],
               "correctIndex": 0,
-              "answer": "Detroit"
+              "answer": "Detroit",
+              "sourceTitle": "Wikipedia – Detroit techno",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Detroit_techno",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om Detroit-techno og scenen omkring 1980’ernes elektroniske dansemusik."
             },
             {
               "id": "kp_musikgenrer_09",
@@ -1653,7 +1693,12 @@
                 "bolero"
               ],
               "correctIndex": 0,
-              "answer": "drum and bass"
+              "answer": "drum and bass",
+              "sourceTitle": "Wikipedia – Drum and bass",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Drum_and_bass",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om drum and bass med hurtige breakbeats og markant bas."
             },
             {
               "id": "kp_musikgenrer_10",
@@ -1667,7 +1712,12 @@
                 "concertina"
               ],
               "correctIndex": 0,
-              "answer": "bandoneon"
+              "answer": "bandoneon",
+              "sourceTitle": "Wikipedia – Bandoneon",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Bandoneon",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Fallback-kilde valgt ud fra korrekt svar: Åben oversigtsartikel om genren, kunstneren, instrumentet eller begrebet. Underbygger spørgsmålet og det korrekte svar."
             },
             {
               "id": "kp_musikgenrer_11",
@@ -1681,7 +1731,12 @@
                 "Tina Turner"
               ],
               "correctIndex": 0,
-              "answer": "Donna Summer"
+              "answer": "Donna Summer",
+              "sourceTitle": "Wikipedia – Donna Summer",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Donna_Summer",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben biografisk artikel om Donna Summer og tilnavnet Queen of Disco."
             },
             {
               "id": "kp_musikgenrer_12",
@@ -1695,7 +1750,12 @@
                 "Nile Rodgers"
               ],
               "correctIndex": 0,
-              "answer": "Grandmaster Flash"
+              "answer": "Grandmaster Flash",
+              "sourceTitle": "Wikipedia – Grandmaster Flash",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grandmaster_Flash",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben biografisk artikel om DJ-pioneren Grandmaster Flash og gruppen Grandmaster Flash and the Furious Five."
             },
             {
               "id": "kp_musikgenrer_13",
@@ -1709,7 +1769,12 @@
                 "Carlos Santana"
               ],
               "correctIndex": 0,
-              "answer": "Bob Marley"
+              "answer": "Bob Marley",
+              "sourceTitle": "Wikipedia – Bob Marley",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Marley",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben biografisk artikel om Bob Marley, The Wailers og reggaens internationale gennembrud."
             },
             {
               "id": "kp_musikgenrer_14",
@@ -1723,7 +1788,12 @@
                 "Rick Rubin"
               ],
               "correctIndex": 0,
-              "answer": "Lee “Scratch” Perry"
+              "answer": "Lee “Scratch” Perry",
+              "sourceTitle": "Wikipedia – Lee \"Scratch\" Perry",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Lee_%22Scratch%22_Perry",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben biografisk artikel om Lee “Scratch” Perry, dub og Black Ark-studiet."
             },
             {
               "id": "kp_musikgenrer_15",
@@ -1737,7 +1807,12 @@
                 "Astrud Gilberto"
               ],
               "correctIndex": 0,
-              "answer": "Celia Cruz"
+              "answer": "Celia Cruz",
+              "sourceTitle": "Wikipedia – Celia Cruz",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Celia_Cruz",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben biografisk artikel om Celia Cruz og tilnavnet Queen of Salsa."
             },
             {
               "id": "kp_musikgenrer_16",
@@ -1751,7 +1826,12 @@
                 "gospel blues"
               ],
               "correctIndex": 0,
-              "answer": "Chicago blues"
+              "answer": "Chicago blues",
+              "sourceTitle": "Wikipedia – Chicago blues",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Chicago_blues",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Fallback-kilde valgt ud fra korrekt svar: Åben oversigtsartikel om genren, kunstneren, instrumentet eller begrebet. Underbygger spørgsmålet og det korrekte svar."
             },
             {
               "id": "kp_musikgenrer_17",
@@ -1765,7 +1845,12 @@
                 "post-rock"
               ],
               "correctIndex": 0,
-              "answer": "rockabilly"
+              "answer": "rockabilly",
+              "sourceTitle": "Wikipedia – Rockabilly",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Rockabilly",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om rockabilly som blanding af country/hillbilly og tidlig rock’n’roll."
             },
             {
               "id": "kp_musikgenrer_18",
@@ -1779,7 +1864,12 @@
                 "rocksteady"
               ],
               "correctIndex": 0,
-              "answer": "psykedelisk rock"
+              "answer": "psykedelisk rock",
+              "sourceTitle": "Wikipedia – Psychedelic rock",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Psychedelic_rock",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om psykedelisk rock, studieeksperimenter og 1960’ernes rockkultur."
             },
             {
               "id": "kp_musikgenrer_19",
@@ -1793,7 +1883,12 @@
                 "rockabilly"
               ],
               "correctIndex": 0,
-              "answer": "progressiv rock"
+              "answer": "progressiv rock",
+              "sourceTitle": "Wikipedia – Progressive rock",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Progressive_rock",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om progressiv rock med længere former, skiftende taktarter og konceptalbum."
             },
             {
               "id": "kp_musikgenrer_20",
@@ -1807,7 +1902,12 @@
                 "fado"
               ],
               "correctIndex": 0,
-              "answer": "heavy metal"
+              "answer": "heavy metal",
+              "sourceTitle": "Wikipedia – Heavy metal music",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Heavy_metal_music",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Åben artikel om heavy metal, forvrængede guitarer og tidlige bands som Black Sabbath."
             }
           ],
           "updatedAt": "2026-07-07T00:45:00.000Z"
@@ -2242,7 +2342,12 @@
               "Staten Island"
             ],
             "correctIndex": 0,
-            "answer": "Bronx"
+            "answer": "Bronx",
+            "sourceTitle": "Wikipedia – Hip hop music",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hip_hop_music",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om hiphoppens fremkomst ved blokfester i Bronx i 1970’erne."
           },
           {
             "id": "kp_musikgenrer_02",
@@ -2256,7 +2361,12 @@
               "Haiti"
             ],
             "correctIndex": 0,
-            "answer": "Jamaica"
+            "answer": "Jamaica",
+            "sourceTitle": "Wikipedia – Reggae",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Reggae",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om reggae som jamaicansk musikgenre."
           },
           {
             "id": "kp_musikgenrer_03",
@@ -2270,7 +2380,12 @@
               "soca"
             ],
             "correctIndex": 0,
-            "answer": "ska"
+            "answer": "ska",
+            "sourceTitle": "Wikipedia – Ska",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Ska",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om ska som jamaicansk genre før rocksteady og reggae."
           },
           {
             "id": "kp_musikgenrer_04",
@@ -2284,7 +2399,12 @@
               "operette"
             ],
             "correctIndex": 0,
-            "answer": "dub"
+            "answer": "dub",
+            "sourceTitle": "Wikipedia – Dub music",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Dub_music",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om dub som jamaicansk studiestil med remix, ekko og fremhævet bas."
           },
           {
             "id": "kp_musikgenrer_05",
@@ -2298,7 +2418,12 @@
               "klezmer"
             ],
             "correctIndex": 0,
-            "answer": "calypso"
+            "answer": "calypso",
+            "sourceTitle": "Wikipedia – Calypso music",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Calypso_music",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om calypso fra Trinidad og Tobago, karneval og fortællende sange."
           },
           {
             "id": "kp_musikgenrer_06",
@@ -2312,7 +2437,12 @@
               "komponist og librettist"
             ],
             "correctIndex": 0,
-            "answer": "DJ og MC"
+            "answer": "DJ og MC",
+            "sourceTitle": "Wikipedia – Hip hop music",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Hip_hop_music",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om hiphoppens fremkomst ved blokfester i Bronx i 1970’erne."
           },
           {
             "id": "kp_musikgenrer_07",
@@ -2326,7 +2456,12 @@
               "Boston"
             ],
             "correctIndex": 0,
-            "answer": "Chicago"
+            "answer": "Chicago",
+            "sourceTitle": "Wikipedia – House music",
+            "sourceUrl": "https://en.wikipedia.org/wiki/House_music",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om housemusikkens opståen i Chicago-klubmiljøet."
           },
           {
             "id": "kp_musikgenrer_08",
@@ -2340,7 +2475,12 @@
               "New Orleans"
             ],
             "correctIndex": 0,
-            "answer": "Detroit"
+            "answer": "Detroit",
+            "sourceTitle": "Wikipedia – Detroit techno",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Detroit_techno",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om Detroit-techno og scenen omkring 1980’ernes elektroniske dansemusik."
           },
           {
             "id": "kp_musikgenrer_09",
@@ -2354,7 +2494,12 @@
               "bolero"
             ],
             "correctIndex": 0,
-            "answer": "drum and bass"
+            "answer": "drum and bass",
+            "sourceTitle": "Wikipedia – Drum and bass",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Drum_and_bass",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om drum and bass med hurtige breakbeats og markant bas."
           },
           {
             "id": "kp_musikgenrer_10",
@@ -2368,7 +2513,12 @@
               "concertina"
             ],
             "correctIndex": 0,
-            "answer": "bandoneon"
+            "answer": "bandoneon",
+            "sourceTitle": "Wikipedia – Bandoneon",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bandoneon",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Fallback-kilde valgt ud fra korrekt svar: Åben oversigtsartikel om genren, kunstneren, instrumentet eller begrebet. Underbygger spørgsmålet og det korrekte svar."
           },
           {
             "id": "kp_musikgenrer_11",
@@ -2382,7 +2532,12 @@
               "Tina Turner"
             ],
             "correctIndex": 0,
-            "answer": "Donna Summer"
+            "answer": "Donna Summer",
+            "sourceTitle": "Wikipedia – Donna Summer",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Donna_Summer",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben biografisk artikel om Donna Summer og tilnavnet Queen of Disco."
           },
           {
             "id": "kp_musikgenrer_12",
@@ -2396,7 +2551,12 @@
               "Nile Rodgers"
             ],
             "correctIndex": 0,
-            "answer": "Grandmaster Flash"
+            "answer": "Grandmaster Flash",
+            "sourceTitle": "Wikipedia – Grandmaster Flash",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Grandmaster_Flash",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben biografisk artikel om DJ-pioneren Grandmaster Flash og gruppen Grandmaster Flash and the Furious Five."
           },
           {
             "id": "kp_musikgenrer_13",
@@ -2410,7 +2570,12 @@
               "Carlos Santana"
             ],
             "correctIndex": 0,
-            "answer": "Bob Marley"
+            "answer": "Bob Marley",
+            "sourceTitle": "Wikipedia – Bob Marley",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Bob_Marley",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben biografisk artikel om Bob Marley, The Wailers og reggaens internationale gennembrud."
           },
           {
             "id": "kp_musikgenrer_14",
@@ -2424,7 +2589,12 @@
               "Rick Rubin"
             ],
             "correctIndex": 0,
-            "answer": "Lee “Scratch” Perry"
+            "answer": "Lee “Scratch” Perry",
+            "sourceTitle": "Wikipedia – Lee \"Scratch\" Perry",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Lee_%22Scratch%22_Perry",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben biografisk artikel om Lee “Scratch” Perry, dub og Black Ark-studiet."
           },
           {
             "id": "kp_musikgenrer_15",
@@ -2438,7 +2608,12 @@
               "Astrud Gilberto"
             ],
             "correctIndex": 0,
-            "answer": "Celia Cruz"
+            "answer": "Celia Cruz",
+            "sourceTitle": "Wikipedia – Celia Cruz",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Celia_Cruz",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben biografisk artikel om Celia Cruz og tilnavnet Queen of Salsa."
           },
           {
             "id": "kp_musikgenrer_16",
@@ -2452,7 +2627,12 @@
               "gospel blues"
             ],
             "correctIndex": 0,
-            "answer": "Chicago blues"
+            "answer": "Chicago blues",
+            "sourceTitle": "Wikipedia – Chicago blues",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Chicago_blues",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Fallback-kilde valgt ud fra korrekt svar: Åben oversigtsartikel om genren, kunstneren, instrumentet eller begrebet. Underbygger spørgsmålet og det korrekte svar."
           },
           {
             "id": "kp_musikgenrer_17",
@@ -2466,7 +2646,12 @@
               "post-rock"
             ],
             "correctIndex": 0,
-            "answer": "rockabilly"
+            "answer": "rockabilly",
+            "sourceTitle": "Wikipedia – Rockabilly",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Rockabilly",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om rockabilly som blanding af country/hillbilly og tidlig rock’n’roll."
           },
           {
             "id": "kp_musikgenrer_18",
@@ -2480,7 +2665,12 @@
               "rocksteady"
             ],
             "correctIndex": 0,
-            "answer": "psykedelisk rock"
+            "answer": "psykedelisk rock",
+            "sourceTitle": "Wikipedia – Psychedelic rock",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Psychedelic_rock",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om psykedelisk rock, studieeksperimenter og 1960’ernes rockkultur."
           },
           {
             "id": "kp_musikgenrer_19",
@@ -2494,7 +2684,12 @@
               "rockabilly"
             ],
             "correctIndex": 0,
-            "answer": "progressiv rock"
+            "answer": "progressiv rock",
+            "sourceTitle": "Wikipedia – Progressive rock",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Progressive_rock",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om progressiv rock med længere former, skiftende taktarter og konceptalbum."
           },
           {
             "id": "kp_musikgenrer_20",
@@ -2508,7 +2703,12 @@
               "fado"
             ],
             "correctIndex": 0,
-            "answer": "heavy metal"
+            "answer": "heavy metal",
+            "sourceTitle": "Wikipedia – Heavy metal music",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Heavy_metal_music",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Åben artikel om heavy metal, forvrængede guitarer og tidlige bands som Black Sabbath."
           }
         ],
         "current": 0,

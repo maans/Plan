@@ -1501,7 +1501,12 @@
                 "en gletsjers bevægelseshastighed"
               ],
               "correctIndex": 0,
-              "answer": "den andel af indkommende lys, som en overflade reflekterer"
+              "answer": "den andel af indkommende lys, som en overflade reflekterer",
+              "sourceTitle": "DMI – Drivhuseffekten",
+              "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/drivhuseffekten",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger den naturlige drivhuseffekt, Jordens energistrømme og refleksion/absorption ved overfladen."
             },
             {
               "id": "kp_klimaforandringer_02",
@@ -1515,7 +1520,12 @@
                 "et internationalt klimatopmøde"
               ],
               "correctIndex": 0,
-              "answer": "en proces, der forstærker eller dæmper en indledende klimaændring"
+              "answer": "en proces, der forstærker eller dæmper en indledende klimaændring",
+              "sourceTitle": "DMI – Tilbagekoblingsmekanismer",
+              "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/tilbagekoblingsmekanismer",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger positiv feedback, vanddampsfeedback og is-/albedo-feedback."
             },
             {
               "id": "kp_klimaforandringer_03",
@@ -1529,7 +1539,12 @@
                 "den beskriver kun kortvarige vejrsvingninger"
               ],
               "correctIndex": 0,
-              "answer": "den forstærker den oprindelige ændring"
+              "answer": "den forstærker den oprindelige ændring",
+              "sourceTitle": "DMI – Tilbagekoblingsmekanismer",
+              "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/tilbagekoblingsmekanismer",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger positiv feedback, vanddampsfeedback og is-/albedo-feedback."
             },
             {
               "id": "kp_klimaforandringer_04",
@@ -1543,7 +1558,12 @@
                 "en måleenhed for nedbør"
               ],
               "correctIndex": 0,
-              "answer": "små partikler eller dråber i atmosfæren"
+              "answer": "små partikler eller dråber i atmosfæren",
+              "sourceTitle": "IPCC AR6 WG1 – Chapter 6: Short-lived Climate Forcers",
+              "sourceUrl": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-6/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IPCC-kapitel. Underbygger kortlivede klimadrivere som sort kulstof, troposfærisk ozon, HFC/PFC/SF₆ og luftfartens kondensstriber/cirrusskyer."
             },
             {
               "id": "kp_klimaforandringer_05",
@@ -1557,7 +1577,12 @@
                 "vanddamp ændrer kun vejret lokalt og aldrig strålingsbalancen"
               ],
               "correctIndex": 0,
-              "answer": "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen"
+              "answer": "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen",
+              "sourceTitle": "DMI – Tilbagekoblingsmekanismer",
+              "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/tilbagekoblingsmekanismer",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger positiv feedback, vanddampsfeedback og is-/albedo-feedback."
             },
             {
               "id": "kp_klimaforandringer_06",
@@ -1571,7 +1596,12 @@
                 "elektricitetens bevægelse i ledninger"
               ],
               "correctIndex": 0,
-              "answer": "forbrænding af kullets kulstof"
+              "answer": "forbrænding af kullets kulstof",
+              "sourceTitle": "DMI – Kuldioxid (CO₂)",
+              "sourceUrl": "https://www.dmi.dk/klima/temaforside-drivhusgasser/kuldioxid-co2",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger CO₂ fra forbrænding af fossile brændsler og biomasse, nedbrydning af organisk stof samt CO₂s lange klimaeffekt."
             },
             {
               "id": "kp_klimaforandringer_07",
@@ -1585,7 +1615,12 @@
                 "vandkraft"
               ],
               "correctIndex": 0,
-              "answer": "oliebaserede brændstoffer"
+              "answer": "oliebaserede brændstoffer",
+              "sourceTitle": "IEA – Transport",
+              "sourceUrl": "https://www.iea.org/energy-system/transport",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IEA-side. Underbygger transportsektorens energiforbrug og CO₂-udledninger, især olieprodukter i vejtransport, luftfart og skibsfart."
             },
             {
               "id": "kp_klimaforandringer_08",
@@ -1599,7 +1634,12 @@
                 "iltisotoper"
               ],
               "correctIndex": 0,
-              "answer": "HFC-gasser"
+              "answer": "HFC-gasser",
+              "sourceTitle": "IEA – The Future of Heat Pumps",
+              "sourceUrl": "https://iea.blob.core.windows.net/assets/4713780d-c0ae-4686-8c9b-29e782452695/TheFutureofHeatPumps.pdf",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IEA-rapport. Underbygger varmepumper som teknologi, der flytter varme og kan erstatte fossil opvarmning."
             },
             {
               "id": "kp_klimaforandringer_09",
@@ -1613,7 +1653,12 @@
                 "ammoniak, NH₃"
               ],
               "correctIndex": 0,
-              "answer": "svovlhexafluorid, SF₆"
+              "answer": "svovlhexafluorid, SF₆",
+              "sourceTitle": "UNFCCC – Methodological issues relating to fluorinated gases",
+              "sourceUrl": "https://unfccc.int/process-and-meetings/transparency-and-reporting/methods-for-climate-change-transparency/methodological-issues-relating-to-fluorinated-gases",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "UNFCCC-side. Underbygger fluorholdige drivhusgasser og Kigali-ændringens nedtrapning af HFC-gasser."
             },
             {
               "id": "kp_klimaforandringer_10",
@@ -1627,7 +1672,12 @@
                 "chlorider"
               ],
               "correctIndex": 0,
-              "answer": "PFC-gasser"
+              "answer": "PFC-gasser",
+              "sourceTitle": "UNFCCC – Methodological issues relating to fluorinated gases",
+              "sourceUrl": "https://unfccc.int/process-and-meetings/transparency-and-reporting/methods-for-climate-change-transparency/methodological-issues-relating-to-fluorinated-gases",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "UNFCCC-side. Underbygger fluorholdige drivhusgasser og Kigali-ændringens nedtrapning af HFC-gasser."
             },
             {
               "id": "kp_klimaforandringer_11",
@@ -1641,7 +1691,12 @@
                 "vulkanudbrud"
               ],
               "correctIndex": 0,
-              "answer": "hedebølger"
+              "answer": "hedebølger",
+              "sourceTitle": "DMI Klimaatlas – varmere, vådere og vildere Danmark",
+              "sourceUrl": "https://www.dmi.dk/klima-atlas/om-klimaatlas/vejretidanmarkblivervarmerevaadereogvildere",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger at opvarmningen giver højere temperaturer, mere regn og flere ekstreme vejrhændelser, især på land og i polarområder."
             },
             {
               "id": "kp_klimaforandringer_12",
@@ -1655,7 +1710,12 @@
                 "en storm uden lyn"
               ],
               "correctIndex": 0,
-              "answer": "en længere periode med usædvanligt lidt nedbør"
+              "answer": "en længere periode med usædvanligt lidt nedbør",
+              "sourceTitle": "IPCC SR1.5 – Glossary",
+              "sourceUrl": "https://www.ipcc.ch/sr15/chapter/glossary/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IPCC-ordliste. Underbygger centrale klimabegreber som mitigation, adaptation, net zero, carbon budget, carbon sink/source, resilience, climate model og tipping point."
             },
             {
               "id": "kp_klimaforandringer_13",
@@ -1669,7 +1729,12 @@
                 "fordampning bliver mindre vigtig i en varmere atmosfære"
               ],
               "correctIndex": 0,
-              "answer": "varmere luft kan indeholde mere vanddamp"
+              "answer": "varmere luft kan indeholde mere vanddamp",
+              "sourceTitle": "DMI Klimaatlas – varmere, vådere og vildere Danmark",
+              "sourceUrl": "https://www.dmi.dk/klima-atlas/om-klimaatlas/vejretidanmarkblivervarmerevaadereogvildere",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger at opvarmningen giver højere temperaturer, mere regn og flere ekstreme vejrhændelser, især på land og i polarområder."
             },
             {
               "id": "kp_klimaforandringer_14",
@@ -1683,7 +1748,12 @@
                 "Solen skinner stærkere ved Nordpolen end ved ækvator"
               ],
               "correctIndex": 0,
-              "answer": "Arktis opvarmes hurtigere end det globale gennemsnit"
+              "answer": "Arktis opvarmes hurtigere end det globale gennemsnit",
+              "sourceTitle": "DMI Klimaatlas – varmere, vådere og vildere Danmark",
+              "sourceUrl": "https://www.dmi.dk/klima-atlas/om-klimaatlas/vejretidanmarkblivervarmerevaadereogvildere",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "Dansk DMI-side. Underbygger at opvarmningen giver højere temperaturer, mere regn og flere ekstreme vejrhændelser, især på land og i polarområder."
             },
             {
               "id": "kp_klimaforandringer_15",
@@ -1697,7 +1767,12 @@
                 "optøning stopper nedbrydning af organisk stof"
               ],
               "correctIndex": 0,
-              "answer": "kulstof kan frigives som CO₂ og metan"
+              "answer": "kulstof kan frigives som CO₂ og metan",
+              "sourceTitle": "IPCC SROCC – Glossary",
+              "sourceUrl": "https://www.ipcc.ch/srocc/chapter/glossary/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IPCC-ordliste for hav og kryosfære. Underbygger permafrost, gletsjeres massebalance, globalt middelhavniveau, marine hedebølger og relaterede hav-/isbegreber."
             },
             {
               "id": "kp_klimaforandringer_16",
@@ -1725,7 +1800,12 @@
                 "ved at erstatte korte cykel- og gangture med bus"
               ],
               "correctIndex": 0,
-              "answer": "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager"
+              "answer": "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager",
+              "sourceTitle": "IEA – Transport",
+              "sourceUrl": "https://www.iea.org/energy-system/transport",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IEA-side. Underbygger transportsektorens energiforbrug og CO₂-udledninger, især olieprodukter i vejtransport, luftfart og skibsfart."
             },
             {
               "id": "kp_klimaforandringer_18",
@@ -1739,7 +1819,12 @@
                 "den fungerer som en almindelig elradiator uden at hente varme udefra"
               ],
               "correctIndex": 0,
-              "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
+              "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
+              "sourceTitle": "IEA – The Future of Heat Pumps",
+              "sourceUrl": "https://iea.blob.core.windows.net/assets/4713780d-c0ae-4686-8c9b-29e782452695/TheFutureofHeatPumps.pdf",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IEA-rapport. Underbygger varmepumper som teknologi, der flytter varme og kan erstatte fossil opvarmning."
             },
             {
               "id": "kp_klimaforandringer_19",
@@ -1767,7 +1852,12 @@
                 "at dyrke korn i en skov"
               ],
               "correctIndex": 0,
-              "answer": "at genetablere skov på arealer, der tidligere var skov"
+              "answer": "at genetablere skov på arealer, der tidligere var skov",
+              "sourceTitle": "IUCN NL – The art of reforestation",
+              "sourceUrl": "https://www.iucn.nl/en/story/the-art-of-reforestation-insights-for-successful-ecosystem-restoration/",
+              "sourceStatus": "OK",
+              "sourceCheckedAt": "2026-07-09",
+              "sourceNote": "IUCN-side. Underbygger reforestation/genplantning af skov som genopretning af skovøkosystemer."
             }
           ],
           "updatedAt": "2026-07-06T18:30:00.000Z"
@@ -2202,7 +2292,12 @@
               "en gletsjers bevægelseshastighed"
             ],
             "correctIndex": 0,
-            "answer": "den andel af indkommende lys, som en overflade reflekterer"
+            "answer": "den andel af indkommende lys, som en overflade reflekterer",
+            "sourceTitle": "DMI – Drivhuseffekten",
+            "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/drivhuseffekten",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger den naturlige drivhuseffekt, Jordens energistrømme og refleksion/absorption ved overfladen."
           },
           {
             "id": "kp_klimaforandringer_02",
@@ -2216,7 +2311,12 @@
               "et internationalt klimatopmøde"
             ],
             "correctIndex": 0,
-            "answer": "en proces, der forstærker eller dæmper en indledende klimaændring"
+            "answer": "en proces, der forstærker eller dæmper en indledende klimaændring",
+            "sourceTitle": "DMI – Tilbagekoblingsmekanismer",
+            "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/tilbagekoblingsmekanismer",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger positiv feedback, vanddampsfeedback og is-/albedo-feedback."
           },
           {
             "id": "kp_klimaforandringer_03",
@@ -2230,7 +2330,12 @@
               "den beskriver kun kortvarige vejrsvingninger"
             ],
             "correctIndex": 0,
-            "answer": "den forstærker den oprindelige ændring"
+            "answer": "den forstærker den oprindelige ændring",
+            "sourceTitle": "DMI – Tilbagekoblingsmekanismer",
+            "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/tilbagekoblingsmekanismer",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger positiv feedback, vanddampsfeedback og is-/albedo-feedback."
           },
           {
             "id": "kp_klimaforandringer_04",
@@ -2244,7 +2349,12 @@
               "en måleenhed for nedbør"
             ],
             "correctIndex": 0,
-            "answer": "små partikler eller dråber i atmosfæren"
+            "answer": "små partikler eller dråber i atmosfæren",
+            "sourceTitle": "IPCC AR6 WG1 – Chapter 6: Short-lived Climate Forcers",
+            "sourceUrl": "https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-6/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IPCC-kapitel. Underbygger kortlivede klimadrivere som sort kulstof, troposfærisk ozon, HFC/PFC/SF₆ og luftfartens kondensstriber/cirrusskyer."
           },
           {
             "id": "kp_klimaforandringer_05",
@@ -2258,7 +2368,12 @@
               "vanddamp ændrer kun vejret lokalt og aldrig strålingsbalancen"
             ],
             "correctIndex": 0,
-            "answer": "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen"
+            "answer": "varmere luft kan indeholde mere vanddamp, som yderligere forstærker opvarmningen",
+            "sourceTitle": "DMI – Tilbagekoblingsmekanismer",
+            "sourceUrl": "https://www.dmi.dk/klima/temaforside-energiens-rejse-i-klimasystemet/tilbagekoblingsmekanismer",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger positiv feedback, vanddampsfeedback og is-/albedo-feedback."
           },
           {
             "id": "kp_klimaforandringer_06",
@@ -2272,7 +2387,12 @@
               "elektricitetens bevægelse i ledninger"
             ],
             "correctIndex": 0,
-            "answer": "forbrænding af kullets kulstof"
+            "answer": "forbrænding af kullets kulstof",
+            "sourceTitle": "DMI – Kuldioxid (CO₂)",
+            "sourceUrl": "https://www.dmi.dk/klima/temaforside-drivhusgasser/kuldioxid-co2",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger CO₂ fra forbrænding af fossile brændsler og biomasse, nedbrydning af organisk stof samt CO₂s lange klimaeffekt."
           },
           {
             "id": "kp_klimaforandringer_07",
@@ -2286,7 +2406,12 @@
               "vandkraft"
             ],
             "correctIndex": 0,
-            "answer": "oliebaserede brændstoffer"
+            "answer": "oliebaserede brændstoffer",
+            "sourceTitle": "IEA – Transport",
+            "sourceUrl": "https://www.iea.org/energy-system/transport",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IEA-side. Underbygger transportsektorens energiforbrug og CO₂-udledninger, især olieprodukter i vejtransport, luftfart og skibsfart."
           },
           {
             "id": "kp_klimaforandringer_08",
@@ -2300,7 +2425,12 @@
               "iltisotoper"
             ],
             "correctIndex": 0,
-            "answer": "HFC-gasser"
+            "answer": "HFC-gasser",
+            "sourceTitle": "IEA – The Future of Heat Pumps",
+            "sourceUrl": "https://iea.blob.core.windows.net/assets/4713780d-c0ae-4686-8c9b-29e782452695/TheFutureofHeatPumps.pdf",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IEA-rapport. Underbygger varmepumper som teknologi, der flytter varme og kan erstatte fossil opvarmning."
           },
           {
             "id": "kp_klimaforandringer_09",
@@ -2314,7 +2444,12 @@
               "ammoniak, NH₃"
             ],
             "correctIndex": 0,
-            "answer": "svovlhexafluorid, SF₆"
+            "answer": "svovlhexafluorid, SF₆",
+            "sourceTitle": "UNFCCC – Methodological issues relating to fluorinated gases",
+            "sourceUrl": "https://unfccc.int/process-and-meetings/transparency-and-reporting/methods-for-climate-change-transparency/methodological-issues-relating-to-fluorinated-gases",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "UNFCCC-side. Underbygger fluorholdige drivhusgasser og Kigali-ændringens nedtrapning af HFC-gasser."
           },
           {
             "id": "kp_klimaforandringer_10",
@@ -2328,7 +2463,12 @@
               "chlorider"
             ],
             "correctIndex": 0,
-            "answer": "PFC-gasser"
+            "answer": "PFC-gasser",
+            "sourceTitle": "UNFCCC – Methodological issues relating to fluorinated gases",
+            "sourceUrl": "https://unfccc.int/process-and-meetings/transparency-and-reporting/methods-for-climate-change-transparency/methodological-issues-relating-to-fluorinated-gases",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "UNFCCC-side. Underbygger fluorholdige drivhusgasser og Kigali-ændringens nedtrapning af HFC-gasser."
           },
           {
             "id": "kp_klimaforandringer_11",
@@ -2342,7 +2482,12 @@
               "vulkanudbrud"
             ],
             "correctIndex": 0,
-            "answer": "hedebølger"
+            "answer": "hedebølger",
+            "sourceTitle": "DMI Klimaatlas – varmere, vådere og vildere Danmark",
+            "sourceUrl": "https://www.dmi.dk/klima-atlas/om-klimaatlas/vejretidanmarkblivervarmerevaadereogvildere",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger at opvarmningen giver højere temperaturer, mere regn og flere ekstreme vejrhændelser, især på land og i polarområder."
           },
           {
             "id": "kp_klimaforandringer_12",
@@ -2356,7 +2501,12 @@
               "en storm uden lyn"
             ],
             "correctIndex": 0,
-            "answer": "en længere periode med usædvanligt lidt nedbør"
+            "answer": "en længere periode med usædvanligt lidt nedbør",
+            "sourceTitle": "IPCC SR1.5 – Glossary",
+            "sourceUrl": "https://www.ipcc.ch/sr15/chapter/glossary/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IPCC-ordliste. Underbygger centrale klimabegreber som mitigation, adaptation, net zero, carbon budget, carbon sink/source, resilience, climate model og tipping point."
           },
           {
             "id": "kp_klimaforandringer_13",
@@ -2370,7 +2520,12 @@
               "fordampning bliver mindre vigtig i en varmere atmosfære"
             ],
             "correctIndex": 0,
-            "answer": "varmere luft kan indeholde mere vanddamp"
+            "answer": "varmere luft kan indeholde mere vanddamp",
+            "sourceTitle": "DMI Klimaatlas – varmere, vådere og vildere Danmark",
+            "sourceUrl": "https://www.dmi.dk/klima-atlas/om-klimaatlas/vejretidanmarkblivervarmerevaadereogvildere",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger at opvarmningen giver højere temperaturer, mere regn og flere ekstreme vejrhændelser, især på land og i polarområder."
           },
           {
             "id": "kp_klimaforandringer_14",
@@ -2384,7 +2539,12 @@
               "Solen skinner stærkere ved Nordpolen end ved ækvator"
             ],
             "correctIndex": 0,
-            "answer": "Arktis opvarmes hurtigere end det globale gennemsnit"
+            "answer": "Arktis opvarmes hurtigere end det globale gennemsnit",
+            "sourceTitle": "DMI Klimaatlas – varmere, vådere og vildere Danmark",
+            "sourceUrl": "https://www.dmi.dk/klima-atlas/om-klimaatlas/vejretidanmarkblivervarmerevaadereogvildere",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "Dansk DMI-side. Underbygger at opvarmningen giver højere temperaturer, mere regn og flere ekstreme vejrhændelser, især på land og i polarområder."
           },
           {
             "id": "kp_klimaforandringer_15",
@@ -2398,7 +2558,12 @@
               "optøning stopper nedbrydning af organisk stof"
             ],
             "correctIndex": 0,
-            "answer": "kulstof kan frigives som CO₂ og metan"
+            "answer": "kulstof kan frigives som CO₂ og metan",
+            "sourceTitle": "IPCC SROCC – Glossary",
+            "sourceUrl": "https://www.ipcc.ch/srocc/chapter/glossary/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IPCC-ordliste for hav og kryosfære. Underbygger permafrost, gletsjeres massebalance, globalt middelhavniveau, marine hedebølger og relaterede hav-/isbegreber."
           },
           {
             "id": "kp_klimaforandringer_16",
@@ -2426,7 +2591,12 @@
               "ved at erstatte korte cykel- og gangture med bus"
             ],
             "correctIndex": 0,
-            "answer": "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager"
+            "answer": "ved at flytte flere personer med færre køretøjer og mindre energi pr. passager",
+            "sourceTitle": "IEA – Transport",
+            "sourceUrl": "https://www.iea.org/energy-system/transport",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IEA-side. Underbygger transportsektorens energiforbrug og CO₂-udledninger, især olieprodukter i vejtransport, luftfart og skibsfart."
           },
           {
             "id": "kp_klimaforandringer_18",
@@ -2440,7 +2610,12 @@
               "den fungerer som en almindelig elradiator uden at hente varme udefra"
             ],
             "correctIndex": 0,
-            "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi"
+            "answer": "den flytter varme fra et koldere område til et varmere ved hjælp af energi",
+            "sourceTitle": "IEA – The Future of Heat Pumps",
+            "sourceUrl": "https://iea.blob.core.windows.net/assets/4713780d-c0ae-4686-8c9b-29e782452695/TheFutureofHeatPumps.pdf",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IEA-rapport. Underbygger varmepumper som teknologi, der flytter varme og kan erstatte fossil opvarmning."
           },
           {
             "id": "kp_klimaforandringer_19",
@@ -2468,7 +2643,12 @@
               "at dyrke korn i en skov"
             ],
             "correctIndex": 0,
-            "answer": "at genetablere skov på arealer, der tidligere var skov"
+            "answer": "at genetablere skov på arealer, der tidligere var skov",
+            "sourceTitle": "IUCN NL – The art of reforestation",
+            "sourceUrl": "https://www.iucn.nl/en/story/the-art-of-reforestation-insights-for-successful-ecosystem-restoration/",
+            "sourceStatus": "OK",
+            "sourceCheckedAt": "2026-07-09",
+            "sourceNote": "IUCN-side. Underbygger reforestation/genplantning af skov som genopretning af skovøkosystemer."
           }
         ],
         "current": 0,
