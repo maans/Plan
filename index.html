@@ -37115,6 +37115,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       return {category:value(row,'category')||'KaPardy',question:value(row,'question'),options:[correct,...wrong].filter(Boolean),correctIndex:0,answer:correct,points:Number(value(row,'points'))||100,id:keyFor([value(row,'category'),value(row,'question'),correct]),sourceTitle:value(row,'sourceTitle'),sourceUrl:value(row,'sourceUrl'),sourceStatus:value(row,'sourceStatus'),sourceCheckedAt:value(row,'sourceCheckedAt'),sourceNote:value(row,'sourceNote')};
     }).filter(q=>q.question&&q.answer&&q.options.length>=2);
   }
+  function categories(cards){return [...new Set((cards||[]).map(card=>clean(card.category)||'Huskekort'))].sort((a,b)=>a.localeCompare(b,'da',{sensitivity:'base'}));}
   function applyLearningLayer(card,content){
     const key=card.key;
     const progress=content.progress?.[key]||{};
