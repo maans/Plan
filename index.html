@@ -7799,6 +7799,119 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 <!-- index32_huskekort_slet_kun_i_matrix_SAFE: removes single-card delete button/shortcut from Træn view; deletion remains via Vælg/Slet multi-select in Huskekortmatrix overview. -->
 <!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
 <!-- index24_kapardy_sourcefields_live_data_SAFE: preserves Kildetitel, Kilde-URL, Kildestatus, Kilde tjekket and Kildenote through Huskekortmatrix editor, KaPardy sync and Åbn data. -->
+
+<script>
+/* index34_pdf_manual_overlay_SAFE: adds PDF-manual entry to Help and optional manual-as-PDFWidget. Manual file is external in /manualer, not embedded in index.html. */
+(function(TN){
+  'use strict';
+  if(!TN || window.__planPdfManualOverlaySafeApplied) return;
+  window.__planPdfManualOverlaySafeApplied = true;
+  const MANUAL_URL = 'manualer/plan-kapardy-huskekort.pdf';
+  const MANUAL_TITLE = 'Plan PDF-manual: KaPardy og huskekort';
+
+  function app(){return TN.runtime?.app || window.tavleNextApp || null;}
+  function manualHref(){try{return new URL(MANUAL_URL, document.baseURI).href;}catch(_){return MANUAL_URL;}}
+  function ensureStyle(){
+    if(document.getElementById('planPdfManualOverlayStyle')) return;
+    const style=document.createElement('style');
+    style.id='planPdfManualOverlayStyle';
+    style.textContent=`
+      .tn-plan-manual-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+      .tn-plan-manual-actions button,.tn-plan-manual-actions a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink);padding:9px 12px;font-weight:850;text-decoration:none;cursor:pointer}
+      .tn-plan-manual-actions button.primary{background:var(--tn-accent2);color:#fff;border-color:transparent}
+      .tn-plan-manual-frame{width:min(100%,1040px);height:min(70vh,760px);border:1px solid var(--tn-line);border-radius:16px;background:#fff;overflow:hidden}
+      .tn-plan-manual-frame iframe{width:100%;height:100%;border:0;background:#fff}
+      .tn-plan-manual-note{color:var(--tn-muted);line-height:1.45;margin:0 0 8px}
+      .tn-help-manual-box{border:1px solid var(--tn-line);border-radius:16px;background:var(--tn-panel2);padding:14px;margin:10px 0;display:grid;gap:8px}
+      .tn-help-manual-box h4{margin:0;font-size:16px}
+      .tn-help-manual-box p{margin:0;color:var(--tn-muted)}
+    `;
+    document.head.append(style);
+  }
+
+  function openManualOverlay(instance=app()){
+    if(!instance?.modalManager) return window.open(manualHref(), '_blank', 'noopener');
+    ensureStyle();
+    const body=document.createElement('div');
+    body.className='tn-plan-manual-view';
+    body.innerHTML=`
+      <p class="tn-plan-manual-note"><b>Læs manualen uden at ændre tavlen.</b> Luk med Esc eller ×, når du vil tilbage til undervisningen.</p>
+      <div class="tn-plan-manual-actions">
+        <a href="${TN.escapeHtml(manualHref())}" target="_blank" rel="noopener">↗ Åbn i browser/PDF-læser</a>
+        <button type="button" data-plan-manual-open="widget">📄 Åbn på tavlen</button>
+      </div>
+      <div class="tn-plan-manual-frame"><iframe title="${TN.escapeHtml(MANUAL_TITLE)}" src="${TN.escapeHtml(manualHref())}"></iframe></div>
+    `;
+    instance.modalManager.open({title:MANUAL_TITLE,body,className:'tn-modal-wide tn-plan-manual-modal',actions:[{label:'Åbn på tavlen',run:()=>{openManualWidget(instance);return true;}},{label:'Åbn i browser',primary:true,run:()=>{window.open(manualHref(),'_blank','noopener');return false;}}]});
+  }
+
+  function openManualWidget(instance=app()){
+    if(!instance?.addWidget){window.open(manualHref(), '_blank', 'noopener'); return;}
+    instance.modalManager?.closeAll?.();
+    instance.addWidget('pdf',{
+      title:'PDF-manual',
+      content:{mediaId:null,url:MANUAL_URL,name:'Plan PDF-manual - KaPardy og huskekort',page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs'},
+      geometry:{x:70,y:55,width:900,height:640}
+    });
+  }
+
+  function setEntry(instance,id,title,summary,body,keywords){
+    const reg=instance?.helpRegistry;if(!reg) return;
+    const entry={id,title,summary,body,keywords};
+    const idx=reg.entries.findIndex(item=>item?.id===id);
+    if(idx>=0) reg.entries.splice(idx,1,entry); else reg.entries.push(entry);
+    try{TN.registry?.help?.set?.(id,entry);}catch(_){ }
+  }
+
+  function patchHelp(instance=app()){
+    if(!instance?.helpRegistry || instance.__planPdfManualHelpPatched) return;
+    instance.__planPdfManualHelpPatched=true;
+    setEntry(instance,'pdf-manualer','PDF-manualer','Åbn lærermanual som overlay eller som PDF på tavlen',`
+      <div class="tn-help-manual-box">
+        <h4>PDF-manual til læreren</h4>
+        <p>Brug overlayet, når du vil læse hjælp uden at ændre tavlen. Brug PDFWidget, hvis manualen skal ligge på en tavle som kursus- eller introduktionsmateriale.</p>
+        <div class="tn-plan-manual-actions">
+          <button type="button" class="primary" data-plan-manual-open="overlay">Åbn PDF-manual</button>
+          <button type="button" data-plan-manual-open="widget">Åbn manual på tavlen</button>
+        </div>
+      </div>
+      <p>Manualen ligger som separat PDF-fil og kan opdateres, uden at hele appen skal bygges om.</p>`,
+      'pdf manual lærermanual kapardy huskekort overlay hjælp tavlen pdfwidget');
+
+    const tools=instance.helpRegistry.entries.find(item=>item?.id==='tools');
+    if(tools && !String(tools.body||'').includes('data-plan-manual-open')){
+      tools.body = String(tools.body||'').replace('</div></section></div>', `</div></section><section><h4>Manualer</h4><div class="tn-help-tool-grid"><button type="button" data-plan-manual-open="overlay"><span>📘</span><b>Åbn PDF-manual</b><small>læses som overlay</small></button><button type="button" data-plan-manual-open="widget"><span>📄</span><b>Manual på tavlen</b><small>opret som PDFWidget</small></button></div></section></div>`);
+      tools.keywords=((tools.keywords||'')+' PDF manual lærermanual overlay PDFWidget').trim();
+      try{TN.registry?.help?.set?.('tools',tools);}catch(_){ }
+    }
+    const wanted=['overview','startup','library','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','pdf-manualer','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','picture-flip','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
+    const order=new Map(wanted.map((id,index)=>[id,index]));
+    instance.helpRegistry.entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
+  }
+
+  document.addEventListener('click',event=>{
+    const trigger=event.target.closest?.('[data-plan-manual-open]');
+    if(!trigger) return;
+    event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();
+    const mode=trigger.dataset.planManualOpen;
+    if(mode==='widget') openManualWidget(); else openManualOverlay();
+  },true);
+
+  TN.openPlanPdfManual=openManualOverlay;
+  TN.openPlanPdfManualOnBoard=openManualWidget;
+
+  if(window.TavleNext?.App?.prototype?.registerHelp && !window.TavleNext.App.prototype.registerHelp.__planPdfManualOverlaySafe){
+    const prev=window.TavleNext.App.prototype.registerHelp;
+    const wrapped=function(...args){const result=prev.apply(this,args);patchHelp(this);return result;};
+    wrapped.__planPdfManualOverlaySafe=true;
+    window.TavleNext.App.prototype.registerHelp=wrapped;
+  }
+  const tryPatch=()=>patchHelp();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',tryPatch,{once:true}); else tryPatch();
+  setTimeout(tryPatch,500);setTimeout(tryPatch,1500);
+})(window.TavleNext);
+</script>
+
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -9653,6 +9766,119 @@ window.addEventListener('DOMContentLoaded',async()=>{
 Bygger direkte på den startende v0.9.3bm og kasserer v0.9.3bn. v0.9.3bn blev indsat ved den første tekstlige <!-- index25_huskekort_fjern_hvad_er_badge_SAFE: removes the extra top-right Hvad er?-badge while keeping the Hvad er?-toggle button and confusions on the answer side. -->
 <!-- index32_huskekort_slet_kun_i_matrix_SAFE: removes single-card delete button/shortcut from Træn view; deletion remains via Vælg/Slet multi-select in Huskekortmatrix overview. -->
 <!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
+
+<script>
+/* index34_pdf_manual_overlay_SAFE: adds PDF-manual entry to Help and optional manual-as-PDFWidget. Manual file is external in /manualer, not embedded in index.html. */
+(function(TN){
+  'use strict';
+  if(!TN || window.__planPdfManualOverlaySafeApplied) return;
+  window.__planPdfManualOverlaySafeApplied = true;
+  const MANUAL_URL = 'manualer/plan-kapardy-huskekort.pdf';
+  const MANUAL_TITLE = 'Plan PDF-manual: KaPardy og huskekort';
+
+  function app(){return TN.runtime?.app || window.tavleNextApp || null;}
+  function manualHref(){try{return new URL(MANUAL_URL, document.baseURI).href;}catch(_){return MANUAL_URL;}}
+  function ensureStyle(){
+    if(document.getElementById('planPdfManualOverlayStyle')) return;
+    const style=document.createElement('style');
+    style.id='planPdfManualOverlayStyle';
+    style.textContent=`
+      .tn-plan-manual-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+      .tn-plan-manual-actions button,.tn-plan-manual-actions a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink);padding:9px 12px;font-weight:850;text-decoration:none;cursor:pointer}
+      .tn-plan-manual-actions button.primary{background:var(--tn-accent2);color:#fff;border-color:transparent}
+      .tn-plan-manual-frame{width:min(100%,1040px);height:min(70vh,760px);border:1px solid var(--tn-line);border-radius:16px;background:#fff;overflow:hidden}
+      .tn-plan-manual-frame iframe{width:100%;height:100%;border:0;background:#fff}
+      .tn-plan-manual-note{color:var(--tn-muted);line-height:1.45;margin:0 0 8px}
+      .tn-help-manual-box{border:1px solid var(--tn-line);border-radius:16px;background:var(--tn-panel2);padding:14px;margin:10px 0;display:grid;gap:8px}
+      .tn-help-manual-box h4{margin:0;font-size:16px}
+      .tn-help-manual-box p{margin:0;color:var(--tn-muted)}
+    `;
+    document.head.append(style);
+  }
+
+  function openManualOverlay(instance=app()){
+    if(!instance?.modalManager) return window.open(manualHref(), '_blank', 'noopener');
+    ensureStyle();
+    const body=document.createElement('div');
+    body.className='tn-plan-manual-view';
+    body.innerHTML=`
+      <p class="tn-plan-manual-note"><b>Læs manualen uden at ændre tavlen.</b> Luk med Esc eller ×, når du vil tilbage til undervisningen.</p>
+      <div class="tn-plan-manual-actions">
+        <a href="${TN.escapeHtml(manualHref())}" target="_blank" rel="noopener">↗ Åbn i browser/PDF-læser</a>
+        <button type="button" data-plan-manual-open="widget">📄 Åbn på tavlen</button>
+      </div>
+      <div class="tn-plan-manual-frame"><iframe title="${TN.escapeHtml(MANUAL_TITLE)}" src="${TN.escapeHtml(manualHref())}"></iframe></div>
+    `;
+    instance.modalManager.open({title:MANUAL_TITLE,body,className:'tn-modal-wide tn-plan-manual-modal',actions:[{label:'Åbn på tavlen',run:()=>{openManualWidget(instance);return true;}},{label:'Åbn i browser',primary:true,run:()=>{window.open(manualHref(),'_blank','noopener');return false;}}]});
+  }
+
+  function openManualWidget(instance=app()){
+    if(!instance?.addWidget){window.open(manualHref(), '_blank', 'noopener'); return;}
+    instance.modalManager?.closeAll?.();
+    instance.addWidget('pdf',{
+      title:'PDF-manual',
+      content:{mediaId:null,url:MANUAL_URL,name:'Plan PDF-manual - KaPardy og huskekort',page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs'},
+      geometry:{x:70,y:55,width:900,height:640}
+    });
+  }
+
+  function setEntry(instance,id,title,summary,body,keywords){
+    const reg=instance?.helpRegistry;if(!reg) return;
+    const entry={id,title,summary,body,keywords};
+    const idx=reg.entries.findIndex(item=>item?.id===id);
+    if(idx>=0) reg.entries.splice(idx,1,entry); else reg.entries.push(entry);
+    try{TN.registry?.help?.set?.(id,entry);}catch(_){ }
+  }
+
+  function patchHelp(instance=app()){
+    if(!instance?.helpRegistry || instance.__planPdfManualHelpPatched) return;
+    instance.__planPdfManualHelpPatched=true;
+    setEntry(instance,'pdf-manualer','PDF-manualer','Åbn lærermanual som overlay eller som PDF på tavlen',`
+      <div class="tn-help-manual-box">
+        <h4>PDF-manual til læreren</h4>
+        <p>Brug overlayet, når du vil læse hjælp uden at ændre tavlen. Brug PDFWidget, hvis manualen skal ligge på en tavle som kursus- eller introduktionsmateriale.</p>
+        <div class="tn-plan-manual-actions">
+          <button type="button" class="primary" data-plan-manual-open="overlay">Åbn PDF-manual</button>
+          <button type="button" data-plan-manual-open="widget">Åbn manual på tavlen</button>
+        </div>
+      </div>
+      <p>Manualen ligger som separat PDF-fil og kan opdateres, uden at hele appen skal bygges om.</p>`,
+      'pdf manual lærermanual kapardy huskekort overlay hjælp tavlen pdfwidget');
+
+    const tools=instance.helpRegistry.entries.find(item=>item?.id==='tools');
+    if(tools && !String(tools.body||'').includes('data-plan-manual-open')){
+      tools.body = String(tools.body||'').replace('</div></section></div>', `</div></section><section><h4>Manualer</h4><div class="tn-help-tool-grid"><button type="button" data-plan-manual-open="overlay"><span>📘</span><b>Åbn PDF-manual</b><small>læses som overlay</small></button><button type="button" data-plan-manual-open="widget"><span>📄</span><b>Manual på tavlen</b><small>opret som PDFWidget</small></button></div></section></div>`);
+      tools.keywords=((tools.keywords||'')+' PDF manual lærermanual overlay PDFWidget').trim();
+      try{TN.registry?.help?.set?.('tools',tools);}catch(_){ }
+    }
+    const wanted=['overview','startup','library','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','pdf-manualer','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','picture-flip','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
+    const order=new Map(wanted.map((id,index)=>[id,index]));
+    instance.helpRegistry.entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
+  }
+
+  document.addEventListener('click',event=>{
+    const trigger=event.target.closest?.('[data-plan-manual-open]');
+    if(!trigger) return;
+    event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();
+    const mode=trigger.dataset.planManualOpen;
+    if(mode==='widget') openManualWidget(); else openManualOverlay();
+  },true);
+
+  TN.openPlanPdfManual=openManualOverlay;
+  TN.openPlanPdfManualOnBoard=openManualWidget;
+
+  if(window.TavleNext?.App?.prototype?.registerHelp && !window.TavleNext.App.prototype.registerHelp.__planPdfManualOverlaySafe){
+    const prev=window.TavleNext.App.prototype.registerHelp;
+    const wrapped=function(...args){const result=prev.apply(this,args);patchHelp(this);return result;};
+    wrapped.__planPdfManualOverlaySafe=true;
+    window.TavleNext.App.prototype.registerHelp=wrapped;
+  }
+  const tryPatch=()=>patchHelp();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',tryPatch,{once:true}); else tryPatch();
+  setTimeout(tryPatch,500);setTimeout(tryPatch,1500);
+})(window.TavleNext);
+</script>
+
 </body>-forekomst, som lå inde i Plans egen HTML-app-skabelon, og kunne derfor afbryde hovedscriptet, så Plan ikke startede. Denne version ændrer kun Niveaudelingsmodalens layout efter hele appens eksisterende kode: den tomme modalfod skjules, den ydre modal får en fast tilgængelig højde, den indre shell bruger præcis modalens resterende plads, og svarområdet kan rulles helt til sidste række med ekstra bundluft på iPad. Automatisk gemning, lærervurderinger, placeringer, levende danskhold og øvrige Plan-funktioner er uændrede.
 -->
 <style id="plan-v093bo-leveling-full-height-style">
@@ -39650,5 +39876,118 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 <!-- index25_huskekort_fjern_hvad_er_badge_SAFE: removes the extra top-right Hvad er?-badge while keeping the Hvad er?-toggle button and confusions on the answer side. -->
 <!-- index32_huskekort_slet_kun_i_matrix_SAFE: removes single-card delete button/shortcut from Træn view; deletion remains via Vælg/Slet multi-select in Huskekortmatrix overview. -->
 <!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
+
+<script>
+/* index34_pdf_manual_overlay_SAFE: adds PDF-manual entry to Help and optional manual-as-PDFWidget. Manual file is external in /manualer, not embedded in index.html. */
+(function(TN){
+  'use strict';
+  if(!TN || window.__planPdfManualOverlaySafeApplied) return;
+  window.__planPdfManualOverlaySafeApplied = true;
+  const MANUAL_URL = 'manualer/plan-kapardy-huskekort.pdf';
+  const MANUAL_TITLE = 'Plan PDF-manual: KaPardy og huskekort';
+
+  function app(){return TN.runtime?.app || window.tavleNextApp || null;}
+  function manualHref(){try{return new URL(MANUAL_URL, document.baseURI).href;}catch(_){return MANUAL_URL;}}
+  function ensureStyle(){
+    if(document.getElementById('planPdfManualOverlayStyle')) return;
+    const style=document.createElement('style');
+    style.id='planPdfManualOverlayStyle';
+    style.textContent=`
+      .tn-plan-manual-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+      .tn-plan-manual-actions button,.tn-plan-manual-actions a{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-ink);padding:9px 12px;font-weight:850;text-decoration:none;cursor:pointer}
+      .tn-plan-manual-actions button.primary{background:var(--tn-accent2);color:#fff;border-color:transparent}
+      .tn-plan-manual-frame{width:min(100%,1040px);height:min(70vh,760px);border:1px solid var(--tn-line);border-radius:16px;background:#fff;overflow:hidden}
+      .tn-plan-manual-frame iframe{width:100%;height:100%;border:0;background:#fff}
+      .tn-plan-manual-note{color:var(--tn-muted);line-height:1.45;margin:0 0 8px}
+      .tn-help-manual-box{border:1px solid var(--tn-line);border-radius:16px;background:var(--tn-panel2);padding:14px;margin:10px 0;display:grid;gap:8px}
+      .tn-help-manual-box h4{margin:0;font-size:16px}
+      .tn-help-manual-box p{margin:0;color:var(--tn-muted)}
+    `;
+    document.head.append(style);
+  }
+
+  function openManualOverlay(instance=app()){
+    if(!instance?.modalManager) return window.open(manualHref(), '_blank', 'noopener');
+    ensureStyle();
+    const body=document.createElement('div');
+    body.className='tn-plan-manual-view';
+    body.innerHTML=`
+      <p class="tn-plan-manual-note"><b>Læs manualen uden at ændre tavlen.</b> Luk med Esc eller ×, når du vil tilbage til undervisningen.</p>
+      <div class="tn-plan-manual-actions">
+        <a href="${TN.escapeHtml(manualHref())}" target="_blank" rel="noopener">↗ Åbn i browser/PDF-læser</a>
+        <button type="button" data-plan-manual-open="widget">📄 Åbn på tavlen</button>
+      </div>
+      <div class="tn-plan-manual-frame"><iframe title="${TN.escapeHtml(MANUAL_TITLE)}" src="${TN.escapeHtml(manualHref())}"></iframe></div>
+    `;
+    instance.modalManager.open({title:MANUAL_TITLE,body,className:'tn-modal-wide tn-plan-manual-modal',actions:[{label:'Åbn på tavlen',run:()=>{openManualWidget(instance);return true;}},{label:'Åbn i browser',primary:true,run:()=>{window.open(manualHref(),'_blank','noopener');return false;}}]});
+  }
+
+  function openManualWidget(instance=app()){
+    if(!instance?.addWidget){window.open(manualHref(), '_blank', 'noopener'); return;}
+    instance.modalManager?.closeAll?.();
+    instance.addWidget('pdf',{
+      title:'PDF-manual',
+      content:{mediaId:null,url:MANUAL_URL,name:'Plan PDF-manual - KaPardy og huskekort',page:1,scrollTop:0,scrollLeft:0,pageScroll:{},formData:{},scale:'page-width',viewer:'pdfjs'},
+      geometry:{x:70,y:55,width:900,height:640}
+    });
+  }
+
+  function setEntry(instance,id,title,summary,body,keywords){
+    const reg=instance?.helpRegistry;if(!reg) return;
+    const entry={id,title,summary,body,keywords};
+    const idx=reg.entries.findIndex(item=>item?.id===id);
+    if(idx>=0) reg.entries.splice(idx,1,entry); else reg.entries.push(entry);
+    try{TN.registry?.help?.set?.(id,entry);}catch(_){ }
+  }
+
+  function patchHelp(instance=app()){
+    if(!instance?.helpRegistry || instance.__planPdfManualHelpPatched) return;
+    instance.__planPdfManualHelpPatched=true;
+    setEntry(instance,'pdf-manualer','PDF-manualer','Åbn lærermanual som overlay eller som PDF på tavlen',`
+      <div class="tn-help-manual-box">
+        <h4>PDF-manual til læreren</h4>
+        <p>Brug overlayet, når du vil læse hjælp uden at ændre tavlen. Brug PDFWidget, hvis manualen skal ligge på en tavle som kursus- eller introduktionsmateriale.</p>
+        <div class="tn-plan-manual-actions">
+          <button type="button" class="primary" data-plan-manual-open="overlay">Åbn PDF-manual</button>
+          <button type="button" data-plan-manual-open="widget">Åbn manual på tavlen</button>
+        </div>
+      </div>
+      <p>Manualen ligger som separat PDF-fil og kan opdateres, uden at hele appen skal bygges om.</p>`,
+      'pdf manual lærermanual kapardy huskekort overlay hjælp tavlen pdfwidget');
+
+    const tools=instance.helpRegistry.entries.find(item=>item?.id==='tools');
+    if(tools && !String(tools.body||'').includes('data-plan-manual-open')){
+      tools.body = String(tools.body||'').replace('</div></section></div>', `</div></section><section><h4>Manualer</h4><div class="tn-help-tool-grid"><button type="button" data-plan-manual-open="overlay"><span>📘</span><b>Åbn PDF-manual</b><small>læses som overlay</small></button><button type="button" data-plan-manual-open="widget"><span>📄</span><b>Manual på tavlen</b><small>opret som PDFWidget</small></button></div></section></div>`);
+      tools.keywords=((tools.keywords||'')+' PDF manual lærermanual overlay PDFWidget').trim();
+      try{TN.registry?.help?.set?.('tools',tools);}catch(_){ }
+    }
+    const wanted=['overview','startup','library','first-course','course-navigation','calendar','boards','widgets','windows','zoom-focus','shortcuts','tools','pdf-manualer','import','data','datacenter','students','danish-workflow','leveling','my-danish-hold','groups','cards','subject-conversations','danish-grades','games','media','picture-flip','pdf','web-html','course-backup','storage','trash','appearance','heavy','subject-courses','rescue-recipe'];
+    const order=new Map(wanted.map((id,index)=>[id,index]));
+    instance.helpRegistry.entries.sort((a,b)=>(order.has(a.id)?order.get(a.id):9999)-(order.has(b.id)?order.get(b.id):9999));
+  }
+
+  document.addEventListener('click',event=>{
+    const trigger=event.target.closest?.('[data-plan-manual-open]');
+    if(!trigger) return;
+    event.preventDefault();event.stopPropagation();event.stopImmediatePropagation?.();
+    const mode=trigger.dataset.planManualOpen;
+    if(mode==='widget') openManualWidget(); else openManualOverlay();
+  },true);
+
+  TN.openPlanPdfManual=openManualOverlay;
+  TN.openPlanPdfManualOnBoard=openManualWidget;
+
+  if(window.TavleNext?.App?.prototype?.registerHelp && !window.TavleNext.App.prototype.registerHelp.__planPdfManualOverlaySafe){
+    const prev=window.TavleNext.App.prototype.registerHelp;
+    const wrapped=function(...args){const result=prev.apply(this,args);patchHelp(this);return result;};
+    wrapped.__planPdfManualOverlaySafe=true;
+    window.TavleNext.App.prototype.registerHelp=wrapped;
+  }
+  const tryPatch=()=>patchHelp();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',tryPatch,{once:true}); else tryPatch();
+  setTimeout(tryPatch,500);setTimeout(tryPatch,1500);
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
