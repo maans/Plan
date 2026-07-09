@@ -4493,7 +4493,7 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
           const columns=Array.isArray(dataset.columns)&&dataset.columns.length>=7?[...dataset.columns]:[...canonicalBankColumns];
           const slugs=columns.map(column=>TN.slugify(String(column||'')));
           const locate=(patterns,fallback)=>{const found=slugs.findIndex(slug=>patterns.some(pattern=>slug===pattern||slug.includes(pattern)));return found>=0?found:fallback;};
-          const indexes={category:locate(['kategori','category'],0),question:locate(['sporgsmal','question'],1),correct:locate(['rigtigt-svar','korrekt-svar','correct-answer','answer'],2),wrong1:locate(['forkert-svar-1','wrong-answer-1','wrong1'],3),wrong2:locate(['forkert-svar-2','wrong-answer-2','wrong2'],4),wrong3:locate(['forkert-svar-3','wrong-answer-3','wrong3'],5),points:locate(['point','points'],6)};
+          const indexes={category:locate(['kategori','category'],0),question:locate(['sporgsmal','spoergsmaal','question'],1),correct:locate(['rigtigt-svar','rigtigtsvar','korrekt-svar','correct-answer','answer'],2),wrong1:locate(['forkert-svar-1','forkertsvar1','wrong-answer-1','wrong1'],3),wrong2:locate(['forkert-svar-2','forkertsvar2','wrong-answer-2','wrong2'],4),wrong3:locate(['forkert-svar-3','forkertsvar3','wrong-answer-3','wrong3'],5),points:locate(['point','points'],6),sourceTitle:locate(['kilde-titel','kildetitel','source-title','sourcetitle'],7),sourceUrl:locate(['kilde-url','kildeurl','source-url','sourceurl','url'],8),sourceStatus:locate(['kildestatus','kilde-status','source-status','sourcestatus'],9),sourceCheckedAt:locate(['kilde-tjekket','kildetjekket','source-checked-at','sourcecheckedat'],10),sourceNote:locate(['kildenote','kilde-note','source-note','sourcenote'],11)};
           const needed=Math.max(columns.length,...Object.values(indexes).map(index=>index+1));while(columns.length<needed)columns.push(canonicalBankColumns[columns.length]||`Felt ${columns.length+1}`);
           dataset.columns=columns;
           dataset.rows=items.map((item,rowIndex)=>{const row=[...((dataset.rows||[])[rowIndex]||[])];while(row.length<needed)row.push('');row[indexes.category]=text(item.category)||'Spørgsmål';row[indexes.question]=text(item.question);row[indexes.correct]=text(item.options?.[0]);row[indexes.wrong1]=text(item.options?.[1]);row[indexes.wrong2]=text(item.options?.[2]);row[indexes.wrong3]=text(item.options?.[3]);row[indexes.points]=Math.max(1,Number(item.points)||100);return row;});
@@ -7763,6 +7763,12 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
 <!-- index25_huskekort_fjern_hvad_er_badge_SAFE: removes the extra top-right Hvad er?-badge while keeping the Hvad er?-toggle button and confusions on the answer side. -->
 <!-- index32_huskekort_slet_kun_i_matrix_SAFE: removes single-card delete button/shortcut from Træn view; deletion remains via Vælg/Slet multi-select in Huskekortmatrix overview. -->
 <!-- index33_huskekort_slet_i_rediger_modal_SAFE: adds safe Slet kort action inside Redigér/berig modal and stabilizes the editor modal layer on iPad/Safari. -->
+
+<script>
+/* Plan patch: KaPardy → Huskekortmatrix kolonnefix 2026-07-09
+   Bygger på brugerens uploadede index21.html (titel: Plan v1.1.3 · index23).
+   Retter især Spørgsmål/Spoergsmaal-kolonne, Kilde-URL, kildefelter og dublet-sammenfletning i Huskekortmatrix. */
+</script>
 </body></html>`;
       return this.addWidget('html',{title:'Plan · indlejret',content:{html:wrapper,mediaId:null,source:'inline',trusted:true,planEmbed:true,appKind:'plan',name:'Plan-indlejret.html',embeddedSessionId:sessionId,planUrl:url.href},geometry:{width:860,height:600}});
     }
@@ -36798,15 +36804,20 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     const columns=parsed?.columns||[],rows=parsed?.rows||[];
     const indexes={
       category:findColumn(columns,['kategori','category','genre','tema'],0),
-      question:findColumn(columns,['sporgsmal','question'],1),
+      question:findColumn(columns,['sporgsmal','spoergsmaal','question'],1),
       points:findColumn(columns,['point','points'],2),
-      correct:findColumn(columns,['rigtigt-svar','korrekt-svar','correct-answer','correct','answer'],3),
-      wrong1:findColumn(columns,['forkert-svar-1','wrong-answer-1','wrong1'],4),
-      wrong2:findColumn(columns,['forkert-svar-2','wrong-answer-2','wrong2'],5),
-      wrong3:findColumn(columns,['forkert-svar-3','wrong-answer-3','wrong3'],6)
+      correct:findColumn(columns,['rigtigt-svar','rigtigtsvar','korrekt-svar','korrektsvar','correct-answer','correct','answer'],3),
+      wrong1:findColumn(columns,['forkert-svar-1','forkertsvar1','wrong-answer-1','wrong1'],4),
+      wrong2:findColumn(columns,['forkert-svar-2','forkertsvar2','wrong-answer-2','wrong2'],5),
+      wrong3:findColumn(columns,['forkert-svar-3','forkertsvar3','wrong-answer-3','wrong3'],6),
+      sourceTitle:findColumn(columns,['kildetitel','kilde-titel','source-title','sourcetitle'],10),
+      sourceUrl:findColumn(columns,['kilde-url','kildeurl','source-url','sourceurl','url'],11),
+      sourceStatus:findColumn(columns,['kildestatus','kilde-status','source-status','sourcestatus'],12),
+      sourceCheckedAt:findColumn(columns,['kilde-tjekket','kildetjekket','source-checked-at','sourcecheckedat'],13),
+      sourceNote:findColumn(columns,['kildenote','kilde-note','source-note','sourcenote'],14)
     };
     const result=[];
-    rows.forEach((row,index)=>{const value=key=>clean(row?.[indexes[key]]);const question=value('question'),correct=value('correct'),wrong1=value('wrong1'),wrong2=value('wrong2'),wrong3=value('wrong3');if(!question||!correct)return;result.push({id:`kp_import_${index+1}_${slug(question).slice(0,24)}`,category:value('category')||'Spørgsmål',question,points:Math.max(1,Number(value('points'))||100),options:[correct,wrong1,wrong2,wrong3],correctIndex:0,answer:correct});});
+    rows.forEach((row,index)=>{const value=key=>clean(row?.[indexes[key]]);const question=value('question'),correct=value('correct'),wrong1=value('wrong1'),wrong2=value('wrong2'),wrong3=value('wrong3');if(!question||!correct)return;const item={id:`kp_import_${index+1}_${slug(question).slice(0,24)}`,category:value('category')||'Spørgsmål',question,points:Math.max(1,Number(value('points'))||100),options:[correct,wrong1,wrong2,wrong3],correctIndex:0,answer:correct};for(const key of ['sourceTitle','sourceUrl','sourceStatus','sourceCheckedAt','sourceNote']){const v=value(key);if(v)item[key]=v;}result.push(item);});
     if(!result.length)throw new Error('Filen indeholder ingen genkendelige KaPardy-spørgsmål');
     if(result.some(item=>item.options.some(option=>!option)))throw new Error('Alle spørgsmål skal have ét rigtigt og tre forkerte svar');
     return result;
@@ -36970,11 +36981,33 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     modal.footer.querySelectorAll('button').forEach(button=>{if(button.textContent.trim()==='Slet kort')button.classList.add('danger');});
   }
   function splitLine(line){const delim=line.includes('\t')?'\t':line.includes(';')?';':line.includes('|')?'|':',';return line.split(delim).map(value=>value.trim().replace(/^"|"$/g,'').replace(/""/g,'"'));}
+  function cardHeaderSlug(value){return String(value??'').trim().toLocaleLowerCase('da').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/æ/g,'ae').replace(/ø/g,'oe').replace(/å/g,'aa').replace(/[^a-z0-9]+/g,'');}
   function cardsFromRows(columns,rows){
-    const slugs=(columns||[]).map(c=>String(c||'').toLocaleLowerCase('da').replace(/[å]/g,'aa').replace(/[æ]/g,'ae').replace(/[ø]/g,'oe').replace(/[^a-z0-9]+/g,''));
-    const find=(names,fallback)=>{for(const name of names){const i=slugs.indexOf(name);if(i>=0)return i;}return fallback;};
-    const idx={front:find(['forside','front','sporgsmal','question','begreb','term'],0),back:find(['bagside','back','svar','answer','rigtigtsvar','korrektsvar'],1),explanation:find(['forklaring','explanation','note','noter'],2),category:find(['kategori','category','gruppe'],3),hint:find(['hint','ledetraad','ledetrad'],4),sourceTitle:find(['kilde','sourcetitle','kildetitel'],5),sourceUrl:find(['url','sourceurl','kildeurl','link'],6)};
-    return (rows||[]).map((row,i)=>normalizeCard({front:row[idx.front],back:row[idx.back],explanation:row[idx.explanation],category:row[idx.category],hint:row[idx.hint],sourceTitle:row[idx.sourceTitle],sourceUrl:row[idx.sourceUrl]},i)).filter(c=>c.front&&c.back);
+    const slugs=(columns||[]).map(cardHeaderSlug);
+    const find=(names,fallback=-1)=>{for(let i=0;i<slugs.length;i++)if(names.some(name=>slugs[i]===name||slugs[i].includes(name)))return i;return fallback;};
+    const idx={
+      category:find(['kategori','category','genre','tema'],0),
+      question:find(['sporgsmal','spoergsmaal','question'],1),
+      points:find(['point','points'],2),
+      correct:find(['rigtigtsvar','korrektsvar','correctanswer','answer'],3),
+      wrong1:find(['forkertsvar1','wronganswer1','wrong1'],4),
+      wrong2:find(['forkertsvar2','wronganswer2','wrong2'],5),
+      wrong3:find(['forkertsvar3','wronganswer3','wrong3'],6),
+      front:find(['forside','front','sporgsmal','spoergsmaal','question','begreb','term'],0),
+      back:find(['bagside','back','svar','answer','rigtigtsvar','korrektsvar'],1),
+      explanation:find(['forklaring','explanation','note','noter'],-1),
+      hint:find(['hint','ledetraad','ledetrad'],-1),
+      sourceTitle:find(['kildetitel','kilde','sourcetitle','sourcetitel','source'],5),
+      sourceUrl:find(['kildeurl','sourceurl','url','link'],6),
+      sourceStatus:find(['kildestatus','sourcestatus'],-1),
+      sourceCheckedAt:find(['kildetjekket','sourcecheckedat'],-1),
+      sourceNote:find(['kildenote','sourcenote'],-1)
+    };
+    const hasKapardyShape=idx.question>=0&&idx.correct>=0&&(idx.category>=0||idx.points>=0||idx.wrong1>=0||idx.wrong2>=0||idx.wrong3>=0);
+    if(hasKapardyShape){
+      return (rows||[]).map((row,i)=>{const val=key=>idx[key]>=0?clean(row?.[idx[key]]):'';const correct=val('correct'),wrong=[val('wrong1'),val('wrong2'),val('wrong3')].filter(Boolean);return normalizeCard({front:val('question'),back:correct,category:val('category')||'KaPardy',level:Math.max(1,Math.ceil((Number(val('points'))||100)/100)),hint:val('hint'),confusions:wrong,explanation:wrong.length?`Pas på forvekslinger: ${wrong.join(' · ')}`:'',sourceTitle:val('sourceTitle'),sourceUrl:val('sourceUrl'),sourceStatus:val('sourceStatus'),sourceCheckedAt:val('sourceCheckedAt'),sourceNote:val('sourceNote')},i);}).filter(c=>c.front&&c.back);
+    }
+    return (rows||[]).map((row,i)=>normalizeCard({front:row[idx.front],back:row[idx.back],explanation:idx.explanation>=0?row[idx.explanation]:'',category:row[idx.category],hint:idx.hint>=0?row[idx.hint]:'',sourceTitle:idx.sourceTitle>=0?row[idx.sourceTitle]:'',sourceUrl:idx.sourceUrl>=0?row[idx.sourceUrl]:''},i)).filter(c=>c.front&&c.back);
   }
   async function importCardsFromFile(app){
     return new Promise(resolve=>{const input=document.createElement('input');input.type='file';input.accept='.csv,.tsv,.txt,.xlsx,text/csv,text/tab-separated-values,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';input.style.cssText='position:fixed;left:-9999px;opacity:0';document.body.append(input);input.onchange=async()=>{const file=input.files?.[0];try{if(!file){resolve([]);return;}const parsed=await TN.DataImporter.parseFile(file);resolve(cardsFromRows(parsed.columns||[],parsed.rows||[]));}catch(error){app.toast(error.message||'Huskekort kunne ikke importeres');resolve([]);}finally{input.remove();}};input.click();});
@@ -37068,7 +37101,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     const back=clean(c.back||c.answer||c.bagside)||'';
     const category=clean(c.category||c.kategori)||'Huskekort';
     const key=clean(c.key)||keyFor([category,front,back]);
-    return {id:clean(c.id)||uid('flashcard'),key,sourceQuestionId:clean(c.sourceQuestionId||c.questionId),front,back,explanation:clean(c.explanation||c.forklaring),category,hint:clean(c.hint),sourceTitle:clean(c.sourceTitle||c.kildeTitel||c.source),sourceUrl:clean(c.sourceUrl||c.url||c.kilde),mediaUrl:clean(c.mediaUrl||c.media),level:Math.max(1,Number(c.level||c.svaerhedsgrad||1)||1),status:statusClass(c.status),confusions,createdAt:c.createdAt||now(),updatedAt:now(),linked:!!c.linked};
+    return {id:clean(c.id)||uid('flashcard'),key,sourceQuestionId:clean(c.sourceQuestionId||c.questionId),front,back,explanation:clean(c.explanation||c.forklaring),category,hint:clean(c.hint),sourceTitle:clean(c.sourceTitle||c.kildeTitel||c.source),sourceUrl:clean(c.sourceUrl||c.url||c.kilde),sourceStatus:clean(c.sourceStatus||c.kildeStatus),sourceCheckedAt:clean(c.sourceCheckedAt||c.kildeTjekket),sourceNote:clean(c.sourceNote||c.kildeNote),mediaUrl:clean(c.mediaUrl||c.media),level:Math.max(1,Number(c.level||c.svaerhedsgrad||1)||1),status:statusClass(c.status),confusions,createdAt:c.createdAt||now(),updatedAt:now(),linked:!!c.linked};
   }
   function defaultCard(){return normalizeCard({front:'Hvad skal eleverne huske?',back:'Skriv det korte svar her.',explanation:'Tilføj forklaring, kilde eller forvekslinger i redigering.',category:'Nyt kort'});}
   function cardFromQuestion(q,index=0,sourceTitle='KaPardy'){
@@ -37078,15 +37111,15 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     const wrong=options.filter((_,i)=>i!==correctIndex).map(clean).filter(Boolean);
     const explicitConfusions=Array.isArray(q?.confusions)?q.confusions.map(clean).filter(Boolean):null;
     const explanation=clean(q?.explanation||q?.forklaring)||(wrong.length?`Pas på forvekslinger: ${wrong.join(' · ')}`:'');
-    return normalizeCard({key:clean(q?.id)||keyFor([q?.category,q?.question,correct]),sourceQuestionId:q?.id,front:clean(q?.question)||`Spørgsmål ${index+1}`,back:correct,category:clean(q?.category)||'KaPardy',level:Math.max(1,Math.ceil((Number(q?.points)||100)/100)),sourceTitle:clean(q?.sourceTitle||q?.kildeTitel)||sourceTitle,sourceUrl:clean(q?.sourceUrl||q?.url||q?.kildeUrl),mediaUrl:clean(q?.mediaUrl||q?.media),hint:clean(q?.hint),confusions:explicitConfusions||wrong,explanation,linked:true},index);
+    return normalizeCard({key:clean(q?.id)||keyFor([q?.category,q?.question,correct]),sourceQuestionId:q?.id,front:clean(q?.question)||`Spørgsmål ${index+1}`,back:correct,category:clean(q?.category)||'KaPardy',level:Math.max(1,Math.ceil((Number(q?.points)||100)/100)),sourceTitle:clean(q?.sourceTitle||q?.kildeTitel)||sourceTitle,sourceUrl:clean(q?.sourceUrl||q?.url||q?.kildeUrl),sourceStatus:clean(q?.sourceStatus||q?.kildeStatus),sourceCheckedAt:clean(q?.sourceCheckedAt||q?.kildeTjekket),sourceNote:clean(q?.sourceNote||q?.kildeNote),mediaUrl:clean(q?.mediaUrl||q?.media),hint:clean(q?.hint),confusions:explicitConfusions||wrong,explanation,linked:true},index);
   }
   function cardsFromKapardyWidget(widget){return (widget?.content?.questions||[]).map((q,i)=>cardFromQuestion(q,i,widget?.title||'KaPardy')).filter(card=>card.front&&card.back);}
   function questionsFromDataset(dataset){
     const columns=Array.isArray(dataset?.columns)?dataset.columns:[],rows=Array.isArray(dataset?.rows)?dataset.rows:[];
-    const slugs=columns.map(column=>String(column||'').toLocaleLowerCase('da').replace(/[å]/g,'aa').replace(/[æ]/g,'ae').replace(/[ø]/g,'oe').replace(/[^a-z0-9]+/g,''));
+    const slugs=columns.map(column=>String(column||'').toLocaleLowerCase('da').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[å]/g,'aa').replace(/[æ]/g,'ae').replace(/[ø]/g,'oe').replace(/[^a-z0-9]+/g,''));
     const locate=(names,fallback)=>{for(const name of names){const index=slugs.indexOf(name);if(index>=0)return index;}return fallback;};
-    const idx={category:locate(['kategori','category'],0),question:locate(['sporgsmal','question'],1),correct:locate(['rigtigtsvar','korrektsvar','correctanswer','answer'],2),wrong1:locate(['forkertsvar1','wronganswer1','wrong1'],3),wrong2:locate(['forkertsvar2','wronganswer2','wrong2'],4),wrong3:locate(['forkertsvar3','wronganswer3','wrong3'],5),points:locate(['point','points'],6)};
-    return rows.map((row,i)=>{const correct=clean(row?.[idx.correct]);const wrong=[row?.[idx.wrong1],row?.[idx.wrong2],row?.[idx.wrong3]].map(clean).filter(Boolean);return{category:clean(row?.[idx.category])||'KaPardy',question:clean(row?.[idx.question]),options:[correct,...wrong].filter(Boolean),correctIndex:0,answer:correct,points:Number(row?.[idx.points])||100,id:keyFor([row?.[idx.category],row?.[idx.question],correct])};}).filter(q=>q.question&&q.answer&&q.options.length>=2);
+    const idx={category:locate(['kategori','category'],0),question:locate(['sporgsmal','spoergsmaal','question'],1),correct:locate(['rigtigtsvar','korrektsvar','correctanswer','answer'],2),wrong1:locate(['forkertsvar1','wronganswer1','wrong1'],3),wrong2:locate(['forkertsvar2','wronganswer2','wrong2'],4),wrong3:locate(['forkertsvar3','wronganswer3','wrong3'],5),points:locate(['point','points'],6),sourceTitle:locate(['kildetitel','sourcetitle'],7),sourceUrl:locate(['kildeurl','sourceurl','url'],8),sourceStatus:locate(['kildestatus','sourcestatus'],9),sourceCheckedAt:locate(['kildetjekket','sourcecheckedat'],10),sourceNote:locate(['kildenote','sourcenote'],11)};
+    return rows.map((row,i)=>{const get=key=>idx[key]>=0?clean(row?.[idx[key]]):'';const correct=get('correct');const wrong=[get('wrong1'),get('wrong2'),get('wrong3')].filter(Boolean);const item={category:get('category')||'KaPardy',question:get('question'),options:[correct,...wrong].filter(Boolean),correctIndex:0,answer:correct,points:Number(get('points'))||100,id:keyFor([get('category'),get('question'),correct])};for(const key of ['sourceTitle','sourceUrl','sourceStatus','sourceCheckedAt','sourceNote']){const v=get(key);if(v)item[key]=v;}return item;}).filter(q=>q.question&&q.answer&&q.options.length>=2);
   }
   function categories(cards){return [...new Set((cards||[]).map(card=>clean(card.category)||'Huskekort'))].sort((a,b)=>a.localeCompare(b,'da',{sensitivity:'base'}));}
   function applyLearningLayer(card,content){
@@ -37116,7 +37149,11 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
       if(!sourceCards.length&&Array.isArray(content.sourceSnapshot?.questions)){sourceCards=content.sourceSnapshot.questions.map((q,i)=>cardFromQuestion(q,i,content.sourceSnapshot.title||content.sourceTitle||'KaPardy'));sourceInfo={kind:'kapardy-snapshot',title:content.sourceSnapshot.title||content.sourceTitle||'KaPardy',count:sourceCards.length,live:false};}
     }
     const hiddenKeys=new Set(Array.isArray(content.hiddenKeys)?content.hiddenKeys.map(clean).filter(Boolean):[]);
-    const all=[...sourceCards.map(card=>applyLearningLayer(card,content)),...localCards,...extras].filter(card=>!hiddenKeys.has(card.key));
+    const preferCard=(a,b)=>{const score=card=>{
+      let n=0;if(clean(card.sourceUrl))n+=40;if(clean(card.sourceTitle)&&clean(card.sourceTitle)!==clean(content.sourceTitle))n+=12;if(clean(card.front)&&clean(card.front)!==clean(card.category))n+=30;if(String(card.front||'').length>String(card.category||'').length+8)n+=10;if(clean(card.explanation))n+=4;if((card.confusions||[]).length)n+=4;return n;
+    };const winner=score(b)>score(a)?b:a,other=winner===a?b:a;return normalizeCard({...other,...winner,front:(clean(winner.front)&&clean(winner.front)!==clean(winner.category)?winner.front:other.front)||winner.front,sourceTitle:clean(winner.sourceTitle)||clean(other.sourceTitle),sourceUrl:clean(winner.sourceUrl)||clean(other.sourceUrl),sourceStatus:clean(winner.sourceStatus)||clean(other.sourceStatus),sourceCheckedAt:clean(winner.sourceCheckedAt)||clean(other.sourceCheckedAt),sourceNote:clean(winner.sourceNote)||clean(other.sourceNote),confusions:uniqueClean([...(other.confusions||[]),...(winner.confusions||[])])});};
+    const dedupeCards=list=>{const byKey=new Map(),out=[];for(const card of list){if(hiddenKeys.has(card.key))continue;const loose=keyFor([card.category,card.back])||card.key,strict=clean(card.sourceUrl)?`url:${clean(card.sourceUrl)}|${clean(card.back)}`:`kb:${loose}`,keys=[card.key,strict,loose].filter(Boolean);let foundKey=keys.find(key=>byKey.has(key));if(!foundKey){out.push(card);const pos=out.length-1;keys.forEach(key=>byKey.set(key,pos));continue;}const pos=byKey.get(foundKey),merged=preferCard(out[pos],card);out[pos]=merged;keys.forEach(key=>byKey.set(key,pos));}return out;};
+    const all=dedupeCards([...sourceCards.map(card=>applyLearningLayer(card,content)),...localCards,...extras]);
     return {cards:all,sourceInfo,sourceCards};
   }
   function openCardEditor(app,card,{title='Redigér huskekort',onSave,onDelete}={}){
@@ -37200,10 +37237,13 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     if(clean(card?.hint))next.hint=clean(card.hint);else delete next.hint;
     if(clean(card?.sourceTitle))next.sourceTitle=clean(card.sourceTitle);else delete next.sourceTitle;
     if(clean(card?.sourceUrl))next.sourceUrl=clean(card.sourceUrl);else delete next.sourceUrl;
+    if(clean(card?.sourceStatus))next.sourceStatus=clean(card.sourceStatus);else delete next.sourceStatus;
+    if(clean(card?.sourceCheckedAt))next.sourceCheckedAt=clean(card.sourceCheckedAt);else delete next.sourceCheckedAt;
+    if(clean(card?.sourceNote))next.sourceNote=clean(card.sourceNote);else delete next.sourceNote;
     if(clean(card?.mediaUrl))next.mediaUrl=clean(card.mediaUrl);else delete next.mediaUrl;
     return next;
   }
-  function kapardyBankColumns(){return ['Kategori','Spørgsmål','Rigtigt svar','Forkert svar 1','Forkert svar 2','Forkert svar 3','Point'];}
+  function kapardyBankColumns(){return ['Kategori','Spørgsmål','Rigtigt svar','Forkert svar 1','Forkert svar 2','Forkert svar 3','Point','Kildetitel','Kilde-URL','Kildestatus','Kilde tjekket','Kildenote'];}
   function bankSlug(value){return String(value??'').trim().toLocaleLowerCase('da').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/æ/g,'ae').replace(/ø/g,'oe').replace(/å/g,'aa').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');}
   async function syncKapardyDataset(app,source,{create=false}={}){
     if(!app?.dataManager||!source)return null;
@@ -37219,7 +37259,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
     const needed=Math.max(columns.length,...Object.values(indexes).map(index=>index+1));while(columns.length<needed)columns.push(canonical[columns.length]||`Felt ${columns.length+1}`);
     dataset.columns=columns;
     dataset.type=dataset.type||'kapardy-bank';
-    dataset.rows=(content.questions||[]).map((item,rowIndex)=>{const row=[...((dataset.rows||[])[rowIndex]||[])];while(row.length<needed)row.push('');const options=Array.isArray(item.options)?item.options:[];row[indexes.category]=clean(item.category)||'Spørgsmål';row[indexes.question]=clean(item.question);row[indexes.correct]=clean(item.answer||options[Number(item.correctIndex)||0]||options[0]||'');row[indexes.wrong1]=clean(options[1]);row[indexes.wrong2]=clean(options[2]);row[indexes.wrong3]=clean(options[3]);row[indexes.points]=Math.max(1,Number(item.points)||100);return row;});
+    dataset.rows=(content.questions||[]).map((item,rowIndex)=>{const row=[...((dataset.rows||[])[rowIndex]||[])];while(row.length<needed)row.push('');const options=Array.isArray(item.options)?item.options:[],correctIndex=Number(item.correctIndex)||0,wrong=options.filter((_,i)=>i!==correctIndex);row[indexes.category]=clean(item.category)||'Spørgsmål';row[indexes.question]=clean(item.question);row[indexes.correct]=clean(item.answer||options[correctIndex]||options[0]||'');row[indexes.wrong1]=clean(wrong[0]);row[indexes.wrong2]=clean(wrong[1]);row[indexes.wrong3]=clean(wrong[2]);row[indexes.points]=Math.max(1,Number(item.points)||100);row[indexes.sourceTitle]=clean(item.sourceTitle||item.kildeTitel);row[indexes.sourceUrl]=clean(item.sourceUrl||item.kildeUrl||item.url);row[indexes.sourceStatus]=clean(item.sourceStatus||item.kildeStatus);row[indexes.sourceCheckedAt]=clean(item.sourceCheckedAt||item.kildeTjekket);row[indexes.sourceNote]=clean(item.sourceNote||item.kildeNote);return row;});
     dataset.meta={...(dataset.meta||{}),sourceWidgetId:source.id,questionBankContract:'first-answer-correct',updatedFromHuskekortmatrix:now()};
     await app.dataManager.update(dataset);
     content.sourceDatasetId=dataset.id;content.sourceName=dataset.name;
