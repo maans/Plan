@@ -3,7 +3,7 @@
   "version": 2,
   "title": "Plan · demoforløb og skabeloner",
   "description": "Demoforløb og arbejdsklare skabeloner, som Plan henter som selvstændige lokale kopier.",
-  "updatedAt": "2026-07-08",
+  "updatedAt": "2026-07-09",
   "categories": [
     {
       "id": "dansk",
@@ -115,13 +115,16 @@
         "demo",
         "KaPardy-kvalitet",
         "9.–10. klasse",
-        "fase 8"
+        "fase 8",
+        "kilder",
+        "kildekontrol",
+        "sourcefields"
       ],
-      "version": "1.0.0-github-kapardy-qc8",
+      "version": "1.0.0-sourcefields11",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/faellessamlinger-2026-27/forloeb.json",
-      "sizeBytes": 8429010,
+      "sizeBytes": 8430187,
       "featured": true,
-      "updatedAt": "2026-07-08"
+      "updatedAt": "2026-07-09"
     },
     {
       "id": "camp-26",
