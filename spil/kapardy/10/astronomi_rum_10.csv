@@ -1,11 +1,11 @@
-﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar
-Solsystemets verdener,Hvilken planet er den eneste kendte med flydende overfladehave?,100,Jorden,Venus,Mars,Neptun,,,
-Solsystemets verdener,Hvilken planet kaldes ofte den røde planet?,200,Mars,Merkur,Venus,Saturn,,,
-Solsystemets verdener,Hvilken planet er størst i Solsystemet?,300,Jupiter,Saturn,Uranus,Neptun,,,
-Måner og smålegemer,Hvilken planet kredser månerne Phobos og Deimos om?,100,Mars,Jupiter,Saturn,Neptun,,,
-Måner og smålegemer,Hvad hedder Solsystemets største måne?,200,Ganymedes,Titan,Io,Callisto,,,
-Måner og smålegemer,Hvilken Saturn-måne har en tæt atmosfære?,300,Titan,Enceladus,Mimas,Rhea,,,
-Stjerner og galakser,Hvilken type galakse er Mælkevejen?,100,En stavspiralgalakse,En elliptisk galakse,En linseformet galakse,En uregelmæssig galakse,,,
-Stjerner og galakser,Hvad hedder den nærmeste store galakse til Mælkevejen?,200,Andromedagalaksen,Triangulumgalaksen,Sombrerogalaksen,Whirlpoolgalaksen,,,
-Rumfart og observation,Hvilket rumfartøj bragte de første mennesker til Månen?,100,Apollo 11,Apollo 8,Gemini 4,Voyager 1,,,
-Rumfart og observation,Hvem var det første menneske på Månen?,200,Neil Armstrong,Buzz Aldrin,Michael Collins,Jurij Gagarin,,,
+﻿Kategori,Spørgsmål,Point,Rigtigt svar,Forkert svar 1,Forkert svar 2,Forkert svar 3,Rigtige hold,Hold 1 svar,Hold 2 svar,Kildetitel,Kilde-URL,Kildestatus,Kilde tjekket,Kildenote
+Solsystemets verdener,Hvilken planet er den eneste kendte med flydende overfladehave?,100,Jorden,Venus,Mars,Neptun,,,,Solsystemet | Planetarium,https://www.planetarium.dk/artikler/solsystemet,OK,2026-07-09,"Planetarium beskriver Jorden som den eneste planet med store mængder flydende vand og nævner, at ca. 2/3 af overfladen er dækket af vand."
+Solsystemets verdener,Hvilken planet kaldes ofte den røde planet?,200,Mars,Merkur,Venus,Saturn,,,,"Mars - Egenskaber, overflade, opbygning og liv - Lex",https://lex.dk/Mars,OK,2026-07-09,Lex angiver Mars som også kendt som den røde planet og forklarer den rødlige farve med jernoxider.
+Solsystemets verdener,Hvilken planet er størst i Solsystemet?,300,Jupiter,Saturn,Uranus,Neptun,,,,"Jupiter (planet) - Opbygning, egenskaber og måner - Lex",https://lex.dk/Jupiter_-_planet,OK,2026-07-09,Lex beskriver Jupiter som Solsystemets største planet.
+Måner og smålegemer,Hvilken planet kredser månerne Phobos og Deimos om?,100,Mars,Jupiter,Saturn,Neptun,,,,"Mars - Egenskaber, overflade, opbygning og liv - Lex",https://lex.dk/Mars,OK,2026-07-09,"Lex oplyser, at Mars har de to måner Phobos og Deimos."
+Måner og smålegemer,Hvad hedder Solsystemets største måne?,200,Ganymedes,Titan,Io,Callisto,,,,Ganymedes – Lex,https://lex.dk/Ganymedes,OK,2026-07-09,"Lex oplyser, at Ganymedes er Jupiters største måne og Solsystemets største måne."
+Måner og smålegemer,Hvilken Saturn-måne har en tæt atmosfære?,300,Titan,Enceladus,Mimas,Rhea,,,,Titan – måne – Lex,https://lex.dk/Titan_-_m%C3%A5ne,OK,2026-07-09,Lex beskriver Titan som Saturns største måne og omtaler den tydelige orange atmosfære.
+Stjerner og galakser,Hvilken type galakse er Mælkevejen?,100,En stavspiralgalakse,En elliptisk galakse,En linseformet galakse,En uregelmæssig galakse,,,,Mælkevejsgalaksen – Lex,https://lex.dk/M%C3%A6lkevejsgalaksen,OK,2026-07-09,Lex beskriver Mælkevejsgalaksen som en spiralgalakse af bjælkespiraltypen.
+Stjerner og galakser,Hvad hedder den nærmeste store galakse til Mælkevejen?,200,Andromedagalaksen,Triangulumgalaksen,Sombrerogalaksen,Whirlpoolgalaksen,,,,astronomi - Universet - Himmellegemerne - Læs mere – Lex,https://lex.dk/astronomi,OK,2026-07-09,"Lex forklarer, at M31 blev afsløret som vores nærmeste nabogalakse, Andromedagalaksen."
+Rumfart og observation,Hvilket rumfartøj bragte de første mennesker til Månen?,100,Apollo 11,Apollo 8,Gemini 4,Voyager 1,,,,Apollo 11 - Den første bemandede landing på Månen - Lex,https://lex.dk/Apollo_11,OK,2026-07-09,Lex beskriver Apollo 11 som den første bemandede landing på Månen.
+Rumfart og observation,Hvem var det første menneske på Månen?,200,Neil Armstrong,Buzz Aldrin,Michael Collins,Jurij Gagarin,,,,Neil Armstrong - Amerikansk astronaut - Karriere - Lex,https://lex.dk/Neil_Armstrong,OK,2026-07-09,"Lex oplyser, at Neil Armstrong var det første menneske, der trådte ned på Månens overflade."
