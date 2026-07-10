@@ -79,13 +79,16 @@
         "prøveforberedelse",
         "KaPardy",
         "huskekort",
-        "demo"
+        "demo",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "1.0.1-github",
+      "version": "1.0.1-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/dansk-2025-26/forloeb.json",
-      "sizeBytes": 885780,
+      "sizeBytes": 886421,
       "featured": true,
-      "updatedAt": "2026-07-07"
+      "updatedAt": "2026-07-08"
     },
     {
       "id": "faellessamlinger-2026-27",
@@ -110,13 +113,16 @@
         "KaPardy",
         "huskekort",
         "demo",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8",
         "kilder",
         "kildekontrol",
         "sourcefields"
       ],
       "version": "1.0.0-sourcefields11",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/faellessamlinger-2026-27/forloeb.json",
-      "sizeBytes": 8430187,
+      "sizeBytes": 8427514,
       "featured": true,
       "updatedAt": "2026-07-09"
     },
@@ -141,13 +147,16 @@
         "video",
         "KaPardy",
         "huskekort",
-        "demo"
+        "demo",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "1.0.0",
+      "version": "1.0.0-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/camp-26/forloeb.json",
-      "sizeBytes": 2411637,
+      "sizeBytes": 2414875,
       "featured": false,
-      "updatedAt": "2026-07-07"
+      "updatedAt": "2026-07-08"
     },
     {
       "id": "20-sporgsmal-dansk-litteratur",
@@ -167,13 +176,23 @@
         "dansk",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-dansk-litteratur/forloeb.json",
-      "sizeBytes": 76886,
+      "sizeBytes": 103415,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-engelsk",
@@ -193,13 +212,23 @@
         "engelsk",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/engelsk/20-sporgsmal-engelsk/forloeb.json",
-      "sizeBytes": 74713,
+      "sizeBytes": 101744,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-matematik",
@@ -219,13 +248,23 @@
         "matematik",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/matematik/20-sporgsmal-matematik/forloeb.json",
-      "sizeBytes": 68428,
+      "sizeBytes": 99358,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-kemi",
@@ -245,13 +284,23 @@
         "science",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-kemi/forloeb.json",
-      "sizeBytes": 70882,
+      "sizeBytes": 96498,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-tysk",
@@ -271,13 +320,23 @@
         "tysk",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/tysk/20-sporgsmal-tysk/forloeb.json",
-      "sizeBytes": 71198,
+      "sizeBytes": 97728,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-balkanmusik",
@@ -297,13 +356,23 @@
         "musik",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/musik/20-sporgsmal-balkanmusik/forloeb.json",
-      "sizeBytes": 75447,
+      "sizeBytes": 100218,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-verdenskrigene",
@@ -323,13 +392,23 @@
         "historie",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-verdenskrigene/forloeb.json",
-      "sizeBytes": 78404,
+      "sizeBytes": 101702,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-efterskoleliv",
@@ -349,13 +428,23 @@
         "skoleliv",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/skoleliv/20-sporgsmal-efterskoleliv/forloeb.json",
-      "sizeBytes": 78067,
+      "sizeBytes": 110923,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-mad-fra-hele-verden",
@@ -375,13 +464,23 @@
         "mad",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/tvaerfagligt/20-sporgsmal-mad-fra-hele-verden/forloeb.json",
-      "sizeBytes": 77258,
+      "sizeBytes": 104164,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-film-fra-1980erne",
@@ -401,13 +500,23 @@
         "film",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/tvaerfagligt/20-sporgsmal-film-fra-1980erne/forloeb.json",
-      "sizeBytes": 76660,
+      "sizeBytes": 101806,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-musikgenrer",
@@ -427,13 +536,23 @@
         "musik",
         "kilder",
         "huskekort",
-        "KaPardy"
+        "KaPardy",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.0.0",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/musik/20-sporgsmal-musikgenrer/forloeb.json",
-      "sizeBytes": 75440,
+      "sizeBytes": 101022,
       "featured": false,
-      "updatedAt": "2026-07-06T13:45"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-astronomi-rum",
@@ -455,13 +574,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-astronomi-rum/forloeb.json",
-      "sizeBytes": 83997,
+      "sizeBytes": 98985,
       "featured": false,
-      "updatedAt": "2026-07-06T18:30"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-beromte-opfindelser",
@@ -483,13 +612,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-beromte-opfindelser/forloeb.json",
-      "sizeBytes": 91291,
+      "sizeBytes": 106960,
       "featured": false,
-      "updatedAt": "2026-07-06T18:30"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-biologi-natur",
@@ -511,13 +650,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-biologi-natur/forloeb.json",
-      "sizeBytes": 85577,
+      "sizeBytes": 100232,
       "featured": false,
-      "updatedAt": "2026-07-06T18:30"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-danske-opfindelser",
@@ -539,13 +688,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-danske-opfindelser/forloeb.json",
-      "sizeBytes": 87488,
+      "sizeBytes": 105748,
       "featured": false,
-      "updatedAt": "2026-07-06T18:30"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-klimaforandringer",
@@ -567,13 +726,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-klimaforandringer/forloeb.json",
-      "sizeBytes": 91802,
+      "sizeBytes": 109967,
       "featured": false,
-      "updatedAt": "2026-07-06T18:30"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-rumfart",
@@ -595,13 +764,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-rumfart/forloeb.json",
-      "sizeBytes": 83982,
+      "sizeBytes": 99715,
       "featured": false,
-      "updatedAt": "2026-07-06T18:30"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-danmark-historie-topografi",
@@ -623,13 +802,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-danmark-historie-topografi/forloeb.json",
-      "sizeBytes": 88063,
+      "sizeBytes": 102259,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-jydsk-historie-topografi",
@@ -651,13 +840,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-jydsk-historie-topografi/forloeb.json",
-      "sizeBytes": 89656,
+      "sizeBytes": 103510,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-dansk-politik",
@@ -679,13 +878,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/samfundsfag/20-sporgsmal-dansk-politik/forloeb.json",
-      "sizeBytes": 85080,
+      "sizeBytes": 102217,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-europaeiske-hovedstaeder",
@@ -707,13 +916,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/geografi/20-sporgsmal-europaeiske-hovedstaeder/forloeb.json",
-      "sizeBytes": 85829,
+      "sizeBytes": 100441,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-nordiske-lande",
@@ -735,13 +954,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/geografi/20-sporgsmal-nordiske-lande/forloeb.json",
-      "sizeBytes": 82925,
+      "sizeBytes": 99202,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-verdens-geografi",
@@ -763,13 +992,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/geografi/20-sporgsmal-verdens-geografi/forloeb.json",
-      "sizeBytes": 84992,
+      "sizeBytes": 98769,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-vikinger",
@@ -791,13 +1030,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/historie/20-sporgsmal-vikinger/forloeb.json",
-      "sizeBytes": 84413,
+      "sizeBytes": 99277,
       "featured": false,
-      "updatedAt": "2026-07-06T22:10"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-fransk",
@@ -819,13 +1068,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/sprog/20-sporgsmal-fransk/forloeb.json",
-      "sizeBytes": 82653,
+      "sizeBytes": 97496,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-spansk",
@@ -847,13 +1106,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/sprog/20-sporgsmal-spansk/forloeb.json",
-      "sizeBytes": 82391,
+      "sizeBytes": 97435,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-kropssprog",
@@ -875,13 +1144,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-kropssprog/forloeb.json",
-      "sizeBytes": 90061,
+      "sizeBytes": 113364,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-mytologi",
@@ -903,13 +1182,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/kulturfag/20-sporgsmal-mytologi/forloeb.json",
-      "sizeBytes": 82419,
+      "sizeBytes": 97029,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-nordisk-mytologi",
@@ -931,13 +1220,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/dansk/20-sporgsmal-nordisk-mytologi/forloeb.json",
-      "sizeBytes": 84918,
+      "sizeBytes": 98668,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-musik-komponister",
@@ -959,13 +1258,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/musik/20-sporgsmal-musik-komponister/forloeb.json",
-      "sizeBytes": 87193,
+      "sizeBytes": 105103,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-heste",
@@ -987,13 +1296,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-heste/forloeb.json",
-      "sizeBytes": 84858,
+      "sizeBytes": 102914,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-kaninunger",
@@ -1015,13 +1334,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "9.–10. klasse",
+        "fase 8"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-kaninunger/forloeb.json",
-      "sizeBytes": 88844,
+      "sizeBytes": 111273,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-verdens-maerkelige-dyr",
@@ -1043,13 +1372,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-verdens-maerkelige-dyr/forloeb.json",
-      "sizeBytes": 86422,
+      "sizeBytes": 99849,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-sport-olympiske",
@@ -1071,13 +1410,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/andre/dyr-og-idraet/20-sporgsmal-sport-olympiske/forloeb.json",
-      "sizeBytes": 86397,
+      "sizeBytes": 101740,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "20-sporgsmal-naturvidenskab",
@@ -1099,13 +1448,23 @@
         "ressourcematrix",
         "huskekort",
         "KaPardy",
-        "Plan-demo"
+        "Plan-demo",
+        "kildeløft",
+        "fase3",
+        "fase4",
+        "faktatjekket",
+        "KaPardy-kvalitet",
+        "fase 8",
+        "9.–10. klasse"
       ],
-      "version": "2.1.0-showcase",
+      "version": "2.4.0-source-quality-github-kapardy-qc8",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/science/20-sporgsmal-naturvidenskab/forloeb.json",
-      "sizeBytes": 84449,
+      "sizeBytes": 101128,
       "featured": false,
-      "updatedAt": "2026-07-06T23:55"
+      "updatedAt": "2026-07-08",
+      "quality": {
+        "sourceUpgrade": "fase4-faktatjek-danske-elevkilder"
+      }
     },
     {
       "id": "kontaktgruppe",
@@ -1126,7 +1485,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/kontaktgruppe/forloeb.json",
-      "sizeBytes": 18542,
+      "sizeBytes": 38587,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
@@ -1150,7 +1509,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/fagforloeb-4-6-uger/forloeb.json",
-      "sizeBytes": 33678,
+      "sizeBytes": 49513,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
@@ -1172,7 +1531,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/aarsforloeb/forloeb.json",
-      "sizeBytes": 29893,
+      "sizeBytes": 44362,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
@@ -1195,7 +1554,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/materialebank/forloeb.json",
-      "sizeBytes": 33310,
+      "sizeBytes": 48922,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
@@ -1218,7 +1577,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/kapardy-repetition/forloeb.json",
-      "sizeBytes": 13289,
+      "sizeBytes": 19215,
       "featured": true,
       "updatedAt": "2026-07-07"
     },
@@ -1240,7 +1599,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/udtalelser/forloeb.json",
-      "sizeBytes": 13059,
+      "sizeBytes": 28482,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1262,7 +1621,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/praktisk-uge/forloeb.json",
-      "sizeBytes": 25958,
+      "sizeBytes": 38682,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1285,7 +1644,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/rejsehold/forloeb.json",
-      "sizeBytes": 14530,
+      "sizeBytes": 21234,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1308,7 +1667,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/koekkenhold/forloeb.json",
-      "sizeBytes": 14531,
+      "sizeBytes": 21327,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1331,7 +1690,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/vikar/forloeb.json",
-      "sizeBytes": 13136,
+      "sizeBytes": 19482,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1353,7 +1712,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/gruppeinddeling-gruppetavler/forloeb.json",
-      "sizeBytes": 14526,
+      "sizeBytes": 20387,
       "featured": false,
       "updatedAt": "2026-07-07"
     },
@@ -1376,7 +1735,7 @@
       ],
       "version": "0.1.0",
       "packageUrl": "https://raw.githubusercontent.com/maans/Plan/main/plan-library/skabeloner/sydvest-linjehold/forloeb.json",
-      "sizeBytes": 16428,
+      "sizeBytes": 23763,
       "featured": false,
       "updatedAt": "2026-07-07"
     }

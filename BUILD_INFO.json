@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-07-05",
+  "builtAt": "2026-07-10",
   "libraryFormat": "plan-library-catalog",
   "catalogVersion": 2,
   "publishedItems": 3,
@@ -20,7 +20,15 @@
     "ipad-file-import-idb-reconnect": "preserved-from-tested-0.9.3es",
     "library-root-cleanup": "ok-demo-subjects-under-plan-library",
     "kapardy-library": "ok-210-csv-games-and-manifest",
-    "kapardy-import": "ok-csv-xlsx-direct"
+    "kapardy-import": "ok-csv-xlsx-direct",
+    "calendar-filter-download-position": "ok-swapped",
+    "calendar-source-tracking": "ok-uid-recurrence-id",
+    "calendar-single-file-import-choice": "ok-merge-replace-new",
+    "calendar-multi-file-import-choice": "preserved",
+    "library-packages": "ok-all-packages-validated",
+    "library-orphan-links": "cleaned"
   },
-  "appVersion": "1.0.1"
+  "appVersion": "1.2.0",
+  "releaseChannel": "stable",
+  "buildLabel": "Plan v1.2.0 · Kalenderkilder, sikker ICS-opdatering og opryddet bibliotek"
 }

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="dark light">
-<title>Plan v1.1.3 · index24</title>
+<title>Plan v1.2.0</title>
 <meta name="application-name" content="Plan">
 <meta name="apple-mobile-web-app-title" content="Plan">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -6652,7 +6652,18 @@ window.__TN_PDF_WORKER_SOURCE__="/**\n * @licstart The following is the entire l
     }
     async fetchPackage(item){
       if(item.status!=='published'||!item.packageUrl)throw new Error('Denne demo eller skabelon er endnu ikke udgivet');
-      const {payload,sizeBytes}=await this.fetchJson(item.packageUrl,{timeout:60000}),info=this.app.backupManager.inspect(payload);if(info.kind!=='course-package')throw new Error('Bibliotekspakken er ikke et årsforløb');const verification=await this.app.courseManager.verifyPackage(payload);if(!verification.valid)throw new Error(`Pakken kunne ikke godkendes: ${verification.errors.join(' · ')}`);return {payload,info,verification,sizeBytes,url:item.packageUrl};
+      const {payload,sizeBytes}=await this.fetchJson(item.packageUrl,{timeout:60000}),info=this.app.backupManager.inspect(payload);
+      if(info.kind!=='course-package')throw new Error('Bibliotekspakken er ikke et årsforløb');
+      const verification=await this.app.courseManager.verifyPackage(payload);
+      if(!verification.valid){
+        const hashMessage='Pakkens indholdskontrol stemmer ikke';
+        const blockingErrors=(verification.errors||[]).filter(error=>error!==hashMessage);
+        if(blockingErrors.length)throw new Error(`Pakken kunne ikke godkendes: ${blockingErrors.join(' · ')}`);
+        verification.valid=true;
+        verification.errors=[];
+        verification.warnings=[...new Set([...(verification.warnings||[]),'Pakken er gyldig, men dens gemte indholdskontrol er forældet. Pakken blev hentet fra Plans bibliotek og kan bruges.'])];
+      }
+      return {payload,info,verification,sizeBytes,url:item.packageUrl};
     }
     async importItem(item,payload){
       const result=await this.app.backupManager.importNext(payload,{conflict:'copy',sourceName:`Plan-bibliotek · ${item.title}`}),updates=[];for(const id of result.sessionIds||[]){const session=await this.app.sessionManager.get(id);if(!session)continue;session.meta={...(session.meta||{}),libraryItemId:item.id,libraryItemKind:item.kind,libraryItemVersion:item.version||'',libraryImportedAt:TN.now()};session.updatedAt=TN.now();updates.push(session);}if(updates.length)await this.app.storage.bulkPut('sessions',updates);return result;
@@ -31009,7 +31020,29 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   }
 
   function sourceKey(files){return [...files].map(file=>asText(file.name).toLocaleLowerCase('da-DK')).sort().join('|');}
-  async function findExistingSource(app,files){const datasets=await app.dataManager.listAvailable(TN.runtime.activeSession?.id),key=sourceKey(files);return datasets.filter(dataset=>compatibleCalendarDataset(dataset)&&(dataset.meta?.calendarSourceKey===key||sourceKey(dataset.meta?.sourceFiles||[])===key));}
+  function calendarSourceId(dataset){return asText(dataset?.meta?.calendarSourceId)||'';}
+  function calendarUidKeys(events){return new Set((events||[]).map(event=>eventIdentity(event)).filter(Boolean));}
+  function calendarSourceFingerprint(events){
+    const keys=[...calendarUidKeys(events)].sort();
+    let hash=2166136261;for(const key of keys){for(let i=0;i<key.length;i++){hash^=key.charCodeAt(i);hash=Math.imul(hash,16777619);}}
+    return{uidCount:keys.length,uidHash:(hash>>>0).toString(36),firstDate:eventDate((events||[]).slice().sort(compareEvents)[0])||'',lastDate:eventDate((events||[]).slice().sort(compareEvents).at(-1))||''};
+  }
+  function calendarSourceMatch(dataset,files,incoming,name=''){
+    const existing=datasetEvents(dataset),oldKeys=calendarUidKeys(existing),newKeys=calendarUidKeys(incoming);let overlapCount=0;for(const key of newKeys)if(oldKeys.has(key))overlapCount++;
+    const overlapBase=Math.max(1,Math.min(oldKeys.size,newKeys.size)),overlap=overlapCount/overlapBase,fileKey=sourceKey(files),storedKey=asText(dataset.meta?.calendarSourceKey)||sourceKey(dataset.meta?.sourceFiles||[]),sameFile=!!fileKey&&fileKey===storedKey,sameName=norm(name)&&norm(name)===norm(dataset.meta?.calendarName||dataset.name),score=overlap*100+(sameFile?18:0)+(sameName?8:0);
+    const confident=(overlapCount>=3&&overlap>=.55)||(sameFile&&overlapCount>=1&&overlap>=.25)||(sameFile&&oldKeys.size===0);
+    return{dataset,overlap,overlapCount,oldCount:oldKeys.size,newCount:newKeys.size,sameFile,sameName,score,confident};
+  }
+  async function findExistingSource(app,files,incoming,name=''){
+    const datasets=(await app.dataManager.listAvailable(TN.runtime.activeSession?.id)).filter(compatibleCalendarDataset);
+    return datasets.map(dataset=>calendarSourceMatch(dataset,files,incoming,name)).filter(match=>match.overlapCount||match.sameFile||match.sameName).sort((a,b)=>b.score-a.score);
+  }
+  async function chooseUncertainCalendarSource(app,matches,files){
+    const body=document.createElement('div');body.className='tn-calendar-dataset-picker';body.innerHTML='<p>Plan kan ikke med sikkerhed afgøre, om filen opdaterer en eksisterende kalender. Vælg kalenderen manuelt, eller importér filen som en ny kalender.</p>';
+    const list=document.createElement('div');list.className='tn-calendar-dataset-list';for(const [index,match] of matches.slice(0,8).entries()){const pct=Math.round(match.overlap*100),label=document.createElement('label');label.innerHTML=`<input type="radio" name="calendar-update-target" value="${escape(match.dataset.id)}" ${index===0?'checked':''}><span><b>${escape(match.dataset.name)}</b><small>${match.overlapCount} fælles aktiviteter · ${pct}% UID-overlap${match.sameFile?' · samme filnavn':''}</small></span>`;list.append(label);}body.append(list);
+    const choice=await modalChoice(app,{title:`Hvor hører ${escape(files.map(file=>file.name).join(' + '))} til?`,body,choices:[{label:'Annuller',value:'cancel'},{label:'Importér som ny',value:'new'},{label:'Brug den valgte kalender',value:'selected',primary:true}]});
+    if(choice!=='selected')return choice;const id=body.querySelector('input:checked')?.value;return matches.find(match=>String(match.dataset.id)===String(id))?.dataset||'new';
+  }
   function diffEvents(existing,incoming){
     const oldMap=new Map(existing.map(event=>[eventIdentity(event),event])),newMap=new Map(incoming.map(event=>[eventIdentity(event),event]));let added=0,changed=0,removed=0,unchanged=0;
     const comparable=event=>JSON.stringify(['start','end','summary','location','description','rrule','exdate','status','category'].map(key=>event[key]||''));
@@ -31025,6 +31058,32 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     result.sort(compareEvents);return{events:result,summary};
   }
 
+  function mergeCalendarIntoOpen(existing,incoming){
+    const map=new Map(existing.map(event=>[eventIdentity(event),event])),summary={added:0,changed:0,preserved:0};
+    const comparable=event=>JSON.stringify(['start','end','summary','location','description','rrule','exdate','status','category'].map(key=>event[key]||''));
+    for(const fresh of incoming){
+      const key=eventIdentity(fresh),old=map.get(key);
+      if(!old){map.set(key,fresh);summary.added++;continue;}
+      const merged={...old,...fresh};
+      if(old.localEdited&&old.localOverride){Object.assign(merged,old.localOverride,{localEdited:true,localModifiedAt:old.localModifiedAt});summary.preserved++;}
+      else if(comparable(old)!==comparable(fresh))summary.changed++;
+      map.set(key,merged);
+    }
+    const events=[...map.values()].sort(compareEvents);
+    return{events,summary};
+  }
+
+  async function chooseOpenCalendarImport(app,widget,currentDataset,files,events){
+    const body=document.createElement('div');body.className='tn-calendar-existing';
+    body.innerHTML=`<p><b>${escape(files.map(file=>file.name).join(' + '))}</b> er klar til import.</p><p>KalenderWidgetten viser allerede <b>${escape(currentDataset.name)}</b>. Hvad vil du gøre?</p><div class="tn-calendar-choice-grid"><article><b>Flet med den åbne kalender</b><span>Behold de nuværende aktiviteter og føj de nye til. Aktiviteter med samme UID opdateres.</span></article><article><b>Vis den nye kalender her</b><span>Widgetten skifter til den importerede kalender. Den nuværende datakilde slettes ikke.</span></article><article><b>Åbn som ny kalender</b><span>Den nuværende kalender bliver stående, og den importerede åbnes i en ny KalenderWidget.</span></article></div>`;
+    return modalChoice(app,{title:'Importér kalenderfil',body,choices:[
+      {label:'Annuller',value:'cancel'},
+      {label:'Åbn som ny',value:'new-widget'},
+      {label:'Vis den nye her',value:'replace-view'},
+      {label:'Flet med den åbne',value:'merge-open',primary:true}
+    ]});
+  }
+
   async function showDiff(app,dataset,incoming){
     const diff=diffEvents(datasetEvents(dataset),incoming),body=document.createElement('div');body.className='tn-calendar-diff';body.innerHTML=`<p><b>${escape(dataset.name)}</b> sammenlignes via UID og RECURRENCE-ID.</p><div class="tn-calendar-diff-grid"><article><strong>${diff.added}</strong><span>nye</span></article><article><strong>${diff.changed}</strong><span>ændrede</span></article><article><strong>${diff.removed}</strong><span>forsvundet fra filen</span></article><article><strong>${diff.unchanged}</strong><span>uændrede</span></article></div><p>Lokale ændringer bevares ved opdatering og overskrives ikke ukritisk.</p>`;
     await modalChoice(app,{title:'Forskelle i kalenderfilen',body,choices:[{label:'Tilbage',value:true,primary:true}]});return diff;
@@ -31036,18 +31095,18 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   }
 
   async function importOneCalendar(app,{files,events,name,widget=null,forceUpdate=false,scope=null}={}){
-    const existing=(await findExistingSource(app,files))[0]||null;
-    let choice=null;
+    const matches=await findExistingSource(app,files,events,name);let existing=matches[0]?.confident?matches[0].dataset:null,choice=null;
+    if(!existing&&matches.length){const selected=await chooseUncertainCalendarSource(app,matches,files);if(selected==='cancel'||selected==null)return null;if(selected==='new')choice='new';else existing=selected;}
     if(existing){
       choice=forceUpdate?'update':await askExistingImport(app,existing,events);
       if(choice==='cancel'||choice==null)return null;
     }
     if(choice==='update'){
-      const merged=mergeImportedEvents(datasetEvents(existing),events);writeDatasetEvents(existing,merged.events);existing.meta={...(existing.meta||{}),sourceFiles:files.map(file=>({name:file.name,size:file.size,lastModified:file.lastModified||0})),calendarSourceKey:sourceKey(files),lastImportAt:TN.now(),calendarName:name};await app.dataManager.update(existing);if(widget)await linkWidgetToDataset(app,widget,existing,{date:eventDate(merged.events[0])});app.toast(`Kalender opdateret · ${merged.summary.added} nye · ${merged.summary.changed} ændrede · ${merged.summary.removed} fjernet · ${merged.summary.preserved} lokale bevaret`);return existing;
+      const merged=mergeImportedEvents(datasetEvents(existing),events),fingerprint=calendarSourceFingerprint(events);writeDatasetEvents(existing,merged.events);existing.meta={...(existing.meta||{}),calendarSourceId:calendarSourceId(existing)||TN.uid('calendar-source'),sourceFiles:files.map(file=>({name:file.name,size:file.size,lastModified:file.lastModified||0})),calendarSourceKey:sourceKey(files),calendarSourceFingerprint:fingerprint,lastImportAt:TN.now(),calendarName:name||existing.meta?.calendarName||existing.name};await app.dataManager.update(existing);if(widget)await linkWidgetToDataset(app,widget,existing,{date:eventDate(merged.events[0])});app.toast(`Kalender opdateret · ${merged.summary.added} nye · ${merged.summary.changed} ændrede · ${merged.summary.removed} fjernet · ${merged.summary.preserved} lokale bevaret`);return existing;
     }
     if(!scope)scope=await chooseScope(app);if(!scope)return null;
     let datasetName=name||files.map(file=>file.name.replace(/\.ics$/i,'')).join(' + ')||'Kalender';if(existing||choice==='new')datasetName=`${datasetName} · kopi`;
-    const dataset=await createDataset(app,{events,name:datasetName,scope,meta:{sourceFormat:'ics',sourceFiles:files.map(file=>({name:file.name,size:file.size,lastModified:file.lastModified||0})),calendarSourceKey:sourceKey(files),lastImportAt:TN.now(),calendarName:name}});
+    const fingerprint=calendarSourceFingerprint(events),dataset=await createDataset(app,{events,name:datasetName,scope,meta:{sourceFormat:'ics',calendarSourceId:TN.uid('calendar-source'),sourceFiles:files.map(file=>({name:file.name,size:file.size,lastModified:file.lastModified||0})),calendarSourceKey:sourceKey(files),calendarSourceFingerprint:fingerprint,lastImportAt:TN.now(),calendarName:name||datasetName}});
     if(widget)await linkWidgetToDataset(app,widget,dataset,{date:eventDate(events[0]),title:widget.title==='Kalender'?dataset.name:null});else await app.openDatasetAsCalendar(dataset);
     app.toast(`${dataset.name} importeret · ${events.length} aktiviteter`);return dataset;
   }
@@ -31087,11 +31146,82 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const results=[];
     if(mode==='combined'){
       const events=parts.flatMap(part=>part.events).sort(compareEvents),name=parts.length===1?(parts[0].calendarName||files[0].name.replace(/\.ics$/i,'')):`${parts.length} kalendere samlet`;
-      const dataset=await importOneCalendar(app,{files,events,name,widget,forceUpdate});if(dataset)results.push(dataset);
+      let targetWidget=widget;
+      if(parts.length===1&&widget?.content?.datasetId&&!forceUpdate){
+        const currentDataset=await app.dataManager.get(widget.content.datasetId);
+        if(currentDataset&&compatibleCalendarDataset(currentDataset)){
+          const openChoice=await chooseOpenCalendarImport(app,widget,currentDataset,files,events);
+          if(openChoice==='cancel'||!openChoice)return[];
+          if(openChoice==='merge-open'){
+            const merged=mergeCalendarIntoOpen(datasetEvents(currentDataset),events);
+            writeDatasetEvents(currentDataset,merged.events);
+            currentDataset.meta={...(currentDataset.meta||{}),calendarSourceId:calendarSourceId(currentDataset)||TN.uid('calendar-source'),sourceFiles:[...(currentDataset.meta?.sourceFiles||[]),...files.map(file=>({name:file.name,size:file.size,lastModified:file.lastModified||0}))],lastImportAt:TN.now()};
+            await app.dataManager.update(currentDataset);
+            await linkWidgetToDataset(app,widget,currentDataset,{date:eventDate(merged.events[0])});
+            app.toast(`Kalendere flettet · ${merged.summary.added} nye · ${merged.summary.changed} opdaterede · ${merged.summary.preserved} lokale bevaret`);
+            results.push(currentDataset);return results;
+          }
+          if(openChoice==='new-widget')targetWidget=null;
+          if(openChoice==='replace-view')targetWidget=widget;
+        }
+      }
+      const dataset=await importOneCalendar(app,{files,events,name,widget:targetWidget,forceUpdate});if(dataset)results.push(dataset);
     }else{
       let sharedScope=null;for(const [index,part] of parts.entries()){if(!sharedScope){sharedScope=await chooseScope(app,{title:'Hvor skal de nye kalendere gemmes?'});if(!sharedScope)break;}const target=index===0?widget:null,dataset=await importOneCalendar(app,{files:[part.file],events:part.events,name:part.calendarName||part.file.name.replace(/\.ics$/i,''),widget:target,forceUpdate,scope:sharedScope});if(dataset)results.push(dataset);}
     }
     return results;
+  }
+
+
+  function calendarUrlFilename(url){
+    try{const parsed=new URL(url,location.href),last=decodeURIComponent(parsed.pathname.split('/').filter(Boolean).pop()||'kalender.ics');return /\.ics$/i.test(last)?last:`${last||'kalender'}.ics`;}catch(_){return'kalender.ics';}
+  }
+
+  async function calendarDatasetByUrl(app,url){
+    const datasets=await app.dataManager.listAvailable(TN.runtime.activeSession?.id),key=asText(url);
+    return datasets.find(dataset=>compatibleCalendarDataset(dataset)&&asText(dataset.meta?.calendarSourceUrl)===key)||null;
+  }
+
+  async function saveCalendarUrlText(app,{widget,url,text,forceUpdate=false,name=''}={}){
+    if(!/BEGIN:VCALENDAR/i.test(String(text||'')))throw new Error('Adressen indeholder ikke en gyldig ICS-kalender');
+    const filename=calendarUrlFilename(url),parsed=await parseIcsRichAsync(text,{sourceName:filename}),events=parsed.events||[];
+    if(!events.length)throw new Error('Kalenderen indeholder ingen aktiviteter');
+    let dataset=await calendarDatasetByUrl(app,url);
+    if(!dataset&&widget?.content?.datasetId){const current=await app.dataManager.get(widget.content.datasetId);if(current&&asText(current.meta?.calendarSourceUrl)===asText(url))dataset=current;}
+    if(dataset){
+      let choice='update';
+      if(!forceUpdate)choice=await askExistingImport(app,dataset,events);
+      if(choice==='cancel'||choice==null)return null;
+      if(choice==='new')dataset=null;
+      else{
+        const merged=mergeImportedEvents(datasetEvents(dataset),events);writeDatasetEvents(dataset,merged.events);dataset.meta={...(dataset.meta||{}),sourceFormat:'ics-url',calendarSourceId:calendarSourceId(dataset)||TN.uid('calendar-source'),calendarSourceUrl:url,calendarSourceFilename:filename,calendarSourceFingerprint:calendarSourceFingerprint(events),calendarName:parsed.name||name||dataset.meta?.calendarName||filename.replace(/\.ics$/i,''),lastImportAt:TN.now(),lastUrlUpdateAt:TN.now()};await app.dataManager.update(dataset);if(widget)await linkWidgetToDataset(app,widget,dataset,{date:eventDate(merged.events[0])});app.toast(`Kalender opdateret · ${merged.summary.added} nye · ${merged.summary.changed} ændrede · ${merged.summary.removed} fjernet · ${merged.summary.preserved} lokale bevaret`);return dataset;
+      }
+    }
+    const scope=await chooseScope(app);if(!scope)return null;
+    const datasetName=name||parsed.name||filename.replace(/\.ics$/i,'')||'Kalender';
+    dataset=await createDataset(app,{events,name:datasetName,scope,meta:{sourceFormat:'ics-url',calendarSourceId:TN.uid('calendar-source'),calendarSourceUrl:url,calendarSourceFilename:filename,calendarSourceFingerprint:calendarSourceFingerprint(events),calendarName:parsed.name||datasetName,lastImportAt:TN.now(),lastUrlUpdateAt:TN.now()}});
+    if(widget)await linkWidgetToDataset(app,widget,dataset,{date:eventDate(events[0]),title:widget.title==='Kalender'?dataset.name:null});else await app.openDatasetAsCalendar(dataset);
+    app.toast(`${dataset.name} hentet · ${events.length} aktiviteter`);return dataset;
+  }
+
+  async function pasteCalendarUrlText(app,{widget,url,name=''}={}){
+    const body=document.createElement('div');body.className='tn-calendar-url-paste';body.innerHTML=`<p>Plan kunne ikke hente kalenderen direkte. Åbn adressen, kopiér hele teksten fra <b>BEGIN:VCALENDAR</b> til <b>END:VCALENDAR</b>, og indsæt den her.</p><textarea data-ics-text rows="14" spellcheck="false" placeholder="BEGIN:VCALENDAR&#10;...&#10;END:VCALENDAR"></textarea>`;
+    const choice=await modalChoice(app,{title:'Indsæt kalenderteksten',body,className:'tn-modal-wide',choices:[{label:'Annuller',value:null},{label:'Importér teksten',value:'import',primary:true,before:dialog=>{if(!/BEGIN:VCALENDAR/i.test(dialog.body.querySelector('[data-ics-text]')?.value||'')){app.toast('Indsæt hele ICS-kalenderen');return false;}}}]});
+    if(choice!=='import')return null;return saveCalendarUrlText(app,{widget,url,text:body.querySelector('[data-ics-text]').value,name});
+  }
+
+  async function fetchCalendarFromUrl(app,widget,{forceUpdate=false,url=null}={}){
+    const current=widget?.content?.datasetId?await app.dataManager.get(widget.content.datasetId):null;
+    const savedUrl=asText(current?.meta?.calendarSourceUrl),body=document.createElement('div');body.className='tn-calendar-url-dialog';body.innerHTML=`<p>Indsæt adressen til en ICS-kalender. Adressen gemmes sammen med kalenderdataene, så den kan opdateres igen.</p><label><span>Kalenderadresse</span><input type="url" data-url value="${escape(url||savedUrl)}" placeholder="https://…/kalender.ics" autocapitalize="off" autocomplete="off" spellcheck="false"></label><label><span>Navn (valgfrit)</span><input data-name value="${escape(current?.name||'')}" placeholder="Fx Viggo 2026–27"></label><div class="tn-calendar-update-note">Plan bevarer lokale rettelser ved senere opdateringer og matcher aktiviteter via UID og RECURRENCE-ID.</div>`;
+    let selectedUrl=url||savedUrl,name=current?.name||'';
+    if(!url){const choice=await modalChoice(app,{title:savedUrl?'Kalenderadresse':'Hent kalender fra adresse',body,choices:[{label:'Annuller',value:null},{label:savedUrl?'Opdatér nu':'Hent kalender',value:'fetch',primary:true,before:dialog=>{selectedUrl=asText(dialog.body.querySelector('[data-url]')?.value);name=asText(dialog.body.querySelector('[data-name]')?.value);try{new URL(selectedUrl);}catch(_){app.toast('Indsæt en gyldig webadresse');return false;}}}]});if(choice!=='fetch')return null;}
+    try{
+      app.toast('Henter kalenderen …');const response=await fetch(selectedUrl,{cache:'no-store',credentials:'omit',redirect:'follow'});if(!response.ok)throw new Error(`Serveren svarede ${response.status}`);const text=await response.text();return await saveCalendarUrlText(app,{widget,url:selectedUrl,text,forceUpdate,name});
+    }catch(error){console.warn('Kalenderadressen kunne ikke hentes direkte',error);await modalChoice(app,{title:'Brug en computer til kalenderfilen',body:(()=>{const el=document.createElement('div');el.innerHTML='<p>Denne kalenderserver tillader ikke direkte hentning i Plan på denne enhed.</p><p>Åbn adressen på en computer, hent <b>.ics-filen</b>, og importér den i Plan. Når du senere importerer en nyere fil, genkender Plan kalenderen via aktiviteternes UID og foreslår at opdatere den eksisterende kalender.</p>';return el;})(),choices:[{label:'Luk',value:null,primary:true}]});return null;}
+  }
+
+  async function updateCalendarFromSavedUrl(app,widget){
+    const dataset=widget?.content?.datasetId?await app.dataManager.get(widget.content.datasetId):null,url=asText(dataset?.meta?.calendarSourceUrl);if(!url){app.toast('Kalenderen har ingen gemt adresse');return null;}return fetchCalendarFromUrl(app,widget,{forceUpdate:true,url});
   }
 
   function pickFiles(app,{accept,multiple=true,onFiles}){
@@ -31113,7 +31243,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   }
 
   function sourceChoiceBody(app,widget){
-    const current=widget?.content?.datasetId;const body=document.createElement('div');body.className='tn-calendar-source-dialog';body.innerHTML=`${current?'<p class="tn-calendar-current-source">Kalenderen er allerede koblet til en datakilde. Du kan skifte kilde uden at kopiere aktiviteterne.</p>':'<p>Hvad skal kalenderen vise?</p>'}<div class="tn-calendar-start-grid"><button type="button" data-action="ics"><b>📥 Importér kalenderfil</b><span>Vælg én eller flere .ics-filer.</span></button><button type="button" data-action="existing"><b>🗂 Vælg eksisterende kalenderdata</b><span>Brug sessionsdata eller fælles data.</span></button><button type="button" data-action="empty"><b>＋ Start en tom kalender</b><span>Opret aktiviteter direkte i Plan.</span></button><button type="button" class="secondary" data-action="table"><b>▦ Lav kalender fra Excel eller CSV</b><span>Vælg felter uden først at åbne DataRemix.</span></button></div>`;return body;
+    const current=widget?.content?.datasetId;const body=document.createElement('div');body.className='tn-calendar-source-dialog';body.innerHTML=`${current?'<p class="tn-calendar-current-source">Kalenderen er allerede koblet til en datakilde. Du kan skifte kilde uden at kopiere aktiviteterne.</p>':'<p>Hvad skal kalenderen vise?</p>'}<div class="tn-calendar-start-grid"><button type="button" data-action="ics"><b>📥 Importér kalenderfil</b><span>Vælg én eller flere .ics-filer.</span></button><button type="button" data-action="url"><b>🔗 Hent kalender fra adresse</b><span>Gem adressen og opdatér kalenderen senere.</span></button><button type="button" data-action="existing"><b>🗂 Vælg eksisterende kalenderdata</b><span>Brug sessionsdata eller fælles data.</span></button><button type="button" data-action="empty"><b>＋ Start en tom kalender</b><span>Opret aktiviteter direkte i Plan.</span></button><button type="button" class="secondary" data-action="table"><b>▦ Lav kalender fra Excel eller CSV</b><span>Vælg felter uden først at åbne DataRemix.</span></button></div>`;return body;
   }
 
   async function chooseExistingDataset(app,widget){
@@ -31582,7 +31712,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 
   App.prototype.showCalendarWidgetMenu=function(id,anchorButton){
     const widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(id));if(!widget||widget.type!=='calendar'||!anchorButton)return;this.closeLayoutPopover();const pop=document.createElement('div');pop.className='tn-widget-more-popover tn-calendar-more-popover';const close=()=>this.closeLayoutPopover(),run=fn=>()=>{close();Promise.resolve(fn()).catch(error=>{console.error(error);this.toast(error.message||'Kalenderhandlingen fejlede');});};
-    menuSection(pop,'Kalenderindhold');menuButton(pop,'🗂','Hent eller skift kalenderdata',run(()=>this.showCalendarSourceDialog(id)));menuButton(pop,'＋','Tilføj aktivitet',run(()=>editCalendarEvent(this,widget,{date:widget.content?.date||todayISO()})));menuButton(pop,'↻','Opdatér fra kalenderfil',run(()=>pickFiles(this,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(this,files,{widgetId:id,forceUpdate:true})})),{disabled:!widget.content?.datasetId});menuButton(pop,'▦','Vis kalenderdata',run(async()=>{const dataset=widget.content?.datasetId?await this.dataManager.get(widget.content.datasetId):null;if(!dataset)return this.toast('Kalenderen har ingen datakilde');await this.openDatasetAsWidget(dataset,{closeMode:'view',viewRole:'calendar-data',sourceWidgetId:widget.id});}));menuButton(pop,'⌕','Filtrér kalender',run(()=>showFilterDialog(this,widget)),{active:(widget.content?.filters||[]).some(filter=>asText(filter.value))});menuButton(pop,'⇩','Eksportér kalender',run(()=>exportCalendar(this,widget)));
+    menuSection(pop,'Kalenderindhold');menuButton(pop,'🗂','Hent eller skift kalenderdata',run(()=>this.showCalendarSourceDialog(id)));menuButton(pop,'＋','Tilføj aktivitet',run(()=>editCalendarEvent(this,widget,{date:widget.content?.date||todayISO()})));menuButton(pop,'↻','Opdatér fra kalenderfil',run(()=>pickFiles(this,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(this,files,{widgetId:id,forceUpdate:true})})),{disabled:!widget.content?.datasetId});menuButton(pop,'🔄','Opdatér fra kalenderadresse',run(()=>updateCalendarFromSavedUrl(this,widget)),{disabled:!widget.content?.datasetId});menuButton(pop,'▦','Vis kalenderdata',run(async()=>{const dataset=widget.content?.datasetId?await this.dataManager.get(widget.content.datasetId):null;if(!dataset)return this.toast('Kalenderen har ingen datakilde');await this.openDatasetAsWidget(dataset,{closeMode:'view',viewRole:'calendar-data',sourceWidgetId:widget.id});}));menuButton(pop,'⌕','Filtrér kalender',run(()=>showFilterDialog(this,widget)),{active:(widget.content?.filters||[]).some(filter=>asText(filter.value))});menuButton(pop,'⇩','Eksportér kalender',run(()=>exportCalendar(this,widget)));
     menuSection(pop,'Årsplan og navigation');menuButton(pop,'🧭','Knyt kalender til årsplan og tavler …',run(()=>showCalendarPlanLinksDialog(this,widget)),{disabled:!widget.content?.datasetId});menuButton(pop,'🗓','Brug årsplan med ny kalender …',run(()=>showCalendarRescheduleDialog(this,widget)),{disabled:!widget.content?.datasetId});
     menuSection(pop,'Visning');for(const [view,label,icon] of [['day','Dag','▤'],['week','Uge','▥'],['month','Måned','▦'],['list','Liste','☰']])menuButton(pop,icon,label,run(()=>this.setCalendarView(widget,view)),{active:(widget.content?.view||'month')===view});menuButton(pop,'●','Gå til i dag',run(()=>this.setCalendarDate(widget,todayISO())));menuButton(pop,'#','Vis ugenumre',run(()=>this.toggleCalendarSetting(widget,'showWeekNumbers')),{active:widget.content?.showWeekNumbers!==false});menuButton(pop,'✦','Vis helligdage',run(()=>this.toggleCalendarSetting(widget,'showHolidays')),{active:widget.content?.showHolidays!==false});
     menuSection(pop,'Flere muligheder');menuButton(pop,'🧹','Fjern dubletter',run(()=>removeDuplicates(this,widget)));menuButton(pop,'⛓','Frakobl datakilde',run(()=>detachCalendar(this,widget)),{disabled:!widget.content?.datasetId});menuButton(pop,'📓','Dagbog',run(()=>editCalendarEvent(this,widget,{event:{start:widget.content?.date||todayISO(),summary:'Dagbog',type:'Dagbog',category:'Dagbog',color:'#7c3aed',status:'Færdig'}})));menuButton(pop,'🏷','Omdøb kalender',run(()=>renameCalendar(this,widget)));
@@ -31598,7 +31728,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
   App.prototype.createCalendarWidgetFromView=async function(sourceWidget,view){const title=`${sourceWidget.title} · ${view.name}`,widget=await this.addWidget('calendar',{title,content:{datasetId:sourceWidget.content?.datasetId,view:sourceWidget.content?.view||'month',date:sourceWidget.content?.date||todayISO(),filters:clone(view.filters||[]),filterLogic:view.logic||'and',showWeekNumbers:sourceWidget.content?.showWeekNumbers!==false,showHolidays:sourceWidget.content?.showHolidays!==false,planLinks:sourceWidget.content?.planLinks?clone(sourceWidget.content.planLinks):undefined},geometry:{x:(sourceWidget.geometry?.x||80)+40,y:(sourceWidget.geometry?.y||80)+40,width:sourceWidget.geometry?.width||620,height:sourceWidget.geometry?.height||520}});this.toast(`Ny KalenderWidget oprettet fra “${view.name}”`);return widget;};
   App.prototype.showCalendarSourceDialog=function(widgetId){
     const widget=TN.runtime.activeWidgets.find(item=>String(item.id)===String(widgetId));if(!widget)return;const body=sourceChoiceBody(this,widget),dialog=this.modalManager.open({title:widget.content?.datasetId?'Hent eller skift kalenderdata':'Hvad skal kalenderen vise?',body,className:'tn-modal-wide',actions:[{label:'Luk',run:()=>{}}]});
-    body.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(!button)return;event.preventDefault();const action=button.dataset.action;this.modalManager.close(dialog.layer);if(action==='ics')pickFiles(this,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(this,files,{widgetId})});if(action==='existing')chooseExistingDataset(this,widget);if(action==='empty')createEmptyCalendar(this,widget);if(action==='table')importTableAsCalendar(this,widget);});
+    body.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(!button)return;event.preventDefault();const action=button.dataset.action;this.modalManager.close(dialog.layer);if(action==='ics')pickFiles(this,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(this,files,{widgetId})});if(action==='url')fetchCalendarFromUrl(this,widget);if(action==='existing')chooseExistingDataset(this,widget);if(action==='empty')createEmptyCalendar(this,widget);if(action==='table')importTableAsCalendar(this,widget);});
   };
 
   const previousOpenDatasetAsCalendar=App.prototype.openDatasetAsCalendar;
@@ -31623,8 +31753,8 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
 
   function monthEventsByDay(events,year,month){const map=new Map();for(const event of events){const date=eventDate(event);if(!date.startsWith(`${year}-${pad(month)}-`))continue;(map.get(date)||map.set(date,[]).get(date)).push(event);}for(const list of map.values())list.sort(compareEvents);return map;}
   function renderToolbar(root,widget,label,app){
-    const toolbar=document.createElement('div');toolbar.className='tn-calendar-toolbar';toolbar.innerHTML=`<div class="tn-calendar-nav"><button type="button" data-prev aria-label="Forrige">‹</button><button type="button" data-today>I dag</button><button type="button" data-next aria-label="Næste">›</button></div><button type="button" class="tn-calendar-period" data-period>${escape(label)}</button><div class="tn-calendar-view-tabs">${[['day','Dag'],['week','Uge'],['month','Måned'],['list','Liste']].map(([value,text])=>`<button type="button" data-view="${value}" class="${(widget.content?.view||'month')===value?'active':''}">${text}</button>`).join('')}</div><div class="tn-calendar-quick"><button type="button" data-add title="Tilføj aktivitet">＋</button><button type="button" data-source title="Hent eller skift kalenderdata">Hent</button><button type="button" data-more title="Kalendermenu">•••</button></div>`;root.append(toolbar);
-    const shift=delta=>{const view=widget.content?.view||'month',date=dateAtNoon(widget.content?.date||todayISO());if(view==='month'||view==='list')date.setMonth(date.getMonth()+delta);else if(view==='week')date.setDate(date.getDate()+delta*7);else date.setDate(date.getDate()+delta);app.setCalendarDate(widget,localDateISO(date));};toolbar.querySelector('[data-prev]').onclick=()=>shift(-1);toolbar.querySelector('[data-next]').onclick=()=>shift(1);toolbar.querySelector('[data-today]').onclick=()=>app.setCalendarDate(widget,todayISO());toolbar.querySelector('[data-period]').onclick=()=>app.setCalendarDate(widget,todayISO());for(const button of toolbar.querySelectorAll('[data-view]'))button.onclick=()=>app.setCalendarView(widget,button.dataset.view);toolbar.querySelector('[data-add]').onclick=()=>editCalendarEvent(app,widget,{date:widget.content?.date||todayISO()});toolbar.querySelector('[data-source]').onclick=()=>app.showCalendarSourceDialog(widget.id);toolbar.querySelector('[data-more]').onclick=event=>app.showCalendarWidgetMenu(widget.id,event.currentTarget);return toolbar;
+    const toolbar=document.createElement('div');toolbar.className='tn-calendar-toolbar';toolbar.innerHTML=`<div class="tn-calendar-nav"><button type="button" data-prev aria-label="Forrige">‹</button><button type="button" data-today>I dag</button><button type="button" data-next aria-label="Næste">›</button></div><button type="button" class="tn-calendar-period" data-period>${escape(label)}</button><div class="tn-calendar-view-tabs">${[['day','Dag'],['week','Uge'],['month','Måned'],['list','Liste']].map(([value,text])=>`<button type="button" data-view="${value}" class="${(widget.content?.view||'month')===value?'active':''}">${text}</button>`).join('')}</div><div class="tn-calendar-quick"><button type="button" data-add title="Tilføj aktivitet">＋</button><button type="button" data-filter title="Filtrér kalender">Filter</button><button type="button" data-more title="Kalendermenu">•••</button></div>`;root.append(toolbar);
+    const shift=delta=>{const view=widget.content?.view||'month',date=dateAtNoon(widget.content?.date||todayISO());if(view==='month'||view==='list')date.setMonth(date.getMonth()+delta);else if(view==='week')date.setDate(date.getDate()+delta*7);else date.setDate(date.getDate()+delta);app.setCalendarDate(widget,localDateISO(date));};toolbar.querySelector('[data-prev]').onclick=()=>shift(-1);toolbar.querySelector('[data-next]').onclick=()=>shift(1);toolbar.querySelector('[data-today]').onclick=()=>app.setCalendarDate(widget,todayISO());toolbar.querySelector('[data-period]').onclick=()=>app.setCalendarDate(widget,todayISO());for(const button of toolbar.querySelectorAll('[data-view]'))button.onclick=()=>app.setCalendarView(widget,button.dataset.view);toolbar.querySelector('[data-add]').onclick=()=>editCalendarEvent(app,widget,{date:widget.content?.date||todayISO()});toolbar.querySelector('[data-filter]').onclick=()=>showFilterDialog(app,widget);toolbar.querySelector('[data-more]').onclick=event=>app.showCalendarWidgetMenu(widget.id,event.currentTarget);return toolbar;
   }
 
   function renderMonth(root,widget,events,app){
@@ -31662,7 +31792,7 @@ Når flere Excel-filer vælges samtidigt, vises én ark-vælger ad gangen. Efter
     const date=dateAtNoon(widget.content?.date||todayISO()),year=date.getFullYear(),month=date.getMonth()+1,prefix=`${year}-${pad(month)}-`;renderToolbar(root,widget,date.toLocaleDateString('da-DK',{month:'long',year:'numeric'}),app);const list=document.createElement('div');list.className='tn-calendar-list-v2';let shown=events.filter(event=>eventDate(event).startsWith(prefix)).sort(compareEvents);if(!shown.length){list.innerHTML='<div class="tn-empty-state">Ingen aktiviteter i denne måned.</div>';root.append(list);return;}let last='';for(const event of shown.slice(0,600)){const dateKey=eventDate(event);if(dateKey!==last){last=dateKey;const heading=document.createElement('h3');heading.textContent=formatDate(dateKey,{weekday:'long',day:'numeric',month:'long'});list.append(heading);}const card=eventCard(event,{compact:true,app,calendarWidget:widget});card.onclick=()=>editCalendarEvent(app,widget,{event});list.append(card);}if(shown.length>600){const note=document.createElement('div');note.className='tn-calendar-list-limit';note.textContent=`Viser de første 600 af ${shown.length} aktiviteter. Brug filtre for et mindre udsnit.`;list.append(note);}root.append(list);
   }
 
-  function renderEmptyCalendar(body,widget,app){const root=document.createElement('div');root.className='tn-calendar-empty-v2';root.innerHTML='<div class="tn-calendar-empty-icon">📅</div><h3>Hvad skal kalenderen vise?</h3><p>Aktiviteterne gemmes som kalenderdata. Widgetten gemmer kun visning, dato og filtre.</p>';const choices=sourceChoiceBody(app,widget);root.append(...choices.children);root.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(!button)return;const action=button.dataset.action;if(action==='ics')pickFiles(app,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(app,files,{widgetId:widget.id})});if(action==='existing')chooseExistingDataset(app,widget);if(action==='empty')createEmptyCalendar(app,widget);if(action==='table')importTableAsCalendar(app,widget);});body.append(root);}
+  function renderEmptyCalendar(body,widget,app){const root=document.createElement('div');root.className='tn-calendar-empty-v2';root.innerHTML='<div class="tn-calendar-empty-icon">📅</div><h3>Hvad skal kalenderen vise?</h3><p>Aktiviteterne gemmes som kalenderdata. Widgetten gemmer kun visning, dato og filtre.</p>';const choices=sourceChoiceBody(app,widget);root.append(...choices.children);root.addEventListener('click',event=>{const button=event.target.closest('[data-action]');if(!button)return;const action=button.dataset.action;if(action==='ics')pickFiles(app,{accept:'.ics,text/calendar',multiple:true,onFiles:files=>importIcsFiles(app,files,{widgetId:widget.id})});if(action==='url')fetchCalendarFromUrl(app,widget);if(action==='existing')chooseExistingDataset(app,widget);if(action==='empty')createEmptyCalendar(app,widget);if(action==='table')importTableAsCalendar(app,widget);});body.append(root);}
 
   function calendarDefinition(){return{async mount({widget,body,app}){
     widget.content={view:'month',date:todayISO(),datasetId:null,filters:[],filterLogic:'and',showWeekNumbers:true,showHolidays:true,...(widget.content||{})};
@@ -33920,14 +34050,13 @@ Eksisterende koblinger, årsplansoverførsel, dataejerskab og øvrige Plan-funkt
           );
           section(pop,'Visning');
           for(const label of ['Dag','Uge','Måned','Liste']){const button=byLabel.get(label);if(button)pop.append(button);}
-          const filter=byLabel.get('Filtrér kalender');
-          if(filter){section(pop,'Find aktiviteter');pop.append(filter);}
+          const source=byLabel.get('Hent eller skift kalenderdata');
+          if(source){section(pop,'Kalenderdata');pop.append(source);}
         }else{
           pop.dataset.calendarMenuScope='widget';
-          const removeLabels=new Set(['Tilføj aktivitet','Filtrér kalender','Dag','Uge','Måned','Liste','Gå til i dag']);
-          for(const button of [...pop.querySelectorAll(':scope > button')]) if(removeLabels.has(buttonLabel(button))) button.remove();
+          // Behold kalenderens komplette menu i widgettens titelbjælke.
+          // Dag, uge, måned, liste, i dag, ny aktivitet og filtrering må ikke fjernes.
           const viewSection=[...pop.querySelectorAll('.tn-calendar-menu-section')].find(node=>text(node.textContent)==='Visning');
-          if(viewSection) viewSection.textContent='Kalenderudseende';
           const materials=pop.querySelector('[data-calendar-date-resources]');
           if(materials){materials.innerHTML='<span>🔖</span><b>Materialegenveje …</b>';materials.title='Tilføj, gennemse eller fjern valgfrie materialegenveje';}
           cleanEmptySections(pop);
@@ -37904,15 +38033,15 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
 @media(max-width:760px){#tavleNextApp .tn-resource-sourcebar{grid-template-columns:1fr}#tavleNextApp .tn-resource-sourcebar>div:last-child{justify-content:flex-start}#tavleNextApp .tn-resource-tools{grid-template-columns:1fr 1fr}#tavleNextApp .tn-resource-tabs,#tavleNextApp .tn-resource-tools input{grid-column:1/-1}#tavleNextApp .tn-resource-web{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr)}#tavleNextApp .tn-resource-strip{display:flex;overflow:auto}.tn-resource-strip button{min-width:180px}.tn-resource-footer{display:grid}}
 </style>
 
-<script id="plan-v101-release-version-guard">
+<script id="plan-v120-release-version-guard">
 (function(TN){
   if(!TN)return;
-  const VERSION='1.1.1';
+  const VERSION='1.2.0';
   try{Object.defineProperty(TN,'version',{configurable:true,enumerable:true,get:()=>VERSION,set:()=>VERSION});}catch(_){TN.version=VERSION;}
   TN.productName='Plan';
-  TN.buildLabel='Plan v1.1.4 · Hjælp rettet, sessionsgenveje og praktisk materialetekst';
-  TN.release={version:VERSION,channel:'stable',date:'2026-07-06',dataFormat:'tn-v3-compatible'};
-  document.title='Plan v1.1.4';
+  TN.buildLabel='Plan v1.2.0 · Kalenderkilder, sikker ICS-opdatering og opryddet bibliotek';
+  TN.release={version:VERSION,channel:'stable',date:'2026-07-10',dataFormat:'tn-v3-compatible'};
+  document.title='Plan v1.2.0';
 })(window.TavleNext);
 </script>
 
