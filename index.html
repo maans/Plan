@@ -34690,6 +34690,11 @@ html[data-plan-embed="true"] #tnGlobalCalendarButton{height:34px;width:38px;min-
 }
 .tn-global-calendar-related-chip.group{border-color:color-mix(in srgb,#a855f7 42%,var(--tn-line));background:color-mix(in srgb,#a855f7 10%,var(--tn-panel2))}
 .tn-global-calendar-event-actions button.linked{border-color:#22c55e;background:color-mix(in srgb,#22c55e 13%,var(--tn-panel2));color:var(--tn-ink);cursor:default}
+.tn-global-calendar-event-actions button.unlink{border-color:#ef444477;background:color-mix(in srgb,#ef4444 12%,var(--tn-panel2));color:#fecaca}
+.tn-global-calendar-event-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:7px}
+.tn-global-calendar-event-links a{display:inline-flex;align-items:center;min-height:34px;padding:6px 10px;border:1px solid #60a5fa77;border-radius:9px;background:color-mix(in srgb,#2563eb 13%,var(--tn-panel2));color:#bfdbfe;font-weight:850;text-decoration:none;overflow-wrap:anywhere}
+.tn-global-calendar-event-links a:hover{text-decoration:underline;border-color:#60a5fa}
+
 .tn-global-calendar-event-actions button.soft{background:transparent}
 .tn-global-calendar-target-choice button.current{border-color:#22c55e;box-shadow:inset 0 0 0 1px color-mix(in srgb,#22c55e 38%,transparent)}
 .tn-calendar-board-flow-form{display:grid;gap:12px;min-width:min(520px,84vw)}
@@ -34867,10 +34872,13 @@ html[data-plan-embed="true"] #tnGlobalCalendarButton{height:34px;width:38px;min-
     eventCard(event){
       const article=document.createElement('article'),targets=this.targetRows(event),description=String(event?.description||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim(),currentId=String(this.TN.runtime.activeBoard?.id||''),currentLinked=targets.some(row=>String(row.target?.boardId||'')===currentId),boardTargets=targets.filter(row=>row.target?.boardId),subject=this.relatedDatasets.get(String(event?._subjectGroupId||'')),groupSet=this.relatedDatasets.get(String(event?._groupSetId||'')),autoExpandBoards=(this.view==='day'||this.view==='list')&&boardTargets.length>0&&boardTargets.length<=5;
       article.className=`tn-global-calendar-event${norm(event?.status)==='aflyst'?' cancelled':''}${this.contextEventKey&&this.cal.eventIdentity(event)===this.contextEventKey?' context':''}`;article.style.setProperty('--event-color',/^#[0-9a-f]{6}$/i.test(String(event?.color||''))?event.color:'#3b82f6');article.innerHTML=`<div class="tn-global-calendar-event-time">${escape(eventTime(event))}</div><div class="tn-global-calendar-event-main"><b>${escape(this.displayTitle(event))}</b><small>${escape(this.contextText(event))}</small>${description?`<p>${escape(description)}</p>`:''}</div>`;
+      const urlValues=[event?.url,event?.URL,event?.htmlLink,event?.conferenceUrl,event?.meetingUrl,event?.description,event?.location].flatMap(value=>String(value||'').match(/https?:\/\/[^\s<>"']+/gi)||[]).map(value=>value.replace(/[),.;]+$/,''));
+      const uniqueUrls=[...new Set(urlValues)];
+      if(uniqueUrls.length){const linkRow=document.createElement('div');linkRow.className='tn-global-calendar-event-links';for(const [index,url] of uniqueUrls.entries()){const anchor=document.createElement('a');anchor.href=url;anchor.target='_blank';anchor.rel='noopener noreferrer external';anchor.textContent=uniqueUrls.length===1?'Åbn eksternt link':`Åbn eksternt link ${index+1}`;anchor.onclick=click=>click.stopPropagation();linkRow.append(anchor);}article.querySelector('.tn-global-calendar-event-main')?.append(linkRow);}
       if(subject||groupSet){const related=document.createElement('div');related.className='tn-global-calendar-event-related';if(subject){const chip=document.createElement('button');chip.type='button';chip.className='tn-global-calendar-related-chip';chip.title=subject.name;chip.textContent=`👥 ${subject.name} · ${subject.rows?.length||0}`;chip.onclick=()=>this.openSubjectGroup(event);related.append(chip);}if(groupSet){const chip=document.createElement('button');chip.type='button';chip.className='tn-global-calendar-related-chip group';chip.title=groupSet.name;chip.textContent=`◉ ${groupSet.name} · ${countGroupSet(groupSet)} grupper`;chip.onclick=()=>this.openGroupSet(event);related.append(chip);}article.append(related);}
       const actions=document.createElement('div');actions.className='tn-global-calendar-event-actions';const add=(label,handler,className='')=>{const button=document.createElement('button');button.type='button';button.className=className;button.textContent=label;button.onclick=eventClick=>{eventClick.preventDefault();eventClick.stopPropagation();Promise.resolve(handler()).catch(error=>{console.error(error);this.app.toast(error.message||'Kalenderhandlingen fejlede');});};actions.append(button);return button;};
       let targetButton=null,visibleTargets=targets;if(targets.length){const primary=targets.find(row=>row.primary)||targets[0];if(boardTargets.length){visibleTargets=boardTargets;targetButton=add(boardTargets.length===1?'1 tavle':`${boardTargets.length} tavler`,()=>{const existing=article.querySelector('.tn-global-calendar-target-choice');if(existing){existing.remove();targetButton.setAttribute('aria-expanded','false');targetButton.title='Vis tilknyttede tavler';return;}this.showTargets(article,visibleTargets);targetButton.setAttribute('aria-expanded','true');targetButton.title='Skjul tilknyttede tavler';},'primary');targetButton.setAttribute('aria-expanded','false');targetButton.title='Vis tilknyttede tavler';}else add('Åbn session',()=>this.navigateTo(primary),'primary');}
-      if(currentLinked)add('✓ Aktuel tavle',()=>{},'linked');else add('Knyt aktuel tavle',()=>this.linkCurrentBoard(event),'soft');add('＋ Ny tavle',()=>this.createBoardForEvent(event),'soft');add(subject?'Skift faghold':'Knyt faghold',()=>this.chooseSubjectGroup(event),'soft');if(!groupSet)add('Knyt grupper',()=>this.chooseGroupSet(event),'soft');article.append(actions);
+      if(currentLinked)add('Fjern kobling',()=>this.unlinkCurrentBoard(event),'unlink');else add('Knyt aktuel tavle',()=>this.linkCurrentBoard(event),'soft');add('＋ Ny tavle',()=>this.createBoardForEvent(event),'soft');add(subject?'Skift faghold':'Knyt faghold',()=>this.chooseSubjectGroup(event),'soft');if(!groupSet)add('Knyt grupper',()=>this.chooseGroupSet(event),'soft');article.append(actions);
       if(autoExpandBoards&&targetButton){this.showTargets(article,visibleTargets);targetButton.setAttribute('aria-expanded','true');targetButton.title='Skjul tilknyttede tavler';}return article;
     }
     async linkCurrentBoard(event){
@@ -34879,6 +34887,21 @@ html[data-plan-embed="true"] #tnGlobalCalendarButton{height:34px;width:38px;min-
       if(typeof owner.addBoardToCalendarEvent!=='function')throw new Error('Kalenderens tavlekobling er ikke klar');
       await owner.addBoardToCalendarEvent(this.app,this.dataset,event,board);
       this.app.toast('Den aktuelle tavle er knyttet til aktiviteten');
+    }
+    async unlinkCurrentBoard(event){
+      const board=this.TN.runtime.activeBoard;
+      if(!board)return this.app.toast('Der er ingen aktiv tavle');
+      const widget={id:'global-calendar-panel',boardId:board.id,content:{datasetId:this.dataset.id}};
+      const relation=await this.cal.findPlanLinksDataset?.(this.app,widget,this.dataset,{fresh:true});
+      if(!relation)return this.app.toast('Tavlen er ikke knyttet til aktiviteten');
+      const sourceId=String(this.dataset.id),eventKey=this.cal.eventIdentity(event),boardId=String(board.id),rows=Array.isArray(relation.rows)?relation.rows:[],next=rows.filter(row=>!(String(row?.source?.datasetId||'')===sourceId&&String(row?.source?.eventKey||'')===String(eventKey)&&String(row?.target?.boardId||'')===boardId));
+      if(next.length===rows.length)return this.app.toast('Tavlen er ikke knyttet til aktiviteten');
+      relation.rows=next;
+      relation.meta={...(relation.meta||{}),linkCount:next.length,planPointCount:new Set(next.map(row=>row?.planPoint?.id).filter(Boolean)).size,lastEditedAt:this.TN.now()};
+      await this.app.dataManager.update(relation);
+      await this.cal.attachPlanLinksToCourseWidgets?.(this.app,widget,this.dataset,relation);
+      await this.reload({fresh:true,keepContext:true});
+      this.app.toast('Koblingen til den aktuelle tavle er fjernet');
     }
     async createBoardForEvent(event){
       const targets=this.targetRows(event),suggested=targets.length?`${this.displayTitle(event)} · ${targets.filter(row=>row.target?.boardId).length+1}`:this.displayTitle(event),title=prompt('Titel på den nye tavle',suggested||'Ny tavle');
@@ -36409,7 +36432,7 @@ kompatible datasæt. Ingen kalenderdata migreres eller ændres ved almindelig vi
         <li><b>Klokkeslæt</b> kommer fra den importerede kalender. Et ældre forløb uden tider får først tider, når det kobles til den nye kalender.</li>
         <li><b>Tomme datoer</b> er klappet sammen. Vælg Knyt aktuel tavle for at give datoen en titel og eventuelt et tidspunkt.</li>
         <li>Kalenderpanelet lukker, mens du udfylder forbindelsen, og vender bagefter tilbage til samme dato og visning.</li>
-        <li>På en eksisterende aktivitet kan du vælge <b>Knyt aktuel tavle</b> eller <b>Ny tavle</b>.</li>
+        <li>På en eksisterende aktivitet kan du vælge <b>Knyt aktuel tavle</b> eller <b>Ny tavle</b>. Er den aktuelle tavle allerede knyttet, vises <b>Fjern kobling</b>.</li>
         <li>En ny tavle oprettes efter den aktive tavle og bliver en fortsættelse af samme dato og aktivitet.</li>
         <li>En aktivitet kan have flere tavler. I Dag og Liste er 1–5 tavler foldet ud fra start; ved flere end fem åbner du listen efter behov.</li>
         <li>Et tilknyttet <b>faghold</b> vises på aktiviteten og kan åbnes med Arbejd med holdet.</li>
@@ -40224,7 +40247,29 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
       const payload=await this.backupManager.exportNext(course.sessionIds,{includeMedia:true,kind:'course-reuse'}),result=await this.backupManager.importNext(payload,{conflict:'copy',sourceName:`Genbrug af ${course.title}`});
       const newIds=result.sessionIds||[],newCourseId=`course_reuse_${Date.now().toString(36)}`,calendarDatasetId=datasetSelect.value,eventByKey=new Map(events.map(event=>[eventKey(api,event),event]));
       const updates=[];for(let index=0;index<newIds.length;index++){const session=await this.sessionManager.get(newIds[index]),source=course.sessions[index];if(!session)continue;const matchedKey=matches.get(String(source?.id||'')),event=eventByKey.get(matchedKey);session.title=source?.title||session.title;session.meta={...(session.meta||{}),courseId:newCourseId,courseTitle:title,courseSubject:course.subject||'',courseSchoolYear:schoolYear,courseOrder:index+1,courseSessionIds:[...newIds],courseSequenceVersion:this.courseManager.sequenceVersion,courseSequenceSource:'calendar-reuse',reusedFromCourseId:course.id||course.key||'',reusedFromSessionId:source?.id||'',plannedDate:eventDate(event)||'',calendarDatasetId:event?calendarDatasetId:'',calendarEventKey:event?matchedKey:'',calendarEventTitle:event?.summary||''};session.updatedAt=TN.now();updates.push(session);}
-      if(updates.length)await this.storage.bulkPut('sessions',updates);updates.forEach(session=>this.sessionManager.updateRegistry(session.id,session.title));this.modalManager.closeAll();this.toast(`${title} oprettet · ${matches.size} sessioner matchet`);if(newIds[0])await this.openSession(newIds[0]);return false;
+      if(updates.length)await this.storage.bulkPut('sessions',updates);updates.forEach(session=>this.sessionManager.updateRegistry(session.id,session.title));
+      let linkedBoards=0;
+      const calendarDataset=await this.dataManager.get(calendarDatasetId);
+      if(calendarDataset&&newIds.length){
+        const boardsBySession=new Map();
+        for(const sessionId of newIds){const boards=(await this.storage.getAllByIndex('boards','sessionId',sessionId)).sort((a,b)=>Number(a.order||0)-Number(b.order||0));boardsBySession.set(String(sessionId),boards);}
+        const firstBoard=[...boardsBySession.values()].flat()[0];
+        if(firstBoard){
+          const relationWidget={id:`course-reuse-${newCourseId}`,boardId:firstBoard.id,content:{datasetId:calendarDatasetId}};
+          const relation=await api.ensurePlanLinksDataset(this,relationWidget,calendarDataset),rows=Array.isArray(relation.rows)?relation.rows.filter(row=>row&&typeof row==='object'&&!Array.isArray(row)):[],now=TN.now();
+          for(let index=0;index<newIds.length;index++){
+            const source=course.sessions[index],matchedKey=matches.get(String(source?.id||'')),event=eventByKey.get(matchedKey);
+            if(!event)continue;
+            const boards=boardsBySession.get(String(newIds[index]))||[],planPointId=TN.uid('planpoint');
+            boards.forEach((board,boardIndex)=>{rows.push({id:TN.uid('planlink'),relationType:'calendar-plan-board',source:{datasetId:calendarDatasetId,eventKey:matchedKey},planPoint:{id:planPointId,title:event.summary||source?.title||board.title,sourceDate:eventDate(event)||'',order:index+1},target:{sessionId:newIds[index],boardId:board.id},primary:boardIndex===0,targetOrder:boardIndex,provenance:{kind:'course-reuse-match',createdAt:now,updatedAt:now,reusedFromCourseId:course.id||course.key||'',reusedFromSessionId:source?.id||''}});linkedBoards++;});
+          }
+          relation.rows=rows;
+          relation.meta={...(relation.meta||{}),linkCount:rows.length,planPointCount:new Set(rows.map(row=>row?.planPoint?.id).filter(Boolean)).size,lastEditedAt:TN.now(),lastCourseReuseAt:TN.now()};
+          await this.dataManager.update(relation);
+          await api.attachPlanLinksToCourseWidgets?.(this,relationWidget,calendarDataset,relation);
+        }
+      }
+      this.modalManager.closeAll();this.toast(`${title} oprettet · ${matches.size} sessioner matchet · ${linkedBoards} tavler knyttet`);if(newIds[0])await this.openSession(newIds[0]);return false;
     }}]});
   };
 
@@ -40232,7 +40277,7 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
   if(original)App.prototype.renderCourseCenter=async function(container,rerender){await original.call(this,container,rerender);const tools=container.querySelector('.tn-center-actions');if(tools&&!tools.querySelector('[data-course-reuse]')){const button=document.createElement('button');button.type='button';button.dataset.courseReuse='1';button.textContent='↻ Genbrug med ny kalender';button.onclick=async()=>{const course=await this.courseManager.resolve();this.openCourseCalendarReuse(course);};tools.append(button);}};
 
   const originalHelp=App.prototype.registerHelp;
-  if(originalHelp)App.prototype.registerHelp=function(...args){const result=originalHelp.apply(this,args);try{this.helpRegistry.set?.('course-reuse',{title:'Genbrug et forløb med ny kalender',summary:'Match sessioner i rækkefølge med filtrerede kalenderaktiviteter',body:'<p>Åbn <b>Datacenter → Årsforløb</b> og vælg <b>Genbrug med ny kalender</b>. Vælg kalenderdata og skriv et filter, fx Dansk. Plan viser sessionerne, antal tavler og den første tavle til venstre og kun de filtrerede kalenderaktiviteter til højre. Vælg først en dato til den øverste session; den bruges som skæringsdato, når Match automatisk fordeler resten. Vælg først datoen for den øverste session. Den bliver skæringsdato, og <b>Match automatisk</b> bruger kun aktiviteter fra denne dato og frem. Et forkert match kan fjernes med × på den enkelte række. Gem som en ny lokal kopi; det gamle forløb ændres ikke.</p>'});}catch{}return result;};
+  if(originalHelp)App.prototype.registerHelp=function(...args){const result=originalHelp.apply(this,args);try{this.helpRegistry.set?.('course-reuse',{title:'Genbrug et forløb med ny kalender',summary:'Match sessioner i rækkefølge med filtrerede kalenderaktiviteter',body:'<p>Åbn <b>Datacenter → Årsforløb</b> og vælg <b>Genbrug med ny kalender</b>. Vælg kalenderdata og skriv et filter, fx Dansk. Plan viser sessionerne, antal tavler og den første tavle til venstre og kun de filtrerede kalenderaktiviteter til højre. Vælg først en dato til den øverste session; den bruges som skæringsdato, når Match automatisk fordeler resten. Vælg først datoen for den øverste session. Den bliver skæringsdato, og <b>Match automatisk</b> bruger kun aktiviteter fra denne dato og frem. Et forkert match kan fjernes med × på den enkelte række. Når kopien oprettes, knyttes alle tavler i den matchede session reelt til kalenderaktiviteten. Gem som en ny lokal kopi; det gamle forløb ændres ikke.</p>'});}catch{}return result;};
 })(window.TavleNext);
 </script>
 
