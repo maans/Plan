@@ -1,5 +1,9 @@
 # Plan
 
+## Aktuel version
+
+**Plan v1.2.0 (Stable)** — se [CHANGELOG.md](CHANGELOG.md) for kalender- og biblioteksændringer.
+
 Plan er lærerens lokale forløbs- og tavleværktøj. Du samler undervisningsforløb, tavler, kalender, opgaver, materialereferencer, elevdata, grupper, huskekort og KaPardy ét sted.
 
 Plan er tænkt til lærere, der vil have overblik uden at miste fleksibiliteten: Du kan starte med et demoforløb eller en skabelon, tilpasse det til din klasse og gemme arbejdet som din egen lokale kopi.
