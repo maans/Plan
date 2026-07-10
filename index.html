@@ -40143,5 +40143,98 @@ relateret i kalenderen. Derudover får gruppesæt en praktisk aktivitetsoversigt
 })(window.TavleNext);
 </script>
 
+<style id="plan-course-calendar-reuse-style">
+.tn-course-reuse{display:grid;gap:12px;min-width:min(980px,94vw)}
+.tn-course-reuse-intro{padding:12px 14px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);color:var(--tn-muted);line-height:1.45}
+.tn-course-reuse-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tn-course-reuse-controls label{display:grid;gap:5px;font-weight:850}
+.tn-course-reuse-controls input,.tn-course-reuse-controls select{min-height:40px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel2);color:var(--tn-ink);padding:8px 10px}
+.tn-course-reuse-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tn-course-reuse-toolbar button{padding:9px 12px;border:1px solid var(--tn-line);border-radius:10px;background:var(--tn-panel2);color:var(--tn-ink);font-weight:850}
+.tn-course-reuse-toolbar button.primary{background:var(--tn-accent2);border-color:var(--tn-accent2);color:#fff}
+.tn-course-reuse-toolbar small{margin-left:auto;color:var(--tn-muted)}
+.tn-course-reuse-head,.tn-course-reuse-row{display:grid;grid-template-columns:minmax(0,1fr) 42px minmax(0,1fr);gap:8px;align-items:stretch}
+.tn-course-reuse-head{font-weight:950;color:var(--tn-muted);padding:0 4px}
+.tn-course-reuse-head span:nth-child(2){text-align:center}
+.tn-course-reuse-list{display:grid;gap:7px;max-height:52vh;overflow:auto;padding-right:2px}
+.tn-course-reuse-side{display:grid;gap:3px;padding:10px 12px;border:1px solid var(--tn-line);border-radius:12px;background:var(--tn-panel2);min-width:0}
+.tn-course-reuse-side strong,.tn-course-reuse-side small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tn-course-reuse-side small{color:var(--tn-muted)}
+.tn-course-reuse-session-head{display:flex;align-items:center;gap:8px;min-width:0}
+.tn-course-reuse-session-head strong{flex:1;min-width:0}
+.tn-course-reuse-count-badge{flex:0 0 auto;padding:3px 8px;border-radius:999px;background:color-mix(in srgb,var(--tn-accent) 18%,var(--tn-panel2));color:var(--tn-ink);font-size:11px;font-weight:950;white-space:nowrap}
+.tn-course-reuse-session-meta{display:flex;gap:7px;align-items:center;min-width:0}
+.tn-course-reuse-session-meta small:first-child{flex:1;min-width:0}
+.tn-course-reuse-dated{flex:0 0 auto;color:var(--tn-accent)!important;font-weight:850}
+.tn-course-reuse-arrow{display:grid;place-items:center;font-size:20px;color:var(--tn-accent);font-weight:1000}
+.tn-course-reuse-event{position:relative;padding-right:42px}
+.tn-course-reuse-event select{width:100%;min-height:40px;border:0;background:transparent;color:var(--tn-ink);font:inherit;font-weight:850;padding:0 26px 0 0}
+.tn-course-reuse-event em{font-style:normal;color:var(--tn-muted);font-size:12px}
+.tn-course-reuse-remove{position:absolute;right:8px;top:50%;translate:0 -50%;width:30px;height:30px;padding:0;border:1px solid var(--tn-line);border-radius:9px;background:var(--tn-panel);color:var(--tn-muted);font-size:20px;font-weight:900;line-height:1;display:grid;place-items:center}
+.tn-course-reuse-remove:hover{border-color:var(--tn-accent);color:var(--tn-ink)}
+.tn-course-reuse-remove[hidden]{display:none}
+.tn-course-reuse-cutoff{color:var(--tn-accent)!important;font-weight:850}
+.tn-course-reuse-empty{padding:20px;border:1px dashed var(--tn-line);border-radius:12px;text-align:center;color:var(--tn-muted)}
+@media(max-width:720px){.tn-course-reuse-controls{grid-template-columns:1fr}.tn-course-reuse-head,.tn-course-reuse-row{grid-template-columns:1fr}.tn-course-reuse-head span:nth-child(2),.tn-course-reuse-arrow{display:none}.tn-course-reuse-toolbar small{width:100%;margin-left:0}}
+</style>
+<script id="plan-course-calendar-reuse-owner">
+(function(TN){
+  'use strict';
+  const App=TN?.TavleNextApp;if(!App||App.prototype.__courseCalendarReuseV1)return;App.prototype.__courseCalendarReuseV1=true;
+  const esc=value=>TN.escapeHtml?TN.escapeHtml(String(value??'')):String(value??'');
+  const text=value=>String(value??'').trim();
+  const norm=value=>text(value).toLocaleLowerCase('da-DK').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim();
+  const eventDate=event=>text(event?.start||event?.date).slice(0,10);
+  const eventKey=(api,event)=>api.eventIdentity?.(event)||`${event?.uid||event?.id||event?.summary||''}::${event?.recurrenceId||''}::${event?.start||event?.date||''}`;
+  const eventLabel=event=>{const date=eventDate(event),time=text(event?.start).match(/T(\d{2}):(\d{2})/),when=date?new Date(`${date}T12:00:00`).toLocaleDateString('da-DK',{weekday:'short',day:'numeric',month:'short',year:'numeric'}):'Uden dato';return `${when}${time?` · ${time[1]}.${time[2]}`:''} · ${event?.summary||'Uden titel'}`;};
+  const isCalendarDataset=dataset=>dataset?.type==='calendar'||!!dataset?.meta?.calendarVersion||!!dataset?.meta?.sourceFormat||/calendar|ics/i.test(`${dataset?.type||''} ${dataset?.name||''}`);
+
+  App.prototype.openCourseCalendarReuse=async function(courseInput=null){
+    const courses=await this.courseManager.listCourses(),course=courseInput||courses.find(item=>item.sessionIds.includes(String(TN.runtime.activeSession?.id||'')))||courses[0];
+    if(!course){this.toast('Der findes ikke et undervisningsforløb at genbruge');return;}
+    const datasets=(await this.dataManager.listAvailable(TN.runtime.activeSession?.id)).filter(isCalendarDataset);
+    if(!datasets.length){this.toast('Importér eller opret kalenderdata først');return;}
+    const boardLists=await Promise.all(course.sessions.map(session=>this.storage.getAllByIndex('boards','sessionId',session.id)));
+    const api=TN.CalendarDataViewsFilters||{};
+    const now=new Date(),suggestedYear=`${now.getFullYear()}–${String(now.getFullYear()+1).slice(-2)}`;
+    const body=document.createElement('div');body.className='tn-course-reuse';
+    body.innerHTML=`<div class="tn-course-reuse-intro"><b>Genbrug ${esc(course.title)}</b><br>Sessionerne står i deres gemte rækkefølge. Kalenderen filtreres til højre. <b>Match automatisk</b> kobler første session til første viste kalenderaktivitet, anden til anden osv. Det gamle forløb ændres ikke.</div>
+      <div class="tn-course-reuse-controls">
+        <label><span>Titel på den nye kopi</span><input data-title value="${esc(course.title.replace(/20\d{2}\s*[–-]\s*\d{2,4}/,suggestedYear))}"></label>
+        <label><span>Nyt skoleår</span><input data-year value="${esc(suggestedYear)}"></label>
+        <label><span>Kalenderdata</span><select data-dataset>${datasets.map(item=>`<option value="${esc(item.id)}">${esc(item.name||'Kalenderdata')}</option>`).join('')}</select></label>
+        <label><span>Filter</span><input data-filter value="${esc(course.subject||'')}" placeholder="fx Dansk"></label>
+      </div>
+      <div class="tn-course-reuse-toolbar"><button type="button" class="primary" data-auto>Match automatisk</button><button type="button" data-clear>Nulstil match</button><small data-count></small></div>
+      <div class="tn-course-reuse-head"><span>Sessioner og tavler</span><span>→</span><span>Filtrerede kalenderaktiviteter</span></div>
+      <div class="tn-course-reuse-list" data-list></div>`;
+    const datasetSelect=body.querySelector('[data-dataset]'),filterInput=body.querySelector('[data-filter]'),list=body.querySelector('[data-list]'),count=body.querySelector('[data-count]');
+    let events=[],matches=new Map();
+    const loadEvents=async()=>{const dataset=await this.dataManager.get(datasetSelect.value),raw=api.datasetEvents?.(dataset)||[],q=norm(filterInput.value);events=raw.filter(event=>{if(!eventDate(event))return false;if(!q)return true;return norm(`${event.summary||''} ${event.description||''} ${event.location||''} ${(event.categories||[]).join?.(' ')||''}`).includes(q);}).sort((a,b)=>String(a.start||a.date||'').localeCompare(String(b.start||b.date||''))||String(a.summary||'').localeCompare(String(b.summary||''),'da'));paint();};
+    const boardDate=board=>{const meta=board?.meta||{},values=[meta.plannedDate,meta.sessionDate,meta.date,meta.startDate,meta.start,board?.plannedDate,board?.sessionDate,board?.date,board?.startDate,board?.start];for(const value of values){const match=String(value||'').match(/(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})/);if(match)return `${match[1]}-${String(match[2]).padStart(2,'0')}-${String(match[3]).padStart(2,'0')}`;}const title=String(board?.title||'');const iso=title.match(/(20\d{2})[-/.](\d{1,2})[-/.](\d{1,2})/);if(iso)return `${iso[1]}-${String(iso[2]).padStart(2,'0')}-${String(iso[3]).padStart(2,'0')}`;const dk=title.match(/(?:^|\D)(\d{1,2})[./-](\d{1,2})[./-](20\d{2})(?:\D|$)/);if(dk)return `${dk[3]}-${String(dk[2]).padStart(2,'0')}-${String(dk[1]).padStart(2,'0')}`;return '';};
+    const eventTimeValue=event=>{const value=eventDate(event);const time=new Date(value||event?.start||event?.dtstart||0).getTime();return Number.isFinite(time)?time:0;};
+    const formatCutoff=event=>{const time=eventTimeValue(event);return time?new Intl.DateTimeFormat('da-DK',{day:'numeric',month:'short',year:'numeric'}).format(new Date(time)):'';};
+    const paint=()=>{list.replaceChildren();const firstSession=course.sessions[0],firstKey=firstSession?matches.get(String(firstSession.id)):null,firstEvent=firstKey?events.find(event=>eventKey(api,event)===firstKey):null,cutoffLabel=firstEvent?formatCutoff(firstEvent):'';count.innerHTML=`${course.sessions.length} sessioner · ${events.length} kalenderaktiviteter · ${matches.size} matchet${cutoffLabel?` · <span class="tn-course-reuse-cutoff">fra ${esc(cutoffLabel)}</span>`:''}`;if(!course.sessions.length){list.innerHTML='<div class="tn-course-reuse-empty">Forløbet har ingen sessioner.</div>';return;}course.sessions.forEach((session,index)=>{const row=document.createElement('div');row.className='tn-course-reuse-row';const boards=[...(boardLists[index]||[])].sort((a,b)=>Number(a.order||0)-Number(b.order||0)),firstBoard=boards[0],boardCount=boards.length,datedCount=new Set(boards.map(boardDate).filter(Boolean)).size,boardLabel=`${boardCount} ${boardCount===1?'tavle':'tavler'}`,datedLabel=datedCount>1?`${datedCount} daterede gange`:'';const selectedKey=matches.get(String(session.id))||'';row.innerHTML=`<div class="tn-course-reuse-side"><div class="tn-course-reuse-session-head"><strong>${index+1}. ${esc(session.title||'Session')}</strong><span class="tn-course-reuse-count-badge">${esc(boardLabel)}</span></div><div class="tn-course-reuse-session-meta"><small>${esc(firstBoard?.title||'Ingen tavle')}</small>${datedLabel?`<small class="tn-course-reuse-dated">${esc(datedLabel)}</small>`:''}</div></div><div class="tn-course-reuse-arrow">→</div><div class="tn-course-reuse-side tn-course-reuse-event"><select data-session="${esc(session.id)}"><option value="">— ingen dato —</option>${events.map(event=>`<option value="${esc(eventKey(api,event))}" ${eventKey(api,event)===selectedKey?'selected':''}>${esc(eventLabel(event))}</option>`).join('')}</select><em data-detail>${selectedKey?esc(events.find(event=>eventKey(api,event)===selectedKey)?.location||''):''}</em><button type="button" class="tn-course-reuse-remove" title="Fjern dette match" aria-label="Fjern dette match" ${selectedKey?'':'hidden'}>×</button></div>`;const select=row.querySelector('select'),remove=row.querySelector('.tn-course-reuse-remove');select.onchange=()=>{select.value?matches.set(String(session.id),select.value):matches.delete(String(session.id));paint();};remove.onclick=()=>{matches.delete(String(session.id));paint();};list.append(row);});};
+    body.querySelector('[data-auto]').onclick=()=>{const firstSession=course.sessions[0];if(!firstSession)return;const firstId=String(firstSession.id),firstKey=matches.get(firstId),firstEvent=firstKey?events.find(event=>eventKey(api,event)===firstKey):null;if(!firstEvent){this.toast('Vælg først en startdato til den øverste session');return;}const cutoff=eventTimeValue(firstEvent),available=events.filter(event=>eventTimeValue(event)>=cutoff),anchorIndex=available.findIndex(event=>eventKey(api,event)===firstKey),nextMatches=new Map([[firstId,firstKey]]);let eventIndex=Math.max(0,anchorIndex+1);for(let sessionIndex=1;sessionIndex<course.sessions.length;sessionIndex++){const event=available[eventIndex++];if(event)nextMatches.set(String(course.sessions[sessionIndex].id),eventKey(api,event));}matches=nextMatches;paint();};
+    body.querySelector('[data-clear]').onclick=()=>{matches.clear();paint();};
+    datasetSelect.onchange=()=>{matches.clear();loadEvents();};filterInput.oninput=TN.debounce(()=>{matches.clear();loadEvents();},160);
+    await loadEvents();
+    this.modalManager.open({title:'Genbrug forløb med ny kalender',body,className:'tn-modal-wide',actions:[{label:'Annuller',run:()=>{}},{label:'Opret ny kopi',primary:true,run:async()=>{
+      const title=body.querySelector('[data-title]').value.trim(),schoolYear=body.querySelector('[data-year]').value.trim();if(!title){this.toast('Skriv en titel på den nye kopi');return false;}if(!matches.size){this.toast('Match mindst én session eller vælg Match automatisk');return false;}
+      const payload=await this.backupManager.exportNext(course.sessionIds,{includeMedia:true,kind:'course-reuse'}),result=await this.backupManager.importNext(payload,{conflict:'copy',sourceName:`Genbrug af ${course.title}`});
+      const newIds=result.sessionIds||[],newCourseId=`course_reuse_${Date.now().toString(36)}`,calendarDatasetId=datasetSelect.value,eventByKey=new Map(events.map(event=>[eventKey(api,event),event]));
+      const updates=[];for(let index=0;index<newIds.length;index++){const session=await this.sessionManager.get(newIds[index]),source=course.sessions[index];if(!session)continue;const matchedKey=matches.get(String(source?.id||'')),event=eventByKey.get(matchedKey);session.title=source?.title||session.title;session.meta={...(session.meta||{}),courseId:newCourseId,courseTitle:title,courseSubject:course.subject||'',courseSchoolYear:schoolYear,courseOrder:index+1,courseSessionIds:[...newIds],courseSequenceVersion:this.courseManager.sequenceVersion,courseSequenceSource:'calendar-reuse',reusedFromCourseId:course.id||course.key||'',reusedFromSessionId:source?.id||'',plannedDate:eventDate(event)||'',calendarDatasetId:event?calendarDatasetId:'',calendarEventKey:event?matchedKey:'',calendarEventTitle:event?.summary||''};session.updatedAt=TN.now();updates.push(session);}
+      if(updates.length)await this.storage.bulkPut('sessions',updates);updates.forEach(session=>this.sessionManager.updateRegistry(session.id,session.title));this.modalManager.closeAll();this.toast(`${title} oprettet · ${matches.size} sessioner matchet`);if(newIds[0])await this.openSession(newIds[0]);return false;
+    }}]});
+  };
+
+  const original=App.prototype.renderCourseCenter;
+  if(original)App.prototype.renderCourseCenter=async function(container,rerender){await original.call(this,container,rerender);const tools=container.querySelector('.tn-center-actions');if(tools&&!tools.querySelector('[data-course-reuse]')){const button=document.createElement('button');button.type='button';button.dataset.courseReuse='1';button.textContent='↻ Genbrug med ny kalender';button.onclick=async()=>{const course=await this.courseManager.resolve();this.openCourseCalendarReuse(course);};tools.append(button);}};
+
+  const originalHelp=App.prototype.registerHelp;
+  if(originalHelp)App.prototype.registerHelp=function(...args){const result=originalHelp.apply(this,args);try{this.helpRegistry.set?.('course-reuse',{title:'Genbrug et forløb med ny kalender',summary:'Match sessioner i rækkefølge med filtrerede kalenderaktiviteter',body:'<p>Åbn <b>Datacenter → Årsforløb</b> og vælg <b>Genbrug med ny kalender</b>. Vælg kalenderdata og skriv et filter, fx Dansk. Plan viser sessionerne, antal tavler og den første tavle til venstre og kun de filtrerede kalenderaktiviteter til højre. Vælg først en dato til den øverste session; den bruges som skæringsdato, når Match automatisk fordeler resten. Vælg først datoen for den øverste session. Den bliver skæringsdato, og <b>Match automatisk</b> bruger kun aktiviteter fra denne dato og frem. Et forkert match kan fjernes med × på den enkelte række. Gem som en ny lokal kopi; det gamle forløb ændres ikke.</p>'});}catch{}return result;};
+})(window.TavleNext);
+</script>
+
 </body>
 </html>
